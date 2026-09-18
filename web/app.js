@@ -3898,6 +3898,8 @@
 
 
         renderCompendiumDetail();
+
+        renderMobileCompendiumInline();
     }
 
 
@@ -4006,6 +4008,63 @@
                 </div>
             </details>
         `;
+    }
+
+
+    // ========================================================
+    // Mobile Compendium
+    //
+    // Desktop keeps the persistent detail panel. On phones we copy
+    // that already-rendered content directly below the active item,
+    // producing an accordion-like reading flow without duplicating
+    // any PvP rendering logic.
+    // ========================================================
+
+    function renderMobileCompendiumInline() {
+
+        $$(".mobile-compendium-inline")
+            .forEach(
+                element =>
+                    element.remove()
+            );
+
+        if (
+            !window.matchMedia(
+                "(max-width: 700px)"
+            ).matches
+        ) {
+            return;
+        }
+
+        const active =
+            $("#compendiumList .compendium-item.active");
+
+        const detail =
+            $("#compendiumDetail");
+
+        if (
+            !active
+            || !detail
+            || !detail.innerHTML.trim()
+        ) {
+            return;
+        }
+
+        const inline =
+            document.createElement(
+                "div"
+            );
+
+        inline.className =
+            "mobile-compendium-inline";
+
+        inline.innerHTML =
+            detail.innerHTML;
+
+        active.insertAdjacentElement(
+            "afterend",
+            inline
+        );
     }
 
 
@@ -4119,6 +4178,8 @@
                 ) {
                     renderTrees();
                 }
+
+                renderMobileCompendiumInline();
 
             }
         );
