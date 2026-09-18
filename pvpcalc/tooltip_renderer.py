@@ -227,6 +227,11 @@ _SP_MOD_RE = re.compile(
     re.I,
 )
 
+_VISIBLE_SP_RE = re.compile(
+    r"\(([+-]?\d+(?:\.\d+)?)%\s+of\s+Spell\s+Power\)",
+    re.I,
+)
+
 
 def semantic_transform(
     effect_row,
@@ -243,6 +248,21 @@ def semantic_transform(
         effect_row.get(
             "effect_text",
             ""
+        )
+    )
+
+    source_text = _clean(
+        " ".join(
+            [
+                effect_text,
+                str(
+                    effect_row.get(
+                        "wowhead_raw",
+                        "",
+                    )
+                    or ""
+                ),
+            ]
         )
     )
 
@@ -285,7 +305,7 @@ def semantic_transform(
     # --------------------------------------------------------
 
     sp_match = _SP_MOD_RE.search(
-        effect_text
+        source_text
     )
 
     if (
@@ -297,18 +317,96 @@ def semantic_transform(
             sp_match.group(1)
         )
 
+        old_value = (
+            pve_coeff
+            * 100.0
+        )
+
+        # Periodic effects are often stored as a PER-TICK SP
+        # coefficient while the player tooltip shows the TOTAL over
+        # the channel/DoT duration. When the per-tick coefficient is
+        # not visible, accept a tooltip coefficient only if it is a
+        # unique near-integer multiple of the datamined coefficient.
+        #
+        # Holy Fire:
+        #   14.13% per tick × 7 = 98.91% shown
+        #
+        # Void Torrent:
+        #   237.685% per tick × 3 = 713.055% shown
+        if (
+            "periodic" in source_text.casefold()
+            and old_value > 0
+        ):
+
+            visible_values = [
+                float(match.group(1))
+                for match in _VISIBLE_SP_RE.finditer(
+                    selected_tooltip
+                )
+            ]
+
+            exact_visible = [
+                value
+                for value in visible_values
+                if abs(
+                    value
+                    - old_value
+                ) <= 1e-6
+            ]
+
+            if not exact_visible:
+
+                aggregate_candidates = []
+
+                for value in visible_values:
+
+                    ratio = (
+                        value
+                        / old_value
+                    )
+
+                    nearest = round(
+                        ratio
+                    )
+
+                    if (
+                        nearest >= 2
+                        and nearest <= 120
+                        and abs(
+                            ratio
+                            - nearest
+                        ) <= 1e-6
+                    ):
+                        aggregate_candidates.append(
+                            value
+                        )
+
+                unique_candidates = sorted(
+                    set(
+                        aggregate_candidates
+                    )
+                )
+
+                if len(
+                    unique_candidates
+                ) == 1:
+                    old_value = (
+                        unique_candidates[
+                            0
+                        ]
+                    )
+
         return {
             "kind":
                 "spell_power_coefficient",
 
             "old":
-                pve_coeff * 100.0,
+                old_value,
 
             "new":
                 (
-                    pve_coeff
+                    old_value
                     * multiplier
-                    * 100.0
                 ),
 
             "unit":
@@ -738,6 +836,16 @@ def render_pvp_tooltip(
 
                 "effect_index":
                     effect_index,
+
+                "match_ordinal":
+                    effect_row.get(
+                        "same_value_text_ordinal"
+                    ),
+
+                "match_group_count":
+                    effect_row.get(
+                        "same_value_text_count"
+                    ),
             }
         )
 
@@ -949,6 +1057,81 @@ def render_pvp_tooltip(
 
 
         if len(matches) > 1:
+
+            # A single modified effect can still map deterministically
+            # when its source ordinal identifies one occurrence among
+            # repeated equal-value sibling effects.
+            match_ordinal = (
+                transform.get(
+                    "match_ordinal"
+                )
+            )
+
+            match_group_count = (
+                transform.get(
+                    "match_group_count"
+                )
+            )
+
+            if (
+                match_ordinal is not None
+                and match_group_count
+                == len(matches)
+                and 1
+                <= int(match_ordinal)
+                <= len(matches)
+            ):
+
+                match = matches[
+                    int(
+                        match_ordinal
+                    )
+                    - 1
+                ]
+
+                old_token = (
+                    match.group(1)
+                )
+
+                new_token = (
+                    _format_new_value(
+                        transform[
+                            "new"
+                        ],
+                        kind=transform[
+                            "kind"
+                        ],
+                        old_token=old_token,
+                    )
+                )
+
+                replacements.append(
+                    {
+                        "start":
+                            match.start(1),
+
+                        "end":
+                            match.end(1),
+
+                        "old_token":
+                            old_token,
+
+                        "new_token":
+                            new_token,
+
+                        "kind":
+                            transform[
+                                "kind"
+                            ],
+
+                        "effect_indexes":
+                            transform[
+                                "effect_indexes"
+                            ],
+                    }
+                )
+
+                continue
 
             # If N independent effects collapse to the exact same
             # PvE -> PvP transform and that value occurs exactly N
