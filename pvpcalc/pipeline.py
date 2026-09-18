@@ -506,6 +506,50 @@ def _build_effect_rows(
                     wh.effect_text
                 ),
 
+                # Preserve exact source text for semantic rendering.
+                # Some Wowhead effect types keep SP coefficients in
+                # metadata (e.g. Periodic Damage) rather than in the
+                # short effect_text field.
+                "wowhead_raw": (
+                    wh.raw
+                ),
+
+                # Deterministic occurrence mapping for effects which
+                # intentionally repeat the same player-facing number.
+                # Example: Voice of Harmony has three Dummy effects
+                # with Value 4; effect #3 modifies the third visible
+                # "4 sec" occurrence only.
+                "same_value_text_ordinal": (
+                    [
+                        other
+                        for other in wh_effects
+                        if (
+                            other.base_value
+                            == wh.base_value
+                            and other.effect_text
+                            == wh.effect_text
+                        )
+                    ].index(wh)
+                    + 1
+                    if wh.base_value is not None
+                    else None
+                ),
+
+                "same_value_text_count": (
+                    sum(
+                        1
+                        for other in wh_effects
+                        if (
+                            other.base_value
+                            == wh.base_value
+                            and other.effect_text
+                            == wh.effect_text
+                        )
+                    )
+                    if wh.base_value is not None
+                    else None
+                ),
+
                 # Numeric state
                 "base_value": (
                     wh.base_value
