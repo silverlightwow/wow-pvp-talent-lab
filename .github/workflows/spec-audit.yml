@@ -12,7 +12,7 @@ on:
       class_name:
         description: "Class to audit, or ALL"
         required: false
-        default: "ALL"
+        default: "Priest"
 
 permissions:
   contents: read
@@ -44,7 +44,7 @@ jobs:
 
       - name: Audit class specs
         env:
-          AUDIT_CLASS: ${{ inputs.class_name || 'ALL' }}
+          AUDIT_CLASS: ${{ github.event_name == 'workflow_dispatch' && inputs.class_name || 'Priest' }}
         run: |
           if [ "$AUDIT_CLASS" = "ALL" ]; then
             python scripts/audit_all_specs.py \
