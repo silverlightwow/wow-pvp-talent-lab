@@ -5,6 +5,15 @@ from tenacity import retry, stop_after_attempt, wait_exponential
 
 UA = "WoWPvPTalentLab/0.1 (+research; contact: local-user)"
 
+# Process-wide cache. A class-wide multi-spec audit reuses many of the
+# same class-tree and Wowhead spell URLs. Keeping the cache shared across
+# short-lived CachedClient instances avoids refetching identical pages,
+# dramatically reduces source load, and prevents self-inflicted rate
+# limiting. It is intentionally process-local: scheduled jobs always
+# begin from a clean network state.
+_PROCESS_CACHE: dict[str, str] = {}
+
+
 class CachedClient:
     """Small polite async client. One process cache + bounded concurrency."""
     def __init__(self, concurrency: int = 4, timeout: float = 20.0):
@@ -15,7 +24,7 @@ class CachedClient:
             http2=True,
         )
         self._sem = asyncio.Semaphore(concurrency)
-        self._cache: dict[str, str] = {}
+        self._cache = _PROCESS_CACHE
 
     @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=.5, min=.5, max=4))
     async def get_text(self, url: str) -> str:
