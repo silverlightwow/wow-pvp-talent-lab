@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "source.part.*"
+      - source_only.zip
   workflow_dispatch:
 
 permissions:
@@ -17,12 +17,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Reassemble and expand verified project snapshot
+      - name: Validate and expand verified project snapshot
         run: |
-          cat source.part.* > source_only.zip
           unzip -t source_only.zip
           unzip -o source_only.zip
-          rm -f source_only.zip source.part.*
+          rm -f source_only.zip
           rm -f .github/workflows/bootstrap.yml
 
       - name: Commit imported project
