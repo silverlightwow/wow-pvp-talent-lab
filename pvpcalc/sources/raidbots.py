@@ -326,6 +326,40 @@ async def fetch_live_snapshot(
     return metadata, talents
 
 
+def discover_specs(
+    talents: list[dict],
+) -> list[dict]:
+    """Return the current playable class/spec matrix from Raidbots."""
+
+    result = []
+
+    for tree in talents:
+        class_name = tree.get("className")
+        spec_name = tree.get("specName")
+
+        if not class_name or not spec_name:
+            continue
+
+        result.append(
+            {
+                "class_name": str(class_name),
+                "class_id": tree.get("classId"),
+                "spec_name": str(spec_name),
+                "spec_id": tree.get("specId"),
+                "trait_tree_id": tree.get("traitTreeId"),
+            }
+        )
+
+    result.sort(
+        key=lambda item: (
+            item["class_name"],
+            item["spec_name"],
+        )
+    )
+
+    return result
+
+
 async def fetch_spec_tree(
     client: CachedClient,
     *,
@@ -336,6 +370,14 @@ async def fetch_spec_tree(
     metadata, talents = (
         await fetch_live_snapshot(client)
     )
+
+    metadata = dict(metadata)
+    metadata["classSpecNames"] = [
+        item["spec_name"]
+        for item in discover_specs(talents)
+        if item["class_name"].casefold()
+        == class_name.casefold()
+    ]
 
     rows = normalize_spec_tree(
         talents,
