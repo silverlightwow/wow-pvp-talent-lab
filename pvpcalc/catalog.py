@@ -509,6 +509,11 @@ async def build_spec_catalog(
 
                 effect_rows=
                     render_rows,
+
+                spec_names=
+                    audit.metadata.get(
+                        "classSpecNames"
+                    ),
             )
         )
 
