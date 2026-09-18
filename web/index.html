@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <title>WoW PvP Talent Lab</title>
+
+    <meta name="theme-color" content="#10131a">
+    <meta name="description" content="PvP-aware World of Warcraft talent calculator with verified player-facing values.">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="app-icon.svg" type="image/svg+xml">
+
+    <link
+        rel="stylesheet"
+        href="styles.css"
+    >
+</head>
+
+<body>
+
+<div id="app">
+
+    <header class="topbar">
+
+        <div class="brand">
+            <div class="brand-mark">P</div>
+
+            <div>
+                <div class="brand-title">
+                    WoW PvP Talent Lab
+                </div>
+
+                <div class="brand-subtitle">
+                    Player-facing PvP talent data
+                </div>
+            </div>
+        </div>
+
+
+        <div class="top-controls">
+
+            <label class="select-wrap">
+                <span>Class</span>
+
+                <select id="classSelect">
+                    <option>Priest</option>
+                </select>
+            </label>
+
+
+            <label class="select-wrap">
+                <span>Specialization</span>
+
+                <select id="specSelect">
+                    <option>Discipline</option>
+                </select>
+            </label>
+
+
+            <label class="mode-toggle">
+                <span class="mode-label pve">
+                    PvE
+                </span>
+
+                <input
+                    id="pvpToggle"
+                    type="checkbox"
+                    checked
+                >
+
+                <span class="switch">
+                    <span class="switch-thumb"></span>
+                </span>
+
+                <span class="mode-label pvp">
+                    PvP
+                </span>
+            </label>
+
+        </div>
+
+    </header>
+
+
+    <div class="build-strip">
+
+        <div>
+            <span class="status-dot"></span>
+
+            <strong>
+                Verified current dataset
+            </strong>
+        </div>
+
+        <div
+            id="buildInfo"
+            class="build-info"
+        ></div>
+
+    </div>
+
+
+    <nav class="tabs">
+
+        <button
+            class="tab active"
+            data-tab="tree"
+        >
+            Talent Tree
+        </button>
+
+        <button
+            class="tab"
+            data-tab="compare"
+        >
+            PvE vs PvP
+
+            <span
+                id="changedBadge"
+                class="tab-badge"
+            ></span>
+        </button>
+
+        <button
+            class="tab"
+            data-tab="compendium"
+        >
+            Discipline Compendium
+
+            <span
+                id="mechanicsBadge"
+                class="tab-badge muted"
+            ></span>
+        </button>
+
+    </nav>
+
+
+    <main>
+
+        <!-- ================================================= -->
+        <!-- TALENT TREE                                       -->
+        <!-- ================================================= -->
+
+        <section
+            id="treePanel"
+            class="tab-panel active"
+        >
+
+            <div class="section-heading">
+
+                <div>
+                    <h1>
+                        Discipline Priest
+                    </h1>
+
+                    <p>
+                        Build a talent setup and inspect
+                        player-facing PvP values directly
+                        in the tree.
+                    </p>
+                </div>
+
+
+                <div class="tree-actions">
+
+                    <label class="hero-control">
+                        <span>Hero tree</span>
+
+                        <select id="heroSelect"></select>
+                    </label>
+
+
+                    <button
+                        id="resetTree"
+                        class="secondary-button"
+                    >
+                        Reset build
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="legend">
+
+                <span>
+                    <i class="legend-node selected"></i>
+                    Selected
+                </span>
+
+                <span>
+                    <i class="legend-node modified"></i>
+                    PvP tooltip differs
+                </span>
+
+                <span>
+                    <i class="legend-node choice"></i>
+                    Choice node
+                </span>
+
+                <span class="tree-help">
+                    Left click: add / choose ·
+                    Right click: remove
+                </span>
+
+            </div>
+
+
+            <div class="points-row">
+
+                <div>
+                    Class points:
+                    <strong id="classPoints">
+                        0
+                    </strong>
+                </div>
+
+                <div>
+                    Spec points:
+                    <strong id="specPoints">
+                        0
+                    </strong>
+                </div>
+
+                <div>
+                    Hero points:
+                    <strong id="heroPoints">
+                        0
+                    </strong>
+                </div>
+
+                <div
+                    id="treeMessage"
+                    class="tree-message"
+                ></div>
+
+            </div>
+
+
+            <div class="tree-grid">
+
+                <article class="tree-card class-card">
+
+                    <header>
+                        <div>
+                            <span class="eyebrow">
+                                CLASS TREE
+                            </span>
+
+                            <h2>
+                                Priest
+                            </h2>
+                        </div>
+                    </header>
+
+                    <div class="tree-scroll">
+
+
+                        <div
+
+
+                            id="classTree"
+
+
+                            class="tree-canvas"
+
+
+                        ></div>
+
+
+                    </div>
+
+                </article>
+
+
+                <article class="tree-card hero-card">
+
+                    <header>
+                        <div>
+                            <span class="eyebrow">
+                                HERO TREE
+                            </span>
+
+                            <h2 id="heroTreeTitle">
+                                Voidweaver
+                            </h2>
+                        </div>
+                    </header>
+
+                    <div class="tree-scroll">
+
+
+                        <div
+
+
+                            id="heroTree"
+
+
+                            class="tree-canvas"
+
+
+                        ></div>
+
+
+                    </div>
+
+                </article>
+
+
+                <article class="tree-card spec-card">
+
+                    <header>
+                        <div>
+                            <span class="eyebrow">
+                                SPECIALIZATION
+                            </span>
+
+                            <h2>
+                                Discipline
+                            </h2>
+                        </div>
+                    </header>
+
+                    <div class="tree-scroll">
+
+
+                        <div
+
+
+                            id="specTree"
+
+
+                            class="tree-canvas"
+
+
+                        ></div>
+
+
+                    </div>
+
+                </article>
+            </div>
+
+        </section>
+
+
+        <!-- ================================================= -->
+        <!-- PVE VS PVP                                        -->
+        <!-- ================================================= -->
+
+        <section
+            id="comparePanel"
+            class="tab-panel"
+        >
+
+            <div class="section-heading">
+
+                <div>
+                    <h1>
+                        PvE vs PvP
+                    </h1>
+
+                    <p>
+                        Only talents whose player-facing
+                        tooltip actually changes in PvP.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="filter-bar">
+
+                <input
+                    id="compareSearch"
+                    class="search"
+                    type="search"
+                    placeholder="Search talent..."
+                >
+
+                <select id="compareTreeFilter">
+                    <option value="all">
+                        All trees
+                    </option>
+
+                    <option value="class">
+                        Class
+                    </option>
+
+                    <option value="spec">
+                        Discipline
+                    </option>
+
+                    <option value="hero">
+                        Hero
+                    </option>
+                </select>
+
+                <div
+                    id="compareCount"
+                    class="result-count"
+                ></div>
+
+            </div>
+
+
+            <div class="table-shell">
+
+                <table class="comparison-table">
+
+                    <thead>
+                        <tr>
+                            <th>Talent</th>
+                            <th>Tree</th>
+                            <th>Changed values</th>
+                            <th>Tooltip comparison</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="compareBody"></tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================================= -->
+        <!-- COMPENDIUM                                        -->
+        <!-- ================================================= -->
+
+        <section
+            id="compendiumPanel"
+            class="tab-panel"
+        >
+
+            <div class="section-heading">
+
+                <div>
+                    <h1>
+                        Discipline Compendium
+                    </h1>
+
+                    <p>
+                        Spell-specific modifiers,
+                        specialization PvP Aura,
+                        runtime dependencies and final
+                        PvP output.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="compendium-layout">
+
+                <aside class="compendium-sidebar">
+
+                    <input
+                        id="compendiumSearch"
+                        class="search"
+                        type="search"
+                        placeholder="Search mechanics..."
+                    >
+
+                    <div
+                        id="compendiumList"
+                        class="compendium-list"
+                    ></div>
+
+                </aside>
+
+
+                <article
+                    id="compendiumDetail"
+                    class="compendium-detail"
+                ></article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <div
+        id="talentTooltip"
+        class="floating-tooltip"
+    ></div>
+
+</div>
+
+
+<script src="data/priest-discipline.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

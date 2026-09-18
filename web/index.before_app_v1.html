@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WoW PvP Talent Lab</title>
+<style>
+:root{font-family:Inter,system-ui,sans-serif;color:#e7e9ee;background:#0d1117}
+body{max-width:1100px;margin:0 auto;padding:28px}.top{display:flex;align-items:center;gap:18px}
+h1{margin:0}.pill{padding:5px 10px;border:1px solid #374151;border-radius:999px}
+.card{background:#151b23;border:1px solid #2b3440;border-radius:14px;padding:18px;margin-top:18px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:18px}.muted{color:#9ca3af}
+.effect{padding:12px 0;border-top:1px solid #29313d}.good{color:#6ee7a8}.warn{color:#f6c453}
+.big{font-size:26px;font-weight:700}.old{text-decoration:line-through;color:#7c8490}
+code{background:#0b0f14;padding:2px 5px;border-radius:5px}
+@media(max-width:700px){.row{grid-template-columns:1fr}}
+</style></head>
+<body>
+<div class="top"><h1>WoW PvP Talent Lab</h1><span class="pill">PvP mode ON</span><span class="pill">12.1.0 LIVE</span></div>
+<p class="muted">Effect-level PvP tooltips with source reconciliation. This static screen is the first verified fixture; the crawler generates the same JSON for every talent.</p>
+<div class="row">
+ <div class="card">
+  <div class="muted">Voidweaver · Priest · Hero talent</div>
+  <h2>Inner Quietus <span class="muted">#448278</span></h2>
+  <p>Power Word: Shield absorbs <span class="old">20%</span> <span class="big good">50%</span> additional damage.</p>
+  <p>Vampiric Touch and Shadow Word: Pain deal <b>20%</b> additional damage.</p>
+ </div>
+ <div class="card">
+  <h3>Why 50%?</h3>
+  <div class="effect"><b>Effect #2</b> · base 20% × PvP multiplier 2.5 = <b class="good">50%</b></div>
+  <div class="effect"><b>Wowhead</b> · Effect #2 <code>PVP Multiplier: 2.5</code></div>
+  <div class="effect"><b>Drustvar</b> · current effect effectiveness <code>250%</code></div>
+  <div class="effect"><b>Warcraft Wiki</b> · patch/hotfix history independently explains the 40% → ×1.25 = 50% result</div>
+  <div class="effect good"><b>Confidence: VERIFIED</b> · 3 independent surfaces agree</div>
+ </div>
+</div>
+<div class="card">
+<h3>Safety rule</h3>
+<p>We never multiply an entire spell by one PvP coefficient. PvP modifiers are attached to <b>effects</b>. Inner Quietus itself demonstrates why: its DoT effects remain ×1 while its shield effect is ×2.5.</p>
+</div>
+</body></html>

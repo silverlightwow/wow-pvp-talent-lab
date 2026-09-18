@@ -1,0 +1,36 @@
+{
+  "build": "12.1.0",
+  "spell_id": 448278,
+  "name": "Inner Quietus",
+  "base_tooltip": {
+    "discipline": "Power Word: Shield absorbs 20% additional damage.",
+    "shadow": "Vampiric Touch and Shadow Word: Pain deal 20% additional damage."
+  },
+  "effects": [
+    {
+      "index": 1,
+      "base_percent": 20,
+      "pvp_multiplier": 1.0,
+      "pvp_percent": 20,
+      "semantic": "periodic damage"
+    },
+    {
+      "index": 2,
+      "base_percent": 20,
+      "pvp_multiplier": 2.5,
+      "pvp_percent": 50,
+      "semantic": "Power Word: Shield"
+    },
+    {
+      "index": 3,
+      "base_percent": 20,
+      "pvp_multiplier": 1.0,
+      "pvp_percent": 20,
+      "semantic": "damage/healing done"
+    }
+  ],
+  "expected_pvp_tooltip": {
+    "discipline": "Power Word: Shield absorbs 50% additional damage.",
+    "shadow": "Vampiric Touch and Shadow Word: Pain deal 20% additional damage."
+  }
+}

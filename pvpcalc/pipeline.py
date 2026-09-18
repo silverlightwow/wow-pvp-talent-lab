@@ -1,0 +1,2120 @@
+from __future__ import annotations
+
+import asyncio
+from dataclasses import dataclass, field
+from typing import Any
+
+from .http import CachedClient
+from .reconcile import (
+    multipliers_close,
+    reconcile,
+    resolve_effect_matches,
+)
+
+from .sources import (
+    drustvar,
+    raidbots,
+    simc,
+    wiki,
+    wowhead,
+)
+
+from . import validator
+from . import pvp_aura
+
+
+@dataclass
+class SpecAuditResult:
+    class_name: str
+    spec_name: str
+
+    metadata: dict
+    drustvar_builds: list[str]
+
+    talents: list[dict]
+    spell_ids: list[int]
+
+    wowhead_by_spell: dict[int, list]
+    drustvar_by_spell: dict[int, list]
+
+    wowhead_candidate_ids: set[int]
+    drustvar_candidate_ids: set[int]
+    candidate_ids: set[int]
+
+    effect_rows: list[dict]
+
+    wiki_by_spell: dict[int, Any] = field(
+        default_factory=dict
+    )
+
+    fetch_errors: list[dict] = field(
+        default_factory=list
+    )
+
+    unresolved_rows: list[dict] = field(
+        default_factory=list
+    )
+
+    # --------------------------------------------------------
+    # Integrated PvP layers
+    # --------------------------------------------------------
+
+    simc_build: str | None = None
+
+    dependencies: list[Any] = field(
+        default_factory=list
+    )
+
+    dependency_effect_rows: list[dict] = field(
+        default_factory=list
+    )
+
+    dependency_wowhead_by_spell: dict[int, list] = field(
+        default_factory=dict
+    )
+
+    dependency_drustvar_by_spell: dict[int, list] = field(
+        default_factory=dict
+    )
+
+    pvp_aura_rules: list[Any] = field(
+        default_factory=list
+    )
+
+    aura_candidate_ids: set[int] = field(
+        default_factory=set
+    )
+
+    final_candidate_ids: set[int] = field(
+        default_factory=set
+    )
+
+    @property
+    def tree_build(self) -> str | None:
+        return self.metadata.get(
+            "wowBuild"
+        )
+
+    @property
+    def total_entries(self) -> int:
+        return len(self.talents)
+
+    @property
+    def unique_spells(self) -> int:
+        return len(self.spell_ids)
+
+    @property
+    def matched_drustvar_effects(self) -> int:
+        return sum(
+            row["drustvar_matched"]
+            for row in self.effect_rows
+        )
+
+    @property
+    def modified_effect_rows(self) -> list[dict]:
+        return [
+            row
+            for row in self.effect_rows
+            if row["is_pvp_modified"]
+        ]
+
+    @property
+    def all_effect_rows(self) -> list[dict]:
+        return (
+            list(self.effect_rows)
+            + list(
+                self.dependency_effect_rows
+            )
+        )
+
+    @property
+    def final_modified_effect_rows(
+        self,
+    ) -> list[dict]:
+        """
+        Effects changed after the COMPLETE PvP stack:
+
+            spell-specific PvP
+            × matching specialization PvP Aura
+        """
+
+        return [
+            row
+            for row in self.all_effect_rows
+            if row.get(
+                "is_final_pvp_modified",
+                False,
+            )
+        ]
+
+    @property
+    def render_effect_rows(
+        self,
+    ) -> list[dict]:
+        """
+        Conservative MAIN talent-tooltip universe.
+
+        Direct effects:
+            allowed.
+
+        Dependency effects:
+            only direct formula/value references are allowed.
+
+        Embedded spelldesc outputs remain available in the
+        audit/output layer but are not automatically substituted
+        into the parent talent tooltip.
+        """
+
+        def has_player_facing_change(
+            row: dict,
+        ) -> bool:
+            """
+            A coefficient can be PvP-modified while its actual
+            numeric value remains identical.
+
+            Example:
+                base 0 × PvP 0.5 = 0
+
+            Keep such rows in mechanics/Compendium, but do not
+            send them to the tooltip renderer.
+
+            base_value=None remains eligible because some real
+            player-facing values live in effect_text instead,
+            e.g. Heal (SP mod: 5.75).
+            """
+
+            if not row.get(
+                "is_final_pvp_modified",
+                False,
+            ):
+                return False
+
+
+            base = row.get(
+                "base_value"
+            )
+
+            final = row.get(
+                "final_pvp_value"
+            )
+
+
+            if (
+                base is not None
+                and final is not None
+                and abs(
+                    float(base)
+                    - float(final)
+                ) <= 1e-12
+            ):
+                return False
+
+
+            return True
+
+
+        result = [
+            row
+            for row in self.effect_rows
+            if has_player_facing_change(
+                row
+            )
+        ]
+
+        result.extend(
+            row
+            for row
+            in self.dependency_effect_rows
+            if (
+                has_player_facing_change(
+                    row
+                )
+                and row.get(
+                    "dependency_kind"
+                )
+                == "REFERENCED"
+            )
+        )
+
+        return result
+
+
+def _is_modified(
+    multiplier: float | None,
+) -> bool:
+
+    return (
+        multiplier is not None
+        and abs(multiplier - 1.0) > 1e-9
+    )
+
+
+def _group_drustvar(
+    observations: list,
+    valid_spell_ids: set[int],
+) -> dict[int, list]:
+
+    result = {}
+
+    for observation in observations:
+
+        spell_id = observation.spell_id
+
+        if spell_id not in valid_spell_ids:
+            continue
+
+        result.setdefault(
+            spell_id,
+            [],
+        ).append(observation)
+
+    return result
+
+
+async def _fetch_wowhead_all(
+    client: CachedClient,
+    spell_ids: list[int],
+) -> tuple[
+    dict[int, list],
+    list[dict],
+]:
+
+    async def fetch_one(
+        spell_id: int,
+    ):
+
+        try:
+
+            observations = (
+                await wowhead.fetch_spell(
+                    client,
+                    spell_id,
+                )
+            )
+
+            return (
+                spell_id,
+                observations,
+                None,
+            )
+
+        except Exception as exc:
+
+            return (
+                spell_id,
+                [],
+                (
+                    f"{type(exc).__name__}: "
+                    f"{exc}"
+                ),
+            )
+
+    results = await asyncio.gather(
+        *[
+            fetch_one(spell_id)
+            for spell_id in spell_ids
+        ]
+    )
+
+    by_spell = {}
+    errors = []
+
+    for (
+        spell_id,
+        observations,
+        error,
+    ) in results:
+
+        by_spell[
+            spell_id
+        ] = observations
+
+        if error is not None:
+
+            errors.append(
+                {
+                    "source": "wowhead",
+                    "spell_id": spell_id,
+                    "error": error,
+                }
+            )
+
+    return by_spell, errors
+
+
+def _build_effect_rows(
+    *,
+    candidate_ids: set[int],
+    talent_by_spell: dict[int, dict],
+    wowhead_by_spell: dict[int, list],
+    drustvar_by_spell: dict[int, list],
+) -> tuple[
+    list[dict],
+    list[dict],
+]:
+
+    rows = []
+    unresolved = []
+
+    for spell_id in sorted(
+        candidate_ids
+    ):
+
+        wh_effects = (
+            wowhead_by_spell.get(
+                spell_id,
+                [],
+            )
+        )
+
+        dr_effects = (
+            drustvar_by_spell.get(
+                spell_id,
+                [],
+            )
+        )
+
+        talent = talent_by_spell.get(
+            spell_id,
+            {},
+        )
+
+        # --------------------------------------------
+        # A source may know about the spell while the
+        # other parser has no effect representation.
+        # Preserve this instead of silently dropping it.
+        # --------------------------------------------
+
+        if not wh_effects:
+
+            for dr in dr_effects:
+
+                unresolved.append(
+                    {
+                        "spell_id": spell_id,
+                        "talent_name": (
+                            talent.get(
+                                "talent_name"
+                            )
+                        ),
+                        "side": "drustvar",
+                        "reason": (
+                            "NO_WOWHEAD_EFFECTS"
+                        ),
+                        "multiplier": (
+                            dr.pvp_multiplier
+                        ),
+                        "effect_text": (
+                            dr.effect_text
+                        ),
+                    }
+                )
+
+            continue
+
+        resolution = (
+            resolve_effect_matches(
+                wh_effects,
+                dr_effects,
+            )
+        )
+
+        reconciled = reconcile(
+            wh_effects,
+            dr_effects,
+        )
+
+        match_by_wh_index = {
+            match.wowhead.effect_index:
+                match
+            for match
+            in resolution["matches"]
+        }
+
+        reconciled_by_index = {
+            effect.effect_index:
+                effect
+            for effect in reconciled
+        }
+
+        # --------------------------------------------
+        # One row for every Wowhead effect.
+        #
+        # This means ×1 effects remain available for
+        # tooltip reconstruction, but consumers can
+        # filter is_pvp_modified.
+        # --------------------------------------------
+
+        for wh in wh_effects:
+
+            reconciled_effect = (
+                reconciled_by_index[
+                    wh.effect_index
+                ]
+            )
+
+            match = (
+                match_by_wh_index.get(
+                    wh.effect_index
+                )
+            )
+
+            row = {
+                # Talent graph identity
+                "class_name": (
+                    talent.get(
+                        "class_name"
+                    )
+                ),
+                "spec_name": (
+                    talent.get(
+                        "spec_name"
+                    )
+                ),
+                "tree_type": (
+                    talent.get(
+                        "tree_type"
+                    )
+                ),
+                "hero_tree": (
+                    talent.get(
+                        "hero_tree"
+                    )
+                ),
+                "node_id": (
+                    talent.get(
+                        "node_id"
+                    )
+                ),
+                "entry_id": (
+                    talent.get(
+                        "entry_id"
+                    )
+                ),
+
+                # Spell/effect identity
+                "talent_name": (
+                    talent.get(
+                        "talent_name"
+                    )
+                ),
+                "spell_id": spell_id,
+                "effect_index": (
+                    wh.effect_index
+                ),
+                "effect_text": (
+                    wh.effect_text
+                ),
+
+                # Numeric state
+                "base_value": (
+                    wh.base_value
+                ),
+                "pvp_multiplier": (
+                    reconciled_effect
+                    .pvp_multiplier
+                ),
+                "pvp_value": (
+                    reconciled_effect
+                    .pvp_value
+                ),
+
+                "is_pvp_modified":
+                    _is_modified(
+                        reconciled_effect
+                        .pvp_multiplier
+                    ),
+
+                # Provenance
+                "wowhead_present": True,
+                "drustvar_matched": (
+                    match is not None
+                ),
+
+                "sources": (
+                    reconciled_effect
+                    .sources
+                ),
+
+                "confidence": (
+                    reconciled_effect
+                    .confidence
+                ),
+
+                "conflicts": (
+                    reconciled_effect
+                    .conflicts
+                ),
+
+                # Resolver provenance
+                "match_reason": (
+                    match.reason
+                    if match
+                    else None
+                ),
+
+                "semantic_score": (
+                    match.semantic_score
+                    if match
+                    else None
+                ),
+
+                "wowhead_multiplier": (
+                    wh.pvp_multiplier
+                ),
+
+                "drustvar_multiplier": (
+                    match.drustvar
+                    .pvp_multiplier
+                    if match
+                    else None
+                ),
+
+                "multiplier_delta": (
+                    match.multiplier_delta
+                    if match
+                    else None
+                ),
+
+                "drustvar_effect_text": (
+                    match.drustvar
+                    .effect_text
+                    if match
+                    else None
+                ),
+            }
+
+            rows.append(row)
+
+        # --------------------------------------------
+        # Anything left on Drustvar is explicitly
+        # unresolved.
+        # --------------------------------------------
+
+        for dr in resolution[
+            "unmatched_drustvar"
+        ]:
+
+            unresolved.append(
+                {
+                    "spell_id": spell_id,
+                    "talent_name": (
+                        talent.get(
+                            "talent_name"
+                        )
+                    ),
+                    "side": "drustvar",
+                    "reason": (
+                        "UNMATCHED_DRUSTVAR_EFFECT"
+                    ),
+                    "multiplier": (
+                        dr.pvp_multiplier
+                    ),
+                    "effect_text": (
+                        dr.effect_text
+                    ),
+                }
+            )
+
+        # --------------------------------------------
+        # Only unmatched MODIFIED Wowhead effects are
+        # a PvP-resolution problem.
+        #
+        # Ordinary ×1 effects normally have no
+        # corresponding Drustvar row.
+        # --------------------------------------------
+
+        matched_wh_indices = {
+            match.wowhead.effect_index
+            for match
+            in resolution["matches"]
+        }
+
+        for wh in resolution[
+            "unmatched_wowhead"
+        ]:
+
+            if not _is_modified(
+                wh.pvp_multiplier
+            ):
+                continue
+
+            # Wowhead-only current modifier is valid
+            # information, not necessarily a conflict.
+            # Preserve it distinctly.
+            unresolved.append(
+                {
+                    "spell_id": spell_id,
+                    "talent_name": (
+                        talent.get(
+                            "talent_name"
+                        )
+                    ),
+                    "side": "wowhead",
+                    "reason": (
+                        "WOWHEAD_ONLY_MODIFIER"
+                    ),
+                    "effect_index": (
+                        wh.effect_index
+                    ),
+                    "multiplier": (
+                        wh.pvp_multiplier
+                    ),
+                    "effect_text": (
+                        wh.effect_text
+                    ),
+                }
+            )
+
+    return rows, unresolved
+
+
+async def audit_spec(
+    class_name: str,
+    spec_name: str,
+    *,
+    wow_class_slug: str | None = None,
+    concurrency: int = 6,
+    include_wiki: bool = False,
+) -> SpecAuditResult:
+    """
+    End-to-end CURRENT talent PvP modifier audit.
+
+    Operational flow:
+
+      Raidbots current pinned talent snapshot
+            ↓
+      all current selectable spell IDs
+            ↓
+      Wowhead ALL spell IDs
+      Drustvar ONE class request
+            ↓
+      union of independently detected candidates
+            ↓
+      semantic effect resolver
+
+    Warcraft Wiki and spec-wide PvP Aura composition are
+    intentionally separate later stages.
+    """
+
+    if wow_class_slug is None:
+        wow_class_slug = (
+            class_name
+            .strip()
+            .casefold()
+            .replace(" ", "-")
+        )
+
+    client = CachedClient(
+        concurrency=concurrency
+    )
+
+    try:
+
+        metadata, talent_rows = (
+            await raidbots.fetch_spec_tree(
+                client,
+                class_name=class_name,
+                spec_name=spec_name,
+            )
+        )
+
+        dr_all = (
+            await drustvar.fetch_class(
+                client,
+                wow_class_slug,
+            )
+        )
+
+        spell_talents = [
+            row
+            for row in talent_rows
+            if row.get("spell_id")
+            is not None
+        ]
+
+        # Current Raidbots Discipline happens to have
+        # 1 selectable entry per spell, but do not rely
+        # on that globally.
+        spell_ids = sorted(
+            {
+                int(
+                    row["spell_id"]
+                )
+                for row
+                in spell_talents
+            }
+        )
+
+        spell_id_set = set(
+            spell_ids
+        )
+
+        wowhead_by_spell, (
+            fetch_errors
+        ) = await _fetch_wowhead_all(
+            client,
+            spell_ids,
+        )
+
+    finally:
+        await client.aclose()
+
+    drustvar_by_spell = (
+        _group_drustvar(
+            dr_all,
+            spell_id_set,
+        )
+    )
+
+    wowhead_candidate_ids = {
+        spell_id
+        for spell_id, effects
+        in wowhead_by_spell.items()
+        if any(
+            _is_modified(
+                effect.pvp_multiplier
+            )
+            for effect in effects
+        )
+    }
+
+    drustvar_candidate_ids = set(
+        drustvar_by_spell
+    )
+
+    candidate_ids = (
+        wowhead_candidate_ids
+        | drustvar_candidate_ids
+    )
+
+    # One canonical graph row for joining effect data.
+    #
+    # Multiple tree entries sharing a spell ID remain in
+    # `talents`; we do not destroy the original graph data.
+    talent_by_spell = {}
+
+    for row in spell_talents:
+
+        talent_by_spell.setdefault(
+            int(row["spell_id"]),
+            row,
+        )
+
+    effect_rows, unresolved_rows = (
+        _build_effect_rows(
+            candidate_ids=(
+                candidate_ids
+            ),
+            talent_by_spell=(
+                talent_by_spell
+            ),
+            wowhead_by_spell=(
+                wowhead_by_spell
+            ),
+            drustvar_by_spell=(
+                drustvar_by_spell
+            ),
+        )
+    )
+
+    # ========================================================
+    # Optional Warcraft Wiki historical evidence
+    # ========================================================
+
+    wiki_by_spell = {}
+
+    # Always expose the same schema to consumers.
+    for row in effect_rows:
+
+        row.update(
+            {
+                "history_status":
+                    "NOT_REQUESTED",
+
+                "history_evidence_count":
+                    0,
+
+                "effect_related_history_count":
+                    0,
+
+                "talent_wide_history_count":
+                    0,
+
+                "history_evidence":
+                    [],
+
+                "wiki_page":
+                    None,
+            }
+        )
+
+    if include_wiki:
+
+        wiki_client = CachedClient(
+            concurrency=concurrency
+        )
+
+        try:
+
+            async def fetch_wiki_one(
+                spell_id: int,
+            ):
+
+                talent = (
+                    talent_by_spell.get(
+                        spell_id,
+                        {}
+                    )
+                )
+
+                name = talent.get(
+                    "talent_name",
+                    f"Spell {spell_id}",
+                )
+
+                try:
+
+                    observation = (
+                        await wiki.fetch_page(
+                            wiki_client,
+                            spell_id=spell_id,
+                            name=name,
+                        )
+                    )
+
+                    return (
+                        spell_id,
+                        observation,
+                        None,
+                    )
+
+                except Exception as exc:
+
+                    return (
+                        spell_id,
+                        None,
+                        (
+                            f"{type(exc).__name__}: "
+                            f"{exc}"
+                        ),
+                    )
+
+
+            wiki_results = (
+                await asyncio.gather(
+                    *[
+                        fetch_wiki_one(
+                            spell_id
+                        )
+                        for spell_id
+                        in sorted(
+                            candidate_ids
+                        )
+                    ]
+                )
+            )
+
+        finally:
+
+            await wiki_client.aclose()
+
+
+        for (
+            spell_id,
+            observation,
+            error,
+        ) in wiki_results:
+
+            wiki_by_spell[
+                spell_id
+            ] = observation
+
+            if error is not None:
+
+                fetch_errors.append(
+                    {
+                        "source":
+                            "wiki",
+
+                        "spell_id":
+                            spell_id,
+
+                        "error":
+                            error,
+                    }
+                )
+
+
+        # ----------------------------------------------------
+        # Attach historical evidence effect-by-effect.
+        # ----------------------------------------------------
+
+        for row in effect_rows:
+
+            spell_id = row[
+                "spell_id"
+            ]
+
+            effect_index = row[
+                "effect_index"
+            ]
+
+            wh_effects = (
+                wowhead_by_spell.get(
+                    spell_id,
+                    []
+                )
+            )
+
+            wh_effect = next(
+                (
+                    effect
+                    for effect in wh_effects
+                    if (
+                        effect.effect_index
+                        == effect_index
+                    )
+                ),
+                None,
+            )
+
+            if wh_effect is None:
+                continue
+
+            history = (
+                validator
+                .summarize_history_evidence(
+                    wh_effect,
+                    wiki_by_spell.get(
+                        spell_id
+                    ),
+                    all_wowhead_effects=(
+                        wh_effects
+                    ),
+                )
+            )
+
+            row.update(
+                {
+                    "history_status":
+                        history[
+                            "history_status"
+                        ],
+
+                    "history_evidence_count":
+                        history[
+                            "history_evidence_count"
+                        ],
+
+                    "effect_related_history_count":
+                        history[
+                            "effect_related_history_count"
+                        ],
+
+                    "talent_wide_history_count":
+                        history[
+                            "talent_wide_history_count"
+                        ],
+
+                    "history_evidence":
+                        history[
+                            "history_evidence"
+                        ],
+
+                    "wiki_page":
+                        history[
+                            "wiki_page"
+                        ],
+                }
+            )
+
+
+    drustvar_builds = sorted(
+        {
+            effect.patch
+            for effect in dr_all
+            if effect.patch
+        }
+    )
+
+    return SpecAuditResult(
+        class_name=class_name,
+        spec_name=spec_name,
+
+        metadata=metadata,
+        drustvar_builds=(
+            drustvar_builds
+        ),
+
+        talents=talent_rows,
+        spell_ids=spell_ids,
+
+        wowhead_by_spell=(
+            wowhead_by_spell
+        ),
+
+        drustvar_by_spell=(
+            drustvar_by_spell
+        ),
+
+        wowhead_candidate_ids=(
+            wowhead_candidate_ids
+        ),
+
+        drustvar_candidate_ids=(
+            drustvar_candidate_ids
+        ),
+
+        candidate_ids=(
+            candidate_ids
+        ),
+
+        effect_rows=(
+            effect_rows
+        ),
+
+        wiki_by_spell=(
+            wiki_by_spell
+        ),
+
+        fetch_errors=(
+            fetch_errors
+        ),
+
+        unresolved_rows=(
+            unresolved_rows
+        ),
+    )
+
+
+# === INTEGRATED_PVP_PIPELINE_V2 ===
+
+# Preserve the already-tested direct audit implementation.
+_audit_spec_direct = audit_spec
+
+
+def _infer_amount_kind(
+    effect_text: str | None,
+) -> str | None:
+    """
+    Identify actual spell OUTPUT.
+
+    Modifier parameters themselves must NOT receive the
+    specialization PvP Aura.
+
+    Examples:
+
+        Heal (...)                   -> direct
+        School Damage (...)          -> direct
+        Periodic Damage (...)        -> periodic
+        Absorb Damage (...)          -> absorb
+
+        Modifies Spell Power         -> None
+        Modifies Damage/Healing      -> None
+    """
+
+    text = str(
+        effect_text or ""
+    ).casefold()
+
+
+    # Parameter/modifier effects are not output events.
+    if (
+        "modifies " in text
+        or "modifier" in text
+    ):
+        return None
+
+
+    if (
+        "absorb damage" in text
+        or "absorb amount" in text
+    ):
+        return "absorb"
+
+
+    if (
+        "periodic damage" in text
+        or "periodic heal" in text
+        or "periodic healing" in text
+    ):
+        return "periodic"
+
+
+    if (
+        text.startswith("heal")
+        or "direct heal" in text
+        or "school damage" in text
+        or "direct damage" in text
+    ):
+        return "direct"
+
+
+    return None
+
+
+# === SIMC_BASE_VALUE_FALLBACK_V1 ===
+
+
+def _fill_missing_base_values_from_simc(
+    rows: list[dict],
+    simc_dump,
+) -> None:
+    """
+    Conservative exact-build SimC numeric fallback.
+
+    CRITICAL DISTINCTION:
+
+    SimC Base Value is NOT automatically the player-facing
+    numeric value.
+
+    Example output spell:
+
+        Power Word: Radiance
+            Base Value:      0
+            SP Coefficient:  5.75
+
+        Player-facing value = 575% SP, NOT zero.
+
+    Example modifier spell:
+
+        Power Infusion Effect #2
+            Base Value:      0
+            SP Coefficient:  None
+            PvP Coefficient: 0.5
+
+        Here zero really is the relevant numeric base.
+
+    Therefore:
+
+      - SimC numeric metadata is always preserved.
+      - Wowhead base_value is never overwritten.
+      - SimC Base Value is promoted into canonical base_value
+        ONLY when there is no SP coefficient.
+    """
+
+    for row in rows:
+
+        spell_id = int(
+            row.get(
+                "source_spell_id",
+                row["spell_id"],
+            )
+        )
+
+        effect_index = row.get(
+            "effect_index"
+        )
+
+        if effect_index is None:
+            continue
+
+
+        simc_effect = (
+            simc.effect_for_spell(
+                simc_dump,
+                spell_id,
+                int(effect_index),
+            )
+        )
+
+
+        if simc_effect is None:
+            continue
+
+
+        # ----------------------------------------------------
+        # Preserve exact-build SimC provenance regardless of
+        # whether we use it as a canonical fallback.
+        # ----------------------------------------------------
+
+        row[
+            "simc_base_value"
+        ] = (
+            simc_effect.base_value
+        )
+
+        row[
+            "simc_sp_coefficient"
+        ] = (
+            simc_effect.sp_coefficient
+        )
+
+        row[
+            "simc_pvp_coefficient"
+        ] = (
+            simc_effect.pvp_coefficient
+        )
+
+
+        # Wowhead already has a canonical base.
+        if row.get(
+            "base_value"
+        ) is not None:
+            continue
+
+
+        if (
+            simc_effect.base_value
+            is None
+        ):
+            continue
+
+
+        row_multiplier = row.get(
+            "pvp_multiplier"
+        )
+
+        simc_multiplier = (
+            simc_effect.pvp_coefficient
+        )
+
+
+        # ----------------------------------------------------
+        # Identity sanity check.
+        # ----------------------------------------------------
+
+        if (
+            row_multiplier is not None
+            and simc_multiplier is not None
+            and abs(
+                float(row_multiplier)
+                - float(simc_multiplier)
+            ) > 0.011
+        ):
+            continue
+
+
+        # ----------------------------------------------------
+        # VERY IMPORTANT:
+        #
+        # A spell with an SP coefficient is an output formula.
+        #
+        # Base Value = 0 does NOT mean its player-facing value
+        # is zero.
+        #
+        # Leave base_value=None so the renderer continues to
+        # use effect_text / SP mod semantics.
+        # ----------------------------------------------------
+
+        if (
+            simc_effect.sp_coefficient
+            is not None
+        ):
+
+            row[
+                "base_value_source"
+            ] = (
+                "wowhead_effect_text"
+            )
+
+            continue
+
+
+        # ----------------------------------------------------
+        # No SP coefficient:
+        # SimC Base Value is now a safe numeric fallback.
+        # ----------------------------------------------------
+
+        base_value = float(
+            simc_effect.base_value
+        )
+
+
+        row[
+            "base_value"
+        ] = base_value
+
+        row[
+            "base_value_source"
+        ] = (
+            "simc_exact_build"
+        )
+
+
+        if row_multiplier is not None:
+
+            row[
+                "pvp_value"
+            ] = (
+                base_value
+                * float(
+                    row_multiplier
+                )
+            )
+
+
+def _annotate_final_pvp_layers(
+    rows: list[dict],
+    aura_rules: list,
+) -> None:
+    """
+    Add final PvP state to every effect row.
+
+    final multiplier =
+        spell-specific PvP multiplier
+        × applicable specialization PvP Aura factor
+
+    PvP Aura applies ONLY when amount_kind is proven.
+    """
+
+    for row in rows:
+
+        source_spell_id = int(
+            row.get(
+                "source_spell_id",
+                row["spell_id"],
+            )
+        )
+
+
+        amount_kind = (
+            _infer_amount_kind(
+                row.get(
+                    "effect_text"
+                )
+            )
+        )
+
+
+        raw_spell_multiplier = (
+            row.get(
+                "pvp_multiplier"
+            )
+        )
+
+
+        spell_multiplier = (
+            float(
+                raw_spell_multiplier
+            )
+            if raw_spell_multiplier
+            is not None
+            else 1.0
+        )
+
+
+        if amount_kind is None:
+
+            applicable_rules = []
+            aura_factor = 1.0
+
+        else:
+
+            applicable_rules = (
+                pvp_aura.rules_for_spell(
+                    aura_rules,
+                    source_spell_id,
+                    amount_kind=
+                        amount_kind,
+                )
+            )
+
+            aura_factor = 1.0
+
+            for rule in applicable_rules:
+
+                aura_factor *= float(
+                    rule.factor
+                )
+
+
+        final_multiplier = (
+            spell_multiplier
+            * aura_factor
+        )
+
+
+        base_value = row.get(
+            "base_value"
+        )
+
+
+        final_value = (
+            float(base_value)
+            * final_multiplier
+
+            if base_value
+            is not None
+
+            else None
+        )
+
+
+        row.update(
+            {
+                "source_spell_id":
+                    source_spell_id,
+
+                "amount_kind":
+                    amount_kind,
+
+                "spell_pvp_multiplier":
+                    spell_multiplier,
+
+                "is_spell_pvp_modified":
+                    abs(
+                        spell_multiplier
+                        - 1.0
+                    ) > 1e-9,
+
+                "aura_factor":
+                    aura_factor,
+
+                "aura_rules":
+                    [
+                        {
+                            "aura_spell_id":
+                                rule.aura_spell_id,
+
+                            "game_effect_id":
+                                rule.game_effect_id,
+
+                            "amount_kind":
+                                rule.amount_kind,
+
+                            "value_pct":
+                                rule.value_pct,
+
+                            "factor":
+                                rule.factor,
+
+                            "build":
+                                rule.build,
+                        }
+                        for rule
+                        in applicable_rules
+                    ],
+
+                "is_aura_modified":
+                    abs(
+                        aura_factor
+                        - 1.0
+                    ) > 1e-9,
+
+                "final_pvp_multiplier":
+                    final_multiplier,
+
+                "final_pvp_value":
+                    final_value,
+
+                "is_final_pvp_modified":
+                    abs(
+                        final_multiplier
+                        - 1.0
+                    ) > 1e-9,
+            }
+        )
+
+
+def _classify_dependency(
+    dependency,
+) -> str:
+    """
+    REFERENCED
+        Parent formula directly references child value.
+
+        Examples:
+            Barrier -> $81782s2
+            Ultimate Penitence -> $421544s1
+
+    EMBEDDED
+        Parent embeds another spell description.
+
+        Examples:
+            Assured Safety -> Prayer of Mending
+            Master the Darkness -> Void Shield
+
+    RUNTIME
+        Implementation dependency without direct
+        player-facing value proof.
+    """
+
+    relations = tuple(
+        dependency.relations
+    )
+
+
+    if (
+        relations
+        and relations[0]
+        == "tooltip_value_ref"
+    ):
+        return "REFERENCED"
+
+
+    if (
+        relations
+        and relations[0]
+        == "spelldesc_ref"
+    ):
+        return "EMBEDDED"
+
+
+    return "RUNTIME"
+
+
+def _init_history_schema(
+    rows: list[dict],
+) -> None:
+
+    for row in rows:
+
+        row.setdefault(
+            "history_status",
+            "NOT_REQUESTED",
+        )
+
+        row.setdefault(
+            "history_evidence_count",
+            0,
+        )
+
+        row.setdefault(
+            "effect_related_history_count",
+            0,
+        )
+
+        row.setdefault(
+            "talent_wide_history_count",
+            0,
+        )
+
+        row.setdefault(
+            "history_evidence",
+            [],
+        )
+
+        row.setdefault(
+            "wiki_page",
+            None,
+        )
+
+
+async def audit_spec(
+    class_name: str,
+    spec_name: str,
+    *,
+    wow_class_slug: str | None = None,
+    concurrency: int = 6,
+    include_wiki: bool = False,
+) -> SpecAuditResult:
+    """
+    Integrated current PvP audit.
+
+    Stage 1:
+        Existing proven direct audit.
+
+    Stage 2:
+        Exact-build SimC dependency graph.
+
+    Stage 3:
+        Specialization PvP Aura.
+
+    Stage 4:
+        Child/runtime Wowhead + Drustvar reconciliation.
+
+    This deliberately keeps:
+        spell-specific PvP
+        specialization PvP Aura
+        dependency provenance
+    as separate audit dimensions.
+    """
+
+    # ========================================================
+    # 1. Existing direct audit
+    # ========================================================
+
+    result = await _audit_spec_direct(
+        class_name,
+        spec_name,
+        wow_class_slug=
+            wow_class_slug,
+        concurrency=
+            concurrency,
+        include_wiki=
+            include_wiki,
+    )
+
+
+    if wow_class_slug is None:
+
+        wow_class_slug = (
+            class_name
+            .strip()
+            .casefold()
+            .replace(" ", "-")
+        )
+
+
+    talent_by_spell = {}
+
+    for row in result.talents:
+
+        spell_id = row.get(
+            "spell_id"
+        )
+
+        if spell_id is None:
+            continue
+
+        talent_by_spell.setdefault(
+            int(spell_id),
+            row,
+        )
+
+
+    talent_spell_ids = set(
+        result.spell_ids
+    )
+
+
+    # ========================================================
+    # 2. Whole-class PvP state + exact-build SimC graph
+    # ========================================================
+
+    client = CachedClient(
+        concurrency=concurrency
+    )
+
+
+    try:
+
+        (
+            dr_all,
+            aura_payload,
+            simc_dump,
+        ) = await asyncio.gather(
+            drustvar.fetch_class(
+                client,
+                wow_class_slug,
+            ),
+
+            drustvar.fetch_aura_payload(
+                client,
+                wow_class_slug,
+            ),
+
+            simc.fetch_dump(
+                client,
+                class_name,
+            ),
+        )
+
+
+        if (
+            simc_dump.build
+            != result.tree_build
+        ):
+
+            raise RuntimeError(
+                "SimC/Raidbots build mismatch: "
+                f"SimC={simc_dump.build}, "
+                f"Raidbots={result.tree_build}"
+            )
+
+
+        aura_rules = (
+            pvp_aura
+            .normalize_current_spec_aura(
+                aura_payload,
+                spec_name=spec_name,
+            )
+        )
+
+
+        aura_affected_ids = {
+            int(spell_id)
+            for rule in aura_rules
+            for spell_id, _
+            in rule.affected_spells
+        }
+
+
+        dr_all_ids = {
+            int(effect.spell_id)
+            for effect in dr_all
+        }
+
+
+        # A dependency is PvP-relevant if it has either:
+        #
+        # 1. a spell-specific PvP coefficient
+        # 2. a specialization PvP Aura modifier
+        #
+        # This is why Ultimate Penitence DAMAGE 421543 is
+        # discovered even though it has no own PvP multiplier.
+        pvp_output_universe = (
+            dr_all_ids
+            | aura_affected_ids
+        )
+
+
+        all_dependencies = (
+            simc.pvp_dependencies(
+                simc_dump,
+
+                talent_spell_ids=
+                    talent_spell_ids,
+
+                pvp_spell_ids=
+                    pvp_output_universe,
+
+                max_depth=4,
+            )
+        )
+
+
+        # We keep off-tree implementation/output dependencies.
+        dependencies = [
+            dependency
+            for dependency
+            in all_dependencies
+            if (
+                dependency.target_spell_id
+                not in talent_spell_ids
+            )
+        ]
+
+
+        dependency_spell_ids = {
+            dependency.target_spell_id
+            for dependency
+            in dependencies
+        }
+
+
+        (
+            dependency_wowhead_by_spell,
+            child_fetch_errors,
+        ) = await _fetch_wowhead_all(
+            client,
+            sorted(
+                dependency_spell_ids
+            ),
+        )
+
+
+    finally:
+
+        await client.aclose()
+
+
+    result.fetch_errors.extend(
+        child_fetch_errors
+    )
+
+
+    dependency_drustvar_by_spell = (
+        _group_drustvar(
+            dr_all,
+            dependency_spell_ids,
+        )
+    )
+
+
+    # ========================================================
+    # 3. Direct talent spells affected by PvP Aura
+    #
+    # The old audit discovered spell-specific PvP candidates.
+    # Now include talent spell IDs that are changed ONLY by
+    # the spec PvP Aura.
+    # ========================================================
+
+    aura_candidate_ids = (
+        talent_spell_ids
+        & aura_affected_ids
+    )
+
+
+    final_candidate_ids = (
+        set(
+            result.candidate_ids
+        )
+        | aura_candidate_ids
+    )
+
+
+    aura_only_direct_ids = (
+        aura_candidate_ids
+        - set(
+            result.candidate_ids
+        )
+    )
+
+
+    # Add effect rows for direct talent spells which were not
+    # in the old spell-specific candidate universe.
+    if aura_only_direct_ids:
+
+        (
+            extra_direct_rows,
+            extra_unresolved,
+        ) = _build_effect_rows(
+            candidate_ids=
+                aura_only_direct_ids,
+
+            talent_by_spell=
+                talent_by_spell,
+
+            wowhead_by_spell=
+                result.wowhead_by_spell,
+
+            drustvar_by_spell=
+                _group_drustvar(
+                    dr_all,
+                    aura_only_direct_ids,
+                ),
+        )
+
+
+        _init_history_schema(
+            extra_direct_rows
+        )
+
+
+        result.effect_rows.extend(
+            extra_direct_rows
+        )
+
+        result.unresolved_rows.extend(
+            extra_unresolved
+        )
+
+
+    # Annotate ALL direct rows with complete PvP layering.
+    for row in result.effect_rows:
+
+        row.setdefault(
+            "effect_origin",
+            "DIRECT",
+        )
+
+        row.setdefault(
+            "talent_spell_id",
+            row["spell_id"],
+        )
+
+        row.setdefault(
+            "source_spell_id",
+            row["spell_id"],
+        )
+
+        row.setdefault(
+            "dependency_kind",
+            None,
+        )
+
+        row.setdefault(
+            "dependency_path",
+            None,
+        )
+
+        row.setdefault(
+            "dependency_relations",
+            None,
+        )
+
+        row.setdefault(
+            "dependency_evidence",
+            None,
+        )
+
+
+    # Fill numeric values Wowhead omitted using the SAME
+    # exact-build SimC dump used for dependency discovery.
+    _fill_missing_base_values_from_simc(
+        result.effect_rows,
+        simc_dump,
+    )
+
+
+    _annotate_final_pvp_layers(
+        result.effect_rows,
+        aura_rules,
+    )
+
+
+    # ========================================================
+    # 4. Dependency child effects
+    # ========================================================
+
+    dependency_effect_rows = []
+
+
+    for dependency in dependencies:
+
+        root_id = (
+            dependency.root_spell_id
+        )
+
+        source_id = (
+            dependency.target_spell_id
+        )
+
+
+        parent_talent = (
+            talent_by_spell.get(
+                root_id,
+                {},
+            )
+        )
+
+
+        (
+            child_rows,
+            child_unresolved,
+        ) = _build_effect_rows(
+            candidate_ids={
+                source_id
+            },
+
+            # Give child effect rows the PARENT talent graph
+            # identity while retaining source_spell_id below.
+            talent_by_spell={
+                source_id:
+                    parent_talent
+            },
+
+            wowhead_by_spell={
+                source_id:
+                    dependency_wowhead_by_spell.get(
+                        source_id,
+                        [],
+                    )
+            },
+
+            drustvar_by_spell={
+                source_id:
+                    dependency_drustvar_by_spell.get(
+                        source_id,
+                        [],
+                    )
+            },
+        )
+
+
+        kind = _classify_dependency(
+            dependency
+        )
+
+
+        for row in child_rows:
+
+            row.update(
+                {
+                    "effect_origin":
+                        "DEPENDENCY",
+
+                    "talent_spell_id":
+                        root_id,
+
+                    "source_spell_id":
+                        source_id,
+
+                    "dependency_kind":
+                        kind,
+
+                    "dependency_path":
+                        dependency.path_spell_ids,
+
+                    "dependency_relations":
+                        dependency.relations,
+
+                    "dependency_evidence":
+                        dependency.evidence,
+                }
+            )
+
+
+        for row in child_unresolved:
+
+            row.update(
+                {
+                    "effect_origin":
+                        "DEPENDENCY",
+
+                    "talent_spell_id":
+                        root_id,
+
+                    "source_spell_id":
+                        source_id,
+
+                    "dependency_kind":
+                        kind,
+
+                    "dependency_path":
+                        dependency.path_spell_ids,
+
+                    "dependency_relations":
+                        dependency.relations,
+                }
+            )
+
+
+        _init_history_schema(
+            child_rows
+        )
+
+
+        _fill_missing_base_values_from_simc(
+            child_rows,
+            simc_dump,
+        )
+
+
+        _annotate_final_pvp_layers(
+            child_rows,
+            aura_rules,
+        )
+
+
+        dependency_effect_rows.extend(
+            child_rows
+        )
+
+        result.unresolved_rows.extend(
+            child_unresolved
+        )
+
+
+    # ========================================================
+    # 5. Expose integrated state
+    # ========================================================
+
+    result.simc_build = (
+        simc_dump.build
+    )
+
+    result.dependencies = (
+        dependencies
+    )
+
+    result.dependency_effect_rows = (
+        dependency_effect_rows
+    )
+
+    result.dependency_wowhead_by_spell = (
+        dependency_wowhead_by_spell
+    )
+
+    result.dependency_drustvar_by_spell = (
+        dependency_drustvar_by_spell
+    )
+
+    result.pvp_aura_rules = (
+        aura_rules
+    )
+
+    result.aura_candidate_ids = (
+        aura_candidate_ids
+    )
+
+    result.final_candidate_ids = (
+        final_candidate_ids
+    )
+
+
+    return result
+

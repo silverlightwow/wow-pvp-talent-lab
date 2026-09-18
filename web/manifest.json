@@ -1,0 +1,18 @@
+{
+  "name": "WoW PvP Talent Lab",
+  "short_name": "PvP Talent Lab",
+  "description": "PvP-aware World of Warcraft talent calculator with verified player-facing values.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b0d12",
+  "theme_color": "#10131a",
+  "icons": [
+    {
+      "src": "app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
