@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import math
+import re
 from dataclasses import dataclass
 
 
@@ -46,6 +47,16 @@ def _amount_kind(
 
     if "absorb amount" in text:
         return "absorb"
+
+    match = re.search(
+        r"modify\s+effect\s+(\d+)",
+        text,
+    )
+
+    if match:
+        return (
+            f"effect:{int(match.group(1))}"
+        )
 
     raise ValueError(
         "Unknown PvP Aura amount type: "
@@ -124,9 +135,14 @@ def normalize_current_spec_aura(
         )
     ]
 
-    if len(matches) != 1:
+    # Some specs currently have no specialization PvP Aura at all.
+    # That is a valid identity state, not an error.
+    if not matches:
+        return []
+
+    if len(matches) > 1:
         raise ValueError(
-            f"Expected exactly one PvP Aura "
+            f"Expected at most one PvP Aura "
             f"for spec {spec_name!r}, "
             f"found {len(matches)}"
         )
@@ -283,11 +299,29 @@ def rules_for_spell(
     spell_id: int,
     *,
     amount_kind: str | None = None,
+    effect_index: int | None = None,
+    spell_label_ids=(),
 ) -> list[PvpAuraRule]:
+    """
+    Resolve concrete PvP Aura rules for one spell effect.
+
+    A rule can target either:
+      - explicit affected_spells, or
+      - a SpellLabel (label_id), resolved from exact-build SimC.
+
+    "Modify Effect N" rules are effect-index scoped and therefore do
+    not require an inferred direct/periodic/absorb kind.
+    """
 
     spell_id = int(
         spell_id
     )
+
+    labels = {
+        int(label_id)
+        for label_id
+        in (spell_label_ids or ())
+    }
 
     result = []
 
@@ -299,12 +333,42 @@ def rules_for_spell(
             in rule.affected_spells
         }
 
-        if spell_id not in affected_ids:
-            continue
+        explicit_target = (
+            spell_id in affected_ids
+        )
+
+        label_target = (
+            rule.label_id is not None
+            and int(rule.label_id)
+            in labels
+        )
 
         if (
-            amount_kind is not None
-            and rule.amount_kind
+            not explicit_target
+            and not label_target
+        ):
+            continue
+
+        if rule.amount_kind.startswith(
+            "effect:"
+        ):
+            required_index = int(
+                rule.amount_kind.split(
+                    ":",
+                    1,
+                )[1]
+            )
+
+            if (
+                effect_index is None
+                or int(effect_index)
+                != required_index
+            ):
+                continue
+
+        elif (
+            amount_kind is None
+            or rule.amount_kind
             != amount_kind
         ):
             continue
@@ -313,12 +377,13 @@ def rules_for_spell(
 
     return result
 
-
 def combined_aura_factor(
     rules: list[PvpAuraRule],
     spell_id: int,
     *,
-    amount_kind: str,
+    amount_kind: str | None,
+    effect_index: int | None = None,
+    spell_label_ids=(),
 ) -> float:
     """
     Combine all applicable spec-PvP-Aura rules.
@@ -337,6 +402,8 @@ def combined_aura_factor(
         rules,
         spell_id,
         amount_kind=amount_kind,
+        effect_index=effect_index,
+        spell_label_ids=spell_label_ids,
     )
 
     return math.prod(
