@@ -117,6 +117,15 @@ def main() -> None:
     parser.add_argument("--spec-name", default="Discipline")
     parser.add_argument("--output-dir", type=Path, default=Path("web/data"))
     parser.add_argument("--concurrency", type=int, default=6)
+    parser.add_argument(
+        "--allow-existing-on-build-lag",
+        action="store_true",
+        help=(
+            "If Raidbots and SimC temporarily expose different "
+            "live builds, keep the already committed verified "
+            "dataset instead of publishing mixed-build data."
+        ),
+    )
     args = parser.parse_args()
 
     try:
@@ -129,7 +138,48 @@ def main() -> None:
             )
         )
     except Exception as exc:
-        print(f"DATASET BUILD FAILED: {type(exc).__name__}: {exc}", file=sys.stderr)
+        message = (
+            f"{type(exc).__name__}: {exc}"
+        )
+
+        slug = (
+            f"{args.class_name}-{args.spec_name}"
+            .lower()
+            .replace(" ", "-")
+        )
+
+        existing_json = (
+            args.output_dir
+            / f"{slug}.json"
+        )
+
+        existing_js = (
+            args.output_dir
+            / f"{slug}.js"
+        )
+
+        build_lag = (
+            "SimC/Raidbots build mismatch"
+            in str(exc)
+        )
+
+        if (
+            args.allow_existing_on_build_lag
+            and build_lag
+            and existing_json.exists()
+            and existing_js.exists()
+        ):
+            print(
+                "LIVE BUILD LAG: keeping existing verified "
+                f"dataset {existing_json}",
+                file=sys.stderr,
+            )
+            return
+
+        print(
+            f"DATASET BUILD FAILED: {message}",
+            file=sys.stderr,
+        )
         raise
 
 
