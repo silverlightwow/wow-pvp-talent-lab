@@ -72,6 +72,19 @@ async def audit_one(
                 "pvp_tooltip": talent.pvp_tooltip,
                 "diagnostics": talent.diagnostics,
                 "mechanics": talent.mechanics,
+                "wowhead_effects": [
+                    {
+                        "effect_index": effect.effect_index,
+                        "effect_text": effect.effect_text,
+                        "base_value": effect.base_value,
+                        "pvp_multiplier": effect.pvp_multiplier,
+                        "raw": effect.raw,
+                    }
+                    for effect in audit.wowhead_by_spell.get(
+                        talent.spell_id,
+                        [],
+                    )
+                ],
             }
             for talent in spec_catalog.talents
             if talent.render_status
