@@ -493,6 +493,97 @@ async def fetch_dump(
 
 
 # ============================================================
+# Spell labels
+# ============================================================
+
+def _label_ids_from_raw(
+    raw: str,
+) -> tuple[int, ...]:
+    """
+    Parse the SimC SpellDataDump Labels block.
+
+    Examples:
+
+        Labels           : 16: Class Spells
+                         : 25: Warrior Spells
+                         : 4007
+
+    PvP Aura rows that target a SpellLabel expose only label_id,
+    so exact-build SimC label membership is the authoritative bridge
+    back to concrete spell IDs.
+    """
+
+    result = []
+    in_labels = False
+
+    for line in str(raw or "").splitlines():
+
+        if line.startswith("Labels"):
+            in_labels = True
+            tail = line.split(":", 1)[1].strip()
+
+        elif (
+            in_labels
+            and re.match(r"^\s+:", line)
+        ):
+            tail = line.split(":", 1)[1].strip()
+
+        elif in_labels:
+            break
+
+        else:
+            continue
+
+        match = re.match(
+            r"^(\d+)(?::|\s|$)",
+            tail,
+        )
+
+        if match:
+            label_id = int(match.group(1))
+
+            if label_id not in result:
+                result.append(label_id)
+
+    return tuple(result)
+
+
+def spell_label_ids(
+    dump: SimcDump,
+    spell_id: int,
+) -> tuple[int, ...]:
+
+    spell = dump.spells.get(
+        int(spell_id)
+    )
+
+    if spell is None:
+        return tuple()
+
+    return _label_ids_from_raw(
+        spell.raw
+    )
+
+
+def spell_ids_for_label(
+    dump: SimcDump,
+    label_id: int,
+) -> set[int]:
+
+    label_id = int(label_id)
+
+    return {
+        spell_id
+        for spell_id, spell
+        in dump.spells.items()
+        if label_id
+        in _label_ids_from_raw(
+            spell.raw
+        )
+    }
+
+
+# ============================================================
 # Dependency closure
 # ============================================================
 
