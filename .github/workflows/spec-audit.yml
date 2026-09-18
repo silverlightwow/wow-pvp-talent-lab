@@ -1,0 +1,59 @@
+name: Cross-spec compatibility audit
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "pvpcalc/**"
+      - "scripts/audit_all_specs.py"
+      - ".github/workflows/spec-audit.yml"
+  workflow_dispatch:
+    inputs:
+      class_name:
+        description: "Class to audit; leave blank for Priest"
+        required: false
+        default: "Priest"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: spec-audit
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install project
+        run: python -m pip install -e ".[dev]"
+
+      - name: Unit tests
+        run: pytest -q
+
+      - name: Audit class specs
+        env:
+          AUDIT_CLASS: ${{ inputs.class_name || 'Priest' }}
+        run: |
+          python scripts/audit_all_specs.py \
+            --class-name "$AUDIT_CLASS" \
+            --parallel-specs 2 \
+            --concurrency 5 \
+            --output spec-audit.json
+
+      - name: Upload audit report
+        uses: actions/upload-artifact@v4
+        with:
+          name: spec-audit
+          path: spec-audit.json
