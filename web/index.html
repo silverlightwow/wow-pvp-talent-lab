@@ -130,7 +130,9 @@
             class="tab"
             data-tab="compendium"
         >
-            Discipline Compendium
+            <span id="compendiumTabLabel">
+                Discipline Compendium
+            </span>
 
             <span
                 id="mechanicsBadge"
@@ -155,7 +157,7 @@
             <div class="section-heading">
 
                 <div>
-                    <h1>
+                    <h1 id="treeTitle">
                         Discipline Priest
                     </h1>
 
@@ -244,7 +246,7 @@
                                 CLASS TREE
                             </span>
 
-                            <h2>
+                            <h2 id="classTreeTitle">
                                 Priest
                             </h2>
                         </div>
@@ -312,7 +314,7 @@
                                 SPECIALIZATION
                             </span>
 
-                            <h2>
+                            <h2 id="specTreeTitle">
                                 Discipline
                             </h2>
                         </div>
@@ -384,7 +386,10 @@
                         Class
                     </option>
 
-                    <option value="spec">
+                    <option
+                        id="compareSpecOption"
+                        value="spec"
+                    >
                         Discipline
                     </option>
 
@@ -435,7 +440,7 @@
             <div class="section-heading">
 
                 <div>
-                    <h1>
+                    <h1 id="compendiumTitle">
                         Discipline Compendium
                     </h1>
 
@@ -489,6 +494,7 @@
 </div>
 
 
+<script src="data/manifest.js"></script>
 <script src="data/priest-discipline.js"></script>
 <script src="app.js"></script>
 
