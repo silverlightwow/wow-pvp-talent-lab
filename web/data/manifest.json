@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-09-18T00:00:00+00:00",
+  "tree_build": "12.1.0.69814",
+  "default_slug": "priest-discipline",
+  "spec_count": 1,
+  "classes": [
+    {
+      "name": "Priest",
+      "class_id": 5,
+      "specs": [
+        {
+          "name": "Discipline",
+          "spec_id": 256,
+          "slug": "priest-discipline"
+        }
+      ]
+    }
+  ]
+}
