@@ -950,6 +950,68 @@ def render_pvp_tooltip(
 
         if len(matches) > 1:
 
+            # If N independent effects collapse to the exact same
+            # PvE -> PvP transform and that value occurs exactly N
+            # times in the selected tooltip, replacing all N tokens
+            # is deterministic. This covers talents such as Holy
+            # Preventive Measures, whose direct and periodic effects
+            # both render as separate "40%" values and both become
+            # the same PvP value.
+            if (
+                len(
+                    transform[
+                        "effect_indexes"
+                    ]
+                )
+                == len(matches)
+            ):
+
+                for match in matches:
+
+                    old_token = (
+                        match.group(1)
+                    )
+
+                    new_token = (
+                        _format_new_value(
+                            transform[
+                                "new"
+                            ],
+                            kind=transform[
+                                "kind"
+                            ],
+                            old_token=old_token,
+                        )
+                    )
+
+                    replacements.append(
+                        {
+                            "start":
+                                match.start(1),
+
+                            "end":
+                                match.end(1),
+
+                            "old_token":
+                                old_token,
+
+                            "new_token":
+                                new_token,
+
+                            "kind":
+                                transform[
+                                    "kind"
+                                ],
+
+                            "effect_indexes":
+                                transform[
+                                    "effect_indexes"
+                                ],
+                        }
+                    )
+
+                continue
+
             diagnostics.append(
                 {
                     "effect_indexes":
