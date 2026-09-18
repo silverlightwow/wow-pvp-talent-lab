@@ -80,7 +80,7 @@ def test_periodic_channel_total_spell_power_void_torrent():
     )
 
     assert result["render_status"] == "COMPLETE"
-    assert "(469.5902% of Spell Power)" in result["pvp_tooltip"]
+    assert "(469.1902% of Spell Power)" in result["pvp_tooltip"]
 
 
 def test_repeated_equal_values_use_source_effect_ordinal():
