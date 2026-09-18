@@ -8,3 +8,6 @@ venv/
 .idea/
 .vscode/
 *.egg-info/
+.ipynb_checkpoints/
+*.bak
+*.tmp
