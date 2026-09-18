@@ -66,8 +66,12 @@ async def audit_one(
             {
                 "talent_name": talent.talent_name,
                 "spell_id": talent.spell_id,
+                "node_id": talent.node_id,
                 "status": talent.render_status,
+                "pve_tooltip": talent.pve_tooltip,
+                "pvp_tooltip": talent.pvp_tooltip,
                 "diagnostics": talent.diagnostics,
+                "mechanics": talent.mechanics,
             }
             for talent in spec_catalog.talents
             if talent.render_status
