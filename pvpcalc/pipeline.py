@@ -676,6 +676,7 @@ async def audit_spec(
     wow_class_slug: str | None = None,
     concurrency: int = 6,
     include_wiki: bool = False,
+    require_exact_simc_build: bool = True,
 ) -> SpecAuditResult:
     """
     End-to-end CURRENT talent PvP modifier audit.
@@ -1708,11 +1709,19 @@ async def audit_spec(
             != result.tree_build
         ):
 
-            raise RuntimeError(
-                "SimC/Raidbots build mismatch: "
-                f"SimC={simc_dump.build}, "
-                f"Raidbots={result.tree_build}"
-            )
+            result.metadata[
+                "simcBuildMismatch"
+            ] = {
+                "raidbots": result.tree_build,
+                "simc": simc_dump.build,
+            }
+
+            if require_exact_simc_build:
+                raise RuntimeError(
+                    "SimC/Raidbots build mismatch: "
+                    f"SimC={simc_dump.build}, "
+                    f"Raidbots={result.tree_build}"
+                )
 
 
         aura_rules = (
