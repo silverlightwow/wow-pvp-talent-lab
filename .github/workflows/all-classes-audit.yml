@@ -37,6 +37,9 @@ jobs:
       - name: Install project
         run: python -m pip install -e ".[dev]"
 
+      - name: Unit tests
+        run: pytest -q
+
       - name: Discover current classes
         id: matrix
         run: python scripts/discover_classes.py --github-output "$GITHUB_OUTPUT"
@@ -64,9 +67,6 @@ jobs:
 
       - name: Install project
         run: python -m pip install -e ".[dev]"
-
-      - name: Unit tests
-        run: pytest -q
 
       - name: Audit all specs for class
         run: |
