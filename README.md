@@ -1,5 +1,8 @@
 # WoW PvP Talent Lab
 
+**Live app:** https://silverlightwow.github.io/wow-pvp-talent-lab/
+
+
 A PvP-aware World of Warcraft talent calculator that reconstructs **player-facing PvP tooltip values** from current game data instead of showing only PvE/base talent values.
 
 The current verified release covers **Discipline Priest**. Exact live build provenance is embedded in the generated dataset and shown in the UI. The same verified data is exposed through three views:
