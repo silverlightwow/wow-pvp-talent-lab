@@ -2234,3 +2234,418 @@ details.tooltip-comparison summary {
         height: auto;
     }
 }
+
+
+/* ==========================================================
+   v2.2 — mobile-first responsive presentation
+   ========================================================== */
+
+/* The legend should mirror the marker users actually see on nodes. */
+.legend-node.modified {
+    width: 11px;
+    height: 11px;
+    border: 2px solid #161a22;
+    border-radius: 50%;
+    background: var(--pvp);
+    box-shadow: 0 0 8px rgba(233, 87, 103, .55);
+}
+
+/* Inline Compendium details are generated only for the mobile list. */
+.mobile-compendium-inline {
+    display: none;
+}
+
+@media (max-width: 700px) {
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        overflow-x: hidden;
+    }
+
+    #app {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .topbar {
+        width: 100%;
+        padding: 12px;
+        gap: 14px;
+    }
+
+    .brand {
+        width: 100%;
+    }
+
+    .brand-mark {
+        width: 38px;
+        height: 38px;
+        font-size: 20px;
+    }
+
+    .brand-title {
+        font-size: 15px;
+    }
+
+    .brand-subtitle {
+        font-size: 10px;
+    }
+
+    .top-controls {
+        width: 100%;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        gap: 10px;
+        align-items: end;
+    }
+
+    .select-wrap,
+    .hero-control {
+        min-width: 0;
+    }
+
+    .top-controls select,
+    .hero-control select {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .mode-toggle {
+        grid-column: 1 / -1;
+        justify-self: start;
+    }
+
+    .build-strip {
+        width: 100%;
+        padding: 9px 12px;
+        gap: 5px;
+    }
+
+    .build-info {
+        width: 100%;
+        line-height: 1.45;
+        overflow-wrap: anywhere;
+    }
+
+    .tabs {
+        width: 100%;
+        overflow-x: auto;
+        overscroll-behavior-inline: contain;
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .tabs::-webkit-scrollbar {
+        display: none;
+    }
+
+    .tab {
+        padding-left: 13px;
+        padding-right: 13px;
+        white-space: nowrap;
+    }
+
+    main {
+        width: 100%;
+        max-width: 100%;
+        padding: 18px 10px 38px;
+        overflow-x: hidden;
+    }
+
+    .section-heading {
+        gap: 14px;
+        margin-bottom: 14px;
+    }
+
+    .section-heading h1 {
+        font-size: 22px;
+    }
+
+    .section-heading p {
+        max-width: 100%;
+        line-height: 1.5;
+    }
+
+    .tree-actions {
+        width: 100%;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        align-items: end;
+    }
+
+    .secondary-button {
+        white-space: nowrap;
+    }
+
+    /* Only the PvP marker remains in the legend on mobile. */
+    .legend {
+        min-height: 28px;
+        padding: 0 2px;
+    }
+
+    .tree-help {
+        display: none;
+    }
+
+    .points-row {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 7px;
+        padding: 9px 10px;
+        text-align: center;
+    }
+
+    .tree-message {
+        grid-column: 1 / -1;
+        margin-left: 0;
+    }
+
+    /* Force the three trees into true full-width stacked cards.
+       These declarations intentionally live after all desktop rules. */
+    .tree-grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 12px;
+        justify-items: stretch;
+        align-items: start;
+    }
+
+    .tree-card,
+    .class-card,
+    .hero-card,
+    .spec-card {
+        width: 100%;
+        max-width: none;
+        min-width: 0;
+        height: auto;
+        grid-column: 1;
+    }
+
+    .class-card,
+    .spec-card {
+        --node: 40px;
+    }
+
+    .hero-card {
+        --node: 38px;
+    }
+
+    .tree-scroll,
+    .tree-canvas {
+        width: 100%;
+        min-width: 0;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .tree-card > header {
+        height: 58px;
+        padding: 0 14px;
+    }
+
+    /* -------------------- PvE vs PvP -------------------- */
+
+    .filter-bar {
+        width: 100%;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(120px, .55fr);
+        gap: 8px;
+    }
+
+    .search {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .filter-bar select {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .result-count {
+        grid-column: 1 / -1;
+        margin-left: 0;
+        text-align: right;
+    }
+
+    .table-shell {
+        width: 100%;
+        overflow: visible;
+        border: 0;
+        background: transparent;
+    }
+
+    .comparison-table,
+    .comparison-table tbody,
+    .comparison-table tr,
+    .comparison-table td {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .comparison-table {
+        background: transparent;
+    }
+
+    .comparison-table thead {
+        display: none;
+    }
+
+    .comparison-table tbody {
+        display: grid;
+        gap: 10px;
+    }
+
+    .comparison-table tr {
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        background: var(--panel);
+    }
+
+    .comparison-table td {
+        padding: 10px 12px;
+        border: 0;
+        border-bottom: 1px solid #252b36;
+    }
+
+    .comparison-table td:last-child {
+        border-bottom: 0;
+    }
+
+    .comparison-table td:nth-child(2),
+    .comparison-table td:nth-child(3) {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .comparison-table td:nth-child(2)::before {
+        content: "Tree";
+    }
+
+    .comparison-table td:nth-child(3)::before {
+        content: "Changed";
+    }
+
+    .comparison-table td:nth-child(2)::before,
+    .comparison-table td:nth-child(3)::before {
+        flex: 0 0 62px;
+        padding-top: 3px;
+        color: var(--muted);
+        font-size: 9px;
+        font-weight: 800;
+        letter-spacing: .07em;
+        text-transform: uppercase;
+    }
+
+    .talent-cell {
+        min-width: 0;
+    }
+
+    .comparison-change-list,
+    .comparison-change-item,
+    .change-context {
+        min-width: 0;
+        max-width: 100%;
+    }
+
+    details.tooltip-comparison {
+        width: 100%;
+        min-width: 0;
+    }
+
+    details.tooltip-comparison summary {
+        padding: 2px 0;
+    }
+
+    .tooltip-columns {
+        width: 100%;
+        max-width: 100%;
+        grid-template-columns: 1fr;
+    }
+
+    .tooltip-column {
+        min-width: 0;
+    }
+
+    .tooltip-text {
+        max-width: 100%;
+        white-space: pre-wrap;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+
+    /* -------------------- Compendium -------------------- */
+
+    .compendium-layout {
+        width: 100%;
+        display: block;
+        min-height: 0;
+    }
+
+    .compendium-sidebar {
+        width: 100%;
+        padding: 10px;
+        overflow: visible;
+    }
+
+    .compendium-list {
+        max-height: none;
+        overflow: visible;
+    }
+
+    /* Desktop detail is replaced by an inline accordion-style copy. */
+    .compendium-layout > .compendium-detail {
+        display: none;
+    }
+
+    .mobile-compendium-inline {
+        display: block;
+        width: 100%;
+        margin: 4px 0 10px;
+        padding: 14px 10px 16px;
+        border: 1px solid var(--line-strong);
+        border-radius: 9px;
+        background: #11161e;
+        box-shadow: inset 2px 0 0 var(--accent);
+    }
+
+    .mobile-compendium-inline .detail-title-row {
+        margin-bottom: 12px;
+    }
+
+    .mobile-compendium-inline .detail-title-row img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .mobile-compendium-inline .detail-title-row h2 {
+        font-size: 19px;
+    }
+
+    .mobile-compendium-inline .detail-grid,
+    .mobile-compendium-inline .mechanics-grid,
+    .mobile-compendium-inline .apex-ranks {
+        grid-template-columns: 1fr;
+    }
+
+    .mobile-compendium-inline .technical-details > summary {
+        align-items: flex-start;
+    }
+
+    .compendium-item {
+        min-height: 58px;
+    }
+
+    .compendium-item.active {
+        border-radius: 8px 8px 4px 4px;
+    }
+}
