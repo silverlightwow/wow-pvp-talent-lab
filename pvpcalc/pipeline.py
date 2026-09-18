@@ -1745,6 +1745,8 @@ async def audit_spec(
             simc.fetch_dump(
                 client,
                 class_name,
+                target_build=
+                    result.tree_build,
             ),
         )
 
