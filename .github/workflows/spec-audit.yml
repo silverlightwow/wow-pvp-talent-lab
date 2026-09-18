@@ -48,7 +48,7 @@ jobs:
         run: |
           python scripts/audit_all_specs.py \
             --class-name "$AUDIT_CLASS" \
-            --parallel-specs 2 \
+            --parallel-specs 1 \
             --concurrency 5 \
             --output spec-audit.json
 
