@@ -1,11 +1,9 @@
 name: Verify data and deploy site
 
+# Staging mode while the initial source tree is being imported.
+# Scheduled/push deployment will be enabled once the full verified project is present.
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
-  schedule:
-    - cron: "17 */6 * * *"
 
 permissions:
   contents: read
