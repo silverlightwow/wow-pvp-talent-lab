@@ -5,10 +5,18 @@ from collections import defaultdict, deque
 from dataclasses import dataclass
 
 
+SIMC_REPO = "simulationcraft/simc"
+SIMC_BRANCH = "midnight"
+
 SIMC_BASE_URL = (
     "https://raw.githubusercontent.com/"
-    "simulationcraft/simc/"
-    "midnight/SpellDataDump"
+    f"{SIMC_REPO}/"
+    f"{SIMC_BRANCH}/SpellDataDump"
+)
+
+SIMC_COMMITS_URL = (
+    "https://api.github.com/repos/"
+    f"{SIMC_REPO}/commits"
 )
 
 
@@ -320,9 +328,104 @@ def parse_dump(
 # Fetch
 # ============================================================
 
+async def _find_build_commit(
+    client,
+    *,
+    path: str,
+    target_build: str,
+) -> str | None:
+    """
+    Find the SimC generated-data commit for one exact WoW build.
+
+    Raidbots and SimC do not always update at the same minute. Rather
+    than mixing two live builds or blocking the whole site while one
+    source is ahead, walk the public SimC history and pin the dump to
+    the exact Raidbots build.
+
+    Generated-data commits conventionally include the final WoW build
+    number in their subject, e.g. "Game data update (Build 69814)".
+    Every candidate is still verified by parsing the raw dump header.
+    """
+
+    build_tail = (
+        str(target_build)
+        .strip()
+        .split(".")[-1]
+    )
+
+    for page in range(1, 6):
+
+        commits = await client.get_json(
+            SIMC_COMMITS_URL,
+            params={
+                "sha": SIMC_BRANCH,
+                "path": path,
+                "per_page": 100,
+                "page": page,
+            },
+        )
+
+        if not commits:
+            break
+
+        candidates = []
+
+        for item in commits:
+
+            message = str(
+                (
+                    item.get("commit")
+                    or {}
+                ).get(
+                    "message",
+                    "",
+                )
+            )
+
+            if (
+                f"Build {build_tail}"
+                in message
+            ):
+                sha = item.get("sha")
+
+                if sha:
+                    candidates.append(
+                        str(sha)
+                    )
+
+        for sha in candidates:
+
+            url = (
+                "https://raw.githubusercontent.com/"
+                f"{SIMC_REPO}/{sha}/{path}"
+            )
+
+            text = await client.get_text(
+                url
+            )
+
+            dump = parse_dump(
+                text,
+                class_slug=(
+                    path.rsplit("/", 1)[-1]
+                    .removesuffix(".txt")
+                ),
+            )
+
+            if dump.build == target_build:
+                return sha
+
+        if len(commits) < 100:
+            break
+
+    return None
+
+
 async def fetch_dump(
     client,
     class_slug: str,
+    *,
+    target_build: str | None = None,
 ) -> SimcDump:
 
     slug = (
@@ -330,6 +433,10 @@ async def fetch_dump(
         .strip()
         .casefold()
         .replace(" ", "")
+    )
+
+    path = (
+        f"SpellDataDump/{slug}.txt"
     )
 
     url = (
@@ -341,10 +448,48 @@ async def fetch_dump(
         url
     )
 
-    return parse_dump(
+    dump = parse_dump(
         text,
         class_slug=slug,
     )
+
+    if (
+        target_build is None
+        or dump.build == target_build
+    ):
+        return dump
+
+    commit_sha = await _find_build_commit(
+        client,
+        path=path,
+        target_build=target_build,
+    )
+
+    if commit_sha is None:
+        return dump
+
+    exact_url = (
+        "https://raw.githubusercontent.com/"
+        f"{SIMC_REPO}/{commit_sha}/{path}"
+    )
+
+    exact_text = await client.get_text(
+        exact_url
+    )
+
+    exact_dump = parse_dump(
+        exact_text,
+        class_slug=slug,
+    )
+
+    if exact_dump.build != target_build:
+        raise RuntimeError(
+            "Resolved SimC commit did not match requested build: "
+            f"requested={target_build}, got={exact_dump.build}, "
+            f"commit={commit_sha}"
+        )
+
+    return exact_dump
 
 
 # ============================================================
