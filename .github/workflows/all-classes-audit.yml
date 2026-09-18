@@ -1,0 +1,82 @@
+name: All classes compatibility audit
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "pvpcalc/**"
+      - "scripts/audit_all_specs.py"
+      - "scripts/discover_classes.py"
+      - ".github/workflows/all-classes-audit.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: all-classes-audit
+  cancel-in-progress: true
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    outputs:
+      classes: ${{ steps.matrix.outputs.classes }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install project
+        run: python -m pip install -e ".[dev]"
+
+      - name: Discover current classes
+        id: matrix
+        run: python scripts/discover_classes.py --github-output "$GITHUB_OUTPUT"
+
+  audit:
+    needs: discover
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        class_name: ${{ fromJSON(needs.discover.outputs.classes) }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install project
+        run: python -m pip install -e ".[dev]"
+
+      - name: Unit tests
+        run: pytest -q
+
+      - name: Audit all specs for class
+        run: |
+          python scripts/audit_all_specs.py \
+            --class-name "${{ matrix.class_name }}" \
+            --parallel-specs 1 \
+            --concurrency 5 \
+            --output "spec-audit-${{ matrix.class_name }}.json"
+
+      - name: Upload audit report
+        uses: actions/upload-artifact@v4
+        with:
+          name: "spec-audit-${{ matrix.class_name }}"
+          path: "spec-audit-${{ matrix.class_name }}.json"
