@@ -1600,6 +1600,7 @@ async def audit_spec(
     wow_class_slug: str | None = None,
     concurrency: int = 6,
     include_wiki: bool = False,
+    require_exact_simc_build: bool = True,
 ) -> SpecAuditResult:
     """
     Integrated current PvP audit.
