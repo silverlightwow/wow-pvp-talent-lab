@@ -8,7 +8,11 @@
     // Dataset
     // ========================================================
 
-    const data = window.WOW_PVP_DATA;
+    let data = window.WOW_PVP_DATA;
+
+    const manifest =
+        window.WOW_PVP_MANIFEST
+        || null;
 
 
     if (!data) {
@@ -28,7 +32,7 @@
     }
 
 
-    const talents = data.talents || [];
+    let talents = data.talents || [];
 
 
     const state = {
@@ -36,13 +40,7 @@
         pvpMode: true,
 
         heroTree:
-            talents.some(
-                t =>
-                    t.hero_tree ===
-                    "Voidweaver"
-            )
-            ? "Voidweaver"
-            : null,
+            null,
 
         selected:
             new Map(),
@@ -333,14 +331,20 @@
             talent.tree_type
             === "class"
         ) {
-            return "Priest";
+            return (
+                data.class_name
+                || "Class"
+            );
         }
 
         if (
             talent.tree_type
             === "spec"
         ) {
-            return "Discipline";
+            return (
+                data.spec_name
+                || "Specialization"
+            );
         }
 
         return talent.hero_tree
@@ -496,10 +500,503 @@
 
 
     // ========================================================
+    // Dataset switching
+    // ========================================================
+
+    let datasetLoadToken = 0;
+
+
+    function manifestClass(
+        className
+    ) {
+
+        return (
+            manifest?.classes
+            || []
+        ).find(
+            item =>
+                item.name
+                === className
+        ) || null;
+    }
+
+
+    function manifestSpec(
+        className,
+        specName
+    ) {
+
+        return (
+            manifestClass(
+                className
+            )
+            ?.specs
+            || []
+        ).find(
+            item =>
+                item.name
+                === specName
+        ) || null;
+    }
+
+
+    function rebuildSpecSelect(
+        className,
+        preferredSpec=null
+    ) {
+
+        const select =
+            $("#specSelect");
+
+        const specs =
+            manifestClass(
+                className
+            )
+            ?.specs
+            || [];
+
+
+        select.innerHTML =
+            specs.map(
+                spec => `
+                    <option
+                        value="${escapeHtml(
+                            spec.name
+                        )}"
+                    >
+                        ${escapeHtml(
+                            spec.name
+                        )}
+                    </option>
+                `
+            ).join("");
+
+
+        const selected =
+            specs.some(
+                spec =>
+                    spec.name
+                    === preferredSpec
+            )
+            ? preferredSpec
+            : (
+                specs[0]
+                ?.name
+                || ""
+            );
+
+
+        select.value =
+            selected;
+
+        return selected;
+    }
+
+
+    function setupDatasetSelectors() {
+
+        const classSelect =
+            $("#classSelect");
+
+        const specSelect =
+            $("#specSelect");
+
+
+        if (
+            !manifest
+            || !Array.isArray(
+                manifest.classes
+            )
+            || !manifest.classes.length
+        ) {
+
+            classSelect.innerHTML =
+                `<option>${
+                    escapeHtml(
+                        data.class_name
+                        || "Class"
+                    )
+                }</option>`;
+
+            specSelect.innerHTML =
+                `<option>${
+                    escapeHtml(
+                        data.spec_name
+                        || "Specialization"
+                    )
+                }</option>`;
+
+            classSelect.disabled = true;
+            specSelect.disabled = true;
+
+            return;
+        }
+
+
+        classSelect.disabled = false;
+        specSelect.disabled = false;
+
+
+        classSelect.innerHTML =
+            manifest.classes.map(
+                item => `
+                    <option
+                        value="${escapeHtml(
+                            item.name
+                        )}"
+                    >
+                        ${escapeHtml(
+                            item.name
+                        )}
+                    </option>
+                `
+            ).join("");
+
+
+        const initialClass =
+            manifestClass(
+                data.class_name
+            )
+            ? data.class_name
+            : (
+                manifest.classes[0]
+                ?.name
+                || ""
+            );
+
+
+        classSelect.value =
+            initialClass;
+
+
+        rebuildSpecSelect(
+            initialClass,
+            data.spec_name
+        );
+
+
+        classSelect.onchange =
+            () => {
+
+                const specName =
+                    rebuildSpecSelect(
+                        classSelect.value
+                    );
+
+                if (specName) {
+                    loadDatasetFor(
+                        classSelect.value,
+                        specName
+                    );
+                }
+            };
+
+
+        specSelect.onchange =
+            () => {
+
+                loadDatasetFor(
+                    classSelect.value,
+                    specSelect.value
+                );
+            };
+    }
+
+
+    function applyDataset(
+        nextData
+    ) {
+
+        if (
+            !nextData
+            || !Array.isArray(
+                nextData.talents
+            )
+        ) {
+            throw new Error(
+                "Invalid specialization dataset"
+            );
+        }
+
+
+        data =
+            nextData;
+
+        talents =
+            data.talents
+            || [];
+
+
+        state.heroTree =
+            null;
+
+        state.selected.clear();
+
+        state.compendiumSpellId =
+            null;
+
+
+        closeChoicePicker();
+
+        hideTooltip();
+
+
+        const compareSearch =
+            $("#compareSearch");
+
+        const compendiumSearch =
+            $("#compendiumSearch");
+
+        if (compareSearch) {
+            compareSearch.value = "";
+        }
+
+        if (compendiumSearch) {
+            compendiumSearch.value = "";
+        }
+
+
+        $("#compareTreeFilter").value =
+            "all";
+
+
+        $("#classSelect").value =
+            data.class_name
+            || "";
+
+        rebuildSpecSelect(
+            data.class_name,
+            data.spec_name
+        );
+
+
+        setupHeroSelector();
+
+        ensureFreeSelections();
+
+        renderHeader();
+
+        renderTrees();
+
+        renderComparison();
+
+        renderCompendiumList();
+    }
+
+
+    function loadDatasetFor(
+        className,
+        specName
+    ) {
+
+        const spec =
+            manifestSpec(
+                className,
+                specName
+            );
+
+
+        if (!spec) {
+            return;
+        }
+
+
+        const currentSlug =
+            data.slug
+            || (
+                `${
+                    String(
+                        data.class_name
+                        || ""
+                    )
+                    .toLowerCase()
+                    .replaceAll(
+                        " ",
+                        "-"
+                    )
+                }-${
+                    String(
+                        data.spec_name
+                        || ""
+                    )
+                    .toLowerCase()
+                    .replaceAll(
+                        " ",
+                        "-"
+                    )
+                }`
+            );
+
+
+        if (
+            currentSlug
+            === spec.slug
+        ) {
+            return;
+        }
+
+
+        const token =
+            ++datasetLoadToken;
+
+
+        $("#classSelect").disabled =
+            true;
+
+        $("#specSelect").disabled =
+            true;
+
+
+        const previous =
+            document.querySelector(
+                "script[data-dataset-loader]"
+            );
+
+        if (previous) {
+            previous.remove();
+        }
+
+
+        const script =
+            document.createElement(
+                "script"
+            );
+
+        script.dataset.datasetLoader =
+            spec.slug;
+
+        script.src =
+            `data/${encodeURIComponent(
+                spec.slug
+            )}.js?v=${
+                encodeURIComponent(
+                    manifest?.tree_build
+                    || ""
+                )
+            }`;
+
+
+        script.onload =
+            () => {
+
+                if (
+                    token
+                    !== datasetLoadToken
+                ) {
+                    return;
+                }
+
+
+                try {
+
+                    const nextData =
+                        window.WOW_PVP_DATA;
+
+
+                    if (
+                        nextData?.class_name
+                        !== className
+                        || nextData?.spec_name
+                        !== specName
+                    ) {
+
+                        throw new Error(
+                            "Loaded dataset identity mismatch"
+                        );
+                    }
+
+
+                    applyDataset(
+                        nextData
+                    );
+
+                }
+                catch (error) {
+
+                    console.error(
+                        error
+                    );
+
+                    $("#treeMessage")
+                        .textContent =
+                        "Could not load this specialization.";
+                }
+                finally {
+
+                    $("#classSelect").disabled =
+                        false;
+
+                    $("#specSelect").disabled =
+                        false;
+                }
+            };
+
+
+        script.onerror =
+            () => {
+
+                if (
+                    token
+                    !== datasetLoadToken
+                ) {
+                    return;
+                }
+
+
+                $("#classSelect").disabled =
+                    false;
+
+                $("#specSelect").disabled =
+                    false;
+
+                $("#treeMessage")
+                    .textContent =
+                    "Could not load this specialization.";
+            };
+
+
+        document.body.appendChild(
+            script
+        );
+    }
+
+
+    // ========================================================
     // Header
     // ========================================================
 
     function renderHeader() {
+
+        const className =
+            data.class_name
+            || "Class";
+
+        const specName =
+            data.spec_name
+            || "Specialization";
+
+
+        $("#treeTitle").textContent =
+            `${specName} ${className}`;
+
+        $("#classTreeTitle").textContent =
+            className;
+
+        $("#specTreeTitle").textContent =
+            specName;
+
+        $("#compareSpecOption").textContent =
+            specName;
+
+        $("#compendiumTabLabel").textContent =
+            `${specName} Compendium`;
+
+        $("#compendiumTitle").textContent =
+            `${specName} Compendium`;
+
+        document.title =
+            `${specName} ${className} · WoW PvP Talent Lab`;
+
 
         const verifiedAt =
             data.generated_at
@@ -680,8 +1177,7 @@
         }
 
 
-        select.addEventListener(
-            "change",
+        select.onchange =
             () => {
 
                 const oldHero =
@@ -712,8 +1208,7 @@
                 ensureFreeSelections();
 
                 renderTrees();
-            }
-        );
+            };
     }
 
 
@@ -4213,6 +4708,8 @@
     // ========================================================
 
     registerServiceWorker();
+
+    setupDatasetSelectors();
 
     renderHeader();
 
