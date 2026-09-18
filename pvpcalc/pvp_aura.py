@@ -57,6 +57,7 @@ def normalize_current_spec_aura(
     payload: dict,
     *,
     spec_name: str,
+    class_name: str | None = None,
 ) -> list[PvpAuraRule]:
     """
     Normalize one specialization's current PvP Aura.
@@ -88,6 +89,16 @@ def normalize_current_spec_aura(
 
     current_build = versions[0]
 
+    expected_names = {
+        spec_name.casefold(),
+    }
+
+    if class_name:
+        expected_names.add(
+            f"{spec_name} {class_name}"
+            .casefold()
+        )
+
     matches = [
         aura
         for aura in payload.get(
@@ -98,12 +109,9 @@ def normalize_current_spec_aura(
             str(
                 aura.get(
                     "spec",
-                    aura.get(
-                        "name",
-                        "",
-                    ),
+                    "",
                 )
-            ).casefold()
+            ).strip().casefold()
             == spec_name.casefold()
 
             or str(
@@ -111,11 +119,8 @@ def normalize_current_spec_aura(
                     "name",
                     "",
                 )
-            ).casefold()
-            == (
-                f"{spec_name} priest"
-                .casefold()
-            )
+            ).strip().casefold()
+            in expected_names
         )
     ]
 
