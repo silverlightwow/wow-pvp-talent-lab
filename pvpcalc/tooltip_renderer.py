@@ -5,11 +5,33 @@ import re
 from dataclasses import dataclass
 
 
-SPEC_NAMES = {
+# Legacy fallback for direct unit-level calls. Production catalog builds
+# pass the complete current specialization list discovered from the pinned
+# Raidbots snapshot, so spec-aware tooltip parsing is not Priest-specific.
+DEFAULT_SPEC_NAMES = {
     "discipline": "Discipline",
     "holy": "Holy",
     "shadow": "Shadow",
 }
+
+
+def _spec_names_map(
+    spec_names=None,
+) -> dict[str, str]:
+    names = (
+        list(spec_names)
+        if spec_names
+        else list(
+            DEFAULT_SPEC_NAMES.values()
+        )
+    )
+
+    return {
+        str(name).strip().casefold():
+            str(name).strip()
+        for name in names
+        if str(name).strip()
+    }
 
 
 @dataclass(frozen=True)
@@ -46,7 +68,10 @@ def _number(value):
     return value
 
 
-def _spec_label(line: str) -> str | None:
+def _spec_label(
+    line: str,
+    spec_names=None,
+) -> str | None:
 
     normalized = (
         _clean(line)
@@ -54,7 +79,9 @@ def _spec_label(line: str) -> str | None:
         .casefold()
     )
 
-    return SPEC_NAMES.get(
+    return _spec_names_map(
+        spec_names
+    ).get(
         normalized
     )
 
@@ -65,6 +92,7 @@ def _spec_label(line: str) -> str | None:
 
 def parse_tooltip_segments(
     tooltip: str,
+    spec_names=None,
 ) -> list[TooltipSegment]:
     """
     Convert:
@@ -104,7 +132,8 @@ def parse_tooltip_segments(
     for line in lines:
 
         label = _spec_label(
-            line
+            line,
+            spec_names,
         )
 
         if label is not None:
@@ -155,18 +184,22 @@ def parse_tooltip_segments(
 def tooltip_for_spec(
     tooltip: str,
     spec_name: str,
+    spec_names=None,
 ) -> str:
 
-    target = (
-        SPEC_NAMES.get(
-            spec_name.casefold(),
-            spec_name,
-        )
+    names = _spec_names_map(
+        spec_names
+    )
+
+    target = names.get(
+        spec_name.casefold(),
+        spec_name,
     )
 
     segments = (
         parse_tooltip_segments(
-            tooltip
+            tooltip,
+            spec_names,
         )
     )
 
@@ -634,6 +667,7 @@ def render_pvp_tooltip(
     tooltip: str,
     spec_name: str,
     effect_rows,
+    spec_names=None,
 ):
     """
     Render a spec-specific PvP tooltip.
@@ -653,6 +687,7 @@ def render_pvp_tooltip(
     pve_text = tooltip_for_spec(
         tooltip,
         spec_name,
+        spec_names,
     )
 
     pvp_text = pve_text
