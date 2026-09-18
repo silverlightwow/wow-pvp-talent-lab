@@ -38,7 +38,8 @@ jobs:
         run: pytest -q
 
       - name: Rebuild verified live dataset
-        run: python scripts/build_site_data.py --class-name Priest --spec-name Discipline
+        run: |
+          python scripts/build_site_data.py             --class-name Priest             --spec-name Discipline             --allow-existing-on-build-lag
 
       - name: Check frontend JavaScript
         run: node --check web/app.js
