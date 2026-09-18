@@ -1720,6 +1720,7 @@ async def audit_spec(
             .normalize_current_spec_aura(
                 aura_payload,
                 spec_name=spec_name,
+                class_name=class_name,
             )
         )
 
