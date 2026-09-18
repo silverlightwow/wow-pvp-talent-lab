@@ -838,12 +838,12 @@ def render_pvp_tooltip(
                     effect_index,
 
                 "match_ordinal":
-                    effect_row.get(
+                    row.get(
                         "same_value_text_ordinal"
                     ),
 
                 "match_group_count":
-                    effect_row.get(
+                    row.get(
                         "same_value_text_count"
                     ),
             }
