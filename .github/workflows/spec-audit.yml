@@ -10,9 +10,9 @@ on:
   workflow_dispatch:
     inputs:
       class_name:
-        description: "Class to audit; leave blank for Priest"
+        description: "Class to audit, or ALL"
         required: false
-        default: "Priest"
+        default: "ALL"
 
 permissions:
   contents: read
@@ -44,13 +44,20 @@ jobs:
 
       - name: Audit class specs
         env:
-          AUDIT_CLASS: ${{ inputs.class_name || 'Priest' }}
+          AUDIT_CLASS: ${{ inputs.class_name || 'ALL' }}
         run: |
-          python scripts/audit_all_specs.py \
-            --class-name "$AUDIT_CLASS" \
-            --parallel-specs 1 \
-            --concurrency 5 \
-            --output spec-audit.json
+          if [ "$AUDIT_CLASS" = "ALL" ]; then
+            python scripts/audit_all_specs.py \
+              --parallel-specs 1 \
+              --concurrency 5 \
+              --output spec-audit.json
+          else
+            python scripts/audit_all_specs.py \
+              --class-name "$AUDIT_CLASS" \
+              --parallel-specs 1 \
+              --concurrency 5 \
+              --output spec-audit.json
+          fi
 
       - name: Upload audit report
         uses: actions/upload-artifact@v4
