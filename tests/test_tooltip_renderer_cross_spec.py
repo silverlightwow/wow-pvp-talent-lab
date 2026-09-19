@@ -665,3 +665,41 @@ def test_referenced_percent_and_invisible_nested_dependency_breath_of_eons():
         item["status"] == "NESTED_DEPENDENCY_NOT_VISIBLE"
         for item in result["diagnostics"]
     )
+
+
+def test_named_variable_context_selects_prismatic_barrier_absorb_formula():
+    tooltip = (
+        "3% of base mana\n"
+        "Instant\n"
+        "30 sec cooldown\n"
+        "Shields you with an arcane force, absorbing "
+        "[30 / 100 * Total Health * (1 + Versatility)] damage."
+    )
+
+    rows = [
+        {
+            "effect_index": 2,
+            "effect_text": "Apply Aura: Dummy (127)",
+            "base_value": 30,
+            "final_pvp_multiplier": 0.75,
+            "final_pvp_value": 22.5,
+            "simc_reference_contexts": [
+                "Shields you with an arcane force, absorbing "
+                "$<shield> damage."
+            ],
+        },
+    ]
+
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Arcane",
+        spec_names=["Arcane", "Fire", "Frost"],
+        effect_rows=rows,
+    )
+
+    assert result["render_status"] == "COMPLETE"
+    assert "30 sec cooldown" in result["pvp_tooltip"]
+    assert (
+        "[22.5 / 100 * Total Health"
+        in result["pvp_tooltip"]
+    )
