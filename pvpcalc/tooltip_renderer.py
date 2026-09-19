@@ -1749,6 +1749,24 @@ def render_pvp_tooltip(
                         or []
                     ),
 
+                "effect_origin":
+                    row.get(
+                        "effect_origin"
+                    ),
+
+                "dependency_kind":
+                    row.get(
+                        "dependency_kind"
+                    ),
+
+                "dependency_path":
+                    list(
+                        row.get(
+                            "dependency_path"
+                        )
+                        or []
+                    ),
+
                 "match_ordinal":
                     row.get(
                         "same_value_text_ordinal"
@@ -2042,6 +2060,28 @@ def render_pvp_tooltip(
 
                 status = (
                     "OTHER_SPEC_BRANCH"
+                )
+
+            elif (
+                transform.get(
+                    "effect_origin"
+                )
+                == "DEPENDENCY"
+                and len(
+                    transform.get(
+                        "dependency_path",
+                        [],
+                    )
+                ) > 2
+            ):
+
+                # A nested implementation/formula dependency can carry
+                # a real PvP mechanic without exposing its own raw
+                # numeric parameter in the parent talent tooltip.
+                # Preserve it in mechanics, but do not fail the parent
+                # renderer solely because that internal value is absent.
+                status = (
+                    "NESTED_DEPENDENCY_NOT_VISIBLE"
                 )
 
             else:
