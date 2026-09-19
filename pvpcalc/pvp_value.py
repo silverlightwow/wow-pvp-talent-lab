@@ -3,6 +3,8 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Iterable
 
+from . import pvp_aura
+
 
 # ============================================================
 # Effect kinds
@@ -34,51 +36,39 @@ def matching_aura_rules(
     aura_rules,
     *,
     spell_id: int,
-    amount_kind: str,
+    amount_kind: str | None,
+    effect_index: int | None = None,
+    spell_label_ids=(),
 ):
     """
-    Return ONLY PvP Aura rules applicable to this particular
-    output effect.
-
-    Critical:
-        direct   != periodic
-        periodic != direct
-        absorb   != direct
-
-    Merely having the spell in affected_spells is not enough.
+    Return only PvP Aura rules applicable to this concrete spell
+    effect. Supports ordinary output buckets, effect-index rules,
+    and exact-build SpellLabel targeting.
     """
 
-    result = []
-
-    for rule in aura_rules:
-
-        if rule.amount_kind != amount_kind:
-            continue
-
-        affected_ids = {
-            int(spell_id_)
-            for spell_id_, _
-            in rule.affected_spells
-        }
-
-        if int(spell_id) not in affected_ids:
-            continue
-
-        result.append(rule)
-
-    return result
+    return pvp_aura.rules_for_spell(
+        aura_rules,
+        spell_id,
+        amount_kind=amount_kind,
+        effect_index=effect_index,
+        spell_label_ids=spell_label_ids,
+    )
 
 
 def combined_matching_aura_factor(
     aura_rules,
     *,
     spell_id: int,
-    amount_kind: str,
+    amount_kind: str | None,
+    effect_index: int | None = None,
+    spell_label_ids=(),
 ):
     rules = matching_aura_rules(
         aura_rules,
         spell_id=spell_id,
         amount_kind=amount_kind,
+        effect_index=effect_index,
+        spell_label_ids=spell_label_ids,
     )
 
     factor = 1.0
@@ -90,7 +80,6 @@ def combined_matching_aura_factor(
 
     return factor, rules
 
-
 def calculate_pvp_value(
     *,
     base_value: float,
@@ -98,6 +87,8 @@ def calculate_pvp_value(
     spell_id: int,
     amount_kind: str | None,
     aura_rules,
+    effect_index: int | None = None,
+    spell_label_ids=(),
 ) -> PvpValueResult:
     """
     Calculate:
@@ -126,21 +117,16 @@ def calculate_pvp_value(
     )
 
 
-    if amount_kind is None:
-
-        aura_factor = 1.0
-        matched_rules = []
-
-    else:
-
-        (
-            aura_factor,
-            matched_rules,
-        ) = combined_matching_aura_factor(
-            aura_rules,
-            spell_id=spell_id,
-            amount_kind=amount_kind,
-        )
+    (
+        aura_factor,
+        matched_rules,
+    ) = combined_matching_aura_factor(
+        aura_rules,
+        spell_id=spell_id,
+        amount_kind=amount_kind,
+        effect_index=effect_index,
+        spell_label_ids=spell_label_ids,
+    )
 
 
     final = (
