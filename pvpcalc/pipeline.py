@@ -1527,6 +1527,323 @@ def _simc_effect_text_for_renderer(
     return text
 
 
+def _simc_row_from_effect(
+    *,
+    simc_dump,
+    spell_id: int,
+    simc_effect,
+    talent: dict,
+    sources: list[str],
+    confidence: str,
+) -> dict:
+
+    coefficient_based = (
+        simc_effect.sp_coefficient
+        is not None
+        or simc_effect.ap_coefficient
+        is not None
+    )
+
+    base_value = (
+        None
+        if coefficient_based
+        else simc_effect.base_value
+    )
+
+    multiplier = (
+        float(
+            simc_effect.pvp_coefficient
+        )
+        if simc_effect.pvp_coefficient
+        is not None
+        else 1.0
+    )
+
+    effect_text = (
+        _simc_effect_text_for_renderer(
+            simc_effect
+        )
+    )
+
+    return {
+        "class_name":
+            talent.get(
+                "class_name"
+            ),
+
+        "spec_name":
+            talent.get(
+                "spec_name"
+            ),
+
+        "tree_type":
+            talent.get(
+                "tree_type"
+            ),
+
+        "hero_tree":
+            talent.get(
+                "hero_tree"
+            ),
+
+        "node_id":
+            talent.get(
+                "node_id"
+            ),
+
+        "entry_id":
+            talent.get(
+                "entry_id"
+            ),
+
+        "talent_name":
+            talent.get(
+                "talent_name"
+            ),
+
+        "spell_id":
+            int(spell_id),
+
+        "effect_index":
+            int(
+                simc_effect.effect_index
+            ),
+
+        "effect_text":
+            effect_text,
+
+        "wowhead_raw":
+            effect_text,
+
+        "simc_raw":
+            simc_dump.spells[
+                int(spell_id)
+            ].raw,
+
+        "same_value_text_ordinal":
+            None,
+
+        "same_value_text_count":
+            None,
+
+        "base_value":
+            base_value,
+
+        "pvp_multiplier":
+            multiplier,
+
+        "pvp_value":
+            (
+                float(base_value)
+                * multiplier
+                if base_value
+                is not None
+                else None
+            ),
+
+        "is_pvp_modified":
+            _is_modified(
+                multiplier
+            ),
+
+        "wowhead_present":
+            False,
+
+        "drustvar_matched":
+            (
+                "drustvar"
+                in sources
+            ),
+
+        "sources":
+            list(
+                sources
+            ),
+
+        "confidence":
+            confidence,
+
+        "conflicts":
+            [],
+
+        "match_reason":
+            "simc_exact_build",
+
+        "semantic_score":
+            None,
+
+        "wowhead_multiplier":
+            None,
+
+        "simc_multiplier":
+            multiplier,
+
+        "drustvar_multiplier":
+            None,
+
+        "multiplier_delta":
+            None,
+
+        "drustvar_effect_text":
+            None,
+
+        "simc_base_value":
+            simc_effect.base_value,
+
+        "simc_sp_coefficient":
+            simc_effect.sp_coefficient,
+
+        "simc_ap_coefficient":
+            simc_effect.ap_coefficient,
+
+        "simc_pvp_coefficient":
+            simc_effect.pvp_coefficient,
+
+        "base_value_source":
+            (
+                "simc_exact_build_coefficient"
+                if coefficient_based
+                else "simc_exact_build"
+            ),
+
+        "simc_corroborated":
+            True,
+    }
+
+
+def _build_simc_aura_rows(
+    *,
+    spell_ids: set[int],
+    talent_by_spell: dict[int, dict],
+    aura_rules: list,
+    simc_dump,
+    existing_keys=(),
+) -> list[dict]:
+    """
+    Materialize output/effect rows for PvP-Aura-only mechanics even when
+    Wowhead exposes no structured SpellEffect block.
+
+    Exact-build SimC supplies concrete SpellEffect identity and output
+    semantics; Drustvar supplies the specialization PvP Aura rule.
+    """
+
+    existing = {
+        (
+            int(spell_id),
+            int(effect_index),
+        )
+        for (
+            spell_id,
+            effect_index,
+        )
+        in existing_keys
+        if (
+            spell_id is not None
+            and effect_index is not None
+        )
+    }
+
+    rows = []
+
+    for spell_id in sorted(
+        {
+            int(value)
+            for value in spell_ids
+        }
+    ):
+
+        spell = simc_dump.spells.get(
+            spell_id
+        )
+
+        if spell is None:
+            continue
+
+        labels = (
+            simc.spell_label_ids(
+                simc_dump,
+                spell_id,
+            )
+        )
+
+        talent = talent_by_spell.get(
+            spell_id,
+            {},
+        )
+
+        for simc_effect in (
+            simc.parse_spell_effects(
+                spell
+            ).values()
+        ):
+
+            key = (
+                spell_id,
+                int(
+                    simc_effect.effect_index
+                ),
+            )
+
+            if key in existing:
+                continue
+
+            effect_text = (
+                _simc_effect_text_for_renderer(
+                    simc_effect
+                )
+            )
+
+            amount_kind = (
+                _infer_amount_kind(
+                    effect_text
+                )
+            )
+
+            applicable = (
+                pvp_aura.rules_for_spell(
+                    aura_rules,
+                    spell_id,
+                    amount_kind=
+                        amount_kind,
+                    effect_index=
+                        simc_effect.effect_index,
+                    spell_label_ids=
+                        labels,
+                )
+            )
+
+            if not applicable:
+                continue
+
+            row = _simc_row_from_effect(
+                simc_dump=
+                    simc_dump,
+                spell_id=
+                    spell_id,
+                simc_effect=
+                    simc_effect,
+                talent=
+                    talent,
+                sources=[
+                    "simc",
+                    "drustvar",
+                ],
+                confidence=
+                    "high",
+            )
+
+            row[
+                "match_reason"
+            ] = (
+                "simc_pvp_aura"
+            )
+
+            rows.append(row)
+            existing.add(key)
+
+    return rows
+
+
 def _simc_effect_observations(
     simc_dump,
     spell_id: int,
@@ -2833,6 +3150,50 @@ async def audit_spec(
         )
 
 
+    direct_existing_keys = {
+        (
+            int(
+                row.get(
+                    "source_spell_id",
+                    row["spell_id"],
+                )
+            ),
+            row.get(
+                "effect_index"
+            ),
+        )
+        for row in result.effect_rows
+        if row.get(
+            "effect_index"
+        ) is not None
+    }
+
+    direct_simc_aura_rows = (
+        _build_simc_aura_rows(
+            spell_ids=
+                aura_candidate_ids,
+            talent_by_spell=
+                talent_by_spell,
+            aura_rules=
+                aura_rules,
+            simc_dump=
+                simc_dump,
+            existing_keys=
+                direct_existing_keys,
+        )
+    )
+
+    if direct_simc_aura_rows:
+
+        _init_history_schema(
+            direct_simc_aura_rows
+        )
+
+        result.effect_rows.extend(
+            direct_simc_aura_rows
+        )
+
+
     # Annotate ALL direct rows with complete PvP layering.
     for row in result.effect_rows:
 
@@ -2992,6 +3353,43 @@ async def audit_spec(
                 in child_simc_resolved_ids
             )
         ]
+
+
+        child_existing_keys = {
+            (
+                int(
+                    row.get(
+                        "source_spell_id",
+                        row["spell_id"],
+                    )
+                ),
+                row.get(
+                    "effect_index"
+                ),
+            )
+            for row in child_rows
+            if row.get(
+                "effect_index"
+            ) is not None
+        }
+
+        child_rows.extend(
+            _build_simc_aura_rows(
+                spell_ids={
+                    source_id
+                },
+                talent_by_spell={
+                    source_id:
+                        parent_talent
+                },
+                aura_rules=
+                    aura_rules,
+                simc_dump=
+                    simc_dump,
+                existing_keys=
+                    child_existing_keys,
+            )
+        )
 
 
         kind = _classify_dependency(
