@@ -1345,9 +1345,7 @@ def _fill_missing_base_values_from_simc(
             simc_effect.pvp_coefficient
         )
 
-        row[
-            "simc_reference_contexts"
-        ] = list(
+        own_reference_contexts = list(
             simc.effect_reference_contexts(
                 simc_dump,
                 spell_id,
@@ -1355,13 +1353,37 @@ def _fill_missing_base_values_from_simc(
             )
         )
 
+        existing_reference_contexts = list(
+            row.get(
+                "simc_reference_contexts",
+                [],
+            )
+            or []
+        )
+
         row[
-            "semantic_unit_hint"
-        ] = simc.effect_unit_hint(
+            "simc_reference_contexts"
+        ] = list(
+            dict.fromkeys(
+                [
+                    *existing_reference_contexts,
+                    *own_reference_contexts,
+                ]
+            )
+        )
+
+        own_unit_hint = simc.effect_unit_hint(
             simc_dump,
             spell_id,
             int(effect_index),
         )
+
+        if not row.get(
+            "semantic_unit_hint"
+        ):
+            row[
+                "semantic_unit_hint"
+            ] = own_unit_hint
 
 
         row_multiplier = row.get(
@@ -3791,6 +3813,30 @@ async def audit_spec(
 
         for row in child_rows:
 
+            effect_index = row.get(
+                "effect_index"
+            )
+
+            dependency_contexts = (
+                simc.dependency_effect_reference_contexts(
+                    dependency,
+                    source_id,
+                    int(effect_index),
+                )
+                if effect_index is not None
+                else tuple()
+            )
+
+            dependency_unit_hint = (
+                simc.dependency_effect_unit_hint(
+                    dependency,
+                    source_id,
+                    int(effect_index),
+                )
+                if effect_index is not None
+                else None
+            )
+
             row.update(
                 {
                     "effect_origin":
@@ -3813,6 +3859,30 @@ async def audit_spec(
 
                     "dependency_evidence":
                         dependency.evidence,
+
+                    "simc_reference_contexts":
+                        list(
+                            dict.fromkeys(
+                                [
+                                    *list(
+                                        row.get(
+                                            "simc_reference_contexts",
+                                            [],
+                                        )
+                                        or []
+                                    ),
+                                    *dependency_contexts,
+                                ]
+                            )
+                        ),
+
+                    "semantic_unit_hint":
+                        (
+                            row.get(
+                                "semantic_unit_hint"
+                            )
+                            or dependency_unit_hint
+                        ),
                 }
             )
 
