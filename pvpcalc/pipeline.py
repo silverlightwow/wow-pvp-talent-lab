@@ -3273,6 +3273,65 @@ async def audit_spec(
                 ),
         )
 
+        simc_direct_missing_ids = {
+            int(item["spell_id"])
+            for item
+            in simc_direct_structured_unresolved
+            if (
+                item.get("reason")
+                == "NO_WOWHEAD_EFFECTS"
+                and item.get("spell_id")
+                is not None
+            )
+        }
+
+        (
+            simc_direct_fallback_rows,
+            simc_direct_resolved_ids,
+        ) = _build_simc_fallback_rows(
+            spell_ids=
+                simc_direct_missing_ids,
+            talent_by_spell=
+                talent_by_spell,
+            drustvar_by_spell=
+                _group_drustvar(
+                    dr_all,
+                    simc_direct_missing_ids,
+                ),
+            simc_dump=
+                simc_dump,
+        )
+
+        simc_direct_structured_rows.extend(
+            simc_direct_fallback_rows
+        )
+
+        simc_direct_structured_unresolved = [
+            item
+            for item
+            in simc_direct_structured_unresolved
+            if not (
+                item.get("reason")
+                == "NO_WOWHEAD_EFFECTS"
+                and int(
+                    item.get(
+                        "spell_id",
+                        -1,
+                    )
+                )
+                in simc_direct_resolved_ids
+            )
+        ]
+
+        simc_direct_structured_unresolved = (
+            _filter_simc_corroborated_unresolved(
+                simc_direct_structured_unresolved,
+                simc_dump=simc_dump,
+                wowhead_by_spell=
+                    result.wowhead_by_spell,
+            )
+        )
+
         _init_history_schema(
             simc_direct_structured_rows
         )
