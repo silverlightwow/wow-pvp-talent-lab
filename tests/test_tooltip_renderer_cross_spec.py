@@ -611,3 +611,57 @@ def test_unmodified_sibling_context_resolves_desperate_instincts():
         "below 35% Health is reduced by 5%."
         in result["pvp_tooltip"]
     )
+
+
+def test_referenced_percent_and_invisible_nested_dependency_breath_of_eons():
+    tooltip = (
+        "15 - 50 yd range\n"
+        "Temporal Wound\n"
+        "15% of damage dealt by allies affected by Ebon Might is copied "
+        "as additional Arcane damage to enemies after 10 sec."
+    )
+
+    rows = [
+        {
+            "effect_origin": "DEPENDENCY",
+            "dependency_kind": "REFERENCED",
+            "dependency_path": [403631, 409560],
+            "effect_index": 1,
+            "effect_text": "Apply Aura: Periodic Dummy",
+            "base_value": 15,
+            "final_pvp_multiplier": 1.5,
+            "final_pvp_value": 22.5,
+            "semantic_unit_hint": "percent",
+            "simc_reference_contexts": [
+                "Temporal Wound copies 15% of damage dealt by allies."
+            ],
+        },
+        {
+            "effect_origin": "DEPENDENCY",
+            "dependency_kind": "REFERENCED",
+            "dependency_path": [403631, 395152, 414878],
+            "effect_index": 1,
+            "effect_text": "Apply Aura: Modifies Effect #1's Value (3)",
+            "base_value": 1,
+            "final_pvp_multiplier": 0.5,
+            "final_pvp_value": 0.5,
+            "simc_reference_contexts": [
+                "Ebon Might increases allies' primary stat by an additional amount."
+            ],
+        },
+    ]
+
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Augmentation",
+        spec_names=["Devastation", "Preservation", "Augmentation"],
+        effect_rows=rows,
+    )
+
+    assert result["render_status"] == "COMPLETE"
+    assert "15 - 50 yd range" in result["pvp_tooltip"]
+    assert "22.5% of damage dealt" in result["pvp_tooltip"]
+    assert any(
+        item["status"] == "NESTED_DEPENDENCY_NOT_VISIBLE"
+        for item in result["diagnostics"]
+    )
