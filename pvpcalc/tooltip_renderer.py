@@ -1129,6 +1129,76 @@ def _select_reference_context_matches(
     if len(context_words) < 2:
         return []
 
+    # First try a stronger structural signal: if the provenance text
+    # with N explicit references maps to one unique player-facing line
+    # containing exactly N matching values, that line is the safe target.
+    line_candidates = []
+
+    offset = 0
+
+    for line in text.splitlines(
+        keepends=True
+    ):
+        line_start = offset
+        line_end = offset + len(line)
+        offset = line_end
+
+        line_matches = [
+            match
+            for match in matches
+            if (
+                line_start
+                <= match.start(1)
+                < line_end
+            )
+        ]
+
+        if len(line_matches) != expected:
+            continue
+
+        line_words = set(
+            _context_words(
+                line
+            )
+        )
+
+        overlap = len(
+            context_words
+            & line_words
+        )
+
+        if overlap >= 3:
+            line_candidates.append(
+                (
+                    overlap,
+                    line_matches,
+                )
+            )
+
+    line_candidates.sort(
+        key=lambda item:
+            -item[0]
+    )
+
+    if line_candidates:
+
+        best_overlap, best_matches = (
+            line_candidates[0]
+        )
+
+        second_overlap = (
+            line_candidates[1][0]
+            if len(line_candidates) > 1
+            else 0
+        )
+
+        if (
+            best_overlap
+            - second_overlap
+            >= 2
+        ):
+            return best_matches
+
     word_positions = {}
 
     for word in context_words:
