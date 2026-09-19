@@ -1215,10 +1215,13 @@ def _select_reference_context_matches(
         effect_origin=effect_origin,
     )
 
-    if (
-        expected <= 1
-        or expected >= len(matches)
-    ):
+    if expected <= 1:
+        return []
+
+    if expected == len(matches):
+        return list(matches)
+
+    if expected > len(matches):
         return []
 
     context_words = (
