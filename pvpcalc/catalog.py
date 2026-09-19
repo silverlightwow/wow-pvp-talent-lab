@@ -430,6 +430,45 @@ async def build_spec_catalog(
 
 
     # --------------------------------------------------------
+    # Context rows include unchanged sibling effects. They never
+    # create transformations themselves, but can disambiguate which
+    # repeated visible number belongs to a modified effect.
+    # --------------------------------------------------------
+
+    context_by_talent = {}
+
+    for row in audit.all_effect_rows:
+
+        origin = row.get(
+            "effect_origin",
+            "DIRECT",
+        )
+
+        dependency_kind = row.get(
+            "dependency_kind"
+        )
+
+        if (
+            origin != "DIRECT"
+            and dependency_kind
+            != "REFERENCED"
+        ):
+            continue
+
+        parent_id = int(
+            row.get(
+                "talent_spell_id",
+                row["spell_id"],
+            )
+        )
+
+        context_by_talent.setdefault(
+            parent_id,
+            [],
+        ).append(row)
+
+
+    # --------------------------------------------------------
     # Index only rows permitted to alter the MAIN tooltip.
     # --------------------------------------------------------
 
@@ -513,6 +552,12 @@ async def build_spec_catalog(
                 spec_names=
                     audit.metadata.get(
                         "classSpecNames"
+                    ),
+
+                context_rows=
+                    context_by_talent.get(
+                        spell_id,
+                        [],
                     ),
             )
         )
