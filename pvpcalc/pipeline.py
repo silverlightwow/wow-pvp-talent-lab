@@ -2518,6 +2518,7 @@ def _simc_corroborates_unresolved(
     if reason not in {
         "WOWHEAD_ONLY_MODIFIER",
         "UNMATCHED_DRUSTVAR_EFFECT",
+        "NO_WOWHEAD_EFFECTS",
     }:
         return False
 
@@ -2556,6 +2557,68 @@ def _simc_corroborates_unresolved(
             [],
         )
     )
+
+    if reason == "NO_WOWHEAD_EFFECTS":
+
+        dr_obs = EffectObservation(
+            source="drustvar",
+            spell_id=source_spell_id,
+            spell_name=str(
+                item.get(
+                    "talent_name"
+                )
+                or f"Spell {source_spell_id}"
+            ),
+            effect_index=0,
+            base_value=None,
+            pvp_multiplier=float(
+                multiplier
+            ),
+            effect_text=str(
+                item.get(
+                    "effect_text"
+                )
+                or ""
+            ),
+            patch=None,
+            url="",
+            raw="",
+        )
+
+        # Wowhead has no structured effect table here, but exact-build
+        # SimC can still establish concrete SpellEffect identities.
+        # If Drustvar independently reports the same current multiplier
+        # for a semantically compatible SimC effect, the missing Wowhead
+        # representation is a provenance gap rather than an unresolved
+        # game-state ambiguity.
+        for simc_effect in (
+            simc_effects.values()
+        ):
+            if (
+                simc_effect.pvp_coefficient
+                is None
+                or not multipliers_close(
+                    float(multiplier),
+                    float(
+                        simc_effect.pvp_coefficient
+                    ),
+                )
+            ):
+                continue
+
+            simc_obs = _simc_observation(
+                simc_dump,
+                source_spell_id,
+                simc_effect,
+            )
+
+            if semantic_score(
+                simc_obs,
+                dr_obs,
+            ) > 0:
+                return True
+
+        return False
 
     if reason == "WOWHEAD_ONLY_MODIFIER":
 
