@@ -966,3 +966,42 @@ def effect_for_spell(
         int(effect_index)
     )
 
+
+def pvp_modified_spell_ids(
+    dump: SimcDump,
+) -> set[int]:
+    """
+    Return spells with at least one non-identity exact-build
+    SpellEffect PvP coefficient.
+    """
+
+    result = set()
+
+    for spell_id, spell in (
+        dump.spells.items()
+    ):
+
+        for effect in (
+            parse_spell_effects(
+                spell
+            ).values()
+        ):
+
+            coefficient = (
+                effect.pvp_coefficient
+            )
+
+            if (
+                coefficient is not None
+                and abs(
+                    float(coefficient)
+                    - 1.0
+                ) > 1e-9
+            ):
+                result.add(
+                    int(spell_id)
+                )
+                break
+
+    return result
+
