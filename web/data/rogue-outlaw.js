@@ -91,7 +91,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 53.0,
           "new": 49.82,
@@ -101,7 +101,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "percent_value",
           "old": 30.0,
           "new": 20.00001,
@@ -3341,7 +3341,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 83.39999999999999,
           "new": 94.07519999999998,
@@ -3351,7 +3351,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             3
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "percent_value",
           "old": 30.0,
           "new": 20.00001,
@@ -4794,7 +4794,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 83.39999999999999,
           "new": 94.07519999999998,
@@ -8681,7 +8681,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "rogue-outlaw",
-  "generated_at": "2026-09-19T15:34:02.188952+00:00",
+  "generated_at": "2026-09-19T16:06:38.898731+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 13,

@@ -5180,7 +5180,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 1019.92,
           "new": 1286.1191199999998,
@@ -9312,7 +9312,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 658.507,
           "new": 638.7517899999999,
@@ -9921,7 +9921,7 @@
   ],
   "fetch_errors": [],
   "slug": "druid-restoration",
-  "generated_at": "2026-09-19T15:24:22.641498+00:00",
+  "generated_at": "2026-09-19T15:56:56.951794+00:00",
   "validation": {
     "talents": 147,
     "changed_tooltips": 22,

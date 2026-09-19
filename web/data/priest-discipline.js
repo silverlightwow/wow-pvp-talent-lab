@@ -985,7 +985,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 578.742,
           "new": 596.10426,
@@ -995,7 +995,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 682.0,
           "new": 590.0663999999999,
@@ -1005,7 +1005,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 874.0,
           "new": 756.1848,
@@ -9411,7 +9411,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "priest-discipline",
-  "generated_at": "2026-09-19T15:32:31.566826+00:00",
+  "generated_at": "2026-09-19T16:05:01.736720+00:00",
   "validation": {
     "talents": 133,
     "changed_tooltips": 23,

@@ -1245,7 +1245,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 26.8,
           "new": 27.604000000000003,
@@ -3512,7 +3512,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 91.53999999999999,
           "new": 94.2862,
@@ -3522,7 +3522,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 24.8,
           "new": 25.544,
@@ -3829,7 +3829,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 91.53999999999999,
           "new": 94.2862,
@@ -3839,7 +3839,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 24.8,
           "new": 25.544,
@@ -4356,7 +4356,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 91.53999999999999,
           "new": 94.2862,
@@ -4366,7 +4366,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 24.8,
           "new": 25.544,
@@ -4792,7 +4792,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 128.51999999999998,
           "new": 231.65729999999996,
@@ -4802,7 +4802,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 91.53999999999999,
           "new": 94.2862,
@@ -4812,7 +4812,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 24.8,
           "new": 25.544,
@@ -5310,7 +5310,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "ordinary_value",
           "old": 8.0,
           "new": 4.0,
@@ -5320,7 +5320,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 30.0,
           "new": 30.900000000000002,
@@ -7092,7 +7092,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 91.53999999999999,
           "new": 94.2862,
@@ -7102,7 +7102,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 24.8,
           "new": 25.544,
@@ -7308,7 +7308,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 91.53999999999999,
           "new": 94.2862,
@@ -7318,7 +7318,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 24.8,
           "new": 25.544,
@@ -7716,7 +7716,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 91.53999999999999,
           "new": 94.2862,
@@ -7726,7 +7726,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 24.8,
           "new": 25.544,
@@ -8261,8 +8261,11 @@ window.WOW_PVP_DATA = {
               "effect_index": 2,
               "effect_text": "Apply Aura: Dummy",
               "reference_contexts": [
-                "causing your next Frostfire Bolt to be instant cast, deal $431177s3% increased damage, explode for $s2% of its damage to nearby enemies. Damage reduced beyond $s5 targets.$?c2[]["
+                "Casting Frostfire spells has a $s3% chance to activate Frostfire Empowerment, causing your next Frostfire Bolt to be instant cast, deal $431177s3% increased damage, explode for $s2% of its damage to nearby enemies. Damage reduced beyond $s5 targets.$?c2[]["
               ],
+              "effect_origin": "DIRECT",
+              "dependency_kind": null,
+              "dependency_path": [],
               "match_ordinal": 1,
               "match_group_count": 2,
               "effect_indexes": [
@@ -8278,7 +8281,14 @@ window.WOW_PVP_DATA = {
               "effect_index": 3,
               "effect_text": "Apply Aura: Dummy",
               "reference_contexts": [
+                "Description : Casting Frostfire spells has a $s3% chance to activate Frostfire Empowerment, causing your next Frostfire Bolt to be instant cast, deal $431177s3% increased damage, explode for $s2% of its damage to nearby enemies. Damage reduced beyond $s5 targets.$?c2[][",
                 "Your next Frostfire Bolt deals $s3% additional damage, explodes for $<ffe>% of its damage to nearby enemies, and is instant cast."
+              ],
+              "effect_origin": "DEPENDENCY",
+              "dependency_kind": "REFERENCED",
+              "dependency_path": [
+                431176,
+                431177
               ],
               "match_ordinal": 1,
               "match_group_count": 1,
@@ -10160,7 +10170,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 91.53999999999999,
           "new": 94.2862,
@@ -10170,7 +10180,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 24.8,
           "new": 25.544,
@@ -10180,7 +10190,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 86.0,
           "new": 124.012,
@@ -10190,7 +10200,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 52.0,
           "new": 69.62800000000001,
@@ -10534,7 +10544,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "mage-frost",
-  "generated_at": "2026-09-19T15:28:10.362623+00:00",
+  "generated_at": "2026-09-19T16:00:42.563997+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 25,

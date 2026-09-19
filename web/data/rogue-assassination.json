@@ -91,7 +91,7 @@
           "effect_indexes": [
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 53.0,
           "new": 57.24,
@@ -101,7 +101,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "percent_value",
           "old": 30.0,
           "new": 20.00001,
@@ -8882,7 +8882,7 @@
           "end": 204,
           "old_token": "35",
           "new_token": "8.75",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2
           ]
@@ -8894,7 +8894,7 @@
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "35",
           "new": "8.75"
         }
@@ -8936,7 +8936,7 @@
   ],
   "fetch_errors": [],
   "slug": "rogue-assassination",
-  "generated_at": "2026-09-19T15:33:50.390878+00:00",
+  "generated_at": "2026-09-19T16:06:20.997009+00:00",
   "validation": {
     "talents": 131,
     "changed_tooltips": 21,

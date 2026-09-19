@@ -953,7 +953,7 @@ window.WOW_PVP_DATA = {
           "end": 134,
           "old_token": "12",
           "new_token": "8",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2
           ]
@@ -974,7 +974,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "12",
           "new": "8"
         }
@@ -5643,7 +5643,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 169.884,
           "new": 229.683168,
@@ -5653,7 +5653,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             5
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 113.375,
           "new": 147.38750000000002,
@@ -7839,7 +7839,7 @@ window.WOW_PVP_DATA = {
             1,
             3
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "ordinary_value",
           "old": 30.0,
           "new": 9.9,
@@ -7850,7 +7850,7 @@ window.WOW_PVP_DATA = {
             2,
             4
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "ordinary_value",
           "old": 50.0,
           "new": 16.5,
@@ -8308,7 +8308,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "death-knight-blood",
-  "generated_at": "2026-09-19T15:20:15.464811+00:00",
+  "generated_at": "2026-09-19T15:52:20.374163+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 16,
@@ -8319,23 +8319,14 @@ window.WOW_PVP_DATA = {
     "drustvar_builds": [
       "12.1.0.69587"
     ],
-    "verification_status": "PARTIAL",
+    "verification_status": "VERIFIED",
     "fetch_error_count": 0,
     "source_warning_count": 0,
-    "unresolved_count": 1,
+    "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [],
-    "unresolved_examples": [
-      {
-        "spell_id": 441894,
-        "talent_name": "Wither Away",
-        "side": "drustvar",
-        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
-        "multiplier": 0.0,
-        "effect_text": "Apply Aura (6) | Dummy (4)"
-      }
-    ],
+    "unresolved_examples": [],
     "review_required_examples": []
   }
 };

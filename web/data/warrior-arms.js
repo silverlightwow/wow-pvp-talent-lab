@@ -565,7 +565,7 @@ window.WOW_PVP_DATA = {
           "end": 154,
           "old_token": "30",
           "new_token": "20.1",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -586,7 +586,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "30",
           "new": "20.1"
         }
@@ -3439,7 +3439,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 376079,
           "source_spell_id": 1271985,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 0.47)",
+          "effect_text": "School Damage (Physical) (AP mod: 0.47 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -3466,10 +3466,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -4291,7 +4290,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 242.125,
           "new": 410.98297499999995,
@@ -7061,8 +7060,8 @@ window.WOW_PVP_DATA = {
           "new_token": "1",
           "kind": "percent_value",
           "effect_indexes": [
-            2,
             1,
+            2,
             3
           ]
         }
@@ -7079,8 +7078,8 @@ window.WOW_PVP_DATA = {
         },
         {
           "effect_indexes": [
-            2,
             1,
+            2,
             3
           ],
           "status": "APPLIED",
@@ -7097,7 +7096,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 444767,
           "source_spell_id": 445579,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 8.4042)",
+          "effect_text": "School Damage (Physical) (AP mod: 8.4042 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7133,8 +7132,36 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 444767,
+          "source_spell_id": 445584,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 3.0,
+          "spell_pvp_multiplier": 0.33334,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.33334,
+          "final_pvp_value": 1.0000200000000001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            444767,
+            445584
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -7144,7 +7171,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 444767,
           "source_spell_id": 445584,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Add Flat Modifier (107): Spell Critical Chance (7)",
+          "effect_text": "Apply Aura: Modifies Critical Strike Chance (7)",
           "base_value": 3.0,
           "spell_pvp_multiplier": 0.33334,
           "amount_kind": null,
@@ -7161,8 +7188,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -7171,35 +7199,8 @@ window.WOW_PVP_DATA = {
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 444767,
           "source_spell_id": 445584,
-          "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
-          "base_value": 3.0,
-          "spell_pvp_multiplier": 0.33334,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.33334,
-          "final_pvp_value": 1.0000200000000001,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            444767,
-            445584
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "simc"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 444767,
-          "source_spell_id": 445584,
           "effect_index": 3,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Critical Bonus Multiplier (15)",
+          "effect_text": "Apply Aura: Modifies Critical Strike Damage (15)",
           "base_value": 3.0,
           "spell_pvp_multiplier": 0.33334,
           "amount_kind": null,
@@ -7216,9 +7217,11 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
+            "drustvar",
             "simc"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 4
@@ -7407,7 +7410,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 444776,
           "source_spell_id": 446044,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Increase Speed% (31)",
+          "effect_text": "Apply Aura: Increase Run Speed %",
           "base_value": 70.0,
           "spell_pvp_multiplier": 0.72,
           "amount_kind": null,
@@ -7424,8 +7427,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -7724,7 +7728,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 446085,
           "source_spell_id": 446918,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -7741,9 +7745,10 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc"
           ],
-          "confidence": "medium"
+          "confidence": "ambiguous"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -7751,7 +7756,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 446085,
           "source_spell_id": 446918,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -7768,9 +7773,10 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc"
           ],
-          "confidence": "medium"
+          "confidence": "ambiguous"
         }
       ],
       "render_effect_count": 2
@@ -7989,8 +7995,8 @@ window.WOW_PVP_DATA = {
           "new_token": "1",
           "kind": "percent_value",
           "effect_indexes": [
-            2,
             1,
+            2,
             3
           ]
         }
@@ -8000,7 +8006,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 840.42,
           "new": 1058.9292,
@@ -8008,8 +8014,8 @@ window.WOW_PVP_DATA = {
         },
         {
           "effect_indexes": [
-            2,
             1,
+            2,
             3
           ],
           "status": "APPLIED",
@@ -8025,8 +8031,8 @@ window.WOW_PVP_DATA = {
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 444771,
           "source_spell_id": 445584,
-          "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Add Flat Modifier (107): Spell Critical Chance (7)",
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 3.0,
           "spell_pvp_multiplier": 0.33334,
           "amount_kind": null,
@@ -8043,8 +8049,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -8053,8 +8060,8 @@ window.WOW_PVP_DATA = {
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 444771,
           "source_spell_id": 445584,
-          "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Critical Strike Chance (7)",
           "base_value": 3.0,
           "spell_pvp_multiplier": 0.33334,
           "amount_kind": null,
@@ -8071,9 +8078,11 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
+            "drustvar",
             "simc"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8081,7 +8090,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 444771,
           "source_spell_id": 445584,
           "effect_index": 3,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Critical Bonus Multiplier (15)",
+          "effect_text": "Apply Aura: Modifies Critical Strike Damage (15)",
           "base_value": 3.0,
           "spell_pvp_multiplier": 0.33334,
           "amount_kind": null,
@@ -8098,9 +8107,11 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
+            "drustvar",
             "simc"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8108,7 +8119,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 444771,
           "source_spell_id": 445579,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 8.4042)",
+          "effect_text": "School Damage (Physical) (AP mod: 8.4042 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8148,10 +8159,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 4
@@ -8234,7 +8244,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 444775,
           "source_spell_id": 446005,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 7.71909)",
+          "effect_text": "School Damage (Physical) (AP mod: 7.71909 )",
           "base_value": null,
           "spell_pvp_multiplier": 0.615,
           "amount_kind": "direct",
@@ -8261,8 +8271,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -8707,7 +8718,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 436358,
           "source_spell_id": 440888,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical | Attributes: Add Target (Dest) Combat Reach to AOE (11) (AP mod: 12.3236)",
+          "effect_text": "School Damage (Physical) (AP mod: 12.3236 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8752,10 +8763,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 3
@@ -8870,7 +8880,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 429634,
           "source_spell_id": 440989,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 5.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -8887,8 +8897,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -8973,7 +8984,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 429639,
           "source_spell_id": 458480,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -40.0,
           "spell_pvp_multiplier": 0.75,
           "amount_kind": null,
@@ -8990,8 +9001,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -9225,7 +9237,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 440995,
           "source_spell_id": 440989,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 5.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -9242,8 +9254,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -9318,7 +9331,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 429641,
           "source_spell_id": 440989,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 5.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -9335,8 +9348,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -9682,7 +9696,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 431548,
           "source_spell_id": 440989,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 5.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -9699,8 +9713,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -9884,7 +9899,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1270710,
           "source_spell_id": 1270846,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Add Flat Modifier (107): Spell Critical Chance (7)",
+          "effect_text": "Apply Aura: Modifies Critical Strike Chance (7)",
           "base_value": 100.0,
           "spell_pvp_multiplier": 0.15,
           "amount_kind": null,
@@ -9901,8 +9916,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -9965,16 +9981,16 @@ window.WOW_PVP_DATA = {
           "new_token": "10",
           "kind": "percent_value",
           "effect_indexes": [
-            3,
-            1
+            1,
+            3
           ]
         }
       ],
       "diagnostics": [
         {
           "effect_indexes": [
-            3,
-            1
+            1,
+            3
           ],
           "status": "APPLIED",
           "kind": "percent_value",
@@ -9989,36 +10005,8 @@ window.WOW_PVP_DATA = {
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 429636,
           "source_spell_id": 447513,
-          "effect_index": 3,
-          "effect_text": "Apply Aura (6) | Modify Crit Damage Done% from Caster's Spells (501)",
-          "base_value": 20.0,
-          "spell_pvp_multiplier": 0.5,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.5,
-          "final_pvp_value": 10.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            429636,
-            447513
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "simc",
-            "drustvar"
-          ],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 429636,
-          "source_spell_id": 447513,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Modify Damage Done% to Caster (269)",
+          "effect_text": "Apply Aura: Mod Damage to Caster % (127)",
           "base_value": -20.0,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": null,
@@ -10045,8 +10033,36 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 429636,
+          "source_spell_id": 447513,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Mod Critical Damage Taken From Caster %",
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 10.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            429636,
+            447513
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -10056,7 +10072,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "warrior-arms",
-  "generated_at": "2026-09-19T15:38:46.319152+00:00",
+  "generated_at": "2026-09-19T16:10:21.112714+00:00",
   "validation": {
     "talents": 122,
     "changed_tooltips": 34,
@@ -10067,136 +10083,14 @@ window.WOW_PVP_DATA = {
     "drustvar_builds": [
       "12.1.0.69587"
     ],
-    "verification_status": "PARTIAL",
-    "fetch_error_count": 2,
-    "source_warning_count": 9,
-    "unresolved_count": 9,
+    "verification_status": "VERIFIED",
+    "fetch_error_count": 0,
+    "source_warning_count": 0,
+    "unresolved_count": 0,
     "review_required_count": 0,
-    "fetch_error_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 445584,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=445584'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 446918,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=446918'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 440888,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=440888/demolish'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 440989,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=440989'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 445579,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=445579'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 446005,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=446005'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 446044,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=446044'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
-    "unresolved_examples": [
-      {
-        "spell_id": 386634,
-        "talent_name": "Executioner's Precision",
-        "side": "drustvar",
-        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
-        "multiplier": 0.0,
-        "effect_text": "Apply Aura (6) | Trigger Spell with Value (231)"
-      },
-      {
-        "spell_id": 445584,
-        "talent_name": "Slayer's Dominance",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.33,
-        "effect_text": "Apply Aura (6) | Modify Damage Taken% from Caster's Spells (271)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 444767,
-        "source_spell_id": 445584,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          444767,
-          445584
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      },
-      {
-        "spell_id": 445584,
-        "talent_name": "Slayer's Dominance",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.33,
-        "effect_text": "Apply Aura (6) | Modify Crit Chance% from Caster's Spells (308)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 444767,
-        "source_spell_id": 445584,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          444767,
-          445584
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      },
-      {
-        "spell_id": 445584,
-        "talent_name": "Slayer's Dominance",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.33,
-        "effect_text": "Apply Aura (6) | Modify Crit Damage Done% from Caster's Spells (501)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 444767,
-        "source_spell_id": 445584,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          444767,
-          445584
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      },
-      {
-        "spell_id": 445584,
-        "talent_name": "Show No Mercy",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.33,
-        "effect_text": "Apply Aura (6) | Modify Damage Taken% from Caster's Spells (271)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 444771,
-        "source_spell_id": 445584,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          444771,
-          445584
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      }
-    ],
+    "fetch_error_examples": [],
+    "source_warning_examples": [],
+    "unresolved_examples": [],
     "review_required_examples": []
   }
 };

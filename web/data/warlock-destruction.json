@@ -5205,7 +5205,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 55.00000000000001,
           "new": 57.75000000000001,
@@ -5215,7 +5215,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 60.0,
           "new": 63.0,
@@ -9211,7 +9211,7 @@
   ],
   "fetch_errors": [],
   "slug": "warlock-destruction",
-  "generated_at": "2026-09-19T15:36:45.888381+00:00",
+  "generated_at": "2026-09-19T16:09:17.595189+00:00",
   "validation": {
     "talents": 129,
     "changed_tooltips": 26,

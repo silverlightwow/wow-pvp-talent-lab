@@ -431,7 +431,7 @@
           "end": 154,
           "old_token": "30",
           "new_token": "20.1",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -443,7 +443,7 @@
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "30",
           "new": "20.1"
         }
@@ -709,7 +709,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 124.581,
           "new": 143.26815,
@@ -3255,7 +3255,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "percent_value",
           "old": 3.0,
           "new": 2.000001,
@@ -4212,7 +4212,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 203.065,
           "new": 258.907875,
@@ -4222,7 +4222,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 118.455,
           "new": 151.030125,
@@ -4232,7 +4232,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 152.29999999999998,
           "new": 194.18249999999998,
@@ -4242,7 +4242,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 270.756,
           "new": 345.21389999999997,
@@ -5783,7 +5783,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "percent_value",
           "old": 3.0,
           "new": 2.000001,
@@ -8600,7 +8600,7 @@
   ],
   "fetch_errors": [],
   "slug": "warrior-fury",
-  "generated_at": "2026-09-19T15:38:26.737039+00:00",
+  "generated_at": "2026-09-19T16:10:31.956134+00:00",
   "validation": {
     "talents": 122,
     "changed_tooltips": 17,

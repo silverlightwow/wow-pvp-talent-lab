@@ -4609,7 +4609,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 95.44,
           "new": 72.219448,
@@ -5983,7 +5983,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 95.44,
           "new": 72.219448,
@@ -9352,7 +9352,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "priest-shadow",
-  "generated_at": "2026-09-19T15:32:42.109951+00:00",
+  "generated_at": "2026-09-19T16:05:24.127036+00:00",
   "validation": {
     "talents": 138,
     "changed_tooltips": 17,

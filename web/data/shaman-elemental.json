@@ -1151,7 +1151,7 @@
           "end": 58,
           "old_token": "30",
           "new_token": "20",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -1163,7 +1163,7 @@
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "30",
           "new": "20"
         }
@@ -1176,7 +1176,7 @@
           "talent_spell_id": 462764,
           "source_spell_id": 462765,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -30.0,
           "spell_pvp_multiplier": 0.666667,
           "amount_kind": null,
@@ -1193,8 +1193,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4412,7 +4413,7 @@
           "talent_spell_id": 191634,
           "source_spell_id": 1264863,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Add Flat Modifier (107): Spell Effect 4 (32)",
+          "effect_text": "Apply Aura: Modifies Effect #4's Value (32)",
           "base_value": 25.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -4429,8 +4430,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -5129,7 +5131,7 @@
           "talent_spell_id": 462757,
           "source_spell_id": 462763,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature (SP mod: 0.715)",
+          "effect_text": "School Damage (Nature) (SP mod: 0.715)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5156,10 +5158,9 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -6366,7 +6367,7 @@
           "talent_spell_id": 470057,
           "source_spell_id": 1259101,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature (SP mod: 4)",
+          "effect_text": "School Damage (Nature) (SP mod: 4)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6393,10 +6394,9 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -6757,7 +6757,7 @@
           "talent_spell_id": 1259471,
           "source_spell_id": 1259491,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Dummy (4)",
+          "effect_text": "Apply Aura: Dummy",
           "base_value": 80.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -6774,8 +6774,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -8498,7 +8499,7 @@
           "talent_spell_id": 455096,
           "source_spell_id": 455097,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0) | Attributes: Suppress Points Stacking (6)",
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 40.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -8515,8 +8516,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -8951,7 +8953,7 @@
   ],
   "fetch_errors": [],
   "slug": "shaman-elemental",
-  "generated_at": "2026-09-19T15:35:25.378393+00:00",
+  "generated_at": "2026-09-19T16:08:03.187788+00:00",
   "validation": {
     "talents": 140,
     "changed_tooltips": 19,
@@ -8962,49 +8964,14 @@
     "drustvar_builds": [
       "12.1.0.69587"
     ],
-    "verification_status": "PARTIAL",
+    "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 6,
-    "unresolved_count": 1,
+    "source_warning_count": 0,
+    "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 455097,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=455097'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 462763,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=462763'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 462765,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=462765'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1259101,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1259101'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1259491,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1259491'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
-    "unresolved_examples": [
-      {
-        "spell_id": 114050,
-        "talent_name": "Ascendance",
-        "side": "drustvar",
-        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
-        "multiplier": 0.0,
-        "effect_text": "Dummy (3)"
-      }
-    ],
+    "source_warning_examples": [],
+    "unresolved_examples": [],
     "review_required_examples": []
   }
 }

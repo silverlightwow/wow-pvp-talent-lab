@@ -8342,7 +8342,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 284.4,
           "new": 189.12599999999998,
@@ -8650,7 +8650,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "hunter-marksmanship",
-  "generated_at": "2026-09-19T15:25:54.468472+00:00",
+  "generated_at": "2026-09-19T15:58:19.512342+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 23,

@@ -5413,7 +5413,7 @@ window.WOW_PVP_DATA = {
             1,
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "percent_value",
           "old": 8.0,
           "new": 3.68,
@@ -5424,7 +5424,7 @@ window.WOW_PVP_DATA = {
             3,
             4
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "ordinary_value",
           "old": 8.0,
           "new": 8.96,
@@ -5815,7 +5815,7 @@ window.WOW_PVP_DATA = {
             1,
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "percent_value",
           "old": 8.0,
           "new": 3.68,
@@ -5826,7 +5826,7 @@ window.WOW_PVP_DATA = {
             3,
             4
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "ordinary_value",
           "old": 8.0,
           "new": 8.96,
@@ -5836,7 +5836,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 800.0,
           "new": 720.0,
@@ -8212,7 +8212,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 1200.0,
           "new": 540.0,
@@ -8222,7 +8222,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 1440.0,
           "new": 648.0,
@@ -8232,7 +8232,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 40.0,
           "new": 36.0,
@@ -8955,7 +8955,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "hunter-beast-mastery",
-  "generated_at": "2026-09-19T15:25:53.198469+00:00",
+  "generated_at": "2026-09-19T15:58:20.116373+00:00",
   "validation": {
     "talents": 129,
     "changed_tooltips": 18,

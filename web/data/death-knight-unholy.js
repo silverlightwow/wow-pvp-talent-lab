@@ -953,7 +953,7 @@ window.WOW_PVP_DATA = {
           "end": 134,
           "old_token": "12",
           "new_token": "8",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2
           ]
@@ -974,7 +974,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "12",
           "new": "8"
         }
@@ -6081,7 +6081,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 169.884,
           "new": 234.27683136,
@@ -6091,7 +6091,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             5
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 113.375,
           "new": 150.33525,
@@ -7044,7 +7044,7 @@ window.WOW_PVP_DATA = {
             1,
             3
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "ordinary_value",
           "old": 30.0,
           "new": 9.9,
@@ -7055,7 +7055,7 @@ window.WOW_PVP_DATA = {
             2,
             4
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "ordinary_value",
           "old": 50.0,
           "new": 16.5,
@@ -8683,7 +8683,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "death-knight-unholy",
-  "generated_at": "2026-09-19T15:20:40.207157+00:00",
+  "generated_at": "2026-09-19T15:52:10.521323+00:00",
   "validation": {
     "talents": 122,
     "changed_tooltips": 18,

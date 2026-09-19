@@ -329,7 +329,7 @@
           "end": 41,
           "old_token": "40",
           "new_token": "30",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -341,7 +341,7 @@
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "40",
           "new": "30"
         }
@@ -1226,7 +1226,7 @@
           "talent_spell_id": 450391,
           "source_spell_id": 132467,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 0.2 )",
+          "effect_text": "School Damage (2): nature (AP mod: 0.2)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -1253,9 +1253,10 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1
@@ -1341,7 +1342,7 @@
           "talent_spell_id": 123986,
           "source_spell_id": 148135,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 2.8 )",
+          "effect_text": "School Damage (2): nature | Attributes: Always AOE Line of Sight (5) (AP mod: 2.8)",
           "base_value": null,
           "spell_pvp_multiplier": 1.7,
           "amount_kind": "direct",
@@ -1368,9 +1369,8 @@
             }
           ],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -1980,7 +1980,7 @@
           "end": 58,
           "old_token": "70",
           "new_token": "50",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -1992,7 +1992,7 @@
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "70",
           "new": "50"
         }
@@ -4319,33 +4319,47 @@
         "icon": "achievement_brewery_2"
       },
       "pve_tooltip": "Drinking from your Brews has a 100% chance to toss a keg high into the air that lands nearby after 3 sec, dealing (100% of Attack Power) Physical damage to all enemies within 8 yards and reducing their movement speed by 50% for 15 sec.",
-      "pvp_tooltip": "Drinking from your Brews has a 100% chance to toss a keg high into the air that lands nearby after 3 sec, dealing (100% of Attack Power) Physical damage to all enemies within 8 yards and reducing their movement speed by 30% for 15 sec.",
+      "pvp_tooltip": "Drinking from your Brews has a 100% chance to toss a keg high into the air that lands nearby after 3 sec, dealing (85% of Attack Power) Physical damage to all enemies within 8 yards and reducing their movement speed by 30% for 15 sec.",
       "tooltip_changed": true,
-      "render_status": "REVIEW_REQUIRED",
+      "render_status": "CHANGED",
       "changes": [
         {
           "start": 220,
           "end": 222,
           "old_token": "50",
           "new_token": "30",
-          "kind": "percent_value",
+          "kind": "ordinary_value",
           "effect_indexes": [
             2
+          ]
+        },
+        {
+          "start": 115,
+          "end": 118,
+          "old_token": "100",
+          "new_token": "85",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
           ]
         }
       ],
       "diagnostics": [
         {
-          "effect_index": 1,
-          "status": "NO_RENDERABLE_VALUE",
-          "reason": "No safe player-facing numeric transformation"
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "100",
+          "new": "85"
         },
         {
           "effect_indexes": [
             2
           ],
           "status": "APPLIED",
-          "kind": "percent_value",
+          "kind": "ordinary_value",
           "old": "50",
           "new": "30"
         }
@@ -4357,8 +4371,36 @@
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 196730,
           "source_spell_id": 196733,
+          "effect_index": 2,
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "base_value": -50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            196730,
+            196733
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "simc",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 196730,
+          "source_spell_id": 196733,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical)",
+          "effect_text": "School Damage (2): physical (AP mod: 1)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4385,36 +4427,8 @@
             }
           ],
           "sources": [
-            "wowhead"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 196730,
-          "source_spell_id": 196733,
-          "effect_index": 2,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
-          "base_value": -50.0,
-          "spell_pvp_multiplier": 0.6,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.6,
-          "final_pvp_value": -30.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            196730,
-            196733
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -4482,7 +4496,7 @@
           "talent_spell_id": 116847,
           "source_spell_id": 148187,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 0.133 )",
+          "effect_text": "School Damage (2): physical (AP mod: 0.133)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4509,9 +4523,10 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0
@@ -6134,7 +6149,7 @@
           "talent_spell_id": 383994,
           "source_spell_id": 387621,
           "effect_index": 1,
-          "effect_text": "School Damage (Fire) (AP mod: 0.2 )",
+          "effect_text": "School Damage (2): fire | Attributes: Area Effects Use Target Radius (17) (AP mod: 0.2)",
           "base_value": null,
           "spell_pvp_multiplier": 1.35,
           "amount_kind": "direct",
@@ -6151,9 +6166,8 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -6351,7 +6365,7 @@
           "talent_spell_id": 418359,
           "source_spell_id": 418360,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 0.3 )",
+          "effect_text": "School Damage (2): nature (AP mod: 0.3)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6378,9 +6392,10 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1
@@ -6747,7 +6762,7 @@
           "talent_spell_id": 325153,
           "source_spell_id": 388867,
           "effect_index": 1,
-          "effect_text": "School Damage (Fire) (AP mod: 0.3 )",
+          "effect_text": "School Damage (2): fire (AP mod: 0.3)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6774,9 +6789,10 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1
@@ -9881,7 +9897,7 @@
   ],
   "fetch_errors": [],
   "slug": "monk-brewmaster",
-  "generated_at": "2026-09-19T15:28:25.641663+00:00",
+  "generated_at": "2026-09-19T16:01:37.330986+00:00",
   "validation": {
     "talents": 152,
     "changed_tooltips": 20,
@@ -9894,9 +9910,9 @@
     ],
     "verification_status": "PARTIAL",
     "fetch_error_count": 1,
-    "source_warning_count": 8,
+    "source_warning_count": 15,
     "unresolved_count": 2,
-    "review_required_count": 4,
+    "review_required_count": 3,
     "fetch_error_examples": [
       {
         "source": "wowhead",
@@ -9907,28 +9923,28 @@
     "source_warning_examples": [
       {
         "source": "wowhead",
-        "spell_id": 450342,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=450342'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 132467,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132467'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 450596,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=450596'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 148135,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=148135'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 450617,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=450617'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 148187,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=148187'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 451250,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=451250'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 196733,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=196733'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 1242373,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1242373'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 387621,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=387621'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [
@@ -9975,11 +9991,6 @@
       {
         "talent_name": "Fortifying Brew",
         "spell_id": 388917,
-        "status": "REVIEW_REQUIRED"
-      },
-      {
-        "talent_name": "Special Delivery",
-        "spell_id": 196730,
         "status": "REVIEW_REQUIRED"
       },
       {

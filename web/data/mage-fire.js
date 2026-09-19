@@ -50,10 +50,20 @@ window.WOW_PVP_DATA = {
         "icon": "ability_mage_moltenarmor"
       },
       "pve_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you in flame, absorbing [30 / 100 * Total Health * (1 + Versatility)] damage [\nMolten Skin\n:\nand reducing Physical damage taken by 0%\n] for 1 min.\nMelee attacks against you cause the attacker to take (14.375% of Spell Power) Fire damage.",
-      "pvp_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you in flame, absorbing [30 / 100 * Total Health * (1 + Versatility)] damage [\nMolten Skin\n:\nand reducing Physical damage taken by 0%\n] for 1 min.\nMelee attacks against you cause the attacker to take (13.0812% of Spell Power) Fire damage.",
+      "pvp_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you in flame, absorbing [22.5 / 100 * Total Health * (1 + Versatility)] damage [\nMolten Skin\n:\nand reducing Physical damage taken by 0%\n] for 1 min.\nMelee attacks against you cause the attacker to take (13.0812% of Spell Power) Fire damage.",
       "tooltip_changed": true,
-      "render_status": "REVIEW_REQUIRED",
+      "render_status": "CHANGED",
       "changes": [
+        {
+          "start": 82,
+          "end": 84,
+          "old_token": "30",
+          "new_token": "22.5",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2
+          ]
+        },
         {
           "start": 258,
           "end": 264,
@@ -70,11 +80,10 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             2
           ],
-          "status": "AMBIGUOUS_TEXT_MATCH",
+          "status": "APPLIED",
           "kind": "ordinary_value",
-          "old": 30.0,
-          "new": 22.5,
-          "match_count": 2
+          "old": "30",
+          "new": "22.5"
         },
         {
           "effect_indexes": [
@@ -1292,7 +1301,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 26.8,
           "new": 24.388,
@@ -6840,7 +6849,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 91.53999999999999,
           "new": 83.3014,
@@ -6850,7 +6859,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 24.8,
           "new": 22.568,
@@ -7274,8 +7283,11 @@ window.WOW_PVP_DATA = {
               "effect_index": 2,
               "effect_text": "Apply Aura: Dummy",
               "reference_contexts": [
-                "causing your next Frostfire Bolt to be instant cast, deal $431177s3% increased damage, explode for $s2% of its damage to nearby enemies. Damage reduced beyond $s5 targets.$?c2[]["
+                "Casting Frostfire spells has a $s3% chance to activate Frostfire Empowerment, causing your next Frostfire Bolt to be instant cast, deal $431177s3% increased damage, explode for $s2% of its damage to nearby enemies. Damage reduced beyond $s5 targets.$?c2[]["
               ],
+              "effect_origin": "DIRECT",
+              "dependency_kind": null,
+              "dependency_path": [],
               "match_ordinal": 1,
               "match_group_count": 2,
               "effect_indexes": [
@@ -7291,7 +7303,14 @@ window.WOW_PVP_DATA = {
               "effect_index": 3,
               "effect_text": "Apply Aura: Dummy",
               "reference_contexts": [
+                "Description : Casting Frostfire spells has a $s3% chance to activate Frostfire Empowerment, causing your next Frostfire Bolt to be instant cast, deal $431177s3% increased damage, explode for $s2% of its damage to nearby enemies. Damage reduced beyond $s5 targets.$?c2[][",
                 "Your next Frostfire Bolt deals $s3% additional damage, explodes for $<ffe>% of its damage to nearby enemies, and is instant cast."
+              ],
+              "effect_origin": "DEPENDENCY",
+              "dependency_kind": "REFERENCED",
+              "dependency_path": [
+                431176,
+                431177
               ],
               "match_ordinal": 1,
               "match_group_count": 1,
@@ -8246,7 +8265,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 91.53999999999999,
           "new": 83.3014,
@@ -8256,7 +8275,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 24.8,
           "new": 22.568,
@@ -8266,7 +8285,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 86.0,
           "new": 109.56400000000001,
@@ -8276,7 +8295,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 52.0,
           "new": 61.516000000000005,
@@ -8999,7 +9018,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 14.374999999999998,
           "new": 13.081249999999999,
@@ -9838,7 +9857,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "mage-fire",
-  "generated_at": "2026-09-19T15:27:10.058912+00:00",
+  "generated_at": "2026-09-19T16:00:07.250726+00:00",
   "validation": {
     "talents": 127,
     "changed_tooltips": 23,
@@ -9852,75 +9871,12 @@ window.WOW_PVP_DATA = {
     "verification_status": "PARTIAL",
     "fetch_error_count": 0,
     "source_warning_count": 0,
-    "unresolved_count": 3,
-    "review_required_count": 3,
+    "unresolved_count": 0,
+    "review_required_count": 2,
     "fetch_error_examples": [],
     "source_warning_examples": [],
-    "unresolved_examples": [
-      {
-        "spell_id": 449336,
-        "talent_name": "Merely a Setback",
-        "side": "drustvar",
-        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
-        "multiplier": 0.0,
-        "effect_text": "Apply Aura (6) | Dummy (4)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 449330,
-        "source_spell_id": 449336,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          449330,
-          449336
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      },
-      {
-        "spell_id": 1246023,
-        "talent_name": "Merely a Setback",
-        "side": "drustvar",
-        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
-        "multiplier": 0.0,
-        "effect_text": "Apply Aura (6) | Dummy (4)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 449330,
-        "source_spell_id": 1246023,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          449330,
-          1246023
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      },
-      {
-        "spell_id": 1246032,
-        "talent_name": "Explosive Potential",
-        "side": "drustvar",
-        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
-        "multiplier": 0.0,
-        "effect_text": "Apply Aura (6) | Dummy (4)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 1246030,
-        "source_spell_id": 1246032,
-        "dependency_kind": "RUNTIME",
-        "dependency_path": [
-          1246030,
-          1246032
-        ],
-        "dependency_relations": [
-          "trigger_spell"
-        ]
-      }
-    ],
+    "unresolved_examples": [],
     "review_required_examples": [
-      {
-        "talent_name": "Blazing Barrier",
-        "spell_id": 235313,
-        "status": "REVIEW_REQUIRED"
-      },
       {
         "talent_name": "Scorch",
         "spell_id": 2948,

@@ -7039,7 +7039,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 284.4,
           "new": 201.07079999999996,
@@ -7849,7 +7849,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 1200.0,
           "new": 606.0,
@@ -7859,7 +7859,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 1440.0,
           "new": 727.2,
@@ -7869,7 +7869,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 40.0,
           "new": 40.4,
@@ -8583,7 +8583,7 @@
   ],
   "fetch_errors": [],
   "slug": "hunter-survival",
-  "generated_at": "2026-09-19T15:26:21.457486+00:00",
+  "generated_at": "2026-09-19T15:59:09.042005+00:00",
   "validation": {
     "talents": 127,
     "changed_tooltips": 20,

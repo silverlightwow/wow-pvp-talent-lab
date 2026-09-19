@@ -6284,7 +6284,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 440.00000000000006,
           "new": 457.6000000000001,
@@ -8195,7 +8195,7 @@
   ],
   "fetch_errors": [],
   "slug": "evoker-devastation",
-  "generated_at": "2026-09-19T15:24:16.299436+00:00",
+  "generated_at": "2026-09-19T15:56:56.882292+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 12,

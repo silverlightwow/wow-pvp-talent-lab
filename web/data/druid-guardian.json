@@ -7739,7 +7739,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 188.5,
           "new": 209.4235,
@@ -8940,7 +8940,7 @@
   ],
   "fetch_errors": [],
   "slug": "druid-guardian",
-  "generated_at": "2026-09-19T15:22:57.795539+00:00",
+  "generated_at": "2026-09-19T15:55:35.815330+00:00",
   "validation": {
     "talents": 143,
     "changed_tooltips": 9,

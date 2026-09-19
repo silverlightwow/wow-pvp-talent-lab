@@ -4105,7 +4105,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 5.0,
           "new": 6.375,
@@ -5108,7 +5108,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "percent_value",
           "old": 50.0,
           "new": 33.33,
@@ -5118,7 +5118,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "percent_value",
           "old": 40.0,
           "new": 26.663999999999998,
@@ -7148,7 +7148,14 @@ window.WOW_PVP_DATA = {
               "effect_index": 2,
               "effect_text": "Apply Aura: Modifies Damage/Healing Done",
               "reference_contexts": [
+                "$DP=$?a223819[${1+$223819s2/100}][${1}]",
                 "Your next Holy Power spending ability is free and deals $s2% increased damage and healing."
+              ],
+              "effect_origin": "DEPENDENCY",
+              "dependency_kind": "REFERENCED",
+              "dependency_path": [
+                343527,
+                223819
               ],
               "match_ordinal": 1,
               "match_group_count": 1,
@@ -7164,8 +7171,14 @@ window.WOW_PVP_DATA = {
               "effect_index": 4,
               "effect_text": "Apply Aura: Mod All Damage Done % by Caster",
               "reference_contexts": [
-                "ea and causing them to take $s3% increased damage from your single target Holy Power abilities, and $s4% increased damage from other Holy Power abilities for $d.",
+                "Call down a blast of heavenly energy, dealing $s2 Holy damage to all targets in the area and causing them to take $s3% increased damage from your single target Holy Power abilities, and $s4% increased damage from other Holy Power abilities for $d.",
                 "Taking $w3% increased damage from $@auracaster's single target Holy Power abilities and $s4% increased damage from their other Holy Power abilities."
+              ],
+              "effect_origin": "DEPENDENCY",
+              "dependency_kind": "REFERENCED",
+              "dependency_path": [
+                343527,
+                343721
               ],
               "match_ordinal": 1,
               "match_group_count": 1,
@@ -7189,7 +7202,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 390.0,
           "new": 331.5,
@@ -7478,7 +7491,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "percent_value",
           "old": 50.0,
           "new": 30.0,
@@ -7488,7 +7501,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 65.28,
           "new": 55.488,
@@ -8110,7 +8123,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1261159,
           "source_spell_id": 1261160,
           "effect_index": 1,
-          "effect_text": "School Damage (2): holy | Attributes: Always AOE Line of Sight (5), Add Target (Dest) Combat Reach to AOE (11), Area Effects Use Target Radius (17) (AP mod: 3.31918)",
+          "effect_text": "School Damage (Holy) (AP mod: 3.31918 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8137,10 +8150,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -9889,7 +9901,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 63.74999999999999,
           "new": 70.44375,
@@ -9899,7 +9911,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             3
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "percent_value",
           "old": 50.0,
           "new": 30.0,
@@ -10932,7 +10944,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "paladin-retribution",
-  "generated_at": "2026-09-19T15:31:13.332032+00:00",
+  "generated_at": "2026-09-19T16:03:53.780570+00:00",
   "validation": {
     "talents": 137,
     "changed_tooltips": 28,
@@ -10945,17 +10957,11 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "PARTIAL",
     "fetch_error_count": 0,
-    "source_warning_count": 1,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 1,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 1261160,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1261160'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": [
       {

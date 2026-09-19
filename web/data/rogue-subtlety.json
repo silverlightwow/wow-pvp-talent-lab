@@ -91,7 +91,7 @@
           "effect_indexes": [
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 53.0,
           "new": 44.519999999999996,
@@ -101,7 +101,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "percent_value",
           "old": 30.0,
           "new": 20.00001,
@@ -3983,7 +3983,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "ordinary_value",
           "old": 15.0,
           "new": 10.000005,
@@ -7776,7 +7776,7 @@
             2
           ],
           "status": "OTHER_SPEC_BRANCH",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 35.0,
           "new": 8.75,
           "full_tooltip_match_count": 1
@@ -8880,7 +8880,7 @@
   ],
   "fetch_errors": [],
   "slug": "rogue-subtlety",
-  "generated_at": "2026-09-19T15:34:06.009177+00:00",
+  "generated_at": "2026-09-19T16:06:42.935359+00:00",
   "validation": {
     "talents": 135,
     "changed_tooltips": 17,

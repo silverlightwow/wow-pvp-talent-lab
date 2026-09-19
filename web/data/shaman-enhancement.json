@@ -5732,7 +5732,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 215.625,
           "new": 113.203125,
@@ -5742,7 +5742,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 120.0,
           "new": 126.0,
@@ -6521,7 +6521,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 97.7592,
           "new": 93.40891560000001,
@@ -8915,7 +8915,7 @@
   ],
   "fetch_errors": [],
   "slug": "shaman-enhancement",
-  "generated_at": "2026-09-19T15:35:30.217344+00:00",
+  "generated_at": "2026-09-19T16:07:44.425710+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 20,
@@ -8926,34 +8926,14 @@
     "drustvar_builds": [
       "12.1.0.69587"
     ],
-    "verification_status": "PARTIAL",
+    "verification_status": "VERIFIED",
     "fetch_error_count": 0,
     "source_warning_count": 0,
-    "unresolved_count": 1,
+    "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [],
-    "unresolved_examples": [
-      {
-        "spell_id": 114050,
-        "talent_name": "Deeply Rooted Elements",
-        "side": "drustvar",
-        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
-        "multiplier": 0.0,
-        "effect_text": "Dummy (3)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 378270,
-        "source_spell_id": 114050,
-        "dependency_kind": "EMBEDDED",
-        "dependency_path": [
-          378270,
-          114050
-        ],
-        "dependency_relations": [
-          "spelldesc_ref"
-        ]
-      }
-    ],
+    "unresolved_examples": [],
     "review_required_examples": []
   }
 }

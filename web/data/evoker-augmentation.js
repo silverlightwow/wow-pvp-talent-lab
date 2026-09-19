@@ -3957,7 +3957,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "ordinary_value",
           "old": 1.0,
           "new": 0.5,
@@ -6692,7 +6692,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 440.00000000000006,
           "new": 572.0000000000001,
@@ -8211,7 +8211,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 430.0,
           "new": 559.0,
@@ -8851,7 +8851,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "evoker-augmentation",
-  "generated_at": "2026-09-19T15:23:59.806925+00:00",
+  "generated_at": "2026-09-19T15:56:31.172858+00:00",
   "validation": {
     "talents": 134,
     "changed_tooltips": 11,

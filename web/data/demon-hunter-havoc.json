@@ -2705,7 +2705,7 @@
           "end": 101,
           "old_token": "15",
           "new_token": "25",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2
           ]
@@ -2717,7 +2717,7 @@
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "15",
           "new": "25"
         }
@@ -3279,7 +3279,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 115.67,
           "new": 122.14752000000001,
@@ -3289,7 +3289,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 73.6,
           "new": 77.7216,
@@ -3452,7 +3452,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 33.4,
           "new": 43.92768,
@@ -3919,20 +3919,30 @@
         "icon": "spell_shadow_manafeed"
       },
       "pve_tooltip": "Blur now reduces damage taken by an additional 10%.\nAdditionally, damage taken below 35% Health is reduced by 10%.",
-      "pvp_tooltip": "Blur now reduces damage taken by an additional 10%.\nAdditionally, damage taken below 35% Health is reduced by 10%.",
-      "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
-      "changes": [],
+      "pvp_tooltip": "Blur now reduces damage taken by an additional 10%.\nAdditionally, damage taken below 35% Health is reduced by 5%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 110,
+          "end": 112,
+          "old_token": "10",
+          "new_token": "5",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             2
           ],
-          "status": "AMBIGUOUS_TEXT_MATCH",
+          "status": "APPLIED",
           "kind": "ordinary_value",
-          "old": 10.0,
-          "new": 5.0,
-          "match_count": 2
+          "old": "10",
+          "new": "5"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5518,7 +5528,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 115.67,
           "new": 122.14752000000001,
@@ -5528,7 +5538,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 73.6,
           "new": 77.7216,
@@ -6593,7 +6603,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 40.26,
           "new": 38.6496,
@@ -6603,7 +6613,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 41.099999999999994,
           "new": 39.455999999999996,
@@ -7167,7 +7177,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 385.0,
           "new": 369.59999999999997,
@@ -8124,7 +8134,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 124.0,
           "new": 119.03999999999999,
@@ -8134,7 +8144,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "ordinary_value",
           "old": 6.0,
           "new": 3.0,
@@ -8144,7 +8154,7 @@
           "effect_indexes": [
             4
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "ordinary_value",
           "old": 100.0,
           "new": 33.0,
@@ -8154,7 +8164,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 385.0,
           "new": 369.59999999999997,
@@ -8578,7 +8588,7 @@
           "effect_indexes": [
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 44.0,
           "new": 42.239999999999995,
@@ -8588,7 +8598,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "percent_value",
           "old": 70.0,
           "new": 50.00002,
@@ -9953,10 +9963,10 @@
   ],
   "fetch_errors": [],
   "slug": "demon-hunter-havoc",
-  "generated_at": "2026-09-19T15:21:40.299159+00:00",
+  "generated_at": "2026-09-19T15:54:10.188637+00:00",
   "validation": {
     "talents": 125,
-    "changed_tooltips": 23,
+    "changed_tooltips": 24,
     "talents_with_pvp_mechanics": 42,
     "unique_nodes": 109,
     "tree_build": "12.1.0.69875",
@@ -9964,20 +9974,14 @@
     "drustvar_builds": [
       "12.1.0.69587"
     ],
-    "verification_status": "PARTIAL",
+    "verification_status": "VERIFIED",
     "fetch_error_count": 0,
     "source_warning_count": 0,
     "unresolved_count": 0,
-    "review_required_count": 1,
+    "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [],
     "unresolved_examples": [],
-    "review_required_examples": [
-      {
-        "talent_name": "Desperate Instincts",
-        "spell_id": 205411,
-        "status": "REVIEW_REQUIRED"
-      }
-    ]
+    "review_required_examples": []
   }
 }

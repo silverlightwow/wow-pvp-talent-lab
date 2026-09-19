@@ -2518,7 +2518,7 @@
           "end": 101,
           "old_token": "15",
           "new_token": "25",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2
           ]
@@ -2530,7 +2530,7 @@
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "15",
           "new": "25"
         }
@@ -5813,7 +5813,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "percent_value",
           "old": 70.0,
           "new": 50.00002,
@@ -7803,7 +7803,7 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 176.0,
           "new": 169.488,
@@ -8132,7 +8132,7 @@
   ],
   "fetch_errors": [],
   "slug": "demon-hunter-devourer",
-  "generated_at": "2026-09-19T15:21:31.109414+00:00",
+  "generated_at": "2026-09-19T15:53:25.129117+00:00",
   "validation": {
     "talents": 121,
     "changed_tooltips": 17,

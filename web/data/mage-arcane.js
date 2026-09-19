@@ -50,10 +50,20 @@ window.WOW_PVP_DATA = {
         "icon": "spell_magearmor"
       },
       "pve_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you with an arcane force, absorbing [30 / 100 * Total Health * (1 + Versatility)] damage and reducing magic damage taken by\n15\n% for 1 min.\nThe duration of harmful Magic effects against you is reduced by 25%.",
-      "pvp_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you with an arcane force, absorbing [30 / 100 * Total Health * (1 + Versatility)] damage and reducing magic damage taken by\n10\n% for 1 min.\nThe duration of harmful Magic effects against you is reduced by 15%.",
+      "pvp_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you with an arcane force, absorbing [22.5 / 100 * Total Health * (1 + Versatility)] damage and reducing magic damage taken by\n10\n% for 1 min.\nThe duration of harmful Magic effects against you is reduced by 15%.",
       "tooltip_changed": true,
-      "render_status": "REVIEW_REQUIRED",
+      "render_status": "CHANGED",
       "changes": [
+        {
+          "start": 94,
+          "end": 96,
+          "old_token": "30",
+          "new_token": "22.5",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2
+          ]
+        },
         {
           "start": 181,
           "end": 183,
@@ -80,11 +90,10 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             2
           ],
-          "status": "AMBIGUOUS_TEXT_MATCH",
+          "status": "APPLIED",
           "kind": "ordinary_value",
-          "old": 30.0,
-          "new": 22.5,
-          "match_count": 2
+          "old": "30",
+          "new": "22.5"
         },
         {
           "effect_indexes": [
@@ -1320,7 +1329,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 26.8,
           "new": 25.46,
@@ -3792,7 +3801,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 87.952,
           "new": 107.60971176000001,
@@ -5919,7 +5928,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 87.952,
           "new": 107.60971176000001,
@@ -8132,7 +8141,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 14.374999999999998,
           "new": 13.656249999999998,
@@ -8142,7 +8151,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "ordinary_value",
           "old": 30.0,
           "new": 22.5,
@@ -9046,7 +9055,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "mage-arcane",
-  "generated_at": "2026-09-19T15:26:53.726213+00:00",
+  "generated_at": "2026-09-19T15:59:49.589713+00:00",
   "validation": {
     "talents": 128,
     "changed_tooltips": 18,
@@ -9057,78 +9066,14 @@ window.WOW_PVP_DATA = {
     "drustvar_builds": [
       "12.1.0.69587"
     ],
-    "verification_status": "PARTIAL",
+    "verification_status": "VERIFIED",
     "fetch_error_count": 0,
     "source_warning_count": 0,
-    "unresolved_count": 3,
-    "review_required_count": 1,
+    "unresolved_count": 0,
+    "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [],
-    "unresolved_examples": [
-      {
-        "spell_id": 449336,
-        "talent_name": "Merely a Setback",
-        "side": "drustvar",
-        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
-        "multiplier": 0.0,
-        "effect_text": "Apply Aura (6) | Dummy (4)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 449330,
-        "source_spell_id": 449336,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          449330,
-          449336
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      },
-      {
-        "spell_id": 1246023,
-        "talent_name": "Merely a Setback",
-        "side": "drustvar",
-        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
-        "multiplier": 0.0,
-        "effect_text": "Apply Aura (6) | Dummy (4)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 449330,
-        "source_spell_id": 1246023,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          449330,
-          1246023
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      },
-      {
-        "spell_id": 1246032,
-        "talent_name": "Explosive Potential",
-        "side": "drustvar",
-        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
-        "multiplier": 0.0,
-        "effect_text": "Apply Aura (6) | Dummy (4)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 1246030,
-        "source_spell_id": 1246032,
-        "dependency_kind": "RUNTIME",
-        "dependency_path": [
-          1246030,
-          1246032
-        ],
-        "dependency_relations": [
-          "trigger_spell"
-        ]
-      }
-    ],
-    "review_required_examples": [
-      {
-        "talent_name": "Prismatic Barrier",
-        "spell_id": 235450,
-        "status": "REVIEW_REQUIRED"
-      }
-    ]
+    "unresolved_examples": [],
+    "review_required_examples": []
   }
 };

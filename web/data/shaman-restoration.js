@@ -323,7 +323,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 273.33,
           "new": 215.9307,
@@ -6520,7 +6520,7 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 215.625,
           "new": 107.8125,
@@ -9215,7 +9215,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "shaman-restoration",
-  "generated_at": "2026-09-19T15:35:31.259428+00:00",
+  "generated_at": "2026-09-19T16:07:37.536351+00:00",
   "validation": {
     "talents": 137,
     "changed_tooltips": 23,
@@ -9229,31 +9229,11 @@ window.WOW_PVP_DATA = {
     "verification_status": "PARTIAL",
     "fetch_error_count": 0,
     "source_warning_count": 0,
-    "unresolved_count": 1,
+    "unresolved_count": 0,
     "review_required_count": 1,
     "fetch_error_examples": [],
     "source_warning_examples": [],
-    "unresolved_examples": [
-      {
-        "spell_id": 114050,
-        "talent_name": "Deeply Rooted Elements",
-        "side": "drustvar",
-        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
-        "multiplier": 0.0,
-        "effect_text": "Dummy (3)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 378270,
-        "source_spell_id": 114050,
-        "dependency_kind": "EMBEDDED",
-        "dependency_path": [
-          378270,
-          114050
-        ],
-        "dependency_relations": [
-          "spelldesc_ref"
-        ]
-      }
-    ],
+    "unresolved_examples": [],
     "review_required_examples": [
       {
         "talent_name": "Acid Rain",
