@@ -9,6 +9,8 @@ on:
     paths:
       - ".github/workflows/all-data-pages.yml"
       - "scripts/build_all_site_data.py"
+      - "scripts/merge_class_datasets.py"
+      - "scripts/discover_classes.py"
       - "pvpcalc/**"
 
 permissions:
@@ -21,15 +23,15 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
+  discover:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 15
+    outputs:
+      classes: ${{ steps.matrix.outputs.classes }}
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -43,11 +45,121 @@ jobs:
       - name: Unit tests
         run: pytest -q
 
-      - name: Build every current specialization
+      - name: Discover current classes
+        id: matrix
+        run: python scripts/discover_classes.py --github-output "$GITHUB_OUTPUT"
+
+  build_class:
+    needs: discover
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+
+    # One class at a time is deliberate. Wowhead is the high-volume
+    # source and parallel class crawls caused self-inflicted 429s.
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        class_name: ${{ fromJSON(needs.discover.outputs.classes) }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install project
+        run: python -m pip install -e ".[dev]"
+
+      - name: Build current class
         run: |
           python scripts/build_all_site_data.py \
-            --output-dir web/data \
-            --concurrency 6
+            --class-name "${{ matrix.class_name }}" \
+            --output-dir class-data \
+            --concurrency 4
+
+      - name: Validate class artifact
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          manifest = json.loads(
+              Path("class-data/manifest.json")
+              .read_text(encoding="utf-8")
+          )
+
+          specs = [
+              spec
+              for cls in manifest["classes"]
+              for spec in cls["specs"]
+          ]
+
+          if not specs:
+              raise SystemExit("Class artifact contains no specs")
+
+          missing = []
+          for spec in specs:
+              slug = spec["slug"]
+              for suffix in (".json", ".js"):
+                  path = Path("class-data") / f"{slug}{suffix}"
+                  if not path.exists():
+                      missing.append(str(path))
+
+          if missing:
+              raise SystemExit(
+                  "Missing class dataset files: "
+                  + ", ".join(missing)
+              )
+
+          print(
+              f"Class artifact: {len(specs)} specs, "
+              f"build {manifest['tree_build']}"
+          )
+          PY
+
+      - name: Upload class datasets
+        uses: actions/upload-artifact@v4
+        with:
+          name: "class-data-${{ matrix.class_name }}"
+          path: class-data
+          retention-days: 1
+          if-no-files-found: error
+
+  aggregate:
+    needs:
+      - discover
+      - build_class
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download all class artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: "class-data-*"
+          path: staged-class-data
+          merge-multiple: false
+
+      - name: Merge production dataset snapshot
+        run: |
+          python scripts/merge_class_datasets.py \
+            --artifacts-root staged-class-data \
+            --output-dir web/data
 
       - name: Validate generated manifest
         run: |
@@ -84,46 +196,43 @@ jobs:
 
           print(
               f"Validated {count} specialization datasets "
-              f"for build {manifest['tree_build']}"
+              f"for build {manifest['tree_build']}; "
+              f"{manifest['verified_count']} verified, "
+              f"{manifest['partial_count']} partial"
           )
           PY
 
       - name: Check frontend JavaScript
         run: node --check web/app.js
 
-      - name: Commit verified generated datasets
+      - name: Commit generated datasets
         run: |
           if git diff --quiet -- web/data; then
             echo "Generated datasets are unchanged."
-            exit 0
-          fi
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add web/data
+            git commit -m "chore: refresh all PvP datasets [skip ci]"
 
-          git add web/data
-          git commit -m "chore: refresh verified PvP datasets [skip ci]"
+            pushed=false
+            for attempt in 1 2 3 4 5; do
+              git pull --rebase origin main
 
-          # main can advance while the long all-spec rebuild is running.
-          # Rebase the generated-data-only commit instead of failing with
-          # a non-fast-forward push. concurrency above cancels stale runs
-          # whenever a newer relevant main commit starts.
-          pushed=false
-          for attempt in 1 2 3 4 5; do
-            git pull --rebase origin main
+              if git push; then
+                pushed=true
+                break
+              fi
 
-            if git push; then
-              pushed=true
-              break
+              echo "Push raced with another main update; retrying ($attempt/5)..."
+              sleep 2
+            done
+
+            if [ "$pushed" != "true" ]; then
+              echo "Could not publish generated datasets after 5 attempts."
+              exit 1
             fi
-
-            echo "Push raced with another main update; retrying ($attempt/5)..."
-            sleep 2
-          done
-
-          if [ "$pushed" != "true" ]; then
-            echo "Could not publish generated datasets after 5 attempts."
-            exit 1
           fi
 
       - name: Configure GitHub Pages
@@ -141,7 +250,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build
+    needs: aggregate
 
     steps:
       - name: Deploy to GitHub Pages
