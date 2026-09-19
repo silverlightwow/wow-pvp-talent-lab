@@ -940,7 +940,7 @@ def test_frozen_dominion_formula_fallback_without_source_context():
 
 
 
-def test_sign_flip_requires_review_instead_of_wrong_wording():
+def test_sign_flip_rewrites_direction_when_player_text_is_explicit():
     tooltip = (
         "Deep Breath deals 20% increased damage."
     )
@@ -969,9 +969,43 @@ def test_sign_flip_requires_review_instead_of_wrong_wording():
         effect_rows=rows,
     )
 
+    assert result["render_status"] == "COMPLETE"
+    assert result["pvp_tooltip"] == (
+        "Deep Breath deals 20% reduced damage."
+    )
+    assert result["changed"]
+    assert any(
+        item["kind"] == "direction_word"
+        and item["old"] == "increased"
+        and item["new"] == "reduced"
+        for item in result["diagnostics"]
+        if item["status"] == "APPLIED"
+    )
+
+
+def test_sign_flip_without_directional_prose_still_requires_review():
+    tooltip = "Damage modifier: 20%."
+
+    rows = [
+        {
+            "effect_index": 1,
+            "effect_text": "Apply Aura: Dummy",
+            "base_value": 20,
+            "final_pvp_multiplier": -1,
+            "final_pvp_value": -20,
+        },
+    ]
+
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Devastation",
+        spec_names=[
+            "Devastation",
+            "Preservation",
+            "Augmentation",
+        ],
+        effect_rows=rows,
+    )
+
     assert result["render_status"] == "REVIEW_REQUIRED"
     assert result["pvp_tooltip"] == tooltip
-    assert any(
-        item["status"] == "NO_RENDERABLE_VALUE"
-        for item in result["diagnostics"]
-    )
