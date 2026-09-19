@@ -48,10 +48,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 358385,
         "icon": "ability_earthen_pillar"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "1.4% of base mana\n10 - 40 yd range\nInstant\n1.5 min cooldown\nConjure a path of shifting stone towards the target location, rooting enemies for 15 sec. Damage may cancel the effect.",
+      "pvp_tooltip": "1.4% of base mana\n10 - 40 yd range\nInstant\n1.5 min cooldown\nConjure a path of shifting stone towards the target location, rooting enemies for 15 sec. Damage may cancel the effect.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -99,10 +99,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 363916,
         "icon": "inv_artifact_dragonscales"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "300 yd range\nInstant\n1.5 min cooldown\n1 Charge\nReinforce your scales, reducing damage taken by\n30\n% [\nRenewing Blaze\n:\nand causing you to be healed over 8 sec equal to the damage it prevented\n]. Lasts 12 sec.",
+      "pvp_tooltip": "300 yd range\nInstant\n1.5 min cooldown\n1 Charge\nReinforce your scales, reducing damage taken by\n30\n% [\nRenewing Blaze\n:\nand causing you to be healed over 8 sec equal to the damage it prevented\n]. Lasts 12 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -150,10 +150,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 365585,
         "icon": "ability_evoker_fontofmagic_green"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "10% of base mana\n25 yd range\nInstant\n8 sec cooldown\nExpunge toxins affecting an ally, removing all Poison effects.",
+      "pvp_tooltip": "10% of base mana\n25 yd range\nInstant\n8 sec cooldown\nExpunge toxins affecting an ally, removing all Poison effects.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -205,10 +205,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 369913,
         "icon": "spell_frost_frostblast"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Disintegrate channels 20% faster and Eruption's cast time is reduced by 20%.",
+      "pvp_tooltip": "Disintegrate channels 20% faster and Eruption's cast time is reduced by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -260,10 +260,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 368838,
         "icon": "ability_racial_wingbuffet"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Wing Buffet's cooldown is reduced by 2 min.",
+      "pvp_tooltip": "Wing Buffet's cooldown is reduced by 2 min.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -315,15 +315,65 @@ window.WOW_PVP_DATA = {
         "spell_id": 360995,
         "icon": "ability_evoker_rescue"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "10% of base mana\n25 yd range\nInstant\n24 sec cooldown\n1 Charge\nFly to an ally and heal them for (1719% of Spell Power), or heal yourself for the same amount.",
+      "pvp_tooltip": "10% of base mana\n25 yd range\nInstant\n24 sec cooldown\n1 Charge\nFly to an ally and heal them for (1375.2% of Spell Power), or heal yourself for the same amount.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 96,
+          "end": 100,
+          "old_token": "1719",
+          "new_token": "1375.2",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "1719",
+          "new": "1375.2"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 360995,
+          "source_spell_id": 361195,
+          "effect_index": 1,
+          "effect_text": "Heal (SP mod: 17.19)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.8,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.8,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            360995,
+            361195
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Forger of Mountains",
@@ -366,10 +416,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 375528,
         "icon": "ability_earthen_pillar"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Landslide's cooldown is reduced by 30 sec, and it can withstand 200% more damage before breaking.",
+      "pvp_tooltip": "Landslide's cooldown is reduced by 30 sec, and it can withstand 200% more damage before breaking.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -422,10 +472,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 375520,
         "icon": "ability_evoker_innatemagic4"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Essence regenerates 5% faster.",
+      "pvp_tooltip": "Essence regenerates 5% faster.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -473,10 +523,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 375406,
         "icon": "inv_shield_1h_revenantfire_d_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Obsidian Scales has an additional charge.",
+      "pvp_tooltip": "Obsidian Scales has an additional charge.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -529,10 +579,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 375554,
         "icon": "ability_evoker_livingflame"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Living Flame deals 3% more damage and healing.",
+      "pvp_tooltip": "Living Flame deals 3% more damage and healing.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -580,10 +630,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 372469,
         "icon": "inv_bijou_red"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Store 20% of your effective healing, up to (Spell Power * 2.254 *\n1\n). Your next damaging Living Flame consumes all stored healing to increase its damage dealt.",
+      "pvp_tooltip": "Store 20% of your effective healing, up to (Spell Power * 2.254 *\n1\n). Your next damaging Living Flame consumes all stored healing to increase its damage dealt.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -635,10 +685,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 386405,
         "icon": "spell_holy_spellwarding"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Living Flame and Emerald Blossom are 30% more effective on yourself.",
+      "pvp_tooltip": "Your Living Flame and Emerald Blossom are 30% more effective on yourself.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -688,10 +738,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 371806,
         "icon": "ability_evoker_recall"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You may reactivate [\nDream Flight\n:\nDream Flight and\n] [\nBreath of Eons\n/\nDeep Breath\n] within 3 sec after landing to travel back in time to your takeoff location.",
+      "pvp_tooltip": "You may reactivate [\nDream Flight\n:\nDream Flight and\n] [\nBreath of Eons\n/\nDeep Breath\n] within 3 sec after landing to travel back in time to your takeoff location.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -740,10 +790,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 375443,
         "icon": "ability_racial_tailswipe"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Tail Swipe's cooldown is reduced by 2 min.",
+      "pvp_tooltip": "Tail Swipe's cooldown is reduced by 2 min.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -793,10 +843,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 375556,
         "icon": "ability_skyreach_wind"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Hover increases your movement speed by 70% for the first 4 sec.",
+      "pvp_tooltip": "Hover increases your movement speed by 70% for the first 4 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -848,10 +898,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 374251,
         "icon": "ability_evoker_fontofmagic_red"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "10% of base mana\n25 yd range\nInstant\n1 min cooldown\nCauterize an ally's wounds, removing all Bleed, Poison, Curse, and Disease effects. Heals for (350% of Spell Power) upon removing any effect.",
+      "pvp_tooltip": "10% of base mana\n25 yd range\nInstant\n1 min cooldown\nCauterize an ally's wounds, removing all Bleed, Poison, Curse, and Disease effects. Heals for (350% of Spell Power) upon removing any effect.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -899,10 +949,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 369990,
         "icon": "inv_elemental_mote_fire01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Emerald Blossom or Verdant Embrace reduces the cast time of your next Living Flame by 40%.\n(500ms cooldown)",
+      "pvp_tooltip": "Casting Emerald Blossom or Verdant Embrace reduces the cast time of your next Living Flame by 40%.\n(500ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -952,10 +1002,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 376164,
         "icon": "spell_arcane_studentofmagic"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Magic damage done is increased by 2%.",
+      "pvp_tooltip": "Your Magic damage done is increased by 2%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1005,10 +1055,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 370553,
         "icon": "ability_evoker_tipthescales"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n2 min cooldown\nCompress time to make your next empowered spell cast instantly at its maximum empower level.",
+      "pvp_tooltip": "Instant\n2 min cooldown\nCompress time to make your next empowered spell cast instantly at its maximum empower level.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1058,10 +1108,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 376930,
         "icon": "ability_rogue_imrovedrecuperate"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your healing done and healing received are increased by 2%.",
+      "pvp_tooltip": "Your healing done and healing received are increased by 2%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1109,10 +1159,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 360806,
         "icon": "ability_xavius_dreamsimulacrum"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "1% of base mana\n25 yd range\n1.7 sec cast\nDisorient an enemy for 20 sec, causing them to sleep walk towards you. Damage has a chance to awaken them.",
+      "pvp_tooltip": "1% of base mana\n25 yd range\n1.7 sec cast\nDisorient an enemy for 20 sec, causing them to sleep walk towards you. Damage has a chance to awaken them.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1163,10 +1213,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 369909,
         "icon": "ability_evoker_azurestrike"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Azure Strike damages 1 additional enemy.",
+      "pvp_tooltip": "Azure Strike damages 1 additional enemy.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1218,10 +1268,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 375544,
         "icon": "inv_misc_rubysanctum1"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Magic damage taken reduced by 2%.",
+      "pvp_tooltip": "Magic damage taken reduced by 2%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1271,10 +1321,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 376166,
         "icon": "inv_helm_mail_dracthyrquest_b_02"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Stamina is increased by 6%.",
+      "pvp_tooltip": "Your Stamina is increased by 6%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1326,10 +1376,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 375517,
         "icon": "ability_evoker_hover"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Hover lasts 4 sec longer.",
+      "pvp_tooltip": "Hover lasts 4 sec longer.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1379,10 +1429,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 370886,
         "icon": "ability_evoker_emeraldblossom"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Emerald Blossom heals 2 additional allies.",
+      "pvp_tooltip": "Emerald Blossom heals 2 additional allies.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1430,10 +1480,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 387787,
         "icon": "spell_frost_manarecharge"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Leech is increased by 2%.",
+      "pvp_tooltip": "Your Leech is increased by 2%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1486,10 +1536,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 375510,
         "icon": "ability_evoker_firebreath"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Fire Breath's damage over time lasts 4 sec longer.",
+      "pvp_tooltip": "Fire Breath's damage over time lasts 4 sec longer.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1539,10 +1589,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 375542,
         "icon": "ability_evoker_hover2"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While above 75% health, your movement speed is increased by 10%.",
+      "pvp_tooltip": "While above 75% health, your movement speed is increased by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1594,10 +1644,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 374348,
         "icon": "ability_evoker_masterylifebinder_red"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "30 yd range\nObsidian Scales surrounds you with a Renewing Blaze, causing 100% of the damage it prevented to be healed back over\n8 sec\n.",
+      "pvp_tooltip": "30 yd range\nObsidian Scales surrounds you with a Renewing Blaze, causing 100% of the damage it prevented to be healed back over\n8 sec\n.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1647,10 +1697,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 387341,
         "icon": "inv_misc_monsterscales_06"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Wing Buffet and Tail Swipe knock enemies further and daze them, reducing movement speed by 70% for 4 sec.",
+      "pvp_tooltip": "Wing Buffet and Tail Swipe knock enemies further and daze them, reducing movement speed by 70% for 4 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1703,10 +1753,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 387761,
         "icon": "ability_druid_protectionofthegrove"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Emerald Blossom and Verdant Embrace instantly heal you for (250% of Spell Power) when cast.",
+      "pvp_tooltip": "Emerald Blossom and Verdant Embrace instantly heal you for (250% of Spell Power) when cast.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1757,10 +1807,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 410352,
         "icon": "ability_evoker_timedilation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While flying during [\nBreath of Eons\n/ Deep Breath], 100% of damage you would take is instead dealt over 10 sec.",
+      "pvp_tooltip": "While flying during [\nBreath of Eons\n/ Deep Breath], 100% of damage you would take is instead dealt over 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1810,15 +1860,74 @@ window.WOW_PVP_DATA = {
         "spell_id": 1264378,
         "icon": "ability_evoker_unravel"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Direct damage from Fire Breath consumes absorb shields from enemies, dealing (1200% of Spell Power) additional Spellfrost damage to them.",
+      "pvp_tooltip": "Direct damage from Fire Breath consumes absorb shields from enemies, dealing (1092% of Spell Power) additional Spellfrost damage to them.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 78,
+          "end": 82,
+          "old_token": "1200",
+          "new_token": "1092",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "1200",
+          "new": "1092"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1264378,
+          "source_spell_id": 1264379,
+          "effect_index": 1,
+          "effect_text": "School Damage (Frost, Arcane) (SP mod: 12)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.7,
+          "amount_kind": "direct",
+          "aura_factor": 1.3,
+          "final_pvp_multiplier": 0.9099999999999999,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1264378,
+            1264379
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256942,
+              "game_effect_id": 1264707,
+              "amount_kind": "direct",
+              "value_pct": 30.0,
+              "factor": 1.3,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Oppressing Roar",
@@ -1867,15 +1976,443 @@ window.WOW_PVP_DATA = {
         "spell_id": 372048,
         "icon": "ability_evoker_oppressingroar"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Instant\n2 min cooldown\nLet out a bone-shaking roar at enemies in a cone in front of you, increasing the duration of crowd controls that affect them by 50% in the next 10 sec. [\nOverawe\n:\nRemoves 1 Enrage effect from each enemy\n]",
+      "pvp_tooltip": "Instant\n2 min cooldown\nLet out a bone-shaking roar at enemies in a cone in front of you, increasing the duration of crowd controls that affect them by 30% in the next 10 sec. [\nOverawe\n:\nRemoves 1 Enrage effect from each enemy\n]",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 151,
+          "end": 153,
+          "old_token": "50",
+          "new_token": "30",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "50",
+          "new": "30"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 372048,
+          "source_spell_id": 372048,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Mod Mechanic Duration % (Charmed)",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 372048,
+          "source_spell_id": 372048,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Mod Mechanic Duration % (Dazed)",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 372048,
+          "source_spell_id": 372048,
+          "effect_index": 4,
+          "effect_text": "Apply Aura: Mod Mechanic Duration % (Disoriented)",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 372048,
+          "source_spell_id": 372048,
+          "effect_index": 5,
+          "effect_text": "Apply Aura: Mod Mechanic Duration % (Fleeing)",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 372048,
+          "source_spell_id": 372048,
+          "effect_index": 6,
+          "effect_text": "Apply Aura: Mod Mechanic Duration % (Frozen)",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 372048,
+          "source_spell_id": 372048,
+          "effect_index": 7,
+          "effect_text": "Apply Aura: Mod Mechanic Duration % (Polymorphed)",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 372048,
+          "source_spell_id": 372048,
+          "effect_index": 8,
+          "effect_text": "Apply Aura: Mod Mechanic Duration % (Rooted)",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 372048,
+          "source_spell_id": 372048,
+          "effect_index": 9,
+          "effect_text": "Apply Aura: Mod Mechanic Duration % (Sapped)",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 372048,
+          "source_spell_id": 372048,
+          "effect_index": 10,
+          "effect_text": "Apply Aura: Mod Mechanic Duration % (Snared)",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 372048,
+          "source_spell_id": 372048,
+          "effect_index": 11,
+          "effect_text": "Apply Aura: Mod Mechanic Duration % (Stunned)",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 372048,
+          "source_spell_id": 372048,
+          "effect_index": 12,
+          "effect_text": "Apply Aura: Mod Mechanic Duration % (Turned)",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 372048,
+          "source_spell_id": 372048,
+          "effect_index": 13,
+          "effect_text": "Apply Aura: Mod Mechanic Duration % (Banished)",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 372048,
+          "source_spell_id": 372048,
+          "effect_index": 14,
+          "effect_text": "Apply Aura: Mod Mechanic Duration % (Asleep)",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 372048,
+          "source_spell_id": 372048,
+          "effect_index": 15,
+          "effect_text": "Apply Aura: Mod Mechanic Duration % (Incapacitated)",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 372048,
+          "source_spell_id": 372048,
+          "effect_index": 16,
+          "effect_text": "Apply Aura: Mod Mechanic Duration % (Silenced)",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 372048,
+          "source_spell_id": 372048,
+          "effect_index": 17,
+          "effect_text": "Apply Aura: Mod Mechanic Duration % (Disarmed)",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 372048,
+          "source_spell_id": 372048,
+          "effect_index": 18,
+          "effect_text": "Apply Aura: Mod Mechanic Duration % (Interrupted)",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        }
+      ],
+      "render_effect_count": 17
     },
     {
       "talent_name": "Foci of Life",
@@ -1920,10 +2457,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 375574,
         "icon": "spell_fire_incinerate"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Renewing Blaze restores you more quickly, causing damage you take to be healed back over 4 sec.",
+      "pvp_tooltip": "Renewing Blaze restores you more quickly, causing damage you take to be healed back over 4 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1976,10 +2513,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 370665,
         "icon": "ability_evoker_flywithme"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "30 yd range\nInstant\n1 min cooldown\nSwoop to an ally and fly with them to the target location. Clears movement impairing effects from you and your ally.",
+      "pvp_tooltip": "30 yd range\nInstant\n1 min cooldown\nSwoop to an ally and fly with them to the target location. Clears movement impairing effects from you and your ally.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2029,10 +2566,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 375561,
         "icon": "inv_staff_2h_bloodelf_c_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Green spells restore 5% more health.",
+      "pvp_tooltip": "Green spells restore 5% more health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2082,10 +2619,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 369459,
         "icon": "ability_evoker_blue_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "25 yd range\nInstant\nRedirect your excess magic to a friendly healer for 1 hour. When you cast an empowered spell, you restore 0.25% of their maximum mana per empower level. Limit 1.",
+      "pvp_tooltip": "25 yd range\nInstant\nRedirect your excess magic to a friendly healer for 1 hour. When you cast an empowered spell, you restore 0.25% of their maximum mana per empower level. Limit 1.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2135,10 +2672,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1267206,
         "icon": "ability_racial_glide"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Glide speed and height increased by 10%.",
+      "pvp_tooltip": "Glide speed and height increased by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2190,10 +2727,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 369939,
         "icon": "ability_evoker_pupilofalexstraza"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Fire Breath causes your next Living Flame to strike 1 additional target per empower level.",
+      "pvp_tooltip": "Fire Breath causes your next Living Flame to strike 1 additional target per empower level.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2241,10 +2778,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 374346,
         "icon": "ability_evoker_oppressingroar2"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Oppressing Roar removes 1 Enrage effect from each enemy, and its cooldown is reduced by 30 sec.",
+      "pvp_tooltip": "Oppressing Roar removes 1 Enrage effect from each enemy, and its cooldown is reduced by 30 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2296,10 +2833,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 365933,
         "icon": "ability_evoker_aerialmastery"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Hover gains 1 additional charge.",
+      "pvp_tooltip": "Hover gains 1 additional charge.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2349,10 +2886,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 370888,
         "icon": "inv_misc_volatileair"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Rescue increases movement speed by 100% and allows spells to be cast while moving for 3 sec.",
+      "pvp_tooltip": "Rescue increases movement speed by 100% and allows spells to be cast while moving for 3 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2402,10 +2939,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 418101,
         "icon": "spell_magic_managain"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Source of Magic increases the target's healing and damage done by 3%.",
+      "pvp_tooltip": "Source of Magic increases the target's healing and damage done by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2454,10 +2991,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 371032,
         "icon": "ability_evoker_terroroftheskies"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "[\nBreath of Eons\n/ Deep Breath] stuns enemies for 3 sec.",
+      "pvp_tooltip": "[\nBreath of Eons\n/ Deep Breath] stuns enemies for 3 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2505,10 +3042,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 374968,
         "icon": "ability_evoker_timespiral"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n2 min cooldown\nBend time, allowing you and your allies within 40 yds to cast their major movement ability once in the next 10 sec, even if it is on cooldown.",
+      "pvp_tooltip": "Instant\n2 min cooldown\nBend time, allowing you and your allies within 40 yds to cast their major movement ability once in the next 10 sec, even if it is on cooldown.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2556,10 +3093,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 406732,
         "icon": "ability_evoker_stretchtime"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "60 yd range\nInstant\n3 min cooldown\nEvoke a paradox for you and a friendly healer, allowing casting while moving and increasing the range of most spells by 100% for 10 sec.\nAffects the nearest healer within 60 yds, if you do not have a healer targeted.",
+      "pvp_tooltip": "60 yd range\nInstant\n3 min cooldown\nEvoke a paradox for you and a friendly healer, allowing casting while moving and increasing the range of most spells by 100% for 10 sec.\nAffects the nearest healer within 60 yds, if you do not have a healer targeted.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2609,10 +3146,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 374227,
         "icon": "ability_evoker_hoverblack"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n2 min cooldown\nConjure an updraft to lift you and your 4 nearest allies within 20 yds into the air, reducing damage taken from area-of-effect attacks by 20% and increasing movement speed by 30% for 8 sec.",
+      "pvp_tooltip": "Instant\n2 min cooldown\nConjure an updraft to lift you and your 4 nearest allies within 20 yds into the air, reducing damage taken from area-of-effect attacks by 20% and increasing movement speed by 30% for 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2661,15 +3198,130 @@ window.WOW_PVP_DATA = {
         "spell_id": 395152,
         "icon": "spell_sarkareth"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "1% of base mana\n1.5 sec cast\n30 sec cooldown\nIncrease all damage dealing allies' primary stat by (8 +\n0\n)% of your own and increase your own damage by 20% for 10 sec.\nEbon Might will split its effect when applied to more than 2 other allies.\nEruption, [\nBreath of Eons\n/ Deep Breath], and your empower spells extend the duration of these effects.",
+      "pvp_tooltip": "0.5% of base mana\n1.5 sec cast\n30 sec cooldown\nIncrease all damage dealing allies' primary stat by (10 +\n0\n)% of your own and increase your own damage by 20% for 10 sec.\nEbon Might will split its effect when applied to more than 2 other allies.\nEruption, [\nBreath of Eons\n/ Deep Breath], and your empower spells extend the duration of these effects.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 98,
+          "end": 99,
+          "old_token": "8",
+          "new_token": "10",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 0,
+          "end": 1,
+          "old_token": "1",
+          "new_token": "0.5",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "1",
+          "new": "0.5"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "8",
+          "new": "10"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 395152,
+          "source_spell_id": 395152,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Dummy",
+          "base_value": 8.0,
+          "spell_pvp_multiplier": 1.25,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.25,
+          "final_pvp_value": 10.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 395152,
+          "source_spell_id": 395152,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modify Critical Strike Chance % (1)",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.25,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.25,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 395152,
+          "source_spell_id": 414878,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Effect #1's Value (3)",
+          "base_value": 1.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 0.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            395152,
+            414878
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Eruption",
@@ -2715,15 +3367,69 @@ window.WOW_PVP_DATA = {
         "spell_id": 395160,
         "icon": "ability_evoker_eruption"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "3 Essence\n25 yd range\n2.5 sec cast\nCause a violent eruption beneath an enemy's feet, dealing (280% of Spell Power) Volcanic damage split between them and nearby enemies. [\nSands of Time\n:\nIncreases the duration of your active Ebon Might effects by 1.0 sec\n]",
+      "pvp_tooltip": "3 Essence\n25 yd range\n2.5 sec cast\nCause a violent eruption beneath an enemy's feet, dealing (523.25% of Spell Power) Volcanic damage split between them and nearby enemies. [\nSands of Time\n:\nIncreases the duration of your active Ebon Might effects by 1.0 sec\n]",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 94,
+          "end": 97,
+          "old_token": "280",
+          "new_token": "523.25",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "280",
+          "new": "523.25"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 395160,
+          "source_spell_id": 395160,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire, Nature) (SP mod: 2.8)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.4375,
+          "amount_kind": "direct",
+          "aura_factor": 1.3,
+          "final_pvp_multiplier": 1.8687500000000001,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256942,
+              "game_effect_id": 1264707,
+              "amount_kind": "direct",
+              "value_pct": 30.0,
+              "factor": 1.3,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Essence Burst",
@@ -2769,10 +3475,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 396187,
         "icon": "ability_evoker_essenceburst"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Living Flame has a 20% chance, and your Azure Strike has a 15% chance, to make your next Eruption [\nDream of Spring\n:\nor Emerald Blossom\n]cost no Essence. [\nEssence Attunement\n:\nStacks 1 times\n]",
+      "pvp_tooltip": "Your Living Flame has a 20% chance, and your Azure Strike has a 15% chance, to make your next Eruption [\nDream of Spring\n:\nor Emerald Blossom\n]cost no Essence. [\nEssence Attunement\n:\nStacks 1 times\n]",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2822,10 +3528,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 351338,
         "icon": "ability_evoker_quell"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "25 yd range\nInstant\n20 sec cooldown\nInterrupt an enemy's spellcasting and prevent any spell from that school of magic from being cast for 6 sec.",
+      "pvp_tooltip": "25 yd range\nInstant\n20 sec cooldown\nInterrupt an enemy's spellcasting and prevent any spell from that school of magic from being cast for 6 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2876,10 +3582,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 406659,
         "icon": "ability_rhyolith_volcano"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Eruption deals 30% more damage per enemy struck, up to 150%.",
+      "pvp_tooltip": "Eruption deals 30% more damage per enemy struck, up to 150%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2930,10 +3636,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 375722,
         "icon": "ability_evoker_essenceburststacks"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Essence Burst stacks 2 times.",
+      "pvp_tooltip": "Essence Burst stacks 2 times.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2983,10 +3689,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 407814,
         "icon": "ability_evoker_pupilofalexstraza"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When cast at an enemy, Living Flame strikes 1 additional enemy for 100% damage.",
+      "pvp_tooltip": "When cast at an enemy, Living Flame strikes 1 additional enemy for 100% damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3036,10 +3742,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 410784,
         "icon": "ability_evoker_echoingstrike"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Azure Strike deals 15% increased damage and has a 10% chance per target hit to echo, casting again.",
+      "pvp_tooltip": "Azure Strike deals 15% increased damage and has a 10% chance per target hit to echo, casting again.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3092,15 +3798,73 @@ window.WOW_PVP_DATA = {
         "spell_id": 396286,
         "icon": "ability_evoker_upheaval"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "25 yd range\nChanneled (2.5 sec cast)\n40 sec cooldown\nGather earthen power beneath your enemy's feet and send them hurtling upwards, dealing (430% of Spell Power) Volcanic damage to the target and nearby enemies. [\nSands of Time\n:\nIncreases the duration of your active Ebon Might effects by 2 sec\n]\nEmpowering expands the area of effect.\nI:\n3 yd radius.\nII:\n6 yd radius.\nIII:\n9 yd radius.",
+      "pvp_tooltip": "25 yd range\nChanneled (2.5 sec cast)\n40 sec cooldown\nGather earthen power beneath your enemy's feet and send them hurtling upwards, dealing (559% of Spell Power) Volcanic damage to the target and nearby enemies. [\nSands of Time\n:\nIncreases the duration of your active Ebon Might effects by 2 sec\n]\nEmpowering expands the area of effect.\nI:\n3 yd radius.\nII:\n6 yd radius.\nIII:\n9 yd radius.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 141,
+          "end": 144,
+          "old_token": "430",
+          "new_token": "559",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "430",
+          "new": "559"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 396286,
+          "source_spell_id": 396288,
+          "effect_index": 2,
+          "effect_text": "School Damage (Fire, Nature) (SP mod: 4.3)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.3,
+          "final_pvp_multiplier": 1.3,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            396286,
+            396288
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256942,
+              "game_effect_id": 1264707,
+              "amount_kind": "direct",
+              "value_pct": 30.0,
+              "factor": 1.3,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Breath of Eons",
@@ -3147,15 +3911,95 @@ window.WOW_PVP_DATA = {
         "spell_id": 403631,
         "icon": "ability_evoker_breathofeons"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "15 - 50 yd range\nInstant\n2 min cooldown\nFly to the targeted location, exposing a\nTemporal Wound\non enemies in your path for 10 sec [\nSands of Time\n:\nand granting Ebon Might for 5 sec\n/ .]\nRemoves roots and grants immunity to movement impairing and loss of control effects while flying.\nTemporal Wound\n15% of damage dealt by allies affected by Ebon Might is copied as additional Arcane damage to enemies after 10 sec.\nDamage is reduced if Ebon Might affects more than 2 other allies.",
+      "pvp_tooltip": "15 - 50 yd range\nInstant\n2 min cooldown\nFly to the targeted location, exposing a\nTemporal Wound\non enemies in your path for 10 sec [\nSands of Time\n:\nand granting Ebon Might for 5 sec\n/ .]\nRemoves roots and grants immunity to movement impairing and loss of control effects while flying.\nTemporal Wound\n15% of damage dealt by allies affected by Ebon Might is copied as additional Arcane damage to enemies after 10 sec.\nDamage is reduced if Ebon Might affects more than 2 other allies.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "REVIEW_REQUIRED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "AMBIGUOUS_TEXT_MATCH",
+          "kind": "ordinary_value",
+          "old": 15.0,
+          "new": 22.5,
+          "match_count": 2
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 1.0,
+          "new": 0.5,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 403631,
+          "source_spell_id": 409560,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Dummy",
+          "base_value": 15.0,
+          "spell_pvp_multiplier": 1.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.5,
+          "final_pvp_value": 22.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            403631,
+            409560
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 403631,
+          "source_spell_id": 414878,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Effect #1's Value (3)",
+          "base_value": 1.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 0.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            403631,
+            395152,
+            414878
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Defy Fate",
@@ -3203,10 +4047,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 404195,
         "icon": "ability_evoker_defyfate"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Fatal attacks are diverted into a nearby timeline, preventing the damage, and your death, in this one.\nThe release of temporal energy restores [(750% of Spell Power) * (3)] health to you, and (750% of Spell Power) to 4 nearby allies, over 9 sec. Healing starts high and declines over the duration.\nMay only occur once every 6 min.",
+      "pvp_tooltip": "Fatal attacks are diverted into a nearby timeline, preventing the damage, and your death, in this one.\nThe release of temporal energy restores [(750% of Spell Power) * (3)] health to you, and (750% of Spell Power) to 4 nearby allies, over 9 sec. Healing starts high and declines over the duration.\nMay only occur once every 6 min.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3257,10 +4101,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 408775,
         "icon": "spell_fire_immolation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Essence Burst reduces the cast time of Eruption by 40% and increases its damage by 20%.",
+      "pvp_tooltip": "Essence Burst reduces the cast time of Eruption by 40% and increases its damage by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3310,10 +4154,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 369908,
         "icon": "ability_evoker_powernexus"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases your maximum Essence to 6.",
+      "pvp_tooltip": "Increases your maximum Essence to 6.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3364,10 +4208,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 406904,
         "icon": "spell_fire_volcano"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Eruption's Essence cost is reduced by 1.",
+      "pvp_tooltip": "Eruption's Essence cost is reduced by 1.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3417,15 +4261,65 @@ window.WOW_PVP_DATA = {
         "spell_id": 410253,
         "icon": "spell_shadow_lastingafflictions"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Breath of Eons reduces enemies' movement speed by 70%, and reduces their attack speed by 50%, for 10 sec.",
+      "pvp_tooltip": "Breath of Eons reduces enemies' movement speed by 50%, and reduces their attack speed by 50%, for 10 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 50,
+          "end": 52,
+          "old_token": "70",
+          "new_token": "50",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "70",
+          "new": "50"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 410253,
+          "source_spell_id": 439606,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -70.0,
+          "spell_pvp_multiplier": 0.714286,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.714286,
+          "final_pvp_value": -50.00002,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            410253,
+            439606
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Chrono Ward",
@@ -3470,10 +4364,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 409676,
         "icon": "ability_evoker_bronze_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When allies deal damage with Temporal Wounds, they gain a shield for 100% of the damage dealt. Absorption cannot exceed 30% of your maximum health.",
+      "pvp_tooltip": "When allies deal damage with Temporal Wounds, they gain a shield for 100% of the damage dealt. Absorption cannot exceed 30% of your maximum health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3525,10 +4419,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 408233,
         "icon": "ability_evoker_bestowweyrnstone"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "25 yd range\n3 sec cast\n1 min cooldown\nConjure a pair of Weyrnstones, one for your target ally and one for yourself. Only one ally may bear your Weyrnstone at a time.\nA Weyrnstone can be activated by the bearer to transport them to the other Weyrnstone's location, if they are within 100 yds.",
+      "pvp_tooltip": "25 yd range\n3 sec cast\n1 min cooldown\nConjure a pair of Weyrnstones, one for your target ally and one for yourself. Only one ally may bear your Weyrnstone at a time.\nA Weyrnstone can be activated by the bearer to transport them to the other Weyrnstone's location, if they are within 100 yds.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3578,10 +4472,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 412710,
         "icon": "ability_evoker_timelessness"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "25 yd range\nInstant\nEnchant an ally to appear out of sync with the normal flow of time, reducing threat they generate by 30% for 1 hour. Less effective on tank-specialized allies.\nMay only be placed on one target at a time.",
+      "pvp_tooltip": "25 yd range\nInstant\nEnchant an ally to appear out of sync with the normal flow of time, reducing threat they generate by 30% for 1 hour. Less effective on tank-specialized allies.\nMay only be placed on one target at a time.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3631,10 +4525,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1268881,
         "icon": "ability_evoker_masterytimewalker"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Defy Fate healing increased by 100% and its cooldown is reduced by 1 min.",
+      "pvp_tooltip": "Defy Fate healing increased by 100% and its cooldown is reduced by 1 min.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3688,10 +4582,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 360827,
         "icon": "ability_evoker_blisteringscales"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "25 yd range\nInstant\n30 sec cooldown\nProtect an ally with 15 explosive dragonscales, increasing their Armor by 20% of your own.\nMelee attacks against the target cause 1 scale to explode, dealing [$INT * 0.3 * (1 + Versatility) * Percent Damage] Volcanic damage to enemies near them. This damage can only occur every few sec.\nBlistering Scales can only be placed on one target at a time. Casts on your enemy's target if they have one.",
+      "pvp_tooltip": "25 yd range\nInstant\n30 sec cooldown\nProtect an ally with 15 explosive dragonscales, increasing their Armor by 20% of your own.\nMelee attacks against the target cause 1 scale to explode, dealing [$INT * 0.3 * (1 + Versatility) * Percent Damage] Volcanic damage to enemies near them. This damage can only occur every few sec.\nBlistering Scales can only be placed on one target at a time. Casts on your enemy's target if they have one.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3745,10 +4639,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 403208,
         "icon": "ability_evoker_draconicattunements"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Learn to attune yourself to the essence of the Black or Bronze Dragonflights:\nBlack Attunement\n: You and your 4 nearest allies have 2% increased maximum health.\nBronze Attunement\n:You and your 4 nearest allies have 10% increased movement speed.",
+      "pvp_tooltip": "Learn to attune yourself to the essence of the Black or Bronze Dragonflights:\nBlack Attunement\n: You and your 4 nearest allies have 2% increased maximum health.\nBronze Attunement\n:You and your 4 nearest allies have 10% increased movement speed.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3802,15 +4696,65 @@ window.WOW_PVP_DATA = {
         "spell_id": 409311,
         "icon": "ability_evoker_prescience"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "25 yd range\nInstant\n12 sec recharge\n2 Charges\nGrant an ally the gift of foresight, increasing their critical strike chance by\n3\n% [\nFate Mirror\n:\nand occasionally copying their damage and healing spells at 15% power\n]for 18 sec.\nAffects the nearest ally within 25 yds, preferring damage dealers with their cooldowns active, if you do not have an ally targeted.",
+      "pvp_tooltip": "25 yd range\nInstant\n12 sec recharge\n2 Charges\nGrant an ally the gift of foresight, increasing their critical strike chance by\n6\n% [\nFate Mirror\n:\nand occasionally copying their damage and healing spells at 15% power\n]for 18 sec.\nAffects the nearest ally within 25 yds, preferring damage dealers with their cooldowns active, if you do not have an ally targeted.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 126,
+          "end": 127,
+          "old_token": "3",
+          "new_token": "6",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "3",
+          "new": "6"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 409311,
+          "source_spell_id": 410089,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modify Critical Strike Chance % (5)",
+          "base_value": 3.0,
+          "spell_pvp_multiplier": 2.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 6.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            409311,
+            410089
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Unyielding Domain",
@@ -3854,10 +4798,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 412733,
         "icon": "spell_shaman_stormearthfire"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Upheaval cannot be interrupted, and has an additional 10% chance to critically strike.",
+      "pvp_tooltip": "Upheaval cannot be interrupted, and has an additional 10% chance to critically strike.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3906,15 +4850,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 408002,
         "icon": "6bf_explosive_shard"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Upheaval deals 50% increased damage to the primary target, and launches them higher.",
+      "pvp_tooltip": "Upheaval deals 15% increased damage to the primary target, and launches them higher.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 15,
+          "end": 17,
+          "old_token": "50",
+          "new_token": "15",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "50",
+          "new": "15"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 408002,
+          "source_spell_id": 408002,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.3,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.3,
+          "final_pvp_value": 15.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Regenerative Chitin",
@@ -3961,10 +4950,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 406907,
         "icon": "inv12_ability_evoker_blisteringscalesinfinite"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Blistering Scales no longer loses charges and deals 20% more damage.",
+      "pvp_tooltip": "Blistering Scales no longer loses charges and deals 20% more damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4016,10 +5005,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 410643,
         "icon": "spell_shaman_spewlava"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When cast, Blistering Scales grants the target a shield that absorbs up to [Spell Power * 15 * (1 + Versatility)] damage for 30 sec based on their missing health. Lower health targets gain a larger shield.",
+      "pvp_tooltip": "When cast, Blistering Scales grants the target a shield that absorbs up to [Spell Power * 15 * (1 + Versatility)] damage for 30 sec based on their missing health. Lower health targets gain a larger shield.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4070,10 +5059,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 408004,
         "icon": "ability_priest_voidshift"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Consuming Essence Burst grants you 5% Intellect for 6 sec. Stacks up to 2 times.",
+      "pvp_tooltip": "Consuming Essence Burst grants you 5% Intellect for 6 sec. Stacks up to 2 times.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4124,10 +5113,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 407243,
         "icon": "ability_evoker_aspectsfavor"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Obsidian Scales activates Black Attunement, and amplifies it to increase maximum health by 4.0% for 12 sec.\nHover activates Bronze Attunement, and amplifies it to increase movement speed by 25% for 4 sec.",
+      "pvp_tooltip": "Obsidian Scales activates Black Attunement, and amplifies it to increase maximum health by 4.0% for 12 sec.\nHover activates Bronze Attunement, and amplifies it to increase movement speed by 25% for 4 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4178,10 +5167,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 454983,
         "icon": "classicon_evoker"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The range of your helpful magics is increased by 5 yards.",
+      "pvp_tooltip": "The range of your helpful magics is increased by 5 yards.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4232,10 +5221,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 412774,
         "icon": "trade_archaeology_highbornesoulmirror"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Prescience grants the ally a chance for their spells and abilities to echo their damage or healing, dealing 15% of the amount again.",
+      "pvp_tooltip": "Prescience grants the ally a chance for their spells and abilities to echo their damage or healing, dealing 15% of the amount again.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4285,10 +5274,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 410685,
         "icon": "inv_10_herb_seed_magiccolor5"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Emerald Blossom increases targets' healing received by 3% for 10 sec.",
+      "pvp_tooltip": "Emerald Blossom increases targets' healing received by 3% for 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4338,10 +5327,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 409329,
         "icon": "ability_evoker_reactivehide"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Each time Blistering Scales explodes it deals 15% more damage for 12 sec, stacking 10 times.",
+      "pvp_tooltip": "Each time Blistering Scales explodes it deals 15% more damage for 12 sec, stacking 10 times.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4391,10 +5380,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 408083,
         "icon": "ability_evoker_fontofmagic"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your empower spells' maximum level is increased by 1, and they reach maximum empower level 20% faster.",
+      "pvp_tooltip": "Your empower spells' maximum level is increased by 1, and they reach maximum empower level 20% faster.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4448,10 +5437,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 375796,
         "icon": "ability_evoker_innatemagic2"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Essence Burst has a 20% chance to not be consumed.",
+      "pvp_tooltip": "Essence Burst has a 20% chance to not be consumed.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4504,10 +5493,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 409267,
         "icon": "ability_evoker_motesofpossibility"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Eruption has a\n25\n% chance to form a mote of diverted essence near you. Allies who comes in contact with the mote gain a random buff from your arsenal.\n(Proc chance: 25%)",
+      "pvp_tooltip": "Eruption has a\n25\n% chance to form a mote of diverted essence near you. Allies who comes in contact with the mote gain a random buff from your arsenal.\n(Proc chance: 25%)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4557,10 +5546,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 407869,
         "icon": "ability_evoker_essenceburst6"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Prescience has a 35% chance to grant Essence Burst.",
+      "pvp_tooltip": "Prescience has a 35% chance to grant Essence Burst.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4610,10 +5599,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 410687,
         "icon": "ability_evoker_reversion_green"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your effects that extend Ebon Might also extend Symbiotic Bloom.",
+      "pvp_tooltip": "Your effects that extend Ebon Might also extend Symbiotic Bloom.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4663,10 +5652,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 414969,
         "icon": "ability_evoker_masterylifebinder"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Emerald Blossom no longer has a cooldown, deals 35% increased healing, and increases the duration of your active Ebon Might effects by 1 sec, but costs 3 Essence.",
+      "pvp_tooltip": "Emerald Blossom no longer has a cooldown, deals 35% increased healing, and increases the duration of your active Ebon Might effects by 1 sec, but costs 3 Essence.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4718,10 +5707,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 407876,
         "icon": "ability_evoker_accretion"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Eruption reduces the remaining cooldown of Upheaval by 1.0 sec.",
+      "pvp_tooltip": "Eruption reduces the remaining cooldown of Upheaval by 1.0 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4771,10 +5760,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 459537,
         "icon": "spell_burningbladeshaman_blazing_radiance"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "[\nBreath of Eons\n/ Deep Breath] reduces the Essence cost of your next 6 Eruptions by 1.",
+      "pvp_tooltip": "[\nBreath of Eons\n/ Deep Breath] reduces the Essence cost of your next 6 Eruptions by 1.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4825,10 +5814,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 404977,
         "icon": "ability_evoker_timeskip"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Channeled (2 sec cast)\n3 min cooldown\nSurge forward in time, causing your cooldowns to recover 1000% faster for\n2 sec\n.",
+      "pvp_tooltip": "Channeled (2 sec cast)\n3 min cooldown\nSurge forward in time, causing your cooldowns to recover 1000% faster for\n2 sec\n.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4878,10 +5867,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1250914,
         "icon": "ability_evoker_masterylifebinder_bronze"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Motes of Possibility may now grant Prescience to allies and have a 10% increased chance to activate.",
+      "pvp_tooltip": "Motes of Possibility may now grant Prescience to allies and have a 10% increased chance to activate.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4932,10 +5921,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 410261,
         "icon": "ability_evoker_infernosblessing"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Fire Breath grants the inferno's blessing for 8 sec to you and a nearby ally, giving their damaging attacks and spells a high chance to deal an additional [$INT * 2.69 *\n1\n* (1 + Versatility) * Percent Damage] Fire damage.",
+      "pvp_tooltip": "Fire Breath grants the inferno's blessing for 8 sec to you and a nearby ally, giving their damaging attacks and spells a high chance to deal an additional [$INT * 2.69 *\n1\n* (1 + Versatility) * Percent Damage] Fire damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4983,10 +5972,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 459120,
         "icon": "ability_evoker_geomancy"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Upheaval causes an aftershock at its location, dealing 30% of its damage 2 additional times.",
+      "pvp_tooltip": "Upheaval causes an aftershock at its location, dealing 30% of its damage 2 additional times.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5034,10 +6023,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 407866,
         "icon": "ability_evoker_plotthefuture"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "[\nBreath of Eons\n/ Deep Breath] grants you Fury of the Aspects for 15 sec after you land, without causing Exhaustion.",
+      "pvp_tooltip": "[\nBreath of Eons\n/ Deep Breath] grants you Fury of the Aspects for 15 sec after you land, without causing Exhaustion.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5085,10 +6074,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 412723,
         "icon": "ability_evoker_rewind2"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Time Skip channels for 1 sec longer.",
+      "pvp_tooltip": "Time Skip channels for 1 sec longer.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5136,10 +6125,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 412713,
         "icon": "inv_enchant_optionalreagent_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The cooldowns of your spells are reduced by 10%.",
+      "pvp_tooltip": "The cooldowns of your spells are reduced by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5187,10 +6176,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 410260,
         "icon": "ability_evoker_overlord"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "[\nBreath of Eons\n/ Deep Breath] casts an Eruption at the first 3 enemies struck. These Eruptions have a 100% chance to create a Mote of Possibility.",
+      "pvp_tooltip": "[\nBreath of Eons\n/ Deep Breath] casts an Eruption at the first 3 enemies struck. These Eruptions have a 100% chance to create a Mote of Possibility.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5238,10 +6227,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1291457,
         "icon": "ability_warlock_burningembers"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Inferno's Blessing's damage is increased by 40%, and your effects that extend Ebon Might also extend Inferno's Blessing.",
+      "pvp_tooltip": "Inferno's Blessing's damage is increased by 40%, and your effects that extend Ebon Might also extend Inferno's Blessing.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5287,10 +6276,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1259173,
         "icon": "inv12_apextalent_evoker_duplicate"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "2 min cooldown\nBreath of Eons summons a version of you from the future to assist you in battle, lasting 20 sec. Your duplicate casts Eruption, Fire Breath, and Upheaval.",
+      "pvp_tooltip": "2 min cooldown\nBreath of Eons summons a version of you from the future to assist you in battle, lasting 20 sec. Your duplicate casts Eruption, Fire Breath, and Upheaval.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5336,10 +6325,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1259174,
         "icon": "ability_evoker_masterytimewalker"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "2 min cooldown\nAny time you extend Ebon Might, your duplicate is also extended, equal to 50% of the amount you extended Ebon Might by.",
+      "pvp_tooltip": "2 min cooldown\nAny time you extend Ebon Might, your duplicate is also extended, equal to 50% of the amount you extended Ebon Might by.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5385,10 +6374,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1259175,
         "icon": "ability_evoker_ouroboros"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "2 min cooldown\nWhile your duplicate is active, your Ebon Might grants 75% additional stats and Upheaval and Eruption deal 25% increased damage.",
+      "pvp_tooltip": "2 min cooldown\nWhile your duplicate is active, your Ebon Might grants 75% additional stats and Upheaval and Eruption deal 25% increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5439,10 +6428,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 438587,
         "icon": "ability_evoker_eruption"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Empower spells cause your next Eruption to strike up to 3 targets. When striking less than 3 targets, Eruption damage is increased by 10% for each missing target.",
+      "pvp_tooltip": "Empower spells cause your next Eruption to strike up to 3 targets. When striking less than 3 targets, Eruption damage is increased by 10% for each missing target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5492,10 +6481,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 441705,
         "icon": "ability_evoker_blackattunementalt"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Black spells deal 20% increased damage.",
+      "pvp_tooltip": "Black spells deal 20% increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5545,10 +6534,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 434300,
         "icon": "inv_ability_scalecommanderevoker_bombardments"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Mass Eruption marks your primary target for destruction for the next 6 sec.\nYou and your allies have a chance to trigger a Bombardment when attacking marked targets, dealing [$INT * 4.75 * (1 + Versatility) * Percent Damage *\n1\n] Volcanic damage split amongst all nearby enemies.",
+      "pvp_tooltip": "Mass Eruption marks your primary target for destruction for the next 6 sec.\nYou and your allies have a chance to trigger a Bombardment when attacking marked targets, dealing [$INT * 4.75 * (1 + Versatility) * Percent Damage *\n1\n] Volcanic damage split amongst all nearby enemies.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5598,10 +6587,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 441245,
         "icon": "spell_fire_soulburn"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Entering combat grants a charge of Burnout, causing your next Living Flame to cast instantly.",
+      "pvp_tooltip": "Entering combat grants a charge of Burnout, causing your next Living Flame to cast instantly.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5651,15 +6640,124 @@ window.WOW_PVP_DATA = {
         "spell_id": 1260745,
         "icon": "ability_dragonriding_dynamicflight01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "While flying during [\nBreath of Eons\n/ Deep Breath] you are assisted by a squadron of Dracthyr who assault enemies with Pyre, dealing (252% of Spell Power) Fire damage to nearby enemies up to 8 times.",
+      "pvp_tooltip": "While flying during [\nBreath of Eons\n/ Deep Breath] you are assisted by a squadron of Dracthyr who assault enemies with Pyre, dealing (108.108% of Spell Power) Fire damage to nearby enemies up to 8 times.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 135,
+          "end": 138,
+          "old_token": "252",
+          "new_token": "108.108",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 440.00000000000006,
+          "new": 572.0000000000001,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "252",
+          "new": "108.108"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1260745,
+          "source_spell_id": 1236970,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire) (SP mod: 2.52)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.33,
+          "amount_kind": "direct",
+          "aura_factor": 1.3,
+          "final_pvp_multiplier": 0.42900000000000005,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1260745,
+            1236970
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256942,
+              "game_effect_id": 1264707,
+              "amount_kind": "direct",
+              "value_pct": 30.0,
+              "factor": 1.3,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1260745,
+          "source_spell_id": 357212,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire) (SP mod: 4.4)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.3,
+          "final_pvp_multiplier": 1.3,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1260745,
+            1236970,
+            357211,
+            357212
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256942,
+              "game_effect_id": 1264707,
+              "amount_kind": "direct",
+              "value_pct": 30.0,
+              "factor": 1.3,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Melt Armor",
@@ -5704,15 +6802,63 @@ window.WOW_PVP_DATA = {
         "spell_id": 441176,
         "icon": "inv_10_gearupgrade_drakesshadowflameenhancedcrest"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Deep Breath\ncauses enemies to take 20% increased damage from Bombardments and Essence abilities for 12 sec.",
+      "pvp_tooltip": "Deep Breath\ncauses enemies to take 20% increased damage from Bombardments and Essence abilities for 12 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 140.0,
+          "new": 182.0,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 441176,
+          "source_spell_id": 441172,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 1.3,
+          "final_pvp_multiplier": 1.3,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            441176,
+            441172
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256942,
+              "game_effect_id": 1266465,
+              "amount_kind": "periodic",
+              "value_pct": 30.0,
+              "factor": 1.3,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Wingleader",
@@ -5757,10 +6903,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 441206,
         "icon": "ability_racial_soar"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Mass Eruption reduces the remaining cooldown of Breath of Eons by 1.5 sec for each target struck.",
+      "pvp_tooltip": "Mass Eruption reduces the remaining cooldown of Breath of Eons by 1.5 sec for each target struck.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5810,10 +6956,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 441246,
         "icon": "ability_siege_engineer_superheated"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "For each second you are in combat, Azure Strike, Living Flame, and Eruption deal 1% increased damage, up to 15%.",
+      "pvp_tooltip": "For each second you are in combat, Azure Strike, Living Flame, and Eruption deal 1% increased damage, up to 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5863,10 +7009,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1261448,
         "icon": "inv_10_dungeonjewelry_dragon_trinket_1arcanemagical_blue"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Mass Eruption strikes 1 additional target.",
+      "pvp_tooltip": "Mass Eruption strikes 1 additional target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5916,10 +7062,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 441180,
         "icon": "inv_10_skinning_scales_black"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Obsidian Scales reduces damage taken by an additional 10%.",
+      "pvp_tooltip": "Obsidian Scales reduces damage taken by an additional 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5969,10 +7115,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 441181,
         "icon": "ability_racial_wingbuffet"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Knocking enemies up or backwards reduces their damage done to you by 15% for 8 sec.",
+      "pvp_tooltip": "Knocking enemies up or backwards reduces their damage done to you by 15% for 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6022,10 +7168,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 441212,
         "icon": "ability_evoker_divideandconquer"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Essence abilities extend Bombardments by 1 sec.",
+      "pvp_tooltip": "Essence abilities extend Bombardments by 1 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6075,10 +7221,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 441219,
         "icon": "ability_evoker_powerswell"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Bombardments have a chance to generate Essence Burst.",
+      "pvp_tooltip": "Bombardments have a chance to generate Essence Burst.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6128,10 +7274,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 441253,
         "icon": "ability_evoker_hover"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While Hovering, damage taken from area of effect attacks is reduced by 10%.",
+      "pvp_tooltip": "While Hovering, damage taken from area of effect attacks is reduced by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6181,10 +7327,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 441257,
         "icon": "ability_dragonriding_barrelroll01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "[\nBreath of Eons\n/ Deep Breath] resets a charge of Hover.",
+      "pvp_tooltip": "[\nBreath of Eons\n/ Deep Breath] resets a charge of Hover.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6234,10 +7380,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1261452,
         "icon": "ability_evoker_essenceburststacks"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Essence abilities deal 15% additional damage.",
+      "pvp_tooltip": "Essence abilities deal 15% additional damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6288,15 +7434,73 @@ window.WOW_PVP_DATA = {
         "spell_id": 433871,
         "icon": "ability_evoker_deepbreath"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Deep Breath\ncan now be steered in your desired direction.\nIn addition,\nDeep Breath\nburns targets for (840% of Spell Power) Volcanic damage over 12 sec.",
+      "pvp_tooltip": "Deep Breath\ncan now be steered in your desired direction.\nIn addition,\nDeep Breath\nburns targets for (1092% of Spell Power) Volcanic damage over 12 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 102,
+          "end": 105,
+          "old_token": "840",
+          "new_token": "1092",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "840",
+          "new": "1092"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 433871,
+          "source_spell_id": 441172,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 1.3,
+          "final_pvp_multiplier": 1.3,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            433871,
+            441172
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256942,
+              "game_effect_id": 1266465,
+              "amount_kind": "periodic",
+              "value_pct": 30.0,
+              "factor": 1.3,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Chrono Flame",
@@ -6342,10 +7546,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 431442,
         "icon": "inv_ability_chronowardenevoker_chronoflame"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Living Flame is enhanced with Bronze magic, repeating 25% of the damage or healing you dealt to the target in the last 5 sec as Arcane, up to\n[(Spell Power * 2.5) * (1 + Versatility)]\n.",
+      "pvp_tooltip": "Living Flame is enhanced with Bronze magic, repeating 25% of the damage or healing you dealt to the target in the last 5 sec as Arcane, up to\n[(Spell Power * 2.5) * (1 + Versatility)]\n.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6395,10 +7599,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 429483,
         "icon": "ability_evoker_spatialparadox"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Hover now causes you to briefly warp out of existence and appear at your destination. Hover's cooldown is also reduced by 5 sec.\nHover continues to allow Evoker spells to be cast while moving.",
+      "pvp_tooltip": "Hover now causes you to briefly warp out of existence and appear at your destination. Hover's cooldown is also reduced by 5 sec.\nHover continues to allow Evoker spells to be cast while moving.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6448,15 +7652,391 @@ window.WOW_PVP_DATA = {
         "spell_id": 431695,
         "icon": "ability_evoker_essenceburst5"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Tip the Scales overloads you with temporal energy, increasing your haste, movement speed, and cooldown recovery rate by 30%, decreasing over 30 sec.",
+      "pvp_tooltip": "Tip the Scales overloads you with temporal energy, increasing your haste, movement speed, and cooldown recovery rate by 30%, decreasing over 30 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            13,
+            16,
+            17,
+            18
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 1.0,
+          "new": 0.5,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431695,
+          "source_spell_id": 431698,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Increase Run Speed % - Stacks",
+          "base_value": 1.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 0.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431695,
+            431698
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431695,
+          "source_spell_id": 431698,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Decrease Attack Speed %",
+          "base_value": 1.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 0.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431695,
+            431698
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431695,
+          "source_spell_id": 431698,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Mod Recovery Rate By Spell Label - % (1216)",
+          "base_value": 1.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 0.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431695,
+            431698
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431695,
+          "source_spell_id": 431698,
+          "effect_index": 4,
+          "effect_text": "Apply Aura: Mod Charge Cooldown Recharge Rate - % (1948)",
+          "base_value": 1.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 0.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431695,
+            431698
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431695,
+          "source_spell_id": 431698,
+          "effect_index": 5,
+          "effect_text": "Apply Aura: Mod Charge Cooldown Recharge Rate - % (2100)",
+          "base_value": 1.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 0.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431695,
+            431698
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431695,
+          "source_spell_id": 431698,
+          "effect_index": 6,
+          "effect_text": "Apply Aura: Mod Charge Cooldown Recharge Rate - % (2010)",
+          "base_value": 1.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 0.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431695,
+            431698
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431695,
+          "source_spell_id": 431698,
+          "effect_index": 7,
+          "effect_text": "Apply Aura: Mod Charge Cooldown Recharge Rate - % (2035)",
+          "base_value": 1.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 0.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431695,
+            431698
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431695,
+          "source_spell_id": 431698,
+          "effect_index": 8,
+          "effect_text": "Apply Aura: Mod Recovery Rate By Spell Label - % (1425)",
+          "base_value": 1.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 0.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431695,
+            431698
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431695,
+          "source_spell_id": 431698,
+          "effect_index": 9,
+          "effect_text": "Apply Aura: Mod Recovery Rate By Spell Label - % (1523)",
+          "base_value": 1.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 0.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431695,
+            431698
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431695,
+          "source_spell_id": 431698,
+          "effect_index": 13,
+          "effect_text": "Apply Aura: Mod Charge Cooldown Recharge Rate - % (2411)",
+          "base_value": 1.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 0.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431695,
+            431698
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431695,
+          "source_spell_id": 431698,
+          "effect_index": 16,
+          "effect_text": "Apply Aura: Mod Charge Cooldown Recharge Rate - % (2054)",
+          "base_value": 1.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 0.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431695,
+            431698
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431695,
+          "source_spell_id": 431698,
+          "effect_index": 17,
+          "effect_text": "Apply Aura: Mod Charge Cooldown Recharge Rate - % (2456)",
+          "base_value": 1.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 0.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431695,
+            431698
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431695,
+          "source_spell_id": 431698,
+          "effect_index": 18,
+          "effect_text": "Apply Aura: Mod Charge Cooldown Recharge Rate - % (2471)",
+          "base_value": 1.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 0.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431695,
+            431698
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        }
+      ],
+      "render_effect_count": 13
     },
     {
       "talent_name": "Chronoboon",
@@ -6501,10 +8081,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1260484,
         "icon": "ability_evoker_tipthescales"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Tip the Scales' cooldown is reduced by 30 sec.",
+      "pvp_tooltip": "Tip the Scales' cooldown is reduced by 30 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6554,15 +8134,67 @@ window.WOW_PVP_DATA = {
         "spell_id": 431615,
         "icon": "ability_evoker_giftoftheaspects"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Upheaval deals 50% additional damage over 8 sec.",
+      "pvp_tooltip": "Upheaval deals 50% additional damage over 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 430.0,
+          "new": 559.0,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431615,
+          "source_spell_id": 396288,
+          "effect_index": 2,
+          "effect_text": "School Damage (Fire, Nature) (SP mod: 4.3)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.3,
+          "final_pvp_multiplier": 1.3,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431615,
+            431620,
+            396286,
+            396288
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256942,
+              "game_effect_id": 1264707,
+              "amount_kind": "direct",
+              "value_pct": 30.0,
+              "factor": 1.3,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Temporality",
@@ -6607,10 +8239,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 431873,
         "icon": "ability_evoker_return"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Warp reduces damage taken by 20%, starting high and reducing over 3 sec.",
+      "pvp_tooltip": "Warp reduces damage taken by 20%, starting high and reducing over 3 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6660,10 +8292,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 432008,
         "icon": "item_timemote_icon"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Warp leaves a trail of Motes of Acceleration. Allies who come in contact with a mote gain 20% increased movement speed for 30 sec.",
+      "pvp_tooltip": "Warp leaves a trail of Motes of Acceleration. Allies who come in contact with a mote gain 20% increased movement speed for 30 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6713,10 +8345,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 431715,
         "icon": "ability_evoker_aspectsfavorbronze"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Prescience cooldown reduced by 2 sec and it grants 1% additional critical strike chance.",
+      "pvp_tooltip": "Prescience cooldown reduced by 2 sec and it grants 1% additional critical strike chance.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6766,10 +8398,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1291522,
         "icon": "inv_10_dungeonjewelry_dragon_trinket_1arcanemagical_red"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Living Flame's cast time is reduced by 0.2 sec, and it deals 50% increased damage or healing when it is a non-instant cast.",
+      "pvp_tooltip": "Living Flame's cast time is reduced by 0.2 sec, and it deals 50% increased damage or healing when it is a non-instant cast.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6819,10 +8451,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 431657,
         "icon": "inv_misc_pocketwatch_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "For each damage over time effect from Upheaval, gain 3% haste, up to 9%.",
+      "pvp_tooltip": "For each damage over time effect from Upheaval, gain 3% haste, up to 9%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6872,10 +8504,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 431874,
         "icon": "spell_holy_borrowedtime"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Ebon Might and Prescience gain a chance equal to your critical strike chance to grant 50% additional stats. For Ebon Might, this increase lasts\n15.0\nsec.",
+      "pvp_tooltip": "Ebon Might and Prescience gain a chance equal to your critical strike chance to grant 50% additional stats. For Ebon Might, this increase lasts\n15.0\nsec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6925,10 +8557,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 431984,
         "icon": "ability_evoker_plotthefuture"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Non-defensive abilities with a 45 second or longer cooldown grant 5% Intellect for 15 sec.\nEssence spells extend the duration by 1 sec.",
+      "pvp_tooltip": "Non-defensive abilities with a 45 second or longer cooldown grant 5% Intellect for 15 sec.\nEssence spells extend the duration by 1 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6978,10 +8610,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 431484,
         "icon": "ability_dragonriding_bronzerewind01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Each time you cast an empower spell, unstable time magic reduces its cooldown by up to 6 sec.",
+      "pvp_tooltip": "Each time you cast an empower spell, unstable time magic reduces its cooldown by up to 6 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7031,10 +8663,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1260647,
         "icon": "spell_holy_borrowedtime"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Chrono Flames' maximum damage or healing is increased by 40%, up to [(Spell Power * 3.5) * (1 + Versatility)] Arcane.",
+      "pvp_tooltip": "Chrono Flames' maximum damage or healing is increased by 40%, up to [(Spell Power * 3.5) * (1 + Versatility)] Arcane.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7084,10 +8716,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 432004,
         "icon": "achievement_faction_goldenlotus"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Prescience lasts 15% longer.",
+      "pvp_tooltip": "Prescience lasts 15% longer.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7138,10 +8770,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 431875,
         "icon": "ability_evoker_livingflame"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Empower spells send up to 3 Chrono Flames to your targets.",
+      "pvp_tooltip": "Empower spells send up to 3 Chrono Flames to your targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7149,684 +8781,13 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     }
   ],
-  "fetch_errors": [
-    {
-      "source": "wowhead_page",
-      "spell_id": 351338,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16791790 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 358385,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e246e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 360806,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165bd9a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 360827,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167932c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 360995,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167335c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 363916,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e632f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 365585,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16662bd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 365933,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d55bb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 368838,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165bd0d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 369459,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17152270 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 369908,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1659e8d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 369909,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16792b10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 369913,
-      "error": "RetryError: RetryError[<Future at 0x7fbf182c5f40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 369939,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166576b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 369990,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16795d60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 370553,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dab1d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 370665,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165af380 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 370886,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165f3d70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 370888,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c10290 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 371032,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165f0fb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 371806,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16daa570 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 372048,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1667a660 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 372469,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da8ec0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 374227,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e26b10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 374251,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1667bcb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 374346,
-      "error": "RetryError: RetryError[<Future at 0x7fbf182c56d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 374348,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1667bfe0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 374968,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1650c050 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 375406,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b5970 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 375443,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e50cb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 375510,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1667bef0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 375517,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165c2c00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 375520,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165acec0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 375528,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e252b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 375542,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dabce0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 375544,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16790410 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 375554,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165f2120 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 375556,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165f2e10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 375561,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ac4d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 375574,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1653ab10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 375722,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e27020 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 375796,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e257f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 376164,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17153cb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 376166,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da9730 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 376930,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16694590 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 386405,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165e53a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 387341,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17151ca0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 387761,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165a5790 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 387787,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1667bb90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 395152,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166977a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 395160,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e764b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 396187,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165af920 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 396286,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166b5430 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 403208,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170dc2f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 403631,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167504d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 404195,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165a6150 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 404977,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166dbb30 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 406659,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16750650 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 406732,
-      "error": "RetryError: RetryError[<Future at 0x7fbf19257fb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 406904,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16791d30 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 406907,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165f3860 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 407243,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167d85f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 407814,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e24ad0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 407866,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166b7c50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 407869,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b4a70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 407876,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16eda330 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 408002,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165f1070 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 408004,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b7620 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 408083,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166e92e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 408233,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ed8920 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 408775,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ed8f50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 409267,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18bd9850 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 409311,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16751910 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 409329,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16796900 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 409676,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16790ef0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 410253,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16750cb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 410260,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16edad20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 410261,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e24380 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 410352,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166785c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 410643,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16852f90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 410685,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171f23c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 410687,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16852360 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 410784,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16851ee0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 412710,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165adf10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 412713,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e509e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 412723,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e26cc0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 412733,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16538aa0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 412774,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165d2fc0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 414969,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16f07e00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 418101,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16627ce0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 429483,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1650f7d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 431442,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165bfd40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 431484,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16f07680 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 431615,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dd4740 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 431657,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b7470 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 431695,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da9700 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 431715,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165bf290 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 431873,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9cdd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 431874,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ad190 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 431875,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e2a150 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 431984,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e25fd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 432004,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165a4590 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 432008,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165acd10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 433871,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165c25d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 434300,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16792d80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 438587,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16797350 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441176,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16791a00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441180,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b4d70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441181,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e75700 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441206,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e51c70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441212,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e98050 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441219,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165f0470 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441245,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663d730 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441246,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16751d90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441253,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16626bd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441257,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e9a2d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441705,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674c6b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 454983,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663ec00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 459120,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da8b90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 459537,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da85f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1250914,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dd5190 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1259173,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b5b50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1259174,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165f0a40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1259175,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16790e60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1260484,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16656270 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1260647,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ac860 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1260745,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16792690 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1261448,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e27f80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1261452,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171f1c70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1264378,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1f9b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1267206,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167a2b10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1268881,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e27e90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1291457,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ad7f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1291522,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18259070 state=finished raised HTTPStatusError>]"
-    }
-  ],
+  "fetch_errors": [],
   "slug": "evoker-augmentation",
-  "generated_at": "2026-09-19T13:50:25.521132+00:00",
+  "generated_at": "2026-09-19T14:08:07.331740+00:00",
   "validation": {
     "talents": 134,
-    "changed_tooltips": 0,
-    "talents_with_pvp_mechanics": 0,
+    "changed_tooltips": 11,
+    "talents_with_pvp_mechanics": 15,
     "unique_nodes": 120,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
@@ -7834,103 +8795,36 @@ window.WOW_PVP_DATA = {
       "12.1.0.69587"
     ],
     "verification_status": "PARTIAL",
-    "fetch_error_count": 279,
-    "unresolved_count": 42,
-    "review_required_count": 134,
-    "fetch_error_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 351338,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16621850 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 358385,
-        "error": "RetryError: RetryError[<Future at 0x7fbf1657c770 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 360806,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16c718b0 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 360827,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16da0a40 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 360995,
-        "error": "RetryError: RetryError[<Future at 0x7fbf1657d7f0 state=finished raised HTTPStatusError>]"
-      }
-    ],
+    "fetch_error_count": 0,
+    "unresolved_count": 1,
+    "review_required_count": 1,
+    "fetch_error_examples": [],
     "unresolved_examples": [
       {
-        "spell_id": 372048,
-        "talent_name": "Oppressing Roar",
+        "spell_id": 431698,
+        "talent_name": "Temporal Burst",
         "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.6,
-        "effect_text": "Apply Aura (6) | Modify Mechanic Duration% (Stacking) (232)"
-      },
-      {
-        "spell_id": 372048,
-        "talent_name": "Oppressing Roar",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.6,
-        "effect_text": "Apply Aura (6) | Modify Mechanic Duration% (Stacking) (232)"
-      },
-      {
-        "spell_id": 372048,
-        "talent_name": "Oppressing Roar",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.6,
-        "effect_text": "Apply Aura (6) | Modify Mechanic Duration% (Stacking) (232)"
-      },
-      {
-        "spell_id": 372048,
-        "talent_name": "Oppressing Roar",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.6,
-        "effect_text": "Apply Aura (6) | Modify Mechanic Duration% (Stacking) (232)"
-      },
-      {
-        "spell_id": 372048,
-        "talent_name": "Oppressing Roar",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.6,
-        "effect_text": "Apply Aura (6) | Modify Mechanic Duration% (Stacking) (232)"
+        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
+        "multiplier": 0.5,
+        "effect_text": "Apply Aura (6) | Modify All Haste% (193)",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 431695,
+        "source_spell_id": 431698,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          431695,
+          431698
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref"
+        ]
       }
     ],
     "review_required_examples": [
       {
-        "talent_name": "Landslide",
-        "spell_id": 358385,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Obsidian Scales",
-        "spell_id": 363916,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Expunge",
-        "spell_id": 365585,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Natural Convergence",
-        "spell_id": 369913,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Heavy Wingbeats",
-        "spell_id": 368838,
-        "status": "MISSING_TOOLTIP"
+        "talent_name": "Breath of Eons",
+        "spell_id": 403631,
+        "status": "REVIEW_REQUIRED"
       }
     ]
   }

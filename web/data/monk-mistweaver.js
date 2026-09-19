@@ -49,15 +49,68 @@ window.WOW_PVP_DATA = {
         "spell_id": 115175,
         "icon": "ability_monk_soothingmists"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "0% of base mana, plus 0.4% per second / 15 Energy per sec\n40 yd range\nChanneled (8 sec cast)\nHeals the target for (1680% of Spell Power) over 8 sec. While channeling, Enveloping Mist [\nSurging Mist\n:\nSurging Mist\n] [\nZen Pulse\n:\nZen Pulse\n] and Vivify may be cast instantly on the target.\nFollows the target of your Enveloping Mist and Vivify.",
+      "pvp_tooltip": "0% of base mana, plus 0.4% per second / 15 Energy per sec\n40 yd range\nChanneled (8 sec cast)\nHeals the target for (1260% of Spell Power) over 8 sec. While channeling, Enveloping Mist [\nSurging Mist\n:\nSurging Mist\n] [\nZen Pulse\n:\nZen Pulse\n] and Vivify may be cast instantly on the target.\nFollows the target of your Enveloping Mist and Vivify.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 115,
+          "end": 119,
+          "old_token": "1680",
+          "new_token": "1260",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "1680",
+          "new": "1260"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 115175,
+          "source_spell_id": 115175,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Heal",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108338,
+              "amount_kind": "periodic",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Paralysis",
@@ -101,10 +154,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 115078,
         "icon": "ability_monk_paralysis"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "20 Energy\n20 yd range\nInstant\n45 sec cooldown\nIncapacitates the target for 1 min. Limit 1. Damage may cancel the effect.",
+      "pvp_tooltip": "20 Energy\n20 yd range\nInstant\n45 sec cooldown\nIncapacitates the target for 1 min. Limit 1. Damage may cancel the effect.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -153,14 +206,51 @@ window.WOW_PVP_DATA = {
         "spell_id": 107428,
         "icon": "ability_monk_risingsunkick"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "2 Chi / 2.5% of base mana\nMelee Range\nInstant\n10 sec cooldown\n1 Charge\nKick upwards, dealing (143.8% of Attack Power) Physical damage.\nApplies Renewing Mist for 6 seconds to an ally within 40 yds",
+      "pvp_tooltip": "2 Chi / 2.5% of base mana\nMelee Range\nInstant\n10 sec cooldown\n1 Charge\nKick upwards, dealing (143.8% of Attack Power) Physical damage.\nApplies Renewing Mist for 6 seconds to an ally within 40 yds",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 107428,
+          "source_spell_id": 185099,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 1.438 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.22,
+          "final_pvp_multiplier": 1.22,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            107428,
+            185099
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1109279,
+              "amount_kind": "direct",
+              "value_pct": 22.0,
+              "factor": 1.22,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -207,10 +297,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388681,
         "icon": "ability_monk_soothingmists"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces all damage taken by you and your target while channeling Soothing Mists by 6%.",
+      "pvp_tooltip": "Reduces all damage taken by you and your target while channeling Soothing Mists by 6%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -263,10 +353,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 116841,
         "icon": "ability_monk_tigerslust"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "20 yd range\nInstant\n30 sec cooldown\nIncreases a friendly target's movement speed by 70% for 6 sec and removes all roots and snares.",
+      "pvp_tooltip": "20 yd range\nInstant\n30 sec cooldown\nIncreases a friendly target's movement speed by 70% for 6 sec and removes all roots and snares.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -319,15 +409,65 @@ window.WOW_PVP_DATA = {
         "spell_id": 450335,
         "icon": "ability_monk_blackoutkick"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Targets you Roll through are snared by 40% for 5 sec.",
+      "pvp_tooltip": "Targets you Roll through are snared by 30% for 5 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 39,
+          "end": 41,
+          "old_token": "40",
+          "new_token": "30",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "40",
+          "new": "30"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 450335,
+          "source_spell_id": 450342,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -40.0,
+          "spell_pvp_multiplier": 0.75,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            450335,
+            450342
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Disable",
@@ -375,10 +515,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 116095,
         "icon": "ability_shockwave"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": ":\nTargets already snared will be rooted for 8 sec instead\n]",
+      "pvp_tooltip": ":\nTargets already snared will be rooted for 8 sec instead\n]",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -429,10 +569,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388809,
         "icon": "ability_monk_risingsunkick"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Rising Sun Kick deals 70% increased damage. Spinning Crane Kick deals 10% additional damage.",
+      "pvp_tooltip": "Rising Sun Kick deals 70% increased damage. Spinning Crane Kick deals 10% additional damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -485,10 +625,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388811,
         "icon": "monk_ability_cherrymanatea"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases all healing taken by 6%.",
+      "pvp_tooltip": "Increases all healing taken by 6%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -538,10 +678,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450520,
         "icon": "ability_monk_roll"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Roll and Chi Torpedo travel a small distance further.\nModifies Buff Duration +80:\nChi Torpedo",
+      "pvp_tooltip": "Roll and Chi Torpedo travel a small distance further.\nModifies Buff Duration +80:\nChi Torpedo",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -594,10 +734,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388664,
         "icon": "inv_misc_orb_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces all damage taken by 3%.",
+      "pvp_tooltip": "Reduces all damage taken by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -647,10 +787,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450514,
         "icon": "ability_monk_zenflight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The range of Disable is increased by 5 yds.\nThe duration of Crashing Momentum is increased by 3 sec and its snare now reduces movement speed by an additional 20%.",
+      "pvp_tooltip": "The range of Disable is increased by 5 yds.\nThe duration of Crashing Momentum is increased by 3 sec and its snare now reduces movement speed by an additional 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -703,10 +843,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388874,
         "icon": "ability_rogue_imrovedrecuperate"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Detox additionally removes all Poison and Disease effects.",
+      "pvp_tooltip": "Detox additionally removes all Poison and Disease effects.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -758,10 +898,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388812,
         "icon": "ability_monk_vivify"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After casting Rising Sun Kick, your next\nVivify\nbecomes instant cast.",
+      "pvp_tooltip": "After casting Rising Sun Kick, your next\nVivify\nbecomes instant cast.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -813,10 +953,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266734,
         "icon": "ability_monk_surgingmist"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After casting Enveloping Mist, your next\nVivify\nbecomes instant cast.",
+      "pvp_tooltip": "After casting Enveloping Mist, your next\nVivify\nbecomes instant cast.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -866,15 +1006,73 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266719,
         "icon": "spell_monk_zenpilgrimage"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "While no enemies are within 15 yds, you heal for (375% of Spell Power) every 3 sec.",
+      "pvp_tooltip": "While no enemies are within 15 yds, you heal for (281.25% of Spell Power) every 3 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 50,
+          "end": 53,
+          "old_token": "375",
+          "new_token": "281.25",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "375",
+          "new": "281.25"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1266719,
+          "source_spell_id": 1266720,
+          "effect_index": 1,
+          "effect_text": "Heal (SP mod: 3.75)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1266719,
+            1266720
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108337,
+              "amount_kind": "direct",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Jade Walk",
@@ -922,10 +1120,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450553,
         "icon": "spell_lifegivingspeed"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While out of combat, your movement speed is increased by 15%.",
+      "pvp_tooltip": "While out of combat, your movement speed is increased by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -975,10 +1173,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450432,
         "icon": "ability_monk_deadlyreach"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Paralysis now removes all Enrage effects from its target.",
+      "pvp_tooltip": "Paralysis now removes all Enrage effects from its target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1031,10 +1229,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1277444,
         "icon": "inv_belt__inv_leather_raidmonkmythic_s_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You heal for 3% of all magical damage taken.",
+      "pvp_tooltip": "You heal for 3% of all magical damage taken.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1084,10 +1282,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266740,
         "icon": "ability_monk_quipunch"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After Detox successfully removes an effect from an ally, their movement speed is increased by 30% for 5 sec.\n(300ms cooldown)",
+      "pvp_tooltip": "After Detox successfully removes an effect from an ally, their movement speed is increased by 30% for 5 sec.\n(300ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1139,10 +1337,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 344359,
         "icon": "ability_monk_dpsstance"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Paralysis by 15 sec and the cooldown of Leg Sweep by 10 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Paralysis by 15 sec and the cooldown of Leg Sweep by 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1195,14 +1393,87 @@ window.WOW_PVP_DATA = {
         "spell_id": 450391,
         "icon": "ability_monk_chiwave"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Every 15 sec, your next Rising Sun Kick or\nVivify\nreleases a wave of Chi energy that flows through friends and foes, dealing (20% of Attack Power) Nature damage or (60% of Attack Power) healing. Bounces up to 7 times to targets within 25 yards.",
+      "pvp_tooltip": "Every 15 sec, your next Rising Sun Kick or\nVivify\nreleases a wave of Chi energy that flows through friends and foes, dealing (20% of Attack Power) Nature damage or (60% of Attack Power) healing. Bounces up to 7 times to targets within 25 yards.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 450391,
+          "source_spell_id": 132463,
+          "effect_index": 1,
+          "effect_text": "Heal (AP mod: 0.6 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            450391,
+            132463
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108337,
+              "amount_kind": "direct",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 450391,
+          "source_spell_id": 132467,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (AP mod: 0.2 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.22,
+          "final_pvp_multiplier": 1.22,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            450391,
+            132467
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1109279,
+              "amount_kind": "direct",
+              "value_pct": 22.0,
+              "factor": 1.22,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -1252,10 +1523,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 101643,
         "icon": "monk_ability_transcendence"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n10 sec cooldown\nSplit your body and spirit, leaving your spirit behind for 15 min. Use Transcendence: Transfer to swap locations with your spirit.",
+      "pvp_tooltip": "Instant\n10 sec cooldown\nSplit your body and spirit, leaving your spirit behind for 15 min. Use Transcendence: Transfer to swap locations with your spirit.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1308,10 +1579,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 115173,
         "icon": "ability_monk_quipunch"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Roll by 5 sec and increases its maximum number of charges by 1.",
+      "pvp_tooltip": "Reduces the cooldown of Roll by 5 sec and increases its maximum number of charges by 1.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1364,10 +1635,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 115008,
         "icon": "ability_monk_quitornado"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Replaces\nRoll\nInstant\n20 sec recharge\n2 Charges\nTorpedoes you forward a long distance and increases your movement speed by 30% for\n10 sec\n, stacking up to 2 times.",
+      "pvp_tooltip": "Replaces\nRoll\nInstant\n20 sec recharge\n2 Charges\nTorpedoes you forward a long distance and increases your movement speed by 30% for\n10 sec\n, stacking up to 2 times.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1417,10 +1688,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266733,
         "icon": "inv_helm_leather_raidmonkprogenitormythic_d_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Leg Sweep applies Disable for 5.0 sec when it ends.",
+      "pvp_tooltip": "Leg Sweep applies Disable for 5.0 sec when it ends.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1472,10 +1743,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450503,
         "icon": "ability_monk_hurricanestrike"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The duration of snare effects on you is reduced by 20%.",
+      "pvp_tooltip": "The duration of snare effects on you is reduced by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1527,10 +1798,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 328670,
         "icon": "ability_monk_provoke"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Provoked targets move towards you at 50% increased speed.",
+      "pvp_tooltip": "Provoked targets move towards you at 50% increased speed.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1581,10 +1852,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388674,
         "icon": "ability_mount_pinktiger"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases all damage dealt by 2%.",
+      "pvp_tooltip": "Increases all damage dealt by 2%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1636,10 +1907,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 116844,
         "icon": "spell_monk_ringofpeace"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\nInstant\n45 sec cooldown\nForm a Ring of Peace at the target location for 5 sec. Enemies that enter will be ejected from the Ring.",
+      "pvp_tooltip": "40 yd range\nInstant\n45 sec cooldown\nForm a Ring of Peace at the target location for 5 sec. Enemies that enter will be ejected from the Ring.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1691,10 +1962,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 198898,
         "icon": "inv_chaos_orb"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\n1.8 sec cast\n30 sec cooldown\nConjures a cloud of hypnotic mist that slowly travels forward. Enemies touched by the mist fall asleep, Disoriented for 20 sec.",
+      "pvp_tooltip": "40 yd range\n1.8 sec cast\n30 sec cooldown\nConjures a cloud of hypnotic mist that slowly travels forward. Enemies touched by the mist fall asleep, Disoriented for 20 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1745,15 +2016,65 @@ window.WOW_PVP_DATA = {
         "spell_id": 450595,
         "icon": "spell_shaman_spectraltransformation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Transcendence: Transfer snares targets within 10 yds by 70% for 4 sec when cast.",
+      "pvp_tooltip": "Transcendence: Transfer snares targets within 10 yds by 50% for 4 sec when cast.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 56,
+          "end": 58,
+          "old_token": "70",
+          "new_token": "50",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "70",
+          "new": "50"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 450595,
+          "source_spell_id": 450596,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -70.0,
+          "spell_pvp_multiplier": 0.714286,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.714286,
+          "final_pvp_value": -50.00002,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            450595,
+            450596
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Tiger Tail Sweep",
@@ -1798,10 +2119,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 264348,
         "icon": "ability_monk_legsweep"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the range of Leg Sweep by 4 yds.",
+      "pvp_tooltip": "Increases the range of Leg Sweep by 4 yds.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1853,10 +2174,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 322113,
         "icon": "ability_monk_touchofdeath"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Touch of Death can now be used on targets with less than 15% health remaining, dealing 35% of your maximum health in damage.",
+      "pvp_tooltip": "Touch of Death can now be used on targets with less than 15% health remaining, dealing 35% of your maximum health in damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1909,10 +2230,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266811,
         "icon": "ability_monk_serenity"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Vivify and Sheilun's Gift trigger a Gust of Mist on yourself.",
+      "pvp_tooltip": "Vivify and Sheilun's Gift trigger a Gust of Mist on yourself.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1965,15 +2286,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 414131,
         "icon": "ability_monk_dragonkick"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Find resilience in the flow of chi in battle, gaining a magic absorb shield for 1.0% of your max health every 3 sec in combat, stacking up to 10%.",
+      "pvp_tooltip": "Find resilience in the flow of chi in battle, gaining a magic absorb shield for 1.0% of your max health every 3 sec in combat, stacking up to 5%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 142,
+          "end": 144,
+          "old_token": "10",
+          "new_token": "5",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "10",
+          "new": "5"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 414131,
+          "source_spell_id": 414131,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodically trigger spell",
+          "base_value": 10.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 5.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Peace and Prosperity",
@@ -2018,10 +2384,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450448,
         "icon": "inv_inscription_deck_redcrane"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Ring of Peace by 5 sec and Song of Chi-Ji's cast time is reduced by 0.5 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Ring of Peace by 5 sec and Song of Chi-Ji's cast time is reduced by 0.5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2074,15 +2440,55 @@ window.WOW_PVP_DATA = {
         "spell_id": 388917,
         "icon": "ability_monk_fortifyingale_new"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Turns your skin to stone for 15 sec, increasing your current and maximum health by 20% and reducing all damage you take by 20%.\nCombines with other Fortifying Brew effects.",
+      "pvp_tooltip": "Turns your skin to stone for 15 sec, increasing your current and maximum health by 20% and reducing all damage you take by 20%.\nCombines with other Fortifying Brew effects.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "REVIEW_REQUIRED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "AMBIGUOUS_TEXT_MATCH",
+          "kind": "ordinary_value",
+          "old": 20.0,
+          "new": 30.0,
+          "match_count": 2
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 388917,
+          "source_spell_id": 115203,
+          "effect_index": 2,
+          "effect_text": "Dummy",
+          "base_value": -20.0,
+          "spell_pvp_multiplier": 1.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.5,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            388917,
+            115203
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Dance of the Wind",
@@ -2129,15 +2535,50 @@ window.WOW_PVP_DATA = {
         "spell_id": 432181,
         "icon": "ability_monk_dematerialize"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your physical damage taken is reduced by 10% and an additional 10% every 4 sec until you receive a physical attack, stacking up to 4.",
+      "pvp_tooltip": "Your physical damage taken is reduced by 10% and an additional 10% every 4 sec until you receive a physical attack, stacking up to 4.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "REVIEW_REQUIRED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "AMBIGUOUS_TEXT_MATCH",
+          "kind": "ordinary_value",
+          "old": 10.0,
+          "new": 5.0,
+          "match_count": 2
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 432181,
+          "source_spell_id": 432181,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Mod % Damage Taken (Physical)",
+          "base_value": -10.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": -5.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Save Them All",
@@ -2183,10 +2624,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 389579,
         "icon": "inv_weapon_hand_22"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your healing is increased by up to 10%, based on the current health of your target. Lower health targets are healed for more.",
+      "pvp_tooltip": "Your healing is increased by up to 10%, based on the current health of your target. Lower health targets are healed for more.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2237,10 +2678,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450622,
         "icon": "ability_monk_standingkick"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Roll removes a snare effect once every 30 sec.\n(30s cooldown)",
+      "pvp_tooltip": "Roll removes a snare effect once every 30 sec.\n(30s cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2292,10 +2733,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266748,
         "icon": "ability_monk_souldance"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Vivify and Sheilun's Gift critical strike chances are increased by 15% on yourself.",
+      "pvp_tooltip": "Vivify and Sheilun's Gift critical strike chances are increased by 15% on yourself.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2347,15 +2788,74 @@ window.WOW_PVP_DATA = {
         "spell_id": 1242910,
         "icon": "ability_monk_summonserpentstatue"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Thunder Focus Tea summons a Jade Serpent Statue at your location. When you channel Soothing Mist, the statue will also begin to channel Soothing Mist on your target, healing for (560% of Spell Power) over 8 sec.",
+      "pvp_tooltip": "Thunder Focus Tea summons a Jade Serpent Statue at your location. When you channel Soothing Mist, the statue will also begin to channel Soothing Mist on your target, healing for (672% of Spell Power) over 8 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 179,
+          "end": 182,
+          "old_token": "560",
+          "new_token": "672",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "560",
+          "new": "672"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1242910,
+          "source_spell_id": 198533,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Heal",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.6,
+          "amount_kind": "periodic",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 1.2000000000000002,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1242910,
+            198533
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108338,
+              "amount_kind": "periodic",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Summon Jade Serpent Statue",
@@ -2402,15 +2902,74 @@ window.WOW_PVP_DATA = {
         "spell_id": 115313,
         "icon": "ability_monk_summonserpentstatue"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "40 yd range\nInstant\n10 sec cooldown\nSummons a Jade Serpent Statue at the target location. When you channel Soothing Mist, the statue will also begin to channel Soothing Mist on your target, healing for (560% of Spell Power) over 8 sec.",
+      "pvp_tooltip": "40 yd range\nInstant\n10 sec cooldown\nSummons a Jade Serpent Statue at the target location. When you channel Soothing Mist, the statue will also begin to channel Soothing Mist on your target, healing for (672% of Spell Power) over 8 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 203,
+          "end": 206,
+          "old_token": "560",
+          "new_token": "672",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "560",
+          "new": "672"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 115313,
+          "source_spell_id": 198533,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Heal",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.6,
+          "amount_kind": "periodic",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 1.2000000000000002,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            115313,
+            198533
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108338,
+              "amount_kind": "periodic",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Ironshell Brew",
@@ -2457,10 +3016,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388814,
         "icon": "ability_monk_fortifyingale_new"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases your maximum health by an additional 10% and your damage taken is reduced by an additional 10% while Fortifying Brew is active.",
+      "pvp_tooltip": "Increases your maximum health by an additional 10% and your damage taken is reduced by an additional 10% while Fortifying Brew is active.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2512,10 +3071,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388813,
         "icon": "ability_monk_fortifyingale_new"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Fortifying Brew cooldown reduced by 30 sec.",
+      "pvp_tooltip": "Fortifying Brew cooldown reduced by 30 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2563,10 +3122,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1243287,
         "icon": "spell_monk_diffusemagic"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Activating Fortifying Brew transfers all currently active harmful magical effects on you back to their original caster if possible.",
+      "pvp_tooltip": "Activating Fortifying Brew transfers all currently active harmful magical effects on you back to their original caster if possible.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2617,10 +3176,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450638,
         "icon": "ability_monk_essencefont"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While your Celestial is active, you cannot be slowed below 90% normal movement speed.",
+      "pvp_tooltip": "While your Celestial is active, you cannot be slowed below 90% normal movement speed.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2673,10 +3232,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450426,
         "icon": "ability_monk_chiswirl"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Magical damage done increased by 5% and healing done increased by 5%.",
+      "pvp_tooltip": "Magical damage done increased by 5% and healing done increased by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2727,10 +3286,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450560,
         "icon": "ability_monk_pathofmists"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Transcendence: Transfer immediately heals you for 10% of your maximum health.",
+      "pvp_tooltip": "Transcendence: Transfer immediately heals you for 10% of your maximum health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2782,10 +3341,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 157411,
         "icon": "monk_stance_whitetiger"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You and your allies within 10 yards have 10% increased movement speed. Stacks with other similar effects.",
+      "pvp_tooltip": "You and your allies within 10 yards have 10% increased movement speed. Stacks with other similar effects.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2836,10 +3395,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1272452,
         "icon": "ability_monk_zenmeditation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Touch of Death now heals you for 60% of its damage done.",
+      "pvp_tooltip": "Touch of Death now heals you for 60% of its damage done.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2891,10 +3450,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450427,
         "icon": "ability_monk_palmstrike"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases your Physical damage done by 5% and Avoidance increased by 2%.",
+      "pvp_tooltip": "Increases your Physical damage done by 5% and Avoidance increased by 2%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2942,15 +3501,50 @@ window.WOW_PVP_DATA = {
         "spell_id": 449582,
         "icon": "ability_monk_ridethewind"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Roll causes you to become lighter than air, allowing you to double jump to dash forward a short distance once within 5 sec, but the cooldown of Roll is increased by 2 sec.",
+      "pvp_tooltip": "Roll causes you to become lighter than air, allowing you to double jump to dash forward a short distance once within 5 sec, but the cooldown of Roll is increased by 2 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 2000.0,
+          "new": 4000.0,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 449582,
+          "source_spell_id": 449582,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Cooldown Ms (1365)",
+          "base_value": 2000.0,
+          "spell_pvp_multiplier": 2.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 4000.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Flow of Chi",
@@ -2994,10 +3588,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450569,
         "icon": "ability_monk_healthsphere"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You gain a bonus effect based on your current health.\nAbove 90% health: Movement speed increased by 5%. This bonus stacks with similar effects.\nBetween 90% and 35% health: Damage taken reduced by 5%.\nBelow 35% health: Healing received increased by 10%.",
+      "pvp_tooltip": "You gain a bonus effect based on your current health.\nAbove 90% health: Movement speed increased by 5%. This bonus stacks with similar effects.\nBetween 90% and 35% health: Damage taken reduced by 5%.\nBelow 35% health: Healing received increased by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3047,10 +3641,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 394110,
         "icon": "monk_ability_transcendence"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After you use Transcendence: Transfer, you can use Transcendence: Transfer again within 10 sec, ignoring its cooldown.",
+      "pvp_tooltip": "After you use Transcendence: Transfer, you can use Transcendence: Transfer again within 10 sec, ignoring its cooldown.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3100,10 +3694,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 434774,
         "icon": "monk_ability_transcendence"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "10 sec cooldown\nTranscendence now tethers your spirit onto an ally for 1 hour. Use Transcendence: Transfer to teleport to your ally's location.",
+      "pvp_tooltip": "10 sec cooldown\nTranscendence now tethers your spirit onto an ally for 1 hour. Use Transcendence: Transfer to teleport to your ally's location.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3152,10 +3746,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 394123,
         "icon": "ability_monk_touchofdeath"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Touch of Death's cooldown is reduced by 90 sec.",
+      "pvp_tooltip": "Touch of Death's cooldown is reduced by 90 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3203,10 +3797,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450154,
         "icon": "ability_monk_yulonsgift"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your heightened reflexes allow you to react swiftly to the presence of enemies, causing you to quickly lunge to the nearest enemy in front of you within 10 yards after you Roll.",
+      "pvp_tooltip": "Your heightened reflexes allow you to react swiftly to the presence of enemies, causing you to quickly lunge to the nearest enemy in front of you within 10 yards after you Roll.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3255,15 +3849,101 @@ window.WOW_PVP_DATA = {
         "spell_id": 124682,
         "icon": "spell_monk_envelopingmist"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "3.6% of base mana\n40 yd range\n2 sec cast\nWraps the target in healing mists, healing for (748.8% of Spell Power) over 6 sec /\nMist Wrap\n:\n7 sec\n/\nInvoke Yu'lon, the Jade Serpent\n:\n10 sec\n/\nInvoke Chi-Ji, the Red Crane\n:\n10 sec\n, and increasing healing received from your other spells by\n10\n%.\nApplies Renewing Mist for 6 seconds to an ally within 40 yds.",
+      "pvp_tooltip": "3.6% of base mana\n40 yd range\n2 sec cast\nWraps the target in healing mists, healing for (561.6% of Spell Power) over 6 sec /\nMist Wrap\n:\n7 sec\n/\nInvoke Yu'lon, the Jade Serpent\n:\n10 sec\n/\nInvoke Chi-Ji, the Red Crane\n:\n10 sec\n, and increasing healing received from your other spells by\n10\n%.\nApplies Renewing Mist for 6 seconds to an ally within 40 yds.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 89,
+          "end": 94,
+          "old_token": "748.8",
+          "new_token": "561.6",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1,
+            3
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1,
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "748.8",
+          "new": "561.6"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 124682,
+          "source_spell_id": 124682,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Heal",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108338,
+              "amount_kind": "periodic",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 124682,
+          "source_spell_id": 124682,
+          "effect_index": 3,
+          "effect_text": "Heal (SP mod: 7.488)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108337,
+              "amount_kind": "direct",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Thunder Focus Tea",
@@ -3309,15 +3989,147 @@ window.WOW_PVP_DATA = {
         "spell_id": 116680,
         "icon": "ability_monk_thunderfocustea"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Instant\n30 sec cooldown\n1 Charge\nReceive a jolt of energy, empowering your next\nspell\ncast:\nEnveloping Mist\n: Immediately heals for (748.8% of Spell Power) and is instant cast.\nRenewing Mist\n: Duration increased by 10 sec.\nRising Sun Kick\n: Cooldown reduced by 9 sec.\n[\nThunderous Focus Tea\n:\nCrackling Jade Lightning\n: Knockback applied immediately.\nRoll\n: Refund a charge and heal yourself for (240% of Attack Power)\n]",
+      "pvp_tooltip": "Instant\n30 sec cooldown\n1 Charge\nReceive a jolt of energy, empowering your next\nspell\ncast:\nEnveloping Mist\n: Immediately heals for (561.6% of Spell Power) and is instant cast.\nRenewing Mist\n: Duration increased by 10 sec.\nRising Sun Kick\n: Cooldown reduced by 9 sec.\n[\nThunderous Focus Tea\n:\nCrackling Jade Lightning\n: Knockback applied immediately.\nRoll\n: Refund a charge and heal yourself for (240% of Attack Power)\n]",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 133,
+          "end": 138,
+          "old_token": "748.8",
+          "new_token": "561.6",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1,
+            3
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1,
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "748.8",
+          "new": "561.6"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 116680,
+          "source_spell_id": 274062,
+          "effect_index": 1,
+          "effect_text": "Heal (SP mod: 7.488)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            116680,
+            274062
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108337,
+              "amount_kind": "direct",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 116680,
+          "source_spell_id": 274062,
+          "effect_index": 3,
+          "effect_text": "Heal (SP mod: 7.488)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            116680,
+            274062
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108337,
+              "amount_kind": "direct",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 116680,
+          "source_spell_id": 407058,
+          "effect_index": 1,
+          "effect_text": "Heal (AP mod: 2.4 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            116680,
+            407058
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108337,
+              "amount_kind": "direct",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Misty Coalescence",
@@ -3363,10 +4175,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1268817,
         "icon": "inv_ability_monk_renewingmists_active"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Renewing Mist healing is increased by up to 300% in proportion to its coverage on yourself and your allies.",
+      "pvp_tooltip": "Renewing Mist healing is increased by up to 300% in proportion to its coverage on yourself and your allies.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3417,14 +4229,38 @@ window.WOW_PVP_DATA = {
         "spell_id": 116849,
         "icon": "ability_monk_chicocoon"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "2.4% of base mana\n40 yd range\nInstant\n2 min cooldown\n1 Charge\nEncases the target in a cocoon of Chi energy for 12 sec, absorbing [Total Health * 48 / 100 * (1 + Versatility)] damage and increasing all healing over time received by 50%.\nApplies Renewing Mist and Enveloping Mist to the target.",
+      "pvp_tooltip": "2.4% of base mana\n40 yd range\nInstant\n2 min cooldown\n1 Charge\nEncases the target in a cocoon of Chi energy for 12 sec, absorbing [Total Health * 48 / 100 * (1 + Versatility)] damage and increasing all healing over time received by 50%.\nApplies Renewing Mist and Enveloping Mist to the target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 116849,
+          "source_spell_id": 116849,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Absorb Damage (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.975,
+          "amount_kind": "absorb",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.975,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -3471,14 +4307,43 @@ window.WOW_PVP_DATA = {
         "spell_id": 115869,
         "icon": "monk_ability_cherrymanatea"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": ":\nConsumes 1 stack of Mana Tea per 0.5 sec to restore\n6480\nMana.\nCan be cast while moving, but movement speed is reduced by 40% while channeling.",
+      "pvp_tooltip": ":\nConsumes 1 stack of Mana Tea per 0.5 sec to restore\n6480\nMana.\nCan be cast while moving, but movement speed is reduced by 40% while channeling.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 115869,
+          "source_spell_id": 115294,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodically give power (Mana)",
+          "base_value": 3.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 1.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            115869,
+            115294
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -3525,15 +4390,73 @@ window.WOW_PVP_DATA = {
         "spell_id": 274586,
         "icon": "ability_monk_vivify"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Vivify heals all allies with your Renewing Mist active for (323.18% of Spell Power).\nSheilun's Gift's healing is increased by 500% on its primary target.",
+      "pvp_tooltip": "Vivify heals all allies with your Renewing Mist active for (242.385% of Spell Power).\nSheilun's Gift's healing is increased by 500% on its primary target.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 60,
+          "end": 66,
+          "old_token": "323.18",
+          "new_token": "242.385",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "323.18",
+          "new": "242.385"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 274586,
+          "source_spell_id": 425804,
+          "effect_index": 1,
+          "effect_text": "Heal (SP mod: 3.2318)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            274586,
+            425804
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108337,
+              "amount_kind": "direct",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Crane Style",
@@ -3578,15 +4501,63 @@ window.WOW_PVP_DATA = {
         "spell_id": 446260,
         "icon": "ability_monk_mightyoxkick"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Approximately\n10\nprocs per minute\nRising Sun Kick now kicks up a Gust of Mist to heal 2 allies within 40 yds for (0.1% of Spell Power).\nSpinning Crane Kick and Blackout Kick have a chance to kick up a Gust of Mist to heal 1 ally within 40 yds for (0.1% of Spell Power).",
+      "pvp_tooltip": "Approximately\n10\nprocs per minute\nRising Sun Kick now kicks up a Gust of Mist to heal 2 allies within 40 yds for (0.1% of Spell Power).\nSpinning Crane Kick and Blackout Kick have a chance to kick up a Gust of Mist to heal 1 ally within 40 yds for (0.1% of Spell Power).",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "REVIEW_REQUIRED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "AMBIGUOUS_TEXT_MATCH",
+          "kind": "spell_power_coefficient",
+          "old": 0.1,
+          "new": 0.07500000000000001,
+          "match_count": 2
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 446260,
+          "source_spell_id": 191894,
+          "effect_index": 1,
+          "effect_text": "Heal (SP mod: 0.001)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            446260,
+            191894
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108337,
+              "amount_kind": "direct",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Revival",
@@ -3633,15 +4604,68 @@ window.WOW_PVP_DATA = {
         "spell_id": 115310,
         "icon": "spell_monk_revival"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "4.374% of base mana\nInstant\n3 min cooldown\n1 Charge\nHeals all party and raid members within 40 yds for (5988.28% of Spell Power) and clears them of 3 harmful Magic, all Poison, and all Disease effects.\nHealing reduced beyond 5 targets.",
+      "pvp_tooltip": "4.374% of base mana\nInstant\n3 min cooldown\n1 Charge\nHeals all party and raid members within 40 yds for (4491.21% of Spell Power) and clears them of 3 harmful Magic, all Poison, and all Disease effects.\nHealing reduced beyond 5 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 104,
+          "end": 111,
+          "old_token": "5988.28",
+          "new_token": "4491.21",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "5988.28",
+          "new": "4491.21"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 115310,
+          "source_spell_id": 115310,
+          "effect_index": 1,
+          "effect_text": "Heal (SP mod: 59.8828)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108337,
+              "amount_kind": "direct",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Restoral",
@@ -3688,15 +4712,68 @@ window.WOW_PVP_DATA = {
         "spell_id": 388615,
         "icon": "ability_monk_tigerstyle"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "4.374% of base mana\nInstant\n3 min cooldown\n1 Charge\nHeals all party and raid members within 40 yds for (5988.28% of Spell Power) and clears them of all harmful Poison and Disease effects.\nCastable while stunned.\nHealing reduced beyond 5 targets.",
+      "pvp_tooltip": "4.374% of base mana\nInstant\n3 min cooldown\n1 Charge\nHeals all party and raid members within 40 yds for (4491.21% of Spell Power) and clears them of all harmful Poison and Disease effects.\nCastable while stunned.\nHealing reduced beyond 5 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 104,
+          "end": 111,
+          "old_token": "5988.28",
+          "new_token": "4491.21",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "5988.28",
+          "new": "4491.21"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 388615,
+          "source_spell_id": 388615,
+          "effect_index": 1,
+          "effect_text": "Heal (SP mod: 59.8828)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108337,
+              "amount_kind": "direct",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Healing Elixir",
@@ -3741,15 +4818,65 @@ window.WOW_PVP_DATA = {
         "spell_id": 122280,
         "icon": "ability_monk_jasmineforcetea"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "You consume a healing elixir when you drop below 40% health or generate excess healing elixirs, instantly healing you for 15% of your maximum health.\nYou generate 1 healing elixir every 30 sec, stacking up to 2 times.",
+      "pvp_tooltip": "You consume a healing elixir when you drop below 40% health or generate excess healing elixirs, instantly healing you for 7.5% of your maximum health.\nYou generate 1 healing elixir every 30 sec, stacking up to 2 times.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 122,
+          "end": 124,
+          "old_token": "15",
+          "new_token": "7.5",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "15",
+          "new": "7.5"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 122280,
+          "source_spell_id": 428439,
+          "effect_index": 1,
+          "effect_text": "Heal for % of Total Health",
+          "base_value": 15.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 7.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            122280,
+            428439
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Calming Coalescence",
@@ -3796,10 +4923,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388218,
         "icon": "ability_monk_healthsphere"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The absorb amount of Life Cocoon is increased by 80%.",
+      "pvp_tooltip": "The absorb amount of Life Cocoon is increased by 80%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3851,10 +4978,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 467270,
         "icon": "inv_misc_gem_pearl_06"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Life Cocoon grants up to 5 stacks of Mana Tea and applies 2 stacks of Healing Elixir to its target.",
+      "pvp_tooltip": "Life Cocoon grants up to 5 stacks of Mana Tea and applies 2 stacks of Healing Elixir to its target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3904,10 +5031,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388551,
         "icon": "inv_helm_leather_raidmonkgoblin_d_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The cooldown of [\nRestoral\n/ Revival] is reduced by 30 sec and [\nRestoral\n/ Revival] healing increased by 15%.",
+      "pvp_tooltip": "The cooldown of [\nRestoral\n/ Revival] is reduced by 30 sec and [\nRestoral\n/ Revival] healing increased by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3957,10 +5084,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1243155,
         "icon": "monk_stance_wiseserpent"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "[\nSheilun's Gift\n/ Vivify] healing increased by 15% and Renewing Mist's healing is increased by 30%.",
+      "pvp_tooltip": "[\nSheilun's Gift\n/ Vivify] healing increased by 15% and Renewing Mist's healing is increased by 30%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4010,15 +5137,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 388779,
         "icon": "monk_stance_redcrane"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Tiger Palms strike twice, Blackout Kicks strike an additional 2 targets at 20% effectiveness, and Spinning Crane Kick heals 1 nearby allies for 280% of the damage done.",
+      "pvp_tooltip": "Tiger Palms strike twice, Blackout Kicks strike an additional 2 targets at 20% effectiveness, and Spinning Crane Kick heals 1 nearby allies for 100.24% of the damage done.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 144,
+          "end": 147,
+          "old_token": "280",
+          "new_token": "100.24",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "280",
+          "new": "100.24"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 388779,
+          "source_spell_id": 388779,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 280.0,
+          "spell_pvp_multiplier": 0.358,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.358,
+          "final_pvp_value": 100.24,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Energizing Brew",
@@ -4061,10 +5233,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 422031,
         "icon": "ui_profession_herbalism"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Mana Tea now channels 50% faster and generates 20% more Mana.",
+      "pvp_tooltip": "Mana Tea now channels 50% faster and generates 20% more Mana.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4112,10 +5284,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 197915,
         "icon": "ability_monk_souldance"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "[\nSheilun's Gift\n/ Vivify] has a 20% chance to cause your next Rising Sun Kick or Enveloping Mist to generate 1 stack of Mana Tea.\nEnveloping Mist and Rising Sun Kick have a 20% chance to cause your next [\nSheilun's Gift\n/ Vivify] to generate 1 stack of Mana Tea.",
+      "pvp_tooltip": "[\nSheilun's Gift\n/ Vivify] has a 20% chance to cause your next Rising Sun Kick or Enveloping Mist to generate 1 stack of Mana Tea.\nEnveloping Mist and Rising Sun Kick have a 20% chance to cause your next [\nSheilun's Gift\n/ Vivify] to generate 1 stack of Mana Tea.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4166,15 +5338,73 @@ window.WOW_PVP_DATA = {
         "spell_id": 446326,
         "icon": "ability_monk_forcesphere"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Renewing Mist's heal over time has a chance to cause your next [\nSheilun's Gift\n/ Vivify] to also trigger a Zen Pulse on its target and all allies with Renewing Mist, healing them for (160% of Spell Power) increased by 6% per Renewing Mist active, up to 30%.",
+      "pvp_tooltip": "Renewing Mist's heal over time has a chance to cause your next [\nSheilun's Gift\n/ Vivify] to also trigger a Zen Pulse on its target and all allies with Renewing Mist, healing them for (120% of Spell Power) increased by 6% per Renewing Mist active, up to 30%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 185,
+          "end": 188,
+          "old_token": "160",
+          "new_token": "120",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "160",
+          "new": "120"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 446326,
+          "source_spell_id": 198487,
+          "effect_index": 1,
+          "effect_text": "Heal (SP mod: 1.6)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            446326,
+            198487
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108337,
+              "amount_kind": "direct",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Mists of Life",
@@ -4221,10 +5451,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388548,
         "icon": "inv_shoulder__inv_leather_raidmonkmythic_s_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "100 yd range\nLife Cocoon applies Renewing Mist and Enveloping Mist to the target.",
+      "pvp_tooltip": "100 yd range\nLife Cocoon applies Renewing Mist and Enveloping Mist to the target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4276,15 +5506,73 @@ window.WOW_PVP_DATA = {
         "spell_id": 388511,
         "icon": "inv_legion_faction_dreamweavers"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Your Enveloping Mists heal the target for [(300% of Spell Power) * 2] each time they take direct damage.",
+      "pvp_tooltip": "Your Enveloping Mists heal the target for [(225% of Spell Power) * 2] each time they take direct damage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 44,
+          "end": 47,
+          "old_token": "300",
+          "new_token": "225",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "300",
+          "new": "225"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 388511,
+          "source_spell_id": 388514,
+          "effect_index": 1,
+          "effect_text": "Heal (SP mod: 3)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            388511,
+            388514
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108337,
+              "amount_kind": "direct",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Invoke Yu'lon, the Jade Serpent",
@@ -4331,15 +5619,73 @@ window.WOW_PVP_DATA = {
         "spell_id": 322118,
         "icon": "ability_monk_dragonkick"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "5% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummons an effigy of Yu'lon, the Jade Serpent for\n25 sec\n. Yu'lon will heal injured allies with Soothing Breath, healing the target and up to 2 allies for (210% of Spell Power) over\n4.5 sec\n.\nEnveloping Mist costs 50% less mana while Yu'lon is active.",
+      "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummons an effigy of Yu'lon, the Jade Serpent for\n25 sec\n. Yu'lon will heal injured allies with Soothing Breath, healing the target and up to 2 allies for (157.5% of Spell Power) over\n4.5 sec\n.\nEnveloping Mist costs 50% less mana while Yu'lon is active.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 207,
+          "end": 210,
+          "old_token": "210",
+          "new_token": "157.5",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "210",
+          "new": "157.5"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 322118,
+          "source_spell_id": 343737,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Heal",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            322118,
+            343737
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108338,
+              "amount_kind": "periodic",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Invoke Chi-Ji, the Red Crane",
@@ -4386,15 +5732,73 @@ window.WOW_PVP_DATA = {
         "spell_id": 325197,
         "icon": "inv_pet_cranegod"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "5% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummon an effigy of Chi-Ji for\n25 sec\nthat kicks up 3 Gust of Mists when you Blackout Kick, Rising Sun Kick, or Spinning Crane Kick, healing up to 2 allies for [(0.1% of Spell Power) * 50 / 100].\nChi-Ji's presence makes you immune to movement impairing effects, makes Enveloping Mist instant cast, and reduces the mana cost of Enveloping Mist by 20%.",
+      "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummon an effigy of Chi-Ji for\n25 sec\nthat kicks up 3 Gust of Mists when you Blackout Kick, Rising Sun Kick, or Spinning Crane Kick, healing up to 2 allies for [(0.075% of Spell Power) * 50 / 100].\nChi-Ji's presence makes you immune to movement impairing effects, makes Enveloping Mist instant cast, and reduces the mana cost of Enveloping Mist by 20%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 213,
+          "end": 216,
+          "old_token": "0.1",
+          "new_token": "0.075",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "0.1",
+          "new": "0.075"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 325197,
+          "source_spell_id": 343819,
+          "effect_index": 1,
+          "effect_text": "Heal (SP mod: 0.001)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            325197,
+            343819
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108337,
+              "amount_kind": "direct",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Deep Clarity",
@@ -4440,10 +5844,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 446345,
         "icon": "ability_monk_zenmeditation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After you fully consume Thunder Focus Tea, your next Vivify triggers Zen Pulse.",
+      "pvp_tooltip": "After you fully consume Thunder Focus Tea, your next Vivify triggers Zen Pulse.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4495,10 +5899,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388847,
         "icon": "ability_monk_chiswirl"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\nRising Sun Kick and Enveloping Mist apply Renewing Mist for 6 seconds to an ally within 40 yds.\n(250ms cooldown)",
+      "pvp_tooltip": "40 yd range\nRising Sun Kick and Enveloping Mist apply Renewing Mist for 6 seconds to an ally within 40 yds.\n(250ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4548,15 +5952,50 @@ window.WOW_PVP_DATA = {
         "spell_id": 202424,
         "icon": "ability_monk_domeofmist"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Life Cocoon by 45 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Life Cocoon by 45 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 45000.0,
+          "new": 30015.0,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 202424,
+          "source_spell_id": 202424,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Cooldown Ms (2198)",
+          "base_value": -45000.0,
+          "spell_pvp_multiplier": 0.667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.667,
+          "final_pvp_value": -30015.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Burst of Life",
@@ -4601,15 +6040,73 @@ window.WOW_PVP_DATA = {
         "spell_id": 399226,
         "icon": "ability_rogue_imrovedrecuperate"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "When Life Cocoon expires, it releases a burst of mist that restores (806% of Spell Power) health to 3 nearby allies.",
+      "pvp_tooltip": "When Life Cocoon expires, it releases a burst of mist that restores (604.5% of Spell Power) health to 3 nearby allies.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 69,
+          "end": 72,
+          "old_token": "806",
+          "new_token": "604.5",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "806",
+          "new": "604.5"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 399226,
+          "source_spell_id": 399230,
+          "effect_index": 2,
+          "effect_text": "Heal (SP mod: 8.06)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            399226,
+            399230
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108337,
+              "amount_kind": "direct",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Yu'lon's Whisper",
@@ -4657,15 +6154,73 @@ window.WOW_PVP_DATA = {
         "spell_id": 388038,
         "icon": "ability_monk_chiexplosion"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "100 yd range\nWhile channeling Mana Tea you exhale the breath of Yu'lon, healing up to 5 allies within 15 yards for (91% of Spell Power) every 0.5 sec.",
+      "pvp_tooltip": "100 yd range\nWhile channeling Mana Tea you exhale the breath of Yu'lon, healing up to 5 allies within 15 yards for (68.25% of Spell Power) every 0.5 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 116,
+          "end": 118,
+          "old_token": "91",
+          "new_token": "68.25",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "91",
+          "new": "68.25"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 388038,
+          "source_spell_id": 388044,
+          "effect_index": 1,
+          "effect_text": "Heal (SP mod: 0.91)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            388038,
+            388044
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108337,
+              "amount_kind": "direct",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Mist Wrap",
@@ -4711,10 +6266,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 197900,
         "icon": "ability_monk_pathofmists"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases Enveloping Mist's duration by 1 sec and its healing bonus by 10%.",
+      "pvp_tooltip": "Increases Enveloping Mist's duration by 1 sec and its healing bonus by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4766,15 +6321,65 @@ window.WOW_PVP_DATA = {
         "spell_id": 343655,
         "icon": "ability_monk_jadeserpentbreath"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When activated, Yu'lon and Chi-Ji apply Chi Cocoons to 5 targets within 40 yds, absorbing [Total Health * 24 / 100 * (1 + Versatility)] damage for 10 sec.\nChi-Ji grants 4 stacks of Teachings of the Monastery when invoked.\nYu'lon reduces the cast speed of Enveloping Mist by 30%.",
+      "pvp_tooltip": "When activated, Yu'lon and Chi-Ji apply Chi Cocoons to 5 targets within 40 yds, absorbing [Total Health * 24 / 100 * (1 + Versatility)] damage for 10 sec.\nChi-Ji grants 4 stacks of Teachings of the Monastery when invoked.\nYu'lon reduces the cast speed of Enveloping Mist by 30%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 70.0,
+          "new": 52.5,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 343655,
+          "source_spell_id": 343737,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Heal",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            343655,
+            322118,
+            343737
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108338,
+              "amount_kind": "periodic",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Dancing Mists",
@@ -4821,10 +6426,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388701,
         "icon": "ability_monk_serenity"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "100 yd range\nRenewing Mist has a 8% chance to immediately spread to an additional target when initially cast or when traveling to a new target.",
+      "pvp_tooltip": "100 yd range\nRenewing Mist has a 8% chance to immediately spread to an additional target when initially cast or when traveling to a new target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4876,15 +6481,102 @@ window.WOW_PVP_DATA = {
         "spell_id": 1299572,
         "icon": "ability_monk_soothingmists"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Soothing Mist healing increased by 300%, but its mana cost is increased by 200%.",
+      "pvp_tooltip": "Soothing Mist healing increased by 102%, but its mana cost is increased by 33%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 35,
+          "end": 38,
+          "old_token": "300",
+          "new_token": "102",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 75,
+          "end": 78,
+          "old_token": "200",
+          "new_token": "33",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "300",
+          "new": "102"
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "200",
+          "new": "33"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1299572,
+          "source_spell_id": 1299572,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
+          "base_value": 300.0,
+          "spell_pvp_multiplier": 0.34,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.34,
+          "final_pvp_value": 102.00000000000001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1299572,
+          "source_spell_id": 1299572,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Power Cost (14)",
+          "base_value": 200.0,
+          "spell_pvp_multiplier": 0.165,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.165,
+          "final_pvp_value": 33.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Lotus Infusion",
@@ -4931,10 +6623,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 458431,
         "icon": "inv_misc_herb_chamlotus"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Allies with Renewing Mist receive 6% more healing from you and Renewing Mist's duration is increased by 2 sec.",
+      "pvp_tooltip": "Allies with Renewing Mist receive 6% more healing from you and Renewing Mist's duration is increased by 2 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4985,10 +6677,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1271431,
         "icon": "ability_monk_rushingjadewind"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The healing of Gusts of Mist caused by Renewing Mist is increased by 100%.",
+      "pvp_tooltip": "The healing of Gusts of Mist caused by Renewing Mist is increased by 100%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5041,10 +6733,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 173841,
         "icon": "achievement_zone_sholazar_10"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Renewing Mist now has 3 charges and reduces the remaining cooldown of Rising Sun Kick by 1.0 sec.\nRising Sun Kick now reduces the remaining cooldown of Renewing Mist by 1.0 sec.\n(300ms cooldown)",
+      "pvp_tooltip": "Renewing Mist now has 3 charges and reduces the remaining cooldown of Rising Sun Kick by 1.0 sec.\nRising Sun Kick now reduces the remaining cooldown of Renewing Mist by 1.0 sec.\n(300ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5096,10 +6788,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388031,
         "icon": "inv_inscription_deck_jadeserpent"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Chi Cocoons now apply Enveloping Mist for 4 sec when they expire or are consumed, and Chi-Ji's Gusts of Mists healing is increased by 20% and Yu'lon's Soothing Breath healing is increased by 500%.",
+      "pvp_tooltip": "Chi Cocoons now apply Enveloping Mist for 4 sec when they expire or are consumed, and Chi-Ji's Gusts of Mists healing is increased by 20% and Yu'lon's Soothing Breath healing is increased by 500%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5151,10 +6843,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388212,
         "icon": "inv_pet_jadeserpentpet"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of [\nInvoke Chi-Ji, the Red Crane\n/ Invoke Yul'on, the Jade Serpent] by 1 min, but decreases its duration to 12 sec.",
+      "pvp_tooltip": "Reduces the cooldown of [\nInvoke Chi-Ji, the Red Crane\n/ Invoke Yul'on, the Jade Serpent] by 1 min, but decreases its duration to 12 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5206,15 +6898,135 @@ window.WOW_PVP_DATA = {
         "spell_id": 467316,
         "icon": "ability_monk_cracklingjadelightning"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Crackling Jade Lightning's damage is increased by 300% and now chains to 4 additional enemies at 25% effectiveness.",
+      "pvp_tooltip": "Crackling Jade Lightning's damage is increased by 300% and now chains to 2 additional enemies at 15% effectiveness.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 73,
+          "end": 74,
+          "old_token": "4",
+          "new_token": "2",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 97,
+          "end": 99,
+          "old_token": "25",
+          "new_token": "15",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            4
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            3
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 5.0,
+          "new": 2.0,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "4",
+          "new": "2"
+        },
+        {
+          "effect_indexes": [
+            4
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "25",
+          "new": "15"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 467316,
+          "source_spell_id": 467316,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 4.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 2.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 467316,
+          "source_spell_id": 467316,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Modifies Jump Targets (17)",
+          "base_value": 5.0,
+          "spell_pvp_multiplier": 0.4,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.4,
+          "final_pvp_value": 2.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 467316,
+          "source_spell_id": 467316,
+          "effect_index": 4,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 25.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 15.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 3
     },
     {
       "talent_name": "Morning Breeze",
@@ -5261,10 +7073,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1277302,
         "icon": "expansionicon_mistsofpandaria"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Rising Sun Kick's damage is increased by your Mastery rating and Thunder Focus Tea resets its cooldown.",
+      "pvp_tooltip": "Rising Sun Kick's damage is increased by your Mastery rating and Thunder Focus Tea resets its cooldown.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5315,10 +7127,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 197895,
         "icon": "spell_monk_nimblebrew"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Thunder Focus Tea now empowers your next 2 spells.",
+      "pvp_tooltip": "Thunder Focus Tea now empowers your next 2 spells.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5370,15 +7182,59 @@ window.WOW_PVP_DATA = {
         "spell_id": 399491,
         "icon": "inv12_ability_monk_sheilunsgift"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "3% of base mana\n40 yd range\n2 sec cast\nDraws in all nearby clouds of mist, healing the friendly target\nand up to 2 nearby allies\nfor (416.96% of Spell Power) and an additional [(416.96% of Spell Power) * 5 / 100] per cloud absorbed.\nA cloud of mist is generated every\n8\nsec while in combat.",
+      "pvp_tooltip": "3% of base mana\n40 yd range\n2 sec cast\nDraws in all nearby clouds of mist, healing the friendly target\nand up to 2 nearby allies\nfor (416.96% of Spell Power) and an additional [(416.96% of Spell Power) * 5 / 100] per cloud absorbed.\nA cloud of mist is generated every\n8\nsec while in combat.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "REVIEW_REQUIRED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "AMBIGUOUS_TEXT_MATCH",
+          "kind": "spell_power_coefficient",
+          "old": 416.96,
+          "new": 250.17600000000002,
+          "match_count": 2
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 399491,
+          "source_spell_id": 399491,
+          "effect_index": 1,
+          "effect_text": "Heal (SP mod: 4.1696)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.8,
+          "amount_kind": "direct",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.6000000000000001,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108337,
+              "amount_kind": "direct",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Jadefire Teachings",
@@ -5424,15 +7280,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 467293,
         "icon": "inv_misc_book_07"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Ancient Teachings transfers an additional 320% damage to healing.\nYour Stamina is increased by 8%.",
+      "pvp_tooltip": "Ancient Teachings transfers an additional 165.12% damage to healing.\nYour Stamina is increased by 8%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 42,
+          "end": 45,
+          "old_token": "320",
+          "new_token": "165.12",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "320",
+          "new": "165.12"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 467293,
+          "source_spell_id": 467293,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Add Modifier - Flat (Label): Modifies Effect #1's Value (3)",
+          "base_value": 320.0,
+          "spell_pvp_multiplier": 0.516,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.516,
+          "final_pvp_value": 165.12,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Rushing Wind Kick",
@@ -5478,15 +7379,109 @@ window.WOW_PVP_DATA = {
         "spell_id": 467307,
         "icon": "inv12_ability_monk_rushingwindkick"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "1.25% of base mana / 2 Chi\nInstant\n10 sec cooldown\n1 Charge\nWindwalker (\nWindwalker Monk\n)\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\n[\n:\nHeals up to 5 allies affected by your heal over time effects for (500% of Spell Power)\n]",
+      "pvp_tooltip": "1.25% of base mana / 2 Chi\nInstant\n10 sec cooldown\n1 Charge\nWindwalker (\nWindwalker Monk\n)\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\n[\n:\nHeals up to 5 allies affected by your heal over time effects for (375% of Spell Power)\n]",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 577,
+          "end": 580,
+          "old_token": "500",
+          "new_token": "375",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "500",
+          "new": "375"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 467307,
+          "source_spell_id": 468179,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (AP mod: 1.7975 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.22,
+          "final_pvp_multiplier": 1.22,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            467307,
+            468179
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1109279,
+              "amount_kind": "direct",
+              "value_pct": 22.0,
+              "factor": 1.22,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 467307,
+          "source_spell_id": 1269159,
+          "effect_index": 1,
+          "effect_text": "Heal (SP mod: 5)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            467307,
+            1269159
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108337,
+              "amount_kind": "direct",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Resplendent Mist",
@@ -5533,10 +7528,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388020,
         "icon": "spell_nature_abolishmagic"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Gust of Mists has a 30% chance to do 100% more healing.",
+      "pvp_tooltip": "Gust of Mists has a 30% chance to do 100% more healing.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5587,10 +7582,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388491,
         "icon": "ability_monk_chibrew"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After using Thunder Focus Tea, your next spell gives 4% of a stat. Only one stat increase may be active at once:\nEnveloping Mist\n: Critical strike\nRenewing Mist\n: Haste\nRising Sun Kick\n: Versatility",
+      "pvp_tooltip": "After using Thunder Focus Tea, your next spell gives 4% of a stat. Only one stat increase may be active at once:\nEnveloping Mist\n: Critical strike\nRenewing Mist\n: Haste\nRising Sun Kick\n: Versatility",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5642,10 +7637,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388682,
         "icon": "achievement_zone_stormpeaks_10"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Renewing Mist's heal over time effect has a 5.0% chance to apply Enveloping Mist for 2 sec.",
+      "pvp_tooltip": "Renewing Mist's heal over time effect has a 5.0% chance to apply Enveloping Mist for 2 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5697,10 +7692,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388593,
         "icon": "pandarenracial_innerpeace"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Allies targeted by Soothing Mist receive 40% more healing from your Enveloping Mist and Renewing Mist effects.",
+      "pvp_tooltip": "Allies targeted by Soothing Mist receive 40% more healing from your Enveloping Mist and Renewing Mist effects.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5751,10 +7746,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 400053,
         "icon": "ability_monk_vivify"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases Sheilun's Gift cloud of mist generation to every 4 sec.",
+      "pvp_tooltip": "Increases Sheilun's Gift cloud of mist generation to every 4 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5805,10 +7800,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1270621,
         "icon": "inv_misc_pearlmilktea"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Consuming Mana Tea generates 1 cloud of mist.",
+      "pvp_tooltip": "Consuming Mana Tea generates 1 cloud of mist.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5857,14 +7852,54 @@ window.WOW_PVP_DATA = {
         "spell_id": 1268807,
         "icon": "inv_drink_25_honeytea"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Thunder Focus Tea now empowers Enveloping Mist and Rising Sun Kick further.\nEnveloping Mist\n:\nBegins a channel of Soothing Mist onto your target.\nRising Sun Kick\n:\nReleases a Jadefire Stomp infront of you that transfers damage into Ancient Teachings at 20% effectiveness.\nJadefire Stomp\n:\nYou release a Jadefire Stomp, dealing (100% of Attack Power) damage to 5 enemies in front of you.",
+      "pvp_tooltip": "Thunder Focus Tea now empowers Enveloping Mist and Rising Sun Kick further.\nEnveloping Mist\n:\nBegins a channel of Soothing Mist onto your target.\nRising Sun Kick\n:\nReleases a Jadefire Stomp infront of you that transfers damage into Ancient Teachings at 20% effectiveness.\nJadefire Stomp\n:\nYou release a Jadefire Stomp, dealing (100% of Attack Power) damage to 5 enemies in front of you.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 1268807,
+          "source_spell_id": 1248815,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature)",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": "direct",
+          "aura_factor": 1.22,
+          "final_pvp_multiplier": 0.61,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1268807,
+            1248812,
+            1248815
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1109279,
+              "amount_kind": "direct",
+              "value_pct": 22.0,
+              "factor": 1.22,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5909,10 +7944,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 438439,
         "icon": "ability_monk_cranekick_new"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Approximately\n3\nprocs per minute\nYour spells and abilities have a chance to make your next Spinning Crane Kick deal an additional 400% damage.",
+      "pvp_tooltip": "Approximately\n3\nprocs per minute\nYour spells and abilities have a chance to make your next Spinning Crane Kick deal an additional 400% damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5961,15 +7996,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 1280297,
         "icon": "ability_monk_surgingmist"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Renewing Mist's healing is increased by 500% on your lowest health ally with its effect.",
+      "pvp_tooltip": "Renewing Mist's healing is increased by 200% on your lowest health ally with its effect.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 40,
+          "end": 43,
+          "old_token": "500",
+          "new_token": "200",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "500",
+          "new": "200"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1280297,
+          "source_spell_id": 1280297,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy (17)",
+          "base_value": 500.0,
+          "spell_pvp_multiplier": 0.4,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.4,
+          "final_pvp_value": 200.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Tear of Morning",
@@ -6014,15 +8094,65 @@ window.WOW_PVP_DATA = {
         "spell_id": 387991,
         "icon": "ability_monk_uplift"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your [\nSheilun's Gift\n/ Invigorating Mist] healing is increased by [\nSheilun's Gift\n:\n20%\n/ 20%] and your Enveloping Mist also heals allies with Renewing Mist for 8% of its healing.\nThe duration of Enveloping Mist is increased by 4 sec while you have a celestial summoned.",
+      "pvp_tooltip": "Your [\nSheilun's Gift\n/ Invigorating Mist] healing is increased by [\nSheilun's Gift\n:\n20%\n/ 20%] and your Enveloping Mist also heals allies with Renewing Mist for 8% of its healing.\nThe duration of Enveloping Mist is increased by 4 sec while you have a celestial summoned.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 70.0,
+          "new": 52.5,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 387991,
+          "source_spell_id": 343737,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Heal",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            387991,
+            322118,
+            343737
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108338,
+              "amount_kind": "periodic",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Rising Mist",
@@ -6067,10 +8197,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 274909,
         "icon": "ability_monk_effuse"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Rising Sun Kick extends your Renewing Mist and Enveloping Mist effects by 4 sec, up to 100% of their original duration.\n(500ms cooldown)",
+      "pvp_tooltip": "Rising Sun Kick extends your Renewing Mist and Enveloping Mist effects by 4 sec, up to 100% of their original duration.\n(500ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6118,10 +8248,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 404408,
         "icon": "misc_legionfall_monk"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Sheilun's Gift heals 2 additional allies and its cast time is reduced by 0.5 sec.",
+      "pvp_tooltip": "Sheilun's Gift heals 2 additional allies and its cast time is reduced by 0.5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6169,10 +8299,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 471761,
         "icon": "inv_leather_raidmonkt2_d_01_helm"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Sheilun's Gift's healing is increased by 20% and its cast time is reduced by 100%, but it now only heals a single ally.",
+      "pvp_tooltip": "Sheilun's Gift's healing is increased by 20% and its cast time is reduced by 100%, but it now only heals a single ally.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6218,10 +8348,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1260511,
         "icon": "inv12_apextalent_monk_spiritfont"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Approximately\n1\nprocs per minute\nRising Sun Kick and Vivify have a chance to activate Spiritfont, causing your next Enveloping Mist's cast time to be reduced by 50% and channel Soothing Mist from you onto up to 5 allies at 20% effectiveness for 8 sec.\nIf Spiritfont's Soothing Mists heal a full health target, they will jump to another injured ally or split its healing into your remaining Soothing Mists.",
+      "pvp_tooltip": "Approximately\n1\nprocs per minute\nRising Sun Kick and Vivify have a chance to activate Spiritfont, causing your next Enveloping Mist's cast time to be reduced by 50% and channel Soothing Mist from you onto up to 5 allies at 20% effectiveness for 8 sec.\nIf Spiritfont's Soothing Mists heal a full health target, they will jump to another injured ally or split its healing into your remaining Soothing Mists.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6267,10 +8397,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1260677,
         "icon": "inv12_apextalent_monk_spiritfont"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Rising Sun Kick damage increased by 10% and Enveloping Mist healing increased by 10%. These bonuses are increased by 50% while Spiritfont is active.",
+      "pvp_tooltip": "Rising Sun Kick damage increased by 10% and Enveloping Mist healing increased by 10%. These bonuses are increased by 50% while Spiritfont is active.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6316,10 +8446,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1260680,
         "icon": "inv12_apextalent_monk_spiritfont"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Thunder Focus Tea activates Spiritfont and Spiritfont applies Chi Cocoons at 30% effectiveness to allies targeted.",
+      "pvp_tooltip": "Thunder Focus Tea activates Spiritfont and Spiritfont applies Chi Cocoons at 30% effectiveness to allies targeted.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6370,15 +8500,110 @@ window.WOW_PVP_DATA = {
         "spell_id": 443028,
         "icon": "inv_ability_conduitofthecelestialsmonk_celestialconduit"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "5% of base mana\nChanneled (4 sec cast)\n1.5 min cooldown\nThe August Celestials empower you, causing you to radiate [(1100% of Spell Power) * 5] healing onto up to 5 injured allies and [(165% of Attack Power) * 5] Nature damage onto enemies within 20 yds over 4 sec, reduced beyond 5 targets.\nYou may move while channeling, but casting other healing or damaging spells cancels this effect.",
+      "pvp_tooltip": "5% of base mana\nChanneled (4 sec cast)\n1.5 min cooldown\nThe August Celestials empower you, causing you to radiate [(1856.25% of Spell Power) * 5] healing onto up to 5 injured allies and [(165% of Attack Power) * 5] Nature damage onto enemies within 20 yds over 4 sec, reduced beyond 5 targets.\nYou may move while channeling, but casting other healing or damaging spells cancels this effect.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 116,
+          "end": 120,
+          "old_token": "1100",
+          "new_token": "1856.25",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "1100",
+          "new": "1856.25"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 443028,
+          "source_spell_id": 443038,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (AP mod: 1.65 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.22,
+          "final_pvp_multiplier": 1.22,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            443028,
+            443038
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1109279,
+              "amount_kind": "direct",
+              "value_pct": 22.0,
+              "factor": 1.22,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 443028,
+          "source_spell_id": 443039,
+          "effect_index": 1,
+          "effect_text": "Heal (SP mod: 11)",
+          "base_value": null,
+          "spell_pvp_multiplier": 2.25,
+          "amount_kind": "direct",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 1.6875,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            443028,
+            443039
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108337,
+              "amount_kind": "direct",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Temple Training",
@@ -6423,10 +8648,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 442743,
         "icon": "ability_monk_provoke"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The healing of Enveloping Mist, Vivify, and Sheilun's Gift is increased by 6%.",
+      "pvp_tooltip": "The healing of Enveloping Mist, Vivify, and Sheilun's Gift is increased by 6%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6476,10 +8701,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 442687,
         "icon": "ability_monk_dpsstance"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Teachings of the Monastery has a 15% chance to refund a charge when consumed.\nThe damage of Tiger Palm is increased by 10%.",
+      "pvp_tooltip": "Teachings of the Monastery has a 15% chance to refund a charge when consumed.\nThe damage of Tiger Palm is increased by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6529,14 +8754,51 @@ window.WOW_PVP_DATA = {
         "spell_id": 443087,
         "icon": "ability_monk_summontigerstatue"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Approximately\n4\nprocs per minute\nTiger Palm, Vivify, and Sheilun's Gift have a chance to cause Xuen to claw a nearby enemy for (337.5% of Attack Power) Physical damage, healing a nearby ally for 100% of the damage done.\nInvoke Yu'lon, the Jade Serpent or Invoke Chi-Ji, the Red Crane guarantees your next cast activates this effect.",
+      "pvp_tooltip": "Approximately\n4\nprocs per minute\nTiger Palm, Vivify, and Sheilun's Gift have a chance to cause Xuen to claw a nearby enemy for (337.5% of Attack Power) Physical damage, healing a nearby ally for 100% of the damage done.\nInvoke Yu'lon, the Jade Serpent or Invoke Chi-Ji, the Red Crane guarantees your next cast activates this effect.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 443087,
+          "source_spell_id": 457917,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 3.375 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.22,
+          "final_pvp_multiplier": 1.22,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            443087,
+            457917
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1109279,
+              "amount_kind": "direct",
+              "value_pct": 22.0,
+              "factor": 1.22,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -6582,15 +8844,65 @@ window.WOW_PVP_DATA = {
         "spell_id": 442719,
         "icon": "ability_monk_chiexplosion"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Healing increased by 5% while Chi-Ji, the Red Crane or Yu'lon, the Jade Serpent is active.",
+      "pvp_tooltip": "Healing increased by 5% while Chi-Ji, the Red Crane or Yu'lon, the Jade Serpent is active.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 70.0,
+          "new": 52.5,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 442719,
+          "source_spell_id": 343737,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Heal",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            442719,
+            322118,
+            343737
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108338,
+              "amount_kind": "periodic",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Yu'lon's Knowledge",
@@ -6635,10 +8947,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 443625,
         "icon": "inv_jewelcrafting_jadeserpent"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Rising Sun Kick damage increased by 15%.",
+      "pvp_tooltip": "Rising Sun Kick damage increased by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6688,10 +9000,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 443294,
         "icon": "ability_monk_dragonkick"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Thunder Focus Tea calls upon Yu'lon to increase the cooldown recovery rate of Renewing Mist, Rising Sun Kick, Life Cocoon, and Thunder Focus Tea by 75% for 8 sec.\n(2s cooldown)",
+      "pvp_tooltip": "Thunder Focus Tea calls upon Yu'lon to increase the cooldown recovery rate of Renewing Mist, Rising Sun Kick, Life Cocoon, and Thunder Focus Tea by 75% for 8 sec.\n(2s cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6741,10 +9053,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 443566,
         "icon": "inv_shoulder_leather_raidmonkemerald_d_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your movement speed is increased by 75% during Celestial Conduit and by 15% for 3 sec after being assisted by any Celestial.",
+      "pvp_tooltip": "Your movement speed is increased by 75% during Celestial Conduit and by 15% for 3 sec after being assisted by any Celestial.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6794,14 +9106,51 @@ window.WOW_PVP_DATA = {
         "spell_id": 443110,
         "icon": "ability_monk_chargingoxwave"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After Xuen assists you, your next Enveloping Mist's cast time is reduced by 50% and causes Niuzao to grant an absorb shield to 5 nearby allies for 0.",
+      "pvp_tooltip": "After Xuen assists you, your next Enveloping Mist's cast time is reduced by 50% and causes Niuzao to grant an absorb shield to 5 nearby allies for 0.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 443110,
+          "source_spell_id": 443127,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (AP mod: 2 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.22,
+          "final_pvp_multiplier": 1.22,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            443110,
+            443127
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1109279,
+              "amount_kind": "direct",
+              "value_pct": 22.0,
+              "factor": 1.22,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -6847,10 +9196,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1273154,
         "icon": "ability_monk_chiswirl"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Celestial Conduit's healing and damage is increased by 100% when striking a single target.\nEach addtional target reduces this bonus by 20%.",
+      "pvp_tooltip": "Celestial Conduit's healing and damage is increased by 100% when striking a single target.\nEach addtional target reduces this bonus by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6900,15 +9249,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 1262667,
         "icon": "inv_celestialserpentmount_jade"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Approximately\n1.5\nprocs per minute\nVivify and Sheilun's Gift have a chance to trigger Heart of the Jade Serpent for 4 sec at 100% effectiveness.\n(500ms cooldown)",
+      "pvp_tooltip": "Approximately\n1.5\nprocs per minute\nVivify and Sheilun's Gift have a chance to trigger Heart of the Jade Serpent for 4 sec at 33% effectiveness.\n(500ms cooldown)",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 125,
+          "end": 128,
+          "old_token": "100",
+          "new_token": "33",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "100",
+          "new": "33"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1262667,
+          "source_spell_id": 1262667,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 100.0,
+          "spell_pvp_multiplier": 0.33,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.33,
+          "final_pvp_value": 33.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Niuzao's Protection",
@@ -6953,10 +9347,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 442747,
         "icon": "ability_monk_chargingoxwave"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Fortifying Brew grants you an absorb shield for 25% of your maximum health.",
+      "pvp_tooltip": "Fortifying Brew grants you an absorb shield for 25% of your maximum health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7006,10 +9400,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 443059,
         "icon": "ability_monk_jadeserpentbreath"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You heal for 10% of your maximum health instantly when you activate Celestial Conduit and receive 15% less damage for its duration.\nThis effect lingers for an additional 8 sec after Celestial Conduit ends.",
+      "pvp_tooltip": "You heal for 10% of your maximum health instantly when you activate Celestial Conduit and receive 15% less damage for its duration.\nThis effect lingers for an additional 8 sec after Celestial Conduit ends.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7059,10 +9453,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1262756,
         "icon": "monk_ability_summonoxstatue"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Strength of the Black Ox's effect is 400% more effective on your primary target.",
+      "pvp_tooltip": "Strength of the Black Ox's effect is 400% more effective on your primary target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7112,10 +9506,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 443571,
         "icon": "inv_10_dungeonjewelry_explorer_trinket_1compass_color2"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You switch between alignments every 8 sec, increasing a corresponding secondary stat by 2%.\nCrane Stance\n:\nHaste\nTiger Stance\n:\nCritical Strike\nOx Stance\n:\nVersatility\nSerpent Stance\n:\nMastery",
+      "pvp_tooltip": "You switch between alignments every 8 sec, increasing a corresponding secondary stat by 2%.\nCrane Stance\n:\nHaste\nTiger Stance\n:\nCritical Strike\nOx Stance\n:\nVersatility\nSerpent Stance\n:\nMastery",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7165,10 +9559,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1262672,
         "icon": "ability_monk_flyingdragonkick"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Heart of the Jade Serpent increases your haste by 10% while active.",
+      "pvp_tooltip": "Heart of the Jade Serpent increases your haste by 10% while active.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7219,10 +9613,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 443589,
         "icon": "ability_monk_prideofthetiger"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Celestial Conduit can be recast once during its duration to call upon all of the August Celestials to assist you at 200% effectiveness.\nUnity Within is automatically cast when Celestial Conduit ends if not used before expiration.",
+      "pvp_tooltip": "Celestial Conduit can be recast once during its duration to call upon all of the August Celestials to assist you at 200% effectiveness.\nUnity Within is automatically cast when Celestial Conduit ends if not used before expiration.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7273,15 +9667,50 @@ window.WOW_PVP_DATA = {
         "spell_id": 450508,
         "icon": "inv_ability_masterofharmonymonk_aspectofharmony"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Store vitality from 10% of your damage dealt and 30% of your healing. Vitality stored from overhealing is reduced.\nFor 10 sec after casting Thunder Focus Tea your spells and abilities draw upon the stored vitality to deal 40% additional healing over 8 sec.",
+      "pvp_tooltip": "Store vitality from 10% of your damage dealt and 30% of your healing. Vitality stored from overhealing is reduced.\nFor 10 sec after casting Thunder Focus Tea your spells and abilities draw upon the stored vitality to deal 40% additional healing over 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            7
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 100.0,
+          "new": 50.0,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 450508,
+          "source_spell_id": 450508,
+          "effect_index": 7,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 100.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 50.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Manifestation",
@@ -7326,15 +9755,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 450875,
         "icon": "inv_shoulder_inv_leather_raidmonk_s_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Chi Wave deals 50% increased damage and healing.",
+      "pvp_tooltip": "Chi Wave deals 25% increased damage and healing.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 15,
+          "end": 17,
+          "old_token": "50",
+          "new_token": "25",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "50",
+          "new": "25"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 450875,
+          "source_spell_id": 450875,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 25.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Purified Spirit",
@@ -7379,10 +9853,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450867,
         "icon": "ability_monk_explodingjadeblossom"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When Aspect of Harmony ends, any remaining vitality is expelled as healing over 8 sec, split among nearby targets.",
+      "pvp_tooltip": "When Aspect of Harmony ends, any remaining vitality is expelled as healing over 8 sec, split among nearby targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7432,10 +9906,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450870,
         "icon": "passive_monk_teachingsofmonastery"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "During Aspect of Harmony, Rising Sun Kick, Blackout Kick, and Tiger Palm also withdraw vitality to damage enemies for an additional 20% over 8 sec.",
+      "pvp_tooltip": "During Aspect of Harmony, Rising Sun Kick, Blackout Kick, and Tiger Palm also withdraw vitality to damage enemies for an additional 20% over 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7485,10 +9959,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450889,
         "icon": "ability_monk_sphereharmonydiscord"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting a Physical spell or ability increases the damage and healing of your next Fire or Nature spell or ability by 3%, and vice versa. Stacks up to 5.\n(500ms cooldown)",
+      "pvp_tooltip": "Casting a Physical spell or ability increases the damage and healing of your next Fire or Nature spell or ability by 3%, and vice versa. Stacks up to 5.\n(500ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7538,15 +10012,258 @@ window.WOW_PVP_DATA = {
         "spell_id": 1270958,
         "icon": "ability_socererking_forcenova"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": ":\nFor each charge of Potential Energy, deal [(400% of Spell Power) * 55 / 100] Nature damage to your target and [(400% of Spell Power) * 55 / 100] Nature damage to other nearby enemies, and heal up to 5 allies for [(500% of Spell Power) * 10 / 100]. Damage reduced above 5 targets.",
+      "pvp_tooltip": ":\nFor each charge of Potential Energy, deal [(400% of Spell Power) * 55 / 100] Nature damage to your target and [(400% of Spell Power) * 55 / 100] Nature damage to other nearby enemies, and heal up to 5 allies for [(500% of Spell Power) * 3.3 / 100]. Damage reduced above 5 targets.",
+      "tooltip_changed": true,
+      "render_status": "REVIEW_REQUIRED",
+      "changes": [
+        {
+          "start": 239,
+          "end": 241,
+          "old_token": "10",
+          "new_token": "3.3",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2,
+            3
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "AMBIGUOUS_TEXT_MATCH",
+          "kind": "ordinary_value",
+          "old": 55.0,
+          "new": 18.150000000000002,
+          "match_count": 2
+        },
+        {
+          "effect_indexes": [
+            4
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 40.0,
+          "new": 13.200000000000001,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            2,
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "10",
+          "new": "3.3"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1270958,
+          "source_spell_id": 1270958,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 55.0,
+          "spell_pvp_multiplier": 0.33,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.33,
+          "final_pvp_value": 18.150000000000002,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1270958,
+          "source_spell_id": 1270958,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 10.0,
+          "spell_pvp_multiplier": 0.33,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.33,
+          "final_pvp_value": 3.3000000000000003,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1270958,
+          "source_spell_id": 1270958,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 10.0,
+          "spell_pvp_multiplier": 0.33,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.33,
+          "final_pvp_value": 3.3000000000000003,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1270958,
+          "source_spell_id": 1270958,
+          "effect_index": 4,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 40.0,
+          "spell_pvp_multiplier": 0.33,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.33,
+          "final_pvp_value": 13.200000000000001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 1270958,
+          "source_spell_id": 1271011,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (SP mod: 4)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.33,
+          "amount_kind": "direct",
+          "aura_factor": 1.22,
+          "final_pvp_multiplier": 0.4026,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1270958,
+            1271011
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1109279,
+              "amount_kind": "direct",
+              "value_pct": 22.0,
+              "factor": 1.22,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 1270958,
+          "source_spell_id": 1271011,
+          "effect_index": 2,
+          "effect_text": "School Damage (Nature) (SP mod: 4)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.33,
+          "amount_kind": "direct",
+          "aura_factor": 1.22,
+          "final_pvp_multiplier": 0.4026,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1270958,
+            1271011
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1109279,
+              "amount_kind": "direct",
+              "value_pct": 22.0,
+              "factor": 1.22,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 1270958,
+          "source_spell_id": 1271045,
+          "effect_index": 1,
+          "effect_text": "Heal (SP mod: 5)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.33,
+          "amount_kind": "direct",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.2475,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1270958,
+            1271011,
+            1271045
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108337,
+              "amount_kind": "direct",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 4
     },
     {
       "talent_name": "Tiger's Vigor",
@@ -7591,10 +10308,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 451041,
         "icon": "monk_stance_whitetiger"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Tiger's Lust reduces the remaining cooldown on Roll by 5 sec.",
+      "pvp_tooltip": "Casting Tiger's Lust reduces the remaining cooldown on Roll by 5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7644,10 +10361,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 451043,
         "icon": "inv_celestialserpentmount"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Tiger's Lust grants 20% movement speed to up to 2 allies near its target.",
+      "pvp_tooltip": "Tiger's Lust grants 20% movement speed to up to 2 allies near its target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7697,10 +10414,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450892,
         "icon": "inv_drink_25_honeytea"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Thunder Focus Tea has 1 additional charge.",
+      "pvp_tooltip": "Thunder Focus Tea has 1 additional charge.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7750,15 +10467,73 @@ window.WOW_PVP_DATA = {
         "spell_id": 451036,
         "icon": "ability_monk_domeofmist"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "When cast on yourself, your single-target healing spells heal for 10% more and restore an additional (150% of Spell Power) health over 6 sec.",
+      "pvp_tooltip": "When cast on yourself, your single-target healing spells heal for 10% more and restore an additional (112.5% of Spell Power) health over 6 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 102,
+          "end": 105,
+          "old_token": "150",
+          "new_token": "112.5",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "150",
+          "new": "112.5"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 451036,
+          "source_spell_id": 451452,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Heal",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            451036,
+            451452
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108338,
+              "amount_kind": "periodic",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Mantra of Tenacity",
@@ -7803,10 +10578,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 451029,
         "icon": "spell_monk_brewmastertraining"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Fortifying Brew grants 20% Stagger.",
+      "pvp_tooltip": "Fortifying Brew grants 20% Stagger.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7856,10 +10631,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1271048,
         "icon": "spell_magic_managain"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Rising Sun Kick or Rushing Wind Kick grants a charge of Potential Energy.",
+      "pvp_tooltip": "Casting Rising Sun Kick or Rushing Wind Kick grants a charge of Potential Energy.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7909,10 +10684,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 451024,
         "icon": "ability_titankeeper_piercingcorruption"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Rising Sun Kick, Blackout Kick and Tiger Palm deal 15% additional damage to enemies in a line in front of you. Damage reduced above 5 targets.",
+      "pvp_tooltip": "Rising Sun Kick, Blackout Kick and Tiger Palm deal 15% additional damage to enemies in a line in front of you. Damage reduced above 5 targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7962,10 +10737,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450912,
         "icon": "ability_monk_pathofmists"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Chi Burst\nincreases vitality stored by 25% for 10 sec.\n(3s cooldown)",
+      "pvp_tooltip": "Chi Burst\nincreases vitality stored by 25% for 10 sec.\n(3s cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -8015,10 +10790,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450965,
         "icon": "ability_monk_mightyoxkick"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Rising Sun Kick, Blackout Kick and Tiger Palm contribute 30% additional vitality.",
+      "pvp_tooltip": "Rising Sun Kick, Blackout Kick and Tiger Palm contribute 30% additional vitality.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -8068,10 +10843,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 451017,
         "icon": "ability_titankeeper_cleanse"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Enveloping Mist stores [(Spell Power * 300 / 100) * (1 + Versatility)] additional vitality.",
+      "pvp_tooltip": "Casting Enveloping Mist stores [(Spell Power * 300 / 100) * (1 + Versatility)] additional vitality.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -8121,10 +10896,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1271105,
         "icon": "inv_misc_herb_mountainsilversage"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Blackout Combo:\nIncreases Tiger Palm damage by an additional 50% and Keg Smash reduces the cooldown on your Brews by an additional 1.0 sec.\nPress the Advantage:\nNature damage dealt by your main hand auto-attacks is increased by 100% and they now reduce the cooldown on your Brews by an additional 0.25 sec.",
+      "pvp_tooltip": "Blackout Combo:\nIncreases Tiger Palm damage by an additional 50% and Keg Smash reduces the cooldown on your Brews by an additional 1.0 sec.\nPress the Advantage:\nNature damage dealt by your main hand auto-attacks is increased by 100% and they now reduce the cooldown on your Brews by an additional 0.25 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -8175,10 +10950,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450529,
         "icon": "ability_monk_effuse"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When Aspect of Harmony\nheals, it has a chance to spread to a nearby\nally. When you directly\nheal an affected target, it has a chance to intensify, withdrawing additional vitality to increase its effect by up to 20%.\nVivify no longer contributes vitality. While Aspect of Harmony is not active, Vivify instead draws on available vitality to deal an additional 100% healing over 8 sec.\nVitality stored by other abilities is increased by 50%.",
+      "pvp_tooltip": "When Aspect of Harmony\nheals, it has a chance to spread to a nearby\nally. When you directly\nheal an affected target, it has a chance to intensify, withdrawing additional vitality to increase its effect by up to 20%.\nVivify no longer contributes vitality. While Aspect of Harmony is not active, Vivify instead draws on available vitality to deal an additional 100% healing over 8 sec.\nVitality stored by other abilities is increased by 50%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -8186,774 +10961,13 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     }
   ],
-  "fetch_errors": [
-    {
-      "source": "wowhead_page",
-      "spell_id": 101643,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e29bb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 107428,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16819310 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 115008,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b5b50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 115078,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1681a210 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 115173,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e28050 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 115175,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168199a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 115310,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b7e00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 115313,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166d1040 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 115869,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1a4af3b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 116095,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c72450 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 116680,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c70b00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 116841,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168189b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 116844,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c71d90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 116849,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b6690 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 122280,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166d0140 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 124682,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166d2e70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 157411,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c71af0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 173841,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c721b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 197895,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c72120 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 197900,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c73140 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 197915,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c72ff0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 198898,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e293d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 202424,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ece570 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 264348,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16573dd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 274586,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166db320 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 274909,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16818530 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 322113,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16571ca0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 322118,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167a3170 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 325197,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166d2ed0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 328670,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1827ee70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 343655,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b57f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 344359,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166dbf50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 387991,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1827dca0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388020,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e28980 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388031,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165b0b60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388038,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166d34a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388212,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e2b230 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388218,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165b1ee0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388491,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167a3230 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388511,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166da090 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388548,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16572870 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388551,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecc0b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388593,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e2a750 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388615,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c713a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388664,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168184d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388674,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16572d80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388681,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166d13d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388682,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16818cb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388701,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16818b90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388779,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e63830 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388809,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e61b80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388811,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165733e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388812,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c719a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388813,
-      "error": "RetryError: RetryError[<Future at 0x7fbf192578f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388814,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16852330 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388847,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16572db0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388874,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167a3fb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388917,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16570530 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 389579,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16516540 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 394110,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ece870 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 394123,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166daa20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 399226,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166da9f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 399491,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ece960 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 400053,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16575850 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 404408,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e98350 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 414131,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166d8ef0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 422031,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e29c10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 432181,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e2aba0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 434774,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16818a10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 438439,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168198e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 442687,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16570f20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 442719,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165701a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 442743,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b7650 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 442747,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e990d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 443028,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165b2c60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 443059,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16577bf0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 443087,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168193d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 443110,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16571970 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 443294,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fda00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 443566,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e62750 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 443571,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166d8da0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 443589,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e297c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 443625,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecede0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 446260,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c72d80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 446326,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167d8fb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 446345,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c704a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449582,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c71e20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450154,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18f75910 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450335,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167a0920 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450391,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b55b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450426,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da8050 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450427,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ffda0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450432,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c73740 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450448,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c71250 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450503,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16572240 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450508,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dab0b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450514,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e2af30 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450520,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ece600 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450529,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecfe30 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450553,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1681b830 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450560,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ececc0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450569,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16570650 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450595,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fcb30 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450622,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecfa70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450638,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fd070 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450867,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecc350 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450870,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e2b1d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450875,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1827f110 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450889,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e28830 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450892,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166238f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450912,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17150380 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450965,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165b2cc0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 451017,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b7470 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 451024,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17153890 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 451029,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e60080 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 451036,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b4590 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 451041,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165876b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 451043,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c70ef0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 458431,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16def110 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 467270,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b5220 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 467293,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16626120 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 467307,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16625700 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 467316,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166d3290 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 471761,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e2a1b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1242910,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e45f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1243155,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16defbc0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1243287,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e7770 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1260511,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b7320 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1260677,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b4290 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1260680,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e2b7a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1262667,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b6990 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1262672,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecdf10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1262756,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165b3410 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1266719,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1827e2a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1266733,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecc440 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1266734,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e71fd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1266740,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16797080 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1266748,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecd640 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1266811,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16571d30 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1268807,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166d2540 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1268817,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166db7d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270621,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b4350 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270958,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c73800 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1271048,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16573050 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1271105,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b6630 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1271431,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166d0410 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1272452,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166d0500 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1273154,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165d2540 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1277302,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167a2330 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1277444,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e61010 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1280297,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165d38f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1299572,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b48f0 state=finished raised HTTPStatusError>]"
-    }
-  ],
+  "fetch_errors": [],
   "slug": "monk-mistweaver",
-  "generated_at": "2026-09-19T13:51:19.581875+00:00",
+  "generated_at": "2026-09-19T14:13:40.496730+00:00",
   "validation": {
     "talents": 152,
-    "changed_tooltips": 0,
-    "talents_with_pvp_mechanics": 0,
+    "changed_tooltips": 30,
+    "talents_with_pvp_mechanics": 47,
     "unique_nodes": 122,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
@@ -8961,103 +10975,36 @@ window.WOW_PVP_DATA = {
       "12.1.0.69587"
     ],
     "verification_status": "PARTIAL",
-    "fetch_error_count": 336,
-    "unresolved_count": 33,
-    "review_required_count": 152,
-    "fetch_error_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 101643,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16e60050 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 107428,
-        "error": "RetryError: RetryError[<Future at 0x7fbf165fc590 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 115008,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16dd7020 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 115078,
-        "error": "RetryError: RetryError[<Future at 0x7fbf19a3f2c0 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 115173,
-        "error": "RetryError: RetryError[<Future at 0x7fbf165aefc0 state=finished raised HTTPStatusError>]"
-      }
-    ],
-    "unresolved_examples": [
-      {
-        "spell_id": 116849,
-        "talent_name": "Life Cocoon",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.97,
-        "effect_text": "Apply Aura (6) | Absorb Damage (69)"
-      },
-      {
-        "spell_id": 202424,
-        "talent_name": "Chrysalis",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.66,
-        "effect_text": "Apply Aura (6) | Modify Recharge Time (Category) (453)"
-      },
-      {
-        "spell_id": 388779,
-        "talent_name": "Way of the Crane",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.35,
-        "effect_text": "Apply Aura (6) | Dummy (4)"
-      },
-      {
-        "spell_id": 399491,
-        "talent_name": "Sheilun's Gift",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.8,
-        "effect_text": "Direct Heal (10) | Attributes: Add Target (Dest) Combat Reach to AOE (11), Area Effects Use Target Radius (17)"
-      },
-      {
-        "spell_id": 414131,
-        "talent_name": "Yu'lon's Grace",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.5,
-        "effect_text": "Apply Aura (6) | Periodic Trigger Spell (23): Unknown(0) every 2 seconds"
-      }
-    ],
+    "fetch_error_count": 0,
+    "unresolved_count": 0,
+    "review_required_count": 5,
+    "fetch_error_examples": [],
+    "unresolved_examples": [],
     "review_required_examples": [
       {
-        "talent_name": "Soothing Mist",
-        "spell_id": 115175,
-        "status": "MISSING_TOOLTIP"
+        "talent_name": "Fortifying Brew",
+        "spell_id": 388917,
+        "status": "REVIEW_REQUIRED"
       },
       {
-        "talent_name": "Paralysis",
-        "spell_id": 115078,
-        "status": "MISSING_TOOLTIP"
+        "talent_name": "Dance of the Wind",
+        "spell_id": 432181,
+        "status": "REVIEW_REQUIRED"
       },
       {
-        "talent_name": "Rising Sun Kick",
-        "spell_id": 107428,
-        "status": "MISSING_TOOLTIP"
+        "talent_name": "Crane Style",
+        "spell_id": 446260,
+        "status": "REVIEW_REQUIRED"
       },
       {
-        "talent_name": "Elusive Mists",
-        "spell_id": 388681,
-        "status": "MISSING_TOOLTIP"
+        "talent_name": "Sheilun's Gift",
+        "spell_id": 399491,
+        "status": "REVIEW_REQUIRED"
       },
       {
-        "talent_name": "Tiger's Lust",
-        "spell_id": 116841,
-        "status": "MISSING_TOOLTIP"
+        "talent_name": "Harmonic Surge",
+        "spell_id": 1270958,
+        "status": "REVIEW_REQUIRED"
       }
     ]
   }

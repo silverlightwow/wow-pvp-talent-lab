@@ -8023,7 +8023,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "demon-hunter-devourer",
-  "generated_at": "2026-09-19T13:49:41.221012+00:00",
+  "generated_at": "2026-09-19T14:05:03.431531+00:00",
   "validation": {
     "talents": 121,
     "changed_tooltips": 17,

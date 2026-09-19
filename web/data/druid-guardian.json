@@ -50,14 +50,38 @@
         "spell_id": 1822,
         "icon": "ability_druid_disembowel"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "35 Energy\nMelee Range\nInstant\nRake the target for (29.1% of Attack Power) Bleed damage and an additional (147% of Attack Power) Bleed damage over 15 sec. [\nInfected Wounds\n:\nReduces the target's movement speed by 20% for 12 sec\n]\nAwards 1 combo point.",
+      "pvp_tooltip": "35 Energy\nMelee Range\nInstant\nRake the target for (29.1% of Attack Power) Bleed damage and an additional (147% of Attack Power) Bleed damage over 15 sec. [\nInfected Wounds\n:\nReduces the target's movement speed by 20% for 12 sec\n]\nAwards 1 combo point.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1822,
+          "source_spell_id": 1822,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 0.291 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.136,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.136,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -103,15 +127,50 @@
         "spell_id": 22842,
         "icon": "ability_bullrush"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "10 Rage\nInstant\n36 sec cooldown\n1 Charge\nHeals you for 24% health over 3 sec\n.",
+      "pvp_tooltip": "10 Rage\nInstant\n36 sec cooldown\n1 Charge\nHeals you for 24% health over 3 sec\n.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 8.0,
+          "new": 5.008,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 22842,
+          "source_spell_id": 22842,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Total Health Regen %",
+          "base_value": 8.0,
+          "spell_pvp_multiplier": 0.626,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.626,
+          "final_pvp_value": 5.008,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Rejuvenation",
@@ -156,15 +215,60 @@
         "spell_id": 774,
         "icon": "spell_nature_rejuvenation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "5% of base mana\n40 yd range\nInstant\nHeals the target for (369.6% of Spell Power) over\n12 sec\n. [\nGermination\n:\nYou can apply Rejuvenation twice to the same target\n] [\nIncarnation: Tree of Life\n:\nTree of Life: Healing increased by 40% and Mana cost reduced by 30%.\n]",
+      "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\nHeals the target for (321.552% of Spell Power) over\n12 sec\n. [\nGermination\n:\nYou can apply Rejuvenation twice to the same target\n] [\nIncarnation: Tree of Life\n:\nTree of Life: Healing increased by 40% and Mana cost reduced by 30%.\n]",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 58,
+          "end": 63,
+          "old_token": "369.6",
+          "new_token": "321.552",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "369.6",
+          "new": "321.552"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 774,
+          "source_spell_id": 774,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Heal",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.87,
+          "amount_kind": "periodic",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.87,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Starfire",
@@ -208,10 +312,10 @@
         "spell_id": 197628,
         "icon": "spell_arcane_starfire"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "0.6% of base mana\n40 yd range\n2.5 sec cast\nCall down a burst of energy, causing (93% of Spell Power) Arcane damage to the target, and [(93% of Spell Power) * 70 / 100] Arcane damage to all other enemies within 5 yards. Deals reduced damage beyond 8 targets.",
+      "pvp_tooltip": "0.6% of base mana\n40 yd range\n2.5 sec cast\nCall down a burst of energy, causing (93% of Spell Power) Arcane damage to the target, and [(93% of Spell Power) * 70 / 100] Arcane damage to all other enemies within 5 yards. Deals reduced damage beyond 8 targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -259,10 +363,10 @@
         "spell_id": 474526,
         "icon": "ability_xavius_tormentingswipe"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Rake, Rip, and Thrash damage increased by 10%.",
+      "pvp_tooltip": "Rake, Rip, and Thrash damage increased by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -314,10 +418,10 @@
         "spell_id": 213764,
         "icon": "inv_misc_monsterclaw_03"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "8 yd range\nInstant\nSwipe nearby enemies, inflicting Physical damage. Damage varies by shapeshift form.",
+      "pvp_tooltip": "8 yd range\nInstant\nSwipe nearby enemies, inflicting Physical damage. Damage varies by shapeshift form.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -370,10 +474,10 @@
         "spell_id": 449182,
         "icon": "spell_nature_spiritarmor"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Stamina increased by 4%.\nStamina in Bear Form is increased by an additional 5%.",
+      "pvp_tooltip": "Stamina increased by 4%.\nStamina in Bear Form is increased by an additional 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -423,10 +527,10 @@
         "spell_id": 48438,
         "icon": "ability_druid_flourish"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "15% of base mana\n40 yd range\n1.5 sec cast\n10 sec cooldown\nHeals up to\n5\ninjured allies within 30 yards of the target for (336.7% of Spell Power) over 7 sec. Healing starts high and declines over the duration. [\nIncarnation: Tree of Life\n:\nTree of Life: Affects 2 additional targets.\n]",
+      "pvp_tooltip": "15% of base mana\n40 yd range\n1.5 sec cast\n10 sec cooldown\nHeals up to\n5\ninjured allies within 30 yards of the target for (336.7% of Spell Power) over 7 sec. Healing starts high and declines over the duration. [\nIncarnation: Tree of Life\n:\nTree of Life: Affects 2 additional targets.\n]",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -474,10 +578,10 @@
         "spell_id": 197626,
         "icon": "spell_arcane_arcane03"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "0.6% of base mana\n40 yd range\nInstant\n10 sec cooldown\nLaunch a surge of stellar energies at the target, dealing (210.1% of Spell Power) Astral damage.",
+      "pvp_tooltip": "0.6% of base mana\n40 yd range\nInstant\n10 sec cooldown\nLaunch a surge of stellar energies at the target, dealing (210.1% of Spell Power) Astral damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -528,14 +632,38 @@
         "spell_id": 1079,
         "icon": "ability_ghoulfrenzy"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "20 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\nFinishing move that causes Bleed damage over time. Lasts longer per combo point.\n1 point : [(62.26% of Attack Power) * 2 / 6] over 1 sec\n2 points: [(62.26% of Attack Power) * 3 / 6] over 2 sec\n3 points: [(62.26% of Attack Power) * 4 / 6] over 3 sec\n4 points: [(62.26% of Attack Power) * 5 / 6] over 3 sec\n5 points: [(62.26% of Attack Power) * 6 / 6] over 4 sec",
+      "pvp_tooltip": "20 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\nFinishing move that causes Bleed damage over time. Lasts longer per combo point.\n1 point : [(62.26% of Attack Power) * 2 / 6] over 1 sec\n2 points: [(62.26% of Attack Power) * 3 / 6] over 2 sec\n3 points: [(62.26% of Attack Power) * 4 / 6] over 3 sec\n4 points: [(62.26% of Attack Power) * 5 / 6] over 3 sec\n5 points: [(62.26% of Attack Power) * 6 / 6] over 4 sec",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1079,
+          "source_spell_id": 1079,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.113,
+          "amount_kind": "periodic",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.113,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -585,10 +713,10 @@
         "spell_id": 301768,
         "icon": "ability_bullrush"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Frenzied Regeneration and Barkskin increase all healing received by 20%.",
+      "pvp_tooltip": "Frenzied Regeneration and Barkskin increase all healing received by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -641,10 +769,10 @@
         "spell_id": 2782,
         "icon": "spell_holy_removecurse"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "10% of base mana\n40 yd range\nInstant\n8 sec cooldown\nNullifies corrupting effects on the friendly target, removing all Curse and Poison effects.",
+      "pvp_tooltip": "10% of base mana\n40 yd range\nInstant\n8 sec cooldown\nNullifies corrupting effects on the friendly target, removing all Curse and Poison effects.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -695,14 +823,47 @@
         "spell_id": 24858,
         "icon": "spell_nature_forceofnature"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\nShapeshift into [\nGlyph of Stars\n:\nAstral Form\n/ Moonkin Form], increasing the damage of your spells by 10% and your armor by 125%, and granting protection from Polymorph effects.\nThe act of shapeshifting frees you from movement impairing effects.",
+      "pvp_tooltip": "Instant\nShapeshift into [\nGlyph of Stars\n:\nAstral Form\n/ Moonkin Form], increasing the damage of your spells by 10% and your armor by 125%, and granting protection from Polymorph effects.\nThe act of shapeshifting frees you from movement impairing effects.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 24858,
+          "source_spell_id": 191037,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 0.27)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.833,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.833,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            24858,
+            1261870,
+            1261867,
+            191037
+          ],
+          "dependency_relations": [
+            "trigger_spell",
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -746,10 +907,10 @@
         "spell_id": 22570,
         "icon": "ability_druid_mangle.tga"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "30 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\n30 sec cooldown\nFinishing move that causes Physical damage and stuns the target. Damage and duration increased per combo point:\n1 point : [(14.4% of Attack Power)] damage, 1 sec\n2 points: [(14.4% of Attack Power) * 2] damage, 2 sec\n3 points: [(14.4% of Attack Power) * 3] damage, 3 sec\n4 points: [(14.4% of Attack Power) * 4] damage, 4 sec\n5 points: [(14.4% of Attack Power) * 5] damage, 5 sec",
+      "pvp_tooltip": "30 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\n30 sec cooldown\nFinishing move that causes Physical damage and stuns the target. Damage and duration increased per combo point:\n1 point : [(14.4% of Attack Power)] damage, 1 sec\n2 points: [(14.4% of Attack Power) * 2] damage, 2 sec\n3 points: [(14.4% of Attack Power) * 3] damage, 3 sec\n4 points: [(14.4% of Attack Power) * 4] damage, 4 sec\n5 points: [(14.4% of Attack Power) * 5] damage, 5 sec",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -803,10 +964,10 @@
         "spell_id": 108299,
         "icon": "ability_druid_predatoryinstincts"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Physical damage and Armor increased by 6%.",
+      "pvp_tooltip": "Physical damage and Armor increased by 6%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -854,10 +1015,10 @@
         "spell_id": 192081,
         "icon": "ability_druid_ironfur"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 Rage\nInstant\n0.5 sec cooldown\nIncreases armor by (124 /\nMaster Shapeshifter\n:\n161\n/\nReinforced Fur\n:\n139\n* Agility / 100) for\n7 sec\n.",
+      "pvp_tooltip": "40 Rage\nInstant\n0.5 sec cooldown\nIncreases armor by (124 /\nMaster Shapeshifter\n:\n161\n/\nReinforced Fur\n:\n139\n* Agility / 100) for\n7 sec\n.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -911,10 +1072,10 @@
         "spell_id": 327993,
         "icon": "spell_nature_stoneclawtotem"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Barkskin's duration is increased by 4 sec.",
+      "pvp_tooltip": "Barkskin's duration is increased by 4 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -964,10 +1125,10 @@
         "spell_id": 2637,
         "icon": "spell_nature_sleep"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "1.2% of base mana\n30 yd range\n1.5 sec cast\nForces the enemy target to sleep for up to 40 sec. Any damage will awaken the target. Only one target can be forced to hibernate at a time. Only works on Beasts and Dragonkin.",
+      "pvp_tooltip": "1.2% of base mana\n30 yd range\n1.5 sec cast\nForces the enemy target to sleep for up to 40 sec. Any damage will awaken the target. Only one target can be forced to hibernate at a time. Only works on Beasts and Dragonkin.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1021,10 +1182,10 @@
         "spell_id": 33873,
         "icon": "ability_druid_healinginstincts"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Magical damage and healing increased by 6%.",
+      "pvp_tooltip": "Magical damage and healing increased by 6%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1074,15 +1235,112 @@
         "spell_id": 93402,
         "icon": "ability_mage_firestarter"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "1.8% of base mana\n40 yd range\nInstant\nA quick beam of solar light burns the enemy\nfor (21.2% of Spell Power) Nature damage and then an additional (165.6% of Spell Power) Nature damage over 18 sec.",
+      "pvp_tooltip": "1.8% of base mana\n40 yd range\nInstant\nA quick beam of solar light burns the enemy\nfor (28.196% of Spell Power) Nature damage and then an additional (220.248% of Spell Power) Nature damage over 18 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 87,
+          "end": 91,
+          "old_token": "21.2",
+          "new_token": "28.196",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 147,
+          "end": 152,
+          "old_token": "165.6",
+          "new_token": "220.248",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "21.2",
+          "new": "28.196"
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "165.6",
+          "new": "220.248"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 93402,
+          "source_spell_id": 164815,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (SP mod: 0.212)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.33,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.33,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            93402,
+            164815
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 93402,
+          "source_spell_id": 164815,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.33,
+          "amount_kind": "periodic",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.33,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            93402,
+            164815
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Primal Fury",
@@ -1125,10 +1383,10 @@
         "spell_id": 159286,
         "icon": "ability_racial_cannibalize"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While in Cat Form, when you critically strike with an attack that generates a combo point, you gain an additional combo point. Damage over time cannot trigger this effect.\nMangle critical strike damage increased by 20%.\n(100ms cooldown)",
+      "pvp_tooltip": "While in Cat Form, when you critically strike with an attack that generates a combo point, you gain an additional combo point. Damage over time cannot trigger this effect.\nMangle critical strike damage increased by 20%.\n(100ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1181,10 +1439,10 @@
         "spell_id": 16931,
         "icon": "inv_misc_pelt_bear_03"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces all damage taken by 4%.",
+      "pvp_tooltip": "Reduces all damage taken by 4%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1232,10 +1490,10 @@
         "spell_id": 106839,
         "icon": "inv_bone_skull_04"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "13 yd range\nInstant\n15 sec cooldown\nYou charge and bash the target's skull, interrupting spellcasting and preventing any spell in that school from being cast for 5 sec.",
+      "pvp_tooltip": "13 yd range\nInstant\n15 sec cooldown\nYou charge and bash the target's skull, interrupting spellcasting and preventing any spell in that school from being cast for 5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1289,10 +1547,10 @@
         "spell_id": 377796,
         "icon": "ability_druid_naturalperfection"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Healing you receive is increased by 4%.",
+      "pvp_tooltip": "Healing you receive is increased by 4%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1342,10 +1600,10 @@
         "spell_id": 197524,
         "icon": "ability_skyreach_lens_flare"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the range of all of your spells by 5 yards.",
+      "pvp_tooltip": "Increases the range of all of your spells by 5 yards.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1398,10 +1656,10 @@
         "spell_id": 102401,
         "icon": "spell_druid_wildcharge"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "5 - 25 yd range\nInstant\n15 sec cooldown\nFly to a nearby ally's position.",
+      "pvp_tooltip": "5 - 25 yd range\nInstant\n15 sec cooldown\nFly to a nearby ally's position.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1454,10 +1712,10 @@
         "spell_id": 252216,
         "icon": "ability_druid_dash_orange"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n45 sec cooldown\nShift into Cat Form and increase your movement speed by 200%, reducing gradually over 5 sec.",
+      "pvp_tooltip": "Instant\n45 sec cooldown\nShift into Cat Form and increase your movement speed by 200%, reducing gradually over 5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1508,10 +1766,10 @@
         "spell_id": 2908,
         "icon": "ability_hunter_beastsoothe"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "1.12% of base mana\n40 yd range\nInstant\n10 sec cooldown\nSoothes the target, dispelling all enrage effects.",
+      "pvp_tooltip": "1.12% of base mana\n40 yd range\nInstant\n10 sec cooldown\nSoothes the target, dispelling all enrage effects.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1562,10 +1820,10 @@
         "spell_id": 33786,
         "icon": "spell_nature_earthbind"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "1.2% of base mana\n20 yd range\n1.7 sec cast\nTosses the enemy target into the air, disorienting them but making them invulnerable for up to 5 sec. Only one target can be affected by your Cyclone at a time.",
+      "pvp_tooltip": "1.2% of base mana\n20 yd range\n1.7 sec cast\nTosses the enemy target into the air, disorienting them but making them invulnerable for up to 5 sec. Only one target can be affected by your Cyclone at a time.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1618,10 +1876,10 @@
         "spell_id": 474678,
         "icon": "spell_nature_healingtouch"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When a hit deals more than 12% of your maximum health, instantly heal for 10% of your health.\nThis effect cannot occur more than once every 30 seconds.\n(30s cooldown)",
+      "pvp_tooltip": "When a hit deals more than 12% of your maximum health, instantly heal for 10% of your health.\nThis effect cannot occur more than once every 30 seconds.\n(30s cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1670,10 +1928,10 @@
         "spell_id": 451211,
         "icon": "spell_arcane_arcane01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Wrath, Starsurge, and Starfire damage increased by 5%.\nStarsurge's cooldown is reduced by 4 sec and its mana cost is reduced by 50%.",
+      "pvp_tooltip": "Wrath, Starsurge, and Starfire damage increased by 5%.\nStarsurge's cooldown is reduced by 4 sec and its mana cost is reduced by 50%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1723,10 +1981,10 @@
         "spell_id": 131768,
         "icon": "ability_druid_dash"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases your movement speed by 15%.",
+      "pvp_tooltip": "Increases your movement speed by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1777,10 +2035,10 @@
         "spell_id": 377847,
         "icon": "ability_druid_tigersroar"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When you fall below 40% health, you cast Frenzied Regeneration, up to once every 120 sec.",
+      "pvp_tooltip": "When you fall below 40% health, you cast Frenzied Regeneration, up to once every 120 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1829,10 +2087,10 @@
         "spell_id": 385786,
         "icon": "inv_misc_pelt_15"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When you use Barkskin or Survival Instincts, absorb [1875 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
+      "pvp_tooltip": "When you use Barkskin or Survival Instincts, absorb [1875 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1884,10 +2142,10 @@
         "spell_id": 106898,
         "icon": "spell_druid_stampedingroar_cat"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "10 yd range\nInstant\n2 min cooldown\nShift into Bear Form and let loose a wild roar, increasing the movement speed of all friendly players within 15 yards by 60% for 8 sec.",
+      "pvp_tooltip": "10 yd range\nInstant\n2 min cooldown\nShift into Bear Form and let loose a wild roar, increasing the movement speed of all friendly players within 15 yards by 60% for 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1936,10 +2194,10 @@
         "spell_id": 231040,
         "icon": "spell_nature_rejuvenation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Rejuvenation's duration is increased by 3 sec.\nRegrowth's duration is increased by 3 sec when cast on yourself.",
+      "pvp_tooltip": "Rejuvenation's duration is increased by 3 sec.\nRegrowth's duration is increased by 3 sec when cast on yourself.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1990,14 +2248,43 @@
         "spell_id": 132469,
         "icon": "ability_druid_typhoon"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "15 yd range\nInstant\n30 sec cooldown\nBlasts targets within 15 yards in front of you with a violent Typhoon, knocking them back and reducing their movement speed by 50% for 6 sec. Usable in all shapeshift forms.",
+      "pvp_tooltip": "15 yd range\nInstant\n30 sec cooldown\nBlasts targets within 15 yards in front of you with a violent Typhoon, knocking them back and reducing their movement speed by 50% for 6 sec. Usable in all shapeshift forms.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 132469,
+          "source_spell_id": 61391,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            132469,
+            61391
+          ],
+          "dependency_relations": [
+            "triggered_by_reverse"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -2043,10 +2330,10 @@
         "spell_id": 102359,
         "icon": "spell_druid_massentanglement"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "30 yd range\nInstant\n30 sec cooldown\nRoots the target and all enemies within 12 yards in place for 10 sec. Damage may interrupt the effect. Usable in all shapeshift forms.",
+      "pvp_tooltip": "30 yd range\nInstant\n30 sec cooldown\nRoots the target and all enemies within 12 yards in place for 10 sec. Damage may interrupt the effect. Usable in all shapeshift forms.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2096,10 +2383,10 @@
         "spell_id": 102793,
         "icon": "spell_druid_ursolsvortex"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "30 yd range\nInstant\n1 min cooldown\nConjures a vortex of wind for 10 sec at the destination, reducing the movement speed of all enemies within 8 yards by 50%. The first time an enemy attempts to leave the vortex, winds will pull that enemy back to its center. Usable in all shapeshift forms.",
+      "pvp_tooltip": "30 yd range\nInstant\n1 min cooldown\nConjures a vortex of wind for 10 sec at the destination, reducing the movement speed of all enemies within 8 yards by 50%. The first time an enemy attempts to leave the vortex, winds will pull that enemy back to its center. Usable in all shapeshift forms.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2152,10 +2439,10 @@
         "spell_id": 449191,
         "icon": "spell_nature_stoneclawtotem"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Survival Instincts and Barkskin reduce damage taken by an additional 10%.",
+      "pvp_tooltip": "Survival Instincts and Barkskin reduce damage taken by an additional 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2203,10 +2490,10 @@
         "spell_id": 1213597,
         "icon": "ability_druid_tigersroar"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Well-Honed Instincts can trigger up to once every 90 sec.",
+      "pvp_tooltip": "Well-Honed Instincts can trigger up to once every 90 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2254,10 +2541,10 @@
         "spell_id": 449184,
         "icon": "spell_shadow_vampiricaura"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Ferocious Bite and Maul damage increased by 8%.",
+      "pvp_tooltip": "Ferocious Bite and Maul damage increased by 8%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2309,10 +2596,10 @@
         "spell_id": 378988,
         "icon": "inv_trinket_ardenweald_02_green"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You gain 3% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
+      "pvp_tooltip": "You gain 3% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2360,10 +2647,10 @@
         "spell_id": 449185,
         "icon": "spell_nature_starfall"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Moonfire and Sunfire damage increased by 10%.",
+      "pvp_tooltip": "Moonfire and Sunfire damage increased by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2411,10 +2698,10 @@
         "spell_id": 400142,
         "icon": "ability_druid_galewinds"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases Typhoon's radius by 20% and its range by 5 yds.",
+      "pvp_tooltip": "Increases Typhoon's radius by 20% and its range by 5 yds.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2462,10 +2749,10 @@
         "spell_id": 400140,
         "icon": "ability_skyreach_wind"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Typhoon by 5 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Typhoon by 5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2518,10 +2805,10 @@
         "spell_id": 1262034,
         "icon": "spell_nature_giftofthewild"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Mark of the Wild is 100% more effective on yourself.",
+      "pvp_tooltip": "Mark of the Wild is 100% more effective on yourself.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2569,10 +2856,10 @@
         "spell_id": 99,
         "icon": "ability_druid_demoralizingroar"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n30 sec cooldown\nShift into Bear Form and invoke the spirit of Ursol to let loose a deafening roar, incapacitating all enemies within 10 yards for 3 sec. Damage may cancel the effect.",
+      "pvp_tooltip": "Instant\n30 sec cooldown\nShift into Bear Form and invoke the spirit of Ursol to let loose a deafening roar, incapacitating all enemies within 10 yards for 3 sec. Damage may cancel the effect.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2620,10 +2907,10 @@
         "spell_id": 5211,
         "icon": "ability_druid_bash"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Melee Range\nInstant\n1 min cooldown\nInvokes the spirit of Ursoc to stun the target for 4 sec. Usable in all shapeshift forms.",
+      "pvp_tooltip": "Melee Range\nInstant\n1 min cooldown\nInvokes the spirit of Ursoc to stun the target for 4 sec. Usable in all shapeshift forms.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2671,10 +2958,10 @@
         "spell_id": 377842,
         "icon": "ability_druid_markofursol"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "For 4 sec after shifting into Bear Form, your health and armor are increased by 15%.",
+      "pvp_tooltip": "For 4 sec after shifting into Bear Form, your health and armor are increased by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2724,10 +3011,10 @@
         "spell_id": 288826,
         "icon": "spell_druid_stamedingroar"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Stampeding Roar's cooldown is reduced by 60 sec.",
+      "pvp_tooltip": "Stampeding Roar's cooldown is reduced by 60 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2777,10 +3064,10 @@
         "spell_id": 474530,
         "icon": "ability_druid_disembowel"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Physical damage dealt by your abilities increased by 5%.",
+      "pvp_tooltip": "Physical damage dealt by your abilities increased by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2830,10 +3117,10 @@
         "spell_id": 474541,
         "icon": "spell_druid_equinox"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Magical damage dealt by your spells increased by 5%.",
+      "pvp_tooltip": "Magical damage dealt by your spells increased by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2883,10 +3170,10 @@
         "spell_id": 1232897,
         "icon": "inv_trinket_ardenweald_02_yellow"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You gain a bonus while in each form inspired by the breadth of your Druidic knowledge:\nNo Form: 4% Magic Damage\nCat Form: 4% Stamina\nBear Form: 5% Movement Speed\nMoonkin Form: 3% Area damage taken reduction",
+      "pvp_tooltip": "You gain a bonus while in each form inspired by the breadth of your Druidic knowledge:\nNo Form: 4% Magic Damage\nCat Form: 4% Stamina\nBear Form: 5% Movement Speed\nMoonkin Form: 3% Area damage taken reduction",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2934,10 +3221,10 @@
         "spell_id": 474750,
         "icon": "ability_druid_focusedgrowth"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "2% of base mana\n40 yd range\n1.5 sec cast\nForm a bond with an ally. Your self-healing also heals your bonded ally for 10% of the amount healed. Your healing to your bonded ally also heals you for 8% of the amount healed.",
+      "pvp_tooltip": "2% of base mana\n40 yd range\n1.5 sec cast\nForm a bond with an ally. Your self-healing also heals your bonded ally for 10% of the amount healed. Your healing to your bonded ally also heals you for 8% of the amount healed.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2985,10 +3272,10 @@
         "spell_id": 400129,
         "icon": "spell_lifegivingspeed"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Regrowth increases your movement speed and healing received by 8% for 6 sec.\n(1s cooldown)",
+      "pvp_tooltip": "Casting Regrowth increases your movement speed and healing received by 8% for 6 sec.\n(1s cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3036,10 +3323,10 @@
         "spell_id": 449193,
         "icon": "ability_druid_mastershapeshifter"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shred, Rake, and Skull Bash can be used in any form and shift you into Cat Form, if necessary.\nMangle can be used in any form and shifts you into Bear Form.\nWrath and Starfire shift you into Moonkin Form, if known.",
+      "pvp_tooltip": "Shred, Rake, and Skull Bash can be used in any form and shift you into Cat Form, if necessary.\nMangle can be used in any form and shifts you into Bear Form.\nWrath and Starfire shift you into Moonkin Form, if known.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3089,15 +3376,65 @@
         "spell_id": 1261867,
         "icon": "spell_holy_blessingofagility"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "40 yd range\nInstant\n2 min cooldown\nPerform a powerful off-role ability depending on your currently active shapeshift form.\nNon-shapeshifted:\nEmpowered Wild Growth that heals up to 5 injured allies within 30 yards of the target for [(336.7% of Spell Power) * 750 / 100] over 7 sec.\nCat Form:\nUnleash an empowered Feral Frenzy, clawing your target 5 times for [5 * (16.3% of Attack Power) * 1000 / 100] Physical damage and an additional [5 * 1000 / 100 * (32.67% of Attack Power) * 6 / 2] Bleed damage over 6 sec. Awards 5 combo points.\nMoonkin Form:\nCall down waves of empowered falling stars upon enemies within 40 yds, dealing [54 * (27% of Spell Power)] Astral damage over 8 sec.",
+      "pvp_tooltip": "40 yd range\nInstant\n2 min cooldown\nPerform a powerful off-role ability depending on your currently active shapeshift form.\nNon-shapeshifted:\nEmpowered Wild Growth that heals up to 5 injured allies within 30 yards of the target for [(336.7% of Spell Power) * 750 / 100] over 7 sec.\nCat Form:\nUnleash an empowered Feral Frenzy, clawing your target 5 times for [5 * (16.3% of Attack Power) * 1000 / 100] Physical damage and an additional [5 * 1000 / 100 * (32.67% of Attack Power) * 6 / 2] Bleed damage over 6 sec. Awards 5 combo points.\nMoonkin Form:\nCall down waves of empowered falling stars upon enemies within 40 yds, dealing [54 * (22.491% of Spell Power)] Astral damage over 8 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 635,
+          "end": 637,
+          "old_token": "27",
+          "new_token": "22.491",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "27",
+          "new": "22.491"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1261867,
+          "source_spell_id": 191037,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 0.27)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.833,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.833,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1261867,
+            191037
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Innervate",
@@ -3140,15 +3477,50 @@
         "spell_id": 29166,
         "icon": "spell_nature_lightning"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\nInstant\n3 min cooldown\nInfuse a friendly healer with energy, causing them to regenerate 20% of their maximum mana over 8 sec.",
+      "pvp_tooltip": "40 yd range\nInstant\n3 min cooldown\nInfuse a friendly healer with energy, causing them to regenerate 20% of their maximum mana over 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 5.0,
+          "new": 4.0,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 29166,
+          "source_spell_id": 29166,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Total Power Regen % (Mana)",
+          "base_value": 5.0,
+          "spell_pvp_multiplier": 0.8,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.8,
+          "final_pvp_value": 4.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Maul",
@@ -3192,10 +3564,10 @@
         "spell_id": 6807,
         "icon": "ability_druid_maul"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 Rage\nMelee Range\nInstant\nMaul the target for (212.5% of Attack Power) Physical damage.",
+      "pvp_tooltip": "40 Rage\nMelee Range\nInstant\nMaul the target for (212.5% of Attack Power) Physical damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3246,10 +3618,10 @@
         "spell_id": 210706,
         "icon": "spell_druid_bearhug"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Thrash, Swipe, Moonfire, and Maul have a 15% chance to reset the cooldown on Mangle, and to cause it to generate an additional 4 Rage.\n(200ms cooldown)",
+      "pvp_tooltip": "Thrash, Swipe, Moonfire, and Maul have a 15% chance to reset the cooldown on Mangle, and to cause it to generate an additional 4 Rage.\n(200ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3300,10 +3672,10 @@
         "spell_id": 61336,
         "icon": "ability_druid_tigersroar"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n3 min cooldown\n1 Charge\nReduces all damage you take by\n50\n% for 6 sec.",
+      "pvp_tooltip": "Instant\n3 min cooldown\n1 Charge\nReduces all damage you take by\n50\n% for 6 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3353,10 +3725,10 @@
         "spell_id": 377835,
         "icon": "spell_druid_stampedingroar_cat"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Stampeding Roar's radius is increased by 30%.\nYour movement speed is increased by 5%.",
+      "pvp_tooltip": "Stampeding Roar's radius is increased by 30%.\nYour movement speed is increased by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3407,10 +3779,10 @@
         "spell_id": 1251406,
         "icon": "inv_1115_druid_bearstanding"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When you shapeshift out of Bear Form, its benefits to health and armor slowly decay over 8 sec.",
+      "pvp_tooltip": "When you shapeshift out of Bear Form, its benefits to health and armor slowly decay over 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3461,14 +3833,75 @@
         "spell_id": 372119,
         "icon": "ability_druid_dreamstate"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Approximately\n3\nprocs per minute\nWhen you take non-periodic damage, you have a chance to cause your next Regrowth to heal for an additional 130%, and to be instant, free, and castable in all forms for 30 sec.",
+      "pvp_tooltip": "Approximately\n3\nprocs per minute\nWhen you take non-periodic damage, you have a chance to cause your next Regrowth to heal for an additional 130%, and to be instant, free, and castable in all forms for 30 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 372119,
+          "source_spell_id": 8936,
+          "effect_index": 1,
+          "effect_text": "Heal (SP mod: 5.36)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.4,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.4,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            372119,
+            372152,
+            8936
+          ],
+          "dependency_relations": [
+            "trigger_spell",
+            "triggered_by_reverse"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 372119,
+          "source_spell_id": 8936,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Periodic Heal",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.4,
+          "amount_kind": "periodic",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.4,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            372119,
+            372152,
+            8936
+          ],
+          "dependency_relations": [
+            "trigger_spell",
+            "triggered_by_reverse"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -3515,10 +3948,10 @@
         "spell_id": 1278886,
         "icon": "achievement_reputation_guardiansofcenarius"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Approximately\n3\nprocs per minute\nWhen you take non-periodic damage, you have a chance to gain a charge of Dream Guide.\nWhen you or a nearby ally drops below 40% health, you consume a charge of Dream Guide to automatically cast Regrowth on them. This Regrowth heals for an additional 100%.",
+      "pvp_tooltip": "Approximately\n3\nprocs per minute\nWhen you take non-periodic damage, you have a chance to gain a charge of Dream Guide.\nWhen you or a nearby ally drops below 40% health, you consume a charge of Dream Guide to automatically cast Regrowth on them. This Regrowth heals for an additional 100%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3568,14 +4001,43 @@
         "spell_id": 345208,
         "icon": "ability_druid_infectedwound"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Mangle and Maul cause an Infected Wound in the target, reducing their movement speed by 50% for 12 sec.",
+      "pvp_tooltip": "Mangle and Maul cause an Infected Wound in the target, reducing their movement speed by 50% for 12 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 345208,
+          "source_spell_id": 345209,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            345208,
+            345209
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -3623,10 +4085,10 @@
         "spell_id": 377811,
         "icon": "spell_nature_healingway"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Frenzied Regeneration's healing is increased by up to 80% based on your missing health.\nFrenzied Regeneration has 1 additional charge.",
+      "pvp_tooltip": "Frenzied Regeneration's healing is increased by up to 80% based on your missing health.\nFrenzied Regeneration has 1 additional charge.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3679,10 +4141,10 @@
         "spell_id": 50334,
         "icon": "ability_druid_berserk"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n3 min cooldown\nGo berserk for 15 sec, reducing the cooldowns of Mangle, Thrash, and Growl by 50% and the cooldown of Frenzied Regeneration by 100%.",
+      "pvp_tooltip": "Instant\n3 min cooldown\nGo berserk for 15 sec, reducing the cooldowns of Mangle, Thrash, and Growl by 50% and the cooldown of Frenzied Regeneration by 100%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3734,10 +4196,10 @@
         "spell_id": 372618,
         "icon": "ability_druid_primalagression"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Maul and Raze deal 30% increased damage.",
+      "pvp_tooltip": "Maul and Raze deal 30% increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3788,10 +4250,10 @@
         "spell_id": 203965,
         "icon": "ability_druid_enrage"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldowns of Barkskin and Survival Instincts by 12%.",
+      "pvp_tooltip": "Reduces the cooldowns of Barkskin and Survival Instincts by 12%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3843,10 +4305,10 @@
         "spell_id": 372945,
         "icon": "ability_druid_overgrowth"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Frenzied Regeneration heals over 1.0 additional sec and casts Rejuvenation and Regrowth on you at 100% effectiveness.",
+      "pvp_tooltip": "Frenzied Regeneration heals over 1.0 additional sec and casts Rejuvenation and Regrowth on you at 100% effectiveness.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3898,14 +4360,43 @@
         "spell_id": 371905,
         "icon": "inv12_ability_druid_afterthewildfire"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Every 300 Rage you spend causes a burst of restorative energy, healing up to 5 allies within 20 yds for (750% of Attack Power).",
+      "pvp_tooltip": "Every 300 Rage you spend causes a burst of restorative energy, healing up to 5 allies within 20 yds for (750% of Attack Power).",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 371905,
+          "source_spell_id": 371982,
+          "effect_index": 1,
+          "effect_text": "Heal (AP mod: 7.5 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            371905,
+            371982
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -3953,10 +4444,10 @@
         "spell_id": 1250906,
         "icon": "spell_nature_regeneration_02"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Heal each time you spend Rage, up to 0.8% of your maximum health for 80 Rage spent.",
+      "pvp_tooltip": "Heal each time you spend Rage, up to 0.8% of your maximum health for 80 Rage spent.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4007,10 +4498,10 @@
         "spell_id": 238049,
         "icon": "spell_fire_twilightfireward"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Moonfire reduces damage dealt to you by 1%.",
+      "pvp_tooltip": "Moonfire reduces damage dealt to you by 1%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4061,10 +4552,10 @@
         "spell_id": 1250923,
         "icon": "achievement_zone_grizzlyhills_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Barkskin increases your maximum health by 20%, but its duration is reduced by 40%.",
+      "pvp_tooltip": "Barkskin increases your maximum health by 20%, but its duration is reduced by 40%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4115,14 +4606,43 @@
         "spell_id": 203953,
         "icon": "inv_misc_thornnecklace"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Sharp brambles protect you, absorbing and reflecting up to 0 damage from each attack.\nWhile Barkskin is active, the brambles also deal (7.5% of Attack Power) Nature damage to all nearby enemies every 1 sec.",
+      "pvp_tooltip": "Sharp brambles protect you, absorbing and reflecting up to 0 damage from each attack.\nWhile Barkskin is active, the brambles also deal (7.5% of Attack Power) Nature damage to all nearby enemies every 1 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 203953,
+          "source_spell_id": 213709,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (AP mod: 0.075 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            203953,
+            213709
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -4169,10 +4689,10 @@
         "spell_id": 158477,
         "icon": "ability_druid_manatree"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Mangle generates 5 more Rage and deals 25% more damage.",
+      "pvp_tooltip": "Mangle generates 5 more Rage and deals 25% more damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4224,10 +4744,10 @@
         "spell_id": 1278789,
         "icon": "spell_lfieblood"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When Frenzied Regeneration would heal you above maximum health, 80% of its excess healing is instead converted to an absorb shield.",
+      "pvp_tooltip": "When Frenzied Regeneration would heal you above maximum health, 80% of its excess healing is instead converted to an absorb shield.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4277,10 +4797,10 @@
         "spell_id": 393618,
         "icon": "spell_nature_spiritarmor"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Ironfur increases armor by an additional 15% and Barkskin reduces damage taken by an additional 10%.",
+      "pvp_tooltip": "Ironfur increases armor by an additional 15% and Barkskin reduces damage taken by an additional 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4330,10 +4850,10 @@
         "spell_id": 155835,
         "icon": "spell_druid_bristlingfur"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n40 sec cooldown\nBristle your fur, causing you to generate Rage based on damage taken for 8 sec.",
+      "pvp_tooltip": "Instant\n40 sec cooldown\nBristle your fur, causing you to generate Rage based on damage taken for 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4385,10 +4905,10 @@
         "spell_id": 1251876,
         "icon": "inv_relics_idolofhealth"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Ironfur increases your Mastery by 5%.",
+      "pvp_tooltip": "Ironfur increases your Mastery by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4440,10 +4960,10 @@
         "spell_id": 155578,
         "icon": "spell_druid_guardianofelune"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Mangle increases the duration of your next Ironfur by 3 sec, or the healing of your next Frenzied Regeneration by 20%.",
+      "pvp_tooltip": "Mangle increases the duration of your next Ironfur by 3 sec, or the healing of your next Frenzied Regeneration by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4494,10 +5014,10 @@
         "spell_id": 393611,
         "icon": "ability_hunter_pet_bear"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the duration of Barkskin and Ironfur by 2.0 sec.",
+      "pvp_tooltip": "Increases the duration of Barkskin and Ironfur by 2.0 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4548,10 +5068,10 @@
         "spell_id": 200854,
         "icon": "artifactability_guardiandruid_goryfur"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Ironfur has a 20% chance to make your next [\nRaze\n/ Maul] or Ravage free.\n[\nRaze\n/ Maul] and Ravage have a 10% chance to make your next Ironfur free.",
+      "pvp_tooltip": "Ironfur has a 20% chance to make your next [\nRaze\n/ Maul] or Ravage free.\n[\nRaze\n/ Maul] and Ravage have a 10% chance to make your next Ironfur free.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4602,10 +5122,10 @@
         "spell_id": 471492,
         "icon": "spell_nature_natureresistancetotem"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Gain magical damage reduction equal to 10% of your damage reduction from armor.",
+      "pvp_tooltip": "Gain magical damage reduction equal to 10% of your damage reduction from armor.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4659,10 +5179,10 @@
         "spell_id": 204053,
         "icon": "ability_druid_swipe"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Each stack of Thrash reduces the target's damage to you by 3% and increases your damage to them by 2%.",
+      "pvp_tooltip": "Each stack of Thrash reduces the target's damage to you by 3% and increases your damage to them by 2%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4716,10 +5236,10 @@
         "spell_id": 372943,
         "icon": "spell_druid_bloodythrash"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the damage and radius of Thrash by 25%.",
+      "pvp_tooltip": "Increases the damage and radius of Thrash by 25%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4773,10 +5293,10 @@
         "spell_id": 400254,
         "icon": "ability_druid_lacerate"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 Rage\nMelee Range\nInstant\nStrike with the might of Ursoc, dealing (212.5% of Attack Power) Physical damage to your target and (115.6% of Attack Power) to all other enemies in front of you. Damage reduced beyond 5 targets.",
+      "pvp_tooltip": "40 Rage\nMelee Range\nInstant\nStrike with the might of Ursoc, dealing (212.5% of Attack Power) Physical damage to your target and (115.6% of Attack Power) to all other enemies in front of you. Damage reduced beyond 5 targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4830,10 +5350,10 @@
         "spell_id": 204066,
         "icon": "spell_nature_moonglow"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\nInstant\n1 min cooldown\nSummons a beam of lunar light at your target's location, dealing (40% of Attack Power) Arcane damage each second to your target and (40% of Attack Power) to up to 5 other enemies within 0 yd.\nLunar Beam also increases your mastery by (14 * $mas)%, and heals you for [(350% of Attack Power) * 8] over 8 sec.",
+      "pvp_tooltip": "40 yd range\nInstant\n1 min cooldown\nSummons a beam of lunar light at your target's location, dealing (40% of Attack Power) Arcane damage each second to your target and (40% of Attack Power) to up to 5 other enemies within 0 yd.\nLunar Beam also increases your mastery by (14 * $mas)%, and heals you for [(350% of Attack Power) * 8] over 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4885,10 +5405,10 @@
         "spell_id": 377210,
         "icon": "achievement_emeraldnightmare_ursoc"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Thrash and Maul grant you an absorb shield for 35% of the damage dealt for 15 sec.",
+      "pvp_tooltip": "Thrash and Maul grant you an absorb shield for 35% of the damage dealt for 15 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4938,10 +5458,10 @@
         "spell_id": 393427,
         "icon": "spell_druid_thrash"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Thrash has a 10% chance to trigger an additional Thrash.\nThrash stacks 1 additional time.",
+      "pvp_tooltip": "Thrash has a 10% chance to trigger an additional Thrash.\nThrash stacks 1 additional time.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4993,10 +5513,10 @@
         "spell_id": 203962,
         "icon": "ability_druid_primaltenacity"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Thrash also generates 3 Rage each time it deals damage, on up to 5 targets.",
+      "pvp_tooltip": "Thrash also generates 3 Rage each time it deals damage, on up to 5 targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5048,10 +5568,10 @@
         "spell_id": 400278,
         "icon": "artifactability_balancedruid_newmoon"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your direct damage melee abilities against enemies afflicted by Moonfire cause them to burn for an additional 20% Arcane damage.",
+      "pvp_tooltip": "Your direct damage melee abilities against enemies afflicted by Moonfire cause them to burn for an additional 20% Arcane damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5101,10 +5621,10 @@
         "spell_id": 370695,
         "icon": "ability_druid_cresentburn"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While in Bear Form, you deal 10% increased Arcane damage.",
+      "pvp_tooltip": "While in Bear Form, you deal 10% increased Arcane damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5156,15 +5676,85 @@
         "spell_id": 372567,
         "icon": "spell_nature_starfall"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Moonfire deals 8% increased damage and also hits another nearby enemy within 15 yds of the target.",
+      "pvp_tooltip": "Moonfire deals 4% increased damage and also hits another nearby enemy within 15 yds of the target.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 15,
+          "end": 16,
+          "old_token": "8",
+          "new_token": "4",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1,
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1,
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "8",
+          "new": "4"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 372567,
+          "source_spell_id": 372567,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 8.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 4.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 372567,
+          "source_spell_id": 372567,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
+          "base_value": 8.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 4.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Red Moon",
@@ -5211,10 +5801,10 @@
         "spell_id": 1252871,
         "icon": "sha_ability_mage_firestarter_nightmare"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\nInstant\n30 sec cooldown\nChannel the power of the enraged moon to deal (640% of Spell Power) Arcane damage to your target over 8 sec. Casting Mangle extends its duration by 1.0 sec and generates 8 Rage.",
+      "pvp_tooltip": "40 yd range\nInstant\n30 sec cooldown\nChannel the power of the enraged moon to deal (640% of Spell Power) Arcane damage to your target over 8 sec. Casting Mangle extends its duration by 1.0 sec and generates 8 Rage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5267,10 +5857,10 @@
         "spell_id": 1253035,
         "icon": "inv_misc_bearclaw_nightmare"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Mangle has 1 additional charge and when Maul is cast at 80 Rage or above its chance to activate Gore is increased by 100%.",
+      "pvp_tooltip": "Mangle has 1 additional charge and when Maul is cast at 80 Rage or above its chance to activate Gore is increased by 100%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5324,10 +5914,10 @@
         "spell_id": 102558,
         "icon": "spell_druid_incarnation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Replaces\nBerserk\nInstant\n3 min cooldown\nAn improved Bear Form that grants the benefits of Berserk, causes Mangle to hit up to 3 targets,\nand increases maximum health by 30%.\nLasts 30 sec. You may freely shapeshift in and out of this improved Bear Form for its duration.",
+      "pvp_tooltip": "Replaces\nBerserk\nInstant\n3 min cooldown\nAn improved Bear Form that grants the benefits of Berserk, causes Mangle to hit up to 3 targets,\nand increases maximum health by 30%.\nLasts 30 sec. You may freely shapeshift in and out of this improved Bear Form for its duration.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5381,10 +5971,10 @@
         "spell_id": 391528,
         "icon": "inv_ability_druid_convokethespirits"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Channeled (4 sec cast)\n2 min cooldown\nCall upon the spirits for an eruption of energy, channeling a rapid flurry of 16 /\nUrsoc's Guidance\n:\n12\n/\nElune's Guidance\n:\n12\n/\nAstral Insight\n:\n20\nDruid spells and abilities over 4 sec. [\nAshamane's Guidance\n:\nChance to use an exceptional spell or ability is increased\n]\nYou will cast\nWild Growth, Swiftmend,\nMoonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form.",
+      "pvp_tooltip": "Channeled (4 sec cast)\n2 min cooldown\nCall upon the spirits for an eruption of energy, channeling a rapid flurry of 16 /\nUrsoc's Guidance\n:\n12\n/\nElune's Guidance\n:\n12\n/\nAstral Insight\n:\n20\nDruid spells and abilities over 4 sec. [\nAshamane's Guidance\n:\nChance to use an exceptional spell or ability is increased\n]\nYou will cast\nWild Growth, Swiftmend,\nMoonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5437,10 +6027,10 @@
         "spell_id": 370586,
         "icon": "spell_holy_elunesgrace"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While in Bear Form, you are healed for 18% of all Arcane damage done.",
+      "pvp_tooltip": "While in Bear Form, you are healed for 18% of all Arcane damage done.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5489,10 +6079,10 @@
         "spell_id": 1252994,
         "icon": "artifactability_feraldruid_ashamanesbite"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Maul and Raze may consume up to 20 more Rage to deal up to 70% additional damage.",
+      "pvp_tooltip": "Maul and Raze may consume up to 20 more Rage to deal up to 70% additional damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5541,10 +6131,10 @@
         "spell_id": 1253799,
         "icon": "artifactability_feraldruid_openwounds"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n1 min cooldown\nRoar with earthshattering ferocity, dealing (280% of Attack Power) Physical damage, and resetting the cooldown of Thrash and allowing it to stack 5 additional times for 12 sec.\nWhen Sundering Roar ends, any excess stacks of Thrash immediately deal their remaining damage.",
+      "pvp_tooltip": "Instant\n1 min cooldown\nRoar with earthshattering ferocity, dealing (280% of Attack Power) Physical damage, and resetting the cooldown of Thrash and allowing it to stack 5 additional times for 12 sec.\nWhen Sundering Roar ends, any excess stacks of Thrash immediately deal their remaining damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5592,10 +6182,10 @@
         "spell_id": 393414,
         "icon": "inv_ability_druid_convokethespirits"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Incarnation: Guardian of Ursoc\n:\nEvery 25 Rage you spend reduces the cooldown of Incarnation: Guardian of Ursoc by 1 sec.\nConvoke the Spirits\n:\nConvoke the Spirits' cooldown is reduced by 50% and its duration and number of spells cast is reduced by 25%. Convoke the Spirits has an increased chance to use an exceptional spell or ability.",
+      "pvp_tooltip": "Incarnation: Guardian of Ursoc\n:\nEvery 25 Rage you spend reduces the cooldown of Incarnation: Guardian of Ursoc by 1 sec.\nConvoke the Spirits\n:\nConvoke the Spirits' cooldown is reduced by 50% and its duration and number of spells cast is reduced by 25%. Convoke the Spirits has an increased chance to use an exceptional spell or ability.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5644,10 +6234,10 @@
         "spell_id": 1253461,
         "icon": "sha_spell_shadow_shadesofdarkness_nightmare"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Approximately\n2\nprocs per minute\nAwaken memories of past conflicts, causing a Dread Shade to take form nearby.\nWhile active, shades slowly travel toward your target, dealing (70% of Attack Power) Nature damage to nearby enemies and mirroring your Thrash casts.",
+      "pvp_tooltip": "Approximately\n2\nprocs per minute\nAwaken memories of past conflicts, causing a Dread Shade to take form nearby.\nWhile active, shades slowly travel toward your target, dealing (70% of Attack Power) Nature damage to nearby enemies and mirroring your Thrash casts.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5696,10 +6286,10 @@
         "spell_id": 203964,
         "icon": "spell_frost_iceclaw"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your damage has a 5% chance to trigger a free automatic Moonfire on that target.\nMoonfire\n:\nWhen this occurs, the next Moonfire you cast generates 8 Rage, and deals 300% increased direct damage.\nRed Moon\n:\nWhen this occurs, you gain 1 charge of Lunar Wrath. Each 20 Rage you spend while Red Moon is active consumes a stack to deal (100% of Spell Power) additional Arcane damage to its target and heal you for (130% of Spell Power).\n(2s cooldown)",
+      "pvp_tooltip": "Your damage has a 5% chance to trigger a free automatic Moonfire on that target.\nMoonfire\n:\nWhen this occurs, the next Moonfire you cast generates 8 Rage, and deals 300% increased direct damage.\nRed Moon\n:\nWhen this occurs, you gain 1 charge of Lunar Wrath. Each 20 Rage you spend while Red Moon is active consumes a stack to deal (100% of Spell Power) additional Arcane damage to its target and heal you for (130% of Spell Power).\n(2s cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5745,10 +6335,10 @@
         "spell_id": 1269614,
         "icon": "inv12_apextalent_druid_wildguardian"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Spending Rage has a 10% chance to awaken a guardian spirit for 8 sec, which attacks a nearby enemy for (300% of Attack Power) when you cast Thrash or Mangle.",
+      "pvp_tooltip": "Spending Rage has a 10% chance to awaken a guardian spirit for 8 sec, which attacks a nearby enemy for (300% of Attack Power) when you cast Thrash or Mangle.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5794,10 +6384,10 @@
         "spell_id": 1269617,
         "icon": "inv12_apextalent_druid_wildguardian"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Mangle, [\nRaze\n/ Maul] and Ravage deal 20% additional Nature damage over 12 sec. Your Mastery is increased by 3%.",
+      "pvp_tooltip": "Mangle, [\nRaze\n/ Maul] and Ravage deal 20% additional Nature damage over 12 sec. Your Mastery is increased by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5843,10 +6433,10 @@
         "spell_id": 1269619,
         "icon": "inv12_apextalent_druid_wildguardian"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": ":\nYour next cast of [Raze][Maul] or Ravage is guaranteed to awaken a spirit.",
+      "pvp_tooltip": ":\nYour next cast of [Raze][Maul] or Ravage is guaranteed to awaken a spirit.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5897,15 +6487,93 @@
         "spell_id": 424058,
         "icon": "inv_ability_eluneschosendruid_boundlessmoonlight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Lunar Beam\nLunar Beam now causes you to leech life equal to 12% of all damage dealt to enemies within the beam.\nFury of Elune\nFury of Elune now ends with a flash of energy, blasting nearby enemies for (216.32% of Spell Power) Astral damage.",
+      "pvp_tooltip": "Lunar Beam\nLunar Beam now causes you to leech life equal to 12% of all damage dealt to enemies within the beam.\nFury of Elune\nFury of Elune now ends with a flash of energy, blasting nearby enemies for (240.3315% of Spell Power) Astral damage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 202,
+          "end": 208,
+          "old_token": "216.32",
+          "new_token": "240.3315",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "216.32",
+          "new": "240.3315"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 424058,
+          "source_spell_id": 424588,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 1.885)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.111,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.111,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            424058,
+            424588
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 424058,
+          "source_spell_id": 428682,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 2.1632)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.111,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.111,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            424058,
+            428682
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Moon Guardian",
@@ -5950,10 +6618,10 @@
         "spell_id": 429520,
         "icon": "spell_nature_moonglow"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Free automatic Moonfires from Galactic Guardian generate 5 Rage.",
+      "pvp_tooltip": "Free automatic Moonfires from Galactic Guardian generate 5 Rage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6003,10 +6671,10 @@
         "spell_id": 429530,
         "icon": "spell_nature_starfall"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Moonfire deals 8% increased damage.\nRed Moon deals 30% increased damage.",
+      "pvp_tooltip": "Moonfire deals 8% increased damage.\nRed Moon deals 30% increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6056,10 +6724,10 @@
         "spell_id": 429533,
         "icon": "ability_druid_ironfur"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Bear Form and Moonkin Form reduce Arcane damage taken by 6% and all other magic damage taken by 3%.",
+      "pvp_tooltip": "Bear Form and Moonkin Form reduce Arcane damage taken by 6% and all other magic damage taken by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6109,10 +6777,10 @@
         "spell_id": 1271206,
         "icon": "spell_arcane_arcane03"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Thrash has a 50% chance to launch a Starsurge at a victim at 120% effectiveness.\n(100ms cooldown)",
+      "pvp_tooltip": "Thrash has a 50% chance to launch a Starsurge at a victim at 120% effectiveness.\n(100ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6162,10 +6830,10 @@
         "spell_id": 429668,
         "icon": "artifactability_balancedruid_moonandstars"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the damage of Lunar Beam by 30% and Fury of Elune by 15%.",
+      "pvp_tooltip": "Increases the damage of Lunar Beam by 30% and Fury of Elune by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6215,10 +6883,10 @@
         "spell_id": 429532,
         "icon": "inv_cosmicvoid_nova"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Enemies damaged by Lunar Beam or Fury of Elune take\n6\n% increased damage from you for 6 sec.",
+      "pvp_tooltip": "Enemies damaged by Lunar Beam or Fury of Elune take\n6\n% increased damage from you for 6 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6268,15 +6936,93 @@
         "spell_id": 429538,
         "icon": "inv_enchant_dust"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Enemies affected by Moonfire are slowed by 20%.",
+      "pvp_tooltip": "Enemies affected by Moonfire are slowed by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 21.2,
+          "new": 28.196,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 18.4,
+          "new": 24.471999999999998,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 429538,
+          "source_spell_id": 164812,
+          "effect_index": 1,
+          "effect_text": "School Damage (Arcane) (SP mod: 0.212)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.33,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.33,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            429538,
+            164812
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 429538,
+          "source_spell_id": 164812,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.33,
+          "amount_kind": "periodic",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.33,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            429538,
+            164812
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Elune's Grace",
@@ -6321,10 +7067,10 @@
         "spell_id": 443046,
         "icon": "spell_druid_wildcharge"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Using Wild Charge while in Bear Form or Moonkin Form incurs a 3 sec shorter cooldown.",
+      "pvp_tooltip": "Using Wild Charge while in Bear Form or Moonkin Form incurs a 3 sec shorter cooldown.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6374,10 +7120,10 @@
         "spell_id": 1271261,
         "icon": "ability_druid_eclipse"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Lunar Beam increases Arcane damage you deal by 10% while it is active.\nLunar Beam increases Arcane damage you deal by 10% while it is active.",
+      "pvp_tooltip": "Lunar Beam increases Arcane damage you deal by 10% while it is active.\nLunar Beam increases Arcane damage you deal by 10% while it is active.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6427,15 +7173,50 @@
         "spell_id": 429523,
         "icon": "ability_druid_cresentburn"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Thrash now deals Arcane damage and its damage is increased by 12%.",
+      "pvp_tooltip": "Thrash now deals Arcane damage and its damage is increased by 12%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "ordinary_value",
+          "old": 120.0,
+          "new": 60.0,
+          "full_tooltip_match_count": 1
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 429523,
+          "source_spell_id": 429523,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 120.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 60.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "The Light of Elune",
@@ -6480,10 +7261,10 @@
         "spell_id": 428655,
         "icon": "ability_druid_dreamstate"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Approximately\n1\nprocs per minute\nMoonfire damage has a chance to call down a Fury of Elune to follow your target for 3 sec.\nFury of Elune\nCalls down a beam of pure celestial energy, dealing [3000 / 1000 * 2 * (18.34% of Spell Power)] Astral damage over 3 sec within its area.\nGenerates 18 Rage over its duration.",
+      "pvp_tooltip": "Approximately\n1\nprocs per minute\nMoonfire damage has a chance to call down a Fury of Elune to follow your target for 3 sec.\nFury of Elune\nCalls down a beam of pure celestial energy, dealing [3000 / 1000 * 2 * (18.34% of Spell Power)] Astral damage over 3 sec within its area.\nGenerates 18 Rage over its duration.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6533,10 +7314,10 @@
         "spell_id": 429536,
         "icon": "spell_druid_incarnation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Incarnation: Guardian of Ursoc increases Arcane damage from spells and abilities by 10% while active.\nIncreases the duration and number of spells cast by Convoke the Spirits by 25%.",
+      "pvp_tooltip": "Incarnation: Guardian of Ursoc increases Arcane damage from spells and abilities by 10% while active.\nIncreases the duration and number of spells cast by Convoke the Spirits by 25%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6586,10 +7367,10 @@
         "spell_id": 429540,
         "icon": "spell_arcane_arcane01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "All Arcane damage from your spells and abilities is increased by 3%.",
+      "pvp_tooltip": "All Arcane damage from your spells and abilities is increased by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6639,10 +7420,10 @@
         "spell_id": 429539,
         "icon": "spell_nature_moonglow"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Lunar Beam's cooldown is reduced by 20 sec.",
+      "pvp_tooltip": "Lunar Beam's cooldown is reduced by 20 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6692,10 +7473,10 @@
         "spell_id": 1271305,
         "icon": "spell_holy_elunesgrace"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "damage increased by 10%. Lunar Beam's damage dealt to its primary target increased by 30%.",
+      "pvp_tooltip": "damage increased by 10%. Lunar Beam's damage dealt to its primary target increased by 30%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6746,15 +7527,97 @@
         "spell_id": 424113,
         "icon": "artifactability_balancedruid_newmoon"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Further increases the power of Boundless Moonlight.\nLunar Beam\nLunar Beam increases Mastery by an additional (15 * $mas)%, deals 30% increased damage, and lasts 3 sec longer.\nFury of Elune\nThe flash of energy now generates 6 Rage and its damage is increased by 50%.",
+      "pvp_tooltip": "Further increases the power of Boundless Moonlight.\nLunar Beam\nLunar Beam increases Mastery by an additional (15 * $mas)%, deals 30% increased damage, and lasts 3 sec longer.\nFury of Elune\nThe flash of energy now generates 6 Rage and its damage is increased by 50%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 216.32,
+          "new": 240.33151999999998,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 188.5,
+          "new": 209.4235,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 424113,
+          "source_spell_id": 428682,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 2.1632)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.111,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.111,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            424113,
+            428682
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 424113,
+          "source_spell_id": 424588,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 1.885)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.111,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.111,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            424113,
+            428682,
+            424058,
+            424588
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "spelldesc_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Ravage",
@@ -6800,14 +7663,201 @@
         "spell_id": 441583,
         "icon": "inv_ability_druidoftheclawdruid_ravage"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Slash through your target in a wide arc, dealing (272% of Attack Power) Physical damage to your target and (142.8% of Attack Power) to all other enemies in front of you.",
+      "pvp_tooltip": "Slash through your target in a wide arc, dealing (272% of Attack Power) Physical damage to your target and (142.8% of Attack Power) to all other enemies in front of you.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 441583,
+          "source_spell_id": 102543,
+          "effect_index": 4,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 15.0,
+          "spell_pvp_multiplier": 0.6667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6667,
+          "final_pvp_value": 10.000499999999999,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            441583,
+            441591,
+            102543
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 441583,
+          "source_spell_id": 102543,
+          "effect_index": 5,
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
+          "base_value": 15.0,
+          "spell_pvp_multiplier": 0.6667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6667,
+          "final_pvp_value": 10.000499999999999,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            441583,
+            441591,
+            102543
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 441583,
+          "source_spell_id": 102543,
+          "effect_index": 6,
+          "effect_text": "Apply Aura: Mod Auto Attack Damage %",
+          "base_value": 15.0,
+          "spell_pvp_multiplier": 0.6667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6667,
+          "final_pvp_value": 10.000499999999999,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            441583,
+            441591,
+            102543
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 441583,
+          "source_spell_id": 106951,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 15.0,
+          "spell_pvp_multiplier": 0.3334,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.3334,
+          "final_pvp_value": 5.0009999999999994,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            441583,
+            441591,
+            102543,
+            106951
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "tooltip_value_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 441583,
+          "source_spell_id": 106951,
+          "effect_index": 4,
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
+          "base_value": 15.0,
+          "spell_pvp_multiplier": 0.3334,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.3334,
+          "final_pvp_value": 5.0009999999999994,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            441583,
+            441591,
+            102543,
+            106951
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "tooltip_value_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 441583,
+          "source_spell_id": 106951,
+          "effect_index": 5,
+          "effect_text": "Apply Aura: Mod Auto Attack Damage %",
+          "base_value": 15.0,
+          "spell_pvp_multiplier": 0.334,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.334,
+          "final_pvp_value": 5.010000000000001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            441583,
+            441591,
+            102543,
+            106951
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "tooltip_value_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -6853,10 +7903,10 @@
         "spell_id": 441675,
         "icon": "spell_nature_unyeildingstamina"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your maximum Energy and Rage are increased by 20.\nFrenzied Regeneration also increases your maximum health by 10%.",
+      "pvp_tooltip": "Your maximum Energy and Rage are increased by 20.\nFrenzied Regeneration also increases your maximum health by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6906,10 +7956,10 @@
         "spell_id": 441809,
         "icon": "artifactability_feraldruid_openwounds"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Ravage also inflicts a Bleed that causes (100% of Attack Power) damage over 6 sec and saps its victims' strength, reducing damage they deal to you by 15%.\nDreadful Wound is not affected by Circle of Life and Death.",
+      "pvp_tooltip": "Ravage also inflicts a Bleed that causes (100% of Attack Power) damage over 6 sec and saps its victims' strength, reducing damage they deal to you by 15%.\nDreadful Wound is not affected by Circle of Life and Death.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6959,10 +8009,10 @@
         "spell_id": 441841,
         "icon": "spell_nature_spiritarmor"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Maul and Raze damage increased by 10%.",
+      "pvp_tooltip": "Maul and Raze damage increased by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7012,10 +8062,10 @@
         "spell_id": 1271540,
         "icon": "artifactability_feraldruid_ashamanesbite"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your auto-attacks are 30% more likely to make your next\nbecome Ravage.",
+      "pvp_tooltip": "Your auto-attacks are 30% more likely to make your next\nbecome Ravage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7065,10 +8115,10 @@
         "spell_id": 441678,
         "icon": "ability_druid_mastershapeshifter"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Ironfur and Frenzied Regeneration persist in Cat Form.\nWhen transforming from Bear to Cat Form, you retain 80% of your Bear Form armor and health for 6 sec.\nFor 6 sec after entering Bear Form, you heal for 10% of damage taken over 8 sec.",
+      "pvp_tooltip": "Ironfur and Frenzied Regeneration persist in Cat Form.\nWhen transforming from Bear to Cat Form, you retain 80% of your Bear Form armor and health for 6 sec.\nFor 6 sec after entering Bear Form, you heal for 10% of damage taken over 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7118,10 +8168,10 @@
         "spell_id": 1271839,
         "icon": "inv_artifact_bloodoftheassassinated"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Dreadful Wounds increase the damage afflicted enemies take from your Bleed damage over time effects by 15%.",
+      "pvp_tooltip": "Your Dreadful Wounds increase the damage afflicted enemies take from your Bleed damage over time effects by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7171,10 +8221,10 @@
         "spell_id": 441844,
         "icon": "spell_druid_stampedingroar_cat"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Stampeding Roar's duration is increased by 25%.",
+      "pvp_tooltip": "Stampeding Roar's duration is increased by 25%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7224,10 +8274,10 @@
         "spell_id": 441814,
         "icon": "ability_druid_rake"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Ravage increases your auto-attack speed by 35% for 6 sec.",
+      "pvp_tooltip": "Ravage increases your auto-attack speed by 35% for 6 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7277,10 +8327,10 @@
         "spell_id": 441824,
         "icon": "ability_druid_kingofthejungle"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Ravage increases your Agility by 8% and the armor granted by Ironfur by 20% for 8 sec.\nYour first Mangle after entering combat makes your next Maul become Ravage.",
+      "pvp_tooltip": "Ravage increases your Agility by 8% and the armor granted by Ironfur by 20% for 8 sec.\nYour first Mangle after entering combat makes your next Maul become Ravage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7330,10 +8380,10 @@
         "spell_id": 441689,
         "icon": "spell_druid_primaltenacity"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Frenzied Regeneration can be cast in Cat Form for 40 Energy.\nBear Form reduces magic damage you take by 6%.\nShred and [\nBrutal Slash\n/ Swipe] damage increased by 10%. Mangle damage increased by 25%.",
+      "pvp_tooltip": "Frenzied Regeneration can be cast in Cat Form for 40 Energy.\nBear Form reduces magic damage you take by 6%.\nShred and [\nBrutal Slash\n/ Swipe] damage increased by 10%. Mangle damage increased by 25%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7383,10 +8433,10 @@
         "spell_id": 441691,
         "icon": "ability_druid_ravage"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Mangle grants Feline Potential. When you have 6 stacks, the next time you transform into Cat Form, gain 5 combo points and your next Ferocious Bite or Rip deals 50% increased damage for its full duration.\n(100ms cooldown)",
+      "pvp_tooltip": "Mangle grants Feline Potential. When you have 6 stacks, the next time you transform into Cat Form, gain 5 combo points and your next Ferocious Bite or Rip deals 50% increased damage for its full duration.\n(100ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7436,10 +8486,10 @@
         "spell_id": 441829,
         "icon": "artifactability_guardiandruid_goryfur"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Every [Maul, Raze, Mangle, Thrash, or Swipe / attack with an Energy cost that] you cast extends the duration of your Dreadful Wounds by 0.6 sec, up to 8 additional sec.\n(100ms cooldown)",
+      "pvp_tooltip": "Every [Maul, Raze, Mangle, Thrash, or Swipe / attack with an Energy cost that] you cast extends the duration of your Dreadful Wounds by 0.6 sec, up to 8 additional sec.\n(100ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7489,10 +8539,10 @@
         "spell_id": 441845,
         "icon": "ability_druid_primalagression"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Mangle damage increased by 10% and its critical strike chance is increased by 10%.\nMangle heals you for 5% of maximum health.",
+      "pvp_tooltip": "Mangle damage increased by 10% and its critical strike chance is increased by 10%.\nMangle heals you for 5% of maximum health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7542,10 +8592,10 @@
         "spell_id": 441846,
         "icon": "inv_1115_druid_jaguar"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Feral (Frantic Frenzy)\nDamage dealt by Chomp and Feral Frenzy.\nThe cooldown of Sundering Roar is reduced by 15 sec.",
+      "pvp_tooltip": "Feral (Frantic Frenzy)\nDamage dealt by Chomp and Feral Frenzy.\nThe cooldown of Sundering Roar is reduced by 15 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7595,10 +8645,10 @@
         "spell_id": 1271635,
         "icon": "ability_druid_swipe"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You have a 18% chance to follow up any single target melee ability or Raze with a Twin Claw, dealing (340% of Attack Power) Physical damage and generating 5 Rage.\n(200ms cooldown)",
+      "pvp_tooltip": "You have a 18% chance to follow up any single target melee ability or Raze with a Twin Claw, dealing (340% of Attack Power) Physical damage and generating 5 Rage.\n(200ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7649,10 +8699,10 @@
         "spell_id": 441835,
         "icon": "ability_xavius_tormentingswipe"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "During Berserk, Mangle, Thrash, and Swipe have a 20% chance to make your next Maul become Ravage.",
+      "pvp_tooltip": "During Berserk, Mangle, Thrash, and Swipe have a 20% chance to make your next Maul become Ravage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7660,834 +8710,25 @@
       "render_effect_count": 0
     }
   ],
-  "fetch_errors": [
-    {
-      "source": "wowhead_page",
-      "spell_id": 99,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c89fd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 774,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18339190 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1079,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c885f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1822,
-      "error": "RetryError: RetryError[<Future at 0x7fbf185691f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 2637,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dec6b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 2782,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168a2060 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 2908,
-      "error": "RetryError: RetryError[<Future at 0x7fbf184000e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 5211,
-      "error": "RetryError: RetryError[<Future at 0x7fbf19223a40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 6807,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d32780 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 16931,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d6a3f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 22570,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16def110 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 22842,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16528080 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 24858,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165282c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 29166,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ded8b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 33786,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16516180 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 33873,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168a3620 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 48438,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d33620 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 50334,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d30a10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 61336,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1659af00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 93402,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165762d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 102359,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d32e70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 102401,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d86a20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 102558,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168a0620 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 102793,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d86c00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 106839,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168a0170 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 106898,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d69bb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 108299,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c89c10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 131768,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16514da0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 132469,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168a2d80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 155578,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d85160 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 155835,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1d040 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 158477,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165146b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 159286,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165169f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 192081,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c51850 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 197524,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d12ab0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 197626,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165a9a00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 197628,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1659a630 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 200854,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1f140 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 203953,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16defe30 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 203962,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c8a210 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 203964,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d69fa0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 203965,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c8bcb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 204053,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16574590 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 204066,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d85ac0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 210706,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16517ce0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 213764,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168a2f60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 231040,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663d4c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 238049,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1cad0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 252216,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168a3e60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 288826,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d11c40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 301768,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168a2b10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 327993,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663dfd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 345208,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c88d10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 370586,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d33bc0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 370695,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16545550 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 371905,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18258740 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 372119,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d6ac90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 372567,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16788680 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 372618,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16576de0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 372943,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165447a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 372945,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d11790 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 377210,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d69550 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 377796,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16574680 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 377811,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d85c10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 377835,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d87890 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 377842,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d69d30 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 377847,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e9a150 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 378988,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165761b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 385786,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674eff0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 391528,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165456d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 393414,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d84da0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 393427,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16546c60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 393611,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dd6570 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 393618,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c897f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 400129,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1f500 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 400140,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16576d50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 400142,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dd7d40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 400254,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d85c70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 400278,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dee450 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 424058,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c50260 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 424113,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16577110 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 428655,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16f07da0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 429520,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dd6330 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 429523,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168a25d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 429530,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d138f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 429532,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171c5970 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 429533,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168a2990 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 429536,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18518f50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 429538,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ab6b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 429539,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171c44d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 429540,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663c7d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 429668,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171c7b00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441583,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166acaa0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441675,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c8ad50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441678,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d10170 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441689,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16515640 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441691,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171c6690 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441809,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166af7d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441814,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d68110 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441824,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16517b60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441829,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d86180 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441835,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16516630 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441841,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166e8200 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441844,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166eb020 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441845,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d107a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441846,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c8a810 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 443046,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d69d90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449182,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16599d60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449184,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168a15b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449185,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c89f40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449191,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16547fe0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449193,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16545f10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 451211,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1827f440 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 471492,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166eae40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 474526,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d86450 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 474530,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18259160 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 474541,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d85880 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 474678,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c509b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 474750,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16574ef0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1213597,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1827f560 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1232897,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d87d70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1250906,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d129c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1250923,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d6baa0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1251406,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663e660 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1251876,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c52db0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1252871,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168a3170 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1252994,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1659b7d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1253035,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168a0650 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1253461,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166e9670 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1253799,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1659b1d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1261867,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16517a10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1262034,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d69610 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1269614,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171c63f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1269617,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168a1e50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1269619,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1678ad20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1271206,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166dbb00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1271261,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d32150 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1271305,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168a1010 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1271540,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168a09b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1271635,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d84200 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1271839,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1652a720 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1278789,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168a2ea0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1278886,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16598ec0 state=finished raised HTTPStatusError>]"
-    }
-  ],
+  "fetch_errors": [],
   "slug": "druid-guardian",
-  "generated_at": "2026-09-19T13:50:14.597128+00:00",
+  "generated_at": "2026-09-19T14:06:45.185120+00:00",
   "validation": {
     "talents": 143,
-    "changed_tooltips": 0,
-    "talents_with_pvp_mechanics": 0,
+    "changed_tooltips": 5,
+    "talents_with_pvp_mechanics": 19,
     "unique_nodes": 121,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
     "drustvar_builds": [
       "12.1.0.69587"
     ],
-    "verification_status": "PARTIAL",
-    "fetch_error_count": 298,
-    "unresolved_count": 30,
-    "review_required_count": 143,
-    "fetch_error_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 99,
-        "error": "RetryError: RetryError[<Future at 0x7fbf1663e780 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 774,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16e65910 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1079,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16e62780 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1822,
-        "error": "RetryError: RetryError[<Future at 0x7fbf1713c5c0 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 2637,
-        "error": "RetryError: RetryError[<Future at 0x7fbf18258800 state=finished raised HTTPStatusError>]"
-      }
-    ],
-    "unresolved_examples": [
-      {
-        "spell_id": 774,
-        "talent_name": "Rejuvenation",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.87,
-        "effect_text": "Apply Aura (6) | Periodic Heal (8): every 3 seconds"
-      },
-      {
-        "spell_id": 1079,
-        "talent_name": "Rip",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 1.11,
-        "effect_text": "Apply Aura (6) | Periodic Damage (3): physical every 2 seconds"
-      },
-      {
-        "spell_id": 1822,
-        "talent_name": "Rake",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 1.13,
-        "effect_text": "School Damage (2): physical"
-      },
-      {
-        "spell_id": 22842,
-        "talent_name": "Frenzied Regeneration",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.62,
-        "effect_text": "Apply Aura (6) | Periodic Heal% (20): every 1 seconds"
-      },
-      {
-        "spell_id": 29166,
-        "talent_name": "Innervate",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.8,
-        "effect_text": "Apply Aura (6) | Periodic Power% Regen (21)"
-      }
-    ],
-    "review_required_examples": [
-      {
-        "talent_name": "Rake",
-        "spell_id": 1822,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Frenzied Regeneration",
-        "spell_id": 22842,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Rejuvenation",
-        "spell_id": 774,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Starfire",
-        "spell_id": 197628,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Grievous Wounds",
-        "spell_id": 474526,
-        "status": "MISSING_TOOLTIP"
-      }
-    ]
+    "verification_status": "VERIFIED",
+    "fetch_error_count": 0,
+    "unresolved_count": 0,
+    "review_required_count": 0,
+    "fetch_error_examples": [],
+    "unresolved_examples": [],
+    "review_required_examples": []
   }
 }

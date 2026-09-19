@@ -49,10 +49,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 393870,
         "icon": "spell_holy_heal"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases healing done by Flash Heal by 15%.",
+      "pvp_tooltip": "Increases healing done by Flash Heal by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -101,10 +101,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 121536,
         "icon": "ability_priest_angelicfeather"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\nInstant\n20 sec recharge\n3 Charges\nPlaces a feather at the target location, granting the first ally to walk through it 40% increased movement speed for 5 sec.\nOnly 3 feathers can be placed at one time.",
+      "pvp_tooltip": "40 yd range\nInstant\n20 sec recharge\n3 Charges\nPlaces a feather at the target location, granting the first ally to walk through it 40% increased movement speed for 5 sec.\nOnly 3 feathers can be placed at one time.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -153,15 +153,76 @@ window.WOW_PVP_DATA = {
         "spell_id": 8092,
         "icon": "spell_shadow_unholyfrenzy"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "4% of base mana\n40 yd range\n1.5 sec cast\n9 sec cooldown\n1 Charge\nBlast the target's mind for (78.336% of Spell Power) Shadow damage.\nGenerates 6 Insanity.",
+      "pvp_tooltip": "4% of base mana\n40 yd range\n1.5 sec cast\n9 sec cooldown\n1 Charge\nBlast the target's mind for (45.6542% of Spell Power) Shadow damage.\nGenerates 6 Insanity.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 94,
+          "end": 100,
+          "old_token": "78.336",
+          "new_token": "45.6542",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "78.336",
+          "new": "45.6542"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 8092,
+          "source_spell_id": 8092,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 0.78336)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.5828,
+          "final_pvp_multiplier": 0.5828,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264657,
+              "amount_kind": "direct",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264744,
+              "amount_kind": "direct",
+              "value_pct": -38.0,
+              "factor": 0.62,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Holy Nova",
@@ -208,15 +269,68 @@ window.WOW_PVP_DATA = {
         "spell_id": 132157,
         "icon": "spell_holy_holynova"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "0.2% of base mana\nInstant\nAn explosion of holy light around you deals up to (40.95% of Spell Power) Holy damage to enemies and up to (31.5% of Spell Power) healing to allies within 12 yds, reduced if there are more than 5 targets.",
+      "pvp_tooltip": "0.2% of base mana\nInstant\nAn explosion of holy light around you deals up to (38.493% of Spell Power) Holy damage to enemies and up to (31.5% of Spell Power) healing to allies within 12 yds, reduced if there are more than 5 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 77,
+          "end": 82,
+          "old_token": "40.95",
+          "new_token": "38.493",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "40.95",
+          "new": "38.493"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 132157,
+          "source_spell_id": 132157,
+          "effect_index": 1,
+          "effect_text": "School Damage (Holy) (SP mod: 0.4095)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.94,
+          "final_pvp_multiplier": 0.94,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264657,
+              "amount_kind": "direct",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Dispel Magic",
@@ -264,10 +378,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 528,
         "icon": "spell_nature_nullifydisease"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "14% of base mana\n30 yd range\nInstant\nDispels Magic on the enemy target, removing 1 beneficial Magic effect.",
+      "pvp_tooltip": "14% of base mana\n30 yd range\nInstant\nDispels Magic on the enemy target, removing 1 beneficial Magic effect.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -319,10 +433,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1250818,
         "icon": "spell_holy_spiritualguidence"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases your Intellect by 3%.",
+      "pvp_tooltip": "Increases your Intellect by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -374,10 +488,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 8122,
         "icon": "spell_shadow_psychicscream"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "1.2% of base mana\nInstant\n40 sec cooldown\nLets out a psychic scream, causing all enemies within 8 yards to flee, disorienting them for 8 sec. Damage may interrupt the effect.",
+      "pvp_tooltip": "1.2% of base mana\nInstant\n40 sec cooldown\nLets out a psychic scream, causing all enemies within 8 yards to flee, disorienting them for 8 sec. Damage may interrupt the effect.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -425,10 +539,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1246549,
         "icon": "inv_ability_holyfire_nova"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the damage of Holy Nova by 400%, its healing by 500%, and its cooldown by 30 sec.",
+      "pvp_tooltip": "Increases the damage of Holy Nova by 400%, its healing by 500%, and its cooldown by 30 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -481,10 +595,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 73325,
         "icon": "priest_spell_leapoffaith_a"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "2.6% of base mana\n40 yd range\nInstant\n1.5 min cooldown\n1 Charge\nPulls the spirit of a party or raid member, instantly moving them directly in front of you.",
+      "pvp_tooltip": "2.6% of base mana\n40 yd range\nInstant\n1.5 min cooldown\n1 Charge\nPulls the spirit of a party or raid member, instantly moving them directly in front of you.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -534,10 +648,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 213634,
         "icon": "spell_holy_nullifydisease"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "10% of base mana\n40 yd range\nInstant\n8 sec cooldown\n1 Charge\nRemoves all Disease effects from a friendly target.",
+      "pvp_tooltip": "10% of base mana\n40 yd range\nInstant\n8 sec cooldown\n1 Charge\nRemoves all Disease effects from a friendly target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -590,14 +704,38 @@ window.WOW_PVP_DATA = {
         "spell_id": 10060,
         "icon": "spell_holy_powerinfusion"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\nInstant\n2 min cooldown\nInfuses the target with power for 15 sec, increasing haste by 20%.\nCan only be cast on players.",
+      "pvp_tooltip": "40 yd range\nInstant\n2 min cooldown\nInfuses the target with power for 15 sec, increasing haste by 20%.\nCan only be cast on players.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 10060,
+          "source_spell_id": 10060,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -645,10 +783,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1251030,
         "icon": "spell_holy_mindsooth"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Holy (Holy Fire)\nIncreases the damage of Holy FireHoly Fire and Shadow Word: Pain by 10%.\nIncreases the damage of Shadow Word: Pain by 10%.",
+      "pvp_tooltip": "Holy (Holy Fire)\nIncreases the damage of Holy FireHoly Fire and Shadow Word: Pain by 10%.\nIncreases the damage of Shadow Word: Pain by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -698,10 +836,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 390919,
         "icon": "spell_nzinsanity_fearofdeath"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the amount of damage required to break your Psychic Scream by 25%.",
+      "pvp_tooltip": "Increases the amount of damage required to break your Psychic Scream by 25%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -751,10 +889,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 55676,
         "icon": "spell_shadow_psychichorrors"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Psychic Scream causes enemies to tremble in place instead of fleeing in fear.\nModifies Effect #2's Value -4:\nPandemonium\n,\nPsychic Scream",
+      "pvp_tooltip": "Psychic Scream causes enemies to tremble in place instead of fleeing in fear.\nModifies Effect #2's Value -4:\nPandemonium\n,\nPsychic Scream",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -805,10 +943,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 109186,
         "icon": "spell_holy_surgeoflight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your healing spells and Smite have a 8% chance to make your next Flash Heal\ninstant and cost\n[",
+      "pvp_tooltip": "Your healing spells and Smite have a 8% chance to make your next Flash Heal\ninstant and cost\n[",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -858,10 +996,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 64129,
         "icon": "spell_holy_symbolofhope"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Power Word: Shield and Leap of Faith increase your target's movement speed by 40% for 3 sec.",
+      "pvp_tooltip": "Power Word: Shield and Leap of Faith increase your target's movement speed by 40% for 3 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -914,10 +1052,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 32375,
         "icon": "spell_arcane_massdispel"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "20% of base mana\n30 yd range\n1.5 sec cast\n2 min cooldown\nDispels magic in a 15 yard radius, removing all harmful Magic from 5 friendly targets and 1 beneficial Magic effect from 5 enemy targets. Potent enough to remove Magic that is normally undispellable.",
+      "pvp_tooltip": "20% of base mana\n30 yd range\n1.5 sec cast\n2 min cooldown\nDispels magic in a 15 yard radius, removing all harmful Magic from 5 friendly targets and 1 beneficial Magic effect from 5 enemy targets. Potent enough to remove Magic that is normally undispellable.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -967,10 +1105,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 373466,
         "icon": "spell_fire_felflamering_red"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Power Infusion also grants you its effect at 100% value when used on an ally.\nIf no ally is targeted, it will grant its effect at 100% value to a nearby ally, preferring damage dealers.",
+      "pvp_tooltip": "Power Infusion also grants you its effect at 100% value when used on an ally.\nIf no ally is targeted, it will grant its effect at 100% value to a nearby ally, preferring damage dealers.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1022,15 +1160,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 1250820,
         "icon": "spell_holy_ashestoashes"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Increases your Stamina by 6%.",
+      "pvp_tooltip": "Increases your Stamina by 4%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 26,
+          "end": 27,
+          "old_token": "6",
+          "new_token": "4",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "6",
+          "new": "4"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1250820,
+          "source_spell_id": 1250820,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Stat - % (Stamina)",
+          "base_value": 6.0,
+          "spell_pvp_multiplier": 0.667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.667,
+          "final_pvp_value": 4.002000000000001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Mind Control",
@@ -1078,10 +1261,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 605,
         "icon": "spell_shadow_shadowworddominate"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "2% of base mana\n30 yd range\n1.8 sec cast\nControls a mind up to 1 level above yours for 30 sec. Does not work versus Demonic\n, Undead,\nor Mechanical beings. Shares diminishing returns with other disorienting effects.",
+      "pvp_tooltip": "2% of base mana\n30 yd range\n1.8 sec cast\nControls a mind up to 1 level above yours for 30 sec. Does not work versus Demonic\n, Undead,\nor Mechanical beings. Shares diminishing returns with other disorienting effects.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1134,10 +1317,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 205364,
         "icon": "spell_priest_void_flay"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "2% of base mana\n30 yd range\n1.8 sec cast\n30 sec cooldown\nControls a mind up to 1 level above yours for 30 sec while still controlling your own mind. Does not work versus Demonic, Mechanical, or Undead beings\nor players\n. This spell shares diminishing returns with other disorienting effects.",
+      "pvp_tooltip": "2% of base mana\n30 yd range\n1.8 sec cast\n30 sec cooldown\nControls a mind up to 1 level above yours for 30 sec while still controlling your own mind. Does not work versus Demonic, Mechanical, or Undead beings\nor players\n. This spell shares diminishing returns with other disorienting effects.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1187,10 +1370,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 196704,
         "icon": "ability_warrior_commandingshout"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Psychic Scream by 10 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Psychic Scream by 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1240,10 +1423,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1250691,
         "icon": "spell_priest_voidtendrils"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Call shadowy tendrils to constrict enemies when Psychic Scream ends, rooting them in place for 4 sec.",
+      "pvp_tooltip": "Call shadowy tendrils to constrict enemies when Psychic Scream ends, rooting them in place for 4 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1293,10 +1476,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1249233,
         "icon": "spell_holy_greaterheal"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Surge of Light occurs up to 50% more often based on your missing mana.",
+      "pvp_tooltip": "Surge of Light occurs up to 50% more often based on your missing mana.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1347,10 +1530,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 390620,
         "icon": "ability_priest_savinggrace"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Leap of Faith by 30 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Leap of Faith by 30 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1400,15 +1583,110 @@ window.WOW_PVP_DATA = {
         "spell_id": 341167,
         "icon": "spell_holy_dispelmagic"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Reduces the mana cost of Purify Disease and Mass Dispel by 50% and Dispel Magic by 10%.",
+      "pvp_tooltip": "Reduces the mana cost of Purify Disease and Mass Dispel by 25% and Dispel Magic by 10%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 59,
+          "end": 61,
+          "old_token": "50",
+          "new_token": "25",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1,
+            5,
+            6
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1,
+            5,
+            6
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "50",
+          "new": "25"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 341167,
+          "source_spell_id": 341167,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Power Cost (14)",
+          "base_value": -50.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": -25.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 341167,
+          "source_spell_id": 341167,
+          "effect_index": 5,
+          "effect_text": "Apply Aura: Modifies Resource Generation (34)",
+          "base_value": -50.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": -25.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 341167,
+          "source_spell_id": 341167,
+          "effect_index": 6,
+          "effect_text": "Apply Aura: Modifies Power Cost (39)",
+          "base_value": -50.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": -25.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 3
     },
     {
       "talent_name": "Twin Disciplines",
@@ -1456,10 +1734,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1251077,
         "icon": "ability_priest_innerlightandshadow"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the damage and healing of your Holy and Shadow spells by 2%.",
+      "pvp_tooltip": "Increases the damage and healing of your Holy and Shadow spells by 2%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1511,10 +1789,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1250835,
         "icon": "ability_priest_darkness"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases your haste by 3%.",
+      "pvp_tooltip": "Increases your haste by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1564,10 +1842,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1250806,
         "icon": "spell_arcane_mindmastery"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the duration of Mind Control and Dominate Mind against enemy creatures by 15 sec.",
+      "pvp_tooltip": "Increases the duration of Mind Control and Dominate Mind against enemy creatures by 15 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1618,10 +1896,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 9484,
         "icon": "spell_nature_slow"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "1.2% of base mana\n30 yd range\n1.5 sec cast\nShackles an aberration or undead enemy for 50 sec, preventing all actions and movement. Damage will cancel the effect. Limit 1.",
+      "pvp_tooltip": "1.2% of base mana\n30 yd range\n1.5 sec cast\nShackles an aberration or undead enemy for 50 sec, preventing all actions and movement. Damage will cancel the effect. Limit 1.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1672,10 +1950,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 390676,
         "icon": "spell_holy_layonhands"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces your target's physical damage taken by 5% for 15 sec after a critical heal with Flash Heal.",
+      "pvp_tooltip": "Reduces your target's physical damage taken by 5% for 15 sec after a critical heal with Flash Heal.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1728,10 +2006,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 368275,
         "icon": "spell_holy_blindingheal"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "20% of Flash Heal healing on other targets also heals you.",
+      "pvp_tooltip": "20% of Flash Heal healing on other targets also heals you.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1784,15 +2062,125 @@ window.WOW_PVP_DATA = {
         "spell_id": 32379,
         "icon": "spell_shadow_demonicfortitude"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "0.5% of base mana\n40 yd range\nInstant\n10 sec cooldown\n1 Charge\nA word of dark binding that inflicts (85% of Spell Power) Shadow damage to your target. If your target is not killed by Shadow Word: Death, you take backlash damage equal to 5% of your maximum health.\nDamage increased by 150% to targets below 20% health.\nGenerates 1 Insanity.",
+      "pvp_tooltip": "0.5% of base mana\n40 yd range\nInstant\n10 sec cooldown\n1 Charge\nA word of dark binding that inflicts (54.332% of Spell Power) Shadow damage to your target. If your target is not killed by Shadow Word: Death, you take backlash damage equal to 5% of your maximum health.\nDamage increased by 150% to targets below 20% health.\nGenerates 1 Insanity.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 101,
+          "end": 103,
+          "old_token": "85",
+          "new_token": "54.332",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 254.99999999999997,
+          "new": 162.99599999999995,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "85",
+          "new": "54.332"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 32379,
+          "source_spell_id": 32379,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 2.55)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.6391999999999999,
+          "final_pvp_multiplier": 0.6391999999999999,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264657,
+              "amount_kind": "direct",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264738,
+              "amount_kind": "direct",
+              "value_pct": -32.0,
+              "factor": 0.6799999999999999,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 32379,
+          "source_spell_id": 32379,
+          "effect_index": 2,
+          "effect_text": "School Damage (Shadow) (SP mod: 0.85)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.6391999999999999,
+          "final_pvp_multiplier": 0.6391999999999999,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264657,
+              "amount_kind": "direct",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264738,
+              "amount_kind": "direct",
+              "value_pct": -32.0,
+              "factor": 0.6799999999999999,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Sanguine Teachings",
@@ -1839,10 +2227,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 373218,
         "icon": "inv_archaeology_80_zandalari_sanguinetotem"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases your Leech by 2%.",
+      "pvp_tooltip": "Increases your Leech by 2%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1894,10 +2282,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 19236,
         "icon": "spell_holy_testoffaith"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n1.5 min cooldown\nIncreases maximum health by [\nLight's Inspiration\n:\n35\n/ 25]% for\n10\nsec, and instantly heals you for that amount.",
+      "pvp_tooltip": "Instant\n1.5 min cooldown\nIncreases maximum health by [\nLight's Inspiration\n:\n35\n/ 25]% for\n10\nsec, and instantly heals you for that amount.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1949,10 +2337,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 390972,
         "icon": "spell_shadow_mindtwisting"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After damaging or healing a target below 35% health, gain 5% increased damage and healing for 8 sec.\n(500ms cooldown)",
+      "pvp_tooltip": "After damaging or healing a target below 35% health, gain 5% increased damage and healing for 8 sec.\n(500ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2002,10 +2390,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 373223,
         "icon": "spell_nzinsanity_bloodthirst"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shadow Word: Death deals 50% less damage to you.",
+      "pvp_tooltip": "Shadow Word: Death deals 50% less damage to you.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2058,10 +2446,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 586,
         "icon": "spell_magic_lesserinvisibilty"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n30 sec cooldown\nFade out, removing all your threat and reducing enemies' detection range against you for 10 sec.",
+      "pvp_tooltip": "Instant\n30 sec cooldown\nFade out, removing all your threat and reducing enemies' detection range against you for 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2112,10 +2500,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 238100,
         "icon": "spell_holy_testoffaith"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Desperate Prayer by 20 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Desperate Prayer by 20 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2167,10 +2555,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 193063,
         "icon": "spell_holy_holyprotection"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Flash Heal on yourself reduces all damage you take by 10% for 10 sec.",
+      "pvp_tooltip": "Casting Flash Heal on yourself reduces all damage you take by 10% for 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2222,10 +2610,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1251029,
         "icon": "spell_shadow_mindshear"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the damage of Mind Flay by 15%.",
+      "pvp_tooltip": "Increases the damage of Mind Flay by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2275,10 +2663,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1250378,
         "icon": "spell_priest_spectralguise"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Fade creates an illusion of you for 4 sec, tricking enemies to attack it instead.",
+      "pvp_tooltip": "Fade creates an illusion of you for 4 sec, tricking enemies to attack it instead.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2329,10 +2717,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 390670,
         "icon": "spell_magic_lesserinvisibilty"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Fade by (5)) sec.",
+      "pvp_tooltip": "Reduces the cooldown of Fade by (5)) sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2382,10 +2770,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 373450,
         "icon": "spell_holy_restoration"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the maximum health gained from Desperate Prayer by 10%.",
+      "pvp_tooltip": "Increases the maximum health gained from Desperate Prayer by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2437,10 +2825,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 373456,
         "icon": "ability_warrior_unrelentingassault"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While above 75% health, the cast time of your Flash Heal is reduced by 5%.",
+      "pvp_tooltip": "While above 75% health, the cast time of your Flash Heal is reduced by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2492,15 +2880,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 390667,
         "icon": "spell_holy_spellwarding"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Reduces all magic damage taken by 3%.",
+      "pvp_tooltip": "Reduces all magic damage taken by 2%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 34,
+          "end": 35,
+          "old_token": "3",
+          "new_token": "2",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "3",
+          "new": "2"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 390667,
+          "source_spell_id": 390667,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod % Damage Taken (All)",
+          "base_value": -3.0,
+          "spell_pvp_multiplier": 0.667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.667,
+          "final_pvp_value": -2.0010000000000003,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Phantasm",
@@ -2547,10 +2980,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 108942,
         "icon": "ability_priest_phantasm"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Activating Fade removes all snare effects.",
+      "pvp_tooltip": "Activating Fade removes all snare effects.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2599,10 +3032,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 108945,
         "icon": "ability_priest_angelicbulwark"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When an attack brings you below 30% health, you gain an absorption shield equal to 25% of your maximum health for 20 sec. Cannot occur more than once every 90 sec.",
+      "pvp_tooltip": "When an attack brings you below 30% health, you gain an absorption shield equal to 25% of your maximum health for 20 sec. Cannot occur more than once every 90 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2651,10 +3084,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 415416,
         "icon": "ability_priest_spiritoftheredeemer"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the healing of your spells by 3%.",
+      "pvp_tooltip": "Increases the healing of your spells by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2703,10 +3136,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1249230,
         "icon": "ability_priest_focusedwill"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the damage of your spells by 3%.",
+      "pvp_tooltip": "Increases the damage of your spells by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2755,10 +3188,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 459559,
         "icon": "spell_shadow_chilltouch"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the range of most spells by 15%.",
+      "pvp_tooltip": "Increases the range of most spells by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2807,10 +3240,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 373446,
         "icon": "spell_shadow_twistedfaith"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Fade reduces damage you take by 10%.",
+      "pvp_tooltip": "Fade reduces damage you take by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2860,10 +3293,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 335467,
         "icon": "inv12_ability_priest_powerwordmadness_eye"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "50 Insanity\n40 yd range\nInstant\nA word of madness haunts the target's mind, dealing (227.5% of Spell Power) Shadow damage instantly plus an additional 9 Shadow damage over\n6 sec\n. Heals you for 30% of damage dealt.\nWhen reapplied to a target, all remaining damage is added to the new effect.",
+      "pvp_tooltip": "50 Insanity\n40 yd range\nInstant\nA word of madness haunts the target's mind, dealing (227.5% of Spell Power) Shadow damage instantly plus an additional 9 Shadow damage over\n6 sec\n. Heals you for 30% of damage dealt.\nWhen reapplied to a target, all remaining damage is added to the new effect.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2913,10 +3346,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 199484,
         "icon": "ability_priest_psychiclink"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your direct damage spells inflict 25% of their damage on all other targets afflicted by your Vampiric Touch within 40 yards.\nDoes not apply to damage from Shadowy Apparitions, Shadow Word: Pain, and Vampiric Touch.",
+      "pvp_tooltip": "Your direct damage spells inflict 25% of their damage on all other targets afflicted by your Vampiric Touch within 40 yards.\nDoes not apply to damage from Shadowy Apparitions, Shadow Word: Pain, and Vampiric Touch.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2966,10 +3399,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 238558,
         "icon": "ability_rogue_envelopingshadows"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Vampiric Touch also applies Shadow Word: Pain to the target. Shadow Word: Pain lasts an additional 5 sec.",
+      "pvp_tooltip": "Vampiric Touch also applies Shadow Word: Pain to the target. Shadow Word: Pain lasts an additional 5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3019,10 +3452,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1279350,
         "icon": "inv12_ability_priest_madness_scream"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shadow Word: Pain deals 150% increased damage.",
+      "pvp_tooltip": "Shadow Word: Pain deals 150% increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3072,10 +3505,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 288733,
         "icon": "spell_shadow_dispersion"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Dispersion heals you for an additional [(25 * (\n0\n+ 6) / 6)]% of your maximum health over its duration and its cooldown is reduced by 30 sec.",
+      "pvp_tooltip": "Dispersion heals you for an additional [(25 * (\n0\n+ 6) / 6)]% of your maximum health over its duration and its cooldown is reduced by 30 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3125,10 +3558,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 377065,
         "icon": "ability_priest_clarityofpower"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "100 yd range\nHealing from Vampiric Touch and Shadow Word: Madness when you are at maximum health will shield you for the same amount. The shield cannot exceed 10% of your maximum health.",
+      "pvp_tooltip": "100 yd range\nHealing from Vampiric Touch and Shadow Word: Madness when you are at maximum health will shield you for the same amount. The shield cannot exceed 10% of your maximum health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3178,10 +3611,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 406788,
         "icon": "spell_shadow_unholyfrenzy"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Mind Blast gains an additional charge.",
+      "pvp_tooltip": "Mind Blast gains an additional charge.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3232,15 +3665,73 @@ window.WOW_PVP_DATA = {
         "spell_id": 1227280,
         "icon": "inv12_ability_priest_tentacleslam"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "40 yd range\nInstant\n15 sec recharge\n2 Charges\nSummons a massive shadowy appendage to slam the ground, dealing (68.7926% of Spell Power) Shadow damage in front of you and 8 yds around your target.\nApplies Vampiric Touch to up to 6 enemies, prioritizing ones without Vampiric Touch.\nGenerates 6 Insanity.",
+      "pvp_tooltip": "40 yd range\nInstant\n15 sec recharge\n2 Charges\nSummons a massive shadowy appendage to slam the ground, dealing (64.665% of Spell Power) Shadow damage in front of you and 8 yds around your target.\nApplies Vampiric Touch to up to 6 enemies, prioritizing ones without Vampiric Touch.\nGenerates 6 Insanity.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 111,
+          "end": 118,
+          "old_token": "68.7926",
+          "new_token": "64.665",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "68.7926",
+          "new": "64.665"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1227280,
+          "source_spell_id": 1227621,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 0.687926)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.94,
+          "final_pvp_multiplier": 0.94,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1227280,
+            1227621
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264657,
+              "amount_kind": "direct",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Shadowy Apparitions",
@@ -3285,15 +3776,73 @@ window.WOW_PVP_DATA = {
         "spell_id": 341491,
         "icon": "ability_priest_shadowyapparition"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Shadow Word: Madness conjures Shadowy Apparitions that float towards all targets afflicted by your Vampiric Touch for (85.05% of Spell Power) Shadow damage.",
+      "pvp_tooltip": "Shadow Word: Madness conjures Shadowy Apparitions that float towards all targets afflicted by your Vampiric Touch for (79.947% of Spell Power) Shadow damage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 119,
+          "end": 124,
+          "old_token": "85.05",
+          "new_token": "79.947",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "85.05",
+          "new": "79.947"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 341491,
+          "source_spell_id": 413231,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 0.8505)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.94,
+          "final_pvp_multiplier": 0.94,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            341491,
+            413231
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264657,
+              "amount_kind": "direct",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Tormenting Whispers",
@@ -3341,10 +3890,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1250492,
         "icon": "spell_shadow_painandsuffering"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases Shadow Word: Madness damage by 15%.",
+      "pvp_tooltip": "Increases Shadow Word: Madness damage by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3394,10 +3943,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1242666,
         "icon": "spell_holy_circleofrenewal_shadow"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases Tentacle Slam damage by 300%.",
+      "pvp_tooltip": "Increases Tentacle Slam damage by 300%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3449,10 +3998,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 391399,
         "icon": "spell_fire_twilightflamebreath"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Mind Flay damage increased by 15% and Insanity generation increased by 30%.",
+      "pvp_tooltip": "Mind Flay damage increased by 15% and Insanity generation increased by 30%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3504,10 +4053,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 375888,
         "icon": "spell_shadow_possession"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shadow Word: Pain periodic damage has a chance to cause your next Mind Blast to be instant and ignore its cooldown.",
+      "pvp_tooltip": "Shadow Word: Pain periodic damage has a chance to cause your next Mind Blast to be instant and ignore its cooldown.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3557,10 +4106,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 407430,
         "icon": "inv_enchant_voidsphere"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases your Shadow Word: Madness damage by 6% and increases your maximum Insanity by 50.",
+      "pvp_tooltip": "Increases your Shadow Word: Madness damage by 6% and increases your maximum Insanity by 50.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3614,14 +4163,54 @@ window.WOW_PVP_DATA = {
         "spell_id": 228260,
         "icon": "spell_priest_void_blast"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\n1.5 sec cast\n2 min cooldown\nBombards your target with a Void Volley and twists your Shadowform with void magic, increasing your spell damage by 20% for 20 sec.\nDuring Voidform, Void Volley replaces this spell and can be used up to\n3\ntimes.\nVoid Volley\nReleases a volley of pure void energy, firing 10 bolts at your target and 1 bolt at all enemies within 10 yards of your target for (95.44% of Spell Power) Shadow damage.\nGenerates 10 Insanity.",
+      "pvp_tooltip": "40 yd range\n1.5 sec cast\n2 min cooldown\nBombards your target with a Void Volley and twists your Shadowform with void magic, increasing your spell damage by 20% for 20 sec.\nDuring Voidform, Void Volley replaces this spell and can be used up to\n3\ntimes.\nVoid Volley\nReleases a volley of pure void energy, firing 10 bolts at your target and 1 bolt at all enemies within 10 yards of your target for (95.44% of Spell Power) Shadow damage.\nGenerates 10 Insanity.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 228260,
+          "source_spell_id": 1242189,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 0.9544)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.805,
+          "amount_kind": "direct",
+          "aura_factor": 0.94,
+          "final_pvp_multiplier": 0.7567,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            228260,
+            1242173,
+            1242189
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264657,
+              "amount_kind": "direct",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -3667,10 +4256,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1279355,
         "icon": "inv12_ability_priest_madness_wisp"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shadowy Apparition damage increased by 10%.\nWhen Shadowy Apparitions deal damage, they extend the duration of your Shadow Word: Pain and Vampiric Touch on the target by 1.0 sec.",
+      "pvp_tooltip": "Shadowy Apparition damage increased by 10%.\nWhen Shadowy Apparitions deal damage, they extend the duration of your Shadow Word: Pain and Vampiric Touch on the target by 1.0 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3722,10 +4311,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 375994,
         "icon": "ability_kaztik_dominatemind"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the damage of Mind Flay by 25%.",
+      "pvp_tooltip": "Increases the damage of Mind Flay by 25%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3776,10 +4365,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 34433,
         "icon": "spell_shadow_shadowfiend"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Summons a Shadowfiend to attack your target for 5 sec.\nGenerates 1 Insanity each time the Shadowfiend attacks.",
+      "pvp_tooltip": "Summons a Shadowfiend to attack your target for 5 sec.\nGenerates 1 Insanity each time the Shadowfiend attacks.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3829,10 +4418,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1240388,
         "icon": "ability_priest_darkness"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the chance for Shadowy Insight to occur by 25%. When consuming Shadowy Insight, Mind Blast generates 1 additional Insanity.",
+      "pvp_tooltip": "Increases the chance for Shadowy Insight to occur by 25%. When consuming Shadowy Insight, Mind Blast generates 1 additional Insanity.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3885,10 +4474,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 391228,
         "icon": "spell_holy_stoicism"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Vampiric Touch deals 20% additional damage and has a chance to generate 1 Insanity each time it deals damage.",
+      "pvp_tooltip": "Vampiric Touch deals 20% additional damage and has a chance to generate 1 Insanity each time it deals damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3939,10 +4528,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 341240,
         "icon": "spell_priest_void_blast"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Voidform increases your spell damage by an additonal 5% and grants 2 additional uses of Void Volley.",
+      "pvp_tooltip": "Voidform increases your spell damage by an additonal 5% and grants 2 additional uses of Void Volley.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3993,15 +4582,70 @@ window.WOW_PVP_DATA = {
         "spell_id": 1231346,
         "icon": "spell_priest_void_flay"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shadow Word: Madness increases your haste during Voidform by 2% and increases its duration by 1.5 sec, stacking up to 5 times.\nWhen Voidform ends, the haste lingers and decays over 10 sec.",
+      "pvp_tooltip": "Shadow Word: Madness increases your haste during Voidform by 2% and increases its duration by 1.5 sec, stacking up to 5 times.\nWhen Voidform ends, the haste lingers and decays over 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 95.44,
+          "new": 72.219448,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1231346,
+          "source_spell_id": 1242189,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 0.9544)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.805,
+          "amount_kind": "direct",
+          "aura_factor": 0.94,
+          "final_pvp_multiplier": 0.7567,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1231346,
+            194249,
+            228264,
+            1242173,
+            1242189
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264657,
+              "amount_kind": "direct",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Shadeburst",
@@ -4049,15 +4693,73 @@ window.WOW_PVP_DATA = {
         "spell_id": 73510,
         "icon": "ability_warlock_voidzone"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Shadowy Apparitions that float towards your primary target explode, dealing (140% of Spell Power) Shadow damage to all enemies within 8 yds.\nDamage reduced beyond 5 targets.",
+      "pvp_tooltip": "Shadowy Apparitions that float towards your primary target explode, dealing (131.6% of Spell Power) Shadow damage to all enemies within 8 yds.\nDamage reduced beyond 5 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 77,
+          "end": 80,
+          "old_token": "140",
+          "new_token": "131.6",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "140",
+          "new": "131.6"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 73510,
+          "source_spell_id": 1231479,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 1.4)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.94,
+          "final_pvp_multiplier": 0.94,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            73510,
+            1231479
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264657,
+              "amount_kind": "direct",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Dark Evangelism",
@@ -4102,10 +4804,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 391099,
         "icon": "spell_mage_presenceofmind"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases your periodic spell damage by 6%.",
+      "pvp_tooltip": "Increases your periodic spell damage by 6%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4156,10 +4858,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 391090,
         "icon": "inv_ability_priest_mindgames"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Mind Flay damage increases the critical strike chance of Mind Blast by 8%, stacking up to 12 times.\nLasts 10 sec.",
+      "pvp_tooltip": "Mind Flay damage increases the critical strike chance of Mind Blast by 8%, stacking up to 12 times.\nLasts 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4209,10 +4911,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1228516,
         "icon": "inv_hivemind"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Summoned minions last 20% longer and deal an additional 15% damage.",
+      "pvp_tooltip": "Summoned minions last 20% longer and deal an additional 15% damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4265,10 +4967,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 391151,
         "icon": "spell_nzinsanity_chasedbyshadows"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the critical strike chance of Mind Blast, Mind Flay, and Shadow Word: Death by 4% and increases their critical strike damage by 20%.",
+      "pvp_tooltip": "Increases the critical strike chance of Mind Blast, Mind Flay, and Shadow Word: Death by 4% and increases their critical strike damage by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4321,10 +5023,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 407470,
         "icon": "inv12_ability_priest_powerwordmadness_eye"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the Insanity cost of Shadow Word: Madness by 5.",
+      "pvp_tooltip": "Reduces the Insanity cost of Shadow Word: Madness by 5.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4377,10 +5079,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 409044,
         "icon": "spell_shadow_gathershadows"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the damage of Shadow Word: Madness by 20% and causes it to deal its damage over 12 sec, but increases its Insanity cost by 5.",
+      "pvp_tooltip": "Increases the damage of Shadow Word: Madness by 20% and causes it to deal its damage over 12 sec, but increases its Insanity cost by 5.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4431,10 +5133,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 407469,
         "icon": "ability_priest_phantasm"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shadow Apparitions deal 30% increased damage to targets affected by your Shadow Word: Madness.",
+      "pvp_tooltip": "Shadow Apparitions deal 30% increased damage to targets affected by your Shadow Word: Madness.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4487,10 +5189,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1242862,
         "icon": "spell_shadow_shadowwordpain"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the critical strike chance of Vampiric Touch and Shadow Word: Pain by 8% and their critical strike damage by 20%.",
+      "pvp_tooltip": "Increases the critical strike chance of Vampiric Touch and Shadow Word: Pain by 8% and their critical strike damage by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4542,10 +5244,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1230339,
         "icon": "spell_shadow_soulleech_3"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Summons a shadowy fiend to attack your target.\nGenerates 1 Insanity each time the Mindbender attacks.",
+      "pvp_tooltip": "Summons a shadowy fiend to attack your target.\nGenerates 1 Insanity each time the Mindbender attacks.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4598,10 +5300,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 392507,
         "icon": "spell_shadow_demonicfortitude"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Approximately\n2.25\nprocs per minute\nShadow Word: Death damage increased by 25%.\nShadow Word: Death gains its damage and talent bonuses against targets below 35% health instead of 20%.",
+      "pvp_tooltip": "Approximately\n2.25\nprocs per minute\nShadow Word: Death damage increased by 25%.\nShadow Word: Death gains its damage and talent bonuses against targets below 35% health instead of 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4654,10 +5356,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 321291,
         "icon": "ability_priest_thoughtsteal01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "If a target dies within 7 sec after being struck by Shadow Word: Death, generate 8 Insanity.\nWhen Shadow Word: Death fails to kill a target below 20% health, its cooldown is reset. Cannot occur more than once every 10 sec.",
+      "pvp_tooltip": "If a target dies within 7 sec after being struck by Shadow Word: Death, generate 8 Insanity.\nWhen Shadow Word: Death fails to kill a target below 20% health, its cooldown is reset. Cannot occur more than once every 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4707,10 +5409,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 373202,
         "icon": "spell_arcane_mindmastery"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Mind Blast has a 8% chance to make your next Shadow Word: Madness cost no Insanity and deal 20% additional damage.",
+      "pvp_tooltip": "Mind Blast has a 8% chance to make your next Shadow Word: Madness cost no Insanity and deal 20% additional damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4764,10 +5466,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 155271,
         "icon": "ability_priest_auspiciousspirits"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Shadowy Apparitions deal 15% increased damage and have a chance to generate 1 Insanity.",
+      "pvp_tooltip": "Your Shadowy Apparitions deal 15% increased damage and have a chance to generate 1 Insanity.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4819,10 +5521,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1279353,
         "icon": "inv12_ability_priest_tentacleslam"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Tentacle Slam afflicts your target with Shadow Word: Madness at 25% effectiveness.",
+      "pvp_tooltip": "Tentacle Slam afflicts your target with Shadow Word: Madness at 25% effectiveness.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4872,15 +5574,68 @@ window.WOW_PVP_DATA = {
         "spell_id": 373427,
         "icon": "spell_shadow_chilltouch"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Mind Blast and Shadow Word: Death cause your Shadowfiend, Mindbender, and Voidwraith to teleport behind your target, slashing up to 5 nearby enemies for [(190% of Spell Power) * 0.442] Shadow damage and extending their durations by 0.7 sec.",
+      "pvp_tooltip": "Mind Blast and Shadow Word: Death cause your Shadowfiend, Mindbender, and Voidwraith to teleport behind your target, slashing up to 5 nearby enemies for [(178.6% of Spell Power) * 0.442] Shadow damage and extending their durations by 0.7 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 155,
+          "end": 158,
+          "old_token": "190",
+          "new_token": "178.6",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            4
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            4
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "190",
+          "new": "178.6"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 373427,
+          "source_spell_id": 373427,
+          "effect_index": 4,
+          "effect_text": "School Damage (Shadow) (SP mod: 1.9)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.94,
+          "final_pvp_multiplier": 0.94,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264657,
+              "amount_kind": "direct",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Madness Weaving",
@@ -4927,10 +5682,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1240394,
         "icon": "spell_shadow_spectralsight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The damage bonus from your Mastery: Shadow Weaving gains 50% additional benefit from Shadow Word: Madness.",
+      "pvp_tooltip": "The damage bonus from your Mastery: Shadow Weaving gains 50% additional benefit from Shadow Word: Madness.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4980,10 +5735,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1240364,
         "icon": "spell_shadow_deathsembrace"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shadow Word: Death deals damage 2 additional times at 15% effectiveness.",
+      "pvp_tooltip": "Shadow Word: Death deals damage 2 additional times at 15% effectiveness.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5036,10 +5791,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 375767,
         "icon": "spell_shadow_lifedrain02_purple"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shadow Word: Madness causes your Shadow Word: Pain and Vampiric Touch to deal damage 40% faster on all targets for 3 sec.",
+      "pvp_tooltip": "Shadow Word: Madness causes your Shadow Word: Pain and Vampiric Touch to deal damage 40% faster on all targets for 3 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5089,10 +5844,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 391284,
         "icon": "spell_shadow_painandsuffering"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Shadow Word: Pain damage has a chance to create Shadowy Apparitions that float towards all targets afflicted by your Vampiric Touch.\nCritical strikes increase the chance by 100%.",
+      "pvp_tooltip": "Your Shadow Word: Pain damage has a chance to create Shadowy Apparitions that float towards all targets afflicted by your Vampiric Touch.\nCritical strikes increase the chance by 100%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5144,10 +5899,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 373212,
         "icon": "spell_fire_twilightcano"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While you have Shadow Word: Pain, Shadow Word: Madness, and Vampiric Touch active on the same target, your Mind Blast, Void Torrent, Mind Flay, and Void Volley deal 20% more damage.",
+      "pvp_tooltip": "While you have Shadow Word: Pain, Shadow Word: Madness, and Vampiric Touch active on the same target, your Mind Blast, Void Torrent, Mind Flay, and Void Volley deal 20% more damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5197,15 +5952,68 @@ window.WOW_PVP_DATA = {
         "spell_id": 1279354,
         "icon": "inv12_ability_priest_voidvolley"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Tentacle Slam deals 50% increased damage and Void Volley deals 15% increased damage.\nWhen Voidform ends, you can cast Void Volley 1 additional time within 30 sec.",
+      "pvp_tooltip": "Tentacle Slam deals 50% increased damage and Void Volley deals 15% increased damage.\nWhen Voidform ends, you can cast Void Volley 1 additional time within 30 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 95.44,
+          "new": 72.219448,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1279354,
+          "source_spell_id": 1242189,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 0.9544)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.805,
+          "amount_kind": "direct",
+          "aura_factor": 0.94,
+          "final_pvp_multiplier": 0.7567,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1279354,
+            1279437,
+            1242173,
+            1242189
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "trigger_spell",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264657,
+              "amount_kind": "direct",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Idol of Y'Shaarj",
@@ -5249,10 +6057,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 373310,
         "icon": "achievement_raid_terraceofendlessspring04"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Approximately\n2\nprocs per minute\nWhile Shadowfiend, Mindbender, or Voidwraith are active, your haste is increased by 10%.",
+      "pvp_tooltip": "Approximately\n2\nprocs per minute\nWhile Shadowfiend, Mindbender, or Voidwraith are active, your haste is increased by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5302,15 +6110,130 @@ window.WOW_PVP_DATA = {
         "spell_id": 373280,
         "icon": "inv_eyeofnzothpet"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "You create Horrific Visions when casting harmful spells on enemies.\nAt 50 stacks of Horrific Visions, your target sees a nightmare, dealing (182% of Spell Power) Shadow damage and granting you 2 Insanity over 3 sec.\nAt 100 stacks, your target witnesses a vision of N'Zoth, dealing (689% of Spell Power) Shadow damage and granting you 6 Insanity over 3 sec.",
+      "pvp_tooltip": "You create Horrific Visions when casting harmful spells on enemies.\nAt 50 stacks of Horrific Visions, your target sees a nightmare, dealing (119.756% of Spell Power) Shadow damage and granting you 2 Insanity over 3 sec.\nAt 100 stacks, your target witnesses a vision of N'Zoth, dealing (453.362% of Spell Power) Shadow damage and granting you 6 Insanity over 3 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 141,
+          "end": 144,
+          "old_token": "182",
+          "new_token": "119.756",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 282,
+          "end": 285,
+          "old_token": "689",
+          "new_token": "453.362",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "182",
+          "new": "119.756"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "689",
+          "new": "453.362"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 373280,
+          "source_spell_id": 1243105,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 1.82)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.7,
+          "amount_kind": "direct",
+          "aura_factor": 0.94,
+          "final_pvp_multiplier": 0.6579999999999999,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            373280,
+            1243105
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264657,
+              "amount_kind": "direct",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 373280,
+          "source_spell_id": 1243106,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 6.89)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.7,
+          "amount_kind": "direct",
+          "aura_factor": 0.94,
+          "final_pvp_multiplier": 0.6579999999999999,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            373280,
+            1243106
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264657,
+              "amount_kind": "direct",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Idol of Yogg-Saron",
@@ -5355,14 +6278,51 @@ window.WOW_PVP_DATA = {
         "spell_id": 373273,
         "icon": "achievement_boss_heraldvolazj"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After conjuring Shadowy Apparitions, gain a stack of Idol of Yogg-Saron. At 20 stacks, you summon a Thing from Beyond that casts Void Spike at nearby enemies for 20 sec.\nVoid Spike\nHurls a bolt of dark magic, dealing (93.8961% of Spell Power) Shadow damage and [(93.8961% of Spell Power) * 53 / 100] Shadow damage to all enemies within 10 yards of the target. Damage reduced beyond 5 targets.",
+      "pvp_tooltip": "After conjuring Shadowy Apparitions, gain a stack of Idol of Yogg-Saron. At 20 stacks, you summon a Thing from Beyond that casts Void Spike at nearby enemies for 20 sec.\nVoid Spike\nHurls a bolt of dark magic, dealing (93.8961% of Spell Power) Shadow damage and [(93.8961% of Spell Power) * 53 / 100] Shadow damage to all enemies within 10 yards of the target. Damage reduced beyond 5 targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 373273,
+          "source_spell_id": 373279,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 0.938961)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.94,
+          "final_pvp_multiplier": 0.94,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            373273,
+            373279
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264657,
+              "amount_kind": "direct",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5407,14 +6367,117 @@ window.WOW_PVP_DATA = {
         "spell_id": 377349,
         "icon": "achievement_boss_cthun"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Approximately\n2\nprocs per minute\nMind Flay has a chance to spawn a Void Tendril that channels Mind Flay or Void Lasher that channels Mind Sear at your target.\nMind Flay\nAssaults the target's mind with Shadow energy, causing (321.8% of Spell Power) Shadow damage over 10 sec and slowing their movement speed by\n30\n%.\nGenerates (\n5\n*\n100\n/ 100) Insanity over the duration.\nMind Sear\nCorrosive shadow energy radiates from the target, dealing [(42.925% of Spell Power) * 5] Shadow damage over 10 sec to all enemies within 10 yards of the target. Damage reduced beyond 5 targets.\nGenerates 5 Insanity over the duration.",
+      "pvp_tooltip": "Approximately\n2\nprocs per minute\nMind Flay has a chance to spawn a Void Tendril that channels Mind Flay or Void Lasher that channels Mind Sear at your target.\nMind Flay\nAssaults the target's mind with Shadow energy, causing (321.8% of Spell Power) Shadow damage over 10 sec and slowing their movement speed by\n30\n%.\nGenerates (\n5\n*\n100\n/ 100) Insanity over the duration.\nMind Sear\nCorrosive shadow energy radiates from the target, dealing [(42.925% of Spell Power) * 5] Shadow damage over 10 sec to all enemies within 10 yards of the target. Damage reduced beyond 5 targets.\nGenerates 5 Insanity over the duration.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 377349,
+          "source_spell_id": 193473,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 0.94,
+          "final_pvp_multiplier": 0.94,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            377349,
+            193473
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264737,
+              "amount_kind": "periodic",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 377349,
+          "source_spell_id": 193473,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -30.0,
+          "spell_pvp_multiplier": 0.666667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.666667,
+          "final_pvp_value": -20.00001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            377349,
+            193473
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 377349,
+          "source_spell_id": 394979,
+          "effect_index": 2,
+          "effect_text": "School Damage (Shadow) (SP mod: 0.42925)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.94,
+          "final_pvp_multiplier": 0.94,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            377349,
+            394976,
+            394979
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264657,
+              "amount_kind": "direct",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5456,10 +6519,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1264096,
         "icon": "inv12_apextalent_priest_voidapparitions"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When an effect from an Idol is activated, conjure Shadowy Apparitions.",
+      "pvp_tooltip": "When an effect from an Idol is activated, conjure Shadowy Apparitions.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5505,14 +6568,51 @@ window.WOW_PVP_DATA = {
         "spell_id": 1264104,
         "icon": "inv12_apextalent_priest_voidapparitions"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shadowy Apparitions have a 15% chance to spawn as Void Apparitions that release a\nVoid Bolt\nat their target and deal 50% increased damage.\nVoid Bolt\nSends a bolt of pure void energy at your target, dealing (150% of Spell Power) Shadow damage.",
+      "pvp_tooltip": "Shadowy Apparitions have a 15% chance to spawn as Void Apparitions that release a\nVoid Bolt\nat their target and deal 50% increased damage.\nVoid Bolt\nSends a bolt of pure void energy at your target, dealing (150% of Spell Power) Shadow damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 1264104,
+          "source_spell_id": 1264177,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 1.5)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.94,
+          "final_pvp_multiplier": 0.94,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1264104,
+            1264177
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264657,
+              "amount_kind": "direct",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5554,10 +6654,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1264107,
         "icon": "inv12_apextalent_priest_voidapparitions"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Tentacle Slam has a 100% chance to activate an effect from one of your Idols.\nIdol of Y'Shaarj\nSummons a Shadowfiend.\nIdol of N'Zoth\nYour target witnesses a nightmare or vision of N'Zoth.\nIdol of Yogg-Saron\nSummons a Thing From Beyond.\nIdol of C'Thun\nSummons a Void Tendril or Void Lasher.",
+      "pvp_tooltip": "Tentacle Slam has a 100% chance to activate an effect from one of your Idols.\nIdol of Y'Shaarj\nSummons a Shadowfiend.\nIdol of N'Zoth\nYour target witnesses a nightmare or vision of N'Zoth.\nIdol of Yogg-Saron\nSummons a Thing From Beyond.\nIdol of C'Thun\nSummons a Void Tendril or Void Lasher.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5608,15 +6708,115 @@ window.WOW_PVP_DATA = {
         "spell_id": 120644,
         "icon": "ability_priest_halo_shadow"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "4% of base mana\n40 yd range\n1.5 sec cast\n1 min cooldown\nCreates a ring of Shadow energy around you that quickly expands to a\n40\nyd radius, healing allies for (161% of Spell Power) and dealing [(144.2% of Spell Power) *\n1\n*\n1\n*\n1\n] Shadow damage to enemies. Healing reduced beyond 6 targets. [\n:\nGenerates 5 Insanity.\n]",
+      "pvp_tooltip": "4% of base mana\n40 yd range\n1.5 sec cast\n1 min cooldown\nCreates a ring of Shadow energy around you that quickly expands to a\n40\nyd radius, healing allies for (161% of Spell Power) and dealing [(135.548% of Spell Power) *\n1\n*\n1\n*\n1\n] Shadow damage to enemies. Healing reduced beyond 6 targets. [\n:\nGenerates 5 Insanity.\n]",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 194,
+          "end": 199,
+          "old_token": "144.2",
+          "new_token": "135.548",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1,
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1,
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "144.2",
+          "new": "135.548"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 120644,
+          "source_spell_id": 390964,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 1.442)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.94,
+          "final_pvp_multiplier": 0.94,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            120644,
+            390964
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264657,
+              "amount_kind": "direct",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 120644,
+          "source_spell_id": 120696,
+          "effect_index": 1,
+          "effect_text": "School Damage (Holy) (SP mod: 1.442)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.94,
+          "final_pvp_multiplier": 0.94,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            120644,
+            120692,
+            120517,
+            120696
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264657,
+              "amount_kind": "direct",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Perfected Form",
@@ -5661,10 +6861,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 453917,
         "icon": "inv_ability_holyfire_buff"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your damage dealt is increased by 5% while Voidform is active.",
+      "pvp_tooltip": "Your damage dealt is increased by 5% while Voidform is active.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5714,10 +6914,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 453109,
         "icon": "inv_ability_holyfire_groundstate"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Halo also causes you to create a Halo around you at 100% effectiveness every 5 sec for 10 sec.",
+      "pvp_tooltip": "Casting Halo also causes you to create a Halo around you at 100% effectiveness every 5 sec for 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5767,14 +6967,80 @@ window.WOW_PVP_DATA = {
         "spell_id": 453783,
         "icon": "spell_holy_surgeoflight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Creating a Halo upgrades your next Mind Flay to Mind Flay: Insanity.\nMind Flay: Insanity\nAssaults the target's mind with Shadow energy, causing (542.36% of Spell Power) Shadow damage over 1.5 sec and slowing their movement speed by 70%.\nGenerates 8 Insanity over the duration.",
+      "pvp_tooltip": "Creating a Halo upgrades your next Mind Flay to Mind Flay: Insanity.\nMind Flay: Insanity\nAssaults the target's mind with Shadow energy, causing (542.36% of Spell Power) Shadow damage over 1.5 sec and slowing their movement speed by 70%.\nGenerates 8 Insanity over the duration.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 453783,
+          "source_spell_id": 391403,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.875,
+          "amount_kind": "periodic",
+          "aura_factor": 0.94,
+          "final_pvp_multiplier": 0.8225,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            453783,
+            391403
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264737,
+              "amount_kind": "periodic",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 453783,
+          "source_spell_id": 391403,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -70.0,
+          "spell_pvp_multiplier": 0.714286,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.714286,
+          "final_pvp_value": -50.00002,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            453783,
+            391403
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5820,10 +7086,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1272320,
         "icon": "ability_priest_spiritoftheredeemer"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Void Volley deals 5% increased damage and Shadow Word: Madness casts during Voidform unleash a Void Volley at your target at 25% effectiveness.",
+      "pvp_tooltip": "Void Volley deals 5% increased damage and Shadow Word: Madness casts during Voidform unleash a Void Volley at your target at 25% effectiveness.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5873,10 +7139,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 453852,
         "icon": "spell_priest_pathofdevout"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Halo damage reduces enemy movement speed by\n5\n% for 5 sec, stacking up to 5 times.",
+      "pvp_tooltip": "Halo damage reduces enemy movement speed by\n5\n% for 5 sec, stacking up to 5 times.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5926,10 +7192,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 453918,
         "icon": "spell_shadow_psychicscream"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Psychic Scream creates an image of you at your location. After 4 sec, the image will let out a Psychic Scream.",
+      "pvp_tooltip": "Psychic Scream creates an image of you at your location. After 4 sec, the image will let out a Psychic Scream.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5979,10 +7245,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1272308,
         "icon": "ability_priest_clarityofpurpose"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Power Surge lasts an additional 5 sec.",
+      "pvp_tooltip": "Power Surge lasts an additional 5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6032,10 +7298,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 453799,
         "icon": "ability_priest_flashoflight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the damage done by Mind Flay: Insanity by 30%.",
+      "pvp_tooltip": "Increases the damage done by Mind Flay: Insanity by 30%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6085,10 +7351,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 453726,
         "icon": "spell_holy_wordfortitude"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Power Word: Fortitude grants you an additional 5% stamina.",
+      "pvp_tooltip": "Power Word: Fortitude grants you an additional 5% stamina.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6138,10 +7404,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 453729,
         "icon": "inv_enchant_essenceeternallarge"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the duration of Dispersion by 2 sec.",
+      "pvp_tooltip": "Increases the duration of Dispersion by 2 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6191,10 +7457,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 449874,
         "icon": "spell_holy_circleofrenewal"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Halo damage and healing is increased by 30%.",
+      "pvp_tooltip": "Halo damage and healing is increased by 30%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6244,10 +7510,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 454001,
         "icon": "ability_priest_ascension"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Creating a Halo extends the duration of Voidform by 1 sec. If Voidform is not active, up to 6 seconds is stored.\nWhile out of combat or affected by a loss of control effect, the duration of Voidform is paused for up to 20 sec.",
+      "pvp_tooltip": "Creating a Halo extends the duration of Voidform by 1 sec. If Voidform is not active, up to 6 seconds is stored.\nWhile out of combat or affected by a loss of control effect, the duration of Voidform is paused for up to 20 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6297,10 +7563,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 453845,
         "icon": "inv_ability_holyfire_orb"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Creating a Halo increases your spell damage by\n2\n% for 10 sec, stacking up to 4 times.",
+      "pvp_tooltip": "Creating a Halo increases your spell damage by\n2\n% for 10 sec, stacking up to 4 times.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6350,10 +7616,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 453828,
         "icon": "ability_priest_voidshift"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Mind Flay: Insanity has a 100% chance to conjure Shadowy Apparitions.\nHoly (Ultimate Serenity)\nConsuming Surge of Light reduces the cooldown of Holy Word: Serenity by 4 sec.Consuming Surge of Light reduces the cooldown of Holy Word: Sanctify by 4 sec.",
+      "pvp_tooltip": "Casting Mind Flay: Insanity has a 100% chance to conjure Shadowy Apparitions.\nHoly (Ultimate Serenity)\nConsuming Surge of Light reduces the cooldown of Holy Word: Serenity by 4 sec.Consuming Surge of Light reduces the cooldown of Holy Word: Sanctify by 4 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6403,10 +7669,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1272326,
         "icon": "spell_holy_flashheal"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shadow Word: Death damage increased by 25% and its cooldown is reduced by 3 sec.",
+      "pvp_tooltip": "Shadow Word: Death damage increased by 25% and its cooldown is reduced by 3 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6456,10 +7722,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1247178,
         "icon": "spell_holy_prayerofhealing02"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases Shadowy Apparition damage by 10%.",
+      "pvp_tooltip": "Increases Shadowy Apparition damage by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6510,10 +7776,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 449806,
         "icon": "inv_ability_holyfire_nova"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Halo now centers around you and returns to you after it reaches its maximum distance, healing allies and damaging enemies each time it passes through them.",
+      "pvp_tooltip": "Halo now centers around you and returns to you after it reaches its maximum distance, healing allies and damaging enemies each time it passes through them.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6564,15 +7830,107 @@ window.WOW_PVP_DATA = {
         "spell_id": 263165,
         "icon": "spell_priest_voidsear"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "40 yd range\nChanneled (3 sec cast)\n30 sec cooldown\nChannel a torrent of void energy into the target, dealing (713.055% of Spell Power) Shadow damage over 3 sec and tearing open an\nEntropic Rift\n.\nEntropic Rift\nMind Blast tears open an Entropic Rift that follows the enemy for 8 sec. Enemies caught in its path suffer (60% of Spell Power) Shadow damage every 1 sec while within its reach.\nGenerates 24 Insanity over the duration.",
+      "pvp_tooltip": "40 yd range\nChanneled (3 sec cast)\n30 sec cooldown\nChannel a torrent of void energy into the target, dealing (469.1902% of Spell Power) Shadow damage over 3 sec and tearing open an\nEntropic Rift\n.\nEntropic Rift\nMind Blast tears open an Entropic Rift that follows the enemy for 8 sec. Enemies caught in its path suffer (60% of Spell Power) Shadow damage every 1 sec while within its reach.\nGenerates 24 Insanity over the duration.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 110,
+          "end": 117,
+          "old_token": "713.055",
+          "new_token": "469.1902",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "713.055",
+          "new": "469.1902"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 263165,
+          "source_spell_id": 263165,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.7,
+          "amount_kind": "periodic",
+          "aura_factor": 0.94,
+          "final_pvp_multiplier": 0.6579999999999999,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264737,
+              "amount_kind": "periodic",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 263165,
+          "source_spell_id": 447448,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 0.6)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.94,
+          "final_pvp_multiplier": 0.94,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            263165,
+            447444,
+            447448
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264657,
+              "amount_kind": "direct",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "No Escape",
@@ -6617,15 +7975,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 451204,
         "icon": "spell_fire_twilighthellfire"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Entropic Rift slows enemies by up to 70%, increased the closer they are to its center.",
+      "pvp_tooltip": "Entropic Rift slows enemies by up to 50%, increased the closer they are to its center.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 37,
+          "end": 39,
+          "old_token": "70",
+          "new_token": "50",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "70",
+          "new": "50"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 451204,
+          "source_spell_id": 451204,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 70.0,
+          "spell_pvp_multiplier": 0.715,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.715,
+          "final_pvp_value": 50.05,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Dark Energy",
@@ -6670,10 +8073,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 451018,
         "icon": "achievement_boss_triumvirate_darknaaru"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Void Torrent can be used while moving. While Entropic Rift is active, you move 20% faster.",
+      "pvp_tooltip": "Void Torrent can be used while moving. While Entropic Rift is active, you move 20% faster.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6723,14 +8126,95 @@ window.WOW_PVP_DATA = {
         "spell_id": 450405,
         "icon": "inv_cosmicvoid_missile"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": ":\nSends a blast of cosmic void energy at the enemy, causing (150% of Spell Power) Shadow damage. [\n:\nGenerates 0 Insanity.\n]",
+      "pvp_tooltip": ":\nSends a blast of cosmic void energy at the enemy, causing (150% of Spell Power) Shadow damage. [\n:\nGenerates 0 Insanity.\n]",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 450405,
+          "source_spell_id": 450215,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 1.5)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.94,
+          "final_pvp_multiplier": 0.94,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            450405,
+            450215
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264657,
+              "amount_kind": "direct",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 450405,
+          "source_spell_id": 450983,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 2.1)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.5828,
+          "final_pvp_multiplier": 0.5828,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            450405,
+            450983
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264657,
+              "amount_kind": "direct",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264744,
+              "amount_kind": "direct",
+              "value_pct": -38.0,
+              "factor": 0.62,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -6776,15 +8260,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 448278,
         "icon": "inv_cosmicvoid_buff"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Vampiric Touch and Shadow Word: Pain deal 20% additional damage.",
+      "pvp_tooltip": "Vampiric Touch and Shadow Word: Pain deal 50% additional damage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 42,
+          "end": 44,
+          "old_token": "20",
+          "new_token": "50",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "20",
+          "new": "50"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 448278,
+          "source_spell_id": 448278,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Spell Power (24)",
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 2.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.5,
+          "final_pvp_value": 50.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Voidheart",
@@ -6829,15 +8358,50 @@ window.WOW_PVP_DATA = {
         "spell_id": 449880,
         "icon": "inv_cosmicvoid_orb"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While Entropic Rift is active, your Shadow damage is increased by 5%.",
+      "pvp_tooltip": "While Entropic Rift is active, your Shadow damage is increased by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "ordinary_value",
+          "old": 20.0,
+          "new": 30.0,
+          "full_tooltip_match_count": 1
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 449880,
+          "source_spell_id": 449880,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 1.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.5,
+          "final_pvp_value": 30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Devour Matter",
@@ -6882,10 +8446,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 451840,
         "icon": "spell_holy_consumemagic"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shadow Word: Death consumes absorb shields from your target, dealing (255% of Spell Power) extra damage to them and granting you 5 Insanity if a shield was present.",
+      "pvp_tooltip": "Shadow Word: Death consumes absorb shields from your target, dealing (255% of Spell Power) extra damage to them and granting you 5 Insanity if a shield was present.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6935,10 +8499,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450138,
         "icon": "inv_cosmicvoid_nova"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Summoning an Entropic Rift grants you Shadowy Insight.",
+      "pvp_tooltip": "Summoning an Entropic Rift grants you Shadowy Insight.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6988,10 +8552,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 449912,
         "icon": "inv_misc_83_voidfocus"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Void Blast increases the duration of Entropic Rift by 1.0 sec, up to a maximum of 3 sec.",
+      "pvp_tooltip": "Void Blast increases the duration of Entropic Rift by 1.0 sec, up to a maximum of 3 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7041,14 +8605,53 @@ window.WOW_PVP_DATA = {
         "spell_id": 451234,
         "icon": "warlock_curse_shadow"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Summon a Voidwraith that casts Void Flay from afar. Void Flay deals bonus damage to high health enemies, up to a maximum of 50% if they are full health. [\n:\nGenerates 1 Insanity each time the Voidwraith attacks.\n/",
+      "pvp_tooltip": "Summon a Voidwraith that casts Void Flay from afar. Void Flay deals bonus damage to high health enemies, up to a maximum of 50% if they are full health. [\n:\nGenerates 1 Insanity each time the Voidwraith attacks.\n/",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 451234,
+          "source_spell_id": 451435,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.94,
+          "final_pvp_multiplier": 0.94,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            451234,
+            451235,
+            451435
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264657,
+              "amount_kind": "direct",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -7094,10 +8697,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266856,
         "icon": "inv_112_raidtrinkets_blobofswirlingvoid_purple"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Voidheart now persists for 8 sec after Entropic Rift ends.",
+      "pvp_tooltip": "Voidheart now persists for 8 sec after Entropic Rift ends.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7147,15 +8750,74 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266845,
         "icon": "ability_rogue_sanguinaryvein"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shadow Word: Pain and Entropic Rift deal damage 14.9425% more often.",
+      "pvp_tooltip": "Shadow Word: Pain and Entropic Rift deal damage 14.9425% more often.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1,
+            2
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "frequency_more_often",
+          "old": 25.0,
+          "new": 14.942528735632177,
+          "full_tooltip_match_count": 1
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1266845,
+          "source_spell_id": 1266845,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Time Between Ticks (19)",
+          "base_value": -20.0,
+          "spell_pvp_multiplier": 0.65,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.65,
+          "final_pvp_value": -13.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1266845,
+          "source_spell_id": 1266845,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Add Modifier - % (Label): Modifies Time Between Ticks (19)",
+          "base_value": -20.0,
+          "spell_pvp_multiplier": 0.65,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.65,
+          "final_pvp_value": -13.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Void Infusion",
@@ -7200,15 +8862,50 @@ window.WOW_PVP_DATA = {
         "spell_id": 450612,
         "icon": "inv_misc_volatileshadow"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Void Blast generates 2 additional Insanity.",
+      "pvp_tooltip": "Void Blast generates 2 additional Insanity.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "ordinary_value",
+          "old": 75.0,
+          "new": 45.0,
+          "full_tooltip_match_count": 1
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 450612,
+          "source_spell_id": 450612,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 75.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 45.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Void Leech",
@@ -7253,15 +8950,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 451311,
         "icon": "spell_shadow_soulleech_2"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Every 3 sec siphon an amount equal to 4% of your health from an ally within 40 yds if they are higher health than you.",
+      "pvp_tooltip": "Every 3 sec siphon an amount equal to 2% of your health from an ally within 40 yds if they are higher health than you.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 38,
+          "end": 39,
+          "old_token": "4",
+          "new_token": "2",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "4",
+          "new": "2"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 451311,
+          "source_spell_id": 451311,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Dummy",
+          "base_value": 4.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 2.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Embrace the Shadow",
@@ -7306,10 +9048,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 451569,
         "icon": "spell_shadow_shadesofdarkness"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You absorb 3% of all magic damage taken. Absorbing Shadow damage heals you for 100% of the amount absorbed.",
+      "pvp_tooltip": "You absorb 3% of all magic damage taken. Absorbing Shadow damage heals you for 100% of the amount absorbed.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7359,10 +9101,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266883,
         "icon": "inv_shadowelementalmount"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Void Torrent deals 30% increased damage.",
+      "pvp_tooltip": "Void Torrent deals 30% increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7413,820 +9155,94 @@ window.WOW_PVP_DATA = {
         "spell_id": 448403,
         "icon": "inv_cosmicvoid_groundsate"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Each time you cast Shadow Word: Madness, Entropic Rift is empowered, increasing its damage and size by 20%.\nAfter Entropic Rift ends it collapses, dealing (440% of Spell Power) Shadow damage split amongst enemy targets within 15 yds.",
+      "pvp_tooltip": "Each time you cast Shadow Word: Madness, Entropic Rift is empowered, increasing its damage and size by 20%.\nAfter Entropic Rift ends it collapses, dealing (413.6% of Spell Power) Shadow damage split amongst enemy targets within 15 yds.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 156,
+          "end": 159,
+          "old_token": "440",
+          "new_token": "413.6",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "440",
+          "new": "413.6"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 448403,
+          "source_spell_id": 448405,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 4.4)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.94,
+          "final_pvp_multiplier": 0.94,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            448403,
+            448405
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256905,
+              "game_effect_id": 1264657,
+              "amount_kind": "direct",
+              "value_pct": -6.0,
+              "factor": 0.94,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     }
   ],
-  "fetch_errors": [
-    {
-      "source": "wowhead_page",
-      "spell_id": 528,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16820740 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 586,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16655a60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 605,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166e9070 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 8092,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663e0f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 8122,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16f7e060 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 9484,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c467b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 10060,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170ddd90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 19236,
-      "error": "RetryError: RetryError[<Future at 0x7fbf15389070 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 32375,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16504aa0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 32379,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170de300 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 34433,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167976e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 55676,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1666c590 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 64129,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16663a10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 73325,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16657e30 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 73510,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16572b10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 108942,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170dc050 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 108945,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c53ec0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 109186,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166d8560 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 120644,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e53da0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 121536,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167cbc20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 132157,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1d670 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 155271,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1e6c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 193063,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167ca5a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 196704,
-      "error": "RetryError: RetryError[<Future at 0x7fbf182cd970 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 199484,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1ea50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 205364,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1651d520 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 213634,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1fa40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 228260,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1ce00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 238100,
-      "error": "RetryError: RetryError[<Future at 0x7fbf15389c10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 238558,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16506660 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 263165,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1e9f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 288733,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16501850 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 321291,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1ea20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 335467,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16505c10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 341167,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e50b00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 341240,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166602c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 341491,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e2480 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 368275,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1538a6f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 373202,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e50fb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 373212,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170dc0e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 373218,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16f7d700 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 373223,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170dd190 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 373273,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1da30 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 373280,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c52f90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 373310,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16656930 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 373427,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170ac9e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 373446,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170ade20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 373450,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170ae720 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 373456,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170af260 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 373466,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171dd5e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 375767,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171ddf40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 375888,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171dfb00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 375994,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da27e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 377065,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170af950 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 377349,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da2e40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 390620,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171de4b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 390667,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171dec00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 390670,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da1be0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 390676,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da07d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 390919,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da1b80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 390972,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166560f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 391090,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167cb8f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 391099,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170ac110 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 391151,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16655580 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 391228,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167c8e30 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 391284,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170ae810 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 391399,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c51850 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 392507,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c508f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 393870,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16654a70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 406788,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da2540 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 407430,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167cb710 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 407469,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170deb40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 407470,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170de060 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 409044,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170acd70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 415416,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167cb200 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 448278,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170dfec0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 448403,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c51d90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449806,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170acbc0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449874,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170de480 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449880,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16662d80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449912,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171df290 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450138,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16662db0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450405,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165059d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450612,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c52b40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 451018,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16663260 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 451204,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170dd850 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 451234,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16661a60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 451311,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166633b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 451569,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16f7f3e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 451840,
-      "error": "RetryError: RetryError[<Future at 0x7fbf182cebd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 453109,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c528d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 453726,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170ad3d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 453729,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1c590 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 453783,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c53410 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 453799,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16661ee0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 453828,
-      "error": "RetryError: RetryError[<Future at 0x7fbf182cf440 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 453845,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166e8da0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 453852,
-      "error": "RetryError: RetryError[<Future at 0x7fbf182cd160 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 453917,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16f7c6e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 453918,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16505b20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 454001,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16f7d550 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 459559,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167c9490 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1227280,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1fad0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1228516,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16660050 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1230339,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c8ade0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1231346,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16656d20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1240364,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170aede0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1240388,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16f7fe00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1240394,
-      "error": "RetryError: RetryError[<Future at 0x7fbf182cdca0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1242666,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da37d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1242862,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e645f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1246549,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167cac90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1247178,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167c8a70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1249230,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c8bb60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1249233,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167c8b60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1250378,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c883e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1250492,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16660860 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1250691,
-      "error": "RetryError: RetryError[<Future at 0x7fbf182cea80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1250806,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165045f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1250818,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167f11c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1250820,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170af8f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1250835,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166afc50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1251029,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170df2f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1251030,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166ad670 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1251077,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170dce90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1264096,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166adb80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1264104,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e65010 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1264107,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16654110 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1266845,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166629f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1266856,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166af350 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1266883,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16789460 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1272308,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16f7ef00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1272320,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170dfa40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1272326,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c52e10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1279350,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e260c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1279353,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16504cb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1279354,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c50a10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1279355,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1678ba70 state=finished raised HTTPStatusError>]"
-    }
-  ],
+  "fetch_errors": [],
   "slug": "priest-shadow",
-  "generated_at": "2026-09-19T13:51:58.215805+00:00",
+  "generated_at": "2026-09-19T14:18:03.853340+00:00",
   "validation": {
     "talents": 138,
-    "changed_tooltips": 0,
-    "talents_with_pvp_mechanics": 0,
+    "changed_tooltips": 17,
+    "talents_with_pvp_mechanics": 30,
     "unique_nodes": 120,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
     "drustvar_builds": [
       "12.1.0.69587"
     ],
-    "verification_status": "PARTIAL",
-    "fetch_error_count": 294,
-    "unresolved_count": 22,
-    "review_required_count": 138,
-    "fetch_error_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 528,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16ebb050 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 586,
-        "error": "RetryError: RetryError[<Future at 0x7fbf165c1970 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 605,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16c72cf0 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 8092,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16e76f30 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 8122,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16d98e30 state=finished raised HTTPStatusError>]"
-      }
-    ],
-    "unresolved_examples": [
-      {
-        "spell_id": 10060,
-        "talent_name": "Power Infusion",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.5,
-        "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)"
-      },
-      {
-        "spell_id": 263165,
-        "talent_name": "Void Torrent",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.7,
-        "effect_text": "Apply Aura (6) | Periodic Damage (3): shadow every 1 seconds"
-      },
-      {
-        "spell_id": 341167,
-        "talent_name": "Mental Agility",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.5,
-        "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Resource Cost (14)"
-      },
-      {
-        "spell_id": 341167,
-        "talent_name": "Mental Agility",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.5,
-        "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Resource Cost 2 (34)"
-      },
-      {
-        "spell_id": 341167,
-        "talent_name": "Mental Agility",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.5,
-        "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Resource Cost 3 (39)"
-      }
-    ],
-    "review_required_examples": [
-      {
-        "talent_name": "Improved Flash Heal",
-        "spell_id": 393870,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Angelic Feather",
-        "spell_id": 121536,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Mind Blast",
-        "spell_id": 8092,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Holy Nova",
-        "spell_id": 132157,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Dispel Magic",
-        "spell_id": 528,
-        "status": "MISSING_TOOLTIP"
-      }
-    ]
+    "verification_status": "VERIFIED",
+    "fetch_error_count": 0,
+    "unresolved_count": 0,
+    "review_required_count": 0,
+    "fetch_error_examples": [],
+    "unresolved_examples": [],
+    "review_required_examples": []
   }
 };

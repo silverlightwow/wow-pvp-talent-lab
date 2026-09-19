@@ -49,10 +49,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 115175,
         "icon": "ability_monk_soothingmists"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "0% of base mana, plus 0.4% per second / 15 Energy per sec\n40 yd range\nChanneled (8 sec cast)\nHeals the target for (1680% of Spell Power) over 8 sec. While channeling, Enveloping Mist [\nSurging Mist\n:\nSurging Mist\n] [\nZen Pulse\n:\nZen Pulse\n] and Vivify may be cast instantly on the target.",
+      "pvp_tooltip": "0% of base mana, plus 0.4% per second / 15 Energy per sec\n40 yd range\nChanneled (8 sec cast)\nHeals the target for (1680% of Spell Power) over 8 sec. While channeling, Enveloping Mist [\nSurging Mist\n:\nSurging Mist\n] [\nZen Pulse\n:\nZen Pulse\n] and Vivify may be cast instantly on the target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -101,10 +101,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 115078,
         "icon": "ability_monk_paralysis"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "20 Energy\n20 yd range\nInstant\n45 sec cooldown\nIncapacitates the target for 1 min. Limit 1. Damage may cancel the effect.",
+      "pvp_tooltip": "20 Energy\n20 yd range\nInstant\n45 sec cooldown\nIncapacitates the target for 1 min. Limit 1. Damage may cancel the effect.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -153,10 +153,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 115069,
         "icon": "monk_stance_drunkenox"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You shrug off attacks, delaying a portion of Physical damage based on your Agility, instead taking it over 10 sec. Affects magical attacks at 58% effectiveness. [\nTraining of Niuzao\n:\nGain up to 15% Mastery based on your current level of Stagger.\n]",
+      "pvp_tooltip": "You shrug off attacks, delaying a portion of Physical damage based on your Agility, instead taking it over 10 sec. Affects magical attacks at 58% effectiveness. [\nTraining of Niuzao\n:\nGain up to 15% Mastery based on your current level of Stagger.\n]",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -207,10 +207,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388681,
         "icon": "ability_monk_soothingmists"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces all damage taken by you and your target while channeling Soothing Mists by 6%.",
+      "pvp_tooltip": "Reduces all damage taken by you and your target while channeling Soothing Mists by 6%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -263,10 +263,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 116841,
         "icon": "ability_monk_tigerslust"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "20 yd range\nInstant\n30 sec cooldown\nIncreases a friendly target's movement speed by 70% for 6 sec and removes all roots and snares.",
+      "pvp_tooltip": "20 yd range\nInstant\n30 sec cooldown\nIncreases a friendly target's movement speed by 70% for 6 sec and removes all roots and snares.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -319,15 +319,65 @@ window.WOW_PVP_DATA = {
         "spell_id": 450335,
         "icon": "ability_monk_blackoutkick"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Targets you Roll through are snared by 40% for 5 sec.",
+      "pvp_tooltip": "Targets you Roll through are snared by 30% for 5 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 39,
+          "end": 41,
+          "old_token": "40",
+          "new_token": "30",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "40",
+          "new": "30"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 450335,
+          "source_spell_id": 450342,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -40.0,
+          "spell_pvp_multiplier": 0.75,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            450335,
+            450342
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Disable",
@@ -375,10 +425,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 116095,
         "icon": "ability_shockwave"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": ":\nTargets already snared will be rooted for 8 sec instead\n]",
+      "pvp_tooltip": ":\nTargets already snared will be rooted for 8 sec instead\n]",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -429,10 +479,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1261543,
         "icon": "ability_monk_mightyoxkick"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Blackout Kick deals 20% increased damage. Spinning Crane Kick deals 10% additional damage.",
+      "pvp_tooltip": "Blackout Kick deals 20% increased damage. Spinning Crane Kick deals 10% additional damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -485,10 +535,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388811,
         "icon": "monk_ability_cherrymanatea"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases all healing taken by 6%.",
+      "pvp_tooltip": "Increases all healing taken by 6%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -538,10 +588,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450520,
         "icon": "ability_monk_roll"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Roll and Chi Torpedo travel a small distance further.\nModifies Buff Duration +80:\nChi Torpedo",
+      "pvp_tooltip": "Roll and Chi Torpedo travel a small distance further.\nModifies Buff Duration +80:\nChi Torpedo",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -594,10 +644,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388664,
         "icon": "inv_misc_orb_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces all damage taken by 3%.",
+      "pvp_tooltip": "Reduces all damage taken by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -647,10 +697,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450514,
         "icon": "ability_monk_zenflight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The range of Disable is increased by 5 yds.\nThe duration of Crashing Momentum is increased by 3 sec and its snare now reduces movement speed by an additional 20%.",
+      "pvp_tooltip": "The range of Disable is increased by 5 yds.\nThe duration of Crashing Momentum is increased by 3 sec and its snare now reduces movement speed by an additional 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -703,10 +753,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 218164,
         "icon": "ability_rogue_imrovedrecuperate"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "10 Energy\n40 yd range\nInstant\n8 sec cooldown\n1 Charge\nRemoves all Poison and Disease effects from the target.",
+      "pvp_tooltip": "10 Energy\n40 yd range\nInstant\n8 sec cooldown\n1 Charge\nRemoves all Poison and Disease effects from the target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -758,10 +808,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388812,
         "icon": "ability_monk_vivify"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After casting Keg Smash, your next Vivify becomes instant cast.\nThis effect also reduces the energy cost of Vivify by 75%.",
+      "pvp_tooltip": "After casting Keg Smash, your next Vivify becomes instant cast.\nThis effect also reduces the energy cost of Vivify by 75%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -811,10 +861,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266719,
         "icon": "spell_monk_zenpilgrimage"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While no enemies are within 15 yds, you heal for (375% of Spell Power) every 3 sec.",
+      "pvp_tooltip": "While no enemies are within 15 yds, you heal for (375% of Spell Power) every 3 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -867,10 +917,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450553,
         "icon": "spell_lifegivingspeed"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While out of combat, your movement speed is increased by 15%.",
+      "pvp_tooltip": "While out of combat, your movement speed is increased by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -920,10 +970,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450432,
         "icon": "ability_monk_deadlyreach"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Paralysis now removes all Enrage effects from its target.",
+      "pvp_tooltip": "Paralysis now removes all Enrage effects from its target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -977,10 +1027,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 116705,
         "icon": "ability_monk_spearhand"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Melee Range\nInstant\n15 sec cooldown\nJabs the target in the throat, interrupting spellcasting and preventing any spell from that school of magic from being cast for 5 sec.",
+      "pvp_tooltip": "Melee Range\nInstant\n15 sec cooldown\nJabs the target in the throat, interrupting spellcasting and preventing any spell from that school of magic from being cast for 5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1030,10 +1080,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266740,
         "icon": "ability_monk_quipunch"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After Detox successfully removes an effect from an ally, their movement speed is increased by 30% for 5 sec.\n(300ms cooldown)",
+      "pvp_tooltip": "After Detox successfully removes an effect from an ally, their movement speed is increased by 30% for 5 sec.\n(300ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1085,10 +1135,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 344359,
         "icon": "ability_monk_dpsstance"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Paralysis by 15 sec and the cooldown of Leg Sweep by 10 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Paralysis by 15 sec and the cooldown of Leg Sweep by 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1141,14 +1191,51 @@ window.WOW_PVP_DATA = {
         "spell_id": 450391,
         "icon": "ability_monk_chiwave"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Every 15 sec, your next Keg Smash or Vivify releases a wave of Chi energy that flows through friends and foes, dealing (20% of Attack Power) Nature damage or (60% of Attack Power) healing. Bounces up to 7 times to targets within 25 yards.",
+      "pvp_tooltip": "Every 15 sec, your next Keg Smash or Vivify releases a wave of Chi energy that flows through friends and foes, dealing (20% of Attack Power) Nature damage or (60% of Attack Power) healing. Bounces up to 7 times to targets within 25 yards.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 450391,
+          "source_spell_id": 132467,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (AP mod: 0.2 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 0.85,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            450391,
+            132467
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256978,
+              "game_effect_id": 1264723,
+              "amount_kind": "direct",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -1197,14 +1284,52 @@ window.WOW_PVP_DATA = {
         "spell_id": 123986,
         "icon": "spell_arcane_arcanetorrent"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\n1 sec cast\n30 sec cooldown\nHurls a torrent of Chi energy up to 40 yds forward, dealing (280% of Attack Power) Nature damage to all enemies, and (220% of Attack Power) healing to the Monk and all allies in its path. Healing and damage reduced beyond 5 targets.\nCasting Chi Burst does not prevent avoiding attacks.",
+      "pvp_tooltip": "40 yd range\n1 sec cast\n30 sec cooldown\nHurls a torrent of Chi energy up to 40 yds forward, dealing (280% of Attack Power) Nature damage to all enemies, and (220% of Attack Power) healing to the Monk and all allies in its path. Healing and damage reduced beyond 5 targets.\nCasting Chi Burst does not prevent avoiding attacks.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 123986,
+          "source_spell_id": 148135,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (AP mod: 2.8 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.7,
+          "amount_kind": "direct",
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 1.4449999999999998,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            123986,
+            148135
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256978,
+              "game_effect_id": 1264723,
+              "amount_kind": "direct",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -1254,10 +1379,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 101643,
         "icon": "monk_ability_transcendence"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n10 sec cooldown\nSplit your body and spirit, leaving your spirit behind for 15 min. Use Transcendence: Transfer to swap locations with your spirit.",
+      "pvp_tooltip": "Instant\n10 sec cooldown\nSplit your body and spirit, leaving your spirit behind for 15 min. Use Transcendence: Transfer to swap locations with your spirit.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1307,10 +1432,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450631,
         "icon": "monk_ability_avertharm"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Successfully interrupting an enemy reduces the cooldown of Paralysis and Roll by 5 sec.",
+      "pvp_tooltip": "Successfully interrupting an enemy reduces the cooldown of Paralysis and Roll by 5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1363,10 +1488,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 115173,
         "icon": "ability_monk_quipunch"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Roll by 5 sec and increases its maximum number of charges by 1.",
+      "pvp_tooltip": "Reduces the cooldown of Roll by 5 sec and increases its maximum number of charges by 1.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1419,10 +1544,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 115008,
         "icon": "ability_monk_quitornado"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Replaces\nRoll\nInstant\n20 sec recharge\n2 Charges\nTorpedoes you forward a long distance and increases your movement speed by 30% for\n10 sec\n, stacking up to 2 times.",
+      "pvp_tooltip": "Replaces\nRoll\nInstant\n20 sec recharge\n2 Charges\nTorpedoes you forward a long distance and increases your movement speed by 30% for\n10 sec\n, stacking up to 2 times.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1472,10 +1597,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266733,
         "icon": "inv_helm_leather_raidmonkprogenitormythic_d_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Leg Sweep applies Disable for 5.0 sec when it ends.",
+      "pvp_tooltip": "Leg Sweep applies Disable for 5.0 sec when it ends.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1527,10 +1652,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450503,
         "icon": "ability_monk_hurricanestrike"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The duration of snare effects on you is reduced by 20%.",
+      "pvp_tooltip": "The duration of snare effects on you is reduced by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1582,10 +1707,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 328670,
         "icon": "ability_monk_provoke"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Provoked targets move towards you at 50% increased speed.",
+      "pvp_tooltip": "Provoked targets move towards you at 50% increased speed.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1636,10 +1761,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388674,
         "icon": "ability_mount_pinktiger"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases all damage dealt by 2%.",
+      "pvp_tooltip": "Increases all damage dealt by 2%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1691,10 +1816,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 116844,
         "icon": "spell_monk_ringofpeace"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\nInstant\n45 sec cooldown\nForm a Ring of Peace at the target location for 5 sec. Enemies that enter will be ejected from the Ring.",
+      "pvp_tooltip": "40 yd range\nInstant\n45 sec cooldown\nForm a Ring of Peace at the target location for 5 sec. Enemies that enter will be ejected from the Ring.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1746,10 +1871,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 198898,
         "icon": "inv_chaos_orb"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\n1.8 sec cast\n30 sec cooldown\nConjures a cloud of hypnotic mist that slowly travels forward. Enemies touched by the mist fall asleep, Disoriented for 20 sec.",
+      "pvp_tooltip": "40 yd range\n1.8 sec cast\n30 sec cooldown\nConjures a cloud of hypnotic mist that slowly travels forward. Enemies touched by the mist fall asleep, Disoriented for 20 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1800,15 +1925,65 @@ window.WOW_PVP_DATA = {
         "spell_id": 450595,
         "icon": "spell_shaman_spectraltransformation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Transcendence: Transfer snares targets within 10 yds by 70% for 4 sec when cast.",
+      "pvp_tooltip": "Transcendence: Transfer snares targets within 10 yds by 50% for 4 sec when cast.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 56,
+          "end": 58,
+          "old_token": "70",
+          "new_token": "50",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "70",
+          "new": "50"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 450595,
+          "source_spell_id": 450596,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -70.0,
+          "spell_pvp_multiplier": 0.714286,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.714286,
+          "final_pvp_value": -50.00002,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            450595,
+            450596
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Tiger Tail Sweep",
@@ -1854,10 +2029,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 264348,
         "icon": "ability_monk_legsweep"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the range of Leg Sweep by 4 yds.",
+      "pvp_tooltip": "Increases the range of Leg Sweep by 4 yds.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1909,10 +2084,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 322113,
         "icon": "ability_monk_touchofdeath"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Touch of Death can now be used on targets with less than 15% health remaining, dealing 35% of your maximum health in damage.",
+      "pvp_tooltip": "Touch of Death can now be used on targets with less than 15% health remaining, dealing 35% of your maximum health in damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1965,10 +2140,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 392900,
         "icon": "ability_monk_expelharm"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Expel Harm's healing increased by 6% and critical strike chance increased by 15%.",
+      "pvp_tooltip": "Expel Harm's healing increased by 6% and critical strike chance increased by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2021,15 +2196,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 414131,
         "icon": "ability_monk_dragonkick"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Find resilience in the flow of chi in battle, gaining a magic absorb shield for 1.0% of your max health every 3 sec in combat, stacking up to 10%.",
+      "pvp_tooltip": "Find resilience in the flow of chi in battle, gaining a magic absorb shield for 1.0% of your max health every 3 sec in combat, stacking up to 5%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 142,
+          "end": 144,
+          "old_token": "10",
+          "new_token": "5",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "10",
+          "new": "5"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 414131,
+          "source_spell_id": 414131,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodically trigger spell",
+          "base_value": 10.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 5.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Peace and Prosperity",
@@ -2074,10 +2294,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450448,
         "icon": "inv_inscription_deck_redcrane"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Ring of Peace by 5 sec and Song of Chi-Ji's cast time is reduced by 0.5 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Ring of Peace by 5 sec and Song of Chi-Ji's cast time is reduced by 0.5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2130,15 +2350,55 @@ window.WOW_PVP_DATA = {
         "spell_id": 388917,
         "icon": "ability_monk_fortifyingale_new"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Turns your skin to stone for 15 sec, increasing your current and maximum health by 20% and reducing all damage you take by 20%.\nCombines with other Fortifying Brew effects.",
+      "pvp_tooltip": "Turns your skin to stone for 15 sec, increasing your current and maximum health by 20% and reducing all damage you take by 20%.\nCombines with other Fortifying Brew effects.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "REVIEW_REQUIRED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "AMBIGUOUS_TEXT_MATCH",
+          "kind": "ordinary_value",
+          "old": 20.0,
+          "new": 30.0,
+          "match_count": 2
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 388917,
+          "source_spell_id": 115203,
+          "effect_index": 2,
+          "effect_text": "Dummy",
+          "base_value": -20.0,
+          "spell_pvp_multiplier": 1.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.5,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            388917,
+            115203
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Dance of the Wind",
@@ -2185,10 +2445,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 414132,
         "icon": "ability_monk_dematerialize"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your dodge chance is increased by 5%.",
+      "pvp_tooltip": "Your dodge chance is increased by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2239,10 +2499,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 389579,
         "icon": "inv_weapon_hand_22"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your healing is increased by up to 10%, based on the current health of your target. Lower health targets are healed for more.",
+      "pvp_tooltip": "Your healing is increased by up to 10%, based on the current health of your target. Lower health targets are healed for more.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2293,10 +2553,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450622,
         "icon": "ability_monk_standingkick"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Roll removes a snare effect once every 30 sec.\n(30s cooldown)",
+      "pvp_tooltip": "Roll removes a snare effect once every 30 sec.\n(30s cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2348,15 +2608,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 387276,
         "icon": "ability_monk_healthsphere"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Expel Harm's healing is increased by up to 100%, based on your missing health.",
+      "pvp_tooltip": "Expel Harm's healing is increased by up to 70%, based on your missing health.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 43,
+          "end": 46,
+          "old_token": "100",
+          "new_token": "70",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "100",
+          "new": "70"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 387276,
+          "source_spell_id": 387276,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 100.0,
+          "spell_pvp_multiplier": 0.7,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.7,
+          "final_pvp_value": 70.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Profound Rebuttal",
@@ -2403,10 +2708,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 392910,
         "icon": "ability_monk_expelharm"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Expel Harm's critical healing is increased by 50%.",
+      "pvp_tooltip": "Expel Harm's critical healing is increased by 50%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2458,10 +2763,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 115315,
         "icon": "monk_ability_summonoxstatue"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\nInstant\n10 sec cooldown\nSummons a Black Ox Statue at the target location for 15 min, pulsing threat to all enemies within 20 yards.\nYou may cast Provoke on the statue to taunt all enemies near the statue.",
+      "pvp_tooltip": "40 yd range\nInstant\n10 sec cooldown\nSummons a Black Ox Statue at the target location for 15 min, pulsing threat to all enemies within 20 yards.\nYou may cast Provoke on the statue to taunt all enemies near the statue.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2513,10 +2818,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388814,
         "icon": "ability_monk_fortifyingale_new"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases your maximum health by an additional 10% and your damage taken is reduced by an additional 10% while Fortifying Brew is active.",
+      "pvp_tooltip": "Increases your maximum health by an additional 10% and your damage taken is reduced by an additional 10% while Fortifying Brew is active.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2568,10 +2873,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388813,
         "icon": "ability_monk_fortifyingale_new"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Fortifying Brew cooldown reduced by 30 sec.",
+      "pvp_tooltip": "Fortifying Brew cooldown reduced by 30 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2619,10 +2924,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1243287,
         "icon": "spell_monk_diffusemagic"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Activating Fortifying Brew transfers all currently active harmful magical effects on you back to their original caster if possible.",
+      "pvp_tooltip": "Activating Fortifying Brew transfers all currently active harmful magical effects on you back to their original caster if possible.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2673,10 +2978,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450638,
         "icon": "ability_monk_essencefont"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While your Celestial is active, you cannot be slowed below 90% normal movement speed.",
+      "pvp_tooltip": "While your Celestial is active, you cannot be slowed below 90% normal movement speed.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2729,10 +3034,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450426,
         "icon": "ability_monk_chiswirl"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Magical damage done increased by 5% and healing done increased by 5%.",
+      "pvp_tooltip": "Magical damage done increased by 5% and healing done increased by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2783,10 +3088,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450560,
         "icon": "ability_monk_pathofmists"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Transcendence: Transfer immediately heals you for 10% of your maximum health.",
+      "pvp_tooltip": "Transcendence: Transfer immediately heals you for 10% of your maximum health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2838,10 +3143,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 157411,
         "icon": "monk_stance_whitetiger"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You and your allies within 10 yards have 10% increased movement speed. Stacks with other similar effects.",
+      "pvp_tooltip": "You and your allies within 10 yards have 10% increased movement speed. Stacks with other similar effects.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2892,10 +3197,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1272452,
         "icon": "ability_monk_zenmeditation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Touch of Death now heals you for 60% of its damage done.",
+      "pvp_tooltip": "Touch of Death now heals you for 60% of its damage done.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2947,10 +3252,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450427,
         "icon": "ability_monk_palmstrike"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases your Physical damage done by 5% and Avoidance increased by 2%.",
+      "pvp_tooltip": "Increases your Physical damage done by 5% and Avoidance increased by 2%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2998,15 +3303,50 @@ window.WOW_PVP_DATA = {
         "spell_id": 449582,
         "icon": "ability_monk_ridethewind"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Roll causes you to become lighter than air, allowing you to double jump to dash forward a short distance once within 5 sec, but the cooldown of Roll is increased by 2 sec.",
+      "pvp_tooltip": "Roll causes you to become lighter than air, allowing you to double jump to dash forward a short distance once within 5 sec, but the cooldown of Roll is increased by 2 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 2000.0,
+          "new": 4000.0,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 449582,
+          "source_spell_id": 449582,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Cooldown Ms (1365)",
+          "base_value": 2000.0,
+          "spell_pvp_multiplier": 2.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 4000.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Flow of Chi",
@@ -3050,10 +3390,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450569,
         "icon": "ability_monk_healthsphere"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You gain a bonus effect based on your current health.\nAbove 90% health: Movement speed increased by 5%. This bonus stacks with similar effects.\nBetween 90% and 35% health: Damage taken reduced by 5%.\nBelow 35% health: Healing received increased by 10%.",
+      "pvp_tooltip": "You gain a bonus effect based on your current health.\nAbove 90% health: Movement speed increased by 5%. This bonus stacks with similar effects.\nBetween 90% and 35% health: Damage taken reduced by 5%.\nBelow 35% health: Healing received increased by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3103,10 +3443,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 394110,
         "icon": "monk_ability_transcendence"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After you use Transcendence: Transfer, you can use Transcendence: Transfer again within 10 sec, ignoring its cooldown.",
+      "pvp_tooltip": "After you use Transcendence: Transfer, you can use Transcendence: Transfer again within 10 sec, ignoring its cooldown.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3156,10 +3496,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 434774,
         "icon": "monk_ability_transcendence"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "10 sec cooldown\nTranscendence now tethers your spirit onto an ally for 1 hour. Use Transcendence: Transfer to teleport to your ally's location.",
+      "pvp_tooltip": "10 sec cooldown\nTranscendence now tethers your spirit onto an ally for 1 hour. Use Transcendence: Transfer to teleport to your ally's location.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3208,10 +3548,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 394123,
         "icon": "ability_monk_touchofdeath"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Touch of Death's cooldown is reduced by 90 sec.",
+      "pvp_tooltip": "Touch of Death's cooldown is reduced by 90 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3259,10 +3599,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450154,
         "icon": "ability_monk_yulonsgift"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your heightened reflexes allow you to react swiftly to the presence of enemies, causing you to quickly lunge to the nearest enemy in front of you within 10 yards after you Roll.",
+      "pvp_tooltip": "Your heightened reflexes allow you to react swiftly to the presence of enemies, causing you to quickly lunge to the nearest enemy in front of you within 10 yards after you Roll.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3311,14 +3651,46 @@ window.WOW_PVP_DATA = {
         "spell_id": 121253,
         "icon": "achievement_brewery_2"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 Energy\n15 yd range\nInstant\n8 sec cooldown\n1 Charge\nSmash a keg of brew, dealing [(190% of Attack Power) * (1.5)] Physical damage to your primary target and (190% of Attack Power) Physical damage to all other enemies within 8 yds, and reducing their movement speed by 20% for 15 sec. Deals reduced damage beyond 5 targets.\nGrants Shuffle for 5 sec and reduces the remaining cooldown on your Brews by 3 sec.",
+      "pvp_tooltip": "40 Energy\n15 yd range\nInstant\n8 sec cooldown\n1 Charge\nSmash a keg of brew, dealing [(190% of Attack Power) * (1.5)] Physical damage to your primary target and (190% of Attack Power) Physical damage to all other enemies within 8 yds, and reducing their movement speed by 20% for 15 sec. Deals reduced damage beyond 5 targets.\nGrants Shuffle for 5 sec and reduces the remaining cooldown on your Brews by 3 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 121253,
+          "source_spell_id": 121253,
+          "effect_index": 2,
+          "effect_text": "School Damage (Physical) (AP mod: 1.9 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 0.85,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256978,
+              "game_effect_id": 1264723,
+              "amount_kind": "direct",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -3366,10 +3738,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 119582,
         "icon": "inv_misc_beer_06"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n20 sec recharge\n2 Charges\nClears\n50\n% of your\nStaggered\ndamage, or a minimum of 8% of your maximum health.",
+      "pvp_tooltip": "Instant\n20 sec recharge\n2 Charges\nClears\n50\n% of your\nStaggered\ndamage, or a minimum of 8% of your maximum health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3421,10 +3793,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 322120,
         "icon": "ability_monk_shuffle"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Niuzao's teachings allow you to shuffle during combat, increasing the effectiveness of your\nStagger\nby\n100\n%.\nShuffle is granted by attacking enemies with your Keg Smash, Blackout Kick, and Spinning Crane Kick.\nStagger\n:\nYou shrug off attacks, delaying a portion of Physical damage based on your Agility, instead taking it over 10 sec. Affects magical attacks at 58% effectiveness. [\nTraining of Niuzao\n:\nGain up to 15% Mastery based on your current level of Stagger.\n]\n(100ms cooldown)",
+      "pvp_tooltip": "Niuzao's teachings allow you to shuffle during combat, increasing the effectiveness of your\nStagger\nby\n100\n%.\nShuffle is granted by attacking enemies with your Keg Smash, Blackout Kick, and Spinning Crane Kick.\nStagger\n:\nYou shrug off attacks, delaying a portion of Physical damage based on your Agility, instead taking it over 10 sec. Affects magical attacks at 58% effectiveness. [\nTraining of Niuzao\n:\nGain up to 15% Mastery based on your current level of Stagger.\n]\n(100ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3474,10 +3846,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 454483,
         "icon": "inv_celestialserpentmount"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When you would be healed above maximum health, you instead convert an amount equal to 40% of your critical strike chance to a heal over time effect.",
+      "pvp_tooltip": "When you would be healed above maximum health, you instead convert an amount equal to 40% of your critical strike chance to a heal over time effect.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3528,10 +3900,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 387625,
         "icon": "ability_monk_blackoutstrike"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When you Blackout Kick, your\nStagger\nis reduced by (Attack Power * 750 / 100), increased by up to 200% based on your missing health.",
+      "pvp_tooltip": "When you Blackout Kick, your\nStagger\nis reduced by (Attack Power * 750 / 100), increased by up to 200% based on your missing health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3582,10 +3954,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 388505,
         "icon": "achievement_faction_brewmaster"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "100 yd range\nPurify 5% of your Staggered damage each time you gain 3 sec of Shuffle duration.",
+      "pvp_tooltip": "100 yd range\nPurify 5% of your Staggered damage each time you gain 3 sec of Shuffle duration.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3636,10 +4008,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 455139,
         "icon": "monk_ability_cherrymanatea"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When you fall below 40% health, you gain an absorb for 30% of your recently Purified damage, or a minimum of 8% of your maximum health. Cannot occur more than once every 15 sec.",
+      "pvp_tooltip": "When you fall below 40% health, you gain an absorb for 30% of your recently Purified damage, or a minimum of 8% of your maximum health. Cannot occur more than once every 15 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3690,10 +4062,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 383695,
         "icon": "ability_monk_roundhousekick"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Blackout Kick deals 20% increased damage.",
+      "pvp_tooltip": "Blackout Kick deals 20% increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3743,10 +4115,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1263346,
         "icon": "ability_rogue_sprint_blue"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Drinking from a Brew increases your movement speed by 15% and your auto-attack speed by 10% for 15 sec.",
+      "pvp_tooltip": "Drinking from a Brew increases your movement speed by 15% and your auto-attack speed by 10% for 15 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3799,10 +4171,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 124502,
         "icon": "ability_druid_giftoftheearthmother"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When you take damage, you have a chance to summon a Healing Sphere.\nHealing Sphere\n:\nSummon a Healing Sphere visible only to you. Moving through this Healing Sphere heals you for (330% of Attack Power).",
+      "pvp_tooltip": "When you take damage, you have a chance to summon a Healing Sphere.\nHealing Sphere\n:\nSummon a Healing Sphere visible only to you. Moving through this Healing Sphere heals you for (330% of Attack Power).",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3856,15 +4228,101 @@ window.WOW_PVP_DATA = {
         "spell_id": 196730,
         "icon": "achievement_brewery_2"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Drinking from your Brews has a 100% chance to toss a keg high into the air that lands nearby after 3 sec, dealing (100% of Attack Power) Physical damage to all enemies within 8 yards and reducing their movement speed by 50% for 15 sec.",
+      "pvp_tooltip": "Drinking from your Brews has a 100% chance to toss a keg high into the air that lands nearby after 3 sec, dealing (100% of Attack Power) Physical damage to all enemies within 8 yards and reducing their movement speed by 30% for 15 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 220,
+          "end": 222,
+          "old_token": "50",
+          "new_token": "30",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "50",
+          "new": "30"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 196730,
+          "source_spell_id": 196733,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical)",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 0.85,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            196730,
+            196733
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256978,
+              "game_effect_id": 1264723,
+              "amount_kind": "direct",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 196730,
+          "source_spell_id": 196733,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            196730,
+            196733
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Rushing Jade Wind",
@@ -3913,14 +4371,51 @@ window.WOW_PVP_DATA = {
         "spell_id": 116847,
         "icon": "ability_monk_rushingjadewind"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "1 Chi\nInstant\n6 sec cooldown\nSummons a whirling tornado around you, causing [(9) * (13.3% of Attack Power)] Physical damage over 6 sec to all enemies within 8 yards. Deals reduced damage beyond 5 targets.",
+      "pvp_tooltip": "1 Chi\nInstant\n6 sec cooldown\nSummons a whirling tornado around you, causing [(9) * (13.3% of Attack Power)] Physical damage over 6 sec to all enemies within 8 yards. Deals reduced damage beyond 5 targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 116847,
+          "source_spell_id": 148187,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 0.133 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 0.85,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            116847,
+            148187
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256978,
+              "game_effect_id": 1264723,
+              "amount_kind": "direct",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -3969,10 +4464,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 400629,
         "icon": "ability_titankeeper_cleansingorb"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Approximately\n6\nprocs per minute\nBlackout Kick has a chance to summon a Healing Sphere.\nHealing Sphere\n:\nSummon a Healing Sphere visible only to you. Moving through this Healing Sphere heals you for (330% of Attack Power).",
+      "pvp_tooltip": "Approximately\n6\nprocs per minute\nBlackout Kick has a chance to summon a Healing Sphere.\nHealing Sphere\n:\nSummon a Healing Sphere visible only to you. Moving through this Healing Sphere heals you for (330% of Attack Power).",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4022,10 +4517,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1262334,
         "icon": "shaman_pvp_staticcling"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Crackling Jade Lightning deals its damage in 75% less time, costs 75% less Energy, and strikes 4 additional targets, but has a 60 sec cooldown.",
+      "pvp_tooltip": "Crackling Jade Lightning deals its damage in 75% less time, costs 75% less Energy, and strikes 4 additional targets, but has a 60 sec cooldown.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4077,10 +4572,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 322507,
         "icon": "ability_monk_ironskinbrew"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n1.5 min cooldown\n1 Charge\nA swig of strong brew that coalesces purified chi escaping your body into a celestial guard, absorbing 0 damage.",
+      "pvp_tooltip": "Instant\n1.5 min cooldown\n1 Charge\nA swig of strong brew that coalesces purified chi escaping your body into a celestial guard, absorbing 0 damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4132,10 +4627,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1241059,
         "icon": "ability_monk_tigereyebrandy"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n1.5 min cooldown\n1 Charge\nA strong herbal brew that coalesces purified chi escaping your body into a celestial guard, absorbing 30% of incoming damage, up to 0 total.",
+      "pvp_tooltip": "Instant\n1.5 min cooldown\n1 Charge\nA strong herbal brew that coalesces purified chi escaping your body into a celestial guard, absorbing 30% of incoming damage, up to 0 total.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4186,10 +4681,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1241097,
         "icon": "inv_ability_monk_renewingmists_active"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Healing Spheres now heal over 10 sec, and their healing is increased by up to 80% based on your missing health.",
+      "pvp_tooltip": "Healing Spheres now heal over 10 sec, and their healing is increased by up to 80% based on your missing health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4241,10 +4736,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1263353,
         "icon": "inv_misc_volatilefire"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Drinking from Brews has a 30% chance to coat you with Celestial Flames for 6 sec. While Celestial Flames is active:\nSpecial Delivery\n:\nKegs thrown by Special Delivery are ignited and splash upon landing, dealing (100% of Attack Power) Fire damage to up to 5 nearby enemies.\nRushing Jade Wind\n:\nRushing Jade Wind becomes a firestorm, increasing its radius by 30% and causing it to deal Fire damage.\n(Proc chance: 30%)",
+      "pvp_tooltip": "Drinking from Brews has a 30% chance to coat you with Celestial Flames for 6 sec. While Celestial Flames is active:\nSpecial Delivery\n:\nKegs thrown by Special Delivery are ignited and splash upon landing, dealing (100% of Attack Power) Fire damage to up to 5 nearby enemies.\nRushing Jade Wind\n:\nRushing Jade Wind becomes a firestorm, increasing its radius by 30% and causing it to deal Fire damage.\n(Proc chance: 30%)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4295,10 +4790,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 387638,
         "icon": "ability_monk_roundhousekick"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Blackout Kick's damage increased by 20% and it strikes an additional 2 targets.",
+      "pvp_tooltip": "Blackout Kick's damage increased by 20% and it strikes an additional 2 targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4349,10 +4844,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 387230,
         "icon": "ability_monk_standingkick"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Blackout Kick's cooldown is reduced by 1 sec.",
+      "pvp_tooltip": "Blackout Kick's cooldown is reduced by 1 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4404,10 +4899,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 387046,
         "icon": "ability_monk_shuffle"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Blackout Kick deals an additional 5% damage. Blackout Kick critical hits grant an additional 1 stack of Elusive Brawler.",
+      "pvp_tooltip": "Blackout Kick deals an additional 5% damage. Blackout Kick critical hits grant an additional 1 stack of Elusive Brawler.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4457,10 +4952,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 454484,
         "icon": "ability_skyreach_wind"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You have a 10% chance to not reset your Elusive Brawler stacks after a successful dodge.",
+      "pvp_tooltip": "You have a 10% chance to not reset your Elusive Brawler stacks after a successful dodge.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4512,14 +5007,84 @@ window.WOW_PVP_DATA = {
         "spell_id": 115181,
         "icon": "ability_monk_breathoffire"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n15 sec cooldown\nBreathe fire on targets in front of you, causing (100% of Attack Power) Fire damage. Deals reduced damage to secondary targets.\nTargets affected by Keg Smash will also burn, taking (66% of Attack Power) Fire damage and dealing 5% reduced damage to you for 12 sec.",
+      "pvp_tooltip": "Instant\n15 sec cooldown\nBreathe fire on targets in front of you, causing (100% of Attack Power) Fire damage. Deals reduced damage to secondary targets.\nTargets affected by Keg Smash will also burn, taking (66% of Attack Power) Fire damage and dealing 5% reduced damage to you for 12 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 115181,
+          "source_spell_id": 115181,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire)",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.35,
+          "amount_kind": "direct",
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 1.1475,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256978,
+              "game_effect_id": 1264723,
+              "amount_kind": "direct",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 115181,
+          "source_spell_id": 123725,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.35,
+          "amount_kind": "periodic",
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 1.1475,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            115181,
+            123725
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256978,
+              "game_effect_id": 1266474,
+              "amount_kind": "periodic",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -4569,10 +5134,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 383700,
         "icon": "inv_misc_beer_06"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Purifying Brew instantly heals you for 25% of the\nStaggered\ndamage it clears.",
+      "pvp_tooltip": "Purifying Brew instantly heals you for 25% of the\nStaggered\ndamage it clears.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4626,10 +5191,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 325093,
         "icon": "spell_brew_wheat"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Purifying Brew, Celestial Brew, and Celestial Infusion by 20%.",
+      "pvp_tooltip": "Reduces the cooldown of Purifying Brew, Celestial Brew, and Celestial Infusion by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4683,10 +5248,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 383714,
         "icon": "monk_stance_drunkenox"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Gain up to 15% Mastery based on your current level of Stagger.",
+      "pvp_tooltip": "Gain up to 15% Mastery based on your current level of Stagger.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4738,10 +5303,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 393516,
         "icon": "inv_misc_archaeology_vrykuldrinkinghorn"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Drinking a Brew grants you 10% dodge for 5 sec.",
+      "pvp_tooltip": "Drinking a Brew grants you 10% dodge for 5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4793,10 +5358,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 383698,
         "icon": "spell_brew_bolt_dark"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Keg Smash deals an additional 20% damage to targets affected by Breath of Fire.",
+      "pvp_tooltip": "Keg Smash deals an additional 20% damage to targets affected by Breath of Fire.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4848,10 +5413,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 383697,
         "icon": "ability_warrior_unrelentingassault"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When you use Keg Smash, the remaining cooldown on Breath of Fire is reset.",
+      "pvp_tooltip": "When you use Keg Smash, the remaining cooldown on Breath of Fire is reset.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4903,10 +5468,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 322960,
         "icon": "ability_monk_fortifyingale_new"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Fortifying Brew increases\nStagger\neffectiveness by 15% while active.\nCombines with other Fortifying Brew effects.",
+      "pvp_tooltip": "Fortifying Brew increases\nStagger\neffectiveness by 15% while active.\nCombines with other Fortifying Brew effects.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4958,10 +5523,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 280515,
         "icon": "ability_creature_cursed_04"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the duration of\nStagger\nby 5.0 sec, causing\nStaggered\ndamage to be dealt to you more gradually.",
+      "pvp_tooltip": "Increases the duration of\nStagger\nby 5.0 sec, causing\nStaggered\ndamage to be dealt to you more gradually.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5013,10 +5578,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 115399,
         "icon": "ability_monk_chibrew"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n2 min cooldown\nChug some Black Ox Brew, which instantly refills your Energy, Purifying Brew charges, and grants one charge of Celestial Brew or Celestial Infusion.",
+      "pvp_tooltip": "Instant\n2 min cooldown\nChug some Black Ox Brew, which instantly refills your Energy, Purifying Brew charges, and grants one charge of Celestial Brew or Celestial Infusion.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5068,14 +5633,51 @@ window.WOW_PVP_DATA = {
         "spell_id": 387219,
         "icon": "ability_monk_chargingoxwave"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "100 yd range\nYour damaging abilities have a chance to invoke Niuzao, causing him to charge to your target's location and Stomp, dealing (400% of Attack Power) Physical damage to your target and reduced damage to secondary targets.\n(750ms cooldown)",
+      "pvp_tooltip": "100 yd range\nYour damaging abilities have a chance to invoke Niuzao, causing him to charge to your target's location and Stomp, dealing (400% of Attack Power) Physical damage to your target and reduced damage to secondary targets.\n(750ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 387219,
+          "source_spell_id": 1242373,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 4 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 0.85,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            387219,
+            1242373
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256978,
+              "game_effect_id": 1264723,
+              "amount_kind": "direct",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5123,10 +5725,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1241136,
         "icon": "spell_monk_zenpilgrimage"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The effectiveness of your Stagger is increased by up to 15%, based on your missing health.",
+      "pvp_tooltip": "The effectiveness of your Stagger is increased by up to 15%, based on your missing health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5178,10 +5780,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 393357,
         "icon": "ability_monk_chiswirl"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When you consume a Healing Sphere, you clear 5% of your currently\nStaggered\ndamage.",
+      "pvp_tooltip": "When you consume a Healing Sphere, you clear 5% of your currently\nStaggered\ndamage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5233,10 +5835,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 389942,
         "icon": "ability_monk_tigerpalm"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Tiger Palm's damage is increased by 100% and reduces the remaining cooldown of your Brews by 0.5 additional sec.",
+      "pvp_tooltip": "Tiger Palm's damage is increased by 100% and reduces the remaining cooldown of your Brews by 0.5 additional sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5286,14 +5888,43 @@ window.WOW_PVP_DATA = {
         "spell_id": 383994,
         "icon": "spell_fire_burnout"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Breath of Fire deals 100% increased damage, and after using Breath of Fire, you breathe fire 2 additional times, each dealing (20% of Attack Power) Fire damage.",
+      "pvp_tooltip": "Breath of Fire deals 100% increased damage, and after using Breath of Fire, you breathe fire 2 additional times, each dealing (20% of Attack Power) Fire damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 383994,
+          "source_spell_id": 387621,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire) (AP mod: 0.2 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.35,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.35,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            383994,
+            387621
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5339,10 +5970,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 386965,
         "icon": "ability_monk_mightyoxkick"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Breath of Fire ignites your right leg in flame for 8 sec, causing your Blackout Kick and Spinning Crane Kick to deal 50% additional damage as Fire damage and refresh the duration of your Breath of Fire on the target.",
+      "pvp_tooltip": "Your Breath of Fire ignites your right leg in flame for 8 sec, causing your Blackout Kick and Spinning Crane Kick to deal 50% additional damage as Fire damage and refresh the duration of your Breath of Fire on the target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5395,10 +6026,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 196737,
         "icon": "monk_ability_avertharm"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Stagger is 5% more effective at delaying damage.\nPurifying Brew refunds 4.0 sec of its cooldown if cast at\nElevated Stagger\n.",
+      "pvp_tooltip": "Stagger is 5% more effective at delaying damage.\nPurifying Brew refunds 4.0 sec of its cooldown if cast at\nElevated Stagger\n.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5452,14 +6083,51 @@ window.WOW_PVP_DATA = {
         "spell_id": 418359,
         "icon": "inv__fistofthewhitetiger"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Replaces\nTiger Palm\nYour main hand auto attacks reduce the cooldown on your Brews by 0.50 sec and block your target's chi, dealing (30% of Attack Power) additional Nature damage.\nAfter 10 attacks, the next casts Tiger Palm at 100% effectiveness.",
+      "pvp_tooltip": "Replaces\nTiger Palm\nYour main hand auto attacks reduce the cooldown on your Brews by 0.50 sec and block your target's chi, dealing (30% of Attack Power) additional Nature damage.\nAfter 10 attacks, the next casts Tiger Palm at 100% effectiveness.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 418359,
+          "source_spell_id": 418360,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (AP mod: 0.3 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 0.85,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            418359,
+            418360
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256978,
+              "game_effect_id": 1264723,
+              "amount_kind": "direct",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5509,10 +6177,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 196736,
         "icon": "ability_monk_blackoutkick"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Blackout Kick also empowers your next ability:\nTiger Palm: Damage increased by 100%.\nKeg Smash: Reduces the remaining cooldown on your Brews by 2 additional sec.",
+      "pvp_tooltip": "Blackout Kick also empowers your next ability:\nTiger Palm: Damage increased by 100%.\nKeg Smash: Reduces the remaining cooldown on your Brews by 2 additional sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5565,10 +6233,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 386937,
         "icon": "ability_monk_elusiveale"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Each time you dodge or an enemy misses you, the remaining cooldown on your Brews is reduced by 0.5 sec. Effect reduced by 50% for each additional recent attacker, up to 5.",
+      "pvp_tooltip": "Each time you dodge or an enemy misses you, the remaining cooldown on your Brews is reduced by 0.5 sec. Effect reduced by 50% for each additional recent attacker, up to 5.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5618,14 +6286,94 @@ window.WOW_PVP_DATA = {
         "spell_id": 383785,
         "icon": "ability_monk_palmstrike"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Each time you dodge or an enemy misses you, your next Tiger Palm or Spinning Crane Kick deals 100% increased damage.\n(1s cooldown)",
+      "pvp_tooltip": "Each time you dodge or an enemy misses you, your next Tiger Palm or Spinning Crane Kick deals 100% increased damage.\n(1s cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 383785,
+          "source_spell_id": 100780,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 0.9 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.3,
+          "amount_kind": "direct",
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 1.105,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            383785,
+            383800,
+            100780
+          ],
+          "dependency_relations": [
+            "trigger_spell",
+            "triggered_by_reverse"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256978,
+              "game_effect_id": 1264723,
+              "amount_kind": "direct",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 383785,
+          "source_spell_id": 107270,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 0.1 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 0.85,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            383785,
+            383800,
+            101546,
+            107270
+          ],
+          "dependency_relations": [
+            "trigger_spell",
+            "trigger_spell",
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256978,
+              "game_effect_id": 1264723,
+              "amount_kind": "direct",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5674,14 +6422,82 @@ window.WOW_PVP_DATA = {
         "spell_id": 325153,
         "icon": "inv12_ability_monk_explodingkeg"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\nInstant\n1 min cooldown\nHurls a flaming keg at the target location, dealing (380% of Attack Power) Fire damage to nearby enemies, causing your attacks against them to deal (30% of Attack Power) additional Fire damage, and causing their melee attacks to deal 100% reduced damage for the next 3 sec.\nResets the cooldown of Keg Smash.",
+      "pvp_tooltip": "40 yd range\nInstant\n1 min cooldown\nHurls a flaming keg at the target location, dealing (380% of Attack Power) Fire damage to nearby enemies, causing your attacks against them to deal (30% of Attack Power) additional Fire damage, and causing their melee attacks to deal 100% reduced damage for the next 3 sec.\nResets the cooldown of Keg Smash.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 325153,
+          "source_spell_id": 325153,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire) (AP mod: 3.8 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 0.85,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256978,
+              "game_effect_id": 1264723,
+              "amount_kind": "direct",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 325153,
+          "source_spell_id": 388867,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire) (AP mod: 0.3 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 0.85,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            325153,
+            388867
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256978,
+              "game_effect_id": 1264723,
+              "amount_kind": "direct",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5729,10 +6545,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 455068,
         "icon": "ability_monk_leeroftheox"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Purifying Brew grants a charge of Ox Stance. When you take damage that is greater than 60% of your current health, a charge is consumed to increase the amount you Stagger.",
+      "pvp_tooltip": "Casting Purifying Brew grants a charge of Ox Stance. When you take damage that is greater than 60% of your current health, a charge is consumed to increase the amount you Stagger.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5784,10 +6600,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1262628,
         "icon": "achievement_boss_golden_lotus_council"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Purifying Brew also surrounds you with protective energies for 15 sec.\nWhen\nStaggered\ndamage would be dealt to you, you instead absorb up to 50%, until 0 has been prevented.",
+      "pvp_tooltip": "Purifying Brew also surrounds you with protective energies for 15 sec.\nWhen\nStaggered\ndamage would be dealt to you, you instead absorb up to 50%, until 0 has been prevented.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5839,10 +6655,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1262659,
         "icon": "achievement_faction_shadopan"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Heal for 50% of all Fire or Nature damage dealt by your spells and abilities.",
+      "pvp_tooltip": "Heal for 50% of all Fire or Nature damage dealt by your spells and abilities.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5895,10 +6711,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 132578,
         "icon": "spell_monk_brewmaster_spec"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\nInstant\n2 min cooldown\nSummons an effigy of Niuzao, the Black Ox for\n25 sec\nthat attacks your primary target and Stomps when you cast Blackout Kick, damaging all nearby enemies.\nWhile active, 40% of damage delayed by Stagger is instead Staggered by Niuzao, and Niuzao is healed for 100% of your purified Stagger.",
+      "pvp_tooltip": "40 yd range\nInstant\n2 min cooldown\nSummons an effigy of Niuzao, the Black Ox for\n25 sec\nthat attacks your primary target and Stomps when you cast Blackout Kick, damaging all nearby enemies.\nWhile active, 40% of damage delayed by Stagger is instead Staggered by Niuzao, and Niuzao is healed for 100% of your purified Stagger.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5946,10 +6762,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1262017,
         "icon": "spell_shaman_stormearthfire"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Exploding Keg also causes your next 2 casts of Keg Smash to summon a whirl of flame which spirals outwards, dealing (200% of Attack Power) additional Fire damage to each enemy struck.",
+      "pvp_tooltip": "Exploding Keg also causes your next 2 casts of Keg Smash to summon a whirl of flame which spirals outwards, dealing (200% of Attack Power) additional Fire damage to each enemy struck.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5997,10 +6813,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1262329,
         "icon": "ability_vehicle_liquidpyrite"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Exploding Keg can be reactivated within 20 sec to throw 5 additional kegs at nearby targets, each dealing (200% of Attack Power) Physical damage and reducing the cooldown of your Brews by 3.0 sec.",
+      "pvp_tooltip": "Exploding Keg can be reactivated within 20 sec to throw 5 additional kegs at nearby targets, each dealing (200% of Attack Power) Physical damage and reducing the cooldown of your Brews by 3.0 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6048,10 +6864,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1262329,
         "icon": "ability_vehicle_liquidpyrite"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Exploding Keg can be reactivated within 20 sec to throw 5 additional kegs at nearby targets, each dealing (200% of Attack Power) Physical damage and reducing the cooldown of your Brews by 3.0 sec.",
+      "pvp_tooltip": "Exploding Keg can be reactivated within 20 sec to throw 5 additional kegs at nearby targets, each dealing (200% of Attack Power) Physical damage and reducing the cooldown of your Brews by 3.0 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6101,10 +6917,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 383707,
         "icon": "achievement_brewery_2"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Keg Smash deals 50% additional damage to its primary target, has 1 additional charge, and its range is increased by 10 yards.",
+      "pvp_tooltip": "Keg Smash deals 50% additional damage to its primary target, has 1 additional charge, and its range is increased by 10 yards.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6152,10 +6968,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1263245,
         "icon": "inv_muskox_white"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Mastery increased by 5%. Double this effect while Invoke Niuzao, the Black Ox is active.",
+      "pvp_tooltip": "Mastery increased by 5%. Double this effect while Invoke Niuzao, the Black Ox is active.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6203,10 +7019,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 322740,
         "icon": "inv_inscription_trinket_ox"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While active, Invoke Niuzao, the Black Ox can be recast to cause Niuzao to stomp mightily and knock nearby enemies into the air.",
+      "pvp_tooltip": "While active, Invoke Niuzao, the Black Ox can be recast to cause Niuzao to stomp mightily and knock nearby enemies into the air.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6252,10 +7068,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1265129,
         "icon": "inv12_apextalent_monk_bringmeanother"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Drinking a Brew has a 20% chance to leave you with an Empty Barrel, which is tossed along with your next Keg Smash to deal (300% of Attack Power) Physical damage to your target. Ricochets up to 4 times at 80% effectiveness.\n(Proc chance: 20%)",
+      "pvp_tooltip": "Drinking a Brew has a 20% chance to leave you with an Empty Barrel, which is tossed along with your next Keg Smash to deal (300% of Attack Power) Physical damage to your target. Ricochets up to 4 times at 80% effectiveness.\n(Proc chance: 20%)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6301,10 +7117,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1265138,
         "icon": "inv12_apextalent_monk_bringmeanother"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Gaining an Empty Barrel resets the cooldown of Keg Smash and makes its next cast cost 0% less energy.\nPhysical damage dealt increased by 10%.",
+      "pvp_tooltip": "Gaining an Empty Barrel resets the cooldown of Keg Smash and makes its next cast cost 0% less energy.\nPhysical damage dealt increased by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6350,10 +7166,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1265141,
         "icon": "inv12_apextalent_monk_bringmeanother"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When you cast Fortifying Brew or [\nCelestial Infusion\n/ Celestial Brew] you tap a fresh keg, granting yourself and 2 nearby allies a refreshing drink, and leaving you with an Empty Barrel.\nEmpty Barrels deal 100% increased damage.\nRefreshing Drink\n:\nUpon taking damage, automatically consume a refreshing drink to heal for (3200% of Attack Power) over 8 sec.",
+      "pvp_tooltip": "When you cast Fortifying Brew or [\nCelestial Infusion\n/ Celestial Brew] you tap a fresh keg, granting yourself and 2 nearby allies a refreshing drink, and leaving you with an Empty Barrel.\nEmpty Barrels deal 100% increased damage.\nRefreshing Drink\n:\nUpon taking damage, automatically consume a refreshing drink to heal for (3200% of Attack Power) over 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6404,14 +7220,51 @@ window.WOW_PVP_DATA = {
         "spell_id": 450615,
         "icon": "inv_ability_shadopanmonk_flurrystrikes"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your auto attacks have a chance to generate 1-2 Flurry Charges. When you cast Keg Smash, unleash all Flurry Charges, dealing (60% of Attack Power) Physical damage per charge.",
+      "pvp_tooltip": "Your auto attacks have a chance to generate 1-2 Flurry Charges. When you cast Keg Smash, unleash all Flurry Charges, dealing (60% of Attack Power) Physical damage per charge.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 450615,
+          "source_spell_id": 450617,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 0.6 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 0.85,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            450615,
+            450617
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256978,
+              "game_effect_id": 1264723,
+              "amount_kind": "direct",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -6457,10 +7310,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450979,
         "icon": "inv_staff_2h_pandarenmonk_c_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Flurry Strikes have 15% additional chance to critically strike.",
+      "pvp_tooltip": "Flurry Strikes have 15% additional chance to critically strike.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6510,10 +7363,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450982,
         "icon": "ability_monk_powerstrikes"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Enemies who die within 10 sec of being damaged by a Flurry Strike explode, dealing (100% of Attack Power) physical damage to uncontrolled enemies within 8 yds.",
+      "pvp_tooltip": "Enemies who die within 10 sec of being damaged by a Flurry Strike explode, dealing (100% of Attack Power) physical damage to uncontrolled enemies within 8 yds.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6563,10 +7416,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450987,
         "icon": "ability_monk_provoke"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Haste increased by 5%.",
+      "pvp_tooltip": "Haste increased by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6616,10 +7469,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450990,
         "icon": "ability_monk_jab"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your attacks penetrate 12% armor.",
+      "pvp_tooltip": "Your attacks penetrate 12% armor.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6669,14 +7522,51 @@ window.WOW_PVP_DATA = {
         "spell_id": 1262612,
         "icon": "inv_elemental_primal_shadow"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Flurry Strikes deal (52% of Attack Power) Nature damage to all enemies within 6 yds, reduced beyond 8 targets.",
+      "pvp_tooltip": "Flurry Strikes deal (52% of Attack Power) Nature damage to all enemies within 6 yds, reduced beyond 8 targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1262612,
+          "source_spell_id": 451250,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (AP mod: 0.52 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 0.85,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1262612,
+            451250
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256978,
+              "game_effect_id": 1264723,
+              "amount_kind": "direct",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -6722,10 +7612,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1272844,
         "icon": "ability_monk_roll"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The cooldown of Roll is decreased by 10%.",
+      "pvp_tooltip": "The cooldown of Roll is decreased by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6775,10 +7665,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1272849,
         "icon": "crest_monk"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Movement speed is increased by 50% for the first 8 sec of combat.",
+      "pvp_tooltip": "Movement speed is increased by 50% for the first 8 sec of combat.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6828,10 +7718,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450988,
         "icon": "ability_monk_chargingoxwave"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Auto attack critical strikes generate double the amount of Flurry Charges.\nKeg Smash damage increased by 35%.",
+      "pvp_tooltip": "Auto attack critical strikes generate double the amount of Flurry Charges.\nKeg Smash damage increased by 35%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6881,10 +7771,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450991,
         "icon": "ability_whirlwind"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When your health drops below 50%, summon Whirling Steel, increasing your parry chance and avoidance by 15% for 6 sec.\nThis effect can not occur more than once every 180 sec.\n(3m cooldown)",
+      "pvp_tooltip": "When your health drops below 50%, summon Whirling Steel, increasing your parry chance and avoidance by 15% for 6 sec.\nThis effect can not occur more than once every 180 sec.\n(3m cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6934,10 +7824,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450992,
         "icon": "ability_monk_domeofmist"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When you dodge or parry an attack, reduce all damage taken by 8% for the next 6 sec.",
+      "pvp_tooltip": "When you dodge or parry an attack, reduce all damage taken by 8% for the next 6 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6987,10 +7877,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1262603,
         "icon": "ability_monk_sparring"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Activating Invoke Niuzao, the Black Ox instantly grants 10 stacks of Flurry Strikes that trigger on your next attack at 70% effectiveness.",
+      "pvp_tooltip": "Activating Invoke Niuzao, the Black Ox instantly grants 10 stacks of Flurry Strikes that trigger on your next attack at 70% effectiveness.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7040,10 +7930,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450986,
         "icon": "achievement_legionpvp6tier1"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your agility is increased by 4%.",
+      "pvp_tooltip": "Your agility is increased by 4%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7093,10 +7983,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450989,
         "icon": "inv_fistofthewhitetiger"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Energy spenders deal an additional 20% damage.\nThe cooldown of Invoke Niuzao, the Black Ox is reduced by 25 sec.",
+      "pvp_tooltip": "Energy spenders deal an additional 20% damage.\nThe cooldown of Invoke Niuzao, the Black Ox is reduced by 25 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7146,10 +8036,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450993,
         "icon": "ability_rogue_masterofsubtlety"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Blackout Kick deals an additional 30% critical damage.",
+      "pvp_tooltip": "Blackout Kick deals an additional 30% critical damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7199,10 +8089,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1262610,
         "icon": "misc_legionfall_monk"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Invoke Niuzao, the Black Ox's stomp damage increased by 20%.",
+      "pvp_tooltip": "Invoke Niuzao, the Black Ox's stomp damage increased by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7253,10 +8143,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1272821,
         "icon": "inv_legendary_sigilofwisdom"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Invoke Niuzao, the Black Ox causes Breath of Fire to launch 3 Flurry Strikes.",
+      "pvp_tooltip": "Invoke Niuzao, the Black Ox causes Breath of Fire to launch 3 Flurry Strikes.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7307,15 +8197,50 @@ window.WOW_PVP_DATA = {
         "spell_id": 450508,
         "icon": "inv_ability_masterofharmonymonk_aspectofharmony"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Store vitality from 12% of your damage dealt and 6% of your effective healing.\nFor 10 sec after casting Celestial Brew or Celestial Infusion your spells and abilities draw upon the stored vitality to deal 40% additional damage over 8 sec.",
+      "pvp_tooltip": "Store vitality from 12% of your damage dealt and 6% of your effective healing.\nFor 10 sec after casting Celestial Brew or Celestial Infusion your spells and abilities draw upon the stored vitality to deal 40% additional damage over 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            7
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 100.0,
+          "new": 50.0,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 450508,
+          "source_spell_id": 450508,
+          "effect_index": 7,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 100.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 50.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Manifestation",
@@ -7360,15 +8285,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 450875,
         "icon": "inv_shoulder_inv_leather_raidmonk_s_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Chi Burst and Chi Wave deal 50% increased damage and healing.",
+      "pvp_tooltip": "Chi Burst and Chi Wave deal 25% increased damage and healing.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 28,
+          "end": 30,
+          "old_token": "50",
+          "new_token": "25",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "50",
+          "new": "25"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 450875,
+          "source_spell_id": 450875,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 25.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Purified Spirit",
@@ -7413,10 +8383,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450867,
         "icon": "ability_monk_explodingjadeblossom"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When Aspect of Harmony ends, any remaining vitality is expelled as damage over 8 sec, split among nearby targets.",
+      "pvp_tooltip": "When Aspect of Harmony ends, any remaining vitality is expelled as damage over 8 sec, split among nearby targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7466,10 +8436,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450870,
         "icon": "passive_monk_teachingsofmonastery"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "During Aspect of Harmony, Expel Harm and Vivify withdraw vitality to heal for an additional 40% over 8 sec.",
+      "pvp_tooltip": "During Aspect of Harmony, Expel Harm and Vivify withdraw vitality to heal for an additional 40% over 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7519,10 +8489,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450889,
         "icon": "ability_monk_sphereharmonydiscord"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting a Physical spell or ability increases the damage and healing of your next Fire or Nature spell or ability by 3%, and vice versa. Stacks up to 5.\n(500ms cooldown)",
+      "pvp_tooltip": "Casting a Physical spell or ability increases the damage and healing of your next Fire or Nature spell or ability by 3%, and vice versa. Stacks up to 5.\n(500ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7572,15 +8542,147 @@ window.WOW_PVP_DATA = {
         "spell_id": 1270958,
         "icon": "ability_socererking_forcenova"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": ":\nFor each charge of Potential Energy, deal [(400% of Spell Power) * 55 / 100] Nature damage to your target and [(400% of Spell Power) * 55 / 100] Nature damage to other nearby enemies, and heal up to 5 allies for [(500% of Spell Power) * 10 / 100]. Damage reduced above 5 targets.",
+      "pvp_tooltip": ":\nFor each charge of Potential Energy, deal [(400% of Spell Power) * 55 / 100] Nature damage to your target and [(400% of Spell Power) * 55 / 100] Nature damage to other nearby enemies, and heal up to 5 allies for [(500% of Spell Power) * 3.3 / 100]. Damage reduced above 5 targets.",
+      "tooltip_changed": true,
+      "render_status": "REVIEW_REQUIRED",
+      "changes": [
+        {
+          "start": 239,
+          "end": 241,
+          "old_token": "10",
+          "new_token": "3.3",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2,
+            3
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "AMBIGUOUS_TEXT_MATCH",
+          "kind": "ordinary_value",
+          "old": 55.0,
+          "new": 18.150000000000002,
+          "match_count": 2
+        },
+        {
+          "effect_indexes": [
+            4
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 40.0,
+          "new": 13.200000000000001,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            2,
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "10",
+          "new": "3.3"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1270958,
+          "source_spell_id": 1270958,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 55.0,
+          "spell_pvp_multiplier": 0.33,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.33,
+          "final_pvp_value": 18.150000000000002,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1270958,
+          "source_spell_id": 1270958,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 10.0,
+          "spell_pvp_multiplier": 0.33,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.33,
+          "final_pvp_value": 3.3000000000000003,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1270958,
+          "source_spell_id": 1270958,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 10.0,
+          "spell_pvp_multiplier": 0.33,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.33,
+          "final_pvp_value": 3.3000000000000003,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1270958,
+          "source_spell_id": 1270958,
+          "effect_index": 4,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 40.0,
+          "spell_pvp_multiplier": 0.33,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.33,
+          "final_pvp_value": 13.200000000000001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        }
+      ],
+      "render_effect_count": 4
     },
     {
       "talent_name": "Tiger's Vigor",
@@ -7625,10 +8727,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 451041,
         "icon": "monk_stance_whitetiger"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Tiger's Lust reduces the remaining cooldown on Roll by 5 sec.",
+      "pvp_tooltip": "Casting Tiger's Lust reduces the remaining cooldown on Roll by 5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7678,10 +8780,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 451043,
         "icon": "inv_celestialserpentmount"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Tiger's Lust grants 20% movement speed to up to 2 allies near its target.",
+      "pvp_tooltip": "Tiger's Lust grants 20% movement speed to up to 2 allies near its target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7731,10 +8833,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450892,
         "icon": "inv_drink_25_honeytea"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Celestial Brew and Celestial Infusion have 1 additional charge.",
+      "pvp_tooltip": "Celestial Brew and Celestial Infusion have 1 additional charge.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7784,10 +8886,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 451036,
         "icon": "ability_monk_domeofmist"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Purifying Brew removes 10% additional Stagger and causes you to absorb up to [(Attack Power * 100 / 100) * (1 + Versatility)] incoming Stagger.",
+      "pvp_tooltip": "Purifying Brew removes 10% additional Stagger and causes you to absorb up to [(Attack Power * 100 / 100) * (1 + Versatility)] incoming Stagger.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7837,10 +8939,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 451029,
         "icon": "spell_monk_brewmastertraining"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Fortifying Brew applies a Chi Cocoon, absorbing [Total Health * 12 / 100 * (1 + Versatility)] damage.",
+      "pvp_tooltip": "Fortifying Brew applies a Chi Cocoon, absorbing [Total Health * 12 / 100 * (1 + Versatility)] damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7890,10 +8992,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1271048,
         "icon": "spell_magic_managain"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Keg Smash grants a charge of Potential Energy.",
+      "pvp_tooltip": "Casting Keg Smash grants a charge of Potential Energy.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7943,10 +9045,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 451024,
         "icon": "ability_titankeeper_piercingcorruption"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Blackout Kick and Tiger Palm deal 15% additional damage to enemies in a line in front of you. Damage reduced above 5 targets.",
+      "pvp_tooltip": "Blackout Kick and Tiger Palm deal 15% additional damage to enemies in a line in front of you. Damage reduced above 5 targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7996,10 +9098,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450912,
         "icon": "ability_monk_pathofmists"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Chi Burst\nincreases vitality stored by 25% for 10 sec.\n(3s cooldown)",
+      "pvp_tooltip": "Chi Burst\nincreases vitality stored by 25% for 10 sec.\n(3s cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -8049,10 +9151,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450965,
         "icon": "ability_monk_mightyoxkick"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Blackout Kick and Tiger Palm contribute 30% additional vitality.",
+      "pvp_tooltip": "Blackout Kick and Tiger Palm contribute 30% additional vitality.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -8102,10 +9204,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 451017,
         "icon": "ability_titankeeper_cleanse"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Purifying Brew stores [(Spell Power * 300 / 100) * (1 + Versatility)] additional vitality.",
+      "pvp_tooltip": "Casting Purifying Brew stores [(Spell Power * 300 / 100) * (1 + Versatility)] additional vitality.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -8155,10 +9257,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1271105,
         "icon": "inv_misc_herb_mountainsilversage"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Blackout Combo:\nIncreases Tiger Palm damage by an additional 50% and Keg Smash reduces the cooldown on your Brews by an additional 1.0 sec.\nPress the Advantage:\nNature damage dealt by your main hand auto-attacks is increased by 100% and they now reduce the cooldown on your Brews by an additional 0.25 sec.",
+      "pvp_tooltip": "Blackout Combo:\nIncreases Tiger Palm damage by an additional 50% and Keg Smash reduces the cooldown on your Brews by an additional 1.0 sec.\nPress the Advantage:\nNature damage dealt by your main hand auto-attacks is increased by 100% and they now reduce the cooldown on your Brews by an additional 0.25 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -8209,10 +9311,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 450529,
         "icon": "ability_monk_effuse"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When Aspect of Harmony\ndeals damage, it has a chance to spread to a nearby\nenemy. When you directly\nattack an affected target, it has a chance to intensify, withdrawing additional vitality to increase its effect by up to 20%.\nKeg Smash no longer contributes vitality. While Aspect of Harmony is not active, Keg Smash instead draws on available vitality to deal an additional 100% damage over 8 sec.\nVitality stored by other abilities is increased by 50%.",
+      "pvp_tooltip": "When Aspect of Harmony\ndeals damage, it has a chance to spread to a nearby\nenemy. When you directly\nattack an affected target, it has a chance to intensify, withdrawing additional vitality to increase its effect by up to 20%.\nKeg Smash no longer contributes vitality. While Aspect of Harmony is not active, Keg Smash instead draws on available vitality to deal an additional 100% damage over 8 sec.\nVitality stored by other abilities is increased by 50%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -8220,769 +9322,13 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     }
   ],
-  "fetch_errors": [
-    {
-      "source": "wowhead_page",
-      "spell_id": 101643,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1651f6e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 115008,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ffb00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 115069,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1825bce0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 115078,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16797fb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 115173,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171529f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 115175,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16795100 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 115181,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fce00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 115315,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16504e00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 115399,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1651f290 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 116095,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18259190 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 116705,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16797e00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 116841,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ff9e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 116844,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1651c9e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 116847,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16584410 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 119582,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16794fb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 121253,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16794e00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 123986,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165e5790 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 124502,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ff4a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 132578,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1651e5d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 157411,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16795a60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 196730,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165e6480 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 196736,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17151d90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 196737,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16794470 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 198898,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d55250 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 218164,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e27e60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 264348,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fc9b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 280515,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e53290 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 322113,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1651ebd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 322120,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e26420 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 322507,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1825b8c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 322740,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167947d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 322960,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16586bd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 325093,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1651d280 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 325153,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9ce00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 328670,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e72450 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 344359,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9c590 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 383695,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16daaea0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 383697,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e3020 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 383698,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1651f5f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 383700,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e24ef0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 383707,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e74ad0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 383714,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e536e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 383785,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fc920 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 383994,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e0470 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 386937,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1825a630 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 386965,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18258260 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 387046,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c12d80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 387219,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1651f770 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 387230,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fe7b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 387276,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18259eb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 387625,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18258ce0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 387638,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165d0380 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388505,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ff0b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388664,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e272c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388674,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e713d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388681,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1825a270 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388811,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165d1370 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388812,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d57140 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388813,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e70740 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388814,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9e210 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388917,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165d04a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 389579,
-      "error": "RetryError: RetryError[<Future at 0x7fbf182581a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 389942,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1659e960 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 392900,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e705c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 392910,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16585340 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 393357,
-      "error": "RetryError: RetryError[<Future at 0x7fbf150e4e30 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 393516,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e2690 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 394110,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e519d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 394123,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165e4170 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 400629,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165e6f60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 414131,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9fc50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 414132,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9f290 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 418359,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e279e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 434774,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16586390 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449582,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1825b530 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450154,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e51700 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450335,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16704fb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450391,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18259c10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450426,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1651c0e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450427,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16794860 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450432,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16794440 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450448,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165e4590 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450503,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167971d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450508,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1650e2d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450514,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fc110 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450520,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9d520 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450529,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e72510 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450553,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1651ecc0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450560,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e24dd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450569,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16797ef0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450595,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16514e90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450615,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16794d40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450622,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e50200 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450631,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16574a70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450638,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e26270 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450867,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ffce0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450870,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16795220 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450875,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1651e360 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450889,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165e4e90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450892,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16504d10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450912,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165adcd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450965,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165070b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450979,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d57a10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450982,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18258cb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450986,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17151a60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450987,
-      "error": "RetryError: RetryError[<Future at 0x7fbf192a2c60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450988,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17152510 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450989,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fcbc0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450990,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d57950 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450991,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1659fce0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450992,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e31d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 450993,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1651cf80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 451017,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18258e00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 451024,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ffcb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 451029,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fecf0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 451036,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16887cb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 451041,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165d0350 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 451043,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e719d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 454483,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165e54f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 454484,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17152930 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 455068,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fda00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 455139,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165e6ba0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1241059,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167943b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1241097,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168a0380 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1241136,
-      "error": "RetryError: RetryError[<Future at 0x7fbf192225d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1243287,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ff1a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1261543,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fde20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1262017,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165d0620 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1262329,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e50440 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1262334,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165e4470 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1262603,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e73590 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1262610,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1825b830 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1262612,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16851bb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1262628,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168521b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1262659,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171531a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1263245,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165e4890 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1263346,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e9b140 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1263353,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e53da0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1265129,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16794680 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1265138,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fd760 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1265141,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167959a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1266719,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fcfb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1266733,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fe1e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1266740,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165e4a70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270958,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d54dd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1271048,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16df97c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1271105,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167dad80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1272452,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e707d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1272821,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fccb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1272844,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167558e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1272849,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167db890 state=finished raised HTTPStatusError>]"
-    }
-  ],
+  "fetch_errors": [],
   "slug": "monk-brewmaster",
-  "generated_at": "2026-09-19T13:51:14.204976+00:00",
+  "generated_at": "2026-09-19T14:12:33.807139+00:00",
   "validation": {
     "talents": 152,
-    "changed_tooltips": 0,
-    "talents_with_pvp_mechanics": 0,
+    "changed_tooltips": 7,
+    "talents_with_pvp_mechanics": 22,
     "unique_nodes": 124,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
@@ -8990,103 +9336,102 @@ window.WOW_PVP_DATA = {
       "12.1.0.69587"
     ],
     "verification_status": "PARTIAL",
-    "fetch_error_count": 322,
-    "unresolved_count": 21,
-    "review_required_count": 152,
+    "fetch_error_count": 4,
+    "unresolved_count": 3,
+    "review_required_count": 2,
     "fetch_error_examples": [
       {
         "source": "wowhead",
-        "spell_id": 101643,
-        "error": "RetryError: RetryError[<Future at 0x7fbf165a68d0 state=finished raised HTTPStatusError>]"
+        "spell_id": 1262765,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1262765'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 115008,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16d9c470 state=finished raised HTTPStatusError>]"
+        "spell_id": 1263667,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1263667'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 115069,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16797170 state=finished raised HTTPStatusError>]"
+        "spell_id": 1271011,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1271011'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 115078,
-        "error": "RetryError: RetryError[<Future at 0x7fbf167e2c60 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 115173,
-        "error": "RetryError: RetryError[<Future at 0x7fbf1681a2d0 state=finished raised HTTPStatusError>]"
+        "spell_id": 1271045,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1271045'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [
       {
-        "spell_id": 115181,
-        "talent_name": "Breath of Fire",
+        "spell_id": 1271011,
+        "talent_name": "Harmonic Surge",
         "side": "drustvar",
         "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 1.35,
-        "effect_text": "School Damage (2): fire"
+        "multiplier": 0.33,
+        "effect_text": "School Damage (2): nature",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 1270958,
+        "source_spell_id": 1271011,
+        "dependency_kind": "EMBEDDED",
+        "dependency_path": [
+          1270958,
+          1271011
+        ],
+        "dependency_relations": [
+          "spelldesc_ref"
+        ]
       },
       {
-        "spell_id": 387276,
-        "talent_name": "Strength of Spirit",
+        "spell_id": 1271011,
+        "talent_name": "Harmonic Surge",
         "side": "drustvar",
         "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.7,
-        "effect_text": "Apply Aura (6) | Dummy (4)"
+        "multiplier": 0.33,
+        "effect_text": "School Damage (2): nature",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 1270958,
+        "source_spell_id": 1271011,
+        "dependency_kind": "EMBEDDED",
+        "dependency_path": [
+          1270958,
+          1271011
+        ],
+        "dependency_relations": [
+          "spelldesc_ref"
+        ]
       },
       {
-        "spell_id": 414131,
-        "talent_name": "Yu'lon's Grace",
+        "spell_id": 1271045,
+        "talent_name": "Harmonic Surge",
         "side": "drustvar",
         "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.5,
-        "effect_text": "Apply Aura (6) | Periodic Trigger Spell (23): Unknown(0) every 2 seconds"
-      },
-      {
-        "spell_id": 449582,
-        "talent_name": "Lighter Than Air",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 2.0,
-        "effect_text": "Apply Aura (6) | Modify Recharge Time (Category) (453)"
-      },
-      {
-        "spell_id": 450508,
-        "talent_name": "Aspect of Harmony",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.5,
-        "effect_text": "Apply Aura (6) | Dummy (4)"
+        "multiplier": 0.33,
+        "effect_text": "Direct Heal (10)",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 1270958,
+        "source_spell_id": 1271045,
+        "dependency_kind": "EMBEDDED",
+        "dependency_path": [
+          1270958,
+          1271011,
+          1271045
+        ],
+        "dependency_relations": [
+          "spelldesc_ref",
+          "tooltip_value_ref"
+        ]
       }
     ],
     "review_required_examples": [
       {
-        "talent_name": "Soothing Mist",
-        "spell_id": 115175,
-        "status": "MISSING_TOOLTIP"
+        "talent_name": "Fortifying Brew",
+        "spell_id": 388917,
+        "status": "REVIEW_REQUIRED"
       },
       {
-        "talent_name": "Paralysis",
-        "spell_id": 115078,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Stagger",
-        "spell_id": 115069,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Elusive Mists",
-        "spell_id": 388681,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Tiger's Lust",
-        "spell_id": 116841,
-        "status": "MISSING_TOOLTIP"
+        "talent_name": "Harmonic Surge",
+        "spell_id": 1270958,
+        "status": "REVIEW_REQUIRED"
       }
     ]
   }

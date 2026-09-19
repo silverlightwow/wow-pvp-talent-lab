@@ -130,14 +130,43 @@ window.WOW_PVP_DATA = {
         "spell_id": 232893,
         "icon": "ability_demonhunter_felblade"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "15 yd range\nInstant\n12 sec cooldown\nCharge to your target and deal (122.94% of Attack Power)%\nFire\ndamage.\n[\nFracture\n:\nGenerates 15 Fury.\n] [\nDemonic Wards\n:\nGenerates 15 Fury.\n]\nGenerates 15 Fury.",
+      "pvp_tooltip": "15 yd range\nInstant\n12 sec cooldown\nCharge to your target and deal (122.94% of Attack Power)%\nFire\ndamage.\n[\nFracture\n:\nGenerates 15 Fury.\n] [\nDemonic Wards\n:\nGenerates 15 Fury.\n]\nGenerates 15 Fury.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 232893,
+          "source_spell_id": 213243,
+          "effect_index": 2,
+          "effect_text": "School Damage (Fire) (AP mod: 1.2294 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.2,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.2,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            232893,
+            213243
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -666,10 +695,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 179057,
         "icon": "spell_fire_felfirenova"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "25 Fury\nInstant\n45 sec cooldown\nUnleash an eruption of fel energy, dealing (27.4816% of Attack Power) Chaos damage and stunning all nearby enemies for 3 sec. [\nChaos Fragments\n:\nEach enemy stunned by Chaos Nova has a 30% chance to generate a Lesser Soul Fragment\n]",
+      "pvp_tooltip": "25 Fury\nInstant\n45 sec cooldown\nUnleash an eruption of fel energy, dealing (27.4816% of Attack Power) Chaos damage and stunning all nearby enemies for 3 sec. [\nChaos Fragments\n:\nEach enemy stunned by Chaos Nova has a 30% chance to generate a Lesser Soul Fragment\n]",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1951,10 +1980,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266762,
         "icon": "ability_demonhunter_doublejump"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your movement speed is increased by 3%.",
+      "pvp_tooltip": "Your movement speed is increased by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2865,10 +2894,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 212084,
         "icon": "ability_demonhunter_feldevastation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": ":\nCausing damage also heals you for up to [(562.5% of Attack Power) * 10] health\n]",
+      "pvp_tooltip": ":\nCausing damage also heals you for up to [(562.5% of Attack Power) * 10] health\n]",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2919,10 +2948,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 247454,
         "icon": "inv_icon_shadowcouncilorb_purple"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 Fury\nInstant\n25 sec cooldown\nConsume up to\n5\nSoul Fragments then explode, dealing (200% of Attack Power) Fire damage to nearby enemies, increased by 20 /\nSoulcrush\n:\n30\n/\nUntethered Rage\n:\n25\n% per fragment consumed. Deals reduced damage beyond\n8\ntargets.",
+      "pvp_tooltip": "40 Fury\nInstant\n25 sec cooldown\nConsume up to\n5\nSoul Fragments then explode, dealing (200% of Attack Power) Fire damage to nearby enemies, increased by 20 /\nSoulcrush\n:\n30\n/\nUntethered Rage\n:\n25\n% per fragment consumed. Deals reduced damage beyond\n8\ntargets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2973,10 +3002,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 204021,
         "icon": "ability_demonhunter_fierybrand"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": ":\nand [(32.2% of Attack Power) * 12] Fire damage over 12 sec\n] to the enemy.",
+      "pvp_tooltip": ":\nand [(32.2% of Attack Power) * 12] Fire damage over 12 sec\n] to the enemy.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3027,10 +3056,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 320387,
         "icon": "ability_demonhunter_throwglaive"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Fracture by 1 sec and Throw Glaive by 6 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Fracture by 1 sec and Throw Glaive by 6 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3081,10 +3110,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 209281,
         "icon": "ability_demonhunter_concentratedsigils"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Sigils activate 1 second faster.",
+      "pvp_tooltip": "Your Sigils activate 1 second faster.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3135,10 +3164,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 428603,
         "icon": "inv_helm_suncrown_d_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Sigil of Flame damage increased by 50%.",
+      "pvp_tooltip": "Sigil of Flame damage increased by 50%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3189,10 +3218,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1265800,
         "icon": "ability_demonhunter_manabreak"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Physical damage increased by 12%.",
+      "pvp_tooltip": "Physical damage increased by 12%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3242,10 +3271,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 389720,
         "icon": "ability_demonhunter_demonspikes"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Demon Spikes reduces damage taken by 5% while active.",
+      "pvp_tooltip": "Demon Spikes reduces damage taken by 5% while active.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3297,10 +3326,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 218612,
         "icon": "spell_warlock_demonicempowerment"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Every 20 Fury spent reduces the remaining cooldown of Demon Spikes by 1.00 sec.",
+      "pvp_tooltip": "Every 20 Fury spent reduces the remaining cooldown of Demon Spikes by 1.00 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3350,10 +3379,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 389729,
         "icon": "ability_demonhunter_demonspikes2"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While Demon Spikes is active, melee attacks against you cause the attacker to take (31.2% of Attack Power) Physical damage. Generates high threat.",
+      "pvp_tooltip": "While Demon Spikes is active, melee attacks against you cause the attacker to take (31.2% of Attack Power) Physical damage. Generates high threat.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3404,10 +3433,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 389724,
         "icon": "inv12_ability_demonhunter_felfirefists"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Activating Infernal Strike out of combat or within 5 sec of entering combat places a Sigil of Flame at the target location.",
+      "pvp_tooltip": "Activating Infernal Strike out of combat or within 5 sec of entering combat places a Sigil of Flame at the target location.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3457,10 +3486,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 390163,
         "icon": "inv_ability_demonhunter_elysiandecree"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "30 yd range\nInstant\n1 min cooldown\n1 Charge\nPlace a demonic sigil at the target location that activates after\n2 sec\n.\nDetonates to deal (692% of Attack Power) Chaos damage and shatter up to 3 Soul Fragments from enemies affected by the sigil. Deals reduced damage beyond 5 targets.",
+      "pvp_tooltip": "30 yd range\nInstant\n1 min cooldown\n1 Charge\nPlace a demonic sigil at the target location that activates after\n2 sec\n.\nDetonates to deal (692% of Attack Power) Chaos damage and shatter up to 3 Soul Fragments from enemies affected by the sigil. Deals reduced damage beyond 5 targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3514,10 +3543,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 207548,
         "icon": "achievment_raid_houroftwilight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Immolation Aura increases your movement speed by 10% and its duration is increased by 50%.",
+      "pvp_tooltip": "Immolation Aura increases your movement speed by 10% and its duration is increased by 50%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3569,10 +3598,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 202137,
         "icon": "ability_demonhunter_sigilofsilence"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "30 yd range\nInstant\n1.5 min cooldown\n1 Charge\nPlace a Sigil of Silence at the target location that activates after\n2 sec\n.\nSilences all enemies affected by the sigil for\n2 sec\n.",
+      "pvp_tooltip": "30 yd range\nInstant\n1.5 min cooldown\n1 Charge\nPlace a Sigil of Silence at the target location that activates after\n2 sec\n.\nSilences all enemies affected by the sigil for\n2 sec\n.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3626,10 +3655,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 390213,
         "icon": "ability_demonhunter_immolation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Fire damage increased by 8%.",
+      "pvp_tooltip": "Fire damage increased by 8%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3679,10 +3708,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 343014,
         "icon": "ability_bossfelmagnaron_handempowered"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "6.0% of your Fire damage shields you, up to a maximum of (Total Health * 10 / 100).\nShield and maximum values are doubled while Fiery Brand is active.",
+      "pvp_tooltip": "6.0% of your Fire damage shields you, up to a maximum of (Total Health * 10 / 100).\nShield and maximum values are doubled while Fiery Brand is active.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3734,10 +3763,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 389958,
         "icon": "inv_icon_shadowcouncilorb_purple"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Enemies struck by Sigil of Flame, Soul Cleave, and Spirit Bomb are afflicted with Frailty for 8 sec.\nYou heal for 10% of all damage you deal to targets with Frailty.",
+      "pvp_tooltip": "Enemies struck by Sigil of Flame, Soul Cleave, and Spirit Bomb are afflicted with Frailty for 8 sec.\nYou heal for 10% of all damage you deal to targets with Frailty.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3787,10 +3816,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 207697,
         "icon": "spell_shadow_soulleech"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Soul Cleave heals for an additional (225% of Attack Power).",
+      "pvp_tooltip": "Soul Cleave heals for an additional (225% of Attack Power).",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3842,10 +3871,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 227174,
         "icon": "spell_volatilefiregreen"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Immolation Aura's initial burst has a chance to shatter Soul Fragments from enemies.",
+      "pvp_tooltip": "Immolation Aura's initial burst has a chance to shatter Soul Fragments from enemies.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3895,10 +3924,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 326853,
         "icon": "ability_demonhunter_feldevastation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Fel Devastation heals for an additional 10%, and 50% of its healing is converted into an absorb shield for 10 sec.",
+      "pvp_tooltip": "Fel Devastation heals for an additional 10%, and 50% of its healing is converted into an absorb shield for 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3950,10 +3979,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 390808,
         "icon": "ability_demonhunter_immolation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Immolation Aura has 10% increased critical strike chance and generates 1-5 Fury when it deals critical damage.\nThis effect may only occur once per 1 sec.\n(900ms cooldown)",
+      "pvp_tooltip": "Immolation Aura has 10% increased critical strike chance and generates 1-5 Fury when it deals critical damage.\nThis effect may only occur once per 1 sec.\n(900ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4003,10 +4032,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1265924,
         "icon": "inv_soulbarrier"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Spirit Bomb shields you for 10 sec, absorbing (Total Health * 8 / 100) damage plus (Total Health * 2 / 100) for each Soul Fragment consumed.",
+      "pvp_tooltip": "Spirit Bomb shields you for 10 sec, absorbing (Total Health * 8 / 100) damage plus (Total Health * 2 / 100) for each Soul Fragment consumed.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4056,10 +4085,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 395446,
         "icon": "ability_demonhunter_sigilofinquisition"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Afflicting an enemy with a Sigil generates 1 Soul Fragment.\n(100ms cooldown)",
+      "pvp_tooltip": "Afflicting an enemy with a Sigil generates 1 Soul Fragment.\n(100ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4111,10 +4140,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 389705,
         "icon": "spell_fire_felfire"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You take 10% reduced magic damage while Immolation Aura is active.",
+      "pvp_tooltip": "You take 10% reduced magic damage while Immolation Aura is active.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4164,10 +4193,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 268175,
         "icon": "spell_shadow_demonicempathy"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Frailty now also reduces all damage you take from afflicted targets by 6%.",
+      "pvp_tooltip": "Frailty now also reduces all damage you take from afflicted targets by 6%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4221,10 +4250,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 207387,
         "icon": "artifactability_vengeancedemonhunter_painbringer"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Consuming a Soul Fragment reduces all damage you take by 3% for 8 sec.",
+      "pvp_tooltip": "Consuming a Soul Fragment reduces all damage you take by 3% for 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4276,10 +4305,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 391178,
         "icon": "spell_fire_felflamering"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Fel Devastation heals you for up to 50% more, based on your missing health.",
+      "pvp_tooltip": "Fel Devastation heals you for up to 50% more, based on your missing health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4333,10 +4362,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 389220,
         "icon": "ability_demonhunter_fierybrand"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Fiery Brand also increases Fire damage you deal to the target by 15%.",
+      "pvp_tooltip": "Fiery Brand also increases Fire damage you deal to the target by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4386,15 +4415,50 @@ window.WOW_PVP_DATA = {
         "spell_id": 389715,
         "icon": "ability_demonhunter_sigilofchains"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the duration of your Sigils by 2 sec and radius by 2 yds.",
+      "pvp_tooltip": "Increases the duration of your Sigils by 2 sec and radius by 2 yds.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "REVIEW_REQUIRED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "AMBIGUOUS_TEXT_MATCH",
+          "kind": "ordinary_value",
+          "old": 2.0,
+          "new": 1.0,
+          "match_count": 2
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 389715,
+          "source_spell_id": 389715,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Buff Duration (1)",
+          "base_value": 2.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 1.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Focused Cleave",
@@ -4440,10 +4504,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 343207,
         "icon": "ability_demonhunter_soulcleave"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Soul Cleave deals 60% increased damage to your primary target.",
+      "pvp_tooltip": "Soul Cleave deals 60% increased damage to your primary target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4494,10 +4558,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 389711,
         "icon": "ability_demonhunter_shatteredsouls"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When consuming a Soul Fragment would heal you above full health it shields you instead, up to a maximum of (Total Health * 10 / 100).",
+      "pvp_tooltip": "When consuming a Soul Fragment would heal you above full health it shields you instead, up to a maximum of (Total Health * 10 / 100).",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4549,10 +4613,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 393827,
         "icon": "ability_demonhunter_feldevastation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Fel Devastation damage increased by 30%.",
+      "pvp_tooltip": "Fel Devastation damage increased by 30%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4603,10 +4667,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 207739,
         "icon": "spell_fire_elementaldevastation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Every 1 sec, Fiery Brand spreads to one nearby enemy.",
+      "pvp_tooltip": "Every 1 sec, Fiery Brand spreads to one nearby enemy.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4657,10 +4721,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 389718,
         "icon": "ability_demonhunter_sigilofinquisition"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Sigils have 15% reduced cooldowns.",
+      "pvp_tooltip": "Your Sigils have 15% reduced cooldowns.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4712,10 +4776,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 389976,
         "icon": "inv_icon_shadowcouncilorb_purple"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Frailty now also increases all damage you deal to afflicted targets by 3%.",
+      "pvp_tooltip": "Frailty now also increases all damage you deal to afflicted targets by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4769,10 +4833,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1265818,
         "icon": "inv12_ability_demonhunter_vengeanceismine"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Metamorphosis has 5 sec increased duration and increases the damage of Fracture, Soul Cleave, and Spirit Bomb by 20%.",
+      "pvp_tooltip": "Metamorphosis has 5 sec increased duration and increases the damage of Fracture, Soul Cleave, and Spirit Bomb by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4824,10 +4888,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 336639,
         "icon": "ability_warlock_backdraft"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Immolation Aura damage increases the duration of your Fiery Brand and Sigil of Flame by 0.25 sec.\n(900ms cooldown)",
+      "pvp_tooltip": "Immolation Aura damage increases the duration of your Fiery Brand and Sigil of Flame by 0.25 sec.\n(900ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4875,10 +4939,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 389985,
         "icon": "inv_icon_shadowcouncilorb_purple"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The effects of Frailty are doubled.",
+      "pvp_tooltip": "The effects of Frailty are doubled.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4927,10 +4991,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 207407,
         "icon": "inv_glaive_1h_artifactaldrochi_d_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Melee Range\nInstant\n1 min cooldown\nCarve into the soul of your target, dealing [(463.5% of Attack Power) + (463.5% of Attack Power)] Fire damage and an additional (300% of Attack Power) Fire damage over 3 sec. Immediately shatters 3 Soul Fragments from the target and 1 additional Soul Fragment every 1 sec.",
+      "pvp_tooltip": "Melee Range\nInstant\n1 min cooldown\nCarve into the soul of your target, dealing [(463.5% of Attack Power) + (463.5% of Attack Power)] Fire damage and an additional (300% of Attack Power) Fire damage over 3 sec. Immediately shatters 3 Soul Fragments from the target and 1 additional Soul Fragment every 1 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4978,10 +5042,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 209258,
         "icon": "inv_glaive_1h_artifactaldorchi_d_06"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Sustaining fatal damage instead transforms you to Metamorphosis form.\nThis may occur once every 8 min.",
+      "pvp_tooltip": "Sustaining fatal damage instead transforms you to Metamorphosis form.\nThis may occur once every 8 min.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5030,10 +5094,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 389708,
         "icon": "inv_jewelry_necklace_53"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When Fel Devastation finishes fully channeling, it refreshes 15-30% of its cooldown and refunds 15-30 Fury.",
+      "pvp_tooltip": "When Fel Devastation finishes fully channeling, it refreshes 15-30% of its cooldown and refunds 15-30 Fury.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5081,10 +5145,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 389732,
         "icon": "ability_demonhunter_fierybrand"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Fiery Brand has 12 sec reduced cooldown and 1 additional charge.",
+      "pvp_tooltip": "Fiery Brand has 12 sec reduced cooldown and 1 additional charge.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5130,10 +5194,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1270444,
         "icon": "inv12_apextalent_demonhunter__untetheredrage"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Soul Cleave and Spirit Bomb have a chance per soul fragment consumed to grant Untethered Rage, allowing Metamorphosis to be cast without incurring its cooldown and lasting 10 sec.",
+      "pvp_tooltip": "Soul Cleave and Spirit Bomb have a chance per soul fragment consumed to grant Untethered Rage, allowing Metamorphosis to be cast without incurring its cooldown and lasting 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5179,10 +5243,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1270448,
         "icon": "inv12_apextalent_demonhunter__untetheredrage"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Soul Cleave and Spirit Bomb can consume an additional soul fragment and deal an additional 5% damage for each consumed.",
+      "pvp_tooltip": "Soul Cleave and Spirit Bomb can consume an additional soul fragment and deal an additional 5% damage for each consumed.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5228,10 +5292,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1270449,
         "icon": "inv12_apextalent_demonhunter__untetheredrage"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Each cast of Soul Cleave and Spirit Bomb that does not grant Untethered Rage instead applies a stack of Seething Anger.\nSeething Anger grants 1% Agility and increases your chance to gain Untethered Rage. Lasts 12 sec and cannot be refreshed after gaining Untethered Rage.",
+      "pvp_tooltip": "Each cast of Soul Cleave and Spirit Bomb that does not grant Untethered Rage instead applies a stack of Seething Anger.\nSeething Anger grants 1% Agility and increases your chance to gain Untethered Rage. Lasts 12 sec and cannot be refreshed after gaining Untethered Rage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5282,10 +5346,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 442290,
         "icon": "inv_ability_aldrachireaverdemonhunter_reaversglaive"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Consuming 20 Soul Fragments or casting Sigil of Spite converts your next Throw Glaive into Reaver's Glaive.\nReaver's Glaive\n:\nThrow a glaive enhanced with the essence of consumed souls at your target, dealing (385% of Attack Power) Physical damage and ricocheting to 2 additional enemies.\nBegins a well-practiced pattern of glaivework, enhancing your next\nand Soul Cleave.\nThe enhanced ability you cast first deals 10% increased damage, and the second deals 20% increased damage.",
+      "pvp_tooltip": "Consuming 20 Soul Fragments or casting Sigil of Spite converts your next Throw Glaive into Reaver's Glaive.\nReaver's Glaive\n:\nThrow a glaive enhanced with the essence of consumed souls at your target, dealing (385% of Attack Power) Physical damage and ricocheting to 2 additional enemies.\nBegins a well-practiced pattern of glaivework, enhancing your next\nand Soul Cleave.\nThe enhanced ability you cast first deals 10% increased damage, and the second deals 20% increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5335,15 +5399,103 @@ window.WOW_PVP_DATA = {
         "spell_id": 442718,
         "icon": "spell_fire_felflamestrike"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "When enhanced by Reaver's Glaive, Soul Cleave casts 3 additional glaive slashes to nearby targets. Deals reduced damage beyond 8 targets.\nIf cast after\n, cast\n6\nslashes instead.",
+      "pvp_tooltip": "When enhanced by Reaver's Glaive, Soul Cleave casts 3 additional glaive slashes to nearby targets. Deals reduced damage beyond 8 targets.\nIf cast after\n, cast\n3\nslashes instead.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 159,
+          "end": 160,
+          "old_token": "6",
+          "new_token": "3",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            4
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 100.0,
+          "new": 33.0,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "6",
+          "new": "3"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 442718,
+          "source_spell_id": 1236360,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 6.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 3.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            442718,
+            1236360
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 442718,
+          "source_spell_id": 1236360,
+          "effect_index": 4,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 100.0,
+          "spell_pvp_multiplier": 0.33,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.33,
+          "final_pvp_value": 33.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            442718,
+            1236360
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Evasive Action",
@@ -5388,10 +5540,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 444926,
         "icon": "ability_demonhunter_vengefulretreat"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Vengeful Retreat can be cast a second time within 3 sec.\n(3s cooldown)",
+      "pvp_tooltip": "Vengeful Retreat can be cast a second time within 3 sec.\n(3s cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5441,10 +5593,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 444931,
         "icon": "ability_ironmaidens_bladerush"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Vengeful Retreat resets the cooldown of Felblade.",
+      "pvp_tooltip": "Vengeful Retreat resets the cooldown of Felblade.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5494,10 +5646,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 442679,
         "icon": "ability_hunter_harass"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When enhanced by Reaver's Glaive,\napplies Reaver's Mark, which causes the target to take 7% increased damage for 20 sec. Max 2 stacks.\nApplies 1 additional stack of Reaver's Mark If cast after Soul Cleave.",
+      "pvp_tooltip": "When enhanced by Reaver's Glaive,\napplies Reaver's Mark, which causes the target to take 7% increased damage for 20 sec. Max 2 stacks.\nApplies 1 additional stack of Reaver's Mark If cast after Soul Cleave.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5547,10 +5699,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1272143,
         "icon": "ability_argus_soulbombdebufflarge"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Sigil of Spite shatters 1 additional Soul Fragment. Soul Cleave has a 20% chance to shatter a Soul Fragment.",
+      "pvp_tooltip": "Sigil of Spite shatters 1 additional Soul Fragment. Soul Cleave has a 20% chance to shatter a Soul Fragment.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5600,10 +5752,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 442683,
         "icon": "ability_demonhunter_soulcleave2"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The second enhanced ability in a pattern shatters an additional Soul Fragment.",
+      "pvp_tooltip": "The second enhanced ability in a pattern shatters an additional Soul Fragment.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5653,10 +5805,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 442714,
         "icon": "ability_warlock_avoidance"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Felblade surrounds you with a Blade Ward, reducing damage taken by 10% for 5 sec.",
+      "pvp_tooltip": "Felblade surrounds you with a Blade Ward, reducing damage taken by 10% for 5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5706,10 +5858,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 442736,
         "icon": "spell_nzinsanity_chasedbyshadows"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Each Soul Fragment you consume shields you for an additional 10% of the amount healed.",
+      "pvp_tooltip": "Each Soul Fragment you consume shields you for an additional 10% of the amount healed.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5759,10 +5911,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 442806,
         "icon": "ability_rogue_venomouswounds"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Expose weaknesses in the target of your\nReaver's Mark\n, causing your Physical damage to any enemy to also deal 25% of the damage dealt to your marked target as Chaos, and sometimes shatter a Soul Fragment.",
+      "pvp_tooltip": "Expose weaknesses in the target of your\nReaver's Mark\n, causing your Physical damage to any enemy to also deal 25% of the damage dealt to your marked target as Chaos, and sometimes shatter a Soul Fragment.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5812,15 +5964,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 1272138,
         "icon": "inv_glaive_1h_tyrande_d_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Reaver's Glaive damage is increased by 20% and other Physical-only damage is increased by 10%.",
+      "pvp_tooltip": "Reaver's Glaive damage is increased by 6.6% and other Physical-only damage is increased by 10%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 39,
+          "end": 41,
+          "old_token": "20",
+          "new_token": "6.6",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "20",
+          "new": "6.6"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1272138,
+          "source_spell_id": 1272138,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 0.33,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.33,
+          "final_pvp_value": 6.6000000000000005,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Incisive Blade",
@@ -5865,10 +6062,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 442492,
         "icon": "ability_dualwieldspecialization"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Soul Cleave deals 10% increased damage.",
+      "pvp_tooltip": "Soul Cleave deals 10% increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5918,10 +6115,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 442497,
         "icon": "ability_warlock_shadowfurytga"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reaver's Glaive generates 20 Fury.",
+      "pvp_tooltip": "Reaver's Glaive generates 20 Fury.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5971,10 +6168,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 444997,
         "icon": "ability_rogue_focusedattacks"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Throw Glaive deals (20% of Attack Power) Physical damage to enemies near its initial target.",
+      "pvp_tooltip": "Throw Glaive deals (20% of Attack Power) Physical damage to enemies near its initial target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6024,15 +6221,97 @@ window.WOW_PVP_DATA = {
         "spell_id": 1272153,
         "icon": "ability_demonhunter_soulcleave3"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Fury of the Aldrachi further empowers Soul Cleave when cast after Fracture, increasing slashes to 12.\nReaver's Mark now stacks up to 2 times and further empowers Fracture when cast after Soul Cleave, applying an additional stack.",
+      "pvp_tooltip": "Fury of the Aldrachi further empowers Soul Cleave when cast after Fracture, increasing slashes to 12.\nReaver's Mark now stacks up to 2 times and further empowers Fracture when cast after Soul Cleave, applying an additional stack.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 6.0,
+          "new": 3.0,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            4
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 100.0,
+          "new": 33.0,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1272153,
+          "source_spell_id": 1236360,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 6.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 3.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1272153,
+            442718,
+            1236360
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1272153,
+          "source_spell_id": 1236360,
+          "effect_index": 4,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 100.0,
+          "spell_pvp_multiplier": 0.33,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.33,
+          "final_pvp_value": 33.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1272153,
+            442718,
+            1236360
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Warblade's Hunger",
@@ -6077,10 +6356,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 442502,
         "icon": "ability_warlock_soulsiphon"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Consuming a Soul Fragment causes your next\nto deal (62% of Attack Power) additional Physical damage.",
+      "pvp_tooltip": "Consuming a Soul Fragment causes your next\nto deal (62% of Attack Power) additional Physical damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6131,10 +6410,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 442686,
         "icon": "spell_arcane_arcanetactics"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After consuming both enhancements, gain Thrill of the Fight, increasing the damage of your next Reaver's Glaive by 30% and increasing Haste by 8% for 30 sec.",
+      "pvp_tooltip": "After consuming both enhancements, gain Thrill of the Fight, increasing the damage of your next Reaver's Glaive by 30% and increasing Haste by 8% for 30 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6992,339 +7271,13 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     }
   ],
-  "fetch_errors": [
-    {
-      "source": "wowhead_page",
-      "spell_id": 179057,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16794c80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 202137,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c108c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 204021,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c13e60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 207387,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16713cb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 207407,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c11190 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 207548,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c12000 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 207697,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fdaf0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 207739,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16796a20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 209258,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c139b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 209281,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16797ef0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 212084,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16711580 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 218612,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16797ad0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 227174,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e29850 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 232893,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c10a10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 247454,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1719e570 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 268175,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c13fb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 320387,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1719eba0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 326853,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c11cd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 336639,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16797290 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 343014,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16796b40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 343207,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1719c530 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 389220,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ece540 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 389705,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dee540 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 389708,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18227890 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 389711,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d44110 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 389715,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16796090 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 389718,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d46d50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 389720,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167110d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 389724,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16711970 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 389729,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1719da30 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 389732,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16794680 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 389958,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18259a00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 389976,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d55dc0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 389985,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecfb90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 390163,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1825a0c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 390213,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168a0ef0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 390808,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ececf0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 391178,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663fda0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 393827,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e285c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 395446,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663fc80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 428603,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16794920 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 442290,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167972c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 442492,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168a1d30 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 442497,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16712000 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 442502,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18259580 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 442679,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16eccd40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 442683,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e29e50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 442686,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1719c4d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 442714,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecc9e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 442718,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c51340 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 442736,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663e0c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 442806,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c50920 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444926,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168a2030 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444931,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da1430 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444997,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da18e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1265800,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d45d60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1265818,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1d640 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1265924,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da3230 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1266762,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e284d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270444,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d54800 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270448,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d54470 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270449,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d56e40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1272138,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16794a70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1272143,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165c9f70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1272153,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165c9f10 state=finished raised HTTPStatusError>]"
-    }
-  ],
+  "fetch_errors": [],
   "slug": "demon-hunter-vengeance",
-  "generated_at": "2026-09-19T13:49:54.741772+00:00",
+  "generated_at": "2026-09-19T14:04:56.662993+00:00",
   "validation": {
     "talents": 123,
-    "changed_tooltips": 5,
-    "talents_with_pvp_mechanics": 9,
+    "changed_tooltips": 7,
+    "talents_with_pvp_mechanics": 14,
     "unique_nodes": 112,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
@@ -7332,136 +7285,16 @@ window.WOW_PVP_DATA = {
       "12.1.0.69587"
     ],
     "verification_status": "PARTIAL",
-    "fetch_error_count": 132,
-    "unresolved_count": 7,
-    "review_required_count": 65,
-    "fetch_error_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 179057,
-        "error": "RetryError: RetryError[<Future at 0x7fbf171df0b0 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 202137,
-        "error": "RetryError: RetryError[<Future at 0x7fbf1663ffe0 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 204021,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16d556d0 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 207387,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16d54ef0 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 207407,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16789d00 state=finished raised HTTPStatusError>]"
-      }
-    ],
-    "unresolved_examples": [
-      {
-        "spell_id": 389715,
-        "talent_name": "Chains of Anger",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.5,
-        "effect_text": "Apply Aura (6) | Add Flat Modifier (107): Spell Duration (1)"
-      },
-      {
-        "spell_id": 1272138,
-        "talent_name": "Keen Edge",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.33,
-        "effect_text": "Apply Aura (6) | Dummy (4)"
-      },
-      {
-        "spell_id": 213243,
-        "talent_name": "Felblade",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 1.2,
-        "effect_text": "School Damage (2): fire",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 232893,
-        "source_spell_id": 213243,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          232893,
-          213243
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      },
-      {
-        "spell_id": 1236360,
-        "talent_name": "Fury of the Aldrachi",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.5,
-        "effect_text": "Apply Aura (6) | Dummy (4)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 442718,
-        "source_spell_id": 1236360,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          442718,
-          1236360
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      },
-      {
-        "spell_id": 1236360,
-        "talent_name": "Fury of the Aldrachi",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.33,
-        "effect_text": "Apply Aura (6) | Dummy (4)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 442718,
-        "source_spell_id": 1236360,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          442718,
-          1236360
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      }
-    ],
+    "fetch_error_count": 0,
+    "unresolved_count": 0,
+    "review_required_count": 1,
+    "fetch_error_examples": [],
+    "unresolved_examples": [],
     "review_required_examples": [
       {
-        "talent_name": "Felblade",
-        "spell_id": 232893,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Chaos Nova",
-        "spell_id": 179057,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Felbound",
-        "spell_id": 1266762,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Fel Devastation",
-        "spell_id": 212084,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Spirit Bomb",
-        "spell_id": 247454,
-        "status": "MISSING_TOOLTIP"
+        "talent_name": "Chains of Anger",
+        "spell_id": 389715,
+        "status": "REVIEW_REQUIRED"
       }
     ]
   }

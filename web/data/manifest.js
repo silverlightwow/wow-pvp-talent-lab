@@ -1,9 +1,11 @@
 window.WOW_PVP_MANIFEST = {
-  "generated_at": "2026-09-19T13:53:03.157200+00:00",
+  "generated_at": "2026-09-19T14:24:17.439599+00:00",
   "tree_build": "12.1.0.69875",
   "content_hash": "66952e6398559450a2f421d56adbcda2",
   "default_slug": "priest-discipline",
   "spec_count": 40,
+  "verified_count": 5,
+  "partial_count": 35,
   "classes": [
     {
       "name": "Death Knight",
@@ -63,23 +65,23 @@ window.WOW_PVP_MANIFEST = {
           "name": "Havoc",
           "spec_id": 577,
           "slug": "demon-hunter-havoc",
-          "changed_tooltips": 7,
-          "talents_with_pvp_mechanics": 15,
+          "changed_tooltips": 13,
+          "talents_with_pvp_mechanics": 42,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 156,
-          "unresolved_count": 20,
-          "review_required_count": 66
+          "fetch_error_count": 0,
+          "unresolved_count": 0,
+          "review_required_count": 1
         },
         {
           "name": "Vengeance",
           "spec_id": 581,
           "slug": "demon-hunter-vengeance",
-          "changed_tooltips": 5,
-          "talents_with_pvp_mechanics": 9,
+          "changed_tooltips": 7,
+          "talents_with_pvp_mechanics": 14,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 132,
-          "unresolved_count": 7,
-          "review_required_count": 65
+          "fetch_error_count": 0,
+          "unresolved_count": 0,
+          "review_required_count": 1
         }
       ]
     },
@@ -91,45 +93,45 @@ window.WOW_PVP_MANIFEST = {
           "name": "Balance",
           "spec_id": 102,
           "slug": "druid-balance",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 14,
+          "talents_with_pvp_mechanics": 25,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 307,
-          "unresolved_count": 33,
-          "review_required_count": 142
+          "fetch_error_count": 10,
+          "unresolved_count": 11,
+          "review_required_count": 1
         },
         {
           "name": "Feral",
           "spec_id": 103,
           "slug": "druid-feral",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 6,
+          "talents_with_pvp_mechanics": 25,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 300,
-          "unresolved_count": 36,
-          "review_required_count": 140
+          "fetch_error_count": 6,
+          "unresolved_count": 4,
+          "review_required_count": 2
         },
         {
           "name": "Guardian",
           "spec_id": 104,
           "slug": "druid-guardian",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
-          "verification_status": "PARTIAL",
-          "fetch_error_count": 298,
-          "unresolved_count": 30,
-          "review_required_count": 143
+          "changed_tooltips": 5,
+          "talents_with_pvp_mechanics": 19,
+          "verification_status": "VERIFIED",
+          "fetch_error_count": 0,
+          "unresolved_count": 0,
+          "review_required_count": 0
         },
         {
           "name": "Restoration",
           "spec_id": 105,
           "slug": "druid-restoration",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 18,
+          "talents_with_pvp_mechanics": 34,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 313,
-          "unresolved_count": 24,
-          "review_required_count": 147
+          "fetch_error_count": 0,
+          "unresolved_count": 0,
+          "review_required_count": 2
         }
       ]
     },
@@ -141,34 +143,34 @@ window.WOW_PVP_MANIFEST = {
           "name": "Augmentation",
           "spec_id": 1473,
           "slug": "evoker-augmentation",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 11,
+          "talents_with_pvp_mechanics": 15,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 279,
-          "unresolved_count": 42,
-          "review_required_count": 134
+          "fetch_error_count": 0,
+          "unresolved_count": 1,
+          "review_required_count": 1
         },
         {
           "name": "Devastation",
           "spec_id": 1467,
           "slug": "evoker-devastation",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 10,
+          "talents_with_pvp_mechanics": 18,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 263,
-          "unresolved_count": 26,
-          "review_required_count": 125
+          "fetch_error_count": 0,
+          "unresolved_count": 2,
+          "review_required_count": 0
         },
         {
           "name": "Preservation",
           "spec_id": 1468,
           "slug": "evoker-preservation",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 4,
+          "talents_with_pvp_mechanics": 9,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 267,
-          "unresolved_count": 38,
-          "review_required_count": 130
+          "fetch_error_count": 0,
+          "unresolved_count": 1,
+          "review_required_count": 1
         }
       ]
     },
@@ -180,34 +182,34 @@ window.WOW_PVP_MANIFEST = {
           "name": "Beast Mastery",
           "spec_id": 253,
           "slug": "hunter-beast-mastery",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 9,
+          "talents_with_pvp_mechanics": 24,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 279,
-          "unresolved_count": 22,
-          "review_required_count": 129
+          "fetch_error_count": 0,
+          "unresolved_count": 8,
+          "review_required_count": 0
         },
         {
           "name": "Marksmanship",
           "spec_id": 254,
           "slug": "hunter-marksmanship",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 15,
+          "talents_with_pvp_mechanics": 29,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 281,
-          "unresolved_count": 24,
-          "review_required_count": 130
+          "fetch_error_count": 0,
+          "unresolved_count": 3,
+          "review_required_count": 2
         },
         {
           "name": "Survival",
           "spec_id": 255,
           "slug": "hunter-survival",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 9,
+          "talents_with_pvp_mechanics": 25,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 278,
-          "unresolved_count": 24,
-          "review_required_count": 127
+          "fetch_error_count": 0,
+          "unresolved_count": 6,
+          "review_required_count": 0
         }
       ]
     },
@@ -219,34 +221,34 @@ window.WOW_PVP_MANIFEST = {
           "name": "Arcane",
           "spec_id": 62,
           "slug": "mage-arcane",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 16,
+          "talents_with_pvp_mechanics": 29,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 280,
-          "unresolved_count": 30,
-          "review_required_count": 128
+          "fetch_error_count": 0,
+          "unresolved_count": 15,
+          "review_required_count": 3
         },
         {
           "name": "Fire",
           "spec_id": 63,
           "slug": "mage-fire",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 20,
+          "talents_with_pvp_mechanics": 32,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 284,
-          "unresolved_count": 45,
-          "review_required_count": 127
+          "fetch_error_count": 8,
+          "unresolved_count": 15,
+          "review_required_count": 3
         },
         {
           "name": "Frost",
           "spec_id": 64,
           "slug": "mage-frost",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 24,
+          "talents_with_pvp_mechanics": 38,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 285,
-          "unresolved_count": 41,
-          "review_required_count": 130
+          "fetch_error_count": 0,
+          "unresolved_count": 5,
+          "review_required_count": 2
         }
       ]
     },
@@ -258,34 +260,34 @@ window.WOW_PVP_MANIFEST = {
           "name": "Brewmaster",
           "spec_id": 268,
           "slug": "monk-brewmaster",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 7,
+          "talents_with_pvp_mechanics": 22,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 322,
-          "unresolved_count": 21,
-          "review_required_count": 152
+          "fetch_error_count": 4,
+          "unresolved_count": 3,
+          "review_required_count": 2
         },
         {
           "name": "Mistweaver",
           "spec_id": 270,
           "slug": "monk-mistweaver",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 30,
+          "talents_with_pvp_mechanics": 47,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 336,
-          "unresolved_count": 33,
-          "review_required_count": 152
+          "fetch_error_count": 0,
+          "unresolved_count": 0,
+          "review_required_count": 5
         },
         {
           "name": "Windwalker",
           "spec_id": 269,
           "slug": "monk-windwalker",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 7,
+          "talents_with_pvp_mechanics": 15,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 324,
-          "unresolved_count": 26,
-          "review_required_count": 148
+          "fetch_error_count": 24,
+          "unresolved_count": 8,
+          "review_required_count": 3
         }
       ]
     },
@@ -297,34 +299,34 @@ window.WOW_PVP_MANIFEST = {
           "name": "Holy",
           "spec_id": 65,
           "slug": "paladin-holy",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 9,
+          "talents_with_pvp_mechanics": 13,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 325,
-          "unresolved_count": 37,
-          "review_required_count": 150
+          "fetch_error_count": 23,
+          "unresolved_count": 22,
+          "review_required_count": 0
         },
         {
           "name": "Protection",
           "spec_id": 66,
           "slug": "paladin-protection",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 13,
+          "talents_with_pvp_mechanics": 34,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 313,
-          "unresolved_count": 35,
-          "review_required_count": 144
+          "fetch_error_count": 0,
+          "unresolved_count": 0,
+          "review_required_count": 1
         },
         {
           "name": "Retribution",
           "spec_id": 70,
           "slug": "paladin-retribution",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 10,
+          "talents_with_pvp_mechanics": 27,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 308,
-          "unresolved_count": 47,
-          "review_required_count": 137
+          "fetch_error_count": 15,
+          "unresolved_count": 12,
+          "review_required_count": 1
         }
       ]
     },
@@ -336,34 +338,34 @@ window.WOW_PVP_MANIFEST = {
           "name": "Discipline",
           "spec_id": 256,
           "slug": "priest-discipline",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
-          "verification_status": "PARTIAL",
-          "fetch_error_count": 285,
-          "unresolved_count": 28,
-          "review_required_count": 133
+          "changed_tooltips": 23,
+          "talents_with_pvp_mechanics": 34,
+          "verification_status": "VERIFIED",
+          "fetch_error_count": 0,
+          "unresolved_count": 0,
+          "review_required_count": 0
         },
         {
           "name": "Holy",
           "spec_id": 257,
           "slug": "priest-holy",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
-          "verification_status": "PARTIAL",
-          "fetch_error_count": 283,
-          "unresolved_count": 29,
-          "review_required_count": 135
+          "changed_tooltips": 15,
+          "talents_with_pvp_mechanics": 27,
+          "verification_status": "VERIFIED",
+          "fetch_error_count": 0,
+          "unresolved_count": 0,
+          "review_required_count": 0
         },
         {
           "name": "Shadow",
           "spec_id": 258,
           "slug": "priest-shadow",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
-          "verification_status": "PARTIAL",
-          "fetch_error_count": 294,
-          "unresolved_count": 22,
-          "review_required_count": 138
+          "changed_tooltips": 17,
+          "talents_with_pvp_mechanics": 30,
+          "verification_status": "VERIFIED",
+          "fetch_error_count": 0,
+          "unresolved_count": 0,
+          "review_required_count": 0
         }
       ]
     },
@@ -375,34 +377,34 @@ window.WOW_PVP_MANIFEST = {
           "name": "Assassination",
           "spec_id": 259,
           "slug": "rogue-assassination",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 5,
+          "talents_with_pvp_mechanics": 26,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 285,
-          "unresolved_count": 25,
-          "review_required_count": 131
+          "fetch_error_count": 1,
+          "unresolved_count": 9,
+          "review_required_count": 3
         },
         {
           "name": "Outlaw",
           "spec_id": 260,
           "slug": "rogue-outlaw",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 5,
+          "talents_with_pvp_mechanics": 20,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 275,
-          "unresolved_count": 25,
-          "review_required_count": 130
+          "fetch_error_count": 0,
+          "unresolved_count": 4,
+          "review_required_count": 2
         },
         {
           "name": "Subtlety",
           "spec_id": 261,
           "slug": "rogue-subtlety",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 9,
+          "talents_with_pvp_mechanics": 25,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 291,
-          "unresolved_count": 30,
-          "review_required_count": 135
+          "fetch_error_count": 0,
+          "unresolved_count": 5,
+          "review_required_count": 2
         }
       ]
     },
@@ -414,34 +416,34 @@ window.WOW_PVP_MANIFEST = {
           "name": "Elemental",
           "spec_id": 262,
           "slug": "shaman-elemental",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 17,
+          "talents_with_pvp_mechanics": 26,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 295,
-          "unresolved_count": 23,
-          "review_required_count": 140
+          "fetch_error_count": 0,
+          "unresolved_count": 1,
+          "review_required_count": 1
         },
         {
           "name": "Enhancement",
           "spec_id": 263,
           "slug": "shaman-enhancement",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 15,
+          "talents_with_pvp_mechanics": 28,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 283,
-          "unresolved_count": 25,
-          "review_required_count": 130
+          "fetch_error_count": 0,
+          "unresolved_count": 1,
+          "review_required_count": 0
         },
         {
           "name": "Restoration",
           "spec_id": 264,
           "slug": "shaman-restoration",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 23,
+          "talents_with_pvp_mechanics": 31,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 295,
-          "unresolved_count": 27,
-          "review_required_count": 137
+          "fetch_error_count": 0,
+          "unresolved_count": 1,
+          "review_required_count": 1
         }
       ]
     },
@@ -453,34 +455,34 @@ window.WOW_PVP_MANIFEST = {
           "name": "Affliction",
           "spec_id": 265,
           "slug": "warlock-affliction",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
-          "verification_status": "PARTIAL",
-          "fetch_error_count": 274,
-          "unresolved_count": 40,
-          "review_required_count": 123
+          "changed_tooltips": 23,
+          "talents_with_pvp_mechanics": 41,
+          "verification_status": "VERIFIED",
+          "fetch_error_count": 0,
+          "unresolved_count": 0,
+          "review_required_count": 0
         },
         {
           "name": "Demonology",
           "spec_id": 266,
           "slug": "warlock-demonology",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 13,
+          "talents_with_pvp_mechanics": 26,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 266,
-          "unresolved_count": 35,
-          "review_required_count": 125
+          "fetch_error_count": 0,
+          "unresolved_count": 0,
+          "review_required_count": 1
         },
         {
           "name": "Destruction",
           "spec_id": 267,
           "slug": "warlock-destruction",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 22,
+          "talents_with_pvp_mechanics": 32,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 287,
-          "unresolved_count": 29,
-          "review_required_count": 129
+          "fetch_error_count": 8,
+          "unresolved_count": 5,
+          "review_required_count": 0
         }
       ]
     },
@@ -492,34 +494,34 @@ window.WOW_PVP_MANIFEST = {
           "name": "Arms",
           "spec_id": 71,
           "slug": "warrior-arms",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 17,
+          "talents_with_pvp_mechanics": 47,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 274,
-          "unresolved_count": 54,
-          "review_required_count": 122
+          "fetch_error_count": 0,
+          "unresolved_count": 9,
+          "review_required_count": 3
         },
         {
           "name": "Fury",
           "spec_id": 72,
           "slug": "warrior-fury",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 13,
+          "talents_with_pvp_mechanics": 30,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 269,
-          "unresolved_count": 51,
-          "review_required_count": 122
+          "fetch_error_count": 0,
+          "unresolved_count": 4,
+          "review_required_count": 2
         },
         {
           "name": "Protection",
           "spec_id": 73,
           "slug": "warrior-protection",
-          "changed_tooltips": 0,
-          "talents_with_pvp_mechanics": 0,
+          "changed_tooltips": 10,
+          "talents_with_pvp_mechanics": 43,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 279,
-          "unresolved_count": 39,
-          "review_required_count": 125
+          "fetch_error_count": 0,
+          "unresolved_count": 4,
+          "review_required_count": 4
         }
       ]
     }

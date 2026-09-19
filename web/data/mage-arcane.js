@@ -49,15 +49,155 @@ window.WOW_PVP_DATA = {
         "spell_id": 235450,
         "icon": "spell_magearmor"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you with an arcane force, absorbing [30 / 100 * Total Health * (1 + Versatility)] damage and reducing magic damage taken by\n15\n% for 1 min.\nThe duration of harmful Magic effects against you is reduced by 25%.",
+      "pvp_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you with an arcane force, absorbing [30 / 100 * Total Health * (1 + Versatility)] damage and reducing magic damage taken by\n10\n% for 1 min.\nThe duration of harmful Magic effects against you is reduced by 15%.",
+      "tooltip_changed": true,
+      "render_status": "REVIEW_REQUIRED",
+      "changes": [
+        {
+          "start": 181,
+          "end": 183,
+          "old_token": "15",
+          "new_token": "10",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            3
+          ]
+        },
+        {
+          "start": 261,
+          "end": 263,
+          "old_token": "25",
+          "new_token": "15",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            4
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "AMBIGUOUS_TEXT_MATCH",
+          "kind": "ordinary_value",
+          "old": 30.0,
+          "new": 22.5,
+          "match_count": 2
+        },
+        {
+          "effect_indexes": [
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "15",
+          "new": "10"
+        },
+        {
+          "effect_indexes": [
+            4
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "25",
+          "new": "15"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 235450,
+          "source_spell_id": 235450,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Absorb Damage (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.75,
+          "amount_kind": "absorb",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 235450,
+          "source_spell_id": 235450,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Dummy (127)",
+          "base_value": 30.0,
+          "spell_pvp_multiplier": 0.75,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": 22.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 235450,
+          "source_spell_id": 235450,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Mod % Damage Taken (All)",
+          "base_value": -15.0,
+          "spell_pvp_multiplier": 0.67,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.67,
+          "final_pvp_value": -10.05,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 235450,
+          "source_spell_id": 235450,
+          "effect_index": 4,
+          "effect_text": "Apply Aura: Mod Debuffs Duration % (Magic)",
+          "base_value": -25.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": -15.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 3
     },
     {
       "talent_name": "Alter Time",
@@ -103,10 +243,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 342245,
         "icon": "spell_mage_altertime"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "1% of base mana\nInstant\n1 min cooldown\nAlters the fabric of time, returning you to your current location and health when cast a second time, or after 10 sec. Effect negated by long distance or death.",
+      "pvp_tooltip": "1% of base mana\nInstant\n1 min cooldown\nAlters the fabric of time, returning you to your current location and health when cast a second time, or after 10 sec. Effect negated by long distance or death.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -157,10 +297,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 45438,
         "icon": "spell_frost_frost"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n4 min cooldown\n1 Charge\nEncases you in a block of ice, protecting you from all attacks and damage for 10 sec, but during that time you cannot attack, move, or cast spells.\nCauses Hypothermia, preventing you from recasting Ice Block for 30 sec.",
+      "pvp_tooltip": "Instant\n4 min cooldown\n1 Charge\nEncases you in a block of ice, protecting you from all attacks and damage for 10 sec, but during that time you cannot attack, move, or cast spells.\nCauses Hypothermia, preventing you from recasting Ice Block for 30 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -210,10 +350,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1244087,
         "icon": "warrior_doubletime"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Alter Time resets the cooldown of Blink and Shimmer when you return to your original location.",
+      "pvp_tooltip": "Alter Time resets the cooldown of Blink and Shimmer when you return to your original location.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -263,10 +403,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1244090,
         "icon": "ability_evoker_timedilation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Upon dropping below 25% health, your past self corrects your timeline, casting Alter Time and instantly returning 20% of your maximum health and healing you for an additional 30% over 6 sec.",
+      "pvp_tooltip": "Upon dropping below 25% health, your past self corrects your timeline, casting Alter Time and instantly returning 20% of your maximum health and healing you for an additional 30% over 6 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -317,10 +457,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 342249,
         "icon": "inv_belt_armor_waistoftime_d_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of\nAlter Time\nby 5 sec.",
+      "pvp_tooltip": "Reduces the cooldown of\nAlter Time\nby 5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -371,10 +511,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 382424,
         "icon": "spell_ice_rune"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
+      "pvp_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -424,10 +564,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1250315,
         "icon": "spell_frost_icefloes"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Hypothermia's duration is reduced by 10 sec.",
+      "pvp_tooltip": "Hypothermia's duration is reduced by 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -479,10 +619,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 383092,
         "icon": "spell_arcane_arcaneresilience"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces magic damage taken by 4%.",
+      "pvp_tooltip": "Reduces magic damage taken by 4%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -535,10 +675,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 458437,
         "icon": "spell_holy_arcaneintellect"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Arcane Intellect grants you an additional 2% Intellect.",
+      "pvp_tooltip": "Arcane Intellect grants you an additional 2% Intellect.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -590,10 +730,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 55342,
         "icon": "spell_magic_lesserinvisibilty"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "2% of base mana\nInstant\n2 min cooldown\nCreates 3 copies of you nearby for 15 sec, which cast spells and attack your enemies. While active, you generate significantly reduced threat.\nTaking direct damage will cause one of your images to dissipate.\n(2s cooldown)",
+      "pvp_tooltip": "2% of base mana\nInstant\n2 min cooldown\nCreates 3 copies of you nearby for 15 sec, which cast spells and attack your enemies. While active, you generate significantly reduced threat.\nTaking direct damage will cause one of your images to dissipate.\n(2s cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -644,10 +784,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 30449,
         "icon": "spell_arcane_arcane02"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "21% of base mana\n40 yd range\nInstant\nSteals [\nKleptomania\n:\nall beneficial magic effects from the target. These effects lasts a maximum of 2 min\n/ a beneficial magic effect from the target. This effect lasts a maximum of 2 min].",
+      "pvp_tooltip": "21% of base mana\n40 yd range\nInstant\nSteals [\nKleptomania\n:\nall beneficial magic effects from the target. These effects lasts a maximum of 2 min\n/ a beneficial magic effect from the target. This effect lasts a maximum of 2 min].",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -700,10 +840,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 382297,
         "icon": "ability_priest_surgeofdarkness"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Counterspell's cooldown is reduced by 5 sec.",
+      "pvp_tooltip": "Counterspell's cooldown is reduced by 5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -753,15 +893,68 @@ window.WOW_PVP_DATA = {
         "spell_id": 31661,
         "icon": "inv_misc_head_dragon_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "4% of base mana\nInstant\n45 sec cooldown\nEnemies in a 12 yd cone in front of you take (66.99% of Spell Power) Fire damage and are disoriented for 4 sec. Damage will cancel the effect.",
+      "pvp_tooltip": "4% of base mana\nInstant\n45 sec cooldown\nEnemies in a 12 yd cone in front of you take (63.6405% of Spell Power) Fire damage and are disoriented for 4 sec. Damage will cancel the effect.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 86,
+          "end": 91,
+          "old_token": "66.99",
+          "new_token": "63.6405",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "66.99",
+          "new": "63.6405"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 31661,
+          "source_spell_id": 31661,
+          "effect_index": 2,
+          "effect_text": "School Damage (Fire) (SP mod: 0.6699)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.95,
+          "final_pvp_multiplier": 0.95,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256909,
+              "game_effect_id": 1264661,
+              "amount_kind": "direct",
+              "value_pct": -5.0,
+              "factor": 0.95,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Supernova",
@@ -806,15 +999,68 @@ window.WOW_PVP_DATA = {
         "spell_id": 157980,
         "icon": "spell_mage_supernova"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "40 yd range\nInstant\n45 sec cooldown\nPulses arcane energy around the target enemy or ally, dealing (34.5% of Spell Power) Arcane damage to all enemies within 8 yds, and knocking them upward. A primary enemy target will take 100% increased damage.",
+      "pvp_tooltip": "40 yd range\nInstant\n45 sec cooldown\nPulses arcane energy around the target enemy or ally, dealing (32.775% of Spell Power) Arcane damage to all enemies within 8 yds, and knocking them upward. A primary enemy target will take 100% increased damage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 99,
+          "end": 103,
+          "old_token": "34.5",
+          "new_token": "32.775",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "34.5",
+          "new": "32.775"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 157980,
+          "source_spell_id": 157980,
+          "effect_index": 2,
+          "effect_text": "School Damage (Arcane) (SP mod: 0.345)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.95,
+          "final_pvp_multiplier": 0.95,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256909,
+              "game_effect_id": 1264661,
+              "amount_kind": "direct",
+              "value_pct": -5.0,
+              "factor": 0.95,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Remove Curse",
@@ -862,10 +1108,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 475,
         "icon": "spell_nature_removecurse"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "1.3% of base mana\n40 yd range\nInstant\n8 sec cooldown\nRemoves all Curses from a friendly target.",
+      "pvp_tooltip": "1.3% of base mana\n40 yd range\nInstant\n8 sec cooldown\nRemoves all Curses from a friendly target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -915,15 +1161,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 1244025,
         "icon": "spell_arcane_focusedpower"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Mirror Image's cooldown is reduced by 30 sec.",
+      "pvp_tooltip": "Mirror Image's cooldown is reduced by 15 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 38,
+          "end": 40,
+          "old_token": "30",
+          "new_token": "15",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "30",
+          "new": "15"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1244025,
+          "source_spell_id": 1244025,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Cooldown (11)",
+          "base_value": -30.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": -15.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Improved Spellsteal",
@@ -968,15 +1259,107 @@ window.WOW_PVP_DATA = {
         "spell_id": 1270827,
         "icon": "spell_arcane_arcane02"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Spellsteal repeats its effect after 4 sec, but it now has a cooldown of 4.0 sec.",
+      "pvp_tooltip": "Spellsteal repeats its effect after 4 sec, but it now has a cooldown of 4.0 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 26.8,
+          "new": 25.46,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1270827,
+          "source_spell_id": 44461,
+          "effect_index": 2,
+          "effect_text": "School Damage (Fire) (SP mod: 0.268)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.95,
+          "final_pvp_multiplier": 0.95,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1270827,
+            1270828,
+            44457,
+            44461
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256909,
+              "game_effect_id": 1264661,
+              "amount_kind": "direct",
+              "value_pct": -5.0,
+              "factor": 0.95,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1270827,
+          "source_spell_id": 217694,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 0.95,
+          "final_pvp_multiplier": 0.95,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1270827,
+            1270828,
+            44457,
+            217694
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256909,
+              "game_effect_id": 1264842,
+              "amount_kind": "periodic",
+              "value_pct": -5.0,
+              "factor": 0.95,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Shimmer",
@@ -1024,10 +1407,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 212653,
         "icon": "spell_arcane_massdispel"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Replaces\nBlink\n2% of base mana\nInstant\n30 sec cooldown\n1 Charge\nTeleports you 20 yds forward, unless something is in the way. Unaffected by the global cooldown and castable while casting.",
+      "pvp_tooltip": "Replaces\nBlink\n2% of base mana\nInstant\n30 sec cooldown\n1 Charge\nTeleports you 20 yds forward, unless something is in the way. Unaffected by the global cooldown and castable while casting.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1080,15 +1463,50 @@ window.WOW_PVP_DATA = {
         "spell_id": 1244340,
         "icon": "spell_arcane_blink"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "[\nShimmer\n/ Blink]'s cooldown is reduced by 2 sec.",
+      "pvp_tooltip": "[\nShimmer\n/ Blink]'s cooldown is reduced by 2 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 2000.0,
+          "new": 1000.0,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1244340,
+          "source_spell_id": 1244340,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Cooldown Ms (1446)",
+          "base_value": -2000.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": -1000.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Improved Counterspell",
@@ -1133,10 +1551,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1270865,
         "icon": "inv_1115_mage_counterspell"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Counterspell prevents casting for an additional 1.0 sec.",
+      "pvp_tooltip": "Counterspell prevents casting for an additional 1.0 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1190,10 +1608,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 390218,
         "icon": "spell_arcane_manatap"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Each time your Arcane Barrage fails to critically strike, it gains 10% increased critical strike chance.\nCritical strike bonus is removed when the affected spell critically strikes.",
+      "pvp_tooltip": "Each time your Arcane Barrage fails to critically strike, it gains 10% increased critical strike chance.\nCritical strike bonus is removed when the affected spell critically strikes.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1243,10 +1661,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1270847,
         "icon": "spell_nature_removecurse"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Remove Curse on a friendly target also casts it on yourself, but its cooldown is increased by 20 sec.",
+      "pvp_tooltip": "Casting Remove Curse on a friendly target also casts it on yourself, but its cooldown is increased by 20 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1299,10 +1717,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 110959,
         "icon": "ability_mage_greaterinvisibility"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n2 min cooldown\nMakes you invisible and untargetable for 20 sec, removing all threat. Any action taken cancels this effect.",
+      "pvp_tooltip": "Instant\n2 min cooldown\nMakes you invisible and untargetable for 20 sec, removing all threat. Any action taken cancels this effect.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1353,10 +1771,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 343183,
         "icon": "spell_frost_frostnova"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Frost Nova duration is increased by 2 sec.",
+      "pvp_tooltip": "Frost Nova duration is increased by 2 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1407,10 +1825,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 205036,
         "icon": "spell_frost_frostward"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Frost Nova now has 2 charges.",
+      "pvp_tooltip": "Frost Nova now has 2 charges.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1460,10 +1878,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1270872,
         "icon": "spell_nature_elementalabsorption"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The duration of Clearcasting is increased by 10 sec.",
+      "pvp_tooltip": "The duration of Clearcasting is increased by 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1517,10 +1935,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 382493,
         "icon": "inv_misc_book_04"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases critical strike chance by 2%.",
+      "pvp_tooltip": "Increases critical strike chance by 2%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1570,10 +1988,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1297073,
         "icon": "inv_cloth_raidmage_p_01helm"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Damage taken from area of effect attacks reduced by 4%.",
+      "pvp_tooltip": "Damage taken from area of effect attacks reduced by 4%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1627,10 +2045,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 382490,
         "icon": "inv_misc_book_18"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases Haste by 2%.",
+      "pvp_tooltip": "Increases Haste by 2%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1680,15 +2098,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 382293,
         "icon": "rogue_burstofspeed"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "[\nGreater Invisibility\n:\nGreater\n]Invisibility increases your movement speed by 20% for 6 sec.",
+      "pvp_tooltip": "[\nGreater Invisibility\n:\nGreater\n]Invisibility increases your movement speed by 10% for 6 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 80,
+          "end": 82,
+          "old_token": "20",
+          "new_token": "10",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "20",
+          "new": "10"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 382293,
+          "source_spell_id": 382293,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 10.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Master of Escape",
@@ -1733,10 +2196,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 210476,
         "icon": "ability_mage_invisibility"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Invisibility by 60 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Invisibility by 60 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1790,10 +2253,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1244105,
         "icon": "inv_nerubian_necklace_02_color5"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The critical strike damage of your spells is increased by 5%.",
+      "pvp_tooltip": "The critical strike damage of your spells is increased by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1843,10 +2306,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 461261,
         "icon": "ability_kaztik_dominatemind"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Gaining Clearcasting increases your Intellect by 1% for 8 sec. Multiple instances may overlap.",
+      "pvp_tooltip": "Gaining Clearcasting increases your Intellect by 1% for 8 sec. Multiple instances may overlap.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1900,15 +2363,72 @@ window.WOW_PVP_DATA = {
         "spell_id": 382268,
         "icon": "spell_arcane_blink"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The cooldowns of Blink and Shimmer are reduced by 3 sec.",
+      "pvp_tooltip": "The cooldowns of Blink and Shimmer are reduced by 3 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1,
+            2
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 3000.0,
+          "new": 1500.0,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 382268,
+          "source_spell_id": 382268,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Cooldown Ms (1446)",
+          "base_value": -3000.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": -1500.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 382268,
+          "source_spell_id": 382268,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Mod Cooldown Ms (1632)",
+          "base_value": -3000.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": -1500.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Mana Confluence",
@@ -1953,10 +2473,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1270845,
         "icon": "spell_shaman_blessingoftheeternals"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your mana costs are reduced by 5%.",
+      "pvp_tooltip": "Your mana costs are reduced by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2010,10 +2530,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1244107,
         "icon": "inv_nerubian_necklace_02_color1"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Mastery is increased by 3%.",
+      "pvp_tooltip": "Your Mastery is increased by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2063,10 +2583,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1265517,
         "icon": "inv_10_dungeonjewelry_primalist_necklace_2_frost"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The cooldown of Ice Block and Ice Cold are reduced by 30 sec.",
+      "pvp_tooltip": "The cooldown of Ice Block and Ice Cold are reduced by 30 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2116,15 +2636,65 @@ window.WOW_PVP_DATA = {
         "spell_id": 386763,
         "icon": "spell_frost_glacier"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Enemies hit by Cone of Cold are frozen in place for 5 sec instead of snared.\nWhen your roots expire or are dispelled, your target is snared by 80%, decaying over 3 sec.",
+      "pvp_tooltip": "Enemies hit by Cone of Cold are frozen in place for 5 sec instead of snared.\nWhen your roots expire or are dispelled, your target is snared by 70%, decaying over 3 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 143,
+          "end": 145,
+          "old_token": "80",
+          "new_token": "70",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "80",
+          "new": "70"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 386763,
+          "source_spell_id": 394255,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": 80.0,
+          "spell_pvp_multiplier": 0.875,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.875,
+          "final_pvp_value": 70.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            386763,
+            394255
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Ice Nova",
@@ -2169,15 +2739,68 @@ window.WOW_PVP_DATA = {
         "spell_id": 157997,
         "icon": "spell_mage_icenova"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "40 yd range\nInstant\n25 sec cooldown\nCauses a whirl of icy wind around the enemy, dealing (138% of Spell Power) Frost damage to the target and all other enemies within 8 yds, freezing them in place for 2 sec. Damage reduced beyond 8 targets.",
+      "pvp_tooltip": "40 yd range\nInstant\n25 sec cooldown\nCauses a whirl of icy wind around the enemy, dealing (131.1% of Spell Power) Frost damage to the target and all other enemies within 8 yds, freezing them in place for 2 sec. Damage reduced beyond 8 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 90,
+          "end": 93,
+          "old_token": "138",
+          "new_token": "131.1",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "138",
+          "new": "131.1"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 157997,
+          "source_spell_id": 157997,
+          "effect_index": 1,
+          "effect_text": "School Damage (Frost) (SP mod: 1.38)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.95,
+          "final_pvp_multiplier": 0.95,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256909,
+              "game_effect_id": 1264661,
+              "amount_kind": "direct",
+              "value_pct": -5.0,
+              "factor": 0.95,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Time Manipulation",
@@ -2225,10 +2848,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 387807,
         "icon": "spell_nature_timestop"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The cooldowns of your loss of control spells are reduced by 5 sec.",
+      "pvp_tooltip": "The cooldowns of your loss of control spells are reduced by 5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2278,15 +2901,65 @@ window.WOW_PVP_DATA = {
         "spell_id": 113724,
         "icon": "spell_frost_ring_of_frost"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "8% of base mana\n30 yd range\n2 sec cast\n45 sec cooldown\nSummons a Ring of Frost for 10 sec at the target location. Enemies entering the ring are incapacitated for 10 sec. Limit 10 targets.\nWhen the incapacitate expires, enemies are slowed by 65% for 4 sec.",
+      "pvp_tooltip": "8% of base mana\n30 yd range\n2 sec cast\n45 sec cooldown\nSummons a Ring of Frost for 10 sec at the target location. Enemies entering the ring are incapacitated for 10 sec. Limit 10 targets.\nWhen the incapacitate expires, enemies are slowed by 50% for 4 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 241,
+          "end": 243,
+          "old_token": "65",
+          "new_token": "50",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "65",
+          "new": "50"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 113724,
+          "source_spell_id": 321329,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -65.0,
+          "spell_pvp_multiplier": 0.769231,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.769231,
+          "final_pvp_value": -50.000015,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            113724,
+            321329
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Mass Polymorph",
@@ -2331,10 +3004,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 383121,
         "icon": "spell_nature_doublepolymorph1"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "4% of base mana\n1.7 sec cast\n1 min cooldown\nTransforms all enemies within 10 yards into sheep, wandering around incapacitated for 15 sec. While affected, the victims cannot take actions but will regenerate health very quickly. Damage will cancel the effect.\nOnly works on Beasts, Humanoids and Critters.",
+      "pvp_tooltip": "4% of base mana\n1.7 sec cast\n1 min cooldown\nTransforms all enemies within 10 yards into sheep, wandering around incapacitated for 15 sec. While affected, the victims cannot take actions but will regenerate health very quickly. Damage will cancel the effect.\nOnly works on Beasts, Humanoids and Critters.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2387,10 +3060,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 386828,
         "icon": "spell_mage_temporalshield"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting your barrier removes all snare effects.",
+      "pvp_tooltip": "Casting your barrier removes all snare effects.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2440,10 +3113,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 414664,
         "icon": "ability_mage_massinvisibility"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "6% of base mana\nInstant\n5 min cooldown\nYou and your allies within 40 yards instantly become invisible for 12 sec. Taking any action will cancel the effect.\nDoes not affect allies in combat.",
+      "pvp_tooltip": "6% of base mana\nInstant\n5 min cooldown\nYou and your allies within 40 yards instantly become invisible for 12 sec. Taking any action will cancel the effect.\nDoes not affect allies in combat.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2493,15 +3166,50 @@ window.WOW_PVP_DATA = {
         "spell_id": 455428,
         "icon": "spell_mage_evanesce"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When your Barrier is removed, reduce its cooldown by 5 sec.",
+      "pvp_tooltip": "When your Barrier is removed, reduce its cooldown by 5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 5000.0,
+          "new": 2500.0,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 455428,
+          "source_spell_id": 455428,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 5000.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 2500.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Ice Cold",
@@ -2546,10 +3254,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 414659,
         "icon": "spell_fire_bluefire"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Ice Block now reduces all damage taken by 70% for 6 sec but no longer grants Immunity, prevents movement, attacks, or casting spells. Does not incur the Global Cooldown.",
+      "pvp_tooltip": "Ice Block now reduces all damage taken by 70% for 6 sec but no longer grants Immunity, prevents movement, attacks, or casting spells. Does not incur the Global Cooldown.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2599,10 +3307,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1244031,
         "icon": "spell_mage_overpowered"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "[\nShimmer\n/ Blink] gains an additional charge.",
+      "pvp_tooltip": "[\nShimmer\n/ Blink] gains an additional charge.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2652,10 +3360,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1270829,
         "icon": "ability_hunter_displacement"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Teleports you back to where you last [\nShimmer\n:\nShimmered\n/ Blinked]. Castable while casting and unaffected by the global cooldown.",
+      "pvp_tooltip": "Teleports you back to where you last [\nShimmer\n:\nShimmered\n/ Blinked]. Castable while casting and unaffected by the global cooldown.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2705,10 +3413,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 321745,
         "icon": "spell_magearmor"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Prismatic Barrier gains an additional charge and further reduces magic damage taken by 5%.",
+      "pvp_tooltip": "Prismatic Barrier gains an additional charge and further reduces magic damage taken by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2757,15 +3465,119 @@ window.WOW_PVP_DATA = {
         "spell_id": 5143,
         "icon": "spell_nature_starfall"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "15% of base mana\n40 yd range\nChanneled (2.5 sec cast)\nLaunches 5 waves of Arcane Missiles at the enemy over 2.5 sec, causing a total of [(4) * (107.8% of Spell Power)] Arcane damage.",
+      "pvp_tooltip": "15% of base mana\n40 yd range\nChanneled (2.5 sec cast)\nLaunches 5 waves of Arcane Missiles at the enemy over 2.5 sec, causing a total of [(4) * (178.1934% of Spell Power)] Arcane damage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 144,
+          "end": 149,
+          "old_token": "107.8",
+          "new_token": "178.1934",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 53.900000000000006,
+          "new": 89.09670000000001,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "107.8",
+          "new": "178.1934"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 5143,
+          "source_spell_id": 7268,
+          "effect_index": 1,
+          "effect_text": "School Damage (Arcane) (SP mod: 1.078)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.74,
+          "amount_kind": "direct",
+          "aura_factor": 0.95,
+          "final_pvp_multiplier": 1.653,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            5143,
+            7268
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256909,
+              "game_effect_id": 1264661,
+              "amount_kind": "direct",
+              "value_pct": -5.0,
+              "factor": 0.95,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 5143,
+          "source_spell_id": 7268,
+          "effect_index": 2,
+          "effect_text": "School Damage (Arcane) (SP mod: 0.539)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.74,
+          "amount_kind": "direct",
+          "aura_factor": 0.95,
+          "final_pvp_multiplier": 1.653,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            5143,
+            7268
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256909,
+              "game_effect_id": 1264661,
+              "amount_kind": "direct",
+              "value_pct": -5.0,
+              "factor": 0.95,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Concentrated Power",
@@ -2811,10 +3623,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 414379,
         "icon": "spell_mage_overpowered"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Arcane Missiles channels 20% faster.",
+      "pvp_tooltip": "Arcane Missiles channels 20% faster.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2865,15 +3677,66 @@ window.WOW_PVP_DATA = {
         "spell_id": 384452,
         "icon": "inv12_ability_mage_arcanesalvo"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Each wave of Arcane Missiles increases the damage of Arcane Barrage by 3%, up to 60%.",
+      "pvp_tooltip": "Each wave of Arcane Missiles increases the damage of Arcane Barrage by 3%, up to 60%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 87.952,
+          "new": 107.60971176000001,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 384452,
+          "source_spell_id": 44425,
+          "effect_index": 1,
+          "effect_text": "School Damage (Arcane) (SP mod: 0.87952)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.2879,
+          "amount_kind": "direct",
+          "aura_factor": 0.95,
+          "final_pvp_multiplier": 1.223505,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            384452,
+            1242974,
+            44425
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "triggered_by_reverse"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256909,
+              "game_effect_id": 1264661,
+              "amount_kind": "direct",
+              "value_pct": -5.0,
+              "factor": 0.95,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Improved Clearcasting",
@@ -2918,10 +3781,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 321420,
         "icon": "spell_shadow_manaburn"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Clearcasting can stack up to 2 additional times.",
+      "pvp_tooltip": "Clearcasting can stack up to 2 additional times.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2972,10 +3835,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1309497,
         "icon": "inv_112_arcane_buff"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "10% of damage you would take is instead dealt over 8 sec. Casting Mirror Image increases this effect to 30% for 15 sec.",
+      "pvp_tooltip": "10% of damage you would take is instead dealt over 8 sec. Casting Mirror Image increases this effect to 30% for 15 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3025,10 +3888,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 231564,
         "icon": "ability_mage_arcanebarrage"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "For each Arcane Charge, Arcane Barrage hits 1 additional nearby target for 40% damage.",
+      "pvp_tooltip": "For each Arcane Charge, Arcane Barrage hits 1 additional nearby target for 40% damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3079,15 +3942,68 @@ window.WOW_PVP_DATA = {
         "spell_id": 1241462,
         "icon": "spell_arcane_arcanetorrent"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "10% of base mana\n40 yd range\n2 sec cast\n15 sec cooldown\nA pulse of Arcane magic erupts from underneath your target, dealing (600% of Spell Power) Arcane damage to all enemies within 8 yds. Damage reduced beyond 5 targets.\nGenerates 1 Arcane Charge for each enemy struck.",
+      "pvp_tooltip": "10% of base mana\n40 yd range\n2 sec cast\n15 sec cooldown\nA pulse of Arcane magic erupts from underneath your target, dealing (570% of Spell Power) Arcane damage to all enemies within 8 yds. Damage reduced beyond 5 targets.\nGenerates 1 Arcane Charge for each enemy struck.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 125,
+          "end": 128,
+          "old_token": "600",
+          "new_token": "570",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "600",
+          "new": "570"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1241462,
+          "source_spell_id": 1241462,
+          "effect_index": 1,
+          "effect_text": "School Damage (Arcane) (SP mod: 6)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.95,
+          "final_pvp_multiplier": 0.95,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256909,
+              "game_effect_id": 1264661,
+              "amount_kind": "direct",
+              "value_pct": -5.0,
+              "factor": 0.95,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Arcane Surge",
@@ -3134,15 +4050,146 @@ window.WOW_PVP_DATA = {
         "spell_id": 365350,
         "icon": "ability_mage_arcanesurge"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "1 to 2900001 Mana\n40 yd range\n2.5 sec cast\n1.5 min cooldown\nExpend all of your current mana to annihilate your enemy target and nearby enemies for up to\n[(372% of Spell Power) * 2]\nArcane damage based on Mana spent. Deals reduced damage beyond 8 targets.\nFor the next 15 sec, your Mana regeneration is increased by 425% and spell damage is increased by 35%.\nGenerates Clearcasting.",
+      "pvp_tooltip": "1 to 2900001 Mana\n40 yd range\n2.5 sec cast\n1.5 min cooldown\nExpend all of your current mana to annihilate your enemy target and nearby enemies for up to\n[(494.76% of Spell Power) * 2]\nArcane damage based on Mana spent. Deals reduced damage beyond 8 targets.\nFor the next 15 sec, your Mana regeneration is increased by 425% and spell damage is increased by 15%.\nGenerates Clearcasting.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 155,
+          "end": 158,
+          "old_token": "372",
+          "new_token": "494.76",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 353,
+          "end": 355,
+          "old_token": "35",
+          "new_token": "15",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1,
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "372",
+          "new": "494.76"
+        },
+        {
+          "effect_indexes": [
+            1,
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "35",
+          "new": "15"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 365350,
+          "source_spell_id": 365350,
+          "effect_index": 1,
+          "effect_text": "School Damage (Arcane) (SP mod: 3.72)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.4,
+          "amount_kind": "direct",
+          "aura_factor": 0.95,
+          "final_pvp_multiplier": 1.3299999999999998,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256909,
+              "game_effect_id": 1264661,
+              "amount_kind": "direct",
+              "value_pct": -5.0,
+              "factor": 0.95,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 365350,
+          "source_spell_id": 365362,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 35.0,
+          "spell_pvp_multiplier": 0.4286,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.4286,
+          "final_pvp_value": 15.001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            365350,
+            365362
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 365350,
+          "source_spell_id": 365362,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
+          "base_value": 35.0,
+          "spell_pvp_multiplier": 0.4286,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.4286,
+          "final_pvp_value": 15.001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            365350,
+            365362
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 3
     },
     {
       "talent_name": "Arcane Orb",
@@ -3188,15 +4235,74 @@ window.WOW_PVP_DATA = {
         "spell_id": 153626,
         "icon": "spell_mage_arcaneorb"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "1% of base mana\n40 yd range\nInstant\n20 sec cooldown\n1 Charge\nLaunches an Arcane Orb forward from your position, traveling up to 40 yds, dealing (243.2% of Spell Power) Arcane damage to enemies it passes through.\nGrants 1 Arcane Charge when cast and every time it deals damage.",
+      "pvp_tooltip": "1% of base mana\n40 yd range\nInstant\n20 sec cooldown\n1 Charge\nLaunches an Arcane Orb forward from your position, traveling up to 40 yds, dealing (323.456% of Spell Power) Arcane damage to enemies it passes through.\nGrants 1 Arcane Charge when cast and every time it deals damage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 145,
+          "end": 150,
+          "old_token": "243.2",
+          "new_token": "323.456",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "243.2",
+          "new": "323.456"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 153626,
+          "source_spell_id": 153640,
+          "effect_index": 1,
+          "effect_text": "School Damage (Arcane) (SP mod: 2.432)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.4,
+          "amount_kind": "direct",
+          "aura_factor": 0.95,
+          "final_pvp_multiplier": 1.3299999999999998,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            153626,
+            153640
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256909,
+              "game_effect_id": 1264661,
+              "amount_kind": "direct",
+              "value_pct": -5.0,
+              "factor": 0.95,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Reverberate",
@@ -3241,10 +4347,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 281482,
         "icon": "spell_arcane_arcane04"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Arcane Pulse has a 50% chance to repeat its explosion at 30% effectiveness.",
+      "pvp_tooltip": "Arcane Pulse has a 50% chance to repeat its explosion at 30% effectiveness.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3297,10 +4403,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 205025,
         "icon": "spell_nature_enchantarmor"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n45 sec cooldown\nCauses your next 2 Arcane Blasts to be instant cast\n.",
+      "pvp_tooltip": "Instant\n45 sec cooldown\nCauses your next 2 Arcane Blasts to be instant cast\n.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3353,10 +4459,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 236457,
         "icon": "spell_holy_mindsooth"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Arcane Missiles and Evocation can now be channeled while moving.",
+      "pvp_tooltip": "Arcane Missiles and Evocation can now be channeled while moving.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3404,10 +4510,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 457521,
         "icon": "spell_holy_surgeoflight_shadow"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Arcane Surge's damage is increased by an additional 50% based on your mana spent.",
+      "pvp_tooltip": "Arcane Surge's damage is increased by an additional 50% based on your mana spent.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3460,10 +4566,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 205022,
         "icon": "ability_socererking_arcanemines"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Arcane Intellect summons a Familiar that attacks your enemies and increases your maximum mana by 10% for 1 hour.",
+      "pvp_tooltip": "Casting Arcane Intellect summons a Familiar that attacks your enemies and increases your maximum mana by 10% for 1 hour.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3513,10 +4619,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 384651,
         "icon": "spell_mage_arcaneorb"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Arcane Orb gains 1 additional charge. Arcane Orb damage increased by 15%.",
+      "pvp_tooltip": "Arcane Orb gains 1 additional charge. Arcane Orb damage increased by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3569,10 +4675,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1223798,
         "icon": "spell_shadow_brainwash"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Upon reaching maximum stacks of Arcane Salvo, your next Arcane Barrage deals 25% increased damage.",
+      "pvp_tooltip": "Upon reaching maximum stacks of Arcane Salvo, your next Arcane Barrage deals 25% increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3620,10 +4726,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 236628,
         "icon": "spell_arcane_invocation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Arcane Missiles fires 2 additional missiles.",
+      "pvp_tooltip": "Arcane Missiles fires 2 additional missiles.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3676,10 +4782,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 321507,
         "icon": "inv_ability_mage_radiantspark"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "5% of base mana\n40 yd range\nInstant\n45 sec cooldown\n1 Charge\nApplies Touch of the Magi to your current target, accumulating 20% of the damage you deal to the target for 12 sec, and then exploding for that amount of Arcane damage to the target and reduced damage to all nearby enemies.\nGenerates 4 Arcane Charges.",
+      "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\n45 sec cooldown\n1 Charge\nApplies Touch of the Magi to your current target, accumulating 20% of the damage you deal to the target for 12 sec, and then exploding for that amount of Arcane damage to the target and reduced damage to all nearby enemies.\nGenerates 4 Arcane Charges.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3729,10 +4835,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 452997,
         "icon": "spell_lightning_lightningbolt01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "During Arcane Surge, your Arcane Familiar fires 4 bolts instead of 1.\nDamage from your Arcane Familiar has a 6% chance to restore 2% of your maximum mana.",
+      "pvp_tooltip": "During Arcane Surge, your Arcane Familiar fires 4 bolts instead of 1.\nDamage from your Arcane Familiar has a 6% chance to restore 2% of your maximum mana.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3784,10 +4890,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1243557,
         "icon": "inv_helmet_101"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Arcane Blast or Arcane Pulse grants 2 stacks of Arcane Salvo.\nCasting Arcane Orb grants 1 stack of Arcane Salvo.\nCasting Prismatic Bolt grants 4 stacks of Arcane Salvo.",
+      "pvp_tooltip": "Casting Arcane Blast or Arcane Pulse grants 2 stacks of Arcane Salvo.\nCasting Arcane Orb grants 1 stack of Arcane Salvo.\nCasting Prismatic Bolt grants 4 stacks of Arcane Salvo.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3837,10 +4943,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 461260,
         "icon": "inv_6_2raid_trinket_1b"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces Arcane Blast's mana cost by 5% and increases its damage by 8%.",
+      "pvp_tooltip": "Reduces Arcane Blast's mana cost by 5% and increases its damage by 8%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3890,10 +4996,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 383980,
         "icon": "ability_socererking_arcaneacceleration"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Haste is increased by 2%.",
+      "pvp_tooltip": "Your Haste is increased by 2%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3945,10 +5051,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1243307,
         "icon": "inv_enchant_essencearcanelarge"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Arcane Missiles now damages 2 additional targets at 50% effectiveness.",
+      "pvp_tooltip": "Arcane Missiles now damages 2 additional targets at 50% effectiveness.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3999,10 +5105,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1243507,
         "icon": "inv_misc_scrollrolled03d"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Touch of the Magi grants Clearcasting.",
+      "pvp_tooltip": "Casting Touch of the Magi grants Clearcasting.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4053,15 +5159,63 @@ window.WOW_PVP_DATA = {
         "spell_id": 342231,
         "icon": "ability_socererking_arcanewrath"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Direct damage you deal to enemies affected by [\nNether Flux\n/ Touch of the Magi], causes an explosion that deals [\nNether Flux\n:\n[(10% of Spell Power) * 5]\n/ (10% of Spell Power)] Arcane damage to all nearby enemies. Deals reduced damage beyond 8 targets.",
+      "pvp_tooltip": "Direct damage you deal to enemies affected by [\nNether Flux\n/ Touch of the Magi], causes an explosion that deals [\nNether Flux\n:\n[(10% of Spell Power) * 5]\n/ (10% of Spell Power)] Arcane damage to all nearby enemies. Deals reduced damage beyond 8 targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "REVIEW_REQUIRED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "AMBIGUOUS_TEXT_MATCH",
+          "kind": "spell_power_coefficient",
+          "old": 10.0,
+          "new": 9.5,
+          "match_count": 2
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 342231,
+          "source_spell_id": 342232,
+          "effect_index": 1,
+          "effect_text": "School Damage (Arcane) (SP mod: 0.1)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.95,
+          "final_pvp_multiplier": 0.95,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            342231,
+            342232
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256909,
+              "game_effect_id": 1264661,
+              "amount_kind": "direct",
+              "value_pct": -5.0,
+              "factor": 0.95,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Resonance",
@@ -4109,10 +5263,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 205028,
         "icon": "spell_arcane_arcane01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Arcane Barrage deals 8% increased damage per target it hits beyond the first.",
+      "pvp_tooltip": "Arcane Barrage deals 8% increased damage per target it hits beyond the first.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4162,10 +5316,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 383676,
         "icon": "spell_arcane_arcanetorrent"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Arcane Blast generates an additional Arcane Charge.\nModifies Effect #2's Value +1:\nArcane Blast",
+      "pvp_tooltip": "Arcane Blast generates an additional Arcane Charge.\nModifies Effect #2's Value +1:\nArcane Blast",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4217,10 +5371,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 12051,
         "icon": "spell_nature_purge"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Channeled (3 sec cast)\n45 sec cooldown\n1 Charge\nIncreases your mana regeneration by 1500% for 3 sec.",
+      "pvp_tooltip": "Channeled (3 sec cast)\n45 sec cooldown\n1 Charge\nIncreases your mana regeneration by 1500% for 3 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4272,10 +5426,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 321526,
         "icon": "spell_arcane_arcanepotency"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Arcane Barrage grants you 2.0% of your maximum mana per Arcane Charge spent.",
+      "pvp_tooltip": "Arcane Barrage grants you 2.0% of your maximum mana per Arcane Charge spent.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4327,10 +5481,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 321387,
         "icon": "ability_socererking_arcanefortification"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Arcane damage dealt is increased based on your current mana, up to 6% at full mana.\nMana Regen is increased based on your current mana, up to 20% when out of mana.",
+      "pvp_tooltip": "Arcane damage dealt is increased based on your current mana, up to 6% at full mana.\nMana Regen is increased based on your current mana, up to 20% when out of mana.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4382,10 +5536,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 461257,
         "icon": "ability_racial_arcaneaffinity"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Each wave of Arcane Missiles has a 50% chance to grant 1 additional stack of Arcane Salvo.",
+      "pvp_tooltip": "Each wave of Arcane Missiles has a 50% chance to grant 1 additional stack of Arcane Salvo.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4436,10 +5590,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 384060,
         "icon": "spell_arcane_focusedpower"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Clearcasting has a 3% increased chance to proc.",
+      "pvp_tooltip": "Clearcasting has a 3% increased chance to proc.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4491,10 +5645,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 384612,
         "icon": "ability_mage_studentofthemind"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Arcane Charges increase the damage of Arcane Blast and Arcane Barrage by an additional 10%.",
+      "pvp_tooltip": "Arcane Charges increase the damage of Arcane Blast and Arcane Barrage by an additional 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4545,10 +5699,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 452198,
         "icon": "spell_mage_presenceofmind"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When a spell consumes Clearcasting, its damage is increased by 20%.",
+      "pvp_tooltip": "When a spell consumes Clearcasting, its damage is increased by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4600,15 +5754,109 @@ window.WOW_PVP_DATA = {
         "spell_id": 1244001,
         "icon": "spell_nature_wispheal"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Arcane Salvo damage bonus increased by 2%.\nArcane Salvo\n:\nIncreases the damage of your next Arcane Barrage by 3%.",
+      "pvp_tooltip": "Arcane Salvo damage bonus increased by 1%.\nArcane Salvo\n:\nIncreases the damage of your next Arcane Barrage by 3%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 39,
+          "end": 40,
+          "old_token": "2",
+          "new_token": "1",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 87.952,
+          "new": 107.60971176000001,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "2",
+          "new": "1"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1244001,
+          "source_spell_id": 1244001,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Add Modifier - Flat (Label): Modifies Effect #1's Value (3)",
+          "base_value": 2.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 1.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1244001,
+          "source_spell_id": 44425,
+          "effect_index": 1,
+          "effect_text": "School Damage (Arcane) (SP mod: 0.87952)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.2879,
+          "amount_kind": "direct",
+          "aura_factor": 0.95,
+          "final_pvp_multiplier": 1.223505,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1244001,
+            1242974,
+            44425
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "triggered_by_reverse"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256909,
+              "game_effect_id": 1264661,
+              "amount_kind": "direct",
+              "value_pct": -5.0,
+              "factor": 0.95,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "High Voltage",
@@ -4651,10 +5899,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 461248,
         "icon": "spell_shaman_maelstromweapon"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Each wave of Arcane Missiles has a 50% chance to grant you 1 Arcane Charge.\nArcane Missiles damage increased by 20%.",
+      "pvp_tooltip": "Each wave of Arcane Missiles has a 50% chance to grant you 1 Arcane Charge.\nArcane Missiles damage increased by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4702,10 +5950,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 461251,
         "icon": "ability_mage_missilebarrage"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Each wave of Arcane Missiles will consume an Arcane Charge to increase its damage by 40%.",
+      "pvp_tooltip": "Each wave of Arcane Missiles will consume an Arcane Charge to increase its damage by 40%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4753,10 +6001,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1243542,
         "icon": "inv_offhand_pvealliance_d_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The damage of Arcane Blast and Arcane Pulse are increased by 15%, but their mana costs are increased by 25%.",
+      "pvp_tooltip": "The damage of Arcane Blast and Arcane Pulse are increased by 15%, but their mana costs are increased by 25%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4804,15 +6052,65 @@ window.WOW_PVP_DATA = {
         "spell_id": 1244329,
         "icon": "ability_socererking_arcanereplication"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Gaining Clearcasting has a 25% chance to cause your next Arcane Missiles to be Overpowered, causing it to deal 100% increased damage, generate maximum stacks of Arcane Salvo, and strike 3 additional targets at 50% effectiveness.",
+      "pvp_tooltip": "Gaining Clearcasting has a 25% chance to cause your next Arcane Missiles to be Overpowered, causing it to deal 50% increased damage, generate maximum stacks of Arcane Salvo, and strike 3 additional targets at 50% effectiveness.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 111,
+          "end": 114,
+          "old_token": "100",
+          "new_token": "50",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "100",
+          "new": "50"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1244329,
+          "source_spell_id": 1277009,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 100.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 50.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1244329,
+            1277009
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Orb Mastery",
@@ -4855,10 +6153,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1243435,
         "icon": "ability_evoker_powerswell"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Arcane Orb fires 2 additional Arcane Orbs at 50% effectiveness.",
+      "pvp_tooltip": "Casting Arcane Orb fires 2 additional Arcane Orbs at 50% effectiveness.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4906,10 +6204,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 384858,
         "icon": "spell_mage_arcaneorb_nightborne"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Arcane Barrage has a 4% chance per stack of Arcane Salvo to launch an Arcane Orb in front of you at 100% effectiveness.",
+      "pvp_tooltip": "Arcane Barrage has a 4% chance per stack of Arcane Salvo to launch an Arcane Orb in front of you at 100% effectiveness.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4955,14 +6253,89 @@ window.WOW_PVP_DATA = {
         "spell_id": 1295923,
         "icon": "inv12_apextalent_mage_touchofthearchmage"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Devastates the target with overwhelming energy, dealing (3200% of Spell Power) Arcane damage to them and (2500% of Spell Power) Arcane damage to other nearby enemies. Damage reduced beyond 5 targets.\nGenerates 4 Arcane Charges.",
+      "pvp_tooltip": "Devastates the target with overwhelming energy, dealing (3200% of Spell Power) Arcane damage to them and (2500% of Spell Power) Arcane damage to other nearby enemies. Damage reduced beyond 5 targets.\nGenerates 4 Arcane Charges.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 1295923,
+          "source_spell_id": 1295924,
+          "effect_index": 1,
+          "effect_text": "School Damage (Arcane) (SP mod: 32)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.95,
+          "final_pvp_multiplier": 0.95,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1295923,
+            1295924
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256909,
+              "game_effect_id": 1264661,
+              "amount_kind": "direct",
+              "value_pct": -5.0,
+              "factor": 0.95,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 1295923,
+          "source_spell_id": 1295939,
+          "effect_index": 2,
+          "effect_text": "School Damage (Arcane) (SP mod: 25)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.95,
+          "final_pvp_multiplier": 0.95,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1295923,
+            1295924,
+            1295939
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256909,
+              "game_effect_id": 1264661,
+              "amount_kind": "direct",
+              "value_pct": -5.0,
+              "factor": 0.95,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5004,10 +6377,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1295944,
         "icon": "inv12_apextalent_mage_touchofthearchmage"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\nPrismatic Bolt has a 50% chance to grant Clearcasting.\nArcane Missiles damage increased by 15%.",
+      "pvp_tooltip": "40 yd range\nPrismatic Bolt has a 50% chance to grant Clearcasting.\nArcane Missiles damage increased by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5053,10 +6426,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1295946,
         "icon": "inv12_apextalent_mage_touchofthearchmage"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\nIncreases the chance to gain Prismatic Bolt by 1% per stack of Arcane Salvo consumed.\nArcane Barrage damage increased by 15%.",
+      "pvp_tooltip": "40 yd range\nIncreases the chance to gain Prismatic Bolt by 1% per stack of Arcane Salvo consumed.\nArcane Barrage damage increased by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5107,14 +6480,87 @@ window.WOW_PVP_DATA = {
         "spell_id": 443739,
         "icon": "achievement_dungeon_arcanevaults"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Arcane Blast or Arcane Pulse conjures an Arcane Splinter.\nArcane Splinter\n:\nConjure raw Arcane magic into a sharp projectile that deals (43.65% of Spell Power) Arcane damage.",
+      "pvp_tooltip": "Casting Arcane Blast or Arcane Pulse conjures an Arcane Splinter.\nArcane Splinter\n:\nConjure raw Arcane magic into a sharp projectile that deals (43.65% of Spell Power) Arcane damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 443739,
+          "source_spell_id": 443722,
+          "effect_index": 1,
+          "effect_text": "School Damage (Frost) (SP mod: 0.453)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.95,
+          "final_pvp_multiplier": 0.95,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            443739,
+            443722
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256909,
+              "game_effect_id": 1264661,
+              "amount_kind": "direct",
+              "value_pct": -5.0,
+              "factor": 0.95,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 443739,
+          "source_spell_id": 443763,
+          "effect_index": 1,
+          "effect_text": "School Damage (Arcane) (SP mod: 0.4365)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.95,
+          "final_pvp_multiplier": 0.95,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            443739,
+            443763
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256909,
+              "game_effect_id": 1264661,
+              "amount_kind": "direct",
+              "value_pct": -5.0,
+              "factor": 0.95,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5160,10 +6606,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1280165,
         "icon": "spell_arcane_arcanepotency"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Conjuring one or more Arcane Splinters has a 10% chance to conjure a burst of 8 Arcane Splinters.",
+      "pvp_tooltip": "Conjuring one or more Arcane Splinters has a 10% chance to conjure a burst of 8 Arcane Splinters.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5213,10 +6659,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 444719,
         "icon": "spell_mage_overpowered"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Arcane Barrage conjures an Arcane Splinter for every 5 Arcane Salvo stacks consumed.",
+      "pvp_tooltip": "Casting Arcane Barrage conjures an Arcane Splinter for every 5 Arcane Salvo stacks consumed.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5266,10 +6712,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 444256,
         "icon": "item_azereansphere"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Enemies damaged by your Arcane Orb conjure 2 Arcane Splinters, up to 4.\nArcane Orb damage is increased by 50%.",
+      "pvp_tooltip": "Enemies damaged by your Arcane Orb conjure 2 Arcane Splinters, up to 4.\nArcane Orb damage is increased by 50%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5319,10 +6765,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1261106,
         "icon": "ability_socererking_arcanemines"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Arcane Familiar has a 50% chance to conjure a Splinter alongside its Arcane Assault.",
+      "pvp_tooltip": "Your Arcane Familiar has a 50% chance to conjure a Splinter alongside its Arcane Assault.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5372,10 +6818,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 444675,
         "icon": "ability_mage_freeze"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Gaining Clearcasting conjures 2 Arcane Splinters.",
+      "pvp_tooltip": "Gaining Clearcasting conjures 2 Arcane Splinters.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5425,15 +6871,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 444752,
         "icon": "ability_mage_icyfeet"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "You have 40% increased movement speed during Alter Time\n.",
+      "pvp_tooltip": "You have 20% increased movement speed during Alter Time\n.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 9,
+          "end": 11,
+          "old_token": "40",
+          "new_token": "20",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "40",
+          "new": "20"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 444752,
+          "source_spell_id": 444752,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 40.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 20.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Look Again",
@@ -5478,10 +6969,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 444756,
         "icon": "achievement_bg_tophealer_av"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While in combat, Blink summons a Mirror Image at your previous location.",
+      "pvp_tooltip": "While in combat, Blink summons a Mirror Image at your previous location.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5531,14 +7022,52 @@ window.WOW_PVP_DATA = {
         "spell_id": 444483,
         "icon": "spell_frost_ice_shards"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40% of the direct damage dealt by an Arcane Splinter is also dealt to nearby enemies. Damage reduced beyond 5 targets.",
+      "pvp_tooltip": "40% of the direct damage dealt by an Arcane Splinter is also dealt to nearby enemies. Damage reduced beyond 5 targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 444483,
+          "source_spell_id": 114923,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": null,
+          "spell_pvp_multiplier": 2.5,
+          "amount_kind": "periodic",
+          "aura_factor": 0.95,
+          "final_pvp_multiplier": 2.375,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            444483,
+            114923
+          ],
+          "dependency_relations": [
+            "triggered_by_reverse"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256909,
+              "game_effect_id": 1264842,
+              "amount_kind": "periodic",
+              "value_pct": -5.0,
+              "factor": 0.95,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5584,15 +7113,50 @@ window.WOW_PVP_DATA = {
         "spell_id": 444827,
         "icon": "ability_racial_forceshield"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Prismatic Barrier can absorb up to 25% more damage based on your missing health.\nMax effectiveness when under 25% health.",
+      "pvp_tooltip": "Your Prismatic Barrier can absorb up to 25% more damage based on your missing health.\nMax effectiveness when under 25% health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "REVIEW_REQUIRED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "AMBIGUOUS_TEXT_MATCH",
+          "kind": "ordinary_value",
+          "old": 25.0,
+          "new": 12.5,
+          "match_count": 2
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 444827,
+          "source_spell_id": 444827,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 25.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 12.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Phantasmal Image",
@@ -5637,10 +7201,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 444784,
         "icon": "spell_arcane_prismaticcloak"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Mirror Image summons 1 extra copy of you.",
+      "pvp_tooltip": "Your Mirror Image summons 1 extra copy of you.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5690,10 +7254,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1261080,
         "icon": "spell_mage_focusingcrystal"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Direct damage from Arcane Splinters have a 25% chance to grant 1 stack Arcane Salvo.\nArcane Salvo\nIncreases the damage of your next Arcane Barrage by 3%.",
+      "pvp_tooltip": "Direct damage from Arcane Splinters have a 25% chance to grant 1 stack Arcane Salvo.\nArcane Salvo\nIncreases the damage of your next Arcane Barrage by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5743,10 +7307,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 444968,
         "icon": "spell_arcane_arcane03"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "100 yd range\nArcane Surge damage increased by 30%.\nYour chance to gain Clearcasting is increased by 3%.",
+      "pvp_tooltip": "100 yd range\nArcane Surge damage increased by 30%.\nYour chance to gain Clearcasting is increased by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5796,10 +7360,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 470021,
         "icon": "inv_enchanting_815_drustwand"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Arcane Blast and Arcane Pulse damage increased by 15%.\nCasting Touch of the Magi conjures 4 Arcane Splinters.",
+      "pvp_tooltip": "Arcane Blast and Arcane Pulse damage increased by 15%.\nCasting Touch of the Magi conjures 4 Arcane Splinters.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5849,10 +7413,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 444986,
         "icon": "70_inscription_vantus_rune_azure"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Direct damage from Arcane Splinters reduces the cooldown of Arcane Orb by 0.30 sec.",
+      "pvp_tooltip": "Direct damage from Arcane Splinters reduces the cooldown of Arcane Orb by 0.30 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5902,10 +7466,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1261082,
         "icon": "inv_misc_orb_blue"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Arcane Barrage while at 20 or more Arcane Salvo stacks refunds 3 Arcane Salvo stacks.\nArcane Barrage damage increased by 15%.",
+      "pvp_tooltip": "Casting Arcane Barrage while at 20 or more Arcane Salvo stacks refunds 3 Arcane Salvo stacks.\nArcane Barrage damage increased by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5956,10 +7520,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 443783,
         "icon": "ability_mage_burstofcold"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Arcane Surge generates 8 Arcane Splinters.\nDuring Arcane Surge, your chance to conjure an additional Arcane Splinter is increased to 100%.",
+      "pvp_tooltip": "Casting Arcane Surge generates 8 Arcane Splinters.\nDuring Arcane Surge, your chance to conjure an additional Arcane Splinter is increased to 100%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6010,14 +7574,69 @@ window.WOW_PVP_DATA = {
         "spell_id": 448601,
         "icon": "inv_1115_mage_spellfirespheresgeneration"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting a damaging spell has a 6% chance to conjure a Spellfire Sphere.\nWhile you're out of combat, you will slowly conjure Spellfire Spheres over time.\nSpellfire Sphere\nIncreases your spell damage by 1.0%. Stacks up to 3 times.",
+      "pvp_tooltip": "Casting a damaging spell has a 6% chance to conjure a Spellfire Sphere.\nWhile you're out of combat, you will slowly conjure Spellfire Spheres over time.\nSpellfire Sphere\nIncreases your spell damage by 1.0%. Stacks up to 3 times.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 448601,
+          "source_spell_id": 448604,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 1.0,
+          "spell_pvp_multiplier": 2.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 2.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            448601,
+            448604
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 448601,
+          "source_spell_id": 448604,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
+          "base_value": 1.0,
+          "spell_pvp_multiplier": 2.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 2.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            448601,
+            448604
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -6063,10 +7682,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 449293,
         "icon": "spell_frost_manarecharge"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Arcane Blast, Arcane Pulse, Arcane Barrage, or Prismatic Bolt grants you 0.5% Haste for 6 sec. Multiple applications may overlap.",
+      "pvp_tooltip": "Casting Arcane Blast, Arcane Pulse, Arcane Barrage, or Prismatic Bolt grants you 0.5% Haste for 6 sec. Multiple applications may overlap.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6116,10 +7735,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 448658,
         "icon": "inv_misc_phoenixegg"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When you cast Arcane Surge, summon an Arcane Phoenix to aid you in battle.\nArcane Phoenix\nYour Arcane Phoenix aids you for the duration of your Arcane Surge, casting random Arcane and Fire spells.",
+      "pvp_tooltip": "When you cast Arcane Surge, summon an Arcane Phoenix to aid you in battle.\nArcane Phoenix\nYour Arcane Phoenix aids you for the duration of your Arcane Surge, casting random Arcane and Fire spells.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6169,10 +7788,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 451035,
         "icon": "inv_ragnaros_heart"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Arcane Blast damage increased by 30%.\nArcane Pulse damage increased by 20%.",
+      "pvp_tooltip": "Arcane Blast damage increased by 30%.\nArcane Pulse damage increased by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6222,14 +7841,53 @@ window.WOW_PVP_DATA = {
         "spell_id": 449394,
         "icon": "spell_burningsoul"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Arcane Barrage summons 1 Meteorite for every 5 Arcane Salvo stacks consumed.\nMeteorite\nCalls down a meteorite which lands at the target location after 3 sec, dealing (102% of Spell Power) Fire damage to all enemies hit, reduced beyond 8 targets.",
+      "pvp_tooltip": "Arcane Barrage summons 1 Meteorite for every 5 Arcane Salvo stacks consumed.\nMeteorite\nCalls down a meteorite which lands at the target location after 3 sec, dealing (102% of Spell Power) Fire damage to all enemies hit, reduced beyond 8 targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 449394,
+          "source_spell_id": 449569,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire) (SP mod: 1.02)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.95,
+          "final_pvp_multiplier": 0.95,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            449394,
+            449559,
+            449569
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256909,
+              "game_effect_id": 1264661,
+              "amount_kind": "direct",
+              "value_pct": -5.0,
+              "factor": 0.95,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -6275,15 +7933,214 @@ window.WOW_PVP_DATA = {
         "spell_id": 449330,
         "icon": "inv_helm_robe_raidmage_i_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The bonuses provided by your Barrier spells persist at 100% effectiveness for an additional 8 sec after your Barrier is removed.",
+      "pvp_tooltip": "The bonuses provided by your Barrier spells persist at 100% effectiveness for an additional 8 sec after your Barrier is removed.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            3
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 15.0,
+          "new": 10.05,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            4
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 25.0,
+          "new": 15.0,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 14.374999999999998,
+          "new": 13.656249999999998,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 30.0,
+          "new": 22.5,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 449330,
+          "source_spell_id": 449336,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Mod % Damage Taken (All)",
+          "base_value": -15.0,
+          "spell_pvp_multiplier": 0.67,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.67,
+          "final_pvp_value": -10.05,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            449330,
+            449336
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 449330,
+          "source_spell_id": 449336,
+          "effect_index": 4,
+          "effect_text": "Apply Aura: Mod Debuffs Duration % (Magic)",
+          "base_value": -25.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": -15.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            449330,
+            449336
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 449330,
+          "source_spell_id": 235314,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire) (SP mod: 0.14375)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.95,
+          "final_pvp_multiplier": 0.95,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            449330,
+            1246023,
+            235314
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256909,
+              "game_effect_id": 1264661,
+              "amount_kind": "direct",
+              "value_pct": -5.0,
+              "factor": 0.95,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 449330,
+          "source_spell_id": 235313,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Absorb Damage (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.75,
+          "amount_kind": "absorb",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            449330,
+            1246023,
+            235314,
+            235313
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "tooltip_value_ref",
+            "spelldesc_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 449330,
+          "source_spell_id": 235313,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 30.0,
+          "spell_pvp_multiplier": 0.75,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": 22.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            449330,
+            1246023,
+            235314,
+            235313
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "tooltip_value_ref",
+            "spelldesc_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 4
     },
     {
       "talent_name": "Time Twist",
@@ -6328,10 +8185,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1255166,
         "icon": "spell_holy_borrowedtime"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The cooldown of Alter Time is reduced by 10 sec.",
+      "pvp_tooltip": "The cooldown of Alter Time is reduced by 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6381,10 +8238,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 449382,
         "icon": "inv_10_inscription2_book3_color1"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When your Arcane Phoenix is summoned, it consumes all your Spellfire Spheres.\nEach Sphere consumed increases your spell damage during Arcane Surge by 1% and causes your Arcane Phoenix to cast an exceptional Arcane or Fire spell over its duration.",
+      "pvp_tooltip": "When your Arcane Phoenix is summoned, it consumes all your Spellfire Spheres.\nEach Sphere consumed increases your spell damage during Arcane Surge by 1% and causes your Arcane Phoenix to cast an exceptional Arcane or Fire spell over its duration.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6434,10 +8291,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 449627,
         "icon": "ability_paladin_handoflight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Arcane Phoenix has picked up a few tricks, and will Spellsteal when it is summoned and when it expires.",
+      "pvp_tooltip": "Your Arcane Phoenix has picked up a few tricks, and will Spellsteal when it is summoned and when it expires.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6487,15 +8344,73 @@ window.WOW_PVP_DATA = {
         "spell_id": 1246030,
         "icon": "6bf_explosive_shard"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "After casting Arcane Surge, your next\nBlink\nwill cause a Blast Wave at your previous location, dealing (54.3375% of Spell Power) Fire damage, knocking enemies back 8 yds, and slowing them by 70% for 6 sec.",
+      "pvp_tooltip": "After casting Arcane Surge, your next\nBlink\nwill cause a Blast Wave at your previous location, dealing (51.6206% of Spell Power) Fire damage, knocking enemies back 8 yds, and slowing them by 70% for 6 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 104,
+          "end": 111,
+          "old_token": "54.3375",
+          "new_token": "51.6206",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "54.3375",
+          "new": "51.6206"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1246030,
+          "source_spell_id": 157981,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire) (SP mod: 0.543375)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.95,
+          "final_pvp_multiplier": 0.95,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1246030,
+            157981
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256909,
+              "game_effect_id": 1264661,
+              "amount_kind": "direct",
+              "value_pct": -5.0,
+              "factor": 0.95,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Pyrocosm",
@@ -6540,10 +8455,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1260673,
         "icon": "spell_fire_meteorstorm"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Each wave of Arcane Missiles has a 10% chance to summon a Meteorite.\nWhen a Meteorite lands, you have a 5% chance to gain Clearcasting.",
+      "pvp_tooltip": "Each wave of Arcane Missiles has a 10% chance to summon a Meteorite.\nWhen a Meteorite lands, you have a 5% chance to gain Clearcasting.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6593,10 +8508,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 449412,
         "icon": "spell_fire_masterofelements"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When you cast Arcane Surge, its duration is extended by 0.8 sec for each Spellfire Sphere you have, up to 2.4 sec.",
+      "pvp_tooltip": "When you cast Arcane Surge, its duration is extended by 0.8 sec for each Spellfire Sphere you have, up to 2.4 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6646,10 +8561,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 449349,
         "icon": "spell_shadow_shadowandflame"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Arcane Barrage deals 5% increased damage to enemies affected by your Touch of the Magi.",
+      "pvp_tooltip": "Arcane Barrage deals 5% increased damage to enemies affected by your Touch of the Magi.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6699,10 +8614,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1260272,
         "icon": "inv_misc_powder_copper"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Each time your Phoenix casts a spell, gain 1 stack of Mana Cascade.\nExceptional spells grant 1 additional stack.",
+      "pvp_tooltip": "Each time your Phoenix casts a spell, gain 1 stack of Mana Cascade.\nExceptional spells grant 1 additional stack.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6752,10 +8667,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 449596,
         "icon": "spell_arcane_focusedpower"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your chance to generate a Spellfire Sphere is increased by 6%.\nSpellfire Spheres grant an additional 1% spell damage.",
+      "pvp_tooltip": "Your chance to generate a Spellfire Sphere is increased by 6%.\nSpellfire Spheres grant an additional 1% spell damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6805,10 +8720,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1260616,
         "icon": "shaman_talent_elementalblast"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Arcane Salvo can stack 5 additional times.\nMeteorite damage increased by 15%.",
+      "pvp_tooltip": "Arcane Salvo can stack 5 additional times.\nMeteorite damage increased by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6859,10 +8774,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 449619,
         "icon": "inv_ability_sunfurymage_spellfirespheres"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When your Arcane Phoenix expires it empowers you, granting Arcane Soul for 4.0 sec.\nArcane Soul\n:\nArcane Barrage grants Clearcasting and generates 4 Arcane Charges.\nEach cast of Arcane Barrage grants 5 stacks of Arcane Salvo and casting Arcane Barrage does not consume Arcane Salvo.",
+      "pvp_tooltip": "When your Arcane Phoenix expires it empowers you, granting Arcane Soul for 4.0 sec.\nArcane Soul\n:\nArcane Barrage grants Clearcasting and generates 4 Arcane Charges.\nEach cast of Arcane Barrage grants 5 stacks of Arcane Salvo and casting Arcane Barrage does not consume Arcane Salvo.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6870,654 +8785,13 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     }
   ],
-  "fetch_errors": [
-    {
-      "source": "wowhead_page",
-      "spell_id": 475,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e5520 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 5143,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e4da0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 12051,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e7200 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 30449,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e7350 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 31661,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c537a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 45438,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c50500 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 55342,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674e1e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 110959,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16515970 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 113724,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167cad80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 153626,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674d130 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 157980,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e70590 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 157997,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecfdd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 205022,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d10f50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 205025,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167c9400 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 205028,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e71250 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 205036,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16deffb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 210476,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d12000 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 212653,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e7e30 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 231564,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d10260 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 235450,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d10bc0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 236457,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e724e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 236628,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16507aa0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 281482,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e733e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 321387,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e7dd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 321420,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e5130 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 321507,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165077d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 321526,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ded250 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 321745,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecd190 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 342231,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e61b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 342245,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e45f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 342249,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e26f60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 343183,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16def350 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 365350,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1650fbf0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382268,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e67e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382293,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecd910 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382297,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16daabd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382424,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dab470 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382490,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d11820 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382493,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ac0b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 383092,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674d550 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 383121,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16f04b60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 383676,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e702f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 383980,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e762a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 384060,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167cbcb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 384452,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d108f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 384612,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dee210 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 384651,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16886060 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 384858,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e71040 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 386763,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16515a60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 386828,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165a49b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 387807,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1678b470 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 390218,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16deda60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 414379,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1678a720 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 414659,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16db4a40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 414664,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c11850 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 443739,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e7b30 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 443783,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16574500 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444256,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16daa510 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444483,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e52510 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444675,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e5100 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444719,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167ca6f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444752,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e73230 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444756,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e4fb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444784,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1678a450 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444827,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ac230 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444968,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165a6e70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444986,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dee8a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 448601,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e24d10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 448658,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16789580 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449293,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16506330 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449330,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e4800 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449349,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e70920 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449382,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e73410 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449394,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d123f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449412,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16507440 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449596,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c51fd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449619,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ece780 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449627,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dedbb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 451035,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da84d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 452198,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d11b20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 452997,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dec050 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 455428,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e59a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 457521,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16505c40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 458437,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dfbf20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 461248,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167f3770 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 461251,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e9b530 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 461257,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e5400 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 461260,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167ca510 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 461261,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d13020 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 470021,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16df89b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1223798,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ded310 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1241462,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dec6e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1243307,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16506b70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1243435,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d13ce0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1243507,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16defad0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1243542,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecf0b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1243557,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16515cd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1244001,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecfda0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1244025,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16788110 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1244031,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16507350 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1244087,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16517380 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1244090,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167dac90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1244105,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ad640 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1244107,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16516750 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1244329,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16514260 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1244340,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167d9010 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1246030,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e278f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1250315,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166627b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1255166,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16661b50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1260272,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16663800 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1260616,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16663620 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1260673,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecd5b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1261080,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167da360 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1261082,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16def500 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1261106,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e64e60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1265517,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecd010 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270827,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16663c80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270829,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e677a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270845,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16585520 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270847,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e254c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270865,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e6960 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270872,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c50aa0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1280165,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16505430 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1295923,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e4c50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1295944,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16657e60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1295946,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16506cc0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1297073,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1666ea20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1309497,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165769c0 state=finished raised HTTPStatusError>]"
-    }
-  ],
+  "fetch_errors": [],
   "slug": "mage-arcane",
-  "generated_at": "2026-09-19T13:50:57.953607+00:00",
+  "generated_at": "2026-09-19T14:11:07.945881+00:00",
   "validation": {
     "talents": 128,
-    "changed_tooltips": 0,
-    "talents_with_pvp_mechanics": 0,
+    "changed_tooltips": 16,
+    "talents_with_pvp_mechanics": 29,
     "unique_nodes": 109,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
@@ -7525,58 +8799,43 @@ window.WOW_PVP_DATA = {
       "12.1.0.69587"
     ],
     "verification_status": "PARTIAL",
-    "fetch_error_count": 280,
-    "unresolved_count": 30,
-    "review_required_count": 128,
-    "fetch_error_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 475,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16c10050 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 5143,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16e48bc0 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 12051,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16daabd0 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 30449,
-        "error": "RetryError: RetryError[<Future at 0x7fbf1651e990 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 31661,
-        "error": "RetryError: RetryError[<Future at 0x7fbf167d56a0 state=finished raised HTTPStatusError>]"
-      }
-    ],
+    "fetch_error_count": 0,
+    "unresolved_count": 15,
+    "review_required_count": 3,
+    "fetch_error_examples": [],
     "unresolved_examples": [
       {
         "spell_id": 235450,
         "talent_name": "Prismatic Barrier",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
+        "side": "wowhead",
+        "reason": "WOWHEAD_ONLY_MODIFIER",
+        "effect_index": 2,
         "multiplier": 0.75,
-        "effect_text": "Apply Aura (6) | Absorb Damage (69)"
+        "effect_text": "Apply Aura: Dummy (127)"
       },
       {
-        "spell_id": 365350,
-        "talent_name": "Arcane Surge",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 1.4,
-        "effect_text": "School Damage (2): arcane"
+        "spell_id": 235450,
+        "talent_name": "Prismatic Barrier",
+        "side": "wowhead",
+        "reason": "WOWHEAD_ONLY_MODIFIER",
+        "effect_index": 3,
+        "multiplier": 0.67,
+        "effect_text": "Apply Aura: Mod % Damage Taken (All)"
+      },
+      {
+        "spell_id": 235450,
+        "talent_name": "Prismatic Barrier",
+        "side": "wowhead",
+        "reason": "WOWHEAD_ONLY_MODIFIER",
+        "effect_index": 4,
+        "multiplier": 0.6,
+        "effect_text": "Apply Aura: Mod Debuffs Duration % (Magic)"
       },
       {
         "spell_id": 382268,
         "talent_name": "Flow of Time",
         "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
+        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
         "multiplier": 0.5,
         "effect_text": "Apply Aura (6) | Modify Recharge Time (Category) (453)"
       },
@@ -7584,44 +8843,26 @@ window.WOW_PVP_DATA = {
         "spell_id": 382268,
         "talent_name": "Flow of Time",
         "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
+        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
         "multiplier": 0.5,
         "effect_text": "Apply Aura (6) | Modify Recharge Time (Category) (453)"
-      },
-      {
-        "spell_id": 382293,
-        "talent_name": "Incantation of Swiftness",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.5,
-        "effect_text": "Apply Aura (6) | Dummy (4)"
       }
     ],
     "review_required_examples": [
       {
         "talent_name": "Prismatic Barrier",
         "spell_id": 235450,
-        "status": "MISSING_TOOLTIP"
+        "status": "REVIEW_REQUIRED"
       },
       {
-        "talent_name": "Alter Time",
-        "spell_id": 342245,
-        "status": "MISSING_TOOLTIP"
+        "talent_name": "Arcane Echo",
+        "spell_id": 342231,
+        "status": "REVIEW_REQUIRED"
       },
       {
-        "talent_name": "Ice Block",
-        "spell_id": 45438,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Time Walk",
-        "spell_id": 1244087,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Temporal Realignment",
-        "spell_id": 1244090,
-        "status": "MISSING_TOOLTIP"
+        "talent_name": "Reactive Barrier",
+        "spell_id": 444827,
+        "status": "REVIEW_REQUIRED"
       }
     ]
   }

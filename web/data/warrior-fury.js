@@ -49,10 +49,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 386196,
         "icon": "ability_racial_avatar"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n3 sec cooldown\nAn aggressive combat state that increases the damage of your auto-attacks by 15%\nand reduces the duration of Fear, Sap and Incapacitate effects on you by 10%.\nLasts until canceled.",
+      "pvp_tooltip": "Instant\n3 sec cooldown\nAn aggressive combat state that increases the damage of your auto-attacks by 15%\nand reduces the duration of Fear, Sap and Incapacitate effects on you by 10%.\nLasts until canceled.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -101,15 +101,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 386208,
         "icon": "ability_warrior_defensivestance"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Instant\n3 sec cooldown\nA defensive combat state that reduces all damage you take by 15% and all damage you deal by 10%.\nLasts until canceled.",
+      "pvp_tooltip": "Instant\n3 sec cooldown\nA defensive combat state that reduces all damage you take by 15% and all damage you deal by 15%.\nLasts until canceled.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 115,
+          "end": 117,
+          "old_token": "10",
+          "new_token": "15",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "10",
+          "new": "15"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 386208,
+          "source_spell_id": 386208,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Mod Damage Done % (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)",
+          "base_value": -10.0,
+          "spell_pvp_multiplier": 1.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.5,
+          "final_pvp_value": -15.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Fast Footwork",
@@ -155,10 +200,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 382260,
         "icon": "ability_hunter_posthaste"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Movement speed increased by 5%.",
+      "pvp_tooltip": "Movement speed increased by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -210,10 +255,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 262231,
         "icon": "ability_hunter_rapidkilling"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your auto-attacks generate 50% more Rage.\nKilling an enemy instantly generates 5 Rage and increases your movement speed by 30% for 8 sec.",
+      "pvp_tooltip": "Your auto-attacks generate 50% more Rage.\nKilling an enemy instantly generates 5 Rage and increases your movement speed by 30% for 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -265,10 +310,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 6343,
         "icon": "spell_nature_thunderclap"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "20 Rage\nInstant\n6 sec cooldown\nBlasts all enemies within 8 yards for (235.68% of Attack Power) Physical damage [\nThunderstruck\n:\nroots them for 4 sec\n] and reduces their movement speed by 20% for 10 sec. Deals reduced damage beyond 5 /\nRecklessness\n:\n8\n/\nCrashing Thunder\n:\n85\ntargets.\n[\nGenerates 0 Rage.\n]",
+      "pvp_tooltip": "20 Rage\nInstant\n6 sec cooldown\nBlasts all enemies within 8 yards for (235.68% of Attack Power) Physical damage [\nThunderstruck\n:\nroots them for 4 sec\n] and reduces their movement speed by 20% for 10 sec. Deals reduced damage beyond 5 /\nRecklessness\n:\n8\n/\nCrashing Thunder\n:\n85\ntargets.\n[\nGenerates 0 Rage.\n]",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -319,10 +364,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 382258,
         "icon": "inv_artifact_bloodoftheassassinated"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Leech increased by 3%.",
+      "pvp_tooltip": "Leech increased by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -375,15 +420,65 @@ window.WOW_PVP_DATA = {
         "spell_id": 202168,
         "icon": "spell_impending_victory"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Replaces\nVictory Rush\n10 Rage\nMelee Range\nInstant\n25 sec cooldown\nInstantly attack the target, causing (59% of Attack Power) damage and healing you for 30% of your maximum health.\nKilling an enemy that yields experience or honor resets the cooldown of Impending Victory and makes it cost no Rage.",
+      "pvp_tooltip": "Replaces\nVictory Rush\n10 Rage\nMelee Range\nInstant\n25 sec cooldown\nInstantly attack the target, causing (59% of Attack Power) damage and healing you for 20.1% of your maximum health.\nKilling an enemy that yields experience or honor resets the cooldown of Impending Victory and makes it cost no Rage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 152,
+          "end": 154,
+          "old_token": "30",
+          "new_token": "20.1",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "30",
+          "new": "20.1"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 202168,
+          "source_spell_id": 202166,
+          "effect_index": 1,
+          "effect_text": "Heal for % of Total Health",
+          "base_value": 30.0,
+          "spell_pvp_multiplier": 0.67,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.67,
+          "final_pvp_value": 20.1,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            202168,
+            202166
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Heroic Leap",
@@ -431,10 +526,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 6544,
         "icon": "ability_heroicleap"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "8 - 40 yd range\nInstant\n45 sec cooldown\n1 Charge\nLeap through the air toward a target location, slamming down with destructive force to deal (23.5% of Attack Power) Physical damage to all enemies within 8 yards.",
+      "pvp_tooltip": "8 - 40 yd range\nInstant\n45 sec cooldown\n1 Charge\nLeap through the air toward a target location, slamming down with destructive force to deal (23.5% of Attack Power) Physical damage to all enemies within 8 yards.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -482,10 +577,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 203201,
         "icon": "ability_thunderking_overcharge"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Thunder Clap's radius is increased by 50% and it reduces affected target's movement speed by an additional 20%.",
+      "pvp_tooltip": "Thunder Clap's radius is increased by 50% and it reduces affected target's movement speed by an additional 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -537,10 +632,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 107570,
         "icon": "warrior_talent_icon_stormbolt"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "20 yd range\nInstant\n30 sec cooldown\nHurls your weapon at an enemy, causing (28.5% of Attack Power) Physical damage and stunning for 4 sec. [\nStorm Bolts\n:\nAlso hits 2 additional nearby targets, stunning for 2 sec\n]",
+      "pvp_tooltip": "20 yd range\nInstant\n30 sec cooldown\nHurls your weapon at an enemy, causing (28.5% of Attack Power) Physical damage and stunning for 4 sec. [\nStorm Bolts\n:\nAlso hits 2 additional nearby targets, stunning for 2 sec\n]",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -592,14 +687,73 @@ window.WOW_PVP_DATA = {
         "spell_id": 1299025,
         "icon": "ability_ironmaidens_whirlofblood"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Whirlwind\naffects all targets with Rend, causing them to Bleed for (190.465% of Attack Power) damage over 15 sec.",
+      "pvp_tooltip": "Whirlwind\naffects all targets with Rend, causing them to Bleed for (190.465% of Attack Power) damage over 15 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1299025,
+          "source_spell_id": 388539,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.3225,
+          "amount_kind": "periodic",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.3225,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1299025,
+            388539
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1299025,
+          "source_spell_id": 772,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 1.24581 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.15,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.15,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1299025,
+            388539,
+            772
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -643,10 +797,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 29838,
         "icon": "ability_hunter_harass"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Restores 6% health every 1 sec when you have not taken damage for 5 sec.\nRestores 2% health every 1 sec while you are below 35% health. The amount restored increases the closer you are to death.",
+      "pvp_tooltip": "Restores 6% health every 1 sec when you have not taken damage for 5 sec.\nRestores 2% health every 1 sec while you are below 35% health. The amount restored increases the closer you are to death.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -700,10 +854,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 392792,
         "icon": "warrior_talent_icon_furyintheblood"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Rampage has a 20% chance to immediately refund 10% of the Rage spent.",
+      "pvp_tooltip": "Rampage has a 20% chance to immediately refund 10% of the Rage spent.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -751,15 +905,140 @@ window.WOW_PVP_DATA = {
         "spell_id": 202163,
         "icon": "ability_heroicleap"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Reduces the cooldown of Heroic Leap by 15 sec and Heroic Leap also increases your movement speed by 70% for 3 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Heroic Leap by 10.5 sec and Heroic Leap also increases your movement speed by 50.4% for 3 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 39,
+          "end": 41,
+          "old_token": "15",
+          "new_token": "10.5",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2
+          ]
+        },
+        {
+          "start": 100,
+          "end": 102,
+          "old_token": "70",
+          "new_token": "50.4",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 15000.0,
+          "new": 10500.0,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "15",
+          "new": "10.5"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "70",
+          "new": "50.4"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 202163,
+          "source_spell_id": 202163,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Cooldown Ms (1211)",
+          "base_value": -15000.0,
+          "spell_pvp_multiplier": 0.7,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.7,
+          "final_pvp_value": -10500.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 202163,
+          "source_spell_id": 202163,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Cooldown (11)",
+          "base_value": -15.0,
+          "spell_pvp_multiplier": 0.7,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.7,
+          "final_pvp_value": -10.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 202163,
+          "source_spell_id": 202164,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Increase Run Speed %",
+          "base_value": 70.0,
+          "spell_pvp_multiplier": 0.72,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.72,
+          "final_pvp_value": 50.4,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            202163,
+            202164
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 3
     },
     {
       "talent_name": "Pain and Gain",
@@ -807,10 +1086,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 382549,
         "icon": "spell_holy_painsupression"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When you take any damage, heal for 2.0% of your maximum health.\nThis can only occur once every 10 sec.\n(10s cooldown)",
+      "pvp_tooltip": "When you take any damage, heal for 2.0% of your maximum health.\nThis can only occur once every 10 sec.\n(10s cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -862,10 +1141,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 3411,
         "icon": "ability_warrior_victoryrush"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "25 yd range\nInstant\n30 sec cooldown\n1 Charge\nRun at high speed toward an ally, intercepting all melee and ranged attacks against them for 6 sec while they remain within 10 yds.",
+      "pvp_tooltip": "25 yd range\nInstant\n30 sec cooldown\n1 Charge\nRun at high speed toward an ally, intercepting all melee and ranged attacks against them for 6 sec while they remain within 10 yds.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -917,10 +1196,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1244088,
         "icon": "ability_paladin_speedoflight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "25 yd range\nInstant\n30 sec cooldown\n1 Charge\nRun at high speed toward a target location near your allies, taking 30% of all damage dealt to allies within 3 yards for 8 sec or until you take at least [(0.2) * Total Health] damage from this effect.",
+      "pvp_tooltip": "25 yd range\nInstant\n30 sec cooldown\n1 Charge\nRun at high speed toward a target location near your allies, taking 30% of all damage dealt to allies within 3 yards for 8 sec or until you take at least [(0.2) * Total Health] damage from this effect.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -973,10 +1252,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 46968,
         "icon": "ability_warrior_shockwave"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n40 sec cooldown\nSends a wave of force in a frontal cone, causing (20% of Attack Power) damage and stunning all enemies within 10 yards for\n2 sec\n.",
+      "pvp_tooltip": "Instant\n40 sec cooldown\nSends a wave of force in a frontal cone, causing (20% of Attack Power) damage and stunning all enemies within 10 yards for\n2 sec\n.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1024,10 +1303,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 382767,
         "icon": "racial_orc_berserkerstrength"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Maximum Rage increased by 30.",
+      "pvp_tooltip": "Maximum Rage increased by 30.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1079,15 +1358,50 @@ window.WOW_PVP_DATA = {
         "spell_id": 97462,
         "icon": "ability_warrior_rallyingcry"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n3 min cooldown\nLets loose a rallying cry, granting all party or raid members within 40 yards\n10\n% temporary and maximum health for\n10 sec\n.\nHealth granted increased by 50% when not in a raid.",
+      "pvp_tooltip": "Instant\n3 min cooldown\nLets loose a rallying cry, granting all party or raid members within 40 yards\n10\n% temporary and maximum health for\n10 sec\n.\nHealth granted increased by 50% when not in a raid.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "REVIEW_REQUIRED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "AMBIGUOUS_TEXT_MATCH",
+          "kind": "ordinary_value",
+          "old": 10.0,
+          "new": 20.0,
+          "match_count": 2
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 97462,
+          "source_spell_id": 97462,
+          "effect_index": 1,
+          "effect_text": "Dummy",
+          "base_value": 10.0,
+          "spell_pvp_multiplier": 2.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 20.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Field Dressing",
@@ -1130,10 +1444,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1271926,
         "icon": "inv_misc_bandage_08"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Healing received increased by 3% and all self-healing increased by an additional 10%.",
+      "pvp_tooltip": "Healing received increased by 3% and all self-healing increased by an additional 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1185,10 +1499,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 23920,
         "icon": "ability_warrior_shieldreflection"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRaise your weapon, reflecting\nthe first spell cast\non you and reducing magic damage you take by 20% for 5 sec.",
+      "pvp_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRaise your weapon, reflecting\nthe first spell cast\non you and reducing magic damage you take by 20% for 5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1239,14 +1553,43 @@ window.WOW_PVP_DATA = {
         "spell_id": 384110,
         "icon": "warrior_talent_icon_mastercleaver"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "25 yd range\nInstant\n45 sec cooldown\nHurl your weapon at the enemy, causing (600% of Attack Power) Physical damage, ignoring armor. Deals up to 500% increased damage to absorb shields.",
+      "pvp_tooltip": "25 yd range\nInstant\n45 sec cooldown\nHurl your weapon at the enemy, causing (600% of Attack Power) Physical damage, ignoring armor. Deals up to 500% increased damage to absorb shields.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 384110,
+          "source_spell_id": 394354,
+          "effect_index": 3,
+          "effect_text": "Dummy",
+          "base_value": 500.0,
+          "spell_pvp_multiplier": 0.25,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.25,
+          "final_pvp_value": 125.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            384110,
+            394354
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -1293,14 +1636,43 @@ window.WOW_PVP_DATA = {
         "spell_id": 64382,
         "icon": "ability_warrior_shatteringthrow"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "25 yd range\n1.5 sec cast\n3 min cooldown\nHurl your weapon at the enemy, removing any magical immunities and causing (600% of Attack Power) Physical damage, ignoring armor. Deals up to 500% increased damage to absorb shields.",
+      "pvp_tooltip": "25 yd range\n1.5 sec cast\n3 min cooldown\nHurl your weapon at the enemy, removing any magical immunities and causing (600% of Attack Power) Physical damage, ignoring armor. Deals up to 500% increased damage to absorb shields.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 64382,
+          "source_spell_id": 394352,
+          "effect_index": 3,
+          "effect_text": "Dummy",
+          "base_value": 500.0,
+          "spell_pvp_multiplier": 0.25,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.25,
+          "final_pvp_value": 125.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            64382,
+            394352
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -1344,10 +1716,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 275339,
         "icon": "spell_shaman_earthquake"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shockwave's range increased by 6 yards and when it strikes at least 3 targets its cooldown is reduced by 15 sec.",
+      "pvp_tooltip": "Shockwave's range increased by 6 yards and when it strikes at least 3 targets its cooldown is reduced by 15 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1399,10 +1771,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 384100,
         "icon": "spell_nature_ancestralguardian"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n1 min cooldown\nGo berserk, removing and granting immunity to Fear, Sap, and Incapacitate effects for 6 sec.\nAlso remove fear effects from\ngroup members within 12 yds.",
+      "pvp_tooltip": "Instant\n1 min cooldown\nGo berserk, removing and granting immunity to Fear, Sap, and Incapacitate effects for 6 sec.\nAlso remove fear effects from\ngroup members within 12 yds.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1454,10 +1826,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1271925,
         "icon": "ability_warrior_endlessrage"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Cooldown of Berserker Rage is reduced by 50% and Berseker Rage removes all movement speed-impairing effects.",
+      "pvp_tooltip": "Cooldown of Berserker Rage is reduced by 50% and Berseker Rage removes all movement speed-impairing effects.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1509,10 +1881,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 5246,
         "icon": "ability_golemthunderclap"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "8 yd range\nInstant\n1.5 min cooldown\nCauses the targeted enemy to cower in fear while all enemies within 8 yards flee from you and their movement speed is reduced by 70% for 8 sec.\nDamage may cancel the effect.",
+      "pvp_tooltip": "8 yd range\nInstant\n1.5 min cooldown\nCauses the targeted enemy to cower in fear while all enemies within 8 yards flee from you and their movement speed is reduced by 70% for 8 sec.\nDamage may cancel the effect.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1564,15 +1936,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 12323,
         "icon": "spell_shadow_deathscream"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Instant\n1.5 min cooldown\nSnares all enemies within 12 yards, reducing their movement speed by 70% for 8 sec.\nSpurs all allies within 6 yards, increasing their movement speed by 30% for 4 sec.",
+      "pvp_tooltip": "Instant\n1.5 min cooldown\nSnares all enemies within 12 yards, reducing their movement speed by 50% for 8 sec.\nSpurs all allies within 6 yards, increasing their movement speed by 30% for 4 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 94,
+          "end": 96,
+          "old_token": "70",
+          "new_token": "50",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "70",
+          "new": "50"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 12323,
+          "source_spell_id": 12323,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -70.0,
+          "spell_pvp_multiplier": 0.714286,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.714286,
+          "final_pvp_value": -50.00002,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Honed Reflexes",
@@ -1618,10 +2035,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 391271,
         "icon": "spell_holy_borrowedtime"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Cooldown of Enraged Regeneration, Intervene, Interpose, Spell Reflection, Storm Bolt, and Pummel reduced by 10%.\nSuccessfully interrupting an enemy increases the damage you deal to them by 5% for 10 sec.",
+      "pvp_tooltip": "Cooldown of Enraged Regeneration, Intervene, Interpose, Spell Reflection, Storm Bolt, and Pummel reduced by 10%.\nSuccessfully interrupting an enemy increases the damage you deal to them by 5% for 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1673,10 +2090,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 384124,
         "icon": "inv_shoulder_22"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Gain Strength equal to 5% of your Armor.",
+      "pvp_tooltip": "Gain Strength equal to 5% of your Armor.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1728,15 +2145,50 @@ window.WOW_PVP_DATA = {
         "spell_id": 103827,
         "icon": "inv_misc_horn_04"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Charge gains 1 additional charge and its cooldown is reduced by 3 sec.",
+      "pvp_tooltip": "Charge gains 1 additional charge and its cooldown is reduced by 3 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 3000.0,
+          "new": 2400.0,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 103827,
+          "source_spell_id": 103827,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Mod Cooldown Ms (1386)",
+          "base_value": -3000.0,
+          "spell_pvp_multiplier": 0.8,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.8,
+          "final_pvp_value": -2400.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Reinforced Plates",
@@ -1783,10 +2235,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 382939,
         "icon": "inv_chest_plate04"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Stamina increased by 5% and Armor increased by 5%.",
+      "pvp_tooltip": "Stamina increased by 5% and Armor increased by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1836,10 +2288,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 383082,
         "icon": "ability_garrosh_whirling_corruption"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Fury (Crashing Thunder)\nThunder Clap, Whirlwind, and Raging Blow deal 10% more damage and 5% increased critical strike damage.\nWhirlwind and Raging Blow deal 10% more damage and 5% increased critical strike damage.",
+      "pvp_tooltip": "Fury (Crashing Thunder)\nThunder Clap, Whirlwind, and Raging Blow deal 10% more damage and 5% increased critical strike damage.\nWhirlwind and Raging Blow deal 10% more damage and 5% increased critical strike damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1891,10 +2343,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1271948,
         "icon": "inv121_ability_warrior_javelineer"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Range of your thrown abilities is increased by 5 yards.\nDamage dealt by Champion's Spear, Shattering Throw, and Wrecking Throw increased by 20%.\nShattering Throw and Wrecking Throw silence non-players for 3 sec.",
+      "pvp_tooltip": "Range of your thrown abilities is increased by 5 yards.\nDamage dealt by Champion's Spear, Shattering Throw, and Wrecking Throw increased by 20%.\nShattering Throw and Wrecking Throw silence non-players for 3 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1946,10 +2398,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1243660,
         "icon": "warrior_disruptingshout"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The effects of your shouts last 20% longer.",
+      "pvp_tooltip": "The effects of your shouts last 20% longer.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1999,10 +2451,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 382764,
         "icon": "spell_shadow_unholystrength"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Bloodthirst deals an additional 5% damage and deals 5% increased critical strike damage.",
+      "pvp_tooltip": "Bloodthirst deals an additional 5% damage and deals 5% increased critical strike damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2054,10 +2506,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 392777,
         "icon": "ability_criticalstrike"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Critical strike chance increased by 1% and critical strike damage of Execute increased by 5%.",
+      "pvp_tooltip": "Critical strike chance increased by 1% and critical strike damage of Execute increased by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2109,10 +2561,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 382900,
         "icon": "ability_dualwield"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While dual wielding your damage is increased by 3% and movement speed is increased by 2%.",
+      "pvp_tooltip": "While dual wielding your damage is increased by 3% and movement speed is increased by 2%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2164,10 +2616,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 382946,
         "icon": "ability_rogue_sprint"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Haste increased by 1% and your auto-attack critical strikes increase your auto-attack speed by 10% for 10 sec.\n(8s cooldown)",
+      "pvp_tooltip": "Haste increased by 1% and your auto-attack critical strikes increase your auto-attack speed by 10% for 10 sec.\n(8s cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2215,15 +2667,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 152278,
         "icon": "warrior_talent_icon_angermanagement"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Every 20 Rage you spend on attacks reduces the remaining cooldown on Avatar and Recklessness by 1 sec.",
+      "pvp_tooltip": "Every 10 Rage you spend on attacks reduces the remaining cooldown on Avatar and Recklessness by 1 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 6,
+          "end": 8,
+          "old_token": "20",
+          "new_token": "10",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            3
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "20",
+          "new": "10"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 152278,
+          "source_spell_id": 152278,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 10.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Champion's Spear",
@@ -2267,10 +2764,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 376079,
         "icon": "inv_ability_warrior_championsspear"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "25 yd range\nInstant\n1.5 min cooldown\nThrow a spear at the target location, chaining all enemies in the area to the spear's location and dealing (239.25% of Attack Power) Physical damage instantly and an additional (326.25% of Attack Power) Physical damage over 6 sec.\nWhile the spear is active, activating this ability will cause you to leap to the spear, dealing (47% of Attack Power) Physical damage to all targets.\nAll damage dealt reduced beyond 5 targets.\nGenerates\n10\nRage.",
+      "pvp_tooltip": "25 yd range\nInstant\n1.5 min cooldown\nThrow a spear at the target location, chaining all enemies in the area to the spear's location and dealing (239.25% of Attack Power) Physical damage instantly and an additional (326.25% of Attack Power) Physical damage over 6 sec.\nWhile the spear is active, activating this ability will cause you to leap to the spear, dealing (47% of Attack Power) Physical damage to all targets.\nAll damage dealt reduced beyond 5 targets.\nGenerates\n10\nRage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2319,15 +2816,82 @@ window.WOW_PVP_DATA = {
         "spell_id": 1280961,
         "icon": "crest_warrior"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your stances have additional effects.\nBerserker Stance\nIncreases your auto-attack speed by 3%.\nDefensive Stance\nWhen an attack deals 20% or more of your maximum health in damage, that damage is reduced by 15%.",
+      "pvp_tooltip": "Your stances have additional effects.\nBerserker Stance\nIncreases your auto-attack speed by 3%.\nDefensive Stance\nWhen an attack deals 20% or more of your maximum health in damage, that damage is reduced by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2,
+            3
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 10.0,
+          "new": 25.0,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1280961,
+          "source_spell_id": 386164,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Mod Mechanic Duration % (Snared)",
+          "base_value": -10.0,
+          "spell_pvp_multiplier": 2.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.5,
+          "final_pvp_value": -25.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1280961,
+            386164
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1280961,
+          "source_spell_id": 386164,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Mod Mechanic Duration % (Rooted)",
+          "base_value": -10.0,
+          "spell_pvp_multiplier": 2.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.5,
+          "final_pvp_value": -25.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1280961,
+            386164
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Battlefield Commander",
@@ -2370,10 +2934,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 424742,
         "icon": "ability_warrior_commandingshout"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Shout abilities have additional effects.\nBattle Shout\n:\nGrants you an additional 3% attack power.\nRallying Cry\n:\nGrants an additional 2% health and duration increased by 3 sec.\nPiercing Howl\n:\nRadius increased by 100%\nBerserker Shout\n:\nRadius increased by 100%.\nIntimidating Shout\n:\nCooldown reduced by 15 sec.",
+      "pvp_tooltip": "Your Shout abilities have additional effects.\nBattle Shout\n:\nGrants you an additional 3% attack power.\nRallying Cry\n:\nGrants an additional 2% health and duration increased by 3 sec.\nPiercing Howl\n:\nRadius increased by 100%\nBerserker Shout\n:\nRadius increased by 100%.\nIntimidating Shout\n:\nCooldown reduced by 15 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2421,15 +2985,65 @@ window.WOW_PVP_DATA = {
         "spell_id": 23881,
         "icon": "spell_nature_bloodlust"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Melee Range\nInstant\n4.5 sec cooldown\nAssault the target in a bloodthirsty craze, dealing (424.203% of Attack Power) Physical damage and restoring 3% of your health.\nGenerates (80 /\nRecklessness\n:\n120\n/\nSeethe\n:\n100\n/ 10) Rage and has a\n30\n% chance to Enrage you.",
+      "pvp_tooltip": "Melee Range\nInstant\n4.5 sec cooldown\nAssault the target in a bloodthirsty craze, dealing (424.203% of Attack Power) Physical damage and restoring 2% of your health.\nGenerates (80 /\nRecklessness\n:\n120\n/\nSeethe\n:\n100\n/ 10) Rage and has a\n30\n% chance to Enrage you.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 146,
+          "end": 147,
+          "old_token": "3",
+          "new_token": "2",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "3",
+          "new": "2"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 23881,
+          "source_spell_id": 117313,
+          "effect_index": 1,
+          "effect_text": "Heal for % of Total Health",
+          "base_value": 3.0,
+          "spell_pvp_multiplier": 0.666667,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.666667,
+          "final_pvp_value": 2.000001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            23881,
+            117313
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Raging Blow",
@@ -2476,10 +3090,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 85288,
         "icon": "warrior_wild_strike"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Melee Range\nInstant\n8 sec cooldown\n1 Charge\nA mighty blow with both weapons that deals a total of [(206.998% of Attack Power) + (206.998% of Attack Power)] Physical damage. [\nImproved Raging Blow\n:\nRaging Blow has a 25% chance to instantly reset its own cooldown\n]\nGenerates (\n120\n/ 10) Rage.",
+      "pvp_tooltip": "Melee Range\nInstant\n8 sec cooldown\n1 Charge\nA mighty blow with both weapons that deals a total of [(206.998% of Attack Power) + (206.998% of Attack Power)] Physical damage. [\nImproved Raging Blow\n:\nRaging Blow has a 25% chance to instantly reset its own cooldown\n]\nGenerates (\n120\n/ 10) Rage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2530,10 +3144,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 29725,
         "icon": "ability_warrior_improveddisciplines"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Approximately\n1.7\nprocs per minute\nYour attacks have a chance to make your next\nExecute\nbe usable on any target regardless of their health.",
+      "pvp_tooltip": "Approximately\n1.7\nprocs per minute\nYour attacks have a chance to make your next\nExecute\nbe usable on any target regardless of their health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2584,15 +3198,61 @@ window.WOW_PVP_DATA = {
         "spell_id": 383848,
         "icon": "spell_shadow_unholyfrenzy"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Enrage increases your haste by 15% and your movement speed by 10%.",
+      "pvp_tooltip": "Enrage increases your haste by 15% and your movement speed by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 3.0,
+          "new": 2.000001,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 383848,
+          "source_spell_id": 117313,
+          "effect_index": 1,
+          "effect_text": "Heal for % of Total Health",
+          "base_value": 3.0,
+          "spell_pvp_multiplier": 0.666667,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.666667,
+          "final_pvp_value": 2.000001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            383848,
+            184362,
+            184361,
+            23881,
+            117313
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "tooltip_value_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Powerful Enrage",
@@ -2638,15 +3298,71 @@ window.WOW_PVP_DATA = {
         "spell_id": 440277,
         "icon": "ability_warrior_strengthofarms"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Enrage increases your mastery by 15% and your Leech by 3%.",
+      "pvp_tooltip": "Enrage increases your mastery by 15% and your Leech by 2%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 55,
+          "end": 56,
+          "old_token": "3",
+          "new_token": "2",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "3",
+          "new": "2"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 440277,
+          "source_spell_id": 117313,
+          "effect_index": 1,
+          "effect_text": "Heal for % of Total Health",
+          "base_value": 3.0,
+          "spell_pvp_multiplier": 0.666667,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.666667,
+          "final_pvp_value": 2.000001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            440277,
+            184362,
+            184361,
+            23881,
+            117313
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "tooltip_value_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Improved Execute",
@@ -2692,10 +3408,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 316402,
         "icon": "inv_sword_48"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Execute no longer costs Rage and now generates 20 Rage.",
+      "pvp_tooltip": "Execute no longer costs Rage and now generates 20 Rage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2746,10 +3462,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 383486,
         "icon": "ability_hunter_mastermarksman"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While Enraged, your auto-attacks can no longer miss.",
+      "pvp_tooltip": "While Enraged, your auto-attacks can no longer miss.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2802,10 +3518,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 184364,
         "icon": "ability_warrior_focusedrage"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n2 min cooldown\nReduces damage taken by 30% and Bloodthirst restores an additional 20% health for\n8 sec\n. Usable while stunned or incapacitated.",
+      "pvp_tooltip": "Instant\n2 min cooldown\nReduces damage taken by 30% and Bloodthirst restores an additional 20% health for\n8 sec\n. Usable while stunned or incapacitated.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2857,15 +3573,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 208154,
         "icon": "ability_rogue_preparation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "You take 10% reduced damage while Enrage is active.",
+      "pvp_tooltip": "You take 5% reduced damage while Enrage is active.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 9,
+          "end": 11,
+          "old_token": "10",
+          "new_token": "5",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "10",
+          "new": "5"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 208154,
+          "source_spell_id": 208154,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Effect #3's Value (23)",
+          "base_value": -10.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": -5.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Improved Whirlwind",
@@ -2911,10 +3672,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 12950,
         "icon": "ability_whirlwind"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Whirlwind [\nCrashing Thunder\n:\nand Thunder Clap cause\n/ causes] your next 4 single-target attacks to strike up to 4 additional targets for 65% damage.\nWhirlwind generates an additional 1 Rage per target hit. Maximum 8 Rage.",
+      "pvp_tooltip": "Whirlwind [\nCrashing Thunder\n:\nand Thunder Clap cause\n/ causes] your next 4 single-target attacks to strike up to 4 additional targets for 65% damage.\nWhirlwind generates an additional 1 Rage per target hit. Maximum 8 Rage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2964,10 +3725,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 206315,
         "icon": "inv_axe_2h_orcwarrior_c_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Execute\nis usable on targets below 35% health and its cooldown is reduced by 1.5 sec.",
+      "pvp_tooltip": "Execute\nis usable on targets below 35% health and its cooldown is reduced by 1.5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3019,10 +3780,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 215568,
         "icon": "ability_deathwing_bloodcorruption_death"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Bloodthirst always Enrages you the first time you strike a target and it has a 15% increased chance to trigger Enrage.",
+      "pvp_tooltip": "Bloodthirst always Enrages you the first time you strike a target and it has a 15% increased chance to trigger Enrage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3070,10 +3831,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 383468,
         "icon": "spell_misc_emotionangry"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Enraged Regeneration lasts 3 sec longer and instantly heals for 10% of your maximum health.",
+      "pvp_tooltip": "Enraged Regeneration lasts 3 sec longer and instantly heals for 10% of your maximum health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3126,14 +3887,155 @@ window.WOW_PVP_DATA = {
         "spell_id": 184367,
         "icon": "ability_warrior_rampage"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "80 Rage\nMelee Range\nInstant\nUnleash a series of 4 brutal strikes for a total of [(203.065% of Attack Power) + (118.455% of Attack Power) + (270.756% of Attack Power) + (152.3% of Attack Power)] Physical damage.\nEnrages you.\nWhile Improved Whirlwind is active, Rampage's final strike deals (372.289% of Attack Power) Physical damage to all enemies within 8 yds of your target. Deals reduced damage beyond 5 targets.",
+      "pvp_tooltip": "80 Rage\nMelee Range\nInstant\nUnleash a series of 4 brutal strikes for a total of [(203.065% of Attack Power) + (118.455% of Attack Power) + (270.756% of Attack Power) + (152.3% of Attack Power)] Physical damage.\nEnrages you.\nWhile Improved Whirlwind is active, Rampage's final strike deals (372.289% of Attack Power) Physical damage to all enemies within 8 yds of your target. Deals reduced damage beyond 5 targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 184367,
+          "source_spell_id": 184707,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 2.03065 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.275,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.275,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            184367,
+            184707
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 184367,
+          "source_spell_id": 184709,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 1.18455 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.275,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.275,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            184367,
+            184709
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 184367,
+          "source_spell_id": 201363,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 1.523 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.275,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.275,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            184367,
+            201363
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 184367,
+          "source_spell_id": 201364,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 2.70756 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.275,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.275,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            184367,
+            201364
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 184367,
+          "source_spell_id": 1299944,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 3.72289 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.275,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.275,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            184367,
+            1299944
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -3181,10 +4083,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 383854,
         "icon": "warrior_wild_strike"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Raging Blow has 2 charges and has a 25% chance to instantly reset its own cooldown.",
+      "pvp_tooltip": "Raging Blow has 2 charges and has a 25% chance to instantly reset its own cooldown.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3234,14 +4136,171 @@ window.WOW_PVP_DATA = {
         "spell_id": 1265357,
         "icon": "ability_warrior_trauma"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While Improved Whirlwind is active, Rampage's final strike slams the ground, dealing (372.289% of Attack Power) Physical damage to all enemies within 8 yds of your target. Deals reduced damage beyond 5 targets",
+      "pvp_tooltip": "While Improved Whirlwind is active, Rampage's final strike slams the ground, dealing (372.289% of Attack Power) Physical damage to all enemies within 8 yds of your target. Deals reduced damage beyond 5 targets",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1265357,
+          "source_spell_id": 1299944,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 3.72289 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.275,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.275,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1265357,
+            1299944
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1265357,
+          "source_spell_id": 184707,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 2.03065 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.275,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.275,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1265357,
+            1299944,
+            184367,
+            184707
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1265357,
+          "source_spell_id": 184709,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 1.18455 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.275,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.275,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1265357,
+            1299944,
+            184367,
+            184709
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1265357,
+          "source_spell_id": 201363,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 1.523 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.275,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.275,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1265357,
+            1299944,
+            184367,
+            201363
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1265357,
+          "source_spell_id": 201364,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 2.70756 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.275,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.275,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1265357,
+            1299944,
+            184367,
+            201364
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -3286,14 +4345,43 @@ window.WOW_PVP_DATA = {
         "spell_id": 1261060,
         "icon": "ability_backstab"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Causes the target to suffer (145.48% of Attack Power) Bleed damage over 6 sec. If this effect is reapplied, any remaining damage will be added to the new Deep Wounds.",
+      "pvp_tooltip": "Causes the target to suffer (145.48% of Attack Power) Bleed damage over 6 sec. If this effect is reapplied, any remaining damage will be added to the new Deep Wounds.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 1261060,
+          "source_spell_id": 262115,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 2.0,
+          "amount_kind": "periodic",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1261060,
+            262115
+          ],
+          "dependency_relations": [
+            "triggered_by_reverse"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -3340,10 +4428,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 383852,
         "icon": "warrior_talent_icon_furyintheblood"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Bloodthirst and Raging Blow damage increased by 2.5% and critical strike damage increased by a further 2.5%.",
+      "pvp_tooltip": "Bloodthirst and Raging Blow damage increased by 2.5% and critical strike damage increased by a further 2.5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3394,10 +4482,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1265355,
         "icon": "ability_hunter_harass"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Rampage increases the damage of your next Bloodthirst by 10%, stacking up to 2 times.\n(500ms cooldown)",
+      "pvp_tooltip": "Rampage increases the damage of your next Bloodthirst by 10%, stacking up to 2 times.\n(500ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3447,10 +4535,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1265361,
         "icon": "inv12_ability_warrior_fury"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When you would sustain fatal damage, you instead fly into an unstoppable rage, becoming unkillable and immune to movement-impairing effects for 8 sec as you seek revenge on your would-be killer.\nIf you kill your killer in that time, you emerge from your blind rage triumphant, with at least 20% of your max health intact. If you are not victorious, you die.\nThis effect can only occur once every 5 min and if your killer is alive when you sustain fatal damage.",
+      "pvp_tooltip": "When you would sustain fatal damage, you instead fly into an unstoppable rage, becoming unkillable and immune to movement-impairing effects for 8 sec as you seek revenge on your would-be killer.\nIf you kill your killer in that time, you emerge from your blind rage triumphant, with at least 20% of your max health intact. If you are not victorious, you die.\nThis effect can only occur once every 5 min and if your killer is alive when you sustain fatal damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3501,10 +4589,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 383877,
         "icon": "ability_rogue_rollthebones02"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Rampage has a 75% chance to refund a charge of Raging Blow and increase the damage of your next Raging Blow by 20%.\n(Proc chance: 75%, 500ms cooldown)",
+      "pvp_tooltip": "Rampage has a 75% chance to refund a charge of Raging Blow and increase the damage of your next Raging Blow by 20%.\n(Proc chance: 75%, 500ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3555,10 +4643,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 392931,
         "icon": "spell_nature_focusedmind"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While Enraged, Bloodthirst and Raging Blow deal 5% increased damage.",
+      "pvp_tooltip": "While Enraged, Bloodthirst and Raging Blow deal 5% increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3607,10 +4695,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 280392,
         "icon": "warrior_talent_icon_mastercleaver"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Whirlwind [\nCrashing Thunder\n:\nand Thunder Clap deal\n/ deals] 50% additional damage when [\nCrashing Thunder\n:\nthey hit\n/ it hits] 3 or more targets.",
+      "pvp_tooltip": "Whirlwind [\nCrashing Thunder\n:\nand Thunder Clap deal\n/ deals] 50% additional damage when [\nCrashing Thunder\n:\nthey hit\n/ it hits] 3 or more targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3659,10 +4747,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1300463,
         "icon": "inv_knife_1h_goblinrogue_c_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Whirlwind deals 50% additional damage when it hits only a single target.",
+      "pvp_tooltip": "Whirlwind deals 50% additional damage when it hits only a single target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3712,10 +4800,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 383959,
         "icon": "ability_rogue_hungerforblood"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Bloodthirst critical strikes generate 4 additional Rage and inflict a Gushing Wound that deals 9 Bleed damage over 6 sec and heals you for the damage dealt.\n(500ms cooldown)",
+      "pvp_tooltip": "Bloodthirst critical strikes generate 4 additional Rage and inflict a Gushing Wound that deals 9 Bleed damage over 6 sec and heals you for the damage dealt.\n(500ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3767,14 +4855,43 @@ window.WOW_PVP_DATA = {
         "spell_id": 1265356,
         "icon": "spell_nzinsanity_bloodthirst"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Bloodthirst critical strikes restore 3% additional health and increase the damage of Raging Blow by 10% for 4 sec.\n(500ms cooldown)",
+      "pvp_tooltip": "Bloodthirst critical strikes restore 3% additional health and increase the damage of Raging Blow by 10% for 4 sec.\n(500ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 1265356,
+          "source_spell_id": 1283442,
+          "effect_index": 1,
+          "effect_text": "Heal for % of Total Health",
+          "base_value": 3.0,
+          "spell_pvp_multiplier": 0.666667,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.666667,
+          "final_pvp_value": 2.000001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1265356,
+            1283442
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -3822,10 +4939,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1719,
         "icon": "warrior_talent_icon_innerrage"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n1.5 min cooldown\nGo berserk, increasing all Rage generation by 50% and granting your abilities 20% increased critical strike chance for 12 sec.\nGenerates 0 Rage.",
+      "pvp_tooltip": "Instant\n1.5 min cooldown\nGo berserk, increasing all Rage generation by 50% and granting your abilities 20% increased critical strike chance for 12 sec.\nGenerates 0 Rage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3877,10 +4994,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 393950,
         "icon": "ability_creature_cursed_02"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Raging Blow increases the damage of your next Bloodthirst by 5%, stacking up to 5 times.",
+      "pvp_tooltip": "Raging Blow increases the damage of your next Bloodthirst by 5%, stacking up to 5 times.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3930,10 +5047,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 392936,
         "icon": "inv_sword_2h_artifactarathor_d_03"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Raging Blow deals 15% increased damage and while Enraged, Raging Blow has a 10% increased chance to instantly reset its own cooldown.",
+      "pvp_tooltip": "Raging Blow deals 15% increased damage and while Enraged, Raging Blow has a 10% increased chance to instantly reset its own cooldown.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3985,10 +5102,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 383295,
         "icon": "inv_misc_book_07"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Bloodthirst's critical strike chance increased by 5% and if you are Enraged, Bloodthirst extends your Enrage by 0.5 sec. This extension is doubled if Bloodthirst critically strikes your primary target.",
+      "pvp_tooltip": "Bloodthirst's critical strike chance increased by 5% and if you are Enraged, Bloodthirst extends your Enrage by 0.5 sec. This extension is doubled if Bloodthirst critically strikes your primary target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4041,10 +5158,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 335077,
         "icon": "ability_rogue_bloodyeye"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Rampage increases your haste by 2% for 12 sec. Multiple instances of this effect may overlap.\n(500ms cooldown)",
+      "pvp_tooltip": "Rampage increases your haste by 2% for 12 sec. Multiple instances of this effect may overlap.\n(500ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4096,10 +5213,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 383297,
         "icon": "ability_criticalstrike"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Raging Blow's critical strike chance increased by 5% and critical strike damage increased by 5%.",
+      "pvp_tooltip": "Raging Blow's critical strike chance increased by 5% and critical strike damage increased by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4149,10 +5266,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 383885,
         "icon": "ability_ironmaidens_sorkasprey"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Bloodthirst deals 25% increased damage to enemies who are below 35% health.",
+      "pvp_tooltip": "Bloodthirst deals 25% increased damage to enemies who are below 35% health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4204,14 +5321,127 @@ window.WOW_PVP_DATA = {
         "spell_id": 385059,
         "icon": "inv_sword_1h_artifactvigfus_d_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n45 sec cooldown\nUnleashes your power, dealing [(182.598% of Attack Power)% + (182.598% of Attack Power)% + (182.598% of Attack Power)% + (182.598% of Attack Power)%] Physical damage and an additional (520% of Attack Power) Bleed damage over 4 sec to all enemies within 12 yards. Deals reduced damage beyond 8 targets.\nEnrages you and generates 20 Rage.",
+      "pvp_tooltip": "Instant\n45 sec cooldown\nUnleashes your power, dealing [(182.598% of Attack Power)% + (182.598% of Attack Power)% + (182.598% of Attack Power)% + (182.598% of Attack Power)%] Physical damage and an additional (520% of Attack Power) Bleed damage over 4 sec to all enemies within 12 yards. Deals reduced damage beyond 8 targets.\nEnrages you and generates 20 Rage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 385059,
+          "source_spell_id": 385060,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 1.82598 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.8,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.8,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            385059,
+            385060
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 385059,
+          "source_spell_id": 385060,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.8,
+          "amount_kind": "periodic",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.8,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            385059,
+            385060
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 385059,
+          "source_spell_id": 385061,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 1.82598 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.8,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.8,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            385059,
+            385061
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 385059,
+          "source_spell_id": 385062,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 1.82598 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.8,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.8,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            385059,
+            385062
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -4259,10 +5489,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 385703,
         "icon": "inv_artifact_bloodoftheassassinated"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Bloodthirst causes your Bleeds to deal 20% additional damage for 8 sec.",
+      "pvp_tooltip": "Bloodthirst causes your Bleeds to deal 20% additional damage for 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4312,10 +5542,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1265359,
         "icon": "inv_1115_warrior_fasterreflexes"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When Raging Blow resets its own cooldown, your auto-attack damage and speed is increased by 30% for 6 sec.",
+      "pvp_tooltip": "When Raging Blow resets its own cooldown, your auto-attack damage and speed is increased by 30% for 6 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4364,10 +5594,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1265570,
         "icon": "inv_12_nonmasculinecharacter_human"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Execute generates 5 additional Rage and increases the damage of Rampage by 10% for 4 sec.",
+      "pvp_tooltip": "Execute generates 5 additional Rage and increases the damage of Rampage by 10% for 4 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4416,15 +5646,59 @@ window.WOW_PVP_DATA = {
         "spell_id": 396749,
         "icon": "spell_fire_incinerate"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Activating Recklessness generates 50 Rage and while Recklessness is active, Raging Blow and Bloodthirst are upgraded to Crushing Blow and Bloodbath.\nCrushing Blow\nDeals increased damage and deals 20% additional critical strike damage.\nBloodbath\nDeals increased damage and wounds the target to suffer (187.26% of Attack Power) Bleed damage over 6 sec. Using Bloodbath on a target affected by Bloodbath extends the bleed by 6 sec.",
+      "pvp_tooltip": "Activating Recklessness generates 50 Rage and while Recklessness is active, Raging Blow and Bloodthirst are upgraded to Crushing Blow and Bloodbath.\nCrushing Blow\nDeals increased damage and deals 20% additional critical strike damage.\nBloodbath\nDeals increased damage and wounds the target to suffer (187.26% of Attack Power) Bleed damage over 6 sec. Using Bloodbath on a target affected by Bloodbath extends the bleed by 6 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 3.0,
+          "new": 2.000001,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 396749,
+          "source_spell_id": 117313,
+          "effect_index": 1,
+          "effect_text": "Heal for % of Total Health",
+          "base_value": 3.0,
+          "spell_pvp_multiplier": 0.666667,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.666667,
+          "final_pvp_value": 2.000001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            396749,
+            113344,
+            335096,
+            117313
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Avatar",
@@ -4468,15 +5742,98 @@ window.WOW_PVP_DATA = {
         "spell_id": 107574,
         "icon": "warrior_talent_icon_avatar"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n1.5 min cooldown\nTransform into a colossus, increasing all damage you deal by 20% and increasing your movement speed by 5% for 20 sec.",
+      "pvp_tooltip": "Instant\n1.5 min cooldown\nTransform into a colossus, increasing all damage you deal by 20% and increasing your movement speed by 5% for 20 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "REVIEW_REQUIRED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1,
+            3,
+            4
+          ],
+          "status": "AMBIGUOUS_TEXT_MATCH",
+          "kind": "ordinary_value",
+          "old": 20.0,
+          "new": 15.0,
+          "match_count": 2
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 107574,
+          "source_spell_id": 107574,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 0.75,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": 15.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 107574,
+          "source_spell_id": 107574,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Mod Auto Attack Damage %",
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 0.75,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": 15.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 107574,
+          "source_spell_id": 107574,
+          "effect_index": 4,
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 0.75,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": 15.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 3
     },
     {
       "talent_name": "Bladestorm",
@@ -4520,14 +5877,89 @@ window.WOW_PVP_DATA = {
         "spell_id": 227847,
         "icon": "ability_warrior_bladestorm"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n1.5 min cooldown\n1 Charge\nBecome an unstoppable storm of destructive force, striking all nearby enemies for [5 * (271.635% of Attack Power)%] Physical damage over 4 sec. Deals reduced damage beyond 8 targets.\nYou are immune to movement impairing and loss of control effects, but can use defensive abilities and can avoid attacks.\nGenerates 5 Rage on each strike.",
+      "pvp_tooltip": "Instant\n1.5 min cooldown\n1 Charge\nBecome an unstoppable storm of destructive force, striking all nearby enemies for [5 * (271.635% of Attack Power)%] Physical damage over 4 sec. Deals reduced damage beyond 8 targets.\nYou are immune to movement impairing and loss of control effects, but can use defensive abilities and can avoid attacks.\nGenerates 5 Rage on each strike.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 227847,
+          "source_spell_id": 50622,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 2.71635 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 0.85,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            227847,
+            50622
+          ],
+          "dependency_relations": [
+            "triggered_by_reverse"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1257520,
+              "game_effect_id": 1265434,
+              "amount_kind": "direct",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 227847,
+          "source_spell_id": 95738,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 2.71635 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 0.85,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            227847,
+            50622,
+            95738
+          ],
+          "dependency_relations": [
+            "triggered_by_reverse",
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1257520,
+              "game_effect_id": 1265434,
+              "amount_kind": "direct",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -4569,10 +6001,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1269308,
         "icon": "inv12_apextalent_warrior_rampagingberserker2"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Rampage damage increased by 10% and Rampage makes you go Berserk, increasing your Strength by 3% for 8 sec. Multiple applications of Berserk may overlap.\n(500ms cooldown)",
+      "pvp_tooltip": "Rampage damage increased by 10% and Rampage makes you go Berserk, increasing your Strength by 3% for 8 sec. Multiple applications of Berserk may overlap.\n(500ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4618,10 +6050,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1269309,
         "icon": "inv12_apextalent_warrior_rampagingberserker2"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Rampage's Rage cost is reduced by 15 and damage is increased by a further 5% during Recklessness.",
+      "pvp_tooltip": "Rampage's Rage cost is reduced by 15 and damage is increased by a further 5% during Recklessness.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4667,10 +6099,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1269310,
         "icon": "inv12_apextalent_warrior_rampagingberserker2"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Recklessness grants 3 stacks of Berserk and duration of Recklessness increased by 50%.",
+      "pvp_tooltip": "Recklessness grants 3 stacks of Berserk and duration of Recklessness increased by 50%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4721,10 +6153,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 434969,
         "icon": "ability_vehicle_electrocharge"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Damaging enemies with Thunder Clap, Raging Blow, or Execute has a 25% chance to also strike one with a lightning bolt, dealing (155.1% of Attack Power) Nature damage\n.\nLightning Strikes occur 30% more often during Avatar.",
+      "pvp_tooltip": "Damaging enemies with Thunder Clap, Raging Blow, or Execute has a 25% chance to also strike one with a lightning bolt, dealing (155.1% of Attack Power) Nature damage\n.\nLightning Strikes occur 30% more often during Avatar.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4774,10 +6206,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 436707,
         "icon": "spell_nature_thunderclap"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Stormstrike or Nature damage your abilities deal is increased by 5%. Stormstrike damage ignores Armor.\nThunder Clap damage increased by 10%, no longer costs Rage, and now generates 8 Rage.\nImproved Whirlwind, Meat Cleaver, Storm of Blood, and Barbaric Training affect Thunder Clap in addition to Whirlwind.",
+      "pvp_tooltip": "Stormstrike or Nature damage your abilities deal is increased by 5%. Stormstrike damage ignores Armor.\nThunder Clap damage increased by 10%, no longer costs Rage, and now generates 8 Rage.\nImproved Whirlwind, Meat Cleaver, Storm of Blood, and Barbaric Training affect Thunder Clap in addition to Whirlwind.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4827,10 +6259,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 436148,
         "icon": "warrior_talent_icon_thunderstruck"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Lightning Strikes also deal (111.787% of Attack Power) Nature damage to enemies near their target. Damage reduced beyond 5 targets.",
+      "pvp_tooltip": "Lightning Strikes also deal (111.787% of Attack Power) Nature damage to enemies near their target. Damage reduced beyond 5 targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4880,10 +6312,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 437068,
         "icon": "ability_warrior_titansgrip"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shield Slam damage increased by 15%.\nBloodthirst and Rampage damage increased by 25%.",
+      "pvp_tooltip": "Shield Slam damage increased by 15%.\nBloodthirst and Rampage damage increased by 25%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4933,10 +6365,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 275336,
         "icon": "ability_racial_avatar"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Avatar increases the damage of Thunder Clap by 50% and reduces its cooldown by 50%.",
+      "pvp_tooltip": "Avatar increases the damage of Thunder Clap by 50% and reduces its cooldown by 50%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4987,15 +6419,125 @@ window.WOW_PVP_DATA = {
         "spell_id": 444767,
         "icon": "inv_ability_slayerwarrior_slayersdominance"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Your attacks against your primary target have a 15% chance to overwhelm their defenses and trigger a Slayer's Strike, dealing (840.42% of Attack Power) Physical damage and granting you a stack of Executioner, increasing your Execute damage by\n3\n% for 12 sec. Multiple stacks of Executioner may overlap.",
+      "pvp_tooltip": "Your attacks against your primary target have a 15% chance to overwhelm their defenses and trigger a Slayer's Strike, dealing (840.42% of Attack Power) Physical damage and granting you a stack of Executioner, increasing your Execute damage by\n1\n% for 12 sec. Multiple stacks of Executioner may overlap.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 243,
+          "end": 244,
+          "old_token": "3",
+          "new_token": "1",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1,
+            2,
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "3",
+          "new": "1"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 444767,
+          "source_spell_id": 445584,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 3.0,
+          "spell_pvp_multiplier": 0.33334,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.33334,
+          "final_pvp_value": 1.0000200000000001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            444767,
+            445584
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 444767,
+          "source_spell_id": 445584,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Critical Strike Chance (7)",
+          "base_value": 3.0,
+          "spell_pvp_multiplier": 0.33334,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.33334,
+          "final_pvp_value": 1.0000200000000001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            444767,
+            445584
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 444767,
+          "source_spell_id": 445584,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Modifies Critical Strike Damage (15)",
+          "base_value": 3.0,
+          "spell_pvp_multiplier": 0.33334,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.33334,
+          "final_pvp_value": 1.0000200000000001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            444767,
+            445584
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 3
     },
     {
       "talent_name": "Thunder Blast",
@@ -5040,10 +6582,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 435607,
         "icon": "warrior_talent_icon_bloodandthunder"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your next Thunder Clap becomes a Thunder Blast that deals (234.295% of Attack Power) Stormstrike damage and generates 2 Rage.",
+      "pvp_tooltip": "Your next Thunder Clap becomes a Thunder Blast that deals (234.295% of Attack Power) Stormstrike damage and generates 2 Rage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5093,10 +6635,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 436162,
         "icon": "warrior_talent_icon_stormbolt"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Storm Bolt also hits 2 additional nearby targets, stunning them for 2 sec, but its cooldown is increased by 10 sec.",
+      "pvp_tooltip": "Storm Bolt also hits 2 additional nearby targets, stunning them for 2 sec, but its cooldown is increased by 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5146,10 +6688,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 438597,
         "icon": "spell_winston_bubble"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Intervening a target grants them a shield for 5 sec that absorbs magic damage equal to 3 times your Armor.",
+      "pvp_tooltip": "Intervening a target grants them a shield for 5 sec that absorbs magic damage equal to 3 times your Armor.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5199,10 +6741,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 438590,
         "icon": "ability_thunderking_overcharge"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Physical damage taken reduced by 2%.\nThunder Blast reduces damage you take by 8% for 5 sec.\n(100ms cooldown)",
+      "pvp_tooltip": "Physical damage taken reduced by 2%.\nThunder Blast reduces damage you take by 8% for 5 sec.\n(100ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5252,10 +6794,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 434970,
         "icon": "ability_warrior_devastate"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Stamina increased by 5%.\n[\nImpending Victory\n/ Victory Rush] increases your maximum health by 10% for 5 sec. When this health increase expires, you heal for any amount of the original [\nImpending Victory\n/ Victory Rush] that healed you in excess of your full health.",
+      "pvp_tooltip": "Stamina increased by 5%.\n[\nImpending Victory\n/ Victory Rush] increases your maximum health by 10% for 5 sec. When this health increase expires, you heal for any amount of the original [\nImpending Victory\n/ Victory Rush] that healed you in excess of your full health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5305,10 +6847,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1270723,
         "icon": "spell_shaman_thunderstorm"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Lightning Strike damage increased by 10% and critical strike damage increased by 10%.",
+      "pvp_tooltip": "Lightning Strike damage increased by 10% and critical strike damage increased by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5358,10 +6900,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 444769,
         "icon": "ability_warrior_improveddisciplines"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Every 3 Slayer's Strikes you gain Sudden Death.\nUsing Sudden Death accelerates your next Bladestorm, striking 1 additional time (max 3). Bladestorm's total duration is unchanged.\nSudden Death has a 100% chance to trigger Reap the Storm at 100% effectiveness.",
+      "pvp_tooltip": "Every 3 Slayer's Strikes you gain Sudden Death.\nUsing Sudden Death accelerates your next Bladestorm, striking 1 additional time (max 3). Bladestorm's total duration is unchanged.\nSudden Death has a 100% chance to trigger Reap the Storm at 100% effectiveness.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5411,10 +6953,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 444772,
         "icon": "inv_10_specialization_blacksmithing_blades_color1"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Each strike of Bladestorm applies Overwhelmed to all enemies affected, increasing damage you deal to them by\n1\n% for 20 sec, max 5 stacks.",
+      "pvp_tooltip": "Each strike of Bladestorm applies Overwhelmed to all enemies affected, increasing damage you deal to them by\n1\n% for 20 sec, max 5 stacks.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5464,15 +7006,65 @@ window.WOW_PVP_DATA = {
         "spell_id": 444776,
         "icon": "ability_rogue_sprint"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Charge increases your movement speed by 70% for 3 sec.\nCharge removes all movement impairing effects, this effect cannot occur more than once every 30 sec.",
+      "pvp_tooltip": "Charge increases your movement speed by 50.4% for 3 sec.\nCharge removes all movement impairing effects, this effect cannot occur more than once every 30 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 40,
+          "end": 42,
+          "old_token": "70",
+          "new_token": "50.4",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "70",
+          "new": "50.4"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 444776,
+          "source_spell_id": 446044,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Increase Run Speed %",
+          "base_value": 70.0,
+          "spell_pvp_multiplier": 0.72,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.72,
+          "final_pvp_value": 50.4,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            444776,
+            446044
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Vicious Agility",
@@ -5517,10 +7109,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 444777,
         "icon": "ability_paladin_speedoflight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Heroic Leap reduces the cooldown of Charge by 5 sec and Charge reduces the cooldown of Heroic Leap by 2 sec.",
+      "pvp_tooltip": "Heroic Leap reduces the cooldown of Charge by 5 sec and Charge reduces the cooldown of Heroic Leap by 2 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5570,10 +7162,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1270717,
         "icon": "ability_butcher_exsanguination"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Bladestorm puts you into a battle trance, granting you 15% haste for 8 sec after you stop Bladestorming.",
+      "pvp_tooltip": "Bladestorm puts you into a battle trance, granting you 15% haste for 8 sec after you stop Bladestorming.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5623,10 +7215,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 437079,
         "icon": "spell_lightning_lightningbolt01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Thunder Blast calls down a Lightning Strike on an enemy it hits.",
+      "pvp_tooltip": "Thunder Blast calls down a Lightning Strike on an enemy it hits.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5676,10 +7268,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 456270,
         "icon": "ability_thunderking_thunderstruck"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Activating Recklessness grants a charge of Thunder Blast.\n(100ms cooldown)",
+      "pvp_tooltip": "Activating Recklessness grants a charge of Thunder Blast.\n(100ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5729,10 +7321,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 436201,
         "icon": "spell_nature_stormreach"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your attacks trigger Lightning Strikes 30% more often.",
+      "pvp_tooltip": "Your attacks trigger Lightning Strikes 30% more often.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5782,10 +7374,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 436152,
         "icon": "inv_ability_mountainthanewarrior_thorimsmight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Lightning Strikes generate 3 Rage.\nRaging Blow and Execute damage increased by 25%.",
+      "pvp_tooltip": "Lightning Strikes generate 3 Rage.\nRaging Blow and Execute damage increased by 25%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5835,14 +7427,43 @@ window.WOW_PVP_DATA = {
         "spell_id": 437118,
         "icon": "shaman_pvp_thundercharge"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Lightning Strikes have a 15% chance to make your next 2 Bloodthirsts have no cooldown, deal 35% increased damage, and generate 2 additional Rage.",
+      "pvp_tooltip": "Lightning Strikes have a 15% chance to make your next 2 Bloodthirsts have no cooldown, deal 35% increased damage, and generate 2 additional Rage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 437118,
+          "source_spell_id": 437121,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 35.0,
+          "spell_pvp_multiplier": 0.429,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.429,
+          "final_pvp_value": 15.015,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            437118,
+            437121
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5888,10 +7509,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1270724,
         "icon": "spell_nature_purge"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "During Avatar, Thunder Blast extends Avatar's duration by 2.0 sec.",
+      "pvp_tooltip": "During Avatar, Thunder Blast extends Avatar's duration by 2.0 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5941,10 +7562,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 444770,
         "icon": "ability_warrior_focusedrage"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You heal for 15% of damage dealt by Sudden Death.",
+      "pvp_tooltip": "You heal for 15% of damage dealt by Sudden Death.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5994,10 +7615,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 444778,
         "icon": "ability_warrior_bladestorm"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Each strike of Bladestorm deals an additional 20% damage evenly split across all targets.",
+      "pvp_tooltip": "Each strike of Bladestorm deals an additional 20% damage evenly split across all targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6047,15 +7668,93 @@ window.WOW_PVP_DATA = {
         "spell_id": 446085,
         "icon": "ability_revendreth_warrior"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Your next Rampage after Bladestorm ends deals 50% additional damage.",
+      "pvp_tooltip": "Your next Rampage after Bladestorm ends deals 30% additional damage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 46,
+          "end": 48,
+          "old_token": "50",
+          "new_token": "30",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1,
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1,
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "50",
+          "new": "30"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 446085,
+          "source_spell_id": 446918,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            446085,
+            446918
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 446085,
+          "source_spell_id": 446918,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            446085,
+            446918
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Fierce Followthrough",
@@ -6100,10 +7799,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 444773,
         "icon": "spell_deathknight_butcher2"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Bloodthirst critical strikes increase the damage of your next Bloodthirst by 20%.",
+      "pvp_tooltip": "Bloodthirst critical strikes increase the damage of your next Bloodthirst by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6153,10 +7852,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 444774,
         "icon": "ability_warrior_weaponmastery"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When Raging Blow resets its own cooldown, your next Raging Blow deals 10% additional damage and 10% additional critical damage. Stacking up to 2 times.",
+      "pvp_tooltip": "When Raging Blow resets its own cooldown, your next Raging Blow deals 10% additional damage and 10% additional critical damage. Stacking up to 2 times.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6206,10 +7905,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1270718,
         "icon": "spell_hunter_focusingshot"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Executioner's duration is increased by 6 sec.",
+      "pvp_tooltip": "Executioner's duration is increased by 6 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6260,10 +7959,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 437134,
         "icon": "achievement_dungeon_blackrockcaverns_ascendantlordobsidius"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Avatar grants you 2 charges of Thunder Blast and resets the cooldown of Thunder Clap.\nWhile Avatar is not active, Lightning Strikes have a 10% chance to grant you Avatar for 4 secs.\nThunder Blast\nYour next Thunder Clap becomes a Thunder Blast that deals Stormstrike damage.",
+      "pvp_tooltip": "Casting Avatar grants you 2 charges of Thunder Blast and resets the cooldown of Thunder Clap.\nWhile Avatar is not active, Lightning Strikes have a 10% chance to grant you Avatar for 4 secs.\nThunder Blast\nYour next Thunder Clap becomes a Thunder Blast that deals Stormstrike damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6313,15 +8012,125 @@ window.WOW_PVP_DATA = {
         "spell_id": 444771,
         "icon": "warrior_talent_icon_lambstotheslaughter"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Executioner also increases your Execute critical strike chance and critical strike damage by\n3\n% per stack.",
+      "pvp_tooltip": "Executioner also increases your Execute critical strike chance and critical strike damage by\n1\n% per stack.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 93,
+          "end": 94,
+          "old_token": "3",
+          "new_token": "1",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1,
+            2,
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "3",
+          "new": "1"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 444771,
+          "source_spell_id": 445584,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 3.0,
+          "spell_pvp_multiplier": 0.33334,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.33334,
+          "final_pvp_value": 1.0000200000000001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            444771,
+            445584
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 444771,
+          "source_spell_id": 445584,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Critical Strike Chance (7)",
+          "base_value": 3.0,
+          "spell_pvp_multiplier": 0.33334,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.33334,
+          "final_pvp_value": 1.0000200000000001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            444771,
+            445584
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 444771,
+          "source_spell_id": 445584,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Modifies Critical Strike Damage (15)",
+          "base_value": 3.0,
+          "spell_pvp_multiplier": 0.33334,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.33334,
+          "final_pvp_value": 1.0000200000000001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            444771,
+            445584
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 3
     },
     {
       "talent_name": "Reap the Storm",
@@ -6366,14 +8175,43 @@ window.WOW_PVP_DATA = {
         "spell_id": 444775,
         "icon": "ability_arakkoa_spinning_blade"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When Rampage hits 3 or more targets via Improved Whirlwind you have a 20% chance to unleash a flurry of steel, striking all nearby enemies for (771.909% of Attack Power) Physical damage and applying Overwhelmed. Deals reduced damage beyond 8 targets.\n(500ms cooldown)",
+      "pvp_tooltip": "When Rampage hits 3 or more targets via Improved Whirlwind you have a 20% chance to unleash a flurry of steel, striking all nearby enemies for (771.909% of Attack Power) Physical damage and applying Overwhelmed. Deals reduced damage beyond 8 targets.\n(500ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 444775,
+          "source_spell_id": 446005,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 7.71909 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.615,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.615,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            444775,
+            446005
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -6419,10 +8257,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 444779,
         "icon": "ability_warrior_revenge"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Raging Blow and Execute damage increased by 15%.",
+      "pvp_tooltip": "Raging Blow and Execute damage increased by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6472,15 +8310,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 386628,
         "icon": "spell_shadow_spectralsight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Every 2 strikes of Bladestorm, you automatically cast a Bloodthirst at your target or random nearby enemy, dealing 100% of normal damage.",
+      "pvp_tooltip": "Every 2 strikes of Bladestorm, you automatically cast a Bloodthirst at your target or random nearby enemy, dealing 40% of normal damage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 115,
+          "end": 118,
+          "old_token": "100",
+          "new_token": "40",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "100",
+          "new": "40"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 386628,
+          "source_spell_id": 386628,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 100.0,
+          "spell_pvp_multiplier": 0.4,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.4,
+          "final_pvp_value": 40.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Unrelenting Onslaught",
@@ -6526,10 +8409,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 444780,
         "icon": "ability_warrior_commandingshout"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Using Sudden Death causes you to both reduce the cooldown of Bladestorm by 5 sec and apply 1 stack of Overwhelmed to your primary target per stack of Executioner you have.\nYou can use Pummel and Storm Bolt while Bladestorming.\nBladestorm damage increased by 20%.",
+      "pvp_tooltip": "Using Sudden Death causes you to both reduce the cooldown of Bladestorm by 5 sec and apply 1 stack of Overwhelmed to your primary target per stack of Executioner you have.\nYou can use Pummel and Storm Bolt while Bladestorming.\nBladestorm damage increased by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6537,624 +8420,13 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     }
   ],
-  "fetch_errors": [
-    {
-      "source": "wowhead_page",
-      "spell_id": 1719,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fd250 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 3411,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16fd0950 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 5246,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165855e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 6343,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16fd32f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 6544,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18363050 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 12323,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16571ca0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 12950,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16577830 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 23881,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165730b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 23920,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16577530 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 29725,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16574350 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 29838,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c74710 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 46968,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fc170 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 64382,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16570c50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 85288,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167c90d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 97462,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165877d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 103827,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16585be0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 107570,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16585190 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 107574,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16576ea0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 152278,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16587290 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 184364,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d818b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 184367,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16f7e480 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 202163,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ff590 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 202168,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16fd3d70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 203201,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c75520 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 206315,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fc7d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 208154,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16570f20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 215568,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167ca480 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 227847,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16576b40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 262231,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16fd3320 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 275336,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ffe00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 275339,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16fd1340 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 280392,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16571fd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 316402,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165873e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 335077,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fc950 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 376079,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c1d0a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382258,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fea80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382260,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16fd1f10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382549,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16575b80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382764,
-      "error": "RetryError: RetryError[<Future at 0x7fbf182279b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382767,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16fd2180 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382900,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c1d8b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382939,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18227b90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382946,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166b7c20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 383082,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165870b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 383295,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167c9ca0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 383297,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167c9340 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 383468,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17198b00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 383486,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c74fb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 383848,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fc920 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 383852,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17199af0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 383854,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167c9730 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 383877,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165709b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 383885,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166e9e50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 383959,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16fd1400 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 384100,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16575790 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 384110,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167c9cd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 384124,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16f7c9e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 385059,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16f7d5e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 385703,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1ebd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 386196,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165756d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 386208,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16f7f650 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 386628,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16f7d460 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 391271,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166b5070 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 392777,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16f7c4a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 392792,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167c9c70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 392931,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1d730 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 392936,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1c2f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 393950,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170df560 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 396749,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166264b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 424742,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c75d30 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 434969,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16f7e810 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 434970,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16f7c770 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 435607,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1827e330 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 436148,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170dc380 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 436152,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1827c0b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 436162,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16f7d790 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 436201,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170dc1d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 436707,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167c9760 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 437068,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167cb710 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 437079,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c74e90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 437118,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1e690 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 437134,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166e8410 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 438590,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16575c70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 438597,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dc3d10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 440277,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1cb90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444767,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166e8f80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444769,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c02270 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444770,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170dd0d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444771,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c75eb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444772,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1827fad0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444773,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166ea9f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444774,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d81760 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444775,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ad3d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444776,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167cad80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444777,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165d1070 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444778,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1719a0c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444779,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1997f680 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444780,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16713170 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 446085,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c00110 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 456270,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16571e50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1243660,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16572900 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1244088,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c70d70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1261060,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c99e80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1265355,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16fd3920 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1265356,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165d1400 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1265357,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c75d90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1265359,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16712180 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1265361,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165875f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1265570,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16586690 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1269308,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fc350 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1269309,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16def5f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1269310,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ff6b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270717,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166b72c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270718,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1e090 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270723,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c75190 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270724,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16defc20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1271925,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1fd10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1271926,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167107d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1271948,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165705f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1280961,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d113d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1299025,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16fd27b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1300463,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16fd3350 state=finished raised HTTPStatusError>]"
-    }
-  ],
+  "fetch_errors": [],
   "slug": "warrior-fury",
-  "generated_at": "2026-09-19T13:52:57.925591+00:00",
+  "generated_at": "2026-09-19T14:23:43.818731+00:00",
   "validation": {
     "talents": 122,
-    "changed_tooltips": 0,
-    "talents_with_pvp_mechanics": 0,
+    "changed_tooltips": 13,
+    "talents_with_pvp_mechanics": 30,
     "unique_nodes": 106,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
@@ -7162,103 +8434,100 @@ window.WOW_PVP_DATA = {
       "12.1.0.69587"
     ],
     "verification_status": "PARTIAL",
-    "fetch_error_count": 269,
-    "unresolved_count": 51,
-    "review_required_count": 122,
-    "fetch_error_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 1719,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16886a20 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 3411,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16dc0e30 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 5246,
-        "error": "RetryError: RetryError[<Future at 0x7fbf165d2090 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 6343,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16ded490 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 6544,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16c72240 state=finished raised HTTPStatusError>]"
-      }
-    ],
+    "fetch_error_count": 0,
+    "unresolved_count": 4,
+    "review_required_count": 2,
+    "fetch_error_examples": [],
     "unresolved_examples": [
       {
-        "spell_id": 12323,
-        "talent_name": "Piercing Howl",
+        "spell_id": 446918,
+        "talent_name": "Brutal Finish",
         "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.71,
-        "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)"
+        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
+        "multiplier": 0.6,
+        "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 446085,
+        "source_spell_id": 446918,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          446085,
+          446918
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref"
+        ]
       },
       {
-        "spell_id": 97462,
-        "talent_name": "Rallying Cry",
+        "spell_id": 446918,
+        "talent_name": "Brutal Finish",
         "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 2.0,
-        "effect_text": "Dummy (3)"
+        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
+        "multiplier": 0.6,
+        "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 446085,
+        "source_spell_id": 446918,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          446085,
+          446918
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref"
+        ]
       },
       {
-        "spell_id": 103827,
-        "talent_name": "Double Time",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.8,
-        "effect_text": "Apply Aura (6) | Modify Recharge Time (Category) (453)"
+        "spell_id": 446918,
+        "talent_name": "Brutal Finish",
+        "side": "wowhead",
+        "reason": "WOWHEAD_ONLY_MODIFIER",
+        "effect_index": 1,
+        "multiplier": 0.6,
+        "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 446085,
+        "source_spell_id": 446918,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          446085,
+          446918
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref"
+        ]
       },
       {
-        "spell_id": 107574,
-        "talent_name": "Avatar",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.75,
-        "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)"
-      },
-      {
-        "spell_id": 107574,
-        "talent_name": "Avatar",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.75,
-        "effect_text": "Apply Aura (6) | Modify Auto Attack Damage Done% (344)"
+        "spell_id": 446918,
+        "talent_name": "Brutal Finish",
+        "side": "wowhead",
+        "reason": "WOWHEAD_ONLY_MODIFIER",
+        "effect_index": 2,
+        "multiplier": 0.6,
+        "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 446085,
+        "source_spell_id": 446918,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          446085,
+          446918
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref"
+        ]
       }
     ],
     "review_required_examples": [
       {
-        "talent_name": "Berserker Stance",
-        "spell_id": 386196,
-        "status": "MISSING_TOOLTIP"
+        "talent_name": "Rallying Cry",
+        "spell_id": 97462,
+        "status": "REVIEW_REQUIRED"
       },
       {
-        "talent_name": "Defensive Stance",
-        "spell_id": 386208,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Fast Footwork",
-        "spell_id": 382260,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "War Machine",
-        "spell_id": 262231,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Thunder Clap",
-        "spell_id": 6343,
-        "status": "MISSING_TOOLTIP"
+        "talent_name": "Avatar",
+        "spell_id": 107574,
+        "status": "REVIEW_REQUIRED"
       }
     ]
   }

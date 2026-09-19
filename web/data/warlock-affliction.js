@@ -49,10 +49,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 333889,
         "icon": "spell_shadow_felmending"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n3 min cooldown\nYour next Imp, Voidwalker, Incubus, Succubus, Felhunter, or Felguard Summon spell is free and has its casting time reduced by 90%.",
+      "pvp_tooltip": "Instant\n3 min cooldown\nYour next Imp, Voidwalker, Incubus, Succubus, Felhunter, or Felguard Summon spell is free and has its casting time reduced by 90%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -101,10 +101,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1311653,
         "icon": "warlock_siphonlife"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "All single-target damage done by you and your minions grants you and your pet shadowy shields that absorb 3% of the damage dealt for 15 sec, up to 5 /\nDemon Skin\n:\n10\n/\nIllhoof's Design\n:\n20\n/\nFortified Soul\n:\n10\n% of maximum health.",
+      "pvp_tooltip": "All single-target damage done by you and your minions grants you and your pet shadowy shields that absorb 3% of the damage dealt for 15 sec, up to 5 /\nDemon Skin\n:\n10\n/\nIllhoof's Design\n:\n20\n/\nFortified Soul\n:\n10\n% of maximum health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -153,10 +153,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 111400,
         "icon": "ability_deathwing_sealarmorbreachtga"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\nIncreases your movement speed by\n50\n%, but also damages you for 4% of your maximum health every 1 sec. Movement impairing effects may not reduce you below 100% of normal movement speed. Lasts until canceled.",
+      "pvp_tooltip": "Instant\nIncreases your movement speed by\n50\n%, but also damages you for 4% of your maximum health every 1 sec. Movement impairing effects may not reduce you below 100% of normal movement speed. Lasts until canceled.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -206,10 +206,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 386113,
         "icon": "spell_shadow_impphaseshift"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Fel Domination by 60 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Fel Domination by 60 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -261,15 +261,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 219272,
         "icon": "spell_shadow_ragingscream"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Your Soul Leech absorption now passively recharges at a rate of 0.2% of maximum health every 1 sec, and may now absorb an additional 5% of maximum health.\nIncreases your armor by 45%.",
+      "pvp_tooltip": "Your Soul Leech absorption now passively recharges at a rate of 0.2% of maximum health every 1 sec, and may now absorb an additional 5% of maximum health.\nIncreases your armor by 58.5%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 179,
+          "end": 181,
+          "old_token": "45",
+          "new_token": "58.5",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            4
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            4
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "45",
+          "new": "58.5"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 219272,
+          "source_spell_id": 219272,
+          "effect_index": 4,
+          "effect_text": "Apply Aura: Mod Base Resistance - % (Physical)",
+          "base_value": 45.0,
+          "spell_pvp_multiplier": 1.3,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.3,
+          "final_pvp_value": 58.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Fel Armor",
@@ -316,10 +361,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 386124,
         "icon": "spell_shadow_felarmour"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When Soul Leech absorbs damage, 5% of damage taken is absorbed and spread out over 5 sec.\nReduces damage taken by 1.5%.",
+      "pvp_tooltip": "When Soul Leech absorbs damage, 5% of damage taken is absorbed and spread out over 5 sec.\nReduces damage taken by 1.5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -369,10 +414,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 386110,
         "icon": "inv_misc_moosehoof_fel"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the damage dealt by Burning Rush by 10%. Burning Rush increases your movement speed by an additional 20%.",
+      "pvp_tooltip": "Reduces the damage dealt by Burning Rush by 10%. Burning Rush increases your movement speed by an additional 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -424,10 +469,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 288843,
         "icon": "spell_shadow_metamorphosis"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Stamina increased by 10%.",
+      "pvp_tooltip": "Stamina increased by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -479,15 +524,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 386648,
         "icon": "spell_shadow_possession"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Increases the amount of damage required to break your fear effects by 60%.",
+      "pvp_tooltip": "Increases the amount of damage required to break your fear effects by 30%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 70,
+          "end": 72,
+          "old_token": "60",
+          "new_token": "30",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "60",
+          "new": "30"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 386648,
+          "source_spell_id": 386648,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 60.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Horrify",
@@ -534,10 +624,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 56244,
         "icon": "spell_nzinsanity_bloodthirst"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Fear causes the target to tremble in place instead of fleeing in fear.",
+      "pvp_tooltip": "Your Fear causes the target to tremble in place instead of fleeing in fear.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -590,10 +680,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 386617,
         "icon": "spell_warlock_summonimpoutland"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "100 yd range\nIncreases you and your pets' maximum health by 5%.",
+      "pvp_tooltip": "100 yd range\nIncreases you and your pets' maximum health by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -643,10 +733,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 710,
         "icon": "spell_shadow_cripple"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "1.5% of base mana\n30 yd range\n1.5 sec cast\nBanishes an enemy Demon, Aberration [\nGreater Banish\n:\nUndead\n], or Elemental, preventing any action for 30 sec. Limit 1. Casting Banish again on the target will cancel the effect.",
+      "pvp_tooltip": "1.5% of base mana\n30 yd range\n1.5 sec cast\nBanishes an enemy Demon, Aberration [\nGreater Banish\n:\nUndead\n], or Elemental, preventing any action for 30 sec. Limit 1. Casting Banish again on the target will cancel the effect.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -698,15 +788,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 334275,
         "icon": "spell_shadow_grimward"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "1% of base mana\n40 yd range\nInstant\nReduces the target's movement speed by 50% for 12 sec.\nCurses: A warlock can only have one Curse active per target.",
+      "pvp_tooltip": "1% of base mana\n40 yd range\nInstant\nReduces the target's movement speed by 30% for 12 sec.\nCurses: A warlock can only have one Curse active per target.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 75,
+          "end": 77,
+          "old_token": "50",
+          "new_token": "30",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "50",
+          "new": "30"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 334275,
+          "source_spell_id": 334275,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Curse of Tongues",
@@ -753,15 +888,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 1714,
         "icon": "spell_shadow_curseoftounges"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "1% of base mana\n40 yd range\nInstant\nForces the target to speak in Demonic, increasing the casting time of all spells by 30% for 1 min.\nCurses: A warlock can only have one Curse active per target.",
+      "pvp_tooltip": "1% of base mana\n40 yd range\nInstant\nForces the target to speak in Demonic, increasing the casting time of all spells by 10% for 1 min.\nCurses: A warlock can only have one Curse active per target.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 120,
+          "end": 122,
+          "old_token": "30",
+          "new_token": "10",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "30",
+          "new": "10"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1714,
+          "source_spell_id": 1714,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Casting Speed %",
+          "base_value": -30.0,
+          "spell_pvp_multiplier": 0.3334,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.3334,
+          "final_pvp_value": -10.001999999999999,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Infernal Beneficiary",
@@ -806,10 +986,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1265810,
         "icon": "achievement_general_raidrepresentation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Healing done by Drain Life also heals your primary demon at 400% effectiveness.",
+      "pvp_tooltip": "Healing done by Drain Life also heals your primary demon at 400% effectiveness.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -860,14 +1040,43 @@ window.WOW_PVP_DATA = {
         "spell_id": 6789,
         "icon": "ability_warlock_mortalcoil"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "2% of base mana\n20 yd range\nInstant\n45 sec cooldown\nHorrifies an enemy target into fleeing, incapacitating for 3 sec and healing you for 20% of maximum health.",
+      "pvp_tooltip": "2% of base mana\n20 yd range\nInstant\n45 sec cooldown\nHorrifies an enemy target into fleeing, incapacitating for 3 sec and healing you for 20% of maximum health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 6789,
+          "source_spell_id": 108396,
+          "effect_index": 1,
+          "effect_text": "Heal for % of Total Health",
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 10.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            6789,
+            108396
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -916,10 +1125,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1270693,
         "icon": "inv_misc_magtheridonshead"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases your critical strike chance by 2%.",
+      "pvp_tooltip": "Increases your critical strike chance by 2%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -972,10 +1181,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 268358,
         "icon": "spell_shadow_demoniccirclesummon"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "2% of base mana\nSummons a Demonic Circle for 15 min. Cast Demonic Circle: Teleport to teleport to its location and remove all movement slowing effects. [\nKilrogg's Cunning\n:\nIf you cast Demonic Circle: Summon while controlling an Eye of Kilrogg, the circle will appear where the eye is located\n]\nYou also learn:\nDemonic Circle: Teleport\nTeleports you to your Demonic Circle and removes all movement slowing effects.",
+      "pvp_tooltip": "2% of base mana\nSummons a Demonic Circle for 15 min. Cast Demonic Circle: Teleport to teleport to its location and remove all movement slowing effects. [\nKilrogg's Cunning\n:\nIf you cast Demonic Circle: Summon while controlling an Eye of Kilrogg, the circle will appear where the eye is located\n]\nYou also learn:\nDemonic Circle: Teleport\nTeleports you to your Demonic Circle and removes all movement slowing effects.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1029,10 +1238,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1270691,
         "icon": "spell_shadow_mindshear"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases your haste by 2%.",
+      "pvp_tooltip": "Increases your haste by 2%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1082,10 +1291,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1265816,
         "icon": "spell_warlock_harvestoflife"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the range of Mortal Coil by 10 yds and Mortal Coil now heals for an additional 5% of maximum health.",
+      "pvp_tooltip": "Increases the range of Mortal Coil by 10 yds and Mortal Coil now heals for an additional 5% of maximum health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1135,15 +1344,50 @@ window.WOW_PVP_DATA = {
         "spell_id": 108416,
         "icon": "spell_shadow_deathpact"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n1 min cooldown\nSacrifices 20% of your current health to shield you for 200% of the sacrificed health plus an additional (Spell Power * 2.5) for 20 sec. Usable while suffering from control impairing effects.",
+      "pvp_tooltip": "Instant\n1 min cooldown\nSacrifices 20% of your current health to shield you for 200% of the sacrificed health plus an additional (Spell Power * 2.5) for 20 sec. Usable while suffering from control impairing effects.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            5
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 205.73000000000002,
+          "new": 329.16800000000006,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 108416,
+          "source_spell_id": 108416,
+          "effect_index": 5,
+          "effect_text": "Apply Aura: Periodic Heal",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.6,
+          "amount_kind": "periodic",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.6,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Foul Mouth",
@@ -1188,10 +1432,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1265813,
         "icon": "ability_creature_cursed_02"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Curse of Exhaustion, Curse of Tongues, or\nCurse of Weakness\nnow curses all enemies within 10 yds of the target.",
+      "pvp_tooltip": "Casting Curse of Exhaustion, Curse of Tongues, or\nCurse of Weakness\nnow curses all enemies within 10 yds of the target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1242,10 +1486,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1271699,
         "icon": "inv_raid_creepingcoagulum_blue"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Healthstones heal you for an additional 5% additional health.",
+      "pvp_tooltip": "Healthstones heal you for an additional 5% additional health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1296,14 +1540,43 @@ window.WOW_PVP_DATA = {
         "spell_id": 389609,
         "icon": "achievement_explore_argus"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Using Demonic Circle: Teleport or your Demonic Gateway reduces all damage you take by 4% for 10 sec.",
+      "pvp_tooltip": "Using Demonic Circle: Teleport or your Demonic Gateway reduces all damage you take by 4% for 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 389609,
+          "source_spell_id": 389614,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod % Damage Taken (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)",
+          "base_value": -4.0,
+          "spell_pvp_multiplier": 2.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": -8.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            389609,
+            389614
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -1351,10 +1624,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1271694,
         "icon": "spell_warlock_demonsoul"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Soul Leech may now absorb an additional 5% of your maximum health.",
+      "pvp_tooltip": "Soul Leech may now absorb an additional 5% of your maximum health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1404,10 +1677,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 385881,
         "icon": "inv_misc_codexofxerrath_nochains"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your primary pets gain a bonus effect.\nImp\n: Successful Singe Magic casts grant the target 4% damage reduction for 5 sec.\nVoidwalker\n: Reduces the cooldown of Shadow Bulwark by 30 sec.\nFelhunter\n: Reduces the cooldown of Devour Magic by 5 sec.\nSayaad\n: Reduces the cooldown of Seduction by 10 sec and causes the target to walk faster towards the demon.",
+      "pvp_tooltip": "Your primary pets gain a bonus effect.\nImp\n: Successful Singe Magic casts grant the target 4% damage reduction for 5 sec.\nVoidwalker\n: Reduces the cooldown of Shadow Bulwark by 30 sec.\nFelhunter\n: Reduces the cooldown of Devour Magic by 5 sec.\nSayaad\n: Reduces the cooldown of Seduction by 10 sec and causes the target to walk faster towards the demon.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1459,10 +1732,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1270701,
         "icon": "inv_helmet_90"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Drain Life now channels 100% faster and restores health 100% faster.",
+      "pvp_tooltip": "Drain Life now channels 100% faster and restores health 100% faster.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1512,10 +1785,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 386664,
         "icon": "spell_yorsahj_bloodboil_greenoil"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Dark Pact sacrifices only 5% of your current health for the same shield value.",
+      "pvp_tooltip": "Dark Pact sacrifices only 5% of your current health for the same shield value.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1565,10 +1838,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 386686,
         "icon": "ability_ironmaidens_bloodritual"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Dark Pact by 15 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Dark Pact by 15 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1621,10 +1894,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1270695,
         "icon": "achievement_boss_argus_femaleeredar"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases your Intellect by 3%.",
+      "pvp_tooltip": "Increases your Intellect by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1676,10 +1949,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1270690,
         "icon": "ability_physical_taunt_purple"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases your Leech by 2%.",
+      "pvp_tooltip": "Increases your Leech by 2%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1731,15 +2004,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 389590,
         "icon": "ability_warlock_avoidance"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "100 yd range\nReduces the chance you will be critically struck by 2%. All damage your primary demon takes is reduced by 8%.",
+      "pvp_tooltip": "100 yd range\nReduces the chance you will be critically struck by 2%. All damage your primary demon takes is reduced by 13.336%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 119,
+          "end": 120,
+          "old_token": "8",
+          "new_token": "13.336",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            3
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "8",
+          "new": "13.336"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 389590,
+          "source_spell_id": 389590,
+          "effect_index": 3,
+          "effect_text": "Apply Aura On Pet: Add Modifier - Flat (Label): Modifies Effect #4's Value (32)",
+          "base_value": -8.0,
+          "spell_pvp_multiplier": 1.667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.667,
+          "final_pvp_value": -13.336,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Empowered Drain Life",
@@ -1784,10 +2102,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1271689,
         "icon": "spell_shadow_lifedrain02_purple"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Drain Life heals for an additional 200% of damage dealt and grants Soul Leech equal to 10% of damage dealt.",
+      "pvp_tooltip": "Drain Life heals for an additional 200% of damage dealt and grants Soul Leech equal to 10% of damage dealt.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1839,10 +2157,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 317138,
         "icon": "spell_shadow_demonictactics"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Unending Resolve reduces damage taken by an additional 15%.",
+      "pvp_tooltip": "Unending Resolve reduces damage taken by an additional 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1894,10 +2212,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 386659,
         "icon": "ability_warlock_improveddemonictactics"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Unending Resolve by 45 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Unending Resolve by 45 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1950,10 +2268,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 111771,
         "icon": "spell_warlock_demonicportal_green"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "10% of base mana\n10 - 40 yd range\n2 sec cast\n10 sec cooldown\nCreates a demonic gateway between two locations. Activating the gateway transports the user to the other gateway. Each player can use a Demonic Gateway only once per\n90\nsec.",
+      "pvp_tooltip": "10% of base mana\n10 - 40 yd range\n2 sec cast\n10 sec cooldown\nCreates a demonic gateway between two locations. Activating the gateway transports the user to the other gateway. Each player can use a Demonic Gateway only once per\n90\nsec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2006,10 +2324,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 5484,
         "icon": "ability_warlock_howlofterror"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "1.8% of base mana\nInstant\n40 sec cooldown\nLet loose a terrifying howl, causing\n5\nenemies within 10 yds to flee in fear, disorienting them for 20 sec. Damage may cancel the effect.",
+      "pvp_tooltip": "1.8% of base mana\nInstant\n40 sec cooldown\nLet loose a terrifying howl, causing\n5\nenemies within 10 yds to flee in fear, disorienting them for 20 sec. Damage may cancel the effect.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2062,10 +2380,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 30283,
         "icon": "ability_warlock_shadowfurytga"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "1% of base mana\n35 yd range\n1.5 sec cast\n1 min cooldown\nStuns all enemies within 8 yds for 3 sec.",
+      "pvp_tooltip": "1% of base mana\n35 yd range\n1.5 sec cast\n1 min cooldown\nStuns all enemies within 8 yds for 3 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2115,10 +2433,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 452902,
         "icon": "spell_shadow_destructivesoul"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cast time of Soulstone and Create Healthstone by 50%.",
+      "pvp_tooltip": "Reduces the cast time of Soulstone and Create Healthstone by 50%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2170,10 +2488,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 108415,
         "icon": "ability_warlock_soullink"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "100 yd range\n5% of all damage you take is taken by your demon pet instead.\nWhile Grimoire of Sacrifice is active, your Stamina is increased by 3%.",
+      "pvp_tooltip": "100 yd range\n5% of all damage you take is taken by your demon pet instead.\nWhile Grimoire of Sacrifice is active, your Stamina is increased by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2223,10 +2541,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1265801,
         "icon": "achievement_dungeon_outland_dungeonmaster"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cast time of Demonic Gateway by 0.5 sec and you can now use Demonic Gateways twice before triggering a cooldown.",
+      "pvp_tooltip": "Reduces the cast time of Demonic Gateway by 0.5 sec and you can now use Demonic Gateways twice before triggering a cooldown.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2278,10 +2596,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 389367,
         "icon": "inv_sword_1h_felfireraid_d_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "100 yd range\nSoul Leech also heals you for 8% and your pet for 25% of the absorption it grants.",
+      "pvp_tooltip": "100 yd range\nSoul Leech also heals you for 8% and your pet for 25% of the absorption it grants.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2331,10 +2649,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1270255,
         "icon": "spell_shadow_shadowfury"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Shadowfury by 15 sec and increases its radius by 2 yds.\nReduces the cooldown of Howl of Terror by 5 sec and it now fears 5 additional enemies.",
+      "pvp_tooltip": "Reduces the cooldown of Shadowfury by 15 sec and increases its radius by 2 yds.\nReduces the cooldown of Howl of Terror by 5 sec and it now fears 5 additional enemies.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2383,14 +2701,43 @@ window.WOW_PVP_DATA = {
         "spell_id": 386689,
         "icon": "warlock__bloodstone"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Healthstones you conjure for yourself are now Demonic Healthstones and can be used multiple times in combat. Demonic Healthstones cannot be traded.\nDemonic Healthstone\nInstantly restores 25% health [\nEmpowered Healthstone\n:\nplus an additional 30% over 6 sec\n/ .]\n60 sec cooldown.",
+      "pvp_tooltip": "Healthstones you conjure for yourself are now Demonic Healthstones and can be used multiple times in combat. Demonic Healthstones cannot be traded.\nDemonic Healthstone\nInstantly restores 25% health [\nEmpowered Healthstone\n:\nplus an additional 30% over 6 sec\n/ .]\n60 sec cooldown.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 386689,
+          "source_spell_id": 452930,
+          "effect_index": 1,
+          "effect_text": "Heal for % of Total Health",
+          "base_value": 25.0,
+          "spell_pvp_multiplier": 0.8,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.8,
+          "final_pvp_value": 20.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            386689,
+            452930
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -2436,15 +2783,140 @@ window.WOW_PVP_DATA = {
         "spell_id": 385899,
         "icon": "spell_warlock_soulburn"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "1 Soul Shard\nInstant\n6 sec cooldown\nConsumes a Soul Shard, unlocking the hidden power of your spells.\nDemonic Circle: Teleport\n: Increases your movement speed by 50% and makes you immune to snares and roots for 6 sec.\nDemonic Gateway\n: Can be cast instantly.\nDrain Life\n: Gain an absorb shield equal to the amount of healing done for 30 sec. This shield cannot exceed 30% of your maximum health.\nHealthstone\n: Increases the healing of your Healthstone by 30% and increases your maximum health by 20% for 12 sec.",
+      "pvp_tooltip": "1 Soul Shard\nInstant\n6 sec cooldown\nConsumes a Soul Shard, unlocking the hidden power of your spells.\nDemonic Circle: Teleport\n: Increases your movement speed by 30% and makes you immune to snares and roots for 6 sec.\nDemonic Gateway\n: Can be cast instantly.\nDrain Life\n: Gain an absorb shield equal to the amount of healing done for 30 sec. This shield cannot exceed 30% of your maximum health.\nHealthstone\n: Increases the healing of your Healthstone by 30% and increases your maximum health by 15% for 12 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 162,
+          "end": 164,
+          "old_token": "50",
+          "new_token": "30",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 496,
+          "end": 498,
+          "old_token": "20",
+          "new_token": "15",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "50",
+          "new": "30"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "20",
+          "new": "15"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 385899,
+          "source_spell_id": 387626,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 30.0,
+          "spell_pvp_multiplier": 0.667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.667,
+          "final_pvp_value": 20.01,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            385899,
+            387626
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 385899,
+          "source_spell_id": 387633,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Increase Run Speed %",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            385899,
+            387633
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 385899,
+          "source_spell_id": 387636,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Increase Maximum Health - %",
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 0.75,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": 15.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            385899,
+            387636
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Blight of Weakness",
@@ -2488,14 +2960,45 @@ window.WOW_PVP_DATA = {
         "spell_id": 1265799,
         "icon": "warlock_curse_weakness_amplified"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Call forth a cloud of cloying shadow mist that envelopes the target and all enemies within 10 yds, increasing the time between their attacks by 100% and reducing their critical strike chance by 10% for 12 sec.\nCurses: A warlock can only have one Curse or Blight active per target.",
+      "pvp_tooltip": "Call forth a cloud of cloying shadow mist that envelopes the target and all enemies within 10 yds, increasing the time between their attacks by 100% and reducing their critical strike chance by 10% for 12 sec.\nCurses: A warlock can only have one Curse or Blight active per target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 1265799,
+          "source_spell_id": 1271798,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Attack Speed % (1)",
+          "base_value": -100.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": -50.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1265799,
+            1271748,
+            1271798
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -2540,15 +3043,65 @@ window.WOW_PVP_DATA = {
         "spell_id": 1271802,
         "icon": "spell_shadow_curseoftongues_amplified"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "40 yd range\nInstant\n2 min cooldown\nCall forth a cloud of cloying shadow mist that envelopes the target and all enemies within 10 yds, increasing their casting time of all spells by 100% for 12 sec.\nCurses: A warlock can only have one Curse or Blight active per target.",
+      "pvp_tooltip": "40 yd range\nInstant\n2 min cooldown\nCall forth a cloud of cloying shadow mist that envelopes the target and all enemies within 10 yds, increasing their casting time of all spells by 30% for 12 sec.\nCurses: A warlock can only have one Curse or Blight active per target.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 181,
+          "end": 184,
+          "old_token": "100",
+          "new_token": "30",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "100",
+          "new": "30"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1271802,
+          "source_spell_id": 1272122,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Casting Speed %",
+          "base_value": -100.0,
+          "spell_pvp_multiplier": 0.3,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.3,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1271802,
+            1272122
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Agony",
@@ -2592,15 +3145,77 @@ window.WOW_PVP_DATA = {
         "spell_id": 980,
         "icon": "spell_shadow_curseofsargeras"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "1% of base mana\n40 yd range\nInstant\nInflicts increasing agony on the target, causing up to [(9.31297% of Spell Power) * 18 / 2 * 8] Shadow damage over 18 sec. Damage starts low and increases over the duration. Refreshing Agony maintains its current damage level.\nAgony damage sometimes generates 1 Soul Shard.",
+      "pvp_tooltip": "1% of base mana\n40 yd range\nInstant\nInflicts increasing agony on the target, causing up to [(6.1931% of Spell Power) * 18 / 2 * 8] Shadow damage over 18 sec. Damage starts low and increases over the duration. Refreshing Agony maintains its current damage level.\nAgony damage sometimes generates 1 Soul Shard.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 93,
+          "end": 100,
+          "old_token": "9.31297",
+          "new_token": "6.1931",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "9.31297",
+          "new": "6.1931"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 980,
+          "source_spell_id": 980,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.416667,
+          "amount_kind": "periodic",
+          "aura_factor": 1.596,
+          "final_pvp_multiplier": 0.6650005320000001,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264885,
+              "amount_kind": "periodic",
+              "value_pct": 33.0,
+              "factor": 1.33,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1314353,
+              "amount_kind": "periodic",
+              "value_pct": 20.0,
+              "factor": 1.2,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Unstable Affliction",
@@ -2646,15 +3261,68 @@ window.WOW_PVP_DATA = {
         "spell_id": 1259790,
         "icon": "spell_shadow_unstableaffliction_3"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "1 Soul Shard\n40 yd range\n1.5 sec cast\nAfflicts the target with (347.714% of Spell Power) Shadow damage over 8 sec. Multiple uses of this ability may overlap.\nIf dispelled, deals [(86.9285% of Spell Power) * 6204 / 100] damage to the dispeller and silences them for 4 sec. This damage is increased by 15% per stack on the target.\nGenerates 1 Soul Shard if the target dies while afflicted.",
+      "pvp_tooltip": "1 Soul Shard\n40 yd range\n1.5 sec cast\nAfflicts the target with (347.714% of Spell Power) Shadow damage over 8 sec. Multiple uses of this ability may overlap.\nIf dispelled, deals [(115.6149% of Spell Power) * 6204 / 100] damage to the dispeller and silences them for 4 sec. This damage is increased by 15% per stack on the target.\nGenerates 1 Soul Shard if the target dies while afflicted.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 180,
+          "end": 187,
+          "old_token": "86.9285",
+          "new_token": "115.6149",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "86.9285",
+          "new": "115.6149"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1259790,
+          "source_spell_id": 1259790,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 1.33,
+          "final_pvp_multiplier": 1.33,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264885,
+              "amount_kind": "periodic",
+              "value_pct": 33.0,
+              "factor": 1.33,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Seed of Corruption",
@@ -2700,15 +3368,104 @@ window.WOW_PVP_DATA = {
         "spell_id": 27243,
         "icon": "spell_shadow_seedofdestruction"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "1 Soul Shard\n40 yd range\n2 sec cast\nEmbeds a demon seed in the enemy target that will explode after 12 sec, dealing (236.5% of Spell Power) Shadow damage to all enemies within 10 yards and applying\nCorruption\nto them. Damage reduced beyond 8 targets.\nThe seed will detonate early if the target is hit by other detonations, or takes (Shadow spell power * 50 / 100) damage from your spells.",
+      "pvp_tooltip": "1 Soul Shard\n40 yd range\n2 sec cast\nEmbeds a demon seed in the enemy target that will explode after 12 sec, dealing (314.545% of Spell Power) Shadow damage to all enemies within 10 yards and applying\nCorruption\nto them. Damage reduced beyond 8 targets.\nThe seed will detonate early if the target is hit by other detonations, or takes (Shadow spell power * 50 / 100) damage from your spells.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 117,
+          "end": 122,
+          "old_token": "236.5",
+          "new_token": "314.545",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "236.5",
+          "new": "314.545"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 27243,
+          "source_spell_id": 27243,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 1.33,
+          "final_pvp_multiplier": 1.33,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264885,
+              "amount_kind": "periodic",
+              "value_pct": 33.0,
+              "factor": 1.33,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 27243,
+          "source_spell_id": 27285,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 2.365)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.33,
+          "final_pvp_multiplier": 1.33,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            27243,
+            27285
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264658,
+              "amount_kind": "direct",
+              "value_pct": 33.0,
+              "factor": 1.33,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Nightfall",
@@ -2753,10 +3510,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 108558,
         "icon": "spell_shadow_twilight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Corruption\ndamage has a chance to cause your next\nShadow Bolt\nor Malefic Grasp to deal 25% increased damage.\nShadow Bolt is instant cast and Malefic Grasp channels 50% faster when affected.",
+      "pvp_tooltip": "Corruption\ndamage has a chance to cause your next\nShadow Bolt\nor Malefic Grasp to deal 25% increased damage.\nShadow Bolt is instant cast and Malefic Grasp channels 50% faster when affected.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2807,15 +3564,107 @@ window.WOW_PVP_DATA = {
         "spell_id": 48181,
         "icon": "ability_warlock_haunt"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "2% of base mana\n40 yd range\n1.5 sec cast\n15 sec cooldown\nA ghostly soul haunts a single target, dealing (720.612% of Spell Power) Shadow damage and increasing your damage dealt to the target by\n16\n% for 18 sec.\nIf the target dies, Haunt's cooldown is reset.",
+      "pvp_tooltip": "2% of base mana\n40 yd range\n1.5 sec cast\n15 sec cooldown\nA ghostly soul haunts a single target, dealing (680.4739% of Spell Power) Shadow damage and increasing your damage dealt to the target by\n16\n% for 18 sec.\nIf the target dies, Haunt's cooldown is reset.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 105,
+          "end": 112,
+          "old_token": "720.612",
+          "new_token": "680.4739",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 45.2262,
+          "new": 36.18096,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "720.612",
+          "new": "680.4739"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 48181,
+          "source_spell_id": 48181,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 7.20612)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.71,
+          "amount_kind": "direct",
+          "aura_factor": 1.33,
+          "final_pvp_multiplier": 0.9443,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264658,
+              "amount_kind": "direct",
+              "value_pct": 33.0,
+              "factor": 1.33,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 48181,
+          "source_spell_id": 1262710,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 0.452262)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.8,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.8,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            48181,
+            1262710
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Shared Agony",
@@ -2860,10 +3709,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1259825,
         "icon": "spell_shadow_curseofsargeras"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases Agony damage by 10% and Agony now hits another nearby enemy within 15 yds of the target.",
+      "pvp_tooltip": "Increases Agony damage by 10% and Agony now hits another nearby enemy within 15 yds of the target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2914,10 +3763,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 453080,
         "icon": "spell_shadow_shadowbolt"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cast time of Shadow Bolt by 15% and increases its damage by 40%.",
+      "pvp_tooltip": "Reduces the cast time of Shadow Bolt by 15% and increases its damage by 40%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2968,14 +3817,80 @@ window.WOW_PVP_DATA = {
         "spell_id": 388667,
         "icon": "spell_shadow_haunting"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Replaces Shadow Bolt.\nDrains the target's soul, causing (556.875% of Spell Power) Shadow damage over 5 sec.\nDamage is increased by 100% against enemies below 20% health.\nGenerates 1 Soul Shard if the target dies during this effect.",
+      "pvp_tooltip": "Replaces Shadow Bolt.\nDrains the target's soul, causing (556.875% of Spell Power) Shadow damage over 5 sec.\nDamage is increased by 100% against enemies below 20% health.\nGenerates 1 Soul Shard if the target dies during this effect.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 388667,
+          "source_spell_id": 198590,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.7,
+          "amount_kind": "periodic",
+          "aura_factor": 1.33,
+          "final_pvp_multiplier": 2.261,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            388667,
+            198590
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264885,
+              "amount_kind": "periodic",
+              "value_pct": 33.0,
+              "factor": 1.33,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 388667,
+          "source_spell_id": 198590,
+          "effect_index": 2,
+          "effect_text": "Dummy",
+          "base_value": 100.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 50.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            388667,
+            198590
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -3022,10 +3937,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 458034,
         "icon": "ability_warlock_haunt"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the damage of Haunt by 35% and reduces its cast time by 0.3 sec.",
+      "pvp_tooltip": "Increases the damage of Haunt by 35% and reduces its cast time by 0.3 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3076,10 +3991,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 196103,
         "icon": "ability_bossmannoroth_empoweredmannorothsgaze"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Corruption\nis now permanent and deals 15% increased damage.\nDuration reduced to 24 sec against players.",
+      "pvp_tooltip": "Corruption\nis now permanent and deals 15% increased damage.\nDuration reduced to 24 sec against players.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3130,10 +4045,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 452999,
         "icon": "spell_shadow_requiem"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Corruption\ndeals 30% increased damage and its periodic damage heals you for 5% of the damage dealt.",
+      "pvp_tooltip": "Corruption\ndeals 30% increased damage and its periodic damage heals you for 5% of the damage dealt.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3183,15 +4098,73 @@ window.WOW_PVP_DATA = {
         "spell_id": 453172,
         "icon": "inv_misc_coin_09"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Shadow Bolt and Drain Soul have a chance to trigger a Shadow Bolt Volley, dealing [(124.74% of Spell Power) *\n1\n*\n1\n] Shadow damage to 5 enemies within 10 yards of your current target.",
+      "pvp_tooltip": "Shadow Bolt and Drain Soul have a chance to trigger a Shadow Bolt Volley, dealing [(165.9042% of Spell Power) *\n1\n*\n1\n] Shadow damage to 5 enemies within 10 yards of your current target.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 84,
+          "end": 90,
+          "old_token": "124.74",
+          "new_token": "165.9042",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "124.74",
+          "new": "165.9042"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 453172,
+          "source_spell_id": 453176,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 1.2474)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.33,
+          "final_pvp_multiplier": 1.33,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            453172,
+            453176
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264658,
+              "amount_kind": "direct",
+              "value_pct": 33.0,
+              "factor": 1.33,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Withering Bolt",
@@ -3238,10 +4211,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 386976,
         "icon": "spell_shadow_shadowbolt"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shadow Bolt and Drain Soul deal 5% increased damage, up to 15%, per damage over time effect you have active on the target.",
+      "pvp_tooltip": "Shadow Bolt and Drain Soul deal 5% increased damage, up to 15%, per damage over time effect you have active on the target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3293,10 +4266,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 264000,
         "icon": "ability_creature_cursed_03"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Agony,\nCorruption\n, and Unstable Affliction deal damage 10% faster.",
+      "pvp_tooltip": "Your Agony,\nCorruption\n, and Unstable Affliction deal damage 10% faster.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3347,14 +4320,43 @@ window.WOW_PVP_DATA = {
         "spell_id": 1257052,
         "icon": "inv_ability_warlock_soulrot"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "1% of base mana\nChanneled (3 sec cast)\n1 min cooldown\nConsume the life force of each target afflicted by your damaging periodic effects, dealing [(839.552% of Spell Power) * (4)] Shadowflame damage over 3 sec.\nDamage dealt by Dark Harvest heals you for 50% of damage done.",
+      "pvp_tooltip": "1% of base mana\nChanneled (3 sec cast)\n1 min cooldown\nConsume the life force of each target afflicted by your damaging periodic effects, dealing [(839.552% of Spell Power) * (4)] Shadowflame damage over 3 sec.\nDamage dealt by Dark Harvest heals you for 50% of damage done.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 1257052,
+          "source_spell_id": 1257065,
+          "effect_index": 1,
+          "effect_text": "Drain Health (SP mod: 8.39552)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.7,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.7,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1257052,
+            1257065
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -3402,10 +4404,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1259811,
         "icon": "spell_nature_agitatingtotem"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Mastery increased by 2%.",
+      "pvp_tooltip": "Mastery increased by 2%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3458,15 +4460,65 @@ window.WOW_PVP_DATA = {
         "spell_id": 205180,
         "icon": "inv_beholderwarlock"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "2% of base mana\nInstant\n2 min cooldown\nSummons a Darkglare from the Twisting Nether that increases the damage of your Agony,\nCorruption\n, and Unstable Affliction by 20% while active.\nThe Darkglare will serve you for\n20 sec\n, blasting its target for (487.044% of Spell Power) Shadow damage, increased by 10% for every damage over time effect you have active on their current target.",
+      "pvp_tooltip": "2% of base mana\nInstant\n2 min cooldown\nSummons a Darkglare from the Twisting Nether that increases the damage of your Agony,\nCorruption\n, and Unstable Affliction by 20% while active.\nThe Darkglare will serve you for\n20 sec\n, blasting its target for (180.387% of Spell Power) Shadow damage, increased by 10% for every damage over time effect you have active on their current target.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 250,
+          "end": 257,
+          "old_token": "487.044",
+          "new_token": "180.387",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "487.044",
+          "new": "180.387"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 205180,
+          "source_spell_id": 205231,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 4.87044)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.370371,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.370371,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            205180,
+            205231
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Summoner's Embrace",
@@ -3513,10 +4565,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 453105,
         "icon": "spell_shadow_unsummonbuilding"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the damage dealt by your spells and your demon by 3%.",
+      "pvp_tooltip": "Increases the damage dealt by your spells and your demon by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3568,15 +4620,73 @@ window.WOW_PVP_DATA = {
         "spell_id": 108503,
         "icon": "warlock_grimoireofsacrifice"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Unlimited range\nInstant\n30 sec cooldown\nSacrifices your demon pet for power, gaining its command demon ability, and causing your spells to sometimes also deal (37.1875% of Spell Power) additional Shadow damage.\nLasts until canceled or until you summon a demon pet.",
+      "pvp_tooltip": "Unlimited range\nInstant\n30 sec cooldown\nSacrifices your demon pet for power, gaining its command demon ability, and causing your spells to sometimes also deal (49.4594% of Spell Power) additional Shadow damage.\nLasts until canceled or until you summon a demon pet.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 160,
+          "end": 167,
+          "old_token": "37.1875",
+          "new_token": "49.4594",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "37.1875",
+          "new": "49.4594"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 108503,
+          "source_spell_id": 196100,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 0.371875)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.33,
+          "final_pvp_multiplier": 1.33,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            108503,
+            196100
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264658,
+              "amount_kind": "direct",
+              "value_pct": 33.0,
+              "factor": 1.33,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Cull the Weak",
@@ -3621,10 +4731,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1259886,
         "icon": "ability_warlock_soulsiphon"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Unstable Affliction or Seed of Corruption reduces the cooldown of Dark Harvest by 1.5 sec.",
+      "pvp_tooltip": "Casting Unstable Affliction or Seed of Corruption reduces the cooldown of Dark Harvest by 1.5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3674,10 +4784,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 453087,
         "icon": "spell_shadow_curseofachimonde"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the critical strike chance of Agony,\nCorruption\n, and Unstable Affliction by 5%.",
+      "pvp_tooltip": "Increases the critical strike chance of Agony,\nCorruption\n, and Unstable Affliction by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3728,10 +4838,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1260209,
         "icon": "spell_shadow_curseofsargeras"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Agony damage is increased by 10% and starts at 3 stacks.",
+      "pvp_tooltip": "Agony damage is increased by 10% and starts at 3 stacks.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3781,10 +4891,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1279521,
         "icon": "inv_misc_scrollunrolled01c"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the duration of Summon Darkglare by 5.0 sec.",
+      "pvp_tooltip": "Increases the duration of Summon Darkglare by 5.0 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3835,14 +4945,51 @@ window.WOW_PVP_DATA = {
         "spell_id": 1261149,
         "icon": "ability_warlock_everlastingaffliction"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Binds the target in twilight, dealing (1053% of Spell Power) Shadow damage over 4 sec.\nWhen Malefic Grasp deals damage, it causes all of your other periodic Affliction damage effects to instantly deal 30% of their normal periodic damage.",
+      "pvp_tooltip": "Binds the target in twilight, dealing (1053% of Spell Power) Shadow damage over 4 sec.\nWhen Malefic Grasp deals damage, it causes all of your other periodic Affliction damage effects to instantly deal 30% of their normal periodic damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 1261149,
+          "source_spell_id": 1261153,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 1.33,
+          "final_pvp_multiplier": 1.33,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1261149,
+            1261153
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264885,
+              "amount_kind": "periodic",
+              "value_pct": 33.0,
+              "factor": 1.33,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -3888,10 +5035,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1280733,
         "icon": "inv_antorus_orange"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Adorns your Darkglare with armor forged from within Antorus, increasing their armor by 10%.\nEye Beam now jumps to up to 4 additional targets within 10 yards and deals 10% increased damage.",
+      "pvp_tooltip": "Adorns your Darkglare with armor forged from within Antorus, increasing their armor by 10%.\nEye Beam now jumps to up to 4 additional targets within 10 yards and deals 10% increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3942,10 +5089,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 386986,
         "icon": "spell_nzinsanity_fearofdeath"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Corruption\ndamage is increased by 15%, and each time it deals damage any of your Curses active on the target are extended by 0.5 sec.",
+      "pvp_tooltip": "Corruption\ndamage is increased by 15%, and each time it deals damage any of your Curses active on the target are extended by 0.5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3996,10 +5143,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 453096,
         "icon": "spell_shadow_creepingplague"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases critical strike damage dealt by Agony,\nCorruption\n, and Unstable Affliction by 15%.",
+      "pvp_tooltip": "Increases critical strike damage dealt by Agony,\nCorruption\n, and Unstable Affliction by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4050,10 +5197,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1260264,
         "icon": "spell_warlock_focusshadow"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Damage dealt by [\nDrain Soul\n/ Shadow Bolt] has a [\nDrain Soul\n:\n10\n/ 20]% chance to make your next Unstable Affliction or Seed of Corruption cost no Soul Shards and cast instantly.",
+      "pvp_tooltip": "Damage dealt by [\nDrain Soul\n/ Shadow Bolt] has a [\nDrain Soul\n:\n10\n/ 20]% chance to make your next Unstable Affliction or Seed of Corruption cost no Soul Shards and cast instantly.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4106,10 +5253,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1279510,
         "icon": "inv_lightforgedmatrixability_felheartofargus"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases damage dealt by Agony and\nCorruption\nby 10%.",
+      "pvp_tooltip": "Increases damage dealt by Agony and\nCorruption\nby 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4162,10 +5309,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1259815,
         "icon": "inv_misc_gem_amethyst_02"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases damage dealt by Unstable Affliction and Seed of Corruption by 5%.",
+      "pvp_tooltip": "Increases damage dealt by Unstable Affliction and Seed of Corruption by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4216,10 +5363,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1312998,
         "icon": "spell_shadow_manaburn"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shadow Bolt\nand Malefic Grasp damage increased by 10% or 20% if the target is affected by Haunt.\nDark Harvest damage increased by 10% or 20% if the target is affected by Haunt.",
+      "pvp_tooltip": "Shadow Bolt\nand Malefic Grasp damage increased by 10% or 20% if the target is affected by Haunt.\nDark Harvest damage increased by 10% or 20% if the target is affected by Haunt.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4271,10 +5418,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 416615,
         "icon": "spell_shadow_mindshear"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cast time of Unstable Affliction by 0.15 sec and increases its damage by 5%.",
+      "pvp_tooltip": "Reduces the cast time of Unstable Affliction by 0.15 sec and increases its damage by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4325,10 +5472,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 459440,
         "icon": "ability_warlock_improvedsoulleech"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Approximately\n1.2\nprocs per minute\nCritical strikes from your Agony,\nCorruption\n, and Unstable Affliction have a chance to grant Nightfall.",
+      "pvp_tooltip": "Approximately\n1.2\nprocs per minute\nCritical strikes from your Agony,\nCorruption\n, and Unstable Affliction have a chance to grant Nightfall.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4380,10 +5527,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1259838,
         "icon": "sha_inv_elemental_primal_shadow_nightmare"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cast time of Seed of Corruption by 0.20 sec and increases its damage by 5%.",
+      "pvp_tooltip": "Reduces the cast time of Seed of Corruption by 0.20 sec and increases its damage by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4431,10 +5578,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1260229,
         "icon": "spell_shadow_unstableaffliction_3_purple"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When Unstable Affliction expires, it has a 10% chance to reapply itself.",
+      "pvp_tooltip": "When Unstable Affliction expires, it has a 10% chance to reapply itself.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4482,10 +5629,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1261124,
         "icon": "spell_shadow_unstableafllictions"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Unstable Affliction on a target affected by your Unstable Affliction increases your Haste by 5% for 15 sec.",
+      "pvp_tooltip": "Casting Unstable Affliction on a target affected by your Unstable Affliction increases your Haste by 5% for 15 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4533,10 +5680,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 234876,
         "icon": "spell_shadow_deathsembrace"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Agony,\nCorruption\n, Unstable Affliction, Seed of Corruption, and [\nDrain Soul\n/ Shadow Bolt] deal up to 40% increased damage on targets below 35% health. Damage increase is higher against lower health targets.",
+      "pvp_tooltip": "Agony,\nCorruption\n, Unstable Affliction, Seed of Corruption, and [\nDrain Soul\n/ Shadow Bolt] deal up to 40% increased damage on targets below 35% health. Damage increase is higher against lower health targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4584,10 +5731,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1311969,
         "icon": "ability_soulrenderdormazain_hellscream"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases Drain Life damage by 10% and Siphon Life now increases the damage of Corruption by an additional 10%.\nDark Harvest channels 10% faster and deals 15% increased damage.",
+      "pvp_tooltip": "Increases Drain Life damage by 10% and Siphon Life now increases the damage of Corruption by an additional 10%.\nDark Harvest channels 10% faster and deals 15% increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4635,10 +5782,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 196226,
         "icon": "spell_shadow_seedofdestruction"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Seed of Corruption now embeds demon seeds into 2 additional nearby enemies at 50% effectiveness.",
+      "pvp_tooltip": "Seed of Corruption now embeds demon seeds into 2 additional nearby enemies at 50% effectiveness.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4684,15 +5831,65 @@ window.WOW_PVP_DATA = {
         "spell_id": 1261984,
         "icon": "inv12_apextalent_warlock_shadowsofnathreza"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Haunt now calls upon a demonic soul from within the Twisting Nether to haunt your target.\nThe soul is unstable and ravenous, dealing [(45.2262% of Spell Power) * 18] Shadow damage to its host and 3 enemies within 10 yards suffering from your\nCorruption\nover its duration.",
+      "pvp_tooltip": "Haunt now calls upon a demonic soul from within the Twisting Nether to haunt your target.\nThe soul is unstable and ravenous, dealing [(36.181% of Spell Power) * 18] Shadow damage to its host and 3 enemies within 10 yards suffering from your\nCorruption\nover its duration.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 135,
+          "end": 142,
+          "old_token": "45.2262",
+          "new_token": "36.181",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "45.2262",
+          "new": "36.181"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1261984,
+          "source_spell_id": 1262710,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 0.452262)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.8,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.8,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1261984,
+            1262710
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Shadow of Nathreza",
@@ -4733,10 +5930,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1261990,
         "icon": "inv12_apextalent_warlock_shadowsofnathreza"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the initial damage of Haunt by 50% and Haunt increases damage dealt to its host by an additional 2%.",
+      "pvp_tooltip": "Increases the initial damage of Haunt by 50% and Haunt increases damage dealt to its host by an additional 2%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4782,14 +5979,45 @@ window.WOW_PVP_DATA = {
         "spell_id": 1261992,
         "icon": "inv12_apextalent_warlock_shadowsofnathreza"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Approximately\n2\nprocs per minute\nDamage dealt by Haunt has a chance to release the demonic soul haunting its target. When released, it unleashes a devastating attack before being banished back to Nathreza.\nWrath of Nathreza\nCalls down a meteor formed from the ruins of Nathreza that explodes upon impact, dealing (2274.09% of Spell Power) Shadow damage to all enemies within 10 yds.\nDamage reduced beyond 8 targets.",
+      "pvp_tooltip": "Approximately\n2\nprocs per minute\nDamage dealt by Haunt has a chance to release the demonic soul haunting its target. When released, it unleashes a devastating attack before being banished back to Nathreza.\nWrath of Nathreza\nCalls down a meteor formed from the ruins of Nathreza that explodes upon impact, dealing (2274.09% of Spell Power) Shadow damage to all enemies within 10 yds.\nDamage reduced beyond 8 targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 1261992,
+          "source_spell_id": 1278047,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 22.7409)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.74074,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.74074,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1261992,
+            1262028,
+            1278047
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -4836,14 +6064,107 @@ window.WOW_PVP_DATA = {
         "spell_id": 445465,
         "icon": "inv_ability_hellcallerwarlock_wither"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Bestows a vile malediction upon the target, burning the sinew and muscle of its host, dealing (24.7969% of Spell Power) Shadowflame damage immediately and an additional (370.679% of Spell Power) Shadowflame damage over 18 sec.\nReplaces Corruption.",
+      "pvp_tooltip": "Bestows a vile malediction upon the target, burning the sinew and muscle of its host, dealing (24.7969% of Spell Power) Shadowflame damage immediately and an additional (370.679% of Spell Power) Shadowflame damage over 18 sec.\nReplaces Corruption.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 445465,
+          "source_spell_id": 445468,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire, Shadow) (SP mod: 0.247969)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.75,
+          "amount_kind": "direct",
+          "aura_factor": 1.596,
+          "final_pvp_multiplier": 1.197,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            445465,
+            445468
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264658,
+              "amount_kind": "direct",
+              "value_pct": 33.0,
+              "factor": 1.33,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1314351,
+              "amount_kind": "direct",
+              "value_pct": 20.0,
+              "factor": 1.2,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 445465,
+          "source_spell_id": 445474,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.75,
+          "amount_kind": "periodic",
+          "aura_factor": 1.596,
+          "final_pvp_multiplier": 1.197,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            445465,
+            445468,
+            445474
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264885,
+              "amount_kind": "periodic",
+              "value_pct": 33.0,
+              "factor": 1.33,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1314352,
+              "amount_kind": "periodic",
+              "value_pct": 20.0,
+              "factor": 1.2,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -4889,10 +6210,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 440044,
         "icon": "spell_fire_felfire"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Fire damage dealt by your spells and abilities is increased by 6% and your Fire spells gain 10% more critical strike chance from all sources.",
+      "pvp_tooltip": "Fire damage dealt by your spells and abilities is increased by 6% and your Fire spells gain 10% more critical strike chance from all sources.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4942,15 +6263,73 @@ window.WOW_PVP_DATA = {
         "spell_id": 440043,
         "icon": "spell_nzinsanity_chasedbyshadows"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "If the target is afflicted with your Wither, casting [\nUnstable Affliction\n/ Chaos Bolt and Shadowburn] increase its stack count by 1.\nEach time Wither gains a stack it has a chance to collapse, consuming a stack every 1 sec to deal (144.468% of Spell Power) Shadowflame damage to its host until 1 stack remains.",
+      "pvp_tooltip": "If the target is afflicted with your Wither, casting [\nUnstable Affliction\n/ Chaos Bolt and Shadowburn] increase its stack count by 1.\nEach time Wither gains a stack it has a chance to collapse, consuming a stack every 1 sec to deal (192.1424% of Spell Power) Shadowflame damage to its host until 1 stack remains.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 234,
+          "end": 241,
+          "old_token": "144.468",
+          "new_token": "192.1424",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "144.468",
+          "new": "192.1424"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 440043,
+          "source_spell_id": 445736,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire, Shadow) (SP mod: 1.44468)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.33,
+          "final_pvp_multiplier": 1.33,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            440043,
+            445736
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264658,
+              "amount_kind": "direct",
+              "value_pct": 33.0,
+              "factor": 1.33,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Xalan's Cruelty",
@@ -4995,10 +6374,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 440040,
         "icon": "spell_shadow_demonicempathy"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shadow damage dealt by your spells and abilities is increased by 6% and your Shadow spells gain 10% more critical strike chance from all sources.",
+      "pvp_tooltip": "Shadow damage dealt by your spells and abilities is increased by 6% and your Shadow spells gain 10% more critical strike chance from all sources.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5048,15 +6427,50 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266799,
         "icon": "spell_nature_thorns_nightmare"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the damage of Unstable Affliction by 8% and Seed of Corruption by 4%.\nThis effect is doubled while Malevolence is active.",
+      "pvp_tooltip": "Increases the damage of Unstable Affliction by 8% and Seed of Corruption by 4%.\nThis effect is doubled while Malevolence is active.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            4
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "ordinary_value",
+          "old": 35.0,
+          "new": 9.99999,
+          "full_tooltip_match_count": 1
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1266799,
+          "source_spell_id": 1266799,
+          "effect_index": 4,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 35.0,
+          "spell_pvp_multiplier": 0.285714,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.285714,
+          "final_pvp_value": 9.99999,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Demonic Soul",
@@ -5102,15 +6516,73 @@ window.WOW_PVP_DATA = {
         "spell_id": 449614,
         "icon": "inv_ability_soulharvesterwarlock_demonicsoul"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "A demonic entity now inhabits your soul, allowing you to detect if a Soul Shard has a Succulent Soul when it's generated.\nConsuming a Succulent Soul unleashes your demonic soul, dealing (353.236% of Spell Power) Shadow damage to all enemies within 10 yds of the target. Damage reduced beyond 8 targets.",
+      "pvp_tooltip": "A demonic entity now inhabits your soul, allowing you to detect if a Soul Shard has a Succulent Soul when it's generated.\nConsuming a Succulent Soul unleashes your demonic soul, dealing (469.8039% of Spell Power) Shadow damage to all enemies within 10 yds of the target. Damage reduced beyond 8 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 187,
+          "end": 194,
+          "old_token": "353.236",
+          "new_token": "469.8039",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "353.236",
+          "new": "469.8039"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 449614,
+          "source_spell_id": 449801,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 3.53236)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.33,
+          "final_pvp_multiplier": 1.33,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            449614,
+            449801
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264658,
+              "amount_kind": "direct",
+              "value_pct": 33.0,
+              "factor": 1.33,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Necrolyte Teachings",
@@ -5155,15 +6627,152 @@ window.WOW_PVP_DATA = {
         "spell_id": 449620,
         "icon": "spell_necro_deathall"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Shadow Bolt and Drain Soul damage increased by 20%. Nightfall increases the damage of Shadow Bolt and Drain Soul by an additional 50%.",
+      "pvp_tooltip": "Shadow Bolt and Drain Soul damage increased by 10%. Nightfall increases the damage of Shadow Bolt and Drain Soul by an additional 10%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 130,
+          "end": 132,
+          "old_token": "50",
+          "new_token": "10",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 47,
+          "end": 49,
+          "old_token": "20",
+          "new_token": "10",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2,
+            3,
+            4
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "20",
+          "new": "10"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "50",
+          "new": "10"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 449620,
+          "source_spell_id": 449620,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Add Modifier - Flat (Label): Modifies Effect #2's Value (12)",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.2,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.2,
+          "final_pvp_value": 10.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 449620,
+          "source_spell_id": 449620,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 10.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 449620,
+          "source_spell_id": 449620,
+          "effect_index": 3,
+          "effect_text": "Apply Area Aura: Add Modifier - Flat (Label): Modifies Effect #1's Value (3)",
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 10.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 449620,
+          "source_spell_id": 449620,
+          "effect_index": 4,
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 10.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 4
     },
     {
       "talent_name": "Soul Anathema",
@@ -5208,14 +6817,51 @@ window.WOW_PVP_DATA = {
         "spell_id": 449624,
         "icon": "spell_necro_inevitableend"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Unleashing your demonic soul bestows a fiendish entity unto the soul of its targets, dealing (114.712% of Spell Power) Shadow damage over 10 sec.\nIf this effect is reapplied, any remaining damage will be added to the new Soul Anathema.",
+      "pvp_tooltip": "Unleashing your demonic soul bestows a fiendish entity unto the soul of its targets, dealing (114.712% of Spell Power) Shadow damage over 10 sec.\nIf this effect is reapplied, any remaining damage will be added to the new Soul Anathema.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 449624,
+          "source_spell_id": 450538,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 1.33,
+          "final_pvp_multiplier": 1.33,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            449624,
+            450538
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264885,
+              "amount_kind": "periodic",
+              "value_pct": 33.0,
+              "factor": 1.33,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5261,15 +6907,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 449629,
         "icon": "inv_helm_mask_zulgurub_d_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Your demonic soul deals 100% increased damage to targets affected by your Unstable Affliction.",
+      "pvp_tooltip": "Your demonic soul deals 50% increased damage to targets affected by your Unstable Affliction.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 24,
+          "end": 27,
+          "old_token": "100",
+          "new_token": "50",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "100",
+          "new": "50"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 449629,
+          "source_spell_id": 449629,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 100.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 50.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Manifested Avarice",
@@ -5314,14 +7005,115 @@ window.WOW_PVP_DATA = {
         "spell_id": 1268884,
         "icon": "ability_priest_shadowyapparition"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Each Succulent Soul consumed has an increasing chance to unleash the Demonic Soul within you, enabling it to assault your enemies for 9 sec.\nSoul Swipe\nStrikes nearby enemies with a malevolent claw, dealing (195.514% of Spell Power) Shadow damage to its target and (130.346% of Spell Power) Shadow damage to other enemies in 10 yds.",
+      "pvp_tooltip": "Each Succulent Soul consumed has an increasing chance to unleash the Demonic Soul within you, enabling it to assault your enemies for 9 sec.\nSoul Swipe\nStrikes nearby enemies with a malevolent claw, dealing (195.514% of Spell Power) Shadow damage to its target and (130.346% of Spell Power) Shadow damage to other enemies in 10 yds.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1268884,
+          "source_spell_id": 1269042,
+          "effect_index": 1,
+          "effect_text": "Summon ( Demonic Soul )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1268884,
+            1269042
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 1268884,
+          "source_spell_id": 1269049,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 1.95514)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.471429,
+          "amount_kind": "direct",
+          "aura_factor": 1.33,
+          "final_pvp_multiplier": 0.62700057,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1268884,
+            1269049
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264658,
+              "amount_kind": "direct",
+              "value_pct": 33.0,
+              "factor": 1.33,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 1268884,
+          "source_spell_id": 1269049,
+          "effect_index": 2,
+          "effect_text": "School Damage (Shadow) (SP mod: 1.30346)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.471429,
+          "amount_kind": "direct",
+          "aura_factor": 1.33,
+          "final_pvp_multiplier": 0.62700057,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1268884,
+            1269049
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264658,
+              "amount_kind": "direct",
+              "value_pct": 33.0,
+              "factor": 1.33,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5367,14 +7159,43 @@ window.WOW_PVP_DATA = {
         "spell_id": 440057,
         "icon": "inv_fabric_felrag"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the time between an enemy's attacks by 20% and the casting time of all spells by 30% for 2 min.\nCurses: A warlock can only have one Curse active per target.",
+      "pvp_tooltip": "Increases the time between an enemy's attacks by 20% and the casting time of all spells by 30% for 2 min.\nCurses: A warlock can only have one Curse active per target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 440057,
+          "source_spell_id": 442804,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Mod Casting Speed %",
+          "base_value": -30.0,
+          "spell_pvp_multiplier": 0.3334,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.3334,
+          "final_pvp_value": -10.001999999999999,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            440057,
+            442804
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5420,10 +7241,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 440059,
         "icon": "warlock_curse_weakness_aura"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While Unending Resolve is active, enemies within 30 yds are affected by Curse of Tongues and Curse of Weakness at 100% effectiveness.",
+      "pvp_tooltip": "While Unending Resolve is active, enemies within 30 yds are affected by Curse of Tongues and Curse of Weakness at 100% effectiveness.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5473,10 +7294,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 440048,
         "icon": "70_inscription_glyph_demonhunter_minor"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Wither deals 30% increased periodic damage but its duration is 15% shorter.",
+      "pvp_tooltip": "Wither deals 30% increased periodic damage but its duration is 15% shorter.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5526,10 +7347,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 440051,
         "icon": "spell_shadow_mindshear"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Wither damage increased 20%. When Wither gains a stack from Blackened Soul, it has a chance to gain an additional stack.",
+      "pvp_tooltip": "Wither damage increased 20%. When Wither gains a stack from Blackened Soul, it has a chance to gain an additional stack.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5579,10 +7400,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 440065,
         "icon": "ability_warrior_intensifyrage"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Dark Pact heals you for (205.73% of Spell Power) every 1 sec while active.",
+      "pvp_tooltip": "Dark Pact heals you for (205.73% of Spell Power) every 1 sec while active.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5632,10 +7453,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 440070,
         "icon": "sha_spell_fire_felfireward_nightmare"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Sacrifice 10% of your maximum health. Soul Leech now absorbs an additional 15% of your maximum health.",
+      "pvp_tooltip": "Sacrifice 10% of your maximum health. Soul Leech now absorbs an additional 15% of your maximum health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5685,10 +7506,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266805,
         "icon": "inv_112_raidtrinkets_blobofswirlingvoid_terra"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Approximately\n1\nprocs per minute\nPeriodic damage dealt by Wither has a chance to grant Malevolence for 8 sec.",
+      "pvp_tooltip": "Approximately\n1\nprocs per minute\nPeriodic damage dealt by Wither has a chance to grant Malevolence for 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5738,14 +7559,107 @@ window.WOW_PVP_DATA = {
         "spell_id": 449701,
         "icon": "spell_holy_consumemagic"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You always gain the benefit of Soulburn when consuming a Healthstone, increasing its healing by 30% and increasing your maximum health by 20% for 12 sec.",
+      "pvp_tooltip": "You always gain the benefit of Soulburn when consuming a Healthstone, increasing its healing by 30% and increasing your maximum health by 20% for 12 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 449701,
+          "source_spell_id": 387636,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Increase Maximum Health - %",
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 0.75,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": 15.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            449701,
+            387636
+          ],
+          "dependency_relations": [
+            "triggered_by_reverse"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 449701,
+          "source_spell_id": 387626,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 30.0,
+          "spell_pvp_multiplier": 0.667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.667,
+          "final_pvp_value": 20.01,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            449701,
+            387636,
+            385899,
+            387626
+          ],
+          "dependency_relations": [
+            "triggered_by_reverse",
+            "spelldesc_ref",
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 449701,
+          "source_spell_id": 387633,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Increase Run Speed %",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            449701,
+            387636,
+            385899,
+            387633
+          ],
+          "dependency_relations": [
+            "triggered_by_reverse",
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5791,15 +7705,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 449703,
         "icon": "spell_shadow_deathpact"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Dark Pact now shields you for an additional 50% of the sacrificed health.",
+      "pvp_tooltip": "Dark Pact now shields you for an additional 30% of the sacrificed health.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 44,
+          "end": 46,
+          "old_token": "50",
+          "new_token": "30",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "50",
+          "new": "30"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 449703,
+          "source_spell_id": 449703,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Shared Fate",
@@ -5844,15 +7803,73 @@ window.WOW_PVP_DATA = {
         "spell_id": 449704,
         "icon": "ability_warlock_soullink"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "When you kill a target, its tortured soul is flung into a nearby enemy for 3 sec. This effect inflicts (50.6531% of Spell Power) Shadow damage to enemies within 10 yds every 1 sec.\nDeals reduced damage beyond 8 targets.",
+      "pvp_tooltip": "When you kill a target, its tortured soul is flung into a nearby enemy for 3 sec. This effect inflicts (67.3686% of Spell Power) Shadow damage to enemies within 10 yds every 1 sec.\nDeals reduced damage beyond 8 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 104,
+          "end": 111,
+          "old_token": "50.6531",
+          "new_token": "67.3686",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "50.6531",
+          "new": "67.3686"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 449704,
+          "source_spell_id": 450593,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 0.506531)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.33,
+          "final_pvp_multiplier": 1.33,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            449704,
+            450593
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264658,
+              "amount_kind": "direct",
+              "value_pct": 33.0,
+              "factor": 1.33,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Feast of Souls",
@@ -5897,14 +7914,55 @@ window.WOW_PVP_DATA = {
         "spell_id": 449706,
         "icon": "ability_warlock_improvedsoulleech"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When you kill a target, you have a chance to generate a Soul Shard that is guaranteed to be a Succulent Soul.",
+      "pvp_tooltip": "When you kill a target, you have a chance to generate a Soul Shard that is guaranteed to be a Succulent Soul.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 449706,
+          "source_spell_id": 450593,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 0.506531)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.33,
+          "final_pvp_multiplier": 1.33,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            449706,
+            450629,
+            449704,
+            450593
+          ],
+          "dependency_relations": [
+            "trigger_spell",
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264658,
+              "amount_kind": "direct",
+              "value_pct": 33.0,
+              "factor": 1.33,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5950,15 +8008,50 @@ window.WOW_PVP_DATA = {
         "spell_id": 449707,
         "icon": "ability_demonhunter_infernalchains"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Fel Domination cooldown is reduced by 90 sec.",
+      "pvp_tooltip": "Fel Domination cooldown is reduced by 90 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 1.5,
+          "new": 0.500001,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 449707,
+          "source_spell_id": 449707,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Cooldown (11)",
+          "base_value": -1.5,
+          "spell_pvp_multiplier": 0.333334,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.333334,
+          "final_pvp_value": -0.500001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Gorefiend's Resolve",
@@ -6003,10 +8096,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 389623,
         "icon": "ability_rogue_masterofsubtlety"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Targets resurrected with Soulstone resurrect with 40% additional health and 80% additional mana.",
+      "pvp_tooltip": "Targets resurrected with Soulstone resurrect with 40% additional health and 80% additional mana.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6056,10 +8149,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1268889,
         "icon": "inv_ability_priest_mindgames"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases your Mastery by 2%.\nThis effect is doubled while the demonic entity is aiding you in combat.",
+      "pvp_tooltip": "Increases your Mastery by 2%.\nThis effect is doubled while the demonic entity is aiding you in combat.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6109,10 +8202,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 440046,
         "icon": "warlock_curse_shadow_aura"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "[\nAgony\n:\nAgony damage increased by 30%\n/ Wither damage increased by 25%.]\nBlackened Soul deals 2% increased damage per stack of Wither.",
+      "pvp_tooltip": "[\nAgony\n:\nAgony damage increased by 30%\n/ Wither damage increased by 25%.]\nBlackened Soul deals 2% increased damage per stack of Wither.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6162,15 +8255,73 @@ window.WOW_PVP_DATA = {
         "spell_id": 440055,
         "icon": "ability_warlock_moltencoregreen"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "After Wither reaches 8 stacks or when its host reaches 20% health, Wither deals (144.468% of Spell Power) Shadowflame damage to its host every 1 sec until 1 stack remains.\nWhen Blackened Soul deals damage, you have a chance to gain Shard Instability.",
+      "pvp_tooltip": "After Wither reaches 8 stacks or when its host reaches 20% health, Wither deals (192.1424% of Spell Power) Shadowflame damage to its host every 1 sec until 1 stack remains.\nWhen Blackened Soul deals damage, you have a chance to gain Shard Instability.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 81,
+          "end": 88,
+          "old_token": "144.468",
+          "new_token": "192.1424",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "144.468",
+          "new": "192.1424"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 440055,
+          "source_spell_id": 445736,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire, Shadow) (SP mod: 1.44468)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.33,
+          "final_pvp_multiplier": 1.33,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            440055,
+            445736
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264658,
+              "amount_kind": "direct",
+              "value_pct": 33.0,
+              "factor": 1.33,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Mark of Peroth'arn",
@@ -6215,10 +8366,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 440045,
         "icon": "70_inscription_vantus_rune_tomb"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Damaging critical strikes dealt by Wither deal 215% damage instead of the usual 200%.\nDamaging critical strikes dealt by Blackened Soul deal 225% damage instead of the usual 200%.",
+      "pvp_tooltip": "Damaging critical strikes dealt by Wither deal 215% damage instead of the usual 200%.\nDamaging critical strikes dealt by Blackened Soul deal 225% damage instead of the usual 200%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6268,10 +8419,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266803,
         "icon": "spell_shadow_improvedvampiricembrace"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Malevolence grants an additional 4% Haste and when cast increases the stack count of active Withers by an additional 2 stacks.",
+      "pvp_tooltip": "Malevolence grants an additional 4% Haste and when cast increases the stack count of active Withers by an additional 2 stacks.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6321,15 +8472,73 @@ window.WOW_PVP_DATA = {
         "spell_id": 449631,
         "icon": "inv_staff_2h_artifactdeadwind_d_05"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Damage dealt by your demonic soul is increased by 10%.\nConsuming Nightfall feeds the demonic entity within you, causing it to appear and deal (601.005% of Spell Power) Shadow damage to your target.",
+      "pvp_tooltip": "Damage dealt by your demonic soul is increased by 10%.\nConsuming Nightfall feeds the demonic entity within you, causing it to appear and deal (799.3367% of Spell Power) Shadow damage to your target.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 143,
+          "end": 150,
+          "old_token": "601.005",
+          "new_token": "799.3367",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "601.005",
+          "new": "799.3367"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 449631,
+          "source_spell_id": 449826,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 6.01005)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.33,
+          "final_pvp_multiplier": 1.33,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            449631,
+            449826
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264658,
+              "amount_kind": "direct",
+              "value_pct": 33.0,
+              "factor": 1.33,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Quietus",
@@ -6374,10 +8583,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 449634,
         "icon": "spell_necro_conclave"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Soul Anathema damage increased by 25% and is dealt 20% faster.\nConsuming Nightfall activates Shared Fate or Feast of Souls.",
+      "pvp_tooltip": "Soul Anathema damage increased by 25% and is dealt 20% faster.\nConsuming Nightfall activates Shared Fate or Feast of Souls.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6427,10 +8636,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 449637,
         "icon": "spell_necro_deathlyecho"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Corruption deals damage 25% faster and Haunt grants Nightfall.",
+      "pvp_tooltip": "Corruption deals damage 25% faster and Haunt grants Nightfall.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6480,10 +8689,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1268903,
         "icon": "ability_creature_poison_01_purple"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the duration of Manifested Avarice by 5 sec and increases the damage of Soul Swipe by 10%.",
+      "pvp_tooltip": "Increases the duration of Manifested Avarice by 5 sec and increases the damage of Soul Swipe by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6534,14 +8743,53 @@ window.WOW_PVP_DATA = {
         "spell_id": 430014,
         "icon": "inv_ability_hellcallerwarlock_malevolence"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Dark magic erupts from you and corrupts your soul for 20 sec, causing enemies suffering from your Wither to take (1265.51% of Spell Power) Shadowflame damage and increase its stack count by 6.\nWhile corrupted your Haste is increased by 8% and spending Soul Shards on damaging spells grants 1 additional stack of Wither.",
+      "pvp_tooltip": "Dark magic erupts from you and corrupts your soul for 20 sec, causing enemies suffering from your Wither to take (1265.51% of Spell Power) Shadowflame damage and increase its stack count by 6.\nWhile corrupted your Haste is increased by 8% and spending Soul Shards on damaging spells grants 1 additional stack of Wither.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 430014,
+          "source_spell_id": 446285,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire, Shadow) (SP mod: 12.6551)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.33,
+          "final_pvp_multiplier": 1.33,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            430014,
+            442726,
+            446285
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264658,
+              "amount_kind": "direct",
+              "value_pct": 33.0,
+              "factor": 1.33,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -6588,10 +8836,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 449638,
         "icon": "spell_arcane_prismaticcloak"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Dark Harvest spell is empowered by the demonic entity within you, causing it to grant 1 Soul Shard that each contain a Succulent Soul every 1 sec while channeled.",
+      "pvp_tooltip": "Your Dark Harvest spell is empowered by the demonic entity within you, causing it to grant 1 Soul Shard that each contain a Succulent Soul every 1 sec while channeled.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6599,734 +8847,25 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     }
   ],
-  "fetch_errors": [
-    {
-      "source": "wowhead_page",
-      "spell_id": 710,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c8be90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 980,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ccac60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1714,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e50830 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 5484,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171520f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 6789,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c41670 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 27243,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167ca600 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 30283,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17153590 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 48181,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16576690 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 56244,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168a3260 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 108415,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c88fe0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 108416,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165777a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 108503,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167c9fa0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 108558,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1681bbf0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 111400,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167c8b00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 111771,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e0da0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 196103,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16f7d280 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 196226,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167db800 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 205180,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dfa090 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 219272,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c41ee0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 234876,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16df89b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 264000,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165746b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 268358,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16823890 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 288843,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167c87a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 317138,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dfa210 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 333889,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167cae10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 334275,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16df8f20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 385881,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167f35f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 385899,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166020f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 386110,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e34a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 386113,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fe330 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 386124,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167f1b20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 386617,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fd040 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 386648,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b7b60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 386659,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b4f80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 386664,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17152480 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 386686,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e76420 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 386689,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168210d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 386976,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16789f10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 386986,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165763f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388667,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16822810 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 389367,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167f0860 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 389590,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16df98e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 389609,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165074a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 389623,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168232f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 416615,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16820350 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 430014,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e77e30 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 440040,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dfa6f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 440043,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16577200 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 440044,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1651d0a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 440045,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e77f50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 440046,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165073b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 440048,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e63ce0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 440051,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e2360 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 440055,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16822450 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 440057,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167c8830 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 440059,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167ca450 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 440065,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168235f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 440070,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165756a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 445465,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16504f20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449614,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16821670 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449620,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17153350 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449624,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dd7560 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449629,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d55010 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449631,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecdc40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449634,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16577530 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449637,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166d47d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449638,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167c9550 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449701,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167ca8d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449703,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16df85f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449704,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16574bc0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449706,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16820fe0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 449707,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18227530 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 452902,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166b7b60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 452999,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166d6f90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 453080,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17153080 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 453087,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167f0f20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 453096,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18227f80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 453105,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecf620 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 453172,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e3b30 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 458034,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ccac00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 459440,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16823d10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1257052,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e76210 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1259790,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e75c10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1259811,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16576150 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1259815,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c41a90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1259825,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecd940 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1259838,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1f7d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1259886,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d56900 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1260209,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dd5010 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1260229,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e74410 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1260264,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16712030 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1261124,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16cc8d70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1261149,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17152810 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1261984,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9d550 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1261990,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167c8bf0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1261992,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b6750 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1265799,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d55250 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1265801,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663e510 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1265810,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165747d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1265813,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16820710 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1265816,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c401d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1266799,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16821d00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1266803,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16577f50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1266805,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167c83b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1268884,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167c8f20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1268889,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165b3ad0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1268903,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b76b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270255,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1681bc50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270690,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c89c10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270691,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17152f00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270693,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165b0f50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270695,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c434a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270701,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e74860 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1271689,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167f1ac0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1271694,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e2ff0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1271699,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e9bb00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1271802,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1651ff80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1279510,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d54710 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1279521,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c9b530 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1280733,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c98410 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1311653,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16576840 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1311969,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c98a10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1312998,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16575790 state=finished raised HTTPStatusError>]"
-    }
-  ],
+  "fetch_errors": [],
   "slug": "warlock-affliction",
-  "generated_at": "2026-09-19T13:52:36.505710+00:00",
+  "generated_at": "2026-09-19T14:21:56.799699+00:00",
   "validation": {
     "talents": 123,
-    "changed_tooltips": 0,
-    "talents_with_pvp_mechanics": 0,
+    "changed_tooltips": 23,
+    "talents_with_pvp_mechanics": 41,
     "unique_nodes": 107,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
     "drustvar_builds": [
       "12.1.0.69587"
     ],
-    "verification_status": "PARTIAL",
-    "fetch_error_count": 274,
-    "unresolved_count": 40,
-    "review_required_count": 123,
-    "fetch_error_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 710,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16d54200 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 980,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16cc9b80 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1714,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16ccb410 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 5484,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16d99970 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 6789,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16cc9640 state=finished raised HTTPStatusError>]"
-      }
-    ],
-    "unresolved_examples": [
-      {
-        "spell_id": 980,
-        "talent_name": "Agony",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.41,
-        "effect_text": "Apply Aura (6) | Periodic Damage (3): shadow every 2 seconds"
-      },
-      {
-        "spell_id": 1714,
-        "talent_name": "Curse of Tongues",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.33,
-        "effect_text": "Apply Aura (6) | Modify Casting Speed (216)"
-      },
-      {
-        "spell_id": 48181,
-        "talent_name": "Haunt",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.71,
-        "effect_text": "School Damage (2): shadow"
-      },
-      {
-        "spell_id": 108416,
-        "talent_name": "Dark Pact",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 1.6,
-        "effect_text": "Apply Aura (6) | Periodic Heal (8): every 1 seconds"
-      },
-      {
-        "spell_id": 219272,
-        "talent_name": "Demon Skin",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 1.3,
-        "effect_text": "Apply Aura (6) | Modify Base Resistance (142)"
-      }
-    ],
-    "review_required_examples": [
-      {
-        "talent_name": "Fel Domination",
-        "spell_id": 333889,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Soul Leech",
-        "spell_id": 1311653,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Burning Rush",
-        "spell_id": 111400,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Fel Pact",
-        "spell_id": 386113,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Demon Skin",
-        "spell_id": 219272,
-        "status": "MISSING_TOOLTIP"
-      }
-    ]
+    "verification_status": "VERIFIED",
+    "fetch_error_count": 0,
+    "unresolved_count": 0,
+    "review_required_count": 0,
+    "fetch_error_examples": [],
+    "unresolved_examples": [],
+    "review_required_examples": []
   }
 };

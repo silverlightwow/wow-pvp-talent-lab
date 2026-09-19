@@ -166,14 +166,52 @@
         "spell_id": 232893,
         "icon": "ability_demonhunter_felblade"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "15 yd range\nInstant\n12 sec cooldown\nCharge to your target and deal (122.94% of Attack Power)%\nFire\ndamage.\n[\nFracture\n:\nGenerates 15 Fury.\n] [\nDemonic Wards\n:\nGenerates 15 Fury.\n]\nGenerates 15 Fury.",
+      "pvp_tooltip": "15 yd range\nInstant\n12 sec cooldown\nCharge to your target and deal (122.94% of Attack Power)%\nFire\ndamage.\n[\nFracture\n:\nGenerates 15 Fury.\n] [\nDemonic Wards\n:\nGenerates 15 Fury.\n]\nGenerates 15 Fury.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 232893,
+          "source_spell_id": 213243,
+          "effect_index": 2,
+          "effect_text": "School Damage (Fire) (AP mod: 1.2294 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.2,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 1.152,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            232893,
+            213243
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1264716,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -739,14 +777,46 @@
         "spell_id": 179057,
         "icon": "spell_fire_felfirenova"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "25 Fury\nInstant\n45 sec cooldown\nUnleash an eruption of fel energy, dealing (27.4816% of Attack Power) Chaos damage and stunning all nearby enemies for 3 sec. [\nChaos Fragments\n:\nEach enemy stunned by Chaos Nova has a 30% chance to generate a Lesser Soul Fragment\n]",
+      "pvp_tooltip": "25 Fury\nInstant\n45 sec cooldown\nUnleash an eruption of fel energy, dealing (27.4816% of Attack Power) Chaos damage and stunning all nearby enemies for 3 sec. [\nChaos Fragments\n:\nEach enemy stunned by Chaos Nova has a 30% chance to generate a Lesser Soul Fragment\n]",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 179057,
+          "source_spell_id": 179057,
+          "effect_index": 2,
+          "effect_text": "School Damage (Fire, Nature, Frost, Shadow, Arcane) (AP mod: 0.274816 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.96,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1264716,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -1716,8 +1786,45 @@
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 320331,
+          "source_spell_id": 320334,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire) (AP mod: 0.12 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.96,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            320331,
+            320334
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1264716,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -2026,10 +2133,10 @@
         "spell_id": 1266762,
         "icon": "ability_demonhunter_doublejump"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your movement speed is increased by 3%.",
+      "pvp_tooltip": "Your movement speed is increased by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2940,14 +3047,51 @@
         "spell_id": 198013,
         "icon": "ability_demonhunter_eyebeam"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "30 Fury\n20 yd range\nChanneled (2 sec cast)\n30 sec cooldown\nBlasts all enemies in front of you, [\nLooks Can Kill\n:\ndealing guaranteed critical strikes\n] for up to {?a320415[{\n[(40.26% of Attack Power) * 10 * 2]\n][{\n[(40.26% of Attack Power) * 10]\n] Chaos damage over 2 sec. Deals reduced damage beyond 5 targets. [\nFurious Gaze\n:\nWhen Eye Beam finishes fully channeling, your Haste is increased by an additional 8% for 8 sec\n]",
+      "pvp_tooltip": "30 Fury\n20 yd range\nChanneled (2 sec cast)\n30 sec cooldown\nBlasts all enemies in front of you, [\nLooks Can Kill\n:\ndealing guaranteed critical strikes\n] for up to {?a320415[{\n[(40.26% of Attack Power) * 10 * 2]\n][{\n[(40.26% of Attack Power) * 10]\n] Chaos damage over 2 sec. Deals reduced damage beyond 5 targets. [\nFurious Gaze\n:\nWhen Eye Beam finishes fully channeling, your Haste is increased by an additional 8% for 8 sec\n]",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 198013,
+          "source_spell_id": 198030,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire, Nature, Frost, Shadow, Arcane) (AP mod: 0.4026 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.96,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            198013,
+            198030
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1264716,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -2995,14 +3139,97 @@
         "spell_id": 320413,
         "icon": "inv_glaive_1h_battledungeon_c_02"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The chance that Chaos Strike will refund 20 Fury is increased by 30% of your critical strike chance.",
+      "pvp_tooltip": "The chance that Chaos Strike will refund 20 Fury is increased by 30% of your critical strike chance.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 320413,
+          "source_spell_id": 199547,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical, Holy, Fire, Nature, Frost, Shadow, Arcane) (AP mod: 1.1567 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.1,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 1.056,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            320413,
+            193840,
+            162794,
+            199547
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1264716,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 320413,
+          "source_spell_id": 222031,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical, Holy, Fire, Nature, Frost, Shadow, Arcane) (AP mod: 0.736 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.1,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 1.056,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            320413,
+            193840,
+            162794,
+            222031
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1264716,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -3050,14 +3277,105 @@
         "spell_id": 320374,
         "icon": "ability_demonhunter_immolation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Immolation Aura generates an additional 18 Fury over 6 sec.",
+      "pvp_tooltip": "Immolation Aura generates an additional 18 Fury over 6 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 320374,
+          "source_spell_id": 258922,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire) (AP mod: 0.12466 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.3152000000000001,
+          "final_pvp_multiplier": 1.3152000000000001,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            320374,
+            258922
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1264716,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1266564,
+              "amount_kind": "direct",
+              "value_pct": 37.0,
+              "factor": 1.37,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 320374,
+          "source_spell_id": 258921,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire) (AP mod: 0.334 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.3152000000000001,
+          "final_pvp_multiplier": 1.3152000000000001,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            320374,
+            258920,
+            258921
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1264716,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1266564,
+              "amount_kind": "direct",
+              "value_pct": 37.0,
+              "factor": 1.37,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -3103,10 +3421,10 @@
         "spell_id": 427794,
         "icon": "inv_misc_food_legion_goosaporange_drop"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Damage is increased by 3% while above 50% Health.\nLeech is increased by 5% while below 50% Health.",
+      "pvp_tooltip": "Damage is increased by 3% while above 50% Health.\nLeech is increased by 5% while below 50% Health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3156,10 +3474,10 @@
         "spell_id": 343206,
         "icon": "ability_demonhunter_chaosstrike"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Chaos Strike damage increased by 10%.",
+      "pvp_tooltip": "Chaos Strike damage increased by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3211,10 +3529,10 @@
         "spell_id": 206416,
         "icon": "ability_deathwing_bloodcorruption_death"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Blade Dance deals\n[(3 * (24.75% of Attack Power)% + (74.2% of Attack Power)%) * 195 / 100 *\n1\n]\nChaos damage to the first target struck.",
+      "pvp_tooltip": "Blade Dance deals\n[(3 * (24.75% of Attack Power)% + (74.2% of Attack Power)%) * 195 / 100 *\n1\n]\nChaos damage to the first target struck.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3264,10 +3582,10 @@
         "spell_id": 391275,
         "icon": "ability_demonhunter_throwglaive"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Throw Glaive deals 60% increased damage, reduced by 30% for each previous enemy hit.",
+      "pvp_tooltip": "Throw Glaive deals 60% increased damage, reduced by 30% for each previous enemy hit.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3317,15 +3635,60 @@
         "spell_id": 428241,
         "icon": "misc_legionfall_demonhunter"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Magical damage increased by 3%, and Physical damage taken reduced by 5%.",
+      "pvp_tooltip": "Magical damage increased by 3%, and Physical damage taken reduced by 3%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 69,
+          "end": 70,
+          "old_token": "5",
+          "new_token": "3",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "5",
+          "new": "3"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 428241,
+          "source_spell_id": 428241,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Mod % Damage Taken (Physical)",
+          "base_value": -5.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": -3.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Desperate Instincts",
@@ -3374,15 +3737,50 @@
         "spell_id": 205411,
         "icon": "spell_shadow_manafeed"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Blur now reduces damage taken by an additional 10%.\nAdditionally, damage taken below 35% Health is reduced by 10%.",
+      "pvp_tooltip": "Blur now reduces damage taken by an additional 10%.\nAdditionally, damage taken below 35% Health is reduced by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "REVIEW_REQUIRED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "AMBIGUOUS_TEXT_MATCH",
+          "kind": "ordinary_value",
+          "old": 10.0,
+          "new": 5.0,
+          "match_count": 2
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 205411,
+          "source_spell_id": 205411,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 10.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 5.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Deflecting Dance",
@@ -3431,10 +3829,10 @@
         "spell_id": 427776,
         "icon": "ability_ironmaidens_bladerush"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You deflect incoming attacks while Blade Dancing, absorbing damage up to 15% of your maximum health.",
+      "pvp_tooltip": "You deflect incoming attacks while Blade Dancing, absorbing damage up to 15% of your maximum health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3488,14 +3886,43 @@
         "spell_id": 328725,
         "icon": "ability_demonhunter_vengefulretreat"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Blade Dance now reduces targets' healing received by 50% for 6 sec.",
+      "pvp_tooltip": "Blade Dance now reduces targets' healing received by 50% for 6 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 328725,
+          "source_spell_id": 356608,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Healing Taken - % (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)",
+          "base_value": -50.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": -25.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            328725,
+            356608
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -3542,10 +3969,10 @@
         "spell_id": 388108,
         "icon": "ability_rogue_surpriseattack"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Damaging an enemy before they damage you increases your critical strike chance by 10% for 5 sec.\nVengeful Retreat refreshes your potential to trigger this effect on any enemies you are in combat with.",
+      "pvp_tooltip": "Damaging an enemy before they damage you increases your critical strike chance by 10% for 5 sec.\nVengeful Retreat refreshes your potential to trigger this effect on any enemies you are in combat with.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3595,15 +4022,60 @@
         "spell_id": 428232,
         "icon": "spell_fire_felimmolation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Increases Versatility by 4% and reduces threat generated by 8%.",
+      "pvp_tooltip": "Increases Versatility by 2% and reduces threat generated by 8%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 25,
+          "end": 26,
+          "old_token": "4",
+          "new_token": "2",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "4",
+          "new": "2"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 428232,
+          "source_spell_id": 428232,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Versatility %",
+          "base_value": 4.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 2.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Demonic",
@@ -3651,10 +4123,10 @@
         "spell_id": 213410,
         "icon": "spell_shadow_demonform"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Eye Beam causes you to enter demon form for 5 sec after it finishes dealing damage.",
+      "pvp_tooltip": "Eye Beam causes you to enter demon form for 5 sec after it finishes dealing damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3704,10 +4176,10 @@
         "spell_id": 393029,
         "icon": "inv_glaive_1h_npc_d_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Throw Glaive now costs 25 Fury and throws a second glaive at the target.",
+      "pvp_tooltip": "Throw Glaive now costs 25 Fury and throws a second glaive at the target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3758,14 +4230,51 @@
         "spell_id": 258881,
         "icon": "ability_demonhunter_bladedance"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The final slash of Blade Dance inflicts an additional (72% of Attack Power) Chaos damage.",
+      "pvp_tooltip": "The final slash of Blade Dance inflicts an additional (72% of Attack Power) Chaos damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 258881,
+          "source_spell_id": 258883,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire, Nature, Frost, Shadow, Arcane) (AP mod: 0.72 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.96,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            258881,
+            258883
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1264716,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -3812,10 +4321,10 @@
         "spell_id": 389688,
         "icon": "ability_demonhunter_vengefulretreat2"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Vengeful Retreat has a 5 sec reduced cooldown and generates 80 Fury over 10 sec.",
+      "pvp_tooltip": "Vengeful Retreat has a 5 sec reduced cooldown and generates 80 Fury over 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3868,10 +4377,10 @@
         "spell_id": 203550,
         "icon": "ability_bosskilrogg_deadeye"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Eye Beam generates 10 Fury every second, has 10% increased duration, and deals 10% increased damage.",
+      "pvp_tooltip": "Eye Beam generates 10 Fury every second, has 10% increased duration, and deals 10% increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3921,10 +4430,10 @@
         "spell_id": 343311,
         "icon": "ability_demonhunter_eyebeam"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When Eye Beam finishes fully channeling, your Haste is increased by an additional 8% for 8 sec.",
+      "pvp_tooltip": "When Eye Beam finishes fully channeling, your Haste is increased by an additional 8% for 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3977,10 +4486,10 @@
         "spell_id": 389978,
         "icon": "inv_polearm_1h_felfireraid_d_02"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The final slash of Blade Dance deals an additional 25% damage.",
+      "pvp_tooltip": "The final slash of Blade Dance deals an additional 25% damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4031,10 +4540,10 @@
         "spell_id": 390158,
         "icon": "spell_fel_incinerate"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Immolation Aura's damage increases by 10% each time it deals damage.",
+      "pvp_tooltip": "Immolation Aura's damage increases by 10% each time it deals damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4085,10 +4594,10 @@
         "spell_id": 206476,
         "icon": "ability_foundryraid_demolition"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The Hunt and Vengeful Retreat increase your damage by 5% for 20 sec.\n(400ms cooldown)",
+      "pvp_tooltip": "The Hunt and Vengeful Retreat increase your damage by 5% for 20 sec.\n(400ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4139,15 +4648,125 @@
         "spell_id": 427640,
         "icon": "inv_10_inscription3_pigments_black"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "The Hunt and Vengeful Retreat cause your next Fel Rush or Felblade to empower you, increasing damage by 12% for 5 sec.\n(400ms cooldown)",
+      "pvp_tooltip": "The Hunt and Vengeful Retreat cause your next Fel Rush or Felblade to empower you, increasing damage by 8% for 5 sec.\n(400ms cooldown)",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 104,
+          "end": 106,
+          "old_token": "12",
+          "new_token": "8",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1,
+            2,
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "12",
+          "new": "8"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 427640,
+          "source_spell_id": 427641,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 12.0,
+          "spell_pvp_multiplier": 0.67,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.67,
+          "final_pvp_value": 8.040000000000001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            427640,
+            427641
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 427640,
+          "source_spell_id": 427641,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
+          "base_value": 12.0,
+          "spell_pvp_multiplier": 0.67,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.67,
+          "final_pvp_value": 8.040000000000001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            427640,
+            427641
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 427640,
+          "source_spell_id": 427641,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Mod Auto Attack Damage %",
+          "base_value": 12.0,
+          "spell_pvp_multiplier": 0.67,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.67,
+          "final_pvp_value": 8.040000000000001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            427640,
+            427641
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 3
     },
     {
       "talent_name": "Isolated Prey",
@@ -4193,15 +4812,50 @@
         "spell_id": 388113,
         "icon": "spell_shadow_shadesofdarkness"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Chaos Nova, Eye Beam, and Immolation Aura gain bonuses when striking 1 target.\nChaos Nova\n:\nStun duration increased by 2 sec.\nEye Beam\n:\nDeals 30% increased damage.\nImmolation Aura\n:\nAlways critically strikes.",
+      "pvp_tooltip": "Chaos Nova, Eye Beam, and Immolation Aura gain bonuses when striking 1 target.\nChaos Nova\n:\nStun duration increased by 2 sec.\nEye Beam\n:\nDeals 30% increased damage.\nImmolation Aura\n:\nAlways critically strikes.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 2000.0,
+          "new": 1000.0,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 388113,
+          "source_spell_id": 388113,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 2000.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 1000.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "The Hunt",
@@ -4250,10 +4904,10 @@
         "spell_id": 370965,
         "icon": "inv_ability_demonhunter_thehunt"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "50 yd range\n1 sec cast\n1.5 min cooldown\nCharge to your target, striking them for (744.24% of Attack Power) Chaos damage, rooting them in place for 1.5 sec and inflicting (480.6% of Attack Power) Chaos damage over 6 sec to up to 5 enemies in your path.",
+      "pvp_tooltip": "50 yd range\n1 sec cast\n1.5 min cooldown\nCharge to your target, striking them for (744.24% of Attack Power) Chaos damage, rooting them in place for 1.5 sec and inflicting (480.6% of Attack Power) Chaos damage over 6 sec to up to 5 enemies in your path.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": true,
@@ -4294,6 +4948,42 @@
             "drustvar"
           ],
           "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 370965,
+          "source_spell_id": 370969,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.96,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            370965,
+            370969
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1266563,
+              "amount_kind": "periodic",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -4374,10 +5064,10 @@
         "spell_id": 390154,
         "icon": "inv_glaive_1h_artifactaldrochi_d_03dual"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Striking an enemy with Chaos Strike or Throw Glaive increases Chaos Strike and Throw Glaive damage by 15% for 12 sec.",
+      "pvp_tooltip": "Striking an enemy with Chaos Strike or Throw Glaive increases Chaos Strike and Throw Glaive damage by 15% for 12 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4428,14 +5118,51 @@
         "spell_id": 391189,
         "icon": "spell_fire_felhellfire"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "[\nDemon Blades\n/ Demon's Bite] and Throw Glaive leave open wounds on your enemies, dealing (73.45% of Attack Power) Chaos damage over 15 sec and increasing damage taken from your Immolation Aura by 35%.\nMay be applied to up to 3 targets.",
+      "pvp_tooltip": "[\nDemon Blades\n/ Demon's Bite] and Throw Glaive leave open wounds on your enemies, dealing (73.45% of Attack Power) Chaos damage over 15 sec and increasing damage taken from your Immolation Aura by 35%.\nMay be applied to up to 3 targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 391189,
+          "source_spell_id": 391191,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.96,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            391189,
+            391191
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1266563,
+              "amount_kind": "periodic",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -4481,10 +5208,10 @@
         "spell_id": 347461,
         "icon": "artifactability_vengeancedemonhunter_painbringer"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The Hunt and Vengeful Retreat increase the damage of your next Fel Rush or Felblade by 300%. Lasts 12 sec.",
+      "pvp_tooltip": "The Hunt and Vengeful Retreat increase the damage of your next Fel Rush or Felblade by 300%. Lasts 12 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4536,14 +5263,101 @@
         "spell_id": 389687,
         "icon": "inv_glaive_1h_artifactaldrochi_d_03dual"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Blade Dance causes your next Chaos Strike within 8 sec to have a 14-30% increased critical strike chance and will always refund Fury.",
+      "pvp_tooltip": "Blade Dance causes your next Chaos Strike within 8 sec to have a 14-30% increased critical strike chance and will always refund Fury.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 389687,
+          "source_spell_id": 199547,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical, Holy, Fire, Nature, Frost, Shadow, Arcane) (AP mod: 1.1567 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.1,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 1.056,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            389687,
+            337567,
+            193840,
+            162794,
+            199547
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1264716,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 389687,
+          "source_spell_id": 222031,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical, Holy, Fire, Nature, Frost, Shadow, Arcane) (AP mod: 0.736 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.1,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 1.056,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            389687,
+            337567,
+            193840,
+            162794,
+            222031
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1264716,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -4591,14 +5405,51 @@
         "spell_id": 389693,
         "icon": "ability_demonhunter_glide"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Entering demon form causes your next Chaos Strike to unleash your inner demon, causing it to crash into your target and deal (213% of Attack Power) Chaos damage to all nearby enemies. Deals reduced damage beyond 5 targets.\n(5s cooldown)",
+      "pvp_tooltip": "Entering demon form causes your next Chaos Strike to unleash your inner demon, causing it to crash into your target and deal (213% of Attack Power) Chaos damage to all nearby enemies. Deals reduced damage beyond 5 targets.\n(5s cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 389693,
+          "source_spell_id": 390137,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical, Holy, Fire, Nature, Frost, Shadow, Arcane) (AP mod: 2.13 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.96,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            389693,
+            390137
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1264716,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -4646,10 +5497,10 @@
         "spell_id": 388112,
         "icon": "ability_demonhunter_glide"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When you activate Metamorphosis, the cooldowns of Blade Dance and Eye Beam are immediately reset.",
+      "pvp_tooltip": "When you activate Metamorphosis, the cooldowns of Blade Dance and Eye Beam are immediately reset.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4701,10 +5552,10 @@
         "spell_id": 389977,
         "icon": "ability_demonhunter_soulcleave2"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Chaos Strike has a 10% chance to trigger a second Chaos Strike.\n(1s cooldown)",
+      "pvp_tooltip": "Chaos Strike has a 10% chance to trigger a second Chaos Strike.\n(1s cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4756,10 +5607,10 @@
         "spell_id": 388106,
         "icon": "ability_demonhunter_bloodlet"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Throw Glaive causes targets to take an additional 80% of damage dealt as Chaos over 6 sec.",
+      "pvp_tooltip": "Throw Glaive causes targets to take an additional 80% of damage dealt as Chaos over 6 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4809,10 +5660,10 @@
         "spell_id": 388107,
         "icon": "spell_fire_fireballgreen"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Each time Immolation Aura deals damage, 35% of the damage dealt by up to 3 critical strikes is gathered as Ragefire.\nWhen Immolation Aura expires you explode, dealing all stored Ragefire damage to nearby enemies.",
+      "pvp_tooltip": "Each time Immolation Aura deals damage, 35% of the damage dealt by up to 3 critical strikes is gathered as Ragefire.\nWhen Immolation Aura expires you explode, dealing all stored Ragefire damage to nearby enemies.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4865,10 +5716,10 @@
         "spell_id": 388118,
         "icon": "ability_demonhunter_eyeofleotheras"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Gain critical strike damage equal to 40% of your critical strike chance.",
+      "pvp_tooltip": "Gain critical strike damage equal to 40% of your critical strike chance.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4920,10 +5771,10 @@
         "spell_id": 258887,
         "icon": "ability_ironmaidens_whirlofblood"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Activating Eye Beam reduces the cooldown of your next Eye Beam by 2.5 sec, stacking up to 10 sec.",
+      "pvp_tooltip": "Activating Eye Beam reduces the cooldown of your next Eye Beam by 2.5 sec, stacking up to 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4976,15 +5827,93 @@
         "spell_id": 428492,
         "icon": "inv_inscription_tarotchaos"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Your Chaos damage has a 7.77% chance to be increased by 17%, occurring up to 3 total times.",
+      "pvp_tooltip": "Your Chaos damage has a 7.77% chance to be increased by 4%, occurring up to 3 total times.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 56,
+          "end": 58,
+          "old_token": "17",
+          "new_token": "4",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            3
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 777.0,
+          "new": 3333.0192,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "17",
+          "new": "4"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 428492,
+          "source_spell_id": 428492,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 777.0,
+          "spell_pvp_multiplier": 4.2896,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 4.2896,
+          "final_pvp_value": 3333.0192,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 428492,
+          "source_spell_id": 428492,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 17.0,
+          "spell_pvp_multiplier": 0.235295,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.235295,
+          "final_pvp_value": 4.000015,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Essence Break",
@@ -5027,14 +5956,82 @@
         "spell_id": 258860,
         "icon": "spell_shadow_ritualofsacrifice"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "10 yd range\nInstant\n40 sec cooldown\nSlash all enemies in front of you for (462% of Attack Power) Chaos damage, causing Chaos Strike and Blade Dance to deal (257.4% of Attack Power) Chaos damage to them for 4 sec. Deals reduced damage beyond 8 targets.",
+      "pvp_tooltip": "10 yd range\nInstant\n40 sec cooldown\nSlash all enemies in front of you for (462% of Attack Power) Chaos damage, causing Chaos Strike and Blade Dance to deal (257.4% of Attack Power) Chaos damage to them for 4 sec. Deals reduced damage beyond 8 targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 258860,
+          "source_spell_id": 258860,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical, Holy, Fire, Nature, Frost, Shadow, Arcane) (AP mod: 4.62 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.96,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1264716,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 258860,
+          "source_spell_id": 1245759,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical, Holy, Fire, Nature, Frost, Shadow, Arcane) (AP mod: 2.574 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.96,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            258860,
+            1245759
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1264716,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5079,14 +6076,51 @@
         "spell_id": 1244557,
         "icon": "inv_glaive_1h_artifactazgalor_d_06dual"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The final slash of Blade Dance consumes 25 Fury when it strikes 3 or more enemies, launching two demonic glaives in a whirlwind of energy, causing [14 * (13.2% of Attack Power)] Chaos damage over 3 sec to all nearby enemies. Deals reduced damage beyond 8 targets.",
+      "pvp_tooltip": "The final slash of Blade Dance consumes 25 Fury when it strikes 3 or more enemies, launching two demonic glaives in a whirlwind of energy, causing [14 * (13.2% of Attack Power)] Chaos damage over 3 sec to all nearby enemies. Deals reduced damage beyond 8 targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1244557,
+          "source_spell_id": 342857,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical, Holy, Fire, Nature, Frost, Shadow, Arcane) (AP mod: 0.132 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.96,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1244557,
+            342857
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1264716,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5130,10 +6164,10 @@
         "spell_id": 388116,
         "icon": "achievement_boss_triumvirate_darknaaru"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The duration of your active demon form is extended by 0.1 sec per 12 Fury spent.",
+      "pvp_tooltip": "The duration of your active demon form is extended by 0.1 sec per 12 Fury spent.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5181,14 +6215,129 @@
         "spell_id": 390152,
         "icon": "artifactability_havocdemonhunter_anguishofthedeceiver"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Eye Beam\nsummons an allied",
+      "pvp_tooltip": "Eye Beam\nsummons an allied",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 390152,
+          "source_spell_id": 393834,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire) (AP mod: 0.262 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.96,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            390152,
+            393834
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1264716,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 390152,
+          "source_spell_id": 198030,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire, Nature, Frost, Shadow, Arcane) (AP mod: 0.4026 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.96,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            390152,
+            198013,
+            198030
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1264716,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 390152,
+          "source_spell_id": 212105,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire) (AP mod: 0.411 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.96,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            390152,
+            393834,
+            212084,
+            212105
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1264716,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5233,10 +6382,10 @@
         "spell_id": 1220506,
         "icon": "inv_misc_magtheridonshead"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Blade Dance automatically triggers Throw Glaive on your primary target for 100% damage and each slash has a 50% chance to Throw Glaive an enemy for 35% damage.",
+      "pvp_tooltip": "Blade Dance automatically triggers Throw Glaive on your primary target for 100% damage and each slash has a 50% chance to Throw Glaive an enemy for 35% damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5284,10 +6433,10 @@
         "spell_id": 427775,
         "icon": "ability_demonhunter_chaoticimprint_fire"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Immolation Aura has 1 additional charge, has 6 sec reduced cooldown, and deals Chaos damage instead of Fire.\nYou can have multiple Immolation Auras active at a time.",
+      "pvp_tooltip": "Immolation Aura has 1 additional charge, has 6 sec reduced cooldown, and deals Chaos damage instead of Fire.\nYou can have multiple Immolation Auras active at a time.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5333,10 +6482,10 @@
         "spell_id": 1270898,
         "icon": "inv12_apextalent_demonhunter_eternalhunt"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The Hunt empowers your next Eye Beam, increasing damage by 100% and affecting enemies in a wider area.",
+      "pvp_tooltip": "The Hunt empowers your next Eye Beam, increasing damage by 100% and affecting enemies in a wider area.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5382,10 +6531,10 @@
         "spell_id": 1270900,
         "icon": "inv12_apextalent_demonhunter_eternalhunt"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The Hunt has 15 sec reduced cooldown, deals 15% more damage, and its damage over time effect applies to 2 additional enemies.",
+      "pvp_tooltip": "The Hunt has 15 sec reduced cooldown, deals 15% more damage, and its damage over time effect applies to 2 additional enemies.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5431,10 +6580,10 @@
         "spell_id": 1270901,
         "icon": "inv12_apextalent_demonhunter_eternalhunt"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Blade Dance damage increased by 20%.\nFully channeling Eye Beam causes your next Blade Dance to refresh its own cooldown.",
+      "pvp_tooltip": "Blade Dance damage increased by 20%.\nFully channeling Eye Beam causes your next Blade Dance to refresh its own cooldown.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5485,14 +6634,51 @@
         "spell_id": 442290,
         "icon": "inv_ability_aldrachireaverdemonhunter_reaversglaive"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Consuming 6 Soul Fragments or casting The Hunt converts your next Throw Glaive into Reaver's Glaive.\nReaver's Glaive\n:\nThrow a glaive enhanced with the essence of consumed souls at your target, dealing (385% of Attack Power) Physical damage and ricocheting to 2 additional enemies.\nBegins a well-practiced pattern of glaivework, enhancing your next Chaos Strike and Blade Dance.\nThe enhanced ability you cast first deals 10% increased damage, and the second deals 20% increased damage.",
+      "pvp_tooltip": "Consuming 6 Soul Fragments or casting The Hunt converts your next Throw Glaive into Reaver's Glaive.\nReaver's Glaive\n:\nThrow a glaive enhanced with the essence of consumed souls at your target, dealing (385% of Attack Power) Physical damage and ricocheting to 2 additional enemies.\nBegins a well-practiced pattern of glaivework, enhancing your next Chaos Strike and Blade Dance.\nThe enhanced ability you cast first deals 10% increased damage, and the second deals 20% increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 442290,
+          "source_spell_id": 442294,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 3.85 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.96,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            442290,
+            442294
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1264716,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5538,15 +6724,179 @@
         "spell_id": 442718,
         "icon": "spell_fire_felflamestrike"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "When enhanced by Reaver's Glaive, Blade Dance casts 3 additional glaive slashes to nearby targets. Deals reduced damage beyond 8 targets.\nIf cast after Chaos Strike, cast\n6\nslashes instead.",
+      "pvp_tooltip": "When enhanced by Reaver's Glaive, Blade Dance casts 3 additional glaive slashes to nearby targets. Deals reduced damage beyond 8 targets.\nIf cast after Chaos Strike, cast\n3\nslashes instead.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 171,
+          "end": 172,
+          "old_token": "6",
+          "new_token": "3",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            4
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 100.0,
+          "new": 33.0,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "6",
+          "new": "3"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 442718,
+          "source_spell_id": 444806,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 1.24 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.96,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            442718,
+            444806
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1264716,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 442718,
+          "source_spell_id": 1236360,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 6.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 3.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            442718,
+            1236360
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 442718,
+          "source_spell_id": 1236360,
+          "effect_index": 4,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 100.0,
+          "spell_pvp_multiplier": 0.33,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.33,
+          "final_pvp_value": 33.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            442718,
+            1236360
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 442718,
+          "source_spell_id": 442294,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 3.85 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.96,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            442718,
+            444806,
+            442290,
+            442294
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1264716,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Evasive Action",
@@ -5591,10 +6941,10 @@
         "spell_id": 444926,
         "icon": "ability_demonhunter_vengefulretreat"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Vengeful Retreat can be cast a second time within 3 sec.\n(3s cooldown)",
+      "pvp_tooltip": "Vengeful Retreat can be cast a second time within 3 sec.\n(3s cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5644,10 +6994,10 @@
         "spell_id": 444931,
         "icon": "ability_ironmaidens_bladerush"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Vengeful Retreat resets the cooldown of Felblade.",
+      "pvp_tooltip": "Vengeful Retreat resets the cooldown of Felblade.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5697,10 +7047,10 @@
         "spell_id": 442679,
         "icon": "ability_hunter_harass"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When enhanced by Reaver's Glaive, Chaos Strike applies Reaver's Mark, which causes the target to take 7% increased damage for 20 sec. Max 2 stacks.\nApplies 1 additional stack of Reaver's Mark If cast after Blade Dance.",
+      "pvp_tooltip": "When enhanced by Reaver's Glaive, Chaos Strike applies Reaver's Mark, which causes the target to take 7% increased damage for 20 sec. Max 2 stacks.\nApplies 1 additional stack of Reaver's Mark If cast after Blade Dance.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5750,10 +7100,10 @@
         "spell_id": 1272143,
         "icon": "ability_argus_soulbombdebufflarge"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The Hunt shatters 1 Soul Fragment. Blade Dance and Chaos Strike have a 15% chance to shatter a Soul Fragment.\n(100ms cooldown)",
+      "pvp_tooltip": "The Hunt shatters 1 Soul Fragment. Blade Dance and Chaos Strike have a 15% chance to shatter a Soul Fragment.\n(100ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5803,10 +7153,10 @@
         "spell_id": 442683,
         "icon": "ability_demonhunter_soulcleave2"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The second enhanced ability in a pattern shatters an additional Soul Fragment.",
+      "pvp_tooltip": "The second enhanced ability in a pattern shatters an additional Soul Fragment.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5856,10 +7206,10 @@
         "spell_id": 442714,
         "icon": "ability_warlock_avoidance"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Felblade surrounds you with a Blade Ward, reducing damage taken by 10% for 5 sec.",
+      "pvp_tooltip": "Felblade surrounds you with a Blade Ward, reducing damage taken by 10% for 5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5909,10 +7259,10 @@
         "spell_id": 442736,
         "icon": "spell_nzinsanity_chasedbyshadows"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Each Soul Fragment you consume shields you for an additional 15% of the amount healed.",
+      "pvp_tooltip": "Each Soul Fragment you consume shields you for an additional 15% of the amount healed.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5962,10 +7312,10 @@
         "spell_id": 442806,
         "icon": "ability_rogue_venomouswounds"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Expose weaknesses in the target of your\nReaver's Mark\n, causing your Physical damage to any enemy to also deal 30% of the damage dealt to your marked target as Chaos, and sometimes shatter a Soul Fragment.",
+      "pvp_tooltip": "Expose weaknesses in the target of your\nReaver's Mark\n, causing your Physical damage to any enemy to also deal 30% of the damage dealt to your marked target as Chaos, and sometimes shatter a Soul Fragment.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6015,15 +7365,60 @@
         "spell_id": 1272138,
         "icon": "inv_glaive_1h_tyrande_d_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Reaver's Glaive damage is increased by 20% and other Physical-only damage is increased by 10%.",
+      "pvp_tooltip": "Reaver's Glaive damage is increased by 6.6% and other Physical-only damage is increased by 10%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 39,
+          "end": 41,
+          "old_token": "20",
+          "new_token": "6.6",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "20",
+          "new": "6.6"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1272138,
+          "source_spell_id": 1272138,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 0.33,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.33,
+          "final_pvp_value": 6.6000000000000005,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Incisive Blade",
@@ -6068,10 +7463,10 @@
         "spell_id": 442492,
         "icon": "ability_dualwieldspecialization"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Chaos Strike deals 10% increased damage.",
+      "pvp_tooltip": "Chaos Strike deals 10% increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6121,10 +7516,10 @@
         "spell_id": 442497,
         "icon": "ability_warlock_shadowfurytga"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reaver's Glaive generates 20 Fury.",
+      "pvp_tooltip": "Reaver's Glaive generates 20 Fury.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6174,14 +7569,51 @@
         "spell_id": 444997,
         "icon": "ability_rogue_focusedattacks"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Throw Glaive deals (20% of Attack Power) Physical damage to enemies near its initial target.",
+      "pvp_tooltip": "Throw Glaive deals (20% of Attack Power) Physical damage to enemies near its initial target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 444997,
+          "source_spell_id": 444979,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 0.2 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.96,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            444997,
+            444979
+          ],
+          "dependency_relations": [
+            "triggered_by_reverse"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1264716,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -6227,15 +7659,177 @@
         "spell_id": 1272153,
         "icon": "ability_demonhunter_soulcleave3"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Fury of the Aldrachi further empowers Blade Dance when cast after Chaos Strike, increasing slashes to 12.\nReaver's Mark now stacks up to 2 times and further empowers Chaos Strike when cast after Blade Dance, applying an additional stack.",
+      "pvp_tooltip": "Fury of the Aldrachi further empowers Blade Dance when cast after Chaos Strike, increasing slashes to 12.\nReaver's Mark now stacks up to 2 times and further empowers Chaos Strike when cast after Blade Dance, applying an additional stack.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 6.0,
+          "new": 3.0,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            4
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 100.0,
+          "new": 33.0,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1272153,
+          "source_spell_id": 444806,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 1.24 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.96,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1272153,
+            442718,
+            444806
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1264716,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1272153,
+          "source_spell_id": 1236360,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 6.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 3.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1272153,
+            442718,
+            1236360
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1272153,
+          "source_spell_id": 1236360,
+          "effect_index": 4,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 100.0,
+          "spell_pvp_multiplier": 0.33,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.33,
+          "final_pvp_value": 33.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1272153,
+            442718,
+            1236360
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1272153,
+          "source_spell_id": 442294,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 3.85 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.96,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1272153,
+            442718,
+            444806,
+            442290,
+            442294
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1264716,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Warblade's Hunger",
@@ -6280,14 +7874,51 @@
         "spell_id": 442502,
         "icon": "ability_warlock_soulsiphon"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Consuming a Soul Fragment causes your next Chaos Strike to deal (62% of Attack Power) additional Physical damage.\nFelblade consumes up to 5 nearby Soul Fragments.",
+      "pvp_tooltip": "Consuming a Soul Fragment causes your next Chaos Strike to deal (62% of Attack Power) additional Physical damage.\nFelblade consumes up to 5 nearby Soul Fragments.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 442502,
+          "source_spell_id": 442507,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 0.62 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.96,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            442502,
+            442507
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1264716,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -6334,10 +7965,10 @@
         "spell_id": 442686,
         "icon": "spell_arcane_arcanetactics"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After consuming both enhancements, gain Thrill of the Fight, increasing the damage of your next Reaver's Glaive by 30% and increasing Haste by 8% for 30 sec.",
+      "pvp_tooltip": "After consuming both enhancements, gain Thrill of the Fight, increasing the damage of your next Reaver's Glaive by 30% and increasing Haste by 8% for 30 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6481,6 +8112,46 @@
             "drustvar"
           ],
           "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 452402,
+          "source_spell_id": 200166,
+          "effect_index": 2,
+          "effect_text": "School Damage (Fire, Nature, Frost, Shadow, Arcane) (AP mod: 0.44 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.96,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            452402,
+            162264,
+            191427,
+            200166
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1264716,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -7066,8 +8737,45 @@
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 452408,
+          "source_spell_id": 453177,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.96,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            452408,
+            453177
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256955,
+              "game_effect_id": 1266563,
+              "amount_kind": "periodic",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -7661,344 +9369,13 @@
       "render_effect_count": 1
     }
   ],
-  "fetch_errors": [
-    {
-      "source": "wowhead_page",
-      "spell_id": 179057,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e2b620 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 198013,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165a8bc0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 203550,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16797e60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 205411,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e299a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 206416,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674f2c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 206476,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9c290 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 213410,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9d610 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 232893,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e665d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 258860,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16885850 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 258881,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9df10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 258887,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16853500 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 320374,
-      "error": "RetryError: RetryError[<Future at 0x7fbf193ff8f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 320413,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9e9f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 328725,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674d160 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 343206,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ab080 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 343311,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674c860 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 347461,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674eb70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 370965,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674ca10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388106,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16852c00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388107,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165d0f20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388108,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16851a00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388112,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674f500 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388113,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165a9c10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388116,
-      "error": "RetryError: RetryError[<Future at 0x7fbf151645c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388118,
-      "error": "RetryError: RetryError[<Future at 0x7fbf183d56a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 389687,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167944d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 389688,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165a9010 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 389693,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9f3b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 389977,
-      "error": "RetryError: RetryError[<Future at 0x7fbf151644d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 389978,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ed5fd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 390152,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e66c90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 390154,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168525d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 390158,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16851e20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 391189,
-      "error": "RetryError: RetryError[<Future at 0x7fbf185190d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 391275,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16852fc0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 393029,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e29b80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 427640,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674d3a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 427775,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ccaab0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 427776,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16850fe0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 427794,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16797530 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 428232,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e293a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 428241,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16851df0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 428492,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168508c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 442290,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674fbf0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 442492,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674c9e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 442497,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ed44d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 442502,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da3920 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 442679,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165a8860 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 442683,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165d28d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 442686,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674ebd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 442714,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da1d60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 442718,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165d2bd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 442736,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674e540 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 442806,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ae060 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444926,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d98560 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444931,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e64e90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 444997,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165aa270 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1220506,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16851310 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1244557,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170b40b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1266762,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165d2c90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270898,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165aaae0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270900,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9a690 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270901,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166545c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1272138,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165a90d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1272143,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16850f80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1272153,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674c590 state=finished raised HTTPStatusError>]"
-    }
-  ],
+  "fetch_errors": [],
   "slug": "demon-hunter-havoc",
-  "generated_at": "2026-09-19T13:49:48.015772+00:00",
+  "generated_at": "2026-09-19T14:05:15.890942+00:00",
   "validation": {
     "talents": 125,
-    "changed_tooltips": 7,
-    "talents_with_pvp_mechanics": 15,
+    "changed_tooltips": 13,
+    "talents_with_pvp_mechanics": 42,
     "unique_nodes": 109,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
@@ -8006,103 +9383,16 @@
       "12.1.0.69587"
     ],
     "verification_status": "PARTIAL",
-    "fetch_error_count": 156,
-    "unresolved_count": 20,
-    "review_required_count": 66,
-    "fetch_error_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 179057,
-        "error": "RetryError: RetryError[<Future at 0x7fbf1678a450 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 198013,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16ecddf0 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 203550,
-        "error": "RetryError: RetryError[<Future at 0x7fbf166e9af0 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 205411,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16ecd160 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 206416,
-        "error": "RetryError: RetryError[<Future at 0x7fbf171f0800 state=finished raised HTTPStatusError>]"
-      }
-    ],
-    "unresolved_examples": [
-      {
-        "spell_id": 205411,
-        "talent_name": "Desperate Instincts",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.5,
-        "effect_text": "Apply Aura (6) | Dummy (4)"
-      },
-      {
-        "spell_id": 388113,
-        "talent_name": "Isolated Prey",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.5,
-        "effect_text": "Apply Aura (6) | Dummy (4)"
-      },
-      {
-        "spell_id": 428232,
-        "talent_name": "Scars of Suffering",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.5,
-        "effect_text": "Apply Aura (6) | Modify Versatility% (471)"
-      },
-      {
-        "spell_id": 428241,
-        "talent_name": "Demon Hide",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.6,
-        "effect_text": "Apply Aura (6) | Modify Damage Taken% (87)"
-      },
-      {
-        "spell_id": 428492,
-        "talent_name": "Chaotic Disposition",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 4.28,
-        "effect_text": "Apply Aura (6) | Dummy (4)"
-      }
-    ],
+    "fetch_error_count": 0,
+    "unresolved_count": 0,
+    "review_required_count": 1,
+    "fetch_error_examples": [],
+    "unresolved_examples": [],
     "review_required_examples": [
       {
-        "talent_name": "Felblade",
-        "spell_id": 232893,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Chaos Nova",
-        "spell_id": 179057,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Felbound",
-        "spell_id": 1266762,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Eye Beam",
-        "spell_id": 198013,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Critical Chaos",
-        "spell_id": 320413,
-        "status": "MISSING_TOOLTIP"
+        "talent_name": "Desperate Instincts",
+        "spell_id": 205411,
+        "status": "REVIEW_REQUIRED"
       }
     ]
   }

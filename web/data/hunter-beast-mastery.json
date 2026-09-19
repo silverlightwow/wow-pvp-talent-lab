@@ -48,10 +48,10 @@
         "spell_id": 385539,
         "icon": "ability_druid_galewinds"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Exhilaration now also heals you for an additional 12.0% of your maximum health over 8 sec.",
+      "pvp_tooltip": "Exhilaration now also heals you for an additional 12.0% of your maximum health over 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -99,15 +99,83 @@
         "spell_id": 264735,
         "icon": "spell_nature_spiritarmor"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Unlimited range\nInstant\n1.5 min cooldown\n1 Charge\nReduces all damage you and your pet take by\n30\n% for\n6 sec\n.",
+      "pvp_tooltip": "Unlimited range\nInstant\n1.5 min cooldown\n1 Charge\nReduces all damage you and your pet take by\n25\n% for\n6 sec\n.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 94,
+          "end": 96,
+          "old_token": "30",
+          "new_token": "25",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1,
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1,
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "30",
+          "new": "25"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 264735,
+          "source_spell_id": 264735,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod % Damage Taken (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)",
+          "base_value": -30.0,
+          "spell_pvp_multiplier": 0.833333,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.833333,
+          "final_pvp_value": -24.99999,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 264735,
+          "source_spell_id": 264735,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Mod % Damage Taken (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)",
+          "base_value": -30.0,
+          "spell_pvp_multiplier": 0.833333,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.833333,
+          "final_pvp_value": -24.99999,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Posthaste",
@@ -150,10 +218,10 @@
         "spell_id": 109215,
         "icon": "ability_hunter_posthaste"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Disengage also frees you from all movement impairing effects and increases your movement speed by 50% for 4 sec.",
+      "pvp_tooltip": "Disengage also frees you from all movement impairing effects and increases your movement speed by 50% for 4 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -204,10 +272,10 @@
         "spell_id": 270581,
         "icon": "ability_hunter_onewithnature"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Exhilaration's cooldown is reduced by 30 sec.",
+      "pvp_tooltip": "Exhilaration's cooldown is reduced by 30 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -258,10 +326,10 @@
         "spell_id": 459450,
         "icon": "ability_rogue_plunderarmor"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Survival of the Fittest gains an additional charge.",
+      "pvp_tooltip": "Survival of the Fittest gains an additional charge.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -312,10 +380,10 @@
         "spell_id": 384799,
         "icon": "rogue_burstofspeed"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Damage taken from area of effect attacks reduced by 5%.",
+      "pvp_tooltip": "Damage taken from area of effect attacks reduced by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -365,15 +433,55 @@
         "spell_id": 343242,
         "icon": "ability_hunter_mendpet"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Mend Pet heals for an additional 25% of your pet's health over its duration, and has a 25% chance to dispel a magic effect each time it heals your pet.",
+      "pvp_tooltip": "Mend Pet heals for an additional 25% of your pet's health over its duration, and has a 25% chance to dispel a magic effect each time it heals your pet.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 10.0,
+          "new": 20.0,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 343242,
+          "source_spell_id": 136,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Total Health Regen %",
+          "base_value": 10.0,
+          "spell_pvp_multiplier": 2.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 20.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            343242,
+            136
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Combat Experience",
@@ -420,10 +528,10 @@
         "spell_id": 1268871,
         "icon": "ability_hunter_combatexperience"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Agility is increased by 3%.",
+      "pvp_tooltip": "Your Agility is increased by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -475,10 +583,10 @@
         "spell_id": 1258407,
         "icon": "ability_mount_jungletiger"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The cooldown of Aspect of the Cheetah is reduced by 30 sec.",
+      "pvp_tooltip": "The cooldown of Aspect of the Cheetah is reduced by 30 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -528,15 +636,60 @@
         "spell_id": 5116,
         "icon": "spell_frost_stun"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "40 yd range\nInstant\n5 sec cooldown\nDazes the target, slowing movement speed by 50% for 6 sec.\nCobra Shot will increase the duration of Concussive Shot on the target by 3.0 sec.",
+      "pvp_tooltip": "40 yd range\nInstant\n5 sec cooldown\nDazes the target, slowing movement speed by 30% for 6 sec.\nCobra Shot will increase the duration of Concussive Shot on the target by 3.0 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 79,
+          "end": 81,
+          "old_token": "50",
+          "new_token": "30",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "50",
+          "new": "30"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 5116,
+          "source_spell_id": 5116,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Precision Strikes",
@@ -583,10 +736,10 @@
         "spell_id": 1267003,
         "icon": "inv12_ability_hunter_rupturingblow"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your auto shot damage is increased by 25%.",
+      "pvp_tooltip": "Your auto shot damage is increased by 25%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -639,10 +792,10 @@
         "spell_id": 147362,
         "icon": "inv_ammo_arrow_03"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\nInstant\n24 sec cooldown\nInterrupts spellcasting, preventing any spell in that school from being cast for 5 sec.",
+      "pvp_tooltip": "40 yd range\nInstant\n24 sec cooldown\nInterrupts spellcasting, preventing any spell in that school from being cast for 5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -694,10 +847,10 @@
         "spell_id": 459502,
         "icon": "inv_spear_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You gain 2% more critical strike from critical strike sources.",
+      "pvp_tooltip": "You gain 2% more critical strike from critical strike sources.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -748,10 +901,10 @@
         "spell_id": 19801,
         "icon": "spell_nature_drowsy"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\nInstant\n10 sec cooldown\nRemoves 1 Enrage and 1 Magic effect from an enemy target.",
+      "pvp_tooltip": "40 yd range\nInstant\n10 sec cooldown\nRemoves 1 Enrage and 1 Magic effect from an enemy target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -803,10 +956,10 @@
         "spell_id": 378002,
         "icon": "ability_hunter_displacement"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Movement speed increased by 4%.",
+      "pvp_tooltip": "Movement speed increased by 4%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -858,10 +1011,10 @@
         "spell_id": 343244,
         "icon": "hunter_pvp_vipersting"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When Counter Shot interrupts a cast, gain 30 Focus.",
+      "pvp_tooltip": "When Counter Shot interrupts a cast, gain 30 Focus.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -913,10 +1066,10 @@
         "spell_id": 1258486,
         "icon": "ability_rogue_feigndeath"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The cooldown of Feign Death is reduced by 5 sec.",
+      "pvp_tooltip": "The cooldown of Feign Death is reduced by 5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -967,10 +1120,10 @@
         "spell_id": 34477,
         "icon": "ability_hunter_misdirection"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "100 yd range\nInstant\n30 sec cooldown\nMisdirects all threat you cause to the targeted party or raid member, beginning with your next attack within 30 sec and lasting for 8 sec.",
+      "pvp_tooltip": "100 yd range\nInstant\n30 sec cooldown\nMisdirects all threat you cause to the targeted party or raid member, beginning with your next attack within 30 sec and lasting for 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1020,10 +1173,10 @@
         "spell_id": 459983,
         "icon": "ability_mount_kodo_03"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Tranquilizing Shot removes 1 additional Magic effect from up to 2 nearby targets.",
+      "pvp_tooltip": "Tranquilizing Shot removes 1 additional Magic effect from up to 2 nearby targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1073,10 +1226,10 @@
         "spell_id": 459991,
         "icon": "ability_hunter_pet_devilsaur"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "If Tranquilizing Shot removes only an Enrage effect, its cooldown is reduced by 5 sec.",
+      "pvp_tooltip": "If Tranquilizing Shot removes only an Enrage effect, its cooldown is reduced by 5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1127,10 +1280,10 @@
         "spell_id": 459506,
         "icon": "achievment_raid_houroftwilight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Flare's radius is increased by 50%.",
+      "pvp_tooltip": "Flare's radius is increased by 50%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1182,10 +1335,10 @@
         "spell_id": 459534,
         "icon": "inv_10_engineering2_pvpflaregun_color1"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "100 yd range\nHaste increased by 2%.",
+      "pvp_tooltip": "100 yd range\nHaste increased by 2%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1235,15 +1388,65 @@
         "spell_id": 187698,
         "icon": "spell_yorsahj_bloodboil_black"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "40 yd range\nInstant\n30 sec cooldown\nHurls a tar trap to the target location that creates a 8 yd radius pool of tar around itself for 30 sec when the first enemy approaches. All enemies have 50% reduced movement speed while in the area of effect. Limit 1. Trap will exist for 1 min.",
+      "pvp_tooltip": "40 yd range\nInstant\n30 sec cooldown\nHurls a tar trap to the target location that creates a 8 yd radius pool of tar around itself for 30 sec when the first enemy approaches. All enemies have 30% reduced movement speed while in the area of effect. Limit 1. Trap will exist for 1 min.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 190,
+          "end": 192,
+          "old_token": "50",
+          "new_token": "30",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "50",
+          "new": "30"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 187698,
+          "source_spell_id": 135299,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            187698,
+            135299
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Scare Beast",
@@ -1288,10 +1491,10 @@
         "spell_id": 1513,
         "icon": "ability_druid_cower"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "25 Focus\n30 yd range\n1.5 sec cast\nScares a beast, causing it to run in fear for up to 20 sec. Damage caused may interrupt the effect. Only one beast can be feared at a time.",
+      "pvp_tooltip": "25 Focus\n30 yd range\n1.5 sec cast\nScares a beast, causing it to run in fear for up to 20 sec. Damage caused may interrupt the effect. Only one beast can be feared at a time.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1343,10 +1546,10 @@
         "spell_id": 1258402,
         "icon": "inv12_ability_druid_lifetreading"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your maximum health is increased by 5%.",
+      "pvp_tooltip": "Your maximum health is increased by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1397,10 +1600,10 @@
         "spell_id": 199483,
         "icon": "ability_hunter_camouflage"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Unlimited range\nInstant\n1 min cooldown\nYou and your pet blend into the surroundings and gain stealth for 1 min. While camouflaged, you will heal for 2% of maximum health every 1 sec.",
+      "pvp_tooltip": "Unlimited range\nInstant\n1 min cooldown\nYou and your pet blend into the surroundings and gain stealth for 1 min. While camouflaged, you will heal for 2% of maximum health every 1 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1450,10 +1653,10 @@
         "spell_id": 459546,
         "icon": "ability_seal"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When Misdirection targets your pet, it reduces the damage they take by 50% for 5 sec.\nThe cooldown of Misdirection is reduced by 5 sec.",
+      "pvp_tooltip": "When Misdirection targets your pet, it reduces the damage they take by 50% for 5 sec.\nThe cooldown of Misdirection is reduced by 5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1507,10 +1710,10 @@
         "spell_id": 1258485,
         "icon": "ability_hunter_pet_turtle"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The cooldown of Aspect of the Turtle is reduced by 30 sec.",
+      "pvp_tooltip": "The cooldown of Aspect of the Turtle is reduced by 30 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1564,10 +1767,10 @@
         "spell_id": 459542,
         "icon": "inv_misc_quiver_03"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Kill Command deals 10% increased damage.",
+      "pvp_tooltip": "Kill Command deals 10% increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1621,10 +1824,10 @@
         "spell_id": 459455,
         "icon": "ability_rogue_sprint"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You cannot be slowed below 80% of your normal movement speed while Aspect of the Cheetah is active.",
+      "pvp_tooltip": "You cannot be slowed below 80% of your normal movement speed while Aspect of the Cheetah is active.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1674,10 +1877,10 @@
         "spell_id": 1267218,
         "icon": "inv_cape_special_turtleshell_c_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Damage taken during Aspect of the Turtle is reduced by an additional 20%.",
+      "pvp_tooltip": "Damage taken during Aspect of the Turtle is reduced by an additional 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1729,10 +1932,10 @@
         "spell_id": 19577,
         "icon": "ability_devour"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "100 yd range\nInstant\n1 min cooldown\nCommands your pet to intimidate the target stunning your target for 5 sec\n.",
+      "pvp_tooltip": "100 yd range\nInstant\n1 min cooldown\nCommands your pet to intimidate the target stunning your target for 5 sec\n.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1783,10 +1986,10 @@
         "spell_id": 1268868,
         "icon": "inv_fishing_nethooks01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Wing Clip slows an additional 25%.\nConcussive Shot slows an additional 10%.",
+      "pvp_tooltip": "Wing Clip slows an additional 25%.\nConcussive Shot slows an additional 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1837,10 +2040,10 @@
         "spell_id": 388039,
         "icon": "ability_hunter_huntervswild"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Unlimited range\nThe duration of Survival of the Fittest is increased by 2.0 sec.",
+      "pvp_tooltip": "Unlimited range\nThe duration of Survival of the Fittest is increased by 2.0 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1891,10 +2094,10 @@
         "spell_id": 1258404,
         "icon": "ability_hunter_catlikereflexes"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Aspect of the Cheetah's initial burst of speed is increased by 2.0 sec.",
+      "pvp_tooltip": "Aspect of the Cheetah's initial burst of speed is increased by 2.0 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1946,10 +2149,10 @@
         "spell_id": 109248,
         "icon": "spell_shaman_bindelemental"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "30 yd range\nInstant\n45 sec cooldown\nFires a magical projectile, tethering the enemy and any other enemies within 5 yds for 10 sec, stunning them for 3 sec if they move more than 5 yds from the arrow. [\nBinding Shackles\n:\nTargets stunned by Binding Shot deal 10% less damage to you for 8 sec after the effect ends\n]",
+      "pvp_tooltip": "30 yd range\nInstant\n45 sec cooldown\nFires a magical projectile, tethering the enemy and any other enemies within 5 yds for 10 sec, stunning them for 3 sec if they move more than 5 yds from the arrow. [\nBinding Shackles\n:\nTargets stunned by Binding Shot deal 10% less damage to you for 8 sec after the effect ends\n]",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1999,10 +2202,10 @@
         "spell_id": 199921,
         "icon": "ability_hunter_aspectmastery"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your movement speed is increased by 30% anytime you have not attacked for 3 sec.",
+      "pvp_tooltip": "Your movement speed is increased by 30% anytime you have not attacked for 3 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2052,10 +2255,10 @@
         "spell_id": 459488,
         "icon": "ability_karoz_leap"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When a trap triggers, gain 30% increased movement speed for 3 sec.",
+      "pvp_tooltip": "When a trap triggers, gain 30% increased movement speed for 3 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2106,15 +2309,65 @@
         "spell_id": 1268671,
         "icon": "ability_mage_icyfeet"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "When your Freezing Trap breaks, the victim's movement speed is reduced by 70% for 4 sec.",
+      "pvp_tooltip": "When your Freezing Trap breaks, the victim's movement speed is reduced by 50% for 4 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 74,
+          "end": 76,
+          "old_token": "70",
+          "new_token": "50",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "70",
+          "new": "50"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1268671,
+          "source_spell_id": 1268673,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -70.0,
+          "spell_pvp_multiplier": 0.714286,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.714286,
+          "final_pvp_value": -50.00002,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1268671,
+            1268673
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Territorial Instincts",
@@ -2157,10 +2410,10 @@
         "spell_id": 459507,
         "icon": "spell_nature_shamanrage"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The cooldown of Intimidation is reduced by 20 sec.",
+      "pvp_tooltip": "The cooldown of Intimidation is reduced by 20 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2208,10 +2461,10 @@
         "spell_id": 1258509,
         "icon": "ability_druid_challangingroar"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Intimidation now also stuns nearby enemies for 1.0 sec.",
+      "pvp_tooltip": "Intimidation now also stuns nearby enemies for 1.0 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2264,10 +2517,10 @@
         "spell_id": 266921,
         "icon": "ability_hunter_aspectoftheviper"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The cooldown of Aspect of the Cheetah, and Aspect of the Turtle are reduced by 15 sec.",
+      "pvp_tooltip": "The cooldown of Aspect of the Cheetah, and Aspect of the Turtle are reduced by 15 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2320,10 +2573,10 @@
         "spell_id": 378004,
         "icon": "ability_hunter_silenthunter"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Critical strike chance increased by 2%.",
+      "pvp_tooltip": "Critical strike chance increased by 2%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2371,10 +2624,10 @@
         "spell_id": 459460,
         "icon": "inv_misc_food_legion_goooil_pool"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Binding Shot's stun duration is increased by 1 sec.",
+      "pvp_tooltip": "Binding Shot's stun duration is increased by 1 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2422,10 +2675,10 @@
         "spell_id": 472729,
         "icon": "inv_misc_rope_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When an enemy is stunned by Binding Shot, it is dragged to Binding Shot's center.",
+      "pvp_tooltip": "When an enemy is stunned by Binding Shot, it is dragged to Binding Shot's center.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2476,10 +2729,10 @@
         "spell_id": 343247,
         "icon": "ability_hunter_traplauncher"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The cooldown of Tar Trap and Freezing Trap is reduced by 5.0 sec.",
+      "pvp_tooltip": "The cooldown of Tar Trap and Freezing Trap is reduced by 5.0 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2528,10 +2781,10 @@
         "spell_id": 459517,
         "icon": "inv_potion_29"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Feign Death and Aspect of the Turtle removes poison and disease effects from you.",
+      "pvp_tooltip": "Feign Death and Aspect of the Turtle removes poison and disease effects from you.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2580,15 +2833,60 @@
         "spell_id": 53480,
         "icon": "ability_hunter_fervor"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "40 yd range\nInstant\n2 min cooldown\nInstructs your pet to protect a friendly target, reducing their damage taken by 15%, but 50% of all damage taken by that target is transferred to your pet.\nLasts 10 sec or until your pet's health drops below 25%.",
+      "pvp_tooltip": "40 yd range\nInstant\n2 min cooldown\nInstructs your pet to protect a friendly target, reducing their damage taken by 25%, but 50% of all damage taken by that target is transferred to your pet.\nLasts 10 sec or until your pet's health drops below 25%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 115,
+          "end": 117,
+          "old_token": "15",
+          "new_token": "25",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "15",
+          "new": "25"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 53480,
+          "source_spell_id": 53480,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod % Damage Taken (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)",
+          "base_value": -15.0,
+          "spell_pvp_multiplier": 1.66666,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.66666,
+          "final_pvp_value": -24.9999,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Guardian's Hide",
@@ -2632,10 +2930,10 @@
         "spell_id": 1272094,
         "icon": "spell_druid_bristlingfur"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your pet protects you at all times, reducing the damage you take by 3%. Your pet receives 100% of the damage it mitigates.",
+      "pvp_tooltip": "Your pet protects you at all times, reducing the damage you take by 3%. Your pet receives 100% of the damage it mitigates.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2684,10 +2982,10 @@
         "spell_id": 459527,
         "icon": "ability_hunter_potentvenom"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your damage over time effects deal 10% increased damage.\nThis effect is increased by 50% on targets below 20% health.",
+      "pvp_tooltip": "Your damage over time effects deal 10% increased damage.\nThis effect is increased by 50% on targets below 20% health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2736,14 +3034,43 @@
         "spell_id": 34026,
         "icon": "ability_hunter_killcommand"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "30 Focus\n50 yd range\nInstant\n7.5 sec cooldown\n1 Charge\nGive the command to kill, causing your pet to charge your target and savagely deal (247.2% of Attack Power) Physical damage to the enemy.",
+      "pvp_tooltip": "30 Focus\n50 yd range\nInstant\n7.5 sec cooldown\n1 Charge\nGive the command to kill, causing your pet to charge your target and savagely deal (247.2% of Attack Power) Physical damage to the enemy.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 34026,
+          "source_spell_id": 83381,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 2.472 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.15,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.15,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            34026,
+            83381
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -2790,10 +3117,10 @@
         "spell_id": 267116,
         "icon": "ability_hunter_bestialdiscipline"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Call Pet additionally summons the pet from the bonus slot in your stable. This pet will obey your Kill Command, but cannot use pet family abilities.",
+      "pvp_tooltip": "Your Call Pet additionally summons the pet from the bonus slot in your stable. This pet will obey your Kill Command, but cannot use pet family abilities.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2844,10 +3171,10 @@
         "spell_id": 474746,
         "icon": "ability_hunter_separationanxiety"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your pet damage is increased by 35% and your pet is 10% larger.",
+      "pvp_tooltip": "Your pet damage is increased by 35% and your pet is 10% larger.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2898,14 +3225,47 @@
         "spell_id": 217200,
         "icon": "ability_hunter_barbedshot"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\nInstant\n18 sec recharge\n2 Charges\nFire a shot that tears through your enemy, causing them to bleed for [(85.7% of Attack Power) * 5] damage over\n12 sec\n. If Barbed Shot is reapplied, any remaining damage will be added to the new Barbed Shot.\nGenerates (5 *\n8\n/ 2) Focus over\n8 sec\n.",
+      "pvp_tooltip": "40 yd range\nInstant\n18 sec recharge\n2 Charges\nFire a shot that tears through your enemy, causing them to bleed for [(85.7% of Attack Power) * 5] damage over\n12 sec\n. If Barbed Shot is reapplied, any remaining damage will be added to the new Barbed Shot.\nGenerates (5 *\n8\n/ 2) Focus over\n8 sec\n.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 217200,
+          "source_spell_id": 217200,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.888,
+          "amount_kind": "periodic",
+          "aura_factor": 0.9,
+          "final_pvp_multiplier": 0.7992,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256939,
+              "game_effect_id": 1266354,
+              "amount_kind": "periodic",
+              "value_pct": -10.0,
+              "factor": 0.9,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -2951,10 +3311,10 @@
         "spell_id": 269737,
         "icon": "spell_druid_savagery"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Kill Command now has 2 charges, and deals 15% increased damage.",
+      "pvp_tooltip": "Kill Command now has 2 charges, and deals 15% increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3005,10 +3365,10 @@
         "spell_id": 120679,
         "icon": "ability_hunter_longevity"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Damage from your bleed effects has a 4% chance of attracting a powerful wild beast that attacks your target for 8 sec.\n(500ms cooldown)",
+      "pvp_tooltip": "Damage from your bleed effects has a 4% chance of attracting a powerful wild beast that attacks your target for 8 sec.\n(500ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3059,10 +3419,10 @@
         "spell_id": 199530,
         "icon": "warrior_talent_icon_thunderstruck"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When you cast Barbed Shot, your pet stomps the ground, dealing (144% of Attack Power) Physical damage to all nearby enemies.",
+      "pvp_tooltip": "When you cast Barbed Shot, your pet stomps the ground, dealing (144% of Attack Power) Physical damage to all nearby enemies.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3112,10 +3472,10 @@
         "spell_id": 393933,
         "icon": "ability_hunter_barbedshot"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Barbed Shot deals 10% increased damage, and applying Barbed Shot reduces the cooldown of Kill Command by 3.0 sec.",
+      "pvp_tooltip": "Barbed Shot deals 10% increased damage, and applying Barbed Shot reduces the cooldown of Kill Command by 3.0 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3166,10 +3526,10 @@
         "spell_id": 1264359,
         "icon": "ability_hunter_sickem"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "35 Focus\n50 yd range\nInstant\n8 sec cooldown\nCommand your pet to thrash all enemies within 10 yds, dealing (191% of Attack Power) Physical damage to them. Damage is increased by 300% if Wild Thrash hits 2 or more enemies.\nDeals reduced damage beyond 8 targets.",
+      "pvp_tooltip": "35 Focus\n50 yd range\nInstant\n8 sec cooldown\nCommand your pet to thrash all enemies within 10 yds, dealing (191% of Attack Power) Physical damage to them. Damage is increased by 300% if Wild Thrash hits 2 or more enemies.\nDeals reduced damage beyond 8 targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3221,14 +3581,43 @@
         "spell_id": 19574,
         "icon": "ability_druid_ferociousbite"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "100 yd range\nInstant\n1.5 min cooldown\nSends you and your pet into a rage, instantly dealing (800% of Attack Power) Physical damage to its target, and increasing all damage you both deal by 20% for 15 sec. Removes all crowd control effects from your pet. [\nScent of Blood\n:\nActivating Bestial Wrath grants 0 charges of Barbed Shot\n]",
+      "pvp_tooltip": "100 yd range\nInstant\n1.5 min cooldown\nSends you and your pet into a rage, instantly dealing (800% of Attack Power) Physical damage to its target, and increasing all damage you both deal by 20% for 15 sec. Removes all crowd control effects from your pet. [\nScent of Blood\n:\nActivating Bestial Wrath grants 0 charges of Barbed Shot\n]",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 19574,
+          "source_spell_id": 344572,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 8 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.9,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.9,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            19574,
+            344572
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -3275,14 +3664,47 @@
         "spell_id": 193455,
         "icon": "ability_hunter_cobrashot"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Level\n90\n35 Focus\n40 yd range\nInstant\nA quick shot causing [(390.4% of Attack Power) * ((Min(\n90 - 1, 19) * 12 + 112) / 340)] Physical damage.\nReduces the cooldown of Kill Command by 1 sec.",
+      "pvp_tooltip": "Level\n90\n35 Focus\n40 yd range\nInstant\nA quick shot causing [(390.4% of Attack Power) * ((Min(\n90 - 1, 19) * 12 + 112) / 340)] Physical damage.\nReduces the cooldown of Kill Command by 1 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 193455,
+          "source_spell_id": 193455,
+          "effect_index": 2,
+          "effect_text": "School Damage (Physical) (AP mod: 3.904 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.575,
+          "amount_kind": "direct",
+          "aura_factor": 0.9,
+          "final_pvp_multiplier": 0.5175,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256939,
+              "game_effect_id": 1264704,
+              "amount_kind": "direct",
+              "value_pct": -10.0,
+              "factor": 0.9,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -3330,10 +3752,10 @@
         "spell_id": 115939,
         "icon": "ability_hunter_sickem"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After you Wild Thrash, your pet's melee attacks also strike all nearby enemies for\n70\n% of the damage [\nKill Cleave\n:\nand Kill Command strikes all nearby enemies for 70% of the damage\n] for the next 10.0 sec. Deals reduced damage beyond 8 targets.",
+      "pvp_tooltip": "After you Wild Thrash, your pet's melee attacks also strike all nearby enemies for\n70\n% of the damage [\nKill Cleave\n:\nand Kill Command strikes all nearby enemies for 70% of the damage\n] for the next 10.0 sec. Deals reduced damage beyond 8 targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3384,10 +3806,10 @@
         "spell_id": 193532,
         "icon": "spell_shadow_lifedrain"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Activating Bestial Wrath grants 1 charge of Barbed Shot.",
+      "pvp_tooltip": "Activating Bestial Wrath grants 1 charge of Barbed Shot.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3438,10 +3860,10 @@
         "spell_id": 459693,
         "icon": "inv__blacksmithing_hoofplate"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Bestial Wrath causes all active pets to Stomp at 200% effectiveness.\nStomp damage increased by 30%.\n(1s cooldown)",
+      "pvp_tooltip": "Bestial Wrath causes all active pets to Stomp at 200% effectiveness.\nStomp damage increased by 30%.\n(1s cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3493,10 +3915,10 @@
         "spell_id": 459550,
         "icon": "ability_hunter_goforthethroat"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Kill Command deals increased critical strike damage equal to 100% of your critical strike chance.",
+      "pvp_tooltip": "Kill Command deals increased critical strike damage equal to 100% of your critical strike chance.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3547,10 +3969,10 @@
         "spell_id": 459552,
         "icon": "ability_druid_disembowel"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When your pet attacks critically strike, they cause their target to bleed for 8% of the damage dealt over 6 sec.",
+      "pvp_tooltip": "When your pet attacks critically strike, they cause their target to bleed for 8% of the damage dealt over 6 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3600,10 +4022,10 @@
         "spell_id": 378207,
         "icon": "spell_druid_bloodythrash"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While Beast Cleave is active, Kill Command now also strikes nearby enemies for 20% of damage dealt. Deals reduced damage beyond 8 targets.",
+      "pvp_tooltip": "While Beast Cleave is active, Kill Command now also strikes nearby enemies for 20% of damage dealt. Deals reduced damage beyond 8 targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3655,10 +4077,10 @@
         "spell_id": 378209,
         "icon": "spell_hunter_adaptation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "All pet damage dealt increased by 3%.",
+      "pvp_tooltip": "All pet damage dealt increased by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3710,10 +4132,10 @@
         "spell_id": 231548,
         "icon": "ability_druid_ferociousbite"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduce the cooldown of Bestial Wrath by 60 sec.",
+      "pvp_tooltip": "Reduce the cooldown of Bestial Wrath by 60 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3765,10 +4187,10 @@
         "spell_id": 1265051,
         "icon": "ability_hunter_thrillofthehunt"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Barbed Shot critical strike chance increased by 5%.\nCobra Shot critical strike chance increased by 15%.",
+      "pvp_tooltip": "Barbed Shot critical strike chance increased by 5%.\nCobra Shot critical strike chance increased by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3818,10 +4240,10 @@
         "spell_id": 321014,
         "icon": "ability_hunter_invigeration"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Barbed Shot now instantly grants 25 Focus.\nPassive Focus generation increased by 75%.",
+      "pvp_tooltip": "Barbed Shot now instantly grants 25 Focus.\nPassive Focus generation increased by 75%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3872,10 +4294,10 @@
         "spell_id": 469880,
         "icon": "inv_misc_scales_stonygreen"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Cobra Shot reduces the cooldown of Barbed Shot by 2 sec.",
+      "pvp_tooltip": "Casting Cobra Shot reduces the cooldown of Barbed Shot by 2 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3925,15 +4347,83 @@
         "spell_id": 191384,
         "icon": "ability_deathwing_assualtaspects"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Unlimited range\nIncreases the damage of Bite, Claw, Smack and the effectiveness of your pet's unique abilities by 30%.\nIncreases the effectiveness of your pet's Predator's Thirst, Endurance Training, and Pathfinding passives by 50%.",
+      "pvp_tooltip": "Unlimited range\nIncreases the damage of Bite, Claw, Smack and the effectiveness of your pet's unique abilities by 20%.\nIncreases the effectiveness of your pet's Predator's Thirst, Endurance Training, and Pathfinding passives by 50%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 114,
+          "end": 116,
+          "old_token": "30",
+          "new_token": "20",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1,
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1,
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "30",
+          "new": "20"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 191384,
+          "source_spell_id": 191384,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 30.0,
+          "spell_pvp_multiplier": 0.666667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.666667,
+          "final_pvp_value": 20.00001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 191384,
+          "source_spell_id": 191384,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
+          "base_value": 30.0,
+          "spell_pvp_multiplier": 0.666667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.666667,
+          "final_pvp_value": 20.00001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Dire Cleave",
@@ -3980,10 +4470,10 @@
         "spell_id": 1217524,
         "icon": "ability_physical_taunt"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When summoned, Dire Beasts gain Beast Cleave at 100% effectiveness for 8.0 sec.",
+      "pvp_tooltip": "When summoned, Dire Beasts gain Beast Cleave at 100% effectiveness for 8.0 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4035,10 +4525,10 @@
         "spell_id": 378743,
         "icon": "ability_hunter_ferociousinspiration"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Kill Command has a 20% chance to also summon a Dire Beast to attack your target for 8 sec.",
+      "pvp_tooltip": "Kill Command has a 20% chance to also summon a Dire Beast to attack your target for 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4090,10 +4580,10 @@
         "spell_id": 1265044,
         "icon": "ability_skeer_bloodletting"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "All bleed damage dealt by you and your pets increased by 10%.",
+      "pvp_tooltip": "All bleed damage dealt by you and your pets increased by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4145,10 +4635,10 @@
         "spell_id": 468701,
         "icon": "spell_nature_poisoncleansingtotem"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Cobra Shot critical damage dealt increased by 20%.\nWhen Cobra Shot critically strikes, it refunds 10 Focus.",
+      "pvp_tooltip": "Cobra Shot critical damage dealt increased by 20%.\nWhen Cobra Shot critically strikes, it refunds 10 Focus.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4198,10 +4688,10 @@
         "spell_id": 468695,
         "icon": "inv_quiver_1h_hunter_c_01_green"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your auto shot has a 15% chance to also fire a Cobra Shot at your target.\n(Proc chance: 15%)",
+      "pvp_tooltip": "Your auto shot has a 15% chance to also fire a Cobra Shot at your target.\n(Proc chance: 15%)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4251,10 +4741,10 @@
         "spell_id": 378244,
         "icon": "ability_hunter_cobrastrikes"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Cobra Shot Focus cost reduced by 5. Cobra Shot damage increased by 10%.",
+      "pvp_tooltip": "Cobra Shot Focus cost reduced by 5. Cobra Shot damage increased by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4308,10 +4798,10 @@
         "spell_id": 385810,
         "icon": "ability_hunter_huntervswild"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Dire Beast lasts an additional 1 sec and deals 10% increased damage.",
+      "pvp_tooltip": "Dire Beast lasts an additional 1 sec and deals 10% increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4364,10 +4854,10 @@
         "spell_id": 1264934,
         "icon": "ability_druid_kingofthejungle"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the attack speed of your active pets by 20%.",
+      "pvp_tooltip": "Increases the attack speed of your active pets by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4421,10 +4911,10 @@
         "spell_id": 273887,
         "icon": "ability_hunter_killcommand"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Kill Command deals 10% increased damage.",
+      "pvp_tooltip": "Kill Command deals 10% increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4474,10 +4964,10 @@
         "spell_id": 386870,
         "icon": "ability_druid_rake"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Barbed Shot has a 25% chance to cause your pet to use its special attack and deal 50% bonus damage.",
+      "pvp_tooltip": "Barbed Shot has a 25% chance to cause your pet to use its special attack and deal 50% bonus damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4527,14 +5017,43 @@
         "spell_id": 459730,
         "icon": "spell_hunter_lonewolf"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Summoning a Dire Beast 8 times sounds the Horn of Valor, summoning either Hati or Fenryr to battle.\nHati\nIncreases the damage of all your pets by 4%.\nFenryr\nPounces your primary target, inflicting a heavy bleed that deals (800% of Attack Power) damage over 8 sec and grants you 4% Haste.",
+      "pvp_tooltip": "Summoning a Dire Beast 8 times sounds the Horn of Valor, summoning either Hati or Fenryr to battle.\nHati\nIncreases the damage of all your pets by 4%.\nFenryr\nPounces your primary target, inflicting a heavy bleed that deals (800% of Attack Power) damage over 8 sec and grants you 4% Haste.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 459730,
+          "source_spell_id": 459753,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.7,
+          "amount_kind": "periodic",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.7,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            459730,
+            459753
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -4579,10 +5098,10 @@
         "spell_id": 1265052,
         "icon": "ability_druid_berserk"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Damage dealt by your pet's Bite, Claw, and Smack increased by 100%.",
+      "pvp_tooltip": "Damage dealt by your pet's Bite, Claw, and Smack increased by 100%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4632,14 +5151,52 @@
         "spell_id": 1272099,
         "icon": "ability_druid_primaltenacity"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Bestial Wrath provokes your pets to tear into your target, causing your target to bleed for (1440% of Attack Power) damage over 12 sec.",
+      "pvp_tooltip": "Bestial Wrath provokes your pets to tear into your target, causing your target to bleed for (1440% of Attack Power) damage over 12 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1272099,
+          "source_spell_id": 321538,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.75,
+          "amount_kind": "periodic",
+          "aura_factor": 0.9,
+          "final_pvp_multiplier": 0.675,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1272099,
+            321538
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256939,
+              "game_effect_id": 1266354,
+              "amount_kind": "periodic",
+              "value_pct": -10.0,
+              "factor": 0.9,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -4684,10 +5241,10 @@
         "spell_id": 424557,
         "icon": "spell_nature_protectionformnature"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Kill Command damage is increased by 10%. Barbed Shot lasts 2.0 sec longer.",
+      "pvp_tooltip": "Kill Command damage is increased by 10%. Barbed Shot lasts 2.0 sec longer.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4737,10 +5294,10 @@
         "spell_id": 199532,
         "icon": "ability_hunter_snaketrap"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While Bestial Wrath is active, Cobra Shot resets the cooldown on Kill Command.",
+      "pvp_tooltip": "While Bestial Wrath is active, Cobra Shot resets the cooldown on Kill Command.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4790,10 +5347,10 @@
         "spell_id": 424558,
         "icon": "inv_leatherworking_70_petleash"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Each time Barbed Shot deals damage, the cooldown of Kill Command is reduced by 0.50 sec.",
+      "pvp_tooltip": "Each time Barbed Shot deals damage, the cooldown of Kill Command is reduced by 0.50 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4842,14 +5399,47 @@
         "spell_id": 1232739,
         "icon": "ability_hunter_huntingparty"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Dire Beasts will now obey your Kill Command, dealing its damage at 30% effectiveness.\nBestial Wrath now sends your Dire Beasts into a rage, increasing their damage dealt by 10% for 15 sec. Dire Beasts summoned during a Bestial Wrath will benefit at a reduced duration.",
+      "pvp_tooltip": "Dire Beasts will now obey your Kill Command, dealing its damage at 30% effectiveness.\nBestial Wrath now sends your Dire Beasts into a rage, increasing their damage dealt by 10% for 15 sec. Dire Beasts summoned during a Bestial Wrath will benefit at a reduced duration.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1232739,
+          "source_spell_id": 344572,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 8 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.9,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.9,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1232739,
+            186254,
+            19574,
+            344572
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -4893,10 +5483,10 @@
         "spell_id": 407412,
         "icon": "ability_racial_cannibalize"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Bestial Wrath causes your Barbed Shot to deal damage [ceil(49.2537)]% faster for 10 sec.",
+      "pvp_tooltip": "Bestial Wrath causes your Barbed Shot to deal damage [ceil(49.2537)]% faster for 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4945,10 +5535,10 @@
         "spell_id": 392053,
         "icon": "inv_misc_monsterfang_02"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Kill Command critical damage increased by 15%.",
+      "pvp_tooltip": "Kill Command critical damage increased by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4994,10 +5584,10 @@
         "spell_id": 1273043,
         "icon": "inv12_apextalent_hunter_killfrenzy"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Bestial Wrath summons an Animal Companion from your Stable to fight alongside you for 15 sec. The summoned Animal Companion obeys your Kill Command, Wild Thrash, and Stomps alongside your other pets.",
+      "pvp_tooltip": "Bestial Wrath summons an Animal Companion from your Stable to fight alongside you for 15 sec. The summoned Animal Companion obeys your Kill Command, Wild Thrash, and Stomps alongside your other pets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5043,10 +5633,10 @@
         "spell_id": 1273065,
         "icon": "ability_hunter_pathfinding2"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Damage dealt by your pets increased by 5%.\nBestial Wrath strikes 2 additional targets.",
+      "pvp_tooltip": "Damage dealt by your pets increased by 5%.\nBestial Wrath strikes 2 additional targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5092,10 +5682,10 @@
         "spell_id": 1273126,
         "icon": "ability_hunter_goforthethroat"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Barbed Shot and Cobra Shot damage increased by 15%.\nBarbed Shot, Cobra Shot, and Black Arrow increases the damage of your next Kill Command by 30%.",
+      "pvp_tooltip": "Barbed Shot and Cobra Shot damage increased by 15%.\nBarbed Shot, Cobra Shot, and Black Arrow increases the damage of your next Kill Command by 30%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5146,14 +5736,54 @@
         "spell_id": 466930,
         "icon": "inv_ability_darkrangerhunter_blackarrow"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "10 Focus\n40 yd range\nInstant\n10 sec cooldown\n1 Charge\nYou attempt to finish off a wounded target, dealing (348.4% of Attack Power) Shadow damage and (400% of Attack Power) Shadow damage over 8 sec. Only usable on enemies above 80% health or below 20% health.",
+      "pvp_tooltip": "10 Focus\n40 yd range\nInstant\n10 sec cooldown\n1 Charge\nYou attempt to finish off a wounded target, dealing (348.4% of Attack Power) Shadow damage and (400% of Attack Power) Shadow damage over 8 sec. Only usable on enemies above 80% health or below 20% health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 466930,
+          "source_spell_id": 466930,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (AP mod: 3.484 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.7110000000000001,
+          "final_pvp_multiplier": 0.7110000000000001,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256939,
+              "game_effect_id": 1264704,
+              "amount_kind": "direct",
+              "value_pct": -10.0,
+              "factor": 0.9,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256939,
+              "game_effect_id": 1266355,
+              "amount_kind": "direct",
+              "value_pct": -21.0,
+              "factor": 0.79,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5199,10 +5829,10 @@
         "spell_id": 467749,
         "icon": "inv_quiver_1h_mawraid_d_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your auto shot now deals Shadow damage, allowing it to bypass armor.\nAuto shot damage increased by 100%.",
+      "pvp_tooltip": "Your auto shot now deals Shadow damage, allowing it to bypass armor.\nAuto shot damage increased by 100%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5252,10 +5882,10 @@
         "spell_id": 469638,
         "icon": "ability_warlock_soulsiphon"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Kill Command has a 20% chance and Barbed Shot has a 50% chance to grant Deathblow.\nDeathblow\nThe cooldown of Black Arrow is reset. Your next Black Arrow can be used on any target, regardless of their current health.\n(600ms cooldown)",
+      "pvp_tooltip": "Kill Command has a 20% chance and Barbed Shot has a 50% chance to grant Deathblow.\nDeathblow\nThe cooldown of Black Arrow is reset. Your next Black Arrow can be used on any target, regardless of their current health.\n(600ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5305,14 +5935,87 @@
         "spell_id": 467911,
         "icon": "inv_misc_powder_tin"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Black Arrow now explodes in a cloud of shadow and sulfur on impact, dealing (250% of Attack Power) Shadow damage to all enemies within an 8 yd cone behind the target. Damage reduced beyond 8 targets.\n(700ms cooldown)",
+      "pvp_tooltip": "Black Arrow now explodes in a cloud of shadow and sulfur on impact, dealing (250% of Attack Power) Shadow damage to all enemies within an 8 yd cone behind the target. Damage reduced beyond 8 targets.\n(700ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 467911,
+          "source_spell_id": 467914,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (AP mod: 2.5 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.9,
+          "final_pvp_multiplier": 0.9,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            467911,
+            467914
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256939,
+              "game_effect_id": 1264704,
+              "amount_kind": "direct",
+              "value_pct": -10.0,
+              "factor": 0.9,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 467911,
+          "source_spell_id": 472084,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (AP mod: 2.5 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.9,
+          "final_pvp_multiplier": 0.9,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            467911,
+            472084
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256939,
+              "game_effect_id": 1264704,
+              "amount_kind": "direct",
+              "value_pct": -10.0,
+              "factor": 0.9,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5358,10 +6061,10 @@
         "spell_id": 1264289,
         "icon": "ability_fiegndead"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Approximately\n0.5\nprocs per minute\nWhen summoning a Dire Beast, you have a 10% chance to instead summon a Dark Hound that deals significantly increased damage.",
+      "pvp_tooltip": "Approximately\n0.5\nprocs per minute\nWhen summoning a Dire Beast, you have a 10% chance to instead summon a Dark Hound that deals significantly increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5411,10 +6114,10 @@
         "spell_id": 467897,
         "icon": "inv_10_tailoring_craftingoptionalreagent_enhancedspellthread_color4"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Black Arrow has a 15% chance to grant Deathblow.\nDeathblow\nThe cooldown of Black Arrow is reset. Your next Black Arrow can be used on any target, regardless of their current health.",
+      "pvp_tooltip": "Casting Black Arrow has a 15% chance to grant Deathblow.\nDeathblow\nThe cooldown of Black Arrow is reset. Your next Black Arrow can be used on any target, regardless of their current health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5464,10 +6167,10 @@
         "spell_id": 1277565,
         "icon": "ability_cheapshot"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Kill Shot\ndamage increased by 10%.",
+      "pvp_tooltip": "Kill Shot\ndamage increased by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5517,10 +6220,10 @@
         "spell_id": 430709,
         "icon": "spell_warlock_demonsoul"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Exhilaration grants you 3 sec of Survival of the Fittest.\nSurvival of the Fittest activates Exhilaration at 50% effectiveness.",
+      "pvp_tooltip": "Exhilaration grants you 3 sec of Survival of the Fittest.\nSurvival of the Fittest activates Exhilaration at 50% effectiveness.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5570,15 +6273,65 @@
         "spell_id": 430712,
         "icon": "inv_belt_44c"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "While in combat, Disengage will chain the closest target to the ground, causing them to move\n40\n% slower until they move 8 yards away.",
+      "pvp_tooltip": "While in combat, Disengage will chain the closest target to the ground, causing them to move\n30\n% slower until they move 8 yards away.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 93,
+          "end": 95,
+          "old_token": "40",
+          "new_token": "30",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "40",
+          "new": "30"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 430712,
+          "source_spell_id": 442396,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -40.0,
+          "spell_pvp_multiplier": 0.75,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            430712,
+            442396
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Shadow Dagger",
@@ -5623,14 +6376,43 @@
         "spell_id": 467741,
         "icon": "ability_throw"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While in combat, Disengage releases a fan of shadow daggers, dealing (0.5% of Attack Power) Shadow damage per second and reducing affected target's movement speed by\n30\n% for 6 sec.",
+      "pvp_tooltip": "While in combat, Disengage releases a fan of shadow daggers, dealing (0.5% of Attack Power) Shadow damage per second and reducing affected target's movement speed by\n30\n% for 6 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 467741,
+          "source_spell_id": 467745,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -30.0,
+          "spell_pvp_multiplier": 0.666667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.666667,
+          "final_pvp_value": -20.00001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            467741,
+            467745
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5676,14 +6458,91 @@
         "spell_id": 1264290,
         "icon": "ability_deathknight_summongargoyle"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Bestial Wrath summons a Dark Hound.\nFor 15 sec after casting Bestial Wrath, Bestial Wrath is replaced with Wailing Arrow.\nWailing Arrow\nFire an enchanted arrow, dealing (1400% of Attack Power) Shadow damage to your target and an additional (700% of Attack Power) Shadow damage to all enemies within 8 yds of your target. Non-Player targets struck by a Wailing Arrow have their spellcasting interrupted and are silenced for 1 sec.\nGrants Deathblow.",
+      "pvp_tooltip": "Bestial Wrath summons a Dark Hound.\nFor 15 sec after casting Bestial Wrath, Bestial Wrath is replaced with Wailing Arrow.\nWailing Arrow\nFire an enchanted arrow, dealing (1400% of Attack Power) Shadow damage to your target and an additional (700% of Attack Power) Shadow damage to all enemies within 8 yds of your target. Non-Player targets struck by a Wailing Arrow have their spellcasting interrupted and are silenced for 1 sec.\nGrants Deathblow.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 1264290,
+          "source_spell_id": 392058,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (AP mod: 14 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.9,
+          "final_pvp_multiplier": 0.9,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1264290,
+            392060,
+            392058
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "triggered_by_reverse"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256939,
+              "game_effect_id": 1264704,
+              "amount_kind": "direct",
+              "value_pct": -10.0,
+              "factor": 0.9,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 1264290,
+          "source_spell_id": 392058,
+          "effect_index": 2,
+          "effect_text": "School Damage (Shadow) (AP mod: 7 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.9,
+          "final_pvp_multiplier": 0.9,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1264290,
+            392060,
+            392058
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "triggered_by_reverse"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256939,
+              "game_effect_id": 1264704,
+              "amount_kind": "direct",
+              "value_pct": -10.0,
+              "factor": 0.9,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5729,10 +6588,10 @@
         "spell_id": 1264291,
         "icon": "inv_quiver_1h_sylvanas_d_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You fire 2 additional Black Arrows during Withering Fire's barrage.\nBeast Cleave and Kill Cleave damage increased by 5%.",
+      "pvp_tooltip": "You fire 2 additional Black Arrows during Withering Fire's barrage.\nBeast Cleave and Kill Cleave damage increased by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5782,10 +6641,10 @@
         "spell_id": 467902,
         "icon": "achievement_leader_sylvanas"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Black Arrow and Bleak Powder critical strike damage increased by 10%.",
+      "pvp_tooltip": "Black Arrow and Bleak Powder critical strike damage increased by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5835,10 +6694,10 @@
         "spell_id": 467644,
         "icon": "spell_shadow_animatedead"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "All pet damage increased by 6%.\nDire Beast damage increased by 10%.",
+      "pvp_tooltip": "All pet damage increased by 6%.\nDire Beast damage increased by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5888,10 +6747,10 @@
         "spell_id": 1235397,
         "icon": "spell_deathknight_strangulate"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Bleak Powder now applies Black Arrow's periodic effect to all enemies it damages.\nIf Bleak Powder damages 2 or more enemies, gain Beast Cleave if talented.",
+      "pvp_tooltip": "Bleak Powder now applies Black Arrow's periodic effect to all enemies it damages.\nIf Bleak Powder damages 2 or more enemies, gain Beast Cleave if talented.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5941,10 +6800,10 @@
         "spell_id": 1264690,
         "icon": "ability_creature_cursed_03"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Kill Command causes your Dark Hound to Shadow Thrash, dealing (210% of Attack Power) Shadow damage to up to 8 nearby enemies.",
+      "pvp_tooltip": "Kill Command causes your Dark Hound to Shadow Thrash, dealing (210% of Attack Power) Shadow damage to up to 8 nearby enemies.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5995,15 +6854,98 @@
         "spell_id": 466990,
         "icon": "spell_shadow_painspike"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Casting Black Arrow fires a barrage of 2 additional Black Arrows at nearby targets at 30% effectiveness, prioritizing enemies that aren't affected by Black Arrow's damage over time effect.",
+      "pvp_tooltip": "Casting Black Arrow fires a barrage of 2 additional Black Arrows at nearby targets at 15% effectiveness, prioritizing enemies that aren't affected by Black Arrow's damage over time effect.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 86,
+          "end": 88,
+          "old_token": "30",
+          "new_token": "15",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            4
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            3
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 50.0,
+          "new": 25.0,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            4
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "30",
+          "new": "15"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 466990,
+          "source_spell_id": 466990,
+          "effect_index": 4,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 30.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 15.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 466990,
+          "source_spell_id": 466991,
+          "effect_index": 3,
+          "effect_text": "Dummy",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 25.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            466990,
+            466991
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Howl of the Pack Leader",
@@ -6049,14 +6991,125 @@
         "spell_id": 471876,
         "icon": "inv_ability_packleaderhunter_vicioushunt"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While in combat, every 30 sec your next Kill Command summons the aid of a Beast.\nWyvern\nA Wyvern descends from the skies, letting out a battle cry that increases the damage of you and your pets by 10% for 12 sec.\nBoar\nA Boar charges through your target 1 time, dealing (1440% of Attack Power) damage to nearby enemies and an additional (1200% of Attack Power) physical damage to its primary target. Damage reduced beyond 5 targets.\nBear\nA Bear leaps into the fray, rending the flesh of your enemies, dealing (400% of Attack Power) damage over 10 sec to up to\n8\nnearby enemies.",
+      "pvp_tooltip": "While in combat, every 30 sec your next Kill Command summons the aid of a Beast.\nWyvern\nA Wyvern descends from the skies, letting out a battle cry that increases the damage of you and your pets by 10% for 12 sec.\nBoar\nA Boar charges through your target 1 time, dealing (1440% of Attack Power) damage to nearby enemies and an additional (1200% of Attack Power) physical damage to its primary target. Damage reduced beyond 5 targets.\nBear\nA Bear leaps into the fray, rending the flesh of your enemies, dealing (400% of Attack Power) damage over 10 sec to up to\n8\nnearby enemies.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 471876,
+          "source_spell_id": 471936,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 12 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": "direct",
+          "aura_factor": 0.9,
+          "final_pvp_multiplier": 0.45,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            471876,
+            471936
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256939,
+              "game_effect_id": 1264704,
+              "amount_kind": "direct",
+              "value_pct": -10.0,
+              "factor": 0.9,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 471876,
+          "source_spell_id": 471938,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 14.4 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": "direct",
+          "aura_factor": 0.9,
+          "final_pvp_multiplier": 0.45,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            471876,
+            471938
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256939,
+              "game_effect_id": 1264704,
+              "amount_kind": "direct",
+              "value_pct": -10.0,
+              "factor": 0.9,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 471876,
+          "source_spell_id": 471999,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 0.9,
+          "final_pvp_multiplier": 0.9,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            471876,
+            471999
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256939,
+              "game_effect_id": 1266354,
+              "amount_kind": "periodic",
+              "value_pct": -10.0,
+              "factor": 0.9,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -6102,10 +7155,10 @@
         "spell_id": 472358,
         "icon": "spell_hunter_lonewolf"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Howl of the Pack Leader increases the damage of your Kill Command by 25%.\nSummoning a Beast reduces the cooldown of Barbed Shot by 4.0 sec.",
+      "pvp_tooltip": "Howl of the Pack Leader increases the damage of your Kill Command by 25%.\nSummoning a Beast reduces the cooldown of Barbed Shot by 4.0 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6155,10 +7208,10 @@
         "spell_id": 472352,
         "icon": "inv_misc_horn_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Kill Command reduces the cooldown of Howl of the Pack Leader by 1.0 sec.\nCobra Shot reduces the cooldown of Howl of the Pack Leader by 1.0 sec.",
+      "pvp_tooltip": "Kill Command reduces the cooldown of Howl of the Pack Leader by 1.0 sec.\nCobra Shot reduces the cooldown of Howl of the Pack Leader by 1.0 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6208,10 +7261,10 @@
         "spell_id": 472357,
         "icon": "ability_hunter_pathfinding2"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Damage dealt by your pets is increased by 2%.\nBarbed Shot damage increased by 10%.",
+      "pvp_tooltip": "Damage dealt by your pets is increased by 2%.\nBarbed Shot damage increased by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6261,10 +7314,10 @@
         "spell_id": 472719,
         "icon": "ability_heroicleap"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When Disengage removes a movement impairing effect, its cooldown is reduced by 4 sec.",
+      "pvp_tooltip": "When Disengage removes a movement impairing effect, its cooldown is reduced by 4 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6314,10 +7367,10 @@
         "spell_id": 1268705,
         "icon": "ability_hunter_masterscall"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The duration of Master's Call is increased by 2 sec and it increases the movement speed of its target by 20%.",
+      "pvp_tooltip": "The duration of Master's Call is increased by 2 sec and it increases the movement speed of its target by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6367,10 +7420,10 @@
         "spell_id": 472476,
         "icon": "spell_druid_bearhug"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When your Bear is summoned, it is joined by 2 Dire Beasts.",
+      "pvp_tooltip": "When your Bear is summoned, it is joined by 2 Dire Beasts.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6420,10 +7473,10 @@
         "spell_id": 472524,
         "icon": "ability_druid_swipe"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The damage of your Bear's Rend Flesh is increased by 15%.",
+      "pvp_tooltip": "The damage of your Bear's Rend Flesh is increased by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6473,14 +7526,137 @@
         "spell_id": 472550,
         "icon": "spell_druid_feralchargecat"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your pet's attacks increase your Wyvern's damage bonus by 1%, up to 10%.\nCasting Kill Command extends the duration of your Wyvern by 0.5 sec, up to 5 additional sec.",
+      "pvp_tooltip": "Your pet's attacks increase your Wyvern's damage bonus by 1%, up to 10%.\nCasting Kill Command extends the duration of your Wyvern by 0.5 sec, up to 5 additional sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 472550,
+          "source_spell_id": 471936,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 12 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": "direct",
+          "aura_factor": 0.9,
+          "final_pvp_multiplier": 0.45,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            472550,
+            471881,
+            471876,
+            471936
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256939,
+              "game_effect_id": 1264704,
+              "amount_kind": "direct",
+              "value_pct": -10.0,
+              "factor": 0.9,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 472550,
+          "source_spell_id": 471938,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 14.4 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": "direct",
+          "aura_factor": 0.9,
+          "final_pvp_multiplier": 0.45,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            472550,
+            471881,
+            471876,
+            471938
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256939,
+              "game_effect_id": 1264704,
+              "amount_kind": "direct",
+              "value_pct": -10.0,
+              "factor": 0.9,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 472550,
+          "source_spell_id": 471999,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 0.9,
+          "final_pvp_multiplier": 0.9,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            472550,
+            471881,
+            471876,
+            471999
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256939,
+              "game_effect_id": 1266354,
+              "amount_kind": "periodic",
+              "value_pct": -10.0,
+              "factor": 0.9,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -6526,15 +7702,101 @@
         "spell_id": 472639,
         "icon": "inv_misc_boarshead"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "When your Boar deals damage, the damage of your next Cobra Shot is increased by 100%.\nEach additional enemy damaged by your Boar causes Cobra Shot to strike 1 additional target, up to 4.",
+      "pvp_tooltip": "When your Boar deals damage, the damage of your next Cobra Shot is increased by 50%.\nEach additional enemy damaged by your Boar causes Cobra Shot to strike 1 additional target, up to 4.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 80,
+          "end": 83,
+          "old_token": "100",
+          "new_token": "50",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "ordinary_value",
+          "old": 5.0,
+          "new": 2.5,
+          "full_tooltip_match_count": 1
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "100",
+          "new": "50"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 472639,
+          "source_spell_id": 472640,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 100.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 50.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            472639,
+            472640
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 472639,
+          "source_spell_id": 472640,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 5.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 2.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            472639,
+            472640
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Lethal Barbs",
@@ -6579,10 +7841,10 @@
         "spell_id": 1264781,
         "icon": "ability_hunter_criticalshot"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Approximately\n20\nprocs per minute\nYour auto shot have a very high chance to grants 3 Focus to you and your pet.\nAuto shot damage increased by 25%.",
+      "pvp_tooltip": "Approximately\n20\nprocs per minute\nYour auto shot have a very high chance to grants 3 Focus to you and your pet.\nAuto shot damage increased by 25%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6632,10 +7894,10 @@
         "spell_id": 472660,
         "icon": "ability_hunter_goforthethroat"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Bleed effects deal 10% increased damage.",
+      "pvp_tooltip": "Your Bleed effects deal 10% increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6685,10 +7947,10 @@
         "spell_id": 472707,
         "icon": "inv_babyturtle2"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Survival of the Fittest now summons a Turtle to aid you, further increasing its damage reduction effect by 10%.",
+      "pvp_tooltip": "Survival of the Fittest now summons a Turtle to aid you, further increasing its damage reduction effect by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6738,10 +8000,10 @@
         "spell_id": 1264797,
         "icon": "ability_hunter_beastwithin"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Hogstrider further increases the damage of Cobra Shot by 25% and it now strikes up to 3 additional targets.",
+      "pvp_tooltip": "Hogstrider further increases the damage of Cobra Shot by 25% and it now strikes up to 3 additional targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6791,10 +8053,10 @@
         "spell_id": 1264792,
         "icon": "ability_deathwing_assualtaspects"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The damage bonus from your Wyvern now lasts an additional 2.0 sec.",
+      "pvp_tooltip": "The damage bonus from your Wyvern now lasts an additional 2.0 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6844,10 +8106,10 @@
         "spell_id": 1264775,
         "icon": "inv_misc_monsterfang_02"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your mastery is increased by 3%.",
+      "pvp_tooltip": "Your mastery is increased by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6898,670 +8160,69 @@
         "spell_id": 472741,
         "icon": "ability_hunter_bestialdiscipline"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Bestial Wrath grants Howl of the Pack Leader and causes your next Kill Command to rouse the nearby wildlife into a Stampede, charging your target and dealing [(150% of Attack Power) * 9] Physical damage over 7 sec.",
+      "pvp_tooltip": "Casting Bestial Wrath grants Howl of the Pack Leader and causes your next Kill Command to rouse the nearby wildlife into a Stampede, charging your target and dealing [(150% of Attack Power) * 9] Physical damage over 7 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 472741,
+          "source_spell_id": 201594,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 1.5 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.81,
+          "final_pvp_multiplier": 0.81,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            472741,
+            201594
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256939,
+              "game_effect_id": 1264704,
+              "amount_kind": "direct",
+              "value_pct": -10.0,
+              "factor": 0.9,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256939,
+              "game_effect_id": 1352912,
+              "amount_kind": "direct",
+              "value_pct": -10.0,
+              "factor": 0.9,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     }
   ],
-  "fetch_errors": [
-    {
-      "source": "wowhead_page",
-      "spell_id": 1513,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e621e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 5116,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18227a40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 19574,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170ddb80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 19577,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ac530 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 19801,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16625190 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 34026,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165733b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 34477,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170de750 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 53480,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167d8a70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 109215,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16621880 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 109248,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1657ff50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 115939,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167895e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 120679,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16622870 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 147362,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dee480 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 187698,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1678b230 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 191384,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d12120 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 193455,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170dfbc0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 193532,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e740e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 199483,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1715ba70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 199530,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170dfa10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 199532,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d12060 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 199921,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166203e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 217200,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e75370 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 231548,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1715bfb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 264735,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16570f20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 266921,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165710a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 267116,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e76450 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 269737,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16621640 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 270581,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dfa0c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 273887,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16624890 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 321014,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16500ef0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 343242,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171f3500 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 343244,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e3ad0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 343247,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e74b90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 378002,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166c0a10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 378004,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e75c10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 378207,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16573c50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 378209,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d12f90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 378244,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166c36e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 378743,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170de930 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 384799,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d133e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 385539,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17159940 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 385810,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e63080 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 386870,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170debd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 388039,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17159be0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 392053,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165c3fe0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 393933,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16503f20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 407412,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c70d10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 424557,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16627440 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 424558,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d12c90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 430709,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171592b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 430712,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1715b350 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 459450,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166557f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 459455,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16788110 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 459460,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16711f10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 459488,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166237d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 459502,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16570140 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 459506,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c73470 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 459507,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16500110 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 459517,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c72c90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 459527,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da24b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 459534,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dfb4d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 459542,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167d8770 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 459546,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165710d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 459550,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17150560 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 459552,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18518e30 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 459693,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da0770 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 459730,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1678b8f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 459983,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16624290 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 459991,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16660f20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 466930,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da1e80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 466990,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170de510 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 467644,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165a7d70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 467741,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e60d70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 467749,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e63dd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 467897,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170ddeb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 467902,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165a7890 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 467911,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170dd910 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 468695,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16627200 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 468701,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e60a70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 469638,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16711010 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 469880,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165738f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 471876,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da0e60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 472352,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16788560 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 472357,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166b6b10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 472358,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16626bd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 472476,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166b6510 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 472524,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166268d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 472550,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165003b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 472639,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170dde50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 472660,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16625f10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 472707,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16626630 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 472719,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16503290 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 472729,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17158560 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 472741,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1654a9f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 474746,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166db530 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1217524,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16548800 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1232739,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d10f20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1235397,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d13530 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1258402,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16502390 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1258404,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16548050 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1258407,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16573b60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1258485,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170df350 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1258486,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166b6bd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1258509,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166af110 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1264289,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d10830 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1264290,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170ddd90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1264291,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166aef30 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1264359,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170df650 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1264690,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16573dd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1264775,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e751f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1264781,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e76ff0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1264792,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166d9100 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1264797,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dec9e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1264934,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16500d10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1265044,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170dd4f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1265051,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16502e70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1265052,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16626870 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1267003,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e2be90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1267218,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c72c60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1268671,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16621310 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1268705,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1654b170 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1268868,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dd5040 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1268871,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170df9e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1272094,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d130b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1272099,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167137a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1273043,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dd5c70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1273065,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166251c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1273126,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c119d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1277565,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170ddfd0 state=finished raised HTTPStatusError>]"
-    }
-  ],
+  "fetch_errors": [],
   "slug": "hunter-beast-mastery",
-  "generated_at": "2026-09-19T13:50:41.592314+00:00",
+  "generated_at": "2026-09-19T14:10:16.654794+00:00",
   "validation": {
     "talents": 129,
-    "changed_tooltips": 0,
-    "talents_with_pvp_mechanics": 0,
+    "changed_tooltips": 9,
+    "talents_with_pvp_mechanics": 24,
     "unique_nodes": 113,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
@@ -7569,104 +8230,67 @@
       "12.1.0.69587"
     ],
     "verification_status": "PARTIAL",
-    "fetch_error_count": 279,
-    "unresolved_count": 22,
-    "review_required_count": 129,
-    "fetch_error_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 1513,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16585190 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 5116,
-        "error": "RetryError: RetryError[<Future at 0x7fbf165058b0 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 19574,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16585e50 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 19577,
-        "error": "RetryError: RetryError[<Future at 0x7fbf165846b0 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 19801,
-        "error": "RetryError: RetryError[<Future at 0x7fbf167c90d0 state=finished raised HTTPStatusError>]"
-      }
-    ],
+    "fetch_error_count": 0,
+    "unresolved_count": 8,
+    "review_required_count": 0,
+    "fetch_error_examples": [],
     "unresolved_examples": [
       {
-        "spell_id": 5116,
-        "talent_name": "Concussive Shot",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.6,
-        "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)"
+        "spell_id": 191384,
+        "talent_name": "Aspect of the Beast",
+        "side": "wowhead",
+        "reason": "WOWHEAD_ONLY_MODIFIER",
+        "effect_index": 1,
+        "multiplier": 0.666667,
+        "effect_text": "Apply Aura: Modifies Damage/Healing Done"
       },
       {
-        "spell_id": 53480,
-        "talent_name": "Roar of Sacrifice",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 1.66,
-        "effect_text": "Apply Aura (6) | Modify Damage Taken% (87)"
+        "spell_id": 191384,
+        "talent_name": "Aspect of the Beast",
+        "side": "wowhead",
+        "reason": "WOWHEAD_ONLY_MODIFIER",
+        "effect_index": 2,
+        "multiplier": 0.666667,
+        "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)"
       },
       {
-        "spell_id": 193455,
-        "talent_name": "Cobra Shot",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.57,
-        "effect_text": "School Damage (2): physical"
+        "spell_id": 264735,
+        "talent_name": "Survival of the Fittest",
+        "side": "wowhead",
+        "reason": "WOWHEAD_ONLY_MODIFIER",
+        "effect_index": 1,
+        "multiplier": 0.833333,
+        "effect_text": "Apply Aura: Mod % Damage Taken (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)"
       },
       {
-        "spell_id": 217200,
-        "talent_name": "Barbed Shot",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.88,
-        "effect_text": "Apply Aura (6) | Periodic Damage (3): physical every 2 seconds"
+        "spell_id": 264735,
+        "talent_name": "Survival of the Fittest",
+        "side": "wowhead",
+        "reason": "WOWHEAD_ONLY_MODIFIER",
+        "effect_index": 2,
+        "multiplier": 0.833333,
+        "effect_text": "Apply Aura: Mod % Damage Taken (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)"
       },
       {
-        "spell_id": 466990,
-        "talent_name": "Withering Fire",
+        "spell_id": 472640,
+        "talent_name": "Hogstrider",
         "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
+        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
         "multiplier": 0.5,
-        "effect_text": "Apply Aura (6) | Dummy (4)"
+        "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0) | Attributes: Suppress Points Stacking (6)",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 472639,
+        "source_spell_id": 472640,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          472639,
+          472640
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref"
+        ]
       }
     ],
-    "review_required_examples": [
-      {
-        "talent_name": "Rejuvenating Wind",
-        "spell_id": 385539,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Survival of the Fittest",
-        "spell_id": 264735,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Posthaste",
-        "spell_id": 109215,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Natural Mending",
-        "spell_id": 270581,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Padded Armor",
-        "spell_id": 459450,
-        "status": "MISSING_TOOLTIP"
-      }
-    ]
+    "review_required_examples": []
   }
 }

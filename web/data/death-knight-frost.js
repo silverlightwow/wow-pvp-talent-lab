@@ -9224,7 +9224,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "death-knight-frost",
-  "generated_at": "2026-09-19T13:49:30.736847+00:00",
+  "generated_at": "2026-09-19T14:03:38.112520+00:00",
   "validation": {
     "talents": 121,
     "changed_tooltips": 16,

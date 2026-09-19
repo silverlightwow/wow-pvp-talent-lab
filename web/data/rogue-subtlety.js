@@ -49,15 +49,233 @@ window.WOW_PVP_DATA = {
         "spell_id": 5938,
         "icon": "inv_throwingknife_04"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [\nImproved Shiv\n:\npoisoned blades\n/ off-hand], dealing (125.4% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your\nactive Non-Lethal poison.\nAwards\n1\ncombo points.",
+      "pvp_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [\nImproved Shiv\n:\npoisoned blades\n/ off-hand], dealing (125.4% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your\nactive Non-Lethal poison.\nAwards\n1\ncombo points.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "REVIEW_REQUIRED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 70.0,
+          "new": 50.00002,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1,
+            2
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 25.0,
+          "new": 12.0,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "AMBIGUOUS_TEXT_MATCH",
+          "kind": "ordinary_value",
+          "old": 30.0,
+          "new": 20.00001,
+          "match_count": 2
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 5938,
+          "source_spell_id": 5938,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 1.254 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.84,
+          "final_pvp_multiplier": 0.84,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256946,
+              "game_effect_id": 1264712,
+              "amount_kind": "direct",
+              "value_pct": -16.0,
+              "factor": 0.84,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 5938,
+          "source_spell_id": 115196,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -70.0,
+          "spell_pvp_multiplier": 0.714286,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.714286,
+          "final_pvp_value": -50.00002,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            5938,
+            115196
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 5938,
+          "source_spell_id": 359078,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Casting Speed %",
+          "base_value": -25.0,
+          "spell_pvp_multiplier": 0.48,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.48,
+          "final_pvp_value": -12.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            5938,
+            359078
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 5938,
+          "source_spell_id": 359078,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Mod Attack Speed %",
+          "base_value": -25.0,
+          "spell_pvp_multiplier": 0.48,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.48,
+          "final_pvp_value": -12.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            5938,
+            359078
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 5938,
+          "source_spell_id": 245388,
+          "effect_index": 2,
+          "effect_text": "School Damage (Nature) (AP mod: 0.53 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.84,
+          "final_pvp_multiplier": 0.84,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            5938,
+            319504,
+            245388
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256946,
+              "game_effect_id": 1264712,
+              "amount_kind": "direct",
+              "value_pct": -16.0,
+              "factor": 0.84,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 5938,
+          "source_spell_id": 245389,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod All Damage Done % by Caster",
+          "base_value": 30.0,
+          "spell_pvp_multiplier": 0.666667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.666667,
+          "final_pvp_value": 20.00001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            5938,
+            319504,
+            245388,
+            245389
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 4
     },
     {
       "talent_name": "Blind",
@@ -102,10 +320,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 2094,
         "icon": "spell_shadow_mindsteal"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "15 yd range\nInstant\n2 min cooldown\nBlinds the target, causing it to wander disoriented for 1 min. Damage may interrupt the effect. Limit 1.",
+      "pvp_tooltip": "15 yd range\nInstant\n2 min cooldown\nBlinds the target, causing it to wander disoriented for 1 min. Damage may interrupt the effect. Limit 1.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -154,10 +372,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 31224,
         "icon": "spell_shadow_nethercloak"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n2 min cooldown\nProvides a moment of magic immunity, instantly removing all harmful spell effects. The cloak lingers, causing you to resist harmful spells for\n5 sec\n.",
+      "pvp_tooltip": "Instant\n2 min cooldown\nProvides a moment of magic immunity, instantly removing all harmful spell effects. The cloak lingers, causing you to resist harmful spells for\n5 sec\n.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -207,10 +425,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1267182,
         "icon": "ability_rogue_poisonedknife"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shiv's Energy cost is reduced by 20, its cooldown is reduced by 15 sec, and its range is increased by 3 yds.",
+      "pvp_tooltip": "Shiv's Energy cost is reduced by 20, its cooldown is reduced by 15 sec, and its range is increased by 3 yds.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -262,10 +480,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 378813,
         "icon": "ability_rogue_quickrecovery"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Movement speed increased by 15%.",
+      "pvp_tooltip": "Movement speed increased by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -315,10 +533,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1776,
         "icon": "ability_gouge"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "25 Energy\nMelee Range\nInstant\n25 sec cooldown\nGouges the eyes of an enemy target, incapacitating for 4 sec. Damage may interrupt the effect.\nMust be in front of your target.\nAwards\n1\ncombo points.",
+      "pvp_tooltip": "25 Energy\nMelee Range\nInstant\n25 sec cooldown\nGouges the eyes of an enemy target, incapacitating for 4 sec. Damage may interrupt the effect.\nMust be in front of your target.\nAwards\n1\ncombo points.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -368,15 +586,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 200733,
         "icon": "ability_rogue_bloodyeye"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Blind has 50% reduced cooldown, 70% reduced duration, and applies to all nearby enemies.",
+      "pvp_tooltip": "Blind has 50% reduced cooldown, 35% reduced duration, and applies to all nearby enemies.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 32,
+          "end": 34,
+          "old_token": "70",
+          "new_token": "35",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "70",
+          "new": "35"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 200733,
+          "source_spell_id": 200733,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Buff Duration (1)",
+          "base_value": -70.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": -35.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Thrill Seeking",
@@ -423,10 +686,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 394931,
         "icon": "inv_ragnaros_heart_shadowflame"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shadowstep has 1 additional charge.",
+      "pvp_tooltip": "Shadowstep has 1 additional charge.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -476,10 +739,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 378807,
         "icon": "ability_stealth"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While Stealth or Shadow Dance is active, you move 20% faster.",
+      "pvp_tooltip": "While Stealth or Shadow Dance is active, you move 20% faster.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -531,14 +794,53 @@ window.WOW_PVP_DATA = {
         "spell_id": 378436,
         "icon": "ability_creature_poison_06"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the non-damaging effects of your weapon poisons by 20%.",
+      "pvp_tooltip": "Increases the non-damaging effects of your weapon poisons by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 378436,
+          "source_spell_id": 383414,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (AP mod: 0.0814 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.84,
+          "final_pvp_multiplier": 0.84,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            378436,
+            381664,
+            383414
+          ],
+          "dependency_relations": [
+            "trigger_spell",
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256946,
+              "game_effect_id": 1264712,
+              "amount_kind": "direct",
+              "value_pct": -16.0,
+              "factor": 0.84,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -586,10 +888,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 79008,
         "icon": "ability_rogue_turnthetables"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Evasion also reduces damage taken by 20%, and Feint also reduces non-area-of-effect damage taken by 20%.",
+      "pvp_tooltip": "Evasion also reduces damage taken by 20%, and Feint also reduces non-area-of-effect damage taken by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -641,10 +943,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 31230,
         "icon": "ability_rogue_cheatdeath"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Fatal attacks instead reduce you to 7% of your maximum health. For 3 sec afterward, you take 85% reduced damage. Cannot trigger more often than once per 6 min.",
+      "pvp_tooltip": "Fatal attacks instead reduce you to 7% of your maximum health. For 3 sec afterward, you take 85% reduced damage. Cannot trigger more often than once per 6 min.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -696,10 +998,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 57934,
         "icon": "ability_rogue_tricksofthetrade"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "100 yd range\nInstant\n30 sec cooldown\n[\nThick as Thieves\n:\nIncreases the target's damage by 15%, and redirects\n/ Redirects] all threat you cause to the targeted party or raid member, beginning with your next damaging attack within the next 30 sec and lasting 6 sec.\n(100ms cooldown)",
+      "pvp_tooltip": "100 yd range\nInstant\n30 sec cooldown\n[\nThick as Thieves\n:\nIncreases the target's damage by 15%, and redirects\n/ Redirects] all threat you cause to the targeted party or raid member, beginning with your next damaging attack within the next 30 sec and lasting 6 sec.\n(100ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -751,10 +1053,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 379005,
         "icon": "ability_rogue_blackjack"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Enemies have\n30\n% reduced damage and healing for 6 sec after Blind or Sap's effect on them ends.",
+      "pvp_tooltip": "Enemies have\n30\n% reduced damage and healing for 6 sec after Blind or Sap's effect on them ends.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -805,10 +1107,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 319066,
         "icon": "inv_misc_herb_16"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Wound Poison can now stack 2 additional times.",
+      "pvp_tooltip": "Wound Poison can now stack 2 additional times.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -860,10 +1162,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 378427,
         "icon": "ability_rogue_crimsonvial"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Energy cost of Feint and Crimson Vial reduced by 10.",
+      "pvp_tooltip": "Energy cost of Feint and Crimson Vial reduced by 10.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -913,10 +1215,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 231719,
         "icon": "ability_rogue_nervesofsteel"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Physical damage taken reduced by 5%.",
+      "pvp_tooltip": "Physical damage taken reduced by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -968,10 +1270,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1267210,
         "icon": "ability_rogue_improvedrecuperate"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases your Agility by 3%.",
+      "pvp_tooltip": "Increases your Agility by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1022,10 +1324,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 231691,
         "icon": "ability_rogue_sprint"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Sprint by 60 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Sprint by 60 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1075,15 +1377,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 423701,
         "icon": "inv_misc_potionsete"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Crippling Poison reduces movement speed by an additional 10%.",
+      "pvp_tooltip": "Crippling Poison reduces movement speed by an additional 5%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 57,
+          "end": 59,
+          "old_token": "10",
+          "new_token": "5",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "10",
+          "new": "5"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 423701,
+          "source_spell_id": 423701,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Effect #1's Value (3)",
+          "base_value": -10.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": -5.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Evasion",
@@ -1130,10 +1477,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 5277,
         "icon": "spell_shadow_shadowward"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n2 min cooldown\nIncreases your dodge chance by 100% for 10 sec.",
+      "pvp_tooltip": "Instant\n2 min cooldown\nIncreases your dodge chance by 100% for 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1183,10 +1530,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 193546,
         "icon": "inv_misc_organ_11"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the healing you receive from Crimson Vial, healing potions, and healthstones by 25%.",
+      "pvp_tooltip": "Increases the healing you receive from Crimson Vial, healing potions, and healthstones by 25%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1240,10 +1587,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 381543,
         "icon": "ability_creature_poison_06"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the damage of your weapon poisons by 10%.",
+      "pvp_tooltip": "Increases the damage of your weapon poisons by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1293,10 +1640,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 423662,
         "icon": "ability_rogue_shroudofconcealment"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shroud of Concealment has 50% reduced cooldown.",
+      "pvp_tooltip": "Shroud of Concealment has 50% reduced cooldown.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1348,10 +1695,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 423647,
         "icon": "ability_rogue_ghostpirate"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Feint has 1 additional charge.",
+      "pvp_tooltip": "Feint has 1 additional charge.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1401,10 +1748,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 423683,
         "icon": "spell_magic_featherfall"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Sprint increases movement speed by an additional 30% and has 4 sec increased duration.",
+      "pvp_tooltip": "Sprint increases movement speed by an additional 30% and has 4 sec increased duration.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1455,14 +1802,71 @@ window.WOW_PVP_DATA = {
         "spell_id": 5761,
         "icon": "spell_nature_nullifydisease"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, clouding their mind and slowing their attack and casting speed by 15 /\nMaster Poisoner\n:\n18\n/\nMaster Poisoner\n:\n18\n% for 10 sec.\n(Proc chance: 30%)",
+      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, clouding their mind and slowing their attack and casting speed by 15 /\nMaster Poisoner\n:\n18\n/\nMaster Poisoner\n:\n18\n% for 10 sec.\n(Proc chance: 30%)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 5761,
+          "source_spell_id": 5760,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Casting Speed %",
+          "base_value": -15.0,
+          "spell_pvp_multiplier": 0.533333,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.533333,
+          "final_pvp_value": -7.999994999999999,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            5761,
+            5760
+          ],
+          "dependency_relations": [
+            "triggered_by_reverse"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 5761,
+          "source_spell_id": 5760,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Mod Attack Speed %",
+          "base_value": -15.0,
+          "spell_pvp_multiplier": 0.533333,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.533333,
+          "final_pvp_value": -7.999994999999999,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            5761,
+            5760
+          ],
+          "dependency_relations": [
+            "triggered_by_reverse"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -1509,10 +1913,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 381637,
         "icon": "ability_rogue_nervesofsteel"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, reducing their damage by (\n- 4\n*- 1)% for 1 min.\n(Proc chance: 30%)",
+      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, reducing their damage by (\n- 4\n*- 1)% for 1 min.\n(Proc chance: 30%)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1565,10 +1969,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 381542,
         "icon": "ability_rogue_deadenednerves"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the critical strike chance of your attacks that generate combo points by 5%.",
+      "pvp_tooltip": "Increases the critical strike chance of your attacks that generate combo points by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1618,10 +2022,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1293135,
         "icon": "inv_misc_potiona5"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Sanguine Vial - Spell - World of Warcraft\nSkip to Main Content\nThis site makes extensive use of JavaScript.\nPlease enable JavaScript in your browser.\nLive\nPTR\n12.1.0\nPTR\n12.1.5\nQuick Facts\nScreenshots\nVideos\nComments\nComment by\nItsversayce\nGrants you a 30-second",
+      "pvp_tooltip": "Sanguine Vial - Spell - World of Warcraft\nSkip to Main Content\nThis site makes extensive use of JavaScript.\nPlease enable JavaScript in your browser.\nLive\nPTR\n12.1.0\nPTR\n12.1.5\nQuick Facts\nScreenshots\nVideos\nComments\nComment by\nItsversayce\nGrants you a 30-second",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1674,10 +2078,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1267216,
         "icon": "inv_1115_firstkilloftheday_firstkilloftheday"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your finishing moves deal 6% increased damage.",
+      "pvp_tooltip": "Your finishing moves deal 6% increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1728,10 +2132,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 400804,
         "icon": "ability_rogue_trip"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the duration of movement slowing effects 30%.",
+      "pvp_tooltip": "Reduces the duration of movement slowing effects 30%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1783,10 +2187,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1267220,
         "icon": "ability_rogue_wrongfullyaccused"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You have a 20% chance to partially evade any damage dealt to you, reducing the damage it deals by 20%.",
+      "pvp_tooltip": "You have a 20% chance to partially evade any damage dealt to you, reducing the damage it deals by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1840,10 +2244,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 381988,
         "icon": "ability_rogue_slicedice"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Slice and Dice grants additional attack speed equal to 100% of your Haste.",
+      "pvp_tooltip": "Slice and Dice grants additional attack speed equal to 100% of your Haste.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1895,10 +2299,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 381620,
         "icon": "ability_rogue_ambush"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "[\nShadowstrike\n:\nShadowstrike damage increased by 8%\n/ Ambush generates 1 additional combo point].",
+      "pvp_tooltip": "[\nShadowstrike\n:\nShadowstrike damage increased by 8%\n/ Ambush generates 1 additional combo point].",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1950,10 +2354,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 381621,
         "icon": "inv_misc_coin_03"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Energy cost of finishing moves reduced by 6%.",
+      "pvp_tooltip": "Energy cost of finishing moves reduced by 6%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2003,10 +2407,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 280716,
         "icon": "rogue_leeching_poison"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Adds a Leeching effect to your Lethal poisons, granting you 3.0% Leech.",
+      "pvp_tooltip": "Adds a Leeching effect to your Lethal poisons, granting you 3.0% Leech.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2057,10 +2461,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 382238,
         "icon": "ability_criticalstrike"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Critical strike chance increased by 1%. Critical strike damage bonus of your attacks that generate combo points increased by 10%.",
+      "pvp_tooltip": "Critical strike chance increased by 1%. Critical strike damage bonus of your attacks that generate combo points increased by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2110,10 +2514,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 378996,
         "icon": "inv_gizmo_runichealthinjector"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Slice and Dice heals you for up to 1% of your maximum health per 3 sec.",
+      "pvp_tooltip": "Slice and Dice heals you for up to 1% of your maximum health per 3 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2164,10 +2568,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 193539,
         "icon": "ability_paladin_speedoflight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Haste increased by 1.5%.",
+      "pvp_tooltip": "Haste increased by 1.5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2217,15 +2621,55 @@ window.WOW_PVP_DATA = {
         "spell_id": 393970,
         "icon": "spell_shadow_twilight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You are healed for 30% of your maximum health over 6 sec after activating Vanish.",
+      "pvp_tooltip": "You are healed for 30% of your maximum health over 6 sec after activating Vanish.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 10.0,
+          "new": 5.0,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 393970,
+          "source_spell_id": 393971,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Total Health Regen %",
+          "base_value": 10.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 5.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            393970,
+            393971
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Vigor",
@@ -2270,10 +2714,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 14983,
         "icon": "ability_rogue_vigor"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases your maximum Energy by 50 and Energy regeneration by 5%.",
+      "pvp_tooltip": "Increases your maximum Energy by 50 and Energy regeneration by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2323,10 +2767,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 470347,
         "icon": "inv_engineering_90_electrifiedether"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shadow Dance supercharges 1 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
+      "pvp_tooltip": "Shadow Dance supercharges 1 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2376,10 +2820,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 108208,
         "icon": "rogue_subterfuge"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Abilities requiring Stealth can be used for 2 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 2 sec after Stealth breaks.",
+      "pvp_tooltip": "Abilities requiring Stealth can be used for 2 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 2 sec after Stealth breaks.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2427,10 +2871,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 469779,
         "icon": "inv_drink_milk_05"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Restore 100 Energy.\nWhen your Energy is reduced below 30, drink a Thistle Tea.",
+      "pvp_tooltip": "Restore 100 Energy.\nWhen your Energy is reduced below 30, drink a Thistle Tea.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2478,10 +2922,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1298826,
         "icon": "inv_drink_milk_05"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n1 min recharge\n3 Charges\nRestore 100 Energy.",
+      "pvp_tooltip": "Instant\n1 min recharge\n3 Charges\nRestore 100 Energy.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2529,10 +2973,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 382245,
         "icon": "spell_ice_lament"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Critically striking with an attack that generates combo points increases the critical strike chance of your next finishing move by 10%.\n(100ms cooldown)",
+      "pvp_tooltip": "Critically striking with an attack that generates combo points increases the critical strike chance of your next finishing move by 10%.\n(100ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2580,14 +3024,51 @@ window.WOW_PVP_DATA = {
         "spell_id": 470669,
         "icon": "inv_ability_rogue_echoingreprimand"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After consuming a supercharged combo point, your next\nBackstab also strikes the target with an Echoing Reprimand dealing (118% of Attack Power) Physical damage.",
+      "pvp_tooltip": "After consuming a supercharged combo point, your next\nBackstab also strikes the target with an Echoing Reprimand dealing (118% of Attack Power) Physical damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 470669,
+          "source_spell_id": 470672,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 1.18 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.84,
+          "final_pvp_multiplier": 0.84,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            470669,
+            470672
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256946,
+              "game_effect_id": 1264712,
+              "amount_kind": "direct",
+              "value_pct": -16.0,
+              "factor": 0.84,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -2631,10 +3112,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 470668,
         "icon": "inv_misc_enggizmos_06"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increase the bonus granted when a damaging finishing move consumes a supercharged combo point by 1.",
+      "pvp_tooltip": "Increase the bonus granted when a damaging finishing move consumes a supercharged combo point by 1.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2682,10 +3163,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 193531,
         "icon": "archaeology_5_0_changkiboard"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Gain 1 additional max combo point.\nYour finishing moves that consume more than 5 combo points have increased effects, and your finishing moves deal 5% increased damage.",
+      "pvp_tooltip": "Gain 1 additional max combo point.\nYour finishing moves that consume more than 5 combo points have increased effects, and your finishing moves deal 5% increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2733,10 +3214,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 382513,
         "icon": "ability_vanish"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Vanish has 1 additional charge.",
+      "pvp_tooltip": "Vanish has 1 additional charge.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2786,10 +3267,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 91023,
         "icon": "ability_rogue_findweakness"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Stealth abilities allow you to see the flaws in enemies' defenses, causing your attacks to ignore 30% armor for 10 sec.",
+      "pvp_tooltip": "Your Stealth abilities allow you to see the flaws in enemies' defenses, causing your attacks to ignore 30% armor for 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2839,10 +3320,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 319949,
         "icon": "ability_backstab"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "[\nGloomblade\n/ Backstab] has 15% increased critical strike chance.\nWhile behind your target, Backstab critical strikes grant Find Weakness for 10 sec.",
+      "pvp_tooltip": "[\nGloomblade\n/ Backstab] has 15% increased critical strike chance.\nWhile behind your target, Backstab critical strikes grant Find Weakness for 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2892,15 +3373,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 121471,
         "icon": "inv_knife_1h_grimbatolraid_d_03"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Instant\n1.5 min cooldown\nDraws upon surrounding shadows to empower your weapons, causing your attacks to deal 20% additional damage as Shadow and causing your combo point generating abilities to generate double combo points for 16 sec.",
+      "pvp_tooltip": "Instant\n1.5 min cooldown\nDraws upon surrounding shadows to empower your weapons, causing your attacks to deal 5% additional damage as Shadow and causing your combo point generating abilities to generate double combo points for 16 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 110,
+          "end": 112,
+          "old_token": "20",
+          "new_token": "5",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "20",
+          "new": "5"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 121471,
+          "source_spell_id": 121471,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 0.25,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.25,
+          "final_pvp_value": 5.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Improved Shuriken Storm",
@@ -2945,10 +3471,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 319951,
         "icon": "ability_rogue_shuriken_storm"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shuriken Storm has 15% increased critical strike chance.\nShuriken Storm critical strikes grant Find Weakness for 10 sec.",
+      "pvp_tooltip": "Shuriken Storm has 15% increased critical strike chance.\nShuriken Storm critical strikes grant Find Weakness for 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2999,10 +3525,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 343160,
         "icon": "spell_shadow_possession"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After entering Stealth, your next combo point generating ability generates full combo points.",
+      "pvp_tooltip": "After entering Stealth, your next combo point generating ability generates full combo points.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3053,10 +3579,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 382503,
         "icon": "inv_misc_hook_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shadowstep's cooldown is reduced by 20%, and its maximum range is increased by 20%.",
+      "pvp_tooltip": "Shadowstep's cooldown is reduced by 20%, and its maximum range is increased by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3107,10 +3633,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 426563,
         "icon": "ability_warlock_soullink"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases healing received by 8%.",
+      "pvp_tooltip": "Increases healing received by 8%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3161,10 +3687,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 385722,
         "icon": "ability_rogue_shuriken_storm"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Gaining Stealth, Vanish, or Shadow Dance causes your next Shuriken Storm to have 100% increased chance to critically strike.",
+      "pvp_tooltip": "Gaining Stealth, Vanish, or Shadow Dance causes your next Shuriken Storm to have 100% increased chance to critically strike.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3214,10 +3740,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 382507,
         "icon": "ability_rogue_envelopingshadows"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shroud of Concealment increases the movement speed of allies by 100% and leaving its area no longer cancels the effect.",
+      "pvp_tooltip": "Shroud of Concealment increases the movement speed of allies by 100% and leaving its area no longer cancels the effect.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3270,10 +3796,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 257505,
         "icon": "ability_cheapshot"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After using Vanish or Shadow Dance, your next Cheap Shot is free and ignores its cooldown.",
+      "pvp_tooltip": "After using Vanish or Shadow Dance, your next Cheap Shot is free and ignores its cooldown.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3326,10 +3852,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 428486,
         "icon": "inv_weapon_hand_04"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your finishing moves heal you for 5% of damage done. At full health gain shielding instead, absorbing up to 10% of your maximum health.",
+      "pvp_tooltip": "Your finishing moves heal you for 5% of damage done. At full health gain shielding instead, absorbing up to 10% of your maximum health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3382,15 +3908,57 @@ window.WOW_PVP_DATA = {
         "spell_id": 382515,
         "icon": "inv_helm_cloth_shadowmoonclan_b_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Vanish grants you a shield for 6 sec, absorbing damage equal to 18% of your maximum health.",
+      "pvp_tooltip": "Vanish grants you a shield for 6 sec, absorbing damage equal to 18% of your maximum health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 15.0,
+          "new": 10.000005,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 382515,
+          "source_spell_id": 341529,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 15.0,
+          "spell_pvp_multiplier": 0.666667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.666667,
+          "final_pvp_value": 10.000005,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            382515,
+            386165,
+            341529
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Fade to Nothing",
@@ -3438,10 +4006,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 382514,
         "icon": "ability_warlock_everlastingaffliction"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Movement speed increased by 20% and damage taken reduced by 10% for 8 sec after gaining Stealth, Vanish, or Shadow Dance.",
+      "pvp_tooltip": "Movement speed increased by 20% and damage taken reduced by 10% for 8 sec after gaining Stealth, Vanish, or Shadow Dance.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3491,10 +4059,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 277953,
         "icon": "spell_shadow_shadesofdarkness"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shuriken Storm reduces enemies' movement speed by\n50\n% for 8 sec.",
+      "pvp_tooltip": "Shuriken Storm reduces enemies' movement speed by\n50\n% for 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3544,10 +4112,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 428387,
         "icon": "ability_druid_typhoon"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shuriken Storm increases your movement speed by 30% for 3 sec when striking 3 or more enemies.",
+      "pvp_tooltip": "Shuriken Storm increases your movement speed by 30% for 3 sec when striking 3 or more enemies.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3600,10 +4168,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 196976,
         "icon": "spell_shadow_charm"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Gain 30 Energy over 3 sec when you enter Stealth or activate Shadow Dance.",
+      "pvp_tooltip": "Gain 30 Energy over 3 sec when you enter Stealth or activate Shadow Dance.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3653,14 +4221,47 @@ window.WOW_PVP_DATA = {
         "spell_id": 200758,
         "icon": "ability_ironmaidens_convulsiveshadows"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Replaces\nBackstab\n40 Energy\nMelee Range\nInstant\nPunctures your target with your shadow-infused blade for (123% of Attack Power) Shadow damage, bypassing armor. [\nImproved Backstab\n:\nCritical strikes apply Find Weakness for 10 sec\n]\nAwards\n1\ncombo points.",
+      "pvp_tooltip": "Replaces\nBackstab\n40 Energy\nMelee Range\nInstant\nPunctures your target with your shadow-infused blade for (123% of Attack Power) Shadow damage, bypassing armor. [\nImproved Backstab\n:\nCritical strikes apply Find Weakness for 10 sec\n]\nAwards\n1\ncombo points.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 200758,
+          "source_spell_id": 200758,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (AP mod: 1.23 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.74,
+          "amount_kind": "direct",
+          "aura_factor": 0.84,
+          "final_pvp_multiplier": 1.4616,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256946,
+              "game_effect_id": 1264712,
+              "amount_kind": "direct",
+              "value_pct": -16.0,
+              "factor": 0.84,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -3708,10 +4309,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 108209,
         "icon": "rogue_shadowfocus"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Abilities deal 10% more damage while Stealth or Shadow Dance is active.",
+      "pvp_tooltip": "Abilities deal 10% more damage while Stealth or Shadow Dance is active.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3761,10 +4362,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1279444,
         "icon": "ability_rogue_sinistercalling"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Secret Technique damage increased by 15%.",
+      "pvp_tooltip": "Secret Technique damage increased by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3817,10 +4418,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 58423,
         "icon": "ability_warrior_decisivestrike"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your finishing moves generate 4 Energy per combo point spent.",
+      "pvp_tooltip": "Your finishing moves generate 4 Energy per combo point spent.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3870,10 +4471,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 193537,
         "icon": "ability_ironmaidens_bladerush"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "[\nGloomblade\n/ Backstab] and Shadowstrike have a 15% chance to create a Shadow Clone that repeats the attack for 50% of normal damage as Shadow.",
+      "pvp_tooltip": "[\nGloomblade\n/ Backstab] and Shadowstrike have a 15% chance to create a Shadow Clone that repeats the attack for 50% of normal damage as Shadow.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3924,10 +4525,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 382508,
         "icon": "ability_creature_cursed_02"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shadow Dance increases the critical strike damage bonus of your abilities by 10%.",
+      "pvp_tooltip": "Shadow Dance increases the critical strike damage bonus of your abilities by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3978,10 +4579,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 426555,
         "icon": "achievement_bg_kill_flag_carrier"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shadow Dance increases attack speed by 25%.",
+      "pvp_tooltip": "Shadow Dance increases attack speed by 25%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4034,10 +4635,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 394930,
         "icon": "warrior_doubletime"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shadow Dance has 1 additional charge.",
+      "pvp_tooltip": "Shadow Dance has 1 additional charge.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4090,10 +4691,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 382511,
         "icon": "ability_rogue_eviscerate"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Eviscerate and Black Powder deal an additional 30% damage as Shadow while Find Weakness is active.",
+      "pvp_tooltip": "Eviscerate and Black Powder deal an additional 30% damage as Shadow while Find Weakness is active.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4144,10 +4745,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 394320,
         "icon": "archaeology_5_0_changkiboard"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Gain 1 additional max combo point.\nYour finishing moves that consume more than 5 combo points have increased effects, and your finishing moves deal 5% increased damage.",
+      "pvp_tooltip": "Gain 1 additional max combo point.\nYour finishing moves that consume more than 5 combo points have increased effects, and your finishing moves deal 5% increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4197,10 +4798,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1264764,
         "icon": "ability_rogue_throwingspecialization"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shuriken Storm has a 15% chance to create a Shadow Clone that repeats the attack for 50% of normal damage as Shadow.",
+      "pvp_tooltip": "Shuriken Storm has a 15% chance to create a Shadow Clone that repeats the attack for 50% of normal damage as Shadow.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4251,10 +4852,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1281468,
         "icon": "ability_rogue_nightblade"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shadow Clones deal 15% increased damage.\nCheap Shot creates a Shadow Clone to Shadowstrike the target for 50% of normal damage as Shadow.\nKidney Shot creates a Shadow Clone to Eviscerate the target for 50% of normal damage as Shadow.",
+      "pvp_tooltip": "Shadow Clones deal 15% increased damage.\nCheap Shot creates a Shadow Clone to Shadowstrike the target for 50% of normal damage as Shadow.\nKidney Shot creates a Shadow Clone to Eviscerate the target for 50% of normal damage as Shadow.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4306,10 +4907,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 185314,
         "icon": "spell_shadow_twilight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shadow Dance duration is increased by 150% of your Haste stat.\nCurrent bonus duration: (\n0\n/ 1000) sec",
+      "pvp_tooltip": "Shadow Dance duration is increased by 150% of your Haste stat.\nCurrent bonus duration: (\n0\n/ 1000) sec",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4362,14 +4963,116 @@ window.WOW_PVP_DATA = {
         "spell_id": 426591,
         "icon": "inv_knife_1h_artifactfangs_d_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "25 Energy\nMelee Range\nInstant\n45 sec cooldown\nLash out at your target and 2 additional nearby enemies, inflicting (630% of Attack Power) Shadow damage and causing them to Bleed for (1106% of Attack Power) damage over 14 sec.\n20% of all damage from Finishing Moves is repeated as Shadow, split evenly among affected enemies.",
+      "pvp_tooltip": "25 Energy\nMelee Range\nInstant\n45 sec cooldown\nLash out at your target and 2 additional nearby enemies, inflicting (630% of Attack Power) Shadow damage and causing them to Bleed for (1106% of Attack Power) damage over 14 sec.\n20% of all damage from Finishing Moves is repeated as Shadow, split evenly among affected enemies.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 426591,
+          "source_spell_id": 426592,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (AP mod: 6.3 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.84,
+          "final_pvp_multiplier": 0.84,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            426591,
+            426592
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256946,
+              "game_effect_id": 1264712,
+              "amount_kind": "direct",
+              "value_pct": -16.0,
+              "factor": 0.84,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 426591,
+          "source_spell_id": 426593,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.33,
+          "amount_kind": "periodic",
+          "aura_factor": 0.84,
+          "final_pvp_multiplier": 1.1172,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            426591,
+            426593
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256946,
+              "game_effect_id": 1266731,
+              "amount_kind": "periodic",
+              "value_pct": -16.0,
+              "factor": 0.84,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 426591,
+          "source_spell_id": 1309274,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 10.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            426591,
+            1309274
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -4417,10 +5120,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 382017,
         "icon": "spell_arcane_prismaticcloak"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your abilities deal 5% increased magic damage.",
+      "pvp_tooltip": "Your abilities deal 5% increased magic damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4471,15 +5174,60 @@ window.WOW_PVP_DATA = {
         "spell_id": 382506,
         "icon": "spell_deathknight_strangulate"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Shadow Clones deal 15% increased damage and your effects that have a chance to create them have 5% additional chance to occur.",
+      "pvp_tooltip": "Shadow Clones deal 5% increased damage and your effects that have a chance to create them have 5% additional chance to occur.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 19,
+          "end": 21,
+          "old_token": "15",
+          "new_token": "5",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "15",
+          "new": "5"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 382506,
+          "source_spell_id": 382506,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 15.0,
+          "spell_pvp_multiplier": 0.333333,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.333333,
+          "final_pvp_value": 4.999995,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Improved Find Weakness",
@@ -4525,10 +5273,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 382512,
         "icon": "ability_rogue_findweakness"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Find Weakness causes your attacks to ignore an additional 20% armor.",
+      "pvp_tooltip": "Find Weakness causes your attacks to ignore an additional 20% armor.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4580,10 +5328,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 382518,
         "icon": "ability_warrior_bloodfrenzy"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "[\nGloomblade\n/ Backstab], Shuriken Storm, and Shadowstrike have 10% increased damage while Find Weakness is active.",
+      "pvp_tooltip": "[\nGloomblade\n/ Backstab], Shuriken Storm, and Shadowstrike have 10% increased damage while Find Weakness is active.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4633,10 +5381,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 382524,
         "icon": "spell_fire_twilightnova"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After Shadow Dance ends, [\nGloomblade\n/ Backstab] and Shuriken Storm deal an additional 50% damage as Shadow, fading by 2.8% per sec.",
+      "pvp_tooltip": "After Shadow Dance ends, [\nGloomblade\n/ Backstab] and Shuriken Storm deal an additional 50% damage as Shadow, fading by 2.8% per sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4688,10 +5436,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 382517,
         "icon": "inv_weapon_shortblade_15"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shadow damage increased by 8%.\n(500ms cooldown)",
+      "pvp_tooltip": "Shadow damage increased by 8%.\n(500ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4742,10 +5490,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1265952,
         "icon": "spell_priest_divinestar_shadow"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Black Powder deals increased damage equal to 20% of your Mastery when it spends 5 or more combo points.\n(500ms cooldown)",
+      "pvp_tooltip": "Black Powder deals increased damage equal to 20% of your Mastery when it spends 5 or more combo points.\n(500ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4797,15 +5545,156 @@ window.WOW_PVP_DATA = {
         "spell_id": 469642,
         "icon": "spell_nzinsanity_shortsighted"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Find Weakness increases the damage of finishing moves by 5%.\nShadow Dance increases the damage of finishing moves by 5%.\nShadow Blades increases the damage of finishing moves by 5%.",
+      "pvp_tooltip": "Find Weakness increases the damage of finishing moves by 3%.\nShadow Dance increases the damage of finishing moves by 3%.\nShadow Blades increases the damage of finishing moves by 3%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 57,
+          "end": 58,
+          "old_token": "5",
+          "new_token": "3",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "start": 117,
+          "end": 118,
+          "old_token": "5",
+          "new_token": "3",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "start": 178,
+          "end": 179,
+          "old_token": "5",
+          "new_token": "3",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1,
+            2,
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "5",
+          "new": "3"
+        },
+        {
+          "effect_indexes": [
+            1,
+            2,
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "5",
+          "new": "3"
+        },
+        {
+          "effect_indexes": [
+            1,
+            2,
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "5",
+          "new": "3"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 469642,
+          "source_spell_id": 469642,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Add Modifier - Flat (Label): Modifies Effect #2's Value (12)",
+          "base_value": 5.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 3.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 469642,
+          "source_spell_id": 469642,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Effect #2's Value (12)",
+          "base_value": 5.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 3.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 469642,
+          "source_spell_id": 469642,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Modifies Effect #5's Value (33)",
+          "base_value": 5.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 3.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 3
     },
     {
       "talent_name": "Dark Shadow",
@@ -4854,15 +5743,106 @@ window.WOW_PVP_DATA = {
         "spell_id": 245687,
         "icon": "spell_warlock_demonsoul"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Shadow Dance increases all ability damage by 5%, and Shadowstrike and Shuriken Storm damage by an additional 5%.",
+      "pvp_tooltip": "Shadow Dance increases all ability damage by 3.3335%, and Shadowstrike and Shuriken Storm damage by an additional 3.3335%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 45,
+          "end": 46,
+          "old_token": "5",
+          "new_token": "3.3335",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1,
+            2
+          ]
+        },
+        {
+          "start": 109,
+          "end": 110,
+          "old_token": "5",
+          "new_token": "3.3335",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1,
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1,
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "5",
+          "new": "3.3335"
+        },
+        {
+          "effect_indexes": [
+            1,
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "5",
+          "new": "3.3335"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 245687,
+          "source_spell_id": 245687,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Effect #4's Value (32)",
+          "base_value": 5.0,
+          "spell_pvp_multiplier": 0.6667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6667,
+          "final_pvp_value": 3.3335,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 245687,
+          "source_spell_id": 245687,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Effect #5's Value (33)",
+          "base_value": 5.0,
+          "spell_pvp_multiplier": 0.6667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6667,
+          "final_pvp_value": 3.3335,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Finality",
@@ -4909,15 +5889,83 @@ window.WOW_PVP_DATA = {
         "spell_id": 382525,
         "icon": "ability_rogue_eviscerate"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Eviscerate and Black Powder have 15% increased critical strike damage bonus.",
+      "pvp_tooltip": "Eviscerate and Black Powder have 7.5% increased critical strike damage bonus.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 33,
+          "end": 35,
+          "old_token": "15",
+          "new_token": "7.5",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1,
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1,
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "15",
+          "new": "7.5"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 382525,
+          "source_spell_id": 382525,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Critical Strike Damage (15)",
+          "base_value": 15.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 7.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 382525,
+          "source_spell_id": 382525,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 15.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 7.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "The Rotten",
@@ -4960,14 +6008,43 @@ window.WOW_PVP_DATA = {
         "spell_id": 382015,
         "icon": "spell_shadow_nightofthedead"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After activating Shadow Dance, your next 2 attacks that generate combo points deal 35% increased damage.",
+      "pvp_tooltip": "After activating Shadow Dance, your next 2 attacks that generate combo points deal 35% increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 382015,
+          "source_spell_id": 394203,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 35.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 21.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            382015,
+            394203
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5012,10 +6089,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 426594,
         "icon": "spell_shadow_sealofkings"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While Shadow Dance is active, your Shadow Techniques triggers 25% more frequently and generates 1 additional combo point.",
+      "pvp_tooltip": "While Shadow Dance is active, your Shadow Techniques triggers 25% more frequently and generates 1 additional combo point.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5063,14 +6140,51 @@ window.WOW_PVP_DATA = {
         "spell_id": 382528,
         "icon": "ability_deathwing_bloodcorruption_death"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While Shadow Dance is active, each different attack that generates or spends combo points lashes out at the target, dealing (420% of Attack Power) Shadow damage.\n(500ms cooldown)",
+      "pvp_tooltip": "While Shadow Dance is active, each different attack that generates or spends combo points lashes out at the target, dealing (420% of Attack Power) Shadow damage.\n(500ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 382528,
+          "source_spell_id": 1264397,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (AP mod: 4.2 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.84,
+          "final_pvp_multiplier": 0.84,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            382528,
+            1264397
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256946,
+              "game_effect_id": 1264712,
+              "amount_kind": "direct",
+              "value_pct": -16.0,
+              "factor": 0.84,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5115,15 +6229,65 @@ window.WOW_PVP_DATA = {
         "spell_id": 382505,
         "icon": "ability_rogue_shadowdance"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Remaining out of combat for 6 sec increases the duration of your next Shadow Dance by 4 sec.",
+      "pvp_tooltip": "Remaining out of combat for 6 sec increases the duration of your next Shadow Dance by 2.6667 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 86,
+          "end": 87,
+          "old_token": "4",
+          "new_token": "2.6667",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "4",
+          "new": "2.6667"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 382505,
+          "source_spell_id": 470678,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Buff Duration (1)",
+          "base_value": 4.0,
+          "spell_pvp_multiplier": 0.666667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.666667,
+          "final_pvp_value": 2.666668,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            382505,
+            470678
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Dark Brew",
@@ -5166,10 +6330,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 382504,
         "icon": "spell_nature_slowpoison"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your weapon poisons have 10% increased application chance and now deal damage as Shadow instead of Nature.\nShadow damage increased by 10%.",
+      "pvp_tooltip": "Your weapon poisons have 10% increased application chance and now deal damage as Shadow instead of Nature.\nShadow damage increased by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5215,10 +6379,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1268932,
         "icon": "inv12_apextalent_rogue_ancientarts"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Damaging attacks that expend Shadow Techniques to generate combo points have a 15% chance per stack expended to create a Shadow Clone that repeats the attack for 50% of normal damage as Shadow.",
+      "pvp_tooltip": "Damaging attacks that expend Shadow Techniques to generate combo points have a 15% chance per stack expended to create a Shadow Clone that repeats the attack for 50% of normal damage as Shadow.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5264,10 +6428,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1268936,
         "icon": "inv12_apextalent_rogue_ancientarts"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shadow damage increased by 5%.\nShadow Clones have a 50% chance to trigger Shadow Techniques' effect.",
+      "pvp_tooltip": "Shadow damage increased by 5%.\nShadow Clones have a 50% chance to trigger Shadow Techniques' effect.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5313,10 +6477,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1268939,
         "icon": "inv12_apextalent_rogue_ancientarts"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After attacks that generate combo points, if 5 or more stacks of Shadow Techniques remain, your next damaging finishing move will expend them to generate combo points up to your max.",
+      "pvp_tooltip": "After attacks that generate combo points, if 5 or more stacks of Shadow Techniques remain, your next damaging finishing move will expend them to generate combo points up to your max.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5367,14 +6531,51 @@ window.WOW_PVP_DATA = {
         "spell_id": 457052,
         "icon": "inv_ability_deathstalkerrogue_deathstalkersmark"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shadowstrike applies 3 stacks of Deathstalker's Mark to your target, unless Deathstalker's Mark is already active. You learn Mark for Death.\nWhen you spend 5 or more combo points on attacks against a Marked target you consume an application of Deathstalker's Mark, dealing (156% of Attack Power) Plague damage.\nMark for Death\nMove your active Deathstalker's Mark to your target.",
+      "pvp_tooltip": "Shadowstrike applies 3 stacks of Deathstalker's Mark to your target, unless Deathstalker's Mark is already active. You learn Mark for Death.\nWhen you spend 5 or more combo points on attacks against a Marked target you consume an application of Deathstalker's Mark, dealing (156% of Attack Power) Plague damage.\nMark for Death\nMove your active Deathstalker's Mark to your target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 457052,
+          "source_spell_id": 457157,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature, Shadow) (AP mod: 1.56 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.84,
+          "final_pvp_multiplier": 0.84,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            457052,
+            457157
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256946,
+              "game_effect_id": 1264712,
+              "amount_kind": "direct",
+              "value_pct": -16.0,
+              "factor": 0.84,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5420,10 +6621,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1248793,
         "icon": "ability_rogue_fanofknives"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shuriken Storm damage increased by 60%.",
+      "pvp_tooltip": "Shuriken Storm damage increased by 60%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5473,14 +6674,51 @@ window.WOW_PVP_DATA = {
         "spell_id": 457054,
         "icon": "ability_rogue_creepingvenom"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Auto-attacks against Marked targets deal an additional (10% of Attack Power) Plague damage.",
+      "pvp_tooltip": "Auto-attacks against Marked targets deal an additional (10% of Attack Power) Plague damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 457054,
+          "source_spell_id": 457193,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature, Shadow) (AP mod: 0.1 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.84,
+          "final_pvp_multiplier": 0.84,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            457054,
+            457193
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256946,
+              "game_effect_id": 1264712,
+              "amount_kind": "direct",
+              "value_pct": -16.0,
+              "factor": 0.84,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5526,10 +6764,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 457055,
         "icon": "spell_hunter_focusingshot"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Damage dealt to targets other than your Marked target deals 5% Plague damage to your Marked target.",
+      "pvp_tooltip": "Damage dealt to targets other than your Marked target deals 5% Plague damage to your Marked target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5579,10 +6817,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1272989,
         "icon": "inv_tradeskillitem_sorcererswind"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Critical strike damage bonus increased by 20%.",
+      "pvp_tooltip": "Critical strike damage bonus increased by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5632,15 +6870,110 @@ window.WOW_PVP_DATA = {
         "spell_id": 1248774,
         "icon": "ability_warrior_deepcuts"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "When you consume an application of Deathstalker's Mark, the damage of your next\nis increased by 50% or Shadowstrike increased by 25%.",
+      "pvp_tooltip": "When you consume an application of Deathstalker's Mark, the damage of your next\nis increased by 30% or Shadowstrike increased by 15%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 96,
+          "end": 98,
+          "old_token": "50",
+          "new_token": "30",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 129,
+          "end": 131,
+          "old_token": "25",
+          "new_token": "15",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "50",
+          "new": "30"
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "25",
+          "new": "15"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1248774,
+          "source_spell_id": 1248775,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1248774,
+            1248775
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1248774,
+          "source_spell_id": 1248775,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 25.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 15.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1248774,
+            1248775
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Corrupt the Blood",
@@ -5685,10 +7018,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1248785,
         "icon": "ability_ironmaidens_bloodritual"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Deathstalker's Mark damage increased by 25%.",
+      "pvp_tooltip": "Deathstalker's Mark damage increased by 25%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5738,10 +7071,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 457056,
         "icon": "ability_rogue_envelopingshadows"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After Shadow Blades expires, gain 30% increased Shadow damage for 30 sec.",
+      "pvp_tooltip": "After Shadow Blades expires, gain 30% increased Shadow damage for 30 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5791,14 +7124,71 @@ window.WOW_PVP_DATA = {
         "spell_id": 457062,
         "icon": "ability_priest_surgeofdarkness"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shadow Dance additionally increases the damage of your next Eviscerate or Black Powder by 15%.",
+      "pvp_tooltip": "Shadow Dance additionally increases the damage of your next Eviscerate or Black Powder by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 457062,
+          "source_spell_id": 457167,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 18.0,
+          "spell_pvp_multiplier": 0.56,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.56,
+          "final_pvp_value": 10.080000000000002,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            457062,
+            457167
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 457062,
+          "source_spell_id": 457167,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 15.0,
+          "spell_pvp_multiplier": 0.6667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6667,
+          "final_pvp_value": 10.000499999999999,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            457062,
+            457167
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5844,10 +7234,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1273017,
         "icon": "ability_argus_deathfog"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Deathstalker's Mark has a 30% chance to immediately consume a stack when applied.",
+      "pvp_tooltip": "Deathstalker's Mark has a 30% chance to immediately consume a stack when applied.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5897,10 +7287,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 457022,
         "icon": "spell_arcane_prismaticcloak"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Cloak of Shadows duration increased by 2 sec.",
+      "pvp_tooltip": "Cloak of Shadows duration increased by 2 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5950,10 +7340,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 457034,
         "icon": "ability_druid_earthandsky"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Evasion reduces magical damage taken by 15%.\nCloak of Shadows reduces physical damage taken by 20%.",
+      "pvp_tooltip": "Evasion reduces magical damage taken by 15%.\nCloak of Shadows reduces physical damage taken by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6003,10 +7393,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 457067,
         "icon": "spell_shadow_shadesofdarkness"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "If you have critically struck with Shuriken Storm, increase the critical strike chance of Shuriken Storm and Black Powder by 10% and critical strike damage by 30% for 8 sec.",
+      "pvp_tooltip": "If you have critically struck with Shuriken Storm, increase the critical strike chance of Shuriken Storm and Black Powder by 10% and critical strike damage by 30% for 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6056,10 +7446,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 457068,
         "icon": "sha_ability_rogue_bloodyeye_nightmare"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shuriken Storm and Black Powder deal 15% additional damage while Find Weakness is active.",
+      "pvp_tooltip": "Shuriken Storm and Black Powder deal 15% additional damage while Find Weakness is active.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6109,10 +7499,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 457057,
         "icon": "rogue_shadow_reflection"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Each time you consume a stack of Deathstalker's Mark, reduce the cooldown of Shadowstep by 3 sec.",
+      "pvp_tooltip": "Each time you consume a stack of Deathstalker's Mark, reduce the cooldown of Shadowstep by 3 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6162,10 +7552,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 457063,
         "icon": "spell_holy_elunesgrace"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shroud of Concealment duration increased by 5 sec.",
+      "pvp_tooltip": "Shroud of Concealment duration increased by 5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6215,10 +7605,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1273035,
         "icon": "ability_hunter_rapidkilling"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Deathstalker's Mark deals 75% of its normal damage to all other enemies within 8 yds when a stack is consumed by Black Powder.",
+      "pvp_tooltip": "Deathstalker's Mark deals 75% of its normal damage to all other enemies within 8 yds when a stack is consumed by Black Powder.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6269,15 +7659,55 @@ window.WOW_PVP_DATA = {
         "spell_id": 457058,
         "icon": "spell_shadow_twilight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When you consume the final Deathstalker's Mark from a target or your target dies, gain 30 Energy and Darkest Night, causing your next Eviscerate cast with 5 or more combo points to critically strike, deal 50% additional damage, and apply 3 stacks of Deathstalker's Mark to the target if no other Deathstalker's Mark is active.\nEviscerate cast with Darkest Night does not consume a stack of active Deathstalker's Marks.",
+      "pvp_tooltip": "When you consume the final Deathstalker's Mark from a target or your target dies, gain 30 Energy and Darkest Night, causing your next Eviscerate cast with 5 or more combo points to critically strike, deal 50% additional damage, and apply 3 stacks of Deathstalker's Mark to the target if no other Deathstalker's Mark is active.\nEviscerate cast with Darkest Night does not consume a stack of active Deathstalker's Marks.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "ordinary_value",
+          "old": 35.0,
+          "new": 8.75,
+          "full_tooltip_match_count": 1
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 457058,
+          "source_spell_id": 457280,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 35.0,
+          "spell_pvp_multiplier": 0.25,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.25,
+          "final_pvp_value": 8.75,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            457058,
+            457280
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Unseen Blade",
@@ -6323,14 +7753,51 @@ window.WOW_PVP_DATA = {
         "spell_id": 441146,
         "icon": "inv_weapon_shortblade_55"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "and Shadowstrike now also strike with an Unseen Blade dealing (280% of Attack Power) damage. Targets struck are Fazed for 10 sec.\nFazed enemies take\n5\n% more damage from you and cannot parry your attacks.\nThis effect may occur once every 20 sec.",
+      "pvp_tooltip": "and Shadowstrike now also strike with an Unseen Blade dealing (280% of Attack Power) damage. Targets struck are Fazed for 10 sec.\nFazed enemies take\n5\n% more damage from you and cannot parry your attacks.\nThis effect may occur once every 20 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 441146,
+          "source_spell_id": 441144,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 2.8 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.84,
+          "final_pvp_multiplier": 0.84,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            441146,
+            441144
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256946,
+              "game_effect_id": 1264712,
+              "amount_kind": "direct",
+              "value_pct": -16.0,
+              "factor": 0.84,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -6376,10 +7843,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 441273,
         "icon": "ability_rogue_surpriseattack2"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Attacks that generate combo points deal 50% increased critical strike damage to Fazed targets.",
+      "pvp_tooltip": "Attacks that generate combo points deal 50% increased critical strike damage to Fazed targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6429,10 +7896,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 441247,
         "icon": "rogue_dirtytricks"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You take 5% reduced damage from Fazed targets.",
+      "pvp_tooltip": "You take 5% reduced damage from Fazed targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6482,10 +7949,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 441250,
         "icon": "trade_archaeology_highbornesoulmirror"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Feint reduces damage taken from area-of-effect attacks by an additional 10%",
+      "pvp_tooltip": "Feint reduces damage taken from area-of-effect attacks by an additional 10%",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6535,10 +8002,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 441321,
         "icon": "inv_qiraj_jewelblessed"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Unseen Blade and Secret Technique increase the damage of your finishing moves by 2% for 12 sec. Max 5 stacks.",
+      "pvp_tooltip": "Unseen Blade and Secret Technique increase the damage of your finishing moves by 2% for 12 sec. Max 5 stacks.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6588,10 +8055,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1276626,
         "icon": "spell_holy_dizzy"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Fazed increases damage taken by an additional 3%.",
+      "pvp_tooltip": "Fazed increases damage taken by an additional 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6641,10 +8108,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 441403,
         "icon": "ability_rogue_tricksofthetrade"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Tricks of the Trade's threat redirect duration is increased to 1 hour.",
+      "pvp_tooltip": "Tricks of the Trade's threat redirect duration is increased to 1 hour.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6694,15 +8161,50 @@ window.WOW_PVP_DATA = {
         "spell_id": 441415,
         "icon": "ability_rogue_disguise"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Blind and Shroud of Concealment have 10% reduced cooldown.\nPick Pocket and Sap have 10 yd increased range.",
+      "pvp_tooltip": "Blind and Shroud of Concealment have 10% reduced cooldown.\nPick Pocket and Sap have 10 yd increased range.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "REVIEW_REQUIRED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "AMBIGUOUS_TEXT_MATCH",
+          "kind": "ordinary_value",
+          "old": 10.0,
+          "new": 5.0,
+          "match_count": 2
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 441415,
+          "source_spell_id": 441415,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Range (5)",
+          "base_value": 10.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 5.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Devious Distractions",
@@ -6747,10 +8249,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 441263,
         "icon": "ability_rogue_ghostpirate"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Secret Technique applies Fazed to any targets struck.",
+      "pvp_tooltip": "Secret Technique applies Fazed to any targets struck.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6800,10 +8302,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 441346,
         "icon": "inv_10_specialization_blacksmithing_blades_color1"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Approximately\n4.5\nprocs per minute\nSlice and Dice grants 10% additional attack speed and gives your auto-attacks a chance to refresh your opportunity to strike with Unseen Blade.",
+      "pvp_tooltip": "Approximately\n4.5\nprocs per minute\nSlice and Dice grants 10% additional attack speed and gives your auto-attacks a chance to refresh your opportunity to strike with Unseen Blade.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6853,10 +8355,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 441359,
         "icon": "spell_nature_invisibilty"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Taking damage from an area-of-effect attack while Feint is active or dodging while Evasion is active refreshes your opportunity to strike with Unseen Blade.\nThis effect may only occur once every 5 sec.\n(5s cooldown)",
+      "pvp_tooltip": "Taking damage from an area-of-effect attack while Feint is active or dodging while Evasion is active refreshes your opportunity to strike with Unseen Blade.\nThis effect may only occur once every 5 sec.\n(5s cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6906,10 +8408,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1276630,
         "icon": "inv_1115_warrior_fastermeleeattacks"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Unseen Blade may now occur once every 15 sec and has 25% chance to strike twice.",
+      "pvp_tooltip": "Unseen Blade may now occur once every 15 sec and has 25% chance to strike twice.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6959,10 +8461,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 441274,
         "icon": "petbattle_speed"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Secret Technique has 10% reduced cooldown and allows your next 2 strikes of Unseen Blade to ignore its cooldown.",
+      "pvp_tooltip": "Secret Technique has 10% reduced cooldown and allows your next 2 strikes of Unseen Blade to ignore its cooldown.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7012,10 +8514,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 441429,
         "icon": "ability_rogue_smoke"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Activating Shadow Blades creates a cloud of smoke for 6 sec, allowing attacks from within the cloud to apply Fazed, stacking up to 2 additional times.\nEffect persists for 6 sec after leaving the cloud.",
+      "pvp_tooltip": "Activating Shadow Blades creates a cloud of smoke for 6 sec, allowing attacks from within the cloud to apply Fazed, stacking up to 2 additional times.\nEffect persists for 6 sec after leaving the cloud.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7065,10 +8567,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 441398,
         "icon": "ability_rogue_surpriseattack"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Finishing moves have 12% increased chance to critically strike Fazed targets.",
+      "pvp_tooltip": "Finishing moves have 12% increased chance to critically strike Fazed targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7118,10 +8620,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 441367,
         "icon": "ability_rogue_bladetwisting"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your auto-attacks, Unseen Blade, and Coup de Grace also strike up to 7 nearby enemies for 50% of normal damage while Flawless Form is active.",
+      "pvp_tooltip": "Your auto-attacks, Unseen Blade, and Coup de Grace also strike up to 7 nearby enemies for 50% of normal damage while Flawless Form is active.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7171,10 +8673,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 1276679,
         "icon": "ability_rogue_versatility"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Shuriken Storm has 10% increased critical strike chance and now triggers Unseen Blade when available.",
+      "pvp_tooltip": "Shuriken Storm has 10% increased critical strike chance and now triggers Unseen Blade when available.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7225,10 +8727,10 @@ window.WOW_PVP_DATA = {
         "spell_id": 441423,
         "icon": "inv_ability_tricksterrogue_coupdegrace"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After 4 strikes with Unseen Blade, your next Eviscerate will be performed as a Coup de Grace, functioning as if it had consumed 5 additional combo points, and granting you 5 stacks of Flawless Form.",
+      "pvp_tooltip": "After 4 strikes with Unseen Blade, your next Eviscerate will be performed as a Coup de Grace, functioning as if it had consumed 5 additional combo points, and granting you 5 stacks of Flawless Form.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7236,689 +8738,13 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     }
   ],
-  "fetch_errors": [
-    {
-      "source": "wowhead_page",
-      "spell_id": 1776,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16cca330 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 2094,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16793110 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 5277,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c40620 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 5761,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c40380 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 5938,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c6c4d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 14983,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167915b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 31224,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c40590 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 31230,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16cc9e50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 57934,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c40b00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 58423,
-      "error": "RetryError: RetryError[<Future at 0x7fbf15388410 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 79008,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d55a90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 91023,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c42f00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 108208,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c56cc0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 108209,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1681a060 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 121471,
-      "error": "RetryError: RetryError[<Future at 0x7fbf182cc050 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 185314,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167923f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 193531,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16cc8b90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 193537,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1f9e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 193539,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165bb7d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 193546,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1538a210 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 196976,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dd7020 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 200733,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b5ca0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 200758,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166d7290 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 231691,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166d9e80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 231719,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b5fa0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 245687,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e64560 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 257505,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1f8f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 277953,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1538b3b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 280716,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166d6ae0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 319066,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16cca990 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 319949,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16792d50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 319951,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166c0e60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 343160,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d57530 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 378427,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166d70b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 378436,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1538a810 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 378807,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fea50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 378813,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166d4a40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 378996,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c6dc70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 379005,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16574c50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 381542,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c40410 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 381543,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c414f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 381620,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166af800 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 381621,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1c320 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 381637,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dda6f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 381988,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e8a390 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382015,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16574050 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382017,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c42510 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382238,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167966f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382245,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c03350 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382503,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165753d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382504,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167907a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382505,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166ad550 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382506,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c43230 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382507,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b6cf0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382508,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c41250 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382511,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167c9c40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382512,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b4ef0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382513,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ccb1d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382514,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170acec0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382515,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1538bdd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382517,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16f7fb00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382518,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fee40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382524,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16654920 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382525,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c42690 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382528,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167c9370 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 385722,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16de0500 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 393970,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c553d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 394320,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d56d50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 394930,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16576c00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 394931,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1538b110 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 400804,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171dfb00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 423647,
-      "error": "RetryError: RetryError[<Future at 0x7fbf15389c10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 423662,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b7d10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 423683,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166f0650 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 423701,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da3b30 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 426555,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b53a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 426563,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167b7590 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 426591,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16f7ed80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 426594,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16cc9f10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 428387,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ccaf90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 428486,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e52ab0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441146,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165c1820 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441247,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e52d80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441250,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e511c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441263,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166b5b50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441273,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e980b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441274,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c566f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441321,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16790a40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441346,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c22360 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441359,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167914c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441367,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1827fbf0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441398,
-      "error": "RetryError: RetryError[<Future at 0x7fbf182cc200 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441403,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c23b60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441415,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16f7ee40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441423,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e52030 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 441429,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d55e80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 457022,
-      "error": "RetryError: RetryError[<Future at 0x7fbf15389cd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 457034,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c43770 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 457052,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166790d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 457054,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166d6b10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 457055,
-      "error": "RetryError: RetryError[<Future at 0x7fbf15389790 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 457056,
-      "error": "RetryError: RetryError[<Future at 0x7fbf182ce240 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 457057,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1d100 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 457058,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1538b050 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 457062,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1667a630 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 457063,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1678b290 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 457067,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1667af90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 457068,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166789e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 469642,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16679fd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 469779,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1667bc50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 470347,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c88fb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 470668,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c88200 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 470669,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1667a9c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1248774,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c8bbf0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1248785,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c88770 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1248793,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e52480 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1264764,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e2ae10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1265952,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1667b2f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1267182,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16678140 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1267210,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16678530 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1267216,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1667bad0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1267220,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c89bb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1268932,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e52060 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1268936,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da0680 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1268939,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da35f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1272989,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da2a20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1273017,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da1ac0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1273035,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da08f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1276626,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da05c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1276630,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da05f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1276679,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da0da0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1279444,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c89730 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1281468,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16da3ef0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1293135,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171deed0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1298826,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171deb40 state=finished raised HTTPStatusError>]"
-    }
-  ],
+  "fetch_errors": [],
   "slug": "rogue-subtlety",
-  "generated_at": "2026-09-19T13:52:14.505523+00:00",
+  "generated_at": "2026-09-19T14:19:13.372709+00:00",
   "validation": {
     "talents": 135,
-    "changed_tooltips": 0,
-    "talents_with_pvp_mechanics": 0,
+    "changed_tooltips": 9,
+    "talents_with_pvp_mechanics": 25,
     "unique_nodes": 113,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
@@ -7926,103 +8752,109 @@ window.WOW_PVP_DATA = {
       "12.1.0.69587"
     ],
     "verification_status": "PARTIAL",
-    "fetch_error_count": 291,
-    "unresolved_count": 30,
-    "review_required_count": 135,
-    "fetch_error_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 1776,
-        "error": "RetryError: RetryError[<Future at 0x7fbf165e55e0 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 2094,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16ecf470 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 5277,
-        "error": "RetryError: RetryError[<Future at 0x7fbf166d9a30 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 5761,
-        "error": "RetryError: RetryError[<Future at 0x7fbf165a78c0 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 5938,
-        "error": "RetryError: RetryError[<Future at 0x7fbf166dbb60 state=finished raised HTTPStatusError>]"
-      }
-    ],
+    "fetch_error_count": 0,
+    "unresolved_count": 5,
+    "review_required_count": 2,
+    "fetch_error_examples": [],
     "unresolved_examples": [
       {
-        "spell_id": 121471,
-        "talent_name": "Shadow Blades",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.25,
-        "effect_text": "Apply Aura (6) | Dummy (4)"
-      },
-      {
-        "spell_id": 200733,
-        "talent_name": "Airborne Irritant",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
+        "spell_id": 382525,
+        "talent_name": "Finality",
+        "side": "wowhead",
+        "reason": "WOWHEAD_ONLY_MODIFIER",
+        "effect_index": 1,
         "multiplier": 0.5,
-        "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Duration (1)"
+        "effect_text": "Apply Aura: Modifies Critical Strike Damage (15)"
       },
       {
-        "spell_id": 200758,
-        "talent_name": "Gloomblade",
+        "spell_id": 1248775,
+        "talent_name": "Unshakeable Drive",
         "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 1.74,
-        "effect_text": "School Damage (2): shadow"
+        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
+        "multiplier": 0.6,
+        "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 1248774,
+        "source_spell_id": 1248775,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          1248774,
+          1248775
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref"
+        ]
       },
       {
-        "spell_id": 245687,
-        "talent_name": "Dark Shadow",
+        "spell_id": 1248775,
+        "talent_name": "Unshakeable Drive",
         "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.66,
-        "effect_text": "Apply Aura (6) | Add Flat Modifier (107): Spell Effect 2 (12)"
+        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
+        "multiplier": 0.6,
+        "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 1248774,
+        "source_spell_id": 1248775,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          1248774,
+          1248775
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref"
+        ]
       },
       {
-        "spell_id": 245687,
-        "talent_name": "Dark Shadow",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.66,
-        "effect_text": "Apply Aura (6) | Add Flat Modifier (107): Spell Effect 5 (33)"
+        "spell_id": 1248775,
+        "talent_name": "Unshakeable Drive",
+        "side": "wowhead",
+        "reason": "WOWHEAD_ONLY_MODIFIER",
+        "effect_index": 1,
+        "multiplier": 0.6,
+        "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 1248774,
+        "source_spell_id": 1248775,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          1248774,
+          1248775
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref"
+        ]
+      },
+      {
+        "spell_id": 1248775,
+        "talent_name": "Unshakeable Drive",
+        "side": "wowhead",
+        "reason": "WOWHEAD_ONLY_MODIFIER",
+        "effect_index": 2,
+        "multiplier": 0.6,
+        "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 1248774,
+        "source_spell_id": 1248775,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          1248774,
+          1248775
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref"
+        ]
       }
     ],
     "review_required_examples": [
       {
         "talent_name": "Shiv",
         "spell_id": 5938,
-        "status": "MISSING_TOOLTIP"
+        "status": "REVIEW_REQUIRED"
       },
       {
-        "talent_name": "Blind",
-        "spell_id": 2094,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Cloak of Shadows",
-        "spell_id": 31224,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Toxic Stiletto",
-        "spell_id": 1267182,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Fleet Footed",
-        "spell_id": 378813,
-        "status": "MISSING_TOOLTIP"
+        "talent_name": "Don't Be Suspicious",
+        "spell_id": 441415,
+        "status": "REVIEW_REQUIRED"
       }
     ]
   }

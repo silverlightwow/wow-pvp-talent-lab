@@ -50,15 +50,83 @@
         "spell_id": 633,
         "icon": "spell_holy_layonhands"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "40 yd range\nInstant\n10 min cooldown\nHeals a friendly target for an amount equal to 100% your maximum health.\nCannot be used on a target with Forbearance. Causes Forbearance for 30 sec.",
+      "pvp_tooltip": "40 yd range\nInstant\n10 min cooldown\nHeals a friendly target for an amount equal to 75% your maximum health.\nCannot be used on a target with Forbearance. Causes Forbearance for 30 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 83,
+          "end": 86,
+          "old_token": "100",
+          "new_token": "75",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "100",
+          "new": "75"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 633,
+          "source_spell_id": 633,
+          "effect_index": 1,
+          "effect_text": "Heal to Full",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.75,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 633,
+          "source_spell_id": 633,
+          "effect_index": 2,
+          "effect_text": "Heal for % of Total Health",
+          "base_value": 100.0,
+          "spell_pvp_multiplier": 0.75,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": 75.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Auras of the Resolute",
@@ -103,10 +171,10 @@
         "spell_id": 385633,
         "icon": "spell_holy_devotionaura"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Learn Concentration Aura, Devotion Aura, and Crusader Aura:\nConcentration Aura\n:\nInterrupt and Silence effects on party and raid members within 40 yds are 30% shorter.\nDevotion Aura\n:\nParty and raid members within 40 yds are bolstered by their devotion, reducing damage taken by 3%.\nCrusader Aura\n:\nIncreases mounted speed by 20% for all party and raid members within 40 yds.",
+      "pvp_tooltip": "Learn Concentration Aura, Devotion Aura, and Crusader Aura:\nConcentration Aura\n:\nInterrupt and Silence effects on party and raid members within 40 yds are 30% shorter.\nDevotion Aura\n:\nParty and raid members within 40 yds are bolstered by their devotion, reducing damage taken by 3%.\nCrusader Aura\n:\nIncreases mounted speed by 20% for all party and raid members within 40 yds.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -156,14 +224,87 @@
         "spell_id": 1241288,
         "icon": "inv12_ability_paladin_hammerofwrath"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Hurls a divine hammer that strikes an enemy for [(215.807% of Attack Power) *\n1\n] Holy damage.\nGenerates 1 Holy Power.",
+      "pvp_tooltip": "Hurls a divine hammer that strikes an enemy for [(215.807% of Attack Power) *\n1\n] Holy damage.\nGenerates 1 Holy Power.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 1241288,
+          "source_spell_id": 24275,
+          "effect_index": 1,
+          "effect_text": "School Damage (Holy) (AP mod: 2.15807 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.3,
+          "final_pvp_multiplier": 1.3,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1241288,
+            24275
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428076,
+              "game_effect_id": 1150035,
+              "amount_kind": "direct",
+              "value_pct": 30.0,
+              "factor": 1.3,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 1241288,
+          "source_spell_id": 24275,
+          "effect_index": 3,
+          "effect_text": "School Damage (Holy) (AP mod: 1.61855 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.3,
+          "final_pvp_multiplier": 1.3,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1241288,
+            24275
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428076,
+              "game_effect_id": 1150035,
+              "amount_kind": "direct",
+              "value_pct": 30.0,
+              "factor": 1.3,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -210,10 +351,10 @@
         "spell_id": 393024,
         "icon": "spell_holy_purify"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Cleanse additionally removes all Disease and Poison effects.",
+      "pvp_tooltip": "Cleanse additionally removes all Disease and Poison effects.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -263,10 +404,10 @@
         "spell_id": 387791,
         "icon": "spell_holy_layonhands"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Lay on Hands grants the target 30% increased armor for 8 sec and now ignores healing reduction effects.",
+      "pvp_tooltip": "Lay on Hands grants the target 30% increased armor for 8 sec and now ignores healing reduction effects.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -319,10 +460,10 @@
         "spell_id": 234299,
         "icon": "spell_holy_fistofjustice"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Hammer of Justice's cooldown is reduced by 15 sec.",
+      "pvp_tooltip": "Hammer of Justice's cooldown is reduced by 15 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -375,10 +516,10 @@
         "spell_id": 115750,
         "icon": "ability_paladin_blindinglight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "1.2% of base mana\nInstant\n1.5 min cooldown\nEmits dazzling light in all directions, blinding enemies within 10 yds, causing them to wander disoriented for 6 sec. Damage may cancel the effect.",
+      "pvp_tooltip": "1.2% of base mana\nInstant\n1.5 min cooldown\nEmits dazzling light in all directions, blinding enemies within 10 yds, causing them to wander disoriented for 6 sec. Damage may cancel the effect.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -428,10 +569,10 @@
         "spell_id": 10326,
         "icon": "ability_paladin_turnevil"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "2.1% of base mana\n20 yd range\n1.5 sec cast\n15 sec cooldown\nThe power of the Light compels an Undead, Aberration, or Demon target to flee for up to 40 sec. Damage may break the effect. Lesser creatures have a chance to be destroyed. Only one target can be turned at a time.",
+      "pvp_tooltip": "2.1% of base mana\n20 yd range\n1.5 sec cast\n15 sec cooldown\nThe power of the Light compels an Undead, Aberration, or Demon target to flee for up to 40 sec. Damage may break the effect. Lesser creatures have a chance to be destroyed. Only one target can be turned at a time.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -481,10 +622,10 @@
         "spell_id": 469411,
         "icon": "spell_holy_blindingheal"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After Cleanse successfully removes an effect from an ally, they are healed for [(540% of Spell Power)].",
+      "pvp_tooltip": "After Cleanse successfully removes an effect from an ally, they are healed for [(540% of Spell Power)].",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -536,10 +677,10 @@
         "spell_id": 385414,
         "icon": "spell_holy_aspiration"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After you spend 20 Holy Power, your next Word of Glory echoes onto a nearby ally at 30% effectiveness.",
+      "pvp_tooltip": "After you spend 20 Holy Power, your next Word of Glory echoes onto a nearby ally at 30% effectiveness.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -587,10 +728,10 @@
         "spell_id": 404357,
         "icon": "ability_crown_of_the_heavens_icon"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When your health is brought below 25%, you instantly cast a free Word of Glory at 60% effectiveness on yourself.\nCannot occur more than once every 60 sec.\n(1m cooldown)",
+      "pvp_tooltip": "When your health is brought below 25%, you instantly cast a free Word of Glory at 60% effectiveness on yourself.\nCannot occur more than once every 60 sec.\n(1m cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -644,10 +785,10 @@
         "spell_id": 190784,
         "icon": "ability_paladin_divinesteed"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n45 sec cooldown\n1 Charge\nLeap atop your Charger for\n3 sec\n, increasing movement speed by 100%. Usable while indoors or in combat.",
+      "pvp_tooltip": "Instant\n45 sec cooldown\n1 Charge\nLeap atop your Charger for\n3 sec\n, increasing movement speed by 100%. Usable while indoors or in combat.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -695,10 +836,10 @@
         "spell_id": 469325,
         "icon": "inv_shoulder_raidpaladindragon_d_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The cooldown of Blinding Light is reduced by 15 sec.",
+      "pvp_tooltip": "The cooldown of Blinding Light is reduced by 15 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -750,15 +891,60 @@
         "spell_id": 231644,
         "icon": "spell_holy_righteousfury"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Judgment deems the target unworthy, preventing the next [(Spell Power * 483 / 100) * (1 + Versatility)] damage dealt by the target.",
+      "pvp_tooltip": "Judgment deems the target unworthy, preventing the next [(Spell Power * 179.3862 / 100) * (1 + Versatility)] damage dealt by the target.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 72,
+          "end": 75,
+          "old_token": "483",
+          "new_token": "179.3862",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "483",
+          "new": "179.3862"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 231644,
+          "source_spell_id": 231644,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy (12)",
+          "base_value": 483.0,
+          "spell_pvp_multiplier": 0.3714,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.3714,
+          "final_pvp_value": 179.3862,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Wrench Evil",
@@ -803,10 +989,10 @@
         "spell_id": 460720,
         "icon": "ability_paladin_turnevil"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Turn Evil's cast time is reduced by 100%.",
+      "pvp_tooltip": "Turn Evil's cast time is reduced by 100%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -856,10 +1042,10 @@
         "spell_id": 469317,
         "icon": "spell_holy_excorcism"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Turn Evil now affects 5 additional enemies.",
+      "pvp_tooltip": "Turn Evil now affects 5 additional enemies.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -911,10 +1097,10 @@
         "spell_id": 469445,
         "icon": "spell_holy_sealofsalvation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Forbearance's duration is reduced by 10 sec.",
+      "pvp_tooltip": "Your Forbearance's duration is reduced by 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -966,10 +1152,10 @@
         "spell_id": 230332,
         "icon": "ability_paladin_divinesteed"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Divine Steed now has 2 charges.",
+      "pvp_tooltip": "Divine Steed now has 2 charges.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1017,10 +1203,10 @@
         "spell_id": 469409,
         "icon": "ability_mount_charger"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Divine Steed's cooldown is reduced by 20%, but its duration is reduced by 40%.",
+      "pvp_tooltip": "Divine Steed's cooldown is reduced by 20%, but its duration is reduced by 40%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1072,10 +1258,10 @@
         "spell_id": 469304,
         "icon": "spell_holy_crusaderaura"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Divine Steed also grants Blessing of Freedom for 3.0 sec.\nBlessing of Freedom\n:\nBlesses a party or raid member, granting immunity to movement impairing effects [\nUnbound Freedom\n:\nand increasing movement speed by 30%\n]for 8 sec.\n(100ms cooldown)",
+      "pvp_tooltip": "Divine Steed also grants Blessing of Freedom for 3.0 sec.\nBlessing of Freedom\n:\nBlesses a party or raid member, granting immunity to movement impairing effects [\nUnbound Freedom\n:\nand increasing movement speed by 30%\n]for 8 sec.\n(100ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1127,10 +1313,10 @@
         "spell_id": 1044,
         "icon": "spell_holy_sealofvalor"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "1.4% of base mana\n40 yd range\nInstant\n25 sec cooldown\n1 Charge\nBlesses a party or raid member, granting immunity to movement impairing effects [\nUnbound Freedom\n:\nand increasing movement speed by 30%\n]for 8 sec.",
+      "pvp_tooltip": "1.4% of base mana\n40 yd range\nInstant\n25 sec cooldown\n1 Charge\nBlesses a party or raid member, granting immunity to movement impairing effects [\nUnbound Freedom\n:\nand increasing movement speed by 30%\n]for 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1181,10 +1367,10 @@
         "spell_id": 1277443,
         "icon": "inv12_ability_paladin_sentinel"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While holding a shield, you have a 15% chance to block incoming spells, reducing their damage by 20%.\nWithout a shield, you have a 15% chance to parry incoming melee attacks, reducing their damage by 20%.",
+      "pvp_tooltip": "While holding a shield, you have a 15% chance to block incoming spells, reducing their damage by 20%.\nWithout a shield, you have a 15% chance to parry incoming melee attacks, reducing their damage by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1237,10 +1423,10 @@
         "spell_id": 385427,
         "icon": "ability_paladin_speedoflight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Speed increased by 2% and damage taken from area of effect attacks reduced by 2%.",
+      "pvp_tooltip": "Speed increased by 2% and damage taken from area of effect attacks reduced by 2%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1293,10 +1479,10 @@
         "spell_id": 375576,
         "icon": "inv_ability_paladin_divinetoll"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "3% of base mana\n30 yd range\nInstant\n1 min cooldown\nInstantly cast Holy Shock, Avenger's Shield, or Judgment on up to 5 targets within 30 yds.",
+      "pvp_tooltip": "3% of base mana\n30 yd range\nInstant\n1 min cooldown\nInstantly cast Holy Shock, Avenger's Shield, or Judgment on up to 5 targets within 30 yds.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1349,10 +1535,10 @@
         "spell_id": 114165,
         "icon": "spell_paladin_holyprism"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "2.6% of base mana\n40 yd range\nInstant\n45 sec cooldown\nFires a beam of light that scatters to strike a clump of targets.\nIf the beam is aimed at an enemy target, it deals (648% of Spell Power) Holy damage and radiates [(688% of Spell Power) *\n1\n] healing to 5 allies within 30 yds.\nIf the beam is aimed at a friendly target, it heals for [(1587.6% of Spell Power) *\n1\n] and radiates (245.7% of Spell Power) Holy damage to 5 enemies within 30 yds.\nGenerates 3 Holy Power.",
+      "pvp_tooltip": "2.6% of base mana\n40 yd range\nInstant\n45 sec cooldown\nFires a beam of light that scatters to strike a clump of targets.\nIf the beam is aimed at an enemy target, it deals (648% of Spell Power) Holy damage and radiates [(688% of Spell Power) *\n1\n] healing to 5 allies within 30 yds.\nIf the beam is aimed at a friendly target, it heals for [(1587.6% of Spell Power) *\n1\n] and radiates (245.7% of Spell Power) Holy damage to 5 enemies within 30 yds.\nGenerates 3 Holy Power.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1402,10 +1588,10 @@
         "spell_id": 387801,
         "icon": "achievement_dungeon_heroic_gloryoftheraider"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Blessing of Freedom increases the target's movement speed by 30%. [\nBlessing of Spellwarding\n/ Blessing of Protection] and Blessing of Sacrifice reduce the target's damage taken by 15%. These effects linger for 8 sec after the Blessing ends.",
+      "pvp_tooltip": "Blessing of Freedom increases the target's movement speed by 30%. [\nBlessing of Spellwarding\n/ Blessing of Protection] and Blessing of Sacrifice reduce the target's damage taken by 15%. These effects linger for 8 sec after the Blessing ends.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1455,10 +1641,10 @@
         "spell_id": 305394,
         "icon": "spell_holy_sealofvalor"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Blessing of Freedom increases movement speed by 30%, and you gain Blessing of Freedom when cast on a friendly target.",
+      "pvp_tooltip": "Blessing of Freedom increases movement speed by 30%, and you gain Blessing of Freedom when cast on a friendly target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1512,10 +1698,10 @@
         "spell_id": 402964,
         "icon": "inv_chest_plate_raidpaladin_s_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Armor increased by 10%, Stamina increased by 5% and damage taken from area of effect attacks reduced by 3%.",
+      "pvp_tooltip": "Armor increased by 10%, Stamina increased by 5% and damage taken from area of effect attacks reduced by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1567,10 +1753,10 @@
         "spell_id": 469476,
         "icon": "spell_holy_mindvision"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The radius of your auras is increased by 20 yds.",
+      "pvp_tooltip": "The radius of your auras is increased by 20 yds.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1620,10 +1806,10 @@
         "spell_id": 1265549,
         "icon": "paladin_holy"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Killing an enemy that yields experience or honor causes you to explode with holy energy, healing up to 5 nearby allies and yourself for (625% of Attack Power), split evenly among them.",
+      "pvp_tooltip": "Killing an enemy that yields experience or honor causes you to explode with holy energy, healing up to 5 nearby allies and yourself for (625% of Attack Power), split evenly among them.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1677,10 +1863,10 @@
         "spell_id": 6940,
         "icon": "spell_holy_sealofsacrifice"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "1.4% of base mana\n40 yd range\nInstant\n2 min cooldown\nBlesses a party or raid member, reducing their damage taken by 30%, but you suffer 100% of damage prevented.\nLast 12 sec, or until transferred damage would cause you to fall below 20% health.",
+      "pvp_tooltip": "1.4% of base mana\n40 yd range\nInstant\n2 min cooldown\nBlesses a party or raid member, reducing their damage taken by 30%, but you suffer 100% of damage prevented.\nLast 12 sec, or until transferred damage would cause you to fall below 20% health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1728,10 +1914,10 @@
         "spell_id": 386738,
         "icon": "ability_mount_goatmountwhite"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After casting Holy Prism, Holy Armament, or Divine Toll, you instantly cast Holy Shock every 5 sec for 15 sec.",
+      "pvp_tooltip": "After casting Holy Prism, Holy Armament, or Divine Toll, you instantly cast Holy Shock every 5 sec for 15 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1779,10 +1965,10 @@
         "spell_id": 379391,
         "icon": "spell_holy_pureofheart"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Divine Toll's, Holy Armament's, and Holy Prism's cooldown is reduced by 15 sec.",
+      "pvp_tooltip": "Divine Toll's, Holy Armament's, and Holy Prism's cooldown is reduced by 15 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1836,10 +2022,10 @@
         "spell_id": 1022,
         "icon": "spell_holy_sealofprotection"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "3% of base mana\n40 yd range\nInstant\n5 min cooldown\n1 Charge\nBlesses a party or raid member, granting immunity to Physical damage and harmful effects for 10 sec.\nCannot be used on a target with Forbearance. Causes Forbearance for 30 sec.",
+      "pvp_tooltip": "3% of base mana\n40 yd range\nInstant\n5 min cooldown\n1 Charge\nBlesses a party or raid member, granting immunity to Physical damage and harmful effects for 10 sec.\nCannot be used on a target with Forbearance. Causes Forbearance for 30 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1889,15 +2075,125 @@
         "spell_id": 1265541,
         "icon": "inv_bracer_plate_raidpaladin_r_01mythic"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Fear duration on you reduced by 20%. This effect is increased to 60% during Avenging Wrath.",
+      "pvp_tooltip": "Fear duration on you reduced by 5%. This effect is increased to 15% during Avenging Wrath.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 32,
+          "end": 34,
+          "old_token": "20",
+          "new_token": "5",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1,
+            3
+          ]
+        },
+        {
+          "start": 65,
+          "end": 67,
+          "old_token": "60",
+          "new_token": "15",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1,
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "20",
+          "new": "5"
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "60",
+          "new": "15"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1265541,
+          "source_spell_id": 1265541,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Mechanic Duration % (Fleeing)",
+          "base_value": -20.0,
+          "spell_pvp_multiplier": 0.25,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.25,
+          "final_pvp_value": -5.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1265541,
+          "source_spell_id": 1265541,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": -60.0,
+          "spell_pvp_multiplier": 0.25,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.25,
+          "final_pvp_value": -15.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1265541,
+          "source_spell_id": 1265541,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": -20.0,
+          "spell_pvp_multiplier": 0.25,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.25,
+          "final_pvp_value": -5.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        }
+      ],
+      "render_effect_count": 3
     },
     {
       "talent_name": "Consecrated Ground",
@@ -1943,10 +2239,10 @@
         "spell_id": 204054,
         "icon": "ability_paladin_righteousvengeance"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Consecration is 15% larger, and enemies within it have 50% reduced movement speed.",
+      "pvp_tooltip": "Your Consecration is 15% larger, and enemies within it have 50% reduced movement speed.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1999,10 +2295,10 @@
         "spell_id": 385515,
         "icon": "ability_paladin_touchedbylight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Armor and critical strike chance increased by 4%.",
+      "pvp_tooltip": "Armor and critical strike chance increased by 4%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2054,10 +2350,10 @@
         "spell_id": 384820,
         "icon": "spell_holy_sealofsacrifice"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Blessing of Sacrifice by 60 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Blessing of Sacrifice by 60 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2109,10 +2405,10 @@
         "spell_id": 384914,
         "icon": "ability_racial_foregedinflames"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After your Blessing of Sacrifice ends, 50% of the total damage it diverted is added to your next Judgment as bonus damage, or your next Word of Glory as bonus healing.\nThis effect's bonus damage cannot exceed 30% of your maximum health and its bonus healing cannot exceed 100% of your maximum health.",
+      "pvp_tooltip": "After your Blessing of Sacrifice ends, 50% of the total damage it diverted is added to your next Judgment as bonus damage, or your next Word of Glory as bonus healing.\nThis effect's bonus damage cannot exceed 30% of your maximum health and its bonus healing cannot exceed 100% of your maximum health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2164,10 +2460,10 @@
         "spell_id": 469337,
         "icon": "spell_holy_righteousnessaura"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Holy Power spending abilities have 2% increased damage and healing.",
+      "pvp_tooltip": "Holy Power spending abilities have 2% increased damage and healing.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2219,10 +2515,10 @@
         "spell_id": 223817,
         "icon": "spell_holy_divinepurpose"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Holy Power spending abilities have a 15% chance to make your next Holy Power spending ability free and deal 15% increased damage and healing.\n(100ms cooldown)",
+      "pvp_tooltip": "Holy Power spending abilities have a 15% chance to make your next Holy Power spending ability free and deal 15% increased damage and healing.\n(100ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2273,10 +2569,10 @@
         "spell_id": 384909,
         "icon": "spell_holy_sealofprotection"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Blessing of Protection by 60 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Blessing of Protection by 60 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2329,10 +2625,10 @@
         "spell_id": 114154,
         "icon": "spell_holy_holyguidance"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of your Divine Shield, [\nShield of Vengeance\n:\nShield of Vengeance\n] [\nArdent Defender\n/\nDivine Protection\n], and Lay on Hands by 30%.",
+      "pvp_tooltip": "Reduces the cooldown of your Divine Shield, [\nShield of Vengeance\n:\nShield of Vengeance\n] [\nArdent Defender\n/\nDivine Protection\n], and Lay on Hands by 30%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2383,10 +2679,10 @@
         "spell_id": 406468,
         "icon": "spell_holy_circleofrenewal"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "[\nDenounce\n/ Shield of the Righteous] heals you and up to 2 nearby allies for (125% of Attack Power).",
+      "pvp_tooltip": "[\nDenounce\n/ Shield of the Righteous] heals you and up to 2 nearby allies for (125% of Attack Power).",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2439,10 +2735,10 @@
         "spell_id": 469780,
         "icon": "inv_helm_plate_raidpaladin_r_01mythic"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Divine Steed reduces the cooldown of 4 nearby ally's major movement ability by 3.0 sec.\nYour movement speed is increased by 3%.\n(300ms cooldown)",
+      "pvp_tooltip": "Divine Steed reduces the cooldown of 4 nearby ally's major movement ability by 3.0 sec.\nYour movement speed is increased by 3%.\n(300ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2492,10 +2788,10 @@
         "spell_id": 469279,
         "icon": "ability_paladin_handoflight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You automatically cast Blessing of Sacrifice onto an ally within 40 yds when they are below 35% health and you are not in a loss of control effect.\nThis effect activates 100% of Blessing of Sacrifice's cooldown.",
+      "pvp_tooltip": "You automatically cast Blessing of Sacrifice onto an ally within 40 yds when they are below 35% health and you are not in a loss of control effect.\nThis effect activates 100% of Blessing of Sacrifice's cooldown.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2545,10 +2841,10 @@
         "spell_id": 469321,
         "icon": "spell_holy_blessingofprotection"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Blessing of Sacrifice now removes and prevents all Poison and Disease effects.",
+      "pvp_tooltip": "Blessing of Sacrifice now removes and prevents all Poison and Disease effects.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2600,10 +2896,10 @@
         "spell_id": 199422,
         "icon": "inv_relics_libramoftruth"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Allies are healed for (2000% of Spell Power) when you cast Blessing of Protection or Blessing of Sacrifice on them.",
+      "pvp_tooltip": "Allies are healed for (2000% of Spell Power) when you cast Blessing of Protection or Blessing of Sacrifice on them.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2654,10 +2950,10 @@
         "spell_id": 469770,
         "icon": "ability_paladin_judgementofthepure"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Allies affected by your Blessings have 15% increased movement speed.",
+      "pvp_tooltip": "Allies affected by your Blessings have 15% increased movement speed.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2710,10 +3006,10 @@
         "spell_id": 469439,
         "icon": "spell_holy_divineprotection"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Divine Protection increases healing taken by 15% for its duration.",
+      "pvp_tooltip": "Divine Protection increases healing taken by 15% for its duration.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2764,10 +3060,10 @@
         "spell_id": 146956,
         "icon": "spell_holy_divineshield"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Removing harmful effects with Divine Shield heals you for 10% for each effect removed. This heal cannot exceed 30% of your maximum health.\nDivine Shield may now be cast while Forbearance is active.",
+      "pvp_tooltip": "Removing harmful effects with Divine Shield heals you for 10% for each effect removed. This heal cannot exceed 30% of your maximum health.\nDivine Shield may now be cast while Forbearance is active.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2818,10 +3114,10 @@
         "spell_id": 406101,
         "icon": "inv_shield_1h_newplayer_a_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Word of Glory grants 20% bonus armor for 4.5 sec.",
+      "pvp_tooltip": "Word of Glory grants 20% bonus armor for 4.5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2871,15 +3167,60 @@
         "spell_id": 469316,
         "icon": "spell_magic_magearmor"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "The duration of stun effects on you is reduced by 20%.",
+      "pvp_tooltip": "The duration of stun effects on you is reduced by 10%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 50,
+          "end": 52,
+          "old_token": "20",
+          "new_token": "10",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "20",
+          "new": "10"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 469316,
+          "source_spell_id": 469316,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Mechanic Duration % (Stunned)",
+          "base_value": -20.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": -10.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Seal of Might",
@@ -2927,10 +3268,10 @@
         "spell_id": 385450,
         "icon": "spell_holy_sealofwrath"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Mastery increased by 2% and Intellect increased by 2%.",
+      "pvp_tooltip": "Mastery increased by 2% and Intellect increased by 2%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2983,15 +3324,60 @@
         "spell_id": 1241958,
         "icon": "spell_paladin_hammerofwrath"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Hammer of Wrath deals up to 50% additional damage based on its target's health. Lower health targets receive more damage.",
+      "pvp_tooltip": "Hammer of Wrath deals up to 20% additional damage based on its target's health. Lower health targets receive more damage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 28,
+          "end": 30,
+          "old_token": "50",
+          "new_token": "20",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "50",
+          "new": "20"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1241958,
+          "source_spell_id": 1241958,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.4,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.4,
+          "final_pvp_value": 20.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Eye for an Eye",
@@ -3036,10 +3422,10 @@
         "spell_id": 469309,
         "icon": "spell_holy_eyeforaneye"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Melee and ranged attackers receive (35% of Spell Power) Holy damage each time they strike you during Divine Protection and Divine Shield.",
+      "pvp_tooltip": "Melee and ranged attackers receive (35% of Spell Power) Holy damage each time they strike you during Divine Protection and Divine Shield.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3090,10 +3476,10 @@
         "spell_id": 377128,
         "icon": "ability_priest_cascade"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Consecration heals you and 5 allies within it for [(6.25% of Attack Power)] every 1 sec.",
+      "pvp_tooltip": "Consecration heals you and 5 allies within it for [(6.25% of Attack Power)] every 1 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3144,10 +3530,10 @@
         "spell_id": 469434,
         "icon": "ability_paladin_gaurdedbythelight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Flash of Light and Holy Light are 30% more effective on your allies and 40% of the healing done also heals you.",
+      "pvp_tooltip": "Flash of Light and Holy Light are 30% more effective on your allies and 40% of the healing done also heals you.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3197,10 +3583,10 @@
         "spell_id": 183416,
         "icon": "achievement_zone_valeofeternalblossoms"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While you are above 85% health, 5% of all damage taken by allies within 20 yds is redirected to you, up to a maximum of (5 * Total Health / 100) every 5 sec.",
+      "pvp_tooltip": "While you are above 85% health, 5% of all damage taken by allies within 20 yds is redirected to you, up to a maximum of (5 * Total Health / 100) every 5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3249,10 +3635,10 @@
         "spell_id": 469416,
         "icon": "spell_paladin_clarityofpurpose"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "10% of all healing done to you from other sources heals up to 4 nearby allies, divided evenly among them.",
+      "pvp_tooltip": "10% of all healing done to you from other sources heals up to 4 nearby allies, divided evenly among them.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3302,10 +3688,10 @@
         "spell_id": 1241945,
         "icon": "achievement_zone_newshadowmoonvalley"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Damage taken reduced by up to 10%, increasing as your health decreases.",
+      "pvp_tooltip": "Damage taken reduced by up to 10%, increasing as your health decreases.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3354,15 +3740,64 @@
         "spell_id": 20473,
         "icon": "spell_holy_searinglight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": ":\nHas an additional 10% critical strike chance\n]\nGenerates 1 Holy Power.",
+      "pvp_tooltip": ":\nHas an additional 10% critical strike chance\n]\nGenerates 1 Holy Power.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 1117.0,
+          "new": 599.0582700000001,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 20473,
+          "source_spell_id": 25914,
+          "effect_index": 1,
+          "effect_text": "Heal (SP mod: 11.17)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.909,
+          "amount_kind": "direct",
+          "aura_factor": 0.5900000000000001,
+          "final_pvp_multiplier": 0.5363100000000001,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            20473,
+            25914
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428076,
+              "game_effect_id": 1108026,
+              "amount_kind": "direct",
+              "value_pct": -41.0,
+              "factor": 0.5900000000000001,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Infusion of Light",
@@ -3408,10 +3843,10 @@
         "spell_id": 53576,
         "icon": "ability_paladin_infusionoflight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Holy Shocks have a 10% chance to empower your next spell cast:\nFlash of Light\n: healing increased by 200% and becomes instant cast.\nJudgment\n: Greater Judgment prevents an additional 150% damage dealt by the target and generates 1 additional Holy Power.",
+      "pvp_tooltip": "Your Holy Shocks have a 10% chance to empower your next spell cast:\nFlash of Light\n: healing increased by 200% and becomes instant cast.\nJudgment\n: Greater Judgment prevents an additional 150% damage dealt by the target and generates 1 additional Holy Power.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3462,15 +3897,69 @@
         "spell_id": 85222,
         "icon": "spell_paladin_lightofdawn"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "3 Holy Power / 0.6% of base mana\nInstant\nUnleashes Holy energy, healing up to 5 injured allies within a 40 yd radius around you for (506.736% of Spell Power).",
+      "pvp_tooltip": "3 Holy Power / 0.6% of base mana\nInstant\nUnleashes Holy energy, healing up to 5 injured allies within a 40 yd radius around you for (249.1352% of Spell Power).",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 133,
+          "end": 140,
+          "old_token": "506.736",
+          "new_token": "249.1352",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "506.736",
+          "new": "249.1352"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 85222,
+          "source_spell_id": 85222,
+          "effect_index": 1,
+          "effect_text": "Heal (SP mod: 5.06736)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.8333,
+          "amount_kind": "direct",
+          "aura_factor": 0.5900000000000001,
+          "final_pvp_multiplier": 0.4916470000000001,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428076,
+              "game_effect_id": 1108026,
+              "amount_kind": "direct",
+              "value_pct": -41.0,
+              "factor": 0.5900000000000001,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Light's Conviction",
@@ -3516,10 +4005,10 @@
         "spell_id": 414073,
         "icon": "paladin_holy"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Holy Shock now has 2 charges and it refunds 50% of its mana cost when cast on an enemy.",
+      "pvp_tooltip": "Holy Shock now has 2 charges and it refunds 50% of its mana cost when cast on an enemy.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3572,15 +4061,50 @@
         "spell_id": 31821,
         "icon": "spell_holy_auramastery"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n3 min cooldown\nEmpowers your chosen aura for 8 sec.\nDevotion Aura\n: Damage reduction increased to 12%.\nCrusader Aura\n: Mount speed bonus increased to 60%.\nConcentration Aura\n: Affected allies immune to interrupts and silences.",
+      "pvp_tooltip": "Instant\n3 min cooldown\nEmpowers your chosen aura for 8 sec.\nDevotion Aura\n: Damage reduction increased to 12%.\nCrusader Aura\n: Mount speed bonus increased to 60%.\nConcentration Aura\n: Affected allies immune to interrupts and silences.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 9.0,
+          "new": 21.06,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 31821,
+          "source_spell_id": 31821,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Effect #1's Value (3)",
+          "base_value": -9.0,
+          "spell_pvp_multiplier": 2.34,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.34,
+          "final_pvp_value": -21.06,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Beacon of the Lightbringer",
@@ -3626,10 +4150,10 @@
         "spell_id": 197446,
         "icon": "spell_paladin_clarityofpurpose"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Mastery: Lightbringer now increases your healing based on the target's proximity to either you or your Beacon of Light, whichever is closer.",
+      "pvp_tooltip": "Mastery: Lightbringer now increases your healing based on the target's proximity to either you or your Beacon of Light, whichever is closer.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3680,10 +4204,10 @@
         "spell_id": 461278,
         "icon": "spell_holy_spiritualguidence"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Word of Glory and Light of Dawn gain up to 30% additional chance to critically strike, based on their target's current health. Lower health targets are more likely to be critically struck.",
+      "pvp_tooltip": "Word of Glory and Light of Dawn gain up to 30% additional chance to critically strike, based on their target's current health. Lower health targets are more likely to be critically struck.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3734,10 +4258,10 @@
         "spell_id": 1241542,
         "icon": "paladin_protection"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Activating Aura Mastery also casts a Divine Toll at 200% effectiveness.\n(500ms cooldown)",
+      "pvp_tooltip": "Activating Aura Mastery also casts a Divine Toll at 200% effectiveness.\n(500ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3787,10 +4311,10 @@
         "spell_id": 1271221,
         "icon": "spell_holy_holybolt"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Light of Dawn receives 20% increased benefit from Mastery: Lightbringer.",
+      "pvp_tooltip": "Light of Dawn receives 20% increased benefit from Mastery: Lightbringer.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3841,10 +4365,10 @@
         "spell_id": 417855,
         "icon": "ability_paladin_blindinglight2"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Holy Shock, Holy Light, and Flash of Light critical healing increased by 20%.",
+      "pvp_tooltip": "Holy Shock, Holy Light, and Flash of Light critical healing increased by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3895,15 +4419,60 @@
         "spell_id": 387786,
         "icon": "spell_holy_flashheal"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Your Flash of Light heals for an additional 50% when cast on a target affected by your Beacon of Light.",
+      "pvp_tooltip": "Your Flash of Light heals for an additional 15% when cast on a target affected by your Beacon of Light.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 44,
+          "end": 46,
+          "old_token": "50",
+          "new_token": "15",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "50",
+          "new": "15"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 387786,
+          "source_spell_id": 387786,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.3,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.3,
+          "final_pvp_value": 15.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Resplendent Light",
@@ -3949,10 +4518,10 @@
         "spell_id": 392902,
         "icon": "ability_priest_voidshift"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Holy Light heals up to 5 targets within 12 yds for 8% of its healing.",
+      "pvp_tooltip": "Holy Light heals up to 5 targets within 12 yds for 8% of its healing.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4005,15 +4574,60 @@
         "spell_id": 1270916,
         "icon": "spell_holy_heal"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "The mana cost of Holy Light is reduced by 10% and its cast time is reduced by 15%.",
+      "pvp_tooltip": "The mana cost of Holy Light is reduced by 30% and its cast time is reduced by 15%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 42,
+          "end": 44,
+          "old_token": "10",
+          "new_token": "30",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "10",
+          "new": "30"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1270916,
+          "source_spell_id": 1270916,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Power Cost (14)",
+          "base_value": -10.0,
+          "spell_pvp_multiplier": 3.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 3.0,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Unwavering Spirit",
@@ -4059,10 +4673,10 @@
         "spell_id": 392911,
         "icon": "spell_holy_fanaticism"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The cooldown of Aura Mastery is reduced by 30 sec.",
+      "pvp_tooltip": "The cooldown of Aura Mastery is reduced by 30 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4113,10 +4727,10 @@
         "spell_id": 200430,
         "icon": "spell_holy_auramastery"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "100 yd range\nAura Mastery also increases all healing received by party or raid members within 40 yards by 10%.",
+      "pvp_tooltip": "100 yd range\nAura Mastery also increases all healing received by party or raid members within 40 yards by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4169,10 +4783,10 @@
         "spell_id": 392961,
         "icon": "ability_priest_flashoflight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Consuming Infusion of Light reduces the cooldown of Holy Shock by 1.0 sec.",
+      "pvp_tooltip": "Consuming Infusion of Light reduces the cooldown of Holy Shock by 1.0 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4222,10 +4836,10 @@
         "spell_id": 447985,
         "icon": "ability_paladin_lightofthemartyr"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While above 80% health, Holy Shock's healing is increased 20%, but creates a heal absorb on you for 30% of the amount healed that prevents Beacon of Light from healing you until it has dissipated.",
+      "pvp_tooltip": "While above 80% health, Holy Shock's healing is increased 20%, but creates a heal absorb on you for 30% of the amount healed that prevents Beacon of Light from healing you until it has dissipated.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4279,10 +4893,10 @@
         "spell_id": 414113,
         "icon": "ability_priest_holybolts01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Judgment has a 100% chance to cast Consecration at the target's location.\nThe limit on Consecration does not apply to this effect.",
+      "pvp_tooltip": "Judgment has a 100% chance to cast Consecration at the target's location.\nThe limit on Consecration does not apply to this effect.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4336,10 +4950,10 @@
         "spell_id": 157047,
         "icon": "ability_paladin_savedbythelight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When an ally with your Beacon of Light is damaged, they absorb the next 0 damage, increasing by up to 300% based on their current health. Lower health allies are shielded for more.",
+      "pvp_tooltip": "When an ally with your Beacon of Light is damaged, they absorb the next 0 damage, increasing by up to 300% based on their current health. Lower health allies are shielded for more.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4392,10 +5006,10 @@
         "spell_id": 461243,
         "icon": "spell_holy_absolution"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Allies with Beacon of Light receive 5% less damage.",
+      "pvp_tooltip": "Allies with Beacon of Light receive 5% less damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4445,10 +5059,10 @@
         "spell_id": 461244,
         "icon": "spell_holy_holyguidance"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "50% of Holy Shock's overhealing is converted into an absorb shield. The shield amount cannot exceed 10% of your max health.",
+      "pvp_tooltip": "50% of Holy Shock's overhealing is converted into an absorb shield. The shield amount cannot exceed 10% of your max health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4499,10 +5113,10 @@
         "spell_id": 414443,
         "icon": "spell_holy_holynova"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "[\nDenounce\n/ Shield of the Righteous] deals (256% of Spell Power) damage to its first target struck.\n[\nDenounce\n/ Shield of the Righteous] now has a 35% chance to activate Divine Purpose if talented.",
+      "pvp_tooltip": "[\nDenounce\n/ Shield of the Righteous] deals (256% of Spell Power) damage to its first target struck.\n[\nDenounce\n/ Shield of the Righteous] now has a 35% chance to activate Divine Purpose if talented.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4553,10 +5167,10 @@
         "spell_id": 461287,
         "icon": "ability_paladin_toweroflight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "12% of Word of Glory and Light of Dawn's healing is converted into Holy damage that strikes a nearby enemy.",
+      "pvp_tooltip": "12% of Word of Glory and Light of Dawn's healing is converted into Holy damage that strikes a nearby enemy.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4607,10 +5221,10 @@
         "spell_id": 196926,
         "icon": "ability_paladin_swiftretribution"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Holy Shock reduces the cooldown of Judgment by 1.5 sec and Crusader Strike reduces the cooldown of Judgment by 1.5 sec.\n(800ms cooldown)",
+      "pvp_tooltip": "Holy Shock reduces the cooldown of Judgment by 1.5 sec and Crusader Strike reduces the cooldown of Judgment by 1.5 sec.\n(800ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4660,10 +5274,10 @@
         "spell_id": 414720,
         "icon": "spell_holy_revivechampion"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Lay on Hands' cooldown is reduced by 40% and restores 5% of your Mana.",
+      "pvp_tooltip": "Lay on Hands' cooldown is reduced by 40% and restores 5% of your Mana.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4717,10 +5331,10 @@
         "spell_id": 387781,
         "icon": "ability_paladin_beaconoflight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Beacon of Light transfers an additional 5% of the amount healed.",
+      "pvp_tooltip": "Beacon of Light transfers an additional 5% of the amount healed.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4770,10 +5384,10 @@
         "spell_id": 1241805,
         "icon": "spell_paladin_divinecircle"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While at maximum health, targets with Beacon of Light generate an absorb shield equal to 2% of their health every 3 sec, up to a maximum of 6%.",
+      "pvp_tooltip": "While at maximum health, targets with Beacon of Light generate an absorb shield equal to 2% of their health every 3 sec, up to a maximum of 6%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4825,10 +5439,10 @@
         "spell_id": 387879,
         "icon": "spell_holy_rune"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases Light of Dawn's healing by 5%.",
+      "pvp_tooltip": "Increases Light of Dawn's healing by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4878,10 +5492,10 @@
         "spell_id": 387808,
         "icon": "ability_paladin_infusionoflight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While empowered by Infusion of Light, Flash of Light heals for an additional 20% and Judgment refunds 0.5% of your maximum mana.",
+      "pvp_tooltip": "While empowered by Infusion of Light, Flash of Light heals for an additional 20% and Judgment refunds 0.5% of your maximum mana.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4934,10 +5548,10 @@
         "spell_id": 387805,
         "icon": "spell_holy_healingaura"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Holy Shock and Judgment have a 8% increased critical strike chance.",
+      "pvp_tooltip": "Holy Shock and Judgment have a 8% increased critical strike chance.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4988,10 +5602,10 @@
         "spell_id": 448040,
         "icon": "ability_paladin_sheathoflight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Light of the Martyr's health threshold is reduced to 70% and increases Holy Shock's healing by an additional 5% for every 5 sec Light of the Martyr is active, stacking up to 3 times.\nWhile below 70% health, the light urgently heals you for (20% of Spell Power) every 1 sec.",
+      "pvp_tooltip": "Light of the Martyr's health threshold is reduced to 70% and increases Holy Shock's healing by an additional 5% for every 5 sec Light of the Martyr is active, stacking up to 3 times.\nWhile below 70% health, the light urgently heals you for (20% of Spell Power) every 1 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5045,15 +5659,58 @@
         "spell_id": 156910,
         "icon": "ability_paladin_beaconsoflight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "0.5% of base mana\n60 yd range\nInstant\nMark a second target as a Beacon, mimicking the effects of Beacon of Light. Your heals will now heal both of your Beacons, but at 30% reduced effectiveness.\n(1s cooldown)",
+      "pvp_tooltip": "0.5% of base mana\n60 yd range\nInstant\nMark a second target as a Beacon, mimicking the effects of Beacon of Light. Your heals will now heal both of your Beacons, but at 30% reduced effectiveness.\n(1s cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            6
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 33.0,
+          "new": 19.470000000000002,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 156910,
+          "source_spell_id": 156910,
+          "effect_index": 6,
+          "effect_text": "Apply Aura: Periodic Heal",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 0.5900000000000001,
+          "final_pvp_multiplier": 0.5900000000000001,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428076,
+              "game_effect_id": 1108027,
+              "amount_kind": "periodic",
+              "value_pct": -41.0,
+              "factor": 0.5900000000000001,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Beacon of Virtue",
@@ -5102,10 +5759,10 @@
         "spell_id": 200025,
         "icon": "ability_paladin_beaconofinsight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "4.5% of base mana\n40 yd range\nInstant\n15 sec cooldown\nApply a Beacon of Light to your target and 4 injured allies within 30 yds for 9 sec.\nAll affected allies will be healed for 10% of the amount of your other healing done.\n(1s cooldown)",
+      "pvp_tooltip": "4.5% of base mana\n40 yd range\nInstant\n15 sec cooldown\nApply a Beacon of Light to your target and 4 injured allies within 30 yds for 9 sec.\nAll affected allies will be healed for 10% of the amount of your other healing done.\n(1s cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5155,10 +5812,10 @@
         "spell_id": 1241358,
         "icon": "item_holyspark"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Judgment critical strikes empower your next Word of Glory to automatically activate Light of Dawn at 30% effectiveness.",
+      "pvp_tooltip": "Judgment critical strikes empower your next Word of Glory to automatically activate Light of Dawn at 30% effectiveness.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5210,10 +5867,10 @@
         "spell_id": 392938,
         "icon": "ability_crown_of_the_heavens_icon"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Judgment grants an absorb shield on up to 5 injured allies for 8% of the damage done, split evenly among them.\nFlash of Light and Holy Light critical strikes reset the cooldown of Judgment.",
+      "pvp_tooltip": "Judgment grants an absorb shield on up to 5 injured allies for 8% of the damage done, split evenly among them.\nFlash of Light and Holy Light critical strikes reset the cooldown of Judgment.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5267,10 +5924,10 @@
         "spell_id": 31884,
         "icon": "spell_holy_avenginewrath"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n2 min cooldown\nCall upon the Light to become an avatar of retribution, [causing Judgment to generate 1 additional Holy Power,][each Holy Power spent causing you to explode with Holy light for (13.5% of Attack Power) damage to nearby enemies,]increasing your damage, healing, and critical strike chance by 20% for 20 sec /\nDivine Wrath\n:\n24 sec\n/\nCall of the Righteous\n:\n15 sec\n.",
+      "pvp_tooltip": "Instant\n2 min cooldown\nCall upon the Light to become an avatar of retribution, [causing Judgment to generate 1 additional Holy Power,][each Holy Power spent causing you to explode with Holy light for (13.5% of Attack Power) damage to nearby enemies,]increasing your damage, healing, and critical strike chance by 20% for 20 sec /\nDivine Wrath\n:\n24 sec\n/\nCall of the Righteous\n:\n15 sec\n.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5324,10 +5981,10 @@
         "spell_id": 394088,
         "icon": "ability_paladin_veneration"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You become the ultimate crusader of light for 15 sec. Crusader Strike and Judgment cool down 0% faster and heal up to 5 injured allies for 55% of the damage they deal.\nIf\nAvenging Wrath\nis known, also increases Judgment, Crusader Strike, and auto-attack damage by 0%.",
+      "pvp_tooltip": "You become the ultimate crusader of light for 15 sec. Crusader Strike and Judgment cool down 0% faster and heal up to 5 injured allies for 55% of the damage they deal.\nIf\nAvenging Wrath\nis known, also increases Judgment, Crusader Strike, and auto-attack damage by 0%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5379,10 +6036,10 @@
         "spell_id": 415364,
         "icon": "ability_paladin_longarmofthelaw"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Holy Shock refunds up to 10% of its Mana cost and deals up to 50% more healing or damage, based on the target's missing health.",
+      "pvp_tooltip": "Holy Shock refunds up to 10% of its Mana cost and deals up to 50% more healing or damage, based on the target's missing health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5430,10 +6087,10 @@
         "spell_id": 1232616,
         "icon": "inv_helm_plate_raidpaladindragon_d_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Beacon of Faith\n:\nAllies with Beacon of Light or Beacon of Faith are healed for (33% of Spell Power) every 3 sec.\nBeacon of Virtue\n:\nBeacon of Virtue instantly heals allies for (586% of Spell Power).",
+      "pvp_tooltip": "Beacon of Faith\n:\nAllies with Beacon of Light or Beacon of Faith are healed for (33% of Spell Power) every 3 sec.\nBeacon of Virtue\n:\nBeacon of Virtue instantly heals allies for (586% of Spell Power).",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5485,10 +6142,10 @@
         "spell_id": 1271016,
         "icon": "spell_holy_blessedresillience"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While Avenging Wrath is not active, you gain 5% Mastery.\nWhile Avenging Wrath is active, you gain 30% movement speed.",
+      "pvp_tooltip": "While Avenging Wrath is not active, you gain 5% Mastery.\nWhile Avenging Wrath is active, you gain 30% movement speed.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5540,10 +6197,10 @@
         "spell_id": 53376,
         "icon": "ability_paladin_judgementsofthejust"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Holy (\nHoly Paladin\n)\nAvenging Wrath and Avenging Crusader have 50% increased duration.\n[\nAvenging Wrath and Avenging Crusader have 25% increased duration\n]",
+      "pvp_tooltip": "Holy (\nHoly Paladin\n)\nAvenging Wrath and Avenging Crusader have 50% increased duration.\n[\nAvenging Wrath and Avenging Crusader have 25% increased duration\n]",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5595,10 +6252,10 @@
         "spell_id": 414195,
         "icon": "inv_helm_plate_raidpaladin_n_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While in combat, your Holy Power spenders have a 15% chance to cause your next Judgment to deal 30% increased damage and critically strike.\nActivating Avenging Wrath activates Awakening.\n(400ms cooldown)",
+      "pvp_tooltip": "While in combat, your Holy Power spenders have a 15% chance to cause your next Judgment to deal 30% increased damage and critically strike.\nActivating Avenging Wrath activates Awakening.\n(400ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5649,10 +6306,10 @@
         "spell_id": 1241511,
         "icon": "ability_paladin_gaurdedbythelight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Avenging Wrath's cooldown is reduced by 30 sec, but its duration is reduced by 5.0 sec.\nAvenging Crusader's cooldown is reduced by 30.0 sec, but its duration is reduced by 3.0 sec.",
+      "pvp_tooltip": "Avenging Wrath's cooldown is reduced by 30 sec, but its duration is reduced by 5.0 sec.\nAvenging Crusader's cooldown is reduced by 30.0 sec, but its duration is reduced by 3.0 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5702,10 +6359,10 @@
         "spell_id": 461273,
         "icon": "ability_paladin_artofwar"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Judgment heals you for (312% of Spell Power) and its mana cost is reduced by 30%. 50% of overhealing from this effect is transferred onto 2 allies within 40 yds.",
+      "pvp_tooltip": "Judgment heals you for (312% of Spell Power) and its mana cost is reduced by 30%. 50% of overhealing from this effect is transferred onto 2 allies within 40 yds.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5756,10 +6413,10 @@
         "spell_id": 1271077,
         "icon": "spell_holy_surgeoflight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Holy Light's healing is increased by 30%, but its mana cost is increased by 20%.",
+      "pvp_tooltip": "Holy Light's healing is increased by 30%, but its mana cost is increased by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5807,10 +6464,10 @@
         "spell_id": 1277651,
         "icon": "spell_priest_divinestar_holy"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your healing is increased by up to 10%, based on the average health percentage of allies with your Beacon of Light.",
+      "pvp_tooltip": "Your healing is increased by up to 10%, based on the average health percentage of allies with your Beacon of Light.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5859,10 +6516,10 @@
         "spell_id": 461246,
         "icon": "ability_paladin_holyavenger"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Holy Shock has a 12% chance to refund a charge when cast and its healing is increased by 10%.",
+      "pvp_tooltip": "Holy Shock has a 12% chance to refund a charge when cast and its healing is increased by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5910,10 +6567,10 @@
         "spell_id": 1241714,
         "icon": "ability_paladin_protectoroftheinnocent"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Word of Glory and Light of Dawn now convert 15% of their healing into an absorb shield instead.",
+      "pvp_tooltip": "Word of Glory and Light of Dawn now convert 15% of their healing into an absorb shield instead.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5963,10 +6620,10 @@
         "spell_id": 1241275,
         "icon": "inv_mace_2h_artifactsilverhand_d_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Activating Avenging Wrath releases the Light within yourself, healing 5 injured allies instantly and an injured ally every 1 sec within 40 yds for (35.1% of Spell Power).\nAllies healed also receive 10% increased healing from your Holy Light, Flash of Light, and Holy Shock spells for 12 sec.",
+      "pvp_tooltip": "Activating Avenging Wrath releases the Light within yourself, healing 5 injured allies instantly and an injured ally every 1 sec within 40 yds for (35.1% of Spell Power).\nAllies healed also receive 10% increased healing from your Holy Light, Flash of Light, and Holy Shock spells for 12 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6016,10 +6673,10 @@
         "spell_id": 1242008,
         "icon": "spell_holy_vindication"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Activating Avenging Wrath calls upon the Light to empower you, causing your next [\nAvenging Crusader\n:\nHoly Light\n/ 2 Holy Lights] to be instant cast and cost 50% less mana.",
+      "pvp_tooltip": "Activating Avenging Wrath calls upon the Light to empower you, causing your next [\nAvenging Crusader\n:\nHoly Light\n/ 2 Holy Lights] to be instant cast and cost 50% less mana.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6069,10 +6726,10 @@
         "spell_id": 392907,
         "icon": "spell_lfieblood"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Infusion of Light has 1 additional charge.",
+      "pvp_tooltip": "Infusion of Light has 1 additional charge.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6118,10 +6775,10 @@
         "spell_id": 1244878,
         "icon": "inv12_apextalent_paladin_beaconofthesavior"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While in combat, apply a Beacon of the Savior to the lowest health ally within 30 yds that causes your direct healing on others to also heal that ally for 10% of the amount healed.\nBeacon of the Savior transfers to the lowest health ally within 30 yds if it heals a target past maximum health or if an ally drops below 50% health.",
+      "pvp_tooltip": "While in combat, apply a Beacon of the Savior to the lowest health ally within 30 yds that causes your direct healing on others to also heal that ally for 10% of the amount healed.\nBeacon of the Savior transfers to the lowest health ally within 30 yds if it heals a target past maximum health or if an ally drops below 50% health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6167,10 +6824,10 @@
         "spell_id": 1245367,
         "icon": "inv12_apextalent_paladin_beaconofthesavior"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Beacon of the Savior transfers an additional 10% of the amount healed and allies with Beacon of the Savior receive 10% more healing from you.",
+      "pvp_tooltip": "Beacon of the Savior transfers an additional 10% of the amount healed and allies with Beacon of the Savior receive 10% more healing from you.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6216,10 +6873,10 @@
         "spell_id": 1245368,
         "icon": "inv12_apextalent_paladin_beaconofthesavior"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Every 8 sec or when Beacon of the Savior transfers to a new injured target, they are granted an absorb shield that prevents the next 0 damage and reduces damage taken by 10% for 15 sec.\nBeacon of the Savior now additionally follows the target of your Holy Light and Flash of Light spells once every 5 sec.\n(5s cooldown)",
+      "pvp_tooltip": "Every 8 sec or when Beacon of the Savior transfers to a new injured target, they are granted an absorb shield that prevents the next 0 damage and reduces damage taken by 10% for 15 sec.\nBeacon of the Savior now additionally follows the target of your Holy Light and Flash of Light spells once every 5 sec.\n(5s cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6270,10 +6927,10 @@
         "spell_id": 431377,
         "icon": "inv_ability_heraldofthesunpaladin_dawnlight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Holy Prism or Divine Toll causes your next 2 Holy Power spending abilities to apply Dawnlight on your target, dealing (255% of Spell Power) Radiant damage or (538.2% of Spell Power) healing over 8 sec.\n8% of Dawnlight's damage and healing radiates to nearby allies or enemies, reduced beyond 5 targets.\nDawnlight's healing does not transfer to Beacon of Light.",
+      "pvp_tooltip": "Casting Holy Prism or Divine Toll causes your next 2 Holy Power spending abilities to apply Dawnlight on your target, dealing (255% of Spell Power) Radiant damage or (538.2% of Spell Power) healing over 8 sec.\n8% of Dawnlight's damage and healing radiates to nearby allies or enemies, reduced beyond 5 targets.\nDawnlight's healing does not transfer to Beacon of Light.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6323,10 +6980,10 @@
         "spell_id": 431482,
         "icon": "spell_holy_persecution"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Every 5.0 sec, your next Dawnlight's damage or healing is increased by 5%, stacking up to 10 times.\nMorning Star stacks twice as fast while out of combat.",
+      "pvp_tooltip": "Every 5.0 sec, your next Dawnlight's damage or healing is increased by 5%, stacking up to 10 times.\nMorning Star stacks twice as fast while out of combat.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6376,10 +7033,10 @@
         "spell_id": 431480,
         "icon": "spell_priest_power_word"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Holy Power spenders deal 3% additional damage and healing.",
+      "pvp_tooltip": "Your Holy Power spenders deal 3% additional damage and healing.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6429,15 +7086,207 @@
         "spell_id": 156322,
         "icon": "inv_torch_thrown"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "3 Holy Power / 0.6% of base mana\n40 yd range\nInstant\nHeals an ally for (378% of Spell Power) and an additional (109.44% of Spell Power) over 16 sec.\nHealing increased by 25% when cast on self.",
+      "pvp_tooltip": "3 Holy Power / 0.6% of base mana\n40 yd range\nInstant\nHeals an ally for (267.624% of Spell Power) and an additional (77.4835% of Spell Power) over 16 sec.\nHealing increased by 15% when cast on self.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 112,
+          "end": 118,
+          "old_token": "109.44",
+          "new_token": "77.4835",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 72,
+          "end": 75,
+          "old_token": "378",
+          "new_token": "267.624",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        },
+        {
+          "start": 170,
+          "end": 172,
+          "old_token": "25",
+          "new_token": "15",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            3
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            4
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "ordinary_value",
+          "old": 35.0,
+          "new": 21.0,
+          "full_tooltip_match_count": 1
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "378",
+          "new": "267.624"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "109.44",
+          "new": "77.4835"
+        },
+        {
+          "effect_indexes": [
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "25",
+          "new": "15"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 156322,
+          "source_spell_id": 156322,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Heal",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 0.7080000000000001,
+          "final_pvp_multiplier": 0.7080000000000001,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428076,
+              "game_effect_id": 1108027,
+              "amount_kind": "periodic",
+              "value_pct": -41.0,
+              "factor": 0.5900000000000001,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 428076,
+              "game_effect_id": 1315696,
+              "amount_kind": "periodic",
+              "value_pct": 20.0,
+              "factor": 1.2,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 156322,
+          "source_spell_id": 156322,
+          "effect_index": 2,
+          "effect_text": "Heal (SP mod: 3.78)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.7080000000000001,
+          "final_pvp_multiplier": 0.7080000000000001,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428076,
+              "game_effect_id": 1108026,
+              "amount_kind": "direct",
+              "value_pct": -41.0,
+              "factor": 0.5900000000000001,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 428076,
+              "game_effect_id": 1315695,
+              "amount_kind": "direct",
+              "value_pct": 20.0,
+              "factor": 1.2,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 156322,
+          "source_spell_id": 156322,
+          "effect_index": 3,
+          "effect_text": "Dummy",
+          "base_value": 25.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 15.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 156322,
+          "source_spell_id": 156322,
+          "effect_index": 4,
+          "effect_text": "Dummy",
+          "base_value": 35.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 21.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "ambiguous"
+        }
+      ],
+      "render_effect_count": 4
     },
     {
       "talent_name": "Luminosity",
@@ -6482,10 +7331,10 @@
         "spell_id": 431402,
         "icon": "inv_qirajidol_sun"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Critical Strike chance of Holy Shock and Light of Dawn increased by 5%.",
+      "pvp_tooltip": "Critical Strike chance of Holy Shock and Light of Dawn increased by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6535,10 +7384,10 @@
         "spell_id": 1263787,
         "icon": "spell_paladin_inquisition"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Dawnlight's duration is increased by 0.5 sec when it heals an ally with full health.",
+      "pvp_tooltip": "Dawnlight's duration is increased by 0.5 sec when it heals an ally with full health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6588,10 +7437,10 @@
         "spell_id": 431423,
         "icon": "spell_holy_divineillumination"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Dawnlight reduces the movement speed of enemies by 50% and increases the movement speed of allies by 20%.",
+      "pvp_tooltip": "Dawnlight reduces the movement speed of enemies by 50% and increases the movement speed of allies by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6641,10 +7490,10 @@
         "spell_id": 431406,
         "icon": "spell_holy_divineprovidence"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Movement speed increased by 5% while above 80% health.\nWhen your health is brought below 35%, your movement speed is increased by 40% for 5 sec. Cannot occur more than once every 1 min.",
+      "pvp_tooltip": "Movement speed increased by 5% while above 80% health.\nWhen your health is brought below 35%, your movement speed is increased by 40% for 5 sec. Cannot occur more than once every 1 min.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6694,10 +7543,10 @@
         "spell_id": 445200,
         "icon": "inv_ability_holyfire_orb"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Approximately\n2\nprocs per minute\nThe healing and damage of Holy Shock is increased by 15%.",
+      "pvp_tooltip": "Approximately\n2\nprocs per minute\nThe healing and damage of Holy Shock is increased by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6747,10 +7596,10 @@
         "spell_id": 431407,
         "icon": "spell_holy_mindvision"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Dawnlight leaves an Eternal Flame for 6 sec on allies or a Greater Judgment on enemies when it expires or is extended.",
+      "pvp_tooltip": "Dawnlight leaves an Eternal Flame for 6 sec on allies or a Greater Judgment on enemies when it expires or is extended.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6800,10 +7649,10 @@
         "spell_id": 431413,
         "icon": "spell_priest_burningwill"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Holy Shock and Light of Dawn critical strikes cause the target to be healed for an additional (54% of Spell Power) over 4 sec.",
+      "pvp_tooltip": "Holy Shock and Light of Dawn critical strikes cause the target to be healed for an additional (54% of Spell Power) over 4 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6853,10 +7702,10 @@
         "spell_id": 431404,
         "icon": "ability_malkorok_blightofyshaarj_yellow"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Haste is increased by 5%.",
+      "pvp_tooltip": "Haste is increased by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6906,10 +7755,10 @@
         "spell_id": 439760,
         "icon": "spell_holy_rune"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After you cast Holy Prism or Divine Toll, gain Divine Purpose.\nDivine Purpose\nYour next Holy Power spending ability is free and deals 15% increased damage and healing.",
+      "pvp_tooltip": "After you cast Holy Prism or Divine Toll, gain Divine Purpose.\nDivine Purpose\nYour next Holy Power spending ability is free and deals 15% increased damage and healing.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6959,10 +7808,10 @@
         "spell_id": 1263782,
         "icon": "ability_paladin_sheathoflight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Infusion of Light occurs 100% more often during Avenging Wrath.",
+      "pvp_tooltip": "Infusion of Light occurs 100% more often during Avenging Wrath.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7012,10 +7861,10 @@
         "spell_id": 431474,
         "icon": "ability_priest_halo"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Light of Dawn and Holy Shock have a 15% chance to cast again at 30% effectiveness.\n(1s cooldown)",
+      "pvp_tooltip": "Light of Dawn and Holy Shock have a 15% chance to cast again at 30% effectiveness.\n(1s cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7065,10 +7914,10 @@
         "spell_id": 1263920,
         "icon": "spell_paladin_lightofdawn"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Dawnlight's critical strike chance is increased by 15% during Avenging Wrath.\n(1s cooldown)",
+      "pvp_tooltip": "Dawnlight's critical strike chance is increased by 15% during Avenging Wrath.\n(1s cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7119,10 +7968,10 @@
         "spell_id": 431425,
         "icon": "ability_paladin_holyavenger"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You link to your Dawnlights within 30 yds, causing (21.6% of Spell Power) Radiant damage to enemies or (37.26% of Spell Power) healing to allies that pass through the beams, reduced beyond 5 targets.",
+      "pvp_tooltip": "You link to your Dawnlights within 30 yds, causing (21.6% of Spell Power) Radiant damage to enemies or (37.26% of Spell Power) healing to allies that pass through the beams, reduced beyond 5 targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7173,10 +8022,10 @@
         "spell_id": 1289728,
         "icon": "inv_ability_lightsmithpaladin_holybulwark"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Will the Light to coalesce and become manifest as a Holy Armament, wielded by your target.\nSacred Weapon\n:\nWhile wielding a Sacred Weapon, your spells and abilities have a chance to deal (104% of Attack Power) additional Holy damage or healing to nearby targets. Effect is increased when Sacred Weapon strikes a single target, and reduced above 5. Lasts 20 sec.\nBecomes Holy Bulwark after use.\nGenerates 3 Holy Power.",
+      "pvp_tooltip": "Will the Light to coalesce and become manifest as a Holy Armament, wielded by your target.\nSacred Weapon\n:\nWhile wielding a Sacred Weapon, your spells and abilities have a chance to deal (104% of Attack Power) additional Holy damage or healing to nearby targets. Effect is increased when Sacred Weapon strikes a single target, and reduced above 5. Lasts 20 sec.\nBecomes Holy Bulwark after use.\nGenerates 3 Holy Power.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7226,10 +8075,10 @@
         "spell_id": 433568,
         "icon": "inv_inscription_weaponscroll01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "2 sec cast\nImbue your weapon with the power of the Light, increasing your armor by 5% and your primary stat by 5%.\nLasts 1 hour.",
+      "pvp_tooltip": "2 sec cast\nImbue your weapon with the power of the Light, increasing your armor by 5% and your primary stat by 5%.\nLasts 1 hour.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7279,10 +8128,10 @@
         "spell_id": 433583,
         "icon": "inv_inscription_armorscroll02"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "2 sec cast\nImbue your weapon with the power of the Light, increasing your Stamina by 3% and causing your Holy Power abilities to sometimes unleash a burst of healing around a target.\nLasts 1 hour.",
+      "pvp_tooltip": "2 sec cast\nImbue your weapon with the power of the Light, increasing your Stamina by 3% and causing your Holy Power abilities to sometimes unleash a burst of healing around a target.\nLasts 1 hour.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7332,10 +8181,10 @@
         "spell_id": 432802,
         "icon": "spell_holy_heroism"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\nIf you bestow an Armament upon an ally, you also gain its benefits.\nIf you bestow an Armament upon yourself, a nearby ally also gains its benefits.",
+      "pvp_tooltip": "40 yd range\nIf you bestow an Armament upon an ally, you also gain its benefits.\nIf you bestow an Armament upon yourself, a nearby ally also gains its benefits.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7385,10 +8234,10 @@
         "spell_id": 433106,
         "icon": "spell_holy_lightsgrace"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "For each Holy Power ability cast, your next Consecration deals [(Spell Power * 20 / 10) * (1 + Versatility) * 1.19] damage immediately, split across all enemies.\nUp to 3 nearby allies are each healed for 100% of the damage amount.",
+      "pvp_tooltip": "For each Holy Power ability cast, your next Consecration deals [(Spell Power * 20 / 10) * (1 + Versatility) * 1.19] damage immediately, split across all enemies.\nUp to 3 nearby allies are each healed for 100% of the damage amount.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7438,10 +8287,10 @@
         "spell_id": 433015,
         "icon": "spell_holy_blessedlife"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\nCasting a Holy Power ability increases the damage and healing of your next Holy Shock by 100%.",
+      "pvp_tooltip": "40 yd range\nCasting a Holy Power ability increases the damage and healing of your next Holy Shock by 100%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7491,10 +8340,10 @@
         "spell_id": 1271387,
         "icon": "inv_mace_1h_blacksmithing_b_01_black"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "After casting a Holy Armament, your next 3 casts of Holy Shock or Crusader Strike bestow a Lesser Armament of the same kind on a nearby ally.",
+      "pvp_tooltip": "After casting a Holy Armament, your next 3 casts of Holy Shock or Crusader Strike bestow a Lesser Armament of the same kind on a nearby ally.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7544,10 +8393,10 @@
         "spell_id": 432964,
         "icon": "ability_priest_flashoflight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your spells and abilities have a chance to manifest a Holy Armament for a nearby ally.\n(1s cooldown)",
+      "pvp_tooltip": "Your spells and abilities have a chance to manifest a Holy Armament for a nearby ally.\n(1s cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7597,10 +8446,10 @@
         "spell_id": 432804,
         "icon": "ability_paladin_gaurdedbythelight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\nThe cooldown of Holy Armaments is reduced by 20%.",
+      "pvp_tooltip": "40 yd range\nThe cooldown of Holy Armaments is reduced by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7650,10 +8499,10 @@
         "spell_id": 469886,
         "icon": "inv_misc_symbolofkings_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\nSuccessfully dispelling a harmful effect reduces Cleanse's cooldown by 1.0 sec. Effect increased by 100% while wielding a Holy Armament.",
+      "pvp_tooltip": "40 yd range\nSuccessfully dispelling a harmful effect reduces Cleanse's cooldown by 1.0 sec. Effect increased by 100% while wielding a Holy Armament.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7703,10 +8552,10 @@
         "spell_id": 469701,
         "icon": "inv_everburningforge_yellow"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When you or an ally wielding a Holy Bulwark are healed above maximum health, transfer 100% of the overhealing to your ally.\nWhen you or an ally wielding a Sacred Weapon drop below 40% health, redistribute your health immediately and every 1 sec for 4 sec. May only occur once per cast.",
+      "pvp_tooltip": "When you or an ally wielding a Holy Bulwark are healed above maximum health, transfer 100% of the overhealing to your ally.\nWhen you or an ally wielding a Sacred Weapon drop below 40% health, redistribute your health immediately and every 1 sec for 4 sec. May only occur once per cast.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7756,10 +8605,10 @@
         "spell_id": 432866,
         "icon": "ability_paladin_handoflight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\nWhen an Armament fades from you, the cooldown of Lay on Hands is reduced by 15.0 sec and you gain Infusion of Light.",
+      "pvp_tooltip": "40 yd range\nWhen an Armament fades from you, the cooldown of Lay on Hands is reduced by 15.0 sec and you gain Infusion of Light.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7809,10 +8658,10 @@
         "spell_id": 433718,
         "icon": "inv_10_blacksmithing_consumable_repairhammer_color1"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Judgment critical strikes cause a shockwave around the target, healing to up to 5 injuried allies for (113.4% of Spell Power).",
+      "pvp_tooltip": "Judgment critical strikes cause a shockwave around the target, healing to up to 5 injuried allies for (113.4% of Spell Power).",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7862,10 +8711,10 @@
         "spell_id": 432919,
         "icon": "inv_mace_47"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\nConsuming Infusion of Light reduces the cooldown of Holy Armaments by 3.0 sec.",
+      "pvp_tooltip": "40 yd range\nConsuming Infusion of Light reduces the cooldown of Holy Armaments by 3.0 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7915,10 +8764,10 @@
         "spell_id": 432821,
         "icon": "spell_holy_devotionaura"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\nThe effect of your active Aura is increased by 33% on targets with your Armaments.",
+      "pvp_tooltip": "40 yd range\nThe effect of your active Aura is increased by 33% on targets with your Armaments.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7968,10 +8817,10 @@
         "spell_id": 1271466,
         "icon": "inv_enchanting_70_pet_torch"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When your Holy Bulwark absorbs damage or your Sacred Weapon deals damage or healing, you have a chance to gain Awakening.",
+      "pvp_tooltip": "When your Holy Bulwark absorbs damage or your Sacred Weapon deals damage or healing, you have a chance to gain Awakening.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -8021,10 +8870,10 @@
         "spell_id": 1271553,
         "icon": "inv_11_0_arathordungeon_bell_color1"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Holy Armaments activate Hammer and Anvil at 100% effectiveness.",
+      "pvp_tooltip": "Holy Armaments activate Hammer and Anvil at 100% effectiveness.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -8075,10 +8924,10 @@
         "spell_id": 433011,
         "icon": "inv_ability_lightsmithpaladin_sacredweapon"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\nAvenging Wrath summons an additional Sacred Weapon, and during Avenging Wrath your Sacred Weapon casts spells on your target and echoes the effects of your Holy Power abilities.",
+      "pvp_tooltip": "40 yd range\nAvenging Wrath summons an additional Sacred Weapon, and during Avenging Wrath your Sacred Weapon casts spells on your target and echoes the effects of your Holy Power abilities.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -8086,764 +8935,13 @@
       "render_effect_count": 0
     }
   ],
-  "fetch_errors": [
-    {
-      "source": "wowhead_page",
-      "spell_id": 633,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e89820 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1022,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16cc8290 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1044,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ae3c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 6940,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9ad50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 10326,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e67a10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 20473,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e88ad0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 31821,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165e5430 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 31884,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167c93d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 53376,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ccbe90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 53576,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e674a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 85222,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171dde80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 114154,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1f7a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 114165,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e67110 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 115750,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167ca000 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 146956,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e65820 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 156322,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171df350 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 156910,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e3c110 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 157047,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d99ee0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 183416,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674df10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 190784,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1cb90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 196926,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e880e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 197446,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166e91f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 199422,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167c88c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 200025,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e88d40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 200430,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16757230 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 204054,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e8ae10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 223817,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166b4c20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 230332,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16884170 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 231644,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ed59a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 234299,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ed5a90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 305394,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663de50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 375576,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16885820 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 377128,
-      "error": "RetryError: RetryError[<Future at 0x7fbf164de510 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 379391,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e66ae0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 384820,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166615e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 384909,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663e810 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 384914,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1c950 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 385414,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166acc20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 385427,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165b9370 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 385450,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e89a90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 385515,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e66540 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 385633,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165aec60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 386738,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16660680 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 387781,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16884800 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 387786,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d99670 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 387791,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170ae840 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 387801,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ad370 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 387805,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ed5f10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 387808,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18259c40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 387879,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1e9f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 392902,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165c2150 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 392907,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16507980 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 392911,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ed40b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 392938,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170adfd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 392961,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16db4ce0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 393024,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ed7440 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 394088,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16821640 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 402964,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166631d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 404357,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168228d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 406101,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e88a40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 406468,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165adaf0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 414073,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e4f470 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 414113,
-      "error": "RetryError: RetryError[<Future at 0x7fbf182ccda0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 414195,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16731430 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 414443,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e502f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 414720,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168200e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 415364,
-      "error": "RetryError: RetryError[<Future at 0x7fbf182ccbc0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 417855,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1c170 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 431377,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9b590 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 431402,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d99e50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 431404,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ed7830 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 431406,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1715a750 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 431407,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1667aa80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 431413,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16663da0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 431423,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e75b50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 431425,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e76660 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 431474,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d98680 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 431480,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16db4140 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 431482,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1667ab70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 432802,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167cb0e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 432804,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e655b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 432821,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1667bad0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 432866,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166b51c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 432919,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e1dbe0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 432964,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ccb470 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 433011,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16885430 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 433015,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1667a420 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 433106,
-      "error": "RetryError: RetryError[<Future at 0x7fbf164c6cc0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 433568,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16edb110 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 433583,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18227410 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 433718,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e890a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 439760,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166791c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 445200,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ac4d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 447985,
-      "error": "RetryError: RetryError[<Future at 0x7fbf164de660 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 448040,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663f020 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 460720,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167061b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 461243,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9be00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 461244,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9a090 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 461246,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d98d10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 461273,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165055b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 461278,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16df80e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 461287,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d988f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 469279,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dfb680 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 469304,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ed9370 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 469309,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165c3d10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 469316,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c137a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 469317,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e89610 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 469321,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1fe00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 469325,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dfa720 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 469337,
-      "error": "RetryError: RetryError[<Future at 0x7fbf164c7bf0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 469409,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1ea50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 469411,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166b78c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 469416,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16884260 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 469434,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ed77d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 469439,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ed6690 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 469445,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663f080 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 469476,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166b4290 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 469701,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170ad910 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 469770,
-      "error": "RetryError: RetryError[<Future at 0x7fbf170af020 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 469780,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167f32f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 469886,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ed70b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1232616,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9bb30 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1241275,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e76ba0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1241288,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dfa9f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1241358,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167c9820 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1241511,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166624e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1241542,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e1e1b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1241714,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dd6ab0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1241805,
-      "error": "RetryError: RetryError[<Future at 0x7fbf164dce30 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1241945,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ac260 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1241958,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e76270 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1242008,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167c8e00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1244878,
-      "error": "RetryError: RetryError[<Future at 0x7fbf164de930 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1245367,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1d490 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1245368,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166636e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1263782,
-      "error": "RetryError: RetryError[<Future at 0x7fbf182cf710 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1263787,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16662120 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1263920,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ada00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1265541,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dd5ac0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1265549,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165af560 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270916,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e65340 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1271016,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ad760 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1271077,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166b7fb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1271221,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1c290 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1271387,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167cba10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1271466,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16852210 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1271553,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e66690 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1277443,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ad580 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1277651,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ac740 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1289728,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e88710 state=finished raised HTTPStatusError>]"
-    }
-  ],
+  "fetch_errors": [],
   "slug": "paladin-holy",
-  "generated_at": "2026-09-19T13:51:31.081945+00:00",
+  "generated_at": "2026-09-19T14:14:38.494454+00:00",
   "validation": {
     "talents": 150,
-    "changed_tooltips": 0,
-    "talents_with_pvp_mechanics": 0,
+    "changed_tooltips": 9,
+    "talents_with_pvp_mechanics": 13,
     "unique_nodes": 125,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
@@ -8851,104 +8949,145 @@
       "12.1.0.69587"
     ],
     "verification_status": "PARTIAL",
-    "fetch_error_count": 325,
-    "unresolved_count": 37,
-    "review_required_count": 150,
+    "fetch_error_count": 23,
+    "unresolved_count": 22,
+    "review_required_count": 0,
     "fetch_error_examples": [
       {
         "source": "wowhead",
-        "spell_id": 633,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16803b30 state=finished raised HTTPStatusError>]"
+        "spell_id": 35395,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=35395'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 1022,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16c10920 state=finished raised HTTPStatusError>]"
+        "spell_id": 53563,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=53563'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 1044,
-        "error": "RetryError: RetryError[<Future at 0x7fbf165bb110 state=finished raised HTTPStatusError>]"
+        "spell_id": 81297,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=81297'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 6940,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16732d20 state=finished raised HTTPStatusError>]"
+        "spell_id": 157128,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=157128'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 10326,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16e1db80 state=finished raised HTTPStatusError>]"
+        "spell_id": 199423,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=199423'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [
       {
-        "spell_id": 633,
+        "spell_id": 387792,
         "talent_name": "Lay on Hands",
         "side": "drustvar",
         "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.75,
-        "effect_text": "Unknown(67)"
+        "multiplier": 1.66,
+        "effect_text": "Apply Aura (6) | Modify Armor% (101)",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 633,
+        "source_spell_id": 387792,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          633,
+          387792
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref"
+        ]
       },
       {
-        "spell_id": 633,
-        "talent_name": "Lay on Hands",
+        "spell_id": 204074,
+        "talent_name": "Avenging Wrath",
         "side": "drustvar",
         "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.75,
-        "effect_text": "Direct Heal% (136)"
+        "multiplier": 0.66,
+        "effect_text": "Apply Aura (6) | Dummy (4)",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 31884,
+        "source_spell_id": 204074,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          31884,
+          53376,
+          389539,
+          204074
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref",
+          "tooltip_value_ref",
+          "tooltip_value_ref"
+        ]
       },
       {
-        "spell_id": 31821,
-        "talent_name": "Aura Mastery",
+        "spell_id": 204074,
+        "talent_name": "Avenging Wrath",
         "side": "drustvar",
         "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 2.34,
-        "effect_text": "Apply Aura (6) | Add Flat Modifier (107): Spell Effect 1 (3)"
+        "multiplier": 0.66,
+        "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Duration (1)",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 31884,
+        "source_spell_id": 204074,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          31884,
+          53376,
+          389539,
+          204074
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref",
+          "tooltip_value_ref",
+          "tooltip_value_ref"
+        ]
       },
       {
-        "spell_id": 85222,
-        "talent_name": "Light of Dawn",
+        "spell_id": 204074,
+        "talent_name": "Sanctified Wrath",
         "side": "drustvar",
         "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.83,
-        "effect_text": "Direct Heal (10)"
+        "multiplier": 0.66,
+        "effect_text": "Apply Aura (6) | Dummy (4)",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 53376,
+        "source_spell_id": 204074,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          53376,
+          389539,
+          204074
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref",
+          "tooltip_value_ref"
+        ]
       },
       {
-        "spell_id": 156322,
-        "talent_name": "Eternal Flame",
+        "spell_id": 204074,
+        "talent_name": "Sanctified Wrath",
         "side": "drustvar",
         "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.6,
-        "effect_text": "Dummy (3)"
+        "multiplier": 0.66,
+        "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Duration (1)",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 53376,
+        "source_spell_id": 204074,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          53376,
+          389539,
+          204074
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref",
+          "tooltip_value_ref"
+        ]
       }
     ],
-    "review_required_examples": [
-      {
-        "talent_name": "Lay on Hands",
-        "spell_id": 633,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Auras of the Resolute",
-        "spell_id": 385633,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Hammer of Wrath",
-        "spell_id": 1241288,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Improved Cleanse",
-        "spell_id": 393024,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Empyreal Ward",
-        "spell_id": 387791,
-        "status": "MISSING_TOOLTIP"
-      }
-    ]
+    "review_required_examples": []
   }
 }

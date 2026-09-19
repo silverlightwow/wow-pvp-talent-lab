@@ -49,15 +49,60 @@
         "spell_id": 1064,
         "icon": "inv_1115_shaman_chainheal"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "15% of base mana\n40 yd range\n2 sec cast\nHeals the friendly target for (231% of Spell Power), then jumps up to\n20\nyards to heal the 3 most injured nearby allies. Healing is reduced by\n30\n% with each jump.",
+      "pvp_tooltip": "15% of base mana\n40 yd range\n2 sec cast\nHeals the friendly target for (277.2% of Spell Power), then jumps up to\n20\nyards to heal the 3 most injured nearby allies. Healing is reduced by\n30\n% with each jump.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 71,
+          "end": 74,
+          "old_token": "231",
+          "new_token": "277.2",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "231",
+          "new": "277.2"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 1064,
+          "source_spell_id": 1064,
+          "effect_index": 1,
+          "effect_text": "Heal (SP mod: 2.31)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.2,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.2,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Lava Burst",
@@ -102,14 +147,59 @@
         "spell_id": 51505,
         "icon": "spell_shaman_lavaburst"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "0.5% of base mana\n40 yd range\n2 sec cast\n8 sec cooldown\n1 Charge\nHurls molten lava at the target, dealing (181% of Spell Power) Fire damage. Lava Burst will always critically strike if the target is affected by Flame Shock and its damage is increased by your critical strike chance.\nGenerates 8 Maelstrom.",
+      "pvp_tooltip": "0.5% of base mana\n40 yd range\n2 sec cast\n8 sec cooldown\n1 Charge\nHurls molten lava at the target, dealing (181% of Spell Power) Fire damage. Lava Burst will always critically strike if the target is affected by Flame Shock and its damage is increased by your critical strike chance.\nGenerates 8 Maelstrom.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 51505,
+          "source_spell_id": 285452,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire) (SP mod: 1.81)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.9888,
+          "final_pvp_multiplier": 0.9888,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            51505,
+            285452
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1231772,
+              "game_effect_id": 1223929,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1231772,
+              "game_effect_id": 1266393,
+              "amount_kind": "direct",
+              "value_pct": 3.0,
+              "factor": 1.03,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -154,15 +244,76 @@
         "spell_id": 188443,
         "icon": "spell_nature_chainlightning"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "0.2% of base mana\n40 yd range\n2 sec cast\nHurls a lightning bolt at the enemy, dealing (116.4% of Spell Power) Nature damage and then jumping to additional nearby enemies. Affects 3 total targets\nGenerates 2 Maelstrom per target hit.",
+      "pvp_tooltip": "0.2% of base mana\n40 yd range\n2 sec cast\nHurls a lightning bolt at the enemy, dealing (183.2602% of Spell Power) Nature damage and then jumping to additional nearby enemies. Affects 3 total targets\nGenerates 2 Maelstrom per target hit.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 87,
+          "end": 92,
+          "old_token": "116.4",
+          "new_token": "183.2602",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "116.4",
+          "new": "183.2602"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 188443,
+          "source_spell_id": 188443,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (SP mod: 1.164)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.5744,
+          "final_pvp_multiplier": 1.5744,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1231772,
+              "game_effect_id": 1223929,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1231772,
+              "game_effect_id": 1266395,
+              "amount_kind": "direct",
+              "value_pct": 64.0,
+              "factor": 1.6400000000000001,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Earth Shield",
@@ -208,15 +359,74 @@
         "spell_id": 974,
         "icon": "spell_nature_skinofearth"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "5% of base mana\n40 yd range\nInstant\nProtects the target with an earthen shield, increasing your healing on them by 20% and healing them for [(73% of Spell Power) * (1.2)] when they take damage. This heal can only occur once every\n3\nsec.\nMaximum 9 charges\n.\n[\nElemental Orbit\n:\nEarth Shield can only be placed on the Shaman and one other target at a time. The Shaman can have up to two Elemental Shields active on them\n/ Earth Shield can only be placed on one target at a time. Only one Elemental Shield can be active on the Shaman.]\n(3s cooldown)",
+      "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\nProtects the target with an earthen shield, increasing your healing on them by 20% and healing them for [(39.0915% of Spell Power) * (1.2)] when they take damage. This heal can only occur once every\n3\nsec.\nMaximum 9 charges\n.\n[\nElemental Orbit\n:\nEarth Shield can only be placed on the Shaman and one other target at a time. The Shaman can have up to two Elemental Shields active on them\n/ Earth Shield can only be placed on one target at a time. Only one Elemental Shield can be active on the Shaman.]\n(3s cooldown)",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 142,
+          "end": 144,
+          "old_token": "73",
+          "new_token": "39.0915",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "73",
+          "new": "39.0915"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 974,
+          "source_spell_id": 379,
+          "effect_index": 1,
+          "effect_text": "Heal (SP mod: 0.73)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.85,
+          "amount_kind": "direct",
+          "aura_factor": 0.63,
+          "final_pvp_multiplier": 0.5355,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            974,
+            379
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1231772,
+              "game_effect_id": 1266391,
+              "amount_kind": "direct",
+              "value_pct": -37.0,
+              "factor": 0.63,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Ancestral Wolf Affinity",
@@ -263,10 +473,10 @@
         "spell_id": 382197,
         "icon": "spell_beastmaster_wolf"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Cleanse Spirit, Wind Shear, Purge, and totem casts no longer cancel Ghost Wolf.",
+      "pvp_tooltip": "Cleanse Spirit, Wind Shear, Purge, and totem casts no longer cancel Ghost Wolf.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -316,10 +526,10 @@
         "spell_id": 382886,
         "icon": "spell_firefrost_orb"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases all Fire and Frost damage you deal by 3%.",
+      "pvp_tooltip": "Increases all Fire and Frost damage you deal by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -371,10 +581,10 @@
         "spell_id": 260878,
         "icon": "spell_hunter_lonewolf"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While transformed into a Ghost Wolf, you gain 5% increased movement speed and 5% damage reduction every 1 sec, stacking up to 4 times.",
+      "pvp_tooltip": "While transformed into a Ghost Wolf, you gain 5% increased movement speed and 5% damage reduction every 1 sec, stacking up to 4 times.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -426,10 +636,10 @@
         "spell_id": 378075,
         "icon": "ability_hunter_longevity"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Ghost Wolf removes snares and increases your movement speed by an additional 25% for the first 3 sec. May only occur once every 20 sec.\n(20s cooldown)",
+      "pvp_tooltip": "Ghost Wolf removes snares and increases your movement speed by an additional 25% for the first 3 sec. May only occur once every 20 sec.\n(20s cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -480,15 +690,76 @@
         "spell_id": 196840,
         "icon": "spell_frost_frostshock"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "0.2% of base mana\n40 yd range\nInstant\nChills the target with frost, causing (72.45% of Spell Power) Frost damage and reducing the target's movement speed by 50% for 6 sec.\nGenerates 10 Maelstrom.",
+      "pvp_tooltip": "0.2% of base mana\n40 yd range\nInstant\nChills the target with frost, causing (55.6416% of Spell Power) Frost damage and reducing the target's movement speed by 50% for 6 sec.\nGenerates 10 Maelstrom.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 77,
+          "end": 82,
+          "old_token": "72.45",
+          "new_token": "55.6416",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "72.45",
+          "new": "55.6416"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 196840,
+          "source_spell_id": 196840,
+          "effect_index": 1,
+          "effect_text": "School Damage (Frost) (SP mod: 0.7245)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.768,
+          "final_pvp_multiplier": 0.768,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1231772,
+              "game_effect_id": 1223929,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1231772,
+              "game_effect_id": 1266396,
+              "amount_kind": "direct",
+              "value_pct": -20.0,
+              "factor": 0.8,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Elemental Orbit",
@@ -533,10 +804,10 @@
         "spell_id": 383010,
         "icon": "ability_mage_shattershield"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the number of Elemental Shields you can have active on yourself by 1.\nYou can have Earth Shield on yourself and one ally at the same time.",
+      "pvp_tooltip": "Increases the number of Elemental Shields you can have active on yourself by 1.\nYou can have Earth Shield on yourself and one ally at the same time.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -588,10 +859,10 @@
         "spell_id": 58875,
         "icon": "ability_tracking"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n1 min cooldown\nRemoves all movement impairing effects and increases your movement speed by 60% for 8 sec.",
+      "pvp_tooltip": "Instant\n1 min cooldown\nRemoves all movement impairing effects and increases your movement speed by 60% for 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -643,10 +914,10 @@
         "spell_id": 192063,
         "icon": "inv_misc_volatileair"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n20 sec cooldown\nA gust of wind hurls you forward.",
+      "pvp_tooltip": "Instant\n20 sec cooldown\nA gust of wind hurls you forward.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -700,10 +971,10 @@
         "spell_id": 108271,
         "icon": "ability_shaman_astralshift"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n2 min cooldown\nShift partially into the elemental planes, taking\n40\n% less damage for 12 sec.",
+      "pvp_tooltip": "Instant\n2 min cooldown\nShift partially into the elemental planes, taking\n40\n% less damage for 12 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -755,10 +1026,10 @@
         "spell_id": 30884,
         "icon": "spell_nature_natureguardian"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When your health is brought below 35%, you instantly heal for 40% of your maximum health. Cannot occur more than once every 45 sec.",
+      "pvp_tooltip": "When your health is brought below 35%, you instantly heal for 40% of your maximum health. Cannot occur more than once every 45 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -808,10 +1079,10 @@
         "spell_id": 462762,
         "icon": "ability_mage_coldasice"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the cooldown of Frost Shock by 15 sec, but Frost Shock now freezes targets in place for 4 sec.",
+      "pvp_tooltip": "Increases the cooldown of Frost Shock by 15 sec, but Frost Shock now freezes targets in place for 4 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -861,15 +1132,65 @@
         "spell_id": 462764,
         "icon": "spell_frost_glacier"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Enemies within 10 yds of your Frost Shock are snared by 30%.",
+      "pvp_tooltip": "Enemies within 10 yds of your Frost Shock are snared by 20%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 56,
+          "end": 58,
+          "old_token": "30",
+          "new_token": "20",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "30",
+          "new": "20"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 462764,
+          "source_spell_id": 462765,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -30.0,
+          "spell_pvp_multiplier": 0.666667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.666667,
+          "final_pvp_value": -20.00001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            462764,
+            462765
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Healing Stream Totem",
@@ -916,10 +1237,10 @@
         "spell_id": 392915,
         "icon": "inv_spear_04"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": ".",
+      "pvp_tooltip": ".",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -971,10 +1292,10 @@
         "spell_id": 382215,
         "icon": "ability_druid_galewinds"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases your movement speed by 5% and the movement speed bonus of Ghost Wolf by an additional 5%.",
+      "pvp_tooltip": "Increases your movement speed by 5% and the movement speed bonus of Ghost Wolf by an additional 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1025,10 +1346,10 @@
         "spell_id": 381647,
         "icon": "spell_shaman_astralshift"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Astral Shift by 30 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Astral Shift by 30 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1079,10 +1400,10 @@
         "spell_id": 377933,
         "icon": "spell_shaman_ancestralawakening"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Astral Shift reduces damage taken by an additional 20%.",
+      "pvp_tooltip": "Astral Shift reduces damage taken by an additional 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1134,10 +1455,10 @@
         "spell_id": 381689,
         "icon": "inv_jewelry_talisman_06"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Stamina increased by 8%.\nWhile you are at full health, Reincarnation cools down 50% faster.",
+      "pvp_tooltip": "Stamina increased by 8%.\nWhile you are at full health, Reincarnation cools down 50% faster.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1189,10 +1510,10 @@
         "spell_id": 57994,
         "icon": "spell_nature_cyclone"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "30 yd range\nInstant\n12 sec cooldown\nDisrupts the target's concentration with a burst of wind, interrupting spellcasting and preventing any spell in that school from being cast for 4 sec.",
+      "pvp_tooltip": "30 yd range\nInstant\n12 sec cooldown\nDisrupts the target's concentration with a burst of wind, interrupting spellcasting and preventing any spell in that school from being cast for 4 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1242,10 +1563,10 @@
         "spell_id": 462368,
         "icon": "spell_fireresistancetotem_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Healing from Healing Stream Totem reduces Fire, Frost, and Nature damage taken by 6% for 3 sec.",
+      "pvp_tooltip": "Healing from Healing Stream Totem reduces Fire, Frost, and Nature damage taken by 6% for 3 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1297,15 +1618,65 @@
         "spell_id": 51485,
         "icon": "spell_nature_stranglevines"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "0.5% of base mana\n35 yd range\nInstant\n30 sec cooldown\nSummons a totem at the target location for 20 sec. The totem pulses every 2 sec, rooting all enemies within 8 yards for 8 sec. Enemies previously rooted by the totem instead suffer 50% movement speed reduction.",
+      "pvp_tooltip": "0.5% of base mana\n35 yd range\nInstant\n30 sec cooldown\nSummons a totem at the target location for 20 sec. The totem pulses every 2 sec, rooting all enemies within 8 yards for 8 sec. Enemies previously rooted by the totem instead suffer 30% movement speed reduction.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 235,
+          "end": 237,
+          "old_token": "50",
+          "new_token": "30",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "50",
+          "new": "30"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 51485,
+          "source_spell_id": 116947,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            51485,
+            116947
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Capacitor Totem",
@@ -1353,10 +1724,10 @@
         "spell_id": 192058,
         "icon": "spell_nature_brilliance"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "2% of base mana\n40 yd range\nInstant\n1 min cooldown\nSummons a totem at the target location that gathers electrical energy from the surrounding air and explodes after 2 sec, stunning all enemies within 8 yards for 3 sec.",
+      "pvp_tooltip": "2% of base mana\n40 yd range\nInstant\n1 min cooldown\nSummons a totem at the target location that gathers electrical energy from the surrounding air and explodes after 2 sec, stunning all enemies within 8 yards for 3 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1408,10 +1779,10 @@
         "spell_id": 1270375,
         "icon": "spell_shaman_blessingoftheeternals"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Mastery increased by 3%.",
+      "pvp_tooltip": "Mastery increased by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1462,10 +1833,10 @@
         "spell_id": 462796,
         "icon": "spell_nature_rockbiter"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The effects of your weapon and shield imbues are increased by 30%.",
+      "pvp_tooltip": "The effects of your weapon and shield imbues are increased by 30%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1515,10 +1886,10 @@
         "spell_id": 355630,
         "icon": "inv_elemental_primal_air"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Interrupting a spell with Wind Shear reduces all spell damage taken by 15% for 12 sec.",
+      "pvp_tooltip": "Interrupting a spell with Wind Shear reduces all spell damage taken by 15% for 12 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1570,10 +1941,10 @@
         "spell_id": 378211,
         "icon": "ability_shaman_fortifyingwaters"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Healing Surge is 30% more effective on yourself.",
+      "pvp_tooltip": "Your Healing Surge is 30% more effective on yourself.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1625,10 +1996,10 @@
         "spell_id": 51886,
         "icon": "ability_shaman_cleansespirit"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "10% of base mana\n40 yd range\nInstant\n8 sec cooldown\nRemoves all Curse effects from a friendly target.",
+      "pvp_tooltip": "10% of base mana\n40 yd range\nInstant\n8 sec cooldown\nRemoves all Curse effects from a friendly target.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1678,10 +2049,10 @@
         "spell_id": 265046,
         "icon": "spell_nature_brilliance"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Capacitor Totem by 15 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Capacitor Totem by 15 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1733,10 +2104,10 @@
         "spell_id": 192077,
         "icon": "ability_shaman_windwalktotem"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "1% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummons a totem at the target location for 15 sec, continually granting all allies who pass within 10 yards 40% increased movement speed for 5 sec.",
+      "pvp_tooltip": "1% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummons a totem at the target location for 15 sec, continually granting all allies who pass within 10 yards 40% increased movement speed for 5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1788,10 +2159,10 @@
         "spell_id": 198103,
         "icon": "spell_nature_earthelemental_totem"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\nInstant\n3 min cooldown\nCalls forth a\nGreater\nEarth Elemental to protect you\nand your allies, generating high threat and taunting enemies periodically\nfor 30 sec.",
+      "pvp_tooltip": "40 yd range\nInstant\n3 min cooldown\nCalls forth a\nGreater\nEarth Elemental to protect you\nand your allies, generating high threat and taunting enemies periodically\nfor 30 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1843,10 +2214,10 @@
         "spell_id": 370,
         "icon": "spell_nature_purge"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "14% of base mana\n30 yd range\nInstant\nPurges the enemy target, removing 1 beneficial Magic effect.[Successfully purging a target grants a stack of Maelstrom Weapon.]",
+      "pvp_tooltip": "14% of base mana\n30 yd range\nInstant\nPurges the enemy target, removing 1 beneficial Magic effect.[Successfully purging a target grants a stack of Maelstrom Weapon.]",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1898,10 +2269,10 @@
         "spell_id": 378773,
         "icon": "spell_shaman_focusedstrikes"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "21% of base mana\n30 yd range\nInstant\n12 sec cooldown\nPurges the enemy target, removing 2 beneficial Magic effects.",
+      "pvp_tooltip": "21% of base mana\n30 yd range\nInstant\n12 sec cooldown\nPurges the enemy target, removing 2 beneficial Magic effects.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -1954,10 +2325,10 @@
         "spell_id": 381655,
         "icon": "spell_nature_spiritarmor"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the critical strike chance of your Nature spells and abilities by 2%.",
+      "pvp_tooltip": "Increases the critical strike chance of your Nature spells and abilities by 2%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2008,10 +2379,10 @@
         "spell_id": 462791,
         "icon": "achievement_raidprimalist_windelemental"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Wind Rush Totem's cooldown is reduced by 30 sec and its movement speed effect lasts an additional 2 sec.",
+      "pvp_tooltip": "Wind Rush Totem's cooldown is reduced by 30 sec and its movement speed effect lasts an additional 2 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2062,10 +2433,10 @@
         "spell_id": 462817,
         "icon": "inv_elemental_primal_air"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Wind Rush Totem's movement speed bonus is increased by 10% and now removes snares.",
+      "pvp_tooltip": "Wind Rush Totem's movement speed bonus is increased by 10% and now removes snares.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2115,10 +2486,10 @@
         "spell_id": 1279819,
         "icon": "inv_elemental_primal_earth"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Earth Elemental no longer taunts nearby enemies or generates threat and instead increases your maximum health by 15% while active.",
+      "pvp_tooltip": "Your Earth Elemental no longer taunts nearby enemies or generates threat and instead increases your maximum health by 15% while active.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2170,10 +2541,10 @@
         "spell_id": 51514,
         "icon": "spell_shaman_hex"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "30 yd range\n1.7 sec cast\n30 sec cooldown\nTransforms the enemy into a frog for 1 min. While hexed, the victim is incapacitated, and cannot attack or cast spells. Damage may cancel the effect. Limit 1. Only works on Humanoids and Beasts.",
+      "pvp_tooltip": "30 yd range\n1.7 sec cast\n30 sec cooldown\nTransforms the enemy into a frog for 1 min. While hexed, the victim is incapacitated, and cannot attack or cast spells. Damage may cancel the effect. Limit 1. Only works on Humanoids and Beasts.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2224,10 +2595,10 @@
         "spell_id": 79206,
         "icon": "spell_shaman_spiritwalkersgrace"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "2.82% of base mana\nInstant\n2 min cooldown\nCalls upon the guidance of the spirits for 15 sec, permitting movement while casting Shaman spells. Castable while casting.",
+      "pvp_tooltip": "2.82% of base mana\nInstant\n2 min cooldown\nCalls upon the guidance of the spirits for 15 sec, permitting movement while casting Shaman spells. Castable while casting.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2278,10 +2649,10 @@
         "spell_id": 108287,
         "icon": "ability_shaman_totemrelocation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\nInstant\n10 sec cooldown\nRelocates your active totems to the specified location.",
+      "pvp_tooltip": "40 yd range\nInstant\n10 sec cooldown\nRelocates your active totems to the specified location.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2334,10 +2705,10 @@
         "spell_id": 381650,
         "icon": "inv_10_elementalcombinedfoozles_primordial"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces all magic damage taken by 8%.",
+      "pvp_tooltip": "Reduces all magic damage taken by 8%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2390,10 +2761,10 @@
         "spell_id": 382201,
         "icon": "inv_relics_totemofrebirth"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the radius of your totem effects by 15%.\nIncreases the duration of your Earthbind and Earthgrab Totems by 10 sec.\nIncreases the duration of your Healing Stream, Tremor, Poison Cleansing, and Wind Rush Totems by 3.0 sec.",
+      "pvp_tooltip": "Increases the radius of your totem effects by 15%.\nIncreases the duration of your Earthbind and Earthgrab Totems by 10 sec.\nIncreases the duration of your Healing Stream, Tremor, Poison Cleansing, and Wind Rush Totems by 3.0 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2443,10 +2814,10 @@
         "spell_id": 192088,
         "icon": "spell_shaman_spectraltransformation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Spiritwalker's Grace by 30 sec and increases your movement speed by 20% while it is active.",
+      "pvp_tooltip": "Reduces the cooldown of Spiritwalker's Grace by 30 sec and increases your movement speed by 20% while it is active.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2496,10 +2867,10 @@
         "spell_id": 378077,
         "icon": "ability_racial_forceshield"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When you cast Spiritwalker's Grace, you become immune to Silence and Interrupt effects for 5 sec.",
+      "pvp_tooltip": "When you cast Spiritwalker's Grace, you become immune to Silence and Interrupt effects for 5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2551,10 +2922,10 @@
         "spell_id": 381930,
         "icon": "spell_nature_manaregentotem"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Level\n90\nYour Lava Burst casts restore\n150\nmana to you and 4 allies nearest to you within 40 yards.\nAllies can only benefit from one Shaman's Mana Spring effect at a time, prioritizing healers.",
+      "pvp_tooltip": "Level\n90\nYour Lava Burst casts restore\n150\nmana to you and 4 allies nearest to you within 40 yards.\nAllies can only benefit from one Shaman's Mana Spring effect at a time, prioritizing healers.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2604,10 +2975,10 @@
         "spell_id": 8143,
         "icon": "spell_nature_tremortotem"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "0.46% of base mana\nInstant\n1 min cooldown\nSummons a totem at your feet that shakes the ground around it for 10 sec, removing Fear, Charm and Sleep effects from party and raid members within 30 yards.",
+      "pvp_tooltip": "0.46% of base mana\nInstant\n1 min cooldown\nSummons a totem at your feet that shakes the ground around it for 10 sec, removing Fear, Charm and Sleep effects from party and raid members within 30 yards.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2657,10 +3028,10 @@
         "spell_id": 383013,
         "icon": "spell_nature_poisoncleansingtotem"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "0.5% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummons a totem at your feet that removes all Poison effects from a nearby party or raid member within 30 yards every 1.5 sec for 6 sec.",
+      "pvp_tooltip": "0.5% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummons a totem at your feet that removes all Poison effects from a nearby party or raid member within 30 yards every 1.5 sec for 6 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2712,10 +3083,10 @@
         "spell_id": 1217622,
         "icon": "shaman_pvp_rockshield"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Earth Shield no longer loses charges and is 115% effective.",
+      "pvp_tooltip": "Earth Shield no longer loses charges and is 115% effective.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2767,10 +3138,10 @@
         "spell_id": 462454,
         "icon": "inv_10_elementalcombinedfoozles_water"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Level\n90\nWhen refreshing Earth Shield, your target is healed for (273.33% of Spell Power) for each stack of Earth Shield they are missing.\nAdditionally, Earth Shield can consume charges 1.0 sec faster.",
+      "pvp_tooltip": "Level\n90\nWhen refreshing Earth Shield, your target is healed for (273.33% of Spell Power) for each stack of Earth Shield they are missing.\nAdditionally, Earth Shield can consume charges 1.0 sec faster.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2820,15 +3191,65 @@
         "spell_id": 204268,
         "icon": "spell_shaman_hex"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Your Hex target is slowed by 70% during Hex and for 6 sec after it ends.\nReduces the cooldown of Hex by 15 sec.",
+      "pvp_tooltip": "Your Hex target is slowed by 50% during Hex and for 6 sec after it ends.\nReduces the cooldown of Hex by 15 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 29,
+          "end": 31,
+          "old_token": "70",
+          "new_token": "50",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "70",
+          "new": "50"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 204268,
+          "source_spell_id": 378080,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": 70.0,
+          "spell_pvp_multiplier": 0.714286,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.714286,
+          "final_pvp_value": 50.00002,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            204268,
+            378080
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Nature's Swiftness",
@@ -2872,10 +3293,10 @@
         "spell_id": 378081,
         "icon": "spell_nature_ravenform"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\n1 min cooldown\nYour next healing or damaging Nature spell\nis instant cast and costs no mana.",
+      "pvp_tooltip": "Instant\n1 min cooldown\nYour next healing or damaging Nature spell\nis instant cast and costs no mana.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2925,10 +3346,10 @@
         "spell_id": 381867,
         "icon": "spell_nature_agitatingtotem"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of most totems by 5 sec.",
+      "pvp_tooltip": "Reduces the cooldown of most totems by 5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -2978,10 +3399,10 @@
         "spell_id": 1270350,
         "icon": "ability_shaman_ascendance"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Lightning Shield increases your Intellect by 3%.\nCasting Lightning Shield now applies your weapon imbuements. Earth Shield is also applied if you have the Elemental Orbit talent.",
+      "pvp_tooltip": "Lightning Shield increases your Intellect by 3%.\nCasting Lightning Shield now applies your weapon imbuements. Earth Shield is also applied if you have the Elemental Orbit talent.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3031,15 +3452,69 @@
         "spell_id": 8042,
         "icon": "spell_nature_earthshock"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "60 Maelstrom\n40 yd range\nInstant\nInstantly shocks the target with concussive force, causing (790.005% of Spell Power) Nature damage.",
+      "pvp_tooltip": "60 Maelstrom\n40 yd range\nInstant\nInstantly shocks the target with concussive force, causing (694.6988% of Spell Power) Nature damage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 93,
+          "end": 100,
+          "old_token": "790.005",
+          "new_token": "694.6988",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "790.005",
+          "new": "694.6988"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 8042,
+          "source_spell_id": 8042,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (SP mod: 7.90005)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.916,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.87936,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1231772,
+              "game_effect_id": 1223929,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Elemental Blast",
@@ -3084,15 +3559,76 @@
         "spell_id": 117014,
         "icon": "shaman_talent_elementalblast"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "0.55% of base mana / 90 Maelstrom\n40 yd range\n2 sec cast\n12 sec cooldown\n1 Charge\nHarnesses the raw power of the elements, dealing (201.25% of Spell Power) Elemental damage and increasing your Critical Strike or Haste by 8% or Mastery by (8 *\n1.875\n)% for 10 sec.",
+      "pvp_tooltip": "0.55% of base mana / 90 Maelstrom\n40 yd range\n2 sec cast\n12 sec cooldown\n1 Charge\nHarnesses the raw power of the elements, dealing (127.512% of Spell Power) Elemental damage and increasing your Critical Strike or Haste by 8% or Mastery by (8 *\n1.875\n)% for 10 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 132,
+          "end": 138,
+          "old_token": "201.25",
+          "new_token": "127.512",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "201.25",
+          "new": "127.512"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 117014,
+          "source_spell_id": 117014,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire, Nature, Frost) (SP mod: 2.0125)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.6335999999999999,
+          "final_pvp_multiplier": 0.6335999999999999,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1231772,
+              "game_effect_id": 1223929,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1231772,
+              "game_effect_id": 1266394,
+              "amount_kind": "direct",
+              "value_pct": -34.0,
+              "factor": 0.6599999999999999,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Earthquake",
@@ -3137,15 +3673,74 @@
         "spell_id": 462620,
         "icon": "spell_shaman_earthquake"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "60 Maelstrom\n40 yd range\nInstant\nCauses the earth within 8 yards of your target to tremble and break, dealing [6 * (63.25% of Spell Power)] Nature damage over 6 sec and has a 5% chance to knock the enemy down. Multiple uses of Earthquake may overlap.\nThis spell is cast at your target.",
+      "pvp_tooltip": "60 Maelstrom\n40 yd range\nInstant\nCauses the earth within 8 yards of your target to tremble and break, dealing [6 * (66.792% of Spell Power)] Nature damage over 6 sec and has a 5% chance to knock the enemy down. Multiple uses of Earthquake may overlap.\nThis spell is cast at your target.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 116,
+          "end": 121,
+          "old_token": "63.25",
+          "new_token": "66.792",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "63.25",
+          "new": "66.792"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 462620,
+          "source_spell_id": 77478,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (SP mod: 0.6325)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.1,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 1.056,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            462620,
+            77478
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1231772,
+              "game_effect_id": 1223929,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Earthquake",
@@ -3190,15 +3785,74 @@
         "spell_id": 61882,
         "icon": "spell_shaman_earthquake"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "60 Maelstrom\n40 yd range\nInstant\nCauses the earth within 8 yards of the target location to tremble and break, dealing [6 * (63.25% of Spell Power)] Nature damage over 6 sec and has a 5% chance to knock the enemy down. Multiple uses of Earthquake may overlap.\nThis spell is cast at a selected location.",
+      "pvp_tooltip": "60 Maelstrom\n40 yd range\nInstant\nCauses the earth within 8 yards of the target location to tremble and break, dealing [6 * (66.792% of Spell Power)] Nature damage over 6 sec and has a 5% chance to knock the enemy down. Multiple uses of Earthquake may overlap.\nThis spell is cast at a selected location.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 124,
+          "end": 129,
+          "old_token": "63.25",
+          "new_token": "66.792",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "63.25",
+          "new": "66.792"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 61882,
+          "source_spell_id": 77478,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (SP mod: 0.6325)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.1,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 1.056,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            61882,
+            77478
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1231772,
+              "game_effect_id": 1223929,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Elemental Fury",
@@ -3243,10 +3897,10 @@
         "spell_id": 60188,
         "icon": "spell_fire_volcano"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your damaging\ncritical strikes deal (50 /\nPrimordial Fury\n:\n75\n/\nFeedback Loop\n:\n65\n+ 200)% damage\ninstead of the usual 200%.",
+      "pvp_tooltip": "Your damaging\ncritical strikes deal (50 /\nPrimordial Fury\n:\n75\n/\nFeedback Loop\n:\n65\n+ 200)% damage\ninstead of the usual 200%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3296,10 +3950,10 @@
         "spell_id": 333919,
         "icon": "ability_shaman_echooftheelements"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Lava Burst has an additional charge.",
+      "pvp_tooltip": "Lava Burst has an additional charge.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3350,10 +4004,10 @@
         "spell_id": 381936,
         "icon": "spell_lightning_lightningbolt01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the critical strike chance of Lightning Bolt\nand Chain Lightning by 10%.",
+      "pvp_tooltip": "Increases the critical strike chance of Lightning Bolt\nand Chain Lightning by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3403,10 +4057,10 @@
         "spell_id": 1258899,
         "icon": "item_earthenmight"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Earth Shock, Elemental Blast, and Earthquake deal 20% increased damage.",
+      "pvp_tooltip": "Earth Shock, Elemental Blast, and Earthquake deal 20% increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3456,10 +4110,10 @@
         "spell_id": 273221,
         "icon": "spell_nature_stormreach"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Earth Shock, Elemental Blast, and Earthquake have a 25% chance to refund all Maelstrom spent.",
+      "pvp_tooltip": "Earth Shock, Elemental Blast, and Earthquake have a 25% chance to refund all Maelstrom spent.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3509,10 +4163,10 @@
         "spell_id": 1258843,
         "icon": "spell_shaman_lavaburst"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Lava Burst deals 10% additional damage.",
+      "pvp_tooltip": "Lava Burst deals 10% additional damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3562,10 +4216,10 @@
         "spell_id": 16166,
         "icon": "spell_nature_elementalabsorption"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Lava Burst increases the damage or healing of your next Nature\n, Physical,\nor Frost spell by 15%.",
+      "pvp_tooltip": "Casting Lava Burst increases the damage or healing of your next Nature\n, Physical,\nor Frost spell by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3615,10 +4269,10 @@
         "spell_id": 462862,
         "icon": "spell_nature_lightningshield"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While Lightning Shield is active, your Nature damage dealt is increased by 8%.",
+      "pvp_tooltip": "While Lightning Shield is active, your Nature damage dealt is increased by 8%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3670,15 +4324,98 @@
         "spell_id": 191634,
         "icon": "ability_thunderking_lightningwhip"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "1.5 sec cast\n1 min cooldown\nCharge yourself with lightning, causing your next 2 Lightning Bolts to be instant cast and deal 150% more damage, or cause your next 2 Chain Lightings to be instant cast and trigger an Elemental Overload on every target.\nGenerates 10 Maelstrom.",
+      "pvp_tooltip": "1.5 sec cast\n1 min cooldown\nCharge yourself with lightning, causing your next 2 Lightning Bolts to be instant cast and deal 52.5% more damage, or cause your next 2 Chain Lightings to be instant cast and trigger an Elemental Overload on every target.\nGenerates 10 Maelstrom.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 124,
+          "end": 127,
+          "old_token": "150",
+          "new_token": "52.5",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 25.0,
+          "new": 12.5,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "150",
+          "new": "52.5"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 191634,
+          "source_spell_id": 191634,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 150.0,
+          "spell_pvp_multiplier": 0.35,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.35,
+          "final_pvp_value": 52.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 191634,
+          "source_spell_id": 1264863,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Effect #4's Value (32)",
+          "base_value": 25.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 12.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            191634,
+            1264863
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Flametongue Weapon",
@@ -3723,14 +4460,51 @@
         "spell_id": 318038,
         "icon": "spell_fire_flametounge"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Instant\nImbue your weapon with the element of Fire for 1 hour, increasing the damage of your Fire spells by 5.0%.",
+      "pvp_tooltip": "Instant\nImbue your weapon with the element of Fire for 1 hour, increasing the damage of your Fire spells by 5.0%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 318038,
+          "source_spell_id": 10444,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire) (AP mod: 0.0396 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.96,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            318038,
+            10444
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1231772,
+              "game_effect_id": 1223929,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -3778,10 +4552,10 @@
         "spell_id": 462695,
         "icon": "spell_nature_callstorm"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cast time of Lightning Bolt [\nTempest\n:\nTempest\n] and Chain Lightning by 15%.",
+      "pvp_tooltip": "Reduces the cast time of Lightning Bolt [\nTempest\n:\nTempest\n] and Chain Lightning by 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3831,10 +4605,10 @@
         "spell_id": 381707,
         "icon": "spell_shaman_maelstromweapon"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases your maximum Maelstrom by 50.\nIncreases Earth Shock, Elemental Blast, and Earthquake damage by 5%.",
+      "pvp_tooltip": "Increases your maximum Maelstrom by 50.\nIncreases Earth Shock, Elemental Blast, and Earthquake damage by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3885,10 +4659,10 @@
         "spell_id": 378193,
         "icon": "inv_10_elementalshardfoozles_primordial"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Elemental Fury increases critical strike damage by an additional 25%.",
+      "pvp_tooltip": "Elemental Fury increases critical strike damage by an additional 25%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3939,10 +4713,10 @@
         "spell_id": 191717,
         "icon": "inv_stormelemental"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Stormkeeper summons a\nGreater\nStorm Elemental to hurl gusts of wind at your enemies for 10 sec.",
+      "pvp_tooltip": "Casting Stormkeeper summons a\nGreater\nStorm Elemental to hurl gusts of wind at your enemies for 10 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -3993,10 +4767,10 @@
         "spell_id": 468571,
         "icon": "achievement_raidprimalist_windelemental"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Stormkeeper by 15 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Stormkeeper by 15 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4047,15 +4821,94 @@
         "spell_id": 378266,
         "icon": "inv_misc_cauldron_fire"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Flame Shock and Voltaic Blaze by 1.5 sec.\nFlame Shock deals damage 15% faster.",
+      "pvp_tooltip": "Reduces the cooldown of Flame Shock and Voltaic Blaze by 1.5 sec.\nFlame Shock deals damage 15% faster.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "REVIEW_REQUIRED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_index": null,
+          "status": "CONFLICTING_TRANSFORMS",
+          "reason": "PvE value 1.5 maps to multiple PvP values",
+          "candidates": [
+            {
+              "kind": "ordinary_value",
+              "old": 1.5,
+              "new": 3.0,
+              "unit": null,
+              "effect_index": 2,
+              "match_ordinal": 1,
+              "match_group_count": 1,
+              "effect_indexes": [
+                2
+              ]
+            },
+            {
+              "kind": "duration_seconds",
+              "old": 1.5,
+              "new": 3.0,
+              "unit": "sec",
+              "effect_index": 3,
+              "match_ordinal": 1,
+              "match_group_count": 1,
+              "effect_indexes": [
+                3
+              ]
+            }
+          ]
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 378266,
+          "source_spell_id": 378266,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Cooldown (11)",
+          "base_value": -1.5,
+          "spell_pvp_multiplier": 2.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": -3.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 378266,
+          "source_spell_id": 378266,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Add Modifier - Flat (Label): Modifies Cooldown (11)",
+          "base_value": -1500.0,
+          "spell_pvp_multiplier": 2.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": -3000.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Amped Up",
@@ -4102,10 +4955,10 @@
         "spell_id": 1269360,
         "icon": "inv_10_elementalcombinedfoozles_lightning"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases your haste by 3%.",
+      "pvp_tooltip": "Increases your haste by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4159,10 +5012,10 @@
         "spell_id": 1258895,
         "icon": "inv_10_elementalcombinedfoozles_primordial"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "All Elemental damage increased by 3%.",
+      "pvp_tooltip": "All Elemental damage increased by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4216,15 +5069,73 @@
         "spell_id": 462757,
         "icon": "inv_armorkit_lightning_imbued"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Instant\nImbue your shield with the element of Lightning for 1 hour, giving Lightning Bolt\nand Chain Lightning a chance to call down 2 Thunderstrikes on your target for (71.5% of Spell Power) Nature damage.",
+      "pvp_tooltip": "Instant\nImbue your shield with the element of Lightning for 1 hour, giving Lightning Bolt\nand Chain Lightning a chance to call down 2 Thunderstrikes on your target for (68.64% of Spell Power) Nature damage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 169,
+          "end": 173,
+          "old_token": "71.5",
+          "new_token": "68.64",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "71.5",
+          "new": "68.64"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 462757,
+          "source_spell_id": 462763,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (SP mod: 0.715)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.96,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            462757,
+            462763
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1231772,
+              "game_effect_id": 1223929,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Path of the Seer",
@@ -4269,10 +5180,10 @@
         "spell_id": 1269364,
         "icon": "spell_shaman_elementaloath"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases your Intellect by 3%.",
+      "pvp_tooltip": "Increases your Intellect by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4324,10 +5235,10 @@
         "spell_id": 462866,
         "icon": "inv_10_elementalspiritfoozles_air"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "While a Fire Elemental is active, your Fire damage dealt is increased by 6%.\nWhile a Storm Elemental is active, your Nature damage dealt is increased by 6%.",
+      "pvp_tooltip": "While a Fire Elemental is active, your Fire damage dealt is increased by 6%.\nWhile a Storm Elemental is active, your Nature damage dealt is increased by 6%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4379,10 +5290,10 @@
         "spell_id": 381782,
         "icon": "inv_offhand_1h_artifactdoomhammer_d_01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Flame Shock damage has a chance to generate 2 Maelstrom.",
+      "pvp_tooltip": "Flame Shock damage has a chance to generate 2 Maelstrom.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4432,10 +5343,10 @@
         "spell_id": 191861,
         "icon": "spell_fire_masterofelements"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Chain Lightning and Lightning Bolt have a 15% chance to cause your next Lava Burst deal 20% extra damage, stacking up to 2 times.",
+      "pvp_tooltip": "Chain Lightning and Lightning Bolt have a 15% chance to cause your next Lava Burst deal 20% extra damage, stacking up to 2 times.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4487,10 +5398,10 @@
         "spell_id": 468626,
         "icon": "spell_nature_earthquake"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases Earth Shock and Earthquake damage by 8% and the stat bonuses granted by Elemental Blast by 25%.",
+      "pvp_tooltip": "Increases Earth Shock and Earthquake damage by 8% and the stat bonuses granted by Elemental Blast by 25%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4540,10 +5451,10 @@
         "spell_id": 1258889,
         "icon": "inv_misc_stormlordsfavor"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Elemental Resonance\nAll elemental damage is increased by an additional 2%.\nThunderstrike Ward\nIncreases the chance for Thunderstrikes to occur by 30% and increases Thunderstrike damage by 75%.",
+      "pvp_tooltip": "Elemental Resonance\nAll elemental damage is increased by an additional 2%.\nThunderstrike Ward\nIncreases the chance for Thunderstrikes to occur by 30% and increases Thunderstrike damage by 75%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4597,10 +5508,10 @@
         "spell_id": 382032,
         "icon": "spell_nature_lightningoverload"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the damage dealt by your Elemental Overloads by 25%.",
+      "pvp_tooltip": "Increases the damage dealt by your Elemental Overloads by 25%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4650,10 +5561,10 @@
         "spell_id": 462867,
         "icon": "spell_nature_earthelemental_totem"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the duration of your Elementals by 20%.",
+      "pvp_tooltip": "Increases the duration of your Elementals by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4705,15 +5616,74 @@
         "spell_id": 170374,
         "icon": "ability_earthen_pillar"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Your damaging spells incite the earth around you to come to your aid for 6 sec, repeatedly dealing (42.471% of Spell Power) Nature damage to your most recently attacked target.",
+      "pvp_tooltip": "Your damaging spells incite the earth around you to come to your aid for 6 sec, repeatedly dealing (30.1714% of Spell Power) Nature damage to your most recently attacked target.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 100,
+          "end": 106,
+          "old_token": "42.471",
+          "new_token": "30.1714",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "42.471",
+          "new": "30.1714"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 170374,
+          "source_spell_id": 170379,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (SP mod: 0.42471)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.74,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.7103999999999999,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            170374,
+            170379
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1231772,
+              "game_effect_id": 1223929,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Lava Flows",
@@ -4759,10 +5729,10 @@
         "spell_id": 1273485,
         "icon": "spell_shaman_lavaflow"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Lava Burst damage increased by 5%.\nLava Burst and Lava Burst Overload generate 1 additional Maelstrom.",
+      "pvp_tooltip": "Lava Burst damage increased by 5%.\nLava Burst and Lava Burst Overload generate 1 additional Maelstrom.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4812,10 +5782,10 @@
         "spell_id": 462840,
         "icon": "achievement_raidprimalist_council"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Consuming Power of the Maelstrom additionally fires an Elemental Blast at your target at 40% effectiveness.",
+      "pvp_tooltip": "Consuming Power of the Maelstrom additionally fires an Elemental Blast at your target at 40% effectiveness.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4868,10 +5838,10 @@
         "spell_id": 381708,
         "icon": "spell_shadow_soulleech_2"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the Maelstrom cost of Earth Shock and Earthquake by 5.\nReduces the Maelstrom cost of Elemental Blast by 10.",
+      "pvp_tooltip": "Reduces the Maelstrom cost of Earth Shock and Earthquake by 5.\nReduces the Maelstrom cost of Elemental Blast by 10.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4922,10 +5892,10 @@
         "spell_id": 114050,
         "icon": "inv121_ability_shaman_ascendance_fire"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "40 yd range\nInstant\n3 min cooldown\nTransform into a Flame Ascendant for 15 sec, instantly casting a Flame Shock and a 50% effectiveness Lava Burst at up to 6 nearby enemies.\nWhile ascended, Elemental Overload damage is increased by 30% and spells affected by your Mastery: Elemental Overload cause 1 additional Elemental Overload.",
+      "pvp_tooltip": "40 yd range\nInstant\n3 min cooldown\nTransform into a Flame Ascendant for 15 sec, instantly casting a Flame Shock and a 50% effectiveness Lava Burst at up to 6 nearby enemies.\nWhile ascended, Elemental Overload damage is increased by 30% and spells affected by your Mastery: Elemental Overload cause 1 additional Elemental Overload.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -4977,10 +5947,10 @@
         "spell_id": 1259047,
         "icon": "spell_shaman_shockinglava"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Lightning Bolt,\nChain Lightning, Earth Shock, Elemental Blast, and Earthquake deal 10% increased damage to targets affected by Flame Shock.",
+      "pvp_tooltip": "Lightning Bolt,\nChain Lightning, Earth Shock, Elemental Blast, and Earthquake deal 10% increased damage to targets affected by Flame Shock.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5031,10 +6001,10 @@
         "spell_id": 381784,
         "icon": "achievement_firelands_raid_ragnaros"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Flame Shock damage increased by 100%.",
+      "pvp_tooltip": "Flame Shock damage increased by 100%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5085,10 +6055,10 @@
         "spell_id": 210689,
         "icon": "inv_rod_enchantedcobalt"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Enhancement (\nEnhancement Shaman\n)\nLightning Bolt and Chain Lightning make your target a Lightning Rod for 8 sec.\nLightning Rods take 8% of all damage you deal with\nLightning Bolt\nand Chain Lightning.\n[\nTempest\n:\nTempest\n] [\n:\nEarth Shock, Elemental Blast, and Earthquake\n/\nLightning Bolt and Chain Lightning\n] make your target a Lightning Rod for 8 sec.\nLightning Rods take 10% of all damage you deal with [\nTempest\n:\nTempest, Lightning Bolt\n/ Lightning Bolt] and Chain Lightning.",
+      "pvp_tooltip": "Enhancement (\nEnhancement Shaman\n)\nLightning Bolt and Chain Lightning make your target a Lightning Rod for 8 sec.\nLightning Rods take 8% of all damage you deal with\nLightning Bolt\nand Chain Lightning.\n[\nTempest\n:\nTempest\n] [\n:\nEarth Shock, Elemental Blast, and Earthquake\n/\nLightning Bolt and Chain Lightning\n] make your target a Lightning Rod for 8 sec.\nLightning Rods take 10% of all damage you deal with [\nTempest\n:\nTempest, Lightning Bolt\n/ Lightning Bolt] and Chain Lightning.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5137,10 +6107,10 @@
         "spell_id": 381726,
         "icon": "inv_elementalearth2"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Earth Shock, Elemental Blast, and Earthquake can trigger your Mastery: Elemental Overload at 50% effectiveness.\nOverloaded Earthquakes do not knock enemies down.",
+      "pvp_tooltip": "Earth Shock, Elemental Blast, and Earthquake can trigger your Mastery: Elemental Overload at 50% effectiveness.\nOverloaded Earthquakes do not knock enemies down.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5191,15 +6161,55 @@
         "spell_id": 378255,
         "icon": "spell_fire_elemental_totem"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Ascendance summons a\nGreater\nFire Elemental to rain destruction on your enemies for 20 sec.\nWhile the Fire Elemental is active, Flame Shock deals damage 33% faster, and newly applied Flame Shocks last 100% longer.",
+      "pvp_tooltip": "Ascendance summons a\nGreater\nFire Elemental to rain destruction on your enemies for 20 sec.\nWhile the Fire Elemental is active, Flame Shock deals damage 33% faster, and newly applied Flame Shocks last 100% longer.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "frequency_more_often",
+          "old": 33.33333333333333,
+          "new": 14.942528735632177,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 378255,
+          "source_spell_id": 188592,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Time Between Ticks (19)",
+          "base_value": -25.0,
+          "spell_pvp_multiplier": 0.52,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.52,
+          "final_pvp_value": -13.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            378255,
+            188592
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Voltaic Blaze",
@@ -5246,15 +6256,73 @@
         "spell_id": 470057,
         "icon": "inv_10_dungeonjewelry_primalist_trinket_1ragingelement_fire"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "0.3% of base mana\n40 yd range\nInstant\n10 sec cooldown\nInstantly shocks the target and 5 enemies within 10 yds with blazing thunder, applying Flame Shock and dealing (400% of Spell Power) Nature damage. Always critically strikes.\nGenerates 1 stack of Maelstrom Weapon.\nGenerates 6 Maelstrom.",
+      "pvp_tooltip": "0.3% of base mana\n40 yd range\nInstant\n10 sec cooldown\nInstantly shocks the target and 5 enemies within 10 yds with blazing thunder, applying Flame Shock and dealing (384% of Spell Power) Nature damage. Always critically strikes.\nGenerates 1 stack of Maelstrom Weapon.\nGenerates 6 Maelstrom.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 166,
+          "end": 169,
+          "old_token": "400",
+          "new_token": "384",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "400",
+          "new": "384"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 470057,
+          "source_spell_id": 1259101,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (SP mod: 4)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.96,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            470057,
+            1259101
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1231772,
+              "game_effect_id": 1223929,
+              "amount_kind": "direct",
+              "value_pct": -4.0,
+              "factor": 0.96,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Charged Conduit",
@@ -5297,15 +6365,60 @@
         "spell_id": 468625,
         "icon": "ability_thunderking_thunderstruck"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Increases the duration of Lightning Rod by 4 sec and its damage bonus by 25%.",
+      "pvp_tooltip": "Increases the duration of Lightning Rod by 4 sec and its damage bonus by 50%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 73,
+          "end": 75,
+          "old_token": "25",
+          "new_token": "50",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "25",
+          "new": "50"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 468625,
+          "source_spell_id": 468625,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Add Modifier - % (Label): Modifies Effect #2's Value (12)",
+          "base_value": 25.0,
+          "spell_pvp_multiplier": 2.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 2.0,
+          "final_pvp_value": 50.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "First Ascendant",
@@ -5348,10 +6461,10 @@
         "spell_id": 462440,
         "icon": "spell_shaman_astralshift"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The cooldown of Ascendance is reduced by 60 sec.",
+      "pvp_tooltip": "The cooldown of Ascendance is reduced by 60 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5399,10 +6512,10 @@
         "spell_id": 462443,
         "icon": "spell_shaman_improvedreincarnation"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your haste is increased by 20% during Ascendance and its duration is increased by 3 sec.",
+      "pvp_tooltip": "Your haste is increased by 20% during Ascendance and its duration is increased by 3 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5450,10 +6563,10 @@
         "spell_id": 117013,
         "icon": "shaman_talent_primalelementalist"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Earth, Fire, and Storm Elementals are drawn from primal elementals 80% more powerful than regular elementals, with additional abilities, and you gain direct control over your Primal Fire Elemental.",
+      "pvp_tooltip": "Your Earth, Fire, and Storm Elementals are drawn from primal elementals 80% more powerful than regular elementals, with additional abilities, and you gain direct control over your Primal Fire Elemental.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5501,10 +6614,10 @@
         "spell_id": 1269215,
         "icon": "inv_10_dungeonjewelry_primalist_trinket_1ragingelement_air"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Voltaic Blaze's cooldown is reduced by 3 sec and its instant damage is increased by 50%.",
+      "pvp_tooltip": "Voltaic Blaze's cooldown is reduced by 3 sec and its instant damage is increased by 50%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5552,14 +6665,43 @@
         "spell_id": 1259471,
         "icon": "inv12_ability_shaman_purgingflames"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Voltaic Blaze unleashes volcanic rage, causing your next Lava Burst to also fire at 5 additional targets with your Flame Shock at 80% effectiveness with reduced Maelstrom generation.\nLava Burst damage increased by 10%.",
+      "pvp_tooltip": "Voltaic Blaze unleashes volcanic rage, causing your next Lava Burst to also fire at 5 additional targets with your Flame Shock at 80% effectiveness with reduced Maelstrom generation.\nLava Burst damage increased by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 1259471,
+          "source_spell_id": 1259491,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 80.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 40.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1259471,
+            1259491
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5601,10 +6743,10 @@
         "spell_id": 1270061,
         "icon": "inv12_apextalent_shaman_feedbackloop"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Damage of your spells and abilities increased by 10%. Elemental Overload damage increased by 10%.",
+      "pvp_tooltip": "Damage of your spells and abilities increased by 10%. Elemental Overload damage increased by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5650,10 +6792,10 @@
         "spell_id": 1270062,
         "icon": "inv12_apextalent_shaman_feedbackloop"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Spell critical strike chance increased by 5%. Elemental Fury increases spell critical strike damage by an additional 15%.",
+      "pvp_tooltip": "Spell critical strike chance increased by 5%. Elemental Fury increases spell critical strike damage by an additional 15%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5699,10 +6841,10 @@
         "spell_id": 1270064,
         "icon": "inv12_apextalent_shaman_feedbackloop"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Elemental Overloads have a 25% chance to cause an additional Elemental Overload. This effect cannot chain.",
+      "pvp_tooltip": "Elemental Overloads have a 25% chance to cause an additional Elemental Overload. This effect cannot chain.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5753,10 +6895,10 @@
         "spell_id": 443450,
         "icon": "ability_racial_ancestralcall"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Stormkeeper calls an Ancestor to your side for 8 sec.\nWhenever you cast a healing or damaging spell, the Ancestor will cast a similar spell.",
+      "pvp_tooltip": "Stormkeeper calls an Ancestor to your side for 8 sec.\nWhenever you cast a healing or damaging spell, the Ancestor will cast a similar spell.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5806,10 +6948,10 @@
         "spell_id": 443449,
         "icon": "spell_holy_spiritualguidence"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Ancestors' spells are 25% more powerful.",
+      "pvp_tooltip": "Your Ancestors' spells are 25% more powerful.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5859,10 +7001,10 @@
         "spell_id": 443423,
         "icon": "spell_shaman_astralshift"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Ancestors have a 20% chance to call another Ancestor for 8 sec when they depart.",
+      "pvp_tooltip": "Ancestors have a 20% chance to call another Ancestor for 8 sec when they depart.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5912,10 +7054,10 @@
         "spell_id": 443444,
         "icon": "spell_unused2"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Ancestors last an additional 4 sec.",
+      "pvp_tooltip": "Ancestors last an additional 4 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -5965,10 +7107,10 @@
         "spell_id": 443445,
         "icon": "spell_nature_undyingstrength"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Lightning Bolt, Lava Burst, Flame Shock, Voltaic Blaze, and Chain Lightning have a 8% chance to call an Ancestor to your side for 8 sec.",
+      "pvp_tooltip": "Lightning Bolt, Lava Burst, Flame Shock, Voltaic Blaze, and Chain Lightning have a 8% chance to call an Ancestor to your side for 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6018,15 +7160,74 @@
         "spell_id": 443418,
         "icon": "ability_shaman_echooftheelements"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Lava Burst gains an additional charge and deals 10% increased damage.",
+      "pvp_tooltip": "Lava Burst gains an additional charge and deals 10% increased damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            3,
+            4
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "ordinary_value",
+          "old": 20.0,
+          "new": 25.0,
+          "full_tooltip_match_count": 1
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 443418,
+          "source_spell_id": 443418,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 1.25,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.25,
+          "final_pvp_value": 25.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 443418,
+          "source_spell_id": 443418,
+          "effect_index": 4,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 1.25,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.25,
+          "final_pvp_value": 25.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Ancestral Influence",
@@ -6071,10 +7272,10 @@
         "spell_id": 1270446,
         "icon": "shaman_pvp_leaderclan"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your Intellect is increased by 1.0% for each Ancestor active.",
+      "pvp_tooltip": "Your Intellect is increased by 1.0% for each Ancestor active.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6124,10 +7325,10 @@
         "spell_id": 443451,
         "icon": "spell_shaman_blessingoftheeternals"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When an Ancestor is called, they reduce the cooldown of Stormkeeper by 3 sec.",
+      "pvp_tooltip": "When an Ancestor is called, they reduce the cooldown of Stormkeeper by 3 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6177,15 +7378,50 @@
         "spell_id": 443448,
         "icon": "ability_monk_chiswirl"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases your maximum Maelstrom by 25.",
+      "pvp_tooltip": "Increases your maximum Maelstrom by 25.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "ordinary_value",
+          "old": 10.0,
+          "new": 5.0,
+          "full_tooltip_match_count": 1
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 443448,
+          "source_spell_id": 443448,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Mod Mana Pool %",
+          "base_value": 10.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 5.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Spiritwalker's Momentum",
@@ -6230,10 +7466,10 @@
         "spell_id": 443425,
         "icon": "spell_shaman_spiritwalkersgrace"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Using spells with a cast time increases the duration of Spiritwalker's Grace and Spiritwalker's Aegis by 1 sec, up to a maximum of 4 sec.",
+      "pvp_tooltip": "Using spells with a cast time increases the duration of Spiritwalker's Grace and Spiritwalker's Aegis by 1 sec, up to a maximum of 4 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6283,10 +7519,10 @@
         "spell_id": 1270447,
         "icon": "achievement_raidprimalist_windelemental"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "The cast times of Healing Surge, Chain Heal and Lava Burst are reduced by 10%.",
+      "pvp_tooltip": "The cast times of Healing Surge, Chain Heal and Lava Burst are reduced by 10%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6336,10 +7572,10 @@
         "spell_id": 443442,
         "icon": "spell_nature_natureguardian"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Nature's Guardian by 15 sec and causes it to heal for an additional 10% of your maximum health.",
+      "pvp_tooltip": "Reduces the cooldown of Nature's Guardian by 15 sec and causes it to heal for an additional 10% of your maximum health.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6389,10 +7625,10 @@
         "spell_id": 443441,
         "icon": "spell_nature_skinofearth"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Earth Shield has an additional 3 charges and heals you for 25% more.",
+      "pvp_tooltip": "Earth Shield has an additional 3 charges and heals you for 25% more.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6442,15 +7678,60 @@
         "spell_id": 443447,
         "icon": "spell_shadow_soulleech_2"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pve_tooltip": "Increases the damage of Earth Shock, Elemental Blast, and Earthquake by 25%.\nIncreases the healing of Healing Surge and Chain Heal by 25%.",
+      "pvp_tooltip": "Increases the damage of Earth Shock, Elemental Blast, and Earthquake by 25%.\nIncreases the healing of Healing Surge and Chain Heal by 20%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 134,
+          "end": 136,
+          "old_token": "25",
+          "new_token": "20",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "25",
+          "new": "20"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 443447,
+          "source_spell_id": 443447,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 25.0,
+          "spell_pvp_multiplier": 0.8,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.8,
+          "final_pvp_value": 20.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Final Calling",
@@ -6495,14 +7776,43 @@
         "spell_id": 443446,
         "icon": "spell_shaman_ancestralawakening"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "When an Ancestor departs, they cast Elemental Blast at a nearby enemy.",
+      "pvp_tooltip": "When an Ancestor departs, they cast Elemental Blast at a nearby enemy.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 443446,
+          "source_spell_id": 444490,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Absorb Damage (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow) (SP mod: 4.725)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.35,
+          "amount_kind": "absorb",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.35,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            443446,
+            444490
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -6548,10 +7858,10 @@
         "spell_id": 1270450,
         "icon": "achievement_raidprimalist_council"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the chance for Lava Surge to occur by 20%.",
+      "pvp_tooltip": "Increases the chance for Lava Surge to occur by 20%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6602,10 +7912,10 @@
         "spell_id": 448861,
         "icon": "inv_ability_farseershaman_ancestralswiftness"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your next healing or damaging spell\nis instant, costs no mana, and deals 10% increased damage and healing.\nIf you know Nature's Swiftness, it is replaced by Ancestral Swiftness and causes Ancestral Swiftness to call an Ancestor to your side for 8 sec.",
+      "pvp_tooltip": "Your next healing or damaging spell\nis instant, costs no mana, and deals 10% increased damage and healing.\nIf you know Nature's Swiftness, it is replaced by Ancestral Swiftness and causes Ancestral Swiftness to call an Ancestor to your side for 8 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6656,10 +7966,10 @@
         "spell_id": 454009,
         "icon": "inv_ability_stormcallershaman_tempest"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "0.2% of base mana\n40 yd range\n2 sec cast\nCalls down a tremendous lightning strike that deals (388.125% of Spell Power) Nature damage to your target and [(388.125% of Spell Power) * 65 / 100] Nature damage to enemies within 8 yds of your target. Damage reduced beyond 5 targets.",
+      "pvp_tooltip": "0.2% of base mana\n40 yd range\n2 sec cast\nCalls down a tremendous lightning strike that deals (388.125% of Spell Power) Nature damage to your target and [(388.125% of Spell Power) * 65 / 100] Nature damage to enemies within 8 yds of your target. Damage reduced beyond 5 targets.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6709,10 +8019,10 @@
         "spell_id": 454391,
         "icon": "spell_nature_purge"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Spending Maelstrom grants you 1% haste for 15 sec.\nMultiple applications may overlap.",
+      "pvp_tooltip": "Spending Maelstrom grants you 1% haste for 15 sec.\nMultiple applications may overlap.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6762,10 +8072,10 @@
         "spell_id": 454021,
         "icon": "ability_vehicle_electrocharge"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Increases the critical strike chance of your Nature damage spells by 5% and the critical strike damage of your Nature spells by 5%.",
+      "pvp_tooltip": "Increases the critical strike chance of your Nature damage spells by 5% and the critical strike damage of your Nature spells by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6815,10 +8125,10 @@
         "spell_id": 467778,
         "icon": "spell_shaman_staticshock"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "You have a chance to get struck by lightning, increasing your movement speed by 50% for 5 sec. The effectiveness is increased to 100% in outdoor areas.\nYou call down a Thunderstorm when you Reincarnate.",
+      "pvp_tooltip": "You have a chance to get struck by lightning, increasing your movement speed by 50% for 5 sec. The effectiveness is increased to 100% in outdoor areas.\nYou call down a Thunderstorm when you Reincarnate.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6868,10 +8178,10 @@
         "spell_id": 454022,
         "icon": "ability_thunderking_overcharge"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Tempest increases your movement speed by 20% for 5 sec.",
+      "pvp_tooltip": "Tempest increases your movement speed by 20% for 5 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6921,10 +8231,10 @@
         "spell_id": 1264762,
         "icon": "inv_112_raidtrinkets_etherealenergystoragesphere_purple"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Storm Elemental lasts 2 sec longer, and Stormkeeper generates 10 Maelstrom.",
+      "pvp_tooltip": "Storm Elemental lasts 2 sec longer, and Stormkeeper generates 10 Maelstrom.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -6974,10 +8284,10 @@
         "spell_id": 455088,
         "icon": "spell_nature_unrelentingstorm"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Tempest grants (5 * $mas)% Mastery for 6 sec.",
+      "pvp_tooltip": "Tempest grants (5 * $mas)% Mastery for 6 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7027,10 +8337,10 @@
         "spell_id": 455110,
         "icon": "inv_misc_stormlordsfavor"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Lightning Bolt, Tempest, and Chain Lightning Elemental Overloads deal 10% additional damage.",
+      "pvp_tooltip": "Lightning Bolt, Tempest, and Chain Lightning Elemental Overloads deal 10% additional damage.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7080,15 +8390,55 @@
         "spell_id": 455096,
         "icon": "ability_thunderking_balllightning"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Tempest grants a charge of Stormkeeper.",
+      "pvp_tooltip": "Casting Tempest grants a charge of Stormkeeper.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "ordinary_value",
+          "old": 40.0,
+          "new": 20.0,
+          "full_tooltip_match_count": 1
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 455096,
+          "source_spell_id": 455097,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 40.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 20.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            455096,
+            455097
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Rolling Thunder",
@@ -7133,10 +8483,10 @@
         "spell_id": 454026,
         "icon": "spell_lightning_lightningbolt01"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Reduces the cooldown of Stormkeeper by 15 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Stormkeeper by 15 sec.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7186,10 +8536,10 @@
         "spell_id": 1264691,
         "icon": "spell_shaman_maelstromweapon"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Nature damage is increased by 2%",
+      "pvp_tooltip": "Nature damage is increased by 2%",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7239,10 +8589,10 @@
         "spell_id": 454919,
         "icon": "spell_nature_callstorm"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Earthquake and Chain Lightning damage increased by 5%.",
+      "pvp_tooltip": "Earthquake and Chain Lightning damage increased by 5%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7292,10 +8642,10 @@
         "spell_id": 455123,
         "icon": "inv_rod_enchantedcobalt"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": ":\nEarth Shock, Elemental Blast, and Earthquake\n/ Lightning Bolt and Chain Lightning] make your target a Lightning Rod for 8 sec.\nLightning Rods take 8% of all damage you deal with [\nTempest\n:\nTempest, Lightning Bolt\n/ Lightning Bolt] and Chain Lightning.\nLightning Rod targets now also take 10% of the damage that Tempest deals, and Tempest also applies Lightning Rod effect.",
+      "pvp_tooltip": ":\nEarth Shock, Elemental Blast, and Earthquake\n/ Lightning Bolt and Chain Lightning] make your target a Lightning Rod for 8 sec.\nLightning Rods take 8% of all damage you deal with [\nTempest\n:\nTempest, Lightning Bolt\n/ Lightning Bolt] and Chain Lightning.\nLightning Rod targets now also take 10% of the damage that Tempest deals, and Tempest also applies Lightning Rod effect.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7345,10 +8695,10 @@
         "spell_id": 454027,
         "icon": "spell_nature_lightningshield"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Lightning Shield reduces the damage you take by 3%.",
+      "pvp_tooltip": "Lightning Shield reduces the damage you take by 3%.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7398,10 +8748,10 @@
         "spell_id": 454372,
         "icon": "ability_thunderking_thunderstruck"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Tempest grants Surging Currents, increasing the effectiveness of your next Chain Heal or Healing Surge by 16%, up to 80%.\n(900ms cooldown)",
+      "pvp_tooltip": "Casting Tempest grants Surging Currents, increasing the effectiveness of your next Chain Heal or Healing Surge by 16%, up to 80%.\n(900ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7451,10 +8801,10 @@
         "spell_id": 1264688,
         "icon": "spell_nature_wispheal"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Casting Ascendance upgrades your next Lightning Bolt to Tempest.\n(100ms cooldown)",
+      "pvp_tooltip": "Casting Ascendance upgrades your next Lightning Bolt to Tempest.\n(100ms cooldown)",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7505,10 +8855,10 @@
         "spell_id": 455129,
         "icon": "spell_nature_stormreach"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Approximately\n1.1\nprocs per minute\nEach Maelstrom spent has an additional 0.30% chance to upgrade your next Lightning Bolt to Tempest.",
+      "pvp_tooltip": "Approximately\n1.1\nprocs per minute\nEach Maelstrom spent has an additional 0.30% chance to upgrade your next Lightning Bolt to Tempest.",
       "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
+      "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
@@ -7516,714 +8866,13 @@
       "render_effect_count": 0
     }
   ],
-  "fetch_errors": [
-    {
-      "source": "wowhead_page",
-      "spell_id": 370,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ed73b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 974,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663fd40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1064,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e294c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 8042,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1825a510 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 8143,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16657ad0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 16166,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663de50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 30884,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1e8a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 51485,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18227a10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 51505,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674e810 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 51514,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165b23f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 51886,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663cc20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 57994,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c02540 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 58875,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165b0fe0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 60188,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674e270 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 61882,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166572f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 79206,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165b1f10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 108271,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1825b2c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 108287,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9fb30 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 114050,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18259610 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 117013,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16623e90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 117014,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166db350 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 170374,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c039e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 188443,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663e810 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 191634,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ad430 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 191717,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d544d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 191861,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16623110 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 192058,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166230b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 192063,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18258c20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 192077,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16713fb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 192088,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ed4560 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 196840,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165af350 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 198103,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ed4710 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 204268,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18226480 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 210689,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166d5040 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 260878,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c12c90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 265046,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674fc80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 273221,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16621ac0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 318038,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663ffe0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 333919,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166209b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 355630,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1678bc20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 377933,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c12660 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 378075,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674c350 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 378077,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168a2f00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 378081,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165a4620 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 378193,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16572330 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 378211,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16622720 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 378255,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ad910 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 378266,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c00dd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 378773,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16503e60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 381647,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165b3170 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 381650,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c41400 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 381655,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166208f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 381689,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1825b1a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 381707,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165b0a70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 381708,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16623c80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 381726,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c12840 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 381782,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165afc20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 381784,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1e450 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 381867,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663cb60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 381930,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674e690 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 381936,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1678a810 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382032,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18227410 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382197,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166b44a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382201,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c12d80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382215,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c12360 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 382886,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c00650 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 383010,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165b0890 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 383013,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d1d250 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 392915,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674e750 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 443418,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecf9b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 443423,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ed4e90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 443425,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16570f50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 443441,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165afaa0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 443442,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165a4b90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 443444,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674cb90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 443445,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecda60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 443446,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecfda0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 443447,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166affb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 443448,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674cad0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 443449,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166ae300 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 443450,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663ca40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 443451,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18259d00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 448861,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1825ab70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 454009,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18259f10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 454021,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dd77d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 454022,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ed4590 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 454026,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecdb50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 454027,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1825a840 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 454372,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663e3f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 454391,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ed79b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 454919,
-      "error": "RetryError: RetryError[<Future at 0x7fbf19a3f2c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 455088,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165a6150 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 455096,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165a6930 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 455110,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d13710 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 455123,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674dca0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 455129,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e8b680 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 462368,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ece6f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 462440,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dd79e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 462443,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663d640 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 462454,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16884c80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 462620,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dfad80 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 462695,
-      "error": "RetryError: RetryError[<Future at 0x7fbf182276e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 462757,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663c350 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 462762,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dd5be0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 462764,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d102f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 462791,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1825aab0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 462796,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165aed50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 462817,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e9acc0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 462840,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663d820 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 462862,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e98fb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 462866,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663d0a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 462867,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165ad3a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 467778,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165acd10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 468571,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167da990 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 468625,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168a0dd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 468626,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c9a0c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 470057,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165b1190 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1217622,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16db4470 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1258843,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165b3110 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1258889,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165af950 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1258895,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c98530 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1258899,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165e73b0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1259047,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ed7290 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1259471,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663f650 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1264688,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165b28d0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1264691,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16db5df0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1264762,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165a6ed0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1269215,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165aefc0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1269360,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1674d070 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1269364,
-      "error": "RetryError: RetryError[<Future at 0x7fbf18258d40 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270061,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663e150 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270062,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16792f00 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270064,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e88fe0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270350,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663ede0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270375,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c02810 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270446,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c13b90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270447,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165a4200 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1270450,
-      "error": "RetryError: RetryError[<Future at 0x7fbf182274a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1273485,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166b4fb0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1279819,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663db50 state=finished raised HTTPStatusError>]"
-    }
-  ],
+  "fetch_errors": [],
   "slug": "shaman-elemental",
-  "generated_at": "2026-09-19T13:52:20.231977+00:00",
+  "generated_at": "2026-09-19T14:20:03.240164+00:00",
   "validation": {
     "talents": 140,
-    "changed_tooltips": 0,
-    "talents_with_pvp_mechanics": 0,
+    "changed_tooltips": 17,
+    "talents_with_pvp_mechanics": 26,
     "unique_nodes": 116,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
@@ -8231,103 +8880,25 @@
       "12.1.0.69587"
     ],
     "verification_status": "PARTIAL",
-    "fetch_error_count": 295,
-    "unresolved_count": 23,
-    "review_required_count": 140,
-    "fetch_error_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 370,
-        "error": "RetryError: RetryError[<Future at 0x7fbf167909b0 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 974,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16c43530 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1064,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16d1e360 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 8042,
-        "error": "RetryError: RetryError[<Future at 0x7fbf170ac320 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 8143,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16d55cd0 state=finished raised HTTPStatusError>]"
-      }
-    ],
+    "fetch_error_count": 0,
+    "unresolved_count": 1,
+    "review_required_count": 1,
+    "fetch_error_examples": [],
     "unresolved_examples": [
-      {
-        "spell_id": 1064,
-        "talent_name": "Chain Heal",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 1.2,
-        "effect_text": "Direct Heal (10)"
-      },
-      {
-        "spell_id": 8042,
-        "talent_name": "Earth Shock",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.91,
-        "effect_text": "School Damage (2): nature"
-      },
       {
         "spell_id": 114050,
         "talent_name": "Ascendance",
         "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
+        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
         "multiplier": 0.0,
         "effect_text": "Dummy (3)"
-      },
-      {
-        "spell_id": 191634,
-        "talent_name": "Stormkeeper",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.35,
-        "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)"
-      },
-      {
-        "spell_id": 378266,
-        "talent_name": "Flames of the Cauldron",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 2.0,
-        "effect_text": "Apply Aura (6) | Add Flat Modifier (107): Spell Cooldown (11)"
       }
     ],
     "review_required_examples": [
       {
-        "talent_name": "Chain Heal",
-        "spell_id": 1064,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Lava Burst",
-        "spell_id": 51505,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Chain Lightning",
-        "spell_id": 188443,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Earth Shield",
-        "spell_id": 974,
-        "status": "MISSING_TOOLTIP"
-      },
-      {
-        "talent_name": "Ancestral Wolf Affinity",
-        "spell_id": 382197,
-        "status": "MISSING_TOOLTIP"
+        "talent_name": "Flames of the Cauldron",
+        "spell_id": 378266,
+        "status": "REVIEW_REQUIRED"
       }
     ]
   }
