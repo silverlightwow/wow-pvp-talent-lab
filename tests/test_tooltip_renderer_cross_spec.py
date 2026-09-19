@@ -553,3 +553,61 @@ def test_equivalent_leech_effects_update_both_visible_percentages():
 
     assert result["render_status"] == "COMPLETE"
     assert result["pvp_tooltip"].count("5%") == 2
+
+
+def test_unmodified_sibling_context_resolves_desperate_instincts():
+    tooltip = (
+        "Blur now reduces damage taken by an additional 10%.\n"
+        "Additionally, damage taken below 35% Health is reduced by 10%."
+    )
+
+    modified_rows = [
+        {
+            "effect_index": 2,
+            "effect_text": "Apply Aura: Dummy",
+            "base_value": 10,
+            "final_pvp_multiplier": 0.5,
+            "final_pvp_value": 5,
+            "is_final_pvp_modified": True,
+        },
+    ]
+
+    context_rows = [
+        *modified_rows,
+        {
+            "effect_index": 3,
+            "effect_text": "Apply Aura: Modifies Effect #3's Value (23)",
+            "wowhead_raw": (
+                "Effect #3\n"
+                "Apply Aura: Modifies Effect #3's Value (23)\n"
+                "Value: -10\n"
+                "PVP Multiplier: 1\n"
+                "Affected Spells:\n"
+                "Blur\n"
+                "See more\n"
+                "Blur"
+            ),
+            "base_value": -10,
+            "final_pvp_multiplier": 1.0,
+            "final_pvp_value": -10,
+            "is_final_pvp_modified": False,
+        },
+    ]
+
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Havoc",
+        spec_names=["Havoc", "Vengeance", "Devourer"],
+        effect_rows=modified_rows,
+        context_rows=context_rows,
+    )
+
+    assert result["render_status"] == "COMPLETE"
+    assert (
+        "Blur now reduces damage taken by an additional 10%."
+        in result["pvp_tooltip"]
+    )
+    assert (
+        "below 35% Health is reduced by 5%."
+        in result["pvp_tooltip"]
+    )
