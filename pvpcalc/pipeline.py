@@ -235,6 +235,10 @@ class SpecAuditResult:
                     "dependency_kind"
                 )
                 == "REFERENCED"
+                and row.get(
+                    "dependency_effect_referenced",
+                    False,
+                )
             )
         )
 
@@ -3877,6 +3881,17 @@ async def audit_spec(
 
                     "dependency_evidence":
                         dependency.evidence,
+
+                    # A REFERENCED dependency may point to one concrete
+                    # child SpellEffect while that child spell contains
+                    # other unrelated PvP-modified effects. Only the
+                    # explicitly referenced effects may rewrite the
+                    # parent tooltip; all child mechanics remain exposed
+                    # in the Compendium.
+                    "dependency_effect_referenced":
+                        bool(
+                            dependency_contexts
+                        ),
 
                     "simc_reference_contexts":
                         list(
