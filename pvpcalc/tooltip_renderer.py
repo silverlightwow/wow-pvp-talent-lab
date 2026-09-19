@@ -232,6 +232,17 @@ _VISIBLE_SP_RE = re.compile(
     re.I,
 )
 
+_AP_MOD_RE = re.compile(
+    r"AP mod:\s*"
+    r"([+-]?\d+(?:\.\d+)?)",
+    re.I,
+)
+
+_VISIBLE_AP_RE = re.compile(
+    r"\(([+-]?\d+(?:\.\d+)?)%\s+of\s+Attack\s+Power\)",
+    re.I,
+)
+
 
 def semantic_transform(
     effect_row,
@@ -411,6 +422,114 @@ def semantic_transform(
 
             "unit":
                 "% SP",
+        }
+
+
+    # --------------------------------------------------------
+    # Attack Power coefficient
+    #
+    # 9.72 -> 972% AP
+    # PvP x1.273 -> 1237.356% AP
+    # --------------------------------------------------------
+
+    ap_match = _AP_MOD_RE.search(
+        source_text
+    )
+
+    if (
+        ap_match
+        and multiplier is not None
+    ):
+
+        pve_coeff = float(
+            ap_match.group(1)
+        )
+
+        old_value = (
+            pve_coeff
+            * 100.0
+        )
+
+        # Like SP coefficients, periodic physical effects may
+        # expose a total coefficient in the player tooltip.
+        if (
+            "periodic" in source_text.casefold()
+            and old_value > 0
+        ):
+
+            visible_values = [
+                float(match.group(1))
+                for match in _VISIBLE_AP_RE.finditer(
+                    selected_tooltip
+                )
+            ]
+
+            exact_visible = [
+                value
+                for value in visible_values
+                if abs(
+                    value
+                    - old_value
+                ) <= 1e-6
+            ]
+
+            if not exact_visible:
+
+                aggregate_candidates = []
+
+                for value in visible_values:
+
+                    ratio = (
+                        value
+                        / old_value
+                    )
+
+                    nearest = round(
+                        ratio
+                    )
+
+                    if (
+                        nearest >= 2
+                        and nearest <= 120
+                        and abs(
+                            ratio
+                            - nearest
+                        ) <= 1e-6
+                    ):
+                        aggregate_candidates.append(
+                            value
+                        )
+
+                unique_candidates = sorted(
+                    set(
+                        aggregate_candidates
+                    )
+                )
+
+                if len(
+                    unique_candidates
+                ) == 1:
+                    old_value = (
+                        unique_candidates[
+                            0
+                        ]
+                    )
+
+        return {
+            "kind":
+                "attack_power_coefficient",
+
+            "old":
+                old_value,
+
+            "new":
+                (
+                    old_value
+                    * multiplier
+                ),
+
+            "unit":
+                "% AP",
         }
 
 
@@ -612,6 +731,19 @@ def _numeric_matches(
 
         elif (
             kind
+            == "attack_power_coefficient"
+        ):
+
+            if not re.match(
+                r"\s*%\s+of\s+Attack\s+Power",
+                tail,
+                re.I,
+            ):
+                continue
+
+
+        elif (
+            kind
             == "frequency_more_often"
         ):
 
@@ -703,7 +835,10 @@ def _format_new_value(
 
     if (
         kind
-        == "spell_power_coefficient"
+        in {
+            "spell_power_coefficient",
+            "attack_power_coefficient",
+        }
     ):
 
         nearest = round(
