@@ -635,14 +635,11 @@ def semantic_transform(
 
 
     # --------------------------------------------------------
-    # Ordinary numeric SpellEffect.
+    # Unit-aware ordinary SpellEffects.
     #
-    # Negative DB values generally appear positively in prose:
-    #
-    #   Value -50
-    #   "Reduces ... by 50%"
-    #
-    # Therefore use magnitudes for text rendering.
+    # A raw numeric value is not enough when the same number appears
+    # several times in a tooltip. Use the SpellEffect semantic type to
+    # constrain matching whenever the source makes the unit explicit.
     # --------------------------------------------------------
 
     if (
@@ -650,6 +647,100 @@ def semantic_transform(
         and pvp is not None
     ):
 
+        effect_cf = (
+            effect_text.casefold()
+        )
+
+        # Cooldown / buff-duration values expressed directly in
+        # seconds. Millisecond-backed values were handled above.
+        if (
+            abs(base) < 1000
+            and (
+                "cooldown" in effect_cf
+                or (
+                    "duration" in effect_cf
+                    and "duration %" not in effect_cf
+                )
+            )
+        ):
+
+            return {
+                "kind":
+                    "duration_seconds",
+
+                "old":
+                    abs(base),
+
+                "new":
+                    abs(pvp),
+
+                "unit":
+                    "sec",
+            }
+
+
+        if (
+            "range" in effect_cf
+        ):
+
+            return {
+                "kind":
+                    "distance_yards",
+
+                "old":
+                    abs(base),
+
+                "new":
+                    abs(pvp),
+
+                "unit":
+                    "yd",
+            }
+
+
+        percent_signals = (
+            "damage/healing",
+            "damage healing",
+            "damage done",
+            "damage taken",
+            "healing done",
+            "healing taken",
+            "run speed %",
+            "movement speed %",
+            "attack speed %",
+            "casting speed %",
+            "critical strike",
+            "duration %",
+            "chance",
+            "percent",
+        )
+
+        if any(
+            signal in effect_cf
+            for signal in percent_signals
+        ):
+
+            return {
+                "kind":
+                    "percent_value",
+
+                "old":
+                    abs(base),
+
+                "new":
+                    abs(pvp),
+
+                "unit":
+                    "%",
+            }
+
+
+        # Negative DB values generally appear positively in prose:
+        #
+        #   Value -50
+        #   "Reduces ... by 50%"
+        #
+        # Therefore use magnitudes for text rendering.
         return {
             "kind":
                 "ordinary_value",
@@ -762,6 +853,32 @@ def _numeric_matches(
 
             if not re.match(
                 r"\s*sec\b",
+                tail,
+                re.I,
+            ):
+                continue
+
+
+        elif (
+            kind
+            == "distance_yards"
+        ):
+
+            if not re.match(
+                r"\s*(?:yds?|yards?)\b",
+                tail,
+                re.I,
+            ):
+                continue
+
+
+        elif (
+            kind
+            == "percent_value"
+        ):
+
+            if not re.match(
+                r"\s*%",
                 tail,
                 re.I,
             ):
@@ -1192,6 +1309,57 @@ def render_pvp_tooltip(
 
 
         if len(matches) > 1:
+
+            if transform["kind"] in {
+                "spell_power_coefficient",
+                "attack_power_coefficient",
+            }:
+
+                for match in matches:
+
+                    old_token = (
+                        match.group(1)
+                    )
+
+                    new_token = (
+                        _format_new_value(
+                            transform[
+                                "new"
+                            ],
+                            kind=transform[
+                                "kind"
+                            ],
+                            old_token=old_token,
+                        )
+                    )
+
+                    replacements.append(
+                        {
+                            "start":
+                                match.start(1),
+
+                            "end":
+                                match.end(1),
+
+                            "old_token":
+                                old_token,
+
+                            "new_token":
+                                new_token,
+
+                            "kind":
+                                transform[
+                                    "kind"
+                                ],
+
+                            "effect_indexes":
+                                transform[
+                                    "effect_indexes"
+                                ],
+                        }
+                    )
+
+                continue
 
             # A single modified effect can still map deterministically
             # when its source ordinal identifies one occurrence among
