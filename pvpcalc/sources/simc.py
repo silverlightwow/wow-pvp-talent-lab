@@ -723,9 +723,26 @@ def dependency_closure(
                     for edge in path
                 ),
 
+                # A parent can reference the same child spell several
+                # times (duration, one or more concrete $sN values,
+                # embedded description). BFS keeps one canonical edge
+                # for path identity, but tooltip rendering needs ALL
+                # parallel evidence for each hop so it does not lose
+                # the specific effect reference merely because an
+                # earlier $childd token was encountered first.
                 evidence=tuple(
-                    edge.evidence
-                    for edge in path
+                    dict.fromkeys(
+                        parallel.evidence
+                        for edge in path
+                        for parallel in dump.edges.get(
+                            edge.source_spell_id,
+                            tuple(),
+                        )
+                        if (
+                            parallel.target_spell_id
+                            == edge.target_spell_id
+                        )
+                    )
                 ),
             )
         )
