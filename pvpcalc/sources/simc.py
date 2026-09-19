@@ -1389,16 +1389,29 @@ def dependency_effect_reference_contexts(
 
             if dependent_names:
                 for line in player_lines:
-                    if any(
-                        _variable_reference_pattern(
-                            name
-                        ).search(
-                            line
-                        )
-                        for name
-                        in dependent_names
+                    for name in sorted(
+                        dependent_names
                     ):
-                        add_context(line)
+                        pattern = (
+                            _variable_reference_pattern(
+                                name
+                            )
+                        )
+
+                        for match in pattern.finditer(
+                            line
+                        ):
+                            left = max(
+                                0,
+                                match.start() - 90,
+                            )
+                            right = min(
+                                len(line),
+                                match.end() + 90,
+                            )
+                            add_context(
+                                line[left:right]
+                            )
 
             return tuple(contexts)
 
