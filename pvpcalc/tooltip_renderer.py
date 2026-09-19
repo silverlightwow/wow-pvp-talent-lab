@@ -1057,6 +1057,171 @@ def _context_words(
     }
 
 
+def _reference_effect_occurrence_count(
+    reference_contexts,
+    effect_index,
+) -> int:
+    """
+    Count explicit SimC $sN / $<spell>sN references to one effect in
+    provenance text. This lets one SpellEffect safely update multiple
+    player-facing occurrences without touching unrelated equal numbers.
+    """
+
+    if effect_index is None:
+        return 0
+
+    pattern = re.compile(
+        rf"\$(?:\d+)?s{int(effect_index)}(?!\d)",
+        re.I,
+    )
+
+    return sum(
+        len(
+            pattern.findall(
+                str(context or "")
+            )
+        )
+        for context in (
+            reference_contexts
+            or []
+        )
+    )
+
+
+def _select_reference_context_matches(
+    text: str,
+    matches,
+    *,
+    reference_contexts,
+    effect_index,
+):
+    """
+    Select N repeated equal-value tokens when exact SimC provenance
+    explicitly references the same SpellEffect N times.
+
+    We still require context-word support and a material score gap after
+    the Nth selected token. This is intentionally conservative.
+    """
+
+    expected = _reference_effect_occurrence_count(
+        reference_contexts,
+        effect_index,
+    )
+
+    if (
+        expected <= 1
+        or expected >= len(matches)
+    ):
+        return []
+
+    context_words = set()
+
+    for context in (
+        reference_contexts
+        or []
+    ):
+        context_words.update(
+            _context_words(
+                context
+            )
+        )
+
+    if len(context_words) < 2:
+        return []
+
+    word_positions = {}
+
+    for word in context_words:
+        positions = [
+            (
+                found.start()
+                + found.end()
+            ) / 2.0
+            for found in re.finditer(
+                rf"\b{re.escape(word)}\b",
+                text,
+                re.I,
+            )
+        ]
+
+        if positions:
+            word_positions[word] = positions
+
+    if len(word_positions) < 2:
+        return []
+
+    scored = []
+
+    for match in matches:
+        center = (
+            match.start(1)
+            + match.end(1)
+        ) / 2.0
+
+        contributions = []
+
+        for positions in word_positions.values():
+            distance = min(
+                abs(center - position)
+                for position in positions
+            )
+
+            if distance <= 110:
+                contributions.append(
+                    1.0 - distance / 110.0
+                )
+
+        score = sum(contributions)
+        support = sum(
+            contribution > 0
+            for contribution in contributions
+        )
+
+        scored.append(
+            (score, support, match)
+        )
+
+    scored.sort(
+        key=lambda item: (
+            -item[0],
+            -item[1],
+        )
+    )
+
+    selected = scored[:expected]
+    remainder = scored[expected:]
+
+    if any(
+        support < 2 or score < 0.7
+        for score, support, _ in selected
+    ):
+        return []
+
+    if remainder:
+        selected_floor = min(
+            score
+            for score, _, _ in selected
+        )
+        next_score = remainder[0][0]
+
+        if (
+            selected_floor
+            - next_score
+            < 0.35
+        ):
+            return []
+
+    return [
+        match
+        for _, _, match
+        in sorted(
+            selected,
+            key=lambda item:
+                item[2].start(1),
+        )
+    ]
+
+
 def _select_reference_context_match(
     text: str,
     matches,
@@ -2165,6 +2330,70 @@ def render_pvp_tooltip(
 
 
         if len(matches) > 1:
+
+            reference_matches = (
+                _select_reference_context_matches(
+                    pve_text,
+                    matches,
+                    reference_contexts=
+                        transform.get(
+                            "reference_contexts",
+                            [],
+                        ),
+                    effect_index=
+                        transform.get(
+                            "effect_index"
+                        ),
+                )
+            )
+
+            if reference_matches:
+
+                for match in reference_matches:
+
+                    old_token = (
+                        match.group(1)
+                    )
+
+                    new_token = (
+                        _format_new_value(
+                            transform[
+                                "new"
+                            ],
+                            kind=transform[
+                                "kind"
+                            ],
+                            old_token=old_token,
+                        )
+                    )
+
+                    replacements.append(
+                        {
+                            "start":
+                                match.start(1),
+
+                            "end":
+                                match.end(1),
+
+                            "old_token":
+                                old_token,
+
+                            "new_token":
+                                new_token,
+
+                            "kind":
+                                transform[
+                                    "kind"
+                                ],
+
+                            "effect_indexes":
+                                transform[
+                                    "effect_indexes"
+                                ],
+                        }
+                    )
+
+                continue
 
             if transform["kind"] in {
                 "spell_power_coefficient",
