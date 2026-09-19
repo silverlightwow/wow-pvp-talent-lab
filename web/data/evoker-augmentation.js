@@ -1917,6 +1917,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 30.0,
               "factor": 1.3,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3419,6 +3420,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 30.0,
               "factor": 1.3,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3855,6 +3857,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 30.0,
               "factor": 1.3,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6707,6 +6710,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 30.0,
               "factor": 1.3,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6748,6 +6752,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 30.0,
               "factor": 1.3,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6849,6 +6854,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "periodic",
               "value_pct": 30.0,
               "factor": 1.3,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7491,6 +7497,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "periodic",
               "value_pct": 30.0,
               "factor": 1.3,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8185,6 +8192,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 30.0,
               "factor": 1.3,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8783,7 +8791,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "evoker-augmentation",
-  "generated_at": "2026-09-19T14:08:07.331740+00:00",
+  "generated_at": "2026-09-19T14:37:32.482498+00:00",
   "validation": {
     "talents": 134,
     "changed_tooltips": 11,

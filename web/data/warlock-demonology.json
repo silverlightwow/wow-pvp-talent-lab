@@ -6655,14 +6655,73 @@
         "icon": "inv_staff_2h_artifactdeadwind_d_05"
       },
       "pve_tooltip": "Damage dealt by your demonic soul is increased by 30%.\nConsuming Demonic Core feeds the demonic entity within you, causing it to appear and deal [(601.005% of Spell Power) * 0.4] Shadow damage to your target.",
-      "pvp_tooltip": "Damage dealt by your demonic soul is increased by 30%.\nConsuming Demonic Core feeds the demonic entity within you, causing it to appear and deal [(601.005% of Spell Power) * 0.4] Shadow damage to your target.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "Damage dealt by your demonic soul is increased by 30%.\nConsuming Demonic Core feeds the demonic entity within you, causing it to appear and deal [(300.5025% of Spell Power) * 0.4] Shadow damage to your target.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 147,
+          "end": 154,
+          "old_token": "601.005",
+          "new_token": "300.5025",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "601.005",
+          "new": "300.5025"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 449631,
+          "source_spell_id": 449826,
+          "effect_index": 1,
+          "effect_text": "School Damage (Shadow) (SP mod: 6.01005)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.5,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            449631,
+            449826
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256907,
+              "game_effect_id": 1351524,
+              "amount_kind": "direct",
+              "value_pct": -50.0,
+              "factor": 0.5,
+              "label_id": 5185,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Quietus",
@@ -7143,8 +7202,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 2.48,
-          "final_pvp_multiplier": 2.48,
+          "aura_factor": 0.8183999999999999,
+          "final_pvp_multiplier": 0.8183999999999999,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -7161,6 +7220,16 @@
               "amount_kind": "direct",
               "value_pct": 148.0,
               "factor": 2.48,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256907,
+              "game_effect_id": 1339596,
+              "amount_kind": "direct",
+              "value_pct": -67.0,
+              "factor": 0.32999999999999996,
+              "label_id": 4045,
               "build": "12.1.0.69587"
             }
           ],
@@ -8041,11 +8110,11 @@
   ],
   "fetch_errors": [],
   "slug": "warlock-demonology",
-  "generated_at": "2026-09-19T14:21:56.114411+00:00",
+  "generated_at": "2026-09-19T14:50:32.856295+00:00",
   "validation": {
     "talents": 125,
-    "changed_tooltips": 13,
-    "talents_with_pvp_mechanics": 26,
+    "changed_tooltips": 14,
+    "talents_with_pvp_mechanics": 27,
     "unique_nodes": 109,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",

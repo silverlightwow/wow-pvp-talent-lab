@@ -1917,6 +1917,7 @@
               "amount_kind": "direct",
               "value_pct": 4.0,
               "factor": 1.04,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3255,6 +3256,7 @@
               "amount_kind": "direct",
               "value_pct": 4.0,
               "factor": 1.04,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3583,6 +3585,7 @@
               "amount_kind": "direct",
               "value_pct": 4.0,
               "factor": 1.04,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3833,6 +3836,7 @@
               "amount_kind": "direct",
               "value_pct": 4.0,
               "factor": 1.04,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4020,6 +4024,7 @@
               "amount_kind": "direct",
               "value_pct": 4.0,
               "factor": 1.04,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4056,6 +4061,7 @@
               "amount_kind": "periodic",
               "value_pct": 4.0,
               "factor": 1.04,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4722,6 +4728,7 @@
               "amount_kind": "direct",
               "value_pct": 4.0,
               "factor": 1.04,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4812,6 +4819,7 @@
               "amount_kind": "direct",
               "value_pct": 4.0,
               "factor": 1.04,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4904,6 +4912,7 @@
               "amount_kind": "direct",
               "value_pct": 4.0,
               "factor": 1.04,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5908,6 +5917,7 @@
               "amount_kind": "direct",
               "value_pct": 4.0,
               "factor": 1.04,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6296,6 +6306,7 @@
               "amount_kind": "direct",
               "value_pct": 4.0,
               "factor": 1.04,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6337,6 +6348,7 @@
               "amount_kind": "direct",
               "value_pct": 4.0,
               "factor": 1.04,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6551,14 +6563,68 @@
         "icon": "inv_10_elementalcombinedfoozles_purifiedshadowflame"
       },
       "pve_tooltip": "Essence abilities are enhanced with Flame, dealing 20% of healing or damage done as Fire over 8 sec.",
-      "pvp_tooltip": "Essence abilities are enhanced with Flame, dealing 20% of healing or damage done as Fire over 8 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "Essence abilities are enhanced with Flame, dealing 30% of healing or damage done as Fire over 8 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 51,
+          "end": 53,
+          "old_token": "20",
+          "new_token": "30",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "20",
+          "new": "30"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 444016,
+          "source_spell_id": 444016,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 20.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": null,
+          "aura_factor": 1.5,
+          "final_pvp_multiplier": 1.5,
+          "final_pvp_value": 30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256943,
+              "game_effect_id": 1352853,
+              "amount_kind": "effect:1",
+              "value_pct": 50.0,
+              "factor": 1.5,
+              "label_id": 7156,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Expanded Lungs",
@@ -6604,14 +6670,68 @@
         "icon": "inv_fyrakk_dragonbreath"
       },
       "pve_tooltip": "Fire Breath's damage over time is increased by 30%. Dream Breath's heal over time is increased by 20%.",
-      "pvp_tooltip": "Fire Breath's damage over time is increased by 30%. Dream Breath's heal over time is increased by 20%.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "Fire Breath's damage over time is increased by 40.2%. Dream Breath's heal over time is increased by 20%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 47,
+          "end": 49,
+          "old_token": "30",
+          "new_token": "40.2",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "30",
+          "new": "40.2"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 444845,
+          "source_spell_id": 444845,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
+          "base_value": 30.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": null,
+          "aura_factor": 1.34,
+          "final_pvp_multiplier": 1.34,
+          "final_pvp_value": 40.2,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256943,
+              "game_effect_id": 1266459,
+              "amount_kind": "effect:1",
+              "value_pct": 34.0,
+              "factor": 1.34,
+              "label_id": 7155,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Essence Well",
@@ -6756,6 +6876,7 @@
               "amount_kind": "periodic",
               "value_pct": 4.0,
               "factor": 1.04,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7185,6 +7306,7 @@
               "amount_kind": "direct",
               "value_pct": 4.0,
               "factor": 1.04,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7933,6 +8055,7 @@
               "amount_kind": "periodic",
               "value_pct": 4.0,
               "factor": 1.04,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8046,11 +8169,11 @@
   ],
   "fetch_errors": [],
   "slug": "evoker-devastation",
-  "generated_at": "2026-09-19T14:08:21.083537+00:00",
+  "generated_at": "2026-09-19T14:37:12.052396+00:00",
   "validation": {
     "talents": 125,
-    "changed_tooltips": 10,
-    "talents_with_pvp_mechanics": 18,
+    "changed_tooltips": 12,
+    "talents_with_pvp_mechanics": 20,
     "unique_nodes": 115,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",

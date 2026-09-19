@@ -81,6 +81,7 @@
               "amount_kind": "direct",
               "value_pct": -7.0,
               "factor": 0.9299999999999999,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -118,6 +119,7 @@
               "amount_kind": "periodic",
               "value_pct": -7.0,
               "factor": 0.9299999999999999,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -312,6 +314,7 @@
               "amount_kind": "periodic",
               "value_pct": -3.0,
               "factor": 0.97,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -408,6 +411,7 @@
               "amount_kind": "direct",
               "value_pct": -7.0,
               "factor": 0.9299999999999999,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -416,6 +420,7 @@
               "amount_kind": "direct",
               "value_pct": -32.0,
               "factor": 0.6799999999999999,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -684,6 +689,7 @@
               "amount_kind": "periodic",
               "value_pct": -3.0,
               "factor": 0.97,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -788,6 +794,7 @@
               "amount_kind": "direct",
               "value_pct": -7.0,
               "factor": 0.9299999999999999,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -874,6 +881,7 @@
               "amount_kind": "periodic",
               "value_pct": -7.0,
               "factor": 0.9299999999999999,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -1530,6 +1538,7 @@
               "amount_kind": "direct",
               "value_pct": -7.0,
               "factor": 0.9299999999999999,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -1567,6 +1576,7 @@
               "amount_kind": "periodic",
               "value_pct": -7.0,
               "factor": 0.9299999999999999,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3812,6 +3822,7 @@
               "amount_kind": "periodic",
               "value_pct": -3.0,
               "factor": 0.97,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3848,6 +3859,7 @@
               "amount_kind": "direct",
               "value_pct": -3.0,
               "factor": 0.97,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3955,6 +3967,7 @@
               "amount_kind": "direct",
               "value_pct": -3.0,
               "factor": 0.97,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4590,6 +4603,7 @@
               "amount_kind": "direct",
               "value_pct": -3.0,
               "factor": 0.97,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4681,6 +4695,7 @@
               "amount_kind": "direct",
               "value_pct": -3.0,
               "factor": 0.97,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4885,6 +4900,7 @@
               "amount_kind": "direct",
               "value_pct": -3.0,
               "factor": 0.97,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5043,6 +5059,7 @@
               "amount_kind": "direct",
               "value_pct": -3.0,
               "factor": 0.97,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5644,6 +5661,7 @@
               "amount_kind": "direct",
               "value_pct": -3.0,
               "factor": 0.97,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6423,6 +6441,7 @@
               "amount_kind": "direct",
               "value_pct": -3.0,
               "factor": 0.97,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7061,6 +7080,7 @@
               "amount_kind": "direct",
               "value_pct": -3.0,
               "factor": 0.97,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7365,6 +7385,7 @@
               "amount_kind": "periodic",
               "value_pct": -3.0,
               "factor": 0.97,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7954,6 +7975,7 @@
               "amount_kind": "direct",
               "value_pct": -3.0,
               "factor": 0.97,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8466,6 +8488,7 @@
               "amount_kind": "direct",
               "value_pct": -3.0,
               "factor": 0.97,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8736,6 +8759,7 @@
               "amount_kind": "direct",
               "value_pct": -3.0,
               "factor": 0.97,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -9151,6 +9175,7 @@
               "amount_kind": "direct",
               "value_pct": -3.0,
               "factor": 0.97,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -9567,6 +9592,7 @@
               "amount_kind": "periodic",
               "value_pct": -3.0,
               "factor": 0.97,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -9704,7 +9730,7 @@
   ],
   "fetch_errors": [],
   "slug": "druid-restoration",
-  "generated_at": "2026-09-19T14:08:24.440063+00:00",
+  "generated_at": "2026-09-19T14:36:45.946735+00:00",
   "validation": {
     "talents": 147,
     "changed_tooltips": 18,

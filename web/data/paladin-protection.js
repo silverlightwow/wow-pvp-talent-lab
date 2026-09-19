@@ -390,6 +390,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -19.0,
               "factor": 0.81,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -426,6 +427,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -19.0,
               "factor": 0.81,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -462,6 +464,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -19.0,
               "factor": 0.81,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -875,6 +878,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -2913,6 +2917,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3188,6 +3193,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3772,6 +3778,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -19.0,
               "factor": 0.81,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3864,6 +3871,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3902,6 +3910,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -19.0,
               "factor": 0.81,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4199,6 +4208,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -19.0,
               "factor": 0.81,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4235,6 +4245,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -19.0,
               "factor": 0.81,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4375,6 +4386,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -19.0,
               "factor": 0.81,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4466,6 +4478,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -19.0,
               "factor": 0.81,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5329,6 +5342,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -19.0,
               "factor": 0.81,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5421,6 +5435,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "periodic",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5678,6 +5693,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -19.0,
               "factor": 0.81,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6706,6 +6722,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -19.0,
               "factor": 0.81,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6851,6 +6868,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -19.0,
               "factor": 0.81,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7382,6 +7400,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -19.0,
               "factor": 0.81,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7473,6 +7492,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -19.0,
               "factor": 0.81,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -7481,6 +7501,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -30.0,
               "factor": 0.7,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7520,6 +7541,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -19.0,
               "factor": 0.81,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -7528,6 +7550,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -30.0,
               "factor": 0.7,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7567,6 +7590,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -19.0,
               "factor": 0.81,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7818,6 +7842,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -19.0,
               "factor": 0.81,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8474,6 +8499,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -19.0,
               "factor": 0.81,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -9296,6 +9322,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -19.0,
               "factor": 0.81,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -9450,6 +9477,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -19.0,
               "factor": 0.81,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -9486,6 +9514,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -9845,7 +9874,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "paladin-protection",
-  "generated_at": "2026-09-19T14:15:25.240376+00:00",
+  "generated_at": "2026-09-19T14:44:31.558702+00:00",
   "validation": {
     "talents": 144,
     "changed_tooltips": 13,

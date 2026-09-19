@@ -112,6 +112,7 @@
               "amount_kind": "direct",
               "value_pct": 8.0,
               "factor": 1.08,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -234,6 +235,7 @@
               "amount_kind": "direct",
               "value_pct": 8.0,
               "factor": 1.08,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -832,6 +834,7 @@
               "amount_kind": "direct",
               "value_pct": 8.0,
               "factor": 1.08,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -2408,14 +2411,73 @@
         "icon": "rogue_leeching_poison"
       },
       "pve_tooltip": "Adds a Leeching effect to your Lethal poisons, granting you 3.0% Leech.",
-      "pvp_tooltip": "Adds a Leeching effect to your Lethal poisons, granting you 3.0% Leech.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "Adds a Leeching effect to your Lethal poisons, granting you 1.5% Leech.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 60,
+          "end": 63,
+          "old_token": "3.0",
+          "new_token": "1.5",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "3.0",
+          "new": "1.5"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 280716,
+          "source_spell_id": 108211,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Leech %",
+          "base_value": 3.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": null,
+          "aura_factor": 0.5,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 1.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            280716,
+            108211
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256950,
+              "game_effect_id": 1266723,
+              "amount_kind": "effect:1",
+              "value_pct": -50.0,
+              "factor": 0.5,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Lethality",
@@ -3030,45 +3092,8 @@
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": true,
-      "mechanics": [
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 470669,
-          "source_spell_id": 470672,
-          "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 1.18 )",
-          "base_value": 0.0,
-          "spell_pvp_multiplier": 1.0,
-          "amount_kind": "direct",
-          "aura_factor": 1.08,
-          "final_pvp_multiplier": 1.08,
-          "final_pvp_value": 0.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            470669,
-            470672
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1256950,
-              "game_effect_id": 1264714,
-              "amount_kind": "direct",
-              "value_pct": 8.0,
-              "factor": 1.08,
-              "build": "12.1.0.69587"
-            }
-          ],
-          "sources": [
-            "wowhead"
-          ],
-          "confidence": "medium"
-        }
-      ],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
       "render_effect_count": 0
     },
     {
@@ -3303,6 +3328,7 @@
               "amount_kind": "periodic",
               "value_pct": 8.0,
               "factor": 1.08,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3339,6 +3365,7 @@
               "amount_kind": "direct",
               "value_pct": 8.0,
               "factor": 1.08,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3585,6 +3612,7 @@
               "amount_kind": "direct",
               "value_pct": 8.0,
               "factor": 1.08,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3732,6 +3760,7 @@
               "amount_kind": "periodic",
               "value_pct": 8.0,
               "factor": 1.08,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4232,6 +4261,7 @@
               "amount_kind": "periodic",
               "value_pct": 8.0,
               "factor": 1.08,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4812,45 +4842,8 @@
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": true,
-      "mechanics": [
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 1250141,
-          "source_spell_id": 1250216,
-          "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 0.15 )",
-          "base_value": 0.0,
-          "spell_pvp_multiplier": 1.0,
-          "amount_kind": "direct",
-          "aura_factor": 1.08,
-          "final_pvp_multiplier": 1.08,
-          "final_pvp_value": 0.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            1250141,
-            1250216
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1256950,
-              "game_effect_id": 1264714,
-              "amount_kind": "direct",
-              "value_pct": 8.0,
-              "factor": 1.08,
-              "build": "12.1.0.69587"
-            }
-          ],
-          "sources": [
-            "wowhead"
-          ],
-          "confidence": "medium"
-        }
-      ],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
       "render_effect_count": 0
     },
     {
@@ -4932,6 +4925,7 @@
               "amount_kind": "direct",
               "value_pct": 8.0,
               "factor": 1.08,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5025,6 +5019,7 @@
               "amount_kind": "direct",
               "value_pct": 8.0,
               "factor": 1.08,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5278,6 +5273,7 @@
               "amount_kind": "direct",
               "value_pct": 8.0,
               "factor": 1.08,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5310,6 +5306,7 @@
               "amount_kind": "periodic",
               "value_pct": 8.0,
               "factor": 1.08,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6183,46 +6180,8 @@
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": true,
-      "mechanics": [
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 1265387,
-          "source_spell_id": 1265794,
-          "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 2.07 )",
-          "base_value": 0.0,
-          "spell_pvp_multiplier": 0.55,
-          "amount_kind": "direct",
-          "aura_factor": 1.08,
-          "final_pvp_multiplier": 0.5940000000000001,
-          "final_pvp_value": 0.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            1265387,
-            1265794
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1256950,
-              "game_effect_id": 1264714,
-              "amount_kind": "direct",
-              "value_pct": 8.0,
-              "factor": 1.08,
-              "build": "12.1.0.69587"
-            }
-          ],
-          "sources": [
-            "wowhead",
-            "drustvar"
-          ],
-          "confidence": "high"
-        }
-      ],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
       "render_effect_count": 0
     },
     {
@@ -6305,6 +6264,7 @@
               "amount_kind": "direct",
               "value_pct": 8.0,
               "factor": 1.08,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -6313,6 +6273,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6375,45 +6336,8 @@
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": true,
-      "mechanics": [
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 457052,
-          "source_spell_id": 457157,
-          "effect_index": 1,
-          "effect_text": "School Damage (Nature, Shadow) (AP mod: 1.56 )",
-          "base_value": 0.0,
-          "spell_pvp_multiplier": 1.0,
-          "amount_kind": "direct",
-          "aura_factor": 1.08,
-          "final_pvp_multiplier": 1.08,
-          "final_pvp_value": 0.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            457052,
-            457157
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1256950,
-              "game_effect_id": 1264714,
-              "amount_kind": "direct",
-              "value_pct": 8.0,
-              "factor": 1.08,
-              "build": "12.1.0.69587"
-            }
-          ],
-          "sources": [
-            "wowhead"
-          ],
-          "confidence": "medium"
-        }
-      ],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
       "render_effect_count": 0
     },
     {
@@ -6893,45 +6817,8 @@
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": true,
-      "mechanics": [
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 457054,
-          "source_spell_id": 457193,
-          "effect_index": 1,
-          "effect_text": "School Damage (Nature, Shadow) (AP mod: 0.1 )",
-          "base_value": 0.0,
-          "spell_pvp_multiplier": 1.0,
-          "amount_kind": "direct",
-          "aura_factor": 1.08,
-          "final_pvp_multiplier": 1.08,
-          "final_pvp_value": 0.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            457054,
-            457193
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1256950,
-              "game_effect_id": 1264714,
-              "amount_kind": "direct",
-              "value_pct": 8.0,
-              "factor": 1.08,
-              "build": "12.1.0.69587"
-            }
-          ],
-          "sources": [
-            "wowhead"
-          ],
-          "confidence": "medium"
-        }
-      ],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
       "render_effect_count": 0
     },
     {
@@ -7296,100 +7183,14 @@
         "icon": "ability_warrior_deepcuts"
       },
       "pve_tooltip": "When you consume an application of Deathstalker's Mark, the damage of your next Ambush or Mutilate is increased by 50%.",
-      "pvp_tooltip": "When you consume an application of Deathstalker's Mark, the damage of your next Ambush or Mutilate is increased by 30%.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 115,
-          "end": 117,
-          "old_token": "50",
-          "new_token": "30",
-          "kind": "ordinary_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "ordinary_value",
-          "old": 25.0,
-          "new": 15.0,
-          "full_tooltip_match_count": 1
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "ordinary_value",
-          "old": "50",
-          "new": "30"
-        }
-      ],
-      "has_pvp_mechanics": true,
-      "mechanics": [
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 1248774,
-          "source_spell_id": 1248775,
-          "effect_index": 1,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
-          "base_value": 50.0,
-          "spell_pvp_multiplier": 0.6,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.6,
-          "final_pvp_value": 30.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            1248774,
-            1248775
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead"
-          ],
-          "confidence": "ambiguous"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 1248774,
-          "source_spell_id": 1248775,
-          "effect_index": 2,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
-          "base_value": 25.0,
-          "spell_pvp_multiplier": 0.6,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.6,
-          "final_pvp_value": 15.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            1248774,
-            1248775
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead"
-          ],
-          "confidence": "ambiguous"
-        }
-      ],
-      "render_effect_count": 2
+      "pvp_tooltip": "When you consume an application of Deathstalker's Mark, the damage of your next Ambush or Mutilate is increased by 50%.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
     },
     {
       "talent_name": "Corrupt the Blood",
@@ -7546,65 +7347,8 @@
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": true,
-      "mechanics": [
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
-          "talent_spell_id": 457062,
-          "source_spell_id": 457167,
-          "effect_index": 1,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
-          "base_value": 18.0,
-          "spell_pvp_multiplier": 0.56,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.56,
-          "final_pvp_value": 10.080000000000002,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            457062,
-            457167
-          ],
-          "dependency_relations": [
-            "trigger_spell"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar"
-          ],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
-          "talent_spell_id": 457062,
-          "source_spell_id": 457167,
-          "effect_index": 2,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
-          "base_value": 15.0,
-          "spell_pvp_multiplier": 0.6667,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.6667,
-          "final_pvp_value": 10.000499999999999,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            457062,
-            457167
-          ],
-          "dependency_relations": [
-            "trigger_spell"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar"
-          ],
-          "confidence": "high"
-        }
-      ],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
       "render_effect_count": 0
     },
     {
@@ -8395,73 +8139,23 @@
         "icon": "spell_shadow_twilight"
       },
       "pve_tooltip": "When you consume the final Deathstalker's Mark from a target or your target dies, gain 30 Energy and Darkest Night, causing your next Envenom cast with 5 or more combo points to critically strike, deal 35% additional damage, and apply 3 stacks of Deathstalker's Mark to the target if no other Deathstalker's Mark is active.\nEnvenom cast with Darkest Night does not consume a stack of active Deathstalker's Marks.",
-      "pvp_tooltip": "When you consume the final Deathstalker's Mark from a target or your target dies, gain 30 Energy and Darkest Night, causing your next Envenom cast with 5 or more combo points to critically strike, deal 8.75% additional damage, and apply 3 stacks of Deathstalker's Mark to the target if no other Deathstalker's Mark is active.\nEnvenom cast with Darkest Night does not consume a stack of active Deathstalker's Marks.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 202,
-          "end": 204,
-          "old_token": "35",
-          "new_token": "8.75",
-          "kind": "ordinary_value",
-          "effect_indexes": [
-            2
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "APPLIED",
-          "kind": "ordinary_value",
-          "old": "35",
-          "new": "8.75"
-        }
-      ],
-      "has_pvp_mechanics": true,
-      "mechanics": [
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 457058,
-          "source_spell_id": 457280,
-          "effect_index": 2,
-          "effect_text": "Apply Aura: Dummy",
-          "base_value": 35.0,
-          "spell_pvp_multiplier": 0.25,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.25,
-          "final_pvp_value": 8.75,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            457058,
-            457280
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar"
-          ],
-          "confidence": "high"
-        }
-      ],
-      "render_effect_count": 1
+      "pvp_tooltip": "When you consume the final Deathstalker's Mark from a target or your target dies, gain 30 Energy and Darkest Night, causing your next Envenom cast with 5 or more combo points to critically strike, deal 35% additional damage, and apply 3 stacks of Deathstalker's Mark to the target if no other Deathstalker's Mark is active.\nEnvenom cast with Darkest Night does not consume a stack of active Deathstalker's Marks.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
     }
   ],
   "fetch_errors": [],
   "slug": "rogue-assassination",
-  "generated_at": "2026-09-19T14:18:03.897282+00:00",
+  "generated_at": "2026-09-19T14:46:55.803054+00:00",
   "validation": {
     "talents": 131,
-    "changed_tooltips": 5,
-    "talents_with_pvp_mechanics": 26,
+    "changed_tooltips": 4,
+    "talents_with_pvp_mechanics": 19,
     "unique_nodes": 110,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
@@ -8469,14 +8163,34 @@
       "12.1.0.69587"
     ],
     "verification_status": "PARTIAL",
-    "fetch_error_count": 1,
-    "unresolved_count": 9,
+    "fetch_error_count": 9,
+    "unresolved_count": 11,
     "review_required_count": 3,
     "fetch_error_examples": [
       {
         "source": "wowhead",
-        "spell_id": 1265795,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1265795/implacable-strikes'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 457157,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=457157/deathstalkers-mark'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 457167,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=457167'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 457193,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=457193'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 457280,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=457280'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 470672,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=470672'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [
@@ -8515,19 +8229,19 @@
         "effect_text": "Apply Aura: Mod Cooldown Ms (2303)"
       },
       {
-        "spell_id": 1248775,
-        "talent_name": "Unshakeable Drive",
+        "spell_id": 457280,
+        "talent_name": "Darkest Night",
         "side": "drustvar",
-        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
-        "multiplier": 0.6,
-        "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+        "reason": "NO_WOWHEAD_EFFECTS",
+        "multiplier": 0.25,
+        "effect_text": "Apply Aura (6) | Dummy (4)",
         "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 1248774,
-        "source_spell_id": 1248775,
+        "talent_spell_id": 457058,
+        "source_spell_id": 457280,
         "dependency_kind": "REFERENCED",
         "dependency_path": [
-          1248774,
-          1248775
+          457058,
+          457280
         ],
         "dependency_relations": [
           "tooltip_value_ref"

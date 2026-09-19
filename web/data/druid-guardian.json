@@ -140,7 +140,7 @@
           "status": "NOT_VISIBLE_IN_TOOLTIP",
           "kind": "ordinary_value",
           "old": 8.0,
-          "new": 5.008,
+          "new": 2.504,
           "full_tooltip_match_count": 0
         }
       ],
@@ -156,13 +156,23 @@
           "base_value": 8.0,
           "spell_pvp_multiplier": 0.626,
           "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.626,
-          "final_pvp_value": 5.008,
+          "aura_factor": 0.5,
+          "final_pvp_multiplier": 0.313,
+          "final_pvp_value": 2.504,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
-          "aura_rules": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256993,
+              "game_effect_id": 1266749,
+              "amount_kind": "effect:1",
+              "value_pct": -50.0,
+              "factor": 0.5,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
           "sources": [
             "wowhead",
             "drustvar"
@@ -8712,7 +8722,7 @@
   ],
   "fetch_errors": [],
   "slug": "druid-guardian",
-  "generated_at": "2026-09-19T14:06:45.185120+00:00",
+  "generated_at": "2026-09-19T14:36:00.546062+00:00",
   "validation": {
     "talents": 143,
     "changed_tooltips": 5,

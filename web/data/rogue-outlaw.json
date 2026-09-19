@@ -112,6 +112,7 @@
               "amount_kind": "direct",
               "value_pct": -6.0,
               "factor": 0.94,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -234,6 +235,7 @@
               "amount_kind": "direct",
               "value_pct": -6.0,
               "factor": 0.94,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -832,6 +834,7 @@
               "amount_kind": "direct",
               "value_pct": -6.0,
               "factor": 0.94,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3060,6 +3063,7 @@
               "amount_kind": "direct",
               "value_pct": -6.0,
               "factor": 0.94,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3316,6 +3320,7 @@
               "amount_kind": "direct",
               "value_pct": -6.0,
               "factor": 0.94,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4293,6 +4298,7 @@
               "amount_kind": "direct",
               "value_pct": -6.0,
               "factor": 0.94,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4714,6 +4720,7 @@
               "amount_kind": "direct",
               "value_pct": -6.0,
               "factor": 0.94,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5455,6 +5462,7 @@
               "amount_kind": "direct",
               "value_pct": -6.0,
               "factor": 0.94,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5742,6 +5750,7 @@
               "amount_kind": "direct",
               "value_pct": -6.0,
               "factor": 0.94,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5779,6 +5788,7 @@
               "amount_kind": "direct",
               "value_pct": -6.0,
               "factor": 0.94,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6064,6 +6074,7 @@
               "amount_kind": "direct",
               "value_pct": -6.0,
               "factor": 0.94,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6204,6 +6215,7 @@
               "amount_kind": "direct",
               "value_pct": -6.0,
               "factor": 0.94,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7202,6 +7214,7 @@
               "amount_kind": "direct",
               "value_pct": -6.0,
               "factor": 0.94,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8153,7 +8166,7 @@
   ],
   "fetch_errors": [],
   "slug": "rogue-outlaw",
-  "generated_at": "2026-09-19T14:19:11.084077+00:00",
+  "generated_at": "2026-09-19T14:47:27.535093+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 5,

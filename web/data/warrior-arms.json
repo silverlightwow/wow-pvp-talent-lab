@@ -409,6 +409,7 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -572,6 +573,7 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -693,6 +695,7 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -831,6 +834,7 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -918,6 +922,7 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -926,6 +931,7 @@
               "amount_kind": "direct",
               "value_pct": 15.0,
               "factor": 1.15,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -963,6 +969,7 @@
               "amount_kind": "periodic",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -1502,6 +1509,7 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -1840,6 +1848,7 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -1876,6 +1885,7 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -1995,6 +2005,7 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -2031,6 +2042,7 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3195,6 +3207,7 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3231,6 +3244,7 @@
               "amount_kind": "periodic",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3267,6 +3281,7 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3454,6 +3469,7 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3540,6 +3556,7 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3980,6 +3997,7 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -3988,6 +4006,7 @@
               "amount_kind": "direct",
               "value_pct": 23.0,
               "factor": 1.23,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4209,6 +4228,7 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4926,6 +4946,7 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5124,6 +5145,7 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5215,6 +5237,7 @@
               "amount_kind": "periodic",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5580,6 +5603,7 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -5588,6 +5612,7 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5626,6 +5651,7 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -5634,6 +5660,7 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5727,6 +5754,7 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6065,6 +6093,7 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6207,6 +6236,7 @@
               "amount_kind": "periodic",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6588,8 +6618,8 @@
           "base_value": 0.0,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.2,
-          "final_pvp_multiplier": 1.2,
+          "aura_factor": 1.26,
+          "final_pvp_multiplier": 1.26,
           "final_pvp_value": 0.0,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -6606,6 +6636,16 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256919,
+              "game_effect_id": 1351503,
+              "amount_kind": "direct",
+              "value_pct": 5.0,
+              "factor": 1.05,
+              "label_id": 3450,
               "build": "12.1.0.69587"
             }
           ],
@@ -7582,8 +7622,8 @@
           "base_value": 0.0,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.2,
-          "final_pvp_multiplier": 1.2,
+          "aura_factor": 1.26,
+          "final_pvp_multiplier": 1.26,
           "final_pvp_value": 0.0,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -7604,6 +7644,16 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256919,
+              "game_effect_id": 1351503,
+              "amount_kind": "direct",
+              "value_pct": 5.0,
+              "factor": 1.05,
+              "label_id": 3450,
               "build": "12.1.0.69587"
             }
           ],
@@ -7694,6 +7744,7 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7991,6 +8042,7 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -7999,6 +8051,7 @@
               "amount_kind": "direct",
               "value_pct": 0.0,
               "factor": 1.0,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8035,6 +8088,7 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -8043,6 +8097,7 @@
               "amount_kind": "direct",
               "value_pct": 0.0,
               "factor": 1.0,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8061,8 +8116,8 @@
           "base_value": 0.0,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.2,
-          "final_pvp_multiplier": 1.2,
+          "aura_factor": 0.96,
+          "final_pvp_multiplier": 0.96,
           "final_pvp_value": 0.0,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -8079,6 +8134,16 @@
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256919,
+              "game_effect_id": 1265433,
+              "amount_kind": "direct",
+              "value_pct": -20.0,
+              "factor": 0.8,
+              "label_id": 4825,
               "build": "12.1.0.69587"
             },
             {
@@ -8087,6 +8152,7 @@
               "amount_kind": "direct",
               "value_pct": 0.0,
               "factor": 1.0,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -9290,6 +9356,7 @@
           "new_token": "10",
           "kind": "ordinary_value",
           "effect_indexes": [
+            1,
             3
           ]
         }
@@ -9297,6 +9364,7 @@
       "diagnostics": [
         {
           "effect_indexes": [
+            1,
             3
           ],
           "status": "APPLIED",
@@ -9307,6 +9375,43 @@
       ],
       "has_pvp_mechanics": true,
       "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 429636,
+          "source_spell_id": 447513,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Damage to Caster % (127)",
+          "base_value": -20.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": null,
+          "aura_factor": 0.5,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": -10.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            429636,
+            447513
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256919,
+              "game_effect_id": 1346966,
+              "amount_kind": "effect:1",
+              "value_pct": -50.0,
+              "factor": 0.5,
+              "label_id": 4007,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
         {
           "effect_origin": "DEPENDENCY",
           "dependency_kind": "REFERENCED",
@@ -9336,12 +9441,12 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 2
     }
   ],
   "fetch_errors": [],
   "slug": "warrior-arms",
-  "generated_at": "2026-09-19T14:23:25.666928+00:00",
+  "generated_at": "2026-09-19T14:51:41.491241+00:00",
   "validation": {
     "talents": 122,
     "changed_tooltips": 17,

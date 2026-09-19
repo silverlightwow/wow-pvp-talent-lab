@@ -2707,8 +2707,37 @@
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 386689,
+          "source_spell_id": 452930,
+          "effect_index": 1,
+          "effect_text": "Heal for % of Total Health",
+          "base_value": 25.0,
+          "spell_pvp_multiplier": 0.8,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.8,
+          "final_pvp_value": 20.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            386689,
+            452930
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -2937,8 +2966,39 @@
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 1265799,
+          "source_spell_id": 1271798,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Attack Speed % (1)",
+          "base_value": -100.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": -50.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1265799,
+            1271748,
+            1271798
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -2984,14 +3044,64 @@
         "icon": "spell_shadow_curseoftongues_amplified"
       },
       "pve_tooltip": "40 yd range\nInstant\n2 min cooldown\nCall forth a cloud of cloying shadow mist that envelopes the target and all enemies within 10 yds, increasing their casting time of all spells by 100% for 12 sec.\nCurses: A warlock can only have one Curse or Blight active per target.",
-      "pvp_tooltip": "40 yd range\nInstant\n2 min cooldown\nCall forth a cloud of cloying shadow mist that envelopes the target and all enemies within 10 yds, increasing their casting time of all spells by 100% for 12 sec.\nCurses: A warlock can only have one Curse or Blight active per target.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "40 yd range\nInstant\n2 min cooldown\nCall forth a cloud of cloying shadow mist that envelopes the target and all enemies within 10 yds, increasing their casting time of all spells by 30% for 12 sec.\nCurses: A warlock can only have one Curse or Blight active per target.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 181,
+          "end": 184,
+          "old_token": "100",
+          "new_token": "30",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "100",
+          "new": "30"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1271802,
+          "source_spell_id": 1272122,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Casting Speed %",
+          "base_value": -100.0,
+          "spell_pvp_multiplier": 0.3,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.3,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1271802,
+            1272122
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Chaos Bolt",
@@ -3087,6 +3197,7 @@
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3195,6 +3306,7 @@
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3308,6 +3420,7 @@
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3420,6 +3533,7 @@
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3963,6 +4077,7 @@
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4236,6 +4351,7 @@
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4582,6 +4698,7 @@
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4618,6 +4735,7 @@
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4780,14 +4898,73 @@
         "icon": "spell_fire_ragnaros_molteninferno"
       },
       "pve_tooltip": "Cataclysm now leaves behind a lake of fire that deals [(60% of Spell Power) * 10] Fire damage to enemies within it over 10 sec.\nImmolate\ndeals\n20\n% increased damage to enemies within the lake of fire.",
-      "pvp_tooltip": "Cataclysm now leaves behind a lake of fire that deals [(60% of Spell Power) * 10] Fire damage to enemies within it over 10 sec.\nImmolate\ndeals\n20\n% increased damage to enemies within the lake of fire.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "Cataclysm now leaves behind a lake of fire that deals [(63% of Spell Power) * 10] Fire damage to enemies within it over 10 sec.\nImmolate\ndeals\n20\n% increased damage to enemies within the lake of fire.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 56,
+          "end": 58,
+          "old_token": "60",
+          "new_token": "63",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "60",
+          "new": "63"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1244877,
+          "source_spell_id": 1244890,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire) (SP mod: 0.6)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.05,
+          "final_pvp_multiplier": 1.05,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1244877,
+            1244890
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256908,
+              "game_effect_id": 1264660,
+              "amount_kind": "direct",
+              "value_pct": 5.0,
+              "factor": 1.05,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Reverse Entropy",
@@ -5060,6 +5237,7 @@
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5100,6 +5278,7 @@
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5270,6 +5449,7 @@
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5580,6 +5760,7 @@
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5618,6 +5799,7 @@
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5656,6 +5838,7 @@
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5762,6 +5945,7 @@
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6106,6 +6290,7 @@
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6142,6 +6327,7 @@
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6402,8 +6588,83 @@
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 1265770,
+          "source_spell_id": 1265884,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire, Shadow) (SP mod: 1.875)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.05,
+          "final_pvp_multiplier": 1.05,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1265770,
+            1265884
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256908,
+              "game_effect_id": 1264660,
+              "amount_kind": "direct",
+              "value_pct": 5.0,
+              "factor": 1.05,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 1265770,
+          "source_spell_id": 1265884,
+          "effect_index": 2,
+          "effect_text": "School Damage (Fire, Shadow) (SP mod: 1.625)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.05,
+          "final_pvp_multiplier": 1.05,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1265770,
+            1265884
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256908,
+              "game_effect_id": 1264660,
+              "amount_kind": "direct",
+              "value_pct": 5.0,
+              "factor": 1.05,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -6566,8 +6827,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 0.75,
           "amount_kind": "direct",
-          "aura_factor": 1.05,
-          "final_pvp_multiplier": 0.7875000000000001,
+          "aura_factor": 1.3860000000000001,
+          "final_pvp_multiplier": 1.0395,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -6584,6 +6845,16 @@
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256908,
+              "game_effect_id": 1264878,
+              "amount_kind": "direct",
+              "value_pct": 32.0,
+              "factor": 1.32,
+              "label_id": 3444,
               "build": "12.1.0.69587"
             }
           ],
@@ -6603,8 +6874,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 0.75,
           "amount_kind": "periodic",
-          "aura_factor": 1.05,
-          "final_pvp_multiplier": 0.7875000000000001,
+          "aura_factor": 1.3860000000000001,
+          "final_pvp_multiplier": 1.0395,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -6623,6 +6894,16 @@
               "amount_kind": "periodic",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256908,
+              "game_effect_id": 1264879,
+              "amount_kind": "periodic",
+              "value_pct": 32.0,
+              "factor": 1.32,
+              "label_id": 3445,
               "build": "12.1.0.69587"
             }
           ],
@@ -6788,6 +7069,7 @@
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7503,6 +7785,7 @@
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7702,6 +7985,7 @@
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7997,6 +8281,7 @@
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8052,14 +8337,74 @@
         "icon": "inv_pet_inquisitoreye"
       },
       "pve_tooltip": "You summon a Diabolic Oculus, up to 3, each time the duration of Diabolic Ritual is reduced by one of your spells.\nDiabolic Oculi explode when consuming Demonic Art, dealing (234.62% of Spell Power) Fire damage to all enemies within 10 yds of the target. Damage reduced beyond 8 targets.",
-      "pvp_tooltip": "You summon a Diabolic Oculus, up to 3, each time the duration of Diabolic Ritual is reduced by one of your spells.\nDiabolic Oculi explode when consuming Demonic Art, dealing (234.62% of Spell Power) Fire damage to all enemies within 10 yds of the target. Damage reduced beyond 8 targets.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "You summon a Diabolic Oculus, up to 3, each time the duration of Diabolic Ritual is reduced by one of your spells.\nDiabolic Oculi explode when consuming Demonic Art, dealing (105.5789% of Spell Power) Fire damage to all enemies within 10 yds of the target. Damage reduced beyond 8 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 175,
+          "end": 181,
+          "old_token": "234.62",
+          "new_token": "105.5789",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "234.62",
+          "new": "105.5789"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1268709,
+          "source_spell_id": 1269800,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire) (SP mod: 2.3462)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.428571,
+          "amount_kind": "direct",
+          "aura_factor": 1.05,
+          "final_pvp_multiplier": 0.44999954999999997,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1268709,
+            1269800
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256908,
+              "game_effect_id": 1264660,
+              "amount_kind": "direct",
+              "value_pct": 5.0,
+              "factor": 1.05,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Soul-Etched Circles",
@@ -8680,14 +9025,64 @@
         "icon": "spell_holy_healingfocus"
       },
       "pve_tooltip": "Your Diabolic Oculi observe the battlefield and collect information that is imparted to you upon being exploded, each Diabolic Oculi increasing your Intellect by 2% for 10 sec.",
-      "pvp_tooltip": "Your Diabolic Oculi observe the battlefield and collect information that is imparted to you upon being exploded, each Diabolic Oculi increasing your Intellect by 2% for 10 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "Your Diabolic Oculi observe the battlefield and collect information that is imparted to you upon being exploded, each Diabolic Oculi increasing your Intellect by 1% for 10 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 162,
+          "end": 163,
+          "old_token": "2",
+          "new_token": "1",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "2",
+          "new": "1"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1268716,
+          "source_spell_id": 1269879,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Stat - % (Intellect)",
+          "base_value": 2.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 1.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1268716,
+            1269879
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Ruination",
@@ -8771,6 +9166,7 @@
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8786,147 +9182,23 @@
   ],
   "fetch_errors": [],
   "slug": "warlock-destruction",
-  "generated_at": "2026-09-19T14:22:55.876995+00:00",
+  "generated_at": "2026-09-19T14:50:47.989129+00:00",
   "validation": {
     "talents": 129,
-    "changed_tooltips": 22,
-    "talents_with_pvp_mechanics": 32,
+    "changed_tooltips": 26,
+    "talents_with_pvp_mechanics": 39,
     "unique_nodes": 109,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
     "drustvar_builds": [
       "12.1.0.69587"
     ],
-    "verification_status": "PARTIAL",
-    "fetch_error_count": 8,
-    "unresolved_count": 5,
+    "verification_status": "VERIFIED",
+    "fetch_error_count": 0,
+    "unresolved_count": 0,
     "review_required_count": 0,
-    "fetch_error_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 452930,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=452930'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1244890,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1244890'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1244918,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1244918'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1265884,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1265884'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1269800,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1269800'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
-    "unresolved_examples": [
-      {
-        "spell_id": 452930,
-        "talent_name": "Pact of Gluttony",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.8,
-        "effect_text": "Direct Heal% (136)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 386689,
-        "source_spell_id": 452930,
-        "dependency_kind": "EMBEDDED",
-        "dependency_path": [
-          386689,
-          452930
-        ],
-        "dependency_relations": [
-          "spelldesc_ref"
-        ]
-      },
-      {
-        "spell_id": 1271798,
-        "talent_name": "Blight of Weakness",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.5,
-        "effect_text": "Apply Aura (6) | Modify Ranged and Melee Auto Attack Speed% (342)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 1265799,
-        "source_spell_id": 1271798,
-        "dependency_kind": "EMBEDDED",
-        "dependency_path": [
-          1265799,
-          1271748,
-          1271798
-        ],
-        "dependency_relations": [
-          "spelldesc_ref",
-          "tooltip_value_ref"
-        ]
-      },
-      {
-        "spell_id": 1269800,
-        "talent_name": "Diabolic Oculi",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.42,
-        "effect_text": "School Damage (2): fire",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 1268709,
-        "source_spell_id": 1269800,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          1268709,
-          1269800
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      },
-      {
-        "spell_id": 1269879,
-        "talent_name": "Mind's Eyes",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.5,
-        "effect_text": "Apply Aura (6) | Modify Total Stat% (137)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 1268716,
-        "source_spell_id": 1269879,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          1268716,
-          1269879
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      },
-      {
-        "spell_id": 1272122,
-        "talent_name": "Blight of Tongues",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.3,
-        "effect_text": "Apply Aura (6) | Modify Spell Haste% (355)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 1271802,
-        "source_spell_id": 1272122,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          1271802,
-          1272122
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      }
-    ],
+    "fetch_error_examples": [],
+    "unresolved_examples": [],
     "review_required_examples": []
   }
 }

@@ -189,6 +189,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -7.0,
               "factor": 0.9299999999999999,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -197,6 +198,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3522,6 +3524,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -7.0,
               "factor": 0.9299999999999999,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3559,6 +3562,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -7.0,
               "factor": 0.9299999999999999,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4051,8 +4055,56 @@ window.WOW_PVP_DATA = {
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 116645,
+          "source_spell_id": 228649,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 0.847 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.3,
+          "amount_kind": "direct",
+          "aura_factor": 0.7905,
+          "final_pvp_multiplier": 1.02765,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            116645,
+            228649
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1222923,
+              "game_effect_id": 1210529,
+              "amount_kind": "direct",
+              "value_pct": -7.0,
+              "factor": 0.9299999999999999,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1222923,
+              "game_effect_id": 1266881,
+              "amount_kind": "direct",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -4126,6 +4178,53 @@ window.WOW_PVP_DATA = {
           "dependency_path": [],
           "dependency_relations": [],
           "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 392958,
+          "source_spell_id": 392959,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 0.5 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": "direct",
+          "aura_factor": 0.837,
+          "final_pvp_multiplier": 0.4185,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            392958,
+            392959
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1222923,
+              "game_effect_id": 1210529,
+              "amount_kind": "direct",
+              "value_pct": -7.0,
+              "factor": 0.9299999999999999,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1222923,
+              "game_effect_id": 1351652,
+              "amount_kind": "direct",
+              "value_pct": -10.0,
+              "factor": 0.9,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
           "sources": [
             "wowhead",
             "drustvar"
@@ -4552,8 +4651,46 @@ window.WOW_PVP_DATA = {
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 392979,
+          "source_spell_id": 393056,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (AP mod: 3.51 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.9299999999999999,
+          "final_pvp_multiplier": 0.9299999999999999,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            392979,
+            393056
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1222923,
+              "game_effect_id": 1210529,
+              "amount_kind": "direct",
+              "value_pct": -7.0,
+              "factor": 0.9299999999999999,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5172,6 +5309,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -7.0,
               "factor": 0.9299999999999999,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6273,10 +6411,145 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 91.0,
+          "new": 84.63,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 457974,
+          "source_spell_id": 388201,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (AP mod: 0.65 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.9299999999999999,
+          "final_pvp_multiplier": 0.9299999999999999,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            457974,
+            451943,
+            388193,
+            388201
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1222923,
+              "game_effect_id": 1210529,
+              "amount_kind": "direct",
+              "value_pct": -7.0,
+              "factor": 0.9299999999999999,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 457974,
+          "source_spell_id": 388207,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (AP mod: 0.4 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.9299999999999999,
+          "final_pvp_multiplier": 0.9299999999999999,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            457974,
+            451943,
+            388193,
+            388207
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1222923,
+              "game_effect_id": 1210529,
+              "amount_kind": "direct",
+              "value_pct": -7.0,
+              "factor": 0.9299999999999999,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 457974,
+          "source_spell_id": 388207,
+          "effect_index": 2,
+          "effect_text": "Heal (SP mod: 0.91)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.9299999999999999,
+          "final_pvp_multiplier": 0.9299999999999999,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            457974,
+            451943,
+            388193,
+            388207
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1222923,
+              "game_effect_id": 1210529,
+              "amount_kind": "direct",
+              "value_pct": -7.0,
+              "factor": 0.9299999999999999,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Skyfire Heel",
@@ -8735,11 +9008,11 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "monk-windwalker",
-  "generated_at": "2026-09-19T14:14:18.552330+00:00",
+  "generated_at": "2026-09-19T14:43:07.628208+00:00",
   "validation": {
     "talents": 148,
     "changed_tooltips": 7,
-    "talents_with_pvp_mechanics": 15,
+    "talents_with_pvp_mechanics": 18,
     "unique_nodes": 127,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
@@ -8747,75 +9020,37 @@ window.WOW_PVP_DATA = {
       "12.1.0.69587"
     ],
     "verification_status": "PARTIAL",
-    "fetch_error_count": 24,
-    "unresolved_count": 8,
+    "fetch_error_count": 19,
+    "unresolved_count": 6,
     "review_required_count": 3,
     "fetch_error_examples": [
       {
         "source": "wowhead",
-        "spell_id": 228649,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=228649'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 393566,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=393566/thunderfist'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 388201,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=388201'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 395519,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=395519'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 388207,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=388207'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 395521,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=395521'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 392959,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=392959'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 443038,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=443038'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 393056,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=393056'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 443039,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=443039'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [
-      {
-        "spell_id": 228649,
-        "talent_name": "Teachings of the Monastery",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 1.3,
-        "effect_text": "School Damage (2): physical",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 116645,
-        "source_spell_id": 228649,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          116645,
-          228649
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      },
-      {
-        "spell_id": 392959,
-        "talent_name": "Glory of the Dawn",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.5,
-        "effect_text": "School Damage (2): physical",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 392958,
-        "source_spell_id": 392959,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          392958,
-          392959
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      },
       {
         "spell_id": 450342,
         "talent_name": "Crashing Momentum",
@@ -8871,6 +9106,46 @@ window.WOW_PVP_DATA = {
         ],
         "dependency_relations": [
           "tooltip_value_ref"
+        ]
+      },
+      {
+        "spell_id": 443039,
+        "talent_name": "Celestial Conduit",
+        "side": "drustvar",
+        "reason": "NO_WOWHEAD_EFFECTS",
+        "multiplier": 2.25,
+        "effect_text": "Direct Heal (10)",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 1248989,
+        "source_spell_id": 443039,
+        "dependency_kind": "EMBEDDED",
+        "dependency_path": [
+          1248989,
+          443028,
+          443039
+        ],
+        "dependency_relations": [
+          "spelldesc_ref",
+          "tooltip_value_ref"
+        ]
+      },
+      {
+        "spell_id": 1272696,
+        "talent_name": "Tigereye Brew",
+        "side": "drustvar",
+        "reason": "NO_WOWHEAD_EFFECTS",
+        "multiplier": 0.53,
+        "effect_text": "School Damage (2): nature",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 1261849,
+        "source_spell_id": 1272696,
+        "dependency_kind": "EMBEDDED",
+        "dependency_path": [
+          1261849,
+          1272696
+        ],
+        "dependency_relations": [
+          "spelldesc_ref"
         ]
       }
     ],

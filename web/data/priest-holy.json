@@ -331,6 +331,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -1012,6 +1013,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -1020,6 +1022,7 @@
               "amount_kind": "direct",
               "value_pct": 19.0,
               "factor": 1.19,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -1058,6 +1061,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -1066,6 +1070,7 @@
               "amount_kind": "direct",
               "value_pct": 19.0,
               "factor": 1.19,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3359,6 +3364,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3467,6 +3473,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3683,6 +3690,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4065,6 +4073,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4475,6 +4484,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4666,6 +4676,7 @@
               "amount_kind": "periodic",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4933,6 +4944,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6089,6 +6101,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6190,6 +6203,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6604,7 +6618,7 @@
         "icon": "ability_priest_halo"
       },
       "pve_tooltip": "2.7% of base mana\n40 yd range\n1.5 sec cast\n1 min cooldown\nCreates a ring of Holy energy around you that quickly expands to a\n40\nyd radius, healing allies for (161% of Spell Power) and dealing [(144.2% of Spell Power) *\n1\n] Holy damage to enemies.\nHealing reduced beyond 6 targets.",
-      "pvp_tooltip": "2.7% of base mana\n40 yd range\n1.5 sec cast\n1 min cooldown\nCreates a ring of Holy energy around you that quickly expands to a\n40\nyd radius, healing allies for (144.9% of Spell Power) and dealing [(144.2% of Spell Power) *\n1\n] Holy damage to enemies.\nHealing reduced beyond 6 targets.",
+      "pvp_tooltip": "2.7% of base mana\n40 yd range\n1.5 sec cast\n1 min cooldown\nCreates a ring of Holy energy around you that quickly expands to a\n40\nyd radius, healing allies for (181.125% of Spell Power) and dealing [(180.25% of Spell Power) *\n1\n] Holy damage to enemies.\nHealing reduced beyond 6 targets.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -6612,7 +6626,17 @@
           "start": 159,
           "end": 162,
           "old_token": "161",
-          "new_token": "144.9",
+          "new_token": "181.125",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 194,
+          "end": 199,
+          "old_token": "144.2",
+          "new_token": "180.25",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -6627,7 +6651,16 @@
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "161",
-          "new": "144.9"
+          "new": "181.125"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "144.2",
+          "new": "180.25"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6642,8 +6675,8 @@
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 0.9,
-          "final_pvp_multiplier": 0.9,
+          "aura_factor": 1.125,
+          "final_pvp_multiplier": 1.125,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -6660,6 +6693,53 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1238052,
+              "game_effect_id": 1329440,
+              "amount_kind": "direct",
+              "value_pct": 25.0,
+              "factor": 1.25,
+              "label_id": 2932,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 120517,
+          "source_spell_id": 120696,
+          "effect_index": 1,
+          "effect_text": "School Damage (Holy) (SP mod: 1.442)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.25,
+          "final_pvp_multiplier": 1.25,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            120517,
+            120696
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1238052,
+              "game_effect_id": 1329441,
+              "amount_kind": "direct",
+              "value_pct": 25.0,
+              "factor": 1.25,
+              "label_id": 4003,
               "build": "12.1.0.69587"
             }
           ],
@@ -6669,7 +6749,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 2
     },
     {
       "talent_name": "Preventive Measures",
@@ -7285,6 +7365,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -7293,6 +7374,7 @@
               "amount_kind": "direct",
               "value_pct": 19.0,
               "factor": 1.19,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7333,6 +7415,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -7341,6 +7424,7 @@
               "amount_kind": "direct",
               "value_pct": 19.0,
               "factor": 1.19,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7484,6 +7568,7 @@
               "amount_kind": "absorb",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7522,6 +7607,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -7530,6 +7616,7 @@
               "amount_kind": "direct",
               "value_pct": 48.0,
               "factor": 1.48,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8302,6 +8389,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8768,6 +8856,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -8776,6 +8865,7 @@
               "amount_kind": "direct",
               "value_pct": 19.0,
               "factor": 1.19,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8816,6 +8906,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -8824,6 +8915,7 @@
               "amount_kind": "direct",
               "value_pct": 19.0,
               "factor": 1.19,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8991,7 +9083,7 @@
   ],
   "fetch_errors": [],
   "slug": "priest-holy",
-  "generated_at": "2026-09-19T14:16:45.234591+00:00",
+  "generated_at": "2026-09-19T14:46:04.841259+00:00",
   "validation": {
     "talents": 135,
     "changed_tooltips": 15,

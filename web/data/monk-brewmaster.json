@@ -320,64 +320,14 @@
         "icon": "ability_monk_blackoutkick"
       },
       "pve_tooltip": "Targets you Roll through are snared by 40% for 5 sec.",
-      "pvp_tooltip": "Targets you Roll through are snared by 30% for 5 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 39,
-          "end": 41,
-          "old_token": "40",
-          "new_token": "30",
-          "kind": "ordinary_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "ordinary_value",
-          "old": "40",
-          "new": "30"
-        }
-      ],
-      "has_pvp_mechanics": true,
-      "mechanics": [
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 450335,
-          "source_spell_id": 450342,
-          "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
-          "base_value": -40.0,
-          "spell_pvp_multiplier": 0.75,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.75,
-          "final_pvp_value": -30.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            450335,
-            450342
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar"
-          ],
-          "confidence": "high"
-        }
-      ],
-      "render_effect_count": 1
+      "pvp_tooltip": "Targets you Roll through are snared by 40% for 5 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
     },
     {
       "talent_name": "Disable",
@@ -1197,45 +1147,8 @@
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": true,
-      "mechanics": [
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 450391,
-          "source_spell_id": 132467,
-          "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 0.2 )",
-          "base_value": 0.0,
-          "spell_pvp_multiplier": 1.0,
-          "amount_kind": "direct",
-          "aura_factor": 0.85,
-          "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            450391,
-            132467
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1256978,
-              "game_effect_id": 1264723,
-              "amount_kind": "direct",
-              "value_pct": -15.0,
-              "factor": 0.85,
-              "build": "12.1.0.69587"
-            }
-          ],
-          "sources": [
-            "wowhead"
-          ],
-          "confidence": "medium"
-        }
-      ],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
       "render_effect_count": 0
     },
     {
@@ -1290,46 +1203,8 @@
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": true,
-      "mechanics": [
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 123986,
-          "source_spell_id": 148135,
-          "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 2.8 )",
-          "base_value": 0.0,
-          "spell_pvp_multiplier": 1.7,
-          "amount_kind": "direct",
-          "aura_factor": 0.85,
-          "final_pvp_multiplier": 1.4449999999999998,
-          "final_pvp_value": 0.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            123986,
-            148135
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1256978,
-              "game_effect_id": 1264723,
-              "amount_kind": "direct",
-              "value_pct": -15.0,
-              "factor": 0.85,
-              "build": "12.1.0.69587"
-            }
-          ],
-          "sources": [
-            "wowhead",
-            "drustvar"
-          ],
-          "confidence": "high"
-        }
-      ],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
       "render_effect_count": 0
     },
     {
@@ -1926,64 +1801,14 @@
         "icon": "spell_shaman_spectraltransformation"
       },
       "pve_tooltip": "Transcendence: Transfer snares targets within 10 yds by 70% for 4 sec when cast.",
-      "pvp_tooltip": "Transcendence: Transfer snares targets within 10 yds by 50% for 4 sec when cast.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 56,
-          "end": 58,
-          "old_token": "70",
-          "new_token": "50",
-          "kind": "ordinary_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "ordinary_value",
-          "old": "70",
-          "new": "50"
-        }
-      ],
-      "has_pvp_mechanics": true,
-      "mechanics": [
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 450595,
-          "source_spell_id": 450596,
-          "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
-          "base_value": -70.0,
-          "spell_pvp_multiplier": 0.714286,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.714286,
-          "final_pvp_value": -50.00002,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            450595,
-            450596
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar"
-          ],
-          "confidence": "high"
-        }
-      ],
-      "render_effect_count": 1
+      "pvp_tooltip": "Transcendence: Transfer snares targets within 10 yds by 70% for 4 sec when cast.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
     },
     {
       "talent_name": "Tiger Tail Sweep",
@@ -3682,6 +3507,7 @@
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4229,100 +4055,14 @@
         "icon": "achievement_brewery_2"
       },
       "pve_tooltip": "Drinking from your Brews has a 100% chance to toss a keg high into the air that lands nearby after 3 sec, dealing (100% of Attack Power) Physical damage to all enemies within 8 yards and reducing their movement speed by 50% for 15 sec.",
-      "pvp_tooltip": "Drinking from your Brews has a 100% chance to toss a keg high into the air that lands nearby after 3 sec, dealing (100% of Attack Power) Physical damage to all enemies within 8 yards and reducing their movement speed by 30% for 15 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 220,
-          "end": 222,
-          "old_token": "50",
-          "new_token": "30",
-          "kind": "ordinary_value",
-          "effect_indexes": [
-            2
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "APPLIED",
-          "kind": "ordinary_value",
-          "old": "50",
-          "new": "30"
-        }
-      ],
-      "has_pvp_mechanics": true,
-      "mechanics": [
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 196730,
-          "source_spell_id": 196733,
-          "effect_index": 1,
-          "effect_text": "School Damage (Physical)",
-          "base_value": 0.0,
-          "spell_pvp_multiplier": 1.0,
-          "amount_kind": "direct",
-          "aura_factor": 0.85,
-          "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            196730,
-            196733
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1256978,
-              "game_effect_id": 1264723,
-              "amount_kind": "direct",
-              "value_pct": -15.0,
-              "factor": 0.85,
-              "build": "12.1.0.69587"
-            }
-          ],
-          "sources": [
-            "wowhead"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 196730,
-          "source_spell_id": 196733,
-          "effect_index": 2,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
-          "base_value": -50.0,
-          "spell_pvp_multiplier": 0.6,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.6,
-          "final_pvp_value": -30.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            196730,
-            196733
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar"
-          ],
-          "confidence": "high"
-        }
-      ],
-      "render_effect_count": 1
+      "pvp_tooltip": "Drinking from your Brews has a 100% chance to toss a keg high into the air that lands nearby after 3 sec, dealing (100% of Attack Power) Physical damage to all enemies within 8 yards and reducing their movement speed by 50% for 15 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
     },
     {
       "talent_name": "Rushing Jade Wind",
@@ -4377,45 +4117,8 @@
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": true,
-      "mechanics": [
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
-          "talent_spell_id": 116847,
-          "source_spell_id": 148187,
-          "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 0.133 )",
-          "base_value": 0.0,
-          "spell_pvp_multiplier": 1.0,
-          "amount_kind": "direct",
-          "aura_factor": 0.85,
-          "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            116847,
-            148187
-          ],
-          "dependency_relations": [
-            "trigger_spell"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1256978,
-              "game_effect_id": 1264723,
-              "amount_kind": "direct",
-              "value_pct": -15.0,
-              "factor": 0.85,
-              "build": "12.1.0.69587"
-            }
-          ],
-          "sources": [
-            "wowhead"
-          ],
-          "confidence": "medium"
-        }
-      ],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
       "render_effect_count": 0
     },
     {
@@ -5038,43 +4741,7 @@
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
-              "build": "12.1.0.69587"
-            }
-          ],
-          "sources": [
-            "wowhead",
-            "drustvar"
-          ],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 115181,
-          "source_spell_id": 123725,
-          "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
-          "spell_pvp_multiplier": 1.35,
-          "amount_kind": "periodic",
-          "aura_factor": 0.85,
-          "final_pvp_multiplier": 1.1475,
-          "final_pvp_value": 0.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            115181,
-            123725
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1256978,
-              "game_effect_id": 1266474,
-              "amount_kind": "periodic",
-              "value_pct": -15.0,
-              "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5639,45 +5306,8 @@
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": true,
-      "mechanics": [
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 387219,
-          "source_spell_id": 1242373,
-          "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 4 )",
-          "base_value": 0.0,
-          "spell_pvp_multiplier": 1.0,
-          "amount_kind": "direct",
-          "aura_factor": 0.85,
-          "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            387219,
-            1242373
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1256978,
-              "game_effect_id": 1264723,
-              "amount_kind": "direct",
-              "value_pct": -15.0,
-              "factor": 0.85,
-              "build": "12.1.0.69587"
-            }
-          ],
-          "sources": [
-            "wowhead"
-          ],
-          "confidence": "medium"
-        }
-      ],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
       "render_effect_count": 0
     },
     {
@@ -5894,37 +5524,8 @@
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": true,
-      "mechanics": [
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 383994,
-          "source_spell_id": 387621,
-          "effect_index": 1,
-          "effect_text": "School Damage (Fire) (AP mod: 0.2 )",
-          "base_value": 0.0,
-          "spell_pvp_multiplier": 1.35,
-          "amount_kind": "direct",
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 1.35,
-          "final_pvp_value": 0.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            383994,
-            387621
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar"
-          ],
-          "confidence": "high"
-        }
-      ],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
       "render_effect_count": 0
     },
     {
@@ -6089,45 +5690,8 @@
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": true,
-      "mechanics": [
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 418359,
-          "source_spell_id": 418360,
-          "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 0.3 )",
-          "base_value": 0.0,
-          "spell_pvp_multiplier": 1.0,
-          "amount_kind": "direct",
-          "aura_factor": 0.85,
-          "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            418359,
-            418360
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1256978,
-              "game_effect_id": 1264723,
-              "amount_kind": "direct",
-              "value_pct": -15.0,
-              "factor": 0.85,
-              "build": "12.1.0.69587"
-            }
-          ],
-          "sources": [
-            "wowhead"
-          ],
-          "confidence": "medium"
-        }
-      ],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
       "render_effect_count": 0
     },
     {
@@ -6324,6 +5888,7 @@
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6365,6 +5930,7 @@
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6453,42 +6019,7 @@
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
-              "build": "12.1.0.69587"
-            }
-          ],
-          "sources": [
-            "wowhead"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
-          "talent_spell_id": 325153,
-          "source_spell_id": 388867,
-          "effect_index": 1,
-          "effect_text": "School Damage (Fire) (AP mod: 0.3 )",
-          "base_value": 0.0,
-          "spell_pvp_multiplier": 1.0,
-          "amount_kind": "direct",
-          "aura_factor": 0.85,
-          "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            325153,
-            388867
-          ],
-          "dependency_relations": [
-            "trigger_spell"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1256978,
-              "game_effect_id": 1264723,
-              "amount_kind": "direct",
-              "value_pct": -15.0,
-              "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7226,45 +6757,8 @@
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": true,
-      "mechanics": [
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 450615,
-          "source_spell_id": 450617,
-          "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 0.6 )",
-          "base_value": 0.0,
-          "spell_pvp_multiplier": 1.0,
-          "amount_kind": "direct",
-          "aura_factor": 0.85,
-          "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            450615,
-            450617
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1256978,
-              "game_effect_id": 1264723,
-              "amount_kind": "direct",
-              "value_pct": -15.0,
-              "factor": 0.85,
-              "build": "12.1.0.69587"
-            }
-          ],
-          "sources": [
-            "wowhead"
-          ],
-          "confidence": "medium"
-        }
-      ],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
       "render_effect_count": 0
     },
     {
@@ -7528,45 +7022,8 @@
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": true,
-      "mechanics": [
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 1262612,
-          "source_spell_id": 451250,
-          "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 0.52 )",
-          "base_value": 0.0,
-          "spell_pvp_multiplier": 1.0,
-          "amount_kind": "direct",
-          "aura_factor": 0.85,
-          "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            1262612,
-            451250
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1256978,
-              "game_effect_id": 1264723,
-              "amount_kind": "direct",
-              "value_pct": -15.0,
-              "factor": 0.85,
-              "build": "12.1.0.69587"
-            }
-          ],
-          "sources": [
-            "wowhead"
-          ],
-          "confidence": "medium"
-        }
-      ],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
       "render_effect_count": 0
     },
     {
@@ -9324,11 +8781,11 @@
   ],
   "fetch_errors": [],
   "slug": "monk-brewmaster",
-  "generated_at": "2026-09-19T14:12:33.807139+00:00",
+  "generated_at": "2026-09-19T14:41:47.267298+00:00",
   "validation": {
     "talents": 152,
-    "changed_tooltips": 7,
-    "talents_with_pvp_mechanics": 22,
+    "changed_tooltips": 4,
+    "talents_with_pvp_mechanics": 11,
     "unique_nodes": 124,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
@@ -9336,88 +8793,129 @@
       "12.1.0.69587"
     ],
     "verification_status": "PARTIAL",
-    "fetch_error_count": 4,
-    "unresolved_count": 3,
+    "fetch_error_count": 17,
+    "unresolved_count": 9,
     "review_required_count": 2,
     "fetch_error_examples": [
       {
         "source": "wowhead",
-        "spell_id": 1262765,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1262765'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 123725,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=123725'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 1263667,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1263667'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 132467,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132467'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 1271011,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1271011'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 148135,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=148135'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 1271045,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1271045'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 148187,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=148187'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 196733,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=196733'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [
       {
-        "spell_id": 1271011,
-        "talent_name": "Harmonic Surge",
+        "spell_id": 123725,
+        "talent_name": "Breath of Fire",
         "side": "drustvar",
         "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.33,
-        "effect_text": "School Damage (2): nature",
+        "multiplier": 1.35,
+        "effect_text": "Apply Aura (6) | Periodic Damage (3): fire every 2 seconds",
         "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 1270958,
-        "source_spell_id": 1271011,
-        "dependency_kind": "EMBEDDED",
+        "talent_spell_id": 115181,
+        "source_spell_id": 123725,
+        "dependency_kind": "REFERENCED",
         "dependency_path": [
-          1270958,
-          1271011
+          115181,
+          123725
         ],
         "dependency_relations": [
-          "spelldesc_ref"
+          "tooltip_value_ref"
         ]
       },
       {
-        "spell_id": 1271011,
-        "talent_name": "Harmonic Surge",
+        "spell_id": 148135,
+        "talent_name": "Chi Burst",
         "side": "drustvar",
         "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.33,
+        "multiplier": 1.7,
         "effect_text": "School Damage (2): nature",
         "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 1270958,
-        "source_spell_id": 1271011,
-        "dependency_kind": "EMBEDDED",
+        "talent_spell_id": 123986,
+        "source_spell_id": 148135,
+        "dependency_kind": "REFERENCED",
         "dependency_path": [
-          1270958,
-          1271011
+          123986,
+          148135
         ],
         "dependency_relations": [
-          "spelldesc_ref"
+          "tooltip_value_ref"
         ]
       },
       {
-        "spell_id": 1271045,
-        "talent_name": "Harmonic Surge",
+        "spell_id": 196733,
+        "talent_name": "Special Delivery",
         "side": "drustvar",
         "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.33,
-        "effect_text": "Direct Heal (10)",
+        "multiplier": 0.6,
+        "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
         "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 1270958,
-        "source_spell_id": 1271045,
-        "dependency_kind": "EMBEDDED",
+        "talent_spell_id": 196730,
+        "source_spell_id": 196733,
+        "dependency_kind": "REFERENCED",
         "dependency_path": [
-          1270958,
-          1271011,
-          1271045
+          196730,
+          196733
         ],
         "dependency_relations": [
-          "spelldesc_ref",
+          "tooltip_value_ref"
+        ]
+      },
+      {
+        "spell_id": 387621,
+        "talent_name": "Dragonfire Brew",
+        "side": "drustvar",
+        "reason": "NO_WOWHEAD_EFFECTS",
+        "multiplier": 1.35,
+        "effect_text": "School Damage (2): fire",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 383994,
+        "source_spell_id": 387621,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          383994,
+          387621
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref"
+        ]
+      },
+      {
+        "spell_id": 450342,
+        "talent_name": "Crashing Momentum",
+        "side": "drustvar",
+        "reason": "NO_WOWHEAD_EFFECTS",
+        "multiplier": 0.75,
+        "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 450335,
+        "source_spell_id": 450342,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          450335,
+          450342
+        ],
+        "dependency_relations": [
           "tooltip_value_ref"
         ]
       }

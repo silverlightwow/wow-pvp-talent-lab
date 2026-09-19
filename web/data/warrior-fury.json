@@ -5913,6 +5913,7 @@
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5951,6 +5952,7 @@
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8422,7 +8424,7 @@
   ],
   "fetch_errors": [],
   "slug": "warrior-fury",
-  "generated_at": "2026-09-19T14:23:43.818731+00:00",
+  "generated_at": "2026-09-19T14:51:49.313501+00:00",
   "validation": {
     "talents": 122,
     "changed_tooltips": 13,

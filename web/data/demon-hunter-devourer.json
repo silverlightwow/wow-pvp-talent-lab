@@ -187,6 +187,7 @@
               "amount_kind": "direct",
               "value_pct": 7.0,
               "factor": 1.07,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -1913,7 +1914,7 @@
         "icon": "spell_mage_overpowered"
       },
       "pve_tooltip": "Reduces magic damage taken by 3%.",
-      "pvp_tooltip": "Reduces magic damage taken by 2%.",
+      "pvp_tooltip": "Reduces magic damage taken by 4%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -1921,7 +1922,7 @@
           "start": 30,
           "end": 31,
           "old_token": "3",
-          "new_token": "2",
+          "new_token": "4",
           "kind": "ordinary_value",
           "effect_indexes": [
             1
@@ -1936,7 +1937,7 @@
           "status": "APPLIED",
           "kind": "ordinary_value",
           "old": "3",
-          "new": "2"
+          "new": "4"
         }
       ],
       "has_pvp_mechanics": true,
@@ -1951,13 +1952,23 @@
           "base_value": -3.0,
           "spell_pvp_multiplier": 0.667,
           "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.667,
-          "final_pvp_value": -2.0010000000000003,
+          "aura_factor": 2.0,
+          "final_pvp_multiplier": 1.334,
+          "final_pvp_value": -4.002000000000001,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
-          "aura_rules": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256964,
+              "game_effect_id": 1317259,
+              "amount_kind": "effect:1",
+              "value_pct": 100.0,
+              "factor": 2.0,
+              "label_id": 6594,
+              "build": "12.1.0.69587"
+            }
+          ],
           "sources": [
             "wowhead",
             "drustvar"
@@ -2984,6 +2995,7 @@
               "amount_kind": "direct",
               "value_pct": 7.0,
               "factor": 1.07,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3507,6 +3519,7 @@
               "amount_kind": "direct",
               "value_pct": 7.0,
               "factor": 1.07,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4253,6 +4266,7 @@
               "amount_kind": "direct",
               "value_pct": 7.0,
               "factor": 1.07,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5207,6 +5221,7 @@
               "amount_kind": "periodic",
               "value_pct": 7.0,
               "factor": 1.07,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5243,6 +5258,7 @@
               "amount_kind": "direct",
               "value_pct": 7.0,
               "factor": 1.07,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5468,6 +5484,7 @@
               "amount_kind": "direct",
               "value_pct": 7.0,
               "factor": 1.07,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5507,6 +5524,7 @@
               "amount_kind": "direct",
               "value_pct": 7.0,
               "factor": 1.07,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5805,6 +5823,7 @@
               "amount_kind": "direct",
               "value_pct": 7.0,
               "factor": 1.07,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6990,6 +7009,7 @@
               "amount_kind": "direct",
               "value_pct": 7.0,
               "factor": 1.07,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7103,6 +7123,7 @@
               "amount_kind": "direct",
               "value_pct": 7.0,
               "factor": 1.07,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7738,6 +7759,7 @@
               "amount_kind": "direct",
               "value_pct": 7.0,
               "factor": 1.07,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7902,6 +7924,7 @@
               "amount_kind": "direct",
               "value_pct": 7.0,
               "factor": 1.07,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8023,7 +8046,7 @@
   ],
   "fetch_errors": [],
   "slug": "demon-hunter-devourer",
-  "generated_at": "2026-09-19T14:05:03.431531+00:00",
+  "generated_at": "2026-09-19T14:33:40.112287+00:00",
   "validation": {
     "talents": 121,
     "changed_tooltips": 17,

@@ -140,7 +140,7 @@
           "status": "NOT_VISIBLE_IN_TOOLTIP",
           "kind": "ordinary_value",
           "old": 8.0,
-          "new": 5.008,
+          "new": 8.0128,
           "full_tooltip_match_count": 0
         }
       ],
@@ -156,13 +156,23 @@
           "base_value": 8.0,
           "spell_pvp_multiplier": 0.626,
           "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.626,
-          "final_pvp_value": 5.008,
+          "aura_factor": 1.6,
+          "final_pvp_multiplier": 1.0016,
+          "final_pvp_value": 8.0128,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
-          "aura_rules": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256996,
+              "game_effect_id": 1266736,
+              "amount_kind": "effect:1",
+              "value_pct": 60.0,
+              "factor": 1.6,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
           "sources": [
             "wowhead",
             "drustvar"
@@ -354,6 +364,7 @@
               "amount_kind": "direct",
               "value_pct": -20.0,
               "factor": 0.8,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -674,6 +685,7 @@
               "amount_kind": "direct",
               "value_pct": -20.0,
               "factor": 0.8,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -960,6 +972,7 @@
               "amount_kind": "direct",
               "value_pct": -20.0,
               "factor": 0.8,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -1417,6 +1430,7 @@
               "amount_kind": "direct",
               "value_pct": -20.0,
               "factor": 0.8,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -1454,6 +1468,7 @@
               "amount_kind": "periodic",
               "value_pct": -20.0,
               "factor": 0.8,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3547,6 +3562,7 @@
               "amount_kind": "direct",
               "value_pct": -20.0,
               "factor": 0.8,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3827,6 +3843,7 @@
               "amount_kind": "direct",
               "value_pct": -20.0,
               "factor": 0.8,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4543,14 +4560,176 @@
         "icon": "druid_ability_wildmushroom_b"
       },
       "pve_tooltip": "Approximately\n1.66\nprocs per minute\nSunfire damage has a chance to grow a magical mushroom at a target's location. After 1 sec, the mushroom detonates, dealing (265.85% of Spell Power) Nature damage and then an additional (150% of Spell Power) Nature damage over 10 sec. Affected targets are slowed by 50%.\nGenerates up to 20 Astral Power based on targets hit.",
-      "pvp_tooltip": "Approximately\n1.66\nprocs per minute\nSunfire damage has a chance to grow a magical mushroom at a target's location. After 1 sec, the mushroom detonates, dealing (265.85% of Spell Power) Nature damage and then an additional (150% of Spell Power) Nature damage over 10 sec. Affected targets are slowed by 50%.\nGenerates up to 20 Astral Power based on targets hit.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "Approximately\n1.66\nprocs per minute\nSunfire damage has a chance to grow a magical mushroom at a target's location. After 1 sec, the mushroom detonates, dealing (212.68% of Spell Power) Nature damage and then an additional (120% of Spell Power) Nature damage over 10 sec. Affected targets are slowed by 30%.\nGenerates up to 20 Astral Power based on targets hit.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 161,
+          "end": 167,
+          "old_token": "265.85",
+          "new_token": "212.68",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 223,
+          "end": 226,
+          "old_token": "150",
+          "new_token": "120",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 302,
+          "end": 304,
+          "old_token": "50",
+          "new_token": "30",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "265.85",
+          "new": "212.68"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "150",
+          "new": "120"
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "50",
+          "new": "30"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 468936,
+          "source_spell_id": 1280212,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (SP mod: 2.6585)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.8,
+          "final_pvp_multiplier": 0.8,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            468936,
+            1280212
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256996,
+              "game_effect_id": 1264731,
+              "amount_kind": "direct",
+              "value_pct": -20.0,
+              "factor": 0.8,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 468936,
+          "source_spell_id": 1280213,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 0.8,
+          "final_pvp_multiplier": 0.8,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            468936,
+            1280213
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256996,
+              "game_effect_id": 1266735,
+              "amount_kind": "periodic",
+              "value_pct": -20.0,
+              "factor": 0.8,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 468936,
+          "source_spell_id": 1280213,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            468936,
+            1280213
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 3
     },
     {
       "talent_name": "Wild Mushroom",
@@ -4673,6 +4852,7 @@
               "amount_kind": "periodic",
               "value_pct": -20.0,
               "factor": 0.8,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4737,6 +4917,7 @@
               "amount_kind": "direct",
               "value_pct": -20.0,
               "factor": 0.8,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5144,6 +5325,7 @@
               "amount_kind": "direct",
               "value_pct": -20.0,
               "factor": 0.8,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5180,6 +5362,7 @@
               "amount_kind": "periodic",
               "value_pct": -20.0,
               "factor": 0.8,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5216,6 +5399,7 @@
               "amount_kind": "direct",
               "value_pct": -20.0,
               "factor": 0.8,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5252,6 +5436,7 @@
               "amount_kind": "direct",
               "value_pct": -20.0,
               "factor": 0.8,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5364,14 +5549,74 @@
         "icon": "ability_druid_starfall"
       },
       "pve_tooltip": "Every time Starfall drops a wave of stars, a meteorite also falls on up to 2 targets in its range, each dealing (21.95% of Spell Power) Astral damage.",
-      "pvp_tooltip": "Every time Starfall drops a wave of stars, a meteorite also falls on up to 2 targets in its range, each dealing (21.95% of Spell Power) Astral damage.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "Every time Starfall drops a wave of stars, a meteorite also falls on up to 2 targets in its range, each dealing (14.048% of Spell Power) Astral damage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 113,
+          "end": 118,
+          "old_token": "21.95",
+          "new_token": "14.048",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "21.95",
+          "new": "14.048"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1240907,
+          "source_spell_id": 1240913,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 0.2195)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.8,
+          "amount_kind": "direct",
+          "aura_factor": 0.8,
+          "final_pvp_multiplier": 0.6400000000000001,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1240907,
+            1240913
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256996,
+              "game_effect_id": 1264731,
+              "amount_kind": "direct",
+              "value_pct": -20.0,
+              "factor": 0.8,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Cosmic Rapidity",
@@ -6036,6 +6281,7 @@
               "amount_kind": "direct",
               "value_pct": -20.0,
               "factor": 0.8,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6418,6 +6664,7 @@
               "amount_kind": "direct",
               "value_pct": -20.0,
               "factor": 0.8,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6527,6 +6774,7 @@
               "amount_kind": "direct",
               "value_pct": -20.0,
               "factor": 0.8,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6978,14 +7226,116 @@
         "icon": "inv12_apextalent_druid_ascendanceeclipses"
       },
       "pve_tooltip": "Activating an Eclipse also launches Solar or Lunar Bolts at enemies within 40 yds that always critically strike.\nSolar Bolt\nEntering Solar Eclipse launches a Solar Bolt at 1 enemy that deals (632.5% of Spell Power) Nature damage.\nLunar Bolt\nEntering Lunar Eclipse launches 3 Lunar Bolts at enemies that deal (100% of Spell Power) Arcane damage to them and nearby targets. Deals reduced damage beyond 5 targets.\n(200ms cooldown)",
-      "pvp_tooltip": "Activating an Eclipse also launches Solar or Lunar Bolts at enemies within 40 yds that always critically strike.\nSolar Bolt\nEntering Solar Eclipse launches a Solar Bolt at 1 enemy that deals (632.5% of Spell Power) Nature damage.\nLunar Bolt\nEntering Lunar Eclipse launches 3 Lunar Bolts at enemies that deal (100% of Spell Power) Arcane damage to them and nearby targets. Deals reduced damage beyond 5 targets.\n(200ms cooldown)",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "Activating an Eclipse also launches Solar or Lunar Bolts at enemies within 40 yds that always critically strike.\nSolar Bolt\nEntering Solar Eclipse launches a Solar Bolt at 1 enemy that deals (506% of Spell Power) Nature damage.\nLunar Bolt\nEntering Lunar Eclipse launches 3 Lunar Bolts at enemies that deal (100% of Spell Power) Arcane damage to them and nearby targets. Deals reduced damage beyond 5 targets.\n(200ms cooldown)",
+      "tooltip_changed": true,
+      "render_status": "REVIEW_REQUIRED",
+      "changes": [
+        {
+          "start": 192,
+          "end": 197,
+          "old_token": "632.5",
+          "new_token": "506",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_index": 1,
+          "status": "NO_RENDERABLE_VALUE",
+          "reason": "No safe player-facing numeric transformation"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "632.5",
+          "new": "506"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1261566,
+          "source_spell_id": 1261573,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (SP mod: 6.325)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.8,
+          "final_pvp_multiplier": 0.8,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1261566,
+            1261573
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256996,
+              "game_effect_id": 1264731,
+              "amount_kind": "direct",
+              "value_pct": -20.0,
+              "factor": 0.8,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1261566,
+          "source_spell_id": 1263137,
+          "effect_index": 1,
+          "effect_text": "School Damage (Arcane)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.91,
+          "amount_kind": "direct",
+          "aura_factor": 0.8,
+          "final_pvp_multiplier": 0.7280000000000001,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1261566,
+            1263137
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256996,
+              "game_effect_id": 1264731,
+              "amount_kind": "direct",
+              "value_pct": -20.0,
+              "factor": 0.8,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Boundless Moonlight",
@@ -7032,14 +7382,112 @@
         "icon": "inv_ability_eluneschosendruid_boundlessmoonlight"
       },
       "pve_tooltip": "Fury of Elune\nFury of Elune now ends with a flash of energy, blasting nearby enemies for (216.32% of Spell Power) Astral damage.\nFull Moon\nFull Moon calls down 2 Minor\nMoons\nthat deal (188.5% of Spell Power) Astral damage and generate 3 Astral Power.",
-      "pvp_tooltip": "Fury of Elune\nFury of Elune now ends with a flash of energy, blasting nearby enemies for (216.32% of Spell Power) Astral damage.\nFull Moon\nFull Moon calls down 2 Minor\nMoons\nthat deal (188.5% of Spell Power) Astral damage and generate 3 Astral Power.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "Fury of Elune\nFury of Elune now ends with a flash of energy, blasting nearby enemies for (192.2652% of Spell Power) Astral damage.\nFull Moon\nFull Moon calls down 2 Minor\nMoons\nthat deal (188.5% of Spell Power) Astral damage and generate 3 Astral Power.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 90,
+          "end": 96,
+          "old_token": "216.32",
+          "new_token": "192.2652",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "216.32",
+          "new": "192.2652"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 424058,
+          "source_spell_id": 424588,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 1.885)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.111,
+          "amount_kind": "direct",
+          "aura_factor": 0.8,
+          "final_pvp_multiplier": 0.8888,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            424058,
+            424588
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256996,
+              "game_effect_id": 1264731,
+              "amount_kind": "direct",
+              "value_pct": -20.0,
+              "factor": 0.8,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 424058,
+          "source_spell_id": 428682,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 2.1632)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.111,
+          "amount_kind": "direct",
+          "aura_factor": 0.8,
+          "final_pvp_multiplier": 0.8888,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            424058,
+            428682
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256996,
+              "game_effect_id": 1264731,
+              "amount_kind": "direct",
+              "value_pct": -20.0,
+              "factor": 0.8,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Moon Guardian",
@@ -7459,6 +7907,7 @@
               "amount_kind": "direct",
               "value_pct": -20.0,
               "factor": 0.8,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7496,6 +7945,7 @@
               "amount_kind": "periodic",
               "value_pct": -20.0,
               "factor": 0.8,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7812,6 +8262,7 @@
               "amount_kind": "direct",
               "value_pct": -20.0,
               "factor": 0.8,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8084,10 +8535,112 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 216.32,
+          "new": 192.265216,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 188.5,
+          "new": 167.5388,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 424113,
+          "source_spell_id": 428682,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 2.1632)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.111,
+          "amount_kind": "direct",
+          "aura_factor": 0.8,
+          "final_pvp_multiplier": 0.8888,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            424113,
+            428682
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256996,
+              "game_effect_id": 1264731,
+              "amount_kind": "direct",
+              "value_pct": -20.0,
+              "factor": 0.8,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 424113,
+          "source_spell_id": 424588,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 1.885)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.111,
+          "amount_kind": "direct",
+          "aura_factor": 0.8,
+          "final_pvp_multiplier": 0.8888,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            424113,
+            428682,
+            424058,
+            424588
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256996,
+              "game_effect_id": 1264731,
+              "amount_kind": "direct",
+              "value_pct": -20.0,
+              "factor": 0.8,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Dream Surge",
@@ -8139,8 +8692,47 @@
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 433831,
+          "source_spell_id": 433850,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (AP mod: 3.93 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": "direct",
+          "aura_factor": 0.8,
+          "final_pvp_multiplier": 0.4,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            433831,
+            433850
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256996,
+              "game_effect_id": 1264731,
+              "amount_kind": "direct",
+              "value_pct": -20.0,
+              "factor": 0.8,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -8974,14 +9566,64 @@
         "icon": "spell_nature_thorns"
       },
       "pve_tooltip": "Every 5 Regrowths you cast makes your next Wrath, Starfire, or Entangling Roots instant and increases damage it deals by 100%.\nEvery 5 Starsurges or Starfalls you cast makes your next Regrowth or Entangling roots instant.",
-      "pvp_tooltip": "Every 5 Regrowths you cast makes your next Wrath, Starfire, or Entangling Roots instant and increases damage it deals by 100%.\nEvery 5 Starsurges or Starfalls you cast makes your next Regrowth or Entangling roots instant.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "Every 5 Regrowths you cast makes your next Wrath, Starfire, or Entangling Roots instant and increases damage it deals by 25%.\nEvery 5 Starsurges or Starfalls you cast makes your next Regrowth or Entangling roots instant.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 121,
+          "end": 124,
+          "old_token": "100",
+          "new_token": "25",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "100",
+          "new": "25"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 429433,
+          "source_spell_id": 429474,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 100.0,
+          "spell_pvp_multiplier": 0.25,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.25,
+          "final_pvp_value": 25.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            429433,
+            429474
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Spirit of the Thicket",
@@ -9081,23 +9723,103 @@
         "icon": "ability_druid_forceofnature"
       },
       "pve_tooltip": "Each of your Force of Nature treants increases damage your spells deal by 4% while active.",
-      "pvp_tooltip": "Each of your Force of Nature treants increases damage your spells deal by 4% while active.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "Each of your Force of Nature treants increases damage your spells deal by 2% while active.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 74,
+          "end": 75,
+          "old_token": "4",
+          "new_token": "2",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1,
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1,
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "4",
+          "new": "2"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 428731,
+          "source_spell_id": 428735,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 4.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 2.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            428731,
+            428735
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 428731,
+          "source_spell_id": 428735,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
+          "base_value": 4.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 2.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            428731,
+            428735
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     }
   ],
   "fetch_errors": [],
   "slug": "druid-balance",
-  "generated_at": "2026-09-19T14:06:46.178681+00:00",
+  "generated_at": "2026-09-19T14:35:23.380497+00:00",
   "validation": {
     "talents": 142,
-    "changed_tooltips": 14,
-    "talents_with_pvp_mechanics": 25,
+    "changed_tooltips": 20,
+    "talents_with_pvp_mechanics": 33,
     "unique_nodes": 119,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
@@ -9105,141 +9827,20 @@
       "12.1.0.69587"
     ],
     "verification_status": "PARTIAL",
-    "fetch_error_count": 10,
-    "unresolved_count": 11,
-    "review_required_count": 1,
-    "fetch_error_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 424588,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=424588'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 428682,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=428682'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 428735,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=428735'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 429474,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=429474'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 433850,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=433850'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
-    "unresolved_examples": [
-      {
-        "spell_id": 424588,
-        "talent_name": "Boundless Moonlight",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 1.11,
-        "effect_text": "School Damage (2): astral",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 424058,
-        "source_spell_id": 424588,
-        "dependency_kind": "EMBEDDED",
-        "dependency_path": [
-          424058,
-          424588
-        ],
-        "dependency_relations": [
-          "spelldesc_ref"
-        ]
-      },
-      {
-        "spell_id": 428682,
-        "talent_name": "Boundless Moonlight",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 1.11,
-        "effect_text": "School Damage (2): astral",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 424058,
-        "source_spell_id": 428682,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          424058,
-          428682
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      },
-      {
-        "spell_id": 428682,
-        "talent_name": "The Eternal Moon",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 1.11,
-        "effect_text": "School Damage (2): astral",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 424113,
-        "source_spell_id": 428682,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          424113,
-          428682
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      },
-      {
-        "spell_id": 424588,
-        "talent_name": "The Eternal Moon",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 1.11,
-        "effect_text": "School Damage (2): astral",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 424113,
-        "source_spell_id": 424588,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          424113,
-          428682,
-          424058,
-          424588
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref",
-          "spelldesc_ref",
-          "spelldesc_ref"
-        ]
-      },
-      {
-        "spell_id": 428735,
-        "talent_name": "Harmony of the Grove",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.5,
-        "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 428731,
-        "source_spell_id": 428735,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          428731,
-          428735
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      }
-    ],
+    "fetch_error_count": 0,
+    "unresolved_count": 0,
+    "review_required_count": 2,
+    "fetch_error_examples": [],
+    "unresolved_examples": [],
     "review_required_examples": [
       {
         "talent_name": "Starfire",
         "spell_id": 194153,
+        "status": "REVIEW_REQUIRED"
+      },
+      {
+        "talent_name": "Ascendant Eclipses",
+        "spell_id": 1261566,
         "status": "REVIEW_REQUIRED"
       }
     ]

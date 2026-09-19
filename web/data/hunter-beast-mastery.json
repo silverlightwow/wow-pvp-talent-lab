@@ -3256,6 +3256,7 @@
               "amount_kind": "periodic",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3695,6 +3696,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5187,6 +5189,7 @@
               "amount_kind": "periodic",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5767,6 +5770,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -5775,6 +5779,7 @@
               "amount_kind": "direct",
               "value_pct": -21.0,
               "factor": 0.79,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5971,6 +5976,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6007,6 +6013,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6496,6 +6503,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6534,6 +6542,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7027,6 +7036,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7064,6 +7074,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7101,6 +7112,7 @@
               "amount_kind": "periodic",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7566,6 +7578,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7607,6 +7620,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7648,6 +7662,7 @@
               "amount_kind": "periodic",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8196,6 +8211,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -8204,6 +8220,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8218,7 +8235,7 @@
   ],
   "fetch_errors": [],
   "slug": "hunter-beast-mastery",
-  "generated_at": "2026-09-19T14:10:16.654794+00:00",
+  "generated_at": "2026-09-19T14:38:47.635255+00:00",
   "validation": {
     "talents": 129,
     "changed_tooltips": 9,

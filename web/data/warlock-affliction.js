@@ -3197,6 +3197,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "periodic",
               "value_pct": 33.0,
               "factor": 1.33,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -3205,6 +3206,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "periodic",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3313,6 +3315,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "periodic",
               "value_pct": 33.0,
               "factor": 1.33,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3420,6 +3423,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "periodic",
               "value_pct": 33.0,
               "factor": 1.33,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3456,6 +3460,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 33.0,
               "factor": 1.33,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3626,6 +3631,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 33.0,
               "factor": 1.33,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3853,6 +3859,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "periodic",
               "value_pct": 33.0,
               "factor": 1.33,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4155,6 +4162,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 33.0,
               "factor": 1.33,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4677,6 +4685,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 33.0,
               "factor": 1.33,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4981,6 +4990,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "periodic",
               "value_pct": 33.0,
               "factor": 1.33,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6082,8 +6092,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 0.75,
           "amount_kind": "direct",
-          "aura_factor": 1.596,
-          "final_pvp_multiplier": 1.197,
+          "aura_factor": 1.4364000000000001,
+          "final_pvp_multiplier": 1.0773000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -6100,6 +6110,16 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 33.0,
               "factor": 1.33,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264887,
+              "amount_kind": "direct",
+              "value_pct": -10.0,
+              "factor": 0.9,
+              "label_id": 3444,
               "build": "12.1.0.69587"
             },
             {
@@ -6108,6 +6128,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6127,8 +6148,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 0.75,
           "amount_kind": "periodic",
-          "aura_factor": 1.596,
-          "final_pvp_multiplier": 1.197,
+          "aura_factor": 1.4364000000000001,
+          "final_pvp_multiplier": 1.0773000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -6147,6 +6168,16 @@ window.WOW_PVP_DATA = {
               "amount_kind": "periodic",
               "value_pct": 33.0,
               "factor": 1.33,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264888,
+              "amount_kind": "periodic",
+              "value_pct": -10.0,
+              "factor": 0.9,
+              "label_id": 3445,
               "build": "12.1.0.69587"
             },
             {
@@ -6155,6 +6186,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "periodic",
               "value_pct": 20.0,
               "factor": 1.2,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6264,7 +6296,7 @@ window.WOW_PVP_DATA = {
         "icon": "spell_nzinsanity_chasedbyshadows"
       },
       "pve_tooltip": "If the target is afflicted with your Wither, casting [\nUnstable Affliction\n/ Chaos Bolt and Shadowburn] increase its stack count by 1.\nEach time Wither gains a stack it has a chance to collapse, consuming a stack every 1 sec to deal (144.468% of Spell Power) Shadowflame damage to its host until 1 stack remains.",
-      "pvp_tooltip": "If the target is afflicted with your Wither, casting [\nUnstable Affliction\n/ Chaos Bolt and Shadowburn] increase its stack count by 1.\nEach time Wither gains a stack it has a chance to collapse, consuming a stack every 1 sec to deal (192.1424% of Spell Power) Shadowflame damage to its host until 1 stack remains.",
+      "pvp_tooltip": "If the target is afflicted with your Wither, casting [\nUnstable Affliction\n/ Chaos Bolt and Shadowburn] increase its stack count by 1.\nEach time Wither gains a stack it has a chance to collapse, consuming a stack every 1 sec to deal (153.714% of Spell Power) Shadowflame damage to its host until 1 stack remains.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -6272,7 +6304,7 @@ window.WOW_PVP_DATA = {
           "start": 234,
           "end": 241,
           "old_token": "144.468",
-          "new_token": "192.1424",
+          "new_token": "153.714",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -6287,7 +6319,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "144.468",
-          "new": "192.1424"
+          "new": "153.714"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6302,8 +6334,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.33,
-          "final_pvp_multiplier": 1.33,
+          "aura_factor": 1.064,
+          "final_pvp_multiplier": 1.064,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -6320,6 +6352,16 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 33.0,
               "factor": 1.33,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264892,
+              "amount_kind": "direct",
+              "value_pct": -20.0,
+              "factor": 0.8,
+              "label_id": 3456,
               "build": "12.1.0.69587"
             }
           ],
@@ -6517,7 +6559,7 @@ window.WOW_PVP_DATA = {
         "icon": "inv_ability_soulharvesterwarlock_demonicsoul"
       },
       "pve_tooltip": "A demonic entity now inhabits your soul, allowing you to detect if a Soul Shard has a Succulent Soul when it's generated.\nConsuming a Succulent Soul unleashes your demonic soul, dealing (353.236% of Spell Power) Shadow damage to all enemies within 10 yds of the target. Damage reduced beyond 8 targets.",
-      "pvp_tooltip": "A demonic entity now inhabits your soul, allowing you to detect if a Soul Shard has a Succulent Soul when it's generated.\nConsuming a Succulent Soul unleashes your demonic soul, dealing (469.8039% of Spell Power) Shadow damage to all enemies within 10 yds of the target. Damage reduced beyond 8 targets.",
+      "pvp_tooltip": "A demonic entity now inhabits your soul, allowing you to detect if a Soul Shard has a Succulent Soul when it's generated.\nConsuming a Succulent Soul unleashes your demonic soul, dealing (300.6745% of Spell Power) Shadow damage to all enemies within 10 yds of the target. Damage reduced beyond 8 targets.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -6525,7 +6567,7 @@ window.WOW_PVP_DATA = {
           "start": 187,
           "end": 194,
           "old_token": "353.236",
-          "new_token": "469.8039",
+          "new_token": "300.6745",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -6540,7 +6582,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "353.236",
-          "new": "469.8039"
+          "new": "300.6745"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6555,8 +6597,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.33,
-          "final_pvp_multiplier": 1.33,
+          "aura_factor": 0.8512000000000001,
+          "final_pvp_multiplier": 0.8512000000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -6573,6 +6615,16 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 33.0,
               "factor": 1.33,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264894,
+              "amount_kind": "direct",
+              "value_pct": -36.0,
+              "factor": 0.64,
+              "label_id": 5186,
               "build": "12.1.0.69587"
             }
           ],
@@ -6853,6 +6905,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "periodic",
               "value_pct": 33.0,
               "factor": 1.33,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7069,6 +7122,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 33.0,
               "factor": 1.33,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7105,6 +7159,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 33.0,
               "factor": 1.33,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7860,6 +7915,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 33.0,
               "factor": 1.33,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7954,6 +8010,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 33.0,
               "factor": 1.33,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8256,7 +8313,7 @@ window.WOW_PVP_DATA = {
         "icon": "ability_warlock_moltencoregreen"
       },
       "pve_tooltip": "After Wither reaches 8 stacks or when its host reaches 20% health, Wither deals (144.468% of Spell Power) Shadowflame damage to its host every 1 sec until 1 stack remains.\nWhen Blackened Soul deals damage, you have a chance to gain Shard Instability.",
-      "pvp_tooltip": "After Wither reaches 8 stacks or when its host reaches 20% health, Wither deals (192.1424% of Spell Power) Shadowflame damage to its host every 1 sec until 1 stack remains.\nWhen Blackened Soul deals damage, you have a chance to gain Shard Instability.",
+      "pvp_tooltip": "After Wither reaches 8 stacks or when its host reaches 20% health, Wither deals (153.714% of Spell Power) Shadowflame damage to its host every 1 sec until 1 stack remains.\nWhen Blackened Soul deals damage, you have a chance to gain Shard Instability.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -8264,7 +8321,7 @@ window.WOW_PVP_DATA = {
           "start": 81,
           "end": 88,
           "old_token": "144.468",
-          "new_token": "192.1424",
+          "new_token": "153.714",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -8279,7 +8336,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "144.468",
-          "new": "192.1424"
+          "new": "153.714"
         }
       ],
       "has_pvp_mechanics": true,
@@ -8294,8 +8351,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.33,
-          "final_pvp_multiplier": 1.33,
+          "aura_factor": 1.064,
+          "final_pvp_multiplier": 1.064,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -8312,6 +8369,16 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 33.0,
               "factor": 1.33,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264892,
+              "amount_kind": "direct",
+              "value_pct": -20.0,
+              "factor": 0.8,
+              "label_id": 3456,
               "build": "12.1.0.69587"
             }
           ],
@@ -8473,7 +8540,7 @@ window.WOW_PVP_DATA = {
         "icon": "inv_staff_2h_artifactdeadwind_d_05"
       },
       "pve_tooltip": "Damage dealt by your demonic soul is increased by 10%.\nConsuming Nightfall feeds the demonic entity within you, causing it to appear and deal (601.005% of Spell Power) Shadow damage to your target.",
-      "pvp_tooltip": "Damage dealt by your demonic soul is increased by 10%.\nConsuming Nightfall feeds the demonic entity within you, causing it to appear and deal (799.3367% of Spell Power) Shadow damage to your target.",
+      "pvp_tooltip": "Damage dealt by your demonic soul is increased by 10%.\nConsuming Nightfall feeds the demonic entity within you, causing it to appear and deal (273.3731% of Spell Power) Shadow damage to your target.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -8481,7 +8548,7 @@ window.WOW_PVP_DATA = {
           "start": 143,
           "end": 150,
           "old_token": "601.005",
-          "new_token": "799.3367",
+          "new_token": "273.3731",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -8496,7 +8563,7 @@ window.WOW_PVP_DATA = {
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "601.005",
-          "new": "799.3367"
+          "new": "273.3731"
         }
       ],
       "has_pvp_mechanics": true,
@@ -8511,8 +8578,8 @@ window.WOW_PVP_DATA = {
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.33,
-          "final_pvp_multiplier": 1.33,
+          "aura_factor": 0.4548600000000001,
+          "final_pvp_multiplier": 0.4548600000000001,
           "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -8529,6 +8596,25 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 33.0,
               "factor": 1.33,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264890,
+              "amount_kind": "direct",
+              "value_pct": -40.0,
+              "factor": 0.6,
+              "label_id": 5185,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256906,
+              "game_effect_id": 1264893,
+              "amount_kind": "direct",
+              "value_pct": -43.0,
+              "factor": 0.5700000000000001,
+              "label_id": 5185,
               "build": "12.1.0.69587"
             }
           ],
@@ -8781,6 +8867,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 33.0,
               "factor": 1.33,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8849,7 +8936,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "warlock-affliction",
-  "generated_at": "2026-09-19T14:21:56.799699+00:00",
+  "generated_at": "2026-09-19T14:50:08.695575+00:00",
   "validation": {
     "talents": 123,
     "changed_tooltips": 23,

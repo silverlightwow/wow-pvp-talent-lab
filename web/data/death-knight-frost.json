@@ -130,6 +130,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -166,6 +167,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3072,6 +3074,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -3080,6 +3083,7 @@
               "amount_kind": "direct",
               "value_pct": -13.0,
               "factor": 0.87,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3117,6 +3121,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -3125,6 +3130,7 @@
               "amount_kind": "direct",
               "value_pct": -13.0,
               "factor": 0.87,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3162,6 +3168,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -3170,6 +3177,7 @@
               "amount_kind": "direct",
               "value_pct": -13.0,
               "factor": 0.87,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3262,6 +3270,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -3270,6 +3279,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3307,6 +3317,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -3315,6 +3326,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3352,6 +3364,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -3360,6 +3373,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3397,6 +3411,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -3405,6 +3420,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3442,6 +3458,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -3450,6 +3467,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3487,6 +3505,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -3495,6 +3514,7 @@
               "amount_kind": "direct",
               "value_pct": -10.0,
               "factor": 0.9,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3582,6 +3602,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3619,6 +3640,7 @@
               "amount_kind": "periodic",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3840,6 +3862,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4205,6 +4228,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4297,6 +4321,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4881,6 +4906,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5029,6 +5055,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5177,6 +5204,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5569,6 +5597,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6144,6 +6173,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -6152,6 +6182,7 @@
               "amount_kind": "direct",
               "value_pct": -13.0,
               "factor": 0.87,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6241,6 +6272,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6475,6 +6507,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6506,6 +6539,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6543,6 +6577,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6579,6 +6614,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6669,6 +6705,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6705,6 +6742,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7803,6 +7841,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7840,6 +7879,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7877,6 +7917,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7914,6 +7955,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8027,6 +8069,7 @@
               "amount_kind": "periodic",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8091,6 +8134,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8762,6 +8806,7 @@
               "amount_kind": "direct",
               "value_pct": 13.0,
               "factor": 1.13,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -9224,7 +9269,7 @@
   ],
   "fetch_errors": [],
   "slug": "death-knight-frost",
-  "generated_at": "2026-09-19T14:03:38.112520+00:00",
+  "generated_at": "2026-09-19T14:33:03.804645+00:00",
   "validation": {
     "talents": 121,
     "changed_tooltips": 16,

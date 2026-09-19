@@ -130,6 +130,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -30.0,
               "factor": 0.7,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -166,6 +167,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -30.0,
               "factor": 0.7,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6832,14 +6834,68 @@ window.WOW_PVP_DATA = {
         "icon": "inv_sulfurelemental_blood"
       },
       "pve_tooltip": "Essence of the Blood Queen stacks 2 additional times and increases the damage of your Death Coil and Death Strike by 5% per stack.",
-      "pvp_tooltip": "Essence of the Blood Queen stacks 2 additional times and increases the damage of your Death Coil and Death Strike by 5% per stack.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "Essence of the Blood Queen stacks 2 additional times and increases the damage of your Death Coil and Death Strike by 2.5% per stack.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 117,
+          "end": 118,
+          "old_token": "5",
+          "new_token": "2.5",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "5",
+          "new": "2.5"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 434075,
+          "source_spell_id": 434075,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Add Modifier - Flat (Label): Modifies Effect #2's Value (12)",
+          "base_value": 5.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": null,
+          "aura_factor": 0.5,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 2.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256916,
+              "game_effect_id": 1266208,
+              "amount_kind": "effect:2",
+              "value_pct": -50.0,
+              "factor": 0.5,
+              "label_id": 4192,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "The Blood is Life",
@@ -7992,11 +8048,11 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "death-knight-blood",
-  "generated_at": "2026-09-19T14:03:33.793658+00:00",
+  "generated_at": "2026-09-19T14:33:13.274360+00:00",
   "validation": {
     "talents": 125,
-    "changed_tooltips": 10,
-    "talents_with_pvp_mechanics": 17,
+    "changed_tooltips": 11,
+    "talents_with_pvp_mechanics": 18,
     "unique_nodes": 113,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",

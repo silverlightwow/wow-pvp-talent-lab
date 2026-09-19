@@ -516,10 +516,54 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 30000.0,
+          "new": 15000.0,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 382424,
+          "source_spell_id": 382424,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Cooldown Ms (1560)",
+          "base_value": -30000.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": null,
+          "aura_factor": 0.5,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": -15000.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256909,
+              "game_effect_id": 1352929,
+              "amount_kind": "effect:1",
+              "value_pct": -50.0,
+              "factor": 0.5,
+              "label_id": 7158,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Frost Conditioning",
@@ -945,6 +989,7 @@
               "amount_kind": "direct",
               "value_pct": -5.0,
               "factor": 0.95,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -1051,6 +1096,7 @@
               "amount_kind": "direct",
               "value_pct": -5.0,
               "factor": 0.95,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -1310,6 +1356,7 @@
               "amount_kind": "direct",
               "value_pct": -5.0,
               "factor": 0.95,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -1350,6 +1397,7 @@
               "amount_kind": "periodic",
               "value_pct": -5.0,
               "factor": 0.95,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -2791,6 +2839,7 @@
               "amount_kind": "direct",
               "value_pct": -5.0,
               "factor": 0.95,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3532,6 +3581,7 @@
               "amount_kind": "direct",
               "value_pct": -5.0,
               "factor": 0.95,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3568,6 +3618,7 @@
               "amount_kind": "direct",
               "value_pct": -5.0,
               "factor": 0.95,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3726,6 +3777,7 @@
               "amount_kind": "direct",
               "value_pct": -5.0,
               "factor": 0.95,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3994,6 +4046,7 @@
               "amount_kind": "direct",
               "value_pct": -5.0,
               "factor": 0.95,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4123,6 +4176,7 @@
               "amount_kind": "direct",
               "value_pct": -5.0,
               "factor": 0.95,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4292,6 +4346,7 @@
               "amount_kind": "direct",
               "value_pct": -5.0,
               "factor": 0.95,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5206,6 +5261,7 @@
               "amount_kind": "direct",
               "value_pct": -5.0,
               "factor": 0.95,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5846,6 +5902,7 @@
               "amount_kind": "direct",
               "value_pct": -5.0,
               "factor": 0.95,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6289,6 +6346,7 @@
               "amount_kind": "direct",
               "value_pct": -5.0,
               "factor": 0.95,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6327,6 +6385,7 @@
               "amount_kind": "direct",
               "value_pct": -5.0,
               "factor": 0.95,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6516,6 +6575,7 @@
               "amount_kind": "direct",
               "value_pct": -5.0,
               "factor": 0.95,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6552,6 +6612,7 @@
               "amount_kind": "direct",
               "value_pct": -5.0,
               "factor": 0.95,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7058,6 +7119,7 @@
               "amount_kind": "periodic",
               "value_pct": -5.0,
               "factor": 0.95,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7879,6 +7941,7 @@
               "amount_kind": "direct",
               "value_pct": -5.0,
               "factor": 0.95,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8068,6 +8131,7 @@
               "amount_kind": "direct",
               "value_pct": -5.0,
               "factor": 0.95,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8401,6 +8465,7 @@
               "amount_kind": "direct",
               "value_pct": -5.0,
               "factor": 0.95,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8787,11 +8852,11 @@
   ],
   "fetch_errors": [],
   "slug": "mage-arcane",
-  "generated_at": "2026-09-19T14:11:07.945881+00:00",
+  "generated_at": "2026-09-19T14:40:15.697488+00:00",
   "validation": {
     "talents": 128,
     "changed_tooltips": 16,
-    "talents_with_pvp_mechanics": 29,
+    "talents_with_pvp_mechanics": 30,
     "unique_nodes": 109,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",

@@ -130,6 +130,7 @@
               "amount_kind": "direct",
               "value_pct": 2.0,
               "factor": 1.02,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -166,6 +167,7 @@
               "amount_kind": "direct",
               "value_pct": 2.0,
               "factor": 1.02,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3072,6 +3074,7 @@
               "amount_kind": "periodic",
               "value_pct": 2.0,
               "factor": 1.02,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3109,6 +3112,7 @@
               "amount_kind": "periodic",
               "value_pct": 2.0,
               "factor": 1.02,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3148,6 +3152,7 @@
               "amount_kind": "direct",
               "value_pct": 2.0,
               "factor": 1.02,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3235,6 +3240,7 @@
               "amount_kind": "direct",
               "value_pct": 2.0,
               "factor": 1.02,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3434,6 +3440,7 @@
               "amount_kind": "direct",
               "value_pct": 2.0,
               "factor": 1.02,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3470,6 +3477,7 @@
               "amount_kind": "direct",
               "value_pct": 2.0,
               "factor": 1.02,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3923,6 +3931,7 @@
               "amount_kind": "direct",
               "value_pct": 2.0,
               "factor": 1.02,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4066,6 +4075,7 @@
               "amount_kind": "direct",
               "value_pct": 2.0,
               "factor": 1.02,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4212,6 +4222,7 @@
               "amount_kind": "periodic",
               "value_pct": 2.0,
               "factor": 1.02,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5591,8 +5602,8 @@
           "base_value": 0.0,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.02,
-          "final_pvp_multiplier": 1.02,
+          "aura_factor": 1.2036,
+          "final_pvp_multiplier": 1.2036,
           "final_pvp_value": 0.0,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -5611,6 +5622,16 @@
               "amount_kind": "direct",
               "value_pct": 2.0,
               "factor": 1.02,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256918,
+              "game_effect_id": 1323651,
+              "amount_kind": "direct",
+              "value_pct": 18.0,
+              "factor": 1.18,
+              "label_id": 6246,
               "build": "12.1.0.69587"
             }
           ],
@@ -5629,8 +5650,8 @@
           "base_value": 0.0,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.02,
-          "final_pvp_multiplier": 1.02,
+          "aura_factor": 1.2036,
+          "final_pvp_multiplier": 1.2036,
           "final_pvp_value": 0.0,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -5649,6 +5670,16 @@
               "amount_kind": "direct",
               "value_pct": 2.0,
               "factor": 1.02,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256918,
+              "game_effect_id": 1323651,
+              "amount_kind": "direct",
+              "value_pct": 18.0,
+              "factor": 1.18,
+              "label_id": 6246,
               "build": "12.1.0.69587"
             }
           ],
@@ -5687,6 +5718,7 @@
               "amount_kind": "direct",
               "value_pct": 2.0,
               "factor": 1.02,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5725,6 +5757,7 @@
               "amount_kind": "direct",
               "value_pct": 2.0,
               "factor": 1.02,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5916,6 +5949,7 @@
               "amount_kind": "direct",
               "value_pct": 2.0,
               "factor": 1.02,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5955,6 +5989,7 @@
               "amount_kind": "direct",
               "value_pct": 2.0,
               "factor": 1.02,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7148,6 +7183,7 @@
               "amount_kind": "periodic",
               "value_pct": 2.0,
               "factor": 1.02,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7194,8 +7230,8 @@
           "base_value": 0.0,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.02,
-          "final_pvp_multiplier": 1.02,
+          "aura_factor": 1.3566,
+          "final_pvp_multiplier": 1.3566,
           "final_pvp_value": 0.0,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -7212,6 +7248,16 @@
               "amount_kind": "direct",
               "value_pct": 2.0,
               "factor": 1.02,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256918,
+              "game_effect_id": 1323653,
+              "amount_kind": "direct",
+              "value_pct": 33.0,
+              "factor": 1.33,
+              "label_id": 5090,
               "build": "12.1.0.69587"
             }
           ],
@@ -7865,8 +7911,8 @@
           "base_value": 0.0,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.02,
-          "final_pvp_multiplier": 1.02,
+          "aura_factor": 1.3566,
+          "final_pvp_multiplier": 1.3566,
           "final_pvp_value": 0.0,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -7883,6 +7929,16 @@
               "amount_kind": "direct",
               "value_pct": 2.0,
               "factor": 1.02,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256918,
+              "game_effect_id": 1323653,
+              "amount_kind": "direct",
+              "value_pct": 33.0,
+              "factor": 1.33,
+              "label_id": 5090,
               "build": "12.1.0.69587"
             }
           ],
@@ -8345,7 +8401,7 @@
   ],
   "fetch_errors": [],
   "slug": "death-knight-unholy",
-  "generated_at": "2026-09-19T14:03:38.152279+00:00",
+  "generated_at": "2026-09-19T14:32:40.617008+00:00",
   "validation": {
     "talents": 122,
     "changed_tooltips": 12,

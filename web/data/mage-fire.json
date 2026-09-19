@@ -161,6 +161,7 @@
               "amount_kind": "direct",
               "value_pct": -9.0,
               "factor": 0.91,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -489,10 +490,54 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 30000.0,
+          "new": 15000.0,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 382424,
+          "source_spell_id": 382424,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Cooldown Ms (1560)",
+          "base_value": -30000.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": null,
+          "aura_factor": 0.5,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": -15000.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256911,
+              "game_effect_id": 1352928,
+              "amount_kind": "effect:1",
+              "value_pct": -50.0,
+              "factor": 0.5,
+              "label_id": 7158,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Frost Conditioning",
@@ -918,6 +963,7 @@
               "amount_kind": "direct",
               "value_pct": -9.0,
               "factor": 0.91,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -1024,6 +1070,7 @@
               "amount_kind": "direct",
               "value_pct": -9.0,
               "factor": 0.91,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -1283,6 +1330,7 @@
               "amount_kind": "direct",
               "value_pct": -9.0,
               "factor": 0.91,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -1323,6 +1371,7 @@
               "amount_kind": "periodic",
               "value_pct": -9.0,
               "factor": 0.91,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -2764,6 +2813,7 @@
               "amount_kind": "direct",
               "value_pct": -9.0,
               "factor": 0.91,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3501,6 +3551,7 @@
               "amount_kind": "direct",
               "value_pct": -9.0,
               "factor": 0.91,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3538,6 +3589,7 @@
               "amount_kind": "periodic",
               "value_pct": -9.0,
               "factor": 0.91,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3645,6 +3697,7 @@
               "amount_kind": "direct",
               "value_pct": -9.0,
               "factor": 0.91,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3823,6 +3876,7 @@
               "amount_kind": "direct",
               "value_pct": -9.0,
               "factor": 0.91,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3859,6 +3913,7 @@
               "amount_kind": "direct",
               "value_pct": -9.0,
               "factor": 0.91,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3985,6 +4040,7 @@
               "amount_kind": "direct",
               "value_pct": -9.0,
               "factor": 0.91,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4021,6 +4077,7 @@
               "amount_kind": "direct",
               "value_pct": -9.0,
               "factor": 0.91,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4421,6 +4478,7 @@
               "amount_kind": "periodic",
               "value_pct": -9.0,
               "factor": 0.91,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4458,6 +4516,7 @@
               "amount_kind": "direct",
               "value_pct": -9.0,
               "factor": 0.91,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4551,6 +4610,7 @@
               "amount_kind": "direct",
               "value_pct": -9.0,
               "factor": 0.91,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6565,99 +6625,8 @@
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": true,
-      "mechanics": [
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
-          "talent_spell_id": 431044,
-          "source_spell_id": 468655,
-          "effect_index": 1,
-          "effect_text": "School Damage (Fire, Frost) (SP mod: 2.594)",
-          "base_value": null,
-          "spell_pvp_multiplier": 1.9,
-          "amount_kind": "direct",
-          "aura_factor": 1.4105,
-          "final_pvp_multiplier": 2.67995,
-          "final_pvp_value": null,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            431044,
-            468655
-          ],
-          "dependency_relations": [
-            "trigger_spell"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1256911,
-              "game_effect_id": 1264664,
-              "amount_kind": "direct",
-              "value_pct": -9.0,
-              "factor": 0.91,
-              "build": "12.1.0.69587"
-            },
-            {
-              "aura_spell_id": 1256911,
-              "game_effect_id": 1264858,
-              "amount_kind": "direct",
-              "value_pct": 55.0,
-              "factor": 1.55,
-              "build": "12.1.0.69587"
-            }
-          ],
-          "sources": [
-            "wowhead",
-            "drustvar"
-          ],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
-          "talent_spell_id": 431044,
-          "source_spell_id": 468655,
-          "effect_index": 2,
-          "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": null,
-          "spell_pvp_multiplier": 0.95,
-          "amount_kind": "periodic",
-          "aura_factor": 1.4105,
-          "final_pvp_multiplier": 1.339975,
-          "final_pvp_value": null,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            431044,
-            468655
-          ],
-          "dependency_relations": [
-            "trigger_spell"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1256911,
-              "game_effect_id": 1264855,
-              "amount_kind": "periodic",
-              "value_pct": -9.0,
-              "factor": 0.91,
-              "build": "12.1.0.69587"
-            },
-            {
-              "aura_spell_id": 1256911,
-              "game_effect_id": 1264859,
-              "amount_kind": "periodic",
-              "value_pct": 55.0,
-              "factor": 1.55,
-              "build": "12.1.0.69587"
-            }
-          ],
-          "sources": [
-            "wowhead",
-            "drustvar"
-          ],
-          "confidence": "high"
-        }
-      ],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
       "render_effect_count": 0
     },
     {
@@ -7825,6 +7794,7 @@
               "amount_kind": "direct",
               "value_pct": -9.0,
               "factor": 0.91,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7862,6 +7832,7 @@
               "amount_kind": "direct",
               "value_pct": -9.0,
               "factor": 0.91,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7903,6 +7874,7 @@
               "amount_kind": "direct",
               "value_pct": -9.0,
               "factor": 0.91,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7944,6 +7916,7 @@
               "amount_kind": "periodic",
               "value_pct": -9.0,
               "factor": 0.91,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8305,6 +8278,7 @@
               "amount_kind": "direct",
               "value_pct": -9.0,
               "factor": 0.91,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8484,6 +8458,7 @@
               "amount_kind": "direct",
               "value_pct": -9.0,
               "factor": 0.91,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8754,6 +8729,7 @@
               "amount_kind": "direct",
               "value_pct": -9.0,
               "factor": 0.91,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -9140,7 +9116,7 @@
   ],
   "fetch_errors": [],
   "slug": "mage-fire",
-  "generated_at": "2026-09-19T14:12:15.714823+00:00",
+  "generated_at": "2026-09-19T14:40:14.685032+00:00",
   "validation": {
     "talents": 127,
     "changed_tooltips": 20,
@@ -9152,10 +9128,15 @@
       "12.1.0.69587"
     ],
     "verification_status": "PARTIAL",
-    "fetch_error_count": 8,
-    "unresolved_count": 15,
+    "fetch_error_count": 9,
+    "unresolved_count": 17,
     "review_required_count": 3,
     "fetch_error_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 468655,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=468655'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "source": "wowhead",
         "spell_id": 1246023,
@@ -9175,11 +9156,6 @@
         "source": "wowhead",
         "spell_id": 1254024,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1254024'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1257350,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1257350'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [

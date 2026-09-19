@@ -390,6 +390,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -398,6 +399,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 16.0,
               "factor": 1.16,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -434,6 +436,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -442,6 +445,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 16.0,
               "factor": 1.16,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -798,14 +802,64 @@ window.WOW_PVP_DATA = {
         "icon": "spell_holy_blindingheal"
       },
       "pve_tooltip": "After Cleanse Toxins successfully removes an effect from an ally, they are healed for [(540% of Spell Power)].",
-      "pvp_tooltip": "After Cleanse Toxins successfully removes an effect from an ally, they are healed for [(540% of Spell Power)].",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "After Cleanse Toxins successfully removes an effect from an ally, they are healed for [(150.0012% of Spell Power)].",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 88,
+          "end": 91,
+          "old_token": "540",
+          "new_token": "150.0012",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "540",
+          "new": "150.0012"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 469411,
+          "source_spell_id": 469413,
+          "effect_index": 1,
+          "effect_text": "Heal (SP mod: 5.4)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.27778,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.27778,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            469411,
+            469413
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Afterimage",
@@ -1949,14 +2003,77 @@ window.WOW_PVP_DATA = {
         "icon": "inv_chest_plate_raidpaladin_s_01"
       },
       "pve_tooltip": "Armor increased by 10%, Stamina increased by 5% and damage taken from area of effect attacks reduced by 3%.",
-      "pvp_tooltip": "Armor increased by 10%, Stamina increased by 5% and damage taken from area of effect attacks reduced by 3%.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "Armor increased by 10%, Stamina increased by 5% and damage taken from area of effect attacks reduced by 0.75%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 104,
+          "end": 105,
+          "old_token": "3",
+          "new_token": "0.75",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "3",
+          "new": "0.75"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 402964,
+          "source_spell_id": 402964,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Mod AoE Damage Taken % (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)",
+          "base_value": -3.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": null,
+          "aura_factor": 0.25,
+          "final_pvp_multiplier": 0.25,
+          "final_pvp_value": -0.75,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1079579,
+              "amount_kind": "effect:2",
+              "value_pct": -50.0,
+              "factor": 0.5,
+              "label_id": 2602,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1079580,
+              "amount_kind": "effect:2",
+              "value_pct": -50.0,
+              "factor": 0.5,
+              "label_id": 2602,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Punishment",
@@ -2820,14 +2937,115 @@ window.WOW_PVP_DATA = {
         "icon": "spell_holy_divinepurpose"
       },
       "pve_tooltip": "Holy Power spending abilities have a 10% chance to make your next Holy Power spending ability free and deal 10% increased damage and healing.\n(100ms cooldown)",
-      "pvp_tooltip": "Holy Power spending abilities have a 10% chance to make your next Holy Power spending ability free and deal 10% increased damage and healing.\n(100ms cooldown)",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "Holy Power spending abilities have a 6.6667% chance to make your next Holy Power spending ability free and deal 6.6667% increased damage and healing.\n(100ms cooldown)",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 37,
+          "end": 39,
+          "old_token": "10",
+          "new_token": "6.6667",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2,
+            5
+          ]
+        },
+        {
+          "start": 108,
+          "end": 110,
+          "old_token": "10",
+          "new_token": "6.6667",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2,
+            5
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2,
+            5
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "10",
+          "new": "6.6667"
+        },
+        {
+          "effect_indexes": [
+            2,
+            5
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "10",
+          "new": "6.6667"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 408459,
+          "source_spell_id": 408458,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 10.0,
+          "spell_pvp_multiplier": 0.666667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.666667,
+          "final_pvp_value": 6.66667,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            408459,
+            408458
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 408459,
+          "source_spell_id": 408458,
+          "effect_index": 5,
+          "effect_text": "Apply Aura: Add Modifier - % (Label): Modifies Damage/Healing Done",
+          "base_value": 10.0,
+          "spell_pvp_multiplier": 0.666667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.666667,
+          "final_pvp_value": 6.66667,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            408459,
+            408458
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Improved Blessing of Protection",
@@ -3727,14 +3945,74 @@ window.WOW_PVP_DATA = {
         "icon": "spell_holy_eyeforaneye"
       },
       "pve_tooltip": "Melee and ranged attackers receive (35% of Spell Power) Holy damage each time they strike you during Divine Protection and Divine Shield.",
-      "pvp_tooltip": "Melee and ranged attackers receive (35% of Spell Power) Holy damage each time they strike you during Divine Protection and Divine Shield.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "Melee and ranged attackers receive (111.5625% of Spell Power) Holy damage each time they strike you during Divine Protection and Divine Shield.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 36,
+          "end": 38,
+          "old_token": "35",
+          "new_token": "111.5625",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "35",
+          "new": "111.5625"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 469309,
+          "source_spell_id": 469311,
+          "effect_index": 1,
+          "effect_text": "School Damage (Holy) (SP mod: 0.35)",
+          "base_value": null,
+          "spell_pvp_multiplier": 3.75,
+          "amount_kind": "direct",
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 3.1875,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            469309,
+            469311
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1079573,
+              "amount_kind": "direct",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Golden Path",
@@ -3818,6 +4096,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4115,6 +4394,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4151,6 +4431,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4237,6 +4518,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4328,6 +4610,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "periodic",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4493,10 +4776,21 @@ window.WOW_PVP_DATA = {
         "icon": "ability_paladin_judgementblue"
       },
       "pve_tooltip": "Judgment deals 10% increased damage and increases your movement speed by 10% for 5 sec.\nIf you have Greater Judgment, Judgment slows enemies by\n30\n% for 8 sec.",
-      "pvp_tooltip": "Judgment deals 10% increased damage and increases your movement speed by 10% for 5 sec.\nIf you have Greater Judgment, Judgment slows enemies by\n30\n% for 8 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pvp_tooltip": "Judgment deals 10% increased damage and increases your movement speed by 10% for 5 sec.\nIf you have Greater Judgment, Judgment slows enemies by\n20\n% for 8 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 144,
+          "end": 146,
+          "old_token": "30",
+          "new_token": "20",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
@@ -4517,6 +4811,15 @@ window.WOW_PVP_DATA = {
           "old": 75.5547,
           "new": 77.065794,
           "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "30",
+          "new": "20"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4549,6 +4852,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4585,6 +4889,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4592,9 +4897,37 @@ window.WOW_PVP_DATA = {
             "wowhead"
           ],
           "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 403495,
+          "source_spell_id": 408383,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -30.0,
+          "spell_pvp_multiplier": 0.666667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.666667,
+          "final_pvp_value": -20.00001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            403495,
+            408383
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 3
     },
     {
       "talent_name": "Avenging Wrath",
@@ -4697,6 +5030,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4848,6 +5182,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5382,6 +5717,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "periodic",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5698,6 +6034,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5898,6 +6235,44 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 406646,
+          "source_spell_id": 407480,
+          "effect_index": 1,
+          "effect_text": "School Damage (Holy, Fire) (AP mod: 1.875 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 0.85,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            406646,
+            407480
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1079573,
+              "amount_kind": "direct",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5959,8 +6334,46 @@ window.WOW_PVP_DATA = {
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 404542,
+          "source_spell_id": 408385,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 2.34731 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 0.85,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            404542,
+            408385
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1079573,
+              "amount_kind": "direct",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -6202,6 +6615,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6267,6 +6681,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "periodic",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6303,6 +6718,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6339,6 +6755,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6563,6 +6980,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6656,6 +7074,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6758,6 +7177,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6830,6 +7250,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "periodic",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6870,6 +7291,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7335,8 +7757,144 @@ window.WOW_PVP_DATA = {
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 427445,
+          "source_spell_id": 427453,
+          "effect_index": 1,
+          "effect_text": "School Damage (Holy) (AP mod: 6.96774 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.68,
+          "amount_kind": "direct",
+          "aura_factor": 1.1729999999999998,
+          "final_pvp_multiplier": 0.7976399999999999,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            427445,
+            427453
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1079573,
+              "amount_kind": "direct",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1350147,
+              "amount_kind": "direct",
+              "value_pct": 38.0,
+              "factor": 1.38,
+              "label_id": 3084,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 427445,
+          "source_spell_id": 429826,
+          "effect_index": 1,
+          "effect_text": "School Damage (Holy) (AP mod: 3.48 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.85,
+          "amount_kind": "direct",
+          "aura_factor": 1.1729999999999998,
+          "final_pvp_multiplier": 0.9970499999999998,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            427445,
+            427453,
+            429826
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1079573,
+              "amount_kind": "direct",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1350147,
+              "amount_kind": "direct",
+              "value_pct": 38.0,
+              "factor": 1.38,
+              "label_id": 3084,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 427445,
+          "source_spell_id": 431398,
+          "effect_index": 1,
+          "effect_text": "School Damage (Holy) (AP mod: 0.4655 )",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 0.85,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            427445,
+            427453,
+            431398
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1079573,
+              "amount_kind": "direct",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -7384,14 +7942,120 @@ window.WOW_PVP_DATA = {
         "icon": "inv_ability_heraldofthesunpaladin_dawnlight"
       },
       "pve_tooltip": "Casting Wake of Ashes causes your next 2 Holy Power spending abilities to apply Dawnlight on your target, dealing (255% of Spell Power) Radiant damage or (538.2% of Spell Power) healing over 8 sec.\n4% of Dawnlight's damage and healing radiates to nearby allies or enemies, reduced beyond 5 targets.\n(250ms cooldown)",
-      "pvp_tooltip": "Casting Wake of Ashes causes your next 2 Holy Power spending abilities to apply Dawnlight on your target, dealing (255% of Spell Power) Radiant damage or (538.2% of Spell Power) healing over 8 sec.\n4% of Dawnlight's damage and healing radiates to nearby allies or enemies, reduced beyond 5 targets.\n(250ms cooldown)",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "Casting Wake of Ashes causes your next 2 Holy Power spending abilities to apply Dawnlight on your target, dealing (281.775% of Spell Power) Radiant damage or (538.2% of Spell Power) healing over 8 sec.\n4% of Dawnlight's damage and healing radiates to nearby allies or enemies, reduced beyond 5 targets.\n(250ms cooldown)",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 115,
+          "end": 118,
+          "old_token": "255",
+          "new_token": "281.775",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            3
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 50.0,
+          "new": 30.0,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "255",
+          "new": "281.775"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431377,
+          "source_spell_id": 431380,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 1.105,
+          "final_pvp_multiplier": 1.105,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431377,
+            431380
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1079574,
+              "amount_kind": "periodic",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1315844,
+              "amount_kind": "periodic",
+              "value_pct": 30.0,
+              "factor": 1.3,
+              "label_id": 6251,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431377,
+          "source_spell_id": 431380,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431377,
+            431380
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Zealous Vindication",
@@ -7633,6 +8297,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7893,6 +8558,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "periodic",
               "value_pct": -20.0,
               "factor": 0.8,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -7924,6 +8590,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -20.0,
               "factor": 0.8,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8439,14 +9106,120 @@ window.WOW_PVP_DATA = {
         "icon": "spell_holy_divineillumination"
       },
       "pve_tooltip": "Dawnlight reduces the movement speed of enemies by 50% and increases the movement speed of allies by 20%.",
-      "pvp_tooltip": "Dawnlight reduces the movement speed of enemies by 50% and increases the movement speed of allies by 20%.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "Dawnlight reduces the movement speed of enemies by 30% and increases the movement speed of allies by 20%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 51,
+          "end": 53,
+          "old_token": "50",
+          "new_token": "30",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            3
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 63.74999999999999,
+          "new": 70.44375,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "50",
+          "new": "30"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431423,
+          "source_spell_id": 431380,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 1.105,
+          "final_pvp_multiplier": 1.105,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431423,
+            431380
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1079574,
+              "amount_kind": "periodic",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1315844,
+              "amount_kind": "periodic",
+              "value_pct": 30.0,
+              "factor": 1.3,
+              "label_id": 6251,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431423,
+          "source_spell_id": 431380,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431423,
+            431380
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Will of the Dawn",
@@ -8651,14 +9424,175 @@ window.WOW_PVP_DATA = {
         "icon": "spell_priest_burningwill"
       },
       "pve_tooltip": "Hammer of Wrath and Divine Storm critical strikes cause the target to burn for an additional (48% of Spell Power) Radiant damage over 4 sec.",
-      "pvp_tooltip": "Hammer of Wrath and Divine Storm critical strikes cause the target to burn for an additional (48% of Spell Power) Radiant damage over 4 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "Hammer of Wrath and Divine Storm critical strikes cause the target to burn for an additional (40.8% of Spell Power) Radiant damage over 4 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 94,
+          "end": 96,
+          "old_token": "48",
+          "new_token": "40.8",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 63.74999999999999,
+          "new": 70.44375,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            3
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 50.0,
+          "new": 30.0,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "48",
+          "new": "40.8"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431413,
+          "source_spell_id": 431414,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 0.85,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431413,
+            431414
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1079574,
+              "amount_kind": "periodic",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431413,
+          "source_spell_id": 431380,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 1.105,
+          "final_pvp_multiplier": 1.105,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431413,
+            431415,
+            431377,
+            431380
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1079574,
+              "amount_kind": "periodic",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1315844,
+              "amount_kind": "periodic",
+              "value_pct": 30.0,
+              "factor": 1.3,
+              "label_id": 6251,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431413,
+          "source_spell_id": 431380,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431413,
+            431415,
+            431377,
+            431380
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 3
     },
     {
       "talent_name": "Solar Grace",
@@ -9048,6 +9982,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -15.0,
               "factor": 0.85,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -9468,23 +10403,82 @@ window.WOW_PVP_DATA = {
         "icon": "ability_paladin_holyavenger"
       },
       "pve_tooltip": "You link to your Dawnlights within 30 yds, causing (21.6% of Spell Power) Radiant damage to enemies or (37.26% of Spell Power) healing to allies that pass through the beams, reduced beyond 8 targets.",
-      "pvp_tooltip": "You link to your Dawnlights within 30 yds, causing (21.6% of Spell Power) Radiant damage to enemies or (37.26% of Spell Power) healing to allies that pass through the beams, reduced beyond 8 targets.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "You link to your Dawnlights within 30 yds, causing (18.36% of Spell Power) Radiant damage to enemies or (37.26% of Spell Power) healing to allies that pass through the beams, reduced beyond 8 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 52,
+          "end": 56,
+          "old_token": "21.6",
+          "new_token": "18.36",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "21.6",
+          "new": "18.36"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431425,
+          "source_spell_id": 431911,
+          "effect_index": 1,
+          "effect_text": "School Damage (Holy, Fire) (SP mod: 0.216)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 0.85,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431425,
+            431911
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1079573,
+              "amount_kind": "direct",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     }
   ],
   "fetch_errors": [],
   "slug": "paladin-retribution",
-  "generated_at": "2026-09-19T14:16:07.340095+00:00",
+  "generated_at": "2026-09-19T14:44:45.087287+00:00",
   "validation": {
     "talents": 137,
-    "changed_tooltips": 10,
-    "talents_with_pvp_mechanics": 27,
+    "changed_tooltips": 19,
+    "talents_with_pvp_mechanics": 37,
     "unique_nodes": 116,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
@@ -9492,34 +10486,24 @@ window.WOW_PVP_DATA = {
       "12.1.0.69587"
     ],
     "verification_status": "PARTIAL",
-    "fetch_error_count": 15,
-    "unresolved_count": 12,
+    "fetch_error_count": 3,
+    "unresolved_count": 2,
     "review_required_count": 1,
     "fetch_error_examples": [
       {
         "source": "wowhead",
-        "spell_id": 407480,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=407480'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 1241413,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1241413'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 408383,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=408383'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 1260251,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1260251'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 408385,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=408385'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 408458,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=408458'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 427453,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=427453'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 1261160,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1261160'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [
@@ -9543,76 +10527,19 @@ window.WOW_PVP_DATA = {
         ]
       },
       {
-        "spell_id": 408383,
-        "talent_name": "Judgment of Justice",
+        "spell_id": 1241413,
+        "talent_name": "Hammer of Wrath",
         "side": "drustvar",
         "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.66,
-        "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+        "multiplier": 1.3,
+        "effect_text": "School Damage (2): holy | Attributes: Chain from Initial Target (7), Enforce Line of Sight To Chain Targets (16)",
         "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 403495,
-        "source_spell_id": 408383,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          403495,
-          408383
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      },
-      {
-        "spell_id": 408458,
-        "talent_name": "Divine Purpose",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.66,
-        "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 408459,
-        "source_spell_id": 408458,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          408459,
-          408458
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      },
-      {
-        "spell_id": 408458,
-        "talent_name": "Divine Purpose",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.66,
-        "effect_text": "Apply Aura (6) | Apply Percent Modifier w/ Label (218): Spell Direct Amount (0)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 408459,
-        "source_spell_id": 408458,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          408459,
-          408458
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      },
-      {
-        "spell_id": 427453,
-        "talent_name": "Light's Guidance",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.68,
-        "effect_text": "School Damage (2): holy",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 427445,
-        "source_spell_id": 427453,
+        "talent_spell_id": 1241288,
+        "source_spell_id": 1241413,
         "dependency_kind": "EMBEDDED",
         "dependency_path": [
-          427445,
-          427453
+          1241288,
+          1241413
         ],
         "dependency_relations": [
           "spelldesc_ref"

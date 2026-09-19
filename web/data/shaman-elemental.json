@@ -183,6 +183,7 @@
               "amount_kind": "direct",
               "value_pct": -4.0,
               "factor": 0.96,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -191,6 +192,7 @@
               "amount_kind": "direct",
               "value_pct": 3.0,
               "factor": 1.03,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -296,6 +298,7 @@
               "amount_kind": "direct",
               "value_pct": -4.0,
               "factor": 0.96,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -304,6 +307,7 @@
               "amount_kind": "direct",
               "value_pct": 64.0,
               "factor": 1.6400000000000001,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -416,6 +420,7 @@
               "amount_kind": "direct",
               "value_pct": -37.0,
               "factor": 0.63,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -742,6 +747,7 @@
               "amount_kind": "direct",
               "value_pct": -4.0,
               "factor": 0.96,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -750,6 +756,7 @@
               "amount_kind": "direct",
               "value_pct": -20.0,
               "factor": 0.8,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3504,6 +3511,7 @@
               "amount_kind": "direct",
               "value_pct": -4.0,
               "factor": 0.96,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3611,6 +3619,7 @@
               "amount_kind": "direct",
               "value_pct": -4.0,
               "factor": 0.96,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -3619,6 +3628,7 @@
               "amount_kind": "direct",
               "value_pct": -34.0,
               "factor": 0.6599999999999999,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3730,6 +3740,7 @@
               "amount_kind": "direct",
               "value_pct": -4.0,
               "factor": 0.96,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3842,6 +3853,7 @@
               "amount_kind": "direct",
               "value_pct": -4.0,
               "factor": 0.96,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4496,6 +4508,7 @@
               "amount_kind": "direct",
               "value_pct": -4.0,
               "factor": 0.96,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5126,6 +5139,7 @@
               "amount_kind": "direct",
               "value_pct": -4.0,
               "factor": 0.96,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5673,6 +5687,7 @@
               "amount_kind": "direct",
               "value_pct": -4.0,
               "factor": 0.96,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6313,6 +6328,7 @@
               "amount_kind": "direct",
               "value_pct": -4.0,
               "factor": 0.96,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8868,7 +8884,7 @@
   ],
   "fetch_errors": [],
   "slug": "shaman-elemental",
-  "generated_at": "2026-09-19T14:20:03.240164+00:00",
+  "generated_at": "2026-09-19T14:48:26.343459+00:00",
   "validation": {
     "talents": 140,
     "changed_tooltips": 17,

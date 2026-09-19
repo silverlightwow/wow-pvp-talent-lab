@@ -178,6 +178,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -284,6 +285,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -292,6 +294,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -34.0,
               "factor": 0.6599999999999999,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -404,6 +407,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": -38.0,
               "factor": 0.62,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -730,6 +734,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             },
             {
@@ -738,6 +743,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 40.0,
               "factor": 1.4,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3583,6 +3589,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -3709,8 +3716,8 @@ window.WOW_PVP_DATA = {
           "base_value": 0.0,
           "spell_pvp_multiplier": 1.8,
           "amount_kind": "direct",
-          "aura_factor": 1.05,
-          "final_pvp_multiplier": 1.8900000000000001,
+          "aura_factor": 0.882,
+          "final_pvp_multiplier": 1.5876000000000001,
           "final_pvp_value": 0.0,
           "is_final_pvp_modified": true,
           "dependency_path": [],
@@ -3722,6 +3729,16 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1214207,
+              "game_effect_id": 1317296,
+              "amount_kind": "direct",
+              "value_pct": -16.0,
+              "factor": 0.84,
+              "label_id": 1183,
               "build": "12.1.0.69587"
             }
           ],
@@ -3741,8 +3758,8 @@ window.WOW_PVP_DATA = {
           "base_value": 0.0,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.05,
-          "final_pvp_multiplier": 1.05,
+          "aura_factor": 0.9555000000000001,
+          "final_pvp_multiplier": 0.9555000000000001,
           "final_pvp_value": 0.0,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -3759,6 +3776,16 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1214207,
+              "game_effect_id": 1317297,
+              "amount_kind": "direct",
+              "value_pct": -9.0,
+              "factor": 0.91,
+              "label_id": 4620,
               "build": "12.1.0.69587"
             }
           ],
@@ -4477,6 +4504,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -4889,6 +4917,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5094,6 +5123,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5182,6 +5212,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5616,6 +5647,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5657,6 +5689,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5745,6 +5778,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -5784,6 +5818,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6012,6 +6047,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6049,6 +6085,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6086,6 +6123,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6253,8 +6291,8 @@ window.WOW_PVP_DATA = {
           "base_value": 0.0,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
-          "aura_factor": 1.05,
-          "final_pvp_multiplier": 1.05,
+          "aura_factor": 0.9555000000000001,
+          "final_pvp_multiplier": 0.9555000000000001,
           "final_pvp_value": 0.0,
           "is_final_pvp_modified": true,
           "dependency_path": [
@@ -6273,6 +6311,16 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1214207,
+              "game_effect_id": 1317297,
+              "amount_kind": "direct",
+              "value_pct": -9.0,
+              "factor": 0.91,
+              "label_id": 4620,
               "build": "12.1.0.69587"
             }
           ],
@@ -6417,6 +6465,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6544,6 +6593,16 @@ window.WOW_PVP_DATA = {
       "diagnostics": [
         {
           "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 150.0,
+          "new": 60.0,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
             2
           ],
           "status": "APPLIED",
@@ -6554,6 +6613,38 @@ window.WOW_PVP_DATA = {
       ],
       "has_pvp_mechanics": true,
       "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 445030,
+          "source_spell_id": 445030,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 150.0,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": null,
+          "aura_factor": 0.4,
+          "final_pvp_multiplier": 0.4,
+          "final_pvp_value": 60.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1214207,
+              "game_effect_id": 1196252,
+              "amount_kind": "effect:1",
+              "value_pct": -60.0,
+              "factor": 0.4,
+              "label_id": 4046,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
         {
           "effect_origin": "DIRECT",
           "dependency_kind": null,
@@ -6578,7 +6669,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 2
     },
     {
       "talent_name": "Lively Totems",
@@ -6709,6 +6800,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -6745,6 +6837,7 @@ window.WOW_PVP_DATA = {
               "amount_kind": "direct",
               "value_pct": 5.0,
               "factor": 1.05,
+              "label_id": null,
               "build": "12.1.0.69587"
             }
           ],
@@ -8545,7 +8638,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "shaman-enhancement",
-  "generated_at": "2026-09-19T14:20:34.503295+00:00",
+  "generated_at": "2026-09-19T14:49:12.440816+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 15,
