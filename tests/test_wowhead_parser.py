@@ -1,5 +1,6 @@
 from pvpcalc.sources.wowhead import (
     parse_spell_html,
+    parse_nether_tooltip_payload,
 )
 
 
