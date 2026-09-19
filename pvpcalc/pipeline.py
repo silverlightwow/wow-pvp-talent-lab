@@ -1334,6 +1334,12 @@ def _fill_missing_base_values_from_simc(
         )
 
         row[
+            "simc_ap_coefficient"
+        ] = (
+            simc_effect.ap_coefficient
+        )
+
+        row[
             "simc_pvp_coefficient"
         ] = (
             simc_effect.pvp_coefficient
@@ -1428,12 +1434,14 @@ def _fill_missing_base_values_from_simc(
         if (
             simc_effect.sp_coefficient
             is not None
+            or simc_effect.ap_coefficient
+            is not None
         ):
 
             row[
                 "base_value_source"
             ] = (
-                "wowhead_effect_text"
+                "effect_coefficient"
             )
 
             continue
