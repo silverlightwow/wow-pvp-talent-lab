@@ -3,9 +3,14 @@ name: Verify data and deploy site
 on:
   push:
     branches: [main]
+    paths:
+      - "web/index.html"
+      - "web/app.js"
+      - "web/styles.css"
+      - "web/manifest.json"
+      - "web/service-worker.js"
+      - ".github/workflows/pages.yml"
   workflow_dispatch:
-  schedule:
-    - cron: "17 */6 * * *"
 
 permissions:
   contents: read
