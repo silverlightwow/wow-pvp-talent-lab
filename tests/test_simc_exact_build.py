@@ -156,3 +156,50 @@ def test_effect_reference_context_follows_named_variable():
 
     assert len(contexts) == 1
     assert "absorbing $<shield> damage" in contexts[0]
+
+
+def test_dependency_closure_preserves_parallel_child_evidence():
+    text = (
+        "SimulationCraft test for World of Warcraft 12.1.0.1 Live\n"
+        "Name             : Parent (id=100)\n"
+        "Description      : Child lasts $200d.\n"
+        "Tooltip          : Copies $200s1% of damage.\n"
+        "\n"
+        "Name             : Child (id=200)\n"
+        "Effects          :\n"
+        "#1 (id=2001)     : Apply Aura (6) | Periodic Dummy (226)\n"
+        "                   Base Value: 15 | PvP Coefficient: 1.5\n"
+        "Description      : Child value $s1%.\n"
+    )
+
+    dump = simc.parse_dump(
+        text,
+        class_slug="test",
+    )
+
+    dependencies = simc.dependency_closure(
+        dump,
+        100,
+        target_spell_ids={200},
+    )
+
+    assert len(dependencies) == 1
+    dependency = dependencies[0]
+
+    assert any(
+        "$200d" in evidence
+        for evidence in dependency.evidence
+    )
+    assert any(
+        "$200s1%" in evidence
+        for evidence in dependency.evidence
+    )
+
+    assert (
+        simc.dependency_effect_unit_hint(
+            dependency,
+            200,
+            1,
+        )
+        == "percent"
+    )
