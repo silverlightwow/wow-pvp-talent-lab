@@ -1,12 +1,6 @@
 name: Cross-spec compatibility audit
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - "pvpcalc/**"
-      - "scripts/audit_all_specs.py"
-      - ".github/workflows/spec-audit.yml"
   workflow_dispatch:
     inputs:
       class_name:
