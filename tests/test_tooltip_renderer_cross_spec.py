@@ -703,3 +703,102 @@ def test_named_variable_context_selects_prismatic_barrier_absorb_formula():
         "[22.5 / 100 * Total Health"
         in result["pvp_tooltip"]
     )
+
+
+def test_exact_simc_sp_coefficient_fallback_scorch():
+    tooltip = (
+        "1% of base mana\n"
+        "40 yd range\n"
+        "1.5 sec cast\n"
+        "Scorches an enemy for (100% of Spell Power) Fire damage."
+    )
+
+    rows = [
+        {
+            "effect_index": 1,
+            "effect_text": "School Damage (Fire)",
+            "wowhead_raw": "Effect #1 School Damage (Fire)",
+            "base_value": None,
+            "simc_sp_coefficient": 1.0,
+            "simc_ap_coefficient": None,
+            "final_pvp_multiplier": 2.73,
+            "final_pvp_value": None,
+        },
+    ]
+
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Fire",
+        spec_names=["Arcane", "Fire", "Frost"],
+        effect_rows=rows,
+    )
+
+    assert result["render_status"] == "COMPLETE"
+    assert "(273% of Spell Power)" in result["pvp_tooltip"]
+
+
+def test_exact_simc_periodic_ap_coefficient_fallback_huntmasters_call():
+    tooltip = (
+        "Fenryr\n"
+        "Pounces your primary target, inflicting a heavy bleed that "
+        "deals (800% of Attack Power) damage over 8 sec."
+    )
+
+    rows = [
+        {
+            "effect_origin": "DEPENDENCY",
+            "dependency_kind": "REFERENCED",
+            "dependency_path": [459730, 459753],
+            "effect_index": 1,
+            "effect_text": "Apply Aura: Periodic Damage",
+            "wowhead_raw": "Effect #1 Apply Aura: Periodic Damage",
+            "base_value": None,
+            "simc_sp_coefficient": None,
+            "simc_ap_coefficient": 1.0,
+            "final_pvp_multiplier": 0.7,
+            "final_pvp_value": None,
+        },
+    ]
+
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Beast Mastery",
+        spec_names=["Beast Mastery", "Marksmanship", "Survival"],
+        effect_rows=rows,
+    )
+
+    assert result["render_status"] == "COMPLETE"
+    assert "(560% of Attack Power)" in result["pvp_tooltip"]
+
+
+def test_exact_simc_sp_coefficient_fallback_acid_rain():
+    tooltip = (
+        "Deal [(100% of Spell Power)] Nature damage every 2 sec "
+        "to up to 5 enemies inside of your Healing Rain."
+    )
+
+    rows = [
+        {
+            "effect_origin": "DEPENDENCY",
+            "dependency_kind": "REFERENCED",
+            "dependency_path": [378443, 378597],
+            "effect_index": 1,
+            "effect_text": "School Damage (Nature)",
+            "wowhead_raw": "Effect #1 School Damage (Nature)",
+            "base_value": None,
+            "simc_sp_coefficient": 1.0,
+            "simc_ap_coefficient": None,
+            "final_pvp_multiplier": 1.3,
+            "final_pvp_value": None,
+        },
+    ]
+
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Restoration",
+        spec_names=["Elemental", "Enhancement", "Restoration"],
+        effect_rows=rows,
+    )
+
+    assert result["render_status"] == "COMPLETE"
+    assert "(130% of Spell Power)" in result["pvp_tooltip"]
