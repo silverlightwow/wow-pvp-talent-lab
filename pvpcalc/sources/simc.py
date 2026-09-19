@@ -791,6 +791,7 @@ class SimcEffect:
     base_value: float | None
     sp_coefficient: float | None
     pvp_coefficient: float | None
+    ap_coefficient: float | None = None
 
 
 _SIMC_EFFECT_HEADER_RE = re.compile(
@@ -806,6 +807,11 @@ _SIMC_BASE_RE = re.compile(
 
 _SIMC_SP_RE = re.compile(
     r"SP Coefficient:\s*"
+    r"([+-]?\d+(?:\.\d+)?)"
+)
+
+_SIMC_AP_RE = re.compile(
+    r"AP Coefficient:\s*"
     r"([+-]?\d+(?:\.\d+)?)"
 )
 
@@ -927,6 +933,12 @@ def parse_spell_effects(
             pvp_coefficient=
                 _float_match(
                     _SIMC_PVP_RE,
+                    effect_block,
+                ),
+
+            ap_coefficient=
+                _float_match(
+                    _SIMC_AP_RE,
                     effect_block,
                 ),
         )
