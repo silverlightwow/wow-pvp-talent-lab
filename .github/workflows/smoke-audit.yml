@@ -24,28 +24,46 @@ jobs:
       max-parallel: 3
       matrix:
         include:
-          - class_name: Priest
-            spec_name: Discipline
-          - class_name: Hunter
-            spec_name: Marksmanship
-          - class_name: Druid
-            spec_name: Restoration
-          - class_name: Warrior
-            spec_name: Protection
+          - class_name: Death Knight
+            spec_name: Blood
+          - class_name: Death Knight
+            spec_name: Frost
+          - class_name: Death Knight
+            spec_name: Unholy
           - class_name: Demon Hunter
             spec_name: Havoc
-          - class_name: Demon Hunter
-            spec_name: Devourer
+          - class_name: Druid
+            spec_name: Balance
+          - class_name: Druid
+            spec_name: Feral
           - class_name: Evoker
             spec_name: Augmentation
           - class_name: Evoker
-            spec_name: Preservation
-          - class_name: Paladin
-            spec_name: Protection
-          - class_name: Shaman
-            spec_name: Elemental
+            spec_name: Devastation
+          - class_name: Hunter
+            spec_name: Beast Mastery
           - class_name: Mage
             spec_name: Arcane
+          - class_name: Mage
+            spec_name: Fire
+          - class_name: Mage
+            spec_name: Frost
+          - class_name: Monk
+            spec_name: Brewmaster
+          - class_name: Monk
+            spec_name: Mistweaver
+          - class_name: Monk
+            spec_name: Windwalker
+          - class_name: Paladin
+            spec_name: Retribution
+          - class_name: Shaman
+            spec_name: Elemental
+          - class_name: Shaman
+            spec_name: Enhancement
+          - class_name: Shaman
+            spec_name: Restoration
+          - class_name: Warrior
+            spec_name: Arms
 
     steps:
       - name: Checkout
