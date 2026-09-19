@@ -314,6 +314,25 @@ def semantic_transform(
     )
 
 
+    # A non-zero sign flip cannot be expressed by replacing only the
+    # visible number. Player text such as "increased by 20%" would need
+    # a wording change to "reduced by 20%". Preserve the mechanic but
+    # force conservative review instead of silently rendering the same
+    # magnitude with the wrong direction.
+    if (
+        base is not None
+        and pvp is not None
+        and abs(base) > 1e-12
+        and abs(pvp) > 1e-12
+        and (
+            float(base)
+            * float(pvp)
+            < 0
+        )
+    ):
+        return None
+
+
     # --------------------------------------------------------
     # Spell Power coefficient
     #
