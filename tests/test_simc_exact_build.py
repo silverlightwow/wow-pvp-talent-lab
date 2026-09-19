@@ -63,3 +63,64 @@ def test_fetch_dump_pins_previous_exact_build():
     _, params = client.json_calls[0]
     assert params["sha"] == "midnight"
     assert params["path"] == "SpellDataDump/priest.txt"
+
+
+def test_dependency_effect_context_and_percent_unit():
+    dependency = simc.SimcDependency(
+        root_spell_id=403631,
+        target_spell_id=409560,
+        path_spell_ids=(403631, 409560),
+        relations=("tooltip_value_ref",),
+        evidence=(
+            "Temporal Wound copies $409560s1% of damage dealt by allies.",
+        ),
+    )
+
+    contexts = simc.dependency_effect_reference_contexts(
+        dependency,
+        409560,
+        1,
+    )
+
+    assert contexts == (
+        "Temporal Wound copies $409560s1% of damage dealt by allies.",
+    )
+
+    assert (
+        simc.dependency_effect_unit_hint(
+            dependency,
+            409560,
+            1,
+        )
+        == "percent"
+    )
+
+
+def test_dependency_effect_context_ignores_other_effects():
+    dependency = simc.SimcDependency(
+        root_spell_id=1,
+        target_spell_id=2,
+        path_spell_ids=(1, 2),
+        relations=("tooltip_value_ref",),
+        evidence=(
+            "First value $2s1%, second value $2s2 sec.",
+        ),
+    )
+
+    assert (
+        simc.dependency_effect_unit_hint(
+            dependency,
+            2,
+            2,
+        )
+        == "seconds"
+    )
+
+    assert (
+        simc.dependency_effect_unit_hint(
+            dependency,
+            2,
+            3,
+        )
+        is None
+    )
