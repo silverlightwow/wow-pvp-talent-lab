@@ -1540,6 +1540,108 @@ def render_pvp_tooltip(
 
 
     # --------------------------------------------------------
+    # Canonicalize equivalent semantic encodings.
+    #
+    # The same player-facing percentage can be represented by
+    # several SpellEffects, where one effect explicitly carries
+    # percentage semantics and another is a generic "modify effect"
+    # row. When both effects have the exact same PvE -> PvP
+    # transformation, the explicit semantic kind is strong evidence
+    # for the generic sibling too.
+    #
+    # Examples:
+    #   Avatar: damage / auto-attack / periodic-damage effects
+    #   Soul Rending: leech + Metamorphosis-linked modifier
+    #
+    # This is deliberately narrow: only ordinary_value rows are
+    # promoted, only when an otherwise-identical transform already
+    # has an explicit semantic kind.
+    # --------------------------------------------------------
+
+    explicit_kind_by_values = {}
+
+    for transform in transforms:
+
+        if transform["kind"] == "ordinary_value":
+            continue
+
+        value_key = (
+            round(
+                transform["old"],
+                8,
+            ),
+            round(
+                transform["new"],
+                8,
+            ),
+        )
+
+        explicit_kind_by_values.setdefault(
+            value_key,
+            set(),
+        ).add(
+            transform["kind"]
+        )
+
+
+    for transform in transforms:
+
+        if transform["kind"] != "ordinary_value":
+            continue
+
+        value_key = (
+            round(
+                transform["old"],
+                8,
+            ),
+            round(
+                transform["new"],
+                8,
+            ),
+        )
+
+        explicit_kinds = (
+            explicit_kind_by_values.get(
+                value_key,
+                set(),
+            )
+        )
+
+        # Require one unique explicit interpretation. If the same
+        # values are simultaneously encoded as (say) seconds and
+        # percentages, retaining ambiguity is safer than guessing.
+        if len(explicit_kinds) != 1:
+            continue
+
+        explicit_kind = next(
+            iter(
+                explicit_kinds
+            )
+        )
+
+        if explicit_kind not in {
+            "percent_value",
+            "duration_seconds",
+            "distance_yards",
+        }:
+            continue
+
+        transform[
+            "kind"
+        ] = explicit_kind
+
+        transform[
+            "unit"
+        ] = {
+            "percent_value": "%",
+            "duration_seconds": "sec",
+            "distance_yards": "yd",
+        }[
+            explicit_kind
+        ]
+
+
+    # --------------------------------------------------------
     # Group duplicate transforms.
     #
     # Mental Agility is a good example: several DB effects can
