@@ -89,8 +89,43 @@ def _validate_for_all(audit, spec_catalog) -> dict:
         audit.unresolved_rows
     )
 
+    # A failed auxiliary source fetch is not itself a coverage
+    # failure when the exact-build pipeline already resolved the
+    # spell and a player-facing tooltip is available from fallback.
+    # Keep those failures visible as source warnings, but reserve
+    # PARTIAL for errors that coincide with an actual unresolved or
+    # unsafe player-facing state.
+    coverage_spell_ids = {
+        int(item["spell_id"])
+        for item in unresolved
+        if item.get("spell_id") is not None
+    }
+
+    coverage_spell_ids.update(
+        int(spell_id)
+        for _, spell_id, _
+        in unsafe
+        if spell_id is not None
+    )
+
+    blocking_fetch_errors = [
+        item
+        for item in fetch_errors
+        if (
+            item.get("spell_id") is None
+            or int(item["spell_id"])
+            in coverage_spell_ids
+        )
+    ]
+
+    source_warnings = [
+        item
+        for item in fetch_errors
+        if item not in blocking_fetch_errors
+    ]
+
     clean = (
-        not fetch_errors
+        not blocking_fetch_errors
         and not unresolved
         and not unsafe
     )
@@ -136,7 +171,10 @@ def _validate_for_all(audit, spec_catalog) -> dict:
             ),
 
         "fetch_error_count":
-            len(fetch_errors),
+            len(blocking_fetch_errors),
+
+        "source_warning_count":
+            len(source_warnings),
 
         "unresolved_count":
             len(unresolved),
@@ -145,7 +183,10 @@ def _validate_for_all(audit, spec_catalog) -> dict:
             len(unsafe),
 
         "fetch_error_examples":
-            fetch_errors[:5],
+            blocking_fetch_errors[:5],
+
+        "source_warning_examples":
+            source_warnings[:5],
 
         "unresolved_examples":
             unresolved[:5],
@@ -315,6 +356,12 @@ def build_manifest(
                         built_item[
                             "fetch_error_count"
                         ],
+
+                    "source_warning_count":
+                        built_item.get(
+                            "source_warning_count",
+                            0,
+                        ),
 
                     "unresolved_count":
                         built_item[
