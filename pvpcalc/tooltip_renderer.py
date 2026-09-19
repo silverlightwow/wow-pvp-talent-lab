@@ -283,6 +283,12 @@ def semantic_transform(
         )
     )
 
+    semantic_unit_hint = (
+        effect_row.get(
+            "semantic_unit_hint"
+        )
+    )
+
     # Prefer COMPLETE production PvP state:
     #
     #   spell-specific PvP coefficient
@@ -651,6 +657,61 @@ def semantic_transform(
             effect_text.casefold()
         )
 
+        if semantic_unit_hint == "percent":
+
+            return {
+                "kind":
+                    "percent_value",
+
+                "old":
+                    abs(base),
+
+                "new":
+                    abs(pvp),
+
+                "unit":
+                    "%",
+            }
+
+
+        if semantic_unit_hint == "yards":
+
+            return {
+                "kind":
+                    "distance_yards",
+
+                "old":
+                    abs(base),
+
+                "new":
+                    abs(pvp),
+
+                "unit":
+                    "yd",
+            }
+
+
+        if (
+            semantic_unit_hint
+            == "seconds"
+            and abs(base) < 1000
+        ):
+
+            return {
+                "kind":
+                    "duration_seconds",
+
+                "old":
+                    abs(base),
+
+                "new":
+                    abs(pvp),
+
+                "unit":
+                    "sec",
+            }
+
+
         # Cooldown / buff-duration values expressed directly in
         # seconds. Millisecond-backed values were handled above.
         if (
@@ -890,6 +951,203 @@ def _numeric_matches(
         )
 
     return matches
+
+
+_CONTEXT_STOPWORDS = {
+    "about",
+    "after",
+    "again",
+    "against",
+    "also",
+    "and",
+    "are",
+    "before",
+    "being",
+    "between",
+    "cast",
+    "causing",
+    "each",
+    "effect",
+    "from",
+    "have",
+    "into",
+    "more",
+    "next",
+    "other",
+    "over",
+    "spell",
+    "that",
+    "their",
+    "then",
+    "this",
+    "your",
+    "with",
+}
+
+
+def _context_words(
+    value: str,
+) -> set[str]:
+
+    cleaned = re.sub(
+        r"\$[^\s\]\[(),]+",
+        " ",
+        str(value or ""),
+    )
+
+    words = {
+        word.casefold()
+        for word in re.findall(
+            r"[A-Za-z][A-Za-z'-]{3,}",
+            cleaned,
+        )
+    }
+
+    return {
+        word
+        for word in words
+        if word not in _CONTEXT_STOPWORDS
+    }
+
+
+def _select_reference_context_match(
+    text: str,
+    matches,
+    *,
+    reference_contexts,
+):
+    """
+    Use exact-build SimC Description/Tooltip text around $sN as a
+    provenance-backed disambiguator for repeated equal values.
+
+    Selection is deliberately conservative: at least two distinctive
+    context words must support the winner, and it must beat the second
+    candidate by a material margin.
+    """
+
+    context_words = set()
+
+    for context in (
+        reference_contexts
+        or []
+    ):
+        context_words.update(
+            _context_words(
+                context
+            )
+        )
+
+    if len(context_words) < 2:
+        return None
+
+    word_positions = {}
+
+    for word in context_words:
+
+        positions = [
+            (
+                match.start()
+                + match.end()
+            )
+            / 2.0
+            for match in re.finditer(
+                rf"\b{re.escape(word)}\b",
+                text,
+                re.I,
+            )
+        ]
+
+        if positions:
+            word_positions[
+                word
+            ] = positions
+
+    if len(word_positions) < 2:
+        return None
+
+    scored = []
+
+    for match in matches:
+
+        center = (
+            match.start(1)
+            + match.end(1)
+        ) / 2.0
+
+        contributions = []
+
+        for positions in (
+            word_positions.values()
+        ):
+
+            distance = min(
+                abs(
+                    center
+                    - position
+                )
+                for position
+                in positions
+            )
+
+            if distance <= 100:
+
+                contributions.append(
+                    1.0
+                    - (
+                        distance
+                        / 100.0
+                    )
+                )
+
+        score = sum(
+            contributions
+        )
+
+        support = sum(
+            contribution > 0
+            for contribution
+            in contributions
+        )
+
+        scored.append(
+            (
+                score,
+                support,
+                match,
+            )
+        )
+
+    scored.sort(
+        key=lambda item: (
+            -item[0],
+            -item[1],
+        )
+    )
+
+    best_score, best_support, best = (
+        scored[0]
+    )
+
+    if (
+        best_support < 2
+        or best_score < 0.7
+    ):
+        return None
+
+    if len(scored) > 1:
+
+        second_score = (
+            scored[1][0]
+        )
+
+        if (
+            best_score
+            - second_score
+            < 0.35
+        ):
+            return None
+
+    return best
 
 
 def _context_anchor_patterns(
@@ -1259,6 +1517,15 @@ def render_pvp_tooltip(
                         "",
                     ),
 
+                "reference_contexts":
+                    list(
+                        row.get(
+                            "simc_reference_contexts",
+                            [],
+                        )
+                        or []
+                    ),
+
                 "match_ordinal":
                     row.get(
                         "same_value_text_ordinal"
@@ -1532,16 +1799,30 @@ def render_pvp_tooltip(
                 continue
 
             contextual_match = (
-                _select_contextual_match(
+                _select_reference_context_match(
                     pve_text,
                     matches,
-                    effect_text=
+                    reference_contexts=
                         transform.get(
-                            "effect_text",
-                            "",
+                            "reference_contexts",
+                            [],
                         ),
                 )
             )
+
+            if contextual_match is None:
+
+                contextual_match = (
+                    _select_contextual_match(
+                        pve_text,
+                        matches,
+                        effect_text=
+                            transform.get(
+                                "effect_text",
+                                "",
+                            ),
+                    )
+                )
 
             if contextual_match is not None:
 
