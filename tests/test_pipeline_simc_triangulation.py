@@ -285,3 +285,110 @@ def test_simc_modified_rows_cover_missing_effect_identity():
     assert rows[0]["pvp_multiplier"] == 0.75
     assert rows[0]["sources"] == ["simc"]
     assert rows[0]["confidence"] == "medium"
+
+
+def test_unique_generic_simc_effect_corroborates_missing_wowhead_pvp_line():
+    raw = (
+        "Name             : Generic Test (id=300)\n"
+        "#1 (id=3001) : Dummy\n"
+        "Base Value: 50\n"
+        "PvP Coefficient: 0\n"
+        "#2 (id=3002) : Apply Aura: Other\n"
+        "Base Value: 10\n"
+        "PvP Coefficient: 1\n"
+    )
+
+    dump = SimcDump(
+        class_slug="test",
+        build="12.1.0.test",
+        header="test",
+        spells={
+            300: SimcSpell(
+                spell_id=300,
+                name="Generic Test",
+                raw=raw,
+            )
+        },
+        edges={},
+    )
+
+    item = {
+        "spell_id": 300,
+        "side": "drustvar",
+        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
+        "multiplier": 0,
+        "effect_text": "Dummy (3)",
+    }
+
+    wowhead = EffectObservation(
+        source="wowhead",
+        spell_id=300,
+        spell_name="Generic Test",
+        effect_index=1,
+        base_value=50,
+        pvp_multiplier=None,
+        effect_text="Dummy",
+        patch=None,
+        url="",
+        raw="",
+    )
+
+    assert pipeline._simc_corroborates_unresolved(
+        item,
+        simc_dump=dump,
+        wowhead_by_spell={
+            300: [wowhead]
+        },
+    )
+
+
+def test_unique_generic_simc_effect_does_not_hide_explicit_wowhead_conflict():
+    raw = (
+        "Name             : Generic Test (id=300)\n"
+        "#1 (id=3001) : Dummy\n"
+        "Base Value: 50\n"
+        "PvP Coefficient: 0\n"
+    )
+
+    dump = SimcDump(
+        class_slug="test",
+        build="12.1.0.test",
+        header="test",
+        spells={
+            300: SimcSpell(
+                spell_id=300,
+                name="Generic Test",
+                raw=raw,
+            )
+        },
+        edges={},
+    )
+
+    item = {
+        "spell_id": 300,
+        "side": "drustvar",
+        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
+        "multiplier": 0,
+        "effect_text": "Dummy (3)",
+    }
+
+    wowhead = EffectObservation(
+        source="wowhead",
+        spell_id=300,
+        spell_name="Generic Test",
+        effect_index=1,
+        base_value=50,
+        pvp_multiplier=1,
+        effect_text="Dummy",
+        patch=None,
+        url="",
+        raw="",
+    )
+
+    assert not pipeline._simc_corroborates_unresolved(
+        item,
+        simc_dump=dump,
+        wowhead_by_spell={
+            300: [wowhead]
+        },
+    )
