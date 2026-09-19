@@ -472,3 +472,84 @@ def test_same_numeric_value_different_semantic_kinds_do_not_conflict():
         item["status"] == "CONFLICTING_TRANSFORMS"
         for item in result["diagnostics"]
     )
+
+
+def test_equivalent_damage_effects_collapse_to_one_visible_avatar_value():
+    tooltip = (
+        "Instant\n"
+        "1.5 min cooldown\n"
+        "Transform into a colossus, increasing all damage you deal "
+        "by 20% and reducing all damage you take by 3% for 20 sec."
+    )
+
+    rows = [
+        {
+            "effect_index": 1,
+            "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+            "base_value": 20,
+            "final_pvp_multiplier": 0.75,
+            "final_pvp_value": 15,
+        },
+        {
+            "effect_index": 3,
+            "effect_text": "Apply Aura: Mod Auto Attack Damage %",
+            "base_value": 20,
+            "final_pvp_multiplier": 0.75,
+            "final_pvp_value": 15,
+        },
+        {
+            "effect_index": 4,
+            "effect_text": (
+                "Apply Aura: Modifies Periodic Damage/Healing Done (22)"
+            ),
+            "base_value": 20,
+            "final_pvp_multiplier": 0.75,
+            "final_pvp_value": 15,
+        },
+    ]
+
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Protection",
+        spec_names=["Arms", "Fury", "Protection"],
+        effect_rows=rows,
+    )
+
+    assert result["render_status"] == "COMPLETE"
+    assert "damage you deal by 15%" in result["pvp_tooltip"]
+    assert "for 20 sec" in result["pvp_tooltip"]
+
+
+def test_equivalent_leech_effects_update_both_visible_percentages():
+    tooltip = (
+        "Leech increased by 6%.\n"
+        "Gain an additional 6% leech while Metamorphosis is active."
+    )
+
+    rows = [
+        {
+            "effect_index": 1,
+            "effect_text": "Apply Aura: Mod Leech %",
+            "base_value": 6,
+            "final_pvp_multiplier": 0.833333,
+            "final_pvp_value": 4.999998,
+            "semantic_unit_hint": "percent",
+        },
+        {
+            "effect_index": 2,
+            "effect_text": "Apply Aura: Modifies Effect #3's Value (23)",
+            "base_value": 6,
+            "final_pvp_multiplier": 0.833333,
+            "final_pvp_value": 4.999998,
+        },
+    ]
+
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Havoc",
+        spec_names=["Havoc", "Vengeance", "Devourer"],
+        effect_rows=rows,
+    )
+
+    assert result["render_status"] == "COMPLETE"
+    assert result["pvp_tooltip"].count("5%") == 2
