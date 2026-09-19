@@ -1586,13 +1586,21 @@ def render_pvp_tooltip(
     # PvE number.
     # --------------------------------------------------------
 
+    # Conflict identity is semantic-kind aware. The same numeric
+    # literal may legitimately appear once as a duration and once as
+    # an ordinary percentage/value, and _numeric_matches() already
+    # searches those units independently. Treating those as one
+    # conflict creates false REVIEW_REQUIRED states.
     by_old = {}
 
     for transform in grouped.values():
 
-        old_key = round(
-            transform["old"],
-            8,
+        old_key = (
+            transform["kind"],
+            round(
+                transform["old"],
+                8,
+            ),
         )
 
         by_old.setdefault(
@@ -1610,12 +1618,9 @@ def render_pvp_tooltip(
     ):
 
         distinct_new = {
-            (
-                candidate["kind"],
-                round(
-                    candidate["new"],
-                    8,
-                ),
+            round(
+                candidate["new"],
+                8,
             )
             for candidate in candidates
         }
@@ -1651,8 +1656,10 @@ def render_pvp_tooltip(
 
                 "reason":
                     (
-                        f"PvE value {old_key} "
-                        f"maps to multiple PvP values"
+                        "PvE "
+                        f"{old_key[0]} value "
+                        f"{old_key[1]} maps to "
+                        "multiple PvP values"
                     ),
 
                 "candidates":
