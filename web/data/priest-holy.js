@@ -1,6 +1,6 @@
 window.WOW_PVP_DATA = {
   "class_name": "Priest",
-  "spec_name": "Discipline",
+  "spec_name": "Holy",
   "tree_build": "12.1.0.69875",
   "simc_build": "12.1.0.69875",
   "drustvar_builds": [
@@ -22,8 +22,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -74,8 +74,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -112,11 +112,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Mind Blast",
-      "spell_id": 8092,
-      "node_id": 82713,
-      "entry_id": 103865,
-      "definition_id": 108870,
+      "talent_name": "Holy Fire",
+      "spell_id": 14914,
+      "node_id": 108730,
+      "entry_id": 134283,
+      "definition_id": 139056,
       "tree_type": "class",
       "hero_tree": null,
       "tree_data": {
@@ -126,32 +126,32 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82713,
-        "node_name": "Mind Blast",
+        "node_id": 108730,
+        "node_name": "Holy Fire",
         "node_type": "single",
         "pos_x": 5700,
         "pos_y": 1500,
         "max_ranks": 1,
         "entry_node": true,
-        "free_node": true,
+        "free_node": false,
         "prev": [],
         "next": [
           82672,
           82701
         ],
-        "entry_id": 103865,
-        "definition_id": 108870,
+        "entry_id": 134283,
+        "definition_id": 139056,
         "entry_index": 100,
         "entry_type": "active",
-        "talent_name": "Mind Blast",
-        "spell_id": 8092,
-        "icon": "spell_shadow_unholyfrenzy"
+        "talent_name": "Holy Fire",
+        "spell_id": 14914,
+        "icon": "spell_holy_searinglight"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -178,8 +178,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -191,7 +191,7 @@ window.WOW_PVP_DATA = {
         "pos_y": 2100,
         "max_ranks": 1,
         "entry_node": false,
-        "free_node": false,
+        "free_node": true,
         "prev": [
           82717
         ],
@@ -233,8 +233,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -289,8 +289,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -305,7 +305,7 @@ window.WOW_PVP_DATA = {
         "free_node": false,
         "prev": [
           82703,
-          82713
+          108730
         ],
         "next": [
           82556,
@@ -344,8 +344,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -359,7 +359,7 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82713
+          108730
         ],
         "next": [
           109006,
@@ -399,8 +399,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -450,8 +450,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -506,8 +506,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -559,8 +559,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -615,8 +615,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -670,8 +670,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -723,8 +723,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -776,8 +776,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -830,8 +830,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -883,8 +883,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -939,8 +939,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -992,8 +992,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -1047,8 +1047,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -1103,8 +1103,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -1159,8 +1159,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -1212,8 +1212,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -1265,8 +1265,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -1318,8 +1318,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -1372,8 +1372,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -1425,8 +1425,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -1481,8 +1481,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -1536,8 +1536,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -1589,8 +1589,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -1643,8 +1643,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -1697,8 +1697,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -1753,8 +1753,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -1809,8 +1809,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -1864,8 +1864,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -1919,8 +1919,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -1974,8 +1974,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -2027,8 +2027,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -2083,8 +2083,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -2137,8 +2137,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -2192,8 +2192,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -2247,8 +2247,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -2300,8 +2300,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -2354,8 +2354,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -2407,8 +2407,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -2462,8 +2462,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -2517,8 +2517,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -2572,8 +2572,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -2624,8 +2624,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -2676,8 +2676,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -2728,8 +2728,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -2780,8 +2780,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "class",
         "hero_tree": null,
@@ -2818,11 +2818,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Atonement",
-      "spell_id": 81749,
-      "node_id": 82594,
-      "entry_id": 103723,
-      "definition_id": 108728,
+      "talent_name": "Holy Word: Serenity",
+      "spell_id": 2050,
+      "node_id": 82638,
+      "entry_id": 103775,
+      "definition_id": 108780,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -2832,14 +2832,14 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82594,
-        "node_name": "Atonement",
+        "node_id": 82638,
+        "node_name": "Holy Word: Serenity",
         "node_type": "single",
         "pos_x": 12900,
         "pos_y": 1500,
@@ -2848,17 +2848,17 @@ window.WOW_PVP_DATA = {
         "free_node": false,
         "prev": [],
         "next": [
-          82593,
-          82587,
-          82595
+          82631,
+          82637,
+          82639
         ],
-        "entry_id": 103723,
-        "definition_id": 108728,
+        "entry_id": 103775,
+        "definition_id": 108780,
         "entry_index": 100,
-        "entry_type": "passive",
-        "talent_name": "Atonement",
-        "spell_id": 81749,
-        "icon": "ability_priest_atonement"
+        "entry_type": "active",
+        "talent_name": "Holy Word: Serenity",
+        "spell_id": 2050,
+        "icon": "spell_holy_persuitofjustice"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -2871,11 +2871,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Power Word: Radiance",
-      "spell_id": 194509,
-      "node_id": 82593,
-      "entry_id": 103722,
-      "definition_id": 108727,
+      "talent_name": "Holy Word: Sanctify",
+      "spell_id": 34861,
+      "node_id": 82631,
+      "entry_id": 103766,
+      "definition_id": 108771,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -2885,14 +2885,14 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82593,
-        "node_name": "Power Word: Radiance",
+        "node_id": 82631,
+        "node_name": "Holy Word: Sanctify",
         "node_type": "single",
         "pos_x": 12300,
         "pos_y": 2100,
@@ -2900,19 +2900,19 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82594
+          82638
         ],
         "next": [
-          82592,
-          92225
+          82632,
+          82630
         ],
-        "entry_id": 103722,
-        "definition_id": 108727,
+        "entry_id": 103766,
+        "definition_id": 108771,
         "entry_index": 100,
         "entry_type": "active",
-        "talent_name": "Power Word: Radiance",
-        "spell_id": 194509,
-        "icon": "spell_priest_power_word"
+        "talent_name": "Holy Word: Sanctify",
+        "spell_id": 34861,
+        "icon": "spell_holy_divineprovidence"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -2925,11 +2925,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Pain Suppression",
-      "spell_id": 33206,
-      "node_id": 82587,
-      "entry_id": 103713,
-      "definition_id": 108718,
+      "talent_name": "Guardian Spirit",
+      "spell_id": 47788,
+      "node_id": 82637,
+      "entry_id": 103774,
+      "definition_id": 108779,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -2939,14 +2939,14 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82587,
-        "node_name": "Pain Suppression",
+        "node_id": 82637,
+        "node_name": "Guardian Spirit",
         "node_type": "single",
         "pos_x": 12900,
         "pos_y": 2100,
@@ -2954,19 +2954,18 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82594
+          82638
         ],
         "next": [
-          92225,
-          82588
+          82636
         ],
-        "entry_id": 103713,
-        "definition_id": 108718,
+        "entry_id": 103774,
+        "definition_id": 108779,
         "entry_index": 100,
         "entry_type": "active",
-        "talent_name": "Pain Suppression",
-        "spell_id": 33206,
-        "icon": "spell_holy_painsupression"
+        "talent_name": "Guardian Spirit",
+        "spell_id": 47788,
+        "icon": "spell_holy_guardianspirit"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -2979,11 +2978,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Power of the Dark Side",
-      "spell_id": 198068,
-      "node_id": 82595,
-      "entry_id": 103724,
-      "definition_id": 108729,
+      "talent_name": "Holy Word: Chastise",
+      "spell_id": 88625,
+      "node_id": 82639,
+      "entry_id": 103776,
+      "definition_id": 108781,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -2993,14 +2992,14 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82595,
-        "node_name": "Power of the Dark Side",
+        "node_id": 82639,
+        "node_name": "Holy Word: Chastise",
         "node_type": "single",
         "pos_x": 13500,
         "pos_y": 2100,
@@ -3008,19 +3007,19 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82594
+          82638
         ],
         "next": [
-          82596,
-          82579
+          82619,
+          82640
         ],
-        "entry_id": 103724,
-        "definition_id": 108729,
+        "entry_id": 103776,
+        "definition_id": 108781,
         "entry_index": 100,
-        "entry_type": "passive",
-        "talent_name": "Power of the Dark Side",
-        "spell_id": 198068,
-        "icon": "inv_artifact_powerofthedarkside"
+        "entry_type": "active",
+        "talent_name": "Holy Word: Chastise",
+        "spell_id": 88625,
+        "icon": "spell_holy_chastise"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -3033,11 +3032,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Light's Promise",
-      "spell_id": 322115,
-      "node_id": 82592,
-      "entry_id": 103721,
-      "definition_id": 108726,
+      "talent_name": "Prayer of Healing",
+      "spell_id": 596,
+      "node_id": 82632,
+      "entry_id": 103767,
+      "definition_id": 108772,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -3047,14 +3046,14 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82592,
-        "node_name": "Light's Promise",
+        "node_id": 82632,
+        "node_name": "Prayer of Healing",
         "node_type": "single",
         "pos_x": 11700,
         "pos_y": 2700,
@@ -3062,19 +3061,20 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82593
+          82631
         ],
         "next": [
-          82591,
-          82589
+          82633,
+          82630,
+          82622
         ],
-        "entry_id": 103721,
-        "definition_id": 108726,
+        "entry_id": 103767,
+        "definition_id": 108772,
         "entry_index": 100,
-        "entry_type": "passive",
-        "talent_name": "Light's Promise",
-        "spell_id": 322115,
-        "icon": "spell_priest_power_word"
+        "entry_type": "active",
+        "talent_name": "Prayer of Healing",
+        "spell_id": 596,
+        "icon": "spell_holy_prayerofhealing02"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -3087,11 +3087,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Sanctuary",
-      "spell_id": 231682,
-      "node_id": 92225,
-      "entry_id": 108225,
-      "definition_id": 113230,
+      "talent_name": "Restitution",
+      "spell_id": 391124,
+      "node_id": 82636,
+      "entry_id": 103773,
+      "definition_id": 108778,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -3101,69 +3101,14 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 92225,
-        "node_name": "Sanctuary",
-        "node_type": "single",
-        "pos_x": 12300,
-        "pos_y": 2700,
-        "max_ranks": 1,
-        "entry_node": false,
-        "free_node": false,
-        "prev": [
-          82587,
-          82593
-        ],
-        "next": [
-          82589,
-          82564
-        ],
-        "entry_id": 108225,
-        "definition_id": 113230,
-        "entry_index": 100,
-        "entry_type": "passive",
-        "talent_name": "Sanctuary",
-        "spell_id": 231682,
-        "icon": "spell_holy_holysmite"
-      },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
-    },
-    {
-      "talent_name": "Pain Transformation",
-      "spell_id": 372991,
-      "node_id": 82588,
-      "entry_id": 103715,
-      "definition_id": 108720,
-      "tree_type": "spec",
-      "hero_tree": null,
-      "tree_data": {
-        "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
-        "class_name": "Priest",
-        "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
-        "trait_tree_id": 795,
-        "tree_type": "spec",
-        "hero_tree": null,
-        "subtree_id": null,
-        "node_id": 82588,
-        "node_name": "Pain Transformation / Protector of the Frail",
+        "node_id": 82636,
+        "node_name": "Restitution / Guardian Angel",
         "node_type": "choice",
         "pos_x": 12900,
         "pos_y": 2700,
@@ -3171,18 +3116,73 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82587
+          82637
         ],
         "next": [
-          82564
+          82635,
+          82620
         ],
-        "entry_id": 103715,
-        "definition_id": 108720,
+        "entry_id": 103773,
+        "definition_id": 108778,
+        "entry_index": 100,
+        "entry_type": "passive",
+        "talent_name": "Restitution",
+        "spell_id": 391124,
+        "icon": "inv_staff_2h_artifactheartofkure_d_03"
+      },
+      "pve_tooltip": "",
+      "pvp_tooltip": "",
+      "tooltip_changed": false,
+      "render_status": "MISSING_TOOLTIP",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
+    },
+    {
+      "talent_name": "Guardian Angel",
+      "spell_id": 200209,
+      "node_id": 82636,
+      "entry_id": 128315,
+      "definition_id": 133122,
+      "tree_type": "spec",
+      "hero_tree": null,
+      "tree_data": {
+        "source": "raidbots",
+        "wow_build": "12.1.0.69875",
+        "generated_at": "2026-09-19T00:34:25.597Z",
+        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "class_name": "Priest",
+        "class_id": 5,
+        "spec_name": "Holy",
+        "spec_id": 257,
+        "trait_tree_id": 795,
+        "tree_type": "spec",
+        "hero_tree": null,
+        "subtree_id": null,
+        "node_id": 82636,
+        "node_name": "Restitution / Guardian Angel",
+        "node_type": "choice",
+        "pos_x": 12900,
+        "pos_y": 2700,
+        "max_ranks": 1,
+        "entry_node": false,
+        "free_node": false,
+        "prev": [
+          82637
+        ],
+        "next": [
+          82635,
+          82620
+        ],
+        "entry_id": 128315,
+        "definition_id": 133122,
         "entry_index": 200,
         "entry_type": "passive",
-        "talent_name": "Pain Transformation",
-        "spell_id": 372991,
-        "icon": "spell_holy_blessedrecovery"
+        "talent_name": "Guardian Angel",
+        "spell_id": 200209,
+        "icon": "ability_priest_pathofthedevout"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -3195,11 +3195,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Protector of the Frail",
-      "spell_id": 373035,
-      "node_id": 82588,
-      "entry_id": 103714,
-      "definition_id": 108719,
+      "talent_name": "Censure",
+      "spell_id": 200199,
+      "node_id": 82619,
+      "entry_id": 103753,
+      "definition_id": 108758,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -3209,67 +3209,14 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82588,
-        "node_name": "Pain Transformation / Protector of the Frail",
-        "node_type": "choice",
-        "pos_x": 12900,
-        "pos_y": 2700,
-        "max_ranks": 1,
-        "entry_node": false,
-        "free_node": false,
-        "prev": [
-          82587
-        ],
-        "next": [
-          82564
-        ],
-        "entry_id": 103714,
-        "definition_id": 108719,
-        "entry_index": 300,
-        "entry_type": "passive",
-        "talent_name": "Protector of the Frail",
-        "spell_id": 373035,
-        "icon": "ability_racial_forceshield"
-      },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
-    },
-    {
-      "talent_name": "Dark Indulgence",
-      "spell_id": 372972,
-      "node_id": 82596,
-      "entry_id": 103725,
-      "definition_id": 108730,
-      "tree_type": "spec",
-      "hero_tree": null,
-      "tree_data": {
-        "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
-        "class_name": "Priest",
-        "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
-        "trait_tree_id": 795,
-        "tree_type": "spec",
-        "hero_tree": null,
-        "subtree_id": null,
-        "node_id": 82596,
-        "node_name": "Dark Indulgence",
+        "node_id": 82619,
+        "node_name": "Censure",
         "node_type": "single",
         "pos_x": 13500,
         "pos_y": 2700,
@@ -3277,19 +3224,18 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82595
+          82639
         ],
         "next": [
-          82564,
-          82597
+          82620
         ],
-        "entry_id": 103725,
-        "definition_id": 108730,
+        "entry_id": 103753,
+        "definition_id": 108758,
         "entry_index": 100,
         "entry_type": "passive",
-        "talent_name": "Dark Indulgence",
-        "spell_id": 372972,
-        "icon": "spell_shadow_unholyfrenzy"
+        "talent_name": "Censure",
+        "spell_id": 200199,
+        "icon": "spell_holy_eyeforaneye"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -3302,11 +3248,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Encroaching Shadows",
-      "spell_id": 472568,
-      "node_id": 82579,
-      "entry_id": 103704,
-      "definition_id": 108709,
+      "talent_name": "Empyreal Blaze",
+      "spell_id": 372616,
+      "node_id": 82640,
+      "entry_id": 103777,
+      "definition_id": 108782,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -3316,14 +3262,14 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82579,
-        "node_name": "Encroaching Shadows",
+        "node_id": 82640,
+        "node_name": "Empyreal Blaze",
         "node_type": "single",
         "pos_x": 14100,
         "pos_y": 2700,
@@ -3331,20 +3277,19 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82595
+          82639
         ],
         "next": [
-          82597,
-          82580,
-          82581
+          82620,
+          82607
         ],
-        "entry_id": 103704,
-        "definition_id": 108709,
+        "entry_id": 103777,
+        "definition_id": 108782,
         "entry_index": 100,
         "entry_type": "passive",
-        "talent_name": "Encroaching Shadows",
-        "spell_id": 472568,
-        "icon": "spell_shadow_painspike"
+        "talent_name": "Empyreal Blaze",
+        "spell_id": 372616,
+        "icon": "ability_priest_empyrealblaze"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -3357,11 +3302,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Bright Pupil",
-      "spell_id": 390684,
-      "node_id": 82591,
-      "entry_id": 103720,
-      "definition_id": 108725,
+      "talent_name": "Prayerful Litany",
+      "spell_id": 391209,
+      "node_id": 82633,
+      "entry_id": 103769,
+      "definition_id": 108774,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -3371,33 +3316,33 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82591,
-        "node_name": "Bright Pupil / Enduring Luminescence",
-        "node_type": "choice",
+        "node_id": 82633,
+        "node_name": "Prayerful Litany",
+        "node_type": "single",
         "pos_x": 11100,
         "pos_y": 3300,
         "max_ranks": 1,
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82592
+          82632
         ],
         "next": [
-          82590
+          82623
         ],
-        "entry_id": 103720,
-        "definition_id": 108725,
+        "entry_id": 103769,
+        "definition_id": 108774,
         "entry_index": 100,
         "entry_type": "passive",
-        "talent_name": "Bright Pupil",
-        "spell_id": 390684,
-        "icon": "spell_holy_surgeoflight"
+        "talent_name": "Prayerful Litany",
+        "spell_id": 391209,
+        "icon": "spell_holy_prayerofhealing02"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -3410,11 +3355,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Enduring Luminescence",
-      "spell_id": 390685,
-      "node_id": 82591,
-      "entry_id": 103719,
-      "definition_id": 108724,
+      "talent_name": "Cosmic Ripple",
+      "spell_id": 238136,
+      "node_id": 82630,
+      "entry_id": 103765,
+      "definition_id": 108770,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -3424,67 +3369,14 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82591,
-        "node_name": "Bright Pupil / Enduring Luminescence",
-        "node_type": "choice",
-        "pos_x": 11100,
-        "pos_y": 3300,
-        "max_ranks": 1,
-        "entry_node": false,
-        "free_node": false,
-        "prev": [
-          82592
-        ],
-        "next": [
-          82590
-        ],
-        "entry_id": 103719,
-        "definition_id": 108724,
-        "entry_index": 200,
-        "entry_type": "passive",
-        "talent_name": "Enduring Luminescence",
-        "spell_id": 390685,
-        "icon": "ability_priest_holybolts01"
-      },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
-    },
-    {
-      "talent_name": "Shield Discipline",
-      "spell_id": 197045,
-      "node_id": 82589,
-      "entry_id": 103717,
-      "definition_id": 108722,
-      "tree_type": "spec",
-      "hero_tree": null,
-      "tree_data": {
-        "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
-        "class_name": "Priest",
-        "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
-        "trait_tree_id": 795,
-        "tree_type": "spec",
-        "hero_tree": null,
-        "subtree_id": null,
-        "node_id": 82589,
-        "node_name": "Shield Discipline",
+        "node_id": 82630,
+        "node_name": "Cosmic Ripple",
         "node_type": "single",
         "pos_x": 12300,
         "pos_y": 3300,
@@ -3492,75 +3384,21 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82592,
-          92225
+          82632,
+          82631
         ],
         "next": [
-          82590,
-          82598
+          82622,
+          103916,
+          82621
         ],
-        "entry_id": 103717,
-        "definition_id": 108722,
-        "entry_index": 200,
-        "entry_type": "passive",
-        "talent_name": "Shield Discipline",
-        "spell_id": 197045,
-        "icon": "spell_holy_divineprotection"
-      },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
-    },
-    {
-      "talent_name": "Ultimate Penitence",
-      "spell_id": 421453,
-      "node_id": 82564,
-      "entry_id": 116182,
-      "definition_id": 121194,
-      "tree_type": "spec",
-      "hero_tree": null,
-      "tree_data": {
-        "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
-        "class_name": "Priest",
-        "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
-        "trait_tree_id": 795,
-        "tree_type": "spec",
-        "hero_tree": null,
-        "subtree_id": null,
-        "node_id": 82564,
-        "node_name": "Ultimate Penitence / Power Word: Barrier",
-        "node_type": "choice",
-        "pos_x": 12900,
-        "pos_y": 3300,
-        "max_ranks": 1,
-        "entry_node": false,
-        "free_node": false,
-        "prev": [
-          82596,
-          92225,
-          82588
-        ],
-        "next": [
-          82598
-        ],
-        "entry_id": 116182,
-        "definition_id": 121194,
+        "entry_id": 103765,
+        "definition_id": 108770,
         "entry_index": 100,
-        "entry_type": "active",
-        "talent_name": "Ultimate Penitence",
-        "spell_id": 421453,
-        "icon": "ability_priest_ascendance"
+        "entry_type": "passive",
+        "talent_name": "Cosmic Ripple",
+        "spell_id": 238136,
+        "icon": "inv_ability_holyfire_nova"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -3573,11 +3411,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Power Word: Barrier",
-      "spell_id": 62618,
-      "node_id": 82564,
-      "entry_id": 103687,
-      "definition_id": 108692,
+      "talent_name": "Afterlife",
+      "spell_id": 196707,
+      "node_id": 82635,
+      "entry_id": 103771,
+      "definition_id": 108776,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -3587,35 +3425,33 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82564,
-        "node_name": "Ultimate Penitence / Power Word: Barrier",
-        "node_type": "choice",
+        "node_id": 82635,
+        "node_name": "Afterlife",
+        "node_type": "single",
         "pos_x": 12900,
         "pos_y": 3300,
         "max_ranks": 1,
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82596,
-          92225,
-          82588
+          82636
         ],
         "next": [
-          82598
+          82621
         ],
-        "entry_id": 103687,
-        "definition_id": 108692,
-        "entry_index": 200,
-        "entry_type": "active",
-        "talent_name": "Power Word: Barrier",
-        "spell_id": 62618,
-        "icon": "spell_holy_powerwordbarrier"
+        "entry_id": 103771,
+        "definition_id": 108776,
+        "entry_index": 100,
+        "entry_type": "passive",
+        "talent_name": "Afterlife",
+        "spell_id": 196707,
+        "icon": "inv_enchant_essencemagiclarge"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -3628,11 +3464,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Painful Punishment",
-      "spell_id": 390686,
-      "node_id": 82597,
-      "entry_id": 103726,
-      "definition_id": 108731,
+      "talent_name": "Voice of Harmony",
+      "spell_id": 390994,
+      "node_id": 82620,
+      "entry_id": 103754,
+      "definition_id": 108759,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -3642,14 +3478,14 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82597,
-        "node_name": "Painful Punishment",
+        "node_id": 82620,
+        "node_name": "Voice of Harmony",
         "node_type": "single",
         "pos_x": 13500,
         "pos_y": 3300,
@@ -3657,20 +3493,22 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82579,
-          82596
+          82640,
+          82636,
+          82619
         ],
         "next": [
-          82598,
-          82581
+          82621,
+          82618,
+          82641
         ],
-        "entry_id": 103726,
-        "definition_id": 108731,
+        "entry_id": 103754,
+        "definition_id": 108759,
         "entry_index": 100,
         "entry_type": "passive",
-        "talent_name": "Painful Punishment",
-        "spell_id": 390686,
-        "icon": "ability_priest_clarityofpower"
+        "talent_name": "Voice of Harmony",
+        "spell_id": 390994,
+        "icon": "ability_priest_heavanlyvoice"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -3683,11 +3521,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Revel in Darkness",
-      "spell_id": 373003,
-      "node_id": 82580,
-      "entry_id": 103705,
-      "definition_id": 108710,
+      "talent_name": "Burning Vehemence",
+      "spell_id": 372307,
+      "node_id": 82607,
+      "entry_id": 103739,
+      "definition_id": 108744,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -3697,14 +3535,14 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82580,
-        "node_name": "Revel in Darkness",
+        "node_id": 82607,
+        "node_name": "Burning Vehemence",
         "node_type": "single",
         "pos_x": 14700,
         "pos_y": 3300,
@@ -3712,18 +3550,18 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82579
+          82640
         ],
         "next": [
-          82581
+          82641
         ],
-        "entry_id": 103705,
-        "definition_id": 108710,
+        "entry_id": 103739,
+        "definition_id": 108744,
         "entry_index": 100,
         "entry_type": "passive",
-        "talent_name": "Revel in Darkness",
-        "spell_id": 373003,
-        "icon": "ability_rogue_envelopingshadows"
+        "talent_name": "Burning Vehemence",
+        "spell_id": 372307,
+        "icon": "ability_paladin_sacredcleansing"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -3736,11 +3574,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Holy Ray",
-      "spell_id": 372969,
-      "node_id": 82590,
-      "entry_id": 103718,
-      "definition_id": 108723,
+      "talent_name": "Uplifting Words",
+      "spell_id": 1250562,
+      "node_id": 82622,
+      "entry_id": 103756,
+      "definition_id": 108761,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -3750,14 +3588,14 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82590,
-        "node_name": "Holy Ray",
+        "node_id": 82622,
+        "node_name": "Uplifting Words",
         "node_type": "single",
         "pos_x": 11700,
         "pos_y": 3900,
@@ -3765,20 +3603,20 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82589,
-          82591
+          82632,
+          82630
         ],
         "next": [
-          82566,
-          82575
+          82634,
+          82627
         ],
-        "entry_id": 103718,
-        "definition_id": 108723,
+        "entry_id": 103756,
+        "definition_id": 108761,
         "entry_index": 100,
         "entry_type": "passive",
-        "talent_name": "Holy Ray",
-        "spell_id": 372969,
-        "icon": "ability_paladin_infusionoflight"
+        "talent_name": "Uplifting Words",
+        "spell_id": 1250562,
+        "icon": "spell_holy_persecution"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -3791,11 +3629,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Lenience",
-      "spell_id": 238063,
-      "node_id": 82598,
-      "entry_id": 103727,
-      "definition_id": 108732,
+      "talent_name": "Cosmic Wave",
+      "spell_id": 1248418,
+      "node_id": 103916,
+      "entry_id": 128333,
+      "definition_id": 133140,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -3805,14 +3643,67 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82598,
-        "node_name": "Lenience",
+        "node_id": 103916,
+        "node_name": "Cosmic Wave",
+        "node_type": "single",
+        "pos_x": 12300,
+        "pos_y": 3900,
+        "max_ranks": 1,
+        "entry_node": false,
+        "free_node": false,
+        "prev": [
+          82630
+        ],
+        "next": [
+          82634
+        ],
+        "entry_id": 128333,
+        "definition_id": 133140,
+        "entry_index": 100,
+        "entry_type": "passive",
+        "talent_name": "Cosmic Wave",
+        "spell_id": 1248418,
+        "icon": "inv_ability_holyfire_wave"
+      },
+      "pve_tooltip": "",
+      "pvp_tooltip": "",
+      "tooltip_changed": false,
+      "render_status": "MISSING_TOOLTIP",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
+    },
+    {
+      "talent_name": "Divine Hymn",
+      "spell_id": 64843,
+      "node_id": 82621,
+      "entry_id": 103755,
+      "definition_id": 108760,
+      "tree_type": "spec",
+      "hero_tree": null,
+      "tree_data": {
+        "source": "raidbots",
+        "wow_build": "12.1.0.69875",
+        "generated_at": "2026-09-19T00:34:25.597Z",
+        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "class_name": "Priest",
+        "class_id": 5,
+        "spec_name": "Holy",
+        "spec_id": 257,
+        "trait_tree_id": 795,
+        "tree_type": "spec",
+        "hero_tree": null,
+        "subtree_id": null,
+        "node_id": 82621,
+        "node_name": "Divine Hymn",
         "node_type": "single",
         "pos_x": 12900,
         "pos_y": 3900,
@@ -3820,22 +3711,22 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82589,
-          82564,
-          82597
+          82635,
+          82620,
+          82630
         ],
         "next": [
-          82575,
-          82576,
-          82578
+          82634,
+          82613,
+          82617
         ],
-        "entry_id": 103727,
-        "definition_id": 108732,
+        "entry_id": 103755,
+        "definition_id": 108760,
         "entry_index": 100,
-        "entry_type": "passive",
-        "talent_name": "Lenience",
-        "spell_id": 238063,
-        "icon": "ability_priest_atonement"
+        "entry_type": "active",
+        "talent_name": "Divine Hymn",
+        "spell_id": 64843,
+        "icon": "spell_holy_divinehymn"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -3848,11 +3739,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Shadow Tap",
-      "spell_id": 1235211,
-      "node_id": 82581,
-      "entry_id": 103706,
-      "definition_id": 108711,
+      "talent_name": "Enlightenment",
+      "spell_id": 193155,
+      "node_id": 82618,
+      "entry_id": 103752,
+      "definition_id": 108757,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -3862,14 +3753,67 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82581,
-        "node_name": "Shadow Tap",
+        "node_id": 82618,
+        "node_name": "Enlightenment",
+        "node_type": "single",
+        "pos_x": 13500,
+        "pos_y": 3900,
+        "max_ranks": 1,
+        "entry_node": false,
+        "free_node": false,
+        "prev": [
+          82620
+        ],
+        "next": [
+          82617
+        ],
+        "entry_id": 103752,
+        "definition_id": 108757,
+        "entry_index": 100,
+        "entry_type": "passive",
+        "talent_name": "Enlightenment",
+        "spell_id": 193155,
+        "icon": "spell_arcane_mindmastery"
+      },
+      "pve_tooltip": "",
+      "pvp_tooltip": "",
+      "tooltip_changed": false,
+      "render_status": "MISSING_TOOLTIP",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
+    },
+    {
+      "talent_name": "Light's Resurgence",
+      "spell_id": 193157,
+      "node_id": 82641,
+      "entry_id": 103779,
+      "definition_id": 108784,
+      "tree_type": "spec",
+      "hero_tree": null,
+      "tree_data": {
+        "source": "raidbots",
+        "wow_build": "12.1.0.69875",
+        "generated_at": "2026-09-19T00:34:25.597Z",
+        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "class_name": "Priest",
+        "class_id": 5,
+        "spec_name": "Holy",
+        "spec_id": 257,
+        "trait_tree_id": 795,
+        "tree_type": "spec",
+        "hero_tree": null,
+        "subtree_id": null,
+        "node_id": 82641,
+        "node_name": "Light's Resurgence",
         "node_type": "single",
         "pos_x": 14100,
         "pos_y": 3900,
@@ -3877,21 +3821,20 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82597,
-          82579,
-          82580
+          82607,
+          82620
         ],
         "next": [
-          82578,
-          82582
+          82617,
+          82642
         ],
-        "entry_id": 103706,
-        "definition_id": 108711,
+        "entry_id": 103779,
+        "definition_id": 108784,
         "entry_index": 100,
         "entry_type": "passive",
-        "talent_name": "Shadow Tap",
-        "spell_id": 1235211,
-        "icon": "ability_creature_disease_05"
+        "talent_name": "Light's Resurgence",
+        "spell_id": 193157,
+        "icon": "spell_monk_diffusemagic"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -3904,11 +3847,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Purge the Wicked",
-      "spell_id": 1250218,
-      "node_id": 82566,
-      "entry_id": 103690,
-      "definition_id": 108695,
+      "talent_name": "Efficient Prayers",
+      "spell_id": 1247131,
+      "node_id": 82623,
+      "entry_id": 103757,
+      "definition_id": 108762,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -3918,14 +3861,14 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82566,
-        "node_name": "Purge the Wicked",
+        "node_id": 82623,
+        "node_name": "Efficient Prayers",
         "node_type": "single",
         "pos_x": 11100,
         "pos_y": 4500,
@@ -3933,18 +3876,19 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82590
+          82633
         ],
         "next": [
-          82600
+          82627,
+          82604
         ],
-        "entry_id": 103690,
-        "definition_id": 108695,
+        "entry_id": 103757,
+        "definition_id": 108762,
         "entry_index": 100,
         "entry_type": "passive",
-        "talent_name": "Purge the Wicked",
-        "spell_id": 1250218,
-        "icon": "ability_mage_firestarter"
+        "talent_name": "Efficient Prayers",
+        "spell_id": 1247131,
+        "icon": "spell_priest_finalprayer"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -3957,11 +3901,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Castigation",
-      "spell_id": 193134,
-      "node_id": 82575,
-      "entry_id": 103700,
-      "definition_id": 108705,
+      "talent_name": "Healing Focus",
+      "spell_id": 1247166,
+      "node_id": 82634,
+      "entry_id": 103770,
+      "definition_id": 108775,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -3971,14 +3915,14 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82575,
-        "node_name": "Castigation",
+        "node_id": 82634,
+        "node_name": "Healing Focus",
         "node_type": "single",
         "pos_x": 12300,
         "pos_y": 4500,
@@ -3986,20 +3930,21 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82598,
-          82590
+          103916,
+          82622,
+          82621
         ],
         "next": [
-          82600,
-          82577
+          82627,
+          82614
         ],
-        "entry_id": 103700,
-        "definition_id": 108705,
-        "entry_index": 200,
+        "entry_id": 103770,
+        "definition_id": 108775,
+        "entry_index": 100,
         "entry_type": "passive",
-        "talent_name": "Castigation",
-        "spell_id": 193134,
-        "icon": "spell_holy_searinglightpriest"
+        "talent_name": "Healing Focus",
+        "spell_id": 1247166,
+        "icon": "spell_holy_healingfocus"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -4012,11 +3957,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Indemnity",
-      "spell_id": 373049,
-      "node_id": 82576,
-      "entry_id": 108226,
-      "definition_id": 113231,
+      "talent_name": "Seraphic Crescendo",
+      "spell_id": 419110,
+      "node_id": 82613,
+      "entry_id": 103747,
+      "definition_id": 108752,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -4026,33 +3971,33 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82576,
-        "node_name": "Indemnity",
-        "node_type": "single",
+        "node_id": 82613,
+        "node_name": "Seraphic Crescendo / Gales of Song",
+        "node_type": "choice",
         "pos_x": 12900,
         "pos_y": 4500,
         "max_ranks": 1,
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82598
+          82621
         ],
         "next": [
-          82577
+          82614
         ],
-        "entry_id": 108226,
-        "definition_id": 113231,
-        "entry_index": 300,
+        "entry_id": 103747,
+        "definition_id": 108752,
+        "entry_index": 100,
         "entry_type": "passive",
-        "talent_name": "Indemnity",
-        "spell_id": 373049,
-        "icon": "ability_priest_clarityofwill"
+        "talent_name": "Seraphic Crescendo",
+        "spell_id": 419110,
+        "icon": "spell_holy_divinehymn"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -4065,11 +4010,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Pain and Suffering",
-      "spell_id": 390689,
-      "node_id": 82578,
-      "entry_id": 103703,
-      "definition_id": 108708,
+      "talent_name": "Gales of Song",
+      "spell_id": 372370,
+      "node_id": 82613,
+      "entry_id": 128316,
+      "definition_id": 133123,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -4079,35 +4024,33 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82578,
-        "node_name": "Pain and Suffering",
-        "node_type": "single",
-        "pos_x": 13500,
+        "node_id": 82613,
+        "node_name": "Seraphic Crescendo / Gales of Song",
+        "node_type": "choice",
+        "pos_x": 12900,
         "pos_y": 4500,
-        "max_ranks": 2,
+        "max_ranks": 1,
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82598,
-          82581
+          82621
         ],
         "next": [
-          82577,
-          82583
+          82614
         ],
-        "entry_id": 103703,
-        "definition_id": 108708,
-        "entry_index": 100,
+        "entry_id": 128316,
+        "definition_id": 133123,
+        "entry_index": 200,
         "entry_type": "passive",
-        "talent_name": "Pain and Suffering",
-        "spell_id": 390689,
-        "icon": "spell_shadow_shadowwordpain"
+        "talent_name": "Gales of Song",
+        "spell_id": 372370,
+        "icon": "inv_misc_volatileair"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -4120,11 +4063,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Occultist",
-      "spell_id": 1250293,
-      "node_id": 82582,
-      "entry_id": 103708,
-      "definition_id": 108713,
+      "talent_name": "Divine Service",
+      "spell_id": 391233,
+      "node_id": 82617,
+      "entry_id": 103751,
+      "definition_id": 108756,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -4134,14 +4077,70 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82582,
-        "node_name": "Occultist",
+        "node_id": 82617,
+        "node_name": "Divine Service",
+        "node_type": "single",
+        "pos_x": 13500,
+        "pos_y": 4500,
+        "max_ranks": 1,
+        "entry_node": false,
+        "free_node": false,
+        "prev": [
+          82641,
+          82621,
+          82618
+        ],
+        "next": [
+          82614,
+          82616
+        ],
+        "entry_id": 103751,
+        "definition_id": 108756,
+        "entry_index": 100,
+        "entry_type": "passive",
+        "talent_name": "Divine Service",
+        "spell_id": 391233,
+        "icon": "spell_holy_prayerofspirit"
+      },
+      "pve_tooltip": "",
+      "pvp_tooltip": "",
+      "tooltip_changed": false,
+      "render_status": "MISSING_TOOLTIP",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
+    },
+    {
+      "talent_name": "Renewed Faith",
+      "spell_id": 341997,
+      "node_id": 82642,
+      "entry_id": 103780,
+      "definition_id": 108785,
+      "tree_type": "spec",
+      "hero_tree": null,
+      "tree_data": {
+        "source": "raidbots",
+        "wow_build": "12.1.0.69875",
+        "generated_at": "2026-09-19T00:34:25.597Z",
+        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "class_name": "Priest",
+        "class_id": 5,
+        "spec_name": "Holy",
+        "spec_id": 257,
+        "trait_tree_id": 795,
+        "tree_type": "spec",
+        "hero_tree": null,
+        "subtree_id": null,
+        "node_id": 82642,
+        "node_name": "Renewed Faith",
         "node_type": "single",
         "pos_x": 14700,
         "pos_y": 4500,
@@ -4149,18 +4148,19 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82581
+          82641
         ],
         "next": [
-          82583
+          82616,
+          82615
         ],
-        "entry_id": 103708,
-        "definition_id": 108713,
+        "entry_id": 103780,
+        "definition_id": 108785,
         "entry_index": 100,
         "entry_type": "passive",
-        "talent_name": "Occultist",
-        "spell_id": 1250293,
-        "icon": "ability_priest_touchofdecay"
+        "talent_name": "Renewed Faith",
+        "spell_id": 341997,
+        "icon": "ability_pvp_innerrenewal"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -4173,11 +4173,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Harsh Discipline",
-      "spell_id": 373180,
-      "node_id": 82600,
-      "entry_id": 103729,
-      "definition_id": 108734,
+      "talent_name": "Angelic Touch",
+      "spell_id": 1250565,
+      "node_id": 82627,
+      "entry_id": 103762,
+      "definition_id": 108767,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -4187,35 +4187,36 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82600,
-        "node_name": "Harsh Discipline",
+        "node_id": 82627,
+        "node_name": "Angelic Touch",
         "node_type": "single",
         "pos_x": 11700,
         "pos_y": 5100,
-        "max_ranks": 2,
+        "max_ranks": 1,
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82566,
-          82575
+          82622,
+          82634,
+          82623
         ],
         "next": [
-          82599,
-          82601
+          82604,
+          82610
         ],
-        "entry_id": 103729,
-        "definition_id": 108734,
+        "entry_id": 103762,
+        "definition_id": 108767,
         "entry_index": 100,
         "entry_type": "passive",
-        "talent_name": "Harsh Discipline",
-        "spell_id": 373180,
-        "icon": "ability_paladin_handoflight"
+        "talent_name": "Angelic Touch",
+        "spell_id": 1250565,
+        "icon": "spell_holy_hopeandgrace"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -4228,11 +4229,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Evangelism",
-      "spell_id": 472433,
-      "node_id": 82577,
-      "entry_id": 103702,
-      "definition_id": 108707,
+      "talent_name": "Apotheosis",
+      "spell_id": 200183,
+      "node_id": 82614,
+      "entry_id": 103748,
+      "definition_id": 108753,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -4242,14 +4243,14 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82577,
-        "node_name": "Evangelism",
+        "node_id": 82614,
+        "node_name": "Apotheosis",
         "node_type": "single",
         "pos_x": 12900,
         "pos_y": 5100,
@@ -4257,22 +4258,22 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82576,
-          82578,
-          82575
+          82613,
+          82617,
+          82634
         ],
         "next": [
-          82601,
-          82571,
-          82567
+          82610,
+          104097,
+          82612
         ],
-        "entry_id": 103702,
-        "definition_id": 108707,
+        "entry_id": 103748,
+        "definition_id": 108753,
         "entry_index": 100,
         "entry_type": "active",
-        "talent_name": "Evangelism",
-        "spell_id": 472433,
-        "icon": "spell_holy_divineillumination"
+        "talent_name": "Apotheosis",
+        "spell_id": 200183,
+        "icon": "ability_priest_ascension"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -4285,11 +4286,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Abyssal Reverie",
-      "spell_id": 373054,
-      "node_id": 82583,
-      "entry_id": 103709,
-      "definition_id": 108714,
+      "talent_name": "Prayers of the Virtuous",
+      "spell_id": 390977,
+      "node_id": 82616,
+      "entry_id": 103750,
+      "definition_id": 108755,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -4299,35 +4300,35 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82583,
-        "node_name": "Abyssal Reverie",
+        "node_id": 82616,
+        "node_name": "Prayers of the Virtuous",
         "node_type": "single",
         "pos_x": 14100,
         "pos_y": 5100,
-        "max_ranks": 2,
+        "max_ranks": 1,
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82578,
-          82582
+          82617,
+          82642
         ],
         "next": [
-          82567,
-          82570
+          82612,
+          82615
         ],
-        "entry_id": 103709,
-        "definition_id": 108714,
-        "entry_index": 200,
+        "entry_id": 103750,
+        "definition_id": 108755,
+        "entry_index": 100,
         "entry_type": "passive",
-        "talent_name": "Abyssal Reverie",
-        "spell_id": 373054,
-        "icon": "ability_priest_surgeofdarkness"
+        "talent_name": "Prayers of the Virtuous",
+        "spell_id": 390977,
+        "icon": "spell_holy_prayerofmendingtga"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -4340,11 +4341,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Divine Procession",
-      "spell_id": 472361,
-      "node_id": 82599,
-      "entry_id": 103728,
-      "definition_id": 108733,
+      "talent_name": "Dispersing Light",
+      "spell_id": 1215265,
+      "node_id": 82604,
+      "entry_id": 103735,
+      "definition_id": 108740,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -4354,34 +4355,35 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82599,
-        "node_name": "Divine Procession",
-        "node_type": "single",
+        "node_id": 82604,
+        "node_name": "Dispersing Light / Trail of Light",
+        "node_type": "choice",
         "pos_x": 11100,
         "pos_y": 5700,
         "max_ranks": 1,
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82600
+          82627,
+          82623
         ],
         "next": [
-          82569,
-          82602
+          82628,
+          82629
         ],
-        "entry_id": 103728,
-        "definition_id": 108733,
+        "entry_id": 103735,
+        "definition_id": 108740,
         "entry_index": 100,
         "entry_type": "passive",
-        "talent_name": "Divine Procession",
-        "spell_id": 472361,
-        "icon": "ability_priest_evangelism"
+        "talent_name": "Dispersing Light",
+        "spell_id": 1215265,
+        "icon": "ability_priest_spiritoftheredeemer"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -4394,11 +4396,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Inner Focus",
-      "spell_id": 390693,
-      "node_id": 82601,
-      "entry_id": 103731,
-      "definition_id": 108736,
+      "talent_name": "Trail of Light",
+      "spell_id": 200128,
+      "node_id": 82604,
+      "entry_id": 128613,
+      "definition_id": 133416,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -4408,14 +4410,69 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82601,
-        "node_name": "Inner Focus",
+        "node_id": 82604,
+        "node_name": "Dispersing Light / Trail of Light",
+        "node_type": "choice",
+        "pos_x": 11100,
+        "pos_y": 5700,
+        "max_ranks": 1,
+        "entry_node": false,
+        "free_node": false,
+        "prev": [
+          82627,
+          82623
+        ],
+        "next": [
+          82628,
+          82629
+        ],
+        "entry_id": 128613,
+        "definition_id": 133416,
+        "entry_index": 200,
+        "entry_type": "passive",
+        "talent_name": "Trail of Light",
+        "spell_id": 200128,
+        "icon": "ability_priest_wordsofmeaning"
+      },
+      "pve_tooltip": "",
+      "pvp_tooltip": "",
+      "tooltip_changed": false,
+      "render_status": "MISSING_TOOLTIP",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
+    },
+    {
+      "talent_name": "Miracle Worker",
+      "spell_id": 235587,
+      "node_id": 82610,
+      "entry_id": 103743,
+      "definition_id": 108748,
+      "tree_type": "spec",
+      "hero_tree": null,
+      "tree_data": {
+        "source": "raidbots",
+        "wow_build": "12.1.0.69875",
+        "generated_at": "2026-09-19T00:34:25.597Z",
+        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "class_name": "Priest",
+        "class_id": 5,
+        "spec_name": "Holy",
+        "spec_id": 257,
+        "trait_tree_id": 795,
+        "tree_type": "spec",
+        "hero_tree": null,
+        "subtree_id": null,
+        "node_id": 82610,
+        "node_name": "Miracle Worker",
         "node_type": "single",
         "pos_x": 12300,
         "pos_y": 5700,
@@ -4423,20 +4480,21 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82577,
-          82600
+          82614,
+          82627
         ],
         "next": [
-          82602,
-          82572
+          82629,
+          103914,
+          82611
         ],
-        "entry_id": 103731,
-        "definition_id": 108736,
+        "entry_id": 103743,
+        "definition_id": 108748,
         "entry_index": 100,
         "entry_type": "passive",
-        "talent_name": "Inner Focus",
-        "spell_id": 390693,
-        "icon": "spell_frost_windwalkon"
+        "talent_name": "Miracle Worker",
+        "spell_id": 235587,
+        "icon": "spell_holy_persuitofjustice"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -4449,11 +4507,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Archangel",
-      "spell_id": 197862,
-      "node_id": 82571,
-      "entry_id": 103696,
-      "definition_id": 108701,
+      "talent_name": "Eternal Sanctity",
+      "spell_id": 1215245,
+      "node_id": 104097,
+      "entry_id": 128612,
+      "definition_id": 133415,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -4463,14 +4521,14 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82571,
-        "node_name": "Archangel / Mindbender",
+        "node_id": 104097,
+        "node_name": "Eternal Sanctity / Divinity",
         "node_type": "choice",
         "pos_x": 12900,
         "pos_y": 5700,
@@ -4478,18 +4536,17 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82577
+          82614
         ],
         "next": [
-          82572,
-          82568
+          82611
         ],
-        "entry_id": 103696,
-        "definition_id": 108701,
-        "entry_index": 100,
+        "entry_id": 128612,
+        "definition_id": 133415,
+        "entry_index": 200,
         "entry_type": "passive",
-        "talent_name": "Archangel",
-        "spell_id": 197862,
+        "talent_name": "Eternal Sanctity",
+        "spell_id": 1215245,
         "icon": "ability_priest_archangel"
       },
       "pve_tooltip": "",
@@ -4503,11 +4560,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Mindbender",
-      "spell_id": 1280137,
-      "node_id": 82571,
-      "entry_id": 136829,
-      "definition_id": 141592,
+      "talent_name": "Divinity",
+      "spell_id": 1215241,
+      "node_id": 104097,
+      "entry_id": 128611,
+      "definition_id": 133414,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -4517,14 +4574,14 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82571,
-        "node_name": "Archangel / Mindbender",
+        "node_id": 104097,
+        "node_name": "Eternal Sanctity / Divinity",
         "node_type": "choice",
         "pos_x": 12900,
         "pos_y": 5700,
@@ -4532,19 +4589,18 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82577
+          82614
         ],
         "next": [
-          82572,
-          82568
+          82611
         ],
-        "entry_id": 136829,
-        "definition_id": 141592,
-        "entry_index": 200,
+        "entry_id": 128611,
+        "definition_id": 133414,
+        "entry_index": 300,
         "entry_type": "passive",
-        "talent_name": "Mindbender",
-        "spell_id": 1280137,
-        "icon": "spell_shadow_soulleech_3"
+        "talent_name": "Divinity",
+        "spell_id": 1215241,
+        "icon": "ability_priest_rayofhope"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -4557,11 +4613,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Shadow Mend",
-      "spell_id": 1252217,
-      "node_id": 82567,
-      "entry_id": 103692,
-      "definition_id": 108697,
+      "talent_name": "Holy Celerity",
+      "spell_id": 1215275,
+      "node_id": 82612,
+      "entry_id": 103745,
+      "definition_id": 108750,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -4571,14 +4627,14 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82567,
-        "node_name": "Shadow Mend",
+        "node_id": 82612,
+        "node_name": "Holy Celerity",
         "node_type": "single",
         "pos_x": 13500,
         "pos_y": 5700,
@@ -4586,21 +4642,20 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82583,
-          82577
+          82614,
+          82616
         ],
         "next": [
-          82568,
-          110648,
-          110277
+          82611,
+          82609
         ],
-        "entry_id": 103692,
-        "definition_id": 108697,
-        "entry_index": 0,
+        "entry_id": 103745,
+        "definition_id": 108750,
+        "entry_index": 200,
         "entry_type": "passive",
-        "talent_name": "Shadow Mend",
-        "spell_id": 1252217,
-        "icon": "spell_shadow_shadowmend"
+        "talent_name": "Holy Celerity",
+        "spell_id": 1215275,
+        "icon": "spell_priest_pathofdevout"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -4613,11 +4668,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Shadowfiend",
-      "spell_id": 34433,
-      "node_id": 82570,
-      "entry_id": 103695,
-      "definition_id": 108700,
+      "talent_name": "Say Your Prayers",
+      "spell_id": 391186,
+      "node_id": 82615,
+      "entry_id": 103749,
+      "definition_id": 108754,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -4627,14 +4682,14 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82570,
-        "node_name": "Shadowfiend",
+        "node_id": 82615,
+        "node_name": "Say Your Prayers",
         "node_type": "single",
         "pos_x": 14700,
         "pos_y": 5700,
@@ -4642,19 +4697,20 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82583
+          82616,
+          82642
         ],
         "next": [
-          110277,
-          110278
+          82609,
+          82606
         ],
-        "entry_id": 103695,
-        "definition_id": 108700,
+        "entry_id": 103749,
+        "definition_id": 108754,
         "entry_index": 100,
         "entry_type": "passive",
-        "talent_name": "Shadowfiend",
-        "spell_id": 34433,
-        "icon": "spell_shadow_shadowfiend"
+        "talent_name": "Say Your Prayers",
+        "spell_id": 391186,
+        "icon": "ability_priest_bindingprayers"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -4667,11 +4723,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Greater Smite",
-      "spell_id": 1253724,
-      "node_id": 82569,
-      "entry_id": 103694,
-      "definition_id": 108699,
+      "talent_name": "Crisis Management",
+      "spell_id": 390954,
+      "node_id": 82628,
+      "entry_id": 103763,
+      "definition_id": 108768,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -4681,14 +4737,14 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82569,
-        "node_name": "Greater Smite",
+        "node_id": 82628,
+        "node_name": "Crisis Management",
         "node_type": "single",
         "pos_x": 11100,
         "pos_y": 6300,
@@ -4696,18 +4752,18 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82599
+          82604
         ],
         "next": [
-          86730
+          82603
         ],
-        "entry_id": 103694,
-        "definition_id": 108699,
+        "entry_id": 103763,
+        "definition_id": 108768,
         "entry_index": 100,
         "entry_type": "passive",
-        "talent_name": "Greater Smite",
-        "spell_id": 1253724,
-        "icon": "spell_paladin_inquisition"
+        "talent_name": "Crisis Management",
+        "spell_id": 390954,
+        "icon": "spell_holy_flashheal"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -4720,11 +4776,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Divine Aegis",
-      "spell_id": 47515,
-      "node_id": 82602,
-      "entry_id": 103732,
-      "definition_id": 108737,
+      "talent_name": "Light of the Naaru",
+      "spell_id": 196985,
+      "node_id": 82629,
+      "entry_id": 103764,
+      "definition_id": 108769,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -4734,34 +4790,35 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82602,
-        "node_name": "Divine Aegis",
+        "node_id": 82629,
+        "node_name": "Light of the Naaru",
         "node_type": "single",
         "pos_x": 11700,
         "pos_y": 6300,
-        "max_ranks": 1,
+        "max_ranks": 2,
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82599,
-          82601
+          82610,
+          82604
         ],
         "next": [
-          86730
+          82603,
+          103900
         ],
-        "entry_id": 103732,
-        "definition_id": 108737,
+        "entry_id": 103764,
+        "definition_id": 108769,
         "entry_index": 100,
         "entry_type": "passive",
-        "talent_name": "Divine Aegis",
-        "spell_id": 47515,
-        "icon": "spell_holy_devineaegis"
+        "talent_name": "Light of the Naaru",
+        "spell_id": 196985,
+        "icon": "inv_pet_naaru"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -4774,11 +4831,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Borrowed Time",
-      "spell_id": 390691,
-      "node_id": 82572,
-      "entry_id": 103697,
-      "definition_id": 108702,
+      "talent_name": "Light in the Darkness",
+      "spell_id": 471668,
+      "node_id": 103914,
+      "entry_id": 128331,
+      "definition_id": 133138,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -4788,14 +4845,14 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82572,
-        "node_name": "Borrowed Time",
+        "node_id": 103914,
+        "node_name": "Light in the Darkness",
         "node_type": "single",
         "pos_x": 12300,
         "pos_y": 6300,
@@ -4803,20 +4860,19 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82571,
-          82601
+          82610
         ],
         "next": [
-          86730,
-          82573
+          103900,
+          82554
         ],
-        "entry_id": 103697,
-        "definition_id": 108702,
+        "entry_id": 128331,
+        "definition_id": 133138,
         "entry_index": 200,
         "entry_type": "passive",
-        "talent_name": "Borrowed Time",
-        "spell_id": 390691,
-        "icon": "spell_holy_borrowedtime"
+        "talent_name": "Light in the Darkness",
+        "spell_id": 471668,
+        "icon": "spell_holy_divineprovidence"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -4829,11 +4885,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Blaze of Light",
-      "spell_id": 215768,
-      "node_id": 82568,
-      "entry_id": 103693,
-      "definition_id": 108698,
+      "talent_name": "Prismatic Echoes",
+      "spell_id": 390967,
+      "node_id": 82611,
+      "entry_id": 103744,
+      "definition_id": 108749,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -4843,14 +4899,14 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82568,
-        "node_name": "Blaze of Light",
+        "node_id": 82611,
+        "node_name": "Prismatic Echoes",
         "node_type": "single",
         "pos_x": 12900,
         "pos_y": 6300,
@@ -4858,19 +4914,21 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82571,
-          82567
+          82612,
+          104097,
+          82610
         ],
         "next": [
-          82586
+          82554,
+          103901
         ],
-        "entry_id": 103693,
-        "definition_id": 108698,
+        "entry_id": 103744,
+        "definition_id": 108749,
         "entry_index": 100,
         "entry_type": "passive",
-        "talent_name": "Blaze of Light",
-        "spell_id": 215768,
-        "icon": "spell_holy_searinglight"
+        "talent_name": "Prismatic Echoes",
+        "spell_id": 390967,
+        "icon": "spell_holy_aspiration"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -4883,11 +4941,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Grim Deliverance",
-      "spell_id": 1298779,
-      "node_id": 110648,
-      "entry_id": 137463,
-      "definition_id": 142223,
+      "talent_name": "Desperate Times",
+      "spell_id": 391381,
+      "node_id": 82609,
+      "entry_id": 103741,
+      "definition_id": 108746,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -4897,88 +4955,35 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 110648,
-        "node_name": "Grim Deliverance",
-        "node_type": "single",
-        "pos_x": 13500,
-        "pos_y": 6300,
-        "max_ranks": 1,
-        "entry_node": false,
-        "free_node": false,
-        "prev": [
-          82567
-        ],
-        "next": [
-          82586,
-          82585
-        ],
-        "entry_id": 137463,
-        "definition_id": 142223,
-        "entry_index": 0,
-        "entry_type": "passive",
-        "talent_name": "Grim Deliverance",
-        "spell_id": 1298779,
-        "icon": "spell_bastion_priest_shadow"
-      },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
-    },
-    {
-      "talent_name": "Death's Torment",
-      "spell_id": 1240364,
-      "node_id": 110277,
-      "entry_id": 136828,
-      "definition_id": 141591,
-      "tree_type": "spec",
-      "hero_tree": null,
-      "tree_data": {
-        "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
-        "class_name": "Priest",
-        "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
-        "trait_tree_id": 795,
-        "tree_type": "spec",
-        "hero_tree": null,
-        "subtree_id": null,
-        "node_id": 110277,
-        "node_name": "Death's Torment",
+        "node_id": 82609,
+        "node_name": "Desperate Times",
         "node_type": "single",
         "pos_x": 14100,
         "pos_y": 6300,
-        "max_ranks": 1,
+        "max_ranks": 2,
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82570,
-          82567
+          82615,
+          82612
         ],
         "next": [
-          82585
+          103901,
+          82608
         ],
-        "entry_id": 136828,
-        "definition_id": 141591,
+        "entry_id": 103741,
+        "definition_id": 108746,
         "entry_index": 100,
         "entry_type": "passive",
-        "talent_name": "Death's Torment",
-        "spell_id": 1240364,
-        "icon": "spell_shadow_deathsembrace"
+        "talent_name": "Desperate Times",
+        "spell_id": 391381,
+        "icon": "ability_pvp_defenderoftheweak"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -4991,11 +4996,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Inescapable Torment",
-      "spell_id": 373427,
-      "node_id": 110278,
-      "entry_id": 136830,
-      "definition_id": 141593,
+      "talent_name": "Radiant Plea",
+      "spell_id": 1250684,
+      "node_id": 82606,
+      "entry_id": 103738,
+      "definition_id": 108743,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -5005,14 +5010,14 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 110278,
-        "node_name": "Inescapable Torment",
+        "node_id": 82606,
+        "node_name": "Radiant Plea",
         "node_type": "single",
         "pos_x": 14700,
         "pos_y": 6300,
@@ -5020,18 +5025,18 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82570
+          82615
         ],
         "next": [
-          82585
+          82608
         ],
-        "entry_id": 136830,
-        "definition_id": 141593,
+        "entry_id": 103738,
+        "definition_id": 108743,
         "entry_index": 100,
         "entry_type": "passive",
-        "talent_name": "Inescapable Torment",
-        "spell_id": 373427,
-        "icon": "spell_shadow_chilltouch"
+        "talent_name": "Radiant Plea",
+        "spell_id": 1250684,
+        "icon": "spell_priest_pontifex"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -5044,11 +5049,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Eternal Barrier",
-      "spell_id": 238135,
-      "node_id": 86730,
-      "entry_id": 103688,
-      "definition_id": 108693,
+      "talent_name": "Lightweaver",
+      "spell_id": 390992,
+      "node_id": 82603,
+      "entry_id": 103734,
+      "definition_id": 108739,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -5058,14 +5063,14 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 86730,
-        "node_name": "Eternal Barrier",
+        "node_id": 82603,
+        "node_name": "Lightweaver",
         "node_type": "single",
         "pos_x": 11700,
         "pos_y": 6900,
@@ -5073,18 +5078,17 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82602,
-          82572,
-          82569
+          82629,
+          82628
         ],
         "next": [],
-        "entry_id": 103688,
-        "definition_id": 108693,
+        "entry_id": 103734,
+        "definition_id": 108739,
         "entry_index": 100,
         "entry_type": "passive",
-        "talent_name": "Eternal Barrier",
-        "spell_id": 238135,
-        "icon": "spell_holy_powerwordshield"
+        "talent_name": "Lightweaver",
+        "spell_id": 390992,
+        "icon": "spell_holy_greaterheal"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -5097,11 +5101,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Weal and Woe",
-      "spell_id": 390786,
-      "node_id": 82573,
-      "entry_id": 103698,
-      "definition_id": 108703,
+      "talent_name": "Ultimate Serenity",
+      "spell_id": 1246517,
+      "node_id": 103900,
+      "entry_id": 103733,
+      "definition_id": 108738,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -5111,14 +5115,14 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82573,
-        "node_name": "Weal and Woe",
+        "node_id": 103900,
+        "node_name": "Ultimate Serenity",
         "node_type": "single",
         "pos_x": 12300,
         "pos_y": 6900,
@@ -5126,16 +5130,17 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82572
+          82629,
+          103914
         ],
         "next": [],
-        "entry_id": 103698,
-        "definition_id": 108703,
+        "entry_id": 103733,
+        "definition_id": 108738,
         "entry_index": 100,
         "entry_type": "passive",
-        "talent_name": "Weal and Woe",
-        "spell_id": 390786,
-        "icon": "spell_priest_burningwill"
+        "talent_name": "Ultimate Serenity",
+        "spell_id": 1246517,
+        "icon": "ability_priest_holywordlife"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -5148,11 +5153,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Searing Light",
-      "spell_id": 1280131,
-      "node_id": 82586,
-      "entry_id": 103712,
-      "definition_id": 108717,
+      "talent_name": "Divine Image",
+      "spell_id": 392988,
+      "node_id": 82554,
+      "entry_id": 103675,
+      "definition_id": 108680,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -5162,14 +5167,14 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82586,
-        "node_name": "Searing Light",
+        "node_id": 82554,
+        "node_name": "Divine Image",
         "node_type": "single",
         "pos_x": 12900,
         "pos_y": 6900,
@@ -5177,17 +5182,17 @@ window.WOW_PVP_DATA = {
         "entry_node": false,
         "free_node": false,
         "prev": [
-          82568,
-          110648
+          82611,
+          103914
         ],
         "next": [],
-        "entry_id": 103712,
-        "definition_id": 108717,
-        "entry_index": 100,
+        "entry_id": 103675,
+        "definition_id": 108680,
+        "entry_index": 200,
         "entry_type": "passive",
-        "talent_name": "Searing Light",
-        "spell_id": 1280131,
-        "icon": "spell_holy_penance"
+        "talent_name": "Divine Image",
+        "spell_id": 392988,
+        "icon": "inv_staff_2h_artifactheartofkure_d_04"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -5200,11 +5205,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Expiation",
-      "spell_id": 390832,
-      "node_id": 82585,
-      "entry_id": 103711,
-      "definition_id": 108716,
+      "talent_name": "Lasting Words",
+      "spell_id": 471504,
+      "node_id": 103901,
+      "entry_id": 103676,
+      "definition_id": 108681,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -5214,82 +5219,32 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 82585,
-        "node_name": "Expiation",
+        "node_id": 103901,
+        "node_name": "Lasting Words",
         "node_type": "single",
-        "pos_x": 14100,
+        "pos_x": 13500,
         "pos_y": 6900,
-        "max_ranks": 2,
+        "max_ranks": 1,
         "entry_node": false,
         "free_node": false,
         "prev": [
-          110277,
-          110278,
-          110648
+          82611,
+          82609
         ],
         "next": [],
-        "entry_id": 103711,
-        "definition_id": 108716,
-        "entry_index": 200,
-        "entry_type": "passive",
-        "talent_name": "Expiation",
-        "spell_id": 390832,
-        "icon": "spell_shadow_shadowpower"
-      },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
-    },
-    {
-      "talent_name": "Master the Darkness",
-      "spell_id": 1253590,
-      "node_id": 110410,
-      "entry_id": 136998,
-      "definition_id": 141761,
-      "tree_type": "spec",
-      "hero_tree": null,
-      "tree_data": {
-        "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
-        "class_name": "Priest",
-        "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
-        "trait_tree_id": 795,
-        "tree_type": "spec",
-        "hero_tree": null,
-        "subtree_id": null,
-        "node_id": 110410,
-        "node_name": "Master the Darkness / Master the Darkness / Master the Darkness",
-        "node_type": "tiered",
-        "pos_x": 12900,
-        "pos_y": 7650,
-        "max_ranks": 4,
-        "entry_node": true,
-        "free_node": false,
-        "prev": [],
-        "next": [],
-        "entry_id": 136998,
-        "definition_id": 141761,
+        "entry_id": 103676,
+        "definition_id": 108681,
         "entry_index": 100,
-        "entry_type": "tierrank",
-        "talent_name": "Master the Darkness",
-        "spell_id": 1253590,
-        "icon": "inv12_apextalent_priest_voidshield"
+        "entry_type": "passive",
+        "talent_name": "Lasting Words",
+        "spell_id": 471504,
+        "icon": "spell_holy_renew"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -5302,11 +5257,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Master the Darkness",
-      "spell_id": 1253845,
-      "node_id": 110410,
-      "entry_id": 136997,
-      "definition_id": 141760,
+      "talent_name": "Epiphany",
+      "spell_id": 414553,
+      "node_id": 82608,
+      "entry_id": 103740,
+      "definition_id": 108745,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -5316,14 +5271,66 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 110410,
-        "node_name": "Master the Darkness / Master the Darkness / Master the Darkness",
+        "node_id": 82608,
+        "node_name": "Epiphany",
+        "node_type": "single",
+        "pos_x": 14100,
+        "pos_y": 6900,
+        "max_ranks": 1,
+        "entry_node": false,
+        "free_node": false,
+        "prev": [
+          82609,
+          82606
+        ],
+        "next": [],
+        "entry_id": 103740,
+        "definition_id": 108745,
+        "entry_index": 100,
+        "entry_type": "passive",
+        "talent_name": "Epiphany",
+        "spell_id": 414553,
+        "icon": "ability_mage_studentofthemind"
+      },
+      "pve_tooltip": "",
+      "pvp_tooltip": "",
+      "tooltip_changed": false,
+      "render_status": "MISSING_TOOLTIP",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
+    },
+    {
+      "talent_name": "Benediction",
+      "spell_id": 1262755,
+      "node_id": 110409,
+      "entry_id": 136995,
+      "definition_id": 141758,
+      "tree_type": "spec",
+      "hero_tree": null,
+      "tree_data": {
+        "source": "raidbots",
+        "wow_build": "12.1.0.69875",
+        "generated_at": "2026-09-19T00:34:25.597Z",
+        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "class_name": "Priest",
+        "class_id": 5,
+        "spec_name": "Holy",
+        "spec_id": 257,
+        "trait_tree_id": 795,
+        "tree_type": "spec",
+        "hero_tree": null,
+        "subtree_id": null,
+        "node_id": 110409,
+        "node_name": "Benediction / Benediction / Benediction",
         "node_type": "tiered",
         "pos_x": 12900,
         "pos_y": 7650,
@@ -5332,13 +5339,13 @@ window.WOW_PVP_DATA = {
         "free_node": false,
         "prev": [],
         "next": [],
-        "entry_id": 136997,
-        "definition_id": 141760,
+        "entry_id": 136995,
+        "definition_id": 141758,
         "entry_index": 200,
         "entry_type": "tierrank",
-        "talent_name": "Master the Darkness",
-        "spell_id": 1253845,
-        "icon": "inv12_apextalent_priest_voidshield"
+        "talent_name": "Benediction",
+        "spell_id": 1262755,
+        "icon": "inv12_apextalent_priest_benediction"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -5351,11 +5358,11 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Master the Darkness",
-      "spell_id": 1253827,
-      "node_id": 110410,
-      "entry_id": 136996,
-      "definition_id": 141759,
+      "talent_name": "Benediction",
+      "spell_id": 1262758,
+      "node_id": 110409,
+      "entry_id": 136994,
+      "definition_id": 141757,
       "tree_type": "spec",
       "hero_tree": null,
       "tree_data": {
@@ -5365,14 +5372,14 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "spec",
         "hero_tree": null,
         "subtree_id": null,
-        "node_id": 110410,
-        "node_name": "Master the Darkness / Master the Darkness / Master the Darkness",
+        "node_id": 110409,
+        "node_name": "Benediction / Benediction / Benediction",
         "node_type": "tiered",
         "pos_x": 12900,
         "pos_y": 7650,
@@ -5381,13 +5388,62 @@ window.WOW_PVP_DATA = {
         "free_node": false,
         "prev": [],
         "next": [],
-        "entry_id": 136996,
-        "definition_id": 141759,
+        "entry_id": 136994,
+        "definition_id": 141757,
         "entry_index": 300,
         "entry_type": "tierrank",
-        "talent_name": "Master the Darkness",
-        "spell_id": 1253827,
-        "icon": "inv12_apextalent_priest_voidshield"
+        "talent_name": "Benediction",
+        "spell_id": 1262758,
+        "icon": "inv12_apextalent_priest_benediction"
+      },
+      "pve_tooltip": "",
+      "pvp_tooltip": "",
+      "tooltip_changed": false,
+      "render_status": "MISSING_TOOLTIP",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
+    },
+    {
+      "talent_name": "Benediction",
+      "spell_id": 1262760,
+      "node_id": 110409,
+      "entry_id": 136993,
+      "definition_id": 141756,
+      "tree_type": "spec",
+      "hero_tree": null,
+      "tree_data": {
+        "source": "raidbots",
+        "wow_build": "12.1.0.69875",
+        "generated_at": "2026-09-19T00:34:25.597Z",
+        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "class_name": "Priest",
+        "class_id": 5,
+        "spec_name": "Holy",
+        "spec_id": 257,
+        "trait_tree_id": 795,
+        "tree_type": "spec",
+        "hero_tree": null,
+        "subtree_id": null,
+        "node_id": 110409,
+        "node_name": "Benediction / Benediction / Benediction",
+        "node_type": "tiered",
+        "pos_x": 12900,
+        "pos_y": 7650,
+        "max_ranks": 4,
+        "entry_node": true,
+        "free_node": false,
+        "prev": [],
+        "next": [],
+        "entry_id": 136993,
+        "definition_id": 141756,
+        "entry_index": 400,
+        "entry_type": "tierrank",
+        "talent_name": "Benediction",
+        "spell_id": 1262760,
+        "icon": "inv12_apextalent_priest_benediction"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -5414,8 +5470,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "hero",
         "hero_tree": "Oracle",
@@ -5454,6 +5510,60 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
+      "talent_name": "Halo",
+      "spell_id": 120517,
+      "node_id": 108724,
+      "entry_id": 134273,
+      "definition_id": 139046,
+      "tree_type": "hero",
+      "hero_tree": "Archon",
+      "tree_data": {
+        "source": "raidbots",
+        "wow_build": "12.1.0.69875",
+        "generated_at": "2026-09-19T00:34:25.597Z",
+        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "class_name": "Priest",
+        "class_id": 5,
+        "spec_name": "Holy",
+        "spec_id": 257,
+        "trait_tree_id": 795,
+        "tree_type": "hero",
+        "hero_tree": "Archon",
+        "subtree_id": 19,
+        "node_id": 108724,
+        "node_name": "Halo",
+        "node_type": "single",
+        "pos_x": 15600,
+        "pos_y": 1500,
+        "max_ranks": 1,
+        "entry_node": true,
+        "free_node": true,
+        "prev": [],
+        "next": [
+          94677,
+          94681,
+          94699,
+          109777
+        ],
+        "entry_id": 134273,
+        "definition_id": 139046,
+        "entry_index": 100,
+        "entry_type": "active",
+        "talent_name": "Halo",
+        "spell_id": 120517,
+        "icon": "ability_priest_halo"
+      },
+      "pve_tooltip": "",
+      "pvp_tooltip": "",
+      "tooltip_changed": false,
+      "render_status": "MISSING_TOOLTIP",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
+    },
+    {
       "talent_name": "Preventive Measures",
       "spell_id": 440662,
       "node_id": 94698,
@@ -5468,8 +5578,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "hero",
         "hero_tree": "Oracle",
@@ -5521,8 +5631,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "hero",
         "hero_tree": "Oracle",
@@ -5574,8 +5684,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "hero",
         "hero_tree": "Oracle",
@@ -5627,8 +5737,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "hero",
         "hero_tree": "Oracle",
@@ -5666,6 +5776,218 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
+      "talent_name": "Perfected Form",
+      "spell_id": 453917,
+      "node_id": 94677,
+      "entry_id": 117280,
+      "definition_id": 122292,
+      "tree_type": "hero",
+      "hero_tree": "Archon",
+      "tree_data": {
+        "source": "raidbots",
+        "wow_build": "12.1.0.69875",
+        "generated_at": "2026-09-19T00:34:25.597Z",
+        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "class_name": "Priest",
+        "class_id": 5,
+        "spec_name": "Holy",
+        "spec_id": 257,
+        "trait_tree_id": 795,
+        "tree_type": "hero",
+        "hero_tree": "Archon",
+        "subtree_id": 19,
+        "node_id": 94677,
+        "node_name": "Perfected Form",
+        "node_type": "single",
+        "pos_x": 14700,
+        "pos_y": 2100,
+        "max_ranks": 1,
+        "entry_node": false,
+        "free_node": false,
+        "prev": [
+          108724
+        ],
+        "next": [
+          94686
+        ],
+        "entry_id": 117280,
+        "definition_id": 122292,
+        "entry_index": 100,
+        "entry_type": "passive",
+        "talent_name": "Perfected Form",
+        "spell_id": 453917,
+        "icon": "inv_ability_holyfire_buff"
+      },
+      "pve_tooltip": "",
+      "pvp_tooltip": "",
+      "tooltip_changed": false,
+      "render_status": "MISSING_TOOLTIP",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
+    },
+    {
+      "talent_name": "Power Surge",
+      "spell_id": 453109,
+      "node_id": 94681,
+      "entry_id": 117284,
+      "definition_id": 122296,
+      "tree_type": "hero",
+      "hero_tree": "Archon",
+      "tree_data": {
+        "source": "raidbots",
+        "wow_build": "12.1.0.69875",
+        "generated_at": "2026-09-19T00:34:25.597Z",
+        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "class_name": "Priest",
+        "class_id": 5,
+        "spec_name": "Holy",
+        "spec_id": 257,
+        "trait_tree_id": 795,
+        "tree_type": "hero",
+        "hero_tree": "Archon",
+        "subtree_id": 19,
+        "node_id": 94681,
+        "node_name": "Power Surge",
+        "node_type": "single",
+        "pos_x": 15300,
+        "pos_y": 2100,
+        "max_ranks": 1,
+        "entry_node": false,
+        "free_node": false,
+        "prev": [
+          108724
+        ],
+        "next": [
+          94680
+        ],
+        "entry_id": 117284,
+        "definition_id": 122296,
+        "entry_index": 100,
+        "entry_type": "passive",
+        "talent_name": "Power Surge",
+        "spell_id": 453109,
+        "icon": "inv_ability_holyfire_groundstate"
+      },
+      "pve_tooltip": "",
+      "pvp_tooltip": "",
+      "tooltip_changed": false,
+      "render_status": "MISSING_TOOLTIP",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
+    },
+    {
+      "talent_name": "Manifested Power",
+      "spell_id": 453783,
+      "node_id": 94699,
+      "entry_id": 117302,
+      "definition_id": 122314,
+      "tree_type": "hero",
+      "hero_tree": "Archon",
+      "tree_data": {
+        "source": "raidbots",
+        "wow_build": "12.1.0.69875",
+        "generated_at": "2026-09-19T00:34:25.597Z",
+        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "class_name": "Priest",
+        "class_id": 5,
+        "spec_name": "Holy",
+        "spec_id": 257,
+        "trait_tree_id": 795,
+        "tree_type": "hero",
+        "hero_tree": "Archon",
+        "subtree_id": 19,
+        "node_id": 94699,
+        "node_name": "Manifested Power",
+        "node_type": "single",
+        "pos_x": 15900,
+        "pos_y": 2100,
+        "max_ranks": 1,
+        "entry_node": false,
+        "free_node": false,
+        "prev": [
+          108724
+        ],
+        "next": [
+          94688
+        ],
+        "entry_id": 117302,
+        "definition_id": 122314,
+        "entry_index": 100,
+        "entry_type": "passive",
+        "talent_name": "Manifested Power",
+        "spell_id": 453783,
+        "icon": "spell_holy_surgeoflight"
+      },
+      "pve_tooltip": "",
+      "pvp_tooltip": "",
+      "tooltip_changed": false,
+      "render_status": "MISSING_TOOLTIP",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
+    },
+    {
+      "talent_name": "Focused Outburst",
+      "spell_id": 1272320,
+      "node_id": 109777,
+      "entry_id": 136035,
+      "definition_id": 140790,
+      "tree_type": "hero",
+      "hero_tree": "Archon",
+      "tree_data": {
+        "source": "raidbots",
+        "wow_build": "12.1.0.69875",
+        "generated_at": "2026-09-19T00:34:25.597Z",
+        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "class_name": "Priest",
+        "class_id": 5,
+        "spec_name": "Holy",
+        "spec_id": 257,
+        "trait_tree_id": 795,
+        "tree_type": "hero",
+        "hero_tree": "Archon",
+        "subtree_id": 19,
+        "node_id": 109777,
+        "node_name": "Focused Outburst",
+        "node_type": "single",
+        "pos_x": 16500,
+        "pos_y": 2100,
+        "max_ranks": 1,
+        "entry_node": false,
+        "free_node": false,
+        "prev": [
+          108724
+        ],
+        "next": [
+          109776
+        ],
+        "entry_id": 136035,
+        "definition_id": 140790,
+        "entry_index": 100,
+        "entry_type": "passive",
+        "talent_name": "Focused Outburst",
+        "spell_id": 1272320,
+        "icon": "ability_priest_spiritoftheredeemer"
+      },
+      "pve_tooltip": "",
+      "pvp_tooltip": "",
+      "tooltip_changed": false,
+      "render_status": "MISSING_TOOLTIP",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
+    },
+    {
       "talent_name": "Assured Safety",
       "spell_id": 440766,
       "node_id": 94691,
@@ -5680,8 +6002,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "hero",
         "hero_tree": "Oracle",
@@ -5733,8 +6055,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "hero",
         "hero_tree": "Oracle",
@@ -5786,8 +6108,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "hero",
         "hero_tree": "Oracle",
@@ -5839,8 +6161,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "hero",
         "hero_tree": "Oracle",
@@ -5892,8 +6214,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "hero",
         "hero_tree": "Oracle",
@@ -5931,6 +6253,324 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
+      "talent_name": "Shock Pulse",
+      "spell_id": 453852,
+      "node_id": 94686,
+      "entry_id": 117289,
+      "definition_id": 122301,
+      "tree_type": "hero",
+      "hero_tree": "Archon",
+      "tree_data": {
+        "source": "raidbots",
+        "wow_build": "12.1.0.69875",
+        "generated_at": "2026-09-19T00:34:25.597Z",
+        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "class_name": "Priest",
+        "class_id": 5,
+        "spec_name": "Holy",
+        "spec_id": 257,
+        "trait_tree_id": 795,
+        "tree_type": "hero",
+        "hero_tree": "Archon",
+        "subtree_id": 19,
+        "node_id": 94686,
+        "node_name": "Shock Pulse / Incessant Screams",
+        "node_type": "choice",
+        "pos_x": 14700,
+        "pos_y": 2700,
+        "max_ranks": 1,
+        "entry_node": false,
+        "free_node": false,
+        "prev": [
+          94677
+        ],
+        "next": [
+          94678
+        ],
+        "entry_id": 117289,
+        "definition_id": 122301,
+        "entry_index": 100,
+        "entry_type": "passive",
+        "talent_name": "Shock Pulse",
+        "spell_id": 453852,
+        "icon": "spell_priest_pathofdevout"
+      },
+      "pve_tooltip": "",
+      "pvp_tooltip": "",
+      "tooltip_changed": false,
+      "render_status": "MISSING_TOOLTIP",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
+    },
+    {
+      "talent_name": "Incessant Screams",
+      "spell_id": 453918,
+      "node_id": 94686,
+      "entry_id": 125083,
+      "definition_id": 129915,
+      "tree_type": "hero",
+      "hero_tree": "Archon",
+      "tree_data": {
+        "source": "raidbots",
+        "wow_build": "12.1.0.69875",
+        "generated_at": "2026-09-19T00:34:25.597Z",
+        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "class_name": "Priest",
+        "class_id": 5,
+        "spec_name": "Holy",
+        "spec_id": 257,
+        "trait_tree_id": 795,
+        "tree_type": "hero",
+        "hero_tree": "Archon",
+        "subtree_id": 19,
+        "node_id": 94686,
+        "node_name": "Shock Pulse / Incessant Screams",
+        "node_type": "choice",
+        "pos_x": 14700,
+        "pos_y": 2700,
+        "max_ranks": 1,
+        "entry_node": false,
+        "free_node": false,
+        "prev": [
+          94677
+        ],
+        "next": [
+          94678
+        ],
+        "entry_id": 125083,
+        "definition_id": 129915,
+        "entry_index": 200,
+        "entry_type": "passive",
+        "talent_name": "Incessant Screams",
+        "spell_id": 453918,
+        "icon": "spell_shadow_psychicscream"
+      },
+      "pve_tooltip": "",
+      "pvp_tooltip": "",
+      "tooltip_changed": false,
+      "render_status": "MISSING_TOOLTIP",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
+    },
+    {
+      "talent_name": "Energy Conservation",
+      "spell_id": 1272308,
+      "node_id": 94680,
+      "entry_id": 117283,
+      "definition_id": 122295,
+      "tree_type": "hero",
+      "hero_tree": "Archon",
+      "tree_data": {
+        "source": "raidbots",
+        "wow_build": "12.1.0.69875",
+        "generated_at": "2026-09-19T00:34:25.597Z",
+        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "class_name": "Priest",
+        "class_id": 5,
+        "spec_name": "Holy",
+        "spec_id": 257,
+        "trait_tree_id": 795,
+        "tree_type": "hero",
+        "hero_tree": "Archon",
+        "subtree_id": 19,
+        "node_id": 94680,
+        "node_name": "Energy Conservation",
+        "node_type": "single",
+        "pos_x": 15300,
+        "pos_y": 2700,
+        "max_ranks": 1,
+        "entry_node": false,
+        "free_node": false,
+        "prev": [
+          94681
+        ],
+        "next": [
+          94676
+        ],
+        "entry_id": 117283,
+        "definition_id": 122295,
+        "entry_index": 100,
+        "entry_type": "passive",
+        "talent_name": "Energy Conservation",
+        "spell_id": 1272308,
+        "icon": "ability_priest_clarityofpurpose"
+      },
+      "pve_tooltip": "",
+      "pvp_tooltip": "",
+      "tooltip_changed": false,
+      "render_status": "MISSING_TOOLTIP",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
+    },
+    {
+      "talent_name": "Empowered Surges",
+      "spell_id": 453799,
+      "node_id": 94688,
+      "entry_id": 117291,
+      "definition_id": 122303,
+      "tree_type": "hero",
+      "hero_tree": "Archon",
+      "tree_data": {
+        "source": "raidbots",
+        "wow_build": "12.1.0.69875",
+        "generated_at": "2026-09-19T00:34:25.597Z",
+        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "class_name": "Priest",
+        "class_id": 5,
+        "spec_name": "Holy",
+        "spec_id": 257,
+        "trait_tree_id": 795,
+        "tree_type": "hero",
+        "hero_tree": "Archon",
+        "subtree_id": 19,
+        "node_id": 94688,
+        "node_name": "Empowered Surges",
+        "node_type": "single",
+        "pos_x": 15900,
+        "pos_y": 2700,
+        "max_ranks": 1,
+        "entry_node": false,
+        "free_node": false,
+        "prev": [
+          94699
+        ],
+        "next": [
+          94685
+        ],
+        "entry_id": 117291,
+        "definition_id": 122303,
+        "entry_index": 100,
+        "entry_type": "passive",
+        "talent_name": "Empowered Surges",
+        "spell_id": 453799,
+        "icon": "ability_priest_flashoflight"
+      },
+      "pve_tooltip": "",
+      "pvp_tooltip": "",
+      "tooltip_changed": false,
+      "render_status": "MISSING_TOOLTIP",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
+    },
+    {
+      "talent_name": "Word of Supremacy",
+      "spell_id": 453726,
+      "node_id": 109776,
+      "entry_id": 136034,
+      "definition_id": 140789,
+      "tree_type": "hero",
+      "hero_tree": "Archon",
+      "tree_data": {
+        "source": "raidbots",
+        "wow_build": "12.1.0.69875",
+        "generated_at": "2026-09-19T00:34:25.597Z",
+        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "class_name": "Priest",
+        "class_id": 5,
+        "spec_name": "Holy",
+        "spec_id": 257,
+        "trait_tree_id": 795,
+        "tree_type": "hero",
+        "hero_tree": "Archon",
+        "subtree_id": 19,
+        "node_id": 109776,
+        "node_name": "Word of Supremacy / Heightened Alteration",
+        "node_type": "choice",
+        "pos_x": 16500,
+        "pos_y": 2700,
+        "max_ranks": 1,
+        "entry_node": false,
+        "free_node": false,
+        "prev": [
+          109777
+        ],
+        "next": [
+          109775
+        ],
+        "entry_id": 136034,
+        "definition_id": 140789,
+        "entry_index": 100,
+        "entry_type": "passive",
+        "talent_name": "Word of Supremacy",
+        "spell_id": 453726,
+        "icon": "spell_holy_wordfortitude"
+      },
+      "pve_tooltip": "",
+      "pvp_tooltip": "",
+      "tooltip_changed": false,
+      "render_status": "MISSING_TOOLTIP",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
+    },
+    {
+      "talent_name": "Heightened Alteration",
+      "spell_id": 453729,
+      "node_id": 109776,
+      "entry_id": 136687,
+      "definition_id": 141459,
+      "tree_type": "hero",
+      "hero_tree": "Archon",
+      "tree_data": {
+        "source": "raidbots",
+        "wow_build": "12.1.0.69875",
+        "generated_at": "2026-09-19T00:34:25.597Z",
+        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "class_name": "Priest",
+        "class_id": 5,
+        "spec_name": "Holy",
+        "spec_id": 257,
+        "trait_tree_id": 795,
+        "tree_type": "hero",
+        "hero_tree": "Archon",
+        "subtree_id": 19,
+        "node_id": 109776,
+        "node_name": "Word of Supremacy / Heightened Alteration",
+        "node_type": "choice",
+        "pos_x": 16500,
+        "pos_y": 2700,
+        "max_ranks": 1,
+        "entry_node": false,
+        "free_node": false,
+        "prev": [
+          109777
+        ],
+        "next": [
+          109775
+        ],
+        "entry_id": 136687,
+        "definition_id": 141459,
+        "entry_index": 200,
+        "entry_type": "passive",
+        "talent_name": "Heightened Alteration",
+        "spell_id": 453729,
+        "icon": "inv_enchant_essenceeternallarge"
+      },
+      "pve_tooltip": "",
+      "pvp_tooltip": "",
+      "tooltip_changed": false,
+      "render_status": "MISSING_TOOLTIP",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
+    },
+    {
       "talent_name": "Prophet's Will",
       "spell_id": 433905,
       "node_id": 94690,
@@ -5945,8 +6585,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "hero",
         "hero_tree": "Oracle",
@@ -5998,8 +6638,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "hero",
         "hero_tree": "Oracle",
@@ -6051,8 +6691,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "hero",
         "hero_tree": "Oracle",
@@ -6104,8 +6744,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "hero",
         "hero_tree": "Oracle",
@@ -6157,8 +6797,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "hero",
         "hero_tree": "Oracle",
@@ -6196,6 +6836,324 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
+      "talent_name": "Energy Compression",
+      "spell_id": 449874,
+      "node_id": 94678,
+      "entry_id": 117281,
+      "definition_id": 122293,
+      "tree_type": "hero",
+      "hero_tree": "Archon",
+      "tree_data": {
+        "source": "raidbots",
+        "wow_build": "12.1.0.69875",
+        "generated_at": "2026-09-19T00:34:25.597Z",
+        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "class_name": "Priest",
+        "class_id": 5,
+        "spec_name": "Holy",
+        "spec_id": 257,
+        "trait_tree_id": 795,
+        "tree_type": "hero",
+        "hero_tree": "Archon",
+        "subtree_id": 19,
+        "node_id": 94678,
+        "node_name": "Energy Compression / Sustained Potency",
+        "node_type": "choice",
+        "pos_x": 14700,
+        "pos_y": 3300,
+        "max_ranks": 1,
+        "entry_node": false,
+        "free_node": false,
+        "prev": [
+          94686
+        ],
+        "next": [
+          94702
+        ],
+        "entry_id": 117281,
+        "definition_id": 122293,
+        "entry_index": 100,
+        "entry_type": "passive",
+        "talent_name": "Energy Compression",
+        "spell_id": 449874,
+        "icon": "spell_holy_circleofrenewal"
+      },
+      "pve_tooltip": "",
+      "pvp_tooltip": "",
+      "tooltip_changed": false,
+      "render_status": "MISSING_TOOLTIP",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
+    },
+    {
+      "talent_name": "Sustained Potency",
+      "spell_id": 454001,
+      "node_id": 94678,
+      "entry_id": 125085,
+      "definition_id": 129917,
+      "tree_type": "hero",
+      "hero_tree": "Archon",
+      "tree_data": {
+        "source": "raidbots",
+        "wow_build": "12.1.0.69875",
+        "generated_at": "2026-09-19T00:34:25.597Z",
+        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "class_name": "Priest",
+        "class_id": 5,
+        "spec_name": "Holy",
+        "spec_id": 257,
+        "trait_tree_id": 795,
+        "tree_type": "hero",
+        "hero_tree": "Archon",
+        "subtree_id": 19,
+        "node_id": 94678,
+        "node_name": "Energy Compression / Sustained Potency",
+        "node_type": "choice",
+        "pos_x": 14700,
+        "pos_y": 3300,
+        "max_ranks": 1,
+        "entry_node": false,
+        "free_node": false,
+        "prev": [
+          94686
+        ],
+        "next": [
+          94702
+        ],
+        "entry_id": 125085,
+        "definition_id": 129917,
+        "entry_index": 200,
+        "entry_type": "passive",
+        "talent_name": "Sustained Potency",
+        "spell_id": 454001,
+        "icon": "ability_priest_ascension"
+      },
+      "pve_tooltip": "",
+      "pvp_tooltip": "",
+      "tooltip_changed": false,
+      "render_status": "MISSING_TOOLTIP",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
+    },
+    {
+      "talent_name": "Resonant Energy",
+      "spell_id": 453845,
+      "node_id": 94676,
+      "entry_id": 117279,
+      "definition_id": 122291,
+      "tree_type": "hero",
+      "hero_tree": "Archon",
+      "tree_data": {
+        "source": "raidbots",
+        "wow_build": "12.1.0.69875",
+        "generated_at": "2026-09-19T00:34:25.597Z",
+        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "class_name": "Priest",
+        "class_id": 5,
+        "spec_name": "Holy",
+        "spec_id": 257,
+        "trait_tree_id": 795,
+        "tree_type": "hero",
+        "hero_tree": "Archon",
+        "subtree_id": 19,
+        "node_id": 94676,
+        "node_name": "Resonant Energy",
+        "node_type": "single",
+        "pos_x": 15300,
+        "pos_y": 3300,
+        "max_ranks": 1,
+        "entry_node": false,
+        "free_node": false,
+        "prev": [
+          94680
+        ],
+        "next": [
+          94702
+        ],
+        "entry_id": 117279,
+        "definition_id": 122291,
+        "entry_index": 100,
+        "entry_type": "passive",
+        "talent_name": "Resonant Energy",
+        "spell_id": 453845,
+        "icon": "inv_ability_holyfire_orb"
+      },
+      "pve_tooltip": "",
+      "pvp_tooltip": "",
+      "tooltip_changed": false,
+      "render_status": "MISSING_TOOLTIP",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
+    },
+    {
+      "talent_name": "Energy Cycle",
+      "spell_id": 453828,
+      "node_id": 94685,
+      "entry_id": 117288,
+      "definition_id": 122300,
+      "tree_type": "hero",
+      "hero_tree": "Archon",
+      "tree_data": {
+        "source": "raidbots",
+        "wow_build": "12.1.0.69875",
+        "generated_at": "2026-09-19T00:34:25.597Z",
+        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "class_name": "Priest",
+        "class_id": 5,
+        "spec_name": "Holy",
+        "spec_id": 257,
+        "trait_tree_id": 795,
+        "tree_type": "hero",
+        "hero_tree": "Archon",
+        "subtree_id": 19,
+        "node_id": 94685,
+        "node_name": "Energy Cycle",
+        "node_type": "single",
+        "pos_x": 15900,
+        "pos_y": 3300,
+        "max_ranks": 1,
+        "entry_node": false,
+        "free_node": false,
+        "prev": [
+          94688
+        ],
+        "next": [
+          94702
+        ],
+        "entry_id": 117288,
+        "definition_id": 122300,
+        "entry_index": 100,
+        "entry_type": "passive",
+        "talent_name": "Energy Cycle",
+        "spell_id": 453828,
+        "icon": "ability_priest_voidshift"
+      },
+      "pve_tooltip": "",
+      "pvp_tooltip": "",
+      "tooltip_changed": false,
+      "render_status": "MISSING_TOOLTIP",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
+    },
+    {
+      "talent_name": "Realized Potential",
+      "spell_id": 1272326,
+      "node_id": 109775,
+      "entry_id": 136033,
+      "definition_id": 140788,
+      "tree_type": "hero",
+      "hero_tree": "Archon",
+      "tree_data": {
+        "source": "raidbots",
+        "wow_build": "12.1.0.69875",
+        "generated_at": "2026-09-19T00:34:25.597Z",
+        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "class_name": "Priest",
+        "class_id": 5,
+        "spec_name": "Holy",
+        "spec_id": 257,
+        "trait_tree_id": 795,
+        "tree_type": "hero",
+        "hero_tree": "Archon",
+        "subtree_id": 19,
+        "node_id": 109775,
+        "node_name": "Realized Potential / Spiritwell",
+        "node_type": "choice",
+        "pos_x": 16500,
+        "pos_y": 3300,
+        "max_ranks": 1,
+        "entry_node": false,
+        "free_node": false,
+        "prev": [
+          109776
+        ],
+        "next": [
+          94702
+        ],
+        "entry_id": 136033,
+        "definition_id": 140788,
+        "entry_index": 100,
+        "entry_type": "passive",
+        "talent_name": "Realized Potential",
+        "spell_id": 1272326,
+        "icon": "spell_holy_flashheal"
+      },
+      "pve_tooltip": "",
+      "pvp_tooltip": "",
+      "tooltip_changed": false,
+      "render_status": "MISSING_TOOLTIP",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
+    },
+    {
+      "talent_name": "Spiritwell",
+      "spell_id": 1247178,
+      "node_id": 109775,
+      "entry_id": 136688,
+      "definition_id": 141460,
+      "tree_type": "hero",
+      "hero_tree": "Archon",
+      "tree_data": {
+        "source": "raidbots",
+        "wow_build": "12.1.0.69875",
+        "generated_at": "2026-09-19T00:34:25.597Z",
+        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "class_name": "Priest",
+        "class_id": 5,
+        "spec_name": "Holy",
+        "spec_id": 257,
+        "trait_tree_id": 795,
+        "tree_type": "hero",
+        "hero_tree": "Archon",
+        "subtree_id": 19,
+        "node_id": 109775,
+        "node_name": "Realized Potential / Spiritwell",
+        "node_type": "choice",
+        "pos_x": 16500,
+        "pos_y": 3300,
+        "max_ranks": 1,
+        "entry_node": false,
+        "free_node": false,
+        "prev": [
+          109776
+        ],
+        "next": [
+          94702
+        ],
+        "entry_id": 136688,
+        "definition_id": 141460,
+        "entry_index": 200,
+        "entry_type": "passive",
+        "talent_name": "Spiritwell",
+        "spell_id": 1247178,
+        "icon": "spell_holy_prayerofhealing02"
+      },
+      "pve_tooltip": "",
+      "pvp_tooltip": "",
+      "tooltip_changed": false,
+      "render_status": "MISSING_TOOLTIP",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0
+    },
+    {
       "talent_name": "Twinsight",
       "spell_id": 440742,
       "node_id": 94687,
@@ -6210,8 +7168,8 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "hero",
         "hero_tree": "Oracle",
@@ -6250,13 +7208,13 @@ window.WOW_PVP_DATA = {
       "render_effect_count": 0
     },
     {
-      "talent_name": "Entropic Rift",
-      "spell_id": 447444,
-      "node_id": 110008,
-      "entry_id": 136498,
-      "definition_id": 141271,
+      "talent_name": "Divine Halo",
+      "spell_id": 449806,
+      "node_id": 94702,
+      "entry_id": 117305,
+      "definition_id": 122317,
       "tree_type": "hero",
-      "hero_tree": "Voidweaver",
+      "hero_tree": "Archon",
       "tree_data": {
         "source": "raidbots",
         "wow_build": "12.1.0.69875",
@@ -6264,883 +7222,34 @@ window.WOW_PVP_DATA = {
         "content_hash": "66952e6398559450a2f421d56adbcda2",
         "class_name": "Priest",
         "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
+        "spec_name": "Holy",
+        "spec_id": 257,
         "trait_tree_id": 795,
         "tree_type": "hero",
-        "hero_tree": "Voidweaver",
-        "subtree_id": 18,
-        "node_id": 110008,
-        "node_name": "Entropic Rift",
+        "hero_tree": "Archon",
+        "subtree_id": 19,
+        "node_id": 94702,
+        "node_name": "Divine Halo",
         "node_type": "single",
-        "pos_x": 8700,
-        "pos_y": 4500,
-        "max_ranks": 1,
-        "entry_node": true,
-        "free_node": true,
-        "prev": [],
-        "next": [
-          94693,
-          94703,
-          94670,
-          109780
-        ],
-        "entry_id": 136498,
-        "definition_id": 141271,
-        "entry_index": 100,
-        "entry_type": "passive",
-        "talent_name": "Entropic Rift",
-        "spell_id": 447444,
-        "icon": "inv_ability_voidweaverpriest_entropicrift"
-      },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
-    },
-    {
-      "talent_name": "No Escape",
-      "spell_id": 451204,
-      "node_id": 94693,
-      "entry_id": 117296,
-      "definition_id": 122308,
-      "tree_type": "hero",
-      "hero_tree": "Voidweaver",
-      "tree_data": {
-        "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
-        "class_name": "Priest",
-        "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
-        "trait_tree_id": 795,
-        "tree_type": "hero",
-        "hero_tree": "Voidweaver",
-        "subtree_id": 18,
-        "node_id": 94693,
-        "node_name": "No Escape / Dark Energy",
-        "node_type": "choice",
-        "pos_x": 7800,
-        "pos_y": 5100,
+        "pos_x": 15600,
+        "pos_y": 3900,
         "max_ranks": 1,
         "entry_node": false,
         "free_node": false,
         "prev": [
-          110008
-        ],
-        "next": [
-          94668
-        ],
-        "entry_id": 117296,
-        "definition_id": 122308,
-        "entry_index": 100,
-        "entry_type": "passive",
-        "talent_name": "No Escape",
-        "spell_id": 451204,
-        "icon": "spell_fire_twilighthellfire"
-      },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
-    },
-    {
-      "talent_name": "Dark Energy",
-      "spell_id": 451018,
-      "node_id": 94693,
-      "entry_id": 123845,
-      "definition_id": 128683,
-      "tree_type": "hero",
-      "hero_tree": "Voidweaver",
-      "tree_data": {
-        "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
-        "class_name": "Priest",
-        "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
-        "trait_tree_id": 795,
-        "tree_type": "hero",
-        "hero_tree": "Voidweaver",
-        "subtree_id": 18,
-        "node_id": 94693,
-        "node_name": "No Escape / Dark Energy",
-        "node_type": "choice",
-        "pos_x": 7800,
-        "pos_y": 5100,
-        "max_ranks": 1,
-        "entry_node": false,
-        "free_node": false,
-        "prev": [
-          110008
-        ],
-        "next": [
-          94668
-        ],
-        "entry_id": 123845,
-        "definition_id": 128683,
-        "entry_index": 200,
-        "entry_type": "passive",
-        "talent_name": "Dark Energy",
-        "spell_id": 451018,
-        "icon": "achievement_boss_triumvirate_darknaaru"
-      },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
-    },
-    {
-      "talent_name": "Void Blast",
-      "spell_id": 450405,
-      "node_id": 94703,
-      "entry_id": 117306,
-      "definition_id": 122318,
-      "tree_type": "hero",
-      "hero_tree": "Voidweaver",
-      "tree_data": {
-        "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
-        "class_name": "Priest",
-        "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
-        "trait_tree_id": 795,
-        "tree_type": "hero",
-        "hero_tree": "Voidweaver",
-        "subtree_id": 18,
-        "node_id": 94703,
-        "node_name": "Void Blast",
-        "node_type": "single",
-        "pos_x": 8400,
-        "pos_y": 5100,
-        "max_ranks": 1,
-        "entry_node": false,
-        "free_node": false,
-        "prev": [
-          110008
-        ],
-        "next": [
-          94695
-        ],
-        "entry_id": 117306,
-        "definition_id": 122318,
-        "entry_index": 100,
-        "entry_type": "active",
-        "talent_name": "Void Blast",
-        "spell_id": 450405,
-        "icon": "inv_cosmicvoid_missile"
-      },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
-    },
-    {
-      "talent_name": "Inner Quietus",
-      "spell_id": 448278,
-      "node_id": 94670,
-      "entry_id": 117273,
-      "definition_id": 122285,
-      "tree_type": "hero",
-      "hero_tree": "Voidweaver",
-      "tree_data": {
-        "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
-        "class_name": "Priest",
-        "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
-        "trait_tree_id": 795,
-        "tree_type": "hero",
-        "hero_tree": "Voidweaver",
-        "subtree_id": 18,
-        "node_id": 94670,
-        "node_name": "Inner Quietus",
-        "node_type": "single",
-        "pos_x": 9000,
-        "pos_y": 5100,
-        "max_ranks": 1,
-        "entry_node": false,
-        "free_node": false,
-        "prev": [
-          110008
-        ],
-        "next": [
-          100212
-        ],
-        "entry_id": 117273,
-        "definition_id": 122285,
-        "entry_index": 100,
-        "entry_type": "passive",
-        "talent_name": "Inner Quietus",
-        "spell_id": 448278,
-        "icon": "inv_cosmicvoid_buff"
-      },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
-    },
-    {
-      "talent_name": "Voidheart",
-      "spell_id": 449880,
-      "node_id": 109780,
-      "entry_id": 136038,
-      "definition_id": 140793,
-      "tree_type": "hero",
-      "hero_tree": "Voidweaver",
-      "tree_data": {
-        "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
-        "class_name": "Priest",
-        "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
-        "trait_tree_id": 795,
-        "tree_type": "hero",
-        "hero_tree": "Voidweaver",
-        "subtree_id": 18,
-        "node_id": 109780,
-        "node_name": "Voidheart",
-        "node_type": "single",
-        "pos_x": 9600,
-        "pos_y": 5100,
-        "max_ranks": 1,
-        "entry_node": false,
-        "free_node": false,
-        "prev": [
-          110008
-        ],
-        "next": [
-          109779
-        ],
-        "entry_id": 136038,
-        "definition_id": 140793,
-        "entry_index": 100,
-        "entry_type": "passive",
-        "talent_name": "Voidheart",
-        "spell_id": 449880,
-        "icon": "inv_cosmicvoid_orb"
-      },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
-    },
-    {
-      "talent_name": "Devour Matter",
-      "spell_id": 451840,
-      "node_id": 94668,
-      "entry_id": 117271,
-      "definition_id": 122283,
-      "tree_type": "hero",
-      "hero_tree": "Voidweaver",
-      "tree_data": {
-        "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
-        "class_name": "Priest",
-        "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
-        "trait_tree_id": 795,
-        "tree_type": "hero",
-        "hero_tree": "Voidweaver",
-        "subtree_id": 18,
-        "node_id": 94668,
-        "node_name": "Devour Matter",
-        "node_type": "single",
-        "pos_x": 7800,
-        "pos_y": 5700,
-        "max_ranks": 1,
-        "entry_node": false,
-        "free_node": false,
-        "prev": [
-          94693
-        ],
-        "next": [
-          94692
-        ],
-        "entry_id": 117271,
-        "definition_id": 122283,
-        "entry_index": 100,
-        "entry_type": "passive",
-        "talent_name": "Devour Matter",
-        "spell_id": 451840,
-        "icon": "spell_holy_consumemagic"
-      },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
-    },
-    {
-      "talent_name": "Void Empowerment",
-      "spell_id": 450138,
-      "node_id": 94695,
-      "entry_id": 125821,
-      "definition_id": 128681,
-      "tree_type": "hero",
-      "hero_tree": "Voidweaver",
-      "tree_data": {
-        "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
-        "class_name": "Priest",
-        "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
-        "trait_tree_id": 795,
-        "tree_type": "hero",
-        "hero_tree": "Voidweaver",
-        "subtree_id": 18,
-        "node_id": 94695,
-        "node_name": "Void Empowerment / Darkening Horizon",
-        "node_type": "choice",
-        "pos_x": 8400,
-        "pos_y": 5700,
-        "max_ranks": 1,
-        "entry_node": false,
-        "free_node": false,
-        "prev": [
-          94703
-        ],
-        "next": [
-          94669
-        ],
-        "entry_id": 125821,
-        "definition_id": 128681,
-        "entry_index": 100,
-        "entry_type": "passive",
-        "talent_name": "Void Empowerment",
-        "spell_id": 450138,
-        "icon": "inv_cosmicvoid_nova"
-      },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
-    },
-    {
-      "talent_name": "Darkening Horizon",
-      "spell_id": 449912,
-      "node_id": 94695,
-      "entry_id": 125982,
-      "definition_id": 130813,
-      "tree_type": "hero",
-      "hero_tree": "Voidweaver",
-      "tree_data": {
-        "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
-        "class_name": "Priest",
-        "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
-        "trait_tree_id": 795,
-        "tree_type": "hero",
-        "hero_tree": "Voidweaver",
-        "subtree_id": 18,
-        "node_id": 94695,
-        "node_name": "Void Empowerment / Darkening Horizon",
-        "node_type": "choice",
-        "pos_x": 8400,
-        "pos_y": 5700,
-        "max_ranks": 1,
-        "entry_node": false,
-        "free_node": false,
-        "prev": [
-          94703
-        ],
-        "next": [
-          94669
-        ],
-        "entry_id": 125982,
-        "definition_id": 130813,
-        "entry_index": 200,
-        "entry_type": "passive",
-        "talent_name": "Darkening Horizon",
-        "spell_id": 449912,
-        "icon": "inv_misc_83_voidfocus"
-      },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
-    },
-    {
-      "talent_name": "Voidwraith",
-      "spell_id": 451234,
-      "node_id": 100212,
-      "entry_id": 123841,
-      "definition_id": 128679,
-      "tree_type": "hero",
-      "hero_tree": "Voidweaver",
-      "tree_data": {
-        "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
-        "class_name": "Priest",
-        "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
-        "trait_tree_id": 795,
-        "tree_type": "hero",
-        "hero_tree": "Voidweaver",
-        "subtree_id": 18,
-        "node_id": 100212,
-        "node_name": "Voidwraith",
-        "node_type": "single",
-        "pos_x": 9000,
-        "pos_y": 5700,
-        "max_ranks": 1,
-        "entry_node": false,
-        "free_node": false,
-        "prev": [
-          94670
-        ],
-        "next": [
-          94696
-        ],
-        "entry_id": 123841,
-        "definition_id": 128679,
-        "entry_index": 200,
-        "entry_type": "passive",
-        "talent_name": "Voidwraith",
-        "spell_id": 451234,
-        "icon": "warlock_curse_shadow"
-      },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
-    },
-    {
-      "talent_name": "Touch of the Void",
-      "spell_id": 1266856,
-      "node_id": 109779,
-      "entry_id": 136037,
-      "definition_id": 140792,
-      "tree_type": "hero",
-      "hero_tree": "Voidweaver",
-      "tree_data": {
-        "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
-        "class_name": "Priest",
-        "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
-        "trait_tree_id": 795,
-        "tree_type": "hero",
-        "hero_tree": "Voidweaver",
-        "subtree_id": 18,
-        "node_id": 109779,
-        "node_name": "Touch of the Void",
-        "node_type": "single",
-        "pos_x": 9600,
-        "pos_y": 5700,
-        "max_ranks": 1,
-        "entry_node": false,
-        "free_node": false,
-        "prev": [
-          109780
-        ],
-        "next": [
-          109778
-        ],
-        "entry_id": 136037,
-        "definition_id": 140792,
-        "entry_index": 100,
-        "entry_type": "passive",
-        "talent_name": "Touch of the Void",
-        "spell_id": 1266856,
-        "icon": "inv_112_raidtrinkets_blobofswirlingvoid_purple"
-      },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
-    },
-    {
-      "talent_name": "Quickened Pulse",
-      "spell_id": 1266845,
-      "node_id": 94692,
-      "entry_id": 117295,
-      "definition_id": 122307,
-      "tree_type": "hero",
-      "hero_tree": "Voidweaver",
-      "tree_data": {
-        "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
-        "class_name": "Priest",
-        "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
-        "trait_tree_id": 795,
-        "tree_type": "hero",
-        "hero_tree": "Voidweaver",
-        "subtree_id": 18,
-        "node_id": 94692,
-        "node_name": "Quickened Pulse",
-        "node_type": "single",
-        "pos_x": 7800,
-        "pos_y": 6300,
-        "max_ranks": 1,
-        "entry_node": false,
-        "free_node": false,
-        "prev": [
-          94668
-        ],
-        "next": [
-          94694
-        ],
-        "entry_id": 117295,
-        "definition_id": 122307,
-        "entry_index": 100,
-        "entry_type": "passive",
-        "talent_name": "Quickened Pulse",
-        "spell_id": 1266845,
-        "icon": "ability_rogue_sanguinaryvein"
-      },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
-    },
-    {
-      "talent_name": "Void Infusion",
-      "spell_id": 450612,
-      "node_id": 94669,
-      "entry_id": 117272,
-      "definition_id": 122284,
-      "tree_type": "hero",
-      "hero_tree": "Voidweaver",
-      "tree_data": {
-        "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
-        "class_name": "Priest",
-        "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
-        "trait_tree_id": 795,
-        "tree_type": "hero",
-        "hero_tree": "Voidweaver",
-        "subtree_id": 18,
-        "node_id": 94669,
-        "node_name": "Void Infusion",
-        "node_type": "single",
-        "pos_x": 8400,
-        "pos_y": 6300,
-        "max_ranks": 1,
-        "entry_node": false,
-        "free_node": false,
-        "prev": [
-          94695
-        ],
-        "next": [
-          94694
-        ],
-        "entry_id": 117272,
-        "definition_id": 122284,
-        "entry_index": 100,
-        "entry_type": "passive",
-        "talent_name": "Void Infusion",
-        "spell_id": 450612,
-        "icon": "inv_misc_volatileshadow"
-      },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
-    },
-    {
-      "talent_name": "Void Leech",
-      "spell_id": 451311,
-      "node_id": 94696,
-      "entry_id": 117299,
-      "definition_id": 122311,
-      "tree_type": "hero",
-      "hero_tree": "Voidweaver",
-      "tree_data": {
-        "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
-        "class_name": "Priest",
-        "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
-        "trait_tree_id": 795,
-        "tree_type": "hero",
-        "hero_tree": "Voidweaver",
-        "subtree_id": 18,
-        "node_id": 94696,
-        "node_name": "Void Leech / Embrace the Shadow",
-        "node_type": "choice",
-        "pos_x": 9000,
-        "pos_y": 6300,
-        "max_ranks": 1,
-        "entry_node": false,
-        "free_node": false,
-        "prev": [
-          100212
-        ],
-        "next": [
-          94694
-        ],
-        "entry_id": 117299,
-        "definition_id": 122311,
-        "entry_index": 100,
-        "entry_type": "passive",
-        "talent_name": "Void Leech",
-        "spell_id": 451311,
-        "icon": "spell_shadow_soulleech_2"
-      },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
-    },
-    {
-      "talent_name": "Embrace the Shadow",
-      "spell_id": 451569,
-      "node_id": 94696,
-      "entry_id": 123844,
-      "definition_id": 128682,
-      "tree_type": "hero",
-      "hero_tree": "Voidweaver",
-      "tree_data": {
-        "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
-        "class_name": "Priest",
-        "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
-        "trait_tree_id": 795,
-        "tree_type": "hero",
-        "hero_tree": "Voidweaver",
-        "subtree_id": 18,
-        "node_id": 94696,
-        "node_name": "Void Leech / Embrace the Shadow",
-        "node_type": "choice",
-        "pos_x": 9000,
-        "pos_y": 6300,
-        "max_ranks": 1,
-        "entry_node": false,
-        "free_node": false,
-        "prev": [
-          100212
-        ],
-        "next": [
-          94694
-        ],
-        "entry_id": 123844,
-        "definition_id": 128682,
-        "entry_index": 200,
-        "entry_type": "passive",
-        "talent_name": "Embrace the Shadow",
-        "spell_id": 451569,
-        "icon": "spell_shadow_shadesofdarkness"
-      },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
-    },
-    {
-      "talent_name": "Overwhelming Shadows",
-      "spell_id": 1266883,
-      "node_id": 109778,
-      "entry_id": 136036,
-      "definition_id": 140791,
-      "tree_type": "hero",
-      "hero_tree": "Voidweaver",
-      "tree_data": {
-        "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
-        "class_name": "Priest",
-        "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
-        "trait_tree_id": 795,
-        "tree_type": "hero",
-        "hero_tree": "Voidweaver",
-        "subtree_id": 18,
-        "node_id": 109778,
-        "node_name": "Overwhelming Shadows",
-        "node_type": "single",
-        "pos_x": 9600,
-        "pos_y": 6300,
-        "max_ranks": 1,
-        "entry_node": false,
-        "free_node": false,
-        "prev": [
-          109779
-        ],
-        "next": [
-          94694
-        ],
-        "entry_id": 136036,
-        "definition_id": 140791,
-        "entry_index": 100,
-        "entry_type": "passive",
-        "talent_name": "Overwhelming Shadows",
-        "spell_id": 1266883,
-        "icon": "inv_shadowelementalmount"
-      },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
-      "tooltip_changed": false,
-      "render_status": "MISSING_TOOLTIP",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
-    },
-    {
-      "talent_name": "Collapsing Void",
-      "spell_id": 448403,
-      "node_id": 94694,
-      "entry_id": 117297,
-      "definition_id": 122309,
-      "tree_type": "hero",
-      "hero_tree": "Voidweaver",
-      "tree_data": {
-        "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
-        "class_name": "Priest",
-        "class_id": 5,
-        "spec_name": "Discipline",
-        "spec_id": 256,
-        "trait_tree_id": 795,
-        "tree_type": "hero",
-        "hero_tree": "Voidweaver",
-        "subtree_id": 18,
-        "node_id": 94694,
-        "node_name": "Collapsing Void",
-        "node_type": "single",
-        "pos_x": 8700,
-        "pos_y": 6900,
-        "max_ranks": 1,
-        "entry_node": false,
-        "free_node": false,
-        "prev": [
-          94669,
-          94692,
-          94696,
-          109778
+          94678,
+          94685,
+          94676,
+          109775
         ],
         "next": [],
-        "entry_id": 117297,
-        "definition_id": 122309,
+        "entry_id": 117305,
+        "definition_id": 122317,
         "entry_index": 100,
         "entry_type": "passive",
-        "talent_name": "Collapsing Void",
-        "spell_id": 448403,
-        "icon": "inv_cosmicvoid_groundsate"
+        "talent_name": "Divine Halo",
+        "spell_id": 449806,
+        "icon": "inv_ability_holyfire_nova"
       },
       "pve_tooltip": "",
       "pvp_tooltip": "",
@@ -7157,713 +7266,731 @@ window.WOW_PVP_DATA = {
     {
       "source": "wowhead_page",
       "spell_id": 528,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17151850 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf16586e10 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 586,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165d0e90 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf1651e1b0 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 596,
+      "error": "RetryError: RetryError[<Future at 0x7fbf168a2b70 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 605,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171501d0 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf1827d2b0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 8092,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16572960 state=finished raised HTTPStatusError>]"
+      "spell_id": 2050,
+      "error": "RetryError: RetryError[<Future at 0x7fbf168a1910 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 8122,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e63dd0 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf16c5c440 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 9484,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c5b5f0 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf1651d820 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 10060,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16886450 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf16587170 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 14914,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16ecc8f0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 19236,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16620440 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf16ece600 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 32375,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16885250 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf1651c440 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 32379,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16884a40 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf16569610 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 33206,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165d2570 state=finished raised HTTPStatusError>]"
+      "spell_id": 34861,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16fcd6d0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 34433,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165d0c20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 47515,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16db6f90 state=finished raised HTTPStatusError>]"
+      "spell_id": 47788,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16586330 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 55676,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16db6e70 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 62618,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16570080 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf166f07d0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 64129,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c58d40 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf16c44260 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 64843,
+      "error": "RetryError: RetryError[<Future at 0x7fbf165d0620 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 73325,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16eccf20 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf16c44f50 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 81749,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9f380 state=finished raised HTTPStatusError>]"
+      "spell_id": 88625,
+      "error": "RetryError: RetryError[<Future at 0x7fbf1651fef0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 108942,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9fd10 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf165d2720 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 108945,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171de0c0 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf1827ce00 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 109186,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16db5f10 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf165ae8a0 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 120517,
+      "error": "RetryError: RetryError[<Future at 0x7fbf165d2990 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 121536,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171dc650 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf1666fd70 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 132157,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9c110 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf1651de50 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 193063,
-      "error": "RetryError: RetryError[<Future at 0x7fbf182cdd60 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf16dd5790 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 193134,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16713dd0 state=finished raised HTTPStatusError>]"
+      "spell_id": 193155,
+      "error": "RetryError: RetryError[<Future at 0x7fbf165e4bc0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 194509,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d55460 state=finished raised HTTPStatusError>]"
+      "spell_id": 193157,
+      "error": "RetryError: RetryError[<Future at 0x7fbf165d19a0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 196704,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9d100 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf168a1790 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 197045,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16757380 state=finished raised HTTPStatusError>]"
+      "spell_id": 196707,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16c7ede0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 197862,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16710ce0 state=finished raised HTTPStatusError>]"
+      "spell_id": 196985,
+      "error": "RetryError: RetryError[<Future at 0x7fbf166f2d50 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 198068,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16db4ad0 state=finished raised HTTPStatusError>]"
+      "spell_id": 200128,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16ecf860 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 200183,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16823b90 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 200199,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16822c00 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 200209,
+      "error": "RetryError: RetryError[<Future at 0x7fbf1656aa50 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 205364,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1663df40 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf166da1e0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 215768,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167556a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 231682,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e50110 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 238063,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e3e480 state=finished raised HTTPStatusError>]"
+      "spell_id": 235587,
+      "error": "RetryError: RetryError[<Future at 0x7fbf1656afc0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 238100,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e1f5c0 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf1666e3c0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 238135,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16713200 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 322115,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d57620 state=finished raised HTTPStatusError>]"
+      "spell_id": 238136,
+      "error": "RetryError: RetryError[<Future at 0x7fbf1674cad0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 341167,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d54380 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf168a1760 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 341997,
+      "error": "RetryError: RetryError[<Future at 0x7fbf165aeae0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 368275,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e24290 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf16ed7a10 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 372969,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d54470 state=finished raised HTTPStatusError>]"
+      "spell_id": 372307,
+      "error": "RetryError: RetryError[<Future at 0x7fbf165873e0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 372972,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16712690 state=finished raised HTTPStatusError>]"
+      "spell_id": 372370,
+      "error": "RetryError: RetryError[<Future at 0x7fbf165d3380 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 372991,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e0ad0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 373003,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17153d10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 373035,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c47860 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 373049,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165bb0e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 373054,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16627f20 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 373180,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17153e30 state=finished raised HTTPStatusError>]"
+      "spell_id": 372616,
+      "error": "RetryError: RetryError[<Future at 0x7fbf165877d0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 373218,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e24ef0 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf168a2f00 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 373223,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165d1220 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 373427,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c58110 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf1651ef00 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 373446,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c59100 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf168194f0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 373450,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c40740 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf16fccbf0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 373456,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165fce00 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf1681ac60 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 373466,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16885d60 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf16c42240 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 390620,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecce60 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf1827c320 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 390632,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168858e0 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf168a0920 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 390667,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16df8500 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf16c44650 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 390670,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecddf0 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf1827d4c0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 390676,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16db4f50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 390684,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17153140 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 390685,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166d85c0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 390686,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c73110 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 390689,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e1f110 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 390691,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d99b50 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 390693,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16db69f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 390786,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166dab10 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 390832,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167e2300 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf16501550 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 390919,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166d89b0 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf1651eba0 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 390954,
+      "error": "RetryError: RetryError[<Future at 0x7fbf1827fec0 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 390967,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16ecc0b0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 390972,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16713bc0 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf16fcf830 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 390977,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16fcf740 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 390992,
+      "error": "RetryError: RetryError[<Future at 0x7fbf17153c80 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 390994,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16ecc560 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 391124,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16c7f650 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 391186,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16dd78f0 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 391209,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16fce8d0 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 391233,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16ecf4d0 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 391381,
+      "error": "RetryError: RetryError[<Future at 0x7fbf165d06e0 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 392988,
+      "error": "RetryError: RetryError[<Future at 0x7fbf17151940 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 393870,
-      "error": "RetryError: RetryError[<Future at 0x7fbf168235f0 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf165d3ad0 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 414553,
+      "error": "RetryError: RetryError[<Future at 0x7fbf166d4e60 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 415416,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16db6840 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf1825a120 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 421453,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17151670 state=finished raised HTTPStatusError>]"
+      "spell_id": 419110,
+      "error": "RetryError: RetryError[<Future at 0x7fbf165d2fc0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 433905,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16eccfb0 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf16c46450 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 440662,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c59be0 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf16c11a90 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 440669,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16887110 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf16ecf2f0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 440670,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17150830 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf1827f800 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 440671,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16edb7a0 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf1674c1d0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 440681,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ece870 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf1651dcd0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 440738,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1651cbf0 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf165fd6a0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 440742,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165d2270 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf165fc050 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 440766,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9cc50 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf16dfb890 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 447444,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16710830 state=finished raised HTTPStatusError>]"
+      "spell_id": 449806,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16c459d0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 448278,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16712000 state=finished raised HTTPStatusError>]"
+      "spell_id": 449874,
+      "error": "RetryError: RetryError[<Future at 0x7fbf167bdb80 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 448403,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16710170 state=finished raised HTTPStatusError>]"
+      "spell_id": 453109,
+      "error": "RetryError: RetryError[<Future at 0x7fbf165ac1a0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 449880,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9ff20 state=finished raised HTTPStatusError>]"
+      "spell_id": 453726,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16dd7380 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 449912,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165d1280 state=finished raised HTTPStatusError>]"
+      "spell_id": 453729,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16dfa4b0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 450138,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9e180 state=finished raised HTTPStatusError>]"
+      "spell_id": 453783,
+      "error": "RetryError: RetryError[<Future at 0x7fbf165866f0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 450405,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e3d9a0 state=finished raised HTTPStatusError>]"
+      "spell_id": 453799,
+      "error": "RetryError: RetryError[<Future at 0x7fbf1666f830 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 450612,
-      "error": "RetryError: RetryError[<Future at 0x7fbf167565d0 state=finished raised HTTPStatusError>]"
+      "spell_id": 453828,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16885eb0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 451018,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16710c20 state=finished raised HTTPStatusError>]"
+      "spell_id": 453845,
+      "error": "RetryError: RetryError[<Future at 0x7fbf165d2270 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 451204,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecef60 state=finished raised HTTPStatusError>]"
+      "spell_id": 453852,
+      "error": "RetryError: RetryError[<Future at 0x7fbf1674fa70 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 451234,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c5ba10 state=finished raised HTTPStatusError>]"
+      "spell_id": 453917,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16c5ccb0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 451311,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d9d0a0 state=finished raised HTTPStatusError>]"
+      "spell_id": 453918,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16ecffb0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 451569,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16db74a0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 451840,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1827e990 state=finished raised HTTPStatusError>]"
+      "spell_id": 454001,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16c23c50 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 458718,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165d3500 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf1827d1f0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 459559,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17150470 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf165ff590 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 472361,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165d27e0 state=finished raised HTTPStatusError>]"
+      "spell_id": 471504,
+      "error": "RetryError: RetryError[<Future at 0x7fbf1677ec30 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 472433,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16eceba0 state=finished raised HTTPStatusError>]"
+      "spell_id": 471668,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16887650 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 472568,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e3f530 state=finished raised HTTPStatusError>]"
+      "spell_id": 1215241,
+      "error": "RetryError: RetryError[<Future at 0x7fbf1651d9a0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 1235211,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16d572f0 state=finished raised HTTPStatusError>]"
+      "spell_id": 1215245,
+      "error": "RetryError: RetryError[<Future at 0x7fbf1827d550 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 1240364,
-      "error": "RetryError: RetryError[<Future at 0x7fbf17151010 state=finished raised HTTPStatusError>]"
+      "spell_id": 1215265,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16fcf950 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 1215275,
+      "error": "RetryError: RetryError[<Future at 0x7fbf168239b0 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 1246517,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16fcd490 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 1246549,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171531d0 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf1666fad0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 1246799,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c45430 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf1827fb90 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 1246802,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c44e00 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf16df9a90 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 1247131,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16dd6390 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 1247166,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16711130 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 1247178,
+      "error": "RetryError: RetryError[<Future at 0x7fbf168a1100 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 1248418,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16c45b50 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 1248423,
-      "error": "RetryError: RetryError[<Future at 0x7fbf1827c530 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf16c10890 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 1249230,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecd3d0 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf16dd5280 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 1249233,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16886c90 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1250218,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dd5fd0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1250293,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16713980 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf16fcc710 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 1250378,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16711f40 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf16dd7440 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 1250562,
+      "error": "RetryError: RetryError[<Future at 0x7fbf1651cdd0 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 1250565,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16c475c0 state=finished raised HTTPStatusError>]"
+    },
+    {
+      "source": "wowhead_page",
+      "spell_id": 1250684,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16793290 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 1250691,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165a7530 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf16ecf5f0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 1250806,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c43890 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf1825a4e0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 1250818,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165d09b0 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf1827fcb0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 1250820,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165a7140 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf166d3260 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 1250835,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166ac500 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf168a2a50 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 1251029,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16e51df0 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf16822d50 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 1251030,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecd850 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf165d10a0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 1251077,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dd6000 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf168a0fe0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 1252217,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165d2e10 state=finished raised HTTPStatusError>]"
+      "spell_id": 1262755,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16fcf8f0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 1253590,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dd5b50 state=finished raised HTTPStatusError>]"
+      "spell_id": 1262758,
+      "error": "RetryError: RetryError[<Future at 0x7fbf167d9880 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 1253724,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16ecc3e0 state=finished raised HTTPStatusError>]"
+      "spell_id": 1262760,
+      "error": "RetryError: RetryError[<Future at 0x7fbf168a0350 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 1253827,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165d15b0 state=finished raised HTTPStatusError>]"
+      "spell_id": 1272308,
+      "error": "RetryError: RetryError[<Future at 0x7fbf16c12090 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 1253845,
-      "error": "RetryError: RetryError[<Future at 0x7fbf166e9100 state=finished raised HTTPStatusError>]"
+      "spell_id": 1272320,
+      "error": "RetryError: RetryError[<Future at 0x7fbf1827ecf0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
-      "spell_id": 1266845,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c40ad0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1266856,
-      "error": "RetryError: RetryError[<Future at 0x7fbf171527e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1266883,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16757ef0 state=finished raised HTTPStatusError>]"
+      "spell_id": 1272326,
+      "error": "RetryError: RetryError[<Future at 0x7fbf1827dfa0 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 1272352,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c674d0 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf167db350 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 1272359,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16c12f90 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf168a0d10 state=finished raised HTTPStatusError>]"
     },
     {
       "source": "wowhead_page",
       "spell_id": 1272363,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16db42f0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1280131,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16621d60 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1280137,
-      "error": "RetryError: RetryError[<Future at 0x7fbf16dd70e0 state=finished raised HTTPStatusError>]"
-    },
-    {
-      "source": "wowhead_page",
-      "spell_id": 1298779,
-      "error": "RetryError: RetryError[<Future at 0x7fbf165722d0 state=finished raised HTTPStatusError>]"
+      "error": "RetryError: RetryError[<Future at 0x7fbf1827dcd0 state=finished raised HTTPStatusError>]"
     }
   ],
-  "slug": "priest-discipline",
-  "generated_at": "2026-09-19T13:51:47.586359+00:00",
+  "slug": "priest-holy",
+  "generated_at": "2026-09-19T13:51:52.948789+00:00",
   "validation": {
-    "talents": 133,
+    "talents": 135,
     "changed_tooltips": 0,
     "talents_with_pvp_mechanics": 0,
-    "unique_nodes": 118,
+    "unique_nodes": 119,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
     "drustvar_builds": [
       "12.1.0.69587"
     ],
     "verification_status": "PARTIAL",
-    "fetch_error_count": 285,
-    "unresolved_count": 28,
-    "review_required_count": 133,
+    "fetch_error_count": 283,
+    "unresolved_count": 29,
+    "review_required_count": 135,
     "fetch_error_examples": [
       {
         "source": "wowhead",
         "spell_id": 528,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16e657f0 state=finished raised HTTPStatusError>]"
+        "error": "RetryError: RetryError[<Future at 0x7fbf165e5c10 state=finished raised HTTPStatusError>]"
       },
       {
         "source": "wowhead",
         "spell_id": 586,
-        "error": "RetryError: RetryError[<Future at 0x7fbf1538aa20 state=finished raised HTTPStatusError>]"
+        "error": "RetryError: RetryError[<Future at 0x7fbf182590d0 state=finished raised HTTPStatusError>]"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 596,
+        "error": "RetryError: RetryError[<Future at 0x7fbf1827f8f0 state=finished raised HTTPStatusError>]"
       },
       {
         "source": "wowhead",
         "spell_id": 605,
-        "error": "RetryError: RetryError[<Future at 0x7fbf165a5910 state=finished raised HTTPStatusError>]"
+        "error": "RetryError: RetryError[<Future at 0x7fbf1825b590 state=finished raised HTTPStatusError>]"
       },
       {
         "source": "wowhead",
-        "spell_id": 8092,
-        "error": "RetryError: RetryError[<Future at 0x7fbf16571d30 state=finished raised HTTPStatusError>]"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 8122,
-        "error": "RetryError: RetryError[<Future at 0x7fbf165a6e40 state=finished raised HTTPStatusError>]"
+        "spell_id": 2050,
+        "error": "RetryError: RetryError[<Future at 0x7fbf165c31d0 state=finished raised HTTPStatusError>]"
       }
     ],
     "unresolved_examples": [
+      {
+        "spell_id": 2050,
+        "talent_name": "Holy Word: Serenity",
+        "side": "drustvar",
+        "reason": "NO_WOWHEAD_EFFECTS",
+        "multiplier": 1.28,
+        "effect_text": "Direct Heal (10)"
+      },
       {
         "spell_id": 10060,
         "talent_name": "Power Infusion",
@@ -7873,36 +8000,28 @@ window.WOW_PVP_DATA = {
         "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)"
       },
       {
-        "spell_id": 81749,
-        "talent_name": "Atonement",
+        "spell_id": 14914,
+        "talent_name": "Holy Fire",
         "side": "drustvar",
         "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 1.39,
-        "effect_text": "Apply Aura (6) | Dummy (4)"
+        "multiplier": 1.5,
+        "effect_text": "School Damage (2): holy"
       },
       {
-        "spell_id": 194509,
-        "talent_name": "Power Word: Radiance",
+        "spell_id": 14914,
+        "talent_name": "Holy Fire",
         "side": "drustvar",
         "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 1.12,
+        "multiplier": 1.65,
+        "effect_text": "Apply Aura (6) | Periodic Damage (3): holy every 1 seconds"
+      },
+      {
+        "spell_id": 34861,
+        "talent_name": "Holy Word: Sanctify",
+        "side": "drustvar",
+        "reason": "NO_WOWHEAD_EFFECTS",
+        "multiplier": 1.51,
         "effect_text": "Direct Heal (10)"
-      },
-      {
-        "spell_id": 341167,
-        "talent_name": "Mental Agility",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.5,
-        "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Resource Cost (14)"
-      },
-      {
-        "spell_id": 341167,
-        "talent_name": "Mental Agility",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.5,
-        "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Resource Cost 2 (34)"
       }
     ],
     "review_required_examples": [
@@ -7917,8 +8036,8 @@ window.WOW_PVP_DATA = {
         "status": "MISSING_TOOLTIP"
       },
       {
-        "talent_name": "Mind Blast",
-        "spell_id": 8092,
+        "talent_name": "Holy Fire",
+        "spell_id": 14914,
         "status": "MISSING_TOOLTIP"
       },
       {
