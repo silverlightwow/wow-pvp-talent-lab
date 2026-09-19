@@ -140,3 +140,46 @@ def test_spec_branch_parsing_is_not_priest_specific():
     assert "Devourer-only 30%." in selected
     assert "Havoc-only" not in selected
     assert "Vengeance-only" not in selected
+
+
+def test_attack_power_coefficient_aimed_shot():
+    tooltip = (
+        "35 Focus\n"
+        "40 yd range\n"
+        "2.5 sec cast\n"
+        "15 sec recharge\n"
+        "2 Charges\n"
+        "A powerful aimed shot that deals "
+        "(972% of Attack Power) Physical damage."
+    )
+
+    rows = [
+        {
+            "effect_index": 1,
+            "effect_text": (
+                "School Damage (Physical) "
+                "(AP mod: 9.72)"
+            ),
+            "wowhead_raw": (
+                "Effect #1 School Damage (Physical) "
+                "(AP mod: 9.72)"
+            ),
+            "base_value": None,
+            "final_pvp_multiplier": 1.273,
+            "final_pvp_value": None,
+        },
+    ]
+
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Marksmanship",
+        spec_names=[
+            "Beast Mastery",
+            "Marksmanship",
+            "Survival",
+        ],
+        effect_rows=rows,
+    )
+
+    assert result["render_status"] == "COMPLETE"
+    assert "(1237.356% of Attack Power)" in result["pvp_tooltip"]
