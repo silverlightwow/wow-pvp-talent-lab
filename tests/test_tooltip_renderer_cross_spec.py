@@ -340,5 +340,5 @@ def test_duplicate_cooldown_encodings_collapse_to_one_visible_change():
     )
 
     assert result["render_status"] == "COMPLETE"
-    assert "by 3 sec" in result["pvp_tooltip"]
+    assert "by 3.0 sec" in result["pvp_tooltip"]
     assert "15% faster" in result["pvp_tooltip"]
