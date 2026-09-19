@@ -1293,27 +1293,116 @@ def dependency_effect_reference_contexts(
     dependency: SimcDependency,
     source_spell_id: int,
     effect_index: int,
+    dump: SimcDump | None = None,
 ) -> tuple[str, ...]:
     """
-    Extract exact parent/dependency formula lines that reference one
-    concrete child SpellEffect, for example $81782s2.
+    Return player-facing parent text tied to one concrete child effect.
 
-    This complements effect_reference_contexts(): many runtime/output
-    spells have no useful own tooltip because the player-facing value is
-    rendered by the parent talent that references them.
+    With an exact-build dump, resolve both direct qualified effect tokens
+    and named variables whose formulas depend on that token. Internal
+    Variables lines are not themselves treated as player-facing proof.
     """
 
     token = re.compile(
-        rf"\${int(source_spell_id)}"
-        rf"s{int(effect_index)}"
-        rf"(?!\d)",
+        r"\$"
+        + str(int(source_spell_id))
+        + rf"s{int(effect_index)}(?!\d)",
         re.I,
     )
 
     contexts = []
 
-    for evidence in dependency.evidence:
+    def add_context(line: str) -> None:
+        context = " ".join(
+            str(line or "").split()
+        )
 
+        if (
+            context
+            and context not in contexts
+        ):
+            contexts.append(context)
+
+    if dump is not None:
+        path = tuple(
+            dependency.path_spell_ids
+        )
+
+        parent_id = (
+            int(path[-2])
+            if len(path) >= 2
+            else int(
+                dependency.root_spell_id
+            )
+        )
+
+        parent = dump.spells.get(
+            parent_id
+        )
+
+        if parent is not None:
+            player_lines = _player_text_sections(
+                parent.raw
+            )
+
+            for line in player_lines:
+                if token.search(line):
+                    add_context(line)
+
+            definitions = _variable_definitions(
+                parent.raw
+            )
+
+            dependent_names = set()
+            changed = True
+
+            while changed:
+                changed = False
+
+                for name, formula in (
+                    definitions.items()
+                ):
+                    if name in dependent_names:
+                        continue
+
+                    direct = bool(
+                        token.search(
+                            formula
+                        )
+                    )
+
+                    indirect = any(
+                        _variable_reference_pattern(
+                            dependency_name
+                        ).search(
+                            formula
+                        )
+                        for dependency_name
+                        in dependent_names
+                    )
+
+                    if direct or indirect:
+                        dependent_names.add(
+                            name
+                        )
+                        changed = True
+
+            if dependent_names:
+                for line in player_lines:
+                    if any(
+                        _variable_reference_pattern(
+                            name
+                        ).search(
+                            line
+                        )
+                        for name
+                        in dependent_names
+                    ):
+                        add_context(line)
+
+            return tuple(contexts)
+
+    for evidence in dependency.evidence:
         text = " ".join(
             str(evidence or "").split()
         )
@@ -1321,31 +1410,91 @@ def dependency_effect_reference_contexts(
         if (
             text
             and token.search(text)
-            and text not in contexts
         ):
-            contexts.append(text)
+            add_context(text)
 
     return tuple(contexts)
 
+
+def dependent_effect_reference_contexts(
+    dump: SimcDump,
+    spell_id: int,
+    effect_index: int,
+) -> tuple[str, ...]:
+    """
+    Find player-facing text in immediate structural children that refers
+    back to one effect of the current talent. This covers embedded
+    descriptions whose tuning parameters live on the parent talent.
+    """
+
+    spell_id = int(spell_id)
+    effect_index = int(effect_index)
+
+    token = re.compile(
+        r"\$"
+        + str(spell_id)
+        + rf"s{effect_index}(?!\d)",
+        re.I,
+    )
+
+    contexts = []
+
+    target_ids = {
+        int(edge.target_spell_id)
+        for edge in dump.edges.get(
+            spell_id,
+            tuple(),
+        )
+    }
+
+    for target_id in sorted(
+        target_ids
+    ):
+        target = dump.spells.get(
+            target_id
+        )
+
+        if target is None:
+            continue
+
+        for line in _player_text_sections(
+            target.raw
+        ):
+            if not token.search(line):
+                continue
+
+            context = " ".join(
+                str(line or "").split()
+            )
+
+            if (
+                context
+                and context not in contexts
+            ):
+                contexts.append(
+                    context
+                )
+
+    return tuple(contexts)
 
 def dependency_effect_unit_hint(
     dependency: SimcDependency,
     source_spell_id: int,
     effect_index: int,
+    dump: SimcDump | None = None,
 ) -> str | None:
     """
-    Infer a unit from the exact parent formula around a referenced child
-    effect. Only immediate explicit suffixes are accepted.
+    Infer a unit from the parent player-facing context around a child
+    SpellEffect.
     """
 
     token = (
-        rf"\${int(source_spell_id)}"
-        rf"s{int(effect_index)}"
-        rf"(?!\d)"
+        r"\$"
+        + str(int(source_spell_id))
+        + rf"s{int(effect_index)}(?!\d)"
     )
 
     for evidence in dependency.evidence:
-
         line = str(
             evidence or ""
         )
@@ -1373,8 +1522,41 @@ def dependency_effect_unit_hint(
         ):
             return "yards"
 
-    return None
+    contexts = dependency_effect_reference_contexts(
+        dependency,
+        source_spell_id,
+        effect_index,
+        dump=dump,
+    )
 
+    if contexts:
+        if all(
+            "%" in context
+            for context in contexts
+        ):
+            return "percent"
+
+        if all(
+            re.search(
+                r"\bsec(?:onds?)?\b",
+                context,
+                re.I,
+            )
+            for context in contexts
+        ):
+            return "seconds"
+
+        if all(
+            re.search(
+                r"\b(?:yds?|yards?)\b",
+                context,
+                re.I,
+            )
+            for context in contexts
+        ):
+            return "yards"
+
+    return None
 
 def pvp_modified_spell_ids(
     dump: SimcDump,
