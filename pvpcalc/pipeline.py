@@ -1357,6 +1357,14 @@ def _fill_missing_base_values_from_simc(
             )
         )
 
+        dependent_reference_contexts = list(
+            simc.dependent_effect_reference_contexts(
+                simc_dump,
+                spell_id,
+                int(effect_index),
+            )
+        )
+
         existing_reference_contexts = list(
             row.get(
                 "simc_reference_contexts",
@@ -1372,6 +1380,7 @@ def _fill_missing_base_values_from_simc(
                 [
                     *existing_reference_contexts,
                     *own_reference_contexts,
+                    *dependent_reference_contexts,
                 ]
             )
         )
@@ -3844,6 +3853,7 @@ async def audit_spec(
                     dependency,
                     source_id,
                     int(effect_index),
+                    dump=simc_dump,
                 )
                 if effect_index is not None
                 else tuple()
@@ -3854,6 +3864,7 @@ async def audit_spec(
                     dependency,
                     source_id,
                     int(effect_index),
+                    dump=simc_dump,
                 )
                 if effect_index is not None
                 else None
