@@ -903,3 +903,37 @@ def test_conflicting_equal_values_use_source_spell_provenance():
         item["status"] == "CONFLICTING_TRANSFORMS"
         for item in result["diagnostics"]
     )
+
+
+
+def test_frozen_dominion_formula_fallback_without_source_context():
+    tooltip = (
+        "Pillar of Frost now summons a Remorseless Winter that lasts "
+        "4 sec longer.\n"
+        "Each enemy Remorseless Winter damages grants you "
+        "(4 * $mastery)% Mastery, up to "
+        "(4 * $mastery * 5)% for 15 sec."
+    )
+
+    rows = [
+        {
+            "effect_index": 2,
+            "effect_text": "Apply Aura: Dummy",
+            "base_value": 4,
+            "final_pvp_multiplier": 0.5,
+            "final_pvp_value": 2,
+            "simc_reference_contexts": [],
+        },
+    ]
+
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Frost",
+        spec_names=["Blood", "Frost", "Unholy"],
+        effect_rows=rows,
+    )
+
+    assert result["render_status"] == "COMPLETE"
+    assert "lasts 4 sec longer" in result["pvp_tooltip"]
+    assert "(2 * $mastery)% Mastery" in result["pvp_tooltip"]
+    assert "(2 * $mastery * 5)%" in result["pvp_tooltip"]
