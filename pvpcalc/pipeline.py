@@ -1480,6 +1480,418 @@ def _fill_missing_base_values_from_simc(
             )
 
 
+def _simc_effect_text_for_renderer(
+    simc_effect,
+) -> str:
+    """
+    Preserve the SimC semantic effect type while adding coefficient
+    metadata in the same compact vocabulary already understood by the
+    renderer.
+    """
+
+    text = str(
+        simc_effect.effect_text
+        or ""
+    ).strip()
+
+    extras = []
+
+    if (
+        simc_effect.sp_coefficient
+        is not None
+        and "sp mod:" not in text.casefold()
+    ):
+        extras.append(
+            "SP mod: "
+            f"{simc_effect.sp_coefficient:g}"
+        )
+
+    if (
+        simc_effect.ap_coefficient
+        is not None
+        and "ap mod:" not in text.casefold()
+    ):
+        extras.append(
+            "AP mod: "
+            f"{simc_effect.ap_coefficient:g}"
+        )
+
+    if extras:
+        text = (
+            text
+            + " ("
+            + ", ".join(extras)
+            + ")"
+        )
+
+    return text
+
+
+def _simc_effect_observations(
+    simc_dump,
+    spell_id: int,
+) -> list[EffectObservation]:
+
+    spell = simc_dump.spells.get(
+        int(spell_id)
+    )
+
+    if spell is None:
+        return []
+
+    result = []
+
+    for simc_effect in (
+        simc.parse_spell_effects(
+            spell
+        ).values()
+    ):
+
+        if (
+            simc_effect.pvp_coefficient
+            is None
+        ):
+            continue
+
+        coefficient_based = (
+            simc_effect.sp_coefficient
+            is not None
+            or simc_effect.ap_coefficient
+            is not None
+        )
+
+        result.append(
+            EffectObservation(
+                source="simc",
+                spell_id=int(spell_id),
+                spell_name=spell.name,
+                effect_index=int(
+                    simc_effect.effect_index
+                ),
+                base_value=(
+                    None
+                    if coefficient_based
+                    else simc_effect.base_value
+                ),
+                pvp_multiplier=float(
+                    simc_effect.pvp_coefficient
+                ),
+                effect_text=
+                    _simc_effect_text_for_renderer(
+                        simc_effect
+                    ),
+                patch=simc_dump.build,
+                url="",
+                raw=spell.raw,
+            )
+        )
+
+    return result
+
+
+def _build_simc_fallback_rows(
+    *,
+    spell_ids: set[int],
+    talent_by_spell: dict[int, dict],
+    drustvar_by_spell: dict[int, list],
+    simc_dump,
+) -> tuple[list[dict], set[int]]:
+    """
+    Build canonical effect rows when Wowhead exposes no structured
+    SpellEffect block but exact-build SimC and current Drustvar agree.
+
+    We only clear NO_WOWHEAD_EFFECTS for a spell when every current
+    Drustvar modifier for that spell has a one-to-one corroborated SimC
+    match. Partial matches are still emitted for audit visibility, but
+    the source-gap diagnostic remains.
+    """
+
+    rows = []
+    fully_resolved = set()
+
+    for spell_id in sorted(
+        {
+            int(value)
+            for value in spell_ids
+        }
+    ):
+
+        dr_effects = list(
+            drustvar_by_spell.get(
+                spell_id,
+                [],
+            )
+        )
+
+        if not dr_effects:
+            continue
+
+        simc_effects = (
+            _simc_effect_observations(
+                simc_dump,
+                spell_id,
+            )
+        )
+
+        if not simc_effects:
+            continue
+
+        resolution = (
+            resolve_effect_matches(
+                simc_effects,
+                dr_effects,
+            )
+        )
+
+        matches = list(
+            resolution["matches"]
+        )
+
+        if not matches:
+            continue
+
+        talent = talent_by_spell.get(
+            spell_id,
+            {},
+        )
+
+        same_groups = {}
+
+        for observation in simc_effects:
+            key = (
+                observation.base_value,
+                observation.effect_text,
+            )
+
+            same_groups.setdefault(
+                key,
+                [],
+            ).append(
+                observation
+            )
+
+        for match in matches:
+
+            observation = match.wowhead
+            simc_effect = (
+                simc.effect_for_spell(
+                    simc_dump,
+                    spell_id,
+                    observation.effect_index,
+                )
+            )
+
+            if simc_effect is None:
+                continue
+
+            group = same_groups.get(
+                (
+                    observation.base_value,
+                    observation.effect_text,
+                ),
+                [observation],
+            )
+
+            base_value = (
+                observation.base_value
+            )
+
+            multiplier = float(
+                observation.pvp_multiplier
+            )
+
+            rows.append(
+                {
+                    "class_name":
+                        talent.get(
+                            "class_name"
+                        ),
+
+                    "spec_name":
+                        talent.get(
+                            "spec_name"
+                        ),
+
+                    "tree_type":
+                        talent.get(
+                            "tree_type"
+                        ),
+
+                    "hero_tree":
+                        talent.get(
+                            "hero_tree"
+                        ),
+
+                    "node_id":
+                        talent.get(
+                            "node_id"
+                        ),
+
+                    "entry_id":
+                        talent.get(
+                            "entry_id"
+                        ),
+
+                    "talent_name":
+                        talent.get(
+                            "talent_name"
+                        ),
+
+                    "spell_id":
+                        spell_id,
+
+                    "effect_index":
+                        observation.effect_index,
+
+                    "effect_text":
+                        observation.effect_text,
+
+                    # Keep the renderer interface stable while making
+                    # provenance explicit.
+                    "wowhead_raw":
+                        observation.effect_text,
+
+                    "simc_raw":
+                        (
+                            simc_dump.spells[
+                                spell_id
+                            ].raw
+                        ),
+
+                    "same_value_text_ordinal":
+                        (
+                            group.index(
+                                observation
+                            )
+                            + 1
+                            if base_value
+                            is not None
+                            else None
+                        ),
+
+                    "same_value_text_count":
+                        (
+                            len(group)
+                            if base_value
+                            is not None
+                            else None
+                        ),
+
+                    "base_value":
+                        base_value,
+
+                    "pvp_multiplier":
+                        multiplier,
+
+                    "pvp_value":
+                        (
+                            float(base_value)
+                            * multiplier
+                            if base_value
+                            is not None
+                            else None
+                        ),
+
+                    "is_pvp_modified":
+                        _is_modified(
+                            multiplier
+                        ),
+
+                    "wowhead_present":
+                        False,
+
+                    "drustvar_matched":
+                        True,
+
+                    "sources":
+                        [
+                            "simc",
+                            "drustvar",
+                        ],
+
+                    "confidence":
+                        "high",
+
+                    "conflicts":
+                        [],
+
+                    "match_reason":
+                        (
+                            "simc_"
+                            + match.reason
+                        ),
+
+                    "semantic_score":
+                        match.semantic_score,
+
+                    "wowhead_multiplier":
+                        None,
+
+                    "simc_multiplier":
+                        multiplier,
+
+                    "drustvar_multiplier":
+                        (
+                            match.drustvar
+                            .pvp_multiplier
+                        ),
+
+                    "multiplier_delta":
+                        match.multiplier_delta,
+
+                    "drustvar_effect_text":
+                        (
+                            match.drustvar
+                            .effect_text
+                        ),
+
+                    "simc_base_value":
+                        simc_effect.base_value,
+
+                    "simc_sp_coefficient":
+                        simc_effect.sp_coefficient,
+
+                    "simc_ap_coefficient":
+                        simc_effect.ap_coefficient,
+
+                    "simc_pvp_coefficient":
+                        simc_effect.pvp_coefficient,
+
+                    "base_value_source":
+                        (
+                            "simc_exact_build_coefficient"
+                            if (
+                                simc_effect.sp_coefficient
+                                is not None
+                                or simc_effect.ap_coefficient
+                                is not None
+                            )
+                            else "simc_exact_build"
+                        ),
+
+                    "simc_corroborated":
+                        True,
+                }
+            )
+
+        if (
+            len(
+                resolution[
+                    "unmatched_drustvar"
+                ]
+            )
+            == 0
+        ):
+            fully_resolved.add(
+                spell_id
+            )
+
+    return (
+        rows,
+        fully_resolved,
+    )
+
+
 def _simc_observation(
     simc_dump,
     spell_id: int,
@@ -2230,6 +2642,62 @@ async def audit_spec(
     )
 
 
+    direct_missing_wowhead_ids = {
+        int(item["spell_id"])
+        for item in result.unresolved_rows
+        if (
+            item.get("reason")
+            == "NO_WOWHEAD_EFFECTS"
+            and item.get("spell_id")
+            is not None
+        )
+    }
+
+    (
+        direct_simc_fallback_rows,
+        direct_simc_resolved_ids,
+    ) = _build_simc_fallback_rows(
+        spell_ids=
+            direct_missing_wowhead_ids,
+        talent_by_spell=
+            talent_by_spell,
+        drustvar_by_spell=
+            _group_drustvar(
+                dr_all,
+                direct_missing_wowhead_ids,
+            ),
+        simc_dump=
+            simc_dump,
+    )
+
+    if direct_simc_fallback_rows:
+
+        _init_history_schema(
+            direct_simc_fallback_rows
+        )
+
+        result.effect_rows.extend(
+            direct_simc_fallback_rows
+        )
+
+        result.unresolved_rows = [
+            item
+            for item
+            in result.unresolved_rows
+            if not (
+                item.get("reason")
+                == "NO_WOWHEAD_EFFECTS"
+                and int(
+                    item.get(
+                        "spell_id",
+                        -1,
+                    )
+                )
+                in direct_simc_resolved_ids
+            )
+        ]
+
+
     # Resolve source-representation differences with the exact-build
     # SimC dump before deciding whether a spec is incomplete.
     result.unresolved_rows = (
@@ -2295,6 +2763,55 @@ async def audit_spec(
                     aura_only_direct_ids,
                 ),
         )
+
+
+        extra_missing_ids = {
+            int(item["spell_id"])
+            for item in extra_unresolved
+            if (
+                item.get("reason")
+                == "NO_WOWHEAD_EFFECTS"
+                and item.get("spell_id")
+                is not None
+            )
+        }
+
+        (
+            extra_simc_rows,
+            extra_simc_resolved_ids,
+        ) = _build_simc_fallback_rows(
+            spell_ids=
+                extra_missing_ids,
+            talent_by_spell=
+                talent_by_spell,
+            drustvar_by_spell=
+                _group_drustvar(
+                    dr_all,
+                    extra_missing_ids,
+                ),
+            simc_dump=
+                simc_dump,
+        )
+
+        extra_direct_rows.extend(
+            extra_simc_rows
+        )
+
+        extra_unresolved = [
+            item
+            for item in extra_unresolved
+            if not (
+                item.get("reason")
+                == "NO_WOWHEAD_EFFECTS"
+                and int(
+                    item.get(
+                        "spell_id",
+                        -1,
+                    )
+                )
+                in extra_simc_resolved_ids
+            )
+        ]
 
 
         _init_history_schema(
@@ -2427,6 +2944,54 @@ async def audit_spec(
                     )
             },
         )
+
+
+        child_missing_ids = {
+            int(item["spell_id"])
+            for item in child_unresolved
+            if (
+                item.get("reason")
+                == "NO_WOWHEAD_EFFECTS"
+                and item.get("spell_id")
+                is not None
+            )
+        }
+
+        (
+            child_simc_rows,
+            child_simc_resolved_ids,
+        ) = _build_simc_fallback_rows(
+            spell_ids=
+                child_missing_ids,
+            talent_by_spell={
+                source_id:
+                    parent_talent
+            },
+            drustvar_by_spell=
+                dependency_drustvar_by_spell,
+            simc_dump=
+                simc_dump,
+        )
+
+        child_rows.extend(
+            child_simc_rows
+        )
+
+        child_unresolved = [
+            item
+            for item in child_unresolved
+            if not (
+                item.get("reason")
+                == "NO_WOWHEAD_EFFECTS"
+                and int(
+                    item.get(
+                        "spell_id",
+                        -1,
+                    )
+                )
+                in child_simc_resolved_ids
+            )
+        ]
 
 
         kind = _classify_dependency(
