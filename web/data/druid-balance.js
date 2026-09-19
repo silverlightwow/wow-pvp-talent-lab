@@ -9758,7 +9758,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "druid-balance",
-  "generated_at": "2026-09-19T17:41:59.254769+00:00",
+  "generated_at": "2026-09-19T18:50:32.989093+00:00",
   "validation": {
     "talents": 142,
     "changed_tooltips": 20,

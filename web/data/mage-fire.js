@@ -9680,7 +9680,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "mage-fire",
-  "generated_at": "2026-09-19T17:46:55.261594+00:00",
+  "generated_at": "2026-09-19T18:55:02.614026+00:00",
   "validation": {
     "talents": 127,
     "changed_tooltips": 23,

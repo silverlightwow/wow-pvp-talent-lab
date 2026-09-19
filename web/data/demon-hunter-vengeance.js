@@ -49,8 +49,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 198793,
         "icon": "ability_demonhunter_vengefulretreat2"
       },
-      "pve_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRemove all snares and vault away. Nearby enemies take (16% of Attack Power) Physical damage [\nVengeful Bonds\n:\nand have their movement speed reduced by 70% for 3 sec\n].",
-      "pvp_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRemove all snares and vault away. Nearby enemies take (16% of Attack Power) Physical damage [\nVengeful Bonds\n:\nand have their movement speed reduced by 70% for 3 sec\n].",
+      "pve_tooltip": "Talent\nInstant\n25 sec cooldown\n1 Charge\nRequires Demon Hunter\nRemove all snares and vault away. Nearby enemies take (16% of Attack Power) Physical damage [\nVengeful Bonds\n:\nand have their movement speed reduced by 70% for 3 sec\n].",
+      "pvp_tooltip": "Talent\nInstant\n25 sec cooldown\n1 Charge\nRequires Demon Hunter\nRemove all snares and vault away. Nearby enemies take (16% of Attack Power) Physical damage [\nVengeful Bonds\n:\nand have their movement speed reduced by 70% for 3 sec\n].",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -63,7 +63,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 198793,
           "source_spell_id": 198813,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -70.0,
           "spell_pvp_multiplier": 0.714286,
           "amount_kind": null,
@@ -80,9 +80,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -131,8 +130,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 232893,
         "icon": "ability_demonhunter_felblade"
       },
-      "pve_tooltip": "15 yd range\nInstant\n12 sec cooldown\nCharge to your target and deal (122.94% of Attack Power)%\nFire\ndamage.\n[\nFracture\n:\nGenerates 15 Fury.\n] [\nDemonic Wards\n:\nGenerates 15 Fury.\n]\nGenerates 15 Fury.",
-      "pvp_tooltip": "15 yd range\nInstant\n12 sec cooldown\nCharge to your target and deal (122.94% of Attack Power)%\nFire\ndamage.\n[\nFracture\n:\nGenerates 15 Fury.\n] [\nDemonic Wards\n:\nGenerates 15 Fury.\n]\nGenerates 15 Fury.",
+      "pve_tooltip": "Talent\n15 yd range\nInstant\n12 sec cooldown\nRequires Demon Hunter\nRequires level 15 (Havoc, Vengeance)\nCharge to your target and deal (122.94% of Attack Power)%\nFire\ndamage.\n[\nFracture\n:\nGenerates 15 Fury.\n] [\nDemonic Wards\n:\nGenerates 15 Fury.\n]\nGenerates 15 Fury.",
+      "pvp_tooltip": "Talent\n15 yd range\nInstant\n12 sec cooldown\nRequires Demon Hunter\nRequires level 15 (Havoc, Vengeance)\nCharge to your target and deal (122.94% of Attack Power)%\nFire\ndamage.\n[\nFracture\n:\nGenerates 15 Fury.\n] [\nDemonic Wards\n:\nGenerates 15 Fury.\n]\nGenerates 15 Fury.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -145,7 +144,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 232893,
           "source_spell_id": 213243,
           "effect_index": 2,
-          "effect_text": "School Damage (Fire) (AP mod: 1.2294 )",
+          "effect_text": "School Damage (2): fire (AP mod: 1.2294)",
           "base_value": null,
           "spell_pvp_multiplier": 1.2,
           "amount_kind": "direct",
@@ -162,9 +161,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -213,8 +211,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 207684,
         "icon": "ability_demonhunter_sigilofmisery"
       },
-      "pve_tooltip": "30 yd range\nInstant\n2 min cooldown\n1 Charge\nPlace a Sigil of Misery at the target location that activates after\n2 sec\n.\nCauses all enemies affected by the sigil to cower in fear, disorienting them for\n15 sec\n.",
-      "pvp_tooltip": "30 yd range\nInstant\n2 min cooldown\n1 Charge\nPlace a Sigil of Misery at the target location that activates after\n2 sec\n.\nCauses all enemies affected by the sigil to cower in fear, disorienting them for\n15 sec\n.",
+      "pve_tooltip": "Talent\n30 yd range\nInstant\n2 min cooldown\n1 Charge\nRequires Demon Hunter\nPlace a Sigil of Misery at the target location that activates after\n2 sec\n.\nCauses all enemies affected by the sigil to cower in fear, disorienting them for\n15 sec\n.",
+      "pvp_tooltip": "Talent\n30 yd range\nInstant\n2 min cooldown\n1 Charge\nRequires Demon Hunter\nPlace a Sigil of Misery at the target location that activates after\n2 sec\n.\nCauses all enemies affected by the sigil to cower in fear, disorienting them for\n15 sec\n.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -266,14 +264,14 @@ window.WOW_PVP_DATA = {
         "spell_id": 320635,
         "icon": "ability_demonhunter_vengefulretreat2"
       },
-      "pve_tooltip": "Vengeful Retreat reduces the movement speed of all nearby enemies by 70% for 3 sec.",
-      "pvp_tooltip": "Vengeful Retreat reduces the movement speed of all nearby enemies by 50% for 3 sec.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nVengeful Retreat reduces the movement speed of all nearby enemies by 70% for 3 sec.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nVengeful Retreat reduces the movement speed of all nearby enemies by 50% for 3 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 69,
-          "end": 71,
+          "start": 98,
+          "end": 100,
           "old_token": "70",
           "new_token": "50",
           "kind": "percent_value",
@@ -301,7 +299,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 320635,
           "source_spell_id": 198813,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -70.0,
           "spell_pvp_multiplier": 0.714286,
           "amount_kind": null,
@@ -318,9 +316,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -372,8 +369,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 320770,
         "icon": "ability_warrior_improveddisciplines"
       },
-      "pve_tooltip": "Increases maximum Fury by 20.",
-      "pvp_tooltip": "Increases maximum Fury by 20.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nIncreases maximum Fury by 20.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nIncreases maximum Fury by 20.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -427,8 +424,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 389824,
         "icon": "ability_warlock_soulsiphon"
       },
-      "pve_tooltip": "The healing of Shattered Souls is increased by 10%.",
-      "pvp_tooltip": "The healing of Shattered Souls is increased by 10%.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nThe healing of Shattered Souls is increased by 10%.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nThe healing of Shattered Souls is increased by 10%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -480,8 +477,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 320418,
         "icon": "ability_demonhunter_sigilofmisery"
       },
-      "pve_tooltip": "Reduces the cooldown of Sigil of [\nSigil of Silence\n:\nSilence\n/ Misery] by [\nSigil of Chains\n:\n15\n/ 30] sec.",
-      "pvp_tooltip": "Reduces the cooldown of Sigil of [\nSigil of Silence\n:\nSilence\n/ Misery] by [\nSigil of Chains\n:\n15\n/ 30] sec.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nReduces the cooldown of Sigil of [\nSigil of Silence\n:\nSilence\n/ Misery] by [\nSigil of Chains\n:\n15\n/ 30] sec.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nReduces the cooldown of Sigil of [\nSigil of Silence\n:\nSilence\n/ Misery] by [\nSigil of Chains\n:\n15\n/ 30] sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -535,8 +532,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 320386,
         "icon": "ability_demonhunter_throwglaive"
       },
-      "pve_tooltip": "Throw Glaive ricochets to 1 additional target.",
-      "pvp_tooltip": "Throw Glaive ricochets to 1 additional target.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nThrow Glaive ricochets to 1 additional target.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nThrow Glaive ricochets to 1 additional target.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -590,8 +587,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 217832,
         "icon": "ability_demonhunter_imprison"
       },
-      "pve_tooltip": "20 yd range\nInstant\n45 sec cooldown\nImprisons a demon, beast, or humanoid, incapacitating them for 1 min. Damage may cancel the effect. Limit 1.",
-      "pvp_tooltip": "20 yd range\nInstant\n45 sec cooldown\nImprisons a demon, beast, or humanoid, incapacitating them for 1 min. Damage may cancel the effect. Limit 1.",
+      "pve_tooltip": "Talent\n20 yd range\nInstant\n45 sec cooldown\nRequires Demon Hunter\nImprisons a demon, beast, or humanoid, incapacitating them for 1 min. Damage may cancel the effect. Limit 1.",
+      "pvp_tooltip": "Talent\n20 yd range\nInstant\n45 sec cooldown\nRequires Demon Hunter\nImprisons a demon, beast, or humanoid, incapacitating them for 1 min. Damage may cancel the effect. Limit 1.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -645,8 +642,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 213010,
         "icon": "spell_fire_incinerate"
       },
-      "pve_tooltip": "You heal for 5% of all Fire damage you deal.",
-      "pvp_tooltip": "You heal for 5% of all Fire damage you deal.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nYou heal for 5% of all Fire damage you deal.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nYou heal for 5% of all Fire damage you deal.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -698,8 +695,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 179057,
         "icon": "spell_fire_felfirenova"
       },
-      "pve_tooltip": "25 Fury\nInstant\n45 sec cooldown\nUnleash an eruption of fel energy, dealing (27.4816% of Attack Power) Chaos damage and stunning all nearby enemies for 3 sec. [\nChaos Fragments\n:\nEach enemy stunned by Chaos Nova has a 30% chance to generate a Lesser Soul Fragment\n]",
-      "pvp_tooltip": "25 Fury\nInstant\n45 sec cooldown\nUnleash an eruption of fel energy, dealing (27.4816% of Attack Power) Chaos damage and stunning all nearby enemies for 3 sec. [\nChaos Fragments\n:\nEach enemy stunned by Chaos Nova has a 30% chance to generate a Lesser Soul Fragment\n]",
+      "pve_tooltip": "Talent\n25 Fury\nInstant\n45 sec cooldown\nRequires Demon Hunter\nUnleash an eruption of fel energy, dealing (27.4816% of Attack Power) Chaos damage and stunning all nearby enemies for 3 sec. [\nChaos Fragments\n:\nEach enemy stunned by Chaos Nova has a 30% chance to generate a Lesser Soul Fragment\n]",
+      "pvp_tooltip": "Talent\n25 Fury\nInstant\n45 sec cooldown\nRequires Demon Hunter\nUnleash an eruption of fel energy, dealing (27.4816% of Attack Power) Chaos damage and stunning all nearby enemies for 3 sec. [\nChaos Fragments\n:\nEach enemy stunned by Chaos Nova has a 30% chance to generate a Lesser Soul Fragment\n]",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -754,8 +751,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 320361,
         "icon": "ability_demonhunter_consumemagic"
       },
-      "pve_tooltip": "Increases the range of Disrupt to 10 yds.",
-      "pvp_tooltip": "Increases the range of Disrupt to 10 yds.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nIncreases the range of Disrupt to 10 yds.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nIncreases the range of Disrupt to 10 yds.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -810,8 +807,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 278326,
         "icon": "spell_misc_zandalari_council_soulswap"
       },
-      "pve_tooltip": "30 yd range\nInstant\n10 sec cooldown\nConsume 1 beneficial Magic effect removing it from the target [\nSwallowed Anger\n:\nand granting you 20 Fury\n].",
-      "pvp_tooltip": "30 yd range\nInstant\n10 sec cooldown\nConsume 1 beneficial Magic effect removing it from the target [\nSwallowed Anger\n:\nand granting you 20 Fury\n].",
+      "pve_tooltip": "Talent\n30 yd range\nInstant\n10 sec cooldown\nRequires Demon Hunter\nConsume 1 beneficial Magic effect removing it from the target [\nSwallowed Anger\n:\nand granting you 20 Fury\n].",
+      "pvp_tooltip": "Talent\n30 yd range\nInstant\n10 sec cooldown\nRequires Demon Hunter\nConsume 1 beneficial Magic effect removing it from the target [\nSwallowed Anger\n:\nand granting you 20 Fury\n].",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -864,8 +861,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 391409,
         "icon": "inv_glaive_1h_artifactaldrochi_d_01dual"
       },
-      "pve_tooltip": "Increases your chance to parry by 3%.",
-      "pvp_tooltip": "Increases your chance to parry by 3%.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nIncreases your chance to parry by 3%.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nIncreases your chance to parry by 3%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -917,8 +914,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266296,
         "icon": "ability_bossfellord_felspike"
       },
-      "pve_tooltip": "The primary target of Chaos Nova is stunned for an additional 2 sec.",
-      "pvp_tooltip": "The primary target of Chaos Nova is stunned for an additional 2 sec.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nThe primary target of Chaos Nova is stunned for an additional 2 sec.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nThe primary target of Chaos Nova is stunned for an additional 2 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -942,7 +939,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1266296,
           "source_spell_id": 1266296,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Dummy",
+          "effect_text": "Apply Aura (6) | Dummy (4)",
           "base_value": 2000.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -954,9 +951,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -1007,8 +1003,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 389763,
         "icon": "inv_glaive_1h_demonhunter_a_01"
       },
-      "pve_tooltip": "Throw Glaive has 2 charges and snares all enemies hit by 50% for 6 sec.",
-      "pvp_tooltip": "Throw Glaive has 2 charges and snares all enemies hit by 50% for 6 sec.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nThrow Glaive has 2 charges and snares all enemies hit by 50% for 6 sec.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nThrow Glaive has 2 charges and snares all enemies hit by 50% for 6 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1021,7 +1017,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 389763,
           "source_spell_id": 213405,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -1038,9 +1034,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -1091,8 +1086,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 429211,
         "icon": "inv_glaive_1h_battledungeon_c_01"
       },
-      "pve_tooltip": "Throw Glaive has 2 charges and 10 yard increased range.",
-      "pvp_tooltip": "Throw Glaive has 2 charges and 10 yard increased range.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nThrow Glaive has 2 charges and 10 yard increased range.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nThrow Glaive has 2 charges and 10 yard increased range.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1144,8 +1139,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 183782,
         "icon": "ability_demonhunter_consumemagic"
       },
-      "pve_tooltip": "Disrupt generates 30 Fury on a successful interrupt.",
-      "pvp_tooltip": "Disrupt generates 30 Fury on a successful interrupt.",
+      "pve_tooltip": "Requires Demon Hunter\nRequires level 1\nDisrupt generates 30 Fury on a successful interrupt.",
+      "pvp_tooltip": "Requires Demon Hunter\nRequires level 1\nDisrupt generates 30 Fury on a successful interrupt.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1200,8 +1195,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 320416,
         "icon": "ability_demonhunter_felrush"
       },
-      "pve_tooltip": "Infernal Strike gains an additional charge.",
-      "pvp_tooltip": "Infernal Strike gains an additional charge.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nInfernal Strike gains an additional charge.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nInfernal Strike gains an additional charge.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1251,8 +1246,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 320313,
         "icon": "spell_misc_zandalari_council_soulswap"
       },
-      "pve_tooltip": "Consume Magic generates 20 Fury when a beneficial Magic effect is successfully removed from the target.",
-      "pvp_tooltip": "Consume Magic generates 20 Fury when a beneficial Magic effect is successfully removed from the target.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nConsume Magic generates 20 Fury when a beneficial Magic effect is successfully removed from the target.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nConsume Magic generates 20 Fury when a beneficial Magic effect is successfully removed from the target.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1307,8 +1302,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 207347,
         "icon": "spell_fire_felimmolation"
       },
-      "pve_tooltip": "Increases the critical strike chance of Immolation Aura by 6%.",
-      "pvp_tooltip": "Increases the critical strike chance of Immolation Aura by 6%.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nIncreases the critical strike chance of Immolation Aura by 6%.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nIncreases the critical strike chance of Immolation Aura by 6%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1360,8 +1355,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 428607,
         "icon": "inv_sword_108"
       },
-      "pve_tooltip": "When you parry an attack or have one of your attacks parried, restore 2% of max health and 10 Fury.\nThis effect may only occur once every 5 sec.\n(5s cooldown)",
-      "pvp_tooltip": "When you parry an attack or have one of your attacks parried, restore 2% of max health and 10 Fury.\nThis effect may only occur once every 5 sec.\n(5s cooldown)",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nWhen you parry an attack or have one of your attacks parried, restore 2% of max health and 10 Fury.\nThis effect may only occur once every 5 sec.\n(5s cooldown)",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nWhen you parry an attack or have one of your attacks parried, restore 2% of max health and 10 Fury.\nThis effect may only occur once every 5 sec.\n(5s cooldown)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1414,8 +1409,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 320654,
         "icon": "ability_demonhunter_infernalstrike2"
       },
-      "pve_tooltip": "Mastery increases your movement speed.",
-      "pvp_tooltip": "Mastery increases your movement speed.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nMastery increases your movement speed.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nMastery increases your movement speed.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1470,8 +1465,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 204909,
         "icon": "ability_demonhunter_soulcleave2"
       },
-      "pve_tooltip": "Leech increased by 6%.\nGain an additional 6% leech while Metamorphosis is active.",
-      "pvp_tooltip": "Leech increased by 6%.\nGain an additional 6% leech while Metamorphosis is active.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nRequires level 35\nLeech increased by 6%.\nGain an additional 6% leech while Metamorphosis is active.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nRequires level 35\nLeech increased by 6%.\nGain an additional 6% leech while Metamorphosis is active.",
       "tooltip_changed": false,
       "render_status": "REVIEW_REQUIRED",
       "changes": [],
@@ -1495,7 +1490,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 204909,
           "source_spell_id": 204909,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Mod Leech %",
+          "effect_text": "Apply Aura (6) | Modify Leech% (443)",
           "base_value": 6.0,
           "spell_pvp_multiplier": 0.833333,
           "amount_kind": null,
@@ -1507,9 +1502,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         },
@@ -1519,7 +1513,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 204909,
           "source_spell_id": 204909,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Modifies Effect #3's Value (23)",
+          "effect_text": "Apply Aura (6) | Add Flat Modifier (107): Spell Effect 3 (23)",
           "base_value": 6.0,
           "spell_pvp_multiplier": 0.833333,
           "amount_kind": null,
@@ -1531,9 +1525,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -1583,8 +1576,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 389846,
         "icon": "inv_boots_cloth_35v4"
       },
-      "pve_tooltip": "Infernal Strike increases your movement speed by 10% for 8 sec.",
-      "pvp_tooltip": "Infernal Strike increases your movement speed by 10% for 8 sec.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nInfernal Strike increases your movement speed by 10% for 8 sec.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nInfernal Strike increases your movement speed by 10% for 8 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1638,8 +1631,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 320331,
         "icon": "ability_demonhunter_immolation"
       },
-      "pve_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer [(12% of Attack Power)]\nFire\ndamage.",
-      "pvp_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer [(12% of Attack Power)]\nFire\ndamage.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nRequires level 30\nImmolation Aura increases your armor by 20% and causes melee attackers to suffer [(12% of Attack Power)]\nFire\ndamage.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nRequires level 30\nImmolation Aura increases your armor by 20% and causes melee attackers to suffer [(12% of Attack Power)]\nFire\ndamage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1691,8 +1684,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266316,
         "icon": "spell_fel_elementaldevastation"
       },
-      "pve_tooltip": "Immolation Aura removes 1 Disease effect.",
-      "pvp_tooltip": "Immolation Aura removes 1 Disease effect.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nImmolation Aura removes 1 Disease effect.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nImmolation Aura removes 1 Disease effect.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1744,8 +1737,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266496,
         "icon": "spell_nature_removecurse"
       },
-      "pve_tooltip": "Immolation Aura removes 1 Curse effect.",
-      "pvp_tooltip": "Immolation Aura removes 1 Curse effect.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nImmolation Aura removes 1 Curse effect.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nImmolation Aura removes 1 Curse effect.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1798,8 +1791,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 389849,
         "icon": "inv_pet_inquisitoreye"
       },
-      "pve_tooltip": "Spectral Sight has 5 sec reduced cooldown and no longer reduces movement speed.",
-      "pvp_tooltip": "Spectral Sight has 5 sec reduced cooldown and no longer reduces movement speed.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nSpectral Sight has 5 sec reduced cooldown and no longer reduces movement speed.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nSpectral Sight has 5 sec reduced cooldown and no longer reduces movement speed.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1853,14 +1846,14 @@ window.WOW_PVP_DATA = {
         "spell_id": 389696,
         "icon": "spell_mage_overpowered"
       },
-      "pve_tooltip": "Reduces magic damage taken by 3%.",
-      "pvp_tooltip": "Reduces magic damage taken by 2%.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nReduces magic damage taken by 3%.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nReduces magic damage taken by 2%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 30,
-          "end": 31,
+          "start": 59,
+          "end": 60,
           "old_token": "3",
           "new_token": "2",
           "kind": "percent_value",
@@ -1888,7 +1881,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 389696,
           "source_spell_id": 389696,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Mod % Damage Taken (All)",
+          "effect_text": "Apply Aura (6) | Modify Damage Taken% (87)",
           "base_value": -3.0,
           "spell_pvp_multiplier": 0.667,
           "amount_kind": null,
@@ -1900,9 +1893,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -1955,8 +1947,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266762,
         "icon": "ability_demonhunter_doublejump"
       },
-      "pve_tooltip": "Your movement speed is increased by 3%.",
-      "pvp_tooltip": "Your movement speed is increased by 3%.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nYour movement speed is increased by 3%.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nYour movement speed is increased by 3%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2011,14 +2003,14 @@ window.WOW_PVP_DATA = {
         "spell_id": 389695,
         "icon": "ability_demonhunter_spectank"
       },
-      "pve_tooltip": "Increases maximum health by 3%.",
-      "pvp_tooltip": "Increases maximum health by 1.8%.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nIncreases maximum health by 3%.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nIncreases maximum health by 1.8%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 28,
-          "end": 29,
+          "start": 57,
+          "end": 58,
           "old_token": "3",
           "new_token": "1.8",
           "kind": "percent_value",
@@ -2046,7 +2038,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 389695,
           "source_spell_id": 389695,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Mod Increase Maximum Health - %",
+          "effect_text": "Apply Aura (6) | Increase Health% (133)",
           "base_value": 3.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -2058,9 +2050,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -2110,8 +2101,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 393822,
         "icon": "ability_warlock_demonicpower"
       },
-      "pve_tooltip": "Increases your mastery by (2 * $mas)%.",
-      "pvp_tooltip": "Increases your mastery by (2 * $mas)%.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nIncreases your mastery by (2 * $mas)%.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nIncreases your mastery by (2 * $mas)%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2165,8 +2156,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266326,
         "icon": "ability_warlock_shadowfurytga"
       },
-      "pve_tooltip": "Attacks and abilities that generate Fury deal 3% increased damage.",
-      "pvp_tooltip": "Attacks and abilities that generate Fury deal 3% increased damage.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nAttacks and abilities that generate Fury deal 3% increased damage.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nAttacks and abilities that generate Fury deal 3% increased damage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2220,8 +2211,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266328,
         "icon": "inv_glaive_1h_npc_d_02"
       },
-      "pve_tooltip": "Attacks and abilities that spend Fury deal 3% increased damage.",
-      "pvp_tooltip": "Attacks and abilities that spend Fury deal 3% increased damage.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nAttacks and abilities that spend Fury deal 3% increased damage.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nAttacks and abilities that spend Fury deal 3% increased damage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2273,8 +2264,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266497,
         "icon": "ability_demonhunter_demonictrample"
       },
-      "pve_tooltip": "Infernal Strike grants you a rapidly decaying shield equal to 6% of your maximum health.",
-      "pvp_tooltip": "Infernal Strike grants you a rapidly decaying shield equal to 6% of your maximum health.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nInfernal Strike grants you a rapidly decaying shield equal to 6% of your maximum health.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nInfernal Strike grants you a rapidly decaying shield equal to 6% of your maximum health.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2326,8 +2317,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 391397,
         "icon": "inv_archaeology_70_crystallineeyeofundravius"
       },
-      "pve_tooltip": "The cooldown of Infernal Strike is reduced by 1.0 sec.",
-      "pvp_tooltip": "The cooldown of Infernal Strike is reduced by 1.0 sec.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nThe cooldown of Infernal Strike is reduced by 1.0 sec.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nThe cooldown of Infernal Strike is reduced by 1.0 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2377,8 +2368,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266500,
         "icon": "spell_fire_felflamebreath"
       },
-      "pve_tooltip": "Fully channeling Fel Devastation increases the damage of its final tick by 300%.",
-      "pvp_tooltip": "Fully channeling Fel Devastation increases the damage of its final tick by 300%.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nFully channeling Fel Devastation increases the damage of its final tick by 300%.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nFully channeling Fel Devastation increases the damage of its final tick by 300%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2431,14 +2422,14 @@ window.WOW_PVP_DATA = {
         "spell_id": 196718,
         "icon": "ability_demonhunter_darkness"
       },
-      "pve_tooltip": "Instant\n5 min cooldown\nSummons darkness around you in a\nn 8 yd\nradius, granting friendly targets a 15% chance to avoid all damage from an attack. Lasts\n8 sec\n.\nChance to avoid damage increased by 100% when not in a raid.",
-      "pvp_tooltip": "Instant\n5 min cooldown\nSummons darkness around you in a\nn 8 yd\nradius, granting friendly targets a 25% chance to avoid all damage from an attack. Lasts\n8 sec\n.\nChance to avoid damage increased by 100% when not in a raid.",
+      "pve_tooltip": "Talent\nInstant\n5 min cooldown\nRequires Demon Hunter\nSummons darkness around you in a\nn 8 yd\nradius, granting friendly targets a 15% chance to avoid all damage from an attack. Lasts\n8 sec\n.\nChance to avoid damage increased by 100% when not in a raid.",
+      "pvp_tooltip": "Talent\nInstant\n5 min cooldown\nRequires Demon Hunter\nSummons darkness around you in a\nn 8 yd\nradius, granting friendly targets a 25% chance to avoid all damage from an attack. Lasts\n8 sec\n.\nChance to avoid damage increased by 100% when not in a raid.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 99,
-          "end": 101,
+          "start": 128,
+          "end": 130,
           "old_token": "15",
           "new_token": "25",
           "kind": "percent_value",
@@ -2466,7 +2457,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 196718,
           "source_spell_id": 209426,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Dummy (127)",
+          "effect_text": "Apply Aura (6) | Dummy (4)",
           "base_value": 15.0,
           "spell_pvp_multiplier": 1.66667,
           "amount_kind": null,
@@ -2483,9 +2474,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -2533,8 +2523,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266329,
         "icon": "spell_warlock_demonicservitude"
       },
-      "pve_tooltip": "Interrupting a spell with Disrupt decreases your magic damage taken by 15% for 12 sec.",
-      "pvp_tooltip": "Interrupting a spell with Disrupt decreases your magic damage taken by 15% for 12 sec.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nInterrupting a spell with Disrupt decreases your magic damage taken by 15% for 12 sec.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nInterrupting a spell with Disrupt decreases your magic damage taken by 15% for 12 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2547,7 +2537,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1266329,
           "source_spell_id": 1266616,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Mod % Damage Taken (All)",
+          "effect_text": "Apply Aura (6) | Modify Damage Taken% (87)",
           "base_value": -15.0,
           "spell_pvp_multiplier": 0.3334,
           "amount_kind": null,
@@ -2564,9 +2554,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -2616,8 +2605,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266330,
         "icon": "ability_warlock_soulswap"
       },
-      "pve_tooltip": "Any time you would generate one or more Soul Fragments, you have a 2% chance to generate an additional Soul Fragment.",
-      "pvp_tooltip": "Any time you would generate one or more Soul Fragments, you have a 2% chance to generate an additional Soul Fragment.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nAny time you would generate one or more Soul Fragments, you have a 2% chance to generate an additional Soul Fragment.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nAny time you would generate one or more Soul Fragments, you have a 2% chance to generate an additional Soul Fragment.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2667,8 +2656,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266493,
         "icon": "ability_demonhunter_glide"
       },
-      "pve_tooltip": "Glide speed increased by 10%.",
-      "pvp_tooltip": "Glide speed increased by 10%.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nGlide speed increased by 10%.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nGlide speed increased by 10%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2718,8 +2707,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 389781,
         "icon": "spell_fire_twilightimmolation"
       },
-      "pve_tooltip": "Increases the duration of Darkness by 3 sec.",
-      "pvp_tooltip": "Increases the duration of Darkness by 3 sec.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nIncreases the duration of Darkness by 3 sec.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nIncreases the duration of Darkness by 3 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2769,8 +2758,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 389783,
         "icon": "sha_spell_warlock_demonsoul"
       },
-      "pve_tooltip": "Reduces the cooldown of Darkness by 120 sec.",
-      "pvp_tooltip": "Reduces the cooldown of Darkness by 120 sec.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nReduces the cooldown of Darkness by 120 sec.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nReduces the cooldown of Darkness by 120 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2820,8 +2809,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266307,
         "icon": "inv_summondemonictyrant"
       },
-      "pve_tooltip": "Demon Spikes gains 1 additional charge.",
-      "pvp_tooltip": "Demon Spikes gains 1 additional charge.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nDemon Spikes gains 1 additional charge.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nDemon Spikes gains 1 additional charge.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2872,8 +2861,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 212084,
         "icon": "ability_demonhunter_feldevastation"
       },
-      "pve_tooltip": ":\nCausing damage also heals you for up to [(562.5% of Attack Power) * 10] health\n]",
-      "pvp_tooltip": ":\nCausing damage also heals you for up to [(562.5% of Attack Power) * 10] health\n]",
+      "pve_tooltip": "Talent\n50 Fury\n20 yd range\nChanneled (2 sec cast)\n40 sec cooldown\nRequires Demon Hunter\nUnleash the fel within you, damaging enemies directly in front of you for [(41.1% of Attack Power) * (10)] Fire damage over 2 sec. [\nFel Devastation\n:\nCausing damage also heals you for up to [(562.5% of Attack Power) * 10] health\n]",
+      "pvp_tooltip": "Talent\n50 Fury\n20 yd range\nChanneled (2 sec cast)\n40 sec cooldown\nRequires Demon Hunter\nUnleash the fel within you, damaging enemies directly in front of you for [(41.1% of Attack Power) * (10)] Fire damage over 2 sec. [\nFel Devastation\n:\nCausing damage also heals you for up to [(562.5% of Attack Power) * 10] health\n]",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2926,8 +2915,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 247454,
         "icon": "inv_icon_shadowcouncilorb_purple"
       },
-      "pve_tooltip": "40 Fury\nInstant\n25 sec cooldown\nConsume up to\n5\nSoul Fragments then explode, dealing (200% of Attack Power) Fire damage to nearby enemies, increased by 20 /\nSoulcrush\n:\n30\n/\nUntethered Rage\n:\n25\n% per fragment consumed. Deals reduced damage beyond\n8\ntargets.",
-      "pvp_tooltip": "40 Fury\nInstant\n25 sec cooldown\nConsume up to\n5\nSoul Fragments then explode, dealing (200% of Attack Power) Fire damage to nearby enemies, increased by 20 /\nSoulcrush\n:\n30\n/\nUntethered Rage\n:\n25\n% per fragment consumed. Deals reduced damage beyond\n8\ntargets.",
+      "pve_tooltip": "Talent\n40 Fury\nInstant\n25 sec cooldown\nRequires Demon Hunter\nRequires level 30\nConsume up to\n5\nSoul Fragments then explode, dealing (200% of Attack Power) Fire damage to nearby enemies, increased by 20 /\nSoulcrush\n:\n30\n/\nUntethered Rage\n:\n25\n% per fragment consumed. Deals reduced damage beyond\n8\ntargets.",
+      "pvp_tooltip": "Talent\n40 Fury\nInstant\n25 sec cooldown\nRequires Demon Hunter\nRequires level 30\nConsume up to\n5\nSoul Fragments then explode, dealing (200% of Attack Power) Fire damage to nearby enemies, increased by 20 /\nSoulcrush\n:\n30\n/\nUntethered Rage\n:\n25\n% per fragment consumed. Deals reduced damage beyond\n8\ntargets.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2980,8 +2969,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 204021,
         "icon": "ability_demonhunter_fierybrand"
       },
-      "pve_tooltip": ":\nand [(32.2% of Attack Power) * 12] Fire damage over 12 sec\n] to the enemy.",
-      "pvp_tooltip": ":\nand [(32.2% of Attack Power) * 12] Fire damage over 12 sec\n] to the enemy.",
+      "pve_tooltip": "Talent\n30 yd range\nInstant\n1 min cooldown\n1 Charge\nRequires Demon Hunter\nBrand yourself and an enemy target with demonic symbols, reducing the damage you take by 40% and instantly dealing (416% of Attack Power) Fire damage [\nFiery Brand\n:\nand [(32.2% of Attack Power) * 12] Fire damage over 12 sec\n] to the enemy.",
+      "pvp_tooltip": "Talent\n30 yd range\nInstant\n1 min cooldown\n1 Charge\nRequires Demon Hunter\nBrand yourself and an enemy target with demonic symbols, reducing the damage you take by 40% and instantly dealing (416% of Attack Power) Fire damage [\nFiery Brand\n:\nand [(32.2% of Attack Power) * 12] Fire damage over 12 sec\n] to the enemy.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3034,8 +3023,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 320387,
         "icon": "ability_demonhunter_throwglaive"
       },
-      "pve_tooltip": "Reduces the cooldown of Fracture by 1 sec and Throw Glaive by 6 sec.",
-      "pvp_tooltip": "Reduces the cooldown of Fracture by 1 sec and Throw Glaive by 6 sec.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nReduces the cooldown of Fracture by 1 sec and Throw Glaive by 6 sec.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nReduces the cooldown of Fracture by 1 sec and Throw Glaive by 6 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3088,8 +3077,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 209281,
         "icon": "ability_demonhunter_concentratedsigils"
       },
-      "pve_tooltip": "Your Sigils activate 1 second faster.",
-      "pvp_tooltip": "Your Sigils activate 1 second faster.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nRequires level 40\nYour Sigils activate 1 second faster.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nRequires level 40\nYour Sigils activate 1 second faster.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3142,8 +3131,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 428603,
         "icon": "inv_helm_suncrown_d_01"
       },
-      "pve_tooltip": "Sigil of Flame damage increased by 50%.",
-      "pvp_tooltip": "Sigil of Flame damage increased by 50%.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nSigil of Flame damage increased by 50%.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nSigil of Flame damage increased by 50%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3196,8 +3185,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1265800,
         "icon": "ability_demonhunter_manabreak"
       },
-      "pve_tooltip": "Physical damage increased by 12%.",
-      "pvp_tooltip": "Physical damage increased by 12%.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nPhysical damage increased by 12%.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nPhysical damage increased by 12%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3249,8 +3238,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 389720,
         "icon": "ability_demonhunter_demonspikes"
       },
-      "pve_tooltip": "Demon Spikes reduces damage taken by 5% while active.",
-      "pvp_tooltip": "Demon Spikes reduces damage taken by 5% while active.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nDemon Spikes reduces damage taken by 5% while active.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nDemon Spikes reduces damage taken by 5% while active.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3304,8 +3293,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 218612,
         "icon": "spell_warlock_demonicempowerment"
       },
-      "pve_tooltip": "Every 20 Fury spent reduces the remaining cooldown of Demon Spikes by 1.00 sec.",
-      "pvp_tooltip": "Every 20 Fury spent reduces the remaining cooldown of Demon Spikes by 1.00 sec.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nRequires level 35\nEvery 20 Fury spent reduces the remaining cooldown of Demon Spikes by 1.00 sec.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nRequires level 35\nEvery 20 Fury spent reduces the remaining cooldown of Demon Spikes by 1.00 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3357,8 +3346,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 389729,
         "icon": "ability_demonhunter_demonspikes2"
       },
-      "pve_tooltip": "While Demon Spikes is active, melee attacks against you cause the attacker to take (31.2% of Attack Power) Physical damage. Generates high threat.",
-      "pvp_tooltip": "While Demon Spikes is active, melee attacks against you cause the attacker to take (31.2% of Attack Power) Physical damage. Generates high threat.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nWhile Demon Spikes is active, melee attacks against you cause the attacker to take (31.2% of Attack Power) Physical damage. Generates high threat.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nWhile Demon Spikes is active, melee attacks against you cause the attacker to take (31.2% of Attack Power) Physical damage. Generates high threat.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3411,8 +3400,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 389724,
         "icon": "inv12_ability_demonhunter_felfirefists"
       },
-      "pve_tooltip": "Activating Infernal Strike out of combat or within 5 sec of entering combat places a Sigil of Flame at the target location.",
-      "pvp_tooltip": "Activating Infernal Strike out of combat or within 5 sec of entering combat places a Sigil of Flame at the target location.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nActivating Infernal Strike out of combat or within 5 sec of entering combat places a Sigil of Flame at the target location.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nActivating Infernal Strike out of combat or within 5 sec of entering combat places a Sigil of Flame at the target location.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3464,8 +3453,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 390163,
         "icon": "inv_ability_demonhunter_elysiandecree"
       },
-      "pve_tooltip": "30 yd range\nInstant\n1 min cooldown\n1 Charge\nPlace a demonic sigil at the target location that activates after\n2 sec\n.\nDetonates to deal (692% of Attack Power) Chaos damage and shatter up to 3 Soul Fragments from enemies affected by the sigil. Deals reduced damage beyond 5 targets.",
-      "pvp_tooltip": "30 yd range\nInstant\n1 min cooldown\n1 Charge\nPlace a demonic sigil at the target location that activates after\n2 sec\n.\nDetonates to deal (692% of Attack Power) Chaos damage and shatter up to 3 Soul Fragments from enemies affected by the sigil. Deals reduced damage beyond 5 targets.",
+      "pve_tooltip": "Talent\n30 yd range\nInstant\n1 min cooldown\n1 Charge\nRequires Demon Hunter\nPlace a demonic sigil at the target location that activates after\n2 sec\n.\nDetonates to deal (692% of Attack Power) Chaos damage and shatter up to 3 Soul Fragments from enemies affected by the sigil. Deals reduced damage beyond 5 targets.",
+      "pvp_tooltip": "Talent\n30 yd range\nInstant\n1 min cooldown\n1 Charge\nRequires Demon Hunter\nPlace a demonic sigil at the target location that activates after\n2 sec\n.\nDetonates to deal (692% of Attack Power) Chaos damage and shatter up to 3 Soul Fragments from enemies affected by the sigil. Deals reduced damage beyond 5 targets.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3521,8 +3510,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 207548,
         "icon": "achievment_raid_houroftwilight"
       },
-      "pve_tooltip": "Immolation Aura increases your movement speed by 10% and its duration is increased by 50%.",
-      "pvp_tooltip": "Immolation Aura increases your movement speed by 10% and its duration is increased by 50%.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nRequires level 15\nImmolation Aura increases your movement speed by 10% and its duration is increased by 50%.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nRequires level 15\nImmolation Aura increases your movement speed by 10% and its duration is increased by 50%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3576,8 +3565,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 202137,
         "icon": "ability_demonhunter_sigilofsilence"
       },
-      "pve_tooltip": "30 yd range\nInstant\n1.5 min cooldown\n1 Charge\nPlace a Sigil of Silence at the target location that activates after\n2 sec\n.\nSilences all enemies affected by the sigil for\n2 sec\n.",
-      "pvp_tooltip": "30 yd range\nInstant\n1.5 min cooldown\n1 Charge\nPlace a Sigil of Silence at the target location that activates after\n2 sec\n.\nSilences all enemies affected by the sigil for\n2 sec\n.",
+      "pve_tooltip": "Talent\n30 yd range\nInstant\n1.5 min cooldown\n1 Charge\nRequires Demon Hunter\nPlace a Sigil of Silence at the target location that activates after\n2 sec\n.\nSilences all enemies affected by the sigil for\n2 sec\n.",
+      "pvp_tooltip": "Talent\n30 yd range\nInstant\n1.5 min cooldown\n1 Charge\nRequires Demon Hunter\nPlace a Sigil of Silence at the target location that activates after\n2 sec\n.\nSilences all enemies affected by the sigil for\n2 sec\n.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3633,8 +3622,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 390213,
         "icon": "ability_demonhunter_immolation"
       },
-      "pve_tooltip": "Fire damage increased by 8%.",
-      "pvp_tooltip": "Fire damage increased by 8%.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nFire damage increased by 8%.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nFire damage increased by 8%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3686,8 +3675,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 343014,
         "icon": "ability_bossfelmagnaron_handempowered"
       },
-      "pve_tooltip": "6.0% of your Fire damage shields you, up to a maximum of (Total Health * 10 / 100).\nShield and maximum values are doubled while Fiery Brand is active.",
-      "pvp_tooltip": "6.0% of your Fire damage shields you, up to a maximum of (Total Health * 10 / 100).\nShield and maximum values are doubled while Fiery Brand is active.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\n6.0% of your Fire damage shields you, up to a maximum of (Total Health * 10 / 100).\nShield and maximum values are doubled while Fiery Brand is active.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\n6.0% of your Fire damage shields you, up to a maximum of (Total Health * 10 / 100).\nShield and maximum values are doubled while Fiery Brand is active.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3741,8 +3730,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 389958,
         "icon": "inv_icon_shadowcouncilorb_purple"
       },
-      "pve_tooltip": "Enemies struck by Sigil of Flame, Soul Cleave, and Spirit Bomb are afflicted with Frailty for 8 sec.\nYou heal for 10% of all damage you deal to targets with Frailty.",
-      "pvp_tooltip": "Enemies struck by Sigil of Flame, Soul Cleave, and Spirit Bomb are afflicted with Frailty for 8 sec.\nYou heal for 10% of all damage you deal to targets with Frailty.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nEnemies struck by Sigil of Flame, Soul Cleave, and Spirit Bomb are afflicted with Frailty for 8 sec.\nYou heal for 10% of all damage you deal to targets with Frailty.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nEnemies struck by Sigil of Flame, Soul Cleave, and Spirit Bomb are afflicted with Frailty for 8 sec.\nYou heal for 10% of all damage you deal to targets with Frailty.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3794,8 +3783,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 207697,
         "icon": "spell_shadow_soulleech"
       },
-      "pve_tooltip": "Soul Cleave heals for an additional (225% of Attack Power).",
-      "pvp_tooltip": "Soul Cleave heals for an additional (225% of Attack Power).",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nRequires level 25\nSoul Cleave heals for an additional (225% of Attack Power).",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nRequires level 25\nSoul Cleave heals for an additional (225% of Attack Power).",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3849,8 +3838,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 227174,
         "icon": "spell_volatilefiregreen"
       },
-      "pve_tooltip": "Immolation Aura's initial burst has a chance to shatter Soul Fragments from enemies.",
-      "pvp_tooltip": "Immolation Aura's initial burst has a chance to shatter Soul Fragments from enemies.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nRequires level 25\nImmolation Aura's initial burst has a chance to shatter Soul Fragments from enemies.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nRequires level 25\nImmolation Aura's initial burst has a chance to shatter Soul Fragments from enemies.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3902,8 +3891,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 326853,
         "icon": "ability_demonhunter_feldevastation"
       },
-      "pve_tooltip": "Fel Devastation heals for an additional 10%, and 50% of its healing is converted into an absorb shield for 10 sec.",
-      "pvp_tooltip": "Fel Devastation heals for an additional 10%, and 50% of its healing is converted into an absorb shield for 10 sec.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nRequires level 50\nFel Devastation heals for an additional 10%, and 50% of its healing is converted into an absorb shield for 10 sec.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nRequires level 50\nFel Devastation heals for an additional 10%, and 50% of its healing is converted into an absorb shield for 10 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3957,8 +3946,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 390808,
         "icon": "ability_demonhunter_immolation"
       },
-      "pve_tooltip": "Immolation Aura has 10% increased critical strike chance and generates 1-5 Fury when it deals critical damage.\nThis effect may only occur once per 1 sec.\n(900ms cooldown)",
-      "pvp_tooltip": "Immolation Aura has 10% increased critical strike chance and generates 1-5 Fury when it deals critical damage.\nThis effect may only occur once per 1 sec.\n(900ms cooldown)",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nImmolation Aura has 10% increased critical strike chance and generates 1-5 Fury when it deals critical damage.\nThis effect may only occur once per 1 sec.\n(900ms cooldown)",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nImmolation Aura has 10% increased critical strike chance and generates 1-5 Fury when it deals critical damage.\nThis effect may only occur once per 1 sec.\n(900ms cooldown)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4010,8 +3999,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1265924,
         "icon": "inv_soulbarrier"
       },
-      "pve_tooltip": "Spirit Bomb shields you for 10 sec, absorbing (Total Health * 8 / 100) damage plus (Total Health * 2 / 100) for each Soul Fragment consumed.",
-      "pvp_tooltip": "Spirit Bomb shields you for 10 sec, absorbing (Total Health * 8 / 100) damage plus (Total Health * 2 / 100) for each Soul Fragment consumed.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nSpirit Bomb shields you for 10 sec, absorbing (Total Health * 8 / 100) damage plus (Total Health * 2 / 100) for each Soul Fragment consumed.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nSpirit Bomb shields you for 10 sec, absorbing (Total Health * 8 / 100) damage plus (Total Health * 2 / 100) for each Soul Fragment consumed.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4063,8 +4052,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 395446,
         "icon": "ability_demonhunter_sigilofinquisition"
       },
-      "pve_tooltip": "Afflicting an enemy with a Sigil generates 1 Soul Fragment.\n(100ms cooldown)",
-      "pvp_tooltip": "Afflicting an enemy with a Sigil generates 1 Soul Fragment.\n(100ms cooldown)",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nAfflicting an enemy with a Sigil generates 1 Soul Fragment.\n(100ms cooldown)",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nAfflicting an enemy with a Sigil generates 1 Soul Fragment.\n(100ms cooldown)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4118,8 +4107,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 389705,
         "icon": "spell_fire_felfire"
       },
-      "pve_tooltip": "You take 10% reduced magic damage while Immolation Aura is active.",
-      "pvp_tooltip": "You take 10% reduced magic damage while Immolation Aura is active.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nYou take 10% reduced magic damage while Immolation Aura is active.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nYou take 10% reduced magic damage while Immolation Aura is active.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4171,8 +4160,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 268175,
         "icon": "spell_shadow_demonicempathy"
       },
-      "pve_tooltip": "Frailty now also reduces all damage you take from afflicted targets by 6%.",
-      "pvp_tooltip": "Frailty now also reduces all damage you take from afflicted targets by 6%.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nRequires level 45\nFrailty now also reduces all damage you take from afflicted targets by 6%.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nRequires level 45\nFrailty now also reduces all damage you take from afflicted targets by 6%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4228,8 +4217,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 207387,
         "icon": "artifactability_vengeancedemonhunter_painbringer"
       },
-      "pve_tooltip": "Consuming a Soul Fragment reduces all damage you take by 3% for 8 sec.",
-      "pvp_tooltip": "Consuming a Soul Fragment reduces all damage you take by 3% for 8 sec.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nConsuming a Soul Fragment reduces all damage you take by 3% for 8 sec.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nConsuming a Soul Fragment reduces all damage you take by 3% for 8 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4283,8 +4272,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 391178,
         "icon": "spell_fire_felflamering"
       },
-      "pve_tooltip": "Fel Devastation heals you for up to 50% more, based on your missing health.",
-      "pvp_tooltip": "Fel Devastation heals you for up to 50% more, based on your missing health.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nFel Devastation heals you for up to 50% more, based on your missing health.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nFel Devastation heals you for up to 50% more, based on your missing health.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4340,8 +4329,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 389220,
         "icon": "ability_demonhunter_fierybrand"
       },
-      "pve_tooltip": "Fiery Brand also increases Fire damage you deal to the target by 15%.",
-      "pvp_tooltip": "Fiery Brand also increases Fire damage you deal to the target by 15%.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nFiery Brand also increases Fire damage you deal to the target by 15%.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nFiery Brand also increases Fire damage you deal to the target by 15%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4393,31 +4382,21 @@ window.WOW_PVP_DATA = {
         "spell_id": 389715,
         "icon": "ability_demonhunter_sigilofchains"
       },
-      "pve_tooltip": "Increases the duration of your Sigils by 2 sec and radius by 2 yds.",
-      "pvp_tooltip": "Increases the duration of your Sigils by 1 sec and radius by 2 yds.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 41,
-          "end": 42,
-          "old_token": "2",
-          "new_token": "1",
-          "kind": "duration_seconds",
-          "effect_indexes": [
-            2
-          ]
-        }
-      ],
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nIncreases the duration of your Sigils by 2 sec and radius by 2 yds.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nIncreases the duration of your Sigils by 2 sec and radius by 2 yds.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
       "diagnostics": [
         {
           "effect_indexes": [
             2
           ],
-          "status": "APPLIED",
-          "kind": "duration_seconds",
-          "old": "2",
-          "new": "1"
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 2000.0,
+          "new": 1000.0,
+          "full_tooltip_match_count": 0
         }
       ],
       "has_pvp_mechanics": true,
@@ -4428,21 +4407,20 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 389715,
           "source_spell_id": 389715,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Modifies Buff Duration (1)",
-          "base_value": 2.0,
+          "effect_text": "Apply Aura (6) | Add Flat Modifier (107): Spell Duration (1)",
+          "base_value": 2000.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.5,
-          "final_pvp_value": 1.0,
+          "final_pvp_value": 1000.0,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -4493,8 +4471,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 343207,
         "icon": "ability_demonhunter_soulcleave"
       },
-      "pve_tooltip": "Soul Cleave deals 60% increased damage to your primary target.",
-      "pvp_tooltip": "Soul Cleave deals 60% increased damage to your primary target.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nSoul Cleave deals 60% increased damage to your primary target.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nSoul Cleave deals 60% increased damage to your primary target.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4547,8 +4525,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 389711,
         "icon": "ability_demonhunter_shatteredsouls"
       },
-      "pve_tooltip": "When consuming a Soul Fragment would heal you above full health it shields you instead, up to a maximum of (Total Health * 10 / 100).",
-      "pvp_tooltip": "When consuming a Soul Fragment would heal you above full health it shields you instead, up to a maximum of (Total Health * 10 / 100).",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nWhen consuming a Soul Fragment would heal you above full health it shields you instead, up to a maximum of (Total Health * 10 / 100).",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nWhen consuming a Soul Fragment would heal you above full health it shields you instead, up to a maximum of (Total Health * 10 / 100).",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4602,8 +4580,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 393827,
         "icon": "ability_demonhunter_feldevastation"
       },
-      "pve_tooltip": "Fel Devastation damage increased by 30%.",
-      "pvp_tooltip": "Fel Devastation damage increased by 30%.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nFel Devastation damage increased by 30%.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nFel Devastation damage increased by 30%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4656,8 +4634,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 207739,
         "icon": "spell_fire_elementaldevastation"
       },
-      "pve_tooltip": "Every 1 sec, Fiery Brand spreads to one nearby enemy.",
-      "pvp_tooltip": "Every 1 sec, Fiery Brand spreads to one nearby enemy.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nRequires level 25\nEvery 1 sec, Fiery Brand spreads to one nearby enemy.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nRequires level 25\nEvery 1 sec, Fiery Brand spreads to one nearby enemy.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4710,8 +4688,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 389718,
         "icon": "ability_demonhunter_sigilofinquisition"
       },
-      "pve_tooltip": "Your Sigils have 15% reduced cooldowns.",
-      "pvp_tooltip": "Your Sigils have 15% reduced cooldowns.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nYour Sigils have 15% reduced cooldowns.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nYour Sigils have 15% reduced cooldowns.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4765,8 +4743,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 389976,
         "icon": "inv_icon_shadowcouncilorb_purple"
       },
-      "pve_tooltip": "Frailty now also increases all damage you deal to afflicted targets by 3%.",
-      "pvp_tooltip": "Frailty now also increases all damage you deal to afflicted targets by 3%.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nFrailty now also increases all damage you deal to afflicted targets by 3%.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nFrailty now also increases all damage you deal to afflicted targets by 3%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4822,8 +4800,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1265818,
         "icon": "inv12_ability_demonhunter_vengeanceismine"
       },
-      "pve_tooltip": "Metamorphosis has 5 sec increased duration and increases the damage of Fracture, Soul Cleave, and Spirit Bomb by 20%.",
-      "pvp_tooltip": "Metamorphosis has 5 sec increased duration and increases the damage of Fracture, Soul Cleave, and Spirit Bomb by 20%.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nMetamorphosis has 5 sec increased duration and increases the damage of Fracture, Soul Cleave, and Spirit Bomb by 20%.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nMetamorphosis has 5 sec increased duration and increases the damage of Fracture, Soul Cleave, and Spirit Bomb by 20%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4877,8 +4855,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 336639,
         "icon": "ability_warlock_backdraft"
       },
-      "pve_tooltip": "Immolation Aura damage increases the duration of your Fiery Brand and Sigil of Flame by 0.25 sec.\n(900ms cooldown)",
-      "pvp_tooltip": "Immolation Aura damage increases the duration of your Fiery Brand and Sigil of Flame by 0.25 sec.\n(900ms cooldown)",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nRequires level 30\nImmolation Aura damage increases the duration of your Fiery Brand and Sigil of Flame by 0.25 sec.\n(900ms cooldown)",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nRequires level 30\nImmolation Aura damage increases the duration of your Fiery Brand and Sigil of Flame by 0.25 sec.\n(900ms cooldown)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4928,8 +4906,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 389985,
         "icon": "inv_icon_shadowcouncilorb_purple"
       },
-      "pve_tooltip": "The effects of Frailty are doubled.",
-      "pvp_tooltip": "The effects of Frailty are doubled.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nThe effects of Frailty are doubled.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nThe effects of Frailty are doubled.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4980,8 +4958,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 207407,
         "icon": "inv_glaive_1h_artifactaldrochi_d_01"
       },
-      "pve_tooltip": "Melee Range\nInstant\n1 min cooldown\nCarve into the soul of your target, dealing [(463.5% of Attack Power) + (463.5% of Attack Power)] Fire damage and an additional (300% of Attack Power) Fire damage over 3 sec. Immediately shatters 3 Soul Fragments from the target and 1 additional Soul Fragment every 1 sec.",
-      "pvp_tooltip": "Melee Range\nInstant\n1 min cooldown\nCarve into the soul of your target, dealing [(463.5% of Attack Power) + (463.5% of Attack Power)] Fire damage and an additional (300% of Attack Power) Fire damage over 3 sec. Immediately shatters 3 Soul Fragments from the target and 1 additional Soul Fragment every 1 sec.",
+      "pve_tooltip": "Talent\nMelee Range\nInstant\n1 min cooldown\nRequires Demon Hunter\nCarve into the soul of your target, dealing [(463.5% of Attack Power) + (463.5% of Attack Power)] Fire damage and an additional (300% of Attack Power) Fire damage over 3 sec. Immediately shatters 3 Soul Fragments from the target and 1 additional Soul Fragment every 1 sec.",
+      "pvp_tooltip": "Talent\nMelee Range\nInstant\n1 min cooldown\nRequires Demon Hunter\nCarve into the soul of your target, dealing [(463.5% of Attack Power) + (463.5% of Attack Power)] Fire damage and an additional (300% of Attack Power) Fire damage over 3 sec. Immediately shatters 3 Soul Fragments from the target and 1 additional Soul Fragment every 1 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5031,8 +5009,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 209258,
         "icon": "inv_glaive_1h_artifactaldorchi_d_06"
       },
-      "pve_tooltip": "Sustaining fatal damage instead transforms you to Metamorphosis form.\nThis may occur once every 8 min.",
-      "pvp_tooltip": "Sustaining fatal damage instead transforms you to Metamorphosis form.\nThis may occur once every 8 min.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nRequires level 50\nSustaining fatal damage instead transforms you to Metamorphosis form.\nThis may occur once every 8 min.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nRequires level 50\nSustaining fatal damage instead transforms you to Metamorphosis form.\nThis may occur once every 8 min.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5083,8 +5061,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 389708,
         "icon": "inv_jewelry_necklace_53"
       },
-      "pve_tooltip": "When Fel Devastation finishes fully channeling, it refreshes 15-30% of its cooldown and refunds 15-30 Fury.",
-      "pvp_tooltip": "When Fel Devastation finishes fully channeling, it refreshes 15-30% of its cooldown and refunds 15-30 Fury.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nWhen Fel Devastation finishes fully channeling, it refreshes 15-30% of its cooldown and refunds 15-30 Fury.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nWhen Fel Devastation finishes fully channeling, it refreshes 15-30% of its cooldown and refunds 15-30 Fury.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5134,8 +5112,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 389732,
         "icon": "ability_demonhunter_fierybrand"
       },
-      "pve_tooltip": "Fiery Brand has 12 sec reduced cooldown and 1 additional charge.",
-      "pvp_tooltip": "Fiery Brand has 12 sec reduced cooldown and 1 additional charge.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nFiery Brand has 12 sec reduced cooldown and 1 additional charge.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nFiery Brand has 12 sec reduced cooldown and 1 additional charge.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5183,8 +5161,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1270444,
         "icon": "inv12_apextalent_demonhunter__untetheredrage"
       },
-      "pve_tooltip": "Soul Cleave and Spirit Bomb have a chance per soul fragment consumed to grant Untethered Rage, allowing Metamorphosis to be cast without incurring its cooldown and lasting 10 sec.",
-      "pvp_tooltip": "Soul Cleave and Spirit Bomb have a chance per soul fragment consumed to grant Untethered Rage, allowing Metamorphosis to be cast without incurring its cooldown and lasting 10 sec.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nSoul Cleave and Spirit Bomb have a chance per soul fragment consumed to grant Untethered Rage, allowing Metamorphosis to be cast without incurring its cooldown and lasting 10 sec.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nSoul Cleave and Spirit Bomb have a chance per soul fragment consumed to grant Untethered Rage, allowing Metamorphosis to be cast without incurring its cooldown and lasting 10 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5232,8 +5210,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1270448,
         "icon": "inv12_apextalent_demonhunter__untetheredrage"
       },
-      "pve_tooltip": "Soul Cleave and Spirit Bomb can consume an additional soul fragment and deal an additional 5% damage for each consumed.",
-      "pvp_tooltip": "Soul Cleave and Spirit Bomb can consume an additional soul fragment and deal an additional 5% damage for each consumed.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nSoul Cleave and Spirit Bomb can consume an additional soul fragment and deal an additional 5% damage for each consumed.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nSoul Cleave and Spirit Bomb can consume an additional soul fragment and deal an additional 5% damage for each consumed.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5281,8 +5259,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1270449,
         "icon": "inv12_apextalent_demonhunter__untetheredrage"
       },
-      "pve_tooltip": "Each cast of Soul Cleave and Spirit Bomb that does not grant Untethered Rage instead applies a stack of Seething Anger.\nSeething Anger grants 1% Agility and increases your chance to gain Untethered Rage. Lasts 12 sec and cannot be refreshed after gaining Untethered Rage.",
-      "pvp_tooltip": "Each cast of Soul Cleave and Spirit Bomb that does not grant Untethered Rage instead applies a stack of Seething Anger.\nSeething Anger grants 1% Agility and increases your chance to gain Untethered Rage. Lasts 12 sec and cannot be refreshed after gaining Untethered Rage.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nEach cast of Soul Cleave and Spirit Bomb that does not grant Untethered Rage instead applies a stack of Seething Anger.\nSeething Anger grants 1% Agility and increases your chance to gain Untethered Rage. Lasts 12 sec and cannot be refreshed after gaining Untethered Rage.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nEach cast of Soul Cleave and Spirit Bomb that does not grant Untethered Rage instead applies a stack of Seething Anger.\nSeething Anger grants 1% Agility and increases your chance to gain Untethered Rage. Lasts 12 sec and cannot be refreshed after gaining Untethered Rage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5335,8 +5313,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 442290,
         "icon": "inv_ability_aldrachireaverdemonhunter_reaversglaive"
       },
-      "pve_tooltip": "Consuming 20 Soul Fragments or casting Sigil of Spite converts your next Throw Glaive into Reaver's Glaive.\nReaver's Glaive\n:\nThrow a glaive enhanced with the essence of consumed souls at your target, dealing (385% of Attack Power) Physical damage and ricocheting to 2 additional enemies.\nBegins a well-practiced pattern of glaivework, enhancing your next\nand Soul Cleave.\nThe enhanced ability you cast first deals 10% increased damage, and the second deals 20% increased damage.",
-      "pvp_tooltip": "Consuming 20 Soul Fragments or casting Sigil of Spite converts your next Throw Glaive into Reaver's Glaive.\nReaver's Glaive\n:\nThrow a glaive enhanced with the essence of consumed souls at your target, dealing (385% of Attack Power) Physical damage and ricocheting to 2 additional enemies.\nBegins a well-practiced pattern of glaivework, enhancing your next\nand Soul Cleave.\nThe enhanced ability you cast first deals 10% increased damage, and the second deals 20% increased damage.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nConsuming 20 Soul Fragments or casting Sigil of Spite converts your next Throw Glaive into Reaver's Glaive.\nReaver's Glaive\n:\nThrow a glaive enhanced with the essence of consumed souls at your target, dealing (385% of Attack Power) Physical damage and ricocheting to 2 additional enemies.\nBegins a well-practiced pattern of glaivework, enhancing your next\nand Soul Cleave.\nThe enhanced ability you cast first deals 10% increased damage, and the second deals 20% increased damage.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nConsuming 20 Soul Fragments or casting Sigil of Spite converts your next Throw Glaive into Reaver's Glaive.\nReaver's Glaive\n:\nThrow a glaive enhanced with the essence of consumed souls at your target, dealing (385% of Attack Power) Physical damage and ricocheting to 2 additional enemies.\nBegins a well-practiced pattern of glaivework, enhancing your next\nand Soul Cleave.\nThe enhanced ability you cast first deals 10% increased damage, and the second deals 20% increased damage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5388,8 +5366,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 442718,
         "icon": "spell_fire_felflamestrike"
       },
-      "pve_tooltip": "When enhanced by Reaver's Glaive, Soul Cleave casts 3 additional glaive slashes to nearby targets. Deals reduced damage beyond 8 targets.\nIf cast after\n, cast\n6\nslashes instead.",
-      "pvp_tooltip": "When enhanced by Reaver's Glaive, Soul Cleave casts 3 additional glaive slashes to nearby targets. Deals reduced damage beyond 8 targets.\nIf cast after\n, cast\n6\nslashes instead.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nWhen enhanced by Reaver's Glaive, Soul Cleave casts 3 additional glaive slashes to nearby targets. Deals reduced damage beyond 8 targets.\nIf cast after\n, cast\n6\nslashes instead.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nWhen enhanced by Reaver's Glaive, Soul Cleave casts 3 additional glaive slashes to nearby targets. Deals reduced damage beyond 8 targets.\nIf cast after\n, cast\n6\nslashes instead.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5402,7 +5380,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 442718,
           "source_spell_id": 1236360,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Dummy",
+          "effect_text": "Apply Aura (6) | Dummy (4)",
           "base_value": 6.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -5419,9 +5397,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         },
@@ -5431,7 +5408,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 442718,
           "source_spell_id": 1236360,
           "effect_index": 4,
-          "effect_text": "Apply Aura: Dummy",
+          "effect_text": "Apply Aura (6) | Dummy (4)",
           "base_value": 100.0,
           "spell_pvp_multiplier": 0.33,
           "amount_kind": null,
@@ -5448,9 +5425,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -5500,8 +5476,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 444926,
         "icon": "ability_demonhunter_vengefulretreat"
       },
-      "pve_tooltip": "Vengeful Retreat can be cast a second time within 3 sec.\n(3s cooldown)",
-      "pvp_tooltip": "Vengeful Retreat can be cast a second time within 3 sec.\n(3s cooldown)",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nVengeful Retreat can be cast a second time within 3 sec.\n(3s cooldown)",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nVengeful Retreat can be cast a second time within 3 sec.\n(3s cooldown)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5553,8 +5529,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 444931,
         "icon": "ability_ironmaidens_bladerush"
       },
-      "pve_tooltip": "Vengeful Retreat resets the cooldown of Felblade.",
-      "pvp_tooltip": "Vengeful Retreat resets the cooldown of Felblade.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nVengeful Retreat resets the cooldown of Felblade.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nVengeful Retreat resets the cooldown of Felblade.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5606,8 +5582,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 442679,
         "icon": "ability_hunter_harass"
       },
-      "pve_tooltip": "When enhanced by Reaver's Glaive,\napplies Reaver's Mark, which causes the target to take 7% increased damage for 20 sec. Max 2 stacks.\nApplies 1 additional stack of Reaver's Mark If cast after Soul Cleave.",
-      "pvp_tooltip": "When enhanced by Reaver's Glaive,\napplies Reaver's Mark, which causes the target to take 7% increased damage for 20 sec. Max 2 stacks.\nApplies 1 additional stack of Reaver's Mark If cast after Soul Cleave.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nWhen enhanced by Reaver's Glaive,\napplies Reaver's Mark, which causes the target to take 7% increased damage for 20 sec. Max 2 stacks.\nApplies 1 additional stack of Reaver's Mark If cast after Soul Cleave.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nWhen enhanced by Reaver's Glaive,\napplies Reaver's Mark, which causes the target to take 7% increased damage for 20 sec. Max 2 stacks.\nApplies 1 additional stack of Reaver's Mark If cast after Soul Cleave.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5659,8 +5635,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1272143,
         "icon": "ability_argus_soulbombdebufflarge"
       },
-      "pve_tooltip": "Sigil of Spite shatters 1 additional Soul Fragment. Soul Cleave has a 20% chance to shatter a Soul Fragment.",
-      "pvp_tooltip": "Sigil of Spite shatters 1 additional Soul Fragment. Soul Cleave has a 20% chance to shatter a Soul Fragment.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nSigil of Spite shatters 1 additional Soul Fragment. Soul Cleave has a 20% chance to shatter a Soul Fragment.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nSigil of Spite shatters 1 additional Soul Fragment. Soul Cleave has a 20% chance to shatter a Soul Fragment.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5712,8 +5688,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 442683,
         "icon": "ability_demonhunter_soulcleave2"
       },
-      "pve_tooltip": "The second enhanced ability in a pattern shatters an additional Soul Fragment.",
-      "pvp_tooltip": "The second enhanced ability in a pattern shatters an additional Soul Fragment.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nThe second enhanced ability in a pattern shatters an additional Soul Fragment.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nThe second enhanced ability in a pattern shatters an additional Soul Fragment.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5765,8 +5741,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 442714,
         "icon": "ability_warlock_avoidance"
       },
-      "pve_tooltip": "Felblade surrounds you with a Blade Ward, reducing damage taken by 10% for 5 sec.",
-      "pvp_tooltip": "Felblade surrounds you with a Blade Ward, reducing damage taken by 10% for 5 sec.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nFelblade surrounds you with a Blade Ward, reducing damage taken by 10% for 5 sec.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nFelblade surrounds you with a Blade Ward, reducing damage taken by 10% for 5 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5818,8 +5794,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 442736,
         "icon": "spell_nzinsanity_chasedbyshadows"
       },
-      "pve_tooltip": "Each Soul Fragment you consume shields you for an additional 10% of the amount healed.",
-      "pvp_tooltip": "Each Soul Fragment you consume shields you for an additional 10% of the amount healed.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nEach Soul Fragment you consume shields you for an additional 10% of the amount healed.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nEach Soul Fragment you consume shields you for an additional 10% of the amount healed.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5871,8 +5847,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 442806,
         "icon": "ability_rogue_venomouswounds"
       },
-      "pve_tooltip": "Expose weaknesses in the target of your\nReaver's Mark\n, causing your Physical damage to any enemy to also deal 25% of the damage dealt to your marked target as Chaos, and sometimes shatter a Soul Fragment.",
-      "pvp_tooltip": "Expose weaknesses in the target of your\nReaver's Mark\n, causing your Physical damage to any enemy to also deal 25% of the damage dealt to your marked target as Chaos, and sometimes shatter a Soul Fragment.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nExpose weaknesses in the target of your\nReaver's Mark\n, causing your Physical damage to any enemy to also deal 25% of the damage dealt to your marked target as Chaos, and sometimes shatter a Soul Fragment.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nExpose weaknesses in the target of your\nReaver's Mark\n, causing your Physical damage to any enemy to also deal 25% of the damage dealt to your marked target as Chaos, and sometimes shatter a Soul Fragment.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5924,14 +5900,14 @@ window.WOW_PVP_DATA = {
         "spell_id": 1272138,
         "icon": "inv_glaive_1h_tyrande_d_01"
       },
-      "pve_tooltip": "Reaver's Glaive damage is increased by 20% and other Physical-only damage is increased by 10%.",
-      "pvp_tooltip": "Reaver's Glaive damage is increased by 6.6% and other Physical-only damage is increased by 10%.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nReaver's Glaive damage is increased by 20% and other Physical-only damage is increased by 10%.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nReaver's Glaive damage is increased by 6.6% and other Physical-only damage is increased by 10%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 39,
-          "end": 41,
+          "start": 68,
+          "end": 70,
           "old_token": "20",
           "new_token": "6.6",
           "kind": "percent_value",
@@ -5959,7 +5935,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1272138,
           "source_spell_id": 1272138,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Dummy",
+          "effect_text": "Apply Aura (6) | Dummy (4)",
           "base_value": 20.0,
           "spell_pvp_multiplier": 0.33,
           "amount_kind": null,
@@ -5971,9 +5947,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -6023,8 +5998,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 442492,
         "icon": "ability_dualwieldspecialization"
       },
-      "pve_tooltip": "Soul Cleave deals 10% increased damage.",
-      "pvp_tooltip": "Soul Cleave deals 10% increased damage.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nSoul Cleave deals 10% increased damage.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nSoul Cleave deals 10% increased damage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6076,8 +6051,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 442497,
         "icon": "ability_warlock_shadowfurytga"
       },
-      "pve_tooltip": "Reaver's Glaive generates 20 Fury.",
-      "pvp_tooltip": "Reaver's Glaive generates 20 Fury.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nReaver's Glaive generates 20 Fury.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nReaver's Glaive generates 20 Fury.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6129,8 +6104,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 444997,
         "icon": "ability_rogue_focusedattacks"
       },
-      "pve_tooltip": "Throw Glaive deals (20% of Attack Power) Physical damage to enemies near its initial target.",
-      "pvp_tooltip": "Throw Glaive deals (20% of Attack Power) Physical damage to enemies near its initial target.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nThrow Glaive deals (20% of Attack Power) Physical damage to enemies near its initial target.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nThrow Glaive deals (20% of Attack Power) Physical damage to enemies near its initial target.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6182,8 +6157,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1272153,
         "icon": "ability_demonhunter_soulcleave3"
       },
-      "pve_tooltip": "Fury of the Aldrachi further empowers Soul Cleave when cast after Fracture, increasing slashes to 12.\nReaver's Mark now stacks up to 2 times and further empowers Fracture when cast after Soul Cleave, applying an additional stack.",
-      "pvp_tooltip": "Fury of the Aldrachi further empowers Soul Cleave when cast after Fracture, increasing slashes to 12.\nReaver's Mark now stacks up to 2 times and further empowers Fracture when cast after Soul Cleave, applying an additional stack.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nFury of the Aldrachi further empowers Soul Cleave when cast after Fracture, increasing slashes to 12.\nReaver's Mark now stacks up to 2 times and further empowers Fracture when cast after Soul Cleave, applying an additional stack.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nFury of the Aldrachi further empowers Soul Cleave when cast after Fracture, increasing slashes to 12.\nReaver's Mark now stacks up to 2 times and further empowers Fracture when cast after Soul Cleave, applying an additional stack.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6196,7 +6171,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1272153,
           "source_spell_id": 1236360,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Dummy",
+          "effect_text": "Apply Aura (6) | Dummy (4)",
           "base_value": 6.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -6215,9 +6190,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         },
@@ -6227,7 +6201,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1272153,
           "source_spell_id": 1236360,
           "effect_index": 4,
-          "effect_text": "Apply Aura: Dummy",
+          "effect_text": "Apply Aura (6) | Dummy (4)",
           "base_value": 100.0,
           "spell_pvp_multiplier": 0.33,
           "amount_kind": null,
@@ -6246,9 +6220,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -6298,8 +6271,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 442502,
         "icon": "ability_warlock_soulsiphon"
       },
-      "pve_tooltip": "Consuming a Soul Fragment causes your next\nto deal (62% of Attack Power) additional Physical damage.",
-      "pvp_tooltip": "Consuming a Soul Fragment causes your next\nto deal (62% of Attack Power) additional Physical damage.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nConsuming a Soul Fragment causes your next\nto deal (62% of Attack Power) additional Physical damage.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nConsuming a Soul Fragment causes your next\nto deal (62% of Attack Power) additional Physical damage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6352,8 +6325,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 442686,
         "icon": "spell_arcane_arcanetactics"
       },
-      "pve_tooltip": "After consuming both enhancements, gain Thrill of the Fight, increasing the damage of your next Reaver's Glaive by 30% and increasing Haste by 8% for 30 sec.",
-      "pvp_tooltip": "After consuming both enhancements, gain Thrill of the Fight, increasing the damage of your next Reaver's Glaive by 30% and increasing Haste by 8% for 30 sec.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nAfter consuming both enhancements, gain Thrill of the Fight, increasing the damage of your next Reaver's Glaive by 30% and increasing Haste by 8% for 30 sec.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nAfter consuming both enhancements, gain Thrill of the Fight, increasing the damage of your next Reaver's Glaive by 30% and increasing Haste by 8% for 30 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6406,8 +6379,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1253304,
         "icon": "inv_12_dh_void_ability_voidfall"
       },
-      "pve_tooltip": "Fracture has a 35% chance to grant 1 stack of Voidfall.\nUpon reaching 3 stacks of Voidfall, Soul Cleave consumes a stack to reach into the Void and call down a meteor strike at your target's location, dealing (540% of Attack Power) Shadowflame damage to all enemies within 8 yards. Damage reduced beyond 8 targets.",
-      "pvp_tooltip": "Fracture has a 35% chance to grant 1 stack of Voidfall.\nUpon reaching 3 stacks of Voidfall, Soul Cleave consumes a stack to reach into the Void and call down a meteor strike at your target's location, dealing (540% of Attack Power) Shadowflame damage to all enemies within 8 yards. Damage reduced beyond 8 targets.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nFracture has a 35% chance to grant 1 stack of Voidfall.\nUpon reaching 3 stacks of Voidfall, Soul Cleave consumes a stack to reach into the Void and call down a meteor strike at your target's location, dealing (540% of Attack Power) Shadowflame damage to all enemies within 8 yards. Damage reduced beyond 8 targets.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nFracture has a 35% chance to grant 1 stack of Voidfall.\nUpon reaching 3 stacks of Voidfall, Soul Cleave consumes a stack to reach into the Void and call down a meteor strike at your target's location, dealing (540% of Attack Power) Shadowflame damage to all enemies within 8 yards. Damage reduced beyond 8 targets.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6420,7 +6393,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1253304,
           "source_spell_id": 1256305,
           "effect_index": 1,
-          "effect_text": "School Damage (Holy, Nature, Shadow, Arcane) (SP mod: 1.76)",
+          "effect_text": "School Damage (2): cosmic (SP mod: 1.76)",
           "base_value": null,
           "spell_pvp_multiplier": 0.9,
           "amount_kind": "direct",
@@ -6437,10 +6410,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
             "simc"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0
@@ -6488,8 +6460,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1253668,
         "icon": "ability_priest_darkarchangel"
       },
-      "pve_tooltip": "Each stack of Voidfall grants 2% Haste.",
-      "pvp_tooltip": "Each stack of Voidfall grants 2% Haste.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nEach stack of Voidfall grants 2% Haste.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nEach stack of Voidfall grants 2% Haste.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6541,8 +6513,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1253377,
         "icon": "ability_socererking_arcanefortification"
       },
-      "pve_tooltip": "Fel Devastation damage increased by 25%.\nFel Devastation generates 3 Soul Fragments over its duration.",
-      "pvp_tooltip": "Fel Devastation damage increased by 25%.\nFel Devastation generates 3 Soul Fragments over its duration.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nFel Devastation damage increased by 25%.\nFel Devastation generates 3 Soul Fragments over its duration.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nFel Devastation damage increased by 25%.\nFel Devastation generates 3 Soul Fragments over its duration.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6594,8 +6566,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1253769,
         "icon": "inv_netherportal"
       },
-      "pve_tooltip": "Enemies struck by a Voidfall Meteor take an additional 25% damage over 8 sec.",
-      "pvp_tooltip": "Enemies struck by a Voidfall Meteor take an additional 25% damage over 8 sec.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nEnemies struck by a Voidfall Meteor take an additional 25% damage over 8 sec.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nEnemies struck by a Voidfall Meteor take an additional 25% damage over 8 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6647,8 +6619,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1256245,
         "icon": "ability_demonhunter_blur"
       },
-      "pve_tooltip": "Each stack of Voidfall grants 2% reduced damage taken.",
-      "pvp_tooltip": "Each stack of Voidfall grants 2% reduced damage taken.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nEach stack of Voidfall grants 2% reduced damage taken.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nEach stack of Voidfall grants 2% reduced damage taken.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6700,8 +6672,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1253399,
         "icon": "ability_socererking_arcaneacceleration"
       },
-      "pve_tooltip": "Each stack of Voidfall grants 3% increased movement speed.",
-      "pvp_tooltip": "Each stack of Voidfall grants 3% increased movement speed.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nEach stack of Voidfall grants 3% increased movement speed.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nEach stack of Voidfall grants 3% increased movement speed.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6753,8 +6725,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1253402,
         "icon": "inv_112_arcane_buff"
       },
-      "pve_tooltip": "Torment has 1 additional charge.",
-      "pvp_tooltip": "Torment has 1 additional charge.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nTorment has 1 additional charge.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nTorment has 1 additional charge.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6806,8 +6778,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1256295,
         "icon": "inv_nullstone_cosmicvoid"
       },
-      "pve_tooltip": "Gain 3 stacks of Voidfall and reset the cooldown of Spirit Bomb upon activating Metamorphosis.",
-      "pvp_tooltip": "Gain 3 stacks of Voidfall and reset the cooldown of Spirit Bomb upon activating Metamorphosis.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nGain 3 stacks of Voidfall and reset the cooldown of Spirit Bomb upon activating Metamorphosis.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nGain 3 stacks of Voidfall and reset the cooldown of Spirit Bomb upon activating Metamorphosis.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6859,8 +6831,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1253676,
         "icon": "inv_shadowflame_buff"
       },
-      "pve_tooltip": "Activating Infernal Strike out of combat or within 5 sec of entering combat calls down 1 Voidfall Meteor.",
-      "pvp_tooltip": "Activating Infernal Strike out of combat or within 5 sec of entering combat calls down 1 Voidfall Meteor.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nActivating Infernal Strike out of combat or within 5 sec of entering combat calls down 1 Voidfall Meteor.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nActivating Infernal Strike out of combat or within 5 sec of entering combat calls down 1 Voidfall Meteor.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6912,8 +6884,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1279247,
         "icon": "inv_cosmicvoid_orb"
       },
-      "pve_tooltip": "Voidfall Meteor damage increased by 15%.",
-      "pvp_tooltip": "Voidfall Meteor damage increased by 15%.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nVoidfall Meteor damage increased by 15%.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nVoidfall Meteor damage increased by 15%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6965,8 +6937,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1253415,
         "icon": "inv_polearm_2h_voidscythe_d_01"
       },
-      "pve_tooltip": "Shear generates 3 additional Fury and deals 25% increased damage.",
-      "pvp_tooltip": "Shear generates 3 additional Fury and deals 25% increased damage.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nShear generates 3 additional Fury and deals 25% increased damage.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nShear generates 3 additional Fury and deals 25% increased damage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -7018,8 +6990,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1253805,
         "icon": "inv_10_worlddroplevelingoptionalreagent_relics_hourglass_color1"
       },
-      "pve_tooltip": "Passive bonuses granted by each stack of Voidfall persist for 8 sec after being consumed.",
-      "pvp_tooltip": "Passive bonuses granted by each stack of Voidfall persist for 8 sec after being consumed.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nPassive bonuses granted by each stack of Voidfall persist for 8 sec after being consumed.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nPassive bonuses granted by each stack of Voidfall persist for 8 sec after being consumed.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -7032,7 +7004,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1253805,
           "source_spell_id": 1256305,
           "effect_index": 1,
-          "effect_text": "School Damage (Holy, Nature, Shadow, Arcane) (SP mod: 1.76)",
+          "effect_text": "School Damage (2): cosmic (SP mod: 1.76)",
           "base_value": null,
           "spell_pvp_multiplier": 0.9,
           "amount_kind": "direct",
@@ -7053,10 +7025,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
             "simc"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0
@@ -7104,8 +7075,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1253391,
         "icon": "ability_socererking_arcanereplication"
       },
-      "pve_tooltip": "While at 3 stacks of Voidfall, Spirit Bomb and Soul Cleave consumes all 3 to rapidly call down that many meteor strikes.",
-      "pvp_tooltip": "While at 3 stacks of Voidfall, Spirit Bomb and Soul Cleave consumes all 3 to rapidly call down that many meteor strikes.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nWhile at 3 stacks of Voidfall, Spirit Bomb and Soul Cleave consumes all 3 to rapidly call down that many meteor strikes.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nWhile at 3 stacks of Voidfall, Spirit Bomb and Soul Cleave consumes all 3 to rapidly call down that many meteor strikes.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -7157,8 +7128,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1256307,
         "icon": "inv_cosmicvoid_nova"
       },
-      "pve_tooltip": "Your first Spirit Bomb after entering demon form causes a Shadowflame meteor shower to assault the area, dealing [(90% of Attack Power) * 12] Shadowflame damage over 6 sec.",
-      "pvp_tooltip": "Your first Spirit Bomb after entering demon form causes a Shadowflame meteor shower to assault the area, dealing [(90% of Attack Power) * 12] Shadowflame damage over 6 sec.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nYour first Spirit Bomb after entering demon form causes a Shadowflame meteor shower to assault the area, dealing [(90% of Attack Power) * 12] Shadowflame damage over 6 sec.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nYour first Spirit Bomb after entering demon form causes a Shadowflame meteor shower to assault the area, dealing [(90% of Attack Power) * 12] Shadowflame damage over 6 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -7210,8 +7181,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1253817,
         "icon": "inv_babyvoidwalker_blue"
       },
-      "pve_tooltip": "Spirit Bomb and Voidfall meteors deal 35% increased damage when striking a single target.\nEach additional target reduces this bonus by 5%.",
-      "pvp_tooltip": "Spirit Bomb and Voidfall meteors deal 35% increased damage when striking a single target.\nEach additional target reduces this bonus by 5%.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nSpirit Bomb and Voidfall meteors deal 35% increased damage when striking a single target.\nEach additional target reduces this bonus by 5%.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nSpirit Bomb and Voidfall meteors deal 35% increased damage when striking a single target.\nEach additional target reduces this bonus by 5%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -7264,8 +7235,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1256353,
         "icon": "inv_112_raiddimensius_brokenworld"
       },
-      "pve_tooltip": "The third Voidfall meteor strike called down in sequence is larger, has 50% increased area, deals 50% increased damage, and reduces the remaining cooldown of Metamorphosis by 10 sec.",
-      "pvp_tooltip": "The third Voidfall meteor strike called down in sequence is larger, has 50% increased area, deals 50% increased damage, and reduces the remaining cooldown of Metamorphosis by 10 sec.",
+      "pve_tooltip": "Talent\nRequires Demon Hunter\nThe third Voidfall meteor strike called down in sequence is larger, has 50% increased area, deals 50% increased damage, and reduces the remaining cooldown of Metamorphosis by 10 sec.",
+      "pvp_tooltip": "Talent\nRequires Demon Hunter\nThe third Voidfall meteor strike called down in sequence is larger, has 50% increased area, deals 50% increased damage, and reduces the remaining cooldown of Metamorphosis by 10 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -7277,10 +7248,10 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "demon-hunter-vengeance",
-  "generated_at": "2026-09-19T17:40:32.163482+00:00",
+  "generated_at": "2026-09-19T18:49:07.544959+00:00",
   "validation": {
     "talents": 123,
-    "changed_tooltips": 6,
+    "changed_tooltips": 5,
     "talents_with_pvp_mechanics": 16,
     "unique_nodes": 112,
     "tree_build": "12.1.0.69875",
@@ -7289,12 +7260,44 @@ window.WOW_PVP_DATA = {
       "12.1.0.69587"
     ],
     "verification_status": "PARTIAL",
-    "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "fetch_error_count": 1,
+    "source_warning_count": 129,
     "unresolved_count": 0,
     "review_required_count": 1,
-    "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "fetch_error_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 204909,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=204909'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 179057,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=179057'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 183782,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=183782'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 196718,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=196718'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 198793,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=198793'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 202137,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=202137'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": [
       {

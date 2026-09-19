@@ -1,5 +1,5 @@
 window.WOW_PVP_MANIFEST = {
-  "generated_at": "2026-09-19T17:57:45.686079+00:00",
+  "generated_at": "2026-09-19T19:06:15.323149+00:00",
   "tree_build": "12.1.0.69875",
   "content_hash": "66952e6398559450a2f421d56adbcda2",
   "default_slug": "priest-discipline",
@@ -31,7 +31,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 40,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 7,
           "unresolved_count": 0,
           "review_required_count": 0
         },
@@ -81,11 +81,11 @@ window.WOW_PVP_MANIFEST = {
           "name": "Vengeance",
           "spec_id": 581,
           "slug": "demon-hunter-vengeance",
-          "changed_tooltips": 6,
+          "changed_tooltips": 5,
           "talents_with_pvp_mechanics": 16,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "fetch_error_count": 1,
+          "source_warning_count": 129,
           "unresolved_count": 0,
           "review_required_count": 1
         }
@@ -165,13 +165,13 @@ window.WOW_PVP_MANIFEST = {
           "name": "Devastation",
           "spec_id": 1467,
           "slug": "evoker-devastation",
-          "changed_tooltips": 10,
+          "changed_tooltips": 11,
           "talents_with_pvp_mechanics": 20,
           "verification_status": "PARTIAL",
           "fetch_error_count": 0,
           "source_warning_count": 0,
           "unresolved_count": 1,
-          "review_required_count": 1
+          "review_required_count": 0
         },
         {
           "name": "Preservation",
@@ -283,7 +283,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 25,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 2,
+          "source_warning_count": 0,
           "unresolved_count": 0,
           "review_required_count": 0
         },
@@ -295,7 +295,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 49,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 23,
+          "source_warning_count": 27,
           "unresolved_count": 0,
           "review_required_count": 0
         },
@@ -307,7 +307,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 32,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 16,
+          "source_warning_count": 3,
           "unresolved_count": 0,
           "review_required_count": 0
         }
@@ -325,7 +325,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 37,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 10,
+          "source_warning_count": 8,
           "unresolved_count": 0,
           "review_required_count": 0
         },
@@ -337,7 +337,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 35,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 0,
+          "source_warning_count": 2,
           "unresolved_count": 0,
           "review_required_count": 0
         },
@@ -517,7 +517,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 39,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 10,
+          "source_warning_count": 3,
           "unresolved_count": 0,
           "review_required_count": 0
         }

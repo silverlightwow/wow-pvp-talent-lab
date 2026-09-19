@@ -3425,7 +3425,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 49020,
           "source_spell_id": 1264082,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (AP mod: 0.714221 )",
+          "effect_text": "School Damage (2): frost (AP mod: 0.714221)",
           "base_value": null,
           "spell_pvp_multiplier": 1.88,
           "amount_kind": "direct",
@@ -3461,9 +3461,8 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         },
@@ -3473,7 +3472,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 49020,
           "source_spell_id": 1264083,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (AP mod: 0.714221 )",
+          "effect_text": "School Damage (2): frost (AP mod: 0.714221)",
           "base_value": null,
           "spell_pvp_multiplier": 1.88,
           "amount_kind": "direct",
@@ -3509,9 +3508,8 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         },
@@ -3521,7 +3519,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 49020,
           "source_spell_id": 1264084,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (AP mod: 1.05731 )",
+          "effect_text": "School Damage (2): frost (AP mod: 1.05731)",
           "base_value": null,
           "spell_pvp_multiplier": 1.88,
           "amount_kind": "direct",
@@ -3557,9 +3555,8 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -4405,7 +4402,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1230301,
           "source_spell_id": 1233619,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost, Shadow) (AP mod: 2.0592 )",
+          "effect_text": "School Damage (2): shadowfrost (AP mod: 2.0592)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4432,9 +4429,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0
@@ -5204,7 +5202,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1230223,
           "source_spell_id": 1231083,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (AP mod: 0.252 )",
+          "effect_text": "School Damage (2): frost (AP mod: 0.252)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5231,9 +5229,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1
@@ -6399,7 +6398,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 455993,
           "source_spell_id": 1228443,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (AP mod: 0.719863 )",
+          "effect_text": "School Damage (2): frost (AP mod: 0.719863)",
           "base_value": null,
           "spell_pvp_multiplier": 1.42857,
           "amount_kind": "direct",
@@ -6437,9 +6436,8 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -9635,7 +9633,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "death-knight-frost",
-  "generated_at": "2026-09-19T17:39:32.537102+00:00",
+  "generated_at": "2026-09-19T18:47:34.523778+00:00",
   "validation": {
     "talents": 121,
     "changed_tooltips": 26,
@@ -9648,11 +9646,37 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 7,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 1228436,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1228436'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1228443,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1228443'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1231083,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1231083'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1233619,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1233619'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1264082,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1264082'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }

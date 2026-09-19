@@ -9806,7 +9806,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "druid-restoration",
-  "generated_at": "2026-09-19T17:43:16.910265+00:00",
+  "generated_at": "2026-09-19T18:51:32.819512+00:00",
   "validation": {
     "talents": 147,
     "changed_tooltips": 18,

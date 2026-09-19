@@ -5467,15 +5467,49 @@ window.WOW_PVP_DATA = {
         "icon": "ability_evoker_blackattunementalt"
       },
       "pve_tooltip": "Deep Breath deals\n20% increased\ndamage and can be cast again within 18 sec of being used.\nRecall will be available after the second cast if talented.",
-      "pvp_tooltip": "Deep Breath deals\n20% increased\ndamage and can be cast again within 18 sec of being used.\nRecall will be available after the second cast if talented.",
-      "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
-      "changes": [],
+      "pvp_tooltip": "Deep Breath deals\n20% reduced\ndamage and can be cast again within 18 sec of being used.\nRecall will be available after the second cast if talented.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 18,
+          "end": 20,
+          "old_token": "20",
+          "new_token": "20",
+          "kind": "percent_direction_flip",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 22,
+          "end": 31,
+          "old_token": "increased",
+          "new_token": "reduced",
+          "kind": "direction_word",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
-          "effect_index": 1,
-          "status": "NO_RENDERABLE_VALUE",
-          "reason": "No safe player-facing numeric transformation"
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "percent_direction_flip",
+          "old": "20",
+          "new": "20"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "direction_word",
+          "old": "increased",
+          "new": "reduced"
         }
       ],
       "has_pvp_mechanics": true,
@@ -8107,10 +8141,10 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "evoker-devastation",
-  "generated_at": "2026-09-19T17:43:16.459423+00:00",
+  "generated_at": "2026-09-19T18:52:02.896862+00:00",
   "validation": {
     "talents": 125,
-    "changed_tooltips": 10,
+    "changed_tooltips": 11,
     "talents_with_pvp_mechanics": 20,
     "unique_nodes": 115,
     "tree_build": "12.1.0.69875",
@@ -8122,7 +8156,7 @@ window.WOW_PVP_DATA = {
     "fetch_error_count": 0,
     "source_warning_count": 0,
     "unresolved_count": 1,
-    "review_required_count": 1,
+    "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [],
     "unresolved_examples": [
@@ -8135,12 +8169,6 @@ window.WOW_PVP_DATA = {
         "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)"
       }
     ],
-    "review_required_examples": [
-      {
-        "talent_name": "Strafing Run",
-        "spell_id": 1266151,
-        "status": "REVIEW_REQUIRED"
-      }
-    ]
+    "review_required_examples": []
   }
 };

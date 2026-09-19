@@ -9304,7 +9304,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "warrior-protection",
-  "generated_at": "2026-09-19T17:57:35.439974+00:00",
+  "generated_at": "2026-09-19T19:06:01.674088+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 24,

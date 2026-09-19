@@ -2713,7 +2713,7 @@
           "talent_spell_id": 386689,
           "source_spell_id": 452930,
           "effect_index": 1,
-          "effect_text": "Direct Heal% (136)",
+          "effect_text": "Heal for % of Total Health",
           "base_value": 25.0,
           "spell_pvp_multiplier": 0.8,
           "amount_kind": "direct",
@@ -2730,8 +2730,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4877,7 +4878,7 @@
           "talent_spell_id": 1244877,
           "source_spell_id": 1244890,
           "effect_index": 1,
-          "effect_text": "School Damage (2): fire (SP mod: 0.6)",
+          "effect_text": "School Damage (Fire) (SP mod: 0.6)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4904,10 +4905,9 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -6533,7 +6533,7 @@
           "talent_spell_id": 1265770,
           "source_spell_id": 1265884,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadowflame (SP mod: 1.875)",
+          "effect_text": "School Damage (Fire, Shadow) (SP mod: 1.875)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6560,10 +6560,9 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -6571,7 +6570,7 @@
           "talent_spell_id": 1265770,
           "source_spell_id": 1265884,
           "effect_index": 2,
-          "effect_text": "School Damage (2): shadowflame (SP mod: 1.625)",
+          "effect_text": "School Damage (Fire, Shadow) (SP mod: 1.625)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6598,10 +6597,9 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0
@@ -6967,7 +6965,7 @@
           "talent_spell_id": 440043,
           "source_spell_id": 445736,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadowflame (SP mod: 1.44468)",
+          "effect_text": "School Damage (Fire, Shadow) (SP mod: 1.44468)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6994,10 +6992,9 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0
@@ -7686,7 +7683,7 @@
           "talent_spell_id": 440055,
           "source_spell_id": 445736,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadowflame (SP mod: 1.44468)",
+          "effect_text": "School Damage (Fire, Shadow) (SP mod: 1.44468)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7713,10 +7710,9 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -7885,7 +7881,7 @@
           "talent_spell_id": 430014,
           "source_spell_id": 446285,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadowflame (SP mod: 12.6551)",
+          "effect_text": "School Damage (Fire, Shadow) (SP mod: 12.6551)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7914,10 +7910,9 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0
@@ -8276,7 +8271,7 @@
           "talent_spell_id": 1268709,
           "source_spell_id": 1269800,
           "effect_index": 1,
-          "effect_text": "School Damage (2): fire (SP mod: 2.3462)",
+          "effect_text": "School Damage (Fire) (SP mod: 2.3462)",
           "base_value": null,
           "spell_pvp_multiplier": 0.428571,
           "amount_kind": "direct",
@@ -8303,8 +8298,9 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -9089,7 +9085,7 @@
   ],
   "fetch_errors": [],
   "slug": "warlock-destruction",
-  "generated_at": "2026-09-19T17:56:06.113688+00:00",
+  "generated_at": "2026-09-19T19:04:54.242373+00:00",
   "validation": {
     "talents": 129,
     "changed_tooltips": 21,
@@ -9102,35 +9098,25 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 10,
+    "source_warning_count": 3,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
       {
         "source": "wowhead",
-        "spell_id": 445736,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=445736'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 1269879,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1269879'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 446285,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=446285'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 1271798,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1271798'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 452930,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=452930'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1244890,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1244890'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1244918,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1244918'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 1272122,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1272122'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
