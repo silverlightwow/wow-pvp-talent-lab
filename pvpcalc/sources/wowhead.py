@@ -10,6 +10,10 @@ from ..models import EffectObservation
 
 
 BASE = "https://www.wowhead.com/spell={spell_id}"
+NETHER_BASE = (
+    "https://nether.wowhead.com/tooltip/spell/{spell_id}"
+    "?dataEnv=1&locale=0"
+)
 
 
 class WowheadParseError(RuntimeError):
@@ -698,28 +702,129 @@ def parse_spell_page(
     )
 
 
+def parse_nether_tooltip_payload(
+    payload: dict,
+    spell_id: int,
+    url: str | None = None,
+) -> WowheadSpellPage:
+    """
+    Parse Wowhead's lightweight tooltip JSON endpoint.
+
+    The Nether endpoint is intentionally used only as a
+    player-facing tooltip fallback. It does not expose the full
+    Spell Details table, so exact effect state continues to come
+    from the normal Wowhead page and/or exact-build SimC.
+    """
+
+    spell_name = str(
+        payload.get("name")
+        or f"Spell {spell_id}"
+    ).strip()
+
+    tooltip_html = str(
+        payload.get("tooltip")
+        or ""
+    )
+
+    soup = BeautifulSoup(
+        tooltip_html,
+        "lxml",
+    )
+
+    lines = [
+        _clean_line(line)
+        for line in soup.get_text(
+            "\n",
+            strip=True,
+        ).splitlines()
+    ]
+
+    lines = [
+        line
+        for line in lines
+        if line
+    ]
+
+    # The JSON payload may repeat the spell title. The catalog
+    # already stores the talent name separately, so keep only the
+    # actual player-facing body.
+    while (
+        lines
+        and lines[0].casefold()
+        == spell_name.casefold()
+    ):
+        lines.pop(0)
+
+    return WowheadSpellPage(
+        spell_id=int(spell_id),
+        spell_name=spell_name,
+        player_tooltip="\n".join(
+            lines
+        ).strip(),
+        effects=tuple(),
+        url=(
+            url
+            or NETHER_BASE.format(
+                spell_id=spell_id
+            )
+        ),
+    )
+
+
+async def fetch_nether_spell_page(
+    client: CachedClient,
+    spell_id: int,
+) -> WowheadSpellPage:
+
+    url = NETHER_BASE.format(
+        spell_id=spell_id
+    )
+
+    payload = await client.get_json(
+        url
+    )
+
+    return parse_nether_tooltip_payload(
+        payload,
+        spell_id=spell_id,
+        url=url,
+    )
+
+
 async def fetch_spell_page(
     client: CachedClient,
     spell_id: int,
 ) -> WowheadSpellPage:
     """
-    Fetch once, parse twice:
+    Fetch one current player-facing spell page.
 
-        player-facing tooltip
-        + structured Spell Details
+    Primary source:
+        full www.wowhead.com page, which also exposes Spell Details.
+
+    Fallback:
+        nether.wowhead.com tooltip JSON. This endpoint is much less
+        affected by Wowhead's page WAF and is sufficient for the
+        application tooltip when the full page returns 403.
     """
 
     url = BASE.format(
         spell_id=spell_id
     )
 
-    html = await client.get_text(
-        url
-    )
+    try:
+        html = await client.get_text(
+            url
+        )
 
-    return parse_spell_page(
-        html,
-        spell_id=spell_id,
-        url=url,
-    )
+        return parse_spell_page(
+            html,
+            spell_id=spell_id,
+            url=url,
+        )
+
+    except Exception:
+        return await fetch_nether_spell_page(
+            client,
+            spell_id,
+        )
 
