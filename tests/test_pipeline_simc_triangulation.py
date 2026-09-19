@@ -221,3 +221,67 @@ def test_simc_effect_parser_preserves_attack_power_coefficient():
     assert len(observations) == 1
     assert observations[0].base_value is None
     assert "AP mod: 9.72" in observations[0].effect_text
+
+
+def test_simc_pvp_universe_finds_modified_spells():
+    ids = pipeline.simc.pvp_modified_spell_ids(
+        _dump()
+    )
+
+    assert ids == {100}
+
+
+def test_simc_fills_missing_wowhead_pvp_coefficient():
+    rows = [
+        {
+            "spell_id": 100,
+            "effect_index": 2,
+            "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+            "base_value": 30,
+            "pvp_multiplier": None,
+            "pvp_value": None,
+            "sources": ["wowhead"],
+            "confidence": "medium",
+            "conflicts": [],
+        }
+    ]
+
+    pipeline._fill_missing_base_values_from_simc(
+        rows,
+        _dump(),
+    )
+
+    row = rows[0]
+
+    assert row["pvp_multiplier"] == 0.75
+    assert row["pvp_value"] == 22.5
+    assert row["is_pvp_modified"] is True
+    assert "simc" in row["sources"]
+    assert row["pvp_multiplier_source"] == "simc_exact_build"
+
+
+def test_simc_modified_rows_cover_missing_effect_identity():
+    rows = pipeline._build_simc_modified_rows(
+        spell_ids={100},
+        talent_by_spell={
+            100: {
+                "class_name": "Test",
+                "spec_name": "Test",
+                "talent_name": "Test Spell",
+                "tree_type": "spec",
+                "hero_tree": None,
+                "node_id": 1,
+                "entry_id": 2,
+            }
+        },
+        simc_dump=_dump(),
+        existing_keys={
+            (100, 1),
+        },
+    )
+
+    assert len(rows) == 1
+    assert rows[0]["effect_index"] == 2
+    assert rows[0]["pvp_multiplier"] == 0.75
+    assert rows[0]["sources"] == ["simc"]
+    assert rows[0]["confidence"] == "medium"
