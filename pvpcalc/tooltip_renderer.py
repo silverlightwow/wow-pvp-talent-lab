@@ -1057,29 +1057,73 @@ def _context_words(
     }
 
 
+def _reference_effect_patterns(
+    effect_index,
+    *,
+    source_spell_id=None,
+    effect_origin=None,
+):
+    if effect_index is None:
+        return tuple()
+
+    index = int(effect_index)
+
+    # Dependency rows must match the qualified child token. A parent
+    # and child can both have Effect #3 in the same formula, and using
+    # an unqualified $s3 there would attach the child's PvP modifier to
+    # the parent's unrelated value.
+    if (
+        effect_origin == "DEPENDENCY"
+        and source_spell_id is not None
+    ):
+        return (
+            re.compile(
+                r"\$"
+                + str(int(source_spell_id))
+                + rf"s{index}(?!\d)",
+                re.I,
+            ),
+        )
+
+    patterns = [
+        re.compile(
+            rf"\$s{index}(?!\d)",
+            re.I,
+        ),
+    ]
+
+    if source_spell_id is not None:
+        patterns.append(
+            re.compile(
+                r"\$"
+                + str(int(source_spell_id))
+                + rf"s{index}(?!\d)",
+                re.I,
+            )
+        )
+
+    return tuple(patterns)
+
+
 def _reference_effect_occurrence_count(
     reference_contexts,
     effect_index,
+    *,
+    source_spell_id=None,
+    effect_origin=None,
 ) -> int:
-    """
-    Count explicit SimC $sN / $<spell>sN references to one effect in
-    provenance text. This lets one SpellEffect safely update multiple
-    player-facing occurrences without touching unrelated equal numbers.
-    """
+    """Count explicit SimC references to one concrete SpellEffect."""
 
-    if effect_index is None:
-        return 0
-
-    pattern = re.compile(
-        rf"\$(?:\d+)?s{int(effect_index)}(?!\d)",
-        re.I,
+    patterns = _reference_effect_patterns(
+        effect_index,
+        source_spell_id=source_spell_id,
+        effect_origin=effect_origin,
     )
 
     return sum(
-        len(
-            pattern.findall(
-                str(context or "")
-            )
+        sum(
+            len(pattern.findall(str(context or "")))
+            for pattern in patterns
         )
         for context in (
             reference_contexts
@@ -1088,12 +1132,73 @@ def _reference_effect_occurrence_count(
     )
 
 
+def _reference_context_words_for_effect(
+    reference_contexts,
+    effect_index,
+    *,
+    source_spell_id=None,
+    effect_origin=None,
+) -> set[str]:
+    """
+    Prefer words local to the exact effect token over all words in a
+    long formula line. Parent and child can share the same effect index.
+    """
+
+    patterns = _reference_effect_patterns(
+        effect_index,
+        source_spell_id=source_spell_id,
+        effect_origin=effect_origin,
+    )
+
+    local_words = set()
+
+    for context in (
+        reference_contexts
+        or []
+    ):
+        text = str(context or "")
+
+        for pattern in patterns:
+            for match in pattern.finditer(text):
+                left = max(
+                    0,
+                    match.start() - 75,
+                )
+                right = min(
+                    len(text),
+                    match.end() + 75,
+                )
+                local_words.update(
+                    _context_words(
+                        text[left:right]
+                    )
+                )
+
+    if len(local_words) >= 2:
+        return local_words
+
+    fallback = set()
+
+    for context in (
+        reference_contexts
+        or []
+    ):
+        fallback.update(
+            _context_words(
+                context
+            )
+        )
+
+    return fallback
+
 def _select_reference_context_matches(
     text: str,
     matches,
     *,
     reference_contexts,
     effect_index,
+    source_spell_id=None,
+    effect_origin=None,
 ):
     """
     Select N repeated equal-value tokens when exact SimC provenance
@@ -1106,6 +1211,8 @@ def _select_reference_context_matches(
     expected = _reference_effect_occurrence_count(
         reference_contexts,
         effect_index,
+        source_spell_id=source_spell_id,
+        effect_origin=effect_origin,
     )
 
     if (
@@ -1114,17 +1221,14 @@ def _select_reference_context_matches(
     ):
         return []
 
-    context_words = set()
-
-    for context in (
-        reference_contexts
-        or []
-    ):
-        context_words.update(
-            _context_words(
-                context
-            )
+    context_words = (
+        _reference_context_words_for_effect(
+            reference_contexts,
+            effect_index,
+            source_spell_id=source_spell_id,
+            effect_origin=effect_origin,
         )
+    )
 
     if len(context_words) < 2:
         return []
@@ -1297,6 +1401,9 @@ def _select_reference_context_match(
     matches,
     *,
     reference_contexts,
+    effect_index=None,
+    source_spell_id=None,
+    effect_origin=None,
 ):
     """
     Use exact-build SimC Description/Tooltip text around $sN as a
@@ -1307,17 +1414,14 @@ def _select_reference_context_match(
     candidate by a material margin.
     """
 
-    context_words = set()
-
-    for context in (
-        reference_contexts
-        or []
-    ):
-        context_words.update(
-            _context_words(
-                context
-            )
+    context_words = (
+        _reference_context_words_for_effect(
+            reference_contexts,
+            effect_index,
+            source_spell_id=source_spell_id,
+            effect_origin=effect_origin,
         )
+    )
 
     if len(context_words) < 2:
         return None
@@ -2036,6 +2140,14 @@ def render_pvp_tooltip(
                         "effect_origin"
                     ),
 
+                "source_spell_id":
+                    row.get(
+                        "source_spell_id",
+                        row.get(
+                            "spell_id"
+                        ),
+                    ),
+
                 "dependency_kind":
                     row.get(
                         "dependency_kind"
@@ -2414,6 +2526,14 @@ def render_pvp_tooltip(
                         transform.get(
                             "effect_index"
                         ),
+                    source_spell_id=
+                        transform.get(
+                            "source_spell_id"
+                        ),
+                    effect_origin=
+                        transform.get(
+                            "effect_origin"
+                        ),
                 )
             )
 
@@ -2524,6 +2644,18 @@ def render_pvp_tooltip(
                         transform.get(
                             "reference_contexts",
                             [],
+                        ),
+                    effect_index=
+                        transform.get(
+                            "effect_index"
+                        ),
+                    source_spell_id=
+                        transform.get(
+                            "source_spell_id"
+                        ),
+                    effect_origin=
+                        transform.get(
+                            "effect_origin"
                         ),
                 )
             )
