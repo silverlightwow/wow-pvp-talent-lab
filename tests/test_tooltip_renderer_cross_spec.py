@@ -432,3 +432,43 @@ def test_run_speed_context_selects_speed_bonus_not_floor():
     assert result["render_status"] == "COMPLETE"
     assert "speed is increased by 80%" in result["pvp_tooltip"]
     assert "below 100% of normal speed" in result["pvp_tooltip"]
+
+
+def test_same_numeric_value_different_semantic_kinds_do_not_conflict():
+    tooltip = (
+        "Reduces the cooldown by 1.5 sec and increases "
+        "the bonus by 1.5%."
+    )
+
+    rows = [
+        {
+            "effect_index": 1,
+            "effect_text": "Apply Aura: Modifies Cooldown (11)",
+            "base_value": -1.5,
+            "final_pvp_multiplier": 2,
+            "final_pvp_value": -3,
+        },
+        {
+            "effect_index": 2,
+            "effect_text": "Apply Aura: Dummy",
+            "base_value": 1.5,
+            "final_pvp_multiplier": 2,
+            "final_pvp_value": 3,
+            "semantic_unit_hint": "percent",
+        },
+    ]
+
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Elemental",
+        spec_names=["Elemental", "Enhancement", "Restoration"],
+        effect_rows=rows,
+    )
+
+    assert result["render_status"] == "COMPLETE"
+    assert "cooldown by 3.0 sec" in result["pvp_tooltip"]
+    assert "bonus by 3%" in result["pvp_tooltip"]
+    assert not any(
+        item["status"] == "CONFLICTING_TRANSFORMS"
+        for item in result["diagnostics"]
+    )
