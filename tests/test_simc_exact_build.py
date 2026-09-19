@@ -124,3 +124,35 @@ def test_dependency_effect_context_ignores_other_effects():
         )
         is None
     )
+
+
+def test_effect_reference_context_follows_named_variable():
+    raw = (
+        "Name             : Prismatic Barrier (id=235450)\n"
+        "Description      : Shields you with an arcane force, absorbing "
+        "$<shield> damage and reducing magic damage taken by $s3%.\n"
+        "Variables        : $shield=$s2 / 100 * Total Health\n"
+    )
+
+    spell = simc.SimcSpell(
+        spell_id=235450,
+        name="Prismatic Barrier",
+        raw=raw,
+    )
+
+    dump = simc.SimcDump(
+        class_slug="mage",
+        build="12.1.0.test",
+        header="test",
+        spells={235450: spell},
+        edges={},
+    )
+
+    contexts = simc.effect_reference_contexts(
+        dump,
+        235450,
+        2,
+    )
+
+    assert len(contexts) == 1
+    assert "absorbing $<shield> damage" in contexts[0]
