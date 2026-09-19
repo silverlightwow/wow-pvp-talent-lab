@@ -342,3 +342,93 @@ def test_duplicate_cooldown_encodings_collapse_to_one_visible_change():
     assert result["render_status"] == "COMPLETE"
     assert "by 3.0 sec" in result["pvp_tooltip"]
     assert "15% faster" in result["pvp_tooltip"]
+
+
+def test_damage_healing_context_selects_bonus_not_proc_chance():
+    tooltip = (
+        "Holy Power spending abilities have a 15% chance to make your "
+        "next Holy Power spending ability free and deal 15% increased "
+        "damage and healing."
+    )
+
+    rows = [
+        {
+            "effect_index": 2,
+            "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+            "base_value": 15,
+            "final_pvp_multiplier": 0.666667,
+            "final_pvp_value": 10.000005,
+        },
+    ]
+
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Protection",
+        spec_names=["Holy", "Protection", "Retribution"],
+        effect_rows=rows,
+    )
+
+    assert result["render_status"] == "COMPLETE"
+    assert "15% chance" in result["pvp_tooltip"]
+    assert "deal 10% increased damage and healing" in result["pvp_tooltip"]
+
+
+def test_damage_taken_context_selects_mitigation_value():
+    tooltip = (
+        "You deal 5% more damage and take 5% less damage.\n"
+        "Size increased by 5%."
+    )
+
+    rows = [
+        {
+            "effect_index": 4,
+            "effect_text": (
+                "Apply Aura: Mod % Damage Taken "
+                "(Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)"
+            ),
+            "base_value": -5,
+            "final_pvp_multiplier": 0.6,
+            "final_pvp_value": -3,
+        },
+    ]
+
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Protection",
+        spec_names=["Arms", "Fury", "Protection"],
+        effect_rows=rows,
+    )
+
+    assert result["render_status"] == "COMPLETE"
+    assert "deal 5% more damage" in result["pvp_tooltip"]
+    assert "take 3% less damage" in result["pvp_tooltip"]
+    assert "Size increased by 5%" in result["pvp_tooltip"]
+
+
+def test_run_speed_context_selects_speed_bonus_not_floor():
+    tooltip = (
+        "For 10 sec, while upon your Death Charger your movement "
+        "speed is increased by 100%, you cannot be slowed below "
+        "100% of normal speed."
+    )
+
+    rows = [
+        {
+            "effect_index": 5,
+            "effect_text": "Apply Aura: Increase Run Speed %",
+            "base_value": 100,
+            "final_pvp_multiplier": 0.8,
+            "final_pvp_value": 80,
+        },
+    ]
+
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Frost",
+        spec_names=["Blood", "Frost", "Unholy"],
+        effect_rows=rows,
+    )
+
+    assert result["render_status"] == "COMPLETE"
+    assert "speed is increased by 80%" in result["pvp_tooltip"]
+    assert "below 100% of normal speed" in result["pvp_tooltip"]
