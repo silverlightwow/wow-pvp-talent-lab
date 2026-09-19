@@ -10,7 +10,7 @@ on:
       - ".github/workflows/all-data-pages.yml"
       - "scripts/build_all_site_data.py"
       - "scripts/merge_class_datasets.py"
-      - "scripts/discover_classes.py"
+      - "scripts/discover_specs_matrix.py"
       - "pvpcalc/**"
 
 permissions:
@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     outputs:
-      classes: ${{ steps.matrix.outputs.classes }}
+      specs: ${{ steps.matrix.outputs.specs }}
 
     steps:
       - name: Checkout
@@ -45,22 +45,23 @@ jobs:
       - name: Unit tests
         run: pytest -q
 
-      - name: Discover current classes
+      - name: Discover current specializations
         id: matrix
-        run: python scripts/discover_classes.py --github-output "$GITHUB_OUTPUT"
+        run: python scripts/discover_specs_matrix.py --github-output "$GITHUB_OUTPUT"
 
-  build_class:
+  build_spec:
     needs: discover
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 25
 
-    # One class at a time is deliberate. Wowhead is the high-volume
-    # source and parallel class crawls caused self-inflicted 429s.
+    # A fresh runner per specialization avoids one long session hitting
+    # Wowhead's request ceiling. A small amount of parallelism keeps the
+    # full refresh practical while each runner still uses host pacing.
     strategy:
       fail-fast: false
-      max-parallel: 1
+      max-parallel: 3
       matrix:
-        class_name: ${{ fromJSON(needs.discover.outputs.classes) }}
+        item: ${{ fromJSON(needs.discover.outputs.specs) }}
 
     steps:
       - name: Checkout
@@ -75,21 +76,22 @@ jobs:
       - name: Install project
         run: python -m pip install -e ".[dev]"
 
-      - name: Build current class
+      - name: Build specialization
         run: |
           python scripts/build_all_site_data.py \
-            --class-name "${{ matrix.class_name }}" \
-            --output-dir class-data \
+            --class-name "${{ matrix.item.class_name }}" \
+            --spec-name "${{ matrix.item.spec_name }}" \
+            --output-dir spec-data \
             --concurrency 4
 
-      - name: Validate class artifact
+      - name: Validate specialization artifact
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
 
           manifest = json.loads(
-              Path("class-data/manifest.json")
+              Path("spec-data/manifest.json")
               .read_text(encoding="utf-8")
           )
 
@@ -99,41 +101,41 @@ jobs:
               for spec in cls["specs"]
           ]
 
-          if not specs:
-              raise SystemExit("Class artifact contains no specs")
-
-          missing = []
-          for spec in specs:
-              slug = spec["slug"]
-              for suffix in (".json", ".js"):
-                  path = Path("class-data") / f"{slug}{suffix}"
-                  if not path.exists():
-                      missing.append(str(path))
-
-          if missing:
+          if len(specs) != 1:
               raise SystemExit(
-                  "Missing class dataset files: "
-                  + ", ".join(missing)
+                  f"Expected exactly one spec, got {len(specs)}"
               )
 
+          spec = specs[0]
+          slug = spec["slug"]
+
+          for suffix in (".json", ".js"):
+              path = Path("spec-data") / f"{slug}{suffix}"
+              if not path.exists():
+                  raise SystemExit(
+                      f"Missing specialization dataset: {path}"
+                  )
+
           print(
-              f"Class artifact: {len(specs)} specs, "
-              f"build {manifest['tree_build']}"
+              f"{slug}: {spec['verification_status']} · "
+              f"fetch={spec['fetch_error_count']} · "
+              f"unresolved={spec['unresolved_count']} · "
+              f"review={spec['review_required_count']}"
           )
           PY
 
-      - name: Upload class datasets
+      - name: Upload specialization dataset
         uses: actions/upload-artifact@v4
         with:
-          name: "class-data-${{ matrix.class_name }}"
-          path: class-data
+          name: "spec-data-${{ matrix.item.spec_id }}"
+          path: spec-data
           retention-days: 1
           if-no-files-found: error
 
   aggregate:
     needs:
       - discover
-      - build_class
+      - build_spec
     runs-on: ubuntu-latest
     timeout-minutes: 20
 
@@ -148,17 +150,17 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Download all class artifacts
+      - name: Download all specialization artifacts
         uses: actions/download-artifact@v4
         with:
-          pattern: "class-data-*"
-          path: staged-class-data
+          pattern: "spec-data-*"
+          path: staged-spec-data
           merge-multiple: false
 
       - name: Merge production dataset snapshot
         run: |
           python scripts/merge_class_datasets.py \
-            --artifacts-root staged-class-data \
+            --artifacts-root staged-spec-data \
             --output-dir web/data
 
       - name: Validate generated manifest
