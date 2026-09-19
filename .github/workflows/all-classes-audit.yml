@@ -2,14 +2,10 @@ name: All classes compatibility audit
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - "pvpcalc/**"
-      - "tests/**"
-      - "scripts/audit_all_specs.py"
-      - "scripts/discover_classes.py"
-      - ".github/workflows/all-classes-audit.yml"
+  schedule:
+    # Keep the heavy compatibility audit away from the production
+    # all-spec rebuild so we do not self-rate-limit upstream sites.
+    - cron: "23 3 * * 1"
 
 permissions:
   contents: read
