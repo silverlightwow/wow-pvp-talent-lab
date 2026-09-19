@@ -1345,6 +1345,24 @@ def _fill_missing_base_values_from_simc(
             simc_effect.pvp_coefficient
         )
 
+        row[
+            "simc_reference_contexts"
+        ] = list(
+            simc.effect_reference_contexts(
+                simc_dump,
+                spell_id,
+                int(effect_index),
+            )
+        )
+
+        row[
+            "semantic_unit_hint"
+        ] = simc.effect_unit_hint(
+            simc_dump,
+            spell_id,
+            int(effect_index),
+        )
+
 
         row_multiplier = row.get(
             "pvp_multiplier"
@@ -1765,6 +1783,26 @@ def _simc_row_from_effect(
 
         "simc_pvp_coefficient":
             simc_effect.pvp_coefficient,
+
+        "simc_reference_contexts":
+            list(
+                simc.effect_reference_contexts(
+                    simc_dump,
+                    int(spell_id),
+                    int(
+                        simc_effect.effect_index
+                    ),
+                )
+            ),
+
+        "semantic_unit_hint":
+            simc.effect_unit_hint(
+                simc_dump,
+                int(spell_id),
+                int(
+                    simc_effect.effect_index
+                ),
+            ),
 
         "base_value_source":
             (
