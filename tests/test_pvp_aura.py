@@ -141,3 +141,156 @@ def test_pvp_aura_percent_semantics():
     assert abs(
         actual - expected
     ) < 1e-12
+
+
+
+def test_label_modify_effect_rule_targets_exact_effect():
+
+    payload = {
+        "versions": [
+            "12.1.0.test",
+        ],
+        "auras": [
+            {
+                "id": 9000,
+                "name": "Blood Death Knight",
+                "spec": "Blood",
+                "effects": [
+                    {
+                        "id": 10,
+                        "effect_id": 5010,
+                        "description": (
+                            "PVP Multiplier (Label): "
+                            "Modify Effect 2 (6)"
+                        ),
+                        "family_flags": 0,
+                        "label_id": 4192,
+                        "affected_spells": [],
+                        "values": [
+                            {
+                                "version": "12.1.0.test",
+                                "value": "-50",
+                                "is_hotfixed": True,
+                            }
+                        ],
+                    }
+                ],
+            }
+        ],
+    }
+
+    rules = normalize_current_spec_aura(
+        payload,
+        spec_name="Blood",
+        class_name="Death Knight",
+    )
+
+    assert len(rules) == 1
+    assert rules[0].amount_kind == "effect:2"
+    assert rules[0].label_id == 4192
+    assert rules[0].factor == 0.5
+
+    assert len(
+        rules_for_spell(
+            rules,
+            12345,
+            amount_kind=None,
+            effect_index=2,
+            spell_label_ids=(4192,),
+        )
+    ) == 1
+
+    assert rules_for_spell(
+        rules,
+        12345,
+        amount_kind=None,
+        effect_index=1,
+        spell_label_ids=(4192,),
+    ) == []
+
+    assert rules_for_spell(
+        rules,
+        12345,
+        amount_kind=None,
+        effect_index=2,
+        spell_label_ids=(9999,),
+    ) == []
+
+
+def test_label_direct_amount_rule_uses_label_membership_and_kind():
+
+    payload = {
+        "versions": [
+            "12.1.0.test",
+        ],
+        "auras": [
+            {
+                "id": 9001,
+                "name": "Unholy Death Knight",
+                "spec": "Unholy",
+                "effects": [
+                    {
+                        "id": 11,
+                        "effect_id": 5011,
+                        "description": (
+                            "PVP Multiplier (Label): "
+                            "Direct Amount (0)"
+                        ),
+                        "family_flags": 0,
+                        "label_id": 2915,
+                        "affected_spells": [],
+                        "values": [
+                            {
+                                "version": "12.1.0.test",
+                                "value": "18",
+                            }
+                        ],
+                    }
+                ],
+            }
+        ],
+    }
+
+    rules = normalize_current_spec_aura(
+        payload,
+        spec_name="Unholy",
+        class_name="Death Knight",
+    )
+
+    assert len(rules) == 1
+    assert rules[0].amount_kind == "direct"
+    assert rules[0].factor == 1.18
+
+    assert len(
+        rules_for_spell(
+            rules,
+            54321,
+            amount_kind="direct",
+            effect_index=1,
+            spell_label_ids=(2915,),
+        )
+    ) == 1
+
+    assert rules_for_spell(
+        rules,
+        54321,
+        amount_kind="periodic",
+        effect_index=1,
+        spell_label_ids=(2915,),
+    ) == []
+
+
+def test_missing_spec_pvp_aura_is_valid_identity_state():
+
+    payload = {
+        "versions": [
+            "12.1.0.test",
+        ],
+        "auras": [],
+    }
+
+    assert normalize_current_spec_aura(
+        payload,
+        spec_name="Test",
+        class_name="Test",
+    ) == []
