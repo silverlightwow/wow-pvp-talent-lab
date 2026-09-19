@@ -72,6 +72,55 @@ async def audit_one(
                 "pvp_tooltip": talent.pvp_tooltip,
                 "diagnostics": talent.diagnostics,
                 "mechanics": talent.mechanics,
+                "render_rows": [
+                    {
+                        "source_spell_id":
+                            row.get(
+                                "source_spell_id",
+                                row.get("spell_id"),
+                            ),
+                        "effect_index":
+                            row.get("effect_index"),
+                        "effect_text":
+                            row.get("effect_text"),
+                        "base_value":
+                            row.get("base_value"),
+                        "pvp_multiplier":
+                            row.get("pvp_multiplier"),
+                        "final_pvp_multiplier":
+                            row.get(
+                                "final_pvp_multiplier"
+                            ),
+                        "semantic_unit_hint":
+                            row.get(
+                                "semantic_unit_hint"
+                            ),
+                        "simc_reference_contexts":
+                            row.get(
+                                "simc_reference_contexts",
+                                [],
+                            ),
+                        "dependency_kind":
+                            row.get(
+                                "dependency_kind"
+                            ),
+                        "dependency_path":
+                            list(
+                                row.get(
+                                    "dependency_path"
+                                )
+                                or []
+                            ),
+                    }
+                    for row in audit.render_effect_rows
+                    if int(
+                        row.get(
+                            "talent_spell_id",
+                            row.get("spell_id"),
+                        )
+                    )
+                    == int(talent.spell_id)
+                ],
                 "wowhead_effects": [
                     {
                         "effect_index": effect.effect_index,
