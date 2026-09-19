@@ -3,16 +3,13 @@ name: Build all PvP datasets and deploy
 on:
   workflow_dispatch:
   schedule:
-    - cron: "37 */12 * * *"
+    - cron: "37 */6 * * *"
   push:
     branches: [main]
     paths:
       - ".github/workflows/all-data-pages.yml"
       - "scripts/build_all_site_data.py"
       - "pvpcalc/**"
-      - "web/app.js"
-      - "web/index.html"
-      - "web/styles.css"
 
 permissions:
   contents: write
@@ -111,8 +108,23 @@ jobs:
           # Rebase the generated-data-only commit instead of failing with
           # a non-fast-forward push. concurrency above cancels stale runs
           # whenever a newer relevant main commit starts.
-          git pull --rebase origin main
-          git push
+          pushed=false
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+
+            if git push; then
+              pushed=true
+              break
+            fi
+
+            echo "Push raced with another main update; retrying ($attempt/5)..."
+            sleep 2
+          done
+
+          if [ "$pushed" != "true" ]; then
+            echo "Could not publish generated datasets after 5 attempts."
+            exit 1
+          fi
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
