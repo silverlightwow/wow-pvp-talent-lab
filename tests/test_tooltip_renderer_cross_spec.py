@@ -839,3 +839,67 @@ def test_explicit_repeated_effect_references_frozen_dominion():
     assert "lasts 4 sec longer" in result["pvp_tooltip"]
     assert "(2 * $mastery)% Mastery" in result["pvp_tooltip"]
     assert "(2 * $mastery * 5)%" in result["pvp_tooltip"]
+
+
+def test_conflicting_equal_values_use_source_spell_provenance():
+    tooltip = (
+        "Casting Frostfire spells has a 10% chance to activate "
+        "Frostfire Empowerment, causing your next Frostfire Bolt to "
+        "be instant cast, deal 60% increased damage, explode for "
+        "60% of its damage to nearby enemies."
+    )
+
+    rows = [
+        {
+            "spell_id": 431176,
+            "source_spell_id": 431176,
+            "effect_origin": "DIRECT",
+            "effect_index": 2,
+            "effect_text": "Apply Aura: Dummy",
+            "base_value": 60,
+            "final_pvp_multiplier": 0.5,
+            "final_pvp_value": 30,
+            "semantic_unit_hint": "percent",
+            "simc_reference_contexts": [
+                "Casting Frostfire spells has a $s3% chance to activate "
+                "Frostfire Empowerment, causing your next Frostfire Bolt "
+                "to be instant cast, deal $431177s3% increased damage, "
+                "explode for $s2% of its damage to nearby enemies."
+            ],
+        },
+        {
+            "spell_id": 431177,
+            "source_spell_id": 431177,
+            "effect_origin": "DEPENDENCY",
+            "dependency_kind": "REFERENCED",
+            "dependency_path": [431176, 431177],
+            "effect_index": 3,
+            "effect_text": "Apply Aura: Dummy",
+            "base_value": 60,
+            "final_pvp_multiplier": 0.1667,
+            "final_pvp_value": 10.002,
+            "semantic_unit_hint": "percent",
+            "simc_reference_contexts": [
+                "Casting Frostfire spells has a $s3% chance to activate "
+                "Frostfire Empowerment, causing your next Frostfire Bolt "
+                "to be instant cast, deal $431177s3% increased damage, "
+                "explode for $s2% of its damage to nearby enemies.",
+                "Your next Frostfire Bolt deals $s3% additional damage.",
+            ],
+        },
+    ]
+
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Fire",
+        spec_names=["Arcane", "Fire", "Frost"],
+        effect_rows=rows,
+    )
+
+    assert result["render_status"] == "COMPLETE"
+    assert "deal 10% increased damage" in result["pvp_tooltip"]
+    assert "explode for 30% of its damage" in result["pvp_tooltip"]
+    assert not any(
+        item["status"] == "CONFLICTING_TRANSFORMS"
+        for item in result["diagnostics"]
+    )
