@@ -1221,6 +1221,228 @@ def _context_anchor_patterns(
     return tuple()
 
 
+def _affected_spell_names(
+    row,
+) -> tuple[str, ...]:
+    """
+    Extract explicit Affected Spells names from source evidence.
+
+    These names are useful as exclusion anchors: an unmodified sibling
+    effect can prove which repeated visible number belongs to it, leaving
+    the remaining occurrence for the modified effect.
+    """
+
+    raw = str(
+        row.get(
+            "wowhead_raw",
+            "",
+        )
+        or ""
+    )
+
+    lines = [
+        line.strip()
+        for line in raw.splitlines()
+    ]
+
+    names = []
+    active = False
+
+    for line in lines:
+
+        if line.casefold() == "affected spells:":
+            active = True
+            continue
+
+        if not active:
+            continue
+
+        if not line:
+            continue
+
+        lower = line.casefold()
+
+        if (
+            lower == "see more"
+            or lower.startswith("trait #")
+            or lower.startswith("value:")
+            or lower.startswith("pvp multiplier:")
+        ):
+            if lower != "see more":
+                break
+            continue
+
+        # Avoid obvious metadata accidentally appearing in the tail.
+        if re.match(
+            r"^(effect|radius|interval|server-side script)\b",
+            line,
+            re.I,
+        ):
+            break
+
+        if line not in names:
+            names.append(line)
+
+    return tuple(names)
+
+
+def _select_by_unmodified_sibling_context(
+    text: str,
+    matches,
+    *,
+    target_old: float,
+    context_rows,
+):
+    """
+    Resolve a repeated value by excluding occurrences proven to belong
+    to an unmodified sibling SpellEffect.
+
+    Example: Desperate Instincts contains two visible 10% values. The
+    sibling effect that explicitly modifies Blur remains 10% in PvP,
+    while the separate modified Dummy effect becomes 5%. The word
+    "Blur" identifies the unchanged occurrence, so the other 10% is the
+    only safe replacement target.
+    """
+
+    claimed = set()
+
+    for row in (
+        context_rows
+        or []
+    ):
+
+        base = _number(
+            row.get(
+                "base_value"
+            )
+        )
+
+        if (
+            base is None
+            or abs(
+                abs(base)
+                - abs(float(target_old))
+            ) > 1e-4
+        ):
+            continue
+
+        final_multiplier = _number(
+            row.get(
+                "final_pvp_multiplier"
+            )
+        )
+
+        if (
+            row.get(
+                "is_final_pvp_modified",
+                False,
+            )
+            or (
+                final_multiplier is not None
+                and abs(
+                    final_multiplier - 1.0
+                ) > 1e-9
+            )
+        ):
+            continue
+
+        anchors = list(
+            _affected_spell_names(
+                row
+            )
+        )
+
+        if not anchors:
+            continue
+
+        anchor_positions = []
+
+        for anchor in anchors:
+
+            if len(anchor) < 3:
+                continue
+
+            for found in re.finditer(
+                re.escape(anchor),
+                text,
+                re.I,
+            ):
+                anchor_positions.append(
+                    (
+                        found.start()
+                        + found.end()
+                    )
+                    / 2.0
+                )
+
+        if not anchor_positions:
+            continue
+
+        distances = []
+
+        for index, match in enumerate(
+            matches
+        ):
+
+            center = (
+                match.start(1)
+                + match.end(1)
+            ) / 2.0
+
+            distance = min(
+                abs(
+                    center - position
+                )
+                for position
+                in anchor_positions
+            )
+
+            distances.append(
+                (
+                    distance,
+                    index,
+                )
+            )
+
+        distances.sort()
+
+        best_distance, best_index = (
+            distances[0]
+        )
+
+        if best_distance > 100:
+            continue
+
+        if len(distances) > 1:
+
+            second_distance = (
+                distances[1][0]
+            )
+
+            if (
+                second_distance
+                - best_distance
+                < 12
+            ):
+                continue
+
+        claimed.add(
+            best_index
+        )
+
+    remaining = [
+        match
+        for index, match
+        in enumerate(matches)
+        if index not in claimed
+    ]
+
+    if len(remaining) == 1:
+        return remaining[0]
+
+    return None
+
+
 def _select_contextual_match(
     text: str,
     matches,
@@ -1440,6 +1662,7 @@ def render_pvp_tooltip(
     spec_name: str,
     effect_rows,
     spec_names=None,
+    context_rows=None,
 ):
     """
     Render a spec-specific PvP tooltip.
@@ -1930,6 +2153,21 @@ def render_pvp_tooltip(
                                 "effect_text",
                                 "",
                             ),
+                    )
+                )
+
+            if contextual_match is None:
+
+                contextual_match = (
+                    _select_by_unmodified_sibling_context(
+                        pve_text,
+                        matches,
+                        target_old=
+                            transform[
+                                "old"
+                            ],
+                        context_rows=
+                            context_rows,
                     )
                 )
 
