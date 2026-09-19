@@ -132,3 +132,92 @@ def test_simc_requires_matching_coefficient():
             ]
         },
     )
+
+
+def test_simc_fallback_builds_canonical_row_when_wowhead_has_no_effects():
+    drustvar = EffectObservation(
+        source="drustvar",
+        spell_id=100,
+        spell_name="Test Spell",
+        effect_index=9001,
+        base_value=None,
+        pvp_multiplier=0.5,
+        effect_text="Apply Aura (6) | Dummy (4)",
+        patch="12.1.0.test",
+        url="",
+        raw="",
+    )
+
+    rows, resolved = pipeline._build_simc_fallback_rows(
+        spell_ids={100},
+        talent_by_spell={
+            100: {
+                "class_name": "Test",
+                "spec_name": "Test",
+                "talent_name": "Test Spell",
+                "tree_type": "spec",
+                "hero_tree": None,
+                "node_id": 1,
+                "entry_id": 2,
+            }
+        },
+        drustvar_by_spell={
+            100: [drustvar]
+        },
+        simc_dump=_dump(),
+    )
+
+    assert resolved == {100}
+    assert len(rows) == 1
+
+    row = rows[0]
+
+    assert row["effect_index"] == 1
+    assert row["base_value"] == 20
+    assert row["pvp_multiplier"] == 0.5
+    assert row["pvp_value"] == 10
+    assert row["sources"] == ["simc", "drustvar"]
+    assert row["wowhead_present"] is False
+    assert row["confidence"] == "high"
+
+
+def test_simc_effect_parser_preserves_attack_power_coefficient():
+    raw = (
+        "Name             : Physical Test (id=200)\n"
+        "#1 (id=2001) : School Damage (Physical)\n"
+        "Base Value: 0\n"
+        "AP Coefficient: 9.72\n"
+        "PvP Coefficient: 1.34\n"
+    )
+
+    dump = SimcDump(
+        class_slug="test",
+        build="12.1.0.test",
+        header="test",
+        spells={
+            200: SimcSpell(
+                spell_id=200,
+                name="Physical Test",
+                raw=raw,
+            )
+        },
+        edges={},
+    )
+
+    effect = pipeline.simc.effect_for_spell(
+        dump,
+        200,
+        1,
+    )
+
+    assert effect is not None
+    assert effect.ap_coefficient == 9.72
+
+    observations = pipeline._simc_effect_observations(
+        dump,
+        200,
+    )
+
+    assert len(observations) == 1
+    assert observations[0].base_value is None
+    assert "AP mod: 9.72" in observations[0].effect_text
