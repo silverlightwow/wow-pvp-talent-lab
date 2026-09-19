@@ -91,9 +91,28 @@ async def audit_one(
             in BLOCKING_RENDER_STATUSES
         ]
 
+        all_unresolved = list(
+            audit.unresolved_rows
+        )
+
+        provenance_warnings = [
+            item
+            for item in all_unresolved
+            if item.get("reason")
+            in {
+                "WOWHEAD_ONLY_MODIFIER",
+            }
+        ]
+
+        blocking_unresolved = [
+            item
+            for item in all_unresolved
+            if item not in provenance_warnings
+        ]
+
         unresolved_spell_ids = {
             int(item["spell_id"])
-            for item in audit.unresolved_rows
+            for item in blocking_unresolved
             if item.get("spell_id") is not None
         }
 
@@ -124,9 +143,12 @@ async def audit_one(
         ]
 
         source_warnings = [
-            item
-            for item in all_fetch_errors
-            if item not in blocking_fetch_errors
+            *[
+                item
+                for item in all_fetch_errors
+                if item not in blocking_fetch_errors
+            ],
+            *provenance_warnings,
         ]
 
         result.update(
@@ -176,12 +198,10 @@ async def audit_one(
                     source_warnings[:20],
                 "unresolved_count":
                     len(
-                        audit.unresolved_rows
+                        blocking_unresolved
                     ),
                 "unresolved":
-                    list(
-                        audit.unresolved_rows
-                    )[:20],
+                    blocking_unresolved[:20],
                 "unsafe_render_count":
                     len(unsafe),
                 "unsafe_render":
