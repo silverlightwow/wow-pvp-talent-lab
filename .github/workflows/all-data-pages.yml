@@ -21,7 +21,7 @@ permissions:
 
 concurrency:
   group: all-data-pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -106,6 +106,12 @@ jobs:
 
           git add web/data
           git commit -m "chore: refresh verified PvP datasets [skip ci]"
+
+          # main can advance while the long all-spec rebuild is running.
+          # Rebase the generated-data-only commit instead of failing with
+          # a non-fast-forward push. concurrency above cancels stale runs
+          # whenever a newer relevant main commit starts.
+          git pull --rebase origin main
           git push
 
       - name: Configure GitHub Pages
