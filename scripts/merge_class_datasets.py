@@ -35,7 +35,7 @@ def load_class_manifests(
 
     if not results:
         raise RuntimeError(
-            "No class dataset manifests found"
+            "No dataset manifests found"
         )
 
     return results
@@ -57,7 +57,7 @@ def merge(
 
     if len(builds) != 1:
         raise RuntimeError(
-            "Class artifacts were built from "
+            "Artifacts were built from "
             f"different Raidbots builds: {sorted(builds)}"
         )
 
@@ -69,11 +69,11 @@ def merge(
 
     if len(content_hashes) > 1:
         raise RuntimeError(
-            "Class artifacts were built from "
+            "Artifacts were built from "
             "different Raidbots content hashes"
         )
 
-    classes = []
+    class_map = {}
     seen_slugs = set()
 
     output_dir.mkdir(
@@ -95,9 +95,28 @@ def merge(
         ):
             path.unlink()
 
-    for class_dir, payload in manifests:
+    for dataset_dir, payload in manifests:
         for class_item in payload["classes"]:
-            classes.append(class_item)
+
+            class_name = class_item[
+                "name"
+            ]
+
+            merged_class = (
+                class_map.setdefault(
+                    class_name,
+                    {
+                        "name":
+                            class_name,
+                        "class_id":
+                            class_item.get(
+                                "class_id"
+                            ),
+                        "specs":
+                            [],
+                    },
+                )
+            )
 
             for spec in class_item["specs"]:
                 slug = spec["slug"]
@@ -109,18 +128,22 @@ def merge(
 
                 seen_slugs.add(slug)
 
+                merged_class[
+                    "specs"
+                ].append(spec)
+
                 for suffix in (
                     ".json",
                     ".js",
                 ):
                     source = (
-                        class_dir
+                        dataset_dir
                         / f"{slug}{suffix}"
                     )
 
                     if not source.exists():
                         raise RuntimeError(
-                            f"Missing class artifact: {source}"
+                            f"Missing dataset artifact: {source}"
                         )
 
                     shutil.copy2(
@@ -129,9 +152,10 @@ def merge(
                         / source.name,
                     )
 
-    classes.sort(
+    classes = sorted(
+        class_map.values(),
         key=lambda item:
-            item["name"]
+            item["name"],
     )
 
     for class_item in classes:
