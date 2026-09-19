@@ -199,3 +199,48 @@ def test_simc_materializes_aura_only_output_without_spell_pvp_coefficient():
 
     assert rows[0]["aura_factor"] == 1.2
     assert rows[0]["final_pvp_multiplier"] == 1.2
+
+
+def test_render_effect_rows_exclude_unreferenced_child_effects():
+    audit = pipeline.SpecAuditResult(
+        class_name="Test",
+        spec_name="Test",
+        metadata={"wowBuild": "12.1.0.test"},
+        drustvar_builds=[],
+        talents=[],
+        spell_ids=[],
+        wowhead_by_spell={},
+        drustvar_by_spell={},
+        wowhead_candidate_ids=set(),
+        drustvar_candidate_ids=set(),
+        candidate_ids=set(),
+        effect_rows=[],
+    )
+
+    audit.dependency_effect_rows = [
+        {
+            "spell_id": 200,
+            "effect_index": 1,
+            "effect_origin": "DEPENDENCY",
+            "dependency_kind": "REFERENCED",
+            "dependency_effect_referenced": True,
+            "is_final_pvp_modified": True,
+            "base_value": 20,
+            "final_pvp_value": 10,
+        },
+        {
+            "spell_id": 200,
+            "effect_index": 2,
+            "effect_origin": "DEPENDENCY",
+            "dependency_kind": "REFERENCED",
+            "dependency_effect_referenced": False,
+            "is_final_pvp_modified": True,
+            "base_value": 15,
+            "final_pvp_value": 5,
+        },
+    ]
+
+    rows = audit.render_effect_rows
+
+    assert len(rows) == 1
+    assert rows[0]["effect_index"] == 1
