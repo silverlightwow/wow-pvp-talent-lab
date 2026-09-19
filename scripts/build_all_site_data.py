@@ -85,9 +85,28 @@ def _validate_for_all(audit, spec_catalog) -> dict:
         }
     ]
 
-    unresolved = list(
+    all_unresolved = list(
         audit.unresolved_rows
     )
+
+    # A current modifier known from one concrete source is usable
+    # coverage; lacking independent corroboration is a provenance
+    # warning, not an unknown PvP value. Keep genuinely unmatched
+    # Drustvar/identity rows blocking.
+    provenance_warnings = [
+        item
+        for item in all_unresolved
+        if item.get("reason")
+        in {
+            "WOWHEAD_ONLY_MODIFIER",
+        }
+    ]
+
+    unresolved = [
+        item
+        for item in all_unresolved
+        if item not in provenance_warnings
+    ]
 
     # A failed auxiliary source fetch is not itself a coverage
     # failure when the exact-build pipeline already resolved the
@@ -119,9 +138,12 @@ def _validate_for_all(audit, spec_catalog) -> dict:
     ]
 
     source_warnings = [
-        item
-        for item in fetch_errors
-        if item not in blocking_fetch_errors
+        *[
+            item
+            for item in fetch_errors
+            if item not in blocking_fetch_errors
+        ],
+        *provenance_warnings,
     ]
 
     clean = (
