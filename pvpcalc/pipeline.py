@@ -1354,6 +1354,73 @@ def _fill_missing_base_values_from_simc(
             simc_effect.pvp_coefficient
         )
 
+        # Wowhead can expose the concrete SpellEffect while omitting
+        # its PvP Coefficient line. Exact-build SimC can safely fill
+        # that missing numeric field without changing effect identity.
+        if (
+            row_multiplier is None
+            and simc_multiplier
+            is not None
+        ):
+
+            row_multiplier = float(
+                simc_multiplier
+            )
+
+            row[
+                "pvp_multiplier"
+            ] = row_multiplier
+
+            row[
+                "is_pvp_modified"
+            ] = _is_modified(
+                row_multiplier
+            )
+
+            existing_base = row.get(
+                "base_value"
+            )
+
+            if existing_base is not None:
+                row[
+                    "pvp_value"
+                ] = (
+                    float(existing_base)
+                    * row_multiplier
+                )
+
+            sources = list(
+                row.get(
+                    "sources",
+                    [],
+                )
+            )
+
+            if "simc" not in sources:
+                sources.append(
+                    "simc"
+                )
+
+            row["sources"] = sources
+            row[
+                "pvp_multiplier_source"
+            ] = (
+                "simc_exact_build"
+            )
+
+            # Exact SpellEffect identity is shared with Wowhead;
+            # SimC contributes the missing current PvP coefficient.
+            if row.get(
+                "confidence"
+            ) in {
+                None,
+                "ambiguous",
+            }:
+                row["confidence"] = (
+                    "medium"
+                )
+
+
         # Exact-build SimC is an independent current-data source.
         # If it confirms the same PvP coefficient, preserve that
         # provenance even when Wowhead already supplied the numeric
@@ -1709,6 +1776,113 @@ def _simc_row_from_effect(
         "simc_corroborated":
             True,
     }
+
+
+def _build_simc_modified_rows(
+    *,
+    spell_ids: set[int],
+    talent_by_spell: dict[int, dict],
+    simc_dump,
+    existing_keys=(),
+) -> list[dict]:
+    """
+    Materialize exact-build SimC SpellEffects carrying their own
+    non-identity PvP coefficient when no equivalent row already exists.
+    """
+
+    existing = {
+        (
+            int(spell_id),
+            int(effect_index),
+        )
+        for (
+            spell_id,
+            effect_index,
+        )
+        in existing_keys
+        if (
+            spell_id is not None
+            and effect_index is not None
+        )
+    }
+
+    rows = []
+
+    for spell_id in sorted(
+        {
+            int(value)
+            for value in spell_ids
+        }
+    ):
+
+        spell = simc_dump.spells.get(
+            spell_id
+        )
+
+        if spell is None:
+            continue
+
+        talent = talent_by_spell.get(
+            spell_id,
+            {},
+        )
+
+        for simc_effect in (
+            simc.parse_spell_effects(
+                spell
+            ).values()
+        ):
+
+            coefficient = (
+                simc_effect.pvp_coefficient
+            )
+
+            if (
+                coefficient is None
+                or not _is_modified(
+                    float(
+                        coefficient
+                    )
+                )
+            ):
+                continue
+
+            key = (
+                spell_id,
+                int(
+                    simc_effect.effect_index
+                ),
+            )
+
+            if key in existing:
+                continue
+
+            row = _simc_row_from_effect(
+                simc_dump=
+                    simc_dump,
+                spell_id=
+                    spell_id,
+                simc_effect=
+                    simc_effect,
+                talent=
+                    talent,
+                sources=[
+                    "simc",
+                ],
+                confidence=
+                    "medium",
+            )
+
+            row[
+                "match_reason"
+            ] = (
+                "simc_exact_build_pvp"
+            )
+
+            rows.append(row)
+            existing.add(key)
+
+    return rows
 
 
 def _build_simc_aura_rows(
@@ -2882,6 +3056,12 @@ async def audit_spec(
             for effect in dr_all
         }
 
+        simc_pvp_ids = (
+            simc.pvp_modified_spell_ids(
+                simc_dump
+            )
+        )
+
 
         # A dependency is PvP-relevant if it has either:
         #
@@ -2893,6 +3073,7 @@ async def audit_spec(
         pvp_output_universe = (
             dr_all_ids
             | aura_affected_ids
+            | simc_pvp_ids
         )
 
 
@@ -3040,12 +3221,18 @@ async def audit_spec(
         & aura_affected_ids
     )
 
+    simc_candidate_ids = (
+        talent_spell_ids
+        & simc_pvp_ids
+    )
+
 
     final_candidate_ids = (
         set(
             result.candidate_ids
         )
         | aura_candidate_ids
+        | simc_candidate_ids
     )
 
 
@@ -3055,6 +3242,48 @@ async def audit_spec(
             result.candidate_ids
         )
     )
+
+    simc_only_direct_ids = (
+        simc_candidate_ids
+        - set(
+            result.candidate_ids
+        )
+    )
+
+
+    # Add Wowhead-structured rows for SimC-discovered talent
+    # candidates. Missing PvP coefficients are filled from the exact
+    # SimC dump below.
+    if simc_only_direct_ids:
+
+        (
+            simc_direct_structured_rows,
+            simc_direct_structured_unresolved,
+        ) = _build_effect_rows(
+            candidate_ids=
+                simc_only_direct_ids,
+            talent_by_spell=
+                talent_by_spell,
+            wowhead_by_spell=
+                result.wowhead_by_spell,
+            drustvar_by_spell=
+                _group_drustvar(
+                    dr_all,
+                    simc_only_direct_ids,
+                ),
+        )
+
+        _init_history_schema(
+            simc_direct_structured_rows
+        )
+
+        result.effect_rows.extend(
+            simc_direct_structured_rows
+        )
+
+        result.unresolved_rows.extend(
+            simc_direct_structured_unresolved
+        )
 
 
     # Add effect rows for direct talent spells which were not
@@ -3167,6 +3396,41 @@ async def audit_spec(
             "effect_index"
         ) is not None
     }
+
+    direct_simc_modified_rows = (
+        _build_simc_modified_rows(
+            spell_ids=
+                simc_candidate_ids,
+            talent_by_spell=
+                talent_by_spell,
+            simc_dump=
+                simc_dump,
+            existing_keys=
+                direct_existing_keys,
+        )
+    )
+
+    if direct_simc_modified_rows:
+
+        _init_history_schema(
+            direct_simc_modified_rows
+        )
+
+        result.effect_rows.extend(
+            direct_simc_modified_rows
+        )
+
+        direct_existing_keys.update(
+            (
+                int(row["spell_id"]),
+                int(
+                    row["effect_index"]
+                ),
+            )
+            for row
+            in direct_simc_modified_rows
+        )
+
 
     direct_simc_aura_rows = (
         _build_simc_aura_rows(
@@ -3373,6 +3637,37 @@ async def audit_spec(
             ) is not None
         }
 
+        child_simc_modified_rows = (
+            _build_simc_modified_rows(
+                spell_ids={
+                    source_id
+                },
+                talent_by_spell={
+                    source_id:
+                        parent_talent
+                },
+                simc_dump=
+                    simc_dump,
+                existing_keys=
+                    child_existing_keys,
+            )
+        )
+
+        child_rows.extend(
+            child_simc_modified_rows
+        )
+
+        child_existing_keys.update(
+            (
+                int(row["spell_id"]),
+                int(
+                    row["effect_index"]
+                ),
+            )
+            for row
+            in child_simc_modified_rows
+        )
+
         child_rows.extend(
             _build_simc_aura_rows(
                 spell_ids={
@@ -3512,6 +3807,10 @@ async def audit_spec(
 
     result.aura_candidate_ids = (
         aura_candidate_ids
+    )
+
+    result.simc_candidate_ids = (
+        simc_candidate_ids
     )
 
     result.final_candidate_ids = (
