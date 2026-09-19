@@ -9,6 +9,7 @@ from .reconcile import (
     multipliers_close,
     reconcile,
     resolve_effect_matches,
+    semantic_score,
 )
 
 from .sources import (
@@ -631,13 +632,37 @@ def _build_effect_rows(
             rows.append(row)
 
         # --------------------------------------------
-        # Anything left on Drustvar is explicitly
-        # unresolved.
+        # Anything left on Drustvar is unresolved only
+        # when there is no compatible semantic peer on
+        # Wowhead.
+        #
+        # Drustvar sometimes collapses several underlying
+        # SpellEffects into one rounded row while Wowhead
+        # exposes each concrete effect separately. In that
+        # case a strict one-to-one matcher intentionally
+        # leaves rows unmatched, but the sources still
+        # corroborate the modifier family. Do not turn that
+        # representation difference into a publishing error.
         # --------------------------------------------
 
         for dr in resolution[
             "unmatched_drustvar"
         ]:
+
+            corroborated_group = any(
+                multipliers_close(
+                    wh.pvp_multiplier,
+                    dr.pvp_multiplier,
+                )
+                and semantic_score(
+                    wh,
+                    dr,
+                ) > 0
+                for wh in wh_effects
+            )
+
+            if corroborated_group:
+                continue
 
             unresolved.append(
                 {
@@ -683,9 +708,30 @@ def _build_effect_rows(
             ):
                 continue
 
+            # One Drustvar row can corroborate a group of
+            # multiple concrete Wowhead effects. The canonical
+            # player-facing identity remains the Wowhead effect
+            # index; Drustvar provides independent multiplier
+            # support without requiring an artificial one-to-one
+            # pairing.
+            corroborated_group = any(
+                multipliers_close(
+                    wh.pvp_multiplier,
+                    dr.pvp_multiplier,
+                )
+                and semantic_score(
+                    wh,
+                    dr,
+                ) > 0
+                for dr in dr_effects
+            )
+
+            if corroborated_group:
+                continue
+
             # Wowhead-only current modifier is valid
-            # information, not necessarily a conflict.
-            # Preserve it distinctly.
+            # information, but keep a source-gap diagnostic
+            # when Drustvar has no compatible semantic row.
             unresolved.append(
                 {
                     "spell_id": spell_id,
