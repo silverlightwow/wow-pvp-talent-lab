@@ -1,0 +1,78 @@
+name: Targeted PvP smoke audit
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "smoke-audit.trigger"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: targeted-pvp-smoke-audit
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        include:
+          - class_name: Priest
+            spec_name: Discipline
+          - class_name: Hunter
+            spec_name: Marksmanship
+          - class_name: Druid
+            spec_name: Restoration
+          - class_name: Warrior
+            spec_name: Protection
+          - class_name: Demon Hunter
+            spec_name: Havoc
+          - class_name: Demon Hunter
+            spec_name: Devourer
+          - class_name: Evoker
+            spec_name: Augmentation
+          - class_name: Evoker
+            spec_name: Preservation
+          - class_name: Paladin
+            spec_name: Protection
+          - class_name: Shaman
+            spec_name: Elemental
+          - class_name: Mage
+            spec_name: Arcane
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install project
+        run: python -m pip install -e ".[dev]"
+
+      - name: Audit specialization
+        run: |
+          SAFE_CLASS="$(printf '%s' "${{ matrix.class_name }}" | tr '[:upper:] ' '[:lower:]-')"
+          SAFE_SPEC="$(printf '%s' "${{ matrix.spec_name }}" | tr '[:upper:] ' '[:lower:]-')"
+          python scripts/audit_all_specs.py \
+            --class-name "${{ matrix.class_name }}" \
+            --spec-name "${{ matrix.spec_name }}" \
+            --parallel-specs 1 \
+            --concurrency 4 \
+            --output "smoke-${SAFE_CLASS}-${SAFE_SPEC}.json"
+
+      - name: Upload report
+        uses: actions/upload-artifact@v4
+        with:
+          name: "smoke-${{ matrix.class_name }}-${{ matrix.spec_name }}"
+          path: "smoke-*.json"
