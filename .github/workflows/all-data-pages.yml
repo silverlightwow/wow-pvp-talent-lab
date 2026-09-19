@@ -11,7 +11,7 @@ on:
       - "scripts/build_all_site_data.py"
       - "scripts/merge_class_datasets.py"
       - "scripts/discover_specs_matrix.py"
-      - "pvpcalc/**"
+      - "data-refresh.trigger"
 
 permissions:
   contents: write
