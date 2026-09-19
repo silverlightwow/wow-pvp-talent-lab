@@ -183,3 +183,162 @@ def test_attack_power_coefficient_aimed_shot():
 
     assert result["render_status"] == "COMPLETE"
     assert "(1237.356% of Attack Power)" in result["pvp_tooltip"]
+
+
+def test_duration_semantics_choose_seconds_not_yards():
+    tooltip = (
+        "Increases the duration of your Sigils by 2 sec "
+        "and radius by 2 yds."
+    )
+
+    rows = [
+        {
+            "effect_index": 2,
+            "effect_text": "Apply Aura: Modifies Buff Duration (1)",
+            "base_value": 2,
+            "final_pvp_multiplier": 0.5,
+            "final_pvp_value": 1,
+        },
+    ]
+
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Vengeance",
+        spec_names=["Havoc", "Vengeance", "Devourer"],
+        effect_rows=rows,
+    )
+
+    assert result["render_status"] == "COMPLETE"
+    assert "duration of your Sigils by 1 sec" in result["pvp_tooltip"]
+    assert "radius by 2 yds" in result["pvp_tooltip"]
+
+
+def test_range_semantics_choose_yards_not_percent():
+    tooltip = (
+        "Blind and Shroud of Concealment have 10% reduced cooldown.\n"
+        "Pick Pocket and Sap have 10 yd increased range."
+    )
+
+    rows = [
+        {
+            "effect_index": 2,
+            "effect_text": "Apply Aura: Modifies Range (5)",
+            "base_value": 10,
+            "final_pvp_multiplier": 0.5,
+            "final_pvp_value": 5,
+        },
+    ]
+
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Outlaw",
+        spec_names=["Assassination", "Outlaw", "Subtlety"],
+        effect_rows=rows,
+    )
+
+    assert result["render_status"] == "COMPLETE"
+    assert "10% reduced cooldown" in result["pvp_tooltip"]
+    assert "5 yd increased range" in result["pvp_tooltip"]
+
+
+def test_percent_semantics_do_not_match_milliseconds():
+    tooltip = (
+        "Every 5 Regrowths makes your next spell instant "
+        "and increases damage it deals by 100%.\n"
+        "(100ms cooldown)"
+    )
+
+    rows = [
+        {
+            "effect_index": 2,
+            "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+            "base_value": 100,
+            "final_pvp_multiplier": 0.25,
+            "final_pvp_value": 25,
+        },
+    ]
+
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Restoration",
+        spec_names=["Balance", "Feral", "Guardian", "Restoration"],
+        effect_rows=rows,
+    )
+
+    assert result["render_status"] == "COMPLETE"
+    assert "damage it deals by 25%" in result["pvp_tooltip"]
+    assert "(100ms cooldown)" in result["pvp_tooltip"]
+
+
+def test_repeated_spell_power_formula_references_all_update():
+    tooltip = (
+        "Call down a burst of energy, causing "
+        "(93% of Spell Power) Arcane damage to the target, and "
+        "[(93% of Spell Power) * 70 / 100] Arcane damage to "
+        "all other enemies."
+    )
+
+    rows = [
+        {
+            "effect_index": 1,
+            "effect_text": "School Damage (Arcane) (SP mod: 0.93)",
+            "wowhead_raw": (
+                "Effect #1 School Damage (Arcane) "
+                "(SP mod: 0.93)"
+            ),
+            "base_value": None,
+            "final_pvp_multiplier": 0.6324,
+            "final_pvp_value": None,
+        },
+    ]
+
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Restoration",
+        spec_names=["Balance", "Feral", "Guardian", "Restoration"],
+        effect_rows=rows,
+    )
+
+    assert result["render_status"] == "COMPLETE"
+    assert result["pvp_tooltip"].count(
+        "(58.8132% of Spell Power)"
+    ) == 2
+
+
+def test_duplicate_cooldown_encodings_collapse_to_one_visible_change():
+    tooltip = (
+        "Reduces the cooldown of Flame Shock and Voltaic Blaze "
+        "by 1.5 sec.\n"
+        "Flame Shock deals damage 15% faster."
+    )
+
+    rows = [
+        {
+            "effect_index": 2,
+            "effect_text": "Apply Aura: Modifies Cooldown (11)",
+            "base_value": -1.5,
+            "final_pvp_multiplier": 2,
+            "final_pvp_value": -3,
+        },
+        {
+            "effect_index": 3,
+            "effect_text": (
+                "Apply Aura: Add Modifier - Flat (Label): "
+                "Modifies Cooldown (11)"
+            ),
+            "base_value": -1500,
+            "final_pvp_multiplier": 2,
+            "final_pvp_value": -3000,
+        },
+    ]
+
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Elemental",
+        spec_names=["Elemental", "Enhancement", "Restoration"],
+        effect_rows=rows,
+    )
+
+    assert result["render_status"] == "COMPLETE"
+    assert "by 3 sec" in result["pvp_tooltip"]
+    assert "15% faster" in result["pvp_tooltip"]
