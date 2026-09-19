@@ -203,3 +203,80 @@ def test_dependency_closure_preserves_parallel_child_evidence():
         )
         == "percent"
     )
+
+
+def test_dependency_context_resolves_named_parent_variable():
+    text = (
+        "SimulationCraft test for World of Warcraft 12.1.0.1 Live\n"
+        "Name             : Parent Brew (id=100)\n"
+        "Description      : Increases health by 20% and reducing all "
+        "damage you take by $<damage>%.\n"
+        "Variables        : $damage=$200s2\n"
+        "\n"
+        "Name             : Child Brew (id=200)\n"
+        "Effects          :\n"
+        "#2 (id=2002)     : Dummy (3)\n"
+        "                   Base Value: -20 | PvP Coefficient: 1.5\n"
+    )
+
+    dump = simc.parse_dump(
+        text,
+        class_slug="test",
+    )
+
+    dependency = simc.SimcDependency(
+        root_spell_id=100,
+        target_spell_id=200,
+        path_spell_ids=(100, 200),
+        relations=("tooltip_value_ref",),
+        evidence=("Variables : $damage=$200s2",),
+    )
+
+    contexts = simc.dependency_effect_reference_contexts(
+        dependency,
+        200,
+        2,
+        dump=dump,
+    )
+
+    assert len(contexts) == 1
+    assert "reducing all damage you take" in contexts[0]
+
+    assert (
+        simc.dependency_effect_unit_hint(
+            dependency,
+            200,
+            2,
+            dump=dump,
+        )
+        == "percent"
+    )
+
+
+def test_parent_effect_context_can_live_in_embedded_child_description():
+    text = (
+        "SimulationCraft test for World of Warcraft 12.1.0.1 Live\n"
+        "Name             : Parent Surge (id=300)\n"
+        "Description      : $@spelldesc301\n"
+        "Effects          :\n"
+        "#1 (id=3001)     : Apply Aura (6) | Dummy (4)\n"
+        "                   Base Value: 55 | PvP Coefficient: 0.33\n"
+        "\n"
+        "Name             : Child Surge (id=301)\n"
+        "Description      : Deal $300s1% damage to the target and "
+        "$300s1% damage to nearby enemies.\n"
+    )
+
+    dump = simc.parse_dump(
+        text,
+        class_slug="test",
+    )
+
+    contexts = simc.dependent_effect_reference_contexts(
+        dump,
+        300,
+        1,
+    )
+
+    assert len(contexts) == 1
+    assert contexts[0].count("$300s1") == 2
