@@ -13,7 +13,7 @@ from pvpcalc import catalog, pipeline
 from pvpcalc.http import CachedClient
 from pvpcalc.sources import raidbots
 
-from build_site_data import _json_default, _validate
+from build_site_data import _json_default
 
 
 def slugify(class_name: str, spec_name: str) -> str:
@@ -23,6 +23,144 @@ def slugify(class_name: str, spec_name: str) -> str:
         .lower()
         .replace(" ", "-")
     )
+
+
+def _validate_for_all(audit, spec_catalog) -> dict:
+    """
+    Validate hard structural invariants for every specialization while
+    keeping source/render coverage problems explicit instead of blocking
+    the entire multi-spec publication.
+
+    The renderer is conservative: ambiguous transformations are not
+    applied. Therefore a PARTIAL dataset is safe to publish, but the UI
+    must not label it VERIFIED until every source/render diagnostic is
+    clean.
+    """
+
+    talents = spec_catalog.talents
+
+    if len(talents) < 50:
+        raise RuntimeError(
+            f"Implausibly small talent catalog: {len(talents)}"
+        )
+
+    if audit.tree_build != audit.simc_build:
+        raise RuntimeError(
+            "Raidbots/SimC build mismatch: "
+            f"{audit.tree_build} != {audit.simc_build}"
+        )
+
+    entry_ids = [
+        talent.entry_id
+        for talent in talents
+        if talent.entry_id is not None
+    ]
+
+    if len(entry_ids) != len(set(entry_ids)):
+        raise RuntimeError(
+            "Duplicate Raidbots entry IDs in generated catalog"
+        )
+
+    if any(not talent.tree_data for talent in talents):
+        raise RuntimeError(
+            "At least one talent is missing tree topology data"
+        )
+
+    fetch_errors = (
+        list(audit.fetch_errors)
+        + list(spec_catalog.fetch_errors)
+    )
+
+    unsafe = [
+        (
+            talent.talent_name,
+            talent.spell_id,
+            talent.render_status,
+        )
+        for talent in talents
+        if talent.render_status
+        in {
+            "REVIEW_REQUIRED",
+            "MISSING_TOOLTIP",
+        }
+    ]
+
+    unresolved = list(
+        audit.unresolved_rows
+    )
+
+    clean = (
+        not fetch_errors
+        and not unresolved
+        and not unsafe
+    )
+
+    return {
+        "talents":
+            len(talents),
+
+        "changed_tooltips":
+            sum(
+                talent.tooltip_changed
+                for talent in talents
+            ),
+
+        "talents_with_pvp_mechanics":
+            sum(
+                talent.has_pvp_mechanics
+                for talent in talents
+            ),
+
+        "unique_nodes":
+            len(
+                {
+                    talent.node_id
+                    for talent in talents
+                }
+            ),
+
+        "tree_build":
+            audit.tree_build,
+
+        "simc_build":
+            audit.simc_build,
+
+        "drustvar_builds":
+            list(audit.drustvar_builds),
+
+        "verification_status":
+            (
+                "VERIFIED"
+                if clean
+                else "PARTIAL"
+            ),
+
+        "fetch_error_count":
+            len(fetch_errors),
+
+        "unresolved_count":
+            len(unresolved),
+
+        "review_required_count":
+            len(unsafe),
+
+        "fetch_error_examples":
+            fetch_errors[:5],
+
+        "unresolved_examples":
+            unresolved[:5],
+
+        "review_required_examples":
+            [
+                {
+                    "talent_name": name,
+                    "spell_id": spell_id,
+                    "status": status,
+                }
+                for name, spell_id, status
+                in unsafe[:5]
+            ],
+    }
 
 
 async def discover_specs() -> tuple[dict, list[dict]]:
@@ -60,7 +198,7 @@ async def build_one(
         concurrency=concurrency,
     )
 
-    summary = _validate(
+    summary = _validate_for_all(
         audit,
         spec_catalog,
     )
@@ -166,6 +304,26 @@ def build_manifest(
                     "talents_with_pvp_mechanics":
                         built_item[
                             "talents_with_pvp_mechanics"
+                        ],
+
+                    "verification_status":
+                        built_item[
+                            "verification_status"
+                        ],
+
+                    "fetch_error_count":
+                        built_item[
+                            "fetch_error_count"
+                        ],
+
+                    "unresolved_count":
+                        built_item[
+                            "unresolved_count"
+                        ],
+
+                    "review_required_count":
+                        built_item[
+                            "review_required_count"
                         ],
                 }
             )
@@ -358,8 +516,26 @@ async def build_all(args) -> dict:
     return {
         "tree_build":
             metadata.get("wowBuild"),
+
         "spec_count":
             len(built),
+
+        "verified_count":
+            sum(
+                item[
+                    "verification_status"
+                ] == "VERIFIED"
+                for item in built
+            ),
+
+        "partial_count":
+            sum(
+                item[
+                    "verification_status"
+                ] == "PARTIAL"
+                for item in built
+            ),
+
         "built":
             built,
     }
