@@ -2649,3 +2649,12 @@ details.tooltip-comparison summary {
         border-radius: 8px 8px 4px 4px;
     }
 }
+
+
+/* Partial specialization datasets are conservative but not yet fully
+   corroborated/render-complete. Keep them visually distinct from the
+   green fully verified state. */
+.status-dot.partial {
+    background: var(--gold);
+    box-shadow: 0 0 10px rgba(228, 186, 101, .45);
+}
