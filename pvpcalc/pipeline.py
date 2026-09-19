@@ -2602,17 +2602,46 @@ def _simc_corroborates_unresolved(
         for effect in wh_effects
     }
 
-    for simc_effect in (
-        simc_effects.values()
-    ):
-
+    compatible_simc = [
+        simc_effect
+        for simc_effect
+        in simc_effects.values()
         if (
             simc_effect.pvp_coefficient
-            is None
-            or not multipliers_close(
+            is not None
+            and multipliers_close(
                 float(multiplier),
                 float(
                     simc_effect.pvp_coefficient
+                ),
+            )
+        )
+    ]
+
+    for simc_effect in (
+        compatible_simc
+    ):
+
+        wh = wh_by_index.get(
+            int(
+                simc_effect.effect_index
+            )
+        )
+
+        if wh is None:
+            continue
+
+        # An explicit conflicting Wowhead coefficient remains a real
+        # source disagreement. If Wowhead simply omitted the PvP line,
+        # exact-build SimC + Drustvar can still independently establish
+        # the current coefficient.
+        if (
+            wh.pvp_multiplier
+            is not None
+            and not multipliers_close(
+                float(multiplier),
+                float(
+                    wh.pvp_multiplier
                 ),
             )
         ):
@@ -2627,26 +2656,15 @@ def _simc_corroborates_unresolved(
         if semantic_score(
             simc_obs,
             dr_obs,
-        ) <= 0:
-            continue
+        ) > 0:
+            return True
 
-        wh = wh_by_index.get(
-            int(
-                simc_effect.effect_index
-            )
-        )
-
-        if (
-            wh is not None
-            and wh.pvp_multiplier
-            is not None
-            and multipliers_close(
-                float(multiplier),
-                float(
-                    wh.pvp_multiplier
-                ),
-            )
-        ):
+        # Generic Dummy effects often have no lexical semantic signal.
+        # If the current coefficient identifies exactly one SimC
+        # SpellEffect and Wowhead confirms that same effect index
+        # without contradicting the coefficient, the identity is still
+        # deterministic across the three representations.
+        if len(compatible_simc) == 1:
             return True
 
     return False
