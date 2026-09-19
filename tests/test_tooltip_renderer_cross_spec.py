@@ -937,3 +937,41 @@ def test_frozen_dominion_formula_fallback_without_source_context():
     assert "lasts 4 sec longer" in result["pvp_tooltip"]
     assert "(2 * $mastery)% Mastery" in result["pvp_tooltip"]
     assert "(2 * $mastery * 5)%" in result["pvp_tooltip"]
+
+
+
+def test_sign_flip_requires_review_instead_of_wrong_wording():
+    tooltip = (
+        "Deep Breath deals 20% increased damage."
+    )
+
+    rows = [
+        {
+            "effect_index": 1,
+            "effect_text": (
+                "Apply Aura: Modifies Periodic "
+                "Damage/Healing Done (22)"
+            ),
+            "base_value": 20,
+            "final_pvp_multiplier": -1,
+            "final_pvp_value": -20,
+        },
+    ]
+
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Devastation",
+        spec_names=[
+            "Devastation",
+            "Preservation",
+            "Augmentation",
+        ],
+        effect_rows=rows,
+    )
+
+    assert result["render_status"] == "REVIEW_REQUIRED"
+    assert result["pvp_tooltip"] == tooltip
+    assert any(
+        item["status"] == "NO_RENDERABLE_VALUE"
+        for item in result["diagnostics"]
+    )
