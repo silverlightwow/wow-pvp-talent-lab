@@ -1922,6 +1922,86 @@ def _select_contextual_match(
     return scored[0][1]
 
 
+def _conflicting_transforms_have_disjoint_targets(
+    text: str,
+    candidates,
+) -> bool:
+    """
+    Different PvP transforms may share the same visible PvE value yet
+    still be unambiguous when exact source provenance points each one to
+    a different occurrence.
+
+    Frostfire Empowerment is the canonical case: one 60% is the child
+    spell's increased damage, another 60% is the parent's explosion.
+    """
+
+    selected_positions = []
+
+    for candidate in candidates:
+        matches = _numeric_matches(
+            text,
+            value=candidate["old"],
+            kind=candidate["kind"],
+        )
+
+        if not matches:
+            return False
+
+        selected = None
+
+        if len(matches) == 1:
+            selected = matches[0]
+
+        else:
+            selected = _select_reference_context_match(
+                text,
+                matches,
+                reference_contexts=
+                    candidate.get(
+                        "reference_contexts",
+                        [],
+                    ),
+                effect_index=
+                    candidate.get(
+                        "effect_index"
+                    ),
+                source_spell_id=
+                    candidate.get(
+                        "source_spell_id"
+                    ),
+                effect_origin=
+                    candidate.get(
+                        "effect_origin"
+                    ),
+            )
+
+            if selected is None:
+                selected = _select_contextual_match(
+                    text,
+                    matches,
+                    effect_text=
+                        candidate.get(
+                            "effect_text",
+                            "",
+                        ),
+                )
+
+        if selected is None:
+            return False
+
+        selected_positions.append(
+            (
+                selected.start(1),
+                selected.end(1),
+            )
+        )
+
+    return (
+        len(set(selected_positions))
+        == len(selected_positions)
+    )
+
+
 # ============================================================
 # DISPLAY FORMATTING
 # ============================================================
@@ -2365,6 +2445,14 @@ def render_pvp_tooltip(
         if len(
             distinct_new
         ) <= 1:
+            continue
+
+        if (
+            _conflicting_transforms_have_disjoint_targets(
+                pve_text,
+                candidates,
+            )
+        ):
             continue
 
         for candidate in candidates:
