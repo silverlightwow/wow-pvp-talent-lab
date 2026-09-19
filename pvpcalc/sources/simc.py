@@ -1018,14 +1018,89 @@ def _player_text_sections(
     return result
 
 
+def _variable_definitions(
+    raw: str,
+) -> dict[str, str]:
+    """
+    Parse SimC's Variables section into name -> formula text.
+
+    Blizzard descriptions often render a named variable while the
+    SpellEffect value itself appears only inside that variable formula.
+    """
+
+    result = {}
+    in_variables = False
+
+    for line in str(
+        raw or ""
+    ).splitlines():
+
+        match = re.match(
+            r"^Variables\s*:\s*(.*)$",
+            line,
+        )
+
+        if match:
+            in_variables = True
+            tail = match.group(1).strip()
+
+        elif (
+            in_variables
+            and re.match(
+                r"^\s+:\s*",
+                line,
+            )
+        ):
+            tail = re.sub(
+                r"^\s+:\s*",
+                "",
+                line,
+            ).strip()
+
+        elif in_variables:
+            break
+
+        else:
+            continue
+
+        if not tail:
+            continue
+
+        assignment = re.match(
+            r"^\$<?"
+            r"([A-Za-z_][A-Za-z0-9_]*)"
+            r">?\s*=\s*(.+)$",
+            tail,
+        )
+
+        if assignment:
+            result[
+                assignment.group(1)
+            ] = assignment.group(2)
+
+    return result
+
+
+def _variable_reference_pattern(
+    name: str,
+) -> re.Pattern:
+
+    return re.compile(
+        rf"\$(?:<{re.escape(name)}>|{re.escape(name)})(?![A-Za-z0-9_])",
+        re.I,
+    )
+
+
 def effect_reference_contexts(
     dump: SimcDump,
     spell_id: int,
     effect_index: int,
 ) -> tuple[str, ...]:
     """
-    Return player-text snippets that explicitly reference one SpellEffect
-    via Blizzard's $sN expression syntax.
+    Return player-text snippets tied to one SpellEffect.
+
+    Supports both direct $sN references and named Blizzard variables
+    whose formula transitively depends on that SpellEffect.
     """
 
     spell = dump.spells.get(
@@ -1035,47 +1110,107 @@ def effect_reference_contexts(
     if spell is None:
         return tuple()
 
-    token = re.compile(
-        rf"\$s{int(effect_index)}"
-        rf"(?!\d)",
-        re.I,
+    index = int(
+        effect_index
+    )
+
+    direct_tokens = [
+        re.compile(
+            rf"\$s{index}(?!\d)",
+            re.I,
+        ),
+        re.compile(
+            r"\$"
+            + str(
+                int(spell_id)
+            )
+            + rf"s{index}(?!\d)",
+            re.I,
+        ),
+    ]
+
+    player_lines = _player_text_sections(
+        spell.raw
     )
 
     contexts = []
 
-    for line in _player_text_sections(
-        spell.raw
-    ):
+    def add_context(
+        line: str,
+    ) -> None:
 
-        for match in token.finditer(
-            line
+        context = " ".join(
+            str(line or "").split()
+        )
+
+        if (
+            context
+            and context not in contexts
+        ):
+            contexts.append(context)
+
+    for line in player_lines:
+
+        if any(
+            token.search(line)
+            for token in direct_tokens
+        ):
+            add_context(line)
+
+    definitions = _variable_definitions(
+        spell.raw
+    )
+
+    dependent_names = set()
+
+    changed = True
+
+    while changed:
+
+        changed = False
+
+        for name, formula in (
+            definitions.items()
         ):
 
-            start = max(
-                0,
-                match.start() - 100,
+            if name in dependent_names:
+                continue
+
+            direct = any(
+                token.search(formula)
+                for token in direct_tokens
             )
 
-            end = min(
-                len(line),
-                match.end() + 100,
-            )
-
-            context = (
-                " ".join(
-                    line[
-                        start:end
-                    ].split()
+            indirect = any(
+                _variable_reference_pattern(
+                    dependency
+                ).search(
+                    formula
                 )
+                for dependency
+                in dependent_names
             )
 
-            if (
-                context
-                and context not in contexts
+            if direct or indirect:
+                dependent_names.add(
+                    name
+                )
+                changed = True
+
+    if dependent_names:
+
+        for line in player_lines:
+
+            if any(
+                _variable_reference_pattern(
+                    name
+                ).search(
+                    line
+                )
+                for name
+                in dependent_names
             ):
-                contexts.append(
-                    context
-                )
+                add_context(line)
 
     return tuple(
         contexts
