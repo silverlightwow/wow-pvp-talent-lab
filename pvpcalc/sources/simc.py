@@ -1152,8 +1152,8 @@ def dependency_effect_reference_contexts(
     """
 
     token = re.compile(
-        rf"\$\${int(source_spell_id)}"
-        rf"s\${int(effect_index)}"
+        rf"\${int(source_spell_id)}"
+        rf"s{int(effect_index)}"
         rf"(?!\d)",
         re.I,
     )
@@ -1187,8 +1187,8 @@ def dependency_effect_unit_hint(
     """
 
     token = (
-        rf"\$\${int(source_spell_id)}"
-        rf"s\${int(effect_index)}"
+        rf"\${int(source_spell_id)}"
+        rf"s{int(effect_index)}"
         rf"(?!\d)"
     )
 
