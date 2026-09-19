@@ -5,6 +5,7 @@ from dataclasses import dataclass, field
 from typing import Any
 
 from .http import CachedClient
+from .models import EffectObservation
 from .reconcile import (
     multipliers_close,
     reconcile,
@@ -1339,6 +1340,50 @@ def _fill_missing_base_values_from_simc(
         )
 
 
+        row_multiplier = row.get(
+            "pvp_multiplier"
+        )
+
+        simc_multiplier = (
+            simc_effect.pvp_coefficient
+        )
+
+        # Exact-build SimC is an independent current-data source.
+        # If it confirms the same PvP coefficient, preserve that
+        # provenance even when Wowhead already supplied the numeric
+        # base value.
+        if (
+            row_multiplier is not None
+            and simc_multiplier is not None
+            and multipliers_close(
+                float(row_multiplier),
+                float(simc_multiplier),
+            )
+        ):
+            sources = list(
+                row.get(
+                    "sources",
+                    [],
+                )
+            )
+
+            if "simc" not in sources:
+                sources.append(
+                    "simc"
+                )
+
+            row["sources"] = sources
+            row["simc_corroborated"] = True
+
+            if (
+                "wowhead" in sources
+                and not row.get(
+                    "conflicts"
+                )
+            ):
+                row["confidence"] = "high"
+
+
         # Wowhead already has a canonical base.
         if row.get(
             "base_value"
@@ -1351,15 +1396,6 @@ def _fill_missing_base_values_from_simc(
             is None
         ):
             continue
-
-
-        row_multiplier = row.get(
-            "pvp_multiplier"
-        )
-
-        simc_multiplier = (
-            simc_effect.pvp_coefficient
-        )
 
 
         # ----------------------------------------------------
@@ -1434,6 +1470,239 @@ def _fill_missing_base_values_from_simc(
                     row_multiplier
                 )
             )
+
+
+def _simc_observation(
+    simc_dump,
+    spell_id: int,
+    simc_effect,
+) -> EffectObservation:
+    spell = simc_dump.spells.get(
+        int(spell_id)
+    )
+
+    return EffectObservation(
+        source="simc",
+        spell_id=int(spell_id),
+        spell_name=(
+            spell.name
+            if spell is not None
+            else f"Spell {spell_id}"
+        ),
+        effect_index=int(
+            simc_effect.effect_index
+        ),
+        base_value=(
+            simc_effect.base_value
+        ),
+        pvp_multiplier=(
+            simc_effect.pvp_coefficient
+        ),
+        effect_text=(
+            simc_effect.effect_text
+        ),
+        patch=simc_dump.build,
+        url="",
+        raw="",
+    )
+
+
+def _simc_corroborates_unresolved(
+    item: dict,
+    *,
+    simc_dump,
+    wowhead_by_spell: dict[int, list],
+) -> bool:
+    """
+    Resolve representation-only Wowhead/Drustvar disagreements with
+    exact-build SimC.
+
+    This is deliberately conservative:
+      * Wowhead-only rows require the SAME SpellEffect index in SimC.
+      * unmatched Drustvar rows require a semantically compatible
+        SimC effect AND a Wowhead effect with that same index.
+
+    A missing Wowhead effect is not silently cleared here; that case
+    needs an explicit SimC fallback row so player-facing coverage is
+    preserved.
+    """
+
+    reason = item.get(
+        "reason"
+    )
+
+    if reason not in {
+        "WOWHEAD_ONLY_MODIFIER",
+        "UNMATCHED_DRUSTVAR_EFFECT",
+    }:
+        return False
+
+    source_spell_id = int(
+        item.get(
+            "source_spell_id",
+            item.get(
+                "spell_id"
+            ),
+        )
+    )
+
+    multiplier = item.get(
+        "multiplier"
+    )
+
+    if multiplier is None:
+        return False
+
+    spell = simc_dump.spells.get(
+        source_spell_id
+    )
+
+    if spell is None:
+        return False
+
+    simc_effects = (
+        simc.parse_spell_effects(
+            spell
+        )
+    )
+
+    wh_effects = (
+        wowhead_by_spell.get(
+            source_spell_id,
+            [],
+        )
+    )
+
+    if reason == "WOWHEAD_ONLY_MODIFIER":
+
+        effect_index = item.get(
+            "effect_index"
+        )
+
+        if effect_index is None:
+            return False
+
+        simc_effect = simc_effects.get(
+            int(effect_index)
+        )
+
+        return bool(
+            simc_effect is not None
+            and simc_effect.pvp_coefficient
+            is not None
+            and multipliers_close(
+                float(multiplier),
+                float(
+                    simc_effect.pvp_coefficient
+                ),
+            )
+        )
+
+
+    # Drustvar row with no safe one-to-one match.
+    dr_obs = EffectObservation(
+        source="drustvar",
+        spell_id=source_spell_id,
+        spell_name=str(
+            item.get(
+                "talent_name"
+            )
+            or f"Spell {source_spell_id}"
+        ),
+        effect_index=0,
+        base_value=None,
+        pvp_multiplier=float(
+            multiplier
+        ),
+        effect_text=str(
+            item.get(
+                "effect_text"
+            )
+            or ""
+        ),
+        patch=None,
+        url="",
+        raw="",
+    )
+
+    wh_by_index = {
+        int(effect.effect_index):
+            effect
+        for effect in wh_effects
+    }
+
+    for simc_effect in (
+        simc_effects.values()
+    ):
+
+        if (
+            simc_effect.pvp_coefficient
+            is None
+            or not multipliers_close(
+                float(multiplier),
+                float(
+                    simc_effect.pvp_coefficient
+                ),
+            )
+        ):
+            continue
+
+        simc_obs = _simc_observation(
+            simc_dump,
+            source_spell_id,
+            simc_effect,
+        )
+
+        if semantic_score(
+            simc_obs,
+            dr_obs,
+        ) <= 0:
+            continue
+
+        wh = wh_by_index.get(
+            int(
+                simc_effect.effect_index
+            )
+        )
+
+        if (
+            wh is not None
+            and wh.pvp_multiplier
+            is not None
+            and multipliers_close(
+                float(multiplier),
+                float(
+                    wh.pvp_multiplier
+                ),
+            )
+        ):
+            return True
+
+    return False
+
+
+def _filter_simc_corroborated_unresolved(
+    unresolved_rows: list[dict],
+    *,
+    simc_dump,
+    wowhead_by_spell: dict[int, list],
+) -> list[dict]:
+
+    result = []
+
+    for item in unresolved_rows:
+
+        if _simc_corroborates_unresolved(
+            item,
+            simc_dump=simc_dump,
+            wowhead_by_spell=
+                wowhead_by_spell,
+        ):
+            continue
+
+        result.append(item)
+
+    return result
 
 
 def _annotate_final_pvp_layers(
@@ -1953,6 +2222,18 @@ async def audit_spec(
     )
 
 
+    # Resolve source-representation differences with the exact-build
+    # SimC dump before deciding whether a spec is incomplete.
+    result.unresolved_rows = (
+        _filter_simc_corroborated_unresolved(
+            result.unresolved_rows,
+            simc_dump=simc_dump,
+            wowhead_by_spell=
+                result.wowhead_by_spell,
+        )
+    )
+
+
     # ========================================================
     # 3. Direct talent spells affected by PvP Aura
     #
@@ -2018,7 +2299,12 @@ async def audit_spec(
         )
 
         result.unresolved_rows.extend(
-            extra_unresolved
+            _filter_simc_corroborated_unresolved(
+                extra_unresolved,
+                simc_dump=simc_dump,
+                wowhead_by_spell=
+                    result.wowhead_by_spell,
+            )
         )
 
 
@@ -2216,7 +2502,12 @@ async def audit_spec(
         )
 
         result.unresolved_rows.extend(
-            child_unresolved
+            _filter_simc_corroborated_unresolved(
+                child_unresolved,
+                simc_dump=simc_dump,
+                wowhead_by_spell=
+                    dependency_wowhead_by_spell,
+            )
         )
 
 
