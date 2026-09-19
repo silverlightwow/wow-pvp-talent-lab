@@ -1399,6 +1399,231 @@ def _select_reference_context_matches(
     ]
 
 
+def _ordered_context_words(
+    value: str,
+) -> list[str]:
+    """Ordered version of _context_words for directional provenance."""
+
+    cleaned = re.sub(
+        r"\$[^\s\]\[(),]+",
+        " ",
+        str(value or ""),
+    )
+
+    return [
+        word.casefold()
+        for word in re.findall(
+            r"[A-Za-z][A-Za-z'-]{3,}",
+            cleaned,
+        )
+        if word.casefold()
+        not in _CONTEXT_STOPWORDS
+    ]
+
+
+def _select_directional_reference_match(
+    text: str,
+    matches,
+    *,
+    reference_contexts,
+    effect_index=None,
+    source_spell_id=None,
+    effect_origin=None,
+):
+    """
+    Match repeated equal values using the words immediately before and
+    after the exact SimC $sN / $SpellIDsN token.
+
+    This keeps provenance directional. It is materially stronger than a
+    bag-of-words score when two equal values occur in the same sentence,
+    e.g. Frostfire Empowerment's "deal 60%" vs "explode for 60%".
+    """
+
+    patterns = _reference_effect_patterns(
+        effect_index,
+        source_spell_id=source_spell_id,
+        effect_origin=effect_origin,
+    )
+
+    if not patterns:
+        return None
+
+    signatures = []
+
+    for context in (
+        reference_contexts
+        or []
+    ):
+        source = str(
+            context or ""
+        )
+
+        for pattern in patterns:
+            for ref in pattern.finditer(
+                source
+            ):
+                before_words = (
+                    _ordered_context_words(
+                        source[
+                            max(
+                                0,
+                                ref.start() - 80,
+                            ):
+                            ref.start()
+                        ]
+                    )
+                )
+
+                after_words = (
+                    _ordered_context_words(
+                        source[
+                            ref.end():
+                            min(
+                                len(source),
+                                ref.end() + 80,
+                            )
+                        ]
+                    )
+                )
+
+                before = set(
+                    before_words[-5:]
+                )
+
+                after = set(
+                    after_words[:5]
+                )
+
+                if (
+                    len(before)
+                    + len(after)
+                    >= 2
+                ):
+                    signatures.append(
+                        (
+                            before,
+                            after,
+                        )
+                    )
+
+    if not signatures:
+        return None
+
+    scored = []
+
+    for match in matches:
+        before_words = (
+            _ordered_context_words(
+                text[
+                    max(
+                        0,
+                        match.start(1) - 80,
+                    ):
+                    match.start(1)
+                ]
+            )
+        )
+
+        after_words = (
+            _ordered_context_words(
+                text[
+                    match.end(1):
+                    min(
+                        len(text),
+                        match.end(1) + 80,
+                    )
+                ]
+            )
+        )
+
+        visible_before = set(
+            before_words[-5:]
+        )
+
+        visible_after = set(
+            after_words[:5]
+        )
+
+        best = (
+            0,
+            0,
+        )
+
+        for (
+            reference_before,
+            reference_after,
+        ) in signatures:
+            before_overlap = len(
+                reference_before
+                & visible_before
+            )
+
+            after_overlap = len(
+                reference_after
+                & visible_after
+            )
+
+            support = (
+                before_overlap
+                + after_overlap
+            )
+
+            # Same-side words are deliberate provenance evidence.
+            score = (
+                2 * before_overlap
+                + 2 * after_overlap
+            )
+
+            if (
+                score,
+                support,
+            ) > best:
+                best = (
+                    score,
+                    support,
+                )
+
+        scored.append(
+            (
+                best[0],
+                best[1],
+                match,
+            )
+        )
+
+    scored.sort(
+        key=lambda item: (
+            -item[0],
+            -item[1],
+            item[2].start(1),
+        )
+    )
+
+    best_score, best_support, best_match = (
+        scored[0]
+    )
+
+    if (
+        best_support < 2
+        or best_score < 4
+    ):
+        return None
+
+    if len(scored) > 1:
+        second_score = (
+            scored[1][0]
+        )
+
+        if (
+            best_score
+            - second_score
+            < 2
+        ):
+            return None
+
+    return best_match
+
+
 def _select_reference_context_match(
     text: str,
     matches,
@@ -1416,6 +1641,24 @@ def _select_reference_context_match(
     context words must support the winner, and it must beat the second
     candidate by a material margin.
     """
+
+    directional_match = (
+        _select_directional_reference_match(
+            text,
+            matches,
+            reference_contexts=
+                reference_contexts,
+            effect_index=
+                effect_index,
+            source_spell_id=
+                source_spell_id,
+            effect_origin=
+                effect_origin,
+        )
+    )
+
+    if directional_match is not None:
+        return directional_match
 
     context_words = (
         _reference_context_words_for_effect(
