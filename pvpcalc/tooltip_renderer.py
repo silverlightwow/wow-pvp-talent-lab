@@ -892,6 +892,170 @@ def _numeric_matches(
     return matches
 
 
+def _context_anchor_patterns(
+    effect_text: str,
+) -> tuple[str, ...]:
+    """
+    Strong semantic anchors only. These are intentionally sparse:
+    if the SpellEffect does not provide a distinctive player-facing
+    concept we leave the repeated number ambiguous.
+    """
+
+    text = str(
+        effect_text or ""
+    ).casefold()
+
+    if (
+        "damage/healing" in text
+        or "damage healing" in text
+    ):
+        return (
+            r"damage\s+(?:and|/)\s*healing",
+            r"healing\s+(?:and|/)\s*damage",
+        )
+
+    if (
+        "damage taken" in text
+    ):
+        return (
+            r"damage\s+(?:you\s+)?take",
+            r"take\s+[^.!?\n]{0,30}?damage",
+            r"damage\s+taken",
+        )
+
+    if (
+        "healing taken" in text
+    ):
+        return (
+            r"healing\s+(?:you\s+)?(?:take|receive)",
+            r"healing\s+taken",
+        )
+
+    if (
+        "run speed" in text
+        or "movement speed" in text
+    ):
+        return (
+            r"(?:movement|run)\s+speed",
+        )
+
+    if (
+        "critical strike" in text
+    ):
+        return (
+            r"critical\s+strike",
+        )
+
+    if (
+        "mastery" in text
+    ):
+        return (
+            r"mastery",
+        )
+
+    if (
+        "absorb" in text
+    ):
+        return (
+            r"absorb(?:s|ing|ed)?",
+        )
+
+    return tuple()
+
+
+def _select_contextual_match(
+    text: str,
+    matches,
+    *,
+    effect_text: str,
+):
+    """
+    Pick a repeated equal-value token only when a strong semantic
+    phrase from the SpellEffect is uniquely and materially closer to
+    one occurrence than to the others.
+    """
+
+    anchors = (
+        _context_anchor_patterns(
+            effect_text
+        )
+    )
+
+    if not anchors:
+        return None
+
+    positions = []
+
+    for pattern in anchors:
+        for anchor in re.finditer(
+            pattern,
+            text,
+            re.I,
+        ):
+            positions.append(
+                (
+                    anchor.start()
+                    + anchor.end()
+                )
+                / 2.0
+            )
+
+    if not positions:
+        return None
+
+    scored = []
+
+    for match in matches:
+        center = (
+            match.start(1)
+            + match.end(1)
+        ) / 2.0
+
+        distance = min(
+            abs(
+                center
+                - position
+            )
+            for position in positions
+        )
+
+        scored.append(
+            (
+                distance,
+                match,
+            )
+        )
+
+    scored.sort(
+        key=lambda item:
+            item[0]
+    )
+
+    best_distance = (
+        scored[0][0]
+    )
+
+    if best_distance > 80:
+        return None
+
+    if len(scored) > 1:
+
+        second_distance = (
+            scored[1][0]
+        )
+
+        # Require a real separation. A phrase shared by the entire
+        # sentence should not arbitrarily select one of two values.
+        if (
+            second_distance
+            - best_distance
+            < 8
+        ):
+            return None
+
+    return scored[0][1]
+
+
 # ============================================================
 # DISPLAY FORMATTING
 # ============================================================
@@ -1088,6 +1252,12 @@ def render_pvp_tooltip(
 
                 "effect_index":
                     effect_index,
+
+                "effect_text":
+                    row.get(
+                        "effect_text",
+                        "",
+                    ),
 
                 "match_ordinal":
                     row.get(
@@ -1358,6 +1528,67 @@ def render_pvp_tooltip(
                                 ],
                         }
                     )
+
+                continue
+
+            contextual_match = (
+                _select_contextual_match(
+                    pve_text,
+                    matches,
+                    effect_text=
+                        transform.get(
+                            "effect_text",
+                            "",
+                        ),
+                )
+            )
+
+            if contextual_match is not None:
+
+                old_token = (
+                    contextual_match
+                    .group(1)
+                )
+
+                new_token = (
+                    _format_new_value(
+                        transform[
+                            "new"
+                        ],
+                        kind=transform[
+                            "kind"
+                        ],
+                        old_token=old_token,
+                    )
+                )
+
+                replacements.append(
+                    {
+                        "start":
+                            contextual_match
+                            .start(1),
+
+                        "end":
+                            contextual_match
+                            .end(1),
+
+                        "old_token":
+                            old_token,
+
+                        "new_token":
+                            new_token,
+
+                        "kind":
+                            transform[
+                                "kind"
+                            ],
+
+                        "effect_indexes":
+                            transform[
+                                "effect_indexes"
+                            ],
+                    }
+                )
 
                 continue
 
