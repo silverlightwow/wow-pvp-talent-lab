@@ -1,0 +1,58 @@
+name: Validate all-spec repairs
+on:
+  push:
+    branches: [codex/all-spec-repairs]
+permissions:
+  contents: read
+concurrency:
+  group: repair-validation
+  cancel-in-progress: true
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - class_name: Demon Hunter
+            spec_name: Havoc
+            slug: demon-hunter
+          - class_name: Evoker
+            spec_name: Devastation
+            slug: evoker
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -e '.[dev]'
+      - run: pytest -q
+      - name: Build and retain source evidence
+        env:
+          CLASS_NAME: ${{ matrix.class_name }}
+          SPEC_NAME: ${{ matrix.spec_name }}
+        run: |
+          python -u - <<'PY'
+          import asyncio, gzip, json, os, sys
+          from pathlib import Path
+          sys.path.insert(0, 'scripts')
+          from build_all_site_data import build_one
+          from pvpcalc.http import _PROCESS_CACHE
+          async def main():
+              try:
+                  report = await build_one(class_name=os.environ['CLASS_NAME'], spec_name=os.environ['SPEC_NAME'], output_dir=Path('repair-data'), concurrency=4)
+                  print(json.dumps(report, indent=2))
+              finally:
+                  Path('repair-data').mkdir(exist_ok=True)
+                  with gzip.open('repair-data/sources.json.gz', 'wt') as f:
+                      json.dump(_PROCESS_CACHE, f)
+          asyncio.run(main())
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: repair-${{ matrix.slug }}
+          path: repair-data
+          retention-days: 7

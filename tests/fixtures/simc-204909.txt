@@ -1,0 +1,30 @@
+SimulationCraft 1210-01 for World of Warcraft 12.1.0.69875 Live
+
+Name             : Soul Rending (id=204909) [Spell Family (107), Passive] 
+Talent Entry     : Generic [tree=class, row=6, col=3, max_rank=2, req_points=8]
+                 : Effect#1 [op=set, values=(5, 10)]
+                 : Effect#2 [op=set, values=(5, 10)]
+Class            : Demon Hunter
+School           : Physical
+Spell Type       : None
+Labels           : 16: Class Spells
+                 : 66: Demon Hunter Spells
+                 : 120
+                 : 292
+                 : 2793: Improved Soul Rending (452407 effect#1), Improved Soul Rending (452407 effect#2)
+Attributes       : Passive (6), No Aura Icon (60), Not In Spellbook (143), Do Not Log on Learn (355), Allow Class Ability Procs (416)
+Effects          :
+#1 (id=302487)   : Apply Aura (6) | Modify Leech% (443)
+                   Base Value: 6 | Scaled Value: 6 | PvP Coefficient: 0.833333 | Target: Self (1)
+                   Modified By: Improved Soul Rending (452407 effect#1)
+#2 (id=483201)   : Apply Aura (6) | Add Flat Modifier (107): Spell Effect 3 (23)
+                   Base Value: 6 | Scaled Value: 6 | PvP Coefficient: 0.833333 | Misc Value: 23 | Target: Self (1)
+                   Affected Spells: Metamorphosis (162264), Metamorphosis (187827), Metamorphosis (191427), Void Metamorphosis (1217605), Void Metamorphosis (1217607)
+                   Family Flags: 15, 28, 84
+                   Modified By: Improved Soul Rending (452407 effect#2)
+Description      : Leech increased by $s1%.
+
+
+
+Gain an additional $s2% leech while Metamorphosis is active.
+
