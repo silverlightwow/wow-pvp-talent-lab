@@ -314,11 +314,14 @@ def semantic_transform(
     )
 
 
-    # A non-zero sign flip cannot be expressed by replacing only the
-    # visible number. Player text such as "increased by 20%" would need
-    # a wording change to "reduced by 20%". Preserve the mechanic but
-    # force conservative review instead of silently rendering the same
-    # magnitude with the wrong direction.
+    # A non-zero sign flip cannot be represented by a numeric
+    # substitution alone. When the player-facing tooltip explicitly
+    # contains directional percentage prose ("20% increased",
+    # "reduced by 20%", ...), preserve the sign information so the
+    # renderer can flip BOTH the number and the nearby direction word.
+    #
+    # If no such wording is visible we stay conservative and require
+    # review rather than inventing prose.
     if (
         base is not None
         and pvp is not None
@@ -330,7 +333,90 @@ def semantic_transform(
             < 0
         )
     ):
-        return None
+        old_value = abs(
+            float(base)
+        )
+
+        direction_words = (
+            (
+                "increased",
+                "increase",
+                "increases",
+                "increasing",
+                "additional",
+                "more",
+            )
+            if float(base) > 0
+            else (
+                "reduced",
+                "reduce",
+                "reduces",
+                "reducing",
+                "decreased",
+                "decrease",
+                "decreases",
+                "decreasing",
+                "less",
+            )
+        )
+
+        percent_matches = (
+            _numeric_matches(
+                selected_tooltip,
+                value=old_value,
+                kind="percent_value",
+            )
+        )
+
+        has_directional_phrase = False
+
+        for numeric_match in percent_matches:
+            window = selected_tooltip[
+                max(
+                    0,
+                    numeric_match.start(1) - 42,
+                ):
+                min(
+                    len(selected_tooltip),
+                    numeric_match.end(1) + 42,
+                )
+            ].casefold()
+
+            if any(
+                re.search(
+                    rf"\b{re.escape(word)}\b",
+                    window,
+                )
+                for word in direction_words
+            ):
+                has_directional_phrase = True
+                break
+
+        if not has_directional_phrase:
+            return None
+
+        return {
+            "kind":
+                "percent_direction_flip",
+
+            "old":
+                old_value,
+
+            "new":
+                abs(
+                    float(pvp)
+                ),
+
+            "unit":
+                "%",
+
+            "direction_from_sign":
+                (
+                    1
+                    if float(base) > 0
+                    else -1
+                ),
+        }
 
 
     # --------------------------------------------------------
@@ -1001,7 +1087,10 @@ def _numeric_matches(
 
         elif (
             kind
-            == "percent_value"
+            in {
+                "percent_value",
+                "percent_direction_flip",
+            }
         ):
 
             if not re.match(
@@ -2378,6 +2467,155 @@ def _smart_regular_number(
     )
 
 
+_DIRECTION_FLIP_WORDS_POSITIVE = {
+    "increased": "reduced",
+    "increase": "reduce",
+    "increases": "reduces",
+    "increasing": "reducing",
+    "additional": "reduced",
+    "more": "less",
+}
+
+_DIRECTION_FLIP_WORDS_NEGATIVE = {
+    "reduced": "increased",
+    "reduce": "increase",
+    "reduces": "increases",
+    "reducing": "increasing",
+    "decreased": "increased",
+    "decrease": "increase",
+    "decreases": "increases",
+    "decreasing": "increasing",
+    "less": "more",
+}
+
+
+def _preserve_word_case(
+    source: str,
+    target: str,
+) -> str:
+    if source.isupper():
+        return target.upper()
+
+    if (
+        source
+        and source[0].isupper()
+    ):
+        return (
+            target[0].upper()
+            + target[1:]
+        )
+
+    return target
+
+
+def _direction_word_replacement(
+    text: str,
+    numeric_replacement: dict,
+    *,
+    from_sign: int,
+):
+    mapping = (
+        _DIRECTION_FLIP_WORDS_POSITIVE
+        if from_sign > 0
+        else _DIRECTION_FLIP_WORDS_NEGATIVE
+    )
+
+    left = max(
+        0,
+        numeric_replacement["start"] - 42,
+    )
+
+    right = min(
+        len(text),
+        numeric_replacement["end"] + 42,
+    )
+
+    candidates = []
+
+    for match in re.finditer(
+        r"\b[A-Za-z]+\b",
+        text[left:right],
+    ):
+        word = match.group(0)
+        replacement = mapping.get(
+            word.casefold()
+        )
+
+        if replacement is None:
+            continue
+
+        start = (
+            left
+            + match.start()
+        )
+
+        end = (
+            left
+            + match.end()
+        )
+
+        distance = min(
+            abs(
+                start
+                - numeric_replacement[
+                    "end"
+                ]
+            ),
+            abs(
+                numeric_replacement[
+                    "start"
+                ]
+                - end
+            ),
+        )
+
+        candidates.append(
+            (
+                distance,
+                start,
+                end,
+                word,
+                replacement,
+            )
+        )
+
+    if not candidates:
+        return None
+
+    candidates.sort(
+        key=lambda item: (
+            item[0],
+            item[1],
+        )
+    )
+
+    (
+        distance,
+        start,
+        end,
+        word,
+        replacement,
+    ) = candidates[0]
+
+    if distance > 42:
+        return None
+
+    return {
+        "start": start,
+        "end": end,
+        "old_token": word,
+        "new_token": _preserve_word_case(
+            word,
+            replacement,
+        ),
+        "kind": "direction_word",
+        "effect_indexes":
+            numeric_replacement[
+                "effect_indexes"
+            ],
+    }
+
+
 def _format_new_value(
     value: float,
     *,
@@ -3433,6 +3671,133 @@ def render_pvp_tooltip(
 
 
     # --------------------------------------------------------
+    # Sign-flip transforms also need a nearby prose-direction rewrite.
+    # A numeric-only result such as "20% increased" -> "20% increased"
+    # would be semantically wrong even though the magnitude is correct.
+    # --------------------------------------------------------
+
+    direction_sign_by_effects = {
+        tuple(
+            sorted(
+                transform[
+                    "effect_indexes"
+                ]
+            )
+        ):
+            int(
+                transform[
+                    "direction_from_sign"
+                ]
+            )
+        for transform in grouped.values()
+        if (
+            transform.get(
+                "kind"
+            )
+            == "percent_direction_flip"
+            and transform.get(
+                "direction_from_sign"
+            )
+            is not None
+        )
+    }
+
+    augmented_replacements = []
+    seen_direction_spans = set()
+
+    for replacement in replacements:
+
+        if (
+            replacement.get(
+                "kind"
+            )
+            != "percent_direction_flip"
+        ):
+            augmented_replacements.append(
+                replacement
+            )
+            continue
+
+        key = tuple(
+            sorted(
+                replacement[
+                    "effect_indexes"
+                ]
+            )
+        )
+
+        direction_sign = (
+            direction_sign_by_effects.get(
+                key
+            )
+        )
+
+        word_replacement = (
+            _direction_word_replacement(
+                pve_text,
+                replacement,
+                from_sign=
+                    direction_sign,
+            )
+            if direction_sign
+            is not None
+            else None
+        )
+
+        if word_replacement is None:
+            diagnostics.append(
+                {
+                    "effect_indexes":
+                        replacement[
+                            "effect_indexes"
+                        ],
+
+                    "status":
+                        "DIRECTION_WORD_NOT_FOUND",
+
+                    "old":
+                        replacement[
+                            "old_token"
+                        ],
+
+                    "new":
+                        replacement[
+                            "new_token"
+                        ],
+                }
+            )
+            continue
+
+        augmented_replacements.append(
+            replacement
+        )
+
+        span_key = (
+            word_replacement[
+                "start"
+            ],
+            word_replacement[
+                "end"
+            ],
+            word_replacement[
+                "new_token"
+            ],
+        )
+
+        if span_key not in seen_direction_spans:
+            seen_direction_spans.add(
+                span_key
+            )
+            augmented_replacements.append(
+                word_replacement
+            )
+
+    replacements = (
+        augmented_replacements
+    )
+
+
+    # --------------------------------------------------------
     # Apply right-to-left so offsets remain stable.
     # --------------------------------------------------------
 
@@ -3502,6 +3867,7 @@ def render_pvp_tooltip(
         "NOT_VISIBLE_IN_TOOLTIP",
         "AMBIGUOUS_TEXT_MATCH",
         "CONFLICTING_TRANSFORMS",
+        "DIRECTION_WORD_NOT_FOUND",
     }
 
     has_blocking = bool(
