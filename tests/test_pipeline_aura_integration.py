@@ -124,3 +124,78 @@ def test_pipeline_applies_effect_index_rule_without_amount_kind():
 
     assert rows[1]["aura_factor"] == 1.0
     assert rows[1]["final_pvp_value"] == 20.0
+
+
+def test_simc_materializes_aura_only_output_without_spell_pvp_coefficient():
+    raw = (
+        "Name             : Aura Only Damage (id=300)\n"
+        "Labels           : 4007\n"
+        "#1 (id=3001) : School Damage (Fire)\n"
+        "Base Value: 0\n"
+        "SP Coefficient: 1.5\n"
+    )
+
+    dump = SimcDump(
+        class_slug="test",
+        build="12.1.0.test",
+        header="test",
+        spells={
+            300: SimcSpell(
+                spell_id=300,
+                name="Aura Only Damage",
+                raw=raw,
+            )
+        },
+        edges={},
+    )
+
+    rules = [
+        PvpAuraRule(
+            aura_spell_id=3,
+            aura_name="Test Aura",
+            spec_name="Test",
+            drustvar_effect_id=12,
+            game_effect_id=22,
+            amount_kind="direct",
+            value_pct=20.0,
+            factor=1.2,
+            affected_spells=tuple(),
+            family_flags=None,
+            label_id=4007,
+            build="12.1.0.test",
+            is_hotfixed=False,
+        )
+    ]
+
+    rows = pipeline._build_simc_aura_rows(
+        spell_ids={300},
+        talent_by_spell={
+            300: {
+                "class_name": "Test",
+                "spec_name": "Test",
+                "talent_name": "Aura Only Damage",
+                "tree_type": "spec",
+                "hero_tree": None,
+                "node_id": 3,
+                "entry_id": 4,
+            }
+        },
+        aura_rules=rules,
+        simc_dump=dump,
+        existing_keys=set(),
+    )
+
+    assert len(rows) == 1
+    assert rows[0]["pvp_multiplier"] == 1.0
+    assert rows[0]["base_value"] is None
+    assert "SP mod: 1.5" in rows[0]["effect_text"]
+    assert rows[0]["sources"] == ["simc", "drustvar"]
+
+    pipeline._annotate_final_pvp_layers(
+        rows,
+        rules,
+        dump,
+    )
+
+    assert rows[0]["aura_factor"] == 1.2
+    assert rows[0]["final_pvp_multiplier"] == 1.2
