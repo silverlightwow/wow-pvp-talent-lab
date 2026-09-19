@@ -91,6 +91,44 @@ async def audit_one(
             in BLOCKING_RENDER_STATUSES
         ]
 
+        unresolved_spell_ids = {
+            int(item["spell_id"])
+            for item in audit.unresolved_rows
+            if item.get("spell_id") is not None
+        }
+
+        unsafe_spell_ids = {
+            int(item["spell_id"])
+            for item in unsafe
+            if item.get("spell_id") is not None
+        }
+
+        coverage_spell_ids = (
+            unresolved_spell_ids
+            | unsafe_spell_ids
+        )
+
+        all_fetch_errors = (
+            list(audit.fetch_errors)
+            + list(spec_catalog.fetch_errors)
+        )
+
+        blocking_fetch_errors = [
+            item
+            for item in all_fetch_errors
+            if (
+                item.get("spell_id") is None
+                or int(item["spell_id"])
+                in coverage_spell_ids
+            )
+        ]
+
+        source_warnings = [
+            item
+            for item in all_fetch_errors
+            if item not in blocking_fetch_errors
+        ]
+
         result.update(
             {
                 "talents": len(
@@ -126,20 +164,16 @@ async def audit_one(
                     ),
                 "fetch_error_count":
                     len(
-                        audit.fetch_errors
-                    )
-                    + len(
-                        spec_catalog.fetch_errors
+                        blocking_fetch_errors
                     ),
                 "fetch_errors":
-                    (
-                        list(
-                            audit.fetch_errors
-                        )
-                        + list(
-                            spec_catalog.fetch_errors
-                        )
-                    )[:20],
+                    blocking_fetch_errors[:20],
+                "source_warning_count":
+                    len(
+                        source_warnings
+                    ),
+                "source_warnings":
+                    source_warnings[:20],
                 "unresolved_count":
                     len(
                         audit.unresolved_rows
