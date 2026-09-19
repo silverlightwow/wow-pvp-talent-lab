@@ -78,33 +78,12 @@
         },
         {
           "effect_indexes": [
-            1,
-            2
+            1
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
           "kind": "percent_value",
           "old": 25.0,
           "new": 12.0,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "attack_power_coefficient",
-          "old": 53.0,
-          "new": 49.82,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "percent_value",
-          "old": 30.0,
-          "new": 20.00001,
           "full_tooltip_match_count": 0
         },
         {
@@ -311,7 +290,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 6
+      "render_effect_count": 3
     },
     {
       "talent_name": "Blind",
@@ -2673,7 +2652,7 @@
             1
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 10.0,
           "new": 5.0,
           "full_tooltip_match_count": 0
@@ -3336,28 +3315,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "attack_power_coefficient",
-          "old": 83.39999999999999,
-          "new": 94.07519999999998,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            3
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "percent_value",
-          "old": 30.0,
-          "new": 20.00001,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -3433,7 +3391,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Hit and Run",
@@ -4336,51 +4294,11 @@
         "icon": "ability_arakkoa_spinning_blade"
       },
       "pve_tooltip": "20 yd range\nInstant\n1 min cooldown\nCharge to your target with your blades out, dealing [(375.3% of Attack Power)% * 230 / 100] Physical damage to the target and (375.3% of Attack Power)% to all other nearby enemies. Damage reduced beyond 8% targets.\nWhile Blade Flurry is active, damage to non-primary targets is increased by 100%.\nGenerates 25 Energy over 5 sec.",
-      "pvp_tooltip": "20 yd range\nInstant\n1 min cooldown\nCharge to your target with your blades out, dealing [(352.782% of Attack Power)% * 230 / 100] Physical damage to the target and (352.782% of Attack Power)% to all other nearby enemies. Damage reduced beyond 8% targets.\nWhile Blade Flurry is active, damage to non-primary targets is increased by 100%.\nGenerates 25 Energy over 5 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 89,
-          "end": 94,
-          "old_token": "375.3",
-          "new_token": "352.782",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        },
-        {
-          "start": 162,
-          "end": 167,
-          "old_token": "375.3",
-          "new_token": "352.782",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "375.3",
-          "new": "352.782"
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "375.3",
-          "new": "352.782"
-        }
-      ],
+      "pvp_tooltip": "20 yd range\nInstant\n1 min cooldown\nCharge to your target with your blades out, dealing [(375.3% of Attack Power)% * 230 / 100] Physical damage to the target and (375.3% of Attack Power)% to all other nearby enemies. Damage reduced beyond 8% targets.\nWhile Blade Flurry is active, damage to non-primary targets is increased by 100%.\nGenerates 25 Energy over 5 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4421,7 +4339,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Loaded Dice",
@@ -4774,42 +4692,11 @@
         "icon": "ability_rogue_ambush"
       },
       "pve_tooltip": "Using Pistol Shot with Opportunity has a 30% chance to make your next Ambush usable without Stealth.\nChance to trigger this effect matches the chance for Sinister Strike to grant Opportunity.\nAmbush damage increased by 80%.",
-      "pvp_tooltip": "Using Pistol Shot with Opportunity has a 20% chance to make your next Ambush usable without Stealth.\nChance to trigger this effect matches the chance for Sinister Strike to grant Opportunity.\nAmbush damage increased by 80%.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 41,
-          "end": 43,
-          "old_token": "30",
-          "new_token": "20",
-          "kind": "percent_value",
-          "effect_indexes": [
-            3
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "attack_power_coefficient",
-          "old": 83.39999999999999,
-          "new": 94.07519999999998,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            3
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "30",
-          "new": "20"
-        }
-      ],
+      "pvp_tooltip": "Using Pistol Shot with Opportunity has a 30% chance to make your next Ambush usable without Stealth.\nChance to trigger this effect matches the chance for Sinister Strike to grant Opportunity.\nAmbush damage increased by 80%.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4889,7 +4776,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Heavy Hitter",
@@ -5329,16 +5216,14 @@
           "new_token": "10",
           "kind": "percent_value",
           "effect_indexes": [
-            1,
-            2
+            1
           ]
         }
       ],
       "diagnostics": [
         {
           "effect_indexes": [
-            1,
-            2
+            1
           ],
           "status": "APPLIED",
           "kind": "percent_value",
@@ -5397,7 +5282,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Zero In",
@@ -5559,18 +5444,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "attack_power_coefficient",
-          "old": 75.1,
-          "new": 67.06429999999999,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -5613,7 +5487,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Dragon-Bone Dice",
@@ -5821,165 +5695,10 @@
         "icon": "inv_112_rogue_betweentheeyes"
       },
       "pve_tooltip": "45 Energy / 1 to 7 Combo Points\n8 yd range\nChanneled\n3 min cooldown\nFinishing move that unleashes a barrage of gunfire, striking random enemies within 8 yards for Physical damage. Number of strikes increased per combo point.\nRestores 1 combo point every 0.50 sec. Each combo point spent above [\nDeeper Stratagem\n:\n7\n]\n5\nincreases damage by 15%.\n1 point : [((225% of Attack Power) + (225% of Attack Power)) * 2] over 0.50 sec\n2 points: [((225% of Attack Power) + (225% of Attack Power)) * 3] over 1.00 sec\n3 points: [((225% of Attack Power) + (225% of Attack Power)) * 4] over 1.50 sec\n4 points: [((225% of Attack Power) + (225% of Attack Power)) * 5] over 2.00 sec\n5 points: [((225% of Attack Power) + (225% of Attack Power)) * 6] over 2.50 sec\n[ 6 points: [((225% of Attack Power) + (225% of Attack Power)) * 7] over 3.00 sec]\n[ 7 points: [((225% of Attack Power) + (225% of Attack Power)) * 8] over 3.50 sec]",
-      "pvp_tooltip": "45 Energy / 1 to 7 Combo Points\n8 yd range\nChanneled\n3 min cooldown\nFinishing move that unleashes a barrage of gunfire, striking random enemies within 8 yards for Physical damage. Number of strikes increased per combo point.\nRestores 1 combo point every 0.50 sec. Each combo point spent above [\nDeeper Stratagem\n:\n7\n]\n5\nincreases damage by 15%.\n1 point : [((131.6% of Attack Power) + (131.6% of Attack Power)) * 2] over 0.50 sec\n2 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 3] over 1.00 sec\n3 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 4] over 1.50 sec\n4 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 5] over 2.00 sec\n5 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 6] over 2.50 sec\n[ 6 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 7] over 3.00 sec]\n[ 7 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 8] over 3.50 sec]",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 358,
-          "end": 361,
-          "old_token": "225",
-          "new_token": "131.6",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1,
-            1
-          ]
-        },
-        {
-          "start": 383,
-          "end": 386,
-          "old_token": "225",
-          "new_token": "131.6",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1,
-            1
-          ]
-        },
-        {
-          "start": 438,
-          "end": 441,
-          "old_token": "225",
-          "new_token": "131.6",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1,
-            1
-          ]
-        },
-        {
-          "start": 463,
-          "end": 466,
-          "old_token": "225",
-          "new_token": "131.6",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1,
-            1
-          ]
-        },
-        {
-          "start": 518,
-          "end": 521,
-          "old_token": "225",
-          "new_token": "131.6",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1,
-            1
-          ]
-        },
-        {
-          "start": 543,
-          "end": 546,
-          "old_token": "225",
-          "new_token": "131.6",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1,
-            1
-          ]
-        },
-        {
-          "start": 598,
-          "end": 601,
-          "old_token": "225",
-          "new_token": "131.6",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1,
-            1
-          ]
-        },
-        {
-          "start": 623,
-          "end": 626,
-          "old_token": "225",
-          "new_token": "131.6",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1,
-            1
-          ]
-        },
-        {
-          "start": 678,
-          "end": 681,
-          "old_token": "225",
-          "new_token": "131.6",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1,
-            1
-          ]
-        },
-        {
-          "start": 703,
-          "end": 706,
-          "old_token": "225",
-          "new_token": "131.6",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1,
-            1
-          ]
-        },
-        {
-          "start": 760,
-          "end": 763,
-          "old_token": "225",
-          "new_token": "131.6",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1,
-            1
-          ]
-        },
-        {
-          "start": 785,
-          "end": 788,
-          "old_token": "225",
-          "new_token": "131.6",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1,
-            1
-          ]
-        },
-        {
-          "start": 843,
-          "end": 846,
-          "old_token": "225",
-          "new_token": "131.6",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1,
-            1
-          ]
-        },
-        {
-          "start": 868,
-          "end": 871,
-          "old_token": "225",
-          "new_token": "131.6",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1,
-            1
-          ]
-        }
-      ],
+      "pvp_tooltip": "45 Energy / 1 to 7 Combo Points\n8 yd range\nChanneled\n3 min cooldown\nFinishing move that unleashes a barrage of gunfire, striking random enemies within 8 yards for Physical damage. Number of strikes increased per combo point.\nRestores 1 combo point every 0.50 sec. Each combo point spent above [\nDeeper Stratagem\n:\n7\n]\n5\nincreases damage by 15%.\n1 point : [((225% of Attack Power) + (225% of Attack Power)) * 2] over 0.50 sec\n2 points: [((225% of Attack Power) + (225% of Attack Power)) * 3] over 1.00 sec\n3 points: [((225% of Attack Power) + (225% of Attack Power)) * 4] over 1.50 sec\n4 points: [((225% of Attack Power) + (225% of Attack Power)) * 5] over 2.00 sec\n5 points: [((225% of Attack Power) + (225% of Attack Power)) * 6] over 2.50 sec\n[ 6 points: [((225% of Attack Power) + (225% of Attack Power)) * 7] over 3.00 sec]\n[ 7 points: [((225% of Attack Power) + (225% of Attack Power)) * 8] over 3.50 sec]",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
       "diagnostics": [
         {
           "effect_indexes": [
@@ -5990,146 +5709,6 @@
           "old": 40.0,
           "new": 20.0,
           "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1,
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "225",
-          "new": "131.6"
-        },
-        {
-          "effect_indexes": [
-            1,
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "225",
-          "new": "131.6"
-        },
-        {
-          "effect_indexes": [
-            1,
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "225",
-          "new": "131.6"
-        },
-        {
-          "effect_indexes": [
-            1,
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "225",
-          "new": "131.6"
-        },
-        {
-          "effect_indexes": [
-            1,
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "225",
-          "new": "131.6"
-        },
-        {
-          "effect_indexes": [
-            1,
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "225",
-          "new": "131.6"
-        },
-        {
-          "effect_indexes": [
-            1,
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "225",
-          "new": "131.6"
-        },
-        {
-          "effect_indexes": [
-            1,
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "225",
-          "new": "131.6"
-        },
-        {
-          "effect_indexes": [
-            1,
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "225",
-          "new": "131.6"
-        },
-        {
-          "effect_indexes": [
-            1,
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "225",
-          "new": "131.6"
-        },
-        {
-          "effect_indexes": [
-            1,
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "225",
-          "new": "131.6"
-        },
-        {
-          "effect_indexes": [
-            1,
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "225",
-          "new": "131.6"
-        },
-        {
-          "effect_indexes": [
-            1,
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "225",
-          "new": "131.6"
-        },
-        {
-          "effect_indexes": [
-            1,
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "225",
-          "new": "131.6"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6237,7 +5816,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 1
     },
     {
       "talent_name": "Keep It Rolling",
@@ -8092,32 +7671,11 @@
         "icon": "ability_rogue_disguise"
       },
       "pve_tooltip": "Blind and Shroud of Concealment have 10% reduced cooldown.\nPick Pocket and Sap have 10 yd increased range.",
-      "pvp_tooltip": "Blind and Shroud of Concealment have 10% reduced cooldown.\nPick Pocket and Sap have 5 yd increased range.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 84,
-          "end": 86,
-          "old_token": "10",
-          "new_token": "5",
-          "kind": "distance_yards",
-          "effect_indexes": [
-            2
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "APPLIED",
-          "kind": "distance_yards",
-          "old": "10",
-          "new": "5"
-        }
-      ],
+      "pvp_tooltip": "Blind and Shroud of Concealment have 10% reduced cooldown.\nPick Pocket and Sap have 10 yd increased range.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8145,7 +7703,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Devious Distractions",
@@ -8681,10 +8239,10 @@
   ],
   "fetch_errors": [],
   "slug": "rogue-outlaw",
-  "generated_at": "2026-09-19T16:06:38.898731+00:00",
+  "generated_at": "2026-09-19T17:52:42.753496+00:00",
   "validation": {
     "talents": 130,
-    "changed_tooltips": 13,
+    "changed_tooltips": 9,
     "talents_with_pvp_mechanics": 20,
     "unique_nodes": 110,
     "tree_build": "12.1.0.69875",

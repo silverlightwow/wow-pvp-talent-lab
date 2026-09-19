@@ -4365,16 +4365,6 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "percent_value",
-          "old": 25.0,
-          "new": 12.5,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            2
-          ],
           "status": "APPLIED",
           "kind": "percent_value",
           "old": "150",
@@ -4437,7 +4427,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Flametongue Weapon",
@@ -4867,16 +4857,14 @@ window.WOW_PVP_DATA = {
           "new_token": "3.0",
           "kind": "duration_seconds",
           "effect_indexes": [
-            2,
-            3
+            2
           ]
         }
       ],
       "diagnostics": [
         {
           "effect_indexes": [
-            2,
-            3
+            2
           ],
           "status": "APPLIED",
           "kind": "duration_seconds",
@@ -4935,7 +4923,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Amped Up",
@@ -6241,18 +6229,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "frequency_more_often",
-          "old": 33.33333333333333,
-          "new": 14.942528735632177,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6285,7 +6262,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Voltaic Blaze",
@@ -7244,19 +7221,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            3,
-            4
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "percent_value",
-          "old": 20.0,
-          "new": 25.0,
-          "full_tooltip_match_count": 1
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7308,7 +7273,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Ancestral Influence",
@@ -7761,32 +7726,11 @@ window.WOW_PVP_DATA = {
         "icon": "spell_shadow_soulleech_2"
       },
       "pve_tooltip": "Increases the damage of Earth Shock, Elemental Blast, and Earthquake by 25%.\nIncreases the healing of Healing Surge and Chain Heal by 25%.",
-      "pvp_tooltip": "Increases the damage of Earth Shock, Elemental Blast, and Earthquake by 25%.\nIncreases the healing of Healing Surge and Chain Heal by 20%.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 134,
-          "end": 136,
-          "old_token": "25",
-          "new_token": "20",
-          "kind": "percent_value",
-          "effect_indexes": [
-            2
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "25",
-          "new": "20"
-        }
-      ],
+      "pvp_tooltip": "Increases the damage of Earth Shock, Elemental Blast, and Earthquake by 25%.\nIncreases the healing of Healing Surge and Chain Heal by 25%.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7814,7 +7758,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Final Calling",
@@ -8953,10 +8897,10 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "shaman-elemental",
-  "generated_at": "2026-09-19T16:08:03.187788+00:00",
+  "generated_at": "2026-09-19T17:54:09.143739+00:00",
   "validation": {
     "talents": 140,
-    "changed_tooltips": 19,
+    "changed_tooltips": 18,
     "talents_with_pvp_mechanics": 27,
     "unique_nodes": 116,
     "tree_build": "12.1.0.69875",

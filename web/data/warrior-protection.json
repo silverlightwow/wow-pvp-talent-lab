@@ -972,28 +972,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "attack_power_coefficient",
-          "old": 38.0931,
-          "new": 42.821406037500005,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "attack_power_coefficient",
-          "old": 124.581,
-          "new": 121.77792749999999,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -1077,7 +1056,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Second Wind",
@@ -1229,20 +1208,10 @@
         "icon": "ability_heroicleap"
       },
       "pve_tooltip": "Reduces the cooldown of Heroic Leap by 15 sec and Heroic Leap also increases your movement speed by 70% for 3 sec.",
-      "pvp_tooltip": "Reduces the cooldown of Heroic Leap by 10.5 sec and Heroic Leap also increases your movement speed by 50.4% for 3 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Heroic Leap by 15 sec and Heroic Leap also increases your movement speed by 50.4% for 3 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
-        {
-          "start": 39,
-          "end": 41,
-          "old_token": "15",
-          "new_token": "10.5",
-          "kind": "duration_seconds",
-          "effect_indexes": [
-            2
-          ]
-        },
         {
           "start": 100,
           "end": 102,
@@ -1264,15 +1233,6 @@
           "old": 15000.0,
           "new": 10500.0,
           "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "APPLIED",
-          "kind": "duration_seconds",
-          "old": "15",
-          "new": "10.5"
         },
         {
           "effect_indexes": [
@@ -1364,7 +1324,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 2
     },
     {
       "talent_name": "Pain and Gain",
@@ -3254,32 +3214,11 @@
         "icon": "inv_ability_warrior_championsspear"
       },
       "pve_tooltip": "25 yd range\nInstant\n1.5 min cooldown\nThrow a spear at the target location, chaining all enemies in the area to the spear's location and dealing (239.25% of Attack Power) Physical damage instantly and an additional (326.25% of Attack Power) Physical damage over 6 sec.\nWhile the spear is active, activating this ability will cause you to leap to the spear, dealing (47% of Attack Power) Physical damage to all targets.\nAll damage dealt reduced beyond 5 targets.\nGenerates\n10\nRage.",
-      "pvp_tooltip": "25 yd range\nInstant\n1.5 min cooldown\nThrow a spear at the target location, chaining all enemies in the area to the spear's location and dealing (239.25% of Attack Power) Physical damage instantly and an additional (326.25% of Attack Power) Physical damage over 6 sec.\nWhile the spear is active, activating this ability will cause you to leap to the spear, dealing (39.95% of Attack Power) Physical damage to all targets.\nAll damage dealt reduced beyond 5 targets.\nGenerates\n10\nRage.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 365,
-          "end": 367,
-          "old_token": "47",
-          "new_token": "39.95",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "47",
-          "new": "39.95"
-        }
-      ],
+      "pvp_tooltip": "25 yd range\nInstant\n1.5 min cooldown\nThrow a spear at the target location, chaining all enemies in the area to the spear's location and dealing (239.25% of Attack Power) Physical damage instantly and an additional (326.25% of Attack Power) Physical damage over 6 sec.\nWhile the spear is active, activating this ability will cause you to leap to the spear, dealing (47% of Attack Power) Physical damage to all targets.\nAll damage dealt reduced beyond 5 targets.\nGenerates\n10\nRage.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -3394,7 +3333,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Stance Mastery",
@@ -5630,8 +5569,7 @@
           "kind": "percent_value",
           "effect_indexes": [
             1,
-            3,
-            4
+            3
           ]
         }
       ],
@@ -5639,8 +5577,7 @@
         {
           "effect_indexes": [
             1,
-            3,
-            4
+            3
           ],
           "status": "APPLIED",
           "kind": "percent_value",
@@ -5723,7 +5660,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 2
     },
     {
       "talent_name": "Massacre",
@@ -6680,32 +6617,11 @@
         "icon": "inv12_apextalent_warrior_phalanx"
       },
       "pve_tooltip": "While Shield Block is active, Shield Slam deals 10% additional damage and has a 20% increased chance to critically strike.\nEnemies damaged by Phalanx's wave of force deal 8.0% reduced damage to you for 8 sec.",
-      "pvp_tooltip": "While Shield Block is active, Shield Slam deals 10% additional damage and has a 20% increased chance to critically strike.\nEnemies damaged by Phalanx's wave of force deal 4% reduced damage to you for 8 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 171,
-          "end": 174,
-          "old_token": "8.0",
-          "new_token": "4",
-          "kind": "ordinary_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "ordinary_value",
-          "old": "8.0",
-          "new": "4"
-        }
-      ],
+      "pvp_tooltip": "While Shield Block is active, Shield Slam deals 10% additional damage and has a 20% increased chance to critically strike.\nEnemies damaged by Phalanx's wave of force deal 8.0% reduced damage to you for 8 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6738,7 +6654,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Lightning Strikes",
@@ -7168,32 +7084,11 @@
         "icon": "warrior_talent_icon_bloodandthunder"
       },
       "pve_tooltip": "Your next Thunder Clap becomes a Thunder Blast that deals (234.295% of Attack Power) Stormstrike damage and generates 2 Rage.",
-      "pvp_tooltip": "Your next Thunder Clap becomes a Thunder Blast that deals (199.1508% of Attack Power) Stormstrike damage and generates 2 Rage.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 59,
-          "end": 66,
-          "old_token": "234.295",
-          "new_token": "199.1508",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "234.295",
-          "new": "199.1508"
-        }
-      ],
+      "pvp_tooltip": "Your next Thunder Clap becomes a Thunder Blast that deals (234.295% of Attack Power) Stormstrike damage and generates 2 Rage.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7234,7 +7129,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Storm Bolts",
@@ -8638,18 +8533,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "percent_value",
-          "old": 5.0,
-          "new": 2.5,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8682,7 +8566,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Tide of Battle",
@@ -8732,18 +8616,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "percent_value",
-          "old": 5.0,
-          "new": 2.5,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8776,7 +8649,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "No Stranger to Pain",
@@ -8992,16 +8865,14 @@
           "new_token": "15",
           "kind": "percent_value",
           "effect_indexes": [
-            1,
-            3
+            1
           ]
         }
       ],
       "diagnostics": [
         {
           "effect_indexes": [
-            1,
-            3
+            1
           ],
           "status": "APPLIED",
           "kind": "percent_value",
@@ -9058,7 +8929,7 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Precise Might",
@@ -9391,32 +9262,11 @@
         "icon": "ability_warrior_titansgrip"
       },
       "pve_tooltip": "Enemies affected by Demolish take up to 10% more damage from you and deal up to 20% less damage to you for 10 sec based on the number of stacks of Colossal Might consumed by Demolish.\nColossal Might stacks up to 10 times.",
-      "pvp_tooltip": "Enemies affected by Demolish take up to 10% more damage from you and deal up to 10% less damage to you for 10 sec based on the number of stacks of Colossal Might consumed by Demolish.\nColossal Might stacks up to 10 times.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 80,
-          "end": 82,
-          "old_token": "20",
-          "new_token": "10",
-          "kind": "percent_value",
-          "effect_indexes": [
-            3
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            3
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "20",
-          "new": "10"
-        }
-      ],
+      "pvp_tooltip": "Enemies affected by Demolish take up to 10% more damage from you and deal up to 20% less damage to you for 10 sec based on the number of stacks of Colossal Might consumed by Demolish.\nColossal Might stacks up to 10 times.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -9449,15 +9299,15 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     }
   ],
   "fetch_errors": [],
   "slug": "warrior-protection",
-  "generated_at": "2026-09-19T16:10:51.189448+00:00",
+  "generated_at": "2026-09-19T17:57:35.439974+00:00",
   "validation": {
     "talents": 125,
-    "changed_tooltips": 28,
+    "changed_tooltips": 24,
     "talents_with_pvp_mechanics": 43,
     "unique_nodes": 108,
     "tree_build": "12.1.0.69875",

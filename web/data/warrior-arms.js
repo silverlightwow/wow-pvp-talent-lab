@@ -998,16 +998,6 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "attack_power_coefficient",
-          "old": 38.0931,
-          "new": 60.453749699999996,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
           "old": "124.581",
@@ -1099,7 +1089,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Second Wind",
@@ -1251,20 +1241,10 @@ window.WOW_PVP_DATA = {
         "icon": "ability_heroicleap"
       },
       "pve_tooltip": "Reduces the cooldown of Heroic Leap by 15 sec and Heroic Leap also increases your movement speed by 70% for 3 sec.",
-      "pvp_tooltip": "Reduces the cooldown of Heroic Leap by 10.5 sec and Heroic Leap also increases your movement speed by 50.4% for 3 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Heroic Leap by 15 sec and Heroic Leap also increases your movement speed by 50.4% for 3 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
-        {
-          "start": 39,
-          "end": 41,
-          "old_token": "15",
-          "new_token": "10.5",
-          "kind": "duration_seconds",
-          "effect_indexes": [
-            2
-          ]
-        },
         {
           "start": 100,
           "end": 102,
@@ -1286,15 +1266,6 @@ window.WOW_PVP_DATA = {
           "old": 15000.0,
           "new": 10500.0,
           "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "APPLIED",
-          "kind": "duration_seconds",
-          "old": "15",
-          "new": "10.5"
         },
         {
           "effect_indexes": [
@@ -1386,7 +1357,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 2
     },
     {
       "talent_name": "Pain and Gain",
@@ -3331,32 +3302,11 @@ window.WOW_PVP_DATA = {
         "icon": "inv_ability_warrior_championsspear"
       },
       "pve_tooltip": "25 yd range\nInstant\n1.5 min cooldown\nThrow a spear at the target location, chaining all enemies in the area to the spear's location and dealing (239.25% of Attack Power) Physical damage instantly and an additional (326.25% of Attack Power) Physical damage over 6 sec.\nWhile the spear is active, activating this ability will cause you to leap to the spear, dealing (47% of Attack Power) Physical damage to all targets.\nAll damage dealt reduced beyond 5 targets.\nGenerates\n10\nRage.",
-      "pvp_tooltip": "25 yd range\nInstant\n1.5 min cooldown\nThrow a spear at the target location, chaining all enemies in the area to the spear's location and dealing (239.25% of Attack Power) Physical damage instantly and an additional (326.25% of Attack Power) Physical damage over 6 sec.\nWhile the spear is active, activating this ability will cause you to leap to the spear, dealing (56.4% of Attack Power) Physical damage to all targets.\nAll damage dealt reduced beyond 5 targets.\nGenerates\n10\nRage.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 365,
-          "end": 367,
-          "old_token": "47",
-          "new_token": "56.4",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "47",
-          "new": "56.4"
-        }
-      ],
+      "pvp_tooltip": "25 yd range\nInstant\n1.5 min cooldown\nThrow a spear at the target location, chaining all enemies in the area to the spear's location and dealing (239.25% of Attack Power) Physical damage instantly and an additional (326.25% of Attack Power) Physical damage over 6 sec.\nWhile the spear is active, activating this ability will cause you to leap to the spear, dealing (47% of Attack Power) Physical damage to all targets.\nAll damage dealt reduced beyond 5 targets.\nGenerates\n10\nRage.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -3471,7 +3421,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Stance Mastery",
@@ -4529,8 +4479,7 @@ window.WOW_PVP_DATA = {
           "new_token": "20",
           "kind": "percent_value",
           "effect_indexes": [
-            1,
-            2
+            1
           ]
         }
       ],
@@ -4546,8 +4495,7 @@ window.WOW_PVP_DATA = {
         },
         {
           "effect_indexes": [
-            1,
-            2
+            1
           ],
           "status": "APPLIED",
           "kind": "percent_value",
@@ -4648,7 +4596,7 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 2
     },
     {
       "talent_name": "Impale",
@@ -6752,8 +6700,7 @@ window.WOW_PVP_DATA = {
           "kind": "percent_value",
           "effect_indexes": [
             1,
-            3,
-            4
+            3
           ]
         }
       ],
@@ -6761,8 +6708,7 @@ window.WOW_PVP_DATA = {
         {
           "effect_indexes": [
             1,
-            3,
-            4
+            3
           ],
           "status": "APPLIED",
           "kind": "percent_value",
@@ -6845,7 +6791,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 2
     },
     {
       "talent_name": "Master of Warfare",
@@ -7060,9 +7006,7 @@ window.WOW_PVP_DATA = {
           "new_token": "1",
           "kind": "percent_value",
           "effect_indexes": [
-            1,
-            2,
-            3
+            1
           ]
         }
       ],
@@ -7078,9 +7022,7 @@ window.WOW_PVP_DATA = {
         },
         {
           "effect_indexes": [
-            1,
-            2,
-            3
+            1
           ],
           "status": "APPLIED",
           "kind": "percent_value",
@@ -7224,7 +7166,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 4
+      "render_effect_count": 2
     },
     {
       "talent_name": "Imminent Demise",
@@ -7995,9 +7937,7 @@ window.WOW_PVP_DATA = {
           "new_token": "1",
           "kind": "percent_value",
           "effect_indexes": [
-            1,
-            2,
-            3
+            2
           ]
         }
       ],
@@ -8014,9 +7954,7 @@ window.WOW_PVP_DATA = {
         },
         {
           "effect_indexes": [
-            1,
-            2,
-            3
+            2
           ],
           "status": "APPLIED",
           "kind": "percent_value",
@@ -8164,7 +8102,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 4
+      "render_effect_count": 2
     },
     {
       "talent_name": "Reap the Storm",
@@ -9217,18 +9155,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "percent_value",
-          "old": 5.0,
-          "new": 2.5,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -9261,7 +9188,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Tide of Battle",
@@ -9311,18 +9238,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "percent_value",
-          "old": 5.0,
-          "new": 2.5,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -9355,7 +9271,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "No Stranger to Pain",
@@ -9571,16 +9487,14 @@ window.WOW_PVP_DATA = {
           "new_token": "15",
           "kind": "percent_value",
           "effect_indexes": [
-            1,
-            3
+            1
           ]
         }
       ],
       "diagnostics": [
         {
           "effect_indexes": [
-            1,
-            3
+            1
           ],
           "status": "APPLIED",
           "kind": "percent_value",
@@ -9637,7 +9551,7 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Precise Might",
@@ -9981,16 +9895,14 @@ window.WOW_PVP_DATA = {
           "new_token": "10",
           "kind": "percent_value",
           "effect_indexes": [
-            1,
-            3
+            1
           ]
         }
       ],
       "diagnostics": [
         {
           "effect_indexes": [
-            1,
-            3
+            1
           ],
           "status": "APPLIED",
           "kind": "percent_value",
@@ -10067,15 +9979,15 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     }
   ],
   "fetch_errors": [],
   "slug": "warrior-arms",
-  "generated_at": "2026-09-19T16:10:21.112714+00:00",
+  "generated_at": "2026-09-19T17:57:11.362381+00:00",
   "validation": {
     "talents": 122,
-    "changed_tooltips": 34,
+    "changed_tooltips": 33,
     "talents_with_pvp_mechanics": 47,
     "unique_nodes": 104,
     "tree_build": "12.1.0.69875",

@@ -524,21 +524,10 @@ window.WOW_PVP_DATA = {
         "icon": "spell_frost_chillingblast"
       },
       "pve_tooltip": "Instant\n1 min cooldown\nTargets in a cone in front of you are blinded, causing them to wander disoriented for 5 sec. Damage may cancel the effect.\nWhen Blinding Sleet ends, enemies are slowed by 50% for 6 sec.",
-      "pvp_tooltip": "Instant\n1 min cooldown\nTargets in a cone in front of you are blinded, causing them to wander disoriented for 5 sec. Damage may cancel the effect.\nWhen Blinding Sleet ends, enemies are slowed by 30% for 6 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 194,
-          "end": 196,
-          "old_token": "50",
-          "new_token": "30",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
+      "pvp_tooltip": "Instant\n1 min cooldown\nTargets in a cone in front of you are blinded, causing them to wander disoriented for 5 sec. Damage may cancel the effect.\nWhen Blinding Sleet ends, enemies are slowed by 50% for 6 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
       "diagnostics": [
         {
           "effect_indexes": [
@@ -549,15 +538,6 @@ window.WOW_PVP_DATA = {
           "old": 60.0,
           "new": 49.99998,
           "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "50",
-          "new": "30"
         }
       ],
       "has_pvp_mechanics": true,
@@ -616,7 +596,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Gloom Ward",
@@ -5458,21 +5438,10 @@ window.WOW_PVP_DATA = {
         "icon": "inv_ability_deathbringerdeathknight_reapersmark"
       },
       "pve_tooltip": "2 Runes\nMelee Range\nInstant\n45 sec cooldown\nViciously slice into the soul of your enemy, dealing (442.26% of Attack Power) Shadowfrost damage and applying Reaper's Mark.\nEach time you deal Shadow or Frost damage, add a stack of Reaper's Mark. After 12 sec or reaching 40 stacks, the mark explodes, dealing (45.348% of Attack Power) damage per stack.\nReaper's Mark travels to an unmarked enemy nearby if the target dies.",
-      "pvp_tooltip": "2 Runes\nMelee Range\nInstant\n45 sec cooldown\nViciously slice into the soul of your enemy, dealing (442.26% of Attack Power) Shadowfrost damage and applying Reaper's Mark.\nEach time you deal Shadow or Frost damage, add a stack of Reaper's Mark. After 12 sec or reaching 40 stacks, the mark explodes, dealing (25.1681% of Attack Power) damage per stack.\nReaper's Mark travels to an unmarked enemy nearby if the target dies.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 307,
-          "end": 313,
-          "old_token": "45.348",
-          "new_token": "25.1681",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
+      "pvp_tooltip": "2 Runes\nMelee Range\nInstant\n45 sec cooldown\nViciously slice into the soul of your enemy, dealing (442.26% of Attack Power) Shadowfrost damage and applying Reaper's Mark.\nEach time you deal Shadow or Frost damage, add a stack of Reaper's Mark. After 12 sec or reaching 40 stacks, the mark explodes, dealing (45.348% of Attack Power) damage per stack.\nReaper's Mark travels to an unmarked enemy nearby if the target dies.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
       "diagnostics": [
         {
           "effect_indexes": [
@@ -5483,25 +5452,6 @@ window.WOW_PVP_DATA = {
           "old": 234.0,
           "new": 187.20000000000002,
           "full_tooltip_match_count": 1
-        },
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "attack_power_coefficient",
-          "old": 30.364,
-          "new": 16.841908788,
-          "full_tooltip_match_count": 1
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "45.348",
-          "new": "25.1681"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5587,7 +5537,7 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 1
     },
     {
       "talent_name": "Vampiric Strike",
@@ -5638,28 +5588,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "attack_power_coefficient",
-          "old": 169.884,
-          "new": 229.683168,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            5
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "attack_power_coefficient",
-          "old": 113.375,
-          "new": 147.38750000000002,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -5725,7 +5654,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Wave of Souls",
@@ -5930,26 +5859,6 @@ window.WOW_PVP_DATA = {
       "diagnostics": [
         {
           "effect_indexes": [
-            3
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "frequency_more_often",
-          "old": 75.43859649122805,
-          "new": 99.99988000007203,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            4
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "duration_seconds",
-          "old": 43.0,
-          "new": 49.99997,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
             6
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
@@ -6066,7 +5975,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 4
+      "render_effect_count": 2
     },
     {
       "talent_name": "Bind in Darkness",
@@ -7836,28 +7745,6 @@ window.WOW_PVP_DATA = {
       "diagnostics": [
         {
           "effect_indexes": [
-            1,
-            3
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "ordinary_value",
-          "old": 30.0,
-          "new": 9.9,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            2,
-            4
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "ordinary_value",
-          "old": 50.0,
-          "new": 16.5,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
             3
           ],
           "status": "APPLIED",
@@ -8018,7 +7905,7 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 5
+      "render_effect_count": 1
     },
     {
       "talent_name": "Exterminate",
@@ -8065,71 +7952,11 @@ window.WOW_PVP_DATA = {
         "icon": "inv_polearm_2h_titanargus_d_01"
       },
       "pve_tooltip": "After Reaper's Mark explodes, your next 2 Marrowrends cost 1 Rune and summon 2 scythes to strike your enemies.\nThe first scythe strikes your target for (1030.25% of Attack Power) Shadowfrost damage and the second scythe strikes all enemies around your target for (469.2% of Attack Power) Shadowfrost damage\n[and applies Frost Fever]. Deals reduced damage beyond 8 targets.",
-      "pvp_tooltip": "After Reaper's Mark explodes, your next 2 Marrowrends cost 1 Rune and summon 2 scythes to strike your enemies.\nThe first scythe strikes your target for (721.175% of Attack Power) Shadowfrost damage and the second scythe strikes all enemies around your target for (328.44% of Attack Power) Shadowfrost damage\n[and applies Frost Fever]. Deals reduced damage beyond 8 targets.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 153,
-          "end": 160,
-          "old_token": "1030.25",
-          "new_token": "721.175",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        },
-        {
-          "start": 264,
-          "end": 269,
-          "old_token": "469.2",
-          "new_token": "328.44",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "attack_power_coefficient",
-          "old": 440.205,
-          "new": 374.17425,
-          "full_tooltip_match_count": 1
-        },
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "attack_power_coefficient",
-          "old": 178.008,
-          "new": 151.3068,
-          "full_tooltip_match_count": 1
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "1030.25",
-          "new": "721.175"
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "469.2",
-          "new": "328.44"
-        }
-      ],
+      "pvp_tooltip": "After Reaper's Mark explodes, your next 2 Marrowrends cost 1 Rune and summon 2 scythes to strike your enemies.\nThe first scythe strikes your target for (1030.25% of Attack Power) Shadowfrost damage and the second scythe strikes all enemies around your target for (469.2% of Attack Power) Shadowfrost damage\n[and applies Frost Fever]. Deals reduced damage beyond 8 targets.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8249,7 +8076,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 4
+      "render_effect_count": 0
     },
     {
       "talent_name": "Gift of the San'layn",
@@ -8308,10 +8135,10 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "death-knight-blood",
-  "generated_at": "2026-09-19T15:52:20.374163+00:00",
+  "generated_at": "2026-09-19T17:39:20.938541+00:00",
   "validation": {
     "talents": 125,
-    "changed_tooltips": 16,
+    "changed_tooltips": 13,
     "talents_with_pvp_mechanics": 18,
     "unique_nodes": 113,
     "tree_build": "12.1.0.69875",

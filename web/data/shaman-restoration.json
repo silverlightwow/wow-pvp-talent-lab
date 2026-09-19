@@ -3782,15 +3782,30 @@
         "icon": "spell_nature_acid_01"
       },
       "pve_tooltip": "Deal [(100% of Spell Power)] Nature damage every 2 sec to up to 5 enemies inside of your Healing Rain.",
-      "pvp_tooltip": "Deal [(100% of Spell Power)] Nature damage every 2 sec to up to 5 enemies inside of your Healing Rain.",
-      "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
-      "changes": [],
+      "pvp_tooltip": "Deal [(130% of Spell Power)] Nature damage every 2 sec to up to 5 enemies inside of your Healing Rain.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 7,
+          "end": 10,
+          "old_token": "100",
+          "new_token": "130",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
-          "effect_index": 1,
-          "status": "NO_RENDERABLE_VALUE",
-          "reason": "No safe player-facing numeric transformation"
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "100",
+          "new": "130"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5015,32 +5030,11 @@
         "icon": "spell_shaman_giftearthmother"
       },
       "pve_tooltip": "Instant\nImbue your weapon with the element of Earth for 1 hour. Your Riptide, Healing Wave, and Chain Heal healing has a 20% chance to trigger Earthliving on the target, healing for (138.915% of Spell Power) over 6 sec.",
-      "pvp_tooltip": "Instant\nImbue your weapon with the element of Earth for 1 hour. Your Riptide, Healing Wave, and Chain Heal healing has a 20% chance to trigger Earthliving on the target, healing for (131.6914% of Spell Power) over 6 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 183,
-          "end": 190,
-          "old_token": "138.915",
-          "new_token": "131.6914",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "138.915",
-          "new": "131.6914"
-        }
-      ],
+      "pvp_tooltip": "Instant\nImbue your weapon with the element of Earth for 1 hour. Your Riptide, Healing Wave, and Chain Heal healing has a 20% chance to trigger Earthliving on the target, healing for (138.915% of Spell Power) over 6 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -5083,7 +5077,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Earthweaver",
@@ -6515,18 +6509,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "attack_power_coefficient",
-          "old": 215.625,
-          "new": 107.8125,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6628,7 +6611,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Stormstream Totem",
@@ -7200,34 +7183,11 @@
         "icon": "ability_shaman_echooftheelements"
       },
       "pve_tooltip": "Lava Burst gains an additional charge and deals 10% increased damage.\nRiptide gains an additional charge and heals for 20% more.",
-      "pvp_tooltip": "Lava Burst gains an additional charge and deals 10% increased damage.\nRiptide gains an additional charge and heals for 25% more.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 119,
-          "end": 121,
-          "old_token": "20",
-          "new_token": "25",
-          "kind": "percent_value",
-          "effect_indexes": [
-            3,
-            4
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            3,
-            4
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "20",
-          "new": "25"
-        }
-      ],
+      "pvp_tooltip": "Lava Burst gains an additional charge and deals 10% increased damage.\nRiptide gains an additional charge and heals for 20% more.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7279,7 +7239,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Ancestral Influence",
@@ -7681,32 +7641,11 @@
         "icon": "spell_fire_searingtotem"
       },
       "pve_tooltip": "When you summon a Healing Tide Totem, Healing Stream Totem, or Spirit Link Totem you cast a free instant Chain Heal at 100% effectiveness.",
-      "pvp_tooltip": "When you summon a Healing Tide Totem, Healing Stream Totem, or Spirit Link Totem you cast a free instant Chain Heal at 150% effectiveness.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 119,
-          "end": 122,
-          "old_token": "100",
-          "new_token": "150",
-          "kind": "ordinary_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "ordinary_value",
-          "old": "100",
-          "new": "150"
-        }
-      ],
+      "pvp_tooltip": "When you summon a Healing Tide Totem, Healing Stream Totem, or Spirit Link Totem you cast a free instant Chain Heal at 100% effectiveness.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7739,7 +7678,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Totemic Momentum",
@@ -8513,32 +8452,11 @@
         "icon": "spell_shadow_soulleech_2"
       },
       "pve_tooltip": "Increases the healing done by Healing Wave, Downpour, and Chain Heal by 25%.",
-      "pvp_tooltip": "Increases the healing done by Healing Wave, Downpour, and Chain Heal by 20%.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 72,
-          "end": 74,
-          "old_token": "25",
-          "new_token": "20",
-          "kind": "percent_value",
-          "effect_indexes": [
-            2
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "25",
-          "new": "20"
-        }
-      ],
+      "pvp_tooltip": "Increases the healing done by Healing Wave, Downpour, and Chain Heal by 25%.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8566,7 +8484,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Final Calling",
@@ -9215,10 +9133,10 @@
   ],
   "fetch_errors": [],
   "slug": "shaman-restoration",
-  "generated_at": "2026-09-19T16:07:37.536351+00:00",
+  "generated_at": "2026-09-19T17:54:27.154192+00:00",
   "validation": {
     "talents": 137,
-    "changed_tooltips": 23,
+    "changed_tooltips": 20,
     "talents_with_pvp_mechanics": 31,
     "unique_nodes": 116,
     "tree_build": "12.1.0.69875",
@@ -9226,20 +9144,14 @@
     "drustvar_builds": [
       "12.1.0.69587"
     ],
-    "verification_status": "PARTIAL",
+    "verification_status": "VERIFIED",
     "fetch_error_count": 0,
     "source_warning_count": 0,
     "unresolved_count": 0,
-    "review_required_count": 1,
+    "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [],
     "unresolved_examples": [],
-    "review_required_examples": [
-      {
-        "talent_name": "Acid Rain",
-        "spell_id": 378443,
-        "status": "REVIEW_REQUIRED"
-      }
-    ]
+    "review_required_examples": []
   }
 }

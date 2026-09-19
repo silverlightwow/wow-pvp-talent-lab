@@ -69,16 +69,6 @@ window.WOW_PVP_DATA = {
       "diagnostics": [
         {
           "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "percent_value",
-          "old": 30.0,
-          "new": 49.8,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
             2
           ],
           "status": "APPLIED",
@@ -167,7 +157,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Auras of the Resolute",
@@ -4817,18 +4807,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
-          "old": 9.0,
-          "new": 21.06,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4856,7 +4835,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Beacon of the Lightbringer",
@@ -6184,18 +6163,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            5
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "spell_power_coefficient",
-          "old": 33.0,
-          "new": 19.470000000000002,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6236,7 +6204,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Breaking Dawn",
@@ -6648,18 +6616,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            5
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "spell_power_coefficient",
-          "old": 33.0,
-          "new": 19.470000000000002,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6702,7 +6659,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Empyrean Legacy",
@@ -6867,16 +6824,6 @@ window.WOW_PVP_DATA = {
       "diagnostics": [
         {
           "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "percent_value",
-          "old": 50.0,
-          "new": 33.33,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
             2
           ],
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
@@ -6955,7 +6902,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Avenging Crusader",
@@ -7021,16 +6968,6 @@ window.WOW_PVP_DATA = {
         }
       ],
       "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "attack_power_coefficient",
-          "old": 140.0,
-          "new": 182.0,
-          "full_tooltip_match_count": 0
-        },
         {
           "effect_indexes": [
             5
@@ -7112,7 +7049,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Reclamation",
@@ -7211,51 +7148,11 @@ window.WOW_PVP_DATA = {
         "icon": "inv_helm_plate_raidpaladindragon_d_01"
       },
       "pve_tooltip": "Beacon of Faith\n:\nAllies with Beacon of Light or Beacon of Faith are healed for (33% of Spell Power) every 3 sec.\nBeacon of Virtue\n:\nBeacon of Virtue instantly heals allies for (586% of Spell Power).",
-      "pvp_tooltip": "Beacon of Faith\n:\nAllies with Beacon of Light or Beacon of Faith are healed for (19.47% of Spell Power) every 3 sec.\nBeacon of Virtue\n:\nBeacon of Virtue instantly heals allies for (345.74% of Spell Power).",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 81,
-          "end": 83,
-          "old_token": "33",
-          "new_token": "19.47",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            5
-          ]
-        },
-        {
-          "start": 178,
-          "end": 181,
-          "old_token": "586",
-          "new_token": "345.74",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            5
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "33",
-          "new": "19.47"
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "586",
-          "new": "345.74"
-        }
-      ],
+      "pvp_tooltip": "Beacon of Faith\n:\nAllies with Beacon of Light or Beacon of Faith are healed for (33% of Spell Power) every 3 sec.\nBeacon of Virtue\n:\nBeacon of Virtue instantly heals allies for (586% of Spell Power).",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7334,7 +7231,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Seek Deliverance",
@@ -7437,21 +7334,10 @@ window.WOW_PVP_DATA = {
         "icon": "ability_paladin_judgementsofthejust"
       },
       "pve_tooltip": "Holy (\nHoly Paladin\n)\nAvenging Wrath and Avenging Crusader have 50% increased duration.\n[\nAvenging Wrath and Avenging Crusader have 25% increased duration\n]",
-      "pvp_tooltip": "Holy (\nHoly Paladin\n)\nAvenging Wrath and Avenging Crusader have 33.33% increased duration.\n[\nAvenging Wrath and Avenging Crusader have 25% increased duration\n]",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 64,
-          "end": 66,
-          "old_token": "50",
-          "new_token": "33.33",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
+      "pvp_tooltip": "Holy (\nHoly Paladin\n)\nAvenging Wrath and Avenging Crusader have 50% increased duration.\n[\nAvenging Wrath and Avenging Crusader have 25% increased duration\n]",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
       "diagnostics": [
         {
           "effect_indexes": [
@@ -7462,15 +7348,6 @@ window.WOW_PVP_DATA = {
           "old": 40.0,
           "new": 26.663999999999998,
           "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "50",
-          "new": "33.33"
         }
       ],
       "has_pvp_mechanics": true,
@@ -7538,7 +7415,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Awakening",
@@ -8325,18 +8202,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            3
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
-          "old": 50.0,
-          "new": 30.0,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8345,7 +8211,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 431377,
           "source_spell_id": 431380,
           "effect_index": 3,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -8362,13 +8228,14 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Morning Star",
@@ -8895,16 +8762,6 @@ window.WOW_PVP_DATA = {
       "diagnostics": [
         {
           "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "spell_power_coefficient",
-          "old": 134.54999999999998,
-          "new": 79.3845,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
             3
           ],
           "status": "APPLIED",
@@ -8921,7 +8778,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 431423,
           "source_spell_id": 431380,
           "effect_index": 3,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -8938,8 +8795,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -8982,7 +8840,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Will of the Dawn",
@@ -9187,42 +9045,11 @@ window.WOW_PVP_DATA = {
         "icon": "spell_priest_burningwill"
       },
       "pve_tooltip": "Holy Shock and Light of Dawn critical strikes cause the target to be healed for an additional (54% of Spell Power) over 4 sec.",
-      "pvp_tooltip": "Holy Shock and Light of Dawn critical strikes cause the target to be healed for an additional (31.86% of Spell Power) over 4 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 95,
-          "end": 97,
-          "old_token": "54",
-          "new_token": "31.86",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            3
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "ordinary_value",
-          "old": 50.0,
-          "new": 30.0,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "54",
-          "new": "31.86"
-        }
-      ],
+      "pvp_tooltip": "Holy Shock and Light of Dawn critical strikes cause the target to be healed for an additional (54% of Spell Power) over 4 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -9269,7 +9096,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 431413,
           "source_spell_id": 431380,
           "effect_index": 3,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -9290,13 +9117,14 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Solar Grace",
@@ -9938,18 +9766,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            5
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
-          "old": 350.0,
-          "new": 199.49999999999997,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -9981,7 +9798,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Blessed Assurance",
@@ -10568,28 +10385,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
-          "old": 150.0,
-          "new": 100.0005,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            4
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
-          "old": 20.0,
-          "new": 10.0,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -10649,7 +10445,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Reflection of Radiance",
@@ -10814,10 +10610,10 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "paladin-holy",
-  "generated_at": "2026-09-19T16:03:26.974832+00:00",
+  "generated_at": "2026-09-19T17:49:46.626363+00:00",
   "validation": {
     "talents": 150,
-    "changed_tooltips": 24,
+    "changed_tooltips": 21,
     "talents_with_pvp_mechanics": 37,
     "unique_nodes": 125,
     "tree_build": "12.1.0.69875",
@@ -10827,16 +10623,11 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 11,
+    "source_warning_count": 10,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 431380,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=431380'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "source": "wowhead",
         "spell_id": 431381,
@@ -10856,6 +10647,11 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 432496,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=432496'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 433722,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=433722'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],

@@ -440,18 +440,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
-          "old": 10.0,
-          "new": 20.0,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -484,7 +473,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Combat Experience",
@@ -3358,32 +3347,11 @@
         "icon": "inv_111_hunter_ability_eyesinthesky"
       },
       "pve_tooltip": "The damage bonus of Spotter's Mark is increased by 20%.\nAdditionally, your Eagle learns how to Fetch.\nSpotter's Mark\nDamaging an enemy with abilities empowered by Precise Shots has a 30% chance to apply Spotter's Mark to the primary target, causing your next Aimed Shot\nto deal 20% increased damage to the target.",
-      "pvp_tooltip": "The damage bonus of Spotter's Mark is increased by 20%.\nAdditionally, your Eagle learns how to Fetch.\nSpotter's Mark\nDamaging an enemy with abilities empowered by Precise Shots has a 30% chance to apply Spotter's Mark to the primary target, causing your next Aimed Shot\nto deal 10% increased damage to the target.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 278,
-          "end": 280,
-          "old_token": "20",
-          "new_token": "10",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "20",
-          "new": "10"
-        }
-      ],
+      "pvp_tooltip": "The damage bonus of Spotter's Mark is increased by 20%.\nAdditionally, your Eagle learns how to Fetch.\nSpotter's Mark\nDamaging an enemy with abilities empowered by Precise Shots has a 30% chance to apply Spotter's Mark to the primary target, causing your next Aimed Shot\nto deal 20% increased damage to the target.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -3416,7 +3384,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Unbreakable Bond",
@@ -6075,32 +6043,11 @@
         "icon": "inv_spear_07"
       },
       "pve_tooltip": "Spotter's Mark now also increases the damage of your next Rapid Fire against the target by 20%.",
-      "pvp_tooltip": "Spotter's Mark now also increases the damage of your next Rapid Fire against the target by 10%.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 91,
-          "end": 93,
-          "old_token": "20",
-          "new_token": "10",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "20",
-          "new": "10"
-        }
-      ],
+      "pvp_tooltip": "Spotter's Mark now also increases the damage of your next Rapid Fire against the target by 20%.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6133,7 +6080,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Black Arrow",
@@ -8458,16 +8405,6 @@
       "diagnostics": [
         {
           "effect_indexes": [
-            3
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
-          "old": 50.0,
-          "new": 25.0,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
             4
           ],
           "status": "APPLIED",
@@ -8532,7 +8469,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Lunar Storm",
@@ -8650,10 +8587,10 @@
   ],
   "fetch_errors": [],
   "slug": "hunter-marksmanship",
-  "generated_at": "2026-09-19T15:58:19.512342+00:00",
+  "generated_at": "2026-09-19T17:45:44.577825+00:00",
   "validation": {
     "talents": 130,
-    "changed_tooltips": 23,
+    "changed_tooltips": 21,
     "talents_with_pvp_mechanics": 29,
     "unique_nodes": 110,
     "tree_build": "12.1.0.69875",

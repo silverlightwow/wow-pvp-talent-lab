@@ -524,21 +524,10 @@
         "icon": "spell_frost_chillingblast"
       },
       "pve_tooltip": "Instant\n1 min cooldown\nTargets in a cone in front of you are blinded, causing them to wander disoriented for 5 sec. Damage may cancel the effect.\nWhen Blinding Sleet ends, enemies are slowed by 50% for 6 sec.",
-      "pvp_tooltip": "Instant\n1 min cooldown\nTargets in a cone in front of you are blinded, causing them to wander disoriented for 5 sec. Damage may cancel the effect.\nWhen Blinding Sleet ends, enemies are slowed by 30% for 6 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 194,
-          "end": 196,
-          "old_token": "50",
-          "new_token": "30",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
+      "pvp_tooltip": "Instant\n1 min cooldown\nTargets in a cone in front of you are blinded, causing them to wander disoriented for 5 sec. Damage may cancel the effect.\nWhen Blinding Sleet ends, enemies are slowed by 50% for 6 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
       "diagnostics": [
         {
           "effect_indexes": [
@@ -549,15 +538,6 @@
           "old": 60.0,
           "new": 49.99998,
           "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "50",
-          "new": "30"
         }
       ],
       "has_pvp_mechanics": true,
@@ -616,7 +596,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Gloom Ward",
@@ -4317,32 +4297,11 @@
         "icon": "ability_creature_disease_05"
       },
       "pve_tooltip": "The infected claws of your ghouls have a chance to sicken the foe, dealing (15.5925% of Attack Power) Shadow damage over 12 sec. When reapplied, any remaining damage is added to the new effect.",
-      "pvp_tooltip": "The infected claws of your ghouls have a chance to sicken the foe, dealing (15.9043% of Attack Power) Shadow damage over 12 sec. When reapplied, any remaining damage is added to the new effect.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 76,
-          "end": 83,
-          "old_token": "15.5925",
-          "new_token": "15.9043",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "15.5925",
-          "new": "15.9043"
-        }
-      ],
+      "pvp_tooltip": "The infected claws of your ghouls have a chance to sicken the foe, dealing (15.5925% of Attack Power) Shadow damage over 12 sec. When reapplied, any remaining damage is added to the new effect.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4383,7 +4342,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Cycle of Death",
@@ -4545,15 +4504,9 @@
       "pve_tooltip": "1 Rune / -10 Runic Power\nInstant\n1.5 min cooldown\nSummon or empower Lesser Ghouls to form an unholy army of 8 for 30 sec. While active, summoning a Lesser Ghoul will instead execute Orders based on nearby enemies.\nDeath Orders\nLesser Ghouls strike with you, dealing [0.30 * (100% of Attack Power) * (1 + $mas / 100)] Shadow damage to your target.\nEpidemic Orders\nLesser Ghouls erupt in viscera, dealing [15 / 100 * (0.21 * ((200% of Attack Power)) * (1 + Versatility) *\n1\n)] Shadow damage to nearby enemies. Deals reduced damage beyond 5 targets.",
       "pvp_tooltip": "1 Rune / -10 Runic Power\nInstant\n1.5 min cooldown\nSummon or empower Lesser Ghouls to form an unholy army of 8 for 30 sec. While active, summoning a Lesser Ghoul will instead execute Orders based on nearby enemies.\nDeath Orders\nLesser Ghouls strike with you, dealing [0.30 * (100% of Attack Power) * (1 + $mas / 100)] Shadow damage to your target.\nEpidemic Orders\nLesser Ghouls erupt in viscera, dealing [15 / 100 * (0.21 * ((200% of Attack Power)) * (1 + Versatility) *\n1\n)] Shadow damage to nearby enemies. Deals reduced damage beyond 5 targets.",
       "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_index": 1,
-          "status": "NO_RENDERABLE_VALUE",
-          "reason": "No safe player-facing numeric transformation"
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4586,7 +4539,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Reaping",
@@ -6076,28 +6029,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "attack_power_coefficient",
-          "old": 169.884,
-          "new": 234.27683136,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            5
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "attack_power_coefficient",
-          "old": 113.375,
-          "new": 150.33525,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6183,7 +6115,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Newly Turned",
@@ -7038,28 +6970,6 @@
           "old": 20.0,
           "new": 6.800000000000001,
           "full_tooltip_match_count": 1
-        },
-        {
-          "effect_indexes": [
-            1,
-            3
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "ordinary_value",
-          "old": 30.0,
-          "new": 9.9,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            2,
-            4
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "ordinary_value",
-          "old": 50.0,
-          "new": 16.5,
-          "full_tooltip_match_count": 0
         }
       ],
       "has_pvp_mechanics": true,
@@ -7214,7 +7124,7 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 5
+      "render_effect_count": 1
     },
     {
       "talent_name": "Gift of the San'layn",
@@ -7315,61 +7225,11 @@
         "icon": "achievement_zone_icecrown_01"
       },
       "pve_tooltip": "Spending Runes has a chance to call forth the aid of a Horsemen for 10 sec.\nMograine\nCasts Death and Decay at his location that follows his position and extends the duration of your diseases by 1.0 sec whenever it deals damage.\nWhitemane\nCasts Undeath on your target dealing (6.86532% of Attack Power) Shadowfrost damage per stack every 3 sec, for 24 sec. Each time Undeath deals damage it gains a stack. Cannot be refreshed.\nTrollbane\nCasts Chains of Ice on your target slowing their movement speed by 40% and increasing the damage they take from you by 5% for 8 sec.\nNazgrim\nWhile Nazgrim is active you gain Apocalyptic Conquest, increasing your Strength by 5%.",
-      "pvp_tooltip": "Spending Runes has a chance to call forth the aid of a Horsemen for 10 sec.\nMograine\nCasts Death and Decay at his location that follows his position and extends the duration of your diseases by 1.0 sec whenever it deals damage.\nWhitemane\nCasts Undeath on your target dealing (7.0026% of Attack Power) Shadowfrost damage per stack every 3 sec, for 24 sec. Each time Undeath deals damage it gains a stack. Cannot be refreshed.\nTrollbane\nCasts Chains of Ice on your target slowing their movement speed by 20% and increasing the damage they take from you by 5% for 8 sec.\nNazgrim\nWhile Nazgrim is active you gain Apocalyptic Conquest, increasing your Strength by 5%.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 276,
-          "end": 283,
-          "old_token": "6.86532",
-          "new_token": "7.0026",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        },
-        {
-          "start": 503,
-          "end": 505,
-          "old_token": "40",
-          "new_token": "20",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "attack_power_coefficient",
-          "old": 105.3,
-          "new": 142.84998,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "6.86532",
-          "new": "7.0026"
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "40",
-          "new": "20"
-        }
-      ],
+      "pvp_tooltip": "Spending Runes has a chance to call forth the aid of a Horsemen for 10 sec.\nMograine\nCasts Death and Decay at his location that follows his position and extends the duration of your diseases by 1.0 sec whenever it deals damage.\nWhitemane\nCasts Undeath on your target dealing (6.86532% of Attack Power) Shadowfrost damage per stack every 3 sec, for 24 sec. Each time Undeath deals damage it gains a stack. Cannot be refreshed.\nTrollbane\nCasts Chains of Ice on your target slowing their movement speed by 40% and increasing the damage they take from you by 5% for 8 sec.\nNazgrim\nWhile Nazgrim is active you gain Apocalyptic Conquest, increasing your Strength by 5%.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7485,7 +7345,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 0
     },
     {
       "talent_name": "On a Paler Horse",
@@ -7584,32 +7444,11 @@
         "icon": "ability_mount_steelwarhorse"
       },
       "pve_tooltip": "Call upon your Death Charger to break free of movement impairment effects.\nFor 10 sec, while upon your Death Charger your movement speed is increased by 100%, you cannot be slowed below 100% of normal speed, and you are immune to forced movement effects and knockbacks.",
-      "pvp_tooltip": "Call upon your Death Charger to break free of movement impairment effects.\nFor 10 sec, while upon your Death Charger your movement speed is increased by 80%, you cannot be slowed below 100% of normal speed, and you are immune to forced movement effects and knockbacks.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 153,
-          "end": 156,
-          "old_token": "100",
-          "new_token": "80",
-          "kind": "percent_value",
-          "effect_indexes": [
-            5
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            5
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "100",
-          "new": "80"
-        }
-      ],
+      "pvp_tooltip": "Call upon your Death Charger to break free of movement impairment effects.\nFor 10 sec, while upon your Death Charger your movement speed is increased by 100%, you cannot be slowed below 100% of normal speed, and you are immune to forced movement effects and knockbacks.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7642,7 +7481,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Mograine's Might",
@@ -8683,10 +8522,10 @@
   ],
   "fetch_errors": [],
   "slug": "death-knight-unholy",
-  "generated_at": "2026-09-19T15:52:10.521323+00:00",
+  "generated_at": "2026-09-19T17:39:23.482092+00:00",
   "validation": {
     "talents": 122,
-    "changed_tooltips": 18,
+    "changed_tooltips": 14,
     "talents_with_pvp_mechanics": 27,
     "unique_nodes": 109,
     "tree_build": "12.1.0.69875",
@@ -8694,20 +8533,14 @@
     "drustvar_builds": [
       "12.1.0.69587"
     ],
-    "verification_status": "PARTIAL",
+    "verification_status": "VERIFIED",
     "fetch_error_count": 0,
     "source_warning_count": 0,
     "unresolved_count": 0,
-    "review_required_count": 1,
+    "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [],
     "unresolved_examples": [],
-    "review_required_examples": [
-      {
-        "talent_name": "Army of the Dead",
-        "spell_id": 42650,
-        "status": "REVIEW_REQUIRED"
-      }
-    ]
+    "review_required_examples": []
   }
 }

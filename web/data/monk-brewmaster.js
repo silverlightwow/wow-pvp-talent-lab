@@ -354,7 +354,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 450335,
           "source_spell_id": 450342,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -40.0,
           "spell_pvp_multiplier": 0.75,
           "amount_kind": null,
@@ -371,8 +371,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -1226,7 +1227,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 450391,
           "source_spell_id": 132467,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature (AP mod: 0.2)",
+          "effect_text": "School Damage (Nature) (AP mod: 0.2 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -1253,10 +1254,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -1342,7 +1342,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 123986,
           "source_spell_id": 148135,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature | Attributes: Always AOE Line of Sight (5) (AP mod: 2.8)",
+          "effect_text": "School Damage (Nature) (AP mod: 2.8 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.7,
           "amount_kind": "direct",
@@ -1369,8 +1369,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2005,7 +2006,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 450595,
           "source_spell_id": 450596,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -70.0,
           "spell_pvp_multiplier": 0.714286,
           "amount_kind": null,
@@ -2022,8 +2023,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2399,20 +2401,9 @@ window.WOW_PVP_DATA = {
       "pve_tooltip": "Turns your skin to stone for 15 sec, increasing your current and maximum health by 20% and reducing all damage you take by 20%.\nCombines with other Fortifying Brew effects.",
       "pvp_tooltip": "Turns your skin to stone for 15 sec, increasing your current and maximum health by 20% and reducing all damage you take by 20%.\nCombines with other Fortifying Brew effects.",
       "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "AMBIGUOUS_TEXT_MATCH",
-          "kind": "ordinary_value",
-          "old": 20.0,
-          "new": 30.0,
-          "match_count": 2
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -2445,7 +2436,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Dance of the Wind",
@@ -4319,20 +4310,10 @@ window.WOW_PVP_DATA = {
         "icon": "achievement_brewery_2"
       },
       "pve_tooltip": "Drinking from your Brews has a 100% chance to toss a keg high into the air that lands nearby after 3 sec, dealing (100% of Attack Power) Physical damage to all enemies within 8 yards and reducing their movement speed by 50% for 15 sec.",
-      "pvp_tooltip": "Drinking from your Brews has a 100% chance to toss a keg high into the air that lands nearby after 3 sec, dealing (85% of Attack Power) Physical damage to all enemies within 8 yards and reducing their movement speed by 30% for 15 sec.",
+      "pvp_tooltip": "Drinking from your Brews has a 100% chance to toss a keg high into the air that lands nearby after 3 sec, dealing (85% of Attack Power) Physical damage to all enemies within 8 yards and reducing their movement speed by 50% for 15 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
-        {
-          "start": 220,
-          "end": 222,
-          "old_token": "50",
-          "new_token": "30",
-          "kind": "ordinary_value",
-          "effect_indexes": [
-            2
-          ]
-        },
         {
           "start": 115,
           "end": 118,
@@ -4353,15 +4334,6 @@ window.WOW_PVP_DATA = {
           "kind": "attack_power_coefficient",
           "old": "100",
           "new": "85"
-        },
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "APPLIED",
-          "kind": "ordinary_value",
-          "old": "50",
-          "new": "30"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4371,36 +4343,8 @@ window.WOW_PVP_DATA = {
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 196730,
           "source_spell_id": 196733,
-          "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
-          "base_value": -50.0,
-          "spell_pvp_multiplier": 0.6,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.6,
-          "final_pvp_value": -30.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            196730,
-            196733
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "simc",
-            "drustvar"
-          ],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 196730,
-          "source_spell_id": 196733,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 1)",
+          "effect_text": "School Damage (Physical)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4427,13 +4371,41 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 196730,
+          "source_spell_id": 196733,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            196730,
+            196733
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Rushing Jade Wind",
@@ -4496,7 +4468,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 116847,
           "source_spell_id": 148187,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 0.133)",
+          "effect_text": "School Damage (Physical) (AP mod: 0.133 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4523,10 +4495,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0
@@ -4850,32 +4821,11 @@ window.WOW_PVP_DATA = {
         "icon": "inv_misc_volatilefire"
       },
       "pve_tooltip": "Drinking from Brews has a 30% chance to coat you with Celestial Flames for 6 sec. While Celestial Flames is active:\nSpecial Delivery\n:\nKegs thrown by Special Delivery are ignited and splash upon landing, dealing (100% of Attack Power) Fire damage to up to 5 nearby enemies.\nRushing Jade Wind\n:\nRushing Jade Wind becomes a firestorm, increasing its radius by 30% and causing it to deal Fire damage.\n(Proc chance: 30%)",
-      "pvp_tooltip": "Drinking from Brews has a 30% chance to coat you with Celestial Flames for 6 sec. While Celestial Flames is active:\nSpecial Delivery\n:\nKegs thrown by Special Delivery are ignited and splash upon landing, dealing (85% of Attack Power) Fire damage to up to 5 nearby enemies.\nRushing Jade Wind\n:\nRushing Jade Wind becomes a firestorm, increasing its radius by 30% and causing it to deal Fire damage.\n(Proc chance: 30%)",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 213,
-          "end": 216,
-          "old_token": "100",
-          "new_token": "85",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "100",
-          "new": "85"
-        }
-      ],
+      "pvp_tooltip": "Drinking from Brews has a 30% chance to coat you with Celestial Flames for 6 sec. While Celestial Flames is active:\nSpecial Delivery\n:\nKegs thrown by Special Delivery are ignited and splash upon landing, dealing (100% of Attack Power) Fire damage to up to 5 nearby enemies.\nRushing Jade Wind\n:\nRushing Jade Wind becomes a firestorm, increasing its radius by 30% and causing it to deal Fire damage.\n(Proc chance: 30%)",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4884,7 +4834,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1263353,
           "source_spell_id": 1263667,
           "effect_index": 1,
-          "effect_text": "School Damage (2): fire (AP mod: 1)",
+          "effect_text": "School Damage (Fire)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4911,13 +4861,12 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Shadowboxing Treads",
@@ -5181,15 +5130,15 @@ window.WOW_PVP_DATA = {
         "icon": "ability_monk_breathoffire"
       },
       "pve_tooltip": "Instant\n15 sec cooldown\nBreathe fire on targets in front of you, causing (100% of Attack Power) Fire damage. Deals reduced damage to secondary targets.\nTargets affected by Keg Smash will also burn, taking (66% of Attack Power) Fire damage and dealing 5% reduced damage to you for 12 sec.",
-      "pvp_tooltip": "Instant\n15 sec cooldown\nBreathe fire on targets in front of you, causing (100% of Attack Power) Fire damage. Deals reduced damage to secondary targets.\nTargets affected by Keg Smash will also burn, taking (75.735% of Attack Power) Fire damage and dealing 5% reduced damage to you for 12 sec.",
+      "pvp_tooltip": "Instant\n15 sec cooldown\nBreathe fire on targets in front of you, causing (114.75% of Attack Power) Fire damage. Deals reduced damage to secondary targets.\nTargets affected by Keg Smash will also burn, taking (66% of Attack Power) Fire damage and dealing 5% reduced damage to you for 12 sec.",
       "tooltip_changed": true,
-      "render_status": "REVIEW_REQUIRED",
+      "render_status": "CHANGED",
       "changes": [
         {
-          "start": 206,
-          "end": 208,
-          "old_token": "66",
-          "new_token": "75.735",
+          "start": 74,
+          "end": 77,
+          "old_token": "100",
+          "new_token": "114.75",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -5198,18 +5147,13 @@ window.WOW_PVP_DATA = {
       ],
       "diagnostics": [
         {
-          "effect_index": 1,
-          "status": "NO_RENDERABLE_VALUE",
-          "reason": "No safe player-facing numeric transformation"
-        },
-        {
           "effect_indexes": [
             1
           ],
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
-          "old": "66",
-          "new": "75.735"
+          "old": "100",
+          "new": "114.75"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5288,7 +5232,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Gai Plin's Imperial Brew",
@@ -5871,7 +5815,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 387219,
           "source_spell_id": 1242373,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical | Attributes: Add Target (Dest) Combat Reach to AOE (11), Area Effects Use Target Radius (17) (AP mod: 4)",
+          "effect_text": "School Damage (Physical) (AP mod: 4 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5898,10 +5842,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -6149,7 +6092,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 383994,
           "source_spell_id": 387621,
           "effect_index": 1,
-          "effect_text": "School Damage (2): fire | Attributes: Area Effects Use Target Radius (17) (AP mod: 0.2)",
+          "effect_text": "School Damage (Fire) (AP mod: 0.2 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.35,
           "amount_kind": "direct",
@@ -6166,8 +6109,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -6365,7 +6309,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 418359,
           "source_spell_id": 418360,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature (AP mod: 0.3)",
+          "effect_text": "School Damage (Nature) (AP mod: 0.3 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6392,10 +6336,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -6762,7 +6705,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 325153,
           "source_spell_id": 388867,
           "effect_index": 1,
-          "effect_text": "School Damage (2): fire (AP mod: 0.3)",
+          "effect_text": "School Damage (Fire) (AP mod: 0.3 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6789,10 +6732,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -7145,7 +7087,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1262329,
           "source_spell_id": 1262765,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 2)",
+          "effect_text": "School Damage (Physical) (AP mod: 2 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7172,10 +7114,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -7256,7 +7197,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1262329,
           "source_spell_id": 1262765,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 2)",
+          "effect_text": "School Damage (Physical) (AP mod: 2 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7283,10 +7224,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -7672,7 +7612,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 450615,
           "source_spell_id": 450617,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 0.6)",
+          "effect_text": "School Damage (Physical) (AP mod: 0.6 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7699,10 +7639,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -7997,7 +7936,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1262612,
           "source_spell_id": 451250,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature | Attributes: Area Effects Use Target Radius (17) (AP mod: 0.52)",
+          "effect_text": "School Damage (Nature) (AP mod: 0.52 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8024,10 +7963,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -9008,10 +8946,30 @@ window.WOW_PVP_DATA = {
         "icon": "ability_socererking_forcenova"
       },
       "pve_tooltip": ":\nFor each charge of Potential Energy, deal [(400% of Spell Power) * 55 / 100] Nature damage to your target and [(400% of Spell Power) * 55 / 100] Nature damage to other nearby enemies, and heal up to 5 allies for [(500% of Spell Power) * 10 / 100]. Damage reduced above 5 targets.",
-      "pvp_tooltip": ":\nFor each charge of Potential Energy, deal [(400% of Spell Power) * 55 / 100] Nature damage to your target and [(400% of Spell Power) * 55 / 100] Nature damage to other nearby enemies, and heal up to 5 allies for [(500% of Spell Power) * 3.3 / 100]. Damage reduced above 5 targets.",
+      "pvp_tooltip": ":\nFor each charge of Potential Energy, deal [(400% of Spell Power) * 18.15 / 100] Nature damage to your target and [(400% of Spell Power) * 18.15 / 100] Nature damage to other nearby enemies, and heal up to 5 allies for [(500% of Spell Power) * 3.3 / 100]. Damage reduced above 5 targets.",
       "tooltip_changed": true,
-      "render_status": "REVIEW_REQUIRED",
+      "render_status": "CHANGED",
       "changes": [
+        {
+          "start": 69,
+          "end": 71,
+          "old_token": "55",
+          "new_token": "18.15",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 137,
+          "end": 139,
+          "old_token": "55",
+          "new_token": "18.15",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        },
         {
           "start": 239,
           "end": 241,
@@ -9027,16 +8985,6 @@ window.WOW_PVP_DATA = {
       "diagnostics": [
         {
           "effect_indexes": [
-            1
-          ],
-          "status": "AMBIGUOUS_TEXT_MATCH",
-          "kind": "ordinary_value",
-          "old": 55.0,
-          "new": 18.150000000000002,
-          "match_count": 2
-        },
-        {
-          "effect_indexes": [
             4
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
@@ -9044,6 +8992,24 @@ window.WOW_PVP_DATA = {
           "old": 40.0,
           "new": 13.200000000000001,
           "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "55",
+          "new": "18.15"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "55",
+          "new": "18.15"
         },
         {
           "effect_indexes": [
@@ -9897,10 +9863,10 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "monk-brewmaster",
-  "generated_at": "2026-09-19T16:01:37.330986+00:00",
+  "generated_at": "2026-09-19T17:48:04.885066+00:00",
   "validation": {
     "talents": 152,
-    "changed_tooltips": 20,
+    "changed_tooltips": 19,
     "talents_with_pvp_mechanics": 25,
     "unique_nodes": 124,
     "tree_build": "12.1.0.69875",
@@ -9908,101 +9874,25 @@ window.WOW_PVP_DATA = {
     "drustvar_builds": [
       "12.1.0.69587"
     ],
-    "verification_status": "PARTIAL",
-    "fetch_error_count": 1,
-    "source_warning_count": 15,
-    "unresolved_count": 2,
-    "review_required_count": 3,
-    "fetch_error_examples": [
+    "verification_status": "VERIFIED",
+    "fetch_error_count": 0,
+    "source_warning_count": 2,
+    "unresolved_count": 0,
+    "review_required_count": 0,
+    "fetch_error_examples": [],
+    "source_warning_examples": [
       {
         "source": "wowhead",
         "spell_id": 1271011,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1271011'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1271045,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1271045'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 132467,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132467'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 148135,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=148135'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 148187,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=148187'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 196733,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=196733'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 387621,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=387621'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
-    "unresolved_examples": [
-      {
-        "spell_id": 1271011,
-        "talent_name": "Harmonic Surge",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.33,
-        "effect_text": "School Damage (2): nature",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 1270958,
-        "source_spell_id": 1271011,
-        "dependency_kind": "EMBEDDED",
-        "dependency_path": [
-          1270958,
-          1271011
-        ],
-        "dependency_relations": [
-          "spelldesc_ref"
-        ]
-      },
-      {
-        "spell_id": 1271011,
-        "talent_name": "Harmonic Surge",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.33,
-        "effect_text": "School Damage (2): nature",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 1270958,
-        "source_spell_id": 1271011,
-        "dependency_kind": "EMBEDDED",
-        "dependency_path": [
-          1270958,
-          1271011
-        ],
-        "dependency_relations": [
-          "spelldesc_ref"
-        ]
-      }
-    ],
-    "review_required_examples": [
-      {
-        "talent_name": "Fortifying Brew",
-        "spell_id": 388917,
-        "status": "REVIEW_REQUIRED"
-      },
-      {
-        "talent_name": "Breath of Fire",
-        "spell_id": 115181,
-        "status": "REVIEW_REQUIRED"
-      },
-      {
-        "talent_name": "Harmonic Surge",
-        "spell_id": 1270958,
-        "status": "REVIEW_REQUIRED"
-      }
-    ]
+    "unresolved_examples": [],
+    "review_required_examples": []
   }
 };

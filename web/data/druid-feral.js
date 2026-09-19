@@ -1687,7 +1687,7 @@ window.WOW_PVP_DATA = {
         "icon": "ability_mage_firestarter"
       },
       "pve_tooltip": "1.8% of base mana\n40 yd range\nInstant\nA quick beam of solar light burns the enemy\nfor (21.2% of Spell Power) Nature damage and then an additional (165.6% of Spell Power) Nature damage over 18 sec.",
-      "pvp_tooltip": "1.8% of base mana\n40 yd range\nInstant\nA quick beam of solar light burns the enemy\nfor (28.196% of Spell Power) Nature damage and then an additional (220.248% of Spell Power) Nature damage over 18 sec.",
+      "pvp_tooltip": "1.8% of base mana\n40 yd range\nInstant\nA quick beam of solar light burns the enemy\nfor (28.196% of Spell Power) Nature damage and then an additional (165.6% of Spell Power) Nature damage over 18 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -1700,16 +1700,6 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ]
-        },
-        {
-          "start": 147,
-          "end": 152,
-          "old_token": "165.6",
-          "new_token": "220.248",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            2
-          ]
         }
       ],
       "diagnostics": [
@@ -1721,15 +1711,6 @@ window.WOW_PVP_DATA = {
           "kind": "spell_power_coefficient",
           "old": "21.2",
           "new": "28.196"
-        },
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "165.6",
-          "new": "220.248"
         }
       ],
       "has_pvp_mechanics": true,
@@ -1793,7 +1774,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Primal Fury",
@@ -3835,39 +3816,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "spell_power_coefficient",
-          "old": 27.0,
-          "new": 22.491,
-          "full_tooltip_match_count": 1
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "attack_power_coefficient",
-          "old": 16.3,
-          "new": 14.344000000000001,
-          "full_tooltip_match_count": 1
-        },
-        {
-          "effect_indexes": [
-            2,
-            3
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "attack_power_coefficient",
-          "old": 32.67,
-          "new": 28.7496,
-          "full_tooltip_match_count": 1
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4011,7 +3960,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 4
+      "render_effect_count": 0
     },
     {
       "talent_name": "Innervate",
@@ -4914,28 +4863,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "attack_power_coefficient",
-          "old": 260.48,
-          "new": 229.22240000000002,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "attack_power_coefficient",
-          "old": 29.4,
-          "new": 24.5784,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -5024,7 +4952,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Taste for Blood",
@@ -6408,7 +6336,6 @@ window.WOW_PVP_DATA = {
           "new_token": "28.7496",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
-            2,
             3
           ]
         }
@@ -6425,7 +6352,6 @@ window.WOW_PVP_DATA = {
         },
         {
           "effect_indexes": [
-            2,
             3
           ],
           "status": "APPLIED",
@@ -6548,7 +6474,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 2
     },
     {
       "talent_name": "Incarnation: Avatar of Ashamane",
@@ -6594,79 +6520,30 @@ window.WOW_PVP_DATA = {
         "icon": "spell_druid_incarnation"
       },
       "pve_tooltip": "Instant\n3 min cooldown\nAn improved Cat Form that grants all of your known Berserk effects and lasts 20 sec. You may shapeshift in and out of this improved Cat Form for its duration. During Incarnation:\nEnergy cost of all Cat Form abilities is reduced by 25%, and Prowl can be used once while in combat. [\nBerserk\n:\nGenerate 1 combo point every 1.5 sec. Combo point generating abilities generate 1 additional combo point. Finishing moves restore up to 3 combo points generated over the cap.\nAll attack and ability damage is increased by 15%\n]",
-      "pvp_tooltip": "Instant\n3 min cooldown\nAn improved Cat Form that grants all of your known Berserk effects and lasts 20 sec. You may shapeshift in and out of this improved Cat Form for its duration. During Incarnation:\nEnergy cost of all Cat Form abilities is reduced by 25%, and Prowl can be used once while in combat. [\nBerserk\n:\nGenerate 1 combo point every 1.5 sec. Combo point generating abilities generate 1 additional combo point. Finishing moves restore up to 3 combo points generated over the cap.\nAll attack and ability damage is increased by 5%\n]",
+      "pvp_tooltip": "Instant\n3 min cooldown\nAn improved Cat Form that grants all of your known Berserk effects and lasts 20 sec. You may shapeshift in and out of this improved Cat Form for its duration. During Incarnation:\nEnergy cost of all Cat Form abilities is reduced by 25%, and Prowl can be used once while in combat. [\nBerserk\n:\nGenerate 1 combo point every 1.5 sec. Combo point generating abilities generate 1 additional combo point. Finishing moves restore up to 3 combo points generated over the cap.\nAll attack and ability damage is increased by 10%\n]",
       "tooltip_changed": true,
-      "render_status": "REVIEW_REQUIRED",
+      "render_status": "CHANGED",
       "changes": [
         {
           "start": 536,
           "end": 538,
           "old_token": "15",
-          "new_token": "5",
+          "new_token": "10",
           "kind": "ordinary_value",
           "effect_indexes": [
-            5
+            6
           ]
         }
       ],
       "diagnostics": [
         {
-          "effect_index": null,
-          "status": "CONFLICTING_TRANSFORMS",
-          "reason": "PvE percent_value value 15.0 maps to multiple PvP values",
-          "candidates": [
-            {
-              "kind": "percent_value",
-              "old": 15.0,
-              "new": 10.000499999999999,
-              "unit": "%",
-              "effect_index": 4,
-              "effect_text": "Apply Aura: Modifies Damage/Healing Done",
-              "reference_contexts": [],
-              "effect_origin": "DIRECT",
-              "dependency_kind": null,
-              "dependency_path": [],
-              "match_ordinal": 1,
-              "match_group_count": 1,
-              "effect_indexes": [
-                4,
-                5,
-                6
-              ]
-            },
-            {
-              "kind": "percent_value",
-              "old": 15.0,
-              "new": 5.0009999999999994,
-              "unit": "%",
-              "effect_index": 3,
-              "effect_text": "Apply Aura: Modifies Damage/Healing Done",
-              "reference_contexts": [
-                "Generate $343216s1 combo $lpoint:points; every $t1 sec. Combo point generating abilities generate $s2 additional combo $lpoint:points;. Finishing moves restore up to $405189u combo points generated over the cap. All attack and ability damage is increased by $s3%."
-              ],
-              "effect_origin": "DEPENDENCY",
-              "dependency_kind": "REFERENCED",
-              "dependency_path": [
-                102543,
-                106951
-              ],
-              "match_ordinal": 1,
-              "match_group_count": 1,
-              "effect_indexes": [
-                3,
-                4
-              ]
-            }
-          ]
-        },
-        {
           "effect_indexes": [
-            5
+            6
           ],
           "status": "APPLIED",
           "kind": "ordinary_value",
           "old": "15",
-          "new": "5"
+          "new": "10"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6831,7 +6708,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 6
+      "render_effect_count": 1
     },
     {
       "talent_name": "Convoke the Spirits",
@@ -7097,28 +6974,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "attack_power_coefficient",
-          "old": 24.0,
-          "new": 21.12,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "attack_power_coefficient",
-          "old": 21.6,
-          "new": 19.008000000000003,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7196,7 +7052,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Chomp",
@@ -7419,7 +7275,6 @@ window.WOW_PVP_DATA = {
           "new_token": "29.7299",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
-            2,
             3
           ]
         }
@@ -7436,7 +7291,6 @@ window.WOW_PVP_DATA = {
         },
         {
           "effect_indexes": [
-            2,
             3
           ],
           "status": "APPLIED",
@@ -7563,7 +7417,7 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 2
     },
     {
       "talent_name": "Ashamane's Guidance",
@@ -7760,63 +7614,11 @@ window.WOW_PVP_DATA = {
         "icon": "inv12_apextalent_druid_unseenpredator"
       },
       "pve_tooltip": "When you Ferocious Bite, you have a 15% chance per combo point spent to flicker to an enemy within 30 yds and deliver an Unseen Attack. Unseen Attack damage is reduced if less than 5 combo points and 50 Energy are spent on Ferocious Bite.\nUnseen Slash\nSlash the target, dealing (65.7% of Attack Power) Physical damage and an additional [(46% of Attack Power) * 6 / 2] Bleed damage over 6 sec. If this effect is reapplied, any remaining damage is added to the new Bleed.\nUnseen Swipe\nSwipe nearby targets, dealing (188.75% of Attack Power) Physical damage. Damage reduced beyond 5 targets.\n(100ms cooldown)",
-      "pvp_tooltip": "When you Ferocious Bite, you have a 5 chance per combo point spent to flicker to an enemy within 30 yds and deliver an Unseen Attack. Unseen Attack damage is reduced if less than 5 combo points and 50 Energy are spent on Ferocious Bite.\nUnseen Slash\nSlash the target, dealing (65.7% of Attack Power) Physical damage and an additional [(46% of Attack Power) * 6 / 2] Bleed damage over 6 sec. If this effect is reapplied, any remaining damage is added to the new Bleed.\nUnseen Swipe\nSwipe nearby targets, dealing (188.75% of Attack Power) Physical damage. Damage reduced beyond 5 targets.\n(100ms cooldown)",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 36,
-          "end": 38,
-          "old_token": "15",
-          "new_token": "5",
-          "kind": "percent_value",
-          "effect_indexes": [
-            3,
-            4
-          ]
-        },
-        {
-          "start": 36,
-          "end": 38,
-          "old_token": "15",
-          "new_token": "5",
-          "kind": "ordinary_value",
-          "effect_indexes": [
-            5
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "attack_power_coefficient",
-          "old": 145.2,
-          "new": 114.99839999999999,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            3,
-            4
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "15",
-          "new": "5"
-        },
-        {
-          "effect_indexes": [
-            5
-          ],
-          "status": "APPLIED",
-          "kind": "ordinary_value",
-          "old": "15",
-          "new": "5"
-        }
-      ],
+      "pvp_tooltip": "When you Ferocious Bite, you have a 15% chance per combo point spent to flicker to an enemy within 30 yds and deliver an Unseen Attack. Unseen Attack damage is reduced if less than 5 combo points and 50 Energy are spent on Ferocious Bite.\nUnseen Slash\nSlash the target, dealing (65.7% of Attack Power) Physical damage and an additional [(46% of Attack Power) * 6 / 2] Bleed damage over 6 sec. If this effect is reapplied, any remaining damage is added to the new Bleed.\nUnseen Swipe\nSwipe nearby targets, dealing (188.75% of Attack Power) Physical damage. Damage reduced beyond 5 targets.\n(100ms cooldown)",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8114,7 +7916,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 4
+      "render_effect_count": 0
     },
     {
       "talent_name": "Unseen Predator",
@@ -8259,51 +8061,11 @@ window.WOW_PVP_DATA = {
         "icon": "inv_ability_wildstalkerdruid_thrivinggrowth"
       },
       "pve_tooltip": "Rip and Rake damage has a chance to cause Bloodseeker Vines to grow on the victim, dealing (97.5% of Attack Power) Bleed damage over 6 sec.\nWild Growth and Regrowth healing has a chance to cause Symbiotic Blooms to grow on the target, healing for (219.6% of Spell Power) over 6 sec.\nMultiple instances of these can overlap.",
-      "pvp_tooltip": "Rip and Rake damage has a chance to cause Bloodseeker Vines to grow on the victim, dealing (85.8% of Attack Power) Bleed damage over 6 sec.\nWild Growth and Regrowth healing has a chance to cause Symbiotic Blooms to grow on the target, healing for (274.5% of Spell Power) over 6 sec.\nMultiple instances of these can overlap.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 248,
-          "end": 253,
-          "old_token": "219.6",
-          "new_token": "274.5",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        },
-        {
-          "start": 92,
-          "end": 96,
-          "old_token": "97.5",
-          "new_token": "85.8",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "97.5",
-          "new": "85.8"
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "219.6",
-          "new": "274.5"
-        }
-      ],
+      "pvp_tooltip": "Rip and Rake damage has a chance to cause Bloodseeker Vines to grow on the victim, dealing (97.5% of Attack Power) Bleed damage over 6 sec.\nWild Growth and Regrowth healing has a chance to cause Symbiotic Blooms to grow on the target, healing for (219.6% of Spell Power) over 6 sec.\nMultiple instances of these can overlap.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8373,7 +8135,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Hunt Beneath the Open Skies",
@@ -10535,10 +10297,10 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "druid-feral",
-  "generated_at": "2026-09-19T15:55:11.980669+00:00",
+  "generated_at": "2026-09-19T17:42:01.668933+00:00",
   "validation": {
     "talents": 140,
-    "changed_tooltips": 19,
+    "changed_tooltips": 17,
     "talents_with_pvp_mechanics": 28,
     "unique_nodes": 120,
     "tree_build": "12.1.0.69875",
@@ -10546,20 +10308,14 @@ window.WOW_PVP_DATA = {
     "drustvar_builds": [
       "12.1.0.69587"
     ],
-    "verification_status": "PARTIAL",
+    "verification_status": "VERIFIED",
     "fetch_error_count": 0,
     "source_warning_count": 0,
     "unresolved_count": 0,
-    "review_required_count": 1,
+    "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [],
     "unresolved_examples": [],
-    "review_required_examples": [
-      {
-        "talent_name": "Incarnation: Avatar of Ashamane",
-        "spell_id": 102543,
-        "status": "REVIEW_REQUIRED"
-      }
-    ]
+    "review_required_examples": []
   }
 };

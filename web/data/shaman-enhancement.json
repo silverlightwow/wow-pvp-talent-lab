@@ -3747,7 +3747,7 @@
         "icon": "spell_shaman_crashlightning"
       },
       "pve_tooltip": "0.2% of base mana\nMelee Range\nInstant\n15 sec cooldown\n1 Charge\nElectrocutes all enemies in front of you, dealing (183.617% of Attack Power) Nature damage.\nEnhances your weapons for 12 sec, causing Stormstrike and Lava Lash to discharge (97.7592% of Attack Power) Nature damage split between up to 5 enemies in front of you. [\nStorm Unleashed\n:\nMultiple applications may overlap\n]",
-      "pvp_tooltip": "0.2% of base mana\nMelee Range\nInstant\n15 sec cooldown\n1 Charge\nElectrocutes all enemies in front of you, dealing (291.5103% of Attack Power) Nature damage.\nEnhances your weapons for 12 sec, causing Stormstrike and Lava Lash to discharge (93.4089% of Attack Power) Nature damage split between up to 5 enemies in front of you. [\nStorm Unleashed\n:\nMultiple applications may overlap\n]",
+      "pvp_tooltip": "0.2% of base mana\nMelee Range\nInstant\n15 sec cooldown\n1 Charge\nElectrocutes all enemies in front of you, dealing (291.5103% of Attack Power) Nature damage.\nEnhances your weapons for 12 sec, causing Stormstrike and Lava Lash to discharge (97.7592% of Attack Power) Nature damage split between up to 5 enemies in front of you. [\nStorm Unleashed\n:\nMultiple applications may overlap\n]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3756,16 +3756,6 @@
           "end": 121,
           "old_token": "183.617",
           "new_token": "291.5103",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        },
-        {
-          "start": 237,
-          "end": 244,
-          "old_token": "97.7592",
-          "new_token": "93.4089",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -3781,15 +3771,6 @@
           "kind": "attack_power_coefficient",
           "old": "183.617",
           "new": "291.5103"
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "97.7592",
-          "new": "93.4089"
         }
       ],
       "has_pvp_mechanics": true,
@@ -3884,7 +3865,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Molten Assault",
@@ -5734,16 +5715,6 @@
           ],
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
-          "old": 215.625,
-          "new": 113.203125,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "attack_power_coefficient",
           "old": 120.0,
           "new": 126.0,
           "full_tooltip_match_count": 0
@@ -5862,7 +5833,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Ascendance",
@@ -6133,7 +6104,7 @@
         "icon": "ability_shaman_ascendance"
       },
       "pve_tooltip": "Devastate nearby enemies with a Primordial Storm dealing (118.8% of Attack Power) Flamestrike, (118.8% of Attack Power) Froststrike, (118.8% of Attack Power) Stormstrike damage, and unleashing a Lightning Bolt or a Chain Lightning at 150% effectiveness. Deals reduced damage beyond 5 targets.\nConsumes Maelstrom Weapon for increased damage.",
-      "pvp_tooltip": "Devastate nearby enemies with a Primordial Storm dealing (89.8128% of Attack Power) Flamestrike, (89.8128% of Attack Power) Froststrike, (89.8128% of Attack Power) Stormstrike damage, and unleashing a Lightning Bolt or a Chain Lightning at 100% effectiveness. Deals reduced damage beyond 5 targets.\nConsumes Maelstrom Weapon for increased damage.",
+      "pvp_tooltip": "Devastate nearby enemies with a Primordial Storm dealing (118.8% of Attack Power) Flamestrike, (118.8% of Attack Power) Froststrike, (118.8% of Attack Power) Stormstrike damage, and unleashing a Lightning Bolt or a Chain Lightning at 100% effectiveness. Deals reduced damage beyond 5 targets.\nConsumes Maelstrom Weapon for increased damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -6146,78 +6117,9 @@
           "effect_indexes": [
             2
           ]
-        },
-        {
-          "start": 58,
-          "end": 63,
-          "old_token": "118.8",
-          "new_token": "89.8128",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1,
-            1,
-            1
-          ]
-        },
-        {
-          "start": 96,
-          "end": 101,
-          "old_token": "118.8",
-          "new_token": "89.8128",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1,
-            1,
-            1
-          ]
-        },
-        {
-          "start": 134,
-          "end": 139,
-          "old_token": "118.8",
-          "new_token": "89.8128",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1,
-            1,
-            1
-          ]
         }
       ],
       "diagnostics": [
-        {
-          "effect_indexes": [
-            1,
-            1,
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "118.8",
-          "new": "89.8128"
-        },
-        {
-          "effect_indexes": [
-            1,
-            1,
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "118.8",
-          "new": "89.8128"
-        },
-        {
-          "effect_indexes": [
-            1,
-            1,
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "118.8",
-          "new": "89.8128"
-        },
         {
           "effect_indexes": [
             2
@@ -6372,7 +6274,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 4
+      "render_effect_count": 1
     },
     {
       "talent_name": "Storm Unleashed",
@@ -6516,18 +6418,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "attack_power_coefficient",
-          "old": 97.7592,
-          "new": 93.40891560000001,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6579,7 +6470,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Surging Totem",
@@ -6987,7 +6878,7 @@
         "icon": "spell_fire_searingtotem"
       },
       "pve_tooltip": "Lava Lash has a chance to summon a Searing Totem to hurl Searing Bolts that deal (65.205% of Spell Power) Fire damage to a nearby enemy. Lasts 8 sec.\nLava Lash and Voltaic Blaze cause your Searing Totems to shoot a Searing Volley at up to 5 nearby enemies for (92.736% of Spell Power) Fire damage.",
-      "pvp_tooltip": "Lava Lash has a chance to summon a Searing Totem to hurl Searing Bolts that deal (68.4652% of Spell Power) Fire damage to a nearby enemy. Lasts 8 sec.\nLava Lash and Voltaic Blaze cause your Searing Totems to shoot a Searing Volley at up to 5 nearby enemies for (97.3728% of Spell Power) Fire damage.",
+      "pvp_tooltip": "Lava Lash has a chance to summon a Searing Totem to hurl Searing Bolts that deal (68.4652% of Spell Power) Fire damage to a nearby enemy. Lasts 8 sec.\nLava Lash and Voltaic Blaze cause your Searing Totems to shoot a Searing Volley at up to 5 nearby enemies for (92.736% of Spell Power) Fire damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -7000,29 +6891,9 @@
           "effect_indexes": [
             1
           ]
-        },
-        {
-          "start": 261,
-          "end": 267,
-          "old_token": "92.736",
-          "new_token": "97.3728",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
         }
       ],
       "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "ordinary_value",
-          "old": 100.0,
-          "new": 150.0,
-          "full_tooltip_match_count": 1
-        },
         {
           "effect_indexes": [
             1
@@ -7031,15 +6902,6 @@
           "kind": "spell_power_coefficient",
           "old": "65.205",
           "new": "68.4652"
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "92.736",
-          "new": "97.3728"
         }
       ],
       "has_pvp_mechanics": true,
@@ -7148,7 +7010,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 1
     },
     {
       "talent_name": "Totemic Momentum",
@@ -8915,7 +8777,7 @@
   ],
   "fetch_errors": [],
   "slug": "shaman-enhancement",
-  "generated_at": "2026-09-19T16:07:44.425710+00:00",
+  "generated_at": "2026-09-19T17:54:09.235564+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 20,

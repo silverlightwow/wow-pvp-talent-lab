@@ -1600,18 +1600,14 @@ window.WOW_PVP_DATA = {
           "new_token": "25",
           "kind": "percent_value",
           "effect_indexes": [
-            1,
-            5,
-            6
+            1
           ]
         }
       ],
       "diagnostics": [
         {
           "effect_indexes": [
-            1,
-            5,
-            6
+            1
           ],
           "status": "APPLIED",
           "kind": "percent_value",
@@ -1694,7 +1690,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 1
     },
     {
       "talent_name": "Twin Disciplines",
@@ -6134,51 +6130,11 @@ window.WOW_PVP_DATA = {
         "icon": "inv_eyeofnzothpet"
       },
       "pve_tooltip": "You create Horrific Visions when casting harmful spells on enemies.\nAt 50 stacks of Horrific Visions, your target sees a nightmare, dealing (182% of Spell Power) Shadow damage and granting you 2 Insanity over 3 sec.\nAt 100 stacks, your target witnesses a vision of N'Zoth, dealing (689% of Spell Power) Shadow damage and granting you 6 Insanity over 3 sec.",
-      "pvp_tooltip": "You create Horrific Visions when casting harmful spells on enemies.\nAt 50 stacks of Horrific Visions, your target sees a nightmare, dealing (119.756% of Spell Power) Shadow damage and granting you 2 Insanity over 3 sec.\nAt 100 stacks, your target witnesses a vision of N'Zoth, dealing (453.362% of Spell Power) Shadow damage and granting you 6 Insanity over 3 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 141,
-          "end": 144,
-          "old_token": "182",
-          "new_token": "119.756",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        },
-        {
-          "start": 282,
-          "end": 285,
-          "old_token": "689",
-          "new_token": "453.362",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "182",
-          "new": "119.756"
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "689",
-          "new": "453.362"
-        }
-      ],
+      "pvp_tooltip": "You create Horrific Visions when casting harmful spells on enemies.\nAt 50 stacks of Horrific Visions, your target sees a nightmare, dealing (182% of Spell Power) Shadow damage and granting you 2 Insanity over 3 sec.\nAt 100 stacks, your target witnesses a vision of N'Zoth, dealing (689% of Spell Power) Shadow damage and granting you 6 Insanity over 3 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6260,7 +6216,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Idol of Yogg-Saron",
@@ -6741,7 +6697,7 @@ window.WOW_PVP_DATA = {
         "icon": "ability_priest_halo_shadow"
       },
       "pve_tooltip": "4% of base mana\n40 yd range\n1.5 sec cast\n1 min cooldown\nCreates a ring of Shadow energy around you that quickly expands to a\n40\nyd radius, healing allies for (161% of Spell Power) and dealing [(144.2% of Spell Power) *\n1\n*\n1\n*\n1\n] Shadow damage to enemies. Healing reduced beyond 6 targets. [\n:\nGenerates 5 Insanity.\n]",
-      "pvp_tooltip": "4% of base mana\n40 yd range\n1.5 sec cast\n1 min cooldown\nCreates a ring of Shadow energy around you that quickly expands to a\n40\nyd radius, healing allies for (201.25% of Spell Power) and dealing [(169.435% of Spell Power) *\n1\n*\n1\n*\n1\n] Shadow damage to enemies. Healing reduced beyond 6 targets. [\n:\nGenerates 5 Insanity.\n]",
+      "pvp_tooltip": "4% of base mana\n40 yd range\n1.5 sec cast\n1 min cooldown\nCreates a ring of Shadow energy around you that quickly expands to a\n40\nyd radius, healing allies for (201.25% of Spell Power) and dealing [(144.2% of Spell Power) *\n1\n*\n1\n*\n1\n] Shadow damage to enemies. Healing reduced beyond 6 targets. [\n:\nGenerates 5 Insanity.\n]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -6752,17 +6708,6 @@ window.WOW_PVP_DATA = {
           "new_token": "201.25",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
-            1
-          ]
-        },
-        {
-          "start": 194,
-          "end": 199,
-          "old_token": "144.2",
-          "new_token": "169.435",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1,
             1
           ]
         }
@@ -6776,16 +6721,6 @@ window.WOW_PVP_DATA = {
           "kind": "spell_power_coefficient",
           "old": "161",
           "new": "201.25"
-        },
-        {
-          "effect_indexes": [
-            1,
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "144.2",
-          "new": "169.435"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6924,7 +6859,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 1
     },
     {
       "talent_name": "Perfected Form",
@@ -8876,19 +8811,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1,
-            2
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "frequency_more_often",
-          "old": 25.0,
-          "new": 14.942528735632177,
-          "full_tooltip_match_count": 1
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8940,7 +8863,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Void Infusion",
@@ -9281,32 +9204,11 @@ window.WOW_PVP_DATA = {
         "icon": "inv_cosmicvoid_groundsate"
       },
       "pve_tooltip": "Each time you cast Shadow Word: Madness, Entropic Rift is empowered, increasing its damage and size by 20%.\nAfter Entropic Rift ends it collapses, dealing (440% of Spell Power) Shadow damage split amongst enemy targets within 15 yds.",
-      "pvp_tooltip": "Each time you cast Shadow Word: Madness, Entropic Rift is empowered, increasing its damage and size by 20%.\nAfter Entropic Rift ends it collapses, dealing (413.6% of Spell Power) Shadow damage split amongst enemy targets within 15 yds.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 156,
-          "end": 159,
-          "old_token": "440",
-          "new_token": "413.6",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "440",
-          "new": "413.6"
-        }
-      ],
+      "pvp_tooltip": "Each time you cast Shadow Word: Madness, Entropic Rift is empowered, increasing its damage and size by 20%.\nAfter Entropic Rift ends it collapses, dealing (440% of Spell Power) Shadow damage split amongst enemy targets within 15 yds.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -9347,15 +9249,15 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     }
   ],
   "fetch_errors": [],
   "slug": "priest-shadow",
-  "generated_at": "2026-09-19T16:05:24.127036+00:00",
+  "generated_at": "2026-09-19T17:51:24.092631+00:00",
   "validation": {
     "talents": 138,
-    "changed_tooltips": 17,
+    "changed_tooltips": 15,
     "talents_with_pvp_mechanics": 30,
     "unique_nodes": 120,
     "tree_build": "12.1.0.69875",

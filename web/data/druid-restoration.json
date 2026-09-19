@@ -1615,7 +1615,7 @@
         "icon": "ability_mage_firestarter"
       },
       "pve_tooltip": "1.8% of base mana\n40 yd range\nInstant\nA quick beam of solar light burns the enemy\nfor (21.2% of Spell Power) Nature damage and then an additional (165.6% of Spell Power) Nature damage over 18 sec.",
-      "pvp_tooltip": "1.8% of base mana\n40 yd range\nInstant\nA quick beam of solar light burns the enemy\nfor (26.2223% of Spell Power) Nature damage and then an additional (204.8306% of Spell Power) Nature damage over 18 sec.",
+      "pvp_tooltip": "1.8% of base mana\n40 yd range\nInstant\nA quick beam of solar light burns the enemy\nfor (26.2223% of Spell Power) Nature damage and then an additional (165.6% of Spell Power) Nature damage over 18 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -1628,16 +1628,6 @@
           "effect_indexes": [
             1
           ]
-        },
-        {
-          "start": 147,
-          "end": 152,
-          "old_token": "165.6",
-          "new_token": "204.8306",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            2
-          ]
         }
       ],
       "diagnostics": [
@@ -1649,15 +1639,6 @@
           "kind": "spell_power_coefficient",
           "old": "21.2",
           "new": "26.2223"
-        },
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "165.6",
-          "new": "204.8306"
         }
       ],
       "has_pvp_mechanics": true,
@@ -1741,7 +1722,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Primal Fury",
@@ -3732,18 +3713,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "spell_power_coefficient",
-          "old": 27.0,
-          "new": 22.491,
-          "full_tooltip_match_count": 1
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -3776,7 +3746,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Innervate",
@@ -7494,32 +7464,11 @@
         "icon": "inv_ability_wildstalkerdruid_thrivinggrowth"
       },
       "pve_tooltip": "Rip and Rake damage has a chance to cause Bloodseeker Vines to grow on the victim, dealing (97.5% of Attack Power) Bleed damage over 6 sec.\nWild Growth, Regrowth, and Efflorescence healing has a chance to cause Symbiotic Blooms to grow on the target, healing for (219.6% of Spell Power) over 6 sec.\nMultiple instances of these can overlap.",
-      "pvp_tooltip": "Rip and Rake damage has a chance to cause Bloodseeker Vines to grow on the victim, dealing (97.5% of Attack Power) Bleed damage over 6 sec.\nWild Growth, Regrowth, and Efflorescence healing has a chance to cause Symbiotic Blooms to grow on the target, healing for (266.265% of Spell Power) over 6 sec.\nMultiple instances of these can overlap.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 264,
-          "end": 269,
-          "old_token": "219.6",
-          "new_token": "266.265",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "219.6",
-          "new": "266.265"
-        }
-      ],
+      "pvp_tooltip": "Rip and Rake damage has a chance to cause Bloodseeker Vines to grow on the victim, dealing (97.5% of Attack Power) Bleed damage over 6 sec.\nWild Growth, Regrowth, and Efflorescence healing has a chance to cause Symbiotic Blooms to grow on the target, healing for (219.6% of Spell Power) over 6 sec.\nMultiple instances of these can overlap.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7562,7 +7511,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Hunt Beneath the Open Skies",
@@ -8085,32 +8034,11 @@
         "icon": "inv_collections_armor_flowerbracelet_b_01"
       },
       "pve_tooltip": "When Bloodseeker Vines expire or you use Ferocious Bite on their target they explode in thorns, dealing (86.4% of Attack Power) physical damage to nearby enemies. Damage reduced above 5 targets.\nWhen Symbiotic Blooms expire or you cast Rejuvenation on their target flowers grow around their target, healing them and up to 3 nearby allies for (42.09% of Spell Power).",
-      "pvp_tooltip": "When Bloodseeker Vines expire or you use Ferocious Bite on their target they explode in thorns, dealing (86.4% of Attack Power) physical damage to nearby enemies. Damage reduced above 5 targets.\nWhen Symbiotic Blooms expire or you cast Rejuvenation on their target flowers grow around their target, healing them and up to 3 nearby allies for (40.8273% of Spell Power).",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 343,
-          "end": 348,
-          "old_token": "42.09",
-          "new_token": "40.8273",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "42.09",
-          "new": "40.8273"
-        }
-      ],
+      "pvp_tooltip": "When Bloodseeker Vines expire or you use Ferocious Bite on their target they explode in thorns, dealing (86.4% of Attack Power) physical damage to nearby enemies. Damage reduced above 5 targets.\nWhen Symbiotic Blooms expire or you cast Rejuvenation on their target flowers grow around their target, healing them and up to 3 nearby allies for (42.09% of Spell Power).",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8151,7 +8079,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Resilient Flourishing",
@@ -9204,32 +9132,11 @@
         "icon": "ability_druid_serenefocus"
       },
       "pve_tooltip": "Reforestation grants Tree of Life for 6 additional sec.",
-      "pvp_tooltip": "Reforestation grants Tree of Life for 4 additional sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 38,
-          "end": 39,
-          "old_token": "6",
-          "new_token": "4",
-          "kind": "ordinary_value",
-          "effect_indexes": [
-            5
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            5
-          ],
-          "status": "APPLIED",
-          "kind": "ordinary_value",
-          "old": "6",
-          "new": "4"
-        }
-      ],
+      "pvp_tooltip": "Reforestation grants Tree of Life for 6 additional sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -9257,7 +9164,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Dryad's Dance",
@@ -9725,32 +9632,11 @@
         "icon": "ability_druid_naturalperfection"
       },
       "pve_tooltip": "Ironbark summons a Dryad to channel a beam of pure nature onto your target, healing them for (4392% of Spell Power) over 6 sec.",
-      "pvp_tooltip": "Ironbark summons a Dryad to channel a beam of pure nature onto your target, healing them for (4260.24% of Spell Power) over 6 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 94,
-          "end": 98,
-          "old_token": "4392",
-          "new_token": "4260.24",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "4392",
-          "new": "4260.24"
-        }
-      ],
+      "pvp_tooltip": "Ironbark summons a Dryad to channel a beam of pure nature onto your target, healing them for (4392% of Spell Power) over 6 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -9791,7 +9677,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Harmony of the Grove",
@@ -9845,8 +9731,7 @@
       "diagnostics": [
         {
           "effect_indexes": [
-            1,
-            2
+            1
           ],
           "status": "OTHER_SPEC_BRANCH",
           "kind": "percent_value",
@@ -9916,15 +9801,15 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     }
   ],
   "fetch_errors": [],
   "slug": "druid-restoration",
-  "generated_at": "2026-09-19T15:56:56.951794+00:00",
+  "generated_at": "2026-09-19T17:43:16.910265+00:00",
   "validation": {
     "talents": 147,
-    "changed_tooltips": 22,
+    "changed_tooltips": 18,
     "talents_with_pvp_mechanics": 34,
     "unique_nodes": 126,
     "tree_build": "12.1.0.69875",

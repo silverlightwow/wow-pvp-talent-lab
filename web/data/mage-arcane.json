@@ -1474,18 +1474,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "percent_value",
-          "old": 3.0,
-          "new": 1.5,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -1517,7 +1506,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Improved Blink",
@@ -2743,32 +2732,11 @@
         "icon": "spell_frost_glacier"
       },
       "pve_tooltip": "Enemies hit by Cone of Cold are frozen in place for 5 sec instead of snared.\nWhen your roots expire or are dispelled, your target is snared by 80%, decaying over 3 sec.",
-      "pvp_tooltip": "Enemies hit by Cone of Cold are frozen in place for 5 sec instead of snared.\nWhen your roots expire or are dispelled, your target is snared by 70%, decaying over 3 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 143,
-          "end": 145,
-          "old_token": "80",
-          "new_token": "70",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "80",
-          "new": "70"
-        }
-      ],
+      "pvp_tooltip": "Enemies hit by Cone of Cold are frozen in place for 5 sec instead of snared.\nWhen your roots expire or are dispelled, your target is snared by 80%, decaying over 3 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -2801,7 +2769,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Ice Nova",
@@ -3010,32 +2978,11 @@
         "icon": "spell_frost_ring_of_frost"
       },
       "pve_tooltip": "8% of base mana\n30 yd range\n2 sec cast\n45 sec cooldown\nSummons a Ring of Frost for 10 sec at the target location. Enemies entering the ring are incapacitated for 10 sec. Limit 10 targets.\nWhen the incapacitate expires, enemies are slowed by 65% for 4 sec.",
-      "pvp_tooltip": "8% of base mana\n30 yd range\n2 sec cast\n45 sec cooldown\nSummons a Ring of Frost for 10 sec at the target location. Enemies entering the ring are incapacitated for 10 sec. Limit 10 targets.\nWhen the incapacitate expires, enemies are slowed by 50% for 4 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 241,
-          "end": 243,
-          "old_token": "65",
-          "new_token": "50",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "65",
-          "new": "50"
-        }
-      ],
+      "pvp_tooltip": "8% of base mana\n30 yd range\n2 sec cast\n45 sec cooldown\nSummons a Ring of Frost for 10 sec at the target location. Enemies entering the ring are incapacitated for 10 sec. Limit 10 targets.\nWhen the incapacitate expires, enemies are slowed by 65% for 4 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -3068,7 +3015,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Mass Polymorph",
@@ -3576,42 +3523,11 @@
         "icon": "spell_nature_starfall"
       },
       "pve_tooltip": "15% of base mana\n40 yd range\nChanneled (2.5 sec cast)\nLaunches 5 waves of Arcane Missiles at the enemy over 2.5 sec, causing a total of [(4) * (107.8% of Spell Power)] Arcane damage.",
-      "pvp_tooltip": "15% of base mana\n40 yd range\nChanneled (2.5 sec cast)\nLaunches 5 waves of Arcane Missiles at the enemy over 2.5 sec, causing a total of [(4) * (178.1934% of Spell Power)] Arcane damage.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 144,
-          "end": 149,
-          "old_token": "107.8",
-          "new_token": "178.1934",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "spell_power_coefficient",
-          "old": 53.900000000000006,
-          "new": 89.09670000000001,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "107.8",
-          "new": "178.1934"
-        }
-      ],
+      "pvp_tooltip": "15% of base mana\n40 yd range\nChanneled (2.5 sec cast)\nLaunches 5 waves of Arcane Missiles at the enemy over 2.5 sec, causing a total of [(4) * (107.8% of Spell Power)] Arcane damage.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -3691,7 +3607,7 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Concentrated Power",
@@ -3796,18 +3712,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "spell_power_coefficient",
-          "old": 87.952,
-          "new": 107.60971176000001,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -3852,7 +3757,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Improved Clearcasting",
@@ -4168,7 +4073,7 @@
         "icon": "ability_mage_arcanesurge"
       },
       "pve_tooltip": "1 to 2900001 Mana\n40 yd range\n2.5 sec cast\n1.5 min cooldown\nExpend all of your current mana to annihilate your enemy target and nearby enemies for up to\n[(372% of Spell Power) * 2]\nArcane damage based on Mana spent. Deals reduced damage beyond 8 targets.\nFor the next 15 sec, your Mana regeneration is increased by 425% and spell damage is increased by 35%.\nGenerates Clearcasting.",
-      "pvp_tooltip": "1 to 2900001 Mana\n40 yd range\n2.5 sec cast\n1.5 min cooldown\nExpend all of your current mana to annihilate your enemy target and nearby enemies for up to\n[(494.76% of Spell Power) * 2]\nArcane damage based on Mana spent. Deals reduced damage beyond 8 targets.\nFor the next 15 sec, your Mana regeneration is increased by 425% and spell damage is increased by 15%.\nGenerates Clearcasting.",
+      "pvp_tooltip": "1 to 2900001 Mana\n40 yd range\n2.5 sec cast\n1.5 min cooldown\nExpend all of your current mana to annihilate your enemy target and nearby enemies for up to\n[(494.76% of Spell Power) * 2]\nArcane damage based on Mana spent. Deals reduced damage beyond 8 targets.\nFor the next 15 sec, your Mana regeneration is increased by 425% and spell damage is increased by 35%.\nGenerates Clearcasting.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4181,17 +4086,6 @@
           "effect_indexes": [
             1
           ]
-        },
-        {
-          "start": 353,
-          "end": 355,
-          "old_token": "35",
-          "new_token": "15",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1,
-            2
-          ]
         }
       ],
       "diagnostics": [
@@ -4203,16 +4097,6 @@
           "kind": "spell_power_coefficient",
           "old": "372",
           "new": "494.76"
-        },
-        {
-          "effect_indexes": [
-            1,
-            2
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "35",
-          "new": "15"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4310,7 +4194,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 1
     },
     {
       "talent_name": "Arcane Orb",
@@ -5928,16 +5812,6 @@
           "effect_indexes": [
             1
           ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "spell_power_coefficient",
-          "old": 87.952,
-          "new": 107.60971176000001,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
           "status": "APPLIED",
           "kind": "percent_value",
           "old": "2",
@@ -6012,7 +5886,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "High Voltage",
@@ -8119,42 +7993,12 @@
       "diagnostics": [
         {
           "effect_indexes": [
-            3
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "percent_value",
-          "old": 15.0,
-          "new": 10.05,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            4
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "percent_value",
-          "old": 25.0,
-          "new": 15.0,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
             1
           ],
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
           "old": 14.374999999999998,
           "new": 13.656249999999998,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "ordinary_value",
-          "old": 30.0,
-          "new": 22.5,
           "full_tooltip_match_count": 0
         }
       ],
@@ -8379,7 +8223,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 4
+      "render_effect_count": 1
     },
     {
       "talent_name": "Time Twist",
@@ -9055,10 +8899,10 @@
   ],
   "fetch_errors": [],
   "slug": "mage-arcane",
-  "generated_at": "2026-09-19T15:59:49.589713+00:00",
+  "generated_at": "2026-09-19T17:46:19.217539+00:00",
   "validation": {
     "talents": 128,
-    "changed_tooltips": 18,
+    "changed_tooltips": 15,
     "talents_with_pvp_mechanics": 31,
     "unique_nodes": 109,
     "tree_build": "12.1.0.69875",

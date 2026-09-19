@@ -78,33 +78,12 @@ window.WOW_PVP_DATA = {
         },
         {
           "effect_indexes": [
-            1,
-            2
+            1
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
           "kind": "percent_value",
           "old": 25.0,
           "new": 12.0,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "attack_power_coefficient",
-          "old": 53.0,
-          "new": 57.24,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "percent_value",
-          "old": 30.0,
-          "new": 20.00001,
           "full_tooltip_match_count": 0
         },
         {
@@ -311,7 +290,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 6
+      "render_effect_count": 3
     },
     {
       "talent_name": "Blind",
@@ -2732,7 +2711,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 10.0,
           "new": 5.0,
           "full_tooltip_match_count": 0
@@ -3865,32 +3844,11 @@ window.WOW_PVP_DATA = {
         "icon": "ability_rogue_bloodsplatter"
       },
       "pve_tooltip": "Kidney Shot and Rupture also apply Internal Bleeding, dealing up to [5 * (43.02% of Attack Power)] Bleed damage over 6 sec, based on combo points spent.",
-      "pvp_tooltip": "Kidney Shot and Rupture also apply Internal Bleeding, dealing up to [5 * (46.4616% of Attack Power)] Bleed damage over 6 sec, based on combo points spent.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 74,
-          "end": 79,
-          "old_token": "43.02",
-          "new_token": "46.4616",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "43.02",
-          "new": "46.4616"
-        }
-      ],
+      "pvp_tooltip": "Kidney Shot and Rupture also apply Internal Bleeding, dealing up to [5 * (43.02% of Attack Power)] Bleed damage over 6 sec, based on combo points spent.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -3931,7 +3889,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Improved Garrote",
@@ -3979,7 +3937,7 @@ window.WOW_PVP_DATA = {
         "icon": "ability_rogue_garrote"
       },
       "pve_tooltip": "Garrote deals 50% increased damage and has no cooldown when used from Stealth and for 6 sec after breaking Stealth.",
-      "pvp_tooltip": "Garrote deals 30% increased damage and has no cooldown when used from Stealth and for 6 sec after breaking Stealth.",
+      "pvp_tooltip": "Garrote deals 20% increased damage and has no cooldown when used from Stealth and for 6 sec after breaking Stealth.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3992,16 +3950,6 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ]
-        },
-        {
-          "start": 14,
-          "end": 16,
-          "old_token": "50",
-          "new_token": "30",
-          "kind": "ordinary_value",
-          "effect_indexes": [
-            2
-          ]
         }
       ],
       "diagnostics": [
@@ -4013,15 +3961,6 @@ window.WOW_PVP_DATA = {
           "kind": "percent_value",
           "old": "50",
           "new": "20"
-        },
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "APPLIED",
-          "kind": "ordinary_value",
-          "old": "50",
-          "new": "30"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4080,7 +4019,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Thrown Precision",
@@ -6798,32 +6737,11 @@ window.WOW_PVP_DATA = {
         "icon": "inv_ability_deathstalkerrogue_deathstalkersmark"
       },
       "pve_tooltip": "Garrote applies 3 stacks of Deathstalker's Mark to your target, unless Deathstalker's Mark is already active. You learn Mark for Death.\nWhen you spend 5 or more combo points on attacks against a Marked target you consume an application of Deathstalker's Mark, dealing (156% of Attack Power) Plague damage.\nMark for Death\nMove your active Deathstalker's Mark to your target.",
-      "pvp_tooltip": "Garrote applies 3 stacks of Deathstalker's Mark to your target, unless Deathstalker's Mark is already active. You learn Mark for Death.\nWhen you spend 5 or more combo points on attacks against a Marked target you consume an application of Deathstalker's Mark, dealing (168.48% of Attack Power) Plague damage.\nMark for Death\nMove your active Deathstalker's Mark to your target.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 269,
-          "end": 272,
-          "old_token": "156",
-          "new_token": "168.48",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "156",
-          "new": "168.48"
-        }
-      ],
+      "pvp_tooltip": "Garrote applies 3 stacks of Deathstalker's Mark to your target, unless Deathstalker's Mark is already active. You learn Mark for Death.\nWhen you spend 5 or more combo points on attacks against a Marked target you consume an application of Deathstalker's Mark, dealing (156% of Attack Power) Plague damage.\nMark for Death\nMove your active Deathstalker's Mark to your target.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6864,7 +6782,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Chosen's Revelry",
@@ -8936,10 +8854,10 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "rogue-assassination",
-  "generated_at": "2026-09-19T16:06:20.997009+00:00",
+  "generated_at": "2026-09-19T17:52:40.861114+00:00",
   "validation": {
     "talents": 131,
-    "changed_tooltips": 21,
+    "changed_tooltips": 19,
     "talents_with_pvp_mechanics": 27,
     "unique_nodes": 110,
     "tree_build": "12.1.0.69875",

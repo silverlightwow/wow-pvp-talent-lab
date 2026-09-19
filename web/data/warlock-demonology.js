@@ -791,30 +791,20 @@ window.WOW_PVP_DATA = {
         "icon": "spell_shadow_grimward"
       },
       "pve_tooltip": "1% of base mana\n40 yd range\nInstant\nReduces the target's movement speed by 50% for 12 sec.\nCurses: A warlock can only have one Curse active per target.",
-      "pvp_tooltip": "1% of base mana\n40 yd range\nInstant\nReduces the target's movement speed by 30% for 12 sec.\nCurses: A warlock can only have one Curse active per target.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 75,
-          "end": 77,
-          "old_token": "50",
-          "new_token": "30",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
+      "pvp_tooltip": "1% of base mana\n40 yd range\nInstant\nReduces the target's movement speed by 50% for 12 sec.\nCurses: A warlock can only have one Curse active per target.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "50",
-          "new": "30"
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 100.0,
+          "new": 60.0,
+          "full_tooltip_match_count": 0
         }
       ],
       "has_pvp_mechanics": true,
@@ -2793,51 +2783,11 @@ window.WOW_PVP_DATA = {
         "icon": "spell_warlock_soulburn"
       },
       "pve_tooltip": "1 Soul Shard\nInstant\n6 sec cooldown\nConsumes a Soul Shard, unlocking the hidden power of your spells.\nDemonic Circle: Teleport\n: Increases your movement speed by 50% and makes you immune to snares and roots for 6 sec.\nDemonic Gateway\n: Can be cast instantly.\nDrain Life\n: Gain an absorb shield equal to the amount of healing done for 30 sec. This shield cannot exceed 30% of your maximum health.\nHealthstone\n: Increases the healing of your Healthstone by 30% and increases your maximum health by 20% for 12 sec.",
-      "pvp_tooltip": "1 Soul Shard\nInstant\n6 sec cooldown\nConsumes a Soul Shard, unlocking the hidden power of your spells.\nDemonic Circle: Teleport\n: Increases your movement speed by 30% and makes you immune to snares and roots for 6 sec.\nDemonic Gateway\n: Can be cast instantly.\nDrain Life\n: Gain an absorb shield equal to the amount of healing done for 30 sec. This shield cannot exceed 30% of your maximum health.\nHealthstone\n: Increases the healing of your Healthstone by 30% and increases your maximum health by 15% for 12 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 162,
-          "end": 164,
-          "old_token": "50",
-          "new_token": "30",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1
-          ]
-        },
-        {
-          "start": 496,
-          "end": 498,
-          "old_token": "20",
-          "new_token": "15",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "50",
-          "new": "30"
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "20",
-          "new": "15"
-        }
-      ],
+      "pvp_tooltip": "1 Soul Shard\nInstant\n6 sec cooldown\nConsumes a Soul Shard, unlocking the hidden power of your spells.\nDemonic Circle: Teleport\n: Increases your movement speed by 50% and makes you immune to snares and roots for 6 sec.\nDemonic Gateway\n: Can be cast instantly.\nDrain Life\n: Gain an absorb shield equal to the amount of healing done for 30 sec. This shield cannot exceed 30% of your maximum health.\nHealthstone\n: Increases the healing of your Healthstone by 30% and increases your maximum health by 20% for 12 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -2928,7 +2878,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Blight of Weakness",
@@ -5682,7 +5632,7 @@ window.WOW_PVP_DATA = {
         "icon": "spell_necro_deathall"
       },
       "pve_tooltip": "Shadow Bolt damage increased by 20%. Power Siphon increases the damage of Demonbolt by an additional 20%.",
-      "pvp_tooltip": "Shadow Bolt damage increased by 10%. Power Siphon increases the damage of Demonbolt by an additional 20%.",
+      "pvp_tooltip": "Shadow Bolt damage increased by 10%. Power Siphon increases the damage of Demonbolt by an additional 10%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -5694,8 +5644,18 @@ window.WOW_PVP_DATA = {
           "kind": "percent_value",
           "effect_indexes": [
             2,
-            3,
-            4
+            3
+          ]
+        },
+        {
+          "start": 101,
+          "end": 103,
+          "old_token": "20",
+          "new_token": "10",
+          "kind": "percent_value",
+          "effect_indexes": [
+            2,
+            3
           ]
         }
       ],
@@ -5713,8 +5673,17 @@ window.WOW_PVP_DATA = {
         {
           "effect_indexes": [
             2,
-            3,
-            4
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "20",
+          "new": "10"
+        },
+        {
+          "effect_indexes": [
+            2,
+            3
           ],
           "status": "APPLIED",
           "kind": "percent_value",
@@ -5821,7 +5790,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 4
+      "render_effect_count": 3
     },
     {
       "talent_name": "Soul Anathema",
@@ -6697,32 +6666,11 @@ window.WOW_PVP_DATA = {
         "icon": "inv_staff_2h_artifactdeadwind_d_05"
       },
       "pve_tooltip": "Damage dealt by your demonic soul is increased by 30%.\nConsuming Demonic Core feeds the demonic entity within you, causing it to appear and deal [(601.005% of Spell Power) * 0.4] Shadow damage to your target.",
-      "pvp_tooltip": "Damage dealt by your demonic soul is increased by 30%.\nConsuming Demonic Core feeds the demonic entity within you, causing it to appear and deal [(300.5025% of Spell Power) * 0.4] Shadow damage to your target.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 147,
-          "end": 154,
-          "old_token": "601.005",
-          "new_token": "300.5025",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "601.005",
-          "new": "300.5025"
-        }
-      ],
+      "pvp_tooltip": "Damage dealt by your demonic soul is increased by 30%.\nConsuming Demonic Core feeds the demonic entity within you, causing it to appear and deal [(601.005% of Spell Power) * 0.4] Shadow damage to your target.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6763,7 +6711,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Quietus",
@@ -7328,32 +7276,11 @@ window.WOW_PVP_DATA = {
         "icon": "inv_pet_inquisitoreye"
       },
       "pve_tooltip": "You summon a Diabolic Oculus, up to 3, each time the duration of Diabolic Ritual is reduced by one of your spells.\nDiabolic Oculi explode when consuming Demonic Art, dealing (234.62% of Spell Power) Fire damage to all enemies within 10 yds of the target. Damage reduced beyond 8 targets.",
-      "pvp_tooltip": "You summon a Diabolic Oculus, up to 3, each time the duration of Diabolic Ritual is reduced by one of your spells.\nDiabolic Oculi explode when consuming Demonic Art, dealing (100.5513% of Spell Power) Fire damage to all enemies within 10 yds of the target. Damage reduced beyond 8 targets.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 175,
-          "end": 181,
-          "old_token": "234.62",
-          "new_token": "100.5513",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "234.62",
-          "new": "100.5513"
-        }
-      ],
+      "pvp_tooltip": "You summon a Diabolic Oculus, up to 3, each time the duration of Diabolic Ritual is reduced by one of your spells.\nDiabolic Oculi explode when consuming Demonic Art, dealing (234.62% of Spell Power) Fire damage to all enemies within 10 yds of the target. Damage reduced beyond 8 targets.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7386,7 +7313,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Soul-Etched Circles",
@@ -8157,10 +8084,10 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "warlock-demonology",
-  "generated_at": "2026-09-19T16:09:12.937320+00:00",
+  "generated_at": "2026-09-19T17:55:37.138945+00:00",
   "validation": {
     "talents": 125,
-    "changed_tooltips": 15,
+    "changed_tooltips": 11,
     "talents_with_pvp_mechanics": 27,
     "unique_nodes": 109,
     "tree_build": "12.1.0.69875",

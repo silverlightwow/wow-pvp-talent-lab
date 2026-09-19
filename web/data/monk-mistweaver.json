@@ -212,18 +212,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "percent_value",
-          "old": 50.0,
-          "new": 25.0,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -292,7 +281,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Elusive Mists",
@@ -2529,20 +2518,9 @@
       "pve_tooltip": "Turns your skin to stone for 15 sec, increasing your current and maximum health by 20% and reducing all damage you take by 20%.\nCombines with other Fortifying Brew effects.",
       "pvp_tooltip": "Turns your skin to stone for 15 sec, increasing your current and maximum health by 20% and reducing all damage you take by 20%.\nCombines with other Fortifying Brew effects.",
       "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "AMBIGUOUS_TEXT_MATCH",
-          "kind": "ordinary_value",
-          "old": 20.0,
-          "new": 30.0,
-          "match_count": 2
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -2575,7 +2553,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Dance of the Wind",
@@ -2623,13 +2601,13 @@
         "icon": "ability_monk_dematerialize"
       },
       "pve_tooltip": "Your physical damage taken is reduced by 10% and an additional 10% every 4 sec until you receive a physical attack, stacking up to 4.",
-      "pvp_tooltip": "Your physical damage taken is reduced by 10% and an additional 5% every 4 sec until you receive a physical attack, stacking up to 4.",
+      "pvp_tooltip": "Your physical damage taken is reduced by 5% and an additional 10% every 4 sec until you receive a physical attack, stacking up to 4.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 63,
-          "end": 65,
+          "start": 41,
+          "end": 43,
           "old_token": "10",
           "new_token": "5",
           "kind": "percent_value",
@@ -2887,32 +2865,11 @@
         "icon": "ability_monk_summonserpentstatue"
       },
       "pve_tooltip": "Thunder Focus Tea summons a Jade Serpent Statue at your location. When you channel Soothing Mist, the statue will also begin to channel Soothing Mist on your target, healing for (560% of Spell Power) over 8 sec.",
-      "pvp_tooltip": "Thunder Focus Tea summons a Jade Serpent Statue at your location. When you channel Soothing Mist, the statue will also begin to channel Soothing Mist on your target, healing for (672% of Spell Power) over 8 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 179,
-          "end": 182,
-          "old_token": "560",
-          "new_token": "672",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "560",
-          "new": "672"
-        }
-      ],
+      "pvp_tooltip": "Thunder Focus Tea summons a Jade Serpent Statue at your location. When you channel Soothing Mist, the statue will also begin to channel Soothing Mist on your target, healing for (560% of Spell Power) over 8 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -2921,7 +2878,7 @@
           "talent_spell_id": 1242910,
           "source_spell_id": 198533,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 1 seconds (SP mod: 0.7)",
+          "effect_text": "Apply Aura: Periodic Heal",
           "base_value": null,
           "spell_pvp_multiplier": 1.6,
           "amount_kind": "periodic",
@@ -2948,13 +2905,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Summon Jade Serpent Statue",
@@ -3002,32 +2960,11 @@
         "icon": "ability_monk_summonserpentstatue"
       },
       "pve_tooltip": "40 yd range\nInstant\n10 sec cooldown\nSummons a Jade Serpent Statue at the target location. When you channel Soothing Mist, the statue will also begin to channel Soothing Mist on your target, healing for (560% of Spell Power) over 8 sec.",
-      "pvp_tooltip": "40 yd range\nInstant\n10 sec cooldown\nSummons a Jade Serpent Statue at the target location. When you channel Soothing Mist, the statue will also begin to channel Soothing Mist on your target, healing for (672% of Spell Power) over 8 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 203,
-          "end": 206,
-          "old_token": "560",
-          "new_token": "672",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "560",
-          "new": "672"
-        }
-      ],
+      "pvp_tooltip": "40 yd range\nInstant\n10 sec cooldown\nSummons a Jade Serpent Statue at the target location. When you channel Soothing Mist, the statue will also begin to channel Soothing Mist on your target, healing for (560% of Spell Power) over 8 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -3036,7 +2973,7 @@
           "talent_spell_id": 115313,
           "source_spell_id": 198533,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 1 seconds (SP mod: 0.7)",
+          "effect_text": "Apply Aura: Periodic Heal",
           "base_value": null,
           "spell_pvp_multiplier": 1.6,
           "amount_kind": "periodic",
@@ -3063,13 +3000,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Ironshell Brew",
@@ -4093,53 +4031,11 @@
         "icon": "ability_monk_thunderfocustea"
       },
       "pve_tooltip": "Instant\n30 sec cooldown\n1 Charge\nReceive a jolt of energy, empowering your next\nspell\ncast:\nEnveloping Mist\n: Immediately heals for (748.8% of Spell Power) and is instant cast.\nRenewing Mist\n: Duration increased by 10 sec.\nRising Sun Kick\n: Cooldown reduced by 9 sec.\n[\nThunderous Focus Tea\n:\nCrackling Jade Lightning\n: Knockback applied immediately.\nRoll\n: Refund a charge and heal yourself for (240% of Attack Power)\n]",
-      "pvp_tooltip": "Instant\n30 sec cooldown\n1 Charge\nReceive a jolt of energy, empowering your next\nspell\ncast:\nEnveloping Mist\n: Immediately heals for (561.6% of Spell Power) and is instant cast.\nRenewing Mist\n: Duration increased by 10 sec.\nRising Sun Kick\n: Cooldown reduced by 9 sec.\n[\nThunderous Focus Tea\n:\nCrackling Jade Lightning\n: Knockback applied immediately.\nRoll\n: Refund a charge and heal yourself for (180% of Attack Power)\n]",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 133,
-          "end": 138,
-          "old_token": "748.8",
-          "new_token": "561.6",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1,
-            3
-          ]
-        },
-        {
-          "start": 397,
-          "end": 400,
-          "old_token": "240",
-          "new_token": "180",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1,
-            3
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "748.8",
-          "new": "561.6"
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "240",
-          "new": "180"
-        }
-      ],
+      "pvp_tooltip": "Instant\n30 sec cooldown\n1 Charge\nReceive a jolt of energy, empowering your next\nspell\ncast:\nEnveloping Mist\n: Immediately heals for (748.8% of Spell Power) and is instant cast.\nRenewing Mist\n: Duration increased by 10 sec.\nRising Sun Kick\n: Cooldown reduced by 9 sec.\n[\nThunderous Focus Tea\n:\nCrackling Jade Lightning\n: Knockback applied immediately.\nRoll\n: Refund a charge and heal yourself for (240% of Attack Power)\n]",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4148,7 +4044,7 @@
           "talent_spell_id": 116680,
           "source_spell_id": 274062,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 7.488)",
+          "effect_text": "Heal (SP mod: 7.488)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4175,10 +4071,9 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -4186,7 +4081,7 @@
           "talent_spell_id": 116680,
           "source_spell_id": 274062,
           "effect_index": 3,
-          "effect_text": "Direct Heal (10) (SP mod: 7.488)",
+          "effect_text": "Heal (SP mod: 7.488)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4213,10 +4108,9 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -4257,7 +4151,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 0
     },
     {
       "talent_name": "Misty Coalescence",
@@ -5538,7 +5432,7 @@
           "talent_spell_id": 446326,
           "source_spell_id": 198487,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 1.6)",
+          "effect_text": "Heal (SP mod: 1.6)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5565,10 +5459,9 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -5789,32 +5682,11 @@
         "icon": "ability_monk_dragonkick"
       },
       "pve_tooltip": "5% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummons an effigy of Yu'lon, the Jade Serpent for\n25 sec\n. Yu'lon will heal injured allies with Soothing Breath, healing the target and up to 2 allies for (210% of Spell Power) over\n4.5 sec\n.\nEnveloping Mist costs 50% less mana while Yu'lon is active.",
-      "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummons an effigy of Yu'lon, the Jade Serpent for\n25 sec\n. Yu'lon will heal injured allies with Soothing Breath, healing the target and up to 2 allies for (157.5% of Spell Power) over\n4.5 sec\n.\nEnveloping Mist costs 50% less mana while Yu'lon is active.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 207,
-          "end": 210,
-          "old_token": "210",
-          "new_token": "157.5",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "210",
-          "new": "157.5"
-        }
-      ],
+      "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummons an effigy of Yu'lon, the Jade Serpent for\n25 sec\n. Yu'lon will heal injured allies with Soothing Breath, healing the target and up to 2 allies for (210% of Spell Power) over\n4.5 sec\n.\nEnveloping Mist costs 50% less mana while Yu'lon is active.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -5856,7 +5728,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Invoke Chi-Ji, the Red Crane",
@@ -6504,18 +6376,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "spell_power_coefficient",
-          "old": 70.0,
-          "new": 52.5,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6559,7 +6420,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Dancing Mists",
@@ -7109,16 +6970,6 @@
       "diagnostics": [
         {
           "effect_indexes": [
-            3
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
-          "old": 5.0,
-          "new": 2.0,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
             1
           ],
           "status": "APPLIED",
@@ -7211,7 +7062,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 2
     },
     {
       "talent_name": "Morning Breeze",
@@ -7597,32 +7448,11 @@
         "icon": "inv12_ability_monk_rushingwindkick"
       },
       "pve_tooltip": "1.25% of base mana / 2 Chi\nInstant\n10 sec cooldown\n1 Charge\nWindwalker (\nWindwalker Monk\n)\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\n[\n:\nHeals up to 5 allies affected by your heal over time effects for (500% of Spell Power)\n]",
-      "pvp_tooltip": "1.25% of base mana / 2 Chi\nInstant\n10 sec cooldown\n1 Charge\nWindwalker (\nWindwalker Monk\n)\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\n[\n:\nHeals up to 5 allies affected by your heal over time effects for (375% of Spell Power)\n]",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 577,
-          "end": 580,
-          "old_token": "500",
-          "new_token": "375",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "500",
-          "new": "375"
-        }
-      ],
+      "pvp_tooltip": "1.25% of base mana / 2 Chi\nInstant\n10 sec cooldown\n1 Charge\nWindwalker (\nWindwalker Monk\n)\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\n[\n:\nHeals up to 5 allies affected by your heal over time effects for (500% of Spell Power)\n]",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7702,7 +7532,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Resplendent Mist",
@@ -8322,18 +8152,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "spell_power_coefficient",
-          "old": 70.0,
-          "new": 52.5,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8377,7 +8196,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Rising Mist",
@@ -9128,18 +8947,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "spell_power_coefficient",
-          "old": 70.0,
-          "new": 52.5,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -9183,7 +8991,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Yu'lon's Knowledge",
@@ -9919,18 +9727,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "duration_seconds",
-          "old": 75.0,
-          "new": 30.0,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -9972,7 +9769,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Unity Within",
@@ -10420,10 +10217,30 @@
         "icon": "ability_socererking_forcenova"
       },
       "pve_tooltip": ":\nFor each charge of Potential Energy, deal [(400% of Spell Power) * 55 / 100] Nature damage to your target and [(400% of Spell Power) * 55 / 100] Nature damage to other nearby enemies, and heal up to 5 allies for [(500% of Spell Power) * 10 / 100]. Damage reduced above 5 targets.",
-      "pvp_tooltip": ":\nFor each charge of Potential Energy, deal [(400% of Spell Power) * 55 / 100] Nature damage to your target and [(400% of Spell Power) * 55 / 100] Nature damage to other nearby enemies, and heal up to 5 allies for [(500% of Spell Power) * 3.3 / 100]. Damage reduced above 5 targets.",
+      "pvp_tooltip": ":\nFor each charge of Potential Energy, deal [(400% of Spell Power) * 18.15 / 100] Nature damage to your target and [(400% of Spell Power) * 18.15 / 100] Nature damage to other nearby enemies, and heal up to 5 allies for [(500% of Spell Power) * 3.3 / 100]. Damage reduced above 5 targets.",
       "tooltip_changed": true,
-      "render_status": "REVIEW_REQUIRED",
+      "render_status": "CHANGED",
       "changes": [
+        {
+          "start": 69,
+          "end": 71,
+          "old_token": "55",
+          "new_token": "18.15",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 137,
+          "end": 139,
+          "old_token": "55",
+          "new_token": "18.15",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        },
         {
           "start": 239,
           "end": 241,
@@ -10439,16 +10256,6 @@
       "diagnostics": [
         {
           "effect_indexes": [
-            1
-          ],
-          "status": "AMBIGUOUS_TEXT_MATCH",
-          "kind": "ordinary_value",
-          "old": 55.0,
-          "new": 18.150000000000002,
-          "match_count": 2
-        },
-        {
-          "effect_indexes": [
             4
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
@@ -10456,6 +10263,24 @@
           "old": 40.0,
           "new": 13.200000000000001,
           "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "55",
+          "new": "18.15"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "55",
+          "new": "18.15"
         },
         {
           "effect_indexes": [
@@ -10882,32 +10707,11 @@
         "icon": "ability_monk_domeofmist"
       },
       "pve_tooltip": "When cast on yourself, your single-target healing spells heal for 10% more and restore an additional (150% of Spell Power) health over 6 sec.",
-      "pvp_tooltip": "When cast on yourself, your single-target healing spells heal for 10% more and restore an additional (112.5% of Spell Power) health over 6 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 102,
-          "end": 105,
-          "old_token": "150",
-          "new_token": "112.5",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "150",
-          "new": "112.5"
-        }
-      ],
+      "pvp_tooltip": "When cast on yourself, your single-target healing spells heal for 10% more and restore an additional (150% of Spell Power) health over 6 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -10949,7 +10753,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Mantra of Tenacity",
@@ -11379,10 +11183,10 @@
   ],
   "fetch_errors": [],
   "slug": "monk-mistweaver",
-  "generated_at": "2026-09-19T16:01:39.135792+00:00",
+  "generated_at": "2026-09-19T17:48:38.348531+00:00",
   "validation": {
     "talents": 152,
-    "changed_tooltips": 36,
+    "changed_tooltips": 30,
     "talents_with_pvp_mechanics": 49,
     "unique_nodes": 122,
     "tree_build": "12.1.0.69875",
@@ -11390,34 +11194,13 @@
     "drustvar_builds": [
       "12.1.0.69587"
     ],
-    "verification_status": "PARTIAL",
-    "fetch_error_count": 1,
-    "source_warning_count": 25,
-    "unresolved_count": 2,
-    "review_required_count": 2,
-    "fetch_error_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 1271011,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1271011'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "verification_status": "VERIFIED",
+    "fetch_error_count": 0,
+    "source_warning_count": 23,
+    "unresolved_count": 0,
+    "review_required_count": 0,
+    "fetch_error_examples": [],
     "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 198487,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=198487'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 198533,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=198533'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 274062,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=274062'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "source": "wowhead",
         "spell_id": 274912,
@@ -11427,59 +11210,24 @@
         "source": "wowhead",
         "spell_id": 343737,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=343737'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
-    "unresolved_examples": [
-      {
-        "spell_id": 1271011,
-        "talent_name": "Harmonic Surge",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.33,
-        "effect_text": "School Damage (2): nature",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 1270958,
-        "source_spell_id": 1271011,
-        "dependency_kind": "EMBEDDED",
-        "dependency_path": [
-          1270958,
-          1271011
-        ],
-        "dependency_relations": [
-          "spelldesc_ref"
-        ]
       },
       {
-        "spell_id": 1271011,
-        "talent_name": "Harmonic Surge",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.33,
-        "effect_text": "School Damage (2): nature",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 1270958,
-        "source_spell_id": 1271011,
-        "dependency_kind": "EMBEDDED",
-        "dependency_path": [
-          1270958,
-          1271011
-        ],
-        "dependency_relations": [
-          "spelldesc_ref"
-        ]
-      }
-    ],
-    "review_required_examples": [
-      {
-        "talent_name": "Fortifying Brew",
-        "spell_id": 388917,
-        "status": "REVIEW_REQUIRED"
+        "source": "wowhead",
+        "spell_id": 343819,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=343819'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
-        "talent_name": "Harmonic Surge",
-        "spell_id": 1270958,
-        "status": "REVIEW_REQUIRED"
+        "source": "wowhead",
+        "spell_id": 388044,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=388044'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 388514,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=388514'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
-    ]
+    ],
+    "unresolved_examples": [],
+    "review_required_examples": []
   }
 }

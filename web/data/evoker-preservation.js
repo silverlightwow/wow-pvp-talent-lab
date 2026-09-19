@@ -7106,40 +7106,10 @@ window.WOW_PVP_DATA = {
       "diagnostics": [
         {
           "effect_indexes": [
-            1,
-            2
+            1
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
           "kind": "percent_value",
-          "old": 1.0,
-          "new": 0.5,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            3,
-            8,
-            9
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
-          "old": 1.0,
-          "new": 0.5,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            4,
-            5,
-            6,
-            7,
-            13,
-            16,
-            17,
-            18
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "duration_seconds",
           "old": 1.0,
           "new": 0.5,
           "full_tooltip_match_count": 0
@@ -7513,7 +7483,7 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 13
+      "render_effect_count": 1
     },
     {
       "talent_name": "Chronoboon",
@@ -8208,7 +8178,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "evoker-preservation",
-  "generated_at": "2026-09-19T15:57:34.762478+00:00",
+  "generated_at": "2026-09-19T17:44:34.487235+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 5,

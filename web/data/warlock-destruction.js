@@ -791,30 +791,20 @@ window.WOW_PVP_DATA = {
         "icon": "spell_shadow_grimward"
       },
       "pve_tooltip": "1% of base mana\n40 yd range\nInstant\nReduces the target's movement speed by 50% for 12 sec.\nCurses: A warlock can only have one Curse active per target.",
-      "pvp_tooltip": "1% of base mana\n40 yd range\nInstant\nReduces the target's movement speed by 30% for 12 sec.\nCurses: A warlock can only have one Curse active per target.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 75,
-          "end": 77,
-          "old_token": "50",
-          "new_token": "30",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
+      "pvp_tooltip": "1% of base mana\n40 yd range\nInstant\nReduces the target's movement speed by 50% for 12 sec.\nCurses: A warlock can only have one Curse active per target.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "50",
-          "new": "30"
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 100.0,
+          "new": 60.0,
+          "full_tooltip_match_count": 0
         }
       ],
       "has_pvp_mechanics": true,
@@ -2723,7 +2713,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 386689,
           "source_spell_id": 452930,
           "effect_index": 1,
-          "effect_text": "Heal for % of Total Health",
+          "effect_text": "Direct Heal% (136)",
           "base_value": 25.0,
           "spell_pvp_multiplier": 0.8,
           "amount_kind": "direct",
@@ -2740,9 +2730,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -2793,51 +2782,11 @@ window.WOW_PVP_DATA = {
         "icon": "spell_warlock_soulburn"
       },
       "pve_tooltip": "1 Soul Shard\nInstant\n6 sec cooldown\nConsumes a Soul Shard, unlocking the hidden power of your spells.\nDemonic Circle: Teleport\n: Increases your movement speed by 50% and makes you immune to snares and roots for 6 sec.\nDemonic Gateway\n: Can be cast instantly.\nDrain Life\n: Gain an absorb shield equal to the amount of healing done for 30 sec. This shield cannot exceed 30% of your maximum health.\nHealthstone\n: Increases the healing of your Healthstone by 30% and increases your maximum health by 20% for 12 sec.",
-      "pvp_tooltip": "1 Soul Shard\nInstant\n6 sec cooldown\nConsumes a Soul Shard, unlocking the hidden power of your spells.\nDemonic Circle: Teleport\n: Increases your movement speed by 30% and makes you immune to snares and roots for 6 sec.\nDemonic Gateway\n: Can be cast instantly.\nDrain Life\n: Gain an absorb shield equal to the amount of healing done for 30 sec. This shield cannot exceed 30% of your maximum health.\nHealthstone\n: Increases the healing of your Healthstone by 30% and increases your maximum health by 15% for 12 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 162,
-          "end": 164,
-          "old_token": "50",
-          "new_token": "30",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1
-          ]
-        },
-        {
-          "start": 496,
-          "end": 498,
-          "old_token": "20",
-          "new_token": "15",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "50",
-          "new": "30"
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "20",
-          "new": "15"
-        }
-      ],
+      "pvp_tooltip": "1 Soul Shard\nInstant\n6 sec cooldown\nConsumes a Soul Shard, unlocking the hidden power of your spells.\nDemonic Circle: Teleport\n: Increases your movement speed by 50% and makes you immune to snares and roots for 6 sec.\nDemonic Gateway\n: Can be cast instantly.\nDrain Life\n: Gain an absorb shield equal to the amount of healing done for 30 sec. This shield cannot exceed 30% of your maximum health.\nHealthstone\n: Increases the healing of your Healthstone by 30% and increases your maximum health by 20% for 12 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -2928,7 +2877,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Blight of Weakness",
@@ -2986,7 +2935,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1265799,
           "source_spell_id": 1271798,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Mod Attack Speed % (1)",
+          "effect_text": "Apply Aura (6) | Modify Ranged and Melee Auto Attack Speed% (342)",
           "base_value": -100.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -3005,9 +2954,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -3091,7 +3039,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1271802,
           "source_spell_id": 1272122,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Mod Casting Speed %",
+          "effect_text": "Apply Aura (6) | Modify Spell Haste% (355)",
           "base_value": -100.0,
           "spell_pvp_multiplier": 0.3,
           "amount_kind": null,
@@ -3108,9 +3056,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -4661,32 +4608,11 @@ window.WOW_PVP_DATA = {
         "icon": "spell_shadow_summoninfernal"
       },
       "pve_tooltip": "2% of base mana\n30 yd range\nInstant\n2 min cooldown\nSummons an Infernal from the Twisting Nether, impacting for (60% of Spell Power) Fire damage and stunning all enemies in the area for 2 sec.\nThe Infernal will serve you for 30 sec, dealing [(55% of Spell Power) * (105) / 100] damage to all nearby enemies every 2 sec and generating 1 Soul Shard Fragment every 1 sec.",
-      "pvp_tooltip": "2% of base mana\n30 yd range\nInstant\n2 min cooldown\nSummons an Infernal from the Twisting Nether, impacting for (60% of Spell Power) Fire damage and stunning all enemies in the area for 2 sec.\nThe Infernal will serve you for 30 sec, dealing [(57.75% of Spell Power) * (105) / 100] damage to all nearby enemies every 2 sec and generating 1 Soul Shard Fragment every 1 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 242,
-          "end": 244,
-          "old_token": "55",
-          "new_token": "57.75",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "55",
-          "new": "57.75"
-        }
-      ],
+      "pvp_tooltip": "2% of base mana\n30 yd range\nInstant\n2 min cooldown\nSummons an Infernal from the Twisting Nether, impacting for (60% of Spell Power) Fire damage and stunning all enemies in the area for 2 sec.\nThe Infernal will serve you for 30 sec, dealing [(55% of Spell Power) * (105) / 100] damage to all nearby enemies every 2 sec and generating 1 Soul Shard Fragment every 1 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4764,7 +4690,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Emberstorm",
@@ -4951,7 +4877,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1244877,
           "source_spell_id": 1244890,
           "effect_index": 1,
-          "effect_text": "School Damage (Fire) (SP mod: 0.6)",
+          "effect_text": "School Damage (2): fire (SP mod: 0.6)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4978,9 +4904,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1
@@ -5207,16 +5134,6 @@ window.WOW_PVP_DATA = {
           ],
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
-          "old": 55.00000000000001,
-          "new": 57.75000000000001,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "spell_power_coefficient",
           "old": 60.0,
           "new": 63.0,
           "full_tooltip_match_count": 0
@@ -5307,7 +5224,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Summoner's Embrace",
@@ -6616,7 +6533,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1265770,
           "source_spell_id": 1265884,
           "effect_index": 1,
-          "effect_text": "School Damage (Fire, Shadow) (SP mod: 1.875)",
+          "effect_text": "School Damage (2): shadowflame (SP mod: 1.875)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6643,9 +6560,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -6653,7 +6571,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1265770,
           "source_spell_id": 1265884,
           "effect_index": 2,
-          "effect_text": "School Damage (Fire, Shadow) (SP mod: 1.625)",
+          "effect_text": "School Damage (2): shadowflame (SP mod: 1.625)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6680,9 +6598,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0
@@ -7035,32 +6954,11 @@ window.WOW_PVP_DATA = {
         "icon": "spell_nzinsanity_chasedbyshadows"
       },
       "pve_tooltip": "If the target is afflicted with your Wither, casting [\nUnstable Affliction\n/ Chaos Bolt and Shadowburn] increase its stack count by 1.\nEach time Wither gains a stack it has a chance to collapse, consuming a stack every 1 sec to deal (144.468% of Spell Power) Shadowflame damage to its host until 1 stack remains.",
-      "pvp_tooltip": "If the target is afflicted with your Wither, casting [\nUnstable Affliction\n/ Chaos Bolt and Shadowburn] increase its stack count by 1.\nEach time Wither gains a stack it has a chance to collapse, consuming a stack every 1 sec to deal (151.6914% of Spell Power) Shadowflame damage to its host until 1 stack remains.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 234,
-          "end": 241,
-          "old_token": "144.468",
-          "new_token": "151.6914",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "144.468",
-          "new": "151.6914"
-        }
-      ],
+      "pvp_tooltip": "If the target is afflicted with your Wither, casting [\nUnstable Affliction\n/ Chaos Bolt and Shadowburn] increase its stack count by 1.\nEach time Wither gains a stack it has a chance to collapse, consuming a stack every 1 sec to deal (144.468% of Spell Power) Shadowflame damage to its host until 1 stack remains.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7069,7 +6967,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 440043,
           "source_spell_id": 445736,
           "effect_index": 1,
-          "effect_text": "School Damage (Fire, Shadow) (SP mod: 1.44468)",
+          "effect_text": "School Damage (2): shadowflame (SP mod: 1.44468)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7096,12 +6994,13 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Xalan's Cruelty",
@@ -7787,7 +7686,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 440055,
           "source_spell_id": 445736,
           "effect_index": 1,
-          "effect_text": "School Damage (Fire, Shadow) (SP mod: 1.44468)",
+          "effect_text": "School Damage (2): shadowflame (SP mod: 1.44468)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7814,9 +7713,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1
@@ -7985,7 +7885,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 430014,
           "source_spell_id": 446285,
           "effect_index": 1,
-          "effect_text": "School Damage (Fire, Shadow) (SP mod: 12.6551)",
+          "effect_text": "School Damage (2): shadowflame (SP mod: 12.6551)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8014,9 +7914,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0
@@ -8362,32 +8263,11 @@ window.WOW_PVP_DATA = {
         "icon": "inv_pet_inquisitoreye"
       },
       "pve_tooltip": "You summon a Diabolic Oculus, up to 3, each time the duration of Diabolic Ritual is reduced by one of your spells.\nDiabolic Oculi explode when consuming Demonic Art, dealing (234.62% of Spell Power) Fire damage to all enemies within 10 yds of the target. Damage reduced beyond 8 targets.",
-      "pvp_tooltip": "You summon a Diabolic Oculus, up to 3, each time the duration of Diabolic Ritual is reduced by one of your spells.\nDiabolic Oculi explode when consuming Demonic Art, dealing (105.5789% of Spell Power) Fire damage to all enemies within 10 yds of the target. Damage reduced beyond 8 targets.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 175,
-          "end": 181,
-          "old_token": "234.62",
-          "new_token": "105.5789",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "234.62",
-          "new": "105.5789"
-        }
-      ],
+      "pvp_tooltip": "You summon a Diabolic Oculus, up to 3, each time the duration of Diabolic Ritual is reduced by one of your spells.\nDiabolic Oculi explode when consuming Demonic Art, dealing (234.62% of Spell Power) Fire damage to all enemies within 10 yds of the target. Damage reduced beyond 8 targets.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8396,7 +8276,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1268709,
           "source_spell_id": 1269800,
           "effect_index": 1,
-          "effect_text": "School Damage (Fire) (SP mod: 2.3462)",
+          "effect_text": "School Damage (2): fire (SP mod: 2.3462)",
           "base_value": null,
           "spell_pvp_multiplier": 0.428571,
           "amount_kind": "direct",
@@ -8423,14 +8303,13 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Soul-Etched Circles",
@@ -9086,7 +8965,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1268716,
           "source_spell_id": 1269879,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Mod Stat - % (Intellect)",
+          "effect_text": "Apply Aura (6) | Modify Total Stat% (137)",
           "base_value": 2.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -9103,9 +8982,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -9211,10 +9089,10 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "warlock-destruction",
-  "generated_at": "2026-09-19T16:09:17.595189+00:00",
+  "generated_at": "2026-09-19T17:56:06.113688+00:00",
   "validation": {
     "talents": 129,
-    "changed_tooltips": 26,
+    "changed_tooltips": 21,
     "talents_with_pvp_mechanics": 39,
     "unique_nodes": 109,
     "tree_build": "12.1.0.69875",
@@ -9224,11 +9102,37 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 10,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 445736,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=445736'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 446285,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=446285'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 452930,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=452930'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1244890,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1244890'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1244918,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1244918'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }

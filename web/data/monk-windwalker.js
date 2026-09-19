@@ -158,18 +158,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "percent_value",
-          "old": 50.0,
-          "new": 25.0,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -247,7 +236,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Elusive Mists",
@@ -440,7 +429,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 450335,
           "source_spell_id": 450342,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -40.0,
           "spell_pvp_multiplier": 0.75,
           "amount_kind": null,
@@ -457,9 +446,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -1916,7 +1904,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 450595,
           "source_spell_id": 450596,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -70.0,
           "spell_pvp_multiplier": 0.714286,
           "amount_kind": null,
@@ -1933,9 +1921,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -2301,20 +2288,9 @@ window.WOW_PVP_DATA = {
       "pve_tooltip": "Turns your skin to stone for 15 sec, increasing your current and maximum health by 20% and reducing all damage you take by 20%.\nCombines with other Fortifying Brew effects.",
       "pvp_tooltip": "Turns your skin to stone for 15 sec, increasing your current and maximum health by 20% and reducing all damage you take by 20%.\nCombines with other Fortifying Brew effects.",
       "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "AMBIGUOUS_TEXT_MATCH",
-          "kind": "ordinary_value",
-          "old": 20.0,
-          "new": 30.0,
-          "match_count": 2
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -2347,7 +2323,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Dance of the Wind",
@@ -2395,13 +2371,13 @@ window.WOW_PVP_DATA = {
         "icon": "ability_monk_dematerialize"
       },
       "pve_tooltip": "Your physical damage taken is reduced by 10% and an additional 10% every 4 sec until you receive a physical attack, stacking up to 4.",
-      "pvp_tooltip": "Your physical damage taken is reduced by 10% and an additional 5% every 4 sec until you receive a physical attack, stacking up to 4.",
+      "pvp_tooltip": "Your physical damage taken is reduced by 5% and an additional 10% every 4 sec until you receive a physical attack, stacking up to 4.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 63,
-          "end": 65,
+          "start": 41,
+          "end": 43,
           "old_token": "10",
           "new_token": "5",
           "kind": "percent_value",
@@ -4656,32 +4632,11 @@ window.WOW_PVP_DATA = {
         "icon": "ability_monk_touchofdeath"
       },
       "pve_tooltip": "The cooldown of Touch of Death is reduced by 45 sec.\nTouch of Death deals an additional 15% damage.",
-      "pvp_tooltip": "The cooldown of Touch of Death is reduced by 45 sec.\nTouch of Death deals an additional 6% damage.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 88,
-          "end": 90,
-          "old_token": "15",
-          "new_token": "6",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "15",
-          "new": "6"
-        }
-      ],
+      "pvp_tooltip": "The cooldown of Touch of Death is reduced by 45 sec.\nTouch of Death deals an additional 15% damage.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4709,7 +4664,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Rising Star",
@@ -6602,32 +6557,11 @@ window.WOW_PVP_DATA = {
         "icon": "inv_hand_1h_artifactskywall_d_01"
       },
       "pve_tooltip": "Strike of the Windlord and Whirling Dragon Punch grant you 4 stacks of Thunderfist and an additional stack for each additional enemy struck.\nThunderfist discharges upon melee strikes, dealing (161% of Attack Power) Nature damage.\n(1.5s cooldown)",
-      "pvp_tooltip": "Strike of the Windlord and Whirling Dragon Punch grant you 4 stacks of Thunderfist and an additional stack for each additional enemy struck.\nThunderfist discharges upon melee strikes, dealing (149.73% of Attack Power) Nature damage.\n(1.5s cooldown)",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 193,
-          "end": 196,
-          "old_token": "161",
-          "new_token": "149.73",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "161",
-          "new": "149.73"
-        }
-      ],
+      "pvp_tooltip": "Strike of the Windlord and Whirling Dragon Punch grant you 4 stacks of Thunderfist and an additional stack for each additional enemy struck.\nThunderfist discharges upon melee strikes, dealing (161% of Attack Power) Nature damage.\n(1.5s cooldown)",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6668,7 +6602,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Weapon of Wind",
@@ -6769,10 +6703,20 @@ window.WOW_PVP_DATA = {
         "icon": "inv_glove_leather_pvpmonk_f_01"
       },
       "pve_tooltip": "Strike of the Windlord and Whirling Dragon Punch grant 4 stacks of Teachings of the Monastery.\nTeachings of the Monastery can now stack up to 8 times.\n(3s cooldown)",
-      "pvp_tooltip": "Strike of the Windlord and Whirling Dragon Punch grant 4 stacks of Teachings of the Monastery.\nTeachings of the Monastery can now stack up to 6 times.\n(3s cooldown)",
+      "pvp_tooltip": "Strike of the Windlord and Whirling Dragon Punch grant 3 stacks of Teachings of the Monastery.\nTeachings of the Monastery can now stack up to 6 times.\n(3s cooldown)",
       "tooltip_changed": true,
-      "render_status": "REVIEW_REQUIRED",
+      "render_status": "CHANGED",
       "changes": [
+        {
+          "start": 55,
+          "end": 56,
+          "old_token": "4",
+          "new_token": "3",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        },
         {
           "start": 142,
           "end": 143,
@@ -6786,47 +6730,13 @@ window.WOW_PVP_DATA = {
       ],
       "diagnostics": [
         {
-          "effect_index": null,
-          "status": "CONFLICTING_TRANSFORMS",
-          "reason": "PvE ordinary_value value 4.0 maps to multiple PvP values",
-          "candidates": [
-            {
-              "kind": "ordinary_value",
-              "old": 4.0,
-              "new": 3.0,
-              "unit": null,
-              "effect_index": 1,
-              "effect_text": "Apply Aura: Dummy",
-              "reference_contexts": [
-                "Strike of the Windlord and Whirling Dragon Punch grant $s1 stacks of Teachings of the Monastery."
-              ],
-              "effect_origin": "DIRECT",
-              "dependency_kind": null,
-              "dependency_path": [],
-              "match_ordinal": 1,
-              "match_group_count": 1,
-              "effect_indexes": [
-                1
-              ]
-            },
-            {
-              "kind": "ordinary_value",
-              "old": 4.0,
-              "new": 2.0,
-              "unit": null,
-              "effect_index": 3,
-              "effect_text": "Apply Aura: Add Modifier - Flat (Label): Modifies Max Stacks (37)",
-              "reference_contexts": [],
-              "effect_origin": "DIRECT",
-              "dependency_kind": null,
-              "dependency_path": [],
-              "match_ordinal": 1,
-              "match_group_count": 1,
-              "effect_indexes": [
-                3
-              ]
-            }
-          ]
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "4",
+          "new": "3"
         },
         {
           "effect_indexes": [
@@ -6911,7 +6821,7 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 2
     },
     {
       "talent_name": "Slicing Winds",
@@ -7110,16 +7020,6 @@ window.WOW_PVP_DATA = {
         },
         {
           "effect_indexes": [
-            2
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "spell_power_coefficient",
-          "old": 91.0,
-          "new": 84.63,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
             1
           ],
           "status": "APPLIED",
@@ -7292,7 +7192,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 4
+      "render_effect_count": 3
     },
     {
       "talent_name": "Skyfire Heel",
@@ -8076,7 +7976,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 450615,
           "source_spell_id": 450617,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 0.6 )",
+          "effect_text": "School Damage (2): physical (AP mod: 0.6)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8103,9 +8003,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1
@@ -9316,7 +9217,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 443110,
           "source_spell_id": 443127,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 2 )",
+          "effect_text": "School Damage (2): nature (AP mod: 2)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9343,9 +9244,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1
@@ -9877,7 +9779,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1248989,
           "source_spell_id": 443038,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 1.65 )",
+          "effect_text": "School Damage (2): nature (AP mod: 1.65)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9906,9 +9808,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -9916,7 +9819,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1248989,
           "source_spell_id": 443039,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 11)",
+          "effect_text": "Direct Heal (10) (SP mod: 11)",
           "base_value": null,
           "spell_pvp_multiplier": 2.25,
           "amount_kind": "direct",
@@ -9935,9 +9838,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -10161,10 +10063,10 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "monk-windwalker",
-  "generated_at": "2026-09-19T16:02:15.828489+00:00",
+  "generated_at": "2026-09-19T17:48:45.661282+00:00",
   "validation": {
     "talents": 148,
-    "changed_tooltips": 22,
+    "changed_tooltips": 20,
     "talents_with_pvp_mechanics": 32,
     "unique_nodes": 127,
     "tree_build": "12.1.0.69875",
@@ -10172,51 +10074,40 @@ window.WOW_PVP_DATA = {
     "drustvar_builds": [
       "12.1.0.69587"
     ],
-    "verification_status": "PARTIAL",
+    "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 10,
+    "source_warning_count": 16,
     "unresolved_count": 0,
-    "review_required_count": 2,
+    "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
       {
         "source": "wowhead",
-        "spell_id": 451250,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=451250'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 443038,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=443038'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 451767,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=451767'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 443039,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=443039'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 451839,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=451839'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 443127,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=443127'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 452130,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=452130'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 450342,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=450342'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 457917,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=457917'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 450596,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=450596'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],
-    "review_required_examples": [
-      {
-        "talent_name": "Fortifying Brew",
-        "spell_id": 388917,
-        "status": "REVIEW_REQUIRED"
-      },
-      {
-        "talent_name": "Knowledge of the Broken Temple",
-        "spell_id": 451529,
-        "status": "REVIEW_REQUIRED"
-      }
-    ]
+    "review_required_examples": []
   }
 };

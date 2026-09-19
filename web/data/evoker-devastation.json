@@ -3969,52 +3969,11 @@
         "icon": "inv_tradeskillitem_lessersorcerersfire"
       },
       "pve_tooltip": "Living Flame deals (26.5144% of Spell Power) damage over 12 sec to enemies, or restores (52% of Spell Power) health to allies over 12 sec. Stacks 3 times.",
-      "pvp_tooltip": "Living Flame deals (27.575% of Spell Power) damage over 12 sec to enemies, or restores (52% of Spell Power) health to allies over 12 sec. Stacks 3 times.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 20,
-          "end": 27,
-          "old_token": "26.5144",
-          "new_token": "27.575",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            2
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "spell_power_coefficient",
-          "old": 232.00099999999998,
-          "new": 241.28104,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "spell_power_coefficient",
-          "old": 780.0,
-          "new": 649.974,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "26.5144",
-          "new": "27.575"
-        }
-      ],
+      "pvp_tooltip": "Living Flame deals (26.5144% of Spell Power) damage over 12 sec to enemies, or restores (52% of Spell Power) health to allies over 12 sec. Stacks 3 times.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4121,7 +4080,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 0
     },
     {
       "talent_name": "Animosity",
@@ -5510,28 +5469,13 @@
       "pve_tooltip": "Deep Breath deals\n20% increased\ndamage and can be cast again within 18 sec of being used.\nRecall will be available after the second cast if talented.",
       "pvp_tooltip": "Deep Breath deals\n20% increased\ndamage and can be cast again within 18 sec of being used.\nRecall will be available after the second cast if talented.",
       "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [
-        {
-          "start": 18,
-          "end": 20,
-          "old_token": "20",
-          "new_token": "20",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
+      "render_status": "REVIEW_REQUIRED",
+      "changes": [],
       "diagnostics": [
         {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "20",
-          "new": "20"
+          "effect_index": 1,
+          "status": "NO_RENDERABLE_VALUE",
+          "reason": "No safe player-facing numeric transformation"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6859,18 +6803,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "spell_power_coefficient",
-          "old": 140.0,
-          "new": 145.6,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6911,7 +6844,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Wingleader",
@@ -8024,32 +7957,11 @@
         "icon": "ability_evoker_deepbreath"
       },
       "pve_tooltip": "Deep Breath can now be steered in your desired direction.\nIn addition, Deep Breath burns targets for (840% of Spell Power) Volcanic damage over 12 sec.\nThe duration of this effect is extended when Deep Breath is cast multiple times.",
-      "pvp_tooltip": "Deep Breath can now be steered in your desired direction.\nIn addition, Deep Breath burns targets for (873.6% of Spell Power) Volcanic damage over 12 sec.\nThe duration of this effect is extended when Deep Breath is cast multiple times.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 102,
-          "end": 105,
-          "old_token": "840",
-          "new_token": "873.6",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "840",
-          "new": "873.6"
-        }
-      ],
+      "pvp_tooltip": "Deep Breath can now be steered in your desired direction.\nIn addition, Deep Breath burns targets for (840% of Spell Power) Volcanic damage over 12 sec.\nThe duration of this effect is extended when Deep Breath is cast multiple times.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8090,7 +8002,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Consume Flame",
@@ -8195,10 +8107,10 @@
   ],
   "fetch_errors": [],
   "slug": "evoker-devastation",
-  "generated_at": "2026-09-19T15:56:56.882292+00:00",
+  "generated_at": "2026-09-19T17:43:16.459423+00:00",
   "validation": {
     "talents": 125,
-    "changed_tooltips": 12,
+    "changed_tooltips": 10,
     "talents_with_pvp_mechanics": 20,
     "unique_nodes": 115,
     "tree_build": "12.1.0.69875",
@@ -8210,7 +8122,7 @@
     "fetch_error_count": 0,
     "source_warning_count": 0,
     "unresolved_count": 1,
-    "review_required_count": 0,
+    "review_required_count": 1,
     "fetch_error_examples": [],
     "source_warning_examples": [],
     "unresolved_examples": [
@@ -8223,6 +8135,12 @@
         "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)"
       }
     ],
-    "review_required_examples": []
+    "review_required_examples": [
+      {
+        "talent_name": "Strafing Run",
+        "spell_id": 1266151,
+        "status": "REVIEW_REQUIRED"
+      }
+    ]
   }
 }

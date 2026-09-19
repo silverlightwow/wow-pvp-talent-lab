@@ -78,33 +78,12 @@
         },
         {
           "effect_indexes": [
-            1,
-            2
+            1
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
           "kind": "percent_value",
           "old": 25.0,
           "new": 12.0,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "attack_power_coefficient",
-          "old": 53.0,
-          "new": 44.519999999999996,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "percent_value",
-          "old": 30.0,
-          "new": 20.00001,
           "full_tooltip_match_count": 0
         },
         {
@@ -311,7 +290,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 6
+      "render_effect_count": 3
     },
     {
       "talent_name": "Blind",
@@ -2673,7 +2652,7 @@
             1
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 10.0,
           "new": 5.0,
           "full_tooltip_match_count": 0
@@ -3978,18 +3957,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "ordinary_value",
-          "old": 15.0,
-          "new": 10.000005,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4024,7 +3992,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Fade to Nothing",
@@ -5651,18 +5619,14 @@
           "new_token": "3",
           "kind": "percent_value",
           "effect_indexes": [
-            1,
-            2,
-            3
+            1
           ]
         }
       ],
       "diagnostics": [
         {
           "effect_indexes": [
-            1,
-            2,
-            3
+            1
           ],
           "status": "APPLIED",
           "kind": "percent_value",
@@ -5745,7 +5709,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 1
     },
     {
       "talent_name": "Dark Shadow",
@@ -5795,13 +5759,13 @@
         "icon": "spell_warlock_demonsoul"
       },
       "pve_tooltip": "Shadow Dance increases all ability damage by 5%, and Shadowstrike and Shuriken Storm damage by an additional 5%.",
-      "pvp_tooltip": "Shadow Dance increases all ability damage by 3.3335%, and Shadowstrike and Shuriken Storm damage by an additional 5%.",
+      "pvp_tooltip": "Shadow Dance increases all ability damage by 5%, and Shadowstrike and Shuriken Storm damage by an additional 3.3335%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 45,
-          "end": 46,
+          "start": 109,
+          "end": 110,
           "old_token": "5",
           "new_token": "3.3335",
           "kind": "percent_value",
@@ -6590,32 +6554,11 @@
         "icon": "inv_ability_deathstalkerrogue_deathstalkersmark"
       },
       "pve_tooltip": "Shadowstrike applies 3 stacks of Deathstalker's Mark to your target, unless Deathstalker's Mark is already active. You learn Mark for Death.\nWhen you spend 5 or more combo points on attacks against a Marked target you consume an application of Deathstalker's Mark, dealing (156% of Attack Power) Plague damage.\nMark for Death\nMove your active Deathstalker's Mark to your target.",
-      "pvp_tooltip": "Shadowstrike applies 3 stacks of Deathstalker's Mark to your target, unless Deathstalker's Mark is already active. You learn Mark for Death.\nWhen you spend 5 or more combo points on attacks against a Marked target you consume an application of Deathstalker's Mark, dealing (131.04% of Attack Power) Plague damage.\nMark for Death\nMove your active Deathstalker's Mark to your target.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 274,
-          "end": 277,
-          "old_token": "156",
-          "new_token": "131.04",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "156",
-          "new": "131.04"
-        }
-      ],
+      "pvp_tooltip": "Shadowstrike applies 3 stacks of Deathstalker's Mark to your target, unless Deathstalker's Mark is already active. You learn Mark for Death.\nWhen you spend 5 or more combo points on attacks against a Marked target you consume an application of Deathstalker's Mark, dealing (156% of Attack Power) Plague damage.\nMark for Death\nMove your active Deathstalker's Mark to your target.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6656,7 +6599,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Clear the Witnesses",
@@ -8291,32 +8234,11 @@
         "icon": "ability_rogue_disguise"
       },
       "pve_tooltip": "Blind and Shroud of Concealment have 10% reduced cooldown.\nPick Pocket and Sap have 10 yd increased range.",
-      "pvp_tooltip": "Blind and Shroud of Concealment have 10% reduced cooldown.\nPick Pocket and Sap have 5 yd increased range.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 84,
-          "end": 86,
-          "old_token": "10",
-          "new_token": "5",
-          "kind": "distance_yards",
-          "effect_indexes": [
-            2
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "APPLIED",
-          "kind": "distance_yards",
-          "old": "10",
-          "new": "5"
-        }
-      ],
+      "pvp_tooltip": "Blind and Shroud of Concealment have 10% reduced cooldown.\nPick Pocket and Sap have 10 yd increased range.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8344,7 +8266,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Devious Distractions",
@@ -8880,10 +8802,10 @@
   ],
   "fetch_errors": [],
   "slug": "rogue-subtlety",
-  "generated_at": "2026-09-19T16:06:42.935359+00:00",
+  "generated_at": "2026-09-19T17:52:46.103317+00:00",
   "validation": {
     "talents": 135,
-    "changed_tooltips": 17,
+    "changed_tooltips": 15,
     "talents_with_pvp_mechanics": 25,
     "unique_nodes": 113,
     "tree_build": "12.1.0.69875",

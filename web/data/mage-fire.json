@@ -50,7 +50,7 @@
         "icon": "ability_mage_moltenarmor"
       },
       "pve_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you in flame, absorbing [30 / 100 * Total Health * (1 + Versatility)] damage [\nMolten Skin\n:\nand reducing Physical damage taken by 0%\n] for 1 min.\nMelee attacks against you cause the attacker to take (14.375% of Spell Power) Fire damage.",
-      "pvp_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you in flame, absorbing [22.5 / 100 * Total Health * (1 + Versatility)] damage [\nMolten Skin\n:\nand reducing Physical damage taken by 0%\n] for 1 min.\nMelee attacks against you cause the attacker to take (13.0812% of Spell Power) Fire damage.",
+      "pvp_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you in flame, absorbing [22.5 / 100 * Total Health * (1 + Versatility)] damage [\nMolten Skin\n:\nand reducing Physical damage taken by 0%\n] for 1 min.\nMelee attacks against you cause the attacker to take (14.375% of Spell Power) Fire damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -63,16 +63,6 @@
           "effect_indexes": [
             2
           ]
-        },
-        {
-          "start": 258,
-          "end": 264,
-          "old_token": "14.375",
-          "new_token": "13.0812",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
         }
       ],
       "diagnostics": [
@@ -84,15 +74,6 @@
           "kind": "ordinary_value",
           "old": "30",
           "new": "22.5"
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "14.375",
-          "new": "13.0812"
         }
       ],
       "has_pvp_mechanics": true,
@@ -182,7 +163,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Alter Time",
@@ -1446,18 +1427,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "percent_value",
-          "old": 3.0,
-          "new": 1.5,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -1489,7 +1459,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Improved Blink",
@@ -2715,32 +2685,11 @@
         "icon": "spell_frost_glacier"
       },
       "pve_tooltip": "Enemies hit by Cone of Cold are frozen in place for 5 sec instead of snared.\nWhen your roots expire or are dispelled, your target is snared by 80%, decaying over 3 sec.",
-      "pvp_tooltip": "Enemies hit by Cone of Cold are frozen in place for 5 sec instead of snared.\nWhen your roots expire or are dispelled, your target is snared by 70%, decaying over 3 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 143,
-          "end": 145,
-          "old_token": "80",
-          "new_token": "70",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "80",
-          "new": "70"
-        }
-      ],
+      "pvp_tooltip": "Enemies hit by Cone of Cold are frozen in place for 5 sec instead of snared.\nWhen your roots expire or are dispelled, your target is snared by 80%, decaying over 3 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -2773,7 +2722,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Ice Nova",
@@ -2982,32 +2931,11 @@
         "icon": "spell_frost_ring_of_frost"
       },
       "pve_tooltip": "8% of base mana\n30 yd range\n2 sec cast\n45 sec cooldown\nSummons a Ring of Frost for 10 sec at the target location. Enemies entering the ring are incapacitated for 10 sec. Limit 10 targets.\nWhen the incapacitate expires, enemies are slowed by 65% for 4 sec.",
-      "pvp_tooltip": "8% of base mana\n30 yd range\n2 sec cast\n45 sec cooldown\nSummons a Ring of Frost for 10 sec at the target location. Enemies entering the ring are incapacitated for 10 sec. Limit 10 targets.\nWhen the incapacitate expires, enemies are slowed by 50% for 4 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 241,
-          "end": 243,
-          "old_token": "65",
-          "new_token": "50",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "65",
-          "new": "50"
-        }
-      ],
+      "pvp_tooltip": "8% of base mana\n30 yd range\n2 sec cast\n45 sec cooldown\nSummons a Ring of Frost for 10 sec at the target location. Enemies entering the ring are incapacitated for 10 sec. Limit 10 targets.\nWhen the incapacitate expires, enemies are slowed by 65% for 4 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -3040,7 +2968,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Mass Polymorph",
@@ -3569,16 +3497,6 @@
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "spell_power_coefficient",
-          "old": 6.2,
-          "new": 5.642,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "638.8",
@@ -3659,7 +3577,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Fire Blast",
@@ -3867,7 +3785,7 @@
         "icon": "spell_fire_selfdestruct"
       },
       "pve_tooltip": "1.5% of base mana\n40 yd range\n3.5 sec cast\nCalls down a pillar of fire, burning all enemies within the area for (345% of Spell Power) Fire damage. Deals reduced damage beyond 8 targets.\nThis spell is cast at a selected location.\nLeaves behind a patch of flames that burns enemies within it for (6 * (15% of Spell Power)) Fire damage over 6 sec.",
-      "pvp_tooltip": "1.5% of base mana\n40 yd range\n3.5 sec cast\nCalls down a pillar of fire, burning all enemies within the area for (313.95% of Spell Power) Fire damage. Deals reduced damage beyond 8 targets.\nThis spell is cast at a selected location.\nLeaves behind a patch of flames that burns enemies within it for (6 * (13.65% of Spell Power)) Fire damage over 6 sec.",
+      "pvp_tooltip": "1.5% of base mana\n40 yd range\n3.5 sec cast\nCalls down a pillar of fire, burning all enemies within the area for (313.95% of Spell Power) Fire damage. Deals reduced damage beyond 8 targets.\nThis spell is cast at a selected location.\nLeaves behind a patch of flames that burns enemies within it for (6 * (15% of Spell Power)) Fire damage over 6 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3876,16 +3794,6 @@
           "end": 116,
           "old_token": "345",
           "new_token": "313.95",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        },
-        {
-          "start": 300,
-          "end": 302,
-          "old_token": "15",
-          "new_token": "13.65",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -3901,15 +3809,6 @@
           "kind": "spell_power_coefficient",
           "old": "345",
           "new": "313.95"
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "15",
-          "new": "13.65"
         }
       ],
       "has_pvp_mechanics": true,
@@ -3984,7 +3883,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Flamestrike",
@@ -4031,7 +3930,7 @@
         "icon": "spell_fire_selfdestruct"
       },
       "pve_tooltip": "1.5% of base mana\n40 yd range\n3.5 sec cast\nCalls down a pillar of fire on your target, burning all enemies within the area for (345% of Spell Power) Fire damage. Deals reduced damage beyond 8 targets.\nThis spell is cast at your target.\nLeaves behind a patch of flames that burns enemies within it for (6 * (15% of Spell Power)) Fire damage over 6 sec.",
-      "pvp_tooltip": "1.5% of base mana\n40 yd range\n3.5 sec cast\nCalls down a pillar of fire on your target, burning all enemies within the area for (313.95% of Spell Power) Fire damage. Deals reduced damage beyond 8 targets.\nThis spell is cast at your target.\nLeaves behind a patch of flames that burns enemies within it for (6 * (13.65% of Spell Power)) Fire damage over 6 sec.",
+      "pvp_tooltip": "1.5% of base mana\n40 yd range\n3.5 sec cast\nCalls down a pillar of fire on your target, burning all enemies within the area for (313.95% of Spell Power) Fire damage. Deals reduced damage beyond 8 targets.\nThis spell is cast at your target.\nLeaves behind a patch of flames that burns enemies within it for (6 * (15% of Spell Power)) Fire damage over 6 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4040,16 +3939,6 @@
           "end": 131,
           "old_token": "345",
           "new_token": "313.95",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        },
-        {
-          "start": 307,
-          "end": 309,
-          "old_token": "15",
-          "new_token": "13.65",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -4065,15 +3954,6 @@
           "kind": "spell_power_coefficient",
           "old": "345",
           "new": "313.95"
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "15",
-          "new": "13.65"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4148,7 +4028,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Ignition",
@@ -4637,15 +4517,30 @@
         "icon": "spell_fire_soulburn"
       },
       "pve_tooltip": "1% of base mana\n40 yd range\n1.5 sec cast\nScorches an enemy for (100% of Spell Power) Fire damage.\nWhen cast on a target below 30% health, Scorch is a guaranteed critical strike.\nCastable while moving.",
-      "pvp_tooltip": "1% of base mana\n40 yd range\n1.5 sec cast\nScorches an enemy for (100% of Spell Power) Fire damage.\nWhen cast on a target below 30% health, Scorch is a guaranteed critical strike.\nCastable while moving.",
-      "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
-      "changes": [],
+      "pvp_tooltip": "1% of base mana\n40 yd range\n1.5 sec cast\nScorches an enemy for (273% of Spell Power) Fire damage.\nWhen cast on a target below 30% health, Scorch is a guaranteed critical strike.\nCastable while moving.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 64,
+          "end": 67,
+          "old_token": "100",
+          "new_token": "273",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
-          "effect_index": 1,
-          "status": "NO_RENDERABLE_VALUE",
-          "reason": "No safe player-facing numeric transformation"
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "100",
+          "new": "273"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6366,16 +6261,14 @@
           "new_token": "5",
           "kind": "percent_value",
           "effect_indexes": [
-            2,
-            3
+            2
           ]
         }
       ],
       "diagnostics": [
         {
           "effect_indexes": [
-            2,
-            3
+            2
           ],
           "status": "APPLIED",
           "kind": "percent_value",
@@ -6434,7 +6327,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Pyroclasm",
@@ -6844,28 +6737,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "spell_power_coefficient",
-          "old": 91.53999999999999,
-          "new": 83.3014,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "spell_power_coefficient",
-          "old": 24.8,
-          "new": 22.568,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7043,7 +6915,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Imbued Warding",
@@ -7265,61 +7137,33 @@
         "icon": "spell_frostfire_orb"
       },
       "pve_tooltip": "Casting Frostfire spells has a 10% chance to activate Frostfire Empowerment, causing your next Frostfire Bolt to be instant cast, deal 60% increased damage, explode for 60% of its damage to nearby enemies. Damage reduced beyond 5 targets.",
-      "pvp_tooltip": "Casting Frostfire spells has a 10% chance to activate Frostfire Empowerment, causing your next Frostfire Bolt to be instant cast, deal 60% increased damage, explode for 60% of its damage to nearby enemies. Damage reduced beyond 5 targets.",
-      "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
-      "changes": [],
-      "diagnostics": [
+      "pvp_tooltip": "Casting Frostfire spells has a 10% chance to activate Frostfire Empowerment, causing your next Frostfire Bolt to be instant cast, deal 10% increased damage, explode for 30% of its damage to nearby enemies. Damage reduced beyond 5 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
         {
-          "effect_index": null,
-          "status": "CONFLICTING_TRANSFORMS",
-          "reason": "PvE percent_value value 60.0 maps to multiple PvP values",
-          "candidates": [
-            {
-              "kind": "percent_value",
-              "old": 60.0,
-              "new": 30.0,
-              "unit": "%",
-              "effect_index": 2,
-              "effect_text": "Apply Aura: Dummy",
-              "reference_contexts": [
-                "Casting Frostfire spells has a $s3% chance to activate Frostfire Empowerment, causing your next Frostfire Bolt to be instant cast, deal $431177s3% increased damage, explode for $s2% of its damage to nearby enemies. Damage reduced beyond $s5 targets.$?c2[]["
-              ],
-              "effect_origin": "DIRECT",
-              "dependency_kind": null,
-              "dependency_path": [],
-              "match_ordinal": 1,
-              "match_group_count": 2,
-              "effect_indexes": [
-                2,
-                6
-              ]
-            },
-            {
-              "kind": "percent_value",
-              "old": 60.0,
-              "new": 10.001999999999999,
-              "unit": "%",
-              "effect_index": 3,
-              "effect_text": "Apply Aura: Dummy",
-              "reference_contexts": [
-                "Description : Casting Frostfire spells has a $s3% chance to activate Frostfire Empowerment, causing your next Frostfire Bolt to be instant cast, deal $431177s3% increased damage, explode for $s2% of its damage to nearby enemies. Damage reduced beyond $s5 targets.$?c2[][",
-                "Your next Frostfire Bolt deals $s3% additional damage, explodes for $<ffe>% of its damage to nearby enemies, and is instant cast."
-              ],
-              "effect_origin": "DEPENDENCY",
-              "dependency_kind": "REFERENCED",
-              "dependency_path": [
-                431176,
-                431177
-              ],
-              "match_ordinal": 1,
-              "match_group_count": 1,
-              "effect_indexes": [
-                3
-              ]
-            }
+          "start": 169,
+          "end": 171,
+          "old_token": "60",
+          "new_token": "30",
+          "kind": "percent_value",
+          "effect_indexes": [
+            2,
+            6
           ]
         },
+        {
+          "start": 135,
+          "end": 137,
+          "old_token": "60",
+          "new_token": "10",
+          "kind": "percent_value",
+          "effect_indexes": [
+            3
+          ]
+        }
+      ],
+      "diagnostics": [
         {
           "effect_indexes": [
             1
@@ -7329,6 +7173,25 @@
           "old": 100.0,
           "new": 50.0,
           "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "60",
+          "new": "10"
+        },
+        {
+          "effect_indexes": [
+            2,
+            6
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "60",
+          "new": "30"
         }
       ],
       "has_pvp_mechanics": true,
@@ -8267,26 +8130,6 @@
           ],
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
-          "old": 91.53999999999999,
-          "new": 83.3014,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "spell_power_coefficient",
-          "old": 24.8,
-          "new": 22.568,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "spell_power_coefficient",
           "old": 86.0,
           "new": 109.56400000000001,
           "full_tooltip_match_count": 0
@@ -8580,7 +8423,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 7
+      "render_effect_count": 5
     },
     {
       "talent_name": "Spellfire Spheres",
@@ -8996,26 +8839,6 @@
       "diagnostics": [
         {
           "effect_indexes": [
-            3
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "percent_value",
-          "old": 15.0,
-          "new": 10.05,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            4
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "percent_value",
-          "old": 25.0,
-          "new": 15.0,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
             1
           ],
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
@@ -9181,7 +9004,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 1
     },
     {
       "talent_name": "Time Twist",
@@ -9857,7 +9680,7 @@
   ],
   "fetch_errors": [],
   "slug": "mage-fire",
-  "generated_at": "2026-09-19T16:00:07.250726+00:00",
+  "generated_at": "2026-09-19T17:46:55.261594+00:00",
   "validation": {
     "talents": 127,
     "changed_tooltips": 23,
@@ -9868,25 +9691,14 @@
     "drustvar_builds": [
       "12.1.0.69587"
     ],
-    "verification_status": "PARTIAL",
+    "verification_status": "VERIFIED",
     "fetch_error_count": 0,
     "source_warning_count": 0,
     "unresolved_count": 0,
-    "review_required_count": 2,
+    "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [],
     "unresolved_examples": [],
-    "review_required_examples": [
-      {
-        "talent_name": "Scorch",
-        "spell_id": 2948,
-        "status": "REVIEW_REQUIRED"
-      },
-      {
-        "talent_name": "Frostfire Empowerment",
-        "spell_id": 431176,
-        "status": "REVIEW_REQUIRED"
-      }
-    ]
+    "review_required_examples": []
   }
 }

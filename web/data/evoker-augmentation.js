@@ -3219,7 +3219,7 @@ window.WOW_PVP_DATA = {
         "icon": "spell_sarkareth"
       },
       "pve_tooltip": "1% of base mana\n1.5 sec cast\n30 sec cooldown\nIncrease all damage dealing allies' primary stat by (8 +\n0\n)% of your own and increase your own damage by 20% for 10 sec.\nEbon Might will split its effect when applied to more than 2 other allies.\nEruption, [\nBreath of Eons\n/ Deep Breath], and your empower spells extend the duration of these effects.",
-      "pvp_tooltip": "0.5% of base mana\n1.5 sec cast\n30 sec cooldown\nIncrease all damage dealing allies' primary stat by (10 +\n0\n)% of your own and increase your own damage by 20% for 10 sec.\nEbon Might will split its effect when applied to more than 2 other allies.\nEruption, [\nBreath of Eons\n/ Deep Breath], and your empower spells extend the duration of these effects.",
+      "pvp_tooltip": "1% of base mana\n1.5 sec cast\n30 sec cooldown\nIncrease all damage dealing allies' primary stat by (10 +\n0\n)% of your own and increase your own damage by 20% for 10 sec.\nEbon Might will split its effect when applied to more than 2 other allies.\nEruption, [\nBreath of Eons\n/ Deep Breath], and your empower spells extend the duration of these effects.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3232,28 +3232,9 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ]
-        },
-        {
-          "start": 0,
-          "end": 1,
-          "old_token": "1",
-          "new_token": "0.5",
-          "kind": "ordinary_value",
-          "effect_indexes": [
-            1
-          ]
         }
       ],
       "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "ordinary_value",
-          "old": "1",
-          "new": "0.5"
-        },
         {
           "effect_indexes": [
             1
@@ -3344,7 +3325,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Eruption",
@@ -3940,30 +3921,9 @@ window.WOW_PVP_DATA = {
       "pve_tooltip": "15 - 50 yd range\nInstant\n2 min cooldown\nFly to the targeted location, exposing a\nTemporal Wound\non enemies in your path for 10 sec [\nSands of Time\n:\nand granting Ebon Might for 5 sec\n/ .]\nRemoves roots and grants immunity to movement impairing and loss of control effects while flying.\nTemporal Wound\n15% of damage dealt by allies affected by Ebon Might is copied as additional Arcane damage to enemies after 10 sec.\nDamage is reduced if Ebon Might affects more than 2 other allies.",
       "pvp_tooltip": "15 - 50 yd range\nInstant\n2 min cooldown\nFly to the targeted location, exposing a\nTemporal Wound\non enemies in your path for 10 sec [\nSands of Time\n:\nand granting Ebon Might for 5 sec\n/ .]\nRemoves roots and grants immunity to movement impairing and loss of control effects while flying.\nTemporal Wound\n15% of damage dealt by allies affected by Ebon Might is copied as additional Arcane damage to enemies after 10 sec.\nDamage is reduced if Ebon Might affects more than 2 other allies.",
       "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "AMBIGUOUS_TEXT_MATCH",
-          "kind": "ordinary_value",
-          "old": 15.0,
-          "new": 22.5,
-          "match_count": 2
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "ordinary_value",
-          "old": 1.0,
-          "new": 0.5,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4027,7 +3987,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Defy Fate",
@@ -4726,32 +4686,11 @@ window.WOW_PVP_DATA = {
         "icon": "ability_evoker_prescience"
       },
       "pve_tooltip": "25 yd range\nInstant\n12 sec recharge\n2 Charges\nGrant an ally the gift of foresight, increasing their critical strike chance by\n3\n% [\nFate Mirror\n:\nand occasionally copying their damage and healing spells at 15% power\n]for 18 sec.\nAffects the nearest ally within 25 yds, preferring damage dealers with their cooldowns active, if you do not have an ally targeted.",
-      "pvp_tooltip": "25 yd range\nInstant\n12 sec recharge\n2 Charges\nGrant an ally the gift of foresight, increasing their critical strike chance by\n6\n% [\nFate Mirror\n:\nand occasionally copying their damage and healing spells at 15% power\n]for 18 sec.\nAffects the nearest ally within 25 yds, preferring damage dealers with their cooldowns active, if you do not have an ally targeted.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 126,
-          "end": 127,
-          "old_token": "3",
-          "new_token": "6",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "3",
-          "new": "6"
-        }
-      ],
+      "pvp_tooltip": "25 yd range\nInstant\n12 sec recharge\n2 Charges\nGrant an ally the gift of foresight, increasing their critical strike chance by\n3\n% [\nFate Mirror\n:\nand occasionally copying their damage and healing spells at 15% power\n]for 18 sec.\nAffects the nearest ally within 25 yds, preferring damage dealers with their cooldowns active, if you do not have an ally targeted.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4784,7 +4723,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Unyielding Domain",
@@ -6841,18 +6780,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "spell_power_coefficient",
-          "old": 140.0,
-          "new": 182.0,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6893,7 +6821,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Wingleader",
@@ -7470,32 +7398,11 @@ window.WOW_PVP_DATA = {
         "icon": "ability_evoker_deepbreath"
       },
       "pve_tooltip": "Deep Breath\ncan now be steered in your desired direction.\nIn addition,\nDeep Breath\nburns targets for (840% of Spell Power) Volcanic damage over 12 sec.",
-      "pvp_tooltip": "Deep Breath\ncan now be steered in your desired direction.\nIn addition,\nDeep Breath\nburns targets for (1092% of Spell Power) Volcanic damage over 12 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 102,
-          "end": 105,
-          "old_token": "840",
-          "new_token": "1092",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "840",
-          "new": "1092"
-        }
-      ],
+      "pvp_tooltip": "Deep Breath\ncan now be steered in your desired direction.\nIn addition,\nDeep Breath\nburns targets for (840% of Spell Power) Volcanic damage over 12 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7536,7 +7443,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Chrono Flame",
@@ -7696,40 +7603,10 @@ window.WOW_PVP_DATA = {
       "diagnostics": [
         {
           "effect_indexes": [
-            1,
-            2
+            1
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
           "kind": "percent_value",
-          "old": 1.0,
-          "new": 0.5,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            3,
-            8,
-            9
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
-          "old": 1.0,
-          "new": 0.5,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            4,
-            5,
-            6,
-            7,
-            13,
-            16,
-            17,
-            18
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "duration_seconds",
           "old": 1.0,
           "new": 0.5,
           "full_tooltip_match_count": 0
@@ -8103,7 +7980,7 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 13
+      "render_effect_count": 1
     },
     {
       "talent_name": "Chronoboon",
@@ -8851,10 +8728,10 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "evoker-augmentation",
-  "generated_at": "2026-09-19T15:56:31.172858+00:00",
+  "generated_at": "2026-09-19T17:43:56.098479+00:00",
   "validation": {
     "talents": 134,
-    "changed_tooltips": 11,
+    "changed_tooltips": 9,
     "talents_with_pvp_mechanics": 15,
     "unique_nodes": 120,
     "tree_build": "12.1.0.69875",
@@ -8862,20 +8739,14 @@ window.WOW_PVP_DATA = {
     "drustvar_builds": [
       "12.1.0.69587"
     ],
-    "verification_status": "PARTIAL",
+    "verification_status": "VERIFIED",
     "fetch_error_count": 0,
     "source_warning_count": 0,
     "unresolved_count": 0,
-    "review_required_count": 1,
+    "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [],
     "unresolved_examples": [],
-    "review_required_examples": [
-      {
-        "talent_name": "Breath of Eons",
-        "spell_id": 403631,
-        "status": "REVIEW_REQUIRED"
-      }
-    ]
+    "review_required_examples": []
   }
 };

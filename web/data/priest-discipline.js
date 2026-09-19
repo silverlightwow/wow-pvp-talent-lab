@@ -980,38 +980,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "spell_power_coefficient",
-          "old": 578.742,
-          "new": 596.10426,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "spell_power_coefficient",
-          "old": 682.0,
-          "new": 590.0663999999999,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "spell_power_coefficient",
-          "old": 874.0,
-          "new": 756.1848,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -1150,7 +1119,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 0
     },
     {
       "talent_name": "Body and Soul",
@@ -1795,18 +1764,14 @@ window.WOW_PVP_DATA = {
           "new_token": "25",
           "kind": "percent_value",
           "effect_indexes": [
-            1,
-            5,
-            6
+            1
           ]
         }
       ],
       "diagnostics": [
         {
           "effect_indexes": [
-            1,
-            5,
-            6
+            1
           ],
           "status": "APPLIED",
           "kind": "percent_value",
@@ -1889,7 +1854,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 1
     },
     {
       "talent_name": "Twin Disciplines",
@@ -4288,7 +4253,7 @@ window.WOW_PVP_DATA = {
         "icon": "ability_priest_ascendance"
       },
       "pve_tooltip": "40 yd range\n1.5 sec cast\n4 min cooldown\nAscend into the air and unleash a massive barrage of Penance bolts, causing [(247% of Spell Power) * 24] Holy damage to enemies or [(578.5% of Spell Power) * 24] healing to allies over 6 sec.\nWhile ascended, gain a shield for 100% of your health. In addition, you are unaffected by knockbacks or crowd control effects.",
-      "pvp_tooltip": "40 yd range\n1.5 sec cast\n4 min cooldown\nAscend into the air and unleash a massive barrage of Penance bolts, causing [(370.5% of Spell Power) * 24] Holy damage to enemies or [(744.8188% of Spell Power) * 24] healing to allies over 6 sec.\nWhile ascended, gain a shield for 100% of your health. In addition, you are unaffected by knockbacks or crowd control effects.",
+      "pvp_tooltip": "40 yd range\n1.5 sec cast\n4 min cooldown\nAscend into the air and unleash a massive barrage of Penance bolts, causing [(370.5% of Spell Power) * 24] Holy damage to enemies or [(578.5% of Spell Power) * 24] healing to allies over 6 sec.\nWhile ascended, gain a shield for 100% of your health. In addition, you are unaffected by knockbacks or crowd control effects.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4297,16 +4262,6 @@ window.WOW_PVP_DATA = {
           "end": 121,
           "old_token": "247",
           "new_token": "370.5",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        },
-        {
-          "start": 173,
-          "end": 178,
-          "old_token": "578.5",
-          "new_token": "744.8188",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -4322,15 +4277,6 @@ window.WOW_PVP_DATA = {
           "kind": "spell_power_coefficient",
           "old": "247",
           "new": "370.5"
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "578.5",
-          "new": "744.8188"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4412,7 +4358,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Power Word: Barrier",
@@ -6489,28 +6435,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "spell_power_coefficient",
-          "old": 93.2,
-          "new": 139.8,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "spell_power_coefficient",
-          "old": 401.1,
-          "new": 413.13300000000004,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6588,7 +6513,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Master the Darkness",
@@ -6634,28 +6559,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "spell_power_coefficient",
-          "old": 93.2,
-          "new": 139.8,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "spell_power_coefficient",
-          "old": 401.1,
-          "new": 413.13300000000004,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6733,7 +6637,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Guiding Light",
@@ -6833,7 +6737,7 @@ window.WOW_PVP_DATA = {
         "icon": "spell_holy_powerwordshield"
       },
       "pve_tooltip": "Power Word: Shield absorbs 30% additional damage.\nAll damage dealt by Penance, Smite and Holy Nova increased by 15%.",
-      "pvp_tooltip": "Power Word: Shield absorbs 25% additional damage.\nAll damage dealt by Penance, Smite and Holy Nova increased by 20%.",
+      "pvp_tooltip": "Power Word: Shield absorbs 25% additional damage.\nAll damage dealt by Penance, Smite and Holy Nova increased by 15%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -6846,30 +6750,9 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             2
           ]
-        },
-        {
-          "start": 112,
-          "end": 114,
-          "old_token": "15",
-          "new_token": "20",
-          "kind": "percent_value",
-          "effect_indexes": [
-            3
-          ]
         }
       ],
       "diagnostics": [
-        {
-          "effect_indexes": [
-            4,
-            5
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "percent_value",
-          "old": 40.0,
-          "new": 15.0,
-          "full_tooltip_match_count": 2
-        },
         {
           "effect_indexes": [
             2
@@ -6878,15 +6761,6 @@ window.WOW_PVP_DATA = {
           "kind": "percent_value",
           "old": "30",
           "new": "25"
-        },
-        {
-          "effect_indexes": [
-            3
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "15",
-          "new": "20"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6988,7 +6862,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 4
+      "render_effect_count": 1
     },
     {
       "talent_name": "Preemptive Care",
@@ -8901,34 +8775,11 @@ window.WOW_PVP_DATA = {
         "icon": "ability_rogue_sanguinaryvein"
       },
       "pve_tooltip": "Shadow Word: Pain and Entropic Rift deal damage 25% more often.",
-      "pvp_tooltip": "Shadow Word: Pain and Entropic Rift deal damage 14.9425% more often.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 48,
-          "end": 50,
-          "old_token": "25",
-          "new_token": "14.9425",
-          "kind": "frequency_more_often",
-          "effect_indexes": [
-            1,
-            2
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1,
-            2
-          ],
-          "status": "APPLIED",
-          "kind": "frequency_more_often",
-          "old": "25",
-          "new": "14.9425"
-        }
-      ],
+      "pvp_tooltip": "Shadow Word: Pain and Entropic Rift deal damage 25% more often.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8980,7 +8831,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Void Infusion",
@@ -9331,32 +9182,11 @@ window.WOW_PVP_DATA = {
         "icon": "inv_cosmicvoid_groundsate"
       },
       "pve_tooltip": "Each time Penance damages or heals, Entropic Rift is empowered, increasing its damage and size by 10%.\nAfter Entropic Rift ends it collapses, dealing (440% of Spell Power) Shadow damage split amongst enemy targets within 15 yds.",
-      "pvp_tooltip": "Each time Penance damages or heals, Entropic Rift is empowered, increasing its damage and size by 10%.\nAfter Entropic Rift ends it collapses, dealing (858% of Spell Power) Shadow damage split amongst enemy targets within 15 yds.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 151,
-          "end": 154,
-          "old_token": "440",
-          "new_token": "858",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "440",
-          "new": "858"
-        }
-      ],
+      "pvp_tooltip": "Each time Penance damages or heals, Entropic Rift is empowered, increasing its damage and size by 10%.\nAfter Entropic Rift ends it collapses, dealing (440% of Spell Power) Shadow damage split amongst enemy targets within 15 yds.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -9406,15 +9236,15 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     }
   ],
   "fetch_errors": [],
   "slug": "priest-discipline",
-  "generated_at": "2026-09-19T16:05:01.736720+00:00",
+  "generated_at": "2026-09-19T17:51:18.360807+00:00",
   "validation": {
     "talents": 133,
-    "changed_tooltips": 23,
+    "changed_tooltips": 21,
     "talents_with_pvp_mechanics": 34,
     "unique_nodes": 118,
     "tree_build": "12.1.0.69875",

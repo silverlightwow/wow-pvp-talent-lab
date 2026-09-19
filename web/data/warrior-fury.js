@@ -694,28 +694,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "attack_power_coefficient",
-          "old": 38.0931,
-          "new": 50.37812475,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "attack_power_coefficient",
-          "old": 124.581,
-          "new": 143.26815,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -779,7 +758,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Second Wind",
@@ -931,20 +910,10 @@ window.WOW_PVP_DATA = {
         "icon": "ability_heroicleap"
       },
       "pve_tooltip": "Reduces the cooldown of Heroic Leap by 15 sec and Heroic Leap also increases your movement speed by 70% for 3 sec.",
-      "pvp_tooltip": "Reduces the cooldown of Heroic Leap by 10.5 sec and Heroic Leap also increases your movement speed by 50.4% for 3 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Heroic Leap by 15 sec and Heroic Leap also increases your movement speed by 50.4% for 3 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
-        {
-          "start": 39,
-          "end": 41,
-          "old_token": "15",
-          "new_token": "10.5",
-          "kind": "duration_seconds",
-          "effect_indexes": [
-            2
-          ]
-        },
         {
           "start": 100,
           "end": 102,
@@ -966,15 +935,6 @@ window.WOW_PVP_DATA = {
           "old": 15000.0,
           "new": 10500.0,
           "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "APPLIED",
-          "kind": "duration_seconds",
-          "old": "15",
-          "new": "10.5"
         },
         {
           "effect_indexes": [
@@ -1066,7 +1026,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 2
     },
     {
       "talent_name": "Pain and Gain",
@@ -2865,19 +2825,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            2,
-            3
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "percent_value",
-          "old": 10.0,
-          "new": 25.0,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -2937,7 +2885,7 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Battlefield Commander",
@@ -5883,8 +5831,7 @@ window.WOW_PVP_DATA = {
           "kind": "percent_value",
           "effect_indexes": [
             1,
-            3,
-            4
+            3
           ]
         }
       ],
@@ -5892,8 +5839,7 @@ window.WOW_PVP_DATA = {
         {
           "effect_indexes": [
             1,
-            3,
-            4
+            3
           ],
           "status": "APPLIED",
           "kind": "percent_value",
@@ -5976,7 +5922,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 2
     },
     {
       "talent_name": "Bladestorm",
@@ -6576,18 +6522,14 @@ window.WOW_PVP_DATA = {
           "new_token": "1",
           "kind": "percent_value",
           "effect_indexes": [
-            1,
-            2,
-            3
+            1
           ]
         }
       ],
       "diagnostics": [
         {
           "effect_indexes": [
-            1,
-            2,
-            3
+            1
           ],
           "status": "APPLIED",
           "kind": "percent_value",
@@ -6685,7 +6627,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 1
     },
     {
       "talent_name": "Thunder Blast",
@@ -8176,18 +8118,14 @@ window.WOW_PVP_DATA = {
           "new_token": "1",
           "kind": "percent_value",
           "effect_indexes": [
-            1,
-            2,
-            3
+            2
           ]
         }
       ],
       "diagnostics": [
         {
           "effect_indexes": [
-            1,
-            2,
-            3
+            2
           ],
           "status": "APPLIED",
           "kind": "percent_value",
@@ -8285,7 +8223,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 1
     },
     {
       "talent_name": "Reap the Storm",
@@ -8600,7 +8538,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "warrior-fury",
-  "generated_at": "2026-09-19T16:10:31.956134+00:00",
+  "generated_at": "2026-09-19T17:57:10.051049+00:00",
   "validation": {
     "talents": 122,
     "changed_tooltips": 17,

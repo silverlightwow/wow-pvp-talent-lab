@@ -69,16 +69,6 @@ window.WOW_PVP_DATA = {
       "diagnostics": [
         {
           "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "percent_value",
-          "old": 30.0,
-          "new": 49.8,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
             2
           ],
           "status": "APPLIED",
@@ -167,7 +157,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Auras of the Resolute",
@@ -3001,16 +2991,14 @@ window.WOW_PVP_DATA = {
           "new_token": "6.6667",
           "kind": "percent_value",
           "effect_indexes": [
-            2,
-            5
+            2
           ]
         }
       ],
       "diagnostics": [
         {
           "effect_indexes": [
-            2,
-            5
+            2
           ],
           "status": "APPLIED",
           "kind": "percent_value",
@@ -3079,7 +3067,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Improved Blessing of Protection",
@@ -4887,52 +4875,11 @@ window.WOW_PVP_DATA = {
         "icon": "ability_paladin_judgementblue"
       },
       "pve_tooltip": "Judgment deals 10% increased damage and increases your movement speed by 10% for 5 sec.\nIf you have Greater Judgment, Judgment slows enemies by\n30\n% for 8 sec.",
-      "pvp_tooltip": "Judgment deals 10% increased damage and increases your movement speed by 10% for 5 sec.\nIf you have Greater Judgment, Judgment slows enemies by\n20\n% for 8 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 144,
-          "end": 146,
-          "old_token": "30",
-          "new_token": "20",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "spell_power_coefficient",
-          "old": 100.739,
-          "new": 102.75378,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            3
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "spell_power_coefficient",
-          "old": 75.5547,
-          "new": 77.065794,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "30",
-          "new": "20"
-        }
-      ],
+      "pvp_tooltip": "Judgment deals 10% increased damage and increases your movement speed by 10% for 5 sec.\nIf you have Greater Judgment, Judgment slows enemies by\n30\n% for 8 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -5041,7 +4988,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 0
     },
     {
       "talent_name": "Avenging Wrath",
@@ -5104,16 +5051,6 @@ window.WOW_PVP_DATA = {
         }
       ],
       "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "percent_value",
-          "old": 50.0,
-          "new": 33.33,
-          "full_tooltip_match_count": 0
-        },
         {
           "effect_indexes": [
             2
@@ -5240,7 +5177,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 2
     },
     {
       "talent_name": "Final Verdict",
@@ -5844,18 +5781,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "attack_power_coefficient",
-          "old": 22.95,
-          "new": 27.310499999999998,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -5898,7 +5824,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Improved Judgment",
@@ -6391,51 +6317,11 @@ window.WOW_PVP_DATA = {
         "icon": "inv_sword_2h_artifactashbringer_d_01"
       },
       "pve_tooltip": "Crusader Strike loses a charge but is now a combo ability.\nTemplar Strike slashes an enemy for (187.5% of Attack Power) Radiant damage and gets followed up by Templar Slash that deals (215.625% of Attack Power) Radiant damage. Templar Slash always critically strikes.",
-      "pvp_tooltip": "Crusader Strike loses a charge but is now a combo ability.\nTemplar Strike slashes an enemy for (159.375% of Attack Power) Radiant damage and gets followed up by Templar Slash that deals (183.2812% of Attack Power) Radiant damage. Templar Slash always critically strikes.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 185,
-          "end": 192,
-          "old_token": "215.625",
-          "new_token": "183.2812",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        },
-        {
-          "start": 96,
-          "end": 101,
-          "old_token": "187.5",
-          "new_token": "159.375",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "187.5",
-          "new": "159.375"
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "215.625",
-          "new": "183.2812"
-        }
-      ],
+      "pvp_tooltip": "Crusader Strike loses a charge but is now a combo ability.\nTemplar Strike slashes an enemy for (187.5% of Attack Power) Radiant damage and gets followed up by Templar Slash that deals (215.625% of Attack Power) Radiant damage. Templar Slash always critically strikes.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6513,7 +6399,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Crusading Strikes",
@@ -7121,7 +7007,7 @@ window.WOW_PVP_DATA = {
       "pve_tooltip": "30 yd range\nInstant\n1 min cooldown\nUnleash a heavenly blast around the target, dealing (505.312% of Attack Power) Holy damage to all enemies within 10 yds, and call down a hammer that slowly falls from the sky upon the target.\nAfter 10 sec, they suffer 20% of the Holy damage you dealt to all targets affected by the initial blast during that time.",
       "pvp_tooltip": "30 yd range\nInstant\n1 min cooldown\nUnleash a heavenly blast around the target, dealing (343.6122% of Attack Power) Holy damage to all enemies within 10 yds, and call down a hammer that slowly falls from the sky upon the target.\nAfter 10 sec, they suffer 20% of the Holy damage you dealt to all targets affected by the initial blast during that time.",
       "tooltip_changed": true,
-      "render_status": "REVIEW_REQUIRED",
+      "render_status": "CHANGED",
       "changes": [
         {
           "start": 88,
@@ -7135,79 +7021,6 @@ window.WOW_PVP_DATA = {
         }
       ],
       "diagnostics": [
-        {
-          "effect_index": null,
-          "status": "CONFLICTING_TRANSFORMS",
-          "reason": "PvE percent_value value 15.0 maps to multiple PvP values",
-          "candidates": [
-            {
-              "kind": "percent_value",
-              "old": 15.0,
-              "new": 10.000005,
-              "unit": "%",
-              "effect_index": 2,
-              "effect_text": "Apply Aura: Modifies Damage/Healing Done",
-              "reference_contexts": [
-                "$DP=$?a223819[${1+$223819s2/100}][${1}]",
-                "Your next Holy Power spending ability is free and deals $s2% increased damage and healing."
-              ],
-              "effect_origin": "DEPENDENCY",
-              "dependency_kind": "REFERENCED",
-              "dependency_path": [
-                343527,
-                223819
-              ],
-              "match_ordinal": 1,
-              "match_group_count": 1,
-              "effect_indexes": [
-                2
-              ]
-            },
-            {
-              "kind": "percent_value",
-              "old": 15.0,
-              "new": 7.5,
-              "unit": "%",
-              "effect_index": 4,
-              "effect_text": "Apply Aura: Mod All Damage Done % by Caster",
-              "reference_contexts": [
-                "Call down a blast of heavenly energy, dealing $s2 Holy damage to all targets in the area and causing them to take $s3% increased damage from your single target Holy Power abilities, and $s4% increased damage from other Holy Power abilities for $d.",
-                "Taking $w3% increased damage from $@auracaster's single target Holy Power abilities and $s4% increased damage from their other Holy Power abilities."
-              ],
-              "effect_origin": "DEPENDENCY",
-              "dependency_kind": "REFERENCED",
-              "dependency_path": [
-                343527,
-                343721
-              ],
-              "match_ordinal": 1,
-              "match_group_count": 1,
-              "effect_indexes": [
-                4
-              ]
-            }
-          ]
-        },
-        {
-          "effect_indexes": [
-            3
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "percent_value",
-          "old": 30.0,
-          "new": 15.0,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "attack_power_coefficient",
-          "old": 390.0,
-          "new": 331.5,
-          "full_tooltip_match_count": 0
-        },
         {
           "effect_indexes": [
             2
@@ -7423,7 +7236,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 5
+      "render_effect_count": 1
     },
     {
       "talent_name": "Seething Flames",
@@ -7481,22 +7294,11 @@ window.WOW_PVP_DATA = {
           "new_token": "193.0979",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
-            1,
             1
           ]
         }
       ],
       "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "percent_value",
-          "old": 50.0,
-          "new": 30.0,
-          "full_tooltip_match_count": 0
-        },
         {
           "effect_indexes": [
             2
@@ -7509,7 +7311,6 @@ window.WOW_PVP_DATA = {
         },
         {
           "effect_indexes": [
-            1,
             1
           ],
           "status": "APPLIED",
@@ -7673,7 +7474,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 4
+      "render_effect_count": 2
     },
     {
       "talent_name": "Empyrean Legacy",
@@ -8394,42 +8195,11 @@ window.WOW_PVP_DATA = {
         "icon": "inv_ability_heraldofthesunpaladin_dawnlight"
       },
       "pve_tooltip": "Casting Wake of Ashes causes your next 2 Holy Power spending abilities to apply Dawnlight on your target, dealing (255% of Spell Power) Radiant damage or (538.2% of Spell Power) healing over 8 sec.\n4% of Dawnlight's damage and healing radiates to nearby allies or enemies, reduced beyond 5 targets.\n(250ms cooldown)",
-      "pvp_tooltip": "Casting Wake of Ashes causes your next 2 Holy Power spending abilities to apply Dawnlight on your target, dealing (281.775% of Spell Power) Radiant damage or (538.2% of Spell Power) healing over 8 sec.\n4% of Dawnlight's damage and healing radiates to nearby allies or enemies, reduced beyond 5 targets.\n(250ms cooldown)",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 115,
-          "end": 118,
-          "old_token": "255",
-          "new_token": "281.775",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            3
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "percent_value",
-          "old": 50.0,
-          "new": 30.0,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "255",
-          "new": "281.775"
-        }
-      ],
+      "pvp_tooltip": "Casting Wake of Ashes causes your next 2 Holy Power spending abilities to apply Dawnlight on your target, dealing (255% of Spell Power) Radiant damage or (538.2% of Spell Power) healing over 8 sec.\n4% of Dawnlight's damage and healing radiates to nearby allies or enemies, reduced beyond 5 targets.\n(250ms cooldown)",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8508,7 +8278,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Zealous Vindication",
@@ -9580,16 +9350,6 @@ window.WOW_PVP_DATA = {
       "diagnostics": [
         {
           "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "spell_power_coefficient",
-          "old": 63.74999999999999,
-          "new": 70.44375,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
             3
           ],
           "status": "APPLIED",
@@ -9676,7 +9436,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Will of the Dawn",
@@ -9881,52 +9641,11 @@ window.WOW_PVP_DATA = {
         "icon": "spell_priest_burningwill"
       },
       "pve_tooltip": "Hammer of Wrath and Divine Storm critical strikes cause the target to burn for an additional (48% of Spell Power) Radiant damage over 4 sec.",
-      "pvp_tooltip": "Hammer of Wrath and Divine Storm critical strikes cause the target to burn for an additional (40.8% of Spell Power) Radiant damage over 4 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 94,
-          "end": 96,
-          "old_token": "48",
-          "new_token": "40.8",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "spell_power_coefficient",
-          "old": 63.74999999999999,
-          "new": 70.44375,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            3
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "percent_value",
-          "old": 50.0,
-          "new": 30.0,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "48",
-          "new": "40.8"
-        }
-      ],
+      "pvp_tooltip": "Hammer of Wrath and Divine Storm critical strikes cause the target to burn for an additional (48% of Spell Power) Radiant damage over 4 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -10050,7 +9769,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 0
     },
     {
       "talent_name": "Solar Grace",
@@ -10379,16 +10098,6 @@ window.WOW_PVP_DATA = {
       "diagnostics": [
         {
           "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "attack_power_coefficient",
-          "old": 144.0,
-          "new": 122.39999999999999,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
             2
           ],
           "status": "APPLIED",
@@ -10461,7 +10170,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Seal of the Templar",
@@ -10944,10 +10653,10 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "paladin-retribution",
-  "generated_at": "2026-09-19T16:03:53.780570+00:00",
+  "generated_at": "2026-09-19T17:50:08.875442+00:00",
   "validation": {
     "talents": 137,
-    "changed_tooltips": 28,
+    "changed_tooltips": 24,
     "talents_with_pvp_mechanics": 38,
     "unique_nodes": 116,
     "tree_build": "12.1.0.69875",
@@ -10955,20 +10664,14 @@ window.WOW_PVP_DATA = {
     "drustvar_builds": [
       "12.1.0.69587"
     ],
-    "verification_status": "PARTIAL",
+    "verification_status": "VERIFIED",
     "fetch_error_count": 0,
     "source_warning_count": 0,
     "unresolved_count": 0,
-    "review_required_count": 1,
+    "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [],
     "unresolved_examples": [],
-    "review_required_examples": [
-      {
-        "talent_name": "Execution Sentence",
-        "spell_id": 343527,
-        "status": "REVIEW_REQUIRED"
-      }
-    ]
+    "review_required_examples": []
   }
 };

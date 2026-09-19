@@ -169,32 +169,11 @@ window.WOW_PVP_DATA = {
         "icon": "ability_demonhunter_felblade"
       },
       "pve_tooltip": "15 yd range\nInstant\n12 sec cooldown\nCharge to your target and deal (122.94% of Attack Power)%\nFire\ndamage.\n[\nFracture\n:\nGenerates 15 Fury.\n] [\nDemonic Wards\n:\nGenerates 15 Fury.\n]\nGenerates 15 Fury.",
-      "pvp_tooltip": "15 yd range\nInstant\n12 sec cooldown\nCharge to your target and deal (141.6269% of Attack Power)%\nFire\ndamage.\n[\nFracture\n:\nGenerates 15 Fury.\n] [\nDemonic Wards\n:\nGenerates 15 Fury.\n]\nGenerates 15 Fury.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 68,
-          "end": 74,
-          "old_token": "122.94",
-          "new_token": "141.6269",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            2
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "122.94",
-          "new": "141.6269"
-        }
-      ],
+      "pvp_tooltip": "15 yd range\nInstant\n12 sec cooldown\nCharge to your target and deal (122.94% of Attack Power)%\nFire\ndamage.\n[\nFracture\n:\nGenerates 15 Fury.\n] [\nDemonic Wards\n:\nGenerates 15 Fury.\n]\nGenerates 15 Fury.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -237,7 +216,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Sigil of Misery",
@@ -353,16 +332,6 @@ window.WOW_PVP_DATA = {
       "diagnostics": [
         {
           "effect_indexes": [
-            2
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "attack_power_coefficient",
-          "old": 16.0,
-          "new": 15.36,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
             1
           ],
           "status": "APPLIED",
@@ -440,7 +409,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Unrestrained Fury",
@@ -1643,53 +1612,20 @@ window.WOW_PVP_DATA = {
         "icon": "ability_demonhunter_soulcleave2"
       },
       "pve_tooltip": "Leech increased by 6%.\nGain an additional 6% leech while Metamorphosis is active.",
-      "pvp_tooltip": "Leech increased by 5%.\nGain an additional 5% leech while Metamorphosis is active.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 19,
-          "end": 20,
-          "old_token": "6",
-          "new_token": "5",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1,
-            2
-          ]
-        },
-        {
-          "start": 42,
-          "end": 43,
-          "old_token": "6",
-          "new_token": "5",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1,
-            2
-          ]
-        }
-      ],
+      "pvp_tooltip": "Leech increased by 6%.\nGain an additional 6% leech while Metamorphosis is active.",
+      "tooltip_changed": false,
+      "render_status": "REVIEW_REQUIRED",
+      "changes": [],
       "diagnostics": [
         {
           "effect_indexes": [
-            1,
-            2
+            1
           ],
-          "status": "APPLIED",
+          "status": "AMBIGUOUS_TEXT_MATCH",
           "kind": "percent_value",
-          "old": "6",
-          "new": "5"
-        },
-        {
-          "effect_indexes": [
-            1,
-            2
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "6",
-          "new": "5"
+          "old": 6.0,
+          "new": 4.999998,
+          "match_count": 2
         }
       ],
       "has_pvp_mechanics": true,
@@ -1743,7 +1679,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Felfire Haste",
@@ -3442,16 +3378,6 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "attack_power_coefficient",
-          "old": 12.466000000000001,
-          "new": 16.3952832,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "attack_power_coefficient",
           "old": 33.4,
@@ -3556,7 +3482,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Never Say Die",
@@ -4885,18 +4811,14 @@ window.WOW_PVP_DATA = {
           "new_token": "8",
           "kind": "percent_value",
           "effect_indexes": [
-            1,
-            2,
-            3
+            1
           ]
         }
       ],
       "diagnostics": [
         {
           "effect_indexes": [
-            1,
-            2,
-            3
+            1
           ],
           "status": "APPLIED",
           "kind": "percent_value",
@@ -4994,7 +4916,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 1
     },
     {
       "talent_name": "Isolated Prey",
@@ -5134,32 +5056,11 @@ window.WOW_PVP_DATA = {
         "icon": "inv_ability_demonhunter_thehunt"
       },
       "pve_tooltip": "50 yd range\n1 sec cast\n1.5 min cooldown\nCharge to your target, striking them for (744.24% of Attack Power) Chaos damage, rooting them in place for 1.5 sec and inflicting (480.6% of Attack Power) Chaos damage over 6 sec to up to 5 enemies in your path.",
-      "pvp_tooltip": "50 yd range\n1 sec cast\n1.5 min cooldown\nCharge to your target, striking them for (744.24% of Attack Power) Chaos damage, rooting them in place for 1.5 sec and inflicting (461.376% of Attack Power) Chaos damage over 6 sec to up to 5 enemies in your path.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 171,
-          "end": 176,
-          "old_token": "480.6",
-          "new_token": "461.376",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "480.6",
-          "new": "461.376"
-        }
-      ],
+      "pvp_tooltip": "50 yd range\n1 sec cast\n1.5 min cooldown\nCharge to your target, striking them for (744.24% of Attack Power) Chaos damage, rooting them in place for 1.5 sec and inflicting (480.6% of Attack Power) Chaos damage over 6 sec to up to 5 enemies in your path.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -5272,7 +5173,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Serrated Glaive",
@@ -7137,62 +7038,11 @@ window.WOW_PVP_DATA = {
         "icon": "spell_fire_felflamestrike"
       },
       "pve_tooltip": "When enhanced by Reaver's Glaive, Blade Dance casts 3 additional glaive slashes to nearby targets. Deals reduced damage beyond 8 targets.\nIf cast after Chaos Strike, cast\n6\nslashes instead.",
-      "pvp_tooltip": "When enhanced by Reaver's Glaive, Blade Dance casts 3 additional glaive slashes to nearby targets. Deals reduced damage beyond 8 targets.\nIf cast after Chaos Strike, cast\n3\nslashes instead.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 171,
-          "end": 172,
-          "old_token": "6",
-          "new_token": "3",
-          "kind": "ordinary_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "attack_power_coefficient",
-          "old": 124.0,
-          "new": 119.03999999999999,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            4
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
-          "old": 100.0,
-          "new": 33.0,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "attack_power_coefficient",
-          "old": 385.0,
-          "new": 369.59999999999997,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "ordinary_value",
-          "old": "6",
-          "new": "3"
-        }
-      ],
+      "pvp_tooltip": "When enhanced by Reaver's Glaive, Blade Dance casts 3 additional glaive slashes to nearby targets. Deals reduced damage beyond 8 targets.\nIf cast after Chaos Strike, cast\n6\nslashes instead.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7350,7 +7200,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 4
+      "render_effect_count": 0
     },
     {
       "talent_name": "Evasive Action",
@@ -8129,48 +7979,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "attack_power_coefficient",
-          "old": 124.0,
-          "new": 119.03999999999999,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "ordinary_value",
-          "old": 6.0,
-          "new": 3.0,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            4
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "ordinary_value",
-          "old": 100.0,
-          "new": 33.0,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "attack_power_coefficient",
-          "old": 385.0,
-          "new": 369.59999999999997,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8336,7 +8145,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 4
+      "render_effect_count": 0
     },
     {
       "talent_name": "Warblade's Hunger",
@@ -8558,32 +8367,11 @@ window.WOW_PVP_DATA = {
         "icon": "inv_ability_felscarreddemonhunter_demonsurge"
       },
       "pve_tooltip": "Metamorphosis now also causes Demon Blades to generate 3 additional Fury.\nWhile demon form is active, the first cast of each empowered ability induces a Demonsurge, causing you to explode with Fel energy, dealing (280% of Attack Power) Chaos damage to nearby enemies. Deals reduced damage beyond 8 targets.",
-      "pvp_tooltip": "Metamorphosis now also causes Demon Blades to generate 3 additional Fury.\nWhile demon form is active, the first cast of each empowered ability induces a Demonsurge, causing you to explode with Fel energy, dealing (215.04% of Attack Power) Chaos damage to nearby enemies. Deals reduced damage beyond 8 targets.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 214,
-          "end": 217,
-          "old_token": "280",
-          "new_token": "215.04",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
+      "pvp_tooltip": "Metamorphosis now also causes Demon Blades to generate 3 additional Fury.\nWhile demon form is active, the first cast of each empowered ability induces a Demonsurge, causing you to explode with Fel energy, dealing (280% of Attack Power) Chaos damage to nearby enemies. Deals reduced damage beyond 8 targets.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
       "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "spell_power_coefficient",
-          "old": 625.0,
-          "new": 400.0,
-          "full_tooltip_match_count": 1
-        },
         {
           "effect_indexes": [
             2
@@ -8593,25 +8381,6 @@ window.WOW_PVP_DATA = {
           "old": 44.0,
           "new": 42.239999999999995,
           "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "percent_value",
-          "old": 70.0,
-          "new": 50.00002,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "280",
-          "new": "215.04"
         }
       ],
       "has_pvp_mechanics": true,
@@ -8759,7 +8528,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 4
+      "render_effect_count": 1
     },
     {
       "talent_name": "Wave of Debilitation",
@@ -8805,7 +8574,7 @@ window.WOW_PVP_DATA = {
         "icon": "spell_fire_felfirenova"
       },
       "pve_tooltip": "Chaos Nova slows enemies by 60% and reduces attack and cast speed by 15% for 5 sec after its stun fades.",
-      "pvp_tooltip": "Chaos Nova slows enemies by 40% and reduces attack and cast speed by 6% for 5 sec after its stun fades.",
+      "pvp_tooltip": "Chaos Nova slows enemies by 40% and reduces attack and cast speed by 15% for 5 sec after its stun fades.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -8818,16 +8587,6 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ]
-        },
-        {
-          "start": 69,
-          "end": 71,
-          "old_token": "15",
-          "new_token": "6",
-          "kind": "percent_value",
-          "effect_indexes": [
-            3
-          ]
         }
       ],
       "diagnostics": [
@@ -8839,15 +8598,6 @@ window.WOW_PVP_DATA = {
           "kind": "percent_value",
           "old": "60",
           "new": "40"
-        },
-        {
-          "effect_indexes": [
-            3
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "15",
-          "new": "6"
         }
       ],
       "has_pvp_mechanics": true,
@@ -8911,7 +8661,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Pursuit of Angriness",
@@ -9669,18 +9419,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            5
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "percent_value",
-          "old": 125.0,
-          "new": 50.0,
-          "full_tooltip_match_count": 1
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -9708,7 +9447,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Monster Rising",
@@ -9865,28 +9604,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "attack_power_coefficient",
-          "old": 280.0,
-          "new": 215.04,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "spell_power_coefficient",
-          "old": 625.0,
-          "new": 400.0,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -9958,15 +9676,15 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     }
   ],
   "fetch_errors": [],
   "slug": "demon-hunter-havoc",
-  "generated_at": "2026-09-19T15:54:10.188637+00:00",
+  "generated_at": "2026-09-19T17:40:40.489744+00:00",
   "validation": {
     "talents": 125,
-    "changed_tooltips": 24,
+    "changed_tooltips": 19,
     "talents_with_pvp_mechanics": 42,
     "unique_nodes": 109,
     "tree_build": "12.1.0.69875",
@@ -9974,14 +9692,20 @@ window.WOW_PVP_DATA = {
     "drustvar_builds": [
       "12.1.0.69587"
     ],
-    "verification_status": "VERIFIED",
+    "verification_status": "PARTIAL",
     "fetch_error_count": 0,
     "source_warning_count": 0,
     "unresolved_count": 0,
-    "review_required_count": 0,
+    "review_required_count": 1,
     "fetch_error_examples": [],
     "source_warning_examples": [],
     "unresolved_examples": [],
-    "review_required_examples": []
+    "review_required_examples": [
+      {
+        "talent_name": "Soul Rending",
+        "spell_id": 204909,
+        "status": "REVIEW_REQUIRED"
+      }
+    ]
   }
 };

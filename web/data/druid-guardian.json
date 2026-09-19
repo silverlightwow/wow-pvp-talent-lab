@@ -1369,7 +1369,7 @@
         "icon": "ability_mage_firestarter"
       },
       "pve_tooltip": "1.8% of base mana\n40 yd range\nInstant\nA quick beam of solar light burns the enemy\nfor (21.2% of Spell Power) Nature damage and then an additional (165.6% of Spell Power) Nature damage over 18 sec.",
-      "pvp_tooltip": "1.8% of base mana\n40 yd range\nInstant\nA quick beam of solar light burns the enemy\nfor (28.196% of Spell Power) Nature damage and then an additional (220.248% of Spell Power) Nature damage over 18 sec.",
+      "pvp_tooltip": "1.8% of base mana\n40 yd range\nInstant\nA quick beam of solar light burns the enemy\nfor (28.196% of Spell Power) Nature damage and then an additional (165.6% of Spell Power) Nature damage over 18 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -1382,16 +1382,6 @@
           "effect_indexes": [
             1
           ]
-        },
-        {
-          "start": 147,
-          "end": 152,
-          "old_token": "165.6",
-          "new_token": "220.248",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            2
-          ]
         }
       ],
       "diagnostics": [
@@ -1403,15 +1393,6 @@
           "kind": "spell_power_coefficient",
           "old": "21.2",
           "new": "28.196"
-        },
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "165.6",
-          "new": "220.248"
         }
       ],
       "has_pvp_mechanics": true,
@@ -1475,7 +1456,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Primal Fury",
@@ -3513,32 +3494,11 @@
         "icon": "spell_holy_blessingofagility"
       },
       "pve_tooltip": "40 yd range\nInstant\n2 min cooldown\nPerform a powerful off-role ability depending on your currently active shapeshift form.\nNon-shapeshifted:\nEmpowered Wild Growth that heals up to 5 injured allies within 30 yards of the target for [(336.7% of Spell Power) * 750 / 100] over 7 sec.\nCat Form:\nUnleash an empowered Feral Frenzy, clawing your target 5 times for [5 * (16.3% of Attack Power) * 1000 / 100] Physical damage and an additional [5 * 1000 / 100 * (32.67% of Attack Power) * 6 / 2] Bleed damage over 6 sec. Awards 5 combo points.\nMoonkin Form:\nCall down waves of empowered falling stars upon enemies within 40 yds, dealing [54 * (27% of Spell Power)] Astral damage over 8 sec.",
-      "pvp_tooltip": "40 yd range\nInstant\n2 min cooldown\nPerform a powerful off-role ability depending on your currently active shapeshift form.\nNon-shapeshifted:\nEmpowered Wild Growth that heals up to 5 injured allies within 30 yards of the target for [(336.7% of Spell Power) * 750 / 100] over 7 sec.\nCat Form:\nUnleash an empowered Feral Frenzy, clawing your target 5 times for [5 * (16.3% of Attack Power) * 1000 / 100] Physical damage and an additional [5 * 1000 / 100 * (32.67% of Attack Power) * 6 / 2] Bleed damage over 6 sec. Awards 5 combo points.\nMoonkin Form:\nCall down waves of empowered falling stars upon enemies within 40 yds, dealing [54 * (22.491% of Spell Power)] Astral damage over 8 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 635,
-          "end": 637,
-          "old_token": "27",
-          "new_token": "22.491",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "27",
-          "new": "22.491"
-        }
-      ],
+      "pvp_tooltip": "40 yd range\nInstant\n2 min cooldown\nPerform a powerful off-role ability depending on your currently active shapeshift form.\nNon-shapeshifted:\nEmpowered Wild Growth that heals up to 5 injured allies within 30 yards of the target for [(336.7% of Spell Power) * 750 / 100] over 7 sec.\nCat Form:\nUnleash an empowered Feral Frenzy, clawing your target 5 times for [5 * (16.3% of Attack Power) * 1000 / 100] Physical damage and an additional [5 * 1000 / 100 * (32.67% of Attack Power) * 6 / 2] Bleed damage over 6 sec. Awards 5 combo points.\nMoonkin Form:\nCall down waves of empowered falling stars upon enemies within 40 yds, dealing [54 * (27% of Spell Power)] Astral damage over 8 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -3571,7 +3531,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Innervate",
@@ -4770,32 +4730,11 @@
         "icon": "inv_misc_thornnecklace"
       },
       "pve_tooltip": "Sharp brambles protect you, absorbing and reflecting up to 0 damage from each attack.\nWhile Barkskin is active, the brambles also deal (7.5% of Attack Power) Nature damage to all nearby enemies every 1 sec.",
-      "pvp_tooltip": "Sharp brambles protect you, absorbing and reflecting up to 0 damage from each attack.\nWhile Barkskin is active, the brambles also deal (3.75% of Attack Power) Nature damage to all nearby enemies every 1 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 136,
-          "end": 139,
-          "old_token": "7.5",
-          "new_token": "3.75",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "7.5",
-          "new": "3.75"
-        }
-      ],
+      "pvp_tooltip": "Sharp brambles protect you, absorbing and reflecting up to 0 damage from each attack.\nWhile Barkskin is active, the brambles also deal (7.5% of Attack Power) Nature damage to all nearby enemies every 1 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4828,7 +4767,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Soul of the Forest",
@@ -5873,7 +5812,6 @@
           "new_token": "4",
           "kind": "percent_value",
           "effect_indexes": [
-            1,
             2
           ]
         }
@@ -5881,7 +5819,6 @@
       "diagnostics": [
         {
           "effect_indexes": [
-            1,
             2
           ],
           "status": "APPLIED",
@@ -5941,7 +5878,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Red Moon",
@@ -6675,32 +6612,11 @@
         "icon": "inv_ability_eluneschosendruid_boundlessmoonlight"
       },
       "pve_tooltip": "Lunar Beam\nLunar Beam now causes you to leech life equal to 12% of all damage dealt to enemies within the beam.\nFury of Elune\nFury of Elune now ends with a flash of energy, blasting nearby enemies for (216.32% of Spell Power) Astral damage.",
-      "pvp_tooltip": "Lunar Beam\nLunar Beam now causes you to leech life equal to 12% of all damage dealt to enemies within the beam.\nFury of Elune\nFury of Elune now ends with a flash of energy, blasting nearby enemies for (240.3315% of Spell Power) Astral damage.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 202,
-          "end": 208,
-          "old_token": "216.32",
-          "new_token": "240.3315",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "spell_power_coefficient",
-          "old": "216.32",
-          "new": "240.3315"
-        }
-      ],
+      "pvp_tooltip": "Lunar Beam\nLunar Beam now causes you to leech life equal to 12% of all damage dealt to enemies within the beam.\nFury of Elune\nFury of Elune now ends with a flash of energy, blasting nearby enemies for (216.32% of Spell Power) Astral damage.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6762,7 +6678,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Moon Guardian",
@@ -7130,28 +7046,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "spell_power_coefficient",
-          "old": 21.2,
-          "new": 28.196,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "spell_power_coefficient",
-          "old": 18.4,
-          "new": 24.471999999999998,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7213,7 +7108,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Elune's Grace",
@@ -7724,28 +7619,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "spell_power_coefficient",
-          "old": 216.32,
-          "new": 240.33151999999998,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "spell_power_coefficient",
-          "old": 188.5,
-          "new": 209.4235,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7811,7 +7685,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Ravage",
@@ -8940,10 +8814,10 @@
   ],
   "fetch_errors": [],
   "slug": "druid-guardian",
-  "generated_at": "2026-09-19T15:55:35.815330+00:00",
+  "generated_at": "2026-09-19T17:41:55.849171+00:00",
   "validation": {
     "talents": 143,
-    "changed_tooltips": 9,
+    "changed_tooltips": 6,
     "talents_with_pvp_mechanics": 19,
     "unique_nodes": 121,
     "tree_build": "12.1.0.69875",

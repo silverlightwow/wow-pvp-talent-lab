@@ -440,18 +440,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
-          "old": 10.0,
-          "new": 20.0,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -484,7 +473,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Combat Experience",
@@ -3146,7 +3135,7 @@ window.WOW_PVP_DATA = {
         "icon": "inv_wildfirebomb"
       },
       "pve_tooltip": "10 Focus\n40 yd range\nInstant\n18 sec cooldown\n1 Charge\nHurl a bomb at the target, exploding for (157.95% of Attack Power) Fire damage in a cone and coating enemies in wildfire, scorching them for (125.928% of Attack Power) Fire damage over 6 sec. Deals reduced damage beyond 8 targets.\nDeals 80% increased damage to your primary target.",
-      "pvp_tooltip": "10 Focus\n40 yd range\nInstant\n18 sec cooldown\n1 Charge\nHurl a bomb at the target, exploding for (159.5295% of Attack Power) Fire damage in a cone and coating enemies in wildfire, scorching them for (127.1873% of Attack Power) Fire damage over 6 sec. Deals reduced damage beyond 8 targets.\nDeals 80% increased damage to your primary target.",
+      "pvp_tooltip": "10 Focus\n40 yd range\nInstant\n18 sec cooldown\n1 Charge\nHurl a bomb at the target, exploding for (159.5295% of Attack Power) Fire damage in a cone and coating enemies in wildfire, scorching them for (125.928% of Attack Power) Fire damage over 6 sec. Deals reduced damage beyond 8 targets.\nDeals 80% increased damage to your primary target.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3155,16 +3144,6 @@ window.WOW_PVP_DATA = {
           "end": 102,
           "old_token": "157.95",
           "new_token": "159.5295",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        },
-        {
-          "start": 196,
-          "end": 203,
-          "old_token": "125.928",
-          "new_token": "127.1873",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -3180,15 +3159,6 @@ window.WOW_PVP_DATA = {
           "kind": "attack_power_coefficient",
           "old": "157.95",
           "new": "159.5295"
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "125.928",
-          "new": "127.1873"
         }
       ],
       "has_pvp_mechanics": true,
@@ -3268,7 +3238,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Raptor Strike",
@@ -4002,32 +3972,11 @@ window.WOW_PVP_DATA = {
         "icon": "ability_hunter_sickem"
       },
       "pve_tooltip": "When Strike as One critically strikes, it bleeds its target for an additional (40% of Attack Power) damage over 5 sec.",
-      "pvp_tooltip": "When Strike as One critically strikes, it bleeds its target for an additional (40.4% of Attack Power) damage over 5 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 79,
-          "end": 81,
-          "old_token": "40",
-          "new_token": "40.4",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "40",
-          "new": "40.4"
-        }
-      ],
+      "pvp_tooltip": "When Strike as One critically strikes, it bleeds its target for an additional (40% of Attack Power) damage over 5 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4068,7 +4017,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Two Against Many",
@@ -4170,34 +4119,11 @@ window.WOW_PVP_DATA = {
         "icon": "ability_hunter_mongoosebite"
       },
       "pve_tooltip": "Raptor Strike increases the damage of Raptor Strike by 10% for 8 sec. Multiple applications may overlap.",
-      "pvp_tooltip": "Raptor Strike increases the damage of Raptor Strike by 5% for 8 sec. Multiple applications may overlap.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 55,
-          "end": 57,
-          "old_token": "10",
-          "new_token": "5",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1,
-            2
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1,
-            2
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "10",
-          "new": "5"
-        }
-      ],
+      "pvp_tooltip": "Raptor Strike increases the damage of Raptor Strike by 10% for 8 sec. Multiple applications may overlap.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4263,7 +4189,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Mongoose Rounds",
@@ -7250,61 +7176,11 @@ window.WOW_PVP_DATA = {
         "icon": "inv_ability_packleaderhunter_vicioushunt"
       },
       "pve_tooltip": "While in combat, every 30 sec your next Kill Command summons the aid of a Beast.\nWyvern\nA Wyvern descends from the skies, letting out a battle cry that increases the damage of you and your pets by 10% for 12 sec.\nBoar\nA Boar charges through your target 1 time, dealing (1440% of Attack Power) damage to nearby enemies and an additional (1200% of Attack Power) physical damage to its primary target. Damage reduced beyond 5 targets.\nBear\nA Bear leaps into the fray, rending the flesh of your enemies, dealing (400% of Attack Power) damage over 10 sec to up to\n8\nnearby enemies.",
-      "pvp_tooltip": "While in combat, every 30 sec your next Kill Command summons the aid of a Beast.\nWyvern\nA Wyvern descends from the skies, letting out a battle cry that increases the damage of you and your pets by 10% for 12 sec.\nBoar\nA Boar charges through your target 1 time, dealing (727.2% of Attack Power) damage to nearby enemies and an additional (606% of Attack Power) physical damage to its primary target. Damage reduced beyond 5 targets.\nBear\nA Bear leaps into the fray, rending the flesh of your enemies, dealing (400% of Attack Power) damage over 10 sec to up to\n8\nnearby enemies.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 337,
-          "end": 341,
-          "old_token": "1200",
-          "new_token": "606",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        },
-        {
-          "start": 270,
-          "end": 274,
-          "old_token": "1440",
-          "new_token": "727.2",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "attack_power_coefficient",
-          "old": 40.0,
-          "new": 40.4,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "1440",
-          "new": "727.2"
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "1200",
-          "new": "606"
-        }
-      ],
+      "pvp_tooltip": "While in combat, every 30 sec your next Kill Command summons the aid of a Beast.\nWyvern\nA Wyvern descends from the skies, letting out a battle cry that increases the damage of you and your pets by 10% for 12 sec.\nBoar\nA Boar charges through your target 1 time, dealing (1440% of Attack Power) damage to nearby enemies and an additional (1200% of Attack Power) physical damage to its primary target. Damage reduced beyond 5 targets.\nBear\nA Bear leaps into the fray, rending the flesh of your enemies, dealing (400% of Attack Power) damage over 10 sec to up to\n8\nnearby enemies.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7423,7 +7299,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 0
     },
     {
       "talent_name": "Pack Mentality",
@@ -7844,38 +7720,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "attack_power_coefficient",
-          "old": 1200.0,
-          "new": 606.0,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "attack_power_coefficient",
-          "old": 1440.0,
-          "new": 727.2,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "attack_power_coefficient",
-          "old": 40.0,
-          "new": 40.4,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8006,7 +7851,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 0
     },
     {
       "talent_name": "Hogstrider",
@@ -8052,21 +7897,10 @@ window.WOW_PVP_DATA = {
         "icon": "inv_misc_boarshead"
       },
       "pve_tooltip": "Each time your Boar deals damage, the damage of your next Boomstick is increased by 5%, up to 20%.",
-      "pvp_tooltip": "Each time your Boar deals damage, the damage of your next Boomstick is increased by 2.5%, up to 20%.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 84,
-          "end": 85,
-          "old_token": "5",
-          "new_token": "2.5",
-          "kind": "percent_value",
-          "effect_indexes": [
-            2
-          ]
-        }
-      ],
+      "pvp_tooltip": "Each time your Boar deals damage, the damage of your next Boomstick is increased by 5%, up to 20%.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
       "diagnostics": [
         {
           "effect_indexes": [
@@ -8077,15 +7911,6 @@ window.WOW_PVP_DATA = {
           "old": 100.0,
           "new": 50.0,
           "full_tooltip_match_count": 1
-        },
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "5",
-          "new": "2.5"
         }
       ],
       "has_pvp_mechanics": true,
@@ -8147,7 +7972,7 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Lethal Barbs",
@@ -8583,10 +8408,10 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "hunter-survival",
-  "generated_at": "2026-09-19T15:59:09.042005+00:00",
+  "generated_at": "2026-09-19T17:45:56.256272+00:00",
   "validation": {
     "talents": 127,
-    "changed_tooltips": 20,
+    "changed_tooltips": 16,
     "talents_with_pvp_mechanics": 25,
     "unique_nodes": 109,
     "tree_build": "12.1.0.69875",

@@ -132,32 +132,11 @@
         "icon": "ability_demonhunter_felblade"
       },
       "pve_tooltip": "15 yd range\nInstant\n12 sec cooldown\nCharge to your target and deal (122.94% of Attack Power)%\nFire\ndamage.\n[\nFracture\n:\nGenerates 15 Fury.\n] [\nDemonic Wards\n:\nGenerates 15 Fury.\n]\nGenerates 15 Fury.",
-      "pvp_tooltip": "15 yd range\nInstant\n12 sec cooldown\nCharge to your target and deal (147.528% of Attack Power)%\nFire\ndamage.\n[\nFracture\n:\nGenerates 15 Fury.\n] [\nDemonic Wards\n:\nGenerates 15 Fury.\n]\nGenerates 15 Fury.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 68,
-          "end": 74,
-          "old_token": "122.94",
-          "new_token": "147.528",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            2
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "122.94",
-          "new": "147.528"
-        }
-      ],
+      "pvp_tooltip": "15 yd range\nInstant\n12 sec cooldown\nCharge to your target and deal (122.94% of Attack Power)%\nFire\ndamage.\n[\nFracture\n:\nGenerates 15 Fury.\n] [\nDemonic Wards\n:\nGenerates 15 Fury.\n]\nGenerates 15 Fury.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -190,7 +169,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Sigil of Misery",
@@ -1492,53 +1471,20 @@
         "icon": "ability_demonhunter_soulcleave2"
       },
       "pve_tooltip": "Leech increased by 6%.\nGain an additional 6% leech while Metamorphosis is active.",
-      "pvp_tooltip": "Leech increased by 5%.\nGain an additional 5% leech while Metamorphosis is active.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 19,
-          "end": 20,
-          "old_token": "6",
-          "new_token": "5",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1,
-            2
-          ]
-        },
-        {
-          "start": 42,
-          "end": 43,
-          "old_token": "6",
-          "new_token": "5",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1,
-            2
-          ]
-        }
-      ],
+      "pvp_tooltip": "Leech increased by 6%.\nGain an additional 6% leech while Metamorphosis is active.",
+      "tooltip_changed": false,
+      "render_status": "REVIEW_REQUIRED",
+      "changes": [],
       "diagnostics": [
         {
           "effect_indexes": [
-            1,
-            2
+            1
           ],
-          "status": "APPLIED",
+          "status": "AMBIGUOUS_TEXT_MATCH",
           "kind": "percent_value",
-          "old": "6",
-          "new": "5"
-        },
-        {
-          "effect_indexes": [
-            1,
-            2
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "6",
-          "new": "5"
+          "old": 6.0,
+          "new": 4.999998,
+          "match_count": 2
         }
       ],
       "has_pvp_mechanics": true,
@@ -1592,7 +1538,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Felfire Haste",
@@ -5443,42 +5389,11 @@
         "icon": "spell_fire_felflamestrike"
       },
       "pve_tooltip": "When enhanced by Reaver's Glaive, Soul Cleave casts 3 additional glaive slashes to nearby targets. Deals reduced damage beyond 8 targets.\nIf cast after\n, cast\n6\nslashes instead.",
-      "pvp_tooltip": "When enhanced by Reaver's Glaive, Soul Cleave casts 3 additional glaive slashes to nearby targets. Deals reduced damage beyond 8 targets.\nIf cast after\n, cast\n3\nslashes instead.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 159,
-          "end": 160,
-          "old_token": "6",
-          "new_token": "3",
-          "kind": "ordinary_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            4
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
-          "old": 100.0,
-          "new": 33.0,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "ordinary_value",
-          "old": "6",
-          "new": "3"
-        }
-      ],
+      "pvp_tooltip": "When enhanced by Reaver's Glaive, Soul Cleave casts 3 additional glaive slashes to nearby targets. Deals reduced damage beyond 8 targets.\nIf cast after\n, cast\n6\nslashes instead.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -5540,7 +5455,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Evasive Action",
@@ -6272,28 +6187,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "ordinary_value",
-          "old": 6.0,
-          "new": 3.0,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            4
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "ordinary_value",
-          "old": 100.0,
-          "new": 33.0,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6359,7 +6253,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 0
     },
     {
       "talent_name": "Warblade's Hunger",
@@ -6517,18 +6411,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "spell_power_coefficient",
-          "old": 176.0,
-          "new": 158.4,
-          "full_tooltip_match_count": 1
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6560,7 +6443,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Swift Erasure",
@@ -7140,18 +7023,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "spell_power_coefficient",
-          "old": 176.0,
-          "new": 158.4,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7187,7 +7059,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Meteoric Fall",
@@ -7405,10 +7277,10 @@
   ],
   "fetch_errors": [],
   "slug": "demon-hunter-vengeance",
-  "generated_at": "2026-09-19T15:53:24.855299+00:00",
+  "generated_at": "2026-09-19T17:40:32.163482+00:00",
   "validation": {
     "talents": 123,
-    "changed_tooltips": 9,
+    "changed_tooltips": 6,
     "talents_with_pvp_mechanics": 16,
     "unique_nodes": 112,
     "tree_build": "12.1.0.69875",
@@ -7416,14 +7288,20 @@
     "drustvar_builds": [
       "12.1.0.69587"
     ],
-    "verification_status": "VERIFIED",
+    "verification_status": "PARTIAL",
     "fetch_error_count": 0,
     "source_warning_count": 0,
     "unresolved_count": 0,
-    "review_required_count": 0,
+    "review_required_count": 1,
     "fetch_error_examples": [],
     "source_warning_examples": [],
     "unresolved_examples": [],
-    "review_required_examples": []
+    "review_required_examples": [
+      {
+        "talent_name": "Soul Rending",
+        "spell_id": 204909,
+        "status": "REVIEW_REQUIRED"
+      }
+    ]
   }
 }

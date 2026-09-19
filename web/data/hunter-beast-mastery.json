@@ -440,18 +440,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
-          "old": 10.0,
-          "new": 20.0,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -484,7 +473,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Combat Experience",
@@ -3652,28 +3641,6 @@
       "diagnostics": [
         {
           "effect_indexes": [
-            1,
-            2
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "percent_value",
-          "old": 8.0,
-          "new": 3.68,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            3,
-            4
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
-          "old": 8.0,
-          "new": 8.96,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
             1
           ],
           "status": "APPLIED",
@@ -3826,7 +3793,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 5
+      "render_effect_count": 1
     },
     {
       "talent_name": "Cobra Shot",
@@ -4590,16 +4557,14 @@
           "new_token": "20",
           "kind": "percent_value",
           "effect_indexes": [
-            1,
-            2
+            1
           ]
         }
       ],
       "diagnostics": [
         {
           "effect_indexes": [
-            1,
-            2
+            1
           ],
           "status": "APPLIED",
           "kind": "percent_value",
@@ -4656,7 +4621,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Dire Cleave",
@@ -5253,15 +5218,9 @@
       "pve_tooltip": "Summoning a Dire Beast 8 times sounds the Horn of Valor, summoning either Hati or Fenryr to battle.\nHati\nIncreases the damage of all your pets by 4%.\nFenryr\nPounces your primary target, inflicting a heavy bleed that deals (800% of Attack Power) damage over 8 sec and grants you 4% Haste.",
       "pvp_tooltip": "Summoning a Dire Beast 8 times sounds the Horn of Valor, summoning either Hati or Fenryr to battle.\nHati\nIncreases the damage of all your pets by 4%.\nFenryr\nPounces your primary target, inflicting a heavy bleed that deals (800% of Attack Power) damage over 8 sec and grants you 4% Haste.",
       "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
+      "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_index": 1,
-          "status": "NO_RENDERABLE_VALUE",
-          "reason": "No safe player-facing numeric transformation"
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -5294,7 +5253,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 0
     },
     {
       "talent_name": "Razor Sharp",
@@ -5392,54 +5351,11 @@
         "icon": "ability_druid_primaltenacity"
       },
       "pve_tooltip": "Bestial Wrath provokes your pets to tear into your target, causing your target to bleed for (1440% of Attack Power) damage over 12 sec.",
-      "pvp_tooltip": "Bestial Wrath provokes your pets to tear into your target, causing your target to bleed for (972% of Attack Power) damage over 12 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 93,
-          "end": 97,
-          "old_token": "1440",
-          "new_token": "972",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1,
-            2
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "percent_value",
-          "old": 8.0,
-          "new": 3.68,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            3,
-            4
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "ordinary_value",
-          "old": 8.0,
-          "new": 8.96,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "1440",
-          "new": "972"
-        }
-      ],
+      "pvp_tooltip": "Bestial Wrath provokes your pets to tear into your target, causing your target to bleed for (1440% of Attack Power) damage over 12 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -5602,7 +5518,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 5
+      "render_effect_count": 0
     },
     {
       "talent_name": "Savagery",
@@ -5812,28 +5728,6 @@
       "diagnostics": [
         {
           "effect_indexes": [
-            1,
-            2
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "percent_value",
-          "old": 8.0,
-          "new": 3.68,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            3,
-            4
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "ordinary_value",
-          "old": 8.0,
-          "new": 8.96,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
             1
           ],
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
@@ -6007,7 +5901,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 5
+      "render_effect_count": 1
     },
     {
       "talent_name": "Bloody Frenzy",
@@ -7492,16 +7386,6 @@
       "diagnostics": [
         {
           "effect_indexes": [
-            3
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
-          "old": 50.0,
-          "new": 25.0,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
             4
           ],
           "status": "APPLIED",
@@ -7566,7 +7450,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Howl of the Pack Leader",
@@ -7613,61 +7497,11 @@
         "icon": "inv_ability_packleaderhunter_vicioushunt"
       },
       "pve_tooltip": "While in combat, every 30 sec your next Kill Command summons the aid of a Beast.\nWyvern\nA Wyvern descends from the skies, letting out a battle cry that increases the damage of you and your pets by 10% for 12 sec.\nBoar\nA Boar charges through your target 1 time, dealing (1440% of Attack Power) damage to nearby enemies and an additional (1200% of Attack Power) physical damage to its primary target. Damage reduced beyond 5 targets.\nBear\nA Bear leaps into the fray, rending the flesh of your enemies, dealing (400% of Attack Power) damage over 10 sec to up to\n8\nnearby enemies.",
-      "pvp_tooltip": "While in combat, every 30 sec your next Kill Command summons the aid of a Beast.\nWyvern\nA Wyvern descends from the skies, letting out a battle cry that increases the damage of you and your pets by 10% for 12 sec.\nBoar\nA Boar charges through your target 1 time, dealing (648% of Attack Power) damage to nearby enemies and an additional (540% of Attack Power) physical damage to its primary target. Damage reduced beyond 5 targets.\nBear\nA Bear leaps into the fray, rending the flesh of your enemies, dealing (400% of Attack Power) damage over 10 sec to up to\n8\nnearby enemies.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 337,
-          "end": 341,
-          "old_token": "1200",
-          "new_token": "540",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        },
-        {
-          "start": 270,
-          "end": 274,
-          "old_token": "1440",
-          "new_token": "648",
-          "kind": "attack_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "attack_power_coefficient",
-          "old": 40.0,
-          "new": 36.0,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "1440",
-          "new": "648"
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "attack_power_coefficient",
-          "old": "1200",
-          "new": "540"
-        }
-      ],
+      "pvp_tooltip": "While in combat, every 30 sec your next Kill Command summons the aid of a Beast.\nWyvern\nA Wyvern descends from the skies, letting out a battle cry that increases the damage of you and your pets by 10% for 12 sec.\nBoar\nA Boar charges through your target 1 time, dealing (1440% of Attack Power) damage to nearby enemies and an additional (1200% of Attack Power) physical damage to its primary target. Damage reduced beyond 5 targets.\nBear\nA Bear leaps into the fray, rending the flesh of your enemies, dealing (400% of Attack Power) damage over 10 sec to up to\n8\nnearby enemies.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7786,7 +7620,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 0
     },
     {
       "talent_name": "Pack Mentality",
@@ -8207,38 +8041,7 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "attack_power_coefficient",
-          "old": 1200.0,
-          "new": 540.0,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "attack_power_coefficient",
-          "old": 1440.0,
-          "new": 648.0,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "attack_power_coefficient",
-          "old": 40.0,
-          "new": 36.0,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8369,7 +8172,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 0
     },
     {
       "talent_name": "Hogstrider",
@@ -8431,16 +8234,6 @@
         }
       ],
       "diagnostics": [
-        {
-          "effect_indexes": [
-            2
-          ],
-          "status": "OTHER_SPEC_BRANCH",
-          "kind": "percent_value",
-          "old": 5.0,
-          "new": 2.5,
-          "full_tooltip_match_count": 1
-        },
         {
           "effect_indexes": [
             1
@@ -8510,7 +8303,7 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 1
     },
     {
       "talent_name": "Lethal Barbs",
@@ -8955,10 +8748,10 @@
   ],
   "fetch_errors": [],
   "slug": "hunter-beast-mastery",
-  "generated_at": "2026-09-19T15:58:20.116373+00:00",
+  "generated_at": "2026-09-19T17:44:53.556295+00:00",
   "validation": {
     "talents": 129,
-    "changed_tooltips": 18,
+    "changed_tooltips": 16,
     "talents_with_pvp_mechanics": 24,
     "unique_nodes": 113,
     "tree_build": "12.1.0.69875",
@@ -8966,20 +8759,14 @@
     "drustvar_builds": [
       "12.1.0.69587"
     ],
-    "verification_status": "PARTIAL",
+    "verification_status": "VERIFIED",
     "fetch_error_count": 0,
     "source_warning_count": 0,
     "unresolved_count": 0,
-    "review_required_count": 1,
+    "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [],
     "unresolved_examples": [],
-    "review_required_examples": [
-      {
-        "talent_name": "Huntmaster's Call",
-        "spell_id": 459730,
-        "status": "REVIEW_REQUIRED"
-      }
-    ]
+    "review_required_examples": []
   }
 }
