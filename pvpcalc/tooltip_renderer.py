@@ -325,13 +325,45 @@ def semantic_transform(
         source_text
     )
 
+    simc_sp_coefficient = _number(
+        effect_row.get(
+            "simc_sp_coefficient"
+        )
+    )
+
+    simc_ap_coefficient = _number(
+        effect_row.get(
+            "simc_ap_coefficient"
+        )
+    )
+
+    # Wowhead's compact effect text does not always expose coefficients
+    # even when exact-build SimC has the same concrete SpellEffect.
+    # Use that exact-build coefficient as a fallback, but only when the
+    # other coefficient family is absent/zero so we never guess whether
+    # a hybrid effect is SP- or AP-driven.
+    fallback_sp_coefficient = (
+        simc_sp_coefficient
+        if (
+            simc_sp_coefficient is not None
+            and abs(simc_sp_coefficient) > 1e-12
+            and (
+                simc_ap_coefficient is None
+                or abs(simc_ap_coefficient) <= 1e-12
+            )
+        )
+        else None
+    )
+
     if (
-        sp_match
+        (sp_match or fallback_sp_coefficient is not None)
         and multiplier is not None
     ):
 
-        pve_coeff = float(
-            sp_match.group(1)
+        pve_coeff = (
+            float(sp_match.group(1))
+            if sp_match
+            else float(fallback_sp_coefficient)
         )
 
         old_value = (
@@ -442,13 +474,28 @@ def semantic_transform(
         source_text
     )
 
+    fallback_ap_coefficient = (
+        simc_ap_coefficient
+        if (
+            simc_ap_coefficient is not None
+            and abs(simc_ap_coefficient) > 1e-12
+            and (
+                simc_sp_coefficient is None
+                or abs(simc_sp_coefficient) <= 1e-12
+            )
+        )
+        else None
+    )
+
     if (
-        ap_match
+        (ap_match or fallback_ap_coefficient is not None)
         and multiplier is not None
     ):
 
-        pve_coeff = float(
-            ap_match.group(1)
+        pve_coeff = (
+            float(ap_match.group(1))
+            if ap_match
+            else float(fallback_ap_coefficient)
         )
 
         old_value = (
