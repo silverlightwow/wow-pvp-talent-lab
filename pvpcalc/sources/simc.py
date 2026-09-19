@@ -1137,6 +1137,93 @@ def effect_unit_hint(
     return None
 
 
+def dependency_effect_reference_contexts(
+    dependency: SimcDependency,
+    source_spell_id: int,
+    effect_index: int,
+) -> tuple[str, ...]:
+    """
+    Extract exact parent/dependency formula lines that reference one
+    concrete child SpellEffect, for example $81782s2.
+
+    This complements effect_reference_contexts(): many runtime/output
+    spells have no useful own tooltip because the player-facing value is
+    rendered by the parent talent that references them.
+    """
+
+    token = re.compile(
+        rf"\$\${int(source_spell_id)}"
+        rf"s\${int(effect_index)}"
+        rf"(?!\d)",
+        re.I,
+    )
+
+    contexts = []
+
+    for evidence in dependency.evidence:
+
+        text = " ".join(
+            str(evidence or "").split()
+        )
+
+        if (
+            text
+            and token.search(text)
+            and text not in contexts
+        ):
+            contexts.append(text)
+
+    return tuple(contexts)
+
+
+def dependency_effect_unit_hint(
+    dependency: SimcDependency,
+    source_spell_id: int,
+    effect_index: int,
+) -> str | None:
+    """
+    Infer a unit from the exact parent formula around a referenced child
+    effect. Only immediate explicit suffixes are accepted.
+    """
+
+    token = (
+        rf"\$\${int(source_spell_id)}"
+        rf"s\${int(effect_index)}"
+        rf"(?!\d)"
+    )
+
+    for evidence in dependency.evidence:
+
+        line = str(
+            evidence or ""
+        )
+
+        if re.search(
+            token + r"\s*%",
+            line,
+            re.I,
+        ):
+            return "percent"
+
+        if re.search(
+            token
+            + r"\s*(?:sec(?:onds?)?|s)\b",
+            line,
+            re.I,
+        ):
+            return "seconds"
+
+        if re.search(
+            token
+            + r"\s*(?:yds?|yards?)\b",
+            line,
+            re.I,
+        ):
+            return "yards"
+
+    return None
+
+
 def pvp_modified_spell_ids(
     dump: SimcDump,
 ) -> set[int]:
