@@ -2075,6 +2075,78 @@ def _select_by_unmodified_sibling_context(
     return None
 
 
+def _select_repeated_formula_variable_matches(
+    text: str,
+    matches,
+):
+    """
+    Select repeated numeric tokens that are clearly part of the same
+    algebraic player-facing formula while equal standalone unit values
+    remain untouched.
+
+    Example (Frozen Dominion):
+        lasts 4 sec longer
+        (4 * $mastery)% ... (4 * $mastery * 5)%
+
+    With no source-side $sN text available, the two formula occurrences
+    are still structurally distinct from the duration token. Requiring
+    at least two formula matches keeps this fallback conservative.
+    """
+
+    formula_matches = []
+
+    for match in matches:
+        left = max(
+            0,
+            match.start(1) - 18,
+        )
+        right = min(
+            len(text),
+            match.end(1) + 34,
+        )
+
+        window = text[
+            left:right
+        ]
+
+        has_variable = bool(
+            re.search(
+                r"\$[A-Za-z_][A-Za-z0-9_]*",
+                window,
+            )
+        )
+
+        has_operator = bool(
+            re.search(
+                r"[*\/]",
+                window,
+            )
+        )
+
+        if (
+            has_variable
+            and has_operator
+        ):
+            formula_matches.append(
+                match
+            )
+
+    if len(formula_matches) < 2:
+        return []
+
+    # Every selected occurrence must belong to a formula and at least
+    # one equal-valued token must remain outside those formulas. This
+    # makes the fallback useful specifically for formula-vs-unit
+    # ambiguity instead of becoming a generic "replace all" rule.
+    if (
+        len(formula_matches)
+        >= len(matches)
+    ):
+        return []
+
+    return formula_matches
+
+
 def _select_contextual_match(
     text: str,
     matches,
@@ -3022,6 +3094,66 @@ def render_pvp_tooltip(
                             context_rows,
                     )
                 )
+
+            if contextual_match is None:
+
+                formula_matches = (
+                    _select_repeated_formula_variable_matches(
+                        pve_text,
+                        matches,
+                    )
+                )
+
+                if formula_matches:
+
+                    for formula_match in formula_matches:
+
+                        old_token = (
+                            formula_match
+                            .group(1)
+                        )
+
+                        new_token = (
+                            _format_new_value(
+                                transform[
+                                    "new"
+                                ],
+                                kind=transform[
+                                    "kind"
+                                ],
+                                old_token=old_token,
+                            )
+                        )
+
+                        replacements.append(
+                            {
+                                "start":
+                                    formula_match
+                                    .start(1),
+
+                                "end":
+                                    formula_match
+                                    .end(1),
+
+                                "old_token":
+                                    old_token,
+
+                                "new_token":
+                                    new_token,
+
+                                "kind":
+                                    transform[
+                                        "kind"
+                                    ],
+
+                                "effect_indexes":
+                                    transform[
+                                        "effect_indexes"
+                                    ],
+                            }
+                        )
+
+                    continue
 
             if contextual_match is not None:
 
