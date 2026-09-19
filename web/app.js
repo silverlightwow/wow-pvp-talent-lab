@@ -566,7 +566,12 @@
                     >
                         ${escapeHtml(
                             spec.name
-                        )}
+                        )}${
+                            spec.verification_status
+                            === "PARTIAL"
+                            ? " ⚠"
+                            : ""
+                        }
                     </option>
                 `
             ).join("");
@@ -998,6 +1003,38 @@
             `${specName} ${className} · WoW PvP Talent Lab`;
 
 
+        const verificationStatus =
+            data.validation
+            ?.verification_status
+            || "VERIFIED";
+
+        const isVerified =
+            verificationStatus
+            === "VERIFIED";
+
+        const statusLabel =
+            $("#datasetStatusLabel");
+
+        const statusDot =
+            document.querySelector(
+                ".status-dot"
+            );
+
+        if (statusLabel) {
+            statusLabel.textContent =
+                isVerified
+                ? "Verified current dataset"
+                : "Current dataset · partial coverage";
+        }
+
+        if (statusDot) {
+            statusDot.classList.toggle(
+                "partial",
+                !isVerified
+            );
+        }
+
+
         const verifiedAt =
             data.generated_at
             ? new Date(
@@ -1026,7 +1063,18 @@
             }`
             + (
                 verifiedAt
-                ? ` · Verified ${verifiedAt}`
+                ? (
+                    isVerified
+                    ? ` · Verified ${verifiedAt}`
+                    : ` · Built ${verifiedAt}`
+                )
+                : ""
+            )
+            + (
+                !isVerified
+                ? ` · Review ${data.validation?.review_required_count || 0}`
+                    + ` · Source gaps ${data.validation?.unresolved_count || 0}`
+                    + ` · Fetch gaps ${data.validation?.fetch_error_count || 0}`
                 : ""
             );
 
