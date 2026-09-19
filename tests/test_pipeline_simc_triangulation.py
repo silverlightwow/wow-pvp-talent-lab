@@ -93,7 +93,7 @@ def test_simc_corroborates_unmatched_drustvar_via_same_wowhead_index():
     )
 
 
-def test_simc_does_not_hide_missing_wowhead_structure():
+def test_simc_and_drustvar_corroborate_missing_wowhead_structure():
     item = {
         "spell_id": 100,
         "side": "drustvar",
@@ -102,7 +102,12 @@ def test_simc_does_not_hide_missing_wowhead_structure():
         "effect_text": "Apply Aura (6) | Dummy (4)",
     }
 
-    assert not pipeline._simc_corroborates_unresolved(
+    # Missing Wowhead Spell Details is a source-representation gap,
+    # not an unknown game state, when exact-build SimC identifies a
+    # semantically compatible effect and Drustvar independently agrees
+    # on the current PvP coefficient. The pipeline materializes an
+    # explicit SimC+Drustvar fallback row for this case.
+    assert pipeline._simc_corroborates_unresolved(
         item,
         simc_dump=_dump(),
         wowhead_by_spell={100: []},
