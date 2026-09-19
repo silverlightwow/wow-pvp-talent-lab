@@ -802,3 +802,40 @@ def test_exact_simc_sp_coefficient_fallback_acid_rain():
 
     assert result["render_status"] == "COMPLETE"
     assert "(130% of Spell Power)" in result["pvp_tooltip"]
+
+
+def test_explicit_repeated_effect_references_frozen_dominion():
+    tooltip = (
+        "Pillar of Frost now summons a Remorseless Winter that lasts "
+        "4 sec longer.\n"
+        "Each enemy Remorseless Winter damages grants you "
+        "(4 * $mastery)% Mastery, up to "
+        "(4 * $mastery * 5)% for 15 sec."
+    )
+
+    rows = [
+        {
+            "effect_index": 2,
+            "effect_text": "Apply Aura: Dummy",
+            "base_value": 4,
+            "final_pvp_multiplier": 0.5,
+            "final_pvp_value": 2,
+            "simc_reference_contexts": [
+                "Each enemy Remorseless Winter damages grants you "
+                "${$s2*$mastery}% Mastery, up to "
+                "${$s2*$mastery*$377253u}% for $287338d."
+            ],
+        },
+    ]
+
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Frost",
+        spec_names=["Blood", "Frost", "Unholy"],
+        effect_rows=rows,
+    )
+
+    assert result["render_status"] == "COMPLETE"
+    assert "lasts 4 sec longer" in result["pvp_tooltip"]
+    assert "(2 * $mastery)% Mastery" in result["pvp_tooltip"]
+    assert "(2 * $mastery * 5)%" in result["pvp_tooltip"]
