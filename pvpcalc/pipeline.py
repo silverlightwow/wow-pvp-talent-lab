@@ -215,10 +215,59 @@ class SpecAuditResult:
             return True
 
 
+        def direct_row_is_renderable(
+            row: dict,
+        ) -> bool:
+            if not has_player_facing_change(
+                row
+            ):
+                return False
+
+            effect_text = str(
+                row.get(
+                    "effect_text",
+                    "",
+                )
+                or ""
+            ).casefold()
+
+            reference_contexts = list(
+                row.get(
+                    "simc_reference_contexts",
+                    [],
+                )
+                or []
+            )
+
+            sources = set(
+                row.get(
+                    "sources",
+                    [],
+                )
+                or []
+            )
+
+            # Spell modifier records can change another effect's hidden
+            # metadata without exposing their own base value in this
+            # talent tooltip. Exact-build SimC gives us the distinction:
+            # if such a modifier has no player-text reference, preserve
+            # it in mechanics/Compendium but do not let a coincidental
+            # equal number rewrite the visible tooltip.
+            internal_modifier = (
+                (
+                    "modifier" in effect_text
+                    or "modifies " in effect_text
+                )
+                and not reference_contexts
+                and "simc" in sources
+            )
+
+            return not internal_modifier
+
         result = [
             row
             for row in self.effect_rows
-            if has_player_facing_change(
+            if direct_row_is_renderable(
                 row
             )
         ]
