@@ -967,6 +967,176 @@ def effect_for_spell(
     )
 
 
+def _player_text_sections(
+    raw: str,
+) -> list[str]:
+    """
+    Extract only SimC Description/Tooltip text, excluding Variables and
+    effect metadata.
+    """
+
+    result = []
+    current = None
+
+    for line in str(
+        raw or ""
+    ).splitlines():
+
+        match = re.match(
+            r"^(Description|Tooltip)\s*:\s*(.*)$",
+            line,
+        )
+
+        if match:
+            current = (
+                match.group(1)
+                .casefold()
+            )
+            result.append(
+                match.group(2)
+            )
+            continue
+
+        if (
+            current is not None
+            and re.match(
+                r"^\s+:\s*",
+                line,
+            )
+        ):
+            result.append(
+                re.sub(
+                    r"^\s+:\s*",
+                    "",
+                    line,
+                )
+            )
+            continue
+
+        current = None
+
+    return result
+
+
+def effect_reference_contexts(
+    dump: SimcDump,
+    spell_id: int,
+    effect_index: int,
+) -> tuple[str, ...]:
+    """
+    Return player-text snippets that explicitly reference one SpellEffect
+    via Blizzard's $sN expression syntax.
+    """
+
+    spell = dump.spells.get(
+        int(spell_id)
+    )
+
+    if spell is None:
+        return tuple()
+
+    token = re.compile(
+        rf"\$s{int(effect_index)}"
+        rf"(?!\d)",
+        re.I,
+    )
+
+    contexts = []
+
+    for line in _player_text_sections(
+        spell.raw
+    ):
+
+        for match in token.finditer(
+            line
+        ):
+
+            start = max(
+                0,
+                match.start() - 100,
+            )
+
+            end = min(
+                len(line),
+                match.end() + 100,
+            )
+
+            context = (
+                " ".join(
+                    line[
+                        start:end
+                    ].split()
+                )
+            )
+
+            if (
+                context
+                and context not in contexts
+            ):
+                contexts.append(
+                    context
+                )
+
+    return tuple(
+        contexts
+    )
+
+
+def effect_unit_hint(
+    dump: SimcDump,
+    spell_id: int,
+    effect_index: int,
+) -> str | None:
+    """
+    Infer a player-facing unit only when SimC's exact Description/Tooltip
+    places an explicit unit immediately around $sN.
+    """
+
+    spell = dump.spells.get(
+        int(spell_id)
+    )
+
+    if spell is None:
+        return None
+
+    index = int(
+        effect_index
+    )
+
+    token = (
+        rf"\$s{index}(?!\d)"
+    )
+
+    for line in _player_text_sections(
+        spell.raw
+    ):
+
+        if re.search(
+            token + r"\s*%",
+            line,
+            re.I,
+        ):
+            return "percent"
+
+        if re.search(
+            token
+            + r"\s*(?:sec(?:onds?)?|s)\b",
+            line,
+            re.I,
+        ):
+            return "seconds"
+
+        if re.search(
+            token
+            + r"\s*(?:yds?|yards?)\b",
+            line,
+            re.I,
+        ):
+            return "yards"
+
+    return None
+
+
 def pvp_modified_spell_ids(
     dump: SimcDump,
 ) -> set[int]:
