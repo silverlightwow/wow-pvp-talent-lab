@@ -1439,6 +1439,7 @@ def _fill_missing_base_values_from_simc(
 def _annotate_final_pvp_layers(
     rows: list[dict],
     aura_rules: list,
+    simc_dump=None,
 ) -> None:
     """
     Add final PvP state to every effect row.
@@ -1486,29 +1487,45 @@ def _annotate_final_pvp_layers(
         )
 
 
-        if amount_kind is None:
+        effect_index = row.get(
+            "effect_index"
+        )
 
-            applicable_rules = []
-            aura_factor = 1.0
-
-        else:
-
-            applicable_rules = (
-                pvp_aura.rules_for_spell(
-                    aura_rules,
-                    source_spell_id,
-                    amount_kind=
-                        amount_kind,
-                )
+        spell_label_ids = (
+            simc.spell_label_ids(
+                simc_dump,
+                source_spell_id,
             )
+            if simc_dump is not None
+            else tuple()
+        )
 
-            aura_factor = 1.0
+        # Always ask the Aura resolver. Besides ordinary
+        # direct/periodic/absorb buckets it can apply
+        # effect-index scoped rules ("Modify Effect N") and
+        # SpellLabel-targeted rules resolved from exact-build
+        # SimC metadata. Those rules may be valid even when the
+        # effect itself has no output amount_kind.
+        applicable_rules = (
+            pvp_aura.rules_for_spell(
+                aura_rules,
+                source_spell_id,
+                amount_kind=
+                    amount_kind,
+                effect_index=
+                    effect_index,
+                spell_label_ids=
+                    spell_label_ids,
+            )
+        )
 
-            for rule in applicable_rules:
+        aura_factor = 1.0
 
-                aura_factor *= float(
-                    rule.factor
-                )
+        for rule in applicable_rules:
+
+            aura_factor *= float(
+                rule.factor
+            )
 
 
         final_multiplier = (
@@ -1570,6 +1587,9 @@ def _annotate_final_pvp_layers(
 
                             "factor":
                                 rule.factor,
+
+                            "label_id":
+                                rule.label_id,
 
                             "build":
                                 rule.build,
@@ -1834,6 +1854,22 @@ async def audit_spec(
             in rule.affected_spells
         }
 
+        # SpellLabel-targeted PvP Aura rows do not enumerate
+        # affected_spells in Drustvar. Resolve their concrete
+        # spell membership from the SAME exact-build SimC dump
+        # used for dependency discovery.
+        for rule in aura_rules:
+
+            if rule.label_id is None:
+                continue
+
+            aura_affected_ids.update(
+                simc.spell_ids_for_label(
+                    simc_dump,
+                    rule.label_id,
+                )
+            )
+
 
         dr_all_ids = {
             int(effect.spell_id)
@@ -2036,6 +2072,7 @@ async def audit_spec(
     _annotate_final_pvp_layers(
         result.effect_rows,
         aura_rules,
+        simc_dump,
     )
 
 
@@ -2170,6 +2207,7 @@ async def audit_spec(
         _annotate_final_pvp_layers(
             child_rows,
             aura_rules,
+            simc_dump,
         )
 
 
