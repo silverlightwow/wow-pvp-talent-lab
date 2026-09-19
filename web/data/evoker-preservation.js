@@ -368,7 +368,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -1913,7 +1914,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -1977,7 +1979,7 @@ window.WOW_PVP_DATA = {
           "end": 153,
           "old_token": "50",
           "new_token": "30",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2,
             3,
@@ -2021,7 +2023,7 @@ window.WOW_PVP_DATA = {
             18
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "50",
           "new": "30"
         }
@@ -2046,7 +2048,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2068,7 +2071,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2090,7 +2094,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2112,7 +2117,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2134,7 +2140,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2156,7 +2163,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2178,7 +2186,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2200,7 +2209,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2222,7 +2232,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2244,7 +2255,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2266,7 +2278,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2288,7 +2301,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2310,7 +2324,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2332,7 +2347,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2354,7 +2370,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2376,7 +2393,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2398,7 +2416,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         }
@@ -3244,20 +3263,125 @@ window.WOW_PVP_DATA = {
         "icon": "ability_evoker_dreambreath"
       },
       "pve_tooltip": "4.9% of base mana\nChanneled (2.5 sec cast)\n30 sec cooldown\n1 Charge\nInhale, gathering the power of the Dream. Release to exhale, healing yourself and 5 injured allies in a 40 yd cone in front of you for [(92.16% of Spell Power) + (53.52% of Spell Power) * (8 +\n0\n)].\nI:\nHeals (92.16% of Spell Power) instantly and [(53.52% of Spell Power) * (8 +\n0\n)] over (16 +\n0\n) sec.\nII:\nHeals [(92.16% of Spell Power) + (53.52% of Spell Power) * 2] instantly and [(53.52% of Spell Power) * (6 +\n0\n)] over (12 +\n0\n) sec.\nIII:\nHeals [(92.16% of Spell Power) + (53.52% of Spell Power) * 4] instantly and [(53.52% of Spell Power) * (4 +\n0\n)] over (8 +\n0\n) sec.",
-      "pvp_tooltip": "4.9% of base mana\nChanneled (2.5 sec cast)\n30 sec cooldown\n1 Charge\nInhale, gathering the power of the Dream. Release to exhale, healing yourself and 5 injured allies in a 40 yd cone in front of you for [(92.16% of Spell Power) + (53.52% of Spell Power) * (8 +\n0\n)].\nI:\nHeals (92.16% of Spell Power) instantly and [(53.52% of Spell Power) * (8 +\n0\n)] over (16 +\n0\n) sec.\nII:\nHeals [(92.16% of Spell Power) + (53.52% of Spell Power) * 2] instantly and [(53.52% of Spell Power) * (6 +\n0\n)] over (12 +\n0\n) sec.\nIII:\nHeals [(92.16% of Spell Power) + (53.52% of Spell Power) * 4] instantly and [(53.52% of Spell Power) * (4 +\n0\n)] over (8 +\n0\n) sec.",
-      "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
-      "changes": [],
+      "pvp_tooltip": "4.9% of base mana\nChanneled (2.5 sec cast)\n30 sec cooldown\n1 Charge\nInhale, gathering the power of the Dream. Release to exhale, healing yourself and 5 injured allies in a 40 yd cone in front of you for [(92.16% of Spell Power) + (64.224% of Spell Power) * (8 +\n0\n)].\nI:\nHeals (92.16% of Spell Power) instantly and [(64.224% of Spell Power) * (8 +\n0\n)] over (16 +\n0\n) sec.\nII:\nHeals [(92.16% of Spell Power) + (64.224% of Spell Power) * 2] instantly and [(64.224% of Spell Power) * (6 +\n0\n)] over (12 +\n0\n) sec.\nIII:\nHeals [(92.16% of Spell Power) + (64.224% of Spell Power) * 4] instantly and [(64.224% of Spell Power) * (4 +\n0\n)] over (8 +\n0\n) sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 231,
+          "end": 236,
+          "old_token": "53.52",
+          "new_token": "64.224",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 316,
+          "end": 321,
+          "old_token": "53.52",
+          "new_token": "64.224",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 409,
+          "end": 414,
+          "old_token": "53.52",
+          "new_token": "64.224",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 453,
+          "end": 458,
+          "old_token": "53.52",
+          "new_token": "64.224",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 547,
+          "end": 552,
+          "old_token": "53.52",
+          "new_token": "64.224",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 591,
+          "end": 596,
+          "old_token": "53.52",
+          "new_token": "64.224",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "AMBIGUOUS_TEXT_MATCH",
+          "status": "APPLIED",
           "kind": "spell_power_coefficient",
-          "old": 53.52,
-          "new": 64.224,
-          "match_count": 6
+          "old": "53.52",
+          "new": "64.224"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "53.52",
+          "new": "64.224"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "53.52",
+          "new": "64.224"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "53.52",
+          "new": "64.224"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "53.52",
+          "new": "64.224"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "53.52",
+          "new": "64.224"
         }
       ],
       "has_pvp_mechanics": true,
@@ -3286,7 +3410,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -5165,7 +5290,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -5565,7 +5691,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -5595,7 +5722,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -5775,7 +5903,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -6784,7 +6913,7 @@ window.WOW_PVP_DATA = {
             4
           ],
           "status": "OTHER_SPEC_BRANCH",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 150.0,
           "new": 199.99949999999998,
           "full_tooltip_match_count": 1
@@ -6811,7 +6940,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -6977,21 +7107,39 @@ window.WOW_PVP_DATA = {
         {
           "effect_indexes": [
             1,
-            2,
+            2
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "percent_value",
+          "old": 1.0,
+          "new": 0.5,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
             3,
+            8,
+            9
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 1.0,
+          "new": 0.5,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
             4,
             5,
             6,
             7,
-            8,
-            9,
             13,
             16,
             17,
             18
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
+          "kind": "duration_seconds",
           "old": 1.0,
           "new": 0.5,
           "full_tooltip_match_count": 0
@@ -7023,7 +7171,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -7050,7 +7199,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -7077,7 +7227,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -7104,7 +7255,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -7131,7 +7283,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -7158,7 +7311,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -7185,7 +7339,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -7212,7 +7367,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -7239,7 +7395,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -7266,7 +7423,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -7293,7 +7451,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -7320,7 +7479,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -7347,7 +7507,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         }
@@ -8047,10 +8208,10 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "evoker-preservation",
-  "generated_at": "2026-09-19T14:38:12.375011+00:00",
+  "generated_at": "2026-09-19T15:24:59.961217+00:00",
   "validation": {
     "talents": 130,
-    "changed_tooltips": 4,
+    "changed_tooltips": 5,
     "talents_with_pvp_mechanics": 9,
     "unique_nodes": 117,
     "tree_build": "12.1.0.69875",
@@ -8058,38 +8219,14 @@ window.WOW_PVP_DATA = {
     "drustvar_builds": [
       "12.1.0.69587"
     ],
-    "verification_status": "PARTIAL",
+    "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "unresolved_count": 1,
-    "review_required_count": 1,
+    "source_warning_count": 0,
+    "unresolved_count": 0,
+    "review_required_count": 0,
     "fetch_error_examples": [],
-    "unresolved_examples": [
-      {
-        "spell_id": 431698,
-        "talent_name": "Temporal Burst",
-        "side": "drustvar",
-        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
-        "multiplier": 0.5,
-        "effect_text": "Apply Aura (6) | Modify All Haste% (193)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 431695,
-        "source_spell_id": 431698,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          431695,
-          431698
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      }
-    ],
-    "review_required_examples": [
-      {
-        "talent_name": "Dream Breath",
-        "spell_id": 355936,
-        "status": "REVIEW_REQUIRED"
-      }
-    ]
+    "source_warning_examples": [],
+    "unresolved_examples": [],
+    "review_required_examples": []
   }
 };

@@ -81,7 +81,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -131,11 +132,32 @@ window.WOW_PVP_DATA = {
         "icon": "ability_demonhunter_felblade"
       },
       "pve_tooltip": "15 yd range\nInstant\n12 sec cooldown\nCharge to your target and deal (122.94% of Attack Power)%\nFire\ndamage.\n[\nFracture\n:\nGenerates 15 Fury.\n] [\nDemonic Wards\n:\nGenerates 15 Fury.\n]\nGenerates 15 Fury.",
-      "pvp_tooltip": "15 yd range\nInstant\n12 sec cooldown\nCharge to your target and deal (122.94% of Attack Power)%\nFire\ndamage.\n[\nFracture\n:\nGenerates 15 Fury.\n] [\nDemonic Wards\n:\nGenerates 15 Fury.\n]\nGenerates 15 Fury.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "15 yd range\nInstant\n12 sec cooldown\nCharge to your target and deal (147.528% of Attack Power)%\nFire\ndamage.\n[\nFracture\n:\nGenerates 15 Fury.\n] [\nDemonic Wards\n:\nGenerates 15 Fury.\n]\nGenerates 15 Fury.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 68,
+          "end": 74,
+          "old_token": "122.94",
+          "new_token": "147.528",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "122.94",
+          "new": "147.528"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -145,12 +167,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 213243,
           "effect_index": 2,
           "effect_text": "School Damage (Fire) (AP mod: 1.2294 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.2,
           "amount_kind": "direct",
           "aura_factor": 1.0,
           "final_pvp_multiplier": 1.2,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             232893,
@@ -162,12 +184,13 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Sigil of Misery",
@@ -274,7 +297,7 @@ window.WOW_PVP_DATA = {
           "end": 71,
           "old_token": "70",
           "new_token": "50",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -286,7 +309,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "70",
           "new": "50"
         }
@@ -317,7 +340,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -952,7 +976,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -1035,7 +1060,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -1475,7 +1501,7 @@ window.WOW_PVP_DATA = {
           "end": 20,
           "old_token": "6",
           "new_token": "5",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1,
             2
@@ -1486,7 +1512,7 @@ window.WOW_PVP_DATA = {
           "end": 43,
           "old_token": "6",
           "new_token": "5",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1,
             2
@@ -1500,7 +1526,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "6",
           "new": "5"
         },
@@ -1510,7 +1536,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "6",
           "new": "5"
         }
@@ -1536,7 +1562,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -1559,7 +1586,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -1889,7 +1917,7 @@ window.WOW_PVP_DATA = {
           "end": 31,
           "old_token": "3",
           "new_token": "2",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -1901,7 +1929,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "3",
           "new": "2"
         }
@@ -1927,7 +1955,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2046,7 +2075,7 @@ window.WOW_PVP_DATA = {
           "end": 29,
           "old_token": "3",
           "new_token": "1.8",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -2058,7 +2087,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "3",
           "new": "1.8"
         }
@@ -2084,7 +2113,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2508,7 +2538,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2588,7 +2619,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4416,20 +4448,30 @@ window.WOW_PVP_DATA = {
         "icon": "ability_demonhunter_sigilofchains"
       },
       "pve_tooltip": "Increases the duration of your Sigils by 2 sec and radius by 2 yds.",
-      "pvp_tooltip": "Increases the duration of your Sigils by 2 sec and radius by 2 yds.",
-      "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
-      "changes": [],
+      "pvp_tooltip": "Increases the duration of your Sigils by 1 sec and radius by 2 yds.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 41,
+          "end": 42,
+          "old_token": "2",
+          "new_token": "1",
+          "kind": "duration_seconds",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             2
           ],
-          "status": "AMBIGUOUS_TEXT_MATCH",
-          "kind": "ordinary_value",
-          "old": 2.0,
-          "new": 1.0,
-          "match_count": 2
+          "status": "APPLIED",
+          "kind": "duration_seconds",
+          "old": "2",
+          "new": "1"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4453,7 +4495,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -5462,7 +5505,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -5490,7 +5534,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -5974,7 +6019,7 @@ window.WOW_PVP_DATA = {
           "end": 41,
           "old_token": "20",
           "new_token": "6.6",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -5986,7 +6031,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "20",
           "new": "6.6"
         }
@@ -6012,7 +6057,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -6276,7 +6322,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -6306,7 +6353,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -6469,10 +6517,50 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "spell_power_coefficient",
+          "old": 176.0,
+          "new": 158.4,
+          "full_tooltip_match_count": 1
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1253304,
+          "source_spell_id": 1256305,
+          "effect_index": 1,
+          "effect_text": "School Damage (Holy, Nature, Shadow, Arcane) (SP mod: 1.76)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.9,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.9,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1253304,
+            1256305
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "simc"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Swift Erasure",
@@ -7052,10 +7140,54 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 176.0,
+          "new": 158.4,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1253805,
+          "source_spell_id": 1256305,
+          "effect_index": 1,
+          "effect_text": "School Damage (Holy, Nature, Shadow, Arcane) (SP mod: 1.76)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.9,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.9,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1253805,
+            1256322,
+            1253304,
+            1256305
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "simc"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Meteoric Fall",
@@ -7273,29 +7405,25 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "demon-hunter-vengeance",
-  "generated_at": "2026-09-19T14:34:15.968670+00:00",
+  "generated_at": "2026-09-19T15:21:44.568377+00:00",
   "validation": {
     "talents": 123,
-    "changed_tooltips": 7,
-    "talents_with_pvp_mechanics": 14,
+    "changed_tooltips": 9,
+    "talents_with_pvp_mechanics": 16,
     "unique_nodes": 112,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
     "drustvar_builds": [
       "12.1.0.69587"
     ],
-    "verification_status": "PARTIAL",
+    "verification_status": "VERIFIED",
     "fetch_error_count": 0,
+    "source_warning_count": 0,
     "unresolved_count": 0,
-    "review_required_count": 1,
+    "review_required_count": 0,
     "fetch_error_examples": [],
+    "source_warning_examples": [],
     "unresolved_examples": [],
-    "review_required_examples": [
-      {
-        "talent_name": "Chains of Anger",
-        "spell_id": 389715,
-        "status": "REVIEW_REQUIRED"
-      }
-    ]
+    "review_required_examples": []
   }
 };

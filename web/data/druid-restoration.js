@@ -51,11 +51,32 @@ window.WOW_PVP_DATA = {
         "icon": "ability_druid_disembowel"
       },
       "pve_tooltip": "35 Energy\nMelee Range\nInstant\nRake the target for (29.1% of Attack Power) Bleed damage and an additional (147% of Attack Power) Bleed damage over 15 sec. [\nInfected Wounds\n:\nReduces the target's movement speed by 20% for 12 sec\n]\nAwards 1 combo point.",
-      "pvp_tooltip": "35 Energy\nMelee Range\nInstant\nRake the target for (29.1% of Attack Power) Bleed damage and an additional (147% of Attack Power) Bleed damage over 15 sec. [\nInfected Wounds\n:\nReduces the target's movement speed by 20% for 12 sec\n]\nAwards 1 combo point.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "35 Energy\nMelee Range\nInstant\nRake the target for (30.7436% of Attack Power) Bleed damage and an additional (147% of Attack Power) Bleed damage over 15 sec. [\nInfected Wounds\n:\nReduces the target's movement speed by 20% for 12 sec\n]\nAwards 1 combo point.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 51,
+          "end": 55,
+          "old_token": "29.1",
+          "new_token": "30.7436",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "29.1",
+          "new": "30.7436"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -65,12 +86,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 1822,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 0.291 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.136,
           "amount_kind": "direct",
           "aura_factor": 0.9299999999999999,
           "final_pvp_multiplier": 1.0564799999999999,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -87,7 +108,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -98,12 +120,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 155722,
           "effect_index": 1,
           "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
           "aura_factor": 0.9299999999999999,
           "final_pvp_multiplier": 0.9299999999999999,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             1822,
@@ -129,7 +151,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Frenzied Regeneration",
@@ -212,7 +234,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -320,7 +343,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -370,20 +394,49 @@ window.WOW_PVP_DATA = {
         "icon": "spell_arcane_starfire"
       },
       "pve_tooltip": "0.6% of base mana\n40 yd range\n2.5 sec cast\nCall down a burst of energy, causing (93% of Spell Power) Arcane damage to the target, and [(93% of Spell Power) * 70 / 100] Arcane damage to all other enemies within 5 yards. Deals reduced damage beyond 8 targets.",
-      "pvp_tooltip": "0.6% of base mana\n40 yd range\n2.5 sec cast\nCall down a burst of energy, causing (93% of Spell Power) Arcane damage to the target, and [(93% of Spell Power) * 70 / 100] Arcane damage to all other enemies within 5 yards. Deals reduced damage beyond 8 targets.",
-      "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
-      "changes": [],
+      "pvp_tooltip": "0.6% of base mana\n40 yd range\n2.5 sec cast\nCall down a burst of energy, causing (58.8132% of Spell Power) Arcane damage to the target, and [(58.8132% of Spell Power) * 70 / 100] Arcane damage to all other enemies within 5 yards. Deals reduced damage beyond 8 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 81,
+          "end": 83,
+          "old_token": "93",
+          "new_token": "58.8132",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 136,
+          "end": 138,
+          "old_token": "93",
+          "new_token": "58.8132",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "AMBIGUOUS_TEXT_MATCH",
+          "status": "APPLIED",
           "kind": "spell_power_coefficient",
-          "old": 93.0,
-          "new": 58.81319999999999,
-          "match_count": 2
+          "old": "93",
+          "new": "58.8132"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "93",
+          "new": "58.8132"
         }
       ],
       "has_pvp_mechanics": true,
@@ -851,11 +904,108 @@ window.WOW_PVP_DATA = {
         "icon": "ability_ghoulfrenzy"
       },
       "pve_tooltip": "20 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\nFinishing move that causes Bleed damage over time. Lasts longer per combo point.\n1 point : [(62.26% of Attack Power) * 2 / 6] over 1 sec\n2 points: [(62.26% of Attack Power) * 3 / 6] over 2 sec\n3 points: [(62.26% of Attack Power) * 4 / 6] over 3 sec\n4 points: [(62.26% of Attack Power) * 5 / 6] over 3 sec\n5 points: [(62.26% of Attack Power) * 6 / 6] over 4 sec",
-      "pvp_tooltip": "20 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\nFinishing move that causes Bleed damage over time. Lasts longer per combo point.\n1 point : [(62.26% of Attack Power) * 2 / 6] over 1 sec\n2 points: [(62.26% of Attack Power) * 3 / 6] over 2 sec\n3 points: [(62.26% of Attack Power) * 4 / 6] over 3 sec\n4 points: [(62.26% of Attack Power) * 5 / 6] over 3 sec\n5 points: [(62.26% of Attack Power) * 6 / 6] over 4 sec",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "20 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\nFinishing move that causes Bleed damage over time. Lasts longer per combo point.\n1 point : [(64.4447% of Attack Power) * 2 / 6] over 1 sec\n2 points: [(64.4447% of Attack Power) * 3 / 6] over 2 sec\n3 points: [(64.4447% of Attack Power) * 4 / 6] over 3 sec\n4 points: [(64.4447% of Attack Power) * 5 / 6] over 3 sec\n5 points: [(64.4447% of Attack Power) * 6 / 6] over 4 sec",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 145,
+          "end": 150,
+          "old_token": "62.26",
+          "new_token": "64.4447",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 201,
+          "end": 206,
+          "old_token": "62.26",
+          "new_token": "64.4447",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 257,
+          "end": 262,
+          "old_token": "62.26",
+          "new_token": "64.4447",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 313,
+          "end": 318,
+          "old_token": "62.26",
+          "new_token": "64.4447",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 369,
+          "end": 374,
+          "old_token": "62.26",
+          "new_token": "64.4447",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "62.26",
+          "new": "64.4447"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "62.26",
+          "new": "64.4447"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "62.26",
+          "new": "64.4447"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "62.26",
+          "new": "64.4447"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "62.26",
+          "new": "64.4447"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -865,12 +1015,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 1079,
           "effect_index": 1,
           "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.113,
           "amount_kind": "periodic",
           "aura_factor": 0.9299999999999999,
           "final_pvp_multiplier": 1.0350899999999998,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -887,12 +1037,13 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Verdant Heart",
@@ -1087,7 +1238,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -1544,7 +1696,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -1582,7 +1735,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2476,7 +2630,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3615,7 +3770,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3701,7 +3857,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3865,7 +4022,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4167,7 +4325,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4701,7 +4860,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -5065,7 +5225,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -6086,7 +6247,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -6114,7 +6276,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -6935,7 +7098,7 @@ window.WOW_PVP_DATA = {
           "end": 70,
           "old_token": "10",
           "new_token": "8",
-          "kind": "ordinary_value",
+          "kind": "duration_seconds",
           "effect_indexes": [
             2
           ]
@@ -6947,7 +7110,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "duration_seconds",
           "old": "10",
           "new": "8"
         }
@@ -6973,7 +7136,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -7190,7 +7354,7 @@ window.WOW_PVP_DATA = {
           "end": 2,
           "old_token": "24",
           "new_token": "25",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2
           ]
@@ -7202,7 +7366,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "24",
           "new": "25"
         }
@@ -7228,7 +7392,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -7391,7 +7556,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -8424,6 +8590,16 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "attack_power_coefficient",
+          "old": 393.0,
+          "new": 196.5,
+          "full_tooltip_match_count": 1
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
           "status": "APPLIED",
           "kind": "spell_power_coefficient",
           "old": "146.4",
@@ -8439,12 +8615,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 433850,
           "effect_index": 1,
           "effect_text": "School Damage (Nature) (AP mod: 3.93 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": "direct",
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.5,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             433831,
@@ -8456,7 +8632,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -8498,7 +8675,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 2
     },
     {
       "talent_name": "Treants of the Moon",
@@ -9074,7 +9251,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -9443,20 +9621,30 @@ window.WOW_PVP_DATA = {
         "icon": "spell_nature_thorns"
       },
       "pve_tooltip": "Every 5 Regrowths you cast makes your next Wrath, Starfire, or Entangling Roots instant and increases damage it deals by 100%.\nEvery 5 Starsurges you cast makes your next Regrowth or Entangling roots instant.\n(100ms cooldown)",
-      "pvp_tooltip": "Every 5 Regrowths you cast makes your next Wrath, Starfire, or Entangling Roots instant and increases damage it deals by 100%.\nEvery 5 Starsurges you cast makes your next Regrowth or Entangling roots instant.\n(100ms cooldown)",
-      "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
-      "changes": [],
+      "pvp_tooltip": "Every 5 Regrowths you cast makes your next Wrath, Starfire, or Entangling Roots instant and increases damage it deals by 25%.\nEvery 5 Starsurges you cast makes your next Regrowth or Entangling roots instant.\n(100ms cooldown)",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 121,
+          "end": 124,
+          "old_token": "100",
+          "new_token": "25",
+          "kind": "percent_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             2
           ],
-          "status": "AMBIGUOUS_TEXT_MATCH",
-          "kind": "ordinary_value",
-          "old": 100.0,
-          "new": 25.0,
-          "match_count": 2
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "100",
+          "new": "25"
         }
       ],
       "has_pvp_mechanics": true,
@@ -9485,7 +9673,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -9660,7 +9849,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "OTHER_SPEC_BRANCH",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 4.0,
           "new": 2.0,
           "full_tooltip_match_count": 1
@@ -9692,7 +9881,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -9720,7 +9910,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -9730,10 +9921,10 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "druid-restoration",
-  "generated_at": "2026-09-19T14:36:45.946735+00:00",
+  "generated_at": "2026-09-19T15:24:22.641498+00:00",
   "validation": {
     "talents": 147,
-    "changed_tooltips": 18,
+    "changed_tooltips": 22,
     "talents_with_pvp_mechanics": 34,
     "unique_nodes": 126,
     "tree_build": "12.1.0.69875",
@@ -9741,23 +9932,14 @@ window.WOW_PVP_DATA = {
     "drustvar_builds": [
       "12.1.0.69587"
     ],
-    "verification_status": "PARTIAL",
+    "verification_status": "VERIFIED",
     "fetch_error_count": 0,
+    "source_warning_count": 0,
     "unresolved_count": 0,
-    "review_required_count": 2,
+    "review_required_count": 0,
     "fetch_error_examples": [],
+    "source_warning_examples": [],
     "unresolved_examples": [],
-    "review_required_examples": [
-      {
-        "talent_name": "Starfire",
-        "spell_id": 197628,
-        "status": "REVIEW_REQUIRED"
-      },
-      {
-        "talent_name": "Blooming Infusion",
-        "spell_id": 429433,
-        "status": "REVIEW_REQUIRED"
-      }
-    ]
+    "review_required_examples": []
   }
 };

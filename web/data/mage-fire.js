@@ -107,7 +107,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -129,9 +130,10 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -1191,7 +1193,7 @@ window.WOW_PVP_DATA = {
           "end": 40,
           "old_token": "30",
           "new_token": "15",
-          "kind": "ordinary_value",
+          "kind": "duration_seconds",
           "effect_indexes": [
             1
           ]
@@ -1203,7 +1205,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "duration_seconds",
           "old": "30",
           "new": "15"
         }
@@ -1229,7 +1231,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -1434,10 +1437,50 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "percent_value",
+          "old": 3.0,
+          "new": 1.5,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 212653,
+          "source_spell_id": 382289,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Proc Trigger Spell",
+          "base_value": 3.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 1.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            212653,
+            382289
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "simc"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Improved Blink",
@@ -1523,7 +1566,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2130,7 +2174,7 @@ window.WOW_PVP_DATA = {
           "end": 82,
           "old_token": "20",
           "new_token": "10",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -2142,7 +2186,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "20",
           "new": "10"
         }
@@ -2168,7 +2212,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2423,7 +2468,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2445,7 +2491,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         }
@@ -2668,7 +2715,7 @@ window.WOW_PVP_DATA = {
           "end": 145,
           "old_token": "80",
           "new_token": "70",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -2680,7 +2727,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "80",
           "new": "70"
         }
@@ -2711,7 +2758,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2934,7 +2982,7 @@ window.WOW_PVP_DATA = {
           "end": 243,
           "old_token": "65",
           "new_token": "50",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -2946,7 +2994,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "65",
           "new": "50"
         }
@@ -2977,7 +3025,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3227,7 +3276,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3557,7 +3607,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -3703,7 +3754,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4484,7 +4536,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -4522,7 +4575,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4616,7 +4670,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4893,7 +4948,7 @@ window.WOW_PVP_DATA = {
           "end": 145,
           "old_token": "100",
           "new_token": "25",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             3
           ]
@@ -4905,7 +4960,7 @@ window.WOW_PVP_DATA = {
             3
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "100",
           "new": "25"
         }
@@ -4936,7 +4991,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -5213,8 +5269,46 @@ window.WOW_PVP_DATA = {
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 1271171,
+          "source_spell_id": 1271173,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire) (SP mod: 0.4)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.91,
+          "final_pvp_multiplier": 0.91,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1271171,
+            1271173
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256911,
+              "game_effect_id": 1264664,
+              "amount_kind": "direct",
+              "value_pct": -9.0,
+              "factor": 0.91,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -5380,7 +5474,7 @@ window.WOW_PVP_DATA = {
           "end": 59,
           "old_token": "15",
           "new_token": "10",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2,
             1
@@ -5394,7 +5488,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "15",
           "new": "10"
         }
@@ -5420,7 +5514,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -5448,7 +5543,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -5643,7 +5739,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -5888,7 +5985,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -6054,7 +6152,7 @@ window.WOW_PVP_DATA = {
           "end": 71,
           "old_token": "75",
           "new_token": "50",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -6066,7 +6164,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "75",
           "new": "50"
         }
@@ -6092,7 +6190,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -6256,7 +6355,7 @@ window.WOW_PVP_DATA = {
           "end": 24,
           "old_token": "10",
           "new_token": "5",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2,
             3
@@ -6270,7 +6369,7 @@ window.WOW_PVP_DATA = {
             3
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "10",
           "new": "5"
         }
@@ -6296,7 +6395,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -6319,7 +6419,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -6419,14 +6520,73 @@ window.WOW_PVP_DATA = {
         "icon": "spell_fire_flare"
       },
       "pve_tooltip": "40 yd range\nCasting Pyroblast or Flamestrike has a 8% chance to summon a storm of 5 cinders that pursue your target. Upon reaching your target, each cinder deals (200% of Spell Power) Fire damage, applies Ignite at 100% effectiveness, and spreads 50% of your Ignite to up to 1 nearby target.",
-      "pvp_tooltip": "40 yd range\nCasting Pyroblast or Flamestrike has a 8% chance to summon a storm of 5 cinders that pursue your target. Upon reaching your target, each cinder deals (200% of Spell Power) Fire damage, applies Ignite at 100% effectiveness, and spreads 50% of your Ignite to up to 1 nearby target.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "40 yd range\nCasting Pyroblast or Flamestrike has a 8% chance to summon a storm of 5 cinders that pursue your target. Upon reaching your target, each cinder deals (182% of Spell Power) Fire damage, applies Ignite at 100% effectiveness, and spreads 50% of your Ignite to up to 1 nearby target.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 163,
+          "end": 166,
+          "old_token": "200",
+          "new_token": "182",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "200",
+          "new": "182"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1254865,
+          "source_spell_id": 1254024,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire) (SP mod: 2)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.91,
+          "final_pvp_multiplier": 0.91,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1254865,
+            1254024
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256911,
+              "game_effect_id": 1264664,
+              "amount_kind": "direct",
+              "value_pct": -9.0,
+              "factor": 0.91,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Fired Up",
@@ -6468,14 +6628,65 @@ window.WOW_PVP_DATA = {
         "icon": "inv12_apextalent_mage_firedup"
       },
       "pve_tooltip": "40 yd range\nConsuming Hot Streak has a 20% chance to grant you a stack of Fired Up, increasing your Fire damage by 2% for 8 sec. Multiple applications may overlap.",
-      "pvp_tooltip": "40 yd range\nConsuming Hot Streak has a 20% chance to grant you a stack of Fired Up, increasing your Fire damage by 2% for 8 sec. Multiple applications may overlap.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "40 yd range\nConsuming Hot Streak has a 20% chance to grant you a stack of Fired Up, increasing your Fire damage by 1% for 8 sec. Multiple applications may overlap.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 115,
+          "end": 116,
+          "old_token": "2",
+          "new_token": "1",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "2",
+          "new": "1"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1257343,
+          "source_spell_id": 1257350,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Damage Done % (Fire)",
+          "base_value": 2.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 1.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1257343,
+            1257350
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar",
+            "simc"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Fired Up",
@@ -6624,10 +6835,206 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 91.53999999999999,
+          "new": 83.3014,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 24.8,
+          "new": 22.568,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 431044,
+          "source_spell_id": 468655,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire, Frost) (SP mod: 2.594)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.9,
+          "amount_kind": "direct",
+          "aura_factor": 1.4105,
+          "final_pvp_multiplier": 2.67995,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431044,
+            468655
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256911,
+              "game_effect_id": 1264664,
+              "amount_kind": "direct",
+              "value_pct": -9.0,
+              "factor": 0.91,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256911,
+              "game_effect_id": 1264858,
+              "amount_kind": "direct",
+              "value_pct": 55.0,
+              "factor": 1.55,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar",
+            "simc"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 431044,
+          "source_spell_id": 468655,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.95,
+          "amount_kind": "periodic",
+          "aura_factor": 1.4105,
+          "final_pvp_multiplier": 1.339975,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431044,
+            468655
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256911,
+              "game_effect_id": 1264855,
+              "amount_kind": "periodic",
+              "value_pct": -9.0,
+              "factor": 0.91,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 1256911,
+              "game_effect_id": 1264859,
+              "amount_kind": "periodic",
+              "value_pct": 55.0,
+              "factor": 1.55,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar",
+            "simc"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431044,
+          "source_spell_id": 1246949,
+          "effect_index": 1,
+          "effect_text": "School Damage (Frost) (SP mod: 0.9154)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.91,
+          "final_pvp_multiplier": 0.91,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431044,
+            1246769,
+            1246949
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256911,
+              "game_effect_id": 1264664,
+              "amount_kind": "direct",
+              "value_pct": -9.0,
+              "factor": 0.91,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431044,
+          "source_spell_id": 1246949,
+          "effect_index": 2,
+          "effect_text": "School Damage (Frost) (SP mod: 0.248)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.91,
+          "final_pvp_multiplier": 0.91,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431044,
+            1246769,
+            1246949
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256911,
+              "game_effect_id": 1264664,
+              "amount_kind": "direct",
+              "value_pct": -9.0,
+              "factor": 0.91,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Imbued Warding",
@@ -6682,7 +7089,7 @@ window.WOW_PVP_DATA = {
           "end": 47,
           "old_token": "25",
           "new_token": "15",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1,
             2
@@ -6696,7 +7103,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "25",
           "new": "15"
         }
@@ -6721,7 +7128,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -6743,7 +7151,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         }
@@ -6855,14 +7264,18 @@ window.WOW_PVP_DATA = {
         {
           "effect_index": null,
           "status": "CONFLICTING_TRANSFORMS",
-          "reason": "PvE value 60.0 maps to multiple PvP values",
+          "reason": "PvE percent_value value 60.0 maps to multiple PvP values",
           "candidates": [
             {
-              "kind": "ordinary_value",
+              "kind": "percent_value",
               "old": 60.0,
               "new": 30.0,
-              "unit": null,
+              "unit": "%",
               "effect_index": 2,
+              "effect_text": "Apply Aura: Dummy",
+              "reference_contexts": [
+                "causing your next Frostfire Bolt to be instant cast, deal $431177s3% increased damage, explode for $s2% of its damage to nearby enemies. Damage reduced beyond $s5 targets.$?c2[]["
+              ],
               "match_ordinal": 1,
               "match_group_count": 2,
               "effect_indexes": [
@@ -6871,11 +7284,15 @@ window.WOW_PVP_DATA = {
               ]
             },
             {
-              "kind": "ordinary_value",
+              "kind": "percent_value",
               "old": 60.0,
               "new": 10.001999999999999,
-              "unit": null,
+              "unit": "%",
               "effect_index": 3,
+              "effect_text": "Apply Aura: Dummy",
+              "reference_contexts": [
+                "Your next Frostfire Bolt deals $s3% additional damage, explodes for $<ffe>% of its damage to nearby enemies, and is instant cast."
+              ],
               "match_ordinal": 1,
               "match_group_count": 1,
               "effect_indexes": [
@@ -6915,7 +7332,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -6937,7 +7355,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -6959,7 +7378,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -6987,7 +7407,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -7144,14 +7565,124 @@ window.WOW_PVP_DATA = {
         "icon": "ability_mage_frostfirebolt"
       },
       "pve_tooltip": "Casting Pyroblast has a 20% chance to also cast a Glacial Spike, dealing (366.24% of Spell Power) Frost damage.",
-      "pvp_tooltip": "Casting Pyroblast has a 20% chance to also cast a Glacial Spike, dealing (366.24% of Spell Power) Frost damage.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "Casting Pyroblast has a 20% chance to also cast a Glacial Spike, dealing (109.9819% of Spell Power) Frost damage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 74,
+          "end": 80,
+          "old_token": "366.24",
+          "new_token": "109.9819",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "spell_power_coefficient",
+          "old": 881.3000000000001,
+          "new": 264.65439000000003,
+          "full_tooltip_match_count": 1
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "366.24",
+          "new": "109.9819"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1262843,
+          "source_spell_id": 1262862,
+          "effect_index": 1,
+          "effect_text": "School Damage (Frost) (SP mod: 3.6624)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.33,
+          "amount_kind": "direct",
+          "aura_factor": 0.91,
+          "final_pvp_multiplier": 0.3003,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1262843,
+            1262862
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256911,
+              "game_effect_id": 1264664,
+              "amount_kind": "direct",
+              "value_pct": -9.0,
+              "factor": 0.91,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar",
+            "simc"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1262843,
+          "source_spell_id": 1262863,
+          "effect_index": 1,
+          "effect_text": "School Damage (Fire) (SP mod: 8.813)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.33,
+          "amount_kind": "direct",
+          "aura_factor": 0.91,
+          "final_pvp_multiplier": 0.3003,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1262843,
+            1262863
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256911,
+              "game_effect_id": 1264664,
+              "amount_kind": "direct",
+              "value_pct": -9.0,
+              "factor": 0.91,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar",
+            "simc"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Heat Sink",
@@ -7717,6 +8248,26 @@ window.WOW_PVP_DATA = {
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
           "kind": "spell_power_coefficient",
+          "old": 91.53999999999999,
+          "new": 83.3014,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
+          "old": 24.8,
+          "new": 22.568,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "spell_power_coefficient",
           "old": 86.0,
           "new": 109.56400000000001,
           "full_tooltip_match_count": 0
@@ -7762,7 +8313,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -7800,7 +8352,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -7838,9 +8391,88 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431095,
+          "source_spell_id": 1246949,
+          "effect_index": 1,
+          "effect_text": "School Damage (Frost) (SP mod: 0.9154)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.91,
+          "final_pvp_multiplier": 0.91,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431095,
+            1246769,
+            1246949
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256911,
+              "game_effect_id": 1264664,
+              "amount_kind": "direct",
+              "value_pct": -9.0,
+              "factor": 0.91,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 431095,
+          "source_spell_id": 1246949,
+          "effect_index": 2,
+          "effect_text": "School Damage (Frost) (SP mod: 0.248)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.91,
+          "final_pvp_multiplier": 0.91,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            431095,
+            1246769,
+            1246949
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256911,
+              "game_effect_id": 1264664,
+              "amount_kind": "direct",
+              "value_pct": -9.0,
+              "factor": 0.91,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -7880,7 +8512,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -7922,12 +8555,13 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 5
+      "render_effect_count": 7
     },
     {
       "talent_name": "Spellfire Spheres",
@@ -8004,7 +8638,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -8031,7 +8666,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         }
@@ -8344,7 +8980,7 @@ window.WOW_PVP_DATA = {
             3
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 15.0,
           "new": 10.05,
           "full_tooltip_match_count": 0
@@ -8354,7 +8990,7 @@ window.WOW_PVP_DATA = {
             4
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 25.0,
           "new": 15.0,
           "full_tooltip_match_count": 0
@@ -8372,6 +9008,34 @@ window.WOW_PVP_DATA = {
       ],
       "has_pvp_mechanics": true,
       "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 449330,
+          "source_spell_id": 449336,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Dummy (127)",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.0,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            449330,
+            449336
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "simc"
+          ],
+          "confidence": "high"
+        },
         {
           "effect_origin": "DEPENDENCY",
           "dependency_kind": "REFERENCED",
@@ -8396,7 +9060,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -8424,7 +9089,36 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 449330,
+          "source_spell_id": 1246023,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy (127)",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.0,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            449330,
+            1246023
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -8737,6 +9431,34 @@ window.WOW_PVP_DATA = {
             "wowhead"
           ],
           "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 1246030,
+          "source_spell_id": 1246032,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy (127)",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.0,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1246030,
+            1246032
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "simc"
+          ],
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1
@@ -9116,11 +9838,11 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "mage-fire",
-  "generated_at": "2026-09-19T14:40:14.685032+00:00",
+  "generated_at": "2026-09-19T15:27:10.058912+00:00",
   "validation": {
     "talents": 127,
-    "changed_tooltips": 20,
-    "talents_with_pvp_mechanics": 32,
+    "changed_tooltips": 23,
+    "talents_with_pvp_mechanics": 38,
     "unique_nodes": 110,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
@@ -9128,79 +9850,69 @@ window.WOW_PVP_DATA = {
       "12.1.0.69587"
     ],
     "verification_status": "PARTIAL",
-    "fetch_error_count": 9,
-    "unresolved_count": 17,
+    "fetch_error_count": 0,
+    "source_warning_count": 0,
+    "unresolved_count": 3,
     "review_required_count": 3,
-    "fetch_error_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 468655,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=468655'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1246023,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1246023'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1246032,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1246032'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1246949,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1246949'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1254024,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1254024'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "fetch_error_examples": [],
+    "source_warning_examples": [],
     "unresolved_examples": [
       {
-        "spell_id": 235313,
-        "talent_name": "Blazing Barrier",
-        "side": "wowhead",
-        "reason": "WOWHEAD_ONLY_MODIFIER",
-        "effect_index": 2,
-        "multiplier": 0.75,
-        "effect_text": "Apply Aura: Dummy"
-      },
-      {
-        "spell_id": 382268,
-        "talent_name": "Flow of Time",
+        "spell_id": 449336,
+        "talent_name": "Merely a Setback",
         "side": "drustvar",
         "reason": "UNMATCHED_DRUSTVAR_EFFECT",
-        "multiplier": 0.5,
-        "effect_text": "Apply Aura (6) | Modify Recharge Time (Category) (453)"
+        "multiplier": 0.0,
+        "effect_text": "Apply Aura (6) | Dummy (4)",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 449330,
+        "source_spell_id": 449336,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          449330,
+          449336
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref"
+        ]
       },
       {
-        "spell_id": 382268,
-        "talent_name": "Flow of Time",
+        "spell_id": 1246023,
+        "talent_name": "Merely a Setback",
         "side": "drustvar",
         "reason": "UNMATCHED_DRUSTVAR_EFFECT",
-        "multiplier": 0.5,
-        "effect_text": "Apply Aura (6) | Modify Recharge Time (Category) (453)"
+        "multiplier": 0.0,
+        "effect_text": "Apply Aura (6) | Dummy (4)",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 449330,
+        "source_spell_id": 1246023,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          449330,
+          1246023
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref"
+        ]
       },
       {
-        "spell_id": 382268,
-        "talent_name": "Flow of Time",
-        "side": "wowhead",
-        "reason": "WOWHEAD_ONLY_MODIFIER",
-        "effect_index": 1,
-        "multiplier": 0.5,
-        "effect_text": "Apply Aura: Mod Cooldown Ms (1446)"
-      },
-      {
-        "spell_id": 382268,
-        "talent_name": "Flow of Time",
-        "side": "wowhead",
-        "reason": "WOWHEAD_ONLY_MODIFIER",
-        "effect_index": 2,
-        "multiplier": 0.5,
-        "effect_text": "Apply Aura: Mod Cooldown Ms (1632)"
+        "spell_id": 1246032,
+        "talent_name": "Explosive Potential",
+        "side": "drustvar",
+        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
+        "multiplier": 0.0,
+        "effect_text": "Apply Aura (6) | Dummy (4)",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 1246030,
+        "source_spell_id": 1246032,
+        "dependency_kind": "RUNTIME",
+        "dependency_path": [
+          1246030,
+          1246032
+        ],
+        "dependency_relations": [
+          "trigger_spell"
+        ]
       }
     ],
     "review_required_examples": [

@@ -309,7 +309,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -534,7 +535,7 @@
           "end": 72,
           "old_token": "60",
           "new_token": "30",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -546,7 +547,7 @@
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "60",
           "new": "30"
         }
@@ -572,7 +573,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -798,7 +800,7 @@
           "end": 77,
           "old_token": "50",
           "new_token": "30",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -810,7 +812,7 @@
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "50",
           "new": "30"
         }
@@ -836,7 +838,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -898,7 +901,7 @@
           "end": 122,
           "old_token": "30",
           "new_token": "10",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -910,7 +913,7 @@
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "30",
           "new": "10"
         }
@@ -936,7 +939,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -1072,7 +1076,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -1382,7 +1387,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -1572,7 +1578,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2014,7 +2021,7 @@
           "end": 120,
           "old_token": "8",
           "new_token": "13.336",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             3
           ]
@@ -2026,7 +2033,7 @@
             3
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "8",
           "new": "13.336"
         }
@@ -2052,7 +2059,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2733,7 +2741,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2793,7 +2802,7 @@
           "end": 164,
           "old_token": "50",
           "new_token": "30",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -2803,7 +2812,7 @@
           "end": 498,
           "old_token": "20",
           "new_token": "15",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -2815,7 +2824,7 @@
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "50",
           "new": "30"
         },
@@ -2824,7 +2833,7 @@
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "20",
           "new": "15"
         }
@@ -2855,7 +2864,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -2883,7 +2893,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -2911,7 +2922,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2994,7 +3006,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3053,7 +3066,7 @@
           "end": 184,
           "old_token": "100",
           "new_token": "30",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -3065,7 +3078,7 @@
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "100",
           "new": "30"
         }
@@ -3096,7 +3109,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3203,7 +3217,8 @@
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3312,7 +3327,8 @@
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4083,7 +4099,8 @@
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4523,7 +4540,7 @@
           "end": 77,
           "old_token": "2",
           "new_token": "1",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -4535,7 +4552,7 @@
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "2",
           "new": "1"
         }
@@ -4561,7 +4578,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -4589,7 +4607,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -5951,7 +5970,8 @@
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -6860,7 +6880,8 @@
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -6909,7 +6930,8 @@
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -7187,7 +7209,7 @@
           "end": 40,
           "old_token": "35",
           "new_token": "10",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             4
           ]
@@ -7199,7 +7221,7 @@
             4
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "35",
           "new": "10"
         }
@@ -7225,7 +7247,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -7307,7 +7330,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -8157,7 +8181,7 @@
           "end": 124,
           "old_token": "50",
           "new_token": "20",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2
           ]
@@ -8169,7 +8193,7 @@
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "50",
           "new": "20"
         }
@@ -8195,7 +8219,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -8399,7 +8424,8 @@
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -8512,7 +8538,7 @@
           "end": 72,
           "old_token": "5",
           "new_token": "2",
-          "kind": "ordinary_value",
+          "kind": "distance_yards",
           "effect_indexes": [
             2
           ]
@@ -8524,7 +8550,7 @@
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "distance_yards",
           "old": "5",
           "new": "2"
         }
@@ -8550,7 +8576,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -9034,7 +9061,7 @@
           "end": 163,
           "old_token": "2",
           "new_token": "1",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -9046,7 +9073,7 @@
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "2",
           "new": "1"
         }
@@ -9077,7 +9104,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -9172,7 +9200,8 @@
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -9182,7 +9211,7 @@
   ],
   "fetch_errors": [],
   "slug": "warlock-destruction",
-  "generated_at": "2026-09-19T14:50:47.989129+00:00",
+  "generated_at": "2026-09-19T15:36:45.888381+00:00",
   "validation": {
     "talents": 129,
     "changed_tooltips": 26,
@@ -9195,9 +9224,11 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }

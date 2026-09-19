@@ -97,7 +97,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -426,7 +427,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -1174,7 +1176,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 462764,
           "source_spell_id": 462765,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -30.0,
           "spell_pvp_multiplier": 0.666667,
           "amount_kind": null,
@@ -1191,7 +1193,7 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -1635,7 +1637,7 @@ window.WOW_PVP_DATA = {
           "end": 237,
           "old_token": "50",
           "new_token": "30",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -1647,7 +1649,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "50",
           "new": "30"
         }
@@ -1678,7 +1680,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3208,7 +3211,7 @@ window.WOW_PVP_DATA = {
           "end": 31,
           "old_token": "70",
           "new_token": "50",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -3220,7 +3223,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "70",
           "new": "50"
         }
@@ -3251,7 +3254,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3517,7 +3521,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3746,7 +3751,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3859,7 +3865,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4346,7 +4353,7 @@ window.WOW_PVP_DATA = {
           "end": 127,
           "old_token": "150",
           "new_token": "52.5",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2
           ]
@@ -4358,7 +4365,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 25.0,
           "new": 12.5,
           "full_tooltip_match_count": 0
@@ -4368,7 +4375,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "150",
           "new": "52.5"
         }
@@ -4394,7 +4401,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -4404,7 +4412,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 191634,
           "source_spell_id": 1264863,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Modifies Effect #4's Value (32)",
+          "effect_text": "Apply Aura (6) | Add Flat Modifier (107): Spell Effect 4 (32)",
           "base_value": 25.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -4421,7 +4429,7 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -4477,7 +4485,18 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "attack_power_coefficient",
+          "old": 3.9600000000000004,
+          "new": 3.8016,
+          "full_tooltip_match_count": 1
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4487,12 +4506,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 10444,
           "effect_index": 1,
           "effect_text": "School Damage (Fire) (AP mod: 0.0396 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 0.96,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             318038,
@@ -4518,7 +4537,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Storm Frenzy",
@@ -4835,41 +4854,32 @@ window.WOW_PVP_DATA = {
         "icon": "inv_misc_cauldron_fire"
       },
       "pve_tooltip": "Reduces the cooldown of Flame Shock and Voltaic Blaze by 1.5 sec.\nFlame Shock deals damage 15% faster.",
-      "pvp_tooltip": "Reduces the cooldown of Flame Shock and Voltaic Blaze by 1.5 sec.\nFlame Shock deals damage 15% faster.",
-      "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
-      "changes": [],
+      "pvp_tooltip": "Reduces the cooldown of Flame Shock and Voltaic Blaze by 3.0 sec.\nFlame Shock deals damage 15% faster.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 57,
+          "end": 60,
+          "old_token": "1.5",
+          "new_token": "3.0",
+          "kind": "duration_seconds",
+          "effect_indexes": [
+            2,
+            3
+          ]
+        }
+      ],
       "diagnostics": [
         {
-          "effect_index": null,
-          "status": "CONFLICTING_TRANSFORMS",
-          "reason": "PvE value 1.5 maps to multiple PvP values",
-          "candidates": [
-            {
-              "kind": "ordinary_value",
-              "old": 1.5,
-              "new": 3.0,
-              "unit": null,
-              "effect_index": 2,
-              "match_ordinal": 1,
-              "match_group_count": 1,
-              "effect_indexes": [
-                2
-              ]
-            },
-            {
-              "kind": "duration_seconds",
-              "old": 1.5,
-              "new": 3.0,
-              "unit": "sec",
-              "effect_index": 3,
-              "match_ordinal": 1,
-              "match_group_count": 1,
-              "effect_indexes": [
-                3
-              ]
-            }
-          ]
+          "effect_indexes": [
+            2,
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "duration_seconds",
+          "old": "1.5",
+          "new": "3.0"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4893,7 +4903,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -4916,7 +4927,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -5117,7 +5129,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 462757,
           "source_spell_id": 462763,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (SP mod: 0.715)",
+          "effect_text": "School Damage (2): nature (SP mod: 0.715)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5144,9 +5156,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1
@@ -5693,7 +5706,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -5908,14 +5922,59 @@ window.WOW_PVP_DATA = {
         "icon": "inv121_ability_shaman_ascendance_fire"
       },
       "pve_tooltip": "40 yd range\nInstant\n3 min cooldown\nTransform into a Flame Ascendant for 15 sec, instantly casting a Flame Shock and a 50% effectiveness Lava Burst at up to 6 nearby enemies.\nWhile ascended, Elemental Overload damage is increased by 30% and spells affected by your Mastery: Elemental Overload cause 1 additional Elemental Overload.",
-      "pvp_tooltip": "40 yd range\nInstant\n3 min cooldown\nTransform into a Flame Ascendant for 15 sec, instantly casting a Flame Shock and a 50% effectiveness Lava Burst at up to 6 nearby enemies.\nWhile ascended, Elemental Overload damage is increased by 30% and spells affected by your Mastery: Elemental Overload cause 1 additional Elemental Overload.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "40 yd range\nInstant\n3 min cooldown\nTransform into a Flame Ascendant for 15 sec, instantly casting a Flame Shock and a 0% effectiveness Lava Burst at up to 6 nearby enemies.\nWhile ascended, Elemental Overload damage is increased by 30% and spells affected by your Mastery: Elemental Overload cause 1 additional Elemental Overload.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 118,
+          "end": 120,
+          "old_token": "50",
+          "new_token": "0",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "50",
+          "new": "0"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 114050,
+          "source_spell_id": 114050,
+          "effect_index": 2,
+          "effect_text": "Dummy",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.0,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "simc"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Inferno Arc",
@@ -6219,7 +6278,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -6306,7 +6366,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 470057,
           "source_spell_id": 1259101,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (SP mod: 4)",
+          "effect_text": "School Damage (2): nature (SP mod: 4)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6333,9 +6393,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1
@@ -6391,7 +6452,7 @@ window.WOW_PVP_DATA = {
           "end": 75,
           "old_token": "25",
           "new_token": "50",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2
           ]
@@ -6403,7 +6464,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "25",
           "new": "50"
         }
@@ -6429,7 +6490,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -6695,7 +6757,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1259471,
           "source_spell_id": 1259491,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Dummy",
+          "effect_text": "Apply Aura (6) | Dummy (4)",
           "base_value": 80.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -6712,7 +6774,7 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -7188,7 +7250,7 @@ window.WOW_PVP_DATA = {
             4
           ],
           "status": "OTHER_SPEC_BRANCH",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 20.0,
           "new": 25.0,
           "full_tooltip_match_count": 1
@@ -7215,7 +7277,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -7238,7 +7301,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -7405,7 +7469,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "OTHER_SPEC_BRANCH",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 10.0,
           "new": 5.0,
           "full_tooltip_match_count": 1
@@ -7432,7 +7496,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -7704,7 +7769,7 @@ window.WOW_PVP_DATA = {
           "end": 136,
           "old_token": "25",
           "new_token": "20",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2
           ]
@@ -7716,7 +7781,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "25",
           "new": "20"
         }
@@ -7742,7 +7807,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -7824,7 +7890,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -8417,7 +8484,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "OTHER_SPEC_BRANCH",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 40.0,
           "new": 20.0,
           "full_tooltip_match_count": 1
@@ -8431,7 +8498,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 455096,
           "source_spell_id": 455097,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0) | Attributes: Suppress Points Stacking (6)",
           "base_value": 40.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -8448,7 +8515,7 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -8884,11 +8951,11 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "shaman-elemental",
-  "generated_at": "2026-09-19T14:48:26.343459+00:00",
+  "generated_at": "2026-09-19T15:35:25.378393+00:00",
   "validation": {
     "talents": 140,
-    "changed_tooltips": 17,
-    "talents_with_pvp_mechanics": 26,
+    "changed_tooltips": 19,
+    "talents_with_pvp_mechanics": 27,
     "unique_nodes": 116,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
@@ -8897,9 +8964,37 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "PARTIAL",
     "fetch_error_count": 0,
+    "source_warning_count": 6,
     "unresolved_count": 1,
-    "review_required_count": 1,
+    "review_required_count": 0,
     "fetch_error_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 455097,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=455097'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 462763,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=462763'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 462765,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=462765'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1259101,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1259101'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1259491,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1259491'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [
       {
         "spell_id": 114050,
@@ -8910,12 +9005,6 @@ window.WOW_PVP_DATA = {
         "effect_text": "Dummy (3)"
       }
     ],
-    "review_required_examples": [
-      {
-        "talent_name": "Flames of the Cauldron",
-        "spell_id": 378266,
-        "status": "REVIEW_REQUIRED"
-      }
-    ]
+    "review_required_examples": []
   }
 };

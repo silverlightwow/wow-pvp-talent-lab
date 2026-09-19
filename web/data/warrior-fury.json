@@ -111,7 +111,7 @@
           "end": 117,
           "old_token": "10",
           "new_token": "15",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2
           ]
@@ -123,7 +123,7 @@
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "10",
           "new": "15"
         }
@@ -149,7 +149,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -473,7 +474,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -692,7 +694,28 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 38.0931,
+          "new": 50.37812475,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 124.581,
+          "new": 143.26815,
+          "full_tooltip_match_count": 0
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -702,12 +725,12 @@
           "source_spell_id": 388539,
           "effect_index": 1,
           "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.3225,
           "amount_kind": "periodic",
           "aura_factor": 1.0,
           "final_pvp_multiplier": 1.3225,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             1299025,
@@ -719,7 +742,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -730,12 +754,12 @@
           "source_spell_id": 772,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 1.24581 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.15,
           "amount_kind": "direct",
           "aura_factor": 1.0,
           "final_pvp_multiplier": 1.15,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             1299025,
@@ -749,12 +773,13 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 2
     },
     {
       "talent_name": "Second Wind",
@@ -915,7 +940,7 @@
           "end": 41,
           "old_token": "15",
           "new_token": "10.5",
-          "kind": "ordinary_value",
+          "kind": "duration_seconds",
           "effect_indexes": [
             2
           ]
@@ -925,7 +950,7 @@
           "end": 102,
           "old_token": "70",
           "new_token": "50.4",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -947,7 +972,7 @@
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "duration_seconds",
           "old": "15",
           "new": "10.5"
         },
@@ -956,7 +981,7 @@
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "70",
           "new": "50.4"
         }
@@ -982,7 +1007,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -1005,7 +1031,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -1033,7 +1060,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -1359,20 +1387,30 @@
         "icon": "ability_warrior_rallyingcry"
       },
       "pve_tooltip": "Instant\n3 min cooldown\nLets loose a rallying cry, granting all party or raid members within 40 yards\n10\n% temporary and maximum health for\n10 sec\n.\nHealth granted increased by 50% when not in a raid.",
-      "pvp_tooltip": "Instant\n3 min cooldown\nLets loose a rallying cry, granting all party or raid members within 40 yards\n10\n% temporary and maximum health for\n10 sec\n.\nHealth granted increased by 50% when not in a raid.",
-      "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
-      "changes": [],
+      "pvp_tooltip": "Instant\n3 min cooldown\nLets loose a rallying cry, granting all party or raid members within 40 yards\n20\n% temporary and maximum health for\n10 sec\n.\nHealth granted increased by 50% when not in a raid.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 101,
+          "end": 103,
+          "old_token": "10",
+          "new_token": "20",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "AMBIGUOUS_TEXT_MATCH",
-          "kind": "ordinary_value",
-          "old": 10.0,
-          "new": 20.0,
-          "match_count": 2
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "10",
+          "new": "20"
         }
       ],
       "has_pvp_mechanics": true,
@@ -1396,7 +1434,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -1585,7 +1624,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -1668,7 +1708,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -1946,7 +1987,7 @@
           "end": 96,
           "old_token": "70",
           "new_token": "50",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -1958,7 +1999,7 @@
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "70",
           "new": "50"
         }
@@ -1984,7 +2025,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2183,7 +2225,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2715,7 +2758,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2828,7 +2872,7 @@
             3
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 10.0,
           "new": 25.0,
           "full_tooltip_match_count": 0
@@ -2859,7 +2903,8 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2886,7 +2931,8 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         }
@@ -2995,7 +3041,7 @@
           "end": 147,
           "old_token": "3",
           "new_token": "2",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -3007,7 +3053,7 @@
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "3",
           "new": "2"
         }
@@ -3038,7 +3084,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3209,7 +3256,7 @@
             1
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 3.0,
           "new": 2.000001,
           "full_tooltip_match_count": 0
@@ -3247,7 +3294,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3308,7 +3356,7 @@
           "end": 56,
           "old_token": "3",
           "new_token": "2",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -3320,7 +3368,7 @@
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "3",
           "new": "2"
         }
@@ -3357,7 +3405,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3583,7 +3632,7 @@
           "end": 11,
           "old_token": "10",
           "new_token": "5",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -3595,7 +3644,7 @@
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "10",
           "new": "5"
         }
@@ -3621,7 +3670,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3902,12 +3952,12 @@
           "source_spell_id": 184707,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 2.03065 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.275,
           "amount_kind": "direct",
           "aura_factor": 1.0,
           "final_pvp_multiplier": 1.275,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             184367,
@@ -3919,7 +3969,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -3930,12 +3981,12 @@
           "source_spell_id": 184709,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 1.18455 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.275,
           "amount_kind": "direct",
           "aura_factor": 1.0,
           "final_pvp_multiplier": 1.275,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             184367,
@@ -3947,7 +3998,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -3958,12 +4010,12 @@
           "source_spell_id": 201363,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 1.523 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.275,
           "amount_kind": "direct",
           "aura_factor": 1.0,
           "final_pvp_multiplier": 1.275,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             184367,
@@ -3975,7 +4027,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -3986,12 +4039,12 @@
           "source_spell_id": 201364,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 2.70756 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.275,
           "amount_kind": "direct",
           "aura_factor": 1.0,
           "final_pvp_multiplier": 1.275,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             184367,
@@ -4003,7 +4056,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -4014,12 +4068,12 @@
           "source_spell_id": 1299944,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 3.72289 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.275,
           "amount_kind": "direct",
           "aura_factor": 1.0,
           "final_pvp_multiplier": 1.275,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             184367,
@@ -4031,7 +4085,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4137,11 +4192,72 @@
         "icon": "ability_warrior_trauma"
       },
       "pve_tooltip": "While Improved Whirlwind is active, Rampage's final strike slams the ground, dealing (372.289% of Attack Power) Physical damage to all enemies within 8 yds of your target. Deals reduced damage beyond 5 targets",
-      "pvp_tooltip": "While Improved Whirlwind is active, Rampage's final strike slams the ground, dealing (372.289% of Attack Power) Physical damage to all enemies within 8 yds of your target. Deals reduced damage beyond 5 targets",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "While Improved Whirlwind is active, Rampage's final strike slams the ground, dealing (474.6685% of Attack Power) Physical damage to all enemies within 8 yds of your target. Deals reduced damage beyond 5 targets",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 86,
+          "end": 93,
+          "old_token": "372.289",
+          "new_token": "474.6685",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 203.065,
+          "new": 258.907875,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 118.455,
+          "new": 151.030125,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 152.29999999999998,
+          "new": 194.18249999999998,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 270.756,
+          "new": 345.21389999999997,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "372.289",
+          "new": "474.6685"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4151,12 +4267,12 @@
           "source_spell_id": 1299944,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 3.72289 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.275,
           "amount_kind": "direct",
           "aura_factor": 1.0,
           "final_pvp_multiplier": 1.275,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             1265357,
@@ -4168,7 +4284,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -4179,12 +4296,12 @@
           "source_spell_id": 184707,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 2.03065 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.275,
           "amount_kind": "direct",
           "aura_factor": 1.0,
           "final_pvp_multiplier": 1.275,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             1265357,
@@ -4200,7 +4317,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -4211,12 +4329,12 @@
           "source_spell_id": 184709,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 1.18455 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.275,
           "amount_kind": "direct",
           "aura_factor": 1.0,
           "final_pvp_multiplier": 1.275,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             1265357,
@@ -4232,7 +4350,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -4243,12 +4362,12 @@
           "source_spell_id": 201363,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 1.523 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.275,
           "amount_kind": "direct",
           "aura_factor": 1.0,
           "final_pvp_multiplier": 1.275,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             1265357,
@@ -4264,7 +4383,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -4275,12 +4395,12 @@
           "source_spell_id": 201364,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 2.70756 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.275,
           "amount_kind": "direct",
           "aura_factor": 1.0,
           "final_pvp_multiplier": 1.275,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             1265357,
@@ -4296,12 +4416,13 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 5
     },
     {
       "talent_name": "Deep Wounds",
@@ -4360,12 +4481,12 @@
           "source_spell_id": 262115,
           "effect_index": 1,
           "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 2.0,
           "amount_kind": "periodic",
           "aura_factor": 1.0,
           "final_pvp_multiplier": 2.0,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             1261060,
@@ -4377,7 +4498,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4887,7 +5009,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -5336,12 +5459,12 @@
           "source_spell_id": 385060,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 1.82598 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 0.8,
           "amount_kind": "direct",
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.8,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             385059,
@@ -5353,7 +5476,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -5364,12 +5488,12 @@
           "source_spell_id": 385060,
           "effect_index": 2,
           "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 0.8,
           "amount_kind": "periodic",
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.8,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             385059,
@@ -5381,7 +5505,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -5392,12 +5517,12 @@
           "source_spell_id": 385061,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 1.82598 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 0.8,
           "amount_kind": "direct",
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.8,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             385059,
@@ -5409,7 +5534,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -5420,12 +5546,12 @@
           "source_spell_id": 385062,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 1.82598 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 0.8,
           "amount_kind": "direct",
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.8,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             385059,
@@ -5437,7 +5563,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -5657,7 +5784,7 @@
             1
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 3.0,
           "new": 2.000001,
           "full_tooltip_match_count": 0
@@ -5693,7 +5820,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -5743,10 +5871,23 @@
         "icon": "warrior_talent_icon_avatar"
       },
       "pve_tooltip": "Instant\n1.5 min cooldown\nTransform into a colossus, increasing all damage you deal by 20% and increasing your movement speed by 5% for 20 sec.",
-      "pvp_tooltip": "Instant\n1.5 min cooldown\nTransform into a colossus, increasing all damage you deal by 20% and increasing your movement speed by 5% for 20 sec.",
-      "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
-      "changes": [],
+      "pvp_tooltip": "Instant\n1.5 min cooldown\nTransform into a colossus, increasing all damage you deal by 15% and increasing your movement speed by 5% for 20 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 86,
+          "end": 88,
+          "old_token": "20",
+          "new_token": "15",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1,
+            3,
+            4
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
@@ -5754,11 +5895,10 @@
             3,
             4
           ],
-          "status": "AMBIGUOUS_TEXT_MATCH",
-          "kind": "ordinary_value",
-          "old": 20.0,
-          "new": 15.0,
-          "match_count": 2
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "20",
+          "new": "15"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5782,7 +5922,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -5805,7 +5946,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -5828,7 +5970,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -5892,12 +6035,12 @@
           "source_spell_id": 50622,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 2.71635 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.85,
           "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             227847,
@@ -5929,12 +6072,12 @@
           "source_spell_id": 95738,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 2.71635 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.85,
           "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             227847,
@@ -6431,7 +6574,7 @@
           "end": 244,
           "old_token": "3",
           "new_token": "1",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1,
             2,
@@ -6447,7 +6590,7 @@
             3
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "3",
           "new": "1"
         }
@@ -6478,7 +6621,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -6506,7 +6650,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -6534,7 +6679,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -7018,7 +7164,7 @@
           "end": 42,
           "old_token": "70",
           "new_token": "50.4",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -7030,7 +7176,7 @@
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "70",
           "new": "50.4"
         }
@@ -7061,7 +7207,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -7461,7 +7608,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -7680,7 +7828,7 @@
           "end": 48,
           "old_token": "50",
           "new_token": "30",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1,
             2
@@ -7694,7 +7842,7 @@
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "50",
           "new": "30"
         }
@@ -7724,7 +7872,8 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -7751,7 +7900,8 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         }
@@ -8024,7 +8174,7 @@
           "end": 94,
           "old_token": "3",
           "new_token": "1",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1,
             2,
@@ -8040,7 +8190,7 @@
             3
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "3",
           "new": "1"
         }
@@ -8071,7 +8221,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -8099,7 +8250,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -8127,7 +8279,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -8178,11 +8331,32 @@
         "icon": "ability_arakkoa_spinning_blade"
       },
       "pve_tooltip": "When Rampage hits 3 or more targets via Improved Whirlwind you have a 20% chance to unleash a flurry of steel, striking all nearby enemies for (771.909% of Attack Power) Physical damage and applying Overwhelmed. Deals reduced damage beyond 8 targets.\n(500ms cooldown)",
-      "pvp_tooltip": "When Rampage hits 3 or more targets via Improved Whirlwind you have a 20% chance to unleash a flurry of steel, striking all nearby enemies for (771.909% of Attack Power) Physical damage and applying Overwhelmed. Deals reduced damage beyond 8 targets.\n(500ms cooldown)",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "When Rampage hits 3 or more targets via Improved Whirlwind you have a 20% chance to unleash a flurry of steel, striking all nearby enemies for (474.724% of Attack Power) Physical damage and applying Overwhelmed. Deals reduced damage beyond 8 targets.\n(500ms cooldown)",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 144,
+          "end": 151,
+          "old_token": "771.909",
+          "new_token": "474.724",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "771.909",
+          "new": "474.724"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8192,12 +8366,12 @@
           "source_spell_id": 446005,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 7.71909 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 0.615,
           "amount_kind": "direct",
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.615,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             444775,
@@ -8209,12 +8383,13 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Slayer's Malice",
@@ -8322,7 +8497,7 @@
           "end": 118,
           "old_token": "100",
           "new_token": "40",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2
           ]
@@ -8334,7 +8509,7 @@
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "100",
           "new": "40"
         }
@@ -8360,7 +8535,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -8424,10 +8600,10 @@
   ],
   "fetch_errors": [],
   "slug": "warrior-fury",
-  "generated_at": "2026-09-19T14:51:49.313501+00:00",
+  "generated_at": "2026-09-19T15:38:26.737039+00:00",
   "validation": {
     "talents": 122,
-    "changed_tooltips": 13,
+    "changed_tooltips": 17,
     "talents_with_pvp_mechanics": 30,
     "unique_nodes": 106,
     "tree_build": "12.1.0.69875",
@@ -8435,102 +8611,14 @@
     "drustvar_builds": [
       "12.1.0.69587"
     ],
-    "verification_status": "PARTIAL",
+    "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "unresolved_count": 4,
-    "review_required_count": 2,
+    "source_warning_count": 0,
+    "unresolved_count": 0,
+    "review_required_count": 0,
     "fetch_error_examples": [],
-    "unresolved_examples": [
-      {
-        "spell_id": 446918,
-        "talent_name": "Brutal Finish",
-        "side": "drustvar",
-        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
-        "multiplier": 0.6,
-        "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 446085,
-        "source_spell_id": 446918,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          446085,
-          446918
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      },
-      {
-        "spell_id": 446918,
-        "talent_name": "Brutal Finish",
-        "side": "drustvar",
-        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
-        "multiplier": 0.6,
-        "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 446085,
-        "source_spell_id": 446918,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          446085,
-          446918
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      },
-      {
-        "spell_id": 446918,
-        "talent_name": "Brutal Finish",
-        "side": "wowhead",
-        "reason": "WOWHEAD_ONLY_MODIFIER",
-        "effect_index": 1,
-        "multiplier": 0.6,
-        "effect_text": "Apply Aura: Modifies Damage/Healing Done",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 446085,
-        "source_spell_id": 446918,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          446085,
-          446918
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      },
-      {
-        "spell_id": 446918,
-        "talent_name": "Brutal Finish",
-        "side": "wowhead",
-        "reason": "WOWHEAD_ONLY_MODIFIER",
-        "effect_index": 2,
-        "multiplier": 0.6,
-        "effect_text": "Apply Aura: Modifies Damage/Healing Done",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 446085,
-        "source_spell_id": 446918,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          446085,
-          446918
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      }
-    ],
-    "review_required_examples": [
-      {
-        "talent_name": "Rallying Cry",
-        "spell_id": 97462,
-        "status": "REVIEW_REQUIRED"
-      },
-      {
-        "talent_name": "Avatar",
-        "spell_id": 107574,
-        "status": "REVIEW_REQUIRED"
-      }
-    ]
+    "source_warning_examples": [],
+    "unresolved_examples": [],
+    "review_required_examples": []
   }
 }

@@ -368,7 +368,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -1923,7 +1924,8 @@
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -1987,7 +1989,7 @@
           "end": 153,
           "old_token": "50",
           "new_token": "30",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2,
             3,
@@ -2031,7 +2033,7 @@
             18
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "50",
           "new": "30"
         }
@@ -2056,7 +2058,8 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2078,7 +2081,8 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2100,7 +2104,8 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2122,7 +2127,8 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2144,7 +2150,8 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2166,7 +2173,8 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2188,7 +2196,8 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2210,7 +2219,8 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2232,7 +2242,8 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2254,7 +2265,8 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2276,7 +2288,8 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2298,7 +2311,8 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2320,7 +2334,8 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2342,7 +2357,8 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2364,7 +2380,8 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2386,7 +2403,8 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2408,7 +2426,8 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         }
@@ -3591,7 +3610,8 @@
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3842,7 +3862,8 @@
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4094,7 +4115,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -5088,7 +5110,7 @@
             1
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 30.0,
           "new": 20.01,
           "full_tooltip_match_count": 0
@@ -5115,7 +5137,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -5494,7 +5517,7 @@
           "end": 20,
           "old_token": "20",
           "new_token": "20",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -5506,7 +5529,7 @@
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "20",
           "new": "20"
         }
@@ -5531,9 +5554,10 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1
@@ -6312,7 +6336,8 @@
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -6572,7 +6597,7 @@
           "end": 53,
           "old_token": "20",
           "new_token": "30",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -6584,7 +6609,7 @@
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "20",
           "new": "30"
         }
@@ -6679,7 +6704,7 @@
           "end": 49,
           "old_token": "30",
           "new_token": "40.2",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -6691,7 +6716,7 @@
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "30",
           "new": "40.2"
         }
@@ -8121,7 +8146,7 @@
           "end": 91,
           "old_token": "150",
           "new_token": "200",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             4
           ]
@@ -8133,7 +8158,7 @@
             4
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "150",
           "new": "200"
         }
@@ -8159,7 +8184,8 @@
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -8169,7 +8195,7 @@
   ],
   "fetch_errors": [],
   "slug": "evoker-devastation",
-  "generated_at": "2026-09-19T14:37:12.052396+00:00",
+  "generated_at": "2026-09-19T15:24:16.299436+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 12,
@@ -8182,9 +8208,11 @@
     ],
     "verification_status": "PARTIAL",
     "fetch_error_count": 0,
-    "unresolved_count": 2,
+    "source_warning_count": 0,
+    "unresolved_count": 1,
     "review_required_count": 0,
     "fetch_error_examples": [],
+    "source_warning_examples": [],
     "unresolved_examples": [
       {
         "spell_id": 1266151,
@@ -8193,15 +8221,6 @@
         "reason": "UNMATCHED_DRUSTVAR_EFFECT",
         "multiplier": 0.0,
         "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)"
-      },
-      {
-        "spell_id": 1266151,
-        "talent_name": "Strafing Run",
-        "side": "wowhead",
-        "reason": "WOWHEAD_ONLY_MODIFIER",
-        "effect_index": 1,
-        "multiplier": -1.0,
-        "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)"
       }
     ],
     "review_required_examples": []

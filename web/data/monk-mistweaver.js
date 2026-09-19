@@ -212,9 +212,48 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "percent_value",
+          "old": 50.0,
+          "new": 25.0,
+          "full_tooltip_match_count": 0
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 107428,
+          "source_spell_id": 115804,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Healing Taken - % (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)",
+          "base_value": -50.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": -25.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            107428,
+            115804
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "simc"
+          ],
+          "confidence": "high"
+        },
         {
           "effect_origin": "DEPENDENCY",
           "dependency_kind": "RUNTIME",
@@ -222,12 +261,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 185099,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 1.438 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 1.22,
           "final_pvp_multiplier": 1.22,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             107428,
@@ -253,7 +292,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Elusive Mists",
@@ -446,7 +485,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 450335,
           "source_spell_id": 450342,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -40.0,
           "spell_pvp_multiplier": 0.75,
           "amount_kind": null,
@@ -463,7 +502,7 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -1009,14 +1048,74 @@ window.WOW_PVP_DATA = {
         "icon": "spell_monk_zenpilgrimage"
       },
       "pve_tooltip": "While no enemies are within 15 yds, you heal for (375% of Spell Power) every 3 sec.",
-      "pvp_tooltip": "While no enemies are within 15 yds, you heal for (375% of Spell Power) every 3 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "While no enemies are within 15 yds, you heal for (281.25% of Spell Power) every 3 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 50,
+          "end": 53,
+          "old_token": "375",
+          "new_token": "281.25",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "375",
+          "new": "281.25"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1266719,
+          "source_spell_id": 1266720,
+          "effect_index": 1,
+          "effect_text": "Direct Heal (10) (SP mod: 3.75)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1266719,
+            1266720
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108337,
+              "amount_kind": "direct",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "simc",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Jade Walk",
@@ -1338,11 +1437,51 @@ window.WOW_PVP_DATA = {
         "icon": "ability_monk_chiwave"
       },
       "pve_tooltip": "Every 15 sec, your next Rising Sun Kick or\nVivify\nreleases a wave of Chi energy that flows through friends and foes, dealing (20% of Attack Power) Nature damage or (60% of Attack Power) healing. Bounces up to 7 times to targets within 25 yards.",
-      "pvp_tooltip": "Every 15 sec, your next Rising Sun Kick or\nVivify\nreleases a wave of Chi energy that flows through friends and foes, dealing (20% of Attack Power) Nature damage or (60% of Attack Power) healing. Bounces up to 7 times to targets within 25 yards.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Every 15 sec, your next Rising Sun Kick or\nVivify\nreleases a wave of Chi energy that flows through friends and foes, dealing (24.4% of Attack Power) Nature damage or (45% of Attack Power) healing. Bounces up to 7 times to targets within 25 yards.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 165,
+          "end": 167,
+          "old_token": "60",
+          "new_token": "45",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 126,
+          "end": 128,
+          "old_token": "20",
+          "new_token": "24.4",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "20",
+          "new": "24.4"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "60",
+          "new": "45"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -1352,12 +1491,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 132463,
           "effect_index": 1,
           "effect_text": "Heal (AP mod: 0.6 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.75,
           "final_pvp_multiplier": 0.75,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             450391,
@@ -1389,12 +1528,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 132467,
           "effect_index": 1,
           "effect_text": "School Damage (Nature) (AP mod: 0.2 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 1.22,
           "final_pvp_multiplier": 1.22,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             450391,
@@ -1420,7 +1559,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 2
     },
     {
       "talent_name": "Transcendence",
@@ -1997,7 +2136,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 450595,
           "source_spell_id": 450596,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -70.0,
           "spell_pvp_multiplier": 0.714286,
           "amount_kind": null,
@@ -2014,7 +2153,7 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -2280,7 +2419,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2429,7 +2569,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2482,20 +2623,30 @@ window.WOW_PVP_DATA = {
         "icon": "ability_monk_dematerialize"
       },
       "pve_tooltip": "Your physical damage taken is reduced by 10% and an additional 10% every 4 sec until you receive a physical attack, stacking up to 4.",
-      "pvp_tooltip": "Your physical damage taken is reduced by 10% and an additional 10% every 4 sec until you receive a physical attack, stacking up to 4.",
-      "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
-      "changes": [],
+      "pvp_tooltip": "Your physical damage taken is reduced by 10% and an additional 5% every 4 sec until you receive a physical attack, stacking up to 4.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 63,
+          "end": 65,
+          "old_token": "10",
+          "new_token": "5",
+          "kind": "percent_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             2
           ],
-          "status": "AMBIGUOUS_TEXT_MATCH",
-          "kind": "ordinary_value",
-          "old": 10.0,
-          "new": 5.0,
-          "match_count": 2
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "10",
+          "new": "5"
         }
       ],
       "has_pvp_mechanics": true,
@@ -2519,7 +2670,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2797,7 +2949,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2912,7 +3065,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3487,7 +3641,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3940,7 +4095,7 @@ window.WOW_PVP_DATA = {
         "icon": "ability_monk_thunderfocustea"
       },
       "pve_tooltip": "Instant\n30 sec cooldown\n1 Charge\nReceive a jolt of energy, empowering your next\nspell\ncast:\nEnveloping Mist\n: Immediately heals for (748.8% of Spell Power) and is instant cast.\nRenewing Mist\n: Duration increased by 10 sec.\nRising Sun Kick\n: Cooldown reduced by 9 sec.\n[\nThunderous Focus Tea\n:\nCrackling Jade Lightning\n: Knockback applied immediately.\nRoll\n: Refund a charge and heal yourself for (240% of Attack Power)\n]",
-      "pvp_tooltip": "Instant\n30 sec cooldown\n1 Charge\nReceive a jolt of energy, empowering your next\nspell\ncast:\nEnveloping Mist\n: Immediately heals for (561.6% of Spell Power) and is instant cast.\nRenewing Mist\n: Duration increased by 10 sec.\nRising Sun Kick\n: Cooldown reduced by 9 sec.\n[\nThunderous Focus Tea\n:\nCrackling Jade Lightning\n: Knockback applied immediately.\nRoll\n: Refund a charge and heal yourself for (240% of Attack Power)\n]",
+      "pvp_tooltip": "Instant\n30 sec cooldown\n1 Charge\nReceive a jolt of energy, empowering your next\nspell\ncast:\nEnveloping Mist\n: Immediately heals for (561.6% of Spell Power) and is instant cast.\nRenewing Mist\n: Duration increased by 10 sec.\nRising Sun Kick\n: Cooldown reduced by 9 sec.\n[\nThunderous Focus Tea\n:\nCrackling Jade Lightning\n: Knockback applied immediately.\nRoll\n: Refund a charge and heal yourself for (180% of Attack Power)\n]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3954,6 +4109,16 @@ window.WOW_PVP_DATA = {
             1,
             3
           ]
+        },
+        {
+          "start": 397,
+          "end": 400,
+          "old_token": "240",
+          "new_token": "180",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
         }
       ],
       "diagnostics": [
@@ -3966,6 +4131,15 @@ window.WOW_PVP_DATA = {
           "kind": "spell_power_coefficient",
           "old": "748.8",
           "new": "561.6"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "240",
+          "new": "180"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4051,12 +4225,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 407058,
           "effect_index": 1,
           "effect_text": "Heal (AP mod: 2.4 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.75,
           "final_pvp_multiplier": 0.75,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             116680,
@@ -4082,7 +4256,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 3
     },
     {
       "talent_name": "Misty Coalescence",
@@ -4209,7 +4383,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4292,7 +4467,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4378,7 +4554,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 274586,
           "source_spell_id": 425804,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 3.2318)",
+          "effect_text": "Direct Heal (10) (SP mod: 3.2318)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4405,9 +4581,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1
@@ -4456,20 +4633,49 @@ window.WOW_PVP_DATA = {
         "icon": "ability_monk_mightyoxkick"
       },
       "pve_tooltip": "Approximately\n10\nprocs per minute\nRising Sun Kick now kicks up a Gust of Mist to heal 2 allies within 40 yds for (0.1% of Spell Power).\nSpinning Crane Kick and Blackout Kick have a chance to kick up a Gust of Mist to heal 1 ally within 40 yds for (0.1% of Spell Power).",
-      "pvp_tooltip": "Approximately\n10\nprocs per minute\nRising Sun Kick now kicks up a Gust of Mist to heal 2 allies within 40 yds for (0.1% of Spell Power).\nSpinning Crane Kick and Blackout Kick have a chance to kick up a Gust of Mist to heal 1 ally within 40 yds for (0.1% of Spell Power).",
-      "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
-      "changes": [],
+      "pvp_tooltip": "Approximately\n10\nprocs per minute\nRising Sun Kick now kicks up a Gust of Mist to heal 2 allies within 40 yds for (0.075% of Spell Power).\nSpinning Crane Kick and Blackout Kick have a chance to kick up a Gust of Mist to heal 1 ally within 40 yds for (0.075% of Spell Power).",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 114,
+          "end": 117,
+          "old_token": "0.1",
+          "new_token": "0.075",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 248,
+          "end": 251,
+          "old_token": "0.1",
+          "new_token": "0.075",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "AMBIGUOUS_TEXT_MATCH",
+          "status": "APPLIED",
           "kind": "spell_power_coefficient",
-          "old": 0.1,
-          "new": 0.07500000000000001,
-          "match_count": 2
+          "old": "0.1",
+          "new": "0.075"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "0.1",
+          "new": "0.075"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4785,7 +4991,7 @@ window.WOW_PVP_DATA = {
           "end": 124,
           "old_token": "15",
           "new_token": "7.5",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -4797,7 +5003,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "15",
           "new": "7.5"
         }
@@ -4810,7 +5016,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 122280,
           "source_spell_id": 428439,
           "effect_index": 1,
-          "effect_text": "Heal for % of Total Health",
+          "effect_text": "Direct Heal% (136) | Attributes: Suppress Points Stacking (6)",
           "base_value": 15.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": "direct",
@@ -4827,7 +5033,7 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -5104,7 +5310,7 @@ window.WOW_PVP_DATA = {
           "end": 147,
           "old_token": "280",
           "new_token": "100.24",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -5116,7 +5322,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "280",
           "new": "100.24"
         }
@@ -5142,7 +5348,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -5951,7 +6158,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -6455,7 +6663,7 @@ window.WOW_PVP_DATA = {
           "end": 38,
           "old_token": "300",
           "new_token": "102",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -6465,7 +6673,7 @@ window.WOW_PVP_DATA = {
           "end": 78,
           "old_token": "200",
           "new_token": "33",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2
           ]
@@ -6477,7 +6685,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "300",
           "new": "102"
         },
@@ -6486,7 +6694,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "200",
           "new": "33"
         }
@@ -6512,7 +6720,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -6535,7 +6744,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -6882,7 +7092,7 @@ window.WOW_PVP_DATA = {
           "end": 99,
           "old_token": "25",
           "new_token": "15",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             4
           ]
@@ -6913,7 +7123,7 @@ window.WOW_PVP_DATA = {
             4
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "25",
           "new": "15"
         }
@@ -6939,7 +7149,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -6962,7 +7173,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -6985,7 +7197,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -7147,20 +7360,49 @@ window.WOW_PVP_DATA = {
         "icon": "inv12_ability_monk_sheilunsgift"
       },
       "pve_tooltip": "3% of base mana\n40 yd range\n2 sec cast\nDraws in all nearby clouds of mist, healing the friendly target\nand up to 2 nearby allies\nfor (416.96% of Spell Power) and an additional [(416.96% of Spell Power) * 5 / 100] per cloud absorbed.\nA cloud of mist is generated every\n8\nsec while in combat.",
-      "pvp_tooltip": "3% of base mana\n40 yd range\n2 sec cast\nDraws in all nearby clouds of mist, healing the friendly target\nand up to 2 nearby allies\nfor (416.96% of Spell Power) and an additional [(416.96% of Spell Power) * 5 / 100] per cloud absorbed.\nA cloud of mist is generated every\n8\nsec while in combat.",
-      "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
-      "changes": [],
+      "pvp_tooltip": "3% of base mana\n40 yd range\n2 sec cast\nDraws in all nearby clouds of mist, healing the friendly target\nand up to 2 nearby allies\nfor (250.176% of Spell Power) and an additional [(250.176% of Spell Power) * 5 / 100] per cloud absorbed.\nA cloud of mist is generated every\n8\nsec while in combat.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 134,
+          "end": 140,
+          "old_token": "416.96",
+          "new_token": "250.176",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 178,
+          "end": 184,
+          "old_token": "416.96",
+          "new_token": "250.176",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "AMBIGUOUS_TEXT_MATCH",
+          "status": "APPLIED",
           "kind": "spell_power_coefficient",
-          "old": 416.96,
-          "new": 250.17600000000002,
-          "match_count": 2
+          "old": "416.96",
+          "new": "250.176"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "416.96",
+          "new": "250.176"
         }
       ],
       "has_pvp_mechanics": true,
@@ -7194,7 +7436,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -7255,7 +7498,7 @@ window.WOW_PVP_DATA = {
           "end": 45,
           "old_token": "320",
           "new_token": "165.12",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -7267,7 +7510,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "320",
           "new": "165.12"
         }
@@ -7293,7 +7536,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -7345,11 +7589,32 @@ window.WOW_PVP_DATA = {
         "icon": "inv12_ability_monk_rushingwindkick"
       },
       "pve_tooltip": "1.25% of base mana / 2 Chi\nInstant\n10 sec cooldown\n1 Charge\nWindwalker (\nWindwalker Monk\n)\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\n[\n:\nHeals up to 5 allies affected by your heal over time effects for (500% of Spell Power)\n]",
-      "pvp_tooltip": "1.25% of base mana / 2 Chi\nInstant\n10 sec cooldown\n1 Charge\nWindwalker (\nWindwalker Monk\n)\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\n[\n:\nHeals up to 5 allies affected by your heal over time effects for (500% of Spell Power)\n]",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "1.25% of base mana / 2 Chi\nInstant\n10 sec cooldown\n1 Charge\nWindwalker (\nWindwalker Monk\n)\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\n[\n:\nHeals up to 5 allies affected by your heal over time effects for (375% of Spell Power)\n]",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 577,
+          "end": 580,
+          "old_token": "500",
+          "new_token": "375",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "500",
+          "new": "375"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7358,13 +7623,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 467307,
           "source_spell_id": 468179,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 1.7975 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): nature | Attributes: Area Effects Use Target Radius (17) (AP mod: 1.7975)",
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 1.22,
           "final_pvp_multiplier": 1.22,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             467307,
@@ -7385,12 +7650,51 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 467307,
+          "source_spell_id": 1269159,
+          "effect_index": 1,
+          "effect_text": "Direct Heal (10) (SP mod: 5)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.75,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            467307,
+            1269159
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108337,
+              "amount_kind": "direct",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "simc",
+            "drustvar"
+          ],
+          "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Resplendent Mist",
@@ -7767,8 +8071,49 @@ window.WOW_PVP_DATA = {
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 1268807,
+          "source_spell_id": 1248815,
+          "effect_index": 1,
+          "effect_text": "School Damage (2): nature | Attributes: Area Effects Use Target Radius (17) (AP mod: 1)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": "direct",
+          "aura_factor": 1.22,
+          "final_pvp_multiplier": 0.61,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1268807,
+            1248812,
+            1248815
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1109279,
+              "amount_kind": "direct",
+              "value_pct": 22.0,
+              "factor": 1.22,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "simc",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -7875,7 +8220,7 @@ window.WOW_PVP_DATA = {
           "end": 43,
           "old_token": "500",
           "new_token": "200",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -7887,7 +8232,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "500",
           "new": "200"
         }
@@ -7913,7 +8258,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -8371,10 +8717,20 @@ window.WOW_PVP_DATA = {
         "icon": "inv_ability_conduitofthecelestialsmonk_celestialconduit"
       },
       "pve_tooltip": "5% of base mana\nChanneled (4 sec cast)\n1.5 min cooldown\nThe August Celestials empower you, causing you to radiate [(1100% of Spell Power) * 5] healing onto up to 5 injured allies and [(165% of Attack Power) * 5] Nature damage onto enemies within 20 yds over 4 sec, reduced beyond 5 targets.\nYou may move while channeling, but casting other healing or damaging spells cancels this effect.",
-      "pvp_tooltip": "5% of base mana\nChanneled (4 sec cast)\n1.5 min cooldown\nThe August Celestials empower you, causing you to radiate [(928.125% of Spell Power) * 5] healing onto up to 5 injured allies and [(165% of Attack Power) * 5] Nature damage onto enemies within 20 yds over 4 sec, reduced beyond 5 targets.\nYou may move while channeling, but casting other healing or damaging spells cancels this effect.",
+      "pvp_tooltip": "5% of base mana\nChanneled (4 sec cast)\n1.5 min cooldown\nThe August Celestials empower you, causing you to radiate [(928.125% of Spell Power) * 5] healing onto up to 5 injured allies and [(201.3% of Attack Power) * 5] Nature damage onto enemies within 20 yds over 4 sec, reduced beyond 5 targets.\nYou may move while channeling, but casting other healing or damaging spells cancels this effect.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
+        {
+          "start": 185,
+          "end": 188,
+          "old_token": "165",
+          "new_token": "201.3",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
         {
           "start": 116,
           "end": 120,
@@ -8395,6 +8751,15 @@ window.WOW_PVP_DATA = {
           "kind": "spell_power_coefficient",
           "old": "1100",
           "new": "928.125"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "165",
+          "new": "201.3"
         }
       ],
       "has_pvp_mechanics": true,
@@ -8405,13 +8770,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 443028,
           "source_spell_id": 443038,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 1.65 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): nature (AP mod: 1.65)",
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 1.22,
           "final_pvp_multiplier": 1.22,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             443028,
@@ -8432,9 +8797,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8442,7 +8808,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 443028,
           "source_spell_id": 443039,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 11)",
+          "effect_text": "Direct Heal (10) (SP mod: 11)",
           "base_value": null,
           "spell_pvp_multiplier": 2.25,
           "amount_kind": "direct",
@@ -8478,13 +8844,13 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 2
     },
     {
       "talent_name": "Temple Training",
@@ -8636,11 +9002,32 @@ window.WOW_PVP_DATA = {
         "icon": "ability_monk_summontigerstatue"
       },
       "pve_tooltip": "Approximately\n4\nprocs per minute\nTiger Palm, Vivify, and Sheilun's Gift have a chance to cause Xuen to claw a nearby enemy for (337.5% of Attack Power) Physical damage, healing a nearby ally for 100% of the damage done.\nInvoke Yu'lon, the Jade Serpent or Invoke Chi-Ji, the Red Crane guarantees your next cast activates this effect.",
-      "pvp_tooltip": "Approximately\n4\nprocs per minute\nTiger Palm, Vivify, and Sheilun's Gift have a chance to cause Xuen to claw a nearby enemy for (337.5% of Attack Power) Physical damage, healing a nearby ally for 100% of the damage done.\nInvoke Yu'lon, the Jade Serpent or Invoke Chi-Ji, the Red Crane guarantees your next cast activates this effect.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Approximately\n4\nprocs per minute\nTiger Palm, Vivify, and Sheilun's Gift have a chance to cause Xuen to claw a nearby enemy for (411.75% of Attack Power) Physical damage, healing a nearby ally for 100% of the damage done.\nInvoke Yu'lon, the Jade Serpent or Invoke Chi-Ji, the Red Crane guarantees your next cast activates this effect.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 128,
+          "end": 133,
+          "old_token": "337.5",
+          "new_token": "411.75",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "337.5",
+          "new": "411.75"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8649,13 +9036,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 443087,
           "source_spell_id": 457917,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 3.375 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): physical (AP mod: 3.375)",
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 1.22,
           "final_pvp_multiplier": 1.22,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             443087,
@@ -8676,12 +9063,13 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Restore Balance",
@@ -8884,30 +9272,20 @@ window.WOW_PVP_DATA = {
         "icon": "ability_monk_dragonkick"
       },
       "pve_tooltip": "Thunder Focus Tea calls upon Yu'lon to increase the cooldown recovery rate of Renewing Mist, Rising Sun Kick, Life Cocoon, and Thunder Focus Tea by 75% for 8 sec.\n(2s cooldown)",
-      "pvp_tooltip": "Thunder Focus Tea calls upon Yu'lon to increase the cooldown recovery rate of Renewing Mist, Rising Sun Kick, Life Cocoon, and Thunder Focus Tea by 30% for 8 sec.\n(2s cooldown)",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 148,
-          "end": 150,
-          "old_token": "75",
-          "new_token": "30",
-          "kind": "ordinary_value",
-          "effect_indexes": [
-            2
-          ]
-        }
-      ],
+      "pvp_tooltip": "Thunder Focus Tea calls upon Yu'lon to increase the cooldown recovery rate of Renewing Mist, Rising Sun Kick, Life Cocoon, and Thunder Focus Tea by 75% for 8 sec.\n(2s cooldown)",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
       "diagnostics": [
         {
           "effect_indexes": [
             2
           ],
-          "status": "APPLIED",
-          "kind": "ordinary_value",
-          "old": "75",
-          "new": "30"
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "duration_seconds",
+          "old": 75.0,
+          "new": 30.0,
+          "full_tooltip_match_count": 0
         }
       ],
       "has_pvp_mechanics": true,
@@ -8918,7 +9296,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 443294,
           "source_spell_id": 443421,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Allow Dot to Crit",
+          "effect_text": "Apply Aura (6) | Modify Cooldown Recharge Rate% (286)",
           "base_value": 75.0,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": null,
@@ -8945,9 +9323,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1
@@ -9053,7 +9432,18 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "attack_power_coefficient",
+          "old": 200.0,
+          "new": 244.0,
+          "full_tooltip_match_count": 1
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -9062,13 +9452,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 443110,
           "source_spell_id": 443127,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 2 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): nature (AP mod: 2)",
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 1.22,
           "final_pvp_multiplier": 1.22,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             443110,
@@ -9089,12 +9479,13 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Path of the Falling Star",
@@ -9202,7 +9593,7 @@ window.WOW_PVP_DATA = {
           "end": 128,
           "old_token": "100",
           "new_token": "33",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2
           ]
@@ -9214,7 +9605,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "100",
           "new": "33"
         }
@@ -9240,7 +9631,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -9513,7 +9905,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
+          "kind": "duration_seconds",
           "old": 75.0,
           "new": 30.0,
           "full_tooltip_match_count": 0
@@ -9527,7 +9919,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1262672,
           "source_spell_id": 443421,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Allow Dot to Crit",
+          "effect_text": "Apply Aura (6) | Modify Cooldown Recharge Rate% (286)",
           "base_value": 75.0,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": null,
@@ -9554,9 +9946,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1
@@ -9697,7 +10090,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -9757,7 +10151,7 @@ window.WOW_PVP_DATA = {
           "end": 17,
           "old_token": "50",
           "new_token": "25",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -9769,7 +10163,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "50",
           "new": "25"
         }
@@ -9795,7 +10189,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -10073,7 +10468,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -10095,7 +10491,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -10117,7 +10514,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -10139,9 +10537,124 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 1270958,
+          "source_spell_id": 1271011,
+          "effect_index": 1,
+          "effect_text": "School Damage (2): nature (SP mod: 4)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.33,
+          "amount_kind": "direct",
+          "aura_factor": 1.22,
+          "final_pvp_multiplier": 0.4026,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1270958,
+            1271011
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1109279,
+              "amount_kind": "direct",
+              "value_pct": 22.0,
+              "factor": 1.22,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "simc"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 1270958,
+          "source_spell_id": 1271011,
+          "effect_index": 2,
+          "effect_text": "School Damage (2): nature (SP mod: 4)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.33,
+          "amount_kind": "direct",
+          "aura_factor": 1.22,
+          "final_pvp_multiplier": 0.4026,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1270958,
+            1271011
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1109279,
+              "amount_kind": "direct",
+              "value_pct": 22.0,
+              "factor": 1.22,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "simc"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 1270958,
+          "source_spell_id": 1271045,
+          "effect_index": 1,
+          "effect_text": "Direct Heal (10) (SP mod: 5)",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.33,
+          "amount_kind": "direct",
+          "aura_factor": 0.75,
+          "final_pvp_multiplier": 0.2475,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1270958,
+            1271011,
+            1271045
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 428200,
+              "game_effect_id": 1108337,
+              "amount_kind": "direct",
+              "value_pct": -25.0,
+              "factor": 0.75,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "simc",
+            "drustvar"
+          ],
+          "confidence": "high"
         }
       ],
       "render_effect_count": 4
@@ -10383,7 +10896,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 451036,
           "source_spell_id": 451452,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Heal",
+          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 2 seconds (SP mod: 0.5)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -10410,9 +10923,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1
@@ -10845,11 +11359,11 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "monk-mistweaver",
-  "generated_at": "2026-09-19T14:43:05.670930+00:00",
+  "generated_at": "2026-09-19T15:28:55.621507+00:00",
   "validation": {
     "talents": 152,
-    "changed_tooltips": 29,
-    "talents_with_pvp_mechanics": 47,
+    "changed_tooltips": 35,
+    "talents_with_pvp_mechanics": 49,
     "unique_nodes": 122,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
@@ -10857,59 +11371,46 @@ window.WOW_PVP_DATA = {
       "12.1.0.69587"
     ],
     "verification_status": "PARTIAL",
-    "fetch_error_count": 5,
-    "unresolved_count": 4,
-    "review_required_count": 5,
+    "fetch_error_count": 1,
+    "source_warning_count": 15,
+    "unresolved_count": 2,
+    "review_required_count": 2,
     "fetch_error_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 1248815,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1248815'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1266720,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1266720'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1269159,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1269159'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "source": "wowhead",
         "spell_id": 1271011,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1271011'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 425804,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=425804'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 1271045,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1271045'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 428439,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=428439/healing-elixir'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 443038,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=443038'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 443039,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=443039'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 443127,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=443127'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [
       {
-        "spell_id": 1248815,
-        "talent_name": "Emperor's Elixir",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.5,
-        "effect_text": "School Damage (2): nature | Attributes: Area Effects Use Target Radius (17)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 1268807,
-        "source_spell_id": 1248815,
-        "dependency_kind": "EMBEDDED",
-        "dependency_path": [
-          1268807,
-          1248812,
-          1248815
-        ],
-        "dependency_relations": [
-          "spelldesc_ref",
-          "tooltip_value_ref"
-        ]
-      },
-      {
         "spell_id": 1271011,
         "talent_name": "Harmonic Surge",
         "side": "drustvar",
@@ -10945,27 +11446,6 @@ window.WOW_PVP_DATA = {
         ],
         "dependency_relations": [
           "spelldesc_ref"
-        ]
-      },
-      {
-        "spell_id": 1271045,
-        "talent_name": "Harmonic Surge",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.33,
-        "effect_text": "Direct Heal (10)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 1270958,
-        "source_spell_id": 1271045,
-        "dependency_kind": "EMBEDDED",
-        "dependency_path": [
-          1270958,
-          1271011,
-          1271045
-        ],
-        "dependency_relations": [
-          "spelldesc_ref",
-          "tooltip_value_ref"
         ]
       }
     ],
@@ -10973,21 +11453,6 @@ window.WOW_PVP_DATA = {
       {
         "talent_name": "Fortifying Brew",
         "spell_id": 388917,
-        "status": "REVIEW_REQUIRED"
-      },
-      {
-        "talent_name": "Dance of the Wind",
-        "spell_id": 432181,
-        "status": "REVIEW_REQUIRED"
-      },
-      {
-        "talent_name": "Crane Style",
-        "spell_id": 446260,
-        "status": "REVIEW_REQUIRED"
-      },
-      {
-        "talent_name": "Sheilun's Gift",
-        "spell_id": 399491,
         "status": "REVIEW_REQUIRED"
       },
       {

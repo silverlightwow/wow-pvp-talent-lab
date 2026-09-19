@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-19T14:52:01.546942+00:00",
+  "generated_at": "2026-09-19T15:39:02.081418+00:00",
   "tree_build": "12.1.0.69875",
   "content_hash": "66952e6398559450a2f421d56adbcda2",
   "default_slug": "priest-discipline",
   "spec_count": 40,
-  "verified_count": 6,
-  "partial_count": 34,
+  "verified_count": 20,
+  "partial_count": 20,
   "classes": [
     {
       "name": "Death Knight",
@@ -15,10 +15,11 @@
           "name": "Blood",
           "spec_id": 250,
           "slug": "death-knight-blood",
-          "changed_tooltips": 11,
+          "changed_tooltips": 16,
           "talents_with_pvp_mechanics": 18,
           "verification_status": "PARTIAL",
           "fetch_error_count": 0,
+          "source_warning_count": 0,
           "unresolved_count": 1,
           "review_required_count": 0
         },
@@ -26,21 +27,23 @@
           "name": "Frost",
           "spec_id": 251,
           "slug": "death-knight-frost",
-          "changed_tooltips": 16,
-          "talents_with_pvp_mechanics": 39,
+          "changed_tooltips": 29,
+          "talents_with_pvp_mechanics": 41,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 0,
-          "unresolved_count": 1,
-          "review_required_count": 3
+          "fetch_error_count": 2,
+          "source_warning_count": 29,
+          "unresolved_count": 5,
+          "review_required_count": 2
         },
         {
           "name": "Unholy",
           "spec_id": 252,
           "slug": "death-knight-unholy",
-          "changed_tooltips": 12,
-          "talents_with_pvp_mechanics": 26,
+          "changed_tooltips": 18,
+          "talents_with_pvp_mechanics": 27,
           "verification_status": "PARTIAL",
           "fetch_error_count": 0,
+          "source_warning_count": 0,
           "unresolved_count": 0,
           "review_required_count": 1
         }
@@ -56,19 +59,21 @@
           "slug": "demon-hunter-devourer",
           "changed_tooltips": 17,
           "talents_with_pvp_mechanics": 26,
-          "verification_status": "PARTIAL",
+          "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "unresolved_count": 2,
+          "source_warning_count": 0,
+          "unresolved_count": 0,
           "review_required_count": 0
         },
         {
           "name": "Havoc",
           "spec_id": 577,
           "slug": "demon-hunter-havoc",
-          "changed_tooltips": 13,
+          "changed_tooltips": 23,
           "talents_with_pvp_mechanics": 42,
           "verification_status": "PARTIAL",
           "fetch_error_count": 0,
+          "source_warning_count": 0,
           "unresolved_count": 0,
           "review_required_count": 1
         },
@@ -76,12 +81,13 @@
           "name": "Vengeance",
           "spec_id": 581,
           "slug": "demon-hunter-vengeance",
-          "changed_tooltips": 7,
-          "talents_with_pvp_mechanics": 14,
-          "verification_status": "PARTIAL",
+          "changed_tooltips": 9,
+          "talents_with_pvp_mechanics": 16,
+          "verification_status": "VERIFIED",
           "fetch_error_count": 0,
+          "source_warning_count": 0,
           "unresolved_count": 0,
-          "review_required_count": 1
+          "review_required_count": 0
         }
       ]
     },
@@ -93,32 +99,35 @@
           "name": "Balance",
           "spec_id": 102,
           "slug": "druid-balance",
-          "changed_tooltips": 20,
+          "changed_tooltips": 24,
           "talents_with_pvp_mechanics": 33,
           "verification_status": "PARTIAL",
           "fetch_error_count": 0,
+          "source_warning_count": 0,
           "unresolved_count": 0,
-          "review_required_count": 2
+          "review_required_count": 1
         },
         {
           "name": "Feral",
           "spec_id": 103,
           "slug": "druid-feral",
-          "changed_tooltips": 6,
+          "changed_tooltips": 19,
           "talents_with_pvp_mechanics": 28,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 1,
-          "unresolved_count": 1,
-          "review_required_count": 2
+          "fetch_error_count": 0,
+          "source_warning_count": 8,
+          "unresolved_count": 0,
+          "review_required_count": 1
         },
         {
           "name": "Guardian",
           "spec_id": 104,
           "slug": "druid-guardian",
-          "changed_tooltips": 5,
+          "changed_tooltips": 9,
           "talents_with_pvp_mechanics": 19,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
+          "source_warning_count": 0,
           "unresolved_count": 0,
           "review_required_count": 0
         },
@@ -126,12 +135,13 @@
           "name": "Restoration",
           "spec_id": 105,
           "slug": "druid-restoration",
-          "changed_tooltips": 18,
+          "changed_tooltips": 22,
           "talents_with_pvp_mechanics": 34,
-          "verification_status": "PARTIAL",
+          "verification_status": "VERIFIED",
           "fetch_error_count": 0,
+          "source_warning_count": 0,
           "unresolved_count": 0,
-          "review_required_count": 2
+          "review_required_count": 0
         }
       ]
     },
@@ -147,7 +157,8 @@
           "talents_with_pvp_mechanics": 15,
           "verification_status": "PARTIAL",
           "fetch_error_count": 0,
-          "unresolved_count": 1,
+          "source_warning_count": 0,
+          "unresolved_count": 0,
           "review_required_count": 1
         },
         {
@@ -158,19 +169,21 @@
           "talents_with_pvp_mechanics": 20,
           "verification_status": "PARTIAL",
           "fetch_error_count": 0,
-          "unresolved_count": 2,
+          "source_warning_count": 0,
+          "unresolved_count": 1,
           "review_required_count": 0
         },
         {
           "name": "Preservation",
           "spec_id": 1468,
           "slug": "evoker-preservation",
-          "changed_tooltips": 4,
+          "changed_tooltips": 5,
           "talents_with_pvp_mechanics": 9,
-          "verification_status": "PARTIAL",
+          "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "unresolved_count": 1,
-          "review_required_count": 1
+          "source_warning_count": 0,
+          "unresolved_count": 0,
+          "review_required_count": 0
         }
       ]
     },
@@ -182,33 +195,36 @@
           "name": "Beast Mastery",
           "spec_id": 253,
           "slug": "hunter-beast-mastery",
-          "changed_tooltips": 9,
+          "changed_tooltips": 18,
           "talents_with_pvp_mechanics": 24,
           "verification_status": "PARTIAL",
           "fetch_error_count": 0,
-          "unresolved_count": 8,
-          "review_required_count": 0
+          "source_warning_count": 0,
+          "unresolved_count": 0,
+          "review_required_count": 1
         },
         {
           "name": "Marksmanship",
           "spec_id": 254,
           "slug": "hunter-marksmanship",
-          "changed_tooltips": 15,
+          "changed_tooltips": 23,
           "talents_with_pvp_mechanics": 29,
-          "verification_status": "PARTIAL",
+          "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "unresolved_count": 3,
-          "review_required_count": 2
+          "source_warning_count": 1,
+          "unresolved_count": 0,
+          "review_required_count": 0
         },
         {
           "name": "Survival",
           "spec_id": 255,
           "slug": "hunter-survival",
-          "changed_tooltips": 9,
+          "changed_tooltips": 20,
           "talents_with_pvp_mechanics": 25,
-          "verification_status": "PARTIAL",
+          "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "unresolved_count": 6,
+          "source_warning_count": 0,
+          "unresolved_count": 0,
           "review_required_count": 0
         }
       ]
@@ -221,34 +237,37 @@
           "name": "Arcane",
           "spec_id": 62,
           "slug": "mage-arcane",
-          "changed_tooltips": 16,
-          "talents_with_pvp_mechanics": 30,
+          "changed_tooltips": 18,
+          "talents_with_pvp_mechanics": 31,
           "verification_status": "PARTIAL",
           "fetch_error_count": 0,
-          "unresolved_count": 15,
-          "review_required_count": 3
+          "source_warning_count": 0,
+          "unresolved_count": 3,
+          "review_required_count": 1
         },
         {
           "name": "Fire",
           "spec_id": 63,
           "slug": "mage-fire",
-          "changed_tooltips": 20,
-          "talents_with_pvp_mechanics": 32,
+          "changed_tooltips": 23,
+          "talents_with_pvp_mechanics": 38,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 9,
-          "unresolved_count": 17,
+          "fetch_error_count": 0,
+          "source_warning_count": 0,
+          "unresolved_count": 3,
           "review_required_count": 3
         },
         {
           "name": "Frost",
           "spec_id": 64,
           "slug": "mage-frost",
-          "changed_tooltips": 24,
-          "talents_with_pvp_mechanics": 39,
+          "changed_tooltips": 25,
+          "talents_with_pvp_mechanics": 40,
           "verification_status": "PARTIAL",
           "fetch_error_count": 0,
-          "unresolved_count": 5,
-          "review_required_count": 2
+          "source_warning_count": 0,
+          "unresolved_count": 0,
+          "review_required_count": 1
         }
       ]
     },
@@ -260,34 +279,37 @@
           "name": "Brewmaster",
           "spec_id": 268,
           "slug": "monk-brewmaster",
-          "changed_tooltips": 4,
-          "talents_with_pvp_mechanics": 11,
+          "changed_tooltips": 20,
+          "talents_with_pvp_mechanics": 25,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 17,
-          "unresolved_count": 9,
-          "review_required_count": 2
+          "fetch_error_count": 1,
+          "source_warning_count": 8,
+          "unresolved_count": 2,
+          "review_required_count": 4
         },
         {
           "name": "Mistweaver",
           "spec_id": 270,
           "slug": "monk-mistweaver",
-          "changed_tooltips": 29,
-          "talents_with_pvp_mechanics": 47,
+          "changed_tooltips": 35,
+          "talents_with_pvp_mechanics": 49,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 5,
-          "unresolved_count": 4,
-          "review_required_count": 5
+          "fetch_error_count": 1,
+          "source_warning_count": 15,
+          "unresolved_count": 2,
+          "review_required_count": 2
         },
         {
           "name": "Windwalker",
           "spec_id": 269,
           "slug": "monk-windwalker",
-          "changed_tooltips": 7,
-          "talents_with_pvp_mechanics": 18,
+          "changed_tooltips": 22,
+          "talents_with_pvp_mechanics": 32,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 19,
-          "unresolved_count": 6,
-          "review_required_count": 3
+          "fetch_error_count": 0,
+          "source_warning_count": 21,
+          "unresolved_count": 0,
+          "review_required_count": 2
         }
       ]
     },
@@ -299,33 +321,36 @@
           "name": "Holy",
           "spec_id": 65,
           "slug": "paladin-holy",
-          "changed_tooltips": 14,
-          "talents_with_pvp_mechanics": 26,
-          "verification_status": "PARTIAL",
-          "fetch_error_count": 12,
-          "unresolved_count": 9,
-          "review_required_count": 1
+          "changed_tooltips": 24,
+          "talents_with_pvp_mechanics": 37,
+          "verification_status": "VERIFIED",
+          "fetch_error_count": 0,
+          "source_warning_count": 1,
+          "unresolved_count": 0,
+          "review_required_count": 0
         },
         {
           "name": "Protection",
           "spec_id": 66,
           "slug": "paladin-protection",
-          "changed_tooltips": 13,
-          "talents_with_pvp_mechanics": 34,
-          "verification_status": "PARTIAL",
+          "changed_tooltips": 21,
+          "talents_with_pvp_mechanics": 35,
+          "verification_status": "VERIFIED",
           "fetch_error_count": 0,
+          "source_warning_count": 0,
           "unresolved_count": 0,
-          "review_required_count": 1
+          "review_required_count": 0
         },
         {
           "name": "Retribution",
           "spec_id": 70,
           "slug": "paladin-retribution",
-          "changed_tooltips": 19,
-          "talents_with_pvp_mechanics": 37,
+          "changed_tooltips": 28,
+          "talents_with_pvp_mechanics": 38,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 3,
-          "unresolved_count": 2,
+          "fetch_error_count": 0,
+          "source_warning_count": 1,
+          "unresolved_count": 0,
           "review_required_count": 1
         }
       ]
@@ -342,6 +367,7 @@
           "talents_with_pvp_mechanics": 34,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
+          "source_warning_count": 0,
           "unresolved_count": 0,
           "review_required_count": 0
         },
@@ -353,6 +379,7 @@
           "talents_with_pvp_mechanics": 27,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
+          "source_warning_count": 0,
           "unresolved_count": 0,
           "review_required_count": 0
         },
@@ -364,6 +391,7 @@
           "talents_with_pvp_mechanics": 30,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
+          "source_warning_count": 0,
           "unresolved_count": 0,
           "review_required_count": 0
         }
@@ -377,34 +405,37 @@
           "name": "Assassination",
           "spec_id": 259,
           "slug": "rogue-assassination",
-          "changed_tooltips": 4,
-          "talents_with_pvp_mechanics": 19,
-          "verification_status": "PARTIAL",
-          "fetch_error_count": 9,
-          "unresolved_count": 11,
-          "review_required_count": 3
+          "changed_tooltips": 21,
+          "talents_with_pvp_mechanics": 27,
+          "verification_status": "VERIFIED",
+          "fetch_error_count": 0,
+          "source_warning_count": 0,
+          "unresolved_count": 0,
+          "review_required_count": 0
         },
         {
           "name": "Outlaw",
           "spec_id": 260,
           "slug": "rogue-outlaw",
-          "changed_tooltips": 5,
+          "changed_tooltips": 13,
           "talents_with_pvp_mechanics": 20,
-          "verification_status": "PARTIAL",
+          "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "unresolved_count": 4,
-          "review_required_count": 2
+          "source_warning_count": 0,
+          "unresolved_count": 0,
+          "review_required_count": 0
         },
         {
           "name": "Subtlety",
           "spec_id": 261,
           "slug": "rogue-subtlety",
-          "changed_tooltips": 9,
+          "changed_tooltips": 17,
           "talents_with_pvp_mechanics": 25,
-          "verification_status": "PARTIAL",
+          "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "unresolved_count": 5,
-          "review_required_count": 2
+          "source_warning_count": 0,
+          "unresolved_count": 0,
+          "review_required_count": 0
         }
       ]
     },
@@ -416,21 +447,23 @@
           "name": "Elemental",
           "spec_id": 262,
           "slug": "shaman-elemental",
-          "changed_tooltips": 17,
-          "talents_with_pvp_mechanics": 26,
+          "changed_tooltips": 19,
+          "talents_with_pvp_mechanics": 27,
           "verification_status": "PARTIAL",
           "fetch_error_count": 0,
+          "source_warning_count": 6,
           "unresolved_count": 1,
-          "review_required_count": 1
+          "review_required_count": 0
         },
         {
           "name": "Enhancement",
           "spec_id": 263,
           "slug": "shaman-enhancement",
-          "changed_tooltips": 15,
+          "changed_tooltips": 20,
           "talents_with_pvp_mechanics": 28,
           "verification_status": "PARTIAL",
           "fetch_error_count": 0,
+          "source_warning_count": 0,
           "unresolved_count": 1,
           "review_required_count": 0
         },
@@ -442,6 +475,7 @@
           "talents_with_pvp_mechanics": 31,
           "verification_status": "PARTIAL",
           "fetch_error_count": 0,
+          "source_warning_count": 0,
           "unresolved_count": 1,
           "review_required_count": 1
         }
@@ -459,6 +493,7 @@
           "talents_with_pvp_mechanics": 41,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
+          "source_warning_count": 0,
           "unresolved_count": 0,
           "review_required_count": 0
         },
@@ -466,12 +501,13 @@
           "name": "Demonology",
           "spec_id": 266,
           "slug": "warlock-demonology",
-          "changed_tooltips": 14,
+          "changed_tooltips": 15,
           "talents_with_pvp_mechanics": 27,
-          "verification_status": "PARTIAL",
+          "verification_status": "VERIFIED",
           "fetch_error_count": 0,
+          "source_warning_count": 0,
           "unresolved_count": 0,
-          "review_required_count": 1
+          "review_required_count": 0
         },
         {
           "name": "Destruction",
@@ -481,6 +517,7 @@
           "talents_with_pvp_mechanics": 39,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
+          "source_warning_count": 0,
           "unresolved_count": 0,
           "review_required_count": 0
         }
@@ -494,34 +531,37 @@
           "name": "Arms",
           "spec_id": 71,
           "slug": "warrior-arms",
-          "changed_tooltips": 17,
+          "changed_tooltips": 34,
           "talents_with_pvp_mechanics": 47,
           "verification_status": "PARTIAL",
-          "fetch_error_count": 0,
+          "fetch_error_count": 2,
+          "source_warning_count": 9,
           "unresolved_count": 9,
-          "review_required_count": 3
+          "review_required_count": 0
         },
         {
           "name": "Fury",
           "spec_id": 72,
           "slug": "warrior-fury",
-          "changed_tooltips": 13,
+          "changed_tooltips": 17,
           "talents_with_pvp_mechanics": 30,
-          "verification_status": "PARTIAL",
+          "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "unresolved_count": 4,
-          "review_required_count": 2
+          "source_warning_count": 0,
+          "unresolved_count": 0,
+          "review_required_count": 0
         },
         {
           "name": "Protection",
           "spec_id": 73,
           "slug": "warrior-protection",
-          "changed_tooltips": 10,
+          "changed_tooltips": 28,
           "talents_with_pvp_mechanics": 43,
-          "verification_status": "PARTIAL",
+          "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "unresolved_count": 4,
-          "review_required_count": 4
+          "source_warning_count": 2,
+          "unresolved_count": 0,
+          "review_required_count": 0
         }
       ]
     }

@@ -51,7 +51,7 @@ window.WOW_PVP_DATA = {
         "icon": "spell_holy_layonhands"
       },
       "pve_tooltip": "40 yd range\nInstant\n10 min cooldown\nHeals a friendly target for an amount equal to 100% your maximum health.\nCannot be used on a target with Forbearance. Causes Forbearance for 30 sec.",
-      "pvp_tooltip": "40 yd range\nInstant\n10 min cooldown\nHeals a friendly target for an amount equal to 75% your maximum health.\nCannot be used on a target with Forbearance. Causes Forbearance for 49.8 sec.",
+      "pvp_tooltip": "40 yd range\nInstant\n10 min cooldown\nHeals a friendly target for an amount equal to 75% your maximum health.\nCannot be used on a target with Forbearance. Causes Forbearance for 30 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -60,40 +60,31 @@ window.WOW_PVP_DATA = {
           "end": 86,
           "old_token": "100",
           "new_token": "75",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2
-          ]
-        },
-        {
-          "start": 177,
-          "end": 179,
-          "old_token": "30",
-          "new_token": "49.8",
-          "kind": "ordinary_value",
-          "effect_indexes": [
-            1
           ]
         }
       ],
       "diagnostics": [
         {
           "effect_indexes": [
-            2
+            1
           ],
-          "status": "APPLIED",
-          "kind": "ordinary_value",
-          "old": "100",
-          "new": "75"
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "percent_value",
+          "old": 30.0,
+          "new": 49.8,
+          "full_tooltip_match_count": 0
         },
         {
           "effect_indexes": [
-            1
+            2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
-          "old": "30",
-          "new": "49.8"
+          "kind": "percent_value",
+          "old": "100",
+          "new": "75"
         }
       ],
       "has_pvp_mechanics": true,
@@ -117,7 +108,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -140,7 +132,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -168,7 +161,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -249,7 +243,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -276,7 +271,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -304,7 +300,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -369,12 +366,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 24275,
           "effect_index": 1,
           "effect_text": "School Damage (Holy) (AP mod: 2.15807 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.9859999999999999,
           "final_pvp_multiplier": 0.9859999999999999,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             1241288,
@@ -415,12 +412,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 24275,
           "effect_index": 3,
           "effect_text": "School Damage (Holy) (AP mod: 1.61855 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.9859999999999999,
           "final_pvp_multiplier": 0.9859999999999999,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             1241288,
@@ -453,6 +450,54 @@ window.WOW_PVP_DATA = {
             "wowhead"
           ],
           "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 1241288,
+          "source_spell_id": 1241413,
+          "effect_index": 1,
+          "effect_text": "School Damage (Holy) (AP mod: 1.2375 )",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.3,
+          "amount_kind": "direct",
+          "aura_factor": 0.9859999999999999,
+          "final_pvp_multiplier": 1.2817999999999998,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1241288,
+            1241413
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1079573,
+              "amount_kind": "direct",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            },
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1080083,
+              "amount_kind": "direct",
+              "value_pct": 16.0,
+              "factor": 1.16,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar",
+            "simc"
+          ],
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0
@@ -586,7 +631,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -854,7 +900,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -973,7 +1020,7 @@ window.WOW_PVP_DATA = {
           "end": 48,
           "old_token": "60",
           "new_token": "30",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -995,7 +1042,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "60",
           "new": "30"
         },
@@ -1029,7 +1076,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -1051,7 +1099,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         }
@@ -1511,7 +1560,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2012,7 +2062,7 @@ window.WOW_PVP_DATA = {
           "end": 105,
           "old_token": "3",
           "new_token": "0.75",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2
           ]
@@ -2024,7 +2074,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "3",
           "new": "0.75"
         }
@@ -2505,7 +2555,7 @@ window.WOW_PVP_DATA = {
           "end": 34,
           "old_token": "20",
           "new_token": "5",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1,
             3
@@ -2516,7 +2566,7 @@ window.WOW_PVP_DATA = {
           "end": 67,
           "old_token": "60",
           "new_token": "15",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2
           ]
@@ -2529,7 +2579,7 @@ window.WOW_PVP_DATA = {
             3
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "20",
           "new": "5"
         },
@@ -2538,7 +2588,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "60",
           "new": "15"
         }
@@ -2564,7 +2614,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -2586,7 +2637,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2608,7 +2660,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         }
@@ -2937,27 +2990,16 @@ window.WOW_PVP_DATA = {
         "icon": "spell_holy_divinepurpose"
       },
       "pve_tooltip": "Holy Power spending abilities have a 10% chance to make your next Holy Power spending ability free and deal 10% increased damage and healing.\n(100ms cooldown)",
-      "pvp_tooltip": "Holy Power spending abilities have a 6.6667% chance to make your next Holy Power spending ability free and deal 6.6667% increased damage and healing.\n(100ms cooldown)",
+      "pvp_tooltip": "Holy Power spending abilities have a 10% chance to make your next Holy Power spending ability free and deal 6.6667% increased damage and healing.\n(100ms cooldown)",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
-        {
-          "start": 37,
-          "end": 39,
-          "old_token": "10",
-          "new_token": "6.6667",
-          "kind": "ordinary_value",
-          "effect_indexes": [
-            2,
-            5
-          ]
-        },
         {
           "start": 108,
           "end": 110,
           "old_token": "10",
           "new_token": "6.6667",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2,
             5
@@ -2971,17 +3013,7 @@ window.WOW_PVP_DATA = {
             5
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
-          "old": "10",
-          "new": "6.6667"
-        },
-        {
-          "effect_indexes": [
-            2,
-            5
-          ],
-          "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "10",
           "new": "6.6667"
         }
@@ -3012,7 +3044,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -3040,7 +3073,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3699,7 +3733,7 @@ window.WOW_PVP_DATA = {
           "end": 52,
           "old_token": "20",
           "new_token": "10",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -3711,7 +3745,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "20",
           "new": "10"
         }
@@ -3737,7 +3771,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3856,7 +3891,7 @@ window.WOW_PVP_DATA = {
           "end": 30,
           "old_token": "50",
           "new_token": "20",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -3868,7 +3903,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "50",
           "new": "20"
         }
@@ -3894,7 +3929,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4007,7 +4043,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4063,7 +4100,18 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 5.0,
+          "new": 6.375,
+          "full_tooltip_match_count": 0
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4073,12 +4121,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 81297,
           "effect_index": 1,
           "effect_text": "School Damage (Holy) (AP mod: 0.05 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.5,
           "amount_kind": "direct",
           "aura_factor": 0.85,
           "final_pvp_multiplier": 1.275,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             377128,
@@ -4102,12 +4150,13 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Selfless Healer",
@@ -4364,11 +4413,32 @@ window.WOW_PVP_DATA = {
         "icon": "ability_paladin_bladeofjustice"
       },
       "pve_tooltip": "12 yd range\nInstant\n12 sec cooldown\n1 Charge\n[\nBlade of Vengeance\n:\nPierce enemies\n/ Pierce an enemy] with a blade of light, dealing (192.877% of Attack Power) Holy damage [\nBlade of Vengeance\n:\nto your target and (58.5195% of Attack Power) Holy damage to nearby enemies\n/ .]\nGenerates\n1\nHoly Power.",
-      "pvp_tooltip": "12 yd range\nInstant\n12 sec cooldown\n1 Charge\n[\nBlade of Vengeance\n:\nPierce enemies\n/ Pierce an enemy] with a blade of light, dealing (192.877% of Attack Power) Holy damage [\nBlade of Vengeance\n:\nto your target and (58.5195% of Attack Power) Holy damage to nearby enemies\n/ .]\nGenerates\n1\nHoly Power.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "12 yd range\nInstant\n12 sec cooldown\n1 Charge\n[\nBlade of Vengeance\n:\nPierce enemies\n/ Pierce an enemy] with a blade of light, dealing (163.9454% of Attack Power) Holy damage [\nBlade of Vengeance\n:\nto your target and (58.5195% of Attack Power) Holy damage to nearby enemies\n/ .]\nGenerates\n1\nHoly Power.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 134,
+          "end": 141,
+          "old_token": "192.877",
+          "new_token": "163.9454",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "192.877",
+          "new": "163.9454"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4378,12 +4448,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 184575,
           "effect_index": 1,
           "effect_text": "School Damage (Holy) (AP mod: 1.92877 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.85,
           "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -4410,12 +4480,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 404358,
           "effect_index": 1,
           "effect_text": "School Damage (Holy) (AP mod: 0.585195 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.85,
           "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             184575,
@@ -4441,7 +4511,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Divine Storm",
@@ -4488,11 +4558,51 @@ window.WOW_PVP_DATA = {
         "icon": "ability_paladin_divinestorm"
       },
       "pve_tooltip": "3 Holy Power\nInstant\nUnleashes a whirl of divine energy, dealing [\nBurning Crusade\n:\n[(263.424% of Attack Power) * 1.05] Radiant\n/ (263.424% of Attack Power) Holy] damage to all nearby enemies.\nDeals reduced damage beyond 5 targets.",
-      "pvp_tooltip": "3 Holy Power\nInstant\nUnleashes a whirl of divine energy, dealing [\nBurning Crusade\n:\n[(263.424% of Attack Power) * 1.05] Radiant\n/ (263.424% of Attack Power) Holy] damage to all nearby enemies.\nDeals reduced damage beyond 5 targets.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "3 Holy Power\nInstant\nUnleashes a whirl of divine energy, dealing [\nBurning Crusade\n:\n[(223.9104% of Attack Power) * 1.05] Radiant\n/ (223.9104% of Attack Power) Holy] damage to all nearby enemies.\nDeals reduced damage beyond 5 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 87,
+          "end": 94,
+          "old_token": "263.424",
+          "new_token": "223.9104",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 132,
+          "end": 139,
+          "old_token": "263.424",
+          "new_token": "223.9104",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "263.424",
+          "new": "223.9104"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "263.424",
+          "new": "223.9104"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4502,12 +4612,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 53385,
           "effect_index": 1,
           "effect_text": "School Damage (Holy) (AP mod: 2.63424 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.85,
           "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -4528,7 +4638,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Expurgation",
@@ -4589,12 +4699,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 383346,
           "effect_index": 1,
           "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.4,
           "amount_kind": "periodic",
           "aura_factor": 0.85,
           "final_pvp_multiplier": 1.19,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             383344,
@@ -4616,7 +4726,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4785,7 +4896,7 @@ window.WOW_PVP_DATA = {
           "end": 146,
           "old_token": "30",
           "new_token": "20",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -4817,7 +4928,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "30",
           "new": "20"
         }
@@ -4857,7 +4968,8 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -4894,7 +5006,8 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -4922,7 +5035,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4974,17 +5088,28 @@ window.WOW_PVP_DATA = {
         "icon": "spell_holy_avenginewrath"
       },
       "pve_tooltip": "Instant\n2 min cooldown\nCall upon the Light to become an avatar of retribution, [causing Judgment to generate 4 additional Holy Power,][each Holy Power spent causing you to explode with Holy light for (13.5% of Attack Power) damage to nearby enemies,]increasing your damage, healing, and critical strike chance by 15%\nfor 20 sec.\nEach Holy Power spent increases Haste by an additional 3%, up to 15%.",
-      "pvp_tooltip": "Instant\n2 min cooldown\nCall upon the Light to become an avatar of retribution, [causing Judgment to generate 4 additional Holy Power,][each Holy Power spent causing you to explode with Holy light for (13.5% of Attack Power) damage to nearby enemies,]increasing your damage, healing, and critical strike chance by 15%\nfor 20 sec.\nEach Holy Power spent increases Haste by an additional 3%, up to 15%.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pvp_tooltip": "Instant\n2 min cooldown\nCall upon the Light to become an avatar of retribution, [causing Judgment to generate 4 additional Holy Power,][each Holy Power spent causing you to explode with Holy light for (11.475% of Attack Power) damage to nearby enemies,]increasing your damage, healing, and critical strike chance by 15%\nfor 20 sec.\nEach Holy Power spent increases Haste by an additional 3%, up to 15%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 201,
+          "end": 205,
+          "old_token": "13.5",
+          "new_token": "11.475",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 50.0,
           "new": 33.33,
           "full_tooltip_match_count": 0
@@ -4994,10 +5119,19 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 40.0,
           "new": 26.663999999999998,
           "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "13.5",
+          "new": "11.475"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5009,12 +5143,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 326731,
           "effect_index": 1,
           "effect_text": "School Damage (Holy) (AP mod: 0.135 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.85,
           "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             31884,
@@ -5067,7 +5201,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -5099,12 +5234,13 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 3
     },
     {
       "talent_name": "Final Verdict",
@@ -5152,11 +5288,32 @@ window.WOW_PVP_DATA = {
         "icon": "spell_paladin_templarsverdict"
       },
       "pve_tooltip": "3 Holy Power\n12 yd range\nInstant\nUnleashes a powerful weapon strike that deals (465.069% of Attack Power) Holy damage to an enemy target,\nHas a 15% chance to reset the cooldown of Judgment.",
-      "pvp_tooltip": "3 Holy Power\n12 yd range\nInstant\nUnleashes a powerful weapon strike that deals (465.069% of Attack Power) Holy damage to an enemy target,\nHas a 15% chance to reset the cooldown of Judgment.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "3 Holy Power\n12 yd range\nInstant\nUnleashes a powerful weapon strike that deals (568.2562% of Attack Power) Holy damage to an enemy target,\nHas a 15% chance to reset the cooldown of Judgment.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 80,
+          "end": 87,
+          "old_token": "465.069",
+          "new_token": "568.2562",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "465.069",
+          "new": "568.2562"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -5166,12 +5323,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 383328,
           "effect_index": 1,
           "effect_text": "School Damage (Holy) (AP mod: 4.65069 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.4375,
           "amount_kind": "direct",
           "aura_factor": 0.85,
           "final_pvp_multiplier": 1.221875,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -5188,12 +5345,13 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Improved Blade of Justice",
@@ -5686,7 +5844,18 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 22.95,
+          "new": 27.310499999999998,
+          "full_tooltip_match_count": 0
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -5696,12 +5865,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 383346,
           "effect_index": 1,
           "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.4,
           "amount_kind": "periodic",
           "aura_factor": 0.85,
           "final_pvp_multiplier": 1.19,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             406545,
@@ -5723,12 +5892,13 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Improved Judgment",
@@ -5999,11 +6169,32 @@ window.WOW_PVP_DATA = {
         "icon": "ability_paladin_bladeofjustice"
       },
       "pve_tooltip": "Blade of Justice now hits nearby enemies for (58.5195% of Attack Power) Holy damage.\nDeals reduced damage beyond 5 targets.",
-      "pvp_tooltip": "Blade of Justice now hits nearby enemies for (58.5195% of Attack Power) Holy damage.\nDeals reduced damage beyond 5 targets.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Blade of Justice now hits nearby enemies for (49.7416% of Attack Power) Holy damage.\nDeals reduced damage beyond 5 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 46,
+          "end": 53,
+          "old_token": "58.5195",
+          "new_token": "49.7416",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "58.5195",
+          "new": "49.7416"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6013,12 +6204,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 404358,
           "effect_index": 1,
           "effect_text": "School Damage (Holy) (AP mod: 0.585195 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.85,
           "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             403826,
@@ -6044,7 +6235,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Empyrean Power",
@@ -6200,11 +6391,51 @@ window.WOW_PVP_DATA = {
         "icon": "inv_sword_2h_artifactashbringer_d_01"
       },
       "pve_tooltip": "Crusader Strike loses a charge but is now a combo ability.\nTemplar Strike slashes an enemy for (187.5% of Attack Power) Radiant damage and gets followed up by Templar Slash that deals (215.625% of Attack Power) Radiant damage. Templar Slash always critically strikes.",
-      "pvp_tooltip": "Crusader Strike loses a charge but is now a combo ability.\nTemplar Strike slashes an enemy for (187.5% of Attack Power) Radiant damage and gets followed up by Templar Slash that deals (215.625% of Attack Power) Radiant damage. Templar Slash always critically strikes.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Crusader Strike loses a charge but is now a combo ability.\nTemplar Strike slashes an enemy for (159.375% of Attack Power) Radiant damage and gets followed up by Templar Slash that deals (183.2812% of Attack Power) Radiant damage. Templar Slash always critically strikes.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 185,
+          "end": 192,
+          "old_token": "215.625",
+          "new_token": "183.2812",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 96,
+          "end": 101,
+          "old_token": "187.5",
+          "new_token": "159.375",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "187.5",
+          "new": "159.375"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "215.625",
+          "new": "183.2812"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6214,12 +6445,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 406647,
           "effect_index": 1,
           "effect_text": "School Damage (Holy, Fire) (AP mod: 2.15625 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.85,
           "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             406646,
@@ -6251,12 +6482,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 407480,
           "effect_index": 1,
           "effect_text": "School Damage (Holy, Fire) (AP mod: 1.875 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.85,
           "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             406646,
@@ -6282,7 +6513,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 2
     },
     {
       "talent_name": "Crusading Strikes",
@@ -6343,12 +6574,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 408385,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 2.34731 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.85,
           "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             404542,
@@ -6585,11 +6816,32 @@ window.WOW_PVP_DATA = {
         "icon": "inv_sword_2h_artifactashbringerfire_d_03"
       },
       "pve_tooltip": "Instant\n30 sec cooldown\n1 Charge\nLash out at your enemies, dealing (321.86% of Attack Power) Radiant damage to all enemies within 14 yds in front of you, and applying\nTruth's Wake\n, burning the targets for an additional [(65.28% of Attack Power) * (2.73077)] damage over 9 sec.\nDemon and Undead enemies are also stunned for 5 sec.\nGenerates 3 Holy Power.",
-      "pvp_tooltip": "Instant\n30 sec cooldown\n1 Charge\nLash out at your enemies, dealing (321.86% of Attack Power) Radiant damage to all enemies within 14 yds in front of you, and applying\nTruth's Wake\n, burning the targets for an additional [(65.28% of Attack Power) * (2.73077)] damage over 9 sec.\nDemon and Undead enemies are also stunned for 5 sec.\nGenerates 3 Holy Power.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Instant\n30 sec cooldown\n1 Charge\nLash out at your enemies, dealing (198.9678% of Attack Power) Radiant damage to all enemies within 14 yds in front of you, and applying\nTruth's Wake\n, burning the targets for an additional [(65.28% of Attack Power) * (2.73077)] damage over 9 sec.\nDemon and Undead enemies are also stunned for 5 sec.\nGenerates 3 Holy Power.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 68,
+          "end": 74,
+          "old_token": "321.86",
+          "new_token": "198.9678",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "321.86",
+          "new": "198.9678"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6599,12 +6851,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 255937,
           "effect_index": 1,
           "effect_text": "School Damage (Holy, Fire) (AP mod: 3.2186 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 0.727272,
           "amount_kind": "direct",
           "aura_factor": 0.85,
           "final_pvp_multiplier": 0.6181812,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -6621,7 +6873,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -6649,7 +6902,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -6660,12 +6914,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 403695,
           "effect_index": 2,
           "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
           "aura_factor": 0.85,
           "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             255937,
@@ -6697,12 +6951,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 405345,
           "effect_index": 1,
           "effect_text": "School Damage (Holy, Fire) (AP mod: 2.27174 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.85,
           "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             255937,
@@ -6734,12 +6988,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 405350,
           "effect_index": 1,
           "effect_text": "School Damage (Holy, Fire) (AP mod: 2.27174 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.85,
           "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             255937,
@@ -6765,7 +7019,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Divine Wrath",
@@ -6865,18 +7119,18 @@ window.WOW_PVP_DATA = {
         "icon": "spell_paladin_executionsentence"
       },
       "pve_tooltip": "30 yd range\nInstant\n1 min cooldown\nUnleash a heavenly blast around the target, dealing (505.312% of Attack Power) Holy damage to all enemies within 10 yds, and call down a hammer that slowly falls from the sky upon the target.\nAfter 10 sec, they suffer 20% of the Holy damage you dealt to all targets affected by the initial blast during that time.",
-      "pvp_tooltip": "15 yd range\nInstant\n1 min cooldown\nUnleash a heavenly blast around the target, dealing (505.312% of Attack Power) Holy damage to all enemies within 10 yds, and call down a hammer that slowly falls from the sky upon the target.\nAfter 10 sec, they suffer 20% of the Holy damage you dealt to all targets affected by the initial blast during that time.",
+      "pvp_tooltip": "30 yd range\nInstant\n1 min cooldown\nUnleash a heavenly blast around the target, dealing (343.6122% of Attack Power) Holy damage to all enemies within 10 yds, and call down a hammer that slowly falls from the sky upon the target.\nAfter 10 sec, they suffer 20% of the Holy damage you dealt to all targets affected by the initial blast during that time.",
       "tooltip_changed": true,
       "render_status": "REVIEW_REQUIRED",
       "changes": [
         {
-          "start": 0,
-          "end": 2,
-          "old_token": "30",
-          "new_token": "15",
-          "kind": "ordinary_value",
+          "start": 88,
+          "end": 95,
+          "old_token": "505.312",
+          "new_token": "343.6122",
+          "kind": "attack_power_coefficient",
           "effect_indexes": [
-            3
+            2
           ]
         }
       ],
@@ -6884,14 +7138,18 @@ window.WOW_PVP_DATA = {
         {
           "effect_index": null,
           "status": "CONFLICTING_TRANSFORMS",
-          "reason": "PvE value 15.0 maps to multiple PvP values",
+          "reason": "PvE percent_value value 15.0 maps to multiple PvP values",
           "candidates": [
             {
-              "kind": "ordinary_value",
+              "kind": "percent_value",
               "old": 15.0,
               "new": 10.000005,
-              "unit": null,
+              "unit": "%",
               "effect_index": 2,
+              "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+              "reference_contexts": [
+                "Your next Holy Power spending ability is free and deals $s2% increased damage and healing."
+              ],
               "match_ordinal": 1,
               "match_group_count": 1,
               "effect_indexes": [
@@ -6899,11 +7157,16 @@ window.WOW_PVP_DATA = {
               ]
             },
             {
-              "kind": "ordinary_value",
+              "kind": "percent_value",
               "old": 15.0,
               "new": 7.5,
-              "unit": null,
+              "unit": "%",
               "effect_index": 4,
+              "effect_text": "Apply Aura: Mod All Damage Done % by Caster",
+              "reference_contexts": [
+                "ea and causing them to take $s3% increased damage from your single target Holy Power abilities, and $s4% increased damage from other Holy Power abilities for $d.",
+                "Taking $w3% increased damage from $@auracaster's single target Holy Power abilities and $s4% increased damage from their other Holy Power abilities."
+              ],
               "match_ordinal": 1,
               "match_group_count": 1,
               "effect_indexes": [
@@ -6916,10 +7179,30 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             3
           ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "percent_value",
+          "old": 30.0,
+          "new": 15.0,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 390.0,
+          "new": 331.5,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
-          "old": "30",
-          "new": "15"
+          "kind": "attack_power_coefficient",
+          "old": "505.312",
+          "new": "343.6122"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6948,7 +7231,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -6959,12 +7243,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 343721,
           "effect_index": 2,
           "effect_text": "School Damage (Holy) (AP mod: 5.05312 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 0.8,
           "amount_kind": "direct",
           "aura_factor": 0.85,
           "final_pvp_multiplier": 0.68,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             343527,
@@ -6986,7 +7270,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -7013,7 +7298,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -7040,9 +7326,49 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 343527,
+          "source_spell_id": 1260251,
+          "effect_index": 1,
+          "effect_text": "School Damage (Holy) (AP mod: 5.05312 )",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": "direct",
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 0.425,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            343527,
+            1260251
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1079573,
+              "amount_kind": "direct",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar",
+            "simc"
+          ],
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -7051,12 +7377,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 383921,
           "effect_index": 1,
           "effect_text": "School Damage (Holy) (AP mod: 3.9 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.85,
           "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             343527,
@@ -7084,7 +7410,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 5
     },
     {
       "talent_name": "Seething Flames",
@@ -7131,20 +7457,52 @@ window.WOW_PVP_DATA = {
         "icon": "ability_mage_flamecannon"
       },
       "pve_tooltip": "Wake of Ashes deals significantly reduced damage to secondary targets, but now causes you to lash out 2 extra times for (227.174% of Attack Power) Radiant damage.",
-      "pvp_tooltip": "Wake of Ashes deals significantly reduced damage to secondary targets, but now causes you to lash out 2 extra times for (227.174% of Attack Power) Radiant damage.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pvp_tooltip": "Wake of Ashes deals significantly reduced damage to secondary targets, but now causes you to lash out 2 extra times for (193.0979% of Attack Power) Radiant damage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 121,
+          "end": 128,
+          "old_token": "227.174",
+          "new_token": "193.0979",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1,
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 50.0,
           "new": 30.0,
           "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 65.28,
+          "new": 55.488,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1,
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "227.174",
+          "new": "193.0979"
         }
       ],
       "has_pvp_mechanics": true,
@@ -7156,12 +7514,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 405345,
           "effect_index": 1,
           "effect_text": "School Damage (Holy, Fire) (AP mod: 2.27174 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.85,
           "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             405355,
@@ -7214,7 +7572,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -7225,12 +7584,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 403695,
           "effect_index": 2,
           "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
           "aura_factor": 0.85,
           "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             405355,
@@ -7266,12 +7625,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 405350,
           "effect_index": 1,
           "effect_text": "School Damage (Holy, Fire) (AP mod: 2.27174 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.85,
           "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             405355,
@@ -7301,7 +7660,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 4
     },
     {
       "talent_name": "Empyrean Legacy",
@@ -7698,14 +8057,93 @@ window.WOW_PVP_DATA = {
         "icon": "inv_ability_holyfire_buff"
       },
       "pve_tooltip": "[\nRighteous Cause\n/ Art of War] further empowers Blade of Justice to unleash a wave of Holy energy, dealing [(331.918% of Attack Power) * 2.5] Holy damage to its primary target and (331.918% of Attack Power) Holy damage to all other enemies in its path.",
-      "pvp_tooltip": "[\nRighteous Cause\n/ Art of War] further empowers Blade of Justice to unleash a wave of Holy energy, dealing [(331.918% of Attack Power) * 2.5] Holy damage to its primary target and (331.918% of Attack Power) Holy damage to all other enemies in its path.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "[\nRighteous Cause\n/ Art of War] further empowers Blade of Justice to unleash a wave of Holy energy, dealing [(282.1303% of Attack Power) * 2.5] Holy damage to its primary target and (282.1303% of Attack Power) Holy damage to all other enemies in its path.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 110,
+          "end": 117,
+          "old_token": "331.918",
+          "new_token": "282.1303",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 182,
+          "end": 189,
+          "old_token": "331.918",
+          "new_token": "282.1303",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "331.918",
+          "new": "282.1303"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "331.918",
+          "new": "282.1303"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1261159,
+          "source_spell_id": 1261160,
+          "effect_index": 1,
+          "effect_text": "School Damage (2): holy | Attributes: Always AOE Line of Sight (5), Add Target (Dest) Combat Reach to AOE (11), Area Effects Use Target Radius (17) (AP mod: 3.31918)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 0.85,
+          "final_pvp_multiplier": 0.85,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1261159,
+            1261160
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 412314,
+              "game_effect_id": 1079573,
+              "amount_kind": "direct",
+              "value_pct": -15.0,
+              "factor": 0.85,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "simc",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Light's Guidance",
@@ -7766,12 +8204,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 427453,
           "effect_index": 1,
           "effect_text": "School Damage (Holy) (AP mod: 6.96774 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 0.68,
           "amount_kind": "direct",
           "aura_factor": 1.1729999999999998,
           "final_pvp_multiplier": 0.7976399999999999,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             427445,
@@ -7802,7 +8240,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -7813,12 +8252,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 429826,
           "effect_index": 1,
           "effect_text": "School Damage (Holy) (AP mod: 3.48 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 0.85,
           "amount_kind": "direct",
           "aura_factor": 1.1729999999999998,
           "final_pvp_multiplier": 0.9970499999999998,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             427445,
@@ -7851,7 +8290,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -7862,12 +8302,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 431398,
           "effect_index": 1,
           "effect_text": "School Damage (Holy) (AP mod: 0.4655 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.85,
           "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             427445,
@@ -7963,7 +8403,7 @@ window.WOW_PVP_DATA = {
             3
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 50.0,
           "new": 30.0,
           "full_tooltip_match_count": 0
@@ -8050,7 +8490,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -8274,12 +8715,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 198137,
           "effect_index": 1,
           "effect_text": "School Damage (Holy) (AP mod: 1.44 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.85,
           "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             432929,
@@ -8617,7 +9058,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -8639,7 +9081,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         }
@@ -9017,7 +9460,7 @@ window.WOW_PVP_DATA = {
           "end": 24,
           "old_token": "20",
           "new_token": "6.6",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -9029,7 +9472,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "20",
           "new": "6.6"
         }
@@ -9055,7 +9498,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -9115,7 +9559,7 @@ window.WOW_PVP_DATA = {
           "end": 53,
           "old_token": "50",
           "new_token": "30",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             3
           ]
@@ -9137,7 +9581,7 @@ window.WOW_PVP_DATA = {
             3
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "50",
           "new": "30"
         }
@@ -9214,7 +9658,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -9455,7 +9900,7 @@ window.WOW_PVP_DATA = {
             3
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 50.0,
           "new": 30.0,
           "full_tooltip_match_count": 0
@@ -9587,7 +10032,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -9912,7 +10358,7 @@ window.WOW_PVP_DATA = {
           "end": 58,
           "old_token": "100",
           "new_token": "75",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2
           ]
@@ -9921,10 +10367,20 @@ window.WOW_PVP_DATA = {
       "diagnostics": [
         {
           "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 144.0,
+          "new": 122.39999999999999,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "100",
           "new": "75"
         }
@@ -9950,7 +10406,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -9961,12 +10418,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 198137,
           "effect_index": 1,
           "effect_text": "School Damage (Holy) (AP mod: 1.44 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.85,
           "final_pvp_multiplier": 0.85,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             1260429,
@@ -9992,7 +10449,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 2
     },
     {
       "talent_name": "Seal of the Templar",
@@ -10047,7 +10504,7 @@ window.WOW_PVP_DATA = {
           "end": 22,
           "old_token": "25",
           "new_token": "35",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -10059,7 +10516,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "25",
           "new": "35"
         }
@@ -10085,7 +10542,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -10474,11 +10932,11 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "paladin-retribution",
-  "generated_at": "2026-09-19T14:44:45.087287+00:00",
+  "generated_at": "2026-09-19T15:31:13.332032+00:00",
   "validation": {
     "talents": 137,
-    "changed_tooltips": 19,
-    "talents_with_pvp_mechanics": 37,
+    "changed_tooltips": 28,
+    "talents_with_pvp_mechanics": 38,
     "unique_nodes": 116,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
@@ -10486,66 +10944,19 @@ window.WOW_PVP_DATA = {
       "12.1.0.69587"
     ],
     "verification_status": "PARTIAL",
-    "fetch_error_count": 3,
-    "unresolved_count": 2,
+    "fetch_error_count": 0,
+    "source_warning_count": 1,
+    "unresolved_count": 0,
     "review_required_count": 1,
-    "fetch_error_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 1241413,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1241413'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1260251,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1260251'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
+    "fetch_error_examples": [],
+    "source_warning_examples": [
       {
         "source": "wowhead",
         "spell_id": 1261160,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1261160'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
-    "unresolved_examples": [
-      {
-        "spell_id": 1260251,
-        "talent_name": "Execution Sentence",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.5,
-        "effect_text": "School Damage (2): holy",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 343527,
-        "source_spell_id": 1260251,
-        "dependency_kind": "RUNTIME",
-        "dependency_path": [
-          343527,
-          1260251
-        ],
-        "dependency_relations": [
-          "trigger_spell"
-        ]
-      },
-      {
-        "spell_id": 1241413,
-        "talent_name": "Hammer of Wrath",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 1.3,
-        "effect_text": "School Damage (2): holy | Attributes: Chain from Initial Target (7), Enforce Line of Sight To Chain Targets (16)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 1241288,
-        "source_spell_id": 1241413,
-        "dependency_kind": "EMBEDDED",
-        "dependency_path": [
-          1241288,
-          1241413
-        ],
-        "dependency_relations": [
-          "spelldesc_ref"
-        ]
-      }
-    ],
+    "unresolved_examples": [],
     "review_required_examples": [
       {
         "talent_name": "Execution Sentence",

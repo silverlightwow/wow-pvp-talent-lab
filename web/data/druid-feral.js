@@ -51,11 +51,32 @@ window.WOW_PVP_DATA = {
         "icon": "ability_druid_disembowel"
       },
       "pve_tooltip": "35 Energy\nMelee Range\nInstant\nRake the target for (29.1% of Attack Power) Bleed damage and an additional (147% of Attack Power) Bleed damage over 15 sec. [\nInfected Wounds\n:\nReduces the target's movement speed by 20% for 12 sec\n]\nAwards 1 combo point.",
-      "pvp_tooltip": "35 Energy\nMelee Range\nInstant\nRake the target for (29.1% of Attack Power) Bleed damage and an additional (147% of Attack Power) Bleed damage over 15 sec. [\nInfected Wounds\n:\nReduces the target's movement speed by 20% for 12 sec\n]\nAwards 1 combo point.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "35 Energy\nMelee Range\nInstant\nRake the target for (29.0907% of Attack Power) Bleed damage and an additional (147% of Attack Power) Bleed damage over 15 sec. [\nInfected Wounds\n:\nReduces the target's movement speed by 20% for 12 sec\n]\nAwards 1 combo point.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 51,
+          "end": 55,
+          "old_token": "29.1",
+          "new_token": "29.0907",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "29.1",
+          "new": "29.0907"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -65,12 +86,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 1822,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 0.291 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.136,
           "amount_kind": "direct",
           "aura_factor": 0.88,
           "final_pvp_multiplier": 0.9996799999999999,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -87,7 +108,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -98,12 +120,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 155722,
           "effect_index": 1,
           "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
           "aura_factor": 0.836,
           "final_pvp_multiplier": 0.836,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             1822,
@@ -138,7 +160,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Frenzied Regeneration",
@@ -221,7 +243,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -319,7 +342,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -689,11 +713,108 @@ window.WOW_PVP_DATA = {
         "icon": "ability_ghoulfrenzy"
       },
       "pve_tooltip": "20 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\nFinishing move that causes Bleed damage over time. Lasts longer per combo point.\n1 point : [(62.26% of Attack Power) * 2 / 6] over 1 sec\n2 points: [(62.26% of Attack Power) * 3 / 6] over 2 sec\n3 points: [(62.26% of Attack Power) * 4 / 6] over 3 sec\n4 points: [(62.26% of Attack Power) * 5 / 6] over 3 sec\n5 points: [(62.26% of Attack Power) * 6 / 6] over 4 sec",
-      "pvp_tooltip": "20 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\nFinishing move that causes Bleed damage over time. Lasts longer per combo point.\n1 point : [(62.26% of Attack Power) * 2 / 6] over 1 sec\n2 points: [(62.26% of Attack Power) * 3 / 6] over 2 sec\n3 points: [(62.26% of Attack Power) * 4 / 6] over 3 sec\n4 points: [(62.26% of Attack Power) * 5 / 6] over 3 sec\n5 points: [(62.26% of Attack Power) * 6 / 6] over 4 sec",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "20 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\nFinishing move that causes Bleed damage over time. Lasts longer per combo point.\n1 point : [(52.4427% of Attack Power) * 2 / 6] over 1 sec\n2 points: [(52.4427% of Attack Power) * 3 / 6] over 2 sec\n3 points: [(52.4427% of Attack Power) * 4 / 6] over 3 sec\n4 points: [(52.4427% of Attack Power) * 5 / 6] over 3 sec\n5 points: [(52.4427% of Attack Power) * 6 / 6] over 4 sec",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 145,
+          "end": 150,
+          "old_token": "62.26",
+          "new_token": "52.4427",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 201,
+          "end": 206,
+          "old_token": "62.26",
+          "new_token": "52.4427",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 257,
+          "end": 262,
+          "old_token": "62.26",
+          "new_token": "52.4427",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 313,
+          "end": 318,
+          "old_token": "62.26",
+          "new_token": "52.4427",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 369,
+          "end": 374,
+          "old_token": "62.26",
+          "new_token": "52.4427",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "62.26",
+          "new": "52.4427"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "62.26",
+          "new": "52.4427"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "62.26",
+          "new": "52.4427"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "62.26",
+          "new": "52.4427"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "62.26",
+          "new": "52.4427"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -703,12 +824,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 1079,
           "effect_index": 1,
           "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.113,
           "amount_kind": "periodic",
           "aura_factor": 0.7568,
           "final_pvp_multiplier": 0.8423184,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -734,12 +855,13 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Verdant Heart",
@@ -934,7 +1056,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -945,12 +1068,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 274838,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 0.163 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.88,
           "final_pvp_multiplier": 0.88,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             24858,
@@ -986,12 +1109,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 274838,
           "effect_index": 2,
           "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
           "aura_factor": 0.88,
           "final_pvp_multiplier": 0.88,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             24858,
@@ -1027,12 +1150,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 274838,
           "effect_index": 3,
           "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
           "aura_factor": 0.88,
           "final_pvp_multiplier": 0.88,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             24858,
@@ -1106,11 +1229,108 @@ window.WOW_PVP_DATA = {
         "icon": "ability_druid_mangle.tga"
       },
       "pve_tooltip": "30 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\n30 sec cooldown\nFinishing move that causes Physical damage and stuns the target. Damage and duration increased per combo point:\n1 point : [(14.4% of Attack Power)] damage, 1 sec\n2 points: [(14.4% of Attack Power) * 2] damage, 2 sec\n3 points: [(14.4% of Attack Power) * 3] damage, 3 sec\n4 points: [(14.4% of Attack Power) * 4] damage, 4 sec\n5 points: [(14.4% of Attack Power) * 5] damage, 5 sec",
-      "pvp_tooltip": "30 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\n30 sec cooldown\nFinishing move that causes Physical damage and stuns the target. Damage and duration increased per combo point:\n1 point : [(14.4% of Attack Power)] damage, 1 sec\n2 points: [(14.4% of Attack Power) * 2] damage, 2 sec\n3 points: [(14.4% of Attack Power) * 3] damage, 3 sec\n4 points: [(14.4% of Attack Power) * 4] damage, 4 sec\n5 points: [(14.4% of Attack Power) * 5] damage, 5 sec",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "30 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\n30 sec cooldown\nFinishing move that causes Physical damage and stuns the target. Damage and duration increased per combo point:\n1 point : [(12.672% of Attack Power)] damage, 1 sec\n2 points: [(12.672% of Attack Power) * 2] damage, 2 sec\n3 points: [(12.672% of Attack Power) * 3] damage, 3 sec\n4 points: [(12.672% of Attack Power) * 4] damage, 4 sec\n5 points: [(12.672% of Attack Power) * 5] damage, 5 sec",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 192,
+          "end": 196,
+          "old_token": "14.4",
+          "new_token": "12.672",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        },
+        {
+          "start": 242,
+          "end": 246,
+          "old_token": "14.4",
+          "new_token": "12.672",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        },
+        {
+          "start": 296,
+          "end": 300,
+          "old_token": "14.4",
+          "new_token": "12.672",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        },
+        {
+          "start": 350,
+          "end": 354,
+          "old_token": "14.4",
+          "new_token": "12.672",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        },
+        {
+          "start": 404,
+          "end": 408,
+          "old_token": "14.4",
+          "new_token": "12.672",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "14.4",
+          "new": "12.672"
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "14.4",
+          "new": "12.672"
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "14.4",
+          "new": "12.672"
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "14.4",
+          "new": "12.672"
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "14.4",
+          "new": "12.672"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -1120,12 +1340,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 22570,
           "effect_index": 2,
           "effect_text": "School Damage (Physical) (AP mod: 0.144 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.88,
           "final_pvp_multiplier": 0.88,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -1146,7 +1366,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Killer Instinct",
@@ -1538,7 +1758,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -1566,7 +1787,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2511,7 +2733,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3622,6 +3845,27 @@ window.WOW_PVP_DATA = {
           "old": 27.0,
           "new": 22.491,
           "full_tooltip_match_count": 1
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "attack_power_coefficient",
+          "old": 16.3,
+          "new": 14.344000000000001,
+          "full_tooltip_match_count": 1
+        },
+        {
+          "effect_indexes": [
+            2,
+            3
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "attack_power_coefficient",
+          "old": 32.67,
+          "new": 28.7496,
+          "full_tooltip_match_count": 1
         }
       ],
       "has_pvp_mechanics": true,
@@ -3650,7 +3894,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -3661,12 +3906,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 274838,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 0.163 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.88,
           "final_pvp_multiplier": 0.88,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             1261867,
@@ -3698,12 +3943,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 274838,
           "effect_index": 2,
           "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
           "aura_factor": 0.88,
           "final_pvp_multiplier": 0.88,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             1261867,
@@ -3735,12 +3980,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 274838,
           "effect_index": 3,
           "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
           "aura_factor": 0.88,
           "final_pvp_multiplier": 0.88,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             1261867,
@@ -3766,7 +4011,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 4
     },
     {
       "talent_name": "Innervate",
@@ -3847,7 +4092,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4059,11 +4305,108 @@ window.WOW_PVP_DATA = {
         "icon": "artifactability_feraldruid_ashamanesbite"
       },
       "pve_tooltip": "25 Energy / 1 to 5 Combo Points\n8 yd range\nInstant\nFinishing move that deals instant damage and applies Rip to all enemies within 10 yards. Lasts longer per combo point.\n1 point : [(15.5% of Attack Power) * 2] plus Rip for (\n2\n* 2) sec\n2 points: [(15.5% of Attack Power) * 3] plus Rip for (\n2\n* 3) sec\n3 points: [(15.5% of Attack Power) * 4] plus Rip for (\n2\n* 4) sec\n4 points: [(15.5% of Attack Power) * 5] plus Rip for (\n2\n* 5) sec\n5 points: [(15.5% of Attack Power) * 6] plus Rip for (\n2\n* 6) sec",
-      "pvp_tooltip": "25 Energy / 1 to 5 Combo Points\n8 yd range\nInstant\nFinishing move that deals instant damage and applies Rip to all enemies within 10 yards. Lasts longer per combo point.\n1 point : [(15.5% of Attack Power) * 2] plus Rip for (\n2\n* 2) sec\n2 points: [(15.5% of Attack Power) * 3] plus Rip for (\n2\n* 3) sec\n3 points: [(15.5% of Attack Power) * 4] plus Rip for (\n2\n* 4) sec\n4 points: [(15.5% of Attack Power) * 5] plus Rip for (\n2\n* 5) sec\n5 points: [(15.5% of Attack Power) * 6] plus Rip for (\n2\n* 6) sec",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "25 Energy / 1 to 5 Combo Points\n8 yd range\nInstant\nFinishing move that deals instant damage and applies Rip to all enemies within 10 yards. Lasts longer per combo point.\n1 point : [(13.64% of Attack Power) * 2] plus Rip for (\n2\n* 2) sec\n2 points: [(13.64% of Attack Power) * 3] plus Rip for (\n2\n* 3) sec\n3 points: [(13.64% of Attack Power) * 4] plus Rip for (\n2\n* 4) sec\n4 points: [(13.64% of Attack Power) * 5] plus Rip for (\n2\n* 5) sec\n5 points: [(13.64% of Attack Power) * 6] plus Rip for (\n2\n* 6) sec",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 182,
+          "end": 186,
+          "old_token": "15.5",
+          "new_token": "13.64",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 248,
+          "end": 252,
+          "old_token": "15.5",
+          "new_token": "13.64",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 314,
+          "end": 318,
+          "old_token": "15.5",
+          "new_token": "13.64",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 380,
+          "end": 384,
+          "old_token": "15.5",
+          "new_token": "13.64",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 446,
+          "end": 450,
+          "old_token": "15.5",
+          "new_token": "13.64",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "15.5",
+          "new": "13.64"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "15.5",
+          "new": "13.64"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "15.5",
+          "new": "13.64"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "15.5",
+          "new": "13.64"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "15.5",
+          "new": "13.64"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4073,12 +4416,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 285381,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 0.155 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.88,
           "final_pvp_multiplier": 0.88,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -4099,7 +4442,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Rampant Ferocity",
@@ -4145,11 +4488,32 @@ window.WOW_PVP_DATA = {
         "icon": "ability_druid_primaltenacity"
       },
       "pve_tooltip": "Ferocious Bite also deals (38.19% of Attack Power) damage per combo point spent to all nearby enemies. Spending extra Energy on Ferocious Bite increases damage dealt by up to 100%. Damage reduced beyond 5 targets.\n(100ms cooldown)",
-      "pvp_tooltip": "Ferocious Bite also deals (38.19% of Attack Power) damage per combo point spent to all nearby enemies. Spending extra Energy on Ferocious Bite increases damage dealt by up to 100%. Damage reduced beyond 5 targets.\n(100ms cooldown)",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Ferocious Bite also deals (35.9597% of Attack Power) damage per combo point spent to all nearby enemies. Spending extra Energy on Ferocious Bite increases damage dealt by up to 100%. Damage reduced beyond 5 targets.\n(100ms cooldown)",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 27,
+          "end": 32,
+          "old_token": "38.19",
+          "new_token": "35.9597",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "38.19",
+          "new": "35.9597"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4159,12 +4523,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 391710,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 0.3819 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.07,
           "amount_kind": "direct",
           "aura_factor": 0.88,
           "final_pvp_multiplier": 0.9416000000000001,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             391709,
@@ -4186,12 +4550,13 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Predator",
@@ -4358,7 +4723,7 @@ window.WOW_PVP_DATA = {
           "end": 23,
           "old_token": "15",
           "new_token": "10",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -4380,7 +4745,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "15",
           "new": "10"
         },
@@ -4415,7 +4780,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -4438,7 +4804,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4547,7 +4914,28 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 260.48,
+          "new": 229.22240000000002,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 29.4,
+          "new": 24.5784,
+          "full_tooltip_match_count": 0
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4557,12 +4945,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 5221,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 2.6048 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.88,
           "final_pvp_multiplier": 0.88,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             390772,
@@ -4594,12 +4982,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 155722,
           "effect_index": 1,
           "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
           "aura_factor": 0.836,
           "final_pvp_multiplier": 0.836,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             390772,
@@ -4636,7 +5024,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 2
     },
     {
       "talent_name": "Taste for Blood",
@@ -4693,7 +5081,7 @@ window.WOW_PVP_DATA = {
           "end": 23,
           "old_token": "16",
           "new_token": "8",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -4703,7 +5091,7 @@ window.WOW_PVP_DATA = {
           "end": 61,
           "old_token": "8",
           "new_token": "4",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2
           ]
@@ -4715,7 +5103,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "16",
           "new": "8"
         },
@@ -4724,7 +5112,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "8",
           "new": "4"
         }
@@ -4750,7 +5138,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -4773,7 +5162,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -5127,7 +5517,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -5155,7 +5546,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -5183,7 +5575,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -5848,7 +6241,7 @@ window.WOW_PVP_DATA = {
           "end": 82,
           "old_token": "60",
           "new_token": "24",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -5860,7 +6253,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "60",
           "new": "24"
         }
@@ -5886,7 +6279,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -5993,11 +6387,53 @@ window.WOW_PVP_DATA = {
         "icon": "ability_druid_rake"
       },
       "pve_tooltip": "25 Energy\nMelee Range\nInstant\n45 sec cooldown\nUnleash a furious frenzy, clawing your target 5 times for [(16.3% of Attack Power) * 5] Physical damage and an additional [5 * (32.67% of Attack Power) * 6 / 2] Bleed damage over 6 sec.\nAwards 5 combo points.",
-      "pvp_tooltip": "25 Energy\nMelee Range\nInstant\n45 sec cooldown\nUnleash a furious frenzy, clawing your target 5 times for [(16.3% of Attack Power) * 5] Physical damage and an additional [5 * (32.67% of Attack Power) * 6 / 2] Bleed damage over 6 sec.\nAwards 5 combo points.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "25 Energy\nMelee Range\nInstant\n45 sec cooldown\nUnleash a furious frenzy, clawing your target 5 times for [(14.344% of Attack Power) * 5] Physical damage and an additional [5 * (28.7496% of Attack Power) * 6 / 2] Bleed damage over 6 sec.\nAwards 5 combo points.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 106,
+          "end": 110,
+          "old_token": "16.3",
+          "new_token": "14.344",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 174,
+          "end": 179,
+          "old_token": "32.67",
+          "new_token": "28.7496",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            2,
+            3
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "16.3",
+          "new": "14.344"
+        },
+        {
+          "effect_indexes": [
+            2,
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "32.67",
+          "new": "28.7496"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6007,12 +6443,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 274838,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 0.163 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.88,
           "final_pvp_multiplier": 0.88,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             274837,
@@ -6044,12 +6480,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 274838,
           "effect_index": 2,
           "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
           "aura_factor": 0.88,
           "final_pvp_multiplier": 0.88,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             274837,
@@ -6081,12 +6517,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 274838,
           "effect_index": 3,
           "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
           "aura_factor": 0.88,
           "final_pvp_multiplier": 0.88,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             274837,
@@ -6112,7 +6548,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 3
     },
     {
       "talent_name": "Incarnation: Avatar of Ashamane",
@@ -6158,22 +6594,35 @@ window.WOW_PVP_DATA = {
         "icon": "spell_druid_incarnation"
       },
       "pve_tooltip": "Instant\n3 min cooldown\nAn improved Cat Form that grants all of your known Berserk effects and lasts 20 sec. You may shapeshift in and out of this improved Cat Form for its duration. During Incarnation:\nEnergy cost of all Cat Form abilities is reduced by 25%, and Prowl can be used once while in combat. [\nBerserk\n:\nGenerate 1 combo point every 1.5 sec. Combo point generating abilities generate 1 additional combo point. Finishing moves restore up to 3 combo points generated over the cap.\nAll attack and ability damage is increased by 15%\n]",
-      "pvp_tooltip": "Instant\n3 min cooldown\nAn improved Cat Form that grants all of your known Berserk effects and lasts 20 sec. You may shapeshift in and out of this improved Cat Form for its duration. During Incarnation:\nEnergy cost of all Cat Form abilities is reduced by 25%, and Prowl can be used once while in combat. [\nBerserk\n:\nGenerate 1 combo point every 1.5 sec. Combo point generating abilities generate 1 additional combo point. Finishing moves restore up to 3 combo points generated over the cap.\nAll attack and ability damage is increased by 15%\n]",
-      "tooltip_changed": false,
+      "pvp_tooltip": "Instant\n3 min cooldown\nAn improved Cat Form that grants all of your known Berserk effects and lasts 20 sec. You may shapeshift in and out of this improved Cat Form for its duration. During Incarnation:\nEnergy cost of all Cat Form abilities is reduced by 25%, and Prowl can be used once while in combat. [\nBerserk\n:\nGenerate 1 combo point every 1.5 sec. Combo point generating abilities generate 1 additional combo point. Finishing moves restore up to 3 combo points generated over the cap.\nAll attack and ability damage is increased by 5%\n]",
+      "tooltip_changed": true,
       "render_status": "REVIEW_REQUIRED",
-      "changes": [],
+      "changes": [
+        {
+          "start": 536,
+          "end": 538,
+          "old_token": "15",
+          "new_token": "5",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            5
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_index": null,
           "status": "CONFLICTING_TRANSFORMS",
-          "reason": "PvE value 15.0 maps to multiple PvP values",
+          "reason": "PvE percent_value value 15.0 maps to multiple PvP values",
           "candidates": [
             {
-              "kind": "ordinary_value",
+              "kind": "percent_value",
               "old": 15.0,
               "new": 10.000499999999999,
-              "unit": null,
+              "unit": "%",
               "effect_index": 4,
+              "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+              "reference_contexts": [],
               "match_ordinal": 1,
               "match_group_count": 1,
               "effect_indexes": [
@@ -6183,31 +6632,32 @@ window.WOW_PVP_DATA = {
               ]
             },
             {
-              "kind": "ordinary_value",
+              "kind": "percent_value",
               "old": 15.0,
               "new": 5.0009999999999994,
-              "unit": null,
+              "unit": "%",
               "effect_index": 3,
+              "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+              "reference_contexts": [
+                "e up to $405189u combo points generated over the cap. All attack and ability damage is increased by $s3%."
+              ],
               "match_ordinal": 1,
               "match_group_count": 1,
               "effect_indexes": [
                 3,
                 4
               ]
-            },
-            {
-              "kind": "ordinary_value",
-              "old": 15.0,
-              "new": 5.010000000000001,
-              "unit": null,
-              "effect_index": 5,
-              "match_ordinal": 1,
-              "match_group_count": 1,
-              "effect_indexes": [
-                5
-              ]
             }
           ]
+        },
+        {
+          "effect_indexes": [
+            5
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "15",
+          "new": "5"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6231,7 +6681,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -6254,7 +6705,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -6277,7 +6729,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -6305,7 +6758,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -6333,7 +6787,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -6361,7 +6816,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -6632,7 +7088,28 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 24.0,
+          "new": 21.12,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 21.6,
+          "new": 19.008000000000003,
+          "full_tooltip_match_count": 0
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6642,12 +7119,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 155625,
           "effect_index": 1,
           "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
           "aura_factor": 0.88,
           "final_pvp_multiplier": 0.88,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             155580,
@@ -6679,12 +7156,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 155625,
           "effect_index": 2,
           "effect_text": "School Damage (Arcane) (AP mod: 0.216 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.88,
           "final_pvp_multiplier": 0.88,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             155580,
@@ -6710,7 +7187,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 2
     },
     {
       "talent_name": "Chomp",
@@ -6756,11 +7233,32 @@ window.WOW_PVP_DATA = {
         "icon": "inv_1115_druid_jaguar"
       },
       "pve_tooltip": "Melee Range\nInstant\n20 sec cooldown\nChomp your target, causing (1170% of Attack Power) Physical damage. Chomp critical strikes deal 3 times normal damage.\nChomp can only be used when you fall below 30% Energy or for 2 seconds afterward.",
-      "pvp_tooltip": "Melee Range\nInstant\n20 sec cooldown\nChomp your target, causing (1170% of Attack Power) Physical damage. Chomp critical strikes deal 3 times normal damage.\nChomp can only be used when you fall below 30% Energy or for 2 seconds afterward.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Melee Range\nInstant\n20 sec cooldown\nChomp your target, causing (1029.6% of Attack Power) Physical damage. Chomp critical strikes deal 3 times normal damage.\nChomp can only be used when you fall below 30% Energy or for 2 seconds afterward.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 64,
+          "end": 68,
+          "old_token": "1170",
+          "new_token": "1029.6",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "1170",
+          "new": "1029.6"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6770,12 +7268,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 1244258,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 11.7 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.88,
           "final_pvp_multiplier": 0.88,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -6796,7 +7294,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Focused Frenzy",
@@ -6891,11 +7389,53 @@ window.WOW_PVP_DATA = {
         "icon": "ability_xavius_nightmareblades"
       },
       "pve_tooltip": "25 Energy\nMelee Range\nInstant\n45 sec cooldown\nUnleash a furious frenzy, flickering to nearby targets in front of you 5 times and clawing all enemies around them for (15.5% of Attack Power) Physical damage and an additional [(31.08% of Attack Power) * 6 / 2] Bleed damage over 6 sec.\nAwards 5 combo points.",
-      "pvp_tooltip": "25 Energy\nMelee Range\nInstant\n45 sec cooldown\nUnleash a furious frenzy, flickering to nearby targets in front of you 5 times and clawing all enemies around them for (15.5% of Attack Power) Physical damage and an additional [(31.08% of Attack Power) * 6 / 2] Bleed damage over 6 sec.\nAwards 5 combo points.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "25 Energy\nMelee Range\nInstant\n45 sec cooldown\nUnleash a furious frenzy, flickering to nearby targets in front of you 5 times and clawing all enemies around them for (14.8267% of Attack Power) Physical damage and an additional [(29.7299% of Attack Power) * 6 / 2] Bleed damage over 6 sec.\nAwards 5 combo points.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 225,
+          "end": 230,
+          "old_token": "31.08",
+          "new_token": "29.7299",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            3,
+            2
+          ]
+        },
+        {
+          "start": 166,
+          "end": 170,
+          "old_token": "15.5",
+          "new_token": "14.8267",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "15.5",
+          "new": "14.8267"
+        },
+        {
+          "effect_indexes": [
+            3,
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "31.08",
+          "new": "29.7299"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6903,14 +7443,90 @@ window.WOW_PVP_DATA = {
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 1243807,
           "source_spell_id": 1244079,
+          "effect_index": 3,
+          "effect_text": "Apply Aura (6) | Periodic Damage (3): physical every 2 seconds | Attributes: Compute Points Only At Cast Time (15) (AP mod: 0.3108)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.087,
+          "amount_kind": "periodic",
+          "aura_factor": 0.88,
+          "final_pvp_multiplier": 0.95656,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1243807,
+            1244079
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256992,
+              "game_effect_id": 1266733,
+              "amount_kind": "periodic",
+              "value_pct": -12.0,
+              "factor": 0.88,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "simc",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1243807,
+          "source_spell_id": 1244079,
+          "effect_index": 2,
+          "effect_text": "Apply Aura (6) | Periodic Damage (3): physical every 2 seconds (AP mod: 0.3108)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.087,
+          "amount_kind": "periodic",
+          "aura_factor": 0.88,
+          "final_pvp_multiplier": 0.95656,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1243807,
+            1244079
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256992,
+              "game_effect_id": 1266733,
+              "amount_kind": "periodic",
+              "value_pct": -12.0,
+              "factor": 0.88,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "simc",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1243807,
+          "source_spell_id": 1244079,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 0.155 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): physical (AP mod: 0.155)",
+          "base_value": null,
           "spell_pvp_multiplier": 1.087,
           "amount_kind": "direct",
           "aura_factor": 0.88,
           "final_pvp_multiplier": 0.95656,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             1243807,
@@ -6931,87 +7547,13 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 1243807,
-          "source_spell_id": 1244079,
-          "effect_index": 2,
-          "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
-          "spell_pvp_multiplier": 1.087,
-          "amount_kind": "periodic",
-          "aura_factor": 0.88,
-          "final_pvp_multiplier": 0.95656,
-          "final_pvp_value": 0.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            1243807,
-            1244079
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1256992,
-              "game_effect_id": 1266733,
-              "amount_kind": "periodic",
-              "value_pct": -12.0,
-              "factor": 0.88,
-              "label_id": null,
-              "build": "12.1.0.69587"
-            }
-          ],
-          "sources": [
-            "wowhead"
-          ],
-          "confidence": "ambiguous"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 1243807,
-          "source_spell_id": 1244079,
-          "effect_index": 3,
-          "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
-          "spell_pvp_multiplier": 1.087,
-          "amount_kind": "periodic",
-          "aura_factor": 0.88,
-          "final_pvp_multiplier": 0.95656,
-          "final_pvp_value": 0.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            1243807,
-            1244079
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1256992,
-              "game_effect_id": 1266733,
-              "amount_kind": "periodic",
-              "value_pct": -12.0,
-              "factor": 0.88,
-              "label_id": null,
-              "build": "12.1.0.69587"
-            }
-          ],
-          "sources": [
-            "wowhead"
-          ],
-          "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 3
     },
     {
       "talent_name": "Ashamane's Guidance",
@@ -7208,42 +7750,61 @@ window.WOW_PVP_DATA = {
         "icon": "inv12_apextalent_druid_unseenpredator"
       },
       "pve_tooltip": "When you Ferocious Bite, you have a 15% chance per combo point spent to flicker to an enemy within 30 yds and deliver an Unseen Attack. Unseen Attack damage is reduced if less than 5 combo points and 50 Energy are spent on Ferocious Bite.\nUnseen Slash\nSlash the target, dealing (65.7% of Attack Power) Physical damage and an additional [(46% of Attack Power) * 6 / 2] Bleed damage over 6 sec. If this effect is reapplied, any remaining damage is added to the new Bleed.\nUnseen Swipe\nSwipe nearby targets, dealing (188.75% of Attack Power) Physical damage. Damage reduced beyond 5 targets.\n(100ms cooldown)",
-      "pvp_tooltip": "When you Ferocious Bite, you have a 15% chance per combo point spent to flicker to an enemy within 30 yds and deliver an Unseen Attack. Unseen Attack damage is reduced if less than 5 combo points and 50 Energy are spent on Ferocious Bite.\nUnseen Slash\nSlash the target, dealing (65.7% of Attack Power) Physical damage and an additional [(46% of Attack Power) * 6 / 2] Bleed damage over 6 sec. If this effect is reapplied, any remaining damage is added to the new Bleed.\nUnseen Swipe\nSwipe nearby targets, dealing (188.75% of Attack Power) Physical damage. Damage reduced beyond 5 targets.\n(100ms cooldown)",
-      "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
-      "changes": [],
+      "pvp_tooltip": "When you Ferocious Bite, you have a 5 chance per combo point spent to flicker to an enemy within 30 yds and deliver an Unseen Attack. Unseen Attack damage is reduced if less than 5 combo points and 50 Energy are spent on Ferocious Bite.\nUnseen Slash\nSlash the target, dealing (65.7% of Attack Power) Physical damage and an additional [(46% of Attack Power) * 6 / 2] Bleed damage over 6 sec. If this effect is reapplied, any remaining damage is added to the new Bleed.\nUnseen Swipe\nSwipe nearby targets, dealing (188.75% of Attack Power) Physical damage. Damage reduced beyond 5 targets.\n(100ms cooldown)",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 36,
+          "end": 38,
+          "old_token": "15",
+          "new_token": "5",
+          "kind": "percent_value",
+          "effect_indexes": [
+            3,
+            4
+          ]
+        },
+        {
+          "start": 36,
+          "end": 38,
+          "old_token": "15",
+          "new_token": "5",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            5
+          ]
+        }
+      ],
       "diagnostics": [
         {
-          "effect_index": null,
-          "status": "CONFLICTING_TRANSFORMS",
-          "reason": "PvE value 15.0 maps to multiple PvP values",
-          "candidates": [
-            {
-              "kind": "ordinary_value",
-              "old": 15.0,
-              "new": 5.0009999999999994,
-              "unit": null,
-              "effect_index": 3,
-              "match_ordinal": 1,
-              "match_group_count": 1,
-              "effect_indexes": [
-                3,
-                4
-              ]
-            },
-            {
-              "kind": "ordinary_value",
-              "old": 15.0,
-              "new": 5.010000000000001,
-              "unit": null,
-              "effect_index": 5,
-              "match_ordinal": 1,
-              "match_group_count": 1,
-              "effect_indexes": [
-                5
-              ]
-            }
-          ]
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 145.2,
+          "new": 114.99839999999999,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            3,
+            4
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "15",
+          "new": "5"
+        },
+        {
+          "effect_indexes": [
+            5
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "15",
+          "new": "5"
         }
       ],
       "has_pvp_mechanics": true,
@@ -7255,12 +7816,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 22568,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 1.452 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 0.9,
           "amount_kind": "direct",
           "aura_factor": 0.88,
           "final_pvp_multiplier": 0.792,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             1263657,
@@ -7282,7 +7843,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -7292,13 +7854,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1263657,
           "source_spell_id": 1263890,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 0.657 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): physical (AP mod: 0.657)",
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.88,
           "final_pvp_multiplier": 0.88,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             1263657,
@@ -7321,9 +7883,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -7331,13 +7894,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1263657,
           "source_spell_id": 1263908,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 1.8875 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): physical (AP mod: 1.8875)",
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.88,
           "final_pvp_multiplier": 0.88,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             1263657,
@@ -7360,9 +7923,90 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 1263657,
+          "source_spell_id": 1271863,
+          "effect_index": 1,
+          "effect_text": "Apply Aura (6) | Periodic Damage (3): physical every 2 seconds (AP mod: 0.46)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 0.88,
+          "final_pvp_multiplier": 0.88,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1263657,
+            1263827,
+            1271863
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256992,
+              "game_effect_id": 1266733,
+              "amount_kind": "periodic",
+              "value_pct": -12.0,
+              "factor": 0.88,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "simc",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 1263657,
+          "source_spell_id": 1271863,
+          "effect_index": 2,
+          "effect_text": "Apply Aura (6) | Periodic Damage (3): physical every 2 seconds | Attributes: Compute Points Only At Cast Time (15) (AP mod: 0.46)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "periodic",
+          "aura_factor": 0.88,
+          "final_pvp_multiplier": 0.88,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1263657,
+            1263827,
+            1271863
+          ],
+          "dependency_relations": [
+            "spelldesc_ref",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256992,
+              "game_effect_id": 1266733,
+              "amount_kind": "periodic",
+              "value_pct": -12.0,
+              "factor": 0.88,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "simc",
+            "drustvar"
+          ],
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -7392,7 +8036,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -7424,7 +8069,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -7456,12 +8102,13 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 4
     },
     {
       "talent_name": "Unseen Predator",
@@ -7606,7 +8253,7 @@ window.WOW_PVP_DATA = {
         "icon": "inv_ability_wildstalkerdruid_thrivinggrowth"
       },
       "pve_tooltip": "Rip and Rake damage has a chance to cause Bloodseeker Vines to grow on the victim, dealing (97.5% of Attack Power) Bleed damage over 6 sec.\nWild Growth and Regrowth healing has a chance to cause Symbiotic Blooms to grow on the target, healing for (219.6% of Spell Power) over 6 sec.\nMultiple instances of these can overlap.",
-      "pvp_tooltip": "Rip and Rake damage has a chance to cause Bloodseeker Vines to grow on the victim, dealing (97.5% of Attack Power) Bleed damage over 6 sec.\nWild Growth and Regrowth healing has a chance to cause Symbiotic Blooms to grow on the target, healing for (274.5% of Spell Power) over 6 sec.\nMultiple instances of these can overlap.",
+      "pvp_tooltip": "Rip and Rake damage has a chance to cause Bloodseeker Vines to grow on the victim, dealing (85.8% of Attack Power) Bleed damage over 6 sec.\nWild Growth and Regrowth healing has a chance to cause Symbiotic Blooms to grow on the target, healing for (274.5% of Spell Power) over 6 sec.\nMultiple instances of these can overlap.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -7619,9 +8266,28 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ]
+        },
+        {
+          "start": 92,
+          "end": 96,
+          "old_token": "97.5",
+          "new_token": "85.8",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
         }
       ],
       "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "97.5",
+          "new": "85.8"
+        },
         {
           "effect_indexes": [
             1
@@ -7658,7 +8324,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -7669,12 +8336,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 439531,
           "effect_index": 1,
           "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
           "aura_factor": 0.88,
           "final_pvp_multiplier": 0.88,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             439528,
@@ -7700,7 +8367,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 2
     },
     {
       "talent_name": "Hunt Beneath the Open Skies",
@@ -8223,11 +8890,32 @@ window.WOW_PVP_DATA = {
         "icon": "inv_collections_armor_flowerbracelet_b_01"
       },
       "pve_tooltip": "When Bloodseeker Vines expire or you use Ferocious Bite on their target they explode in thorns, dealing (86.4% of Attack Power) physical damage to nearby enemies. Damage reduced above 5 targets.\nWhen Symbiotic Blooms expire or you cast Rejuvenation on their target flowers grow around their target, healing them and up to 3 nearby allies for (42.09% of Spell Power).",
-      "pvp_tooltip": "When Bloodseeker Vines expire or you use Ferocious Bite on their target they explode in thorns, dealing (86.4% of Attack Power) physical damage to nearby enemies. Damage reduced above 5 targets.\nWhen Symbiotic Blooms expire or you cast Rejuvenation on their target flowers grow around their target, healing them and up to 3 nearby allies for (42.09% of Spell Power).",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "When Bloodseeker Vines expire or you use Ferocious Bite on their target they explode in thorns, dealing (76.032% of Attack Power) physical damage to nearby enemies. Damage reduced above 5 targets.\nWhen Symbiotic Blooms expire or you cast Rejuvenation on their target flowers grow around their target, healing them and up to 3 nearby allies for (42.09% of Spell Power).",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 105,
+          "end": 109,
+          "old_token": "86.4",
+          "new_token": "76.032",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "86.4",
+          "new": "76.032"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8236,13 +8924,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 440120,
           "source_spell_id": 440122,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 0.864 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): physical (AP mod: 0.864)",
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.88,
           "final_pvp_multiplier": 0.88,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             440120,
@@ -8263,12 +8951,13 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Resilient Flourishing",
@@ -8699,14 +9388,14 @@ window.WOW_PVP_DATA = {
           "dependency_kind": "EMBEDDED",
           "talent_spell_id": 441583,
           "source_spell_id": 441591,
-          "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 2.0416 )",
-          "base_value": 0.0,
-          "spell_pvp_multiplier": 1.0,
+          "effect_index": 3,
+          "effect_text": "School Damage (2): physical (AP mod: 0.8446)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.2,
           "amount_kind": "direct",
           "aura_factor": 0.88,
-          "final_pvp_multiplier": 0.88,
-          "final_pvp_value": 0.0,
+          "final_pvp_multiplier": 1.056,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             441583,
@@ -8727,7 +9416,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc"
           ],
           "confidence": "medium"
         },
@@ -8736,14 +9425,14 @@ window.WOW_PVP_DATA = {
           "dependency_kind": "EMBEDDED",
           "talent_spell_id": 441583,
           "source_spell_id": 441591,
-          "effect_index": 3,
-          "effect_text": "School Damage (Physical) (AP mod: 0.8446 )",
-          "base_value": 0.0,
-          "spell_pvp_multiplier": 1.2,
+          "effect_index": 1,
+          "effect_text": "School Damage (2): physical (AP mod: 2.0416)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.88,
-          "final_pvp_multiplier": 1.056,
-          "final_pvp_value": 0.0,
+          "final_pvp_multiplier": 0.88,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             441583,
@@ -8764,9 +9453,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8796,7 +9486,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -8828,7 +9519,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -8860,7 +9552,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -8964,11 +9657,32 @@ window.WOW_PVP_DATA = {
         "icon": "artifactability_feraldruid_openwounds"
       },
       "pve_tooltip": "Ravage also inflicts a Bleed that causes (50.4% of Attack Power) damage over 6 sec and saps its victims' strength, reducing damage they deal to you by 4%.\nDreadful Wound is not affected by Circle of Life and Death. If a Dreadful Wound benefiting from Tiger's Fury is re-applied, the new Dreadful Wound deals damage as if Tiger's Fury was active.",
-      "pvp_tooltip": "Ravage also inflicts a Bleed that causes (50.4% of Attack Power) damage over 6 sec and saps its victims' strength, reducing damage they deal to you by 4%.\nDreadful Wound is not affected by Circle of Life and Death. If a Dreadful Wound benefiting from Tiger's Fury is re-applied, the new Dreadful Wound deals damage as if Tiger's Fury was active.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Ravage also inflicts a Bleed that causes (44.352% of Attack Power) damage over 6 sec and saps its victims' strength, reducing damage they deal to you by 4%.\nDreadful Wound is not affected by Circle of Life and Death. If a Dreadful Wound benefiting from Tiger's Fury is re-applied, the new Dreadful Wound deals damage as if Tiger's Fury was active.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 42,
+          "end": 46,
+          "old_token": "50.4",
+          "new_token": "44.352",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "50.4",
+          "new": "44.352"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8977,13 +9691,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 441809,
           "source_spell_id": 441812,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "effect_text": "Apply Aura (6) | Periodic Damage (3): physical every 2 seconds (AP mod: 0.504)",
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
           "aura_factor": 0.88,
           "final_pvp_multiplier": 0.88,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             441809,
@@ -9004,12 +9718,13 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Bestial Strength",
@@ -9691,11 +10406,32 @@ window.WOW_PVP_DATA = {
         "icon": "ability_druid_swipe"
       },
       "pve_tooltip": "You have a 16% chance to follow up any single target melee ability with a Twin Claw, dealing (300% of Attack Power) Physical damage and generating 3 Energy.",
-      "pvp_tooltip": "You have a 16% chance to follow up any single target melee ability with a Twin Claw, dealing (300% of Attack Power) Physical damage and generating 3 Energy.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "You have a 16% chance to follow up any single target melee ability with a Twin Claw, dealing (264% of Attack Power) Physical damage and generating 3 Energy.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 94,
+          "end": 97,
+          "old_token": "300",
+          "new_token": "264",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "300",
+          "new": "264"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -9704,13 +10440,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1271635,
           "source_spell_id": 1271636,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 3 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): physical (AP mod: 3)",
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.88,
           "final_pvp_multiplier": 0.88,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             1271635,
@@ -9731,12 +10467,13 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Claw Rampage",
@@ -9795,10 +10532,10 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "druid-feral",
-  "generated_at": "2026-09-19T14:35:55.514498+00:00",
+  "generated_at": "2026-09-19T15:23:05.398422+00:00",
   "validation": {
     "talents": 140,
-    "changed_tooltips": 6,
+    "changed_tooltips": 19,
     "talents_with_pvp_mechanics": 28,
     "unique_nodes": 120,
     "tree_build": "12.1.0.69875",
@@ -9807,47 +10544,43 @@ window.WOW_PVP_DATA = {
       "12.1.0.69587"
     ],
     "verification_status": "PARTIAL",
-    "fetch_error_count": 1,
-    "unresolved_count": 1,
-    "review_required_count": 2,
-    "fetch_error_examples": [
+    "fetch_error_count": 0,
+    "source_warning_count": 8,
+    "unresolved_count": 0,
+    "review_required_count": 1,
+    "fetch_error_examples": [],
+    "source_warning_examples": [
       {
         "source": "wowhead",
-        "spell_id": 1271863,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1271863'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
-    "unresolved_examples": [
+        "spell_id": 440122,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=440122'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
+        "source": "wowhead",
         "spell_id": 441591,
-        "talent_name": "Ravage",
-        "side": "wowhead",
-        "reason": "WOWHEAD_ONLY_MODIFIER",
-        "effect_index": 3,
-        "multiplier": 1.2,
-        "effect_text": "School Damage (Physical) (AP mod: 0.8446 )",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 441583,
-        "source_spell_id": 441591,
-        "dependency_kind": "EMBEDDED",
-        "dependency_path": [
-          441583,
-          441591
-        ],
-        "dependency_relations": [
-          "spelldesc_ref"
-        ]
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=441591'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 441812,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=441812'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1244079,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1244079'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1263890,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1263890'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
+    "unresolved_examples": [],
     "review_required_examples": [
       {
         "talent_name": "Incarnation: Avatar of Ashamane",
         "spell_id": 102543,
-        "status": "REVIEW_REQUIRED"
-      },
-      {
-        "talent_name": "Unseen Predator",
-        "spell_id": 1263657,
         "status": "REVIEW_REQUIRED"
       }
     ]

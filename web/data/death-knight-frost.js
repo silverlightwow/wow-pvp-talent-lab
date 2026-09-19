@@ -100,11 +100,51 @@ window.WOW_PVP_DATA = {
         "icon": "spell_deathknight_butcher2"
       },
       "pve_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike with both weapons, that deals a total of [(153.12% of Attack Power) + (29.835% of Attack Power)] Physical damage and heals you for (20 /\nVoracious\n:\n21\n/\nImproved Death Strike\n:\n32\n)% of all damage taken in the last 5 sec, minimum\n7.0\n% of maximum health.",
-      "pvp_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike with both weapons, that deals a total of [(153.12% of Attack Power) + (29.835% of Attack Power)] Physical damage and heals you for (20 /\nVoracious\n:\n21\n/\nImproved Death Strike\n:\n32\n)% of all damage taken in the last 5 sec, minimum\n7.0\n% of maximum health.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike with both weapons, that deals a total of [(173.0256% of Attack Power) + (33.7135% of Attack Power)] Physical damage and heals you for (20 /\nVoracious\n:\n21\n/\nImproved Death Strike\n:\n32\n)% of all damage taken in the last 5 sec, minimum\n7.0\n% of maximum health.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 111,
+          "end": 117,
+          "old_token": "153.12",
+          "new_token": "173.0256",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 139,
+          "end": 145,
+          "old_token": "29.835",
+          "new_token": "33.7135",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "153.12",
+          "new": "173.0256"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "29.835",
+          "new": "33.7135"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -114,12 +154,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 49998,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 1.5312 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 1.13,
           "final_pvp_multiplier": 1.13,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -146,12 +186,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 66188,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 0.29835 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 1.13,
           "final_pvp_multiplier": 1.13,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             49998,
@@ -177,7 +217,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 2
     },
     {
       "talent_name": "Raise Dead",
@@ -514,7 +554,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 60.0,
           "new": 49.99998,
           "full_tooltip_match_count": 0
@@ -550,7 +590,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -560,7 +601,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 207167,
           "source_spell_id": 317898,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -577,7 +618,7 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -906,6 +947,16 @@ window.WOW_PVP_DATA = {
       "render_status": "CHANGED",
       "changes": [
         {
+          "start": 132,
+          "end": 134,
+          "old_token": "12",
+          "new_token": "8",
+          "kind": "percent_value",
+          "effect_indexes": [
+            2
+          ]
+        },
+        {
           "start": 93,
           "end": 95,
           "old_token": "30",
@@ -913,16 +964,6 @@ window.WOW_PVP_DATA = {
           "kind": "ordinary_value",
           "effect_indexes": [
             1
-          ]
-        },
-        {
-          "start": 132,
-          "end": 134,
-          "old_token": "12",
-          "new_token": "8",
-          "kind": "ordinary_value",
-          "effect_indexes": [
-            2
           ]
         }
       ],
@@ -941,7 +982,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "12",
           "new": "8"
         }
@@ -953,36 +994,8 @@ window.WOW_PVP_DATA = {
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 392566,
           "source_spell_id": 392490,
-          "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
-          "base_value": -30.0,
-          "spell_pvp_multiplier": 0.666667,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.666667,
-          "final_pvp_value": -20.00001,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            392566,
-            392490
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar"
-          ],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 392566,
-          "source_spell_id": 392490,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Mod Damage to Caster % (127)",
+          "effect_text": "Apply Aura (6) | Modify Damage Done% to Caster (269)",
           "base_value": -12.0,
           "spell_pvp_multiplier": 0.667,
           "amount_kind": null,
@@ -999,7 +1012,35 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 392566,
+          "source_spell_id": 392490,
+          "effect_index": 1,
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "base_value": -30.0,
+          "spell_pvp_multiplier": 0.666667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.666667,
+          "final_pvp_value": -20.00001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            392566,
+            392490
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -1226,7 +1267,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "OTHER_SPEC_BRANCH",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 20.0,
           "new": 10.0,
           "full_tooltip_match_count": 1
@@ -1253,7 +1294,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -1972,7 +2014,7 @@ window.WOW_PVP_DATA = {
           "end": 103,
           "old_token": "40",
           "new_token": "20",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2
           ]
@@ -1984,7 +2026,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "40",
           "new": "20"
         }
@@ -2010,7 +2052,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2448,8 +2491,47 @@ window.WOW_PVP_DATA = {
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 374598,
+          "source_spell_id": 374606,
+          "effect_index": 1,
+          "effect_text": "Health Leech (9) (AP mod: 1.2)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.13,
+          "final_pvp_multiplier": 1.13,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            374598,
+            374606
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256915,
+              "game_effect_id": 1264668,
+              "amount_kind": "direct",
+              "value_pct": 13.0,
+              "factor": 1.13,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "simc",
+            "drustvar"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -2617,7 +2699,7 @@ window.WOW_PVP_DATA = {
           "end": 46,
           "old_token": "20",
           "new_token": "10",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2
           ]
@@ -2629,7 +2711,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "20",
           "new": "10"
         }
@@ -2655,7 +2737,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2713,7 +2796,7 @@ window.WOW_PVP_DATA = {
           "end": 107,
           "old_token": "35",
           "new_token": "10.15",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2
           ]
@@ -2725,7 +2808,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "OTHER_SPEC_BRANCH",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 8.0,
           "new": 4.8,
           "full_tooltip_match_count": 1
@@ -2735,7 +2818,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "35",
           "new": "10.15"
         }
@@ -2761,7 +2844,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -2784,7 +2868,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2937,30 +3022,20 @@ window.WOW_PVP_DATA = {
         "icon": "ability_domination_rune12"
       },
       "pve_tooltip": "Casting Anti-Magic Shell grants 2 nearby allies a Lesser Anti-Magic Shell that Absorbs up to 0 magic damage and reduces the duration of harmful Magic effects against them by 50%.",
-      "pvp_tooltip": "Casting Anti-Magic Shell grants 2 nearby allies a Lesser Anti-Magic Shell that Absorbs up to 0 magic damage and reduces the duration of harmful Magic effects against them by 30%.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 174,
-          "end": 176,
-          "old_token": "50",
-          "new_token": "30",
-          "kind": "ordinary_value",
-          "effect_indexes": [
-            2
-          ]
-        }
-      ],
+      "pvp_tooltip": "Casting Anti-Magic Shell grants 2 nearby allies a Lesser Anti-Magic Shell that Absorbs up to 0 magic damage and reduces the duration of harmful Magic effects against them by 50%.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
       "diagnostics": [
         {
           "effect_indexes": [
             2
           ],
-          "status": "APPLIED",
-          "kind": "ordinary_value",
-          "old": "50",
-          "new": "30"
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "duration_seconds",
+          "old": 50.0,
+          "new": 30.0,
+          "full_tooltip_match_count": 0
         }
       ],
       "has_pvp_mechanics": true,
@@ -2971,7 +3046,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 454851,
           "source_spell_id": 454863,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Mod Debuffs Duration % (0)",
+          "effect_text": "Apply Aura (6) | Modify Debuff Duration% (245)",
           "base_value": -50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -2988,7 +3063,7 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -3053,12 +3128,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 66196,
           "effect_index": 1,
           "effect_text": "School Damage (Frost) (AP mod: 1.39308 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.6,
           "amount_kind": "direct",
           "aura_factor": 0.9830999999999999,
           "final_pvp_multiplier": 1.57296,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             49143,
@@ -3089,7 +3164,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -3099,13 +3175,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 49143,
           "source_spell_id": 222026,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (AP mod: 1.39308 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): frost (AP mod: 1.39308)",
+          "base_value": null,
           "spell_pvp_multiplier": 1.6,
           "amount_kind": "direct",
           "aura_factor": 0.9830999999999999,
           "final_pvp_multiplier": 1.57296,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             49143,
@@ -3135,7 +3211,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -3146,13 +3222,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 49143,
           "source_spell_id": 325464,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (AP mod: 1.98089 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): frost (AP mod: 1.98089)",
+          "base_value": null,
           "spell_pvp_multiplier": 1.6,
           "amount_kind": "direct",
           "aura_factor": 0.9830999999999999,
           "final_pvp_multiplier": 1.57296,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             49143,
@@ -3182,7 +3258,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -3249,12 +3325,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 66198,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 0.714221 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.88,
           "amount_kind": "direct",
           "aura_factor": 1.017,
           "final_pvp_multiplier": 1.9119599999999997,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             49020,
@@ -3285,7 +3361,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -3295,13 +3372,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 49020,
           "source_spell_id": 222024,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 0.714221 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): physical (AP mod: 0.714221)",
+          "base_value": null,
           "spell_pvp_multiplier": 1.88,
           "amount_kind": "direct",
           "aura_factor": 1.017,
           "final_pvp_multiplier": 1.9119599999999997,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             49020,
@@ -3331,7 +3408,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -3342,13 +3419,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 49020,
           "source_spell_id": 325461,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 1.05731 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): physical (AP mod: 1.05731)",
+          "base_value": null,
           "spell_pvp_multiplier": 1.88,
           "amount_kind": "direct",
           "aura_factor": 1.017,
           "final_pvp_multiplier": 1.9119599999999997,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             49020,
@@ -3378,7 +3455,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -3389,13 +3466,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 49020,
           "source_spell_id": 1264082,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (AP mod: 0.714221 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): frost (AP mod: 0.714221)",
+          "base_value": null,
           "spell_pvp_multiplier": 1.88,
           "amount_kind": "direct",
           "aura_factor": 1.017,
           "final_pvp_multiplier": 1.9119599999999997,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             49020,
@@ -3425,7 +3502,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -3436,13 +3513,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 49020,
           "source_spell_id": 1264083,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (AP mod: 0.714221 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): frost (AP mod: 0.714221)",
+          "base_value": null,
           "spell_pvp_multiplier": 1.88,
           "amount_kind": "direct",
           "aura_factor": 1.017,
           "final_pvp_multiplier": 1.9119599999999997,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             49020,
@@ -3472,7 +3549,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -3483,13 +3560,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 49020,
           "source_spell_id": 1264084,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (AP mod: 1.05731 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): frost (AP mod: 1.05731)",
+          "base_value": null,
           "spell_pvp_multiplier": 1.88,
           "amount_kind": "direct",
           "aura_factor": 1.017,
           "final_pvp_multiplier": 1.9119599999999997,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             49020,
@@ -3519,7 +3596,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -3572,11 +3649,32 @@ window.WOW_PVP_DATA = {
         "icon": "spell_frost_arcticwinds"
       },
       "pve_tooltip": "1 Rune / -10 Runic Power\n30 yd range\nInstant\nBlast the target with a frigid wind, dealing [(50.6819% of Attack Power) * [(Attack Power * 0.98)][((Attack Power + Offhand Attack Power) * 2 / 3)] -- 2H, DW / Attack Power] [\nNorthrend Winds\n:\nFrost damage and applying Frost Fever to the target\n/ Frost damage to that foe, and reduced damage to all other enemies within 10 yards, infecting all targets with Frost Fever.]\nFrost Fever\nA disease that deals [(342.4% of Attack Power) * [(Attack Power * 0.98)][((Attack Power + Offhand Attack Power) * 2 / 3)] -- 2H, DW / Attack Power] Frost damage over 24 sec and has a chance to grant the Death Knight 4 Runic Power each time it deals damage.",
-      "pvp_tooltip": "1 Rune / -10 Runic Power\n30 yd range\nInstant\nBlast the target with a frigid wind, dealing [(50.6819% of Attack Power) * [(Attack Power * 0.98)][((Attack Power + Offhand Attack Power) * 2 / 3)] -- 2H, DW / Attack Power] [\nNorthrend Winds\n:\nFrost damage and applying Frost Fever to the target\n/ Frost damage to that foe, and reduced damage to all other enemies within 10 yards, infecting all targets with Frost Fever.]\nFrost Fever\nA disease that deals [(342.4% of Attack Power) * [(Attack Power * 0.98)][((Attack Power + Offhand Attack Power) * 2 / 3)] -- 2H, DW / Attack Power] Frost damage over 24 sec and has a chance to grant the Death Knight 4 Runic Power each time it deals damage.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "1 Rune / -10 Runic Power\n30 yd range\nInstant\nBlast the target with a frigid wind, dealing [(37.2259% of Attack Power) * [(Attack Power * 0.98)][((Attack Power + Offhand Attack Power) * 2 / 3)] -- 2H, DW / Attack Power] [\nNorthrend Winds\n:\nFrost damage and applying Frost Fever to the target\n/ Frost damage to that foe, and reduced damage to all other enemies within 10 yards, infecting all targets with Frost Fever.]\nFrost Fever\nA disease that deals [(342.4% of Attack Power) * [(Attack Power * 0.98)][((Attack Power + Offhand Attack Power) * 2 / 3)] -- 2H, DW / Attack Power] Frost damage over 24 sec and has a chance to grant the Death Knight 4 Runic Power each time it deals damage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 92,
+          "end": 99,
+          "old_token": "50.6819",
+          "new_token": "37.2259",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "50.6819",
+          "new": "37.2259"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -3586,12 +3684,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 49184,
           "effect_index": 1,
           "effect_text": "School Damage (Frost) (AP mod: 0.506819 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 0.65,
           "amount_kind": "direct",
           "aura_factor": 1.13,
           "final_pvp_multiplier": 0.7344999999999999,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -3608,7 +3706,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -3619,12 +3718,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 55095,
           "effect_index": 1,
           "effect_text": "Apply Aura: Periodic Damage (127)",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 0.575,
           "amount_kind": "periodic",
           "aura_factor": 1.13,
           "final_pvp_multiplier": 0.6497499999999999,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             49184,
@@ -3646,12 +3745,13 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Killing Machine",
@@ -3754,11 +3854,32 @@ window.WOW_PVP_DATA = {
         "icon": "inv_sword_62"
       },
       "pve_tooltip": "30 yd range\nInstant\n30 sec recharge\n2 Charges\nDrain the will of your enemy to empower your rune weapon, dealing (260% of Attack Power) Shadowfrost damage and reduced damage to enemies nearby, gaining 40 Runic Power, and grants you Killing Machine.",
-      "pvp_tooltip": "30 yd range\nInstant\n30 sec recharge\n2 Charges\nDrain the will of your enemy to empower your rune weapon, dealing (260% of Attack Power) Shadowfrost damage and reduced damage to enemies nearby, gaining 40 Runic Power, and grants you Killing Machine.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "30 yd range\nInstant\n30 sec recharge\n2 Charges\nDrain the will of your enemy to empower your rune weapon, dealing (200.2% of Attack Power) Shadowfrost damage and reduced damage to enemies nearby, gaining 40 Runic Power, and grants you Killing Machine.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 113,
+          "end": 116,
+          "old_token": "260",
+          "new_token": "200.2",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "260",
+          "new": "200.2"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -3768,24 +3889,25 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 47568,
           "effect_index": 2,
           "effect_text": "School Damage (Frost, Shadow) (AP mod: 2.6 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 0.77,
           "amount_kind": "direct",
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.77,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Frostscythe",
@@ -3832,11 +3954,32 @@ window.WOW_PVP_DATA = {
         "icon": "inv12_ability_deathknight_frostscythe"
       },
       "pve_tooltip": "2 Runes\n8 yd range\nInstant\nA sweeping attack that strikes all enemies in front of you for (48% of Attack Power) Frost damage. Deals reduced damage beyond 5 targets.\nConsumes Killing Machine to have its critical strikes deal 4 times the normal damage.",
-      "pvp_tooltip": "2 Runes\n8 yd range\nInstant\nA sweeping attack that strikes all enemies in front of you for (48% of Attack Power) Frost damage. Deals reduced damage beyond 5 targets.\nConsumes Killing Machine to have its critical strikes deal 4 times the normal damage.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "2 Runes\n8 yd range\nInstant\nA sweeping attack that strikes all enemies in front of you for (67.8% of Attack Power) Frost damage. Deals reduced damage beyond 5 targets.\nConsumes Killing Machine to have its critical strikes deal 4 times the normal damage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 91,
+          "end": 93,
+          "old_token": "48",
+          "new_token": "67.8",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "48",
+          "new": "67.8"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -3846,12 +3989,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 207230,
           "effect_index": 2,
           "effect_text": "School Damage (Frost) (AP mod: 0.48 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.25,
           "amount_kind": "direct",
           "aura_factor": 1.13,
           "final_pvp_multiplier": 1.4124999999999999,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -3868,12 +4011,13 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Arctic Assault",
@@ -4193,11 +4337,32 @@ window.WOW_PVP_DATA = {
         "icon": "achievement_dungeon_icecrown_frostmourne"
       },
       "pve_tooltip": "Gain Inexorable Assault every 4 sec, stacking up to 5 times.\n[\nFrostscythe\n:\nObliterate and Frostscythe consume\n/ Obliterate consumes] up to 3 stacks, dealing an additional (26.322% of Attack Power) Frost damage for each stack consumed.",
-      "pvp_tooltip": "Gain Inexorable Assault every 4 sec, stacking up to 5 times.\n[\nFrostscythe\n:\nObliterate and Frostscythe consume\n/ Obliterate consumes] up to 3 stacks, dealing an additional (26.322% of Attack Power) Frost damage for each stack consumed.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Gain Inexorable Assault every 4 sec, stacking up to 5 times.\n[\nFrostscythe\n:\nObliterate and Frostscythe consume\n/ Obliterate consumes] up to 3 stacks, dealing an additional (29.7439% of Attack Power) Frost damage for each stack consumed.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 174,
+          "end": 180,
+          "old_token": "26.322",
+          "new_token": "29.7439",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "26.322",
+          "new": "29.7439"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4206,13 +4371,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 253593,
           "source_spell_id": 253597,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (AP mod: 0.26322 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): frost | Attributes: Suppress Points Stacking (6) (AP mod: 0.26322)",
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 1.13,
           "final_pvp_multiplier": 1.13,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             253593,
@@ -4233,12 +4398,13 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Frostreaper",
@@ -4286,11 +4452,32 @@ window.WOW_PVP_DATA = {
         "icon": "inv_axe_1h_pvpdraenors2_d_02"
       },
       "pve_tooltip": "Approximately\n5\nprocs per minute\nObliterate deals 10% increased damage and has a chance to tether the souls of its target and a nearby enemy to yours.\nFrost Strike severs the tethers, dealing (205.92% of Attack Power) Shadowfrost damage to both foes.\n(700ms cooldown)",
-      "pvp_tooltip": "Approximately\n5\nprocs per minute\nObliterate deals 10% increased damage and has a chance to tether the souls of its target and a nearby enemy to yours.\nFrost Strike severs the tethers, dealing (205.92% of Attack Power) Shadowfrost damage to both foes.\n(700ms cooldown)",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Approximately\n5\nprocs per minute\nObliterate deals 10% increased damage and has a chance to tether the souls of its target and a nearby enemy to yours.\nFrost Strike severs the tethers, dealing (232.6896% of Attack Power) Shadowfrost damage to both foes.\n(700ms cooldown)",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 193,
+          "end": 199,
+          "old_token": "205.92",
+          "new_token": "232.6896",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "205.92",
+          "new": "232.6896"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4299,13 +4486,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1230301,
           "source_spell_id": 1233619,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost, Shadow) (AP mod: 2.0592 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): shadowfrost (AP mod: 2.0592)",
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 1.13,
           "final_pvp_multiplier": 1.13,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             1230301,
@@ -4326,12 +4513,13 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Pillar of Frost",
@@ -4388,7 +4576,7 @@ window.WOW_PVP_DATA = {
           "end": 72,
           "old_token": "20",
           "new_token": "12",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -4410,7 +4598,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "20",
           "new": "12"
         }
@@ -4436,7 +4624,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -4459,7 +4648,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4575,7 +4765,7 @@ window.WOW_PVP_DATA = {
           "end": 68,
           "old_token": "10",
           "new_token": "5",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -4587,7 +4777,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "10",
           "new": "5"
         }
@@ -4600,7 +4790,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 194912,
           "source_spell_id": 211805,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
           "base_value": 10.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -4617,7 +4807,7 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -4849,6 +5039,16 @@ window.WOW_PVP_DATA = {
           "old": 4.0,
           "new": 2.0,
           "match_count": 3
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 12.646199999999999,
+          "new": 20.434994579999994,
+          "full_tooltip_match_count": 0
         }
       ],
       "has_pvp_mechanics": true,
@@ -4872,7 +5072,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -4883,12 +5084,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 196771,
           "effect_index": 1,
           "effect_text": "School Damage (Frost) (AP mod: 0.126462 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.43,
           "amount_kind": "direct",
           "aura_factor": 1.13,
           "final_pvp_multiplier": 1.6158999999999997,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             377226,
@@ -4912,12 +5113,13 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 2
     },
     {
       "talent_name": "Frigid Executioner",
@@ -5020,11 +5222,32 @@ window.WOW_PVP_DATA = {
         "icon": "inv_10_specialization_blacksmithing_blades_color2"
       },
       "pve_tooltip": "Rime empowered Howling Blast unleashes 2 icy blades at its target that deal (25.2% of Attack Power) Frost damage and have 15% chance to grant Killing Machine.",
-      "pvp_tooltip": "Rime empowered Howling Blast unleashes 2 icy blades at its target that deal (25.2% of Attack Power) Frost damage and have 15% chance to grant Killing Machine.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Rime empowered Howling Blast unleashes 2 icy blades at its target that deal (28.476% of Attack Power) Frost damage and have 15% chance to grant Killing Machine.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 77,
+          "end": 81,
+          "old_token": "25.2",
+          "new_token": "28.476",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "25.2",
+          "new": "28.476"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -5033,13 +5256,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1230223,
           "source_spell_id": 1231083,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (AP mod: 0.252 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): frost (AP mod: 0.252)",
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 1.13,
           "final_pvp_multiplier": 1.13,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             1230223,
@@ -5060,12 +5283,13 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Cryogenic Chamber",
@@ -5169,11 +5393,32 @@ window.WOW_PVP_DATA = {
         "icon": "achievement_boss_sindragosa"
       },
       "pve_tooltip": "Instant\n1.5 min cooldown\nSummons a frostwyrm who breathes on all enemies within 40 yd in front of you, dealing (296.6% of Attack Power) Frost damage, stunning enemies for 3 sec, and slowing movement speed by 50% for 10 sec.",
-      "pvp_tooltip": "Instant\n1.5 min cooldown\nSummons a frostwyrm who breathes on all enemies within 40 yd in front of you, dealing (296.6% of Attack Power) Frost damage, stunning enemies for 3 sec, and slowing movement speed by 50% for 10 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Instant\n1.5 min cooldown\nSummons a frostwyrm who breathes on all enemies within 40 yd in front of you, dealing (111.7192% of Attack Power) Frost damage, stunning enemies for 3 sec, and slowing movement speed by 50% for 10 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 112,
+          "end": 117,
+          "old_token": "296.6",
+          "new_token": "111.7192",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "296.6",
+          "new": "111.7192"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -5182,13 +5427,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 279302,
           "source_spell_id": 279303,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (AP mod: 2.966 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): frost (AP mod: 2.966)",
+          "base_value": null,
           "spell_pvp_multiplier": 0.333333,
           "amount_kind": "direct",
           "aura_factor": 1.13,
           "final_pvp_multiplier": 0.37666628999999996,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             279302,
@@ -5209,13 +5454,13 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Everfrost",
@@ -5310,7 +5555,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -5417,20 +5663,30 @@ window.WOW_PVP_DATA = {
         "icon": "ability_deathknight_bonegrinder"
       },
       "pve_tooltip": "Consuming Killing Machine grants 1% critical strike chance for 10 sec, stacking up to 5 times. At 5 stacks your next Killing Machine consumes the stacks and grants you 10% increased Frost damage for 10 sec.\n(700ms cooldown)",
-      "pvp_tooltip": "Consuming Killing Machine grants 1% critical strike chance for 10 sec, stacking up to 5 times. At 5 stacks your next Killing Machine consumes the stacks and grants you 10% increased Frost damage for 10 sec.\n(700ms cooldown)",
-      "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
-      "changes": [],
+      "pvp_tooltip": "Consuming Killing Machine grants 1% critical strike chance for 10 sec, stacking up to 5 times. At 5 stacks your next Killing Machine consumes the stacks and grants you 5% increased Frost damage for 10 sec.\n(700ms cooldown)",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 168,
+          "end": 170,
+          "old_token": "10",
+          "new_token": "5",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "AMBIGUOUS_TEXT_MATCH",
-          "kind": "ordinary_value",
-          "old": 10.0,
-          "new": 5.0,
-          "match_count": 3
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "10",
+          "new": "5"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5454,7 +5710,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -5562,11 +5819,32 @@ window.WOW_PVP_DATA = {
         "icon": "spell_frost_icestorm"
       },
       "pve_tooltip": "Casting Howling Blast with Rime active causes jagged icicles to fall on enemies nearby your target, applying Razorice and dealing (22.47% of Attack Power) Frost damage.",
-      "pvp_tooltip": "Casting Howling Blast with Rime active causes jagged icicles to fall on enemies nearby your target, applying Razorice and dealing (22.47% of Attack Power) Frost damage.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Casting Howling Blast with Rime active causes jagged icicles to fall on enemies nearby your target, applying Razorice and dealing (25.3911% of Attack Power) Frost damage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 131,
+          "end": 136,
+          "old_token": "22.47",
+          "new_token": "25.3911",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "22.47",
+          "new": "25.3911"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -5576,12 +5854,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 207150,
           "effect_index": 1,
           "effect_text": "School Damage (Frost) (AP mod: 0.2247 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 1.13,
           "final_pvp_multiplier": 1.13,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             207142,
@@ -5607,7 +5885,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Icebreaker",
@@ -5762,11 +6040,32 @@ window.WOW_PVP_DATA = {
         "icon": "ability_argus_soulburst"
       },
       "pve_tooltip": "Your auto attack critical strikes have a chance to send out a torrent of ice dealing (140.026% of Attack Power) Frost damage to enemies in front of you.",
-      "pvp_tooltip": "Your auto attack critical strikes have a chance to send out a torrent of ice dealing (140.026% of Attack Power) Frost damage to enemies in front of you.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Your auto attack critical strikes have a chance to send out a torrent of ice dealing (122.5228% of Attack Power) Frost damage to enemies in front of you.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 86,
+          "end": 93,
+          "old_token": "140.026",
+          "new_token": "122.5228",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "140.026",
+          "new": "122.5228"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -5775,13 +6074,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 435010,
           "source_spell_id": 439539,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (AP mod: 1.40026 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): frost | Attributes: Area Effects Use Target Radius (17) (AP mod: 1.40026)",
+          "base_value": null,
           "spell_pvp_multiplier": 0.875,
           "amount_kind": "direct",
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.875,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             435010,
@@ -5792,13 +6091,13 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Shattering Blade",
@@ -5854,7 +6153,7 @@ window.WOW_PVP_DATA = {
           "end": 107,
           "old_token": "115",
           "new_token": "28.75",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -5876,7 +6175,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "115",
           "new": "28.75"
         },
@@ -5910,7 +6209,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -5932,7 +6232,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         }
@@ -6149,13 +6450,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 455993,
           "source_spell_id": 1228443,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (AP mod: 0.719863 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): frost (AP mod: 0.719863)",
+          "base_value": null,
           "spell_pvp_multiplier": 1.42857,
           "amount_kind": "direct",
           "aura_factor": 0.9830999999999999,
           "final_pvp_multiplier": 1.4044271669999997,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             455993,
@@ -6187,7 +6488,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -6251,12 +6552,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 155166,
           "effect_index": 2,
           "effect_text": "School Damage (Frost) (AP mod: 1.1183 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 0.833,
           "amount_kind": "direct",
           "aura_factor": 1.13,
           "final_pvp_multiplier": 0.9412899999999998,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             1249658,
@@ -6278,7 +6579,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -6477,11 +6779,71 @@ window.WOW_PVP_DATA = {
         "icon": "inv_ability_deathbringerdeathknight_reapersmark"
       },
       "pve_tooltip": "2 Runes\nMelee Range\nInstant\n45 sec cooldown\nViciously slice into the soul of your enemy, dealing (234% of Attack Power) Shadowfrost damage and applying Reaper's Mark.\nEach time you deal Shadow or Frost damage, add a stack of Reaper's Mark. After 12 sec or reaching 40 stacks, the mark explodes, dealing (30.364% of Attack Power) damage per stack.\nReaper's Mark travels to an unmarked enemy nearby if the target dies.",
-      "pvp_tooltip": "2 Runes\nMelee Range\nInstant\n45 sec cooldown\nViciously slice into the soul of your enemy, dealing (234% of Attack Power) Shadowfrost damage and applying Reaper's Mark.\nEach time you deal Shadow or Frost damage, add a stack of Reaper's Mark. After 12 sec or reaching 40 stacks, the mark explodes, dealing (30.364% of Attack Power) damage per stack.\nReaper's Mark travels to an unmarked enemy nearby if the target dies.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "2 Runes\nMelee Range\nInstant\n45 sec cooldown\nViciously slice into the soul of your enemy, dealing (211.536% of Attack Power) Shadowfrost damage and applying Reaper's Mark.\nEach time you deal Shadow or Frost damage, add a stack of Reaper's Mark. After 12 sec or reaching 40 stacks, the mark explodes, dealing (19.0314% of Attack Power) damage per stack.\nReaper's Mark travels to an unmarked enemy nearby if the target dies.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 98,
+          "end": 101,
+          "old_token": "234",
+          "new_token": "211.536",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            4
+          ]
+        },
+        {
+          "start": 304,
+          "end": 310,
+          "old_token": "30.364",
+          "new_token": "19.0314",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "attack_power_coefficient",
+          "old": 442.26,
+          "new": 499.75379999999996,
+          "full_tooltip_match_count": 1
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "attack_power_coefficient",
+          "old": 45.348,
+          "new": 28.439998199999998,
+          "full_tooltip_match_count": 1
+        },
+        {
+          "effect_indexes": [
+            4
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "234",
+          "new": "211.536"
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "30.364",
+          "new": "19.0314"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6491,12 +6853,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 439843,
           "effect_index": 1,
           "effect_text": "School Damage (Frost, Shadow) (AP mod: 4.4226 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 1.13,
           "final_pvp_multiplier": 1.13,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -6523,12 +6885,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 439843,
           "effect_index": 4,
           "effect_text": "School Damage (Frost, Shadow) (AP mod: 2.34 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 0.8,
           "amount_kind": "direct",
           "aura_factor": 1.13,
           "final_pvp_multiplier": 0.9039999999999999,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -6545,7 +6907,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -6555,13 +6918,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 439843,
           "source_spell_id": 436304,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost, Shadow) (AP mod: 0.45348 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): shadowfrost (AP mod: 0.45348)",
+          "base_value": null,
           "spell_pvp_multiplier": 0.555,
           "amount_kind": "direct",
           "aura_factor": 1.13,
           "final_pvp_multiplier": 0.62715,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             439843,
@@ -6582,9 +6945,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc"
           ],
-          "confidence": "ambiguous"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -6592,13 +6955,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 439843,
           "source_spell_id": 436304,
           "effect_index": 2,
-          "effect_text": "School Damage (Frost, Shadow) (AP mod: 0.30364 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): shadowfrost (AP mod: 0.30364)",
+          "base_value": null,
           "spell_pvp_multiplier": 0.554667,
           "amount_kind": "direct",
           "aura_factor": 1.13,
           "final_pvp_multiplier": 0.6267737099999999,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             439843,
@@ -6619,12 +6982,12 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc"
           ],
-          "confidence": "ambiguous"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 4
     },
     {
       "talent_name": "Wave of Souls",
@@ -6670,11 +7033,42 @@ window.WOW_PVP_DATA = {
         "icon": "spell_animamaw_wave"
       },
       "pve_tooltip": "Reaper's Mark sends forth bursts of Shadowfrost energy and back, dealing (96.7079% of Attack Power) Shadowfrost damage both ways to all enemies caught in its path.\nWave of Souls critical strikes cause enemies to take 5% increased Shadowfrost damage for 15 sec, stacking up to 2 times, and it is always a critical strike on its way back.",
-      "pvp_tooltip": "Reaper's Mark sends forth bursts of Shadowfrost energy and back, dealing (96.7079% of Attack Power) Shadowfrost damage both ways to all enemies caught in its path.\nWave of Souls critical strikes cause enemies to take 5% increased Shadowfrost damage for 15 sec, stacking up to 2 times, and it is always a critical strike on its way back.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Reaper's Mark sends forth bursts of Shadowfrost energy and back, dealing (168.2911% of Attack Power) Shadowfrost damage both ways to all enemies caught in its path.\nWave of Souls critical strikes cause enemies to take 5% increased Shadowfrost damage for 15 sec, stacking up to 2 times, and it is always a critical strike on its way back.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 74,
+          "end": 81,
+          "old_token": "96.7079",
+          "new_token": "168.2911",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "attack_power_coefficient",
+          "old": 211.92000000000002,
+          "new": 368.783184,
+          "full_tooltip_match_count": 1
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "96.7079",
+          "new": "168.2911"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6683,13 +7077,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 439851,
           "source_spell_id": 435802,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost, Shadow) (AP mod: 2.1192 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): shadowfrost (AP mod: 2.1192)",
+          "base_value": null,
           "spell_pvp_multiplier": 1.54,
           "amount_kind": "direct",
           "aura_factor": 1.13,
           "final_pvp_multiplier": 1.7402,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             439851,
@@ -6710,9 +7104,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc"
           ],
-          "confidence": "ambiguous"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -6720,13 +7114,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 439851,
           "source_spell_id": 435802,
           "effect_index": 2,
-          "effect_text": "School Damage (Frost, Shadow) (AP mod: 0.967079 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): shadowfrost (AP mod: 0.967079)",
+          "base_value": null,
           "spell_pvp_multiplier": 1.54,
           "amount_kind": "direct",
           "aura_factor": 1.13,
           "final_pvp_multiplier": 1.7402,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             439851,
@@ -6747,12 +7141,12 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc"
           ],
-          "confidence": "ambiguous"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 2
     },
     {
       "talent_name": "Wither Away",
@@ -6818,7 +7212,7 @@ window.WOW_PVP_DATA = {
             4
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
+          "kind": "duration_seconds",
           "old": 43.0,
           "new": 49.99997,
           "full_tooltip_match_count": 0
@@ -6832,6 +7226,16 @@ window.WOW_PVP_DATA = {
           "old": 75.0,
           "new": 99.99974999999999,
           "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            7
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "ordinary_value",
+          "old": 100.0,
+          "new": 0.0,
+          "full_tooltip_match_count": 1
         }
       ],
       "has_pvp_mechanics": true,
@@ -6855,7 +7259,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -6878,7 +7283,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -6901,12 +7307,36 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DIRECT",
+          "dependency_kind": null,
+          "talent_spell_id": 441894,
+          "source_spell_id": 441894,
+          "effect_index": 7,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 100.0,
+          "spell_pvp_multiplier": 0.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.0,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [],
+          "dependency_relations": [],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 4
     },
     {
       "talent_name": "Bind in Darkness",
@@ -7173,7 +7603,7 @@ window.WOW_PVP_DATA = {
           "end": 45,
           "old_token": "25",
           "new_token": "15",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -7185,7 +7615,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "25",
           "new": "15"
         }
@@ -7211,7 +7641,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -7273,7 +7704,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 15.0,
           "new": 7.5,
           "full_tooltip_match_count": 0
@@ -7287,7 +7718,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 440282,
           "source_spell_id": 440289,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Mod % Damage Taken (Physical)",
+          "effect_text": "Apply Aura (6) | Modify Damage Taken% (87)",
           "base_value": -15.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -7304,7 +7735,7 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -7315,7 +7746,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 440282,
           "source_spell_id": 440290,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Mod % Damage Taken (All)",
+          "effect_text": "Apply Aura (6) | Modify Damage Taken% (87)",
           "base_value": -15.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -7332,7 +7763,7 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -7683,7 +8114,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 439948,
           "source_spell_id": 440739,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Mod Casting Speed %",
+          "effect_text": "Apply Aura (6) | Modify Spell Haste% (355)",
           "base_value": -10.0,
           "spell_pvp_multiplier": 0.4,
           "amount_kind": null,
@@ -7700,7 +8131,7 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -7806,11 +8237,71 @@ window.WOW_PVP_DATA = {
         "icon": "inv_polearm_2h_titanargus_d_01"
       },
       "pve_tooltip": "After Reaper's Mark explodes, your next 2\nObliterates\nor Frostscythes cost 1 Rune and summon 2 scythes to strike your enemies.\nThe first scythe strikes your target for (440.205% of Attack Power) Shadowfrost damage and has a 100% chance to grant Killing Machine, the second scythe strikes all enemies around your target for (178.008% of Attack Power) Shadowfrost damage\n[and applies Frost Fever]. Deals reduced damage beyond 8 targets.\n(1s cooldown)",
-      "pvp_tooltip": "After Reaper's Mark explodes, your next 2\nObliterates\nor Frostscythes cost 1 Rune and summon 2 scythes to strike your enemies.\nThe first scythe strikes your target for (440.205% of Attack Power) Shadowfrost damage and has a 100% chance to grant Killing Machine, the second scythe strikes all enemies around your target for (178.008% of Attack Power) Shadowfrost damage\n[and applies Frost Fever]. Deals reduced damage beyond 8 targets.\n(1s cooldown)",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "After Reaper's Mark explodes, your next 2\nObliterates\nor Frostscythes cost 1 Rune and summon 2 scythes to strike your enemies.\nThe first scythe strikes your target for (422.8169% of Attack Power) Shadowfrost damage and has a 100% chance to grant Killing Machine, the second scythe strikes all enemies around your target for (170.9767% of Attack Power) Shadowfrost damage\n[and applies Frost Fever]. Deals reduced damage beyond 8 targets.\n(1s cooldown)",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 169,
+          "end": 176,
+          "old_token": "440.205",
+          "new_token": "422.8169",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        },
+        {
+          "start": 324,
+          "end": 331,
+          "old_token": "178.008",
+          "new_token": "170.9767",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "attack_power_coefficient",
+          "old": 1030.25,
+          "new": 814.92775,
+          "full_tooltip_match_count": 1
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "attack_power_coefficient",
+          "old": 469.20000000000005,
+          "new": 371.1372,
+          "full_tooltip_match_count": 1
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "440.205",
+          "new": "422.8169"
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "178.008",
+          "new": "170.9767"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7819,13 +8310,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 441378,
           "source_spell_id": 441424,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost, Shadow) (AP mod: 10.3025 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): shadowfrost (AP mod: 10.3025)",
+          "base_value": null,
           "spell_pvp_multiplier": 0.7,
           "amount_kind": "direct",
           "aura_factor": 1.13,
           "final_pvp_multiplier": 0.7909999999999999,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             441378,
@@ -7846,7 +8337,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -7857,13 +8348,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 441378,
           "source_spell_id": 441424,
           "effect_index": 2,
-          "effect_text": "School Damage (Frost, Shadow) (AP mod: 4.40205 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): shadowfrost (AP mod: 4.40205)",
+          "base_value": null,
           "spell_pvp_multiplier": 0.85,
           "amount_kind": "direct",
           "aura_factor": 1.13,
           "final_pvp_multiplier": 0.9604999999999999,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             441378,
@@ -7884,7 +8375,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -7895,13 +8386,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 441378,
           "source_spell_id": 441426,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost, Shadow) (AP mod: 4.692 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): shadowfrost (AP mod: 4.692)",
+          "base_value": null,
           "spell_pvp_multiplier": 0.7,
           "amount_kind": "direct",
           "aura_factor": 1.13,
           "final_pvp_multiplier": 0.7909999999999999,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             441378,
@@ -7922,7 +8413,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -7933,13 +8424,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 441378,
           "source_spell_id": 441426,
           "effect_index": 2,
-          "effect_text": "School Damage (Frost, Shadow) (AP mod: 1.78008 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): shadowfrost (AP mod: 1.78008)",
+          "base_value": null,
           "spell_pvp_multiplier": 0.85,
           "amount_kind": "direct",
           "aura_factor": 1.13,
           "final_pvp_multiplier": 0.9604999999999999,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             441378,
@@ -7960,13 +8451,13 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 4
     },
     {
       "talent_name": "Rider's Champion",
@@ -8013,10 +8504,20 @@ window.WOW_PVP_DATA = {
         "icon": "achievement_zone_icecrown_01"
       },
       "pve_tooltip": "Spending Runes has a chance to call forth the aid of a Horsemen for 10 sec.\nMograine\nCasts Death and Decay at his location that follows his position and extends the duration of your diseases by 1.0 sec whenever it deals damage.\nWhitemane\nCasts Undeath on your target dealing (6.86532% of Attack Power) Shadowfrost damage per stack every 3 sec, for 24 sec. Each time Undeath deals damage it gains a stack. Cannot be refreshed.\nTrollbane\nCasts Chains of Ice on your target slowing their movement speed by 40% and increasing the damage they take from you by 5% for 8 sec.\nNazgrim\nWhile Nazgrim is active you gain Apocalyptic Conquest, increasing your Strength by 5%.",
-      "pvp_tooltip": "Spending Runes has a chance to call forth the aid of a Horsemen for 10 sec.\nMograine\nCasts Death and Decay at his location that follows his position and extends the duration of your diseases by 1.0 sec whenever it deals damage.\nWhitemane\nCasts Undeath on your target dealing (6.86532% of Attack Power) Shadowfrost damage per stack every 3 sec, for 24 sec. Each time Undeath deals damage it gains a stack. Cannot be refreshed.\nTrollbane\nCasts Chains of Ice on your target slowing their movement speed by 20% and increasing the damage they take from you by 5% for 8 sec.\nNazgrim\nWhile Nazgrim is active you gain Apocalyptic Conquest, increasing your Strength by 5%.",
+      "pvp_tooltip": "Spending Runes has a chance to call forth the aid of a Horsemen for 10 sec.\nMograine\nCasts Death and Decay at his location that follows his position and extends the duration of your diseases by 1.0 sec whenever it deals damage.\nWhitemane\nCasts Undeath on your target dealing (7.7578% of Attack Power) Shadowfrost damage per stack every 3 sec, for 24 sec. Each time Undeath deals damage it gains a stack. Cannot be refreshed.\nTrollbane\nCasts Chains of Ice on your target slowing their movement speed by 20% and increasing the damage they take from you by 5% for 8 sec.\nNazgrim\nWhile Nazgrim is active you gain Apocalyptic Conquest, increasing your Strength by 5%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
+        {
+          "start": 276,
+          "end": 283,
+          "old_token": "6.86532",
+          "new_token": "7.7578",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
         {
           "start": 503,
           "end": 505,
@@ -8029,6 +8530,25 @@ window.WOW_PVP_DATA = {
         }
       ],
       "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 105.3,
+          "new": 118.98899999999999,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "6.86532",
+          "new": "7.7578"
+        },
         {
           "effect_indexes": [
             1
@@ -8047,13 +8567,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 444005,
           "source_spell_id": 444633,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "effect_text": "Apply Aura (6) | Periodic Damage (3): shadowfrost every 3 seconds (AP mod: 0.068653)",
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
           "aura_factor": 1.13,
           "final_pvp_multiplier": 1.13,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             444005,
@@ -8074,9 +8594,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8084,7 +8605,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 444005,
           "source_spell_id": 444834,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -40.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -8101,7 +8622,7 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -8112,13 +8633,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 444005,
           "source_spell_id": 444834,
           "effect_index": 2,
-          "effect_text": "School Damage (Frost, Shadow) (AP mod: 1.053 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): shadowfrost (AP mod: 1.053)",
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 1.13,
           "final_pvp_multiplier": 1.13,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             444005,
@@ -8139,12 +8660,13 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 3
     },
     {
       "talent_name": "On a Paler Horse",
@@ -8267,7 +8789,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 444010,
           "source_spell_id": 444347,
           "effect_index": 5,
-          "effect_text": "Apply Aura: Increase Run Speed %",
+          "effect_text": "Apply Aura (6) | Increase Speed% (31)",
           "base_value": 100.0,
           "spell_pvp_multiplier": 0.8,
           "amount_kind": null,
@@ -8284,7 +8806,7 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -8394,8 +8916,36 @@ window.WOW_PVP_DATA = {
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 444074,
+          "source_spell_id": 451777,
+          "effect_index": 1,
+          "effect_text": "Apply Aura (6) | Dummy (4)",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.0,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            444074,
+            451777
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "simc"
+          ],
+          "confidence": "medium"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -8495,7 +9045,7 @@ window.WOW_PVP_DATA = {
         "icon": "achievement_boss_fourhorsemen"
       },
       "pve_tooltip": "Pillar of Frost summons forth Trollbane for 6 sec.",
-      "pvp_tooltip": "Pillar of Frost summons forth Trollbane for 4 sec.",
+      "pvp_tooltip": "Pillar of Frost summons forth Trollbane for 3.96 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -8503,8 +9053,8 @@ window.WOW_PVP_DATA = {
           "start": 44,
           "end": 45,
           "old_token": "6",
-          "new_token": "4",
-          "kind": "ordinary_value",
+          "new_token": "3.96",
+          "kind": "duration_seconds",
           "effect_indexes": [
             1,
             2
@@ -8518,9 +9068,9 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "duration_seconds",
           "old": "6",
-          "new": "4"
+          "new": "3.96"
         }
       ],
       "has_pvp_mechanics": true,
@@ -8543,7 +9093,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -8565,7 +9116,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         }
@@ -8722,7 +9274,7 @@ window.WOW_PVP_DATA = {
         "icon": "ability_warrior_shatteringthrow"
       },
       "pve_tooltip": "Obliterate and Frostscythe shatter Trollbane's Chains of Ice when hit, dealing (105.3% of Attack Power) Shadowfrost damage to nearby enemies, and slowing them by 40% for 4 sec. Deals reduced damage beyond 8 targets.",
-      "pvp_tooltip": "Obliterate and Frostscythe shatter Trollbane's Chains of Ice when hit, dealing (105.3% of Attack Power) Shadowfrost damage to nearby enemies, and slowing them by 20% for 4 sec. Deals reduced damage beyond 8 targets.",
+      "pvp_tooltip": "Obliterate and Frostscythe shatter Trollbane's Chains of Ice when hit, dealing (118.989% of Attack Power) Shadowfrost damage to nearby enemies, and slowing them by 20% for 4 sec. Deals reduced damage beyond 8 targets.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -8735,9 +9287,28 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ]
+        },
+        {
+          "start": 80,
+          "end": 85,
+          "old_token": "105.3",
+          "new_token": "118.989",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
         }
       ],
       "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "105.3",
+          "new": "118.989"
+        },
         {
           "effect_indexes": [
             1
@@ -8756,7 +9327,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 444097,
           "source_spell_id": 444834,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -40.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -8773,7 +9344,7 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
+            "simc",
             "drustvar"
           ],
           "confidence": "high"
@@ -8784,13 +9355,13 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 444097,
           "source_spell_id": 444834,
           "effect_index": 2,
-          "effect_text": "School Damage (Frost, Shadow) (AP mod: 1.053 )",
-          "base_value": 0.0,
+          "effect_text": "School Damage (2): shadowfrost (AP mod: 1.053)",
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 1.13,
           "final_pvp_multiplier": 1.13,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             444097,
@@ -8811,12 +9382,13 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 2
     },
     {
       "talent_name": "Let Terror Reign",
@@ -8871,7 +9443,7 @@ window.WOW_PVP_DATA = {
           "end": 109,
           "old_token": "100",
           "new_token": "33",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -8883,7 +9455,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "OTHER_SPEC_BRANCH",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 125.0,
           "new": 41.25,
           "full_tooltip_match_count": 1
@@ -8893,7 +9465,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "100",
           "new": "33"
         }
@@ -8918,7 +9490,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -8940,7 +9513,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         }
@@ -9269,11 +9843,11 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "death-knight-frost",
-  "generated_at": "2026-09-19T14:33:03.804645+00:00",
+  "generated_at": "2026-09-19T15:20:46.801123+00:00",
   "validation": {
     "talents": 121,
-    "changed_tooltips": 16,
-    "talents_with_pvp_mechanics": 39,
+    "changed_tooltips": 29,
+    "talents_with_pvp_mechanics": 41,
     "unique_nodes": 111,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
@@ -9281,10 +9855,49 @@ window.WOW_PVP_DATA = {
       "12.1.0.69587"
     ],
     "verification_status": "PARTIAL",
-    "fetch_error_count": 0,
-    "unresolved_count": 1,
-    "review_required_count": 3,
-    "fetch_error_examples": [],
+    "fetch_error_count": 2,
+    "source_warning_count": 29,
+    "unresolved_count": 5,
+    "review_required_count": 2,
+    "fetch_error_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 435802,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=435802'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 436304,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=436304'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 211805,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=211805'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 222024,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=222024'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 222026,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=222026'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 253597,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=253597'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 279303,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=279303'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [
       {
         "spell_id": 441894,
@@ -9293,17 +9906,88 @@ window.WOW_PVP_DATA = {
         "reason": "UNMATCHED_DRUSTVAR_EFFECT",
         "multiplier": 0.0,
         "effect_text": "Apply Aura (6) | Dummy (4)"
+      },
+      {
+        "spell_id": 436304,
+        "talent_name": "Reaper's Mark",
+        "side": "drustvar",
+        "reason": "NO_WOWHEAD_EFFECTS",
+        "multiplier": 0.55,
+        "effect_text": "School Damage (2): shadowfrost",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 439843,
+        "source_spell_id": 436304,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          439843,
+          436304
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref"
+        ]
+      },
+      {
+        "spell_id": 436304,
+        "talent_name": "Reaper's Mark",
+        "side": "drustvar",
+        "reason": "NO_WOWHEAD_EFFECTS",
+        "multiplier": 0.55,
+        "effect_text": "School Damage (2): shadowfrost",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 439843,
+        "source_spell_id": 436304,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          439843,
+          436304
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref"
+        ]
+      },
+      {
+        "spell_id": 435802,
+        "talent_name": "Wave of Souls",
+        "side": "drustvar",
+        "reason": "NO_WOWHEAD_EFFECTS",
+        "multiplier": 1.54,
+        "effect_text": "School Damage (2): shadowfrost",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 439851,
+        "source_spell_id": 435802,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          439851,
+          435802
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref"
+        ]
+      },
+      {
+        "spell_id": 435802,
+        "talent_name": "Wave of Souls",
+        "side": "drustvar",
+        "reason": "NO_WOWHEAD_EFFECTS",
+        "multiplier": 1.54,
+        "effect_text": "School Damage (2): shadowfrost",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 439851,
+        "source_spell_id": 435802,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          439851,
+          435802
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref"
+        ]
       }
     ],
     "review_required_examples": [
       {
         "talent_name": "Frozen Dominion",
         "spell_id": 377226,
-        "status": "REVIEW_REQUIRED"
-      },
-      {
-        "talent_name": "Bonegrinder",
-        "spell_id": 377098,
         "status": "REVIEW_REQUIRED"
       },
       {

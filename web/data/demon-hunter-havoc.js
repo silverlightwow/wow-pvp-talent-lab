@@ -81,7 +81,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -92,12 +93,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 198813,
           "effect_index": 2,
           "effect_text": "School Damage (Physical) (AP mod: 0.16 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 0.96,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             198793,
@@ -168,11 +169,32 @@ window.WOW_PVP_DATA = {
         "icon": "ability_demonhunter_felblade"
       },
       "pve_tooltip": "15 yd range\nInstant\n12 sec cooldown\nCharge to your target and deal (122.94% of Attack Power)%\nFire\ndamage.\n[\nFracture\n:\nGenerates 15 Fury.\n] [\nDemonic Wards\n:\nGenerates 15 Fury.\n]\nGenerates 15 Fury.",
-      "pvp_tooltip": "15 yd range\nInstant\n12 sec cooldown\nCharge to your target and deal (122.94% of Attack Power)%\nFire\ndamage.\n[\nFracture\n:\nGenerates 15 Fury.\n] [\nDemonic Wards\n:\nGenerates 15 Fury.\n]\nGenerates 15 Fury.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "15 yd range\nInstant\n12 sec cooldown\nCharge to your target and deal (141.6269% of Attack Power)%\nFire\ndamage.\n[\nFracture\n:\nGenerates 15 Fury.\n] [\nDemonic Wards\n:\nGenerates 15 Fury.\n]\nGenerates 15 Fury.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 68,
+          "end": 74,
+          "old_token": "122.94",
+          "new_token": "141.6269",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "122.94",
+          "new": "141.6269"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -182,12 +204,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 213243,
           "effect_index": 2,
           "effect_text": "School Damage (Fire) (AP mod: 1.2294 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.2,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 1.152,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             232893,
@@ -209,12 +231,13 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Sigil of Misery",
@@ -321,7 +344,7 @@ window.WOW_PVP_DATA = {
           "end": 71,
           "old_token": "70",
           "new_token": "50",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -330,10 +353,20 @@ window.WOW_PVP_DATA = {
       "diagnostics": [
         {
           "effect_indexes": [
+            2
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 16.0,
+          "new": 15.36,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "70",
           "new": "50"
         }
@@ -364,7 +397,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -375,12 +409,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 198813,
           "effect_index": 2,
           "effect_text": "School Damage (Physical) (AP mod: 0.16 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 0.96,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             320635,
@@ -406,7 +440,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 2
     },
     {
       "talent_name": "Unrestrained Fury",
@@ -781,11 +815,32 @@ window.WOW_PVP_DATA = {
         "icon": "spell_fire_felfirenova"
       },
       "pve_tooltip": "25 Fury\nInstant\n45 sec cooldown\nUnleash an eruption of fel energy, dealing (27.4816% of Attack Power) Chaos damage and stunning all nearby enemies for 3 sec. [\nChaos Fragments\n:\nEach enemy stunned by Chaos Nova has a 30% chance to generate a Lesser Soul Fragment\n]",
-      "pvp_tooltip": "25 Fury\nInstant\n45 sec cooldown\nUnleash an eruption of fel energy, dealing (27.4816% of Attack Power) Chaos damage and stunning all nearby enemies for 3 sec. [\nChaos Fragments\n:\nEach enemy stunned by Chaos Nova has a 30% chance to generate a Lesser Soul Fragment\n]",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "25 Fury\nInstant\n45 sec cooldown\nUnleash an eruption of fel energy, dealing (26.3823% of Attack Power) Chaos damage and stunning all nearby enemies for 3 sec. [\nChaos Fragments\n:\nEach enemy stunned by Chaos Nova has a 30% chance to generate a Lesser Soul Fragment\n]",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 76,
+          "end": 83,
+          "old_token": "27.4816",
+          "new_token": "26.3823",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "27.4816",
+          "new": "26.3823"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -795,12 +850,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 179057,
           "effect_index": 2,
           "effect_text": "School Damage (Fire, Nature, Frost, Shadow, Arcane) (AP mod: 0.274816 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 0.96,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -821,7 +876,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Improved Disrupt",
@@ -1070,7 +1125,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -1154,7 +1210,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -1595,7 +1652,7 @@ window.WOW_PVP_DATA = {
           "end": 20,
           "old_token": "6",
           "new_token": "5",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1,
             2
@@ -1606,7 +1663,7 @@ window.WOW_PVP_DATA = {
           "end": 43,
           "old_token": "6",
           "new_token": "5",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1,
             2
@@ -1620,7 +1677,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "6",
           "new": "5"
         },
@@ -1630,7 +1687,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "6",
           "new": "5"
         }
@@ -1656,7 +1713,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -1679,7 +1737,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -1785,11 +1844,32 @@ window.WOW_PVP_DATA = {
         "icon": "ability_demonhunter_immolation"
       },
       "pve_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer [(12% of Attack Power)]\nFire\ndamage.",
-      "pvp_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer [(12% of Attack Power)]\nFire\ndamage.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer [(11.52% of Attack Power)]\nFire\ndamage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 83,
+          "end": 85,
+          "old_token": "12",
+          "new_token": "11.52",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "12",
+          "new": "11.52"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -1799,12 +1879,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 320334,
           "effect_index": 1,
           "effect_text": "School Damage (Fire) (AP mod: 0.12 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 0.96,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             320331,
@@ -1830,7 +1910,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Burn It Out",
@@ -2047,7 +2127,7 @@ window.WOW_PVP_DATA = {
           "end": 31,
           "old_token": "3",
           "new_token": "2",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -2059,7 +2139,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "3",
           "new": "2"
         }
@@ -2085,7 +2165,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2204,7 +2285,7 @@ window.WOW_PVP_DATA = {
           "end": 29,
           "old_token": "3",
           "new_token": "1.8",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -2216,7 +2297,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "3",
           "new": "1.8"
         }
@@ -2242,7 +2323,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2666,7 +2748,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2746,7 +2829,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3053,11 +3137,51 @@ window.WOW_PVP_DATA = {
         "icon": "ability_demonhunter_eyebeam"
       },
       "pve_tooltip": "30 Fury\n20 yd range\nChanneled (2 sec cast)\n30 sec cooldown\nBlasts all enemies in front of you, [\nLooks Can Kill\n:\ndealing guaranteed critical strikes\n] for up to {?a320415[{\n[(40.26% of Attack Power) * 10 * 2]\n][{\n[(40.26% of Attack Power) * 10]\n] Chaos damage over 2 sec. Deals reduced damage beyond 5 targets. [\nFurious Gaze\n:\nWhen Eye Beam finishes fully channeling, your Haste is increased by an additional 8% for 8 sec\n]",
-      "pvp_tooltip": "30 Fury\n20 yd range\nChanneled (2 sec cast)\n30 sec cooldown\nBlasts all enemies in front of you, [\nLooks Can Kill\n:\ndealing guaranteed critical strikes\n] for up to {?a320415[{\n[(40.26% of Attack Power) * 10 * 2]\n][{\n[(40.26% of Attack Power) * 10]\n] Chaos damage over 2 sec. Deals reduced damage beyond 5 targets. [\nFurious Gaze\n:\nWhen Eye Beam finishes fully channeling, your Haste is increased by an additional 8% for 8 sec\n]",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "30 Fury\n20 yd range\nChanneled (2 sec cast)\n30 sec cooldown\nBlasts all enemies in front of you, [\nLooks Can Kill\n:\ndealing guaranteed critical strikes\n] for up to {?a320415[{\n[(38.6496% of Attack Power) * 10 * 2]\n][{\n[(38.6496% of Attack Power) * 10]\n] Chaos damage over 2 sec. Deals reduced damage beyond 5 targets. [\nFurious Gaze\n:\nWhen Eye Beam finishes fully channeling, your Haste is increased by an additional 8% for 8 sec\n]",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 176,
+          "end": 181,
+          "old_token": "40.26",
+          "new_token": "38.6496",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 216,
+          "end": 221,
+          "old_token": "40.26",
+          "new_token": "38.6496",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "40.26",
+          "new": "38.6496"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "40.26",
+          "new": "38.6496"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -3067,12 +3191,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 198030,
           "effect_index": 1,
           "effect_text": "School Damage (Fire, Nature, Frost, Shadow, Arcane) (AP mod: 0.4026 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 0.96,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             198013,
@@ -3098,7 +3222,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Critical Chaos",
@@ -3150,7 +3274,28 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 115.67,
+          "new": 122.14752000000001,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 73.6,
+          "new": 77.7216,
+          "full_tooltip_match_count": 0
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -3160,12 +3305,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 199547,
           "effect_index": 1,
           "effect_text": "School Damage (Physical, Holy, Fire, Nature, Frost, Shadow, Arcane) (AP mod: 1.1567 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.1,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 1.056,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             320413,
@@ -3191,7 +3336,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -3202,12 +3348,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 222031,
           "effect_index": 1,
           "effect_text": "School Damage (Physical, Holy, Fire, Nature, Frost, Shadow, Arcane) (AP mod: 0.736 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.1,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 1.056,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             320413,
@@ -3233,12 +3379,13 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 2
     },
     {
       "talent_name": "Burning Hatred",
@@ -3290,7 +3437,28 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 12.466000000000001,
+          "new": 16.3952832,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 33.4,
+          "new": 43.92768,
+          "full_tooltip_match_count": 0
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -3300,12 +3468,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 258922,
           "effect_index": 1,
           "effect_text": "School Damage (Fire) (AP mod: 0.12466 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 1.3152000000000001,
           "final_pvp_multiplier": 1.3152000000000001,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             320374,
@@ -3346,12 +3514,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 258921,
           "effect_index": 1,
           "effect_text": "School Damage (Fire) (AP mod: 0.334 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 1.3152000000000001,
           "final_pvp_multiplier": 1.3152000000000001,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             320374,
@@ -3388,7 +3556,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 2
     },
     {
       "talent_name": "Never Say Die",
@@ -3657,7 +3825,7 @@ window.WOW_PVP_DATA = {
           "end": 70,
           "old_token": "5",
           "new_token": "3",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2
           ]
@@ -3669,7 +3837,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "5",
           "new": "3"
         }
@@ -3695,7 +3863,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3787,7 +3956,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3930,7 +4100,38 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 328725,
+          "source_spell_id": 115804,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Mod Healing Taken - % (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)",
+          "base_value": -50.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": -25.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            328725,
+            356608,
+            115804
+          ],
+          "dependency_relations": [
+            "trigger_spell",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4044,7 +4245,7 @@ window.WOW_PVP_DATA = {
           "end": 26,
           "old_token": "4",
           "new_token": "2",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -4056,7 +4257,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "4",
           "new": "2"
         }
@@ -4082,7 +4283,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4257,12 +4459,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 258883,
           "effect_index": 1,
           "effect_text": "School Damage (Fire, Nature, Frost, Shadow, Arcane) (AP mod: 0.72 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 0.96,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             258881,
@@ -4671,7 +4873,7 @@ window.WOW_PVP_DATA = {
           "end": 106,
           "old_token": "12",
           "new_token": "8",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1,
             2,
@@ -4687,7 +4889,7 @@ window.WOW_PVP_DATA = {
             3
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "12",
           "new": "8"
         }
@@ -4718,7 +4920,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -4746,7 +4949,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -4774,7 +4978,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4863,7 +5068,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4918,11 +5124,32 @@ window.WOW_PVP_DATA = {
         "icon": "inv_ability_demonhunter_thehunt"
       },
       "pve_tooltip": "50 yd range\n1 sec cast\n1.5 min cooldown\nCharge to your target, striking them for (744.24% of Attack Power) Chaos damage, rooting them in place for 1.5 sec and inflicting (480.6% of Attack Power) Chaos damage over 6 sec to up to 5 enemies in your path.",
-      "pvp_tooltip": "50 yd range\n1 sec cast\n1.5 min cooldown\nCharge to your target, striking them for (744.24% of Attack Power) Chaos damage, rooting them in place for 1.5 sec and inflicting (480.6% of Attack Power) Chaos damage over 6 sec to up to 5 enemies in your path.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "50 yd range\n1 sec cast\n1.5 min cooldown\nCharge to your target, striking them for (744.24% of Attack Power) Chaos damage, rooting them in place for 1.5 sec and inflicting (461.376% of Attack Power) Chaos damage over 6 sec to up to 5 enemies in your path.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 171,
+          "end": 176,
+          "old_token": "480.6",
+          "new_token": "461.376",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "480.6",
+          "new": "461.376"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4932,12 +5159,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 370966,
           "effect_index": 1,
           "effect_text": "School Damage (Fire, Nature, Frost, Shadow, Arcane) (AP mod: 7.4424 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 0.85,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 0.816,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             370965,
@@ -4959,7 +5186,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -4970,12 +5198,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 370969,
           "effect_index": 1,
           "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 0.96,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             370965,
@@ -5028,12 +5256,13 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Serrated Glaive",
@@ -5148,12 +5377,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 391191,
           "effect_index": 1,
           "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 0.96,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             391189,
@@ -5284,7 +5513,28 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 115.67,
+          "new": 122.14752000000001,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 73.6,
+          "new": 77.7216,
+          "full_tooltip_match_count": 0
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -5294,12 +5544,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 199547,
           "effect_index": 1,
           "effect_text": "School Damage (Physical, Holy, Fire, Nature, Frost, Shadow, Arcane) (AP mod: 1.1567 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.1,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 1.056,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             389687,
@@ -5327,7 +5577,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -5338,12 +5589,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 222031,
           "effect_index": 1,
           "effect_text": "School Damage (Physical, Holy, Fire, Nature, Frost, Shadow, Arcane) (AP mod: 0.736 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.1,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 1.056,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             389687,
@@ -5371,12 +5622,13 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 2
     },
     {
       "talent_name": "Inner Demon",
@@ -5424,11 +5676,32 @@ window.WOW_PVP_DATA = {
         "icon": "ability_demonhunter_glide"
       },
       "pve_tooltip": "Entering demon form causes your next Chaos Strike to unleash your inner demon, causing it to crash into your target and deal (213% of Attack Power) Chaos damage to all nearby enemies. Deals reduced damage beyond 5 targets.\n(5s cooldown)",
-      "pvp_tooltip": "Entering demon form causes your next Chaos Strike to unleash your inner demon, causing it to crash into your target and deal (213% of Attack Power) Chaos damage to all nearby enemies. Deals reduced damage beyond 5 targets.\n(5s cooldown)",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Entering demon form causes your next Chaos Strike to unleash your inner demon, causing it to crash into your target and deal (204.48% of Attack Power) Chaos damage to all nearby enemies. Deals reduced damage beyond 5 targets.\n(5s cooldown)",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 126,
+          "end": 129,
+          "old_token": "213",
+          "new_token": "204.48",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "213",
+          "new": "204.48"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -5438,12 +5711,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 390137,
           "effect_index": 1,
           "effect_text": "School Damage (Physical, Holy, Fire, Nature, Frost, Shadow, Arcane) (AP mod: 2.13 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 0.96,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             389693,
@@ -5469,7 +5742,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Chaotic Transformation",
@@ -5856,7 +6129,7 @@ window.WOW_PVP_DATA = {
           "end": 58,
           "old_token": "17",
           "new_token": "4",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             3
           ]
@@ -5878,7 +6151,7 @@ window.WOW_PVP_DATA = {
             3
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "17",
           "new": "4"
         }
@@ -5904,7 +6177,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -5927,7 +6201,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -5976,11 +6251,51 @@ window.WOW_PVP_DATA = {
         "icon": "spell_shadow_ritualofsacrifice"
       },
       "pve_tooltip": "10 yd range\nInstant\n40 sec cooldown\nSlash all enemies in front of you for (462% of Attack Power) Chaos damage, causing Chaos Strike and Blade Dance to deal (257.4% of Attack Power) Chaos damage to them for 4 sec. Deals reduced damage beyond 8 targets.",
-      "pvp_tooltip": "10 yd range\nInstant\n40 sec cooldown\nSlash all enemies in front of you for (462% of Attack Power) Chaos damage, causing Chaos Strike and Blade Dance to deal (257.4% of Attack Power) Chaos damage to them for 4 sec. Deals reduced damage beyond 8 targets.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "10 yd range\nInstant\n40 sec cooldown\nSlash all enemies in front of you for (443.52% of Attack Power) Chaos damage, causing Chaos Strike and Blade Dance to deal (247.104% of Attack Power) Chaos damage to them for 4 sec. Deals reduced damage beyond 8 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 75,
+          "end": 78,
+          "old_token": "462",
+          "new_token": "443.52",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 157,
+          "end": 162,
+          "old_token": "257.4",
+          "new_token": "247.104",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "462",
+          "new": "443.52"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "257.4",
+          "new": "247.104"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -5990,12 +6305,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 258860,
           "effect_index": 1,
           "effect_text": "School Damage (Physical, Holy, Fire, Nature, Frost, Shadow, Arcane) (AP mod: 4.62 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 0.96,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -6022,12 +6337,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 1245759,
           "effect_index": 1,
           "effect_text": "School Damage (Physical, Holy, Fire, Nature, Frost, Shadow, Arcane) (AP mod: 2.574 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 0.96,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             258860,
@@ -6053,7 +6368,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 2
     },
     {
       "talent_name": "Glaive Tempest",
@@ -6098,11 +6413,32 @@ window.WOW_PVP_DATA = {
         "icon": "inv_glaive_1h_artifactazgalor_d_06dual"
       },
       "pve_tooltip": "The final slash of Blade Dance consumes 25 Fury when it strikes 3 or more enemies, launching two demonic glaives in a whirlwind of energy, causing [14 * (13.2% of Attack Power)] Chaos damage over 3 sec to all nearby enemies. Deals reduced damage beyond 8 targets.",
-      "pvp_tooltip": "The final slash of Blade Dance consumes 25 Fury when it strikes 3 or more enemies, launching two demonic glaives in a whirlwind of energy, causing [14 * (13.2% of Attack Power)] Chaos damage over 3 sec to all nearby enemies. Deals reduced damage beyond 8 targets.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "The final slash of Blade Dance consumes 25 Fury when it strikes 3 or more enemies, launching two demonic glaives in a whirlwind of energy, causing [14 * (12.672% of Attack Power)] Chaos damage over 3 sec to all nearby enemies. Deals reduced damage beyond 8 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 154,
+          "end": 158,
+          "old_token": "13.2",
+          "new_token": "12.672",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "13.2",
+          "new": "12.672"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6112,12 +6448,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 342857,
           "effect_index": 1,
           "effect_text": "School Damage (Physical, Holy, Fire, Nature, Frost, Shadow, Arcane) (AP mod: 0.132 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 0.96,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             1244557,
@@ -6143,7 +6479,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Shattered Destiny",
@@ -6242,7 +6578,38 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "attack_power_coefficient",
+          "old": 26.200000000000003,
+          "new": 25.152,
+          "full_tooltip_match_count": 1
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 40.26,
+          "new": 38.6496,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 41.099999999999994,
+          "new": 39.455999999999996,
+          "full_tooltip_match_count": 0
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6252,12 +6619,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 393834,
           "effect_index": 1,
           "effect_text": "School Damage (Fire) (AP mod: 0.262 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 0.96,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             390152,
@@ -6289,12 +6656,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 198030,
           "effect_index": 1,
           "effect_text": "School Damage (Fire, Nature, Frost, Shadow, Arcane) (AP mod: 0.4026 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 0.96,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             390152,
@@ -6328,12 +6695,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 212105,
           "effect_index": 1,
           "effect_text": "School Damage (Fire) (AP mod: 0.411 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 0.96,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             390152,
@@ -6363,7 +6730,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 3
     },
     {
       "talent_name": "Screaming Brutality",
@@ -6674,12 +7041,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 442294,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 3.85 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 0.96,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             442290,
@@ -6778,12 +7145,32 @@ window.WOW_PVP_DATA = {
       "diagnostics": [
         {
           "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 124.0,
+          "new": 119.03999999999999,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
             4
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
           "kind": "ordinary_value",
           "old": 100.0,
           "new": 33.0,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 385.0,
+          "new": 369.59999999999997,
           "full_tooltip_match_count": 0
         },
         {
@@ -6805,12 +7192,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 444806,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 1.24 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 0.96,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             442718,
@@ -6868,7 +7255,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -6896,7 +7284,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -6907,12 +7296,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 442294,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 3.85 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 0.96,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             442718,
@@ -6951,7 +7340,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 4
     },
     {
       "talent_name": "Evasive Action",
@@ -7430,7 +7819,7 @@ window.WOW_PVP_DATA = {
           "end": 41,
           "old_token": "20",
           "new_token": "6.6",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -7442,7 +7831,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "20",
           "new": "6.6"
         }
@@ -7468,7 +7857,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -7639,12 +8029,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 444979,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 0.2 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 0.96,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             444997,
@@ -7735,6 +8125,16 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 124.0,
+          "new": 119.03999999999999,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
           "kind": "ordinary_value",
           "old": 6.0,
           "new": 3.0,
@@ -7749,6 +8149,16 @@ window.WOW_PVP_DATA = {
           "old": 100.0,
           "new": 33.0,
           "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 385.0,
+          "new": 369.59999999999997,
+          "full_tooltip_match_count": 0
         }
       ],
       "has_pvp_mechanics": true,
@@ -7760,12 +8170,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 444806,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 1.24 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 0.96,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             1272153,
@@ -7827,7 +8237,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -7857,7 +8268,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -7868,12 +8280,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 442294,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 3.85 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 0.96,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             1272153,
@@ -7914,7 +8326,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 4
     },
     {
       "talent_name": "Warblade's Hunger",
@@ -7960,11 +8372,32 @@ window.WOW_PVP_DATA = {
         "icon": "ability_warlock_soulsiphon"
       },
       "pve_tooltip": "Consuming a Soul Fragment causes your next Chaos Strike to deal (62% of Attack Power) additional Physical damage.\nFelblade consumes up to 5 nearby Soul Fragments.",
-      "pvp_tooltip": "Consuming a Soul Fragment causes your next Chaos Strike to deal (62% of Attack Power) additional Physical damage.\nFelblade consumes up to 5 nearby Soul Fragments.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Consuming a Soul Fragment causes your next Chaos Strike to deal (59.52% of Attack Power) additional Physical damage.\nFelblade consumes up to 5 nearby Soul Fragments.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 65,
+          "end": 67,
+          "old_token": "62",
+          "new_token": "59.52",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "62",
+          "new": "59.52"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7974,12 +8407,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 442507,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 0.62 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 0.96,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             442502,
@@ -8014,7 +8447,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Thrill of the Fight",
@@ -8115,10 +8548,21 @@ window.WOW_PVP_DATA = {
         "icon": "inv_ability_felscarreddemonhunter_demonsurge"
       },
       "pve_tooltip": "Metamorphosis now also causes Demon Blades to generate 3 additional Fury.\nWhile demon form is active, the first cast of each empowered ability induces a Demonsurge, causing you to explode with Fel energy, dealing (280% of Attack Power) Chaos damage to nearby enemies. Deals reduced damage beyond 8 targets.",
-      "pvp_tooltip": "Metamorphosis now also causes Demon Blades to generate 3 additional Fury.\nWhile demon form is active, the first cast of each empowered ability induces a Demonsurge, causing you to explode with Fel energy, dealing (280% of Attack Power) Chaos damage to nearby enemies. Deals reduced damage beyond 8 targets.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pvp_tooltip": "Metamorphosis now also causes Demon Blades to generate 3 additional Fury.\nWhile demon form is active, the first cast of each empowered ability induces a Demonsurge, causing you to explode with Fel energy, dealing (215.04% of Attack Power) Chaos damage to nearby enemies. Deals reduced damage beyond 8 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 214,
+          "end": 217,
+          "old_token": "280",
+          "new_token": "215.04",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
@@ -8132,13 +8576,32 @@ window.WOW_PVP_DATA = {
         },
         {
           "effect_indexes": [
+            2
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 44.0,
+          "new": 42.239999999999995,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
             1
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 70.0,
           "new": 50.00002,
           "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "280",
+          "new": "215.04"
         }
       ],
       "has_pvp_mechanics": true,
@@ -8150,12 +8613,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 452416,
           "effect_index": 1,
           "effect_text": "School Damage (Holy, Fire, Nature, Frost, Shadow, Arcane) (AP mod: 2.8 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 0.8,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 0.768,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             452402,
@@ -8177,7 +8640,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -8205,7 +8669,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -8216,12 +8681,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 200166,
           "effect_index": 2,
           "effect_text": "School Damage (Fire, Nature, Frost, Shadow, Arcane) (AP mod: 0.44 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 0.96,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             452402,
@@ -8278,12 +8743,13 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 4
     },
     {
       "talent_name": "Wave of Debilitation",
@@ -8338,7 +8804,7 @@ window.WOW_PVP_DATA = {
           "end": 30,
           "old_token": "60",
           "new_token": "40",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -8348,7 +8814,7 @@ window.WOW_PVP_DATA = {
           "end": 71,
           "old_token": "15",
           "new_token": "6",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             3
           ]
@@ -8360,7 +8826,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "60",
           "new": "40"
         },
@@ -8369,7 +8835,7 @@ window.WOW_PVP_DATA = {
             3
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "15",
           "new": "6"
         }
@@ -8400,7 +8866,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -8428,7 +8895,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -8541,7 +9009,7 @@ window.WOW_PVP_DATA = {
           "end": 19,
           "old_token": "50",
           "new_token": "10",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -8563,7 +9031,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "50",
           "new": "10"
         },
@@ -8597,7 +9065,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -8619,7 +9088,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         }
@@ -9195,7 +9665,7 @@ window.WOW_PVP_DATA = {
             5
           ],
           "status": "OTHER_SPEC_BRANCH",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 125.0,
           "new": 50.0,
           "full_tooltip_match_count": 1
@@ -9222,7 +9692,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -9390,6 +9861,16 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 280.0,
+          "new": 215.04,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
           "kind": "spell_power_coefficient",
           "old": 625.0,
           "new": 400.0,
@@ -9405,12 +9886,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 452416,
           "effect_index": 1,
           "effect_text": "School Damage (Holy, Fire, Nature, Frost, Shadow, Arcane) (AP mod: 2.8 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 0.8,
           "amount_kind": "direct",
           "aura_factor": 0.96,
           "final_pvp_multiplier": 0.768,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             452415,
@@ -9432,7 +9913,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -9460,20 +9942,21 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 2
     }
   ],
   "fetch_errors": [],
   "slug": "demon-hunter-havoc",
-  "generated_at": "2026-09-19T14:34:16.201373+00:00",
+  "generated_at": "2026-09-19T15:21:40.299159+00:00",
   "validation": {
     "talents": 125,
-    "changed_tooltips": 13,
+    "changed_tooltips": 23,
     "talents_with_pvp_mechanics": 42,
     "unique_nodes": 109,
     "tree_build": "12.1.0.69875",
@@ -9483,9 +9966,11 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "PARTIAL",
     "fetch_error_count": 0,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 1,
     "fetch_error_examples": [],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": [
       {

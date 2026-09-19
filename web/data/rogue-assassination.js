@@ -50,17 +50,28 @@ window.WOW_PVP_DATA = {
         "icon": "inv_throwingknife_04"
       },
       "pve_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [\nImproved Shiv\n:\npoisoned blades\n/ off-hand], dealing (125.4% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your\nactive Non-Lethal poison.\nAwards\n1\ncombo points.",
-      "pvp_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [\nImproved Shiv\n:\npoisoned blades\n/ off-hand], dealing (125.4% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your\nactive Non-Lethal poison.\nAwards\n1\ncombo points.",
-      "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
-      "changes": [],
+      "pvp_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [\nImproved Shiv\n:\npoisoned blades\n/ off-hand], dealing (135.432% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your\nactive Non-Lethal poison.\nAwards\n1\ncombo points.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 128,
+          "end": 133,
+          "old_token": "125.4",
+          "new_token": "135.432",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 70.0,
           "new": 50.00002,
           "full_tooltip_match_count": 0
@@ -71,20 +82,39 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 25.0,
           "new": 12.0,
           "full_tooltip_match_count": 0
         },
         {
           "effect_indexes": [
+            2
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "attack_power_coefficient",
+          "old": 53.0,
+          "new": 57.24,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
             1
           ],
-          "status": "AMBIGUOUS_TEXT_MATCH",
-          "kind": "ordinary_value",
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "percent_value",
           "old": 30.0,
           "new": 20.00001,
-          "match_count": 2
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "125.4",
+          "new": "135.432"
         }
       ],
       "has_pvp_mechanics": true,
@@ -96,12 +126,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 5938,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 1.254 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 1.08,
           "final_pvp_multiplier": 1.08,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -145,7 +175,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -173,7 +204,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -201,7 +233,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -212,12 +245,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 245388,
           "effect_index": 2,
           "effect_text": "School Damage (Nature) (AP mod: 0.53 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 1.08,
           "final_pvp_multiplier": 1.08,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             5938,
@@ -272,12 +305,13 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 4
+      "render_effect_count": 6
     },
     {
       "talent_name": "Blind",
@@ -598,7 +632,7 @@ window.WOW_PVP_DATA = {
           "end": 34,
           "old_token": "70",
           "new_token": "35",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             2
           ]
@@ -610,7 +644,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "70",
           "new": "35"
         }
@@ -636,7 +670,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -811,12 +846,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 383414,
           "effect_index": 1,
           "effect_text": "School Damage (Nature) (AP mod: 0.0814 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 1.08,
           "final_pvp_multiplier": 1.08,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             378436,
@@ -1390,7 +1425,7 @@ window.WOW_PVP_DATA = {
           "end": 59,
           "old_token": "10",
           "new_token": "5",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -1402,7 +1437,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "10",
           "new": "5"
         }
@@ -1428,7 +1463,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -1837,7 +1873,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -1865,7 +1902,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2420,7 +2458,7 @@ window.WOW_PVP_DATA = {
           "end": 63,
           "old_token": "3.0",
           "new_token": "1.5",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -2432,7 +2470,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "3.0",
           "new": "1.5"
         }
@@ -2726,7 +2764,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3087,14 +3126,73 @@ window.WOW_PVP_DATA = {
         "icon": "inv_ability_rogue_echoingreprimand"
       },
       "pve_tooltip": "After consuming a supercharged combo point, your next Mutilate also strikes the target with an Echoing Reprimand dealing (118% of Attack Power) Physical damage.",
-      "pvp_tooltip": "After consuming a supercharged combo point, your next Mutilate also strikes the target with an Echoing Reprimand dealing (118% of Attack Power) Physical damage.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "After consuming a supercharged combo point, your next Mutilate also strikes the target with an Echoing Reprimand dealing (127.44% of Attack Power) Physical damage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 122,
+          "end": 125,
+          "old_token": "118",
+          "new_token": "127.44",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "118",
+          "new": "127.44"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 470669,
+          "source_spell_id": 470672,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 1.18 )",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.08,
+          "final_pvp_multiplier": 1.08,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            470669,
+            470672
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256950,
+              "game_effect_id": 1264714,
+              "amount_kind": "direct",
+              "value_pct": 8.0,
+              "factor": 1.08,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Forced Induction",
@@ -3293,11 +3391,32 @@ window.WOW_PVP_DATA = {
         "icon": "ability_rogue_dualweild"
       },
       "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Lethal Poison that lasts for 1 hour. Each strike has a 30% chance to poison the enemy for [(11.374% of Attack Power) * 12 / 2] Nature damage over 12 sec. Subsequent poison applications will instantly deal (8.14% of Attack Power) Nature damage.\n(Proc chance: 30%)",
-      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Lethal Poison that lasts for 1 hour. Each strike has a 30% chance to poison the enemy for [(11.374% of Attack Power) * 12 / 2] Nature damage over 12 sec. Subsequent poison applications will instantly deal (8.14% of Attack Power) Nature damage.\n(Proc chance: 30%)",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Lethal Poison that lasts for 1 hour. Each strike has a 30% chance to poison the enemy for [(11.374% of Attack Power) * 12 / 2] Nature damage over 12 sec. Subsequent poison applications will instantly deal (8.7912% of Attack Power) Nature damage.\n(Proc chance: 30%)",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 245,
+          "end": 249,
+          "old_token": "8.14",
+          "new_token": "8.7912",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "8.14",
+          "new": "8.7912"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -3307,12 +3426,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 2818,
           "effect_index": 1,
           "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
           "aura_factor": 1.08,
           "final_pvp_multiplier": 1.08,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             2823,
@@ -3344,12 +3463,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 113780,
           "effect_index": 1,
           "effect_text": "School Damage (Nature) (AP mod: 0.0814 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 1.08,
           "final_pvp_multiplier": 1.08,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             2823,
@@ -3375,7 +3494,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Motivated Murderer",
@@ -3582,11 +3701,32 @@ window.WOW_PVP_DATA = {
         "icon": "inv12_ability_rogue_crimsontempest"
       },
       "pve_tooltip": "60 Energy\nInstant\nSlash all enemies within 10 yds dealing (110% of Attack Power) damage. Deals reduced damage beyond 5 targets.\nCopy the longest Garrote and Rupture on the enemies you hit onto up to 2 other enemies.\nAwards 1 combo point.",
-      "pvp_tooltip": "60 Energy\nInstant\nSlash all enemies within 10 yds dealing (110% of Attack Power) damage. Deals reduced damage beyond 5 targets.\nCopy the longest Garrote and Rupture on the enemies you hit onto up to 2 other enemies.\nAwards 1 combo point.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "60 Energy\nInstant\nSlash all enemies within 10 yds dealing (118.8% of Attack Power) damage. Deals reduced damage beyond 5 targets.\nCopy the longest Garrote and Rupture on the enemies you hit onto up to 2 other enemies.\nAwards 1 combo point.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 59,
+          "end": 62,
+          "old_token": "110",
+          "new_token": "118.8",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "110",
+          "new": "118.8"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -3596,12 +3736,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 1247227,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 1.1 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 1.08,
           "final_pvp_multiplier": 1.08,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -3622,7 +3762,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Canny Strikes",
@@ -3725,11 +3865,32 @@ window.WOW_PVP_DATA = {
         "icon": "ability_rogue_bloodsplatter"
       },
       "pve_tooltip": "Kidney Shot and Rupture also apply Internal Bleeding, dealing up to [5 * (43.02% of Attack Power)] Bleed damage over 6 sec, based on combo points spent.",
-      "pvp_tooltip": "Kidney Shot and Rupture also apply Internal Bleeding, dealing up to [5 * (43.02% of Attack Power)] Bleed damage over 6 sec, based on combo points spent.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Kidney Shot and Rupture also apply Internal Bleeding, dealing up to [5 * (46.4616% of Attack Power)] Bleed damage over 6 sec, based on combo points spent.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 74,
+          "end": 79,
+          "old_token": "43.02",
+          "new_token": "46.4616",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "43.02",
+          "new": "46.4616"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -3739,12 +3900,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 381628,
           "effect_index": 1,
           "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
           "aura_factor": 1.08,
           "final_pvp_multiplier": 1.08,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             381627,
@@ -3770,7 +3931,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Improved Garrote",
@@ -3818,41 +3979,49 @@ window.WOW_PVP_DATA = {
         "icon": "ability_rogue_garrote"
       },
       "pve_tooltip": "Garrote deals 50% increased damage and has no cooldown when used from Stealth and for 6 sec after breaking Stealth.",
-      "pvp_tooltip": "Garrote deals 50% increased damage and has no cooldown when used from Stealth and for 6 sec after breaking Stealth.",
-      "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
-      "changes": [],
+      "pvp_tooltip": "Garrote deals 30% increased damage and has no cooldown when used from Stealth and for 6 sec after breaking Stealth.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 14,
+          "end": 16,
+          "old_token": "50",
+          "new_token": "20",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 14,
+          "end": 16,
+          "old_token": "50",
+          "new_token": "30",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
       "diagnostics": [
         {
-          "effect_index": null,
-          "status": "CONFLICTING_TRANSFORMS",
-          "reason": "PvE value 50.0 maps to multiple PvP values",
-          "candidates": [
-            {
-              "kind": "ordinary_value",
-              "old": 50.0,
-              "new": 20.0,
-              "unit": null,
-              "effect_index": 1,
-              "match_ordinal": 1,
-              "match_group_count": 1,
-              "effect_indexes": [
-                1
-              ]
-            },
-            {
-              "kind": "ordinary_value",
-              "old": 50.0,
-              "new": 30.0,
-              "unit": null,
-              "effect_index": 2,
-              "match_ordinal": 1,
-              "match_group_count": 1,
-              "effect_indexes": [
-                2
-              ]
-            }
-          ]
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "50",
+          "new": "20"
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "50",
+          "new": "30"
         }
       ],
       "has_pvp_mechanics": true,
@@ -3876,7 +4045,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -3904,7 +4074,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4231,11 +4402,32 @@ window.WOW_PVP_DATA = {
         "icon": "ability_rogue_deathmark"
       },
       "pve_tooltip": "Melee Range\nInstant\n2 min cooldown\nCarve a deathmark into an enemy, dealing (320% of Attack Power) Bleed damage and restoring\n80\nEnergy to you over\n16 sec\n. Damage dealt to the target by your Garrote, Rupture, and Lethal Poisons is increased by 75%.\nEach time you apply a Lethal Poison to the target, apply it twice.",
-      "pvp_tooltip": "Melee Range\nInstant\n2 min cooldown\nCarve a deathmark into an enemy, dealing (320% of Attack Power) Bleed damage and restoring\n80\nEnergy to you over\n16 sec\n. Damage dealt to the target by your Garrote, Rupture, and Lethal Poisons is increased by 75%.\nEach time you apply a Lethal Poison to the target, apply it twice.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Melee Range\nInstant\n2 min cooldown\nCarve a deathmark into an enemy, dealing (345.6% of Attack Power) Bleed damage and restoring\n80\nEnergy to you over\n16 sec\n. Damage dealt to the target by your Garrote, Rupture, and Lethal Poisons is increased by 75%.\nEach time you apply a Lethal Poison to the target, apply it twice.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 77,
+          "end": 80,
+          "old_token": "320",
+          "new_token": "345.6",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "320",
+          "new": "345.6"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4245,12 +4437,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 360194,
           "effect_index": 1,
           "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
           "aura_factor": 1.08,
           "final_pvp_multiplier": 1.08,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -4271,7 +4463,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Caustic Spatter",
@@ -4480,20 +4672,30 @@ window.WOW_PVP_DATA = {
         "icon": "inv_jewelcrafting_delicatecopperwire"
       },
       "pve_tooltip": "Garrotes applied from stealth or during the Improved Garrote window silence their target for 5 sec.\nEnemies silenced by Garrote deal 15% reduced damage for 5 sec.",
-      "pvp_tooltip": "Garrotes applied from stealth or during the Improved Garrote window silence their target for 5 sec.\nEnemies silenced by Garrote deal 15% reduced damage for 5 sec.",
-      "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
-      "changes": [],
+      "pvp_tooltip": "Garrotes applied from stealth or during the Improved Garrote window silence their target for 3 sec.\nEnemies silenced by Garrote deal 15% reduced damage for 5 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 93,
+          "end": 94,
+          "old_token": "5",
+          "new_token": "3",
+          "kind": "duration_seconds",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             2
           ],
-          "status": "AMBIGUOUS_TEXT_MATCH",
-          "kind": "ordinary_value",
-          "old": 5.0,
-          "new": 3.0,
-          "match_count": 2
+          "status": "APPLIED",
+          "kind": "duration_seconds",
+          "old": "5",
+          "new": "3"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4517,7 +4719,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4837,14 +5040,73 @@ window.WOW_PVP_DATA = {
         "icon": "ability_poisons"
       },
       "pve_tooltip": "When you apply a Weapon Poison with a single-target attack, you have a 50% chance to strike a nearby enemy for (15% of Attack Power) Physical damage and apply the same Weapon Poison to them.",
-      "pvp_tooltip": "When you apply a Weapon Poison with a single-target attack, you have a 50% chance to strike a nearby enemy for (15% of Attack Power) Physical damage and apply the same Weapon Poison to them.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "When you apply a Weapon Poison with a single-target attack, you have a 50% chance to strike a nearby enemy for (16.2% of Attack Power) Physical damage and apply the same Weapon Poison to them.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 112,
+          "end": 114,
+          "old_token": "15",
+          "new_token": "16.2",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "15",
+          "new": "16.2"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1250141,
+          "source_spell_id": 1250216,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 0.15 )",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.08,
+          "final_pvp_multiplier": 1.08,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1250141,
+            1250216
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256950,
+              "game_effect_id": 1264714,
+              "amount_kind": "direct",
+              "value_pct": 8.0,
+              "factor": 1.08,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Poison Bomb",
@@ -4890,11 +5152,32 @@ window.WOW_PVP_DATA = {
         "icon": "rogue_paralytic_poison"
       },
       "pve_tooltip": "Envenom has a 5% chance per combo point spent to smash a vial of poison at the target's location, creating a pool of acidic death that deals [(38.3328% of Attack Power) * 4] Nature damage over 2 sec to all enemies within it.",
-      "pvp_tooltip": "Envenom has a 5% chance per combo point spent to smash a vial of poison at the target's location, creating a pool of acidic death that deals [(38.3328% of Attack Power) * 4] Nature damage over 2 sec to all enemies within it.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Envenom has a 5% chance per combo point spent to smash a vial of poison at the target's location, creating a pool of acidic death that deals [(41.3994% of Attack Power) * 4] Nature damage over 2 sec to all enemies within it.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 143,
+          "end": 150,
+          "old_token": "38.3328",
+          "new_token": "41.3994",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "38.3328",
+          "new": "41.3994"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4904,12 +5187,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 255546,
           "effect_index": 1,
           "effect_text": "School Damage (Nature) (AP mod: 0.383328 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 1.08,
           "final_pvp_multiplier": 1.08,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             255544,
@@ -4935,7 +5218,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Amplifying Poison",
@@ -4998,12 +5281,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 383414,
           "effect_index": 1,
           "effect_text": "School Damage (Nature) (AP mod: 0.0814 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
           "aura_factor": 1.08,
           "final_pvp_multiplier": 1.08,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             381664,
@@ -5243,11 +5526,51 @@ window.WOW_PVP_DATA = {
         "icon": "inv_knife_1h_artifactgarona_d_01"
       },
       "pve_tooltip": "35 Energy\nMelee Range\nInstant\n1 min cooldown\nRelease a powerful poison from your weapons and inject it into your target, dealing (146.9% of Attack Power) Nature damage instantly and an additional (203% of Attack Power) Nature damage over 14 sec.\nEach time you apply a Lethal Poison to a target affected by Kingsbane, Kingsbane damage increases by 20%, up to 1000%.\nAwards 1 combo point.",
-      "pvp_tooltip": "35 Energy\nMelee Range\nInstant\n1 min cooldown\nRelease a powerful poison from your weapons and inject it into your target, dealing (146.9% of Attack Power) Nature damage instantly and an additional (203% of Attack Power) Nature damage over 14 sec.\nEach time you apply a Lethal Poison to a target affected by Kingsbane, Kingsbane damage increases by 20%, up to 1000%.\nAwards 1 combo point.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "35 Energy\nMelee Range\nInstant\n1 min cooldown\nRelease a powerful poison from your weapons and inject it into your target, dealing (111.0564% of Attack Power) Nature damage instantly and an additional (219.24% of Attack Power) Nature damage over 14 sec.\nEach time you apply a Lethal Poison to a target affected by Kingsbane, Kingsbane damage increases by 20%, up to 1000%.\nAwards 1 combo point.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 130,
+          "end": 135,
+          "old_token": "146.9",
+          "new_token": "111.0564",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        },
+        {
+          "start": 197,
+          "end": 200,
+          "old_token": "203",
+          "new_token": "219.24",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            4
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "146.9",
+          "new": "111.0564"
+        },
+        {
+          "effect_indexes": [
+            4
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "203",
+          "new": "219.24"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -5257,12 +5580,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 385627,
           "effect_index": 2,
           "effect_text": "School Damage (Nature) (AP mod: 1.469 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 0.7,
           "amount_kind": "direct",
           "aura_factor": 1.08,
           "final_pvp_multiplier": 0.756,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -5279,7 +5602,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -5290,12 +5614,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 385627,
           "effect_index": 4,
           "effect_text": "Apply Aura: Periodic Damage",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
           "aura_factor": 1.08,
           "final_pvp_multiplier": 1.08,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [],
           "dependency_relations": [],
@@ -5316,7 +5640,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 2
     },
     {
       "talent_name": "Rapid Injection",
@@ -6007,7 +6331,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -6030,7 +6355,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -6175,14 +6501,133 @@ window.WOW_PVP_DATA = {
         "icon": "inv12_apextalent_rogue_implacable"
       },
       "pve_tooltip": "After striking with Kingsbane, rapidly strike that target 5 times over 1 sec for (300% of Attack Power) Physical and (207% of Attack Power) Nature damage. Each strike applies the Lethal Poisons on your weapons and generates a combo point.",
-      "pvp_tooltip": "After striking with Kingsbane, rapidly strike that target 5 times over 1 sec for (300% of Attack Power) Physical and (207% of Attack Power) Nature damage. Each strike applies the Lethal Poisons on your weapons and generates a combo point.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "After striking with Kingsbane, rapidly strike that target 5 times over 1 sec for (178.2% of Attack Power) Physical and (122.958% of Attack Power) Nature damage. Each strike applies the Lethal Poisons on your weapons and generates a combo point.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 118,
+          "end": 121,
+          "old_token": "207",
+          "new_token": "122.958",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 82,
+          "end": 85,
+          "old_token": "300",
+          "new_token": "178.2",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "300",
+          "new": "178.2"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "207",
+          "new": "122.958"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1265387,
+          "source_spell_id": 1265794,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature) (AP mod: 2.07 )",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.55,
+          "amount_kind": "direct",
+          "aura_factor": 1.08,
+          "final_pvp_multiplier": 0.5940000000000001,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1265387,
+            1265794
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256950,
+              "game_effect_id": 1264714,
+              "amount_kind": "direct",
+              "value_pct": 8.0,
+              "factor": 1.08,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar",
+            "simc"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1265387,
+          "source_spell_id": 1265795,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical) (AP mod: 3 )",
+          "base_value": null,
+          "spell_pvp_multiplier": 0.55,
+          "amount_kind": "direct",
+          "aura_factor": 1.08,
+          "final_pvp_multiplier": 0.5940000000000001,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1265387,
+            1265795
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256950,
+              "game_effect_id": 1264714,
+              "amount_kind": "direct",
+              "value_pct": 8.0,
+              "factor": 1.08,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar",
+            "simc"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Hand of Fate",
@@ -6229,11 +6674,32 @@ window.WOW_PVP_DATA = {
         "icon": "inv_ability_fateboundrogue_handoffateheads"
       },
       "pve_tooltip": "Flip a Fatebound Coin each time a finishing move consumes 5 or more combo points. Heads increases the damage of your attacks by 10%, lasting 15 sec or until you flip Tails. Tails deals (168% of Attack Power) Cosmic damage to your target.\nFor each time the same face is flipped in a row, Heads increases damage by an additional 2% and Tails increases its damage by 10%.\n(200ms cooldown)",
-      "pvp_tooltip": "Flip a Fatebound Coin each time a finishing move consumes 5 or more combo points. Heads increases the damage of your attacks by 10%, lasting 15 sec or until you flip Tails. Tails deals (168% of Attack Power) Cosmic damage to your target.\nFor each time the same face is flipped in a row, Heads increases damage by an additional 2% and Tails increases its damage by 10%.\n(200ms cooldown)",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Flip a Fatebound Coin each time a finishing move consumes 5 or more combo points. Heads increases the damage of your attacks by 10%, lasting 15 sec or until you flip Tails. Tails deals (109.4083% of Attack Power) Cosmic damage to your target.\nFor each time the same face is flipped in a row, Heads increases damage by an additional 2% and Tails increases its damage by 10%.\n(200ms cooldown)",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 186,
+          "end": 189,
+          "old_token": "168",
+          "new_token": "109.4083",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "168",
+          "new": "109.4083"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6243,12 +6709,12 @@ window.WOW_PVP_DATA = {
           "source_spell_id": 452538,
           "effect_index": 1,
           "effect_text": "School Damage (Holy, Nature, Shadow, Arcane) (AP mod: 1.68 )",
-          "base_value": 0.0,
+          "base_value": null,
           "spell_pvp_multiplier": 0.67,
           "amount_kind": "direct",
           "aura_factor": 0.9720000000000001,
           "final_pvp_multiplier": 0.65124,
-          "final_pvp_value": 0.0,
+          "final_pvp_value": null,
           "is_final_pvp_modified": true,
           "dependency_path": [
             452536,
@@ -6279,12 +6745,13 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Deathstalker's Mark",
@@ -6331,14 +6798,73 @@ window.WOW_PVP_DATA = {
         "icon": "inv_ability_deathstalkerrogue_deathstalkersmark"
       },
       "pve_tooltip": "Garrote applies 3 stacks of Deathstalker's Mark to your target, unless Deathstalker's Mark is already active. You learn Mark for Death.\nWhen you spend 5 or more combo points on attacks against a Marked target you consume an application of Deathstalker's Mark, dealing (156% of Attack Power) Plague damage.\nMark for Death\nMove your active Deathstalker's Mark to your target.",
-      "pvp_tooltip": "Garrote applies 3 stacks of Deathstalker's Mark to your target, unless Deathstalker's Mark is already active. You learn Mark for Death.\nWhen you spend 5 or more combo points on attacks against a Marked target you consume an application of Deathstalker's Mark, dealing (156% of Attack Power) Plague damage.\nMark for Death\nMove your active Deathstalker's Mark to your target.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "Garrote applies 3 stacks of Deathstalker's Mark to your target, unless Deathstalker's Mark is already active. You learn Mark for Death.\nWhen you spend 5 or more combo points on attacks against a Marked target you consume an application of Deathstalker's Mark, dealing (168.48% of Attack Power) Plague damage.\nMark for Death\nMove your active Deathstalker's Mark to your target.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 269,
+          "end": 272,
+          "old_token": "156",
+          "new_token": "168.48",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "156",
+          "new": "168.48"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 457052,
+          "source_spell_id": 457157,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature, Shadow) (AP mod: 1.56 )",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.08,
+          "final_pvp_multiplier": 1.08,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            457052,
+            457157
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256950,
+              "game_effect_id": 1264714,
+              "amount_kind": "direct",
+              "value_pct": 8.0,
+              "factor": 1.08,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Chosen's Revelry",
@@ -6633,7 +7159,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -6655,7 +7182,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         }
@@ -6812,14 +7340,73 @@ window.WOW_PVP_DATA = {
         "icon": "ability_rogue_creepingvenom"
       },
       "pve_tooltip": "Auto-attacks against Marked targets deal an additional (10% of Attack Power) Plague damage.",
-      "pvp_tooltip": "Auto-attacks against Marked targets deal an additional (10% of Attack Power) Plague damage.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "Auto-attacks against Marked targets deal an additional (10.8% of Attack Power) Plague damage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 56,
+          "end": 58,
+          "old_token": "10",
+          "new_token": "10.8",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "10",
+          "new": "10.8"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 457054,
+          "source_spell_id": 457193,
+          "effect_index": 1,
+          "effect_text": "School Damage (Nature, Shadow) (AP mod: 0.1 )",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.08,
+          "final_pvp_multiplier": 1.08,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            457054,
+            457193
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256950,
+              "game_effect_id": 1264714,
+              "amount_kind": "direct",
+              "value_pct": 8.0,
+              "factor": 1.08,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Singular Focus",
@@ -7183,14 +7770,102 @@ window.WOW_PVP_DATA = {
         "icon": "ability_warrior_deepcuts"
       },
       "pve_tooltip": "When you consume an application of Deathstalker's Mark, the damage of your next Ambush or Mutilate is increased by 50%.",
-      "pvp_tooltip": "When you consume an application of Deathstalker's Mark, the damage of your next Ambush or Mutilate is increased by 50%.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "When you consume an application of Deathstalker's Mark, the damage of your next Ambush or Mutilate is increased by 30%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 115,
+          "end": 117,
+          "old_token": "50",
+          "new_token": "30",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "percent_value",
+          "old": 25.0,
+          "new": 15.0,
+          "full_tooltip_match_count": 1
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "50",
+          "new": "30"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1248774,
+          "source_spell_id": 1248775,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1248774,
+            1248775
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "simc"
+          ],
+          "confidence": "ambiguous"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 1248774,
+          "source_spell_id": 1248775,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 25.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": 15.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1248774,
+            1248775
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "simc"
+          ],
+          "confidence": "ambiguous"
+        }
+      ],
+      "render_effect_count": 2
     },
     {
       "talent_name": "Corrupt the Blood",
@@ -7347,8 +8022,67 @@ window.WOW_PVP_DATA = {
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 457062,
+          "source_spell_id": 457167,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 18.0,
+          "spell_pvp_multiplier": 0.56,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.56,
+          "final_pvp_value": 10.080000000000002,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            457062,
+            457167
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar",
+            "simc"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 457062,
+          "source_spell_id": 457167,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "base_value": 15.0,
+          "spell_pvp_multiplier": 0.6667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6667,
+          "final_pvp_value": 10.000499999999999,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            457062,
+            457167
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar",
+            "simc"
+          ],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0
     },
     {
@@ -8139,131 +8873,88 @@ window.WOW_PVP_DATA = {
         "icon": "spell_shadow_twilight"
       },
       "pve_tooltip": "When you consume the final Deathstalker's Mark from a target or your target dies, gain 30 Energy and Darkest Night, causing your next Envenom cast with 5 or more combo points to critically strike, deal 35% additional damage, and apply 3 stacks of Deathstalker's Mark to the target if no other Deathstalker's Mark is active.\nEnvenom cast with Darkest Night does not consume a stack of active Deathstalker's Marks.",
-      "pvp_tooltip": "When you consume the final Deathstalker's Mark from a target or your target dies, gain 30 Energy and Darkest Night, causing your next Envenom cast with 5 or more combo points to critically strike, deal 35% additional damage, and apply 3 stacks of Deathstalker's Mark to the target if no other Deathstalker's Mark is active.\nEnvenom cast with Darkest Night does not consume a stack of active Deathstalker's Marks.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "pvp_tooltip": "When you consume the final Deathstalker's Mark from a target or your target dies, gain 30 Energy and Darkest Night, causing your next Envenom cast with 5 or more combo points to critically strike, deal 8.75% additional damage, and apply 3 stacks of Deathstalker's Mark to the target if no other Deathstalker's Mark is active.\nEnvenom cast with Darkest Night does not consume a stack of active Deathstalker's Marks.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 202,
+          "end": 204,
+          "old_token": "35",
+          "new_token": "8.75",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "35",
+          "new": "8.75"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 457058,
+          "source_spell_id": 457280,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Dummy",
+          "base_value": 35.0,
+          "spell_pvp_multiplier": 0.25,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.25,
+          "final_pvp_value": 8.75,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            457058,
+            457280
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar",
+            "simc"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     }
   ],
   "fetch_errors": [],
   "slug": "rogue-assassination",
-  "generated_at": "2026-09-19T14:46:55.803054+00:00",
+  "generated_at": "2026-09-19T15:33:50.390878+00:00",
   "validation": {
     "talents": 131,
-    "changed_tooltips": 4,
-    "talents_with_pvp_mechanics": 19,
+    "changed_tooltips": 21,
+    "talents_with_pvp_mechanics": 27,
     "unique_nodes": 110,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
     "drustvar_builds": [
       "12.1.0.69587"
     ],
-    "verification_status": "PARTIAL",
-    "fetch_error_count": 9,
-    "unresolved_count": 11,
-    "review_required_count": 3,
-    "fetch_error_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 457157,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=457157/deathstalkers-mark'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 457167,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=457167'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 457193,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=457193'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 457280,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=457280'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 470672,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=470672'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
-    "unresolved_examples": [
-      {
-        "spell_id": 454433,
-        "talent_name": "Death's Arrival",
-        "side": "drustvar",
-        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
-        "multiplier": 2.0,
-        "effect_text": "Apply Aura (6) | Modify Recharge Time (Category) (453)"
-      },
-      {
-        "spell_id": 454433,
-        "talent_name": "Death's Arrival",
-        "side": "drustvar",
-        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
-        "multiplier": 2.0,
-        "effect_text": "Apply Aura (6) | Modify Recharge Time (Category) (453)"
-      },
-      {
-        "spell_id": 454433,
-        "talent_name": "Death's Arrival",
-        "side": "wowhead",
-        "reason": "WOWHEAD_ONLY_MODIFIER",
-        "effect_index": 2,
-        "multiplier": 2.0,
-        "effect_text": "Apply Aura: Mod Cooldown Ms (1206)"
-      },
-      {
-        "spell_id": 454433,
-        "talent_name": "Death's Arrival",
-        "side": "wowhead",
-        "reason": "WOWHEAD_ONLY_MODIFIER",
-        "effect_index": 3,
-        "multiplier": 2.0,
-        "effect_text": "Apply Aura: Mod Cooldown Ms (2303)"
-      },
-      {
-        "spell_id": 457280,
-        "talent_name": "Darkest Night",
-        "side": "drustvar",
-        "reason": "NO_WOWHEAD_EFFECTS",
-        "multiplier": 0.25,
-        "effect_text": "Apply Aura (6) | Dummy (4)",
-        "effect_origin": "DEPENDENCY",
-        "talent_spell_id": 457058,
-        "source_spell_id": 457280,
-        "dependency_kind": "REFERENCED",
-        "dependency_path": [
-          457058,
-          457280
-        ],
-        "dependency_relations": [
-          "tooltip_value_ref"
-        ]
-      }
-    ],
-    "review_required_examples": [
-      {
-        "talent_name": "Shiv",
-        "spell_id": 5938,
-        "status": "REVIEW_REQUIRED"
-      },
-      {
-        "talent_name": "Improved Garrote",
-        "spell_id": 381632,
-        "status": "REVIEW_REQUIRED"
-      },
-      {
-        "talent_name": "Iron Wire",
-        "spell_id": 196861,
-        "status": "REVIEW_REQUIRED"
-      }
-    ]
+    "verification_status": "VERIFIED",
+    "fetch_error_count": 0,
+    "source_warning_count": 0,
+    "unresolved_count": 0,
+    "review_required_count": 0,
+    "fetch_error_examples": [],
+    "source_warning_examples": [],
+    "unresolved_examples": [],
+    "review_required_examples": []
   }
 };

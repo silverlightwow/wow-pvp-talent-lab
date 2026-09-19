@@ -59,7 +59,7 @@ window.WOW_PVP_DATA = {
           "end": 183,
           "old_token": "15",
           "new_token": "10",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             3
           ]
@@ -69,7 +69,7 @@ window.WOW_PVP_DATA = {
           "end": 263,
           "old_token": "25",
           "new_token": "15",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             4
           ]
@@ -91,7 +91,7 @@ window.WOW_PVP_DATA = {
             3
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "15",
           "new": "10"
         },
@@ -100,7 +100,7 @@ window.WOW_PVP_DATA = {
             4
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "25",
           "new": "15"
         }
@@ -126,7 +126,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -148,9 +149,10 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DIRECT",
@@ -170,9 +172,10 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DIRECT",
@@ -192,9 +195,10 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 3
@@ -1217,7 +1221,7 @@ window.WOW_PVP_DATA = {
           "end": 40,
           "old_token": "30",
           "new_token": "15",
-          "kind": "ordinary_value",
+          "kind": "duration_seconds",
           "effect_indexes": [
             1
           ]
@@ -1229,7 +1233,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "duration_seconds",
           "old": "30",
           "new": "15"
         }
@@ -1255,7 +1259,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -1460,10 +1465,50 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "percent_value",
+          "old": 3.0,
+          "new": 1.5,
+          "full_tooltip_match_count": 0
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 212653,
+          "source_spell_id": 382289,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Proc Trigger Spell",
+          "base_value": 3.0,
+          "spell_pvp_multiplier": 0.5,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.5,
+          "final_pvp_value": 1.5,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            212653,
+            382289
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "simc"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "render_effect_count": 1
     },
     {
       "talent_name": "Improved Blink",
@@ -1549,7 +1594,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2156,7 +2202,7 @@ window.WOW_PVP_DATA = {
           "end": 82,
           "old_token": "20",
           "new_token": "10",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -2168,7 +2214,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "20",
           "new": "10"
         }
@@ -2194,7 +2240,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2449,7 +2496,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -2471,7 +2519,8 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         }
@@ -2694,7 +2743,7 @@ window.WOW_PVP_DATA = {
           "end": 145,
           "old_token": "80",
           "new_token": "70",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -2706,7 +2755,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "80",
           "new": "70"
         }
@@ -2737,7 +2786,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -2960,7 +3010,7 @@ window.WOW_PVP_DATA = {
           "end": 243,
           "old_token": "65",
           "new_token": "50",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -2972,7 +3022,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "65",
           "new": "50"
         }
@@ -3003,7 +3053,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3253,7 +3304,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3586,7 +3638,8 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -3623,7 +3676,8 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         }
@@ -3783,7 +3837,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4123,7 +4178,7 @@ window.WOW_PVP_DATA = {
           "end": 355,
           "old_token": "35",
           "new_token": "15",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1,
             2
@@ -4146,7 +4201,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "35",
           "new": "15"
         }
@@ -4182,7 +4237,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -4210,7 +4266,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -4238,7 +4295,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -4352,7 +4410,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -5215,20 +5274,49 @@ window.WOW_PVP_DATA = {
         "icon": "ability_socererking_arcanewrath"
       },
       "pve_tooltip": "Direct damage you deal to enemies affected by [\nNether Flux\n/ Touch of the Magi], causes an explosion that deals [\nNether Flux\n:\n[(10% of Spell Power) * 5]\n/ (10% of Spell Power)] Arcane damage to all nearby enemies. Deals reduced damage beyond 8 targets.",
-      "pvp_tooltip": "Direct damage you deal to enemies affected by [\nNether Flux\n/ Touch of the Magi], causes an explosion that deals [\nNether Flux\n:\n[(10% of Spell Power) * 5]\n/ (10% of Spell Power)] Arcane damage to all nearby enemies. Deals reduced damage beyond 8 targets.",
-      "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
-      "changes": [],
+      "pvp_tooltip": "Direct damage you deal to enemies affected by [\nNether Flux\n/ Touch of the Magi], causes an explosion that deals [\nNether Flux\n:\n[(9.5% of Spell Power) * 5]\n/ (9.5% of Spell Power)] Arcane damage to all nearby enemies. Deals reduced damage beyond 8 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 131,
+          "end": 133,
+          "old_token": "10",
+          "new_token": "9.5",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 159,
+          "end": 161,
+          "old_token": "10",
+          "new_token": "9.5",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "AMBIGUOUS_TEXT_MATCH",
+          "status": "APPLIED",
           "kind": "spell_power_coefficient",
-          "old": 10.0,
-          "new": 9.5,
-          "match_count": 2
+          "old": "10",
+          "new": "9.5"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "10",
+          "new": "9.5"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5820,7 +5908,7 @@ window.WOW_PVP_DATA = {
           "end": 40,
           "old_token": "2",
           "new_token": "1",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -5842,7 +5930,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "2",
           "new": "1"
         }
@@ -5868,7 +5956,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -5908,7 +5997,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -6119,7 +6209,7 @@ window.WOW_PVP_DATA = {
           "end": 114,
           "old_token": "100",
           "new_token": "50",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -6131,7 +6221,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "100",
           "new": "50"
         }
@@ -6162,7 +6252,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -6942,7 +7033,7 @@ window.WOW_PVP_DATA = {
           "end": 11,
           "old_token": "40",
           "new_token": "20",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -6954,7 +7045,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": "40",
           "new": "20"
         }
@@ -6980,7 +7071,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -7125,7 +7217,8 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -7176,20 +7269,30 @@ window.WOW_PVP_DATA = {
         "icon": "ability_racial_forceshield"
       },
       "pve_tooltip": "Your Prismatic Barrier can absorb up to 25% more damage based on your missing health.\nMax effectiveness when under 25% health.",
-      "pvp_tooltip": "Your Prismatic Barrier can absorb up to 25% more damage based on your missing health.\nMax effectiveness when under 25% health.",
-      "tooltip_changed": false,
-      "render_status": "REVIEW_REQUIRED",
-      "changes": [],
+      "pvp_tooltip": "Your Prismatic Barrier can absorb up to 12.5% more damage based on your missing health.\nMax effectiveness when under 25% health.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 40,
+          "end": 42,
+          "old_token": "25",
+          "new_token": "12.5",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "AMBIGUOUS_TEXT_MATCH",
-          "kind": "ordinary_value",
-          "old": 25.0,
-          "new": 12.5,
-          "match_count": 2
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "25",
+          "new": "12.5"
         }
       ],
       "has_pvp_mechanics": true,
@@ -7213,7 +7316,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -7667,7 +7771,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         },
@@ -7694,7 +7799,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
           "confidence": "ambiguous"
         }
@@ -8007,7 +8113,7 @@ window.WOW_PVP_DATA = {
             3
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 15.0,
           "new": 10.05,
           "full_tooltip_match_count": 0
@@ -8017,7 +8123,7 @@ window.WOW_PVP_DATA = {
             4
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
+          "kind": "percent_value",
           "old": 25.0,
           "new": 15.0,
           "full_tooltip_match_count": 0
@@ -8050,6 +8156,34 @@ window.WOW_PVP_DATA = {
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 449330,
           "source_spell_id": 449336,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Dummy (127)",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.0,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            449330,
+            449336
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "simc"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 449330,
+          "source_spell_id": 449336,
           "effect_index": 3,
           "effect_text": "Apply Aura: Mod % Damage Taken (All)",
           "base_value": -15.0,
@@ -8069,7 +8203,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -8097,7 +8232,36 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 449330,
+          "source_spell_id": 1246023,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy (127)",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.0,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            449330,
+            1246023
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -8168,7 +8332,8 @@ window.WOW_PVP_DATA = {
           "aura_rules": [],
           "sources": [
             "wowhead",
-            "drustvar"
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -8199,9 +8364,10 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead"
+            "wowhead",
+            "simc"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 4
@@ -8473,6 +8639,34 @@ window.WOW_PVP_DATA = {
             "wowhead"
           ],
           "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "RUNTIME",
+          "talent_spell_id": 1246030,
+          "source_spell_id": 1246032,
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Dummy (127)",
+          "base_value": 0.0,
+          "spell_pvp_multiplier": 0.0,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.0,
+          "final_pvp_value": 0.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            1246030,
+            1246032
+          ],
+          "dependency_relations": [
+            "trigger_spell"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "simc"
+          ],
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1
@@ -8852,11 +9046,11 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "mage-arcane",
-  "generated_at": "2026-09-19T14:40:15.697488+00:00",
+  "generated_at": "2026-09-19T15:26:53.726213+00:00",
   "validation": {
     "talents": 128,
-    "changed_tooltips": 16,
-    "talents_with_pvp_mechanics": 30,
+    "changed_tooltips": 18,
+    "talents_with_pvp_mechanics": 31,
     "unique_nodes": 109,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
@@ -8865,68 +9059,74 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "PARTIAL",
     "fetch_error_count": 0,
-    "unresolved_count": 15,
-    "review_required_count": 3,
+    "source_warning_count": 0,
+    "unresolved_count": 3,
+    "review_required_count": 1,
     "fetch_error_examples": [],
+    "source_warning_examples": [],
     "unresolved_examples": [
       {
-        "spell_id": 235450,
-        "talent_name": "Prismatic Barrier",
-        "side": "wowhead",
-        "reason": "WOWHEAD_ONLY_MODIFIER",
-        "effect_index": 2,
-        "multiplier": 0.75,
-        "effect_text": "Apply Aura: Dummy (127)"
-      },
-      {
-        "spell_id": 235450,
-        "talent_name": "Prismatic Barrier",
-        "side": "wowhead",
-        "reason": "WOWHEAD_ONLY_MODIFIER",
-        "effect_index": 3,
-        "multiplier": 0.67,
-        "effect_text": "Apply Aura: Mod % Damage Taken (All)"
-      },
-      {
-        "spell_id": 235450,
-        "talent_name": "Prismatic Barrier",
-        "side": "wowhead",
-        "reason": "WOWHEAD_ONLY_MODIFIER",
-        "effect_index": 4,
-        "multiplier": 0.6,
-        "effect_text": "Apply Aura: Mod Debuffs Duration % (Magic)"
-      },
-      {
-        "spell_id": 382268,
-        "talent_name": "Flow of Time",
+        "spell_id": 449336,
+        "talent_name": "Merely a Setback",
         "side": "drustvar",
         "reason": "UNMATCHED_DRUSTVAR_EFFECT",
-        "multiplier": 0.5,
-        "effect_text": "Apply Aura (6) | Modify Recharge Time (Category) (453)"
+        "multiplier": 0.0,
+        "effect_text": "Apply Aura (6) | Dummy (4)",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 449330,
+        "source_spell_id": 449336,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          449330,
+          449336
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref"
+        ]
       },
       {
-        "spell_id": 382268,
-        "talent_name": "Flow of Time",
+        "spell_id": 1246023,
+        "talent_name": "Merely a Setback",
         "side": "drustvar",
         "reason": "UNMATCHED_DRUSTVAR_EFFECT",
-        "multiplier": 0.5,
-        "effect_text": "Apply Aura (6) | Modify Recharge Time (Category) (453)"
+        "multiplier": 0.0,
+        "effect_text": "Apply Aura (6) | Dummy (4)",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 449330,
+        "source_spell_id": 1246023,
+        "dependency_kind": "REFERENCED",
+        "dependency_path": [
+          449330,
+          1246023
+        ],
+        "dependency_relations": [
+          "tooltip_value_ref"
+        ]
+      },
+      {
+        "spell_id": 1246032,
+        "talent_name": "Explosive Potential",
+        "side": "drustvar",
+        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
+        "multiplier": 0.0,
+        "effect_text": "Apply Aura (6) | Dummy (4)",
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 1246030,
+        "source_spell_id": 1246032,
+        "dependency_kind": "RUNTIME",
+        "dependency_path": [
+          1246030,
+          1246032
+        ],
+        "dependency_relations": [
+          "trigger_spell"
+        ]
       }
     ],
     "review_required_examples": [
       {
         "talent_name": "Prismatic Barrier",
         "spell_id": 235450,
-        "status": "REVIEW_REQUIRED"
-      },
-      {
-        "talent_name": "Arcane Echo",
-        "spell_id": 342231,
-        "status": "REVIEW_REQUIRED"
-      },
-      {
-        "talent_name": "Reactive Barrier",
-        "spell_id": 444827,
         "status": "REVIEW_REQUIRED"
       }
     ]
