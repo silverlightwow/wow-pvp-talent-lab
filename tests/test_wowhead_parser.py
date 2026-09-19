@@ -100,3 +100,32 @@ def test_fragmented_effect_description():
     )
 
     assert result[0].pvp_multiplier == 0.6
+
+
+def test_nether_tooltip_payload_preserves_player_text():
+    payload = {
+        "name": "Example Talent",
+        "icon": "spell_example",
+        "tooltip": (
+            "<b>Example Talent</b><br>"
+            "Passive<br>"
+            "Increases damage by <span>20%</span>.<br>"
+            "Discipline<br>"
+            "Power Word: Shield absorbs 30% more."
+        ),
+    }
+
+    page = parse_nether_tooltip_payload(
+        payload,
+        spell_id=123456,
+    )
+
+    assert page.spell_name == "Example Talent"
+    assert page.effects == tuple()
+    assert "Increases damage by" in page.player_tooltip
+    assert "20%" in page.player_tooltip
+    assert "Discipline" in page.player_tooltip
+    assert "Power Word: Shield absorbs 30% more." in page.player_tooltip
+    assert not page.player_tooltip.startswith(
+        "Example Talent"
+    )
