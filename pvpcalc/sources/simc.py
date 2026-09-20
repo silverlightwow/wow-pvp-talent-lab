@@ -809,12 +809,13 @@ class SimcEffect:
     sp_coefficient: float | None
     pvp_coefficient: float | None
     ap_coefficient: float | None = None
+    game_effect_id: int | None = None
 
 
 _SIMC_EFFECT_HEADER_RE = re.compile(
     r"(?m)^#(\d+)\s+"
-    r"\(id=\d+\)\s*:\s*"
-    r"(.+)$"
+    r"\(id=(?P<game_effect_id>\d+)\)\s*:\s*"
+    r"(?P<effect_text>.+)$"
 )
 
 _SIMC_BASE_RE = re.compile(
@@ -933,7 +934,9 @@ def parse_spell_effects(
                 effect_index,
 
             effect_text=
-                match.group(2).strip(),
+                match.group("effect_text").strip(),
+
+            game_effect_id=int(match.group("game_effect_id")),
 
             base_value=
                 _float_match(
@@ -1014,23 +1017,14 @@ def _player_text_sections(
             )
             continue
 
-        if (
-            current is not None
-            and re.match(
-                r"^\s+:\s*",
-                line,
-            )
-        ):
-            result.append(
-                re.sub(
-                    r"^\s+:\s*",
-                    "",
-                    line,
-                )
-            )
-            continue
-
-        current = None
+        # Descriptions contain literal newlines (including CR/CR/LF),
+        # not only SimC's indented ':' continuation lines. A paragraph
+        # break does not end the field: Soul Rending's second paragraph
+        # references a different effect from its first one.
+        if re.match(r"^[A-Za-z][A-Za-z /()#-]*\s{2,}:|^#\d+\s", line):
+            current = None
+        elif current is not None and line.strip():
+            result.append(re.sub(r"^\s+:\s*", "", line))
 
     return result
 
@@ -1608,4 +1602,3 @@ def pvp_modified_spell_ids(
                 break
 
     return result
-

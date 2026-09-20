@@ -238,6 +238,8 @@ def _mechanic_row(
                 or []
             ),
 
+        "source_notes": list(row.get("source_notes") or []),
+
         "confidence":
             row.get(
                 "confidence"

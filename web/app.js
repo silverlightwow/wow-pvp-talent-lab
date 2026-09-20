@@ -875,7 +875,8 @@
                 spec.slug
             )}.js?v=${
                 encodeURIComponent(
-                    manifest?.tree_build
+                    manifest?.generated_at
+                    || manifest?.tree_build
                     || ""
                 )
             }`;
@@ -924,7 +925,9 @@
 
                     $("#treeMessage")
                         .textContent =
-                        "Could not load this specialization.";
+                        "Could not load this specialization. Please try again.";
+                    $("#classSelect").value = data.class_name;
+                    rebuildSpecSelect(data.class_name, data.spec_name);
                 }
                 finally {
 
@@ -956,7 +959,9 @@
 
                 $("#treeMessage")
                     .textContent =
-                    "Could not load this specialization.";
+                    "Could not load this specialization. Please try again.";
+                $("#classSelect").value = data.class_name;
+                rebuildSpecSelect(data.class_name, data.spec_name);
             };
 
 
@@ -1309,6 +1314,9 @@
                                     .max_ranks
                                     || 1
                                 ),
+                            requiredPoints: Number(record.tree_data.required_points || 0),
+                            treeType: record.tree_type,
+
                             nodeType:
                                 String(
                                     record
@@ -1568,6 +1576,16 @@
         }
 
 
+        if (group.requiredPoints > 0) {
+            let qualifyingPoints = 0;
+            localGroups.forEach(other => {
+                if (!other.free && other.requiredPoints < group.requiredPoints) {
+                    qualifyingPoints += state.selected.get(other.nodeId)?.rank || 0;
+                }
+            });
+            if (qualifyingPoints < group.requiredPoints) return false;
+        }
+
         const prev =
             effectivePrev(
                 group,
@@ -1648,7 +1666,7 @@
 
             $("#treeMessage")
                 .textContent =
-                "A connected prerequisite must be selected first.";
+                "Select a connected prerequisite and spend the required points in earlier rows first.";
 
             window.setTimeout(
                 () => {
@@ -2012,7 +2030,7 @@
 
                 $("#treeMessage")
                     .textContent =
-                    "A connected prerequisite must be selected first.";
+                    "Select a connected prerequisite and spend the required points in earlier rows first.";
 
                 window.setTimeout(
                     () => {
@@ -2175,43 +2193,8 @@
                 }
 
 
-                const prev =
-                    effectivePrev(
-                        group,
-                        groups
-                    );
-
-
-                if (!prev.length) {
-                    continue;
-                }
-
-
-                const valid =
-                    prev.some(
-                        prevId => {
-
-                            const prevGroup =
-                                groups.get(
-                                    prevId
-                                );
-
-
-                            const prevSelected =
-                                state.selected.get(
-                                    prevId
-                                );
-
-
-                            return (
-                                prevGroup
-                                && prevSelected
-                                && prevSelected.rank
-                                >= prevGroup.maxRanks
-                            );
-                        }
-                    );
-
+                const localGroups = groupNodes(recordsForTree(group.treeType, state.heroTree));
+                const valid = canSelect(group, localGroups);
 
                 if (!valid) {
 
@@ -2649,6 +2632,45 @@
     }
 
 
+    function openTouchTalent(event, group, localGroups, entryIndex=null) {
+        closeChoicePicker();
+        const index = entryIndex ?? state.selected.get(group.nodeId)?.entryIndex ?? 0;
+        const talent = group.entries[index];
+        showTooltip(event, group, talent);
+        tooltip.classList.add("touch-tooltip");
+        tooltip.setAttribute("role", "dialog");
+        tooltip.setAttribute("aria-label", talent.talent_name);
+        const selection = state.selected.get(group.nodeId);
+        const canAdd = canSelect(group, localGroups) && !group.free
+            && ((group.isChoice && selection) || canSpendAnotherPoint(group))
+            && (group.isChoice || !selection || selection.rank < group.maxRanks);
+        tooltip.insertAdjacentHTML("beforeend", `
+            ${group.isChoice ? `<div class="touch-choices">${group.entries.map((entry, i) =>
+                `<button type="button" data-touch-choice="${i}" aria-pressed="${i === index}">${escapeHtml(entry.talent_name)}</button>`
+            ).join("")}</div>` : ""}
+            <div class="touch-talent-actions">
+                <button type="button" data-touch-add ${canAdd ? "" : "disabled"}>${group.isChoice ? "Choose talent" : "Add rank"}</button>
+                <button type="button" data-touch-remove ${selection && !group.free ? "" : "disabled"}>Remove rank</button>
+                <button type="button" data-touch-close>Close</button>
+            </div>`);
+        tooltip.querySelectorAll("[data-touch-choice]").forEach(button => {
+            button.onclick = e => { e.stopPropagation(); openTouchTalent(event, group, localGroups, Number(button.dataset.touchChoice)); };
+        });
+        tooltip.querySelector("[data-touch-close]").onclick = hideTooltip;
+        tooltip.querySelector("[data-touch-remove]").onclick = e => {
+            e.stopPropagation(); removeRank(group); openTouchTalent(event, group, localGroups, index);
+        };
+        tooltip.querySelector("[data-touch-add]").onclick = e => {
+            e.stopPropagation();
+            if (group.isChoice && canAdd) {
+                state.selected.set(group.nodeId, {entryIndex:index, rank:selection?.rank || 1});
+                pruneInvalidSelections(); renderTrees();
+            } else selectGroup(group, localGroups);
+            openTouchTalent(event, group, localGroups, index);
+        };
+    }
+
+
     function moveTooltip(event) {
 
         if (
@@ -2668,8 +2690,7 @@
             event.clientY + 16;
 
 
-        const width =
-            390;
+        const width = tooltip.offsetWidth;
 
         const height =
             tooltip.offsetHeight;
@@ -2704,6 +2725,7 @@
         }
 
 
+        left = Math.max(margin, Math.min(left, window.innerWidth - width - margin));
         tooltip.style.left =
             `${left}px`;
 
@@ -2713,7 +2735,9 @@
 
 
     function hideTooltip() {
-
+        tooltip.classList.remove("touch-tooltip");
+        tooltip.removeAttribute("role");
+        tooltip.removeAttribute("aria-label");
         tooltip.style.display =
             "none";
     }
@@ -2743,7 +2767,8 @@
             );
 
 
-        const nodeSize =
+        container.style.removeProperty("--node");
+        let nodeSize =
             parseFloat(
                 getComputedStyle(
                     container
@@ -2762,6 +2787,19 @@
             nodeSize
         );
 
+
+        const rows = new Map();
+        for (const pos of positions.values()) {
+            if (!rows.has(pos.y)) rows.set(pos.y, []);
+            rows.get(pos.y).push(pos.x);
+        }
+        let minGap = Infinity;
+        for (const xs of rows.values()) {
+            xs.sort((a, b) => a - b);
+            for (let i = 1; i < xs.length; i++) minGap = Math.min(minGap, xs[i] - xs[i - 1]);
+        }
+        nodeSize = Math.min(nodeSize, Math.max(16, minGap - 6));
+        container.style.setProperty("--node", `${nodeSize}px`);
 
         container.style.height =
             `${height}px`;
@@ -2941,6 +2979,10 @@
                     }px`;
 
 
+                button.dataset.nodeId = String(group.nodeId);
+                button.setAttribute("aria-label", group.entries.map(entry => entry.talent_name).join(" / "));
+                button.setAttribute("aria-pressed", String(Boolean(selected)));
+
                 const currentRank =
                     selected
                     ? selected.rank
@@ -3006,6 +3048,10 @@
 
                         event.preventDefault();
 
+                        if (event.pointerType === "touch" || window.matchMedia("(hover: none)").matches) {
+                            openTouchTalent(event, group, groups);
+                            return;
+                        }
                         hideTooltip();
 
                         if (
@@ -3122,7 +3168,7 @@
                     "mouseleave",
                     () => {
                         delete button.dataset.hoveredSpellId;
-                        hideTooltip();
+                        if (!tooltip.classList.contains("touch-tooltip")) hideTooltip();
                     }
                 );
 
@@ -3659,6 +3705,13 @@
                     }
                 </div>
 
+
+                ${(mechanic.source_notes || []).map(note => `
+                    <div class="path-row">
+                        Drustvar ${escapeHtml(note.source_build)} reports ×${formatNumber(note.multiplier)}.
+                        Current build ${escapeHtml(note.current_build)} uses ×${formatNumber(note.current_multiplier)},
+                        confirmed by Wowhead and SimC for effect ${escapeHtml(note.game_effect_id)}.
+                    </div>`).join("")}
 
                 <div class="path-row">
                     PvP Aura:
@@ -4630,6 +4683,7 @@
                     )
                 ) {
                     closeChoicePicker();
+                    if (!event.target.closest(".floating-tooltip")) hideTooltip();
                 }
             }
         );
@@ -4640,6 +4694,7 @@
             event => {
                 if (event.key === "Escape") {
                     closeChoicePicker();
+                    hideTooltip();
                 }
             }
         );

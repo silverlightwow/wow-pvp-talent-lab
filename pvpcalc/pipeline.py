@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import asyncio
+import json
+import re
 from dataclasses import dataclass, field
 from typing import Any
 
@@ -736,6 +738,8 @@ def _build_effect_rows(
                     "effect_text": (
                         dr.effect_text
                     ),
+                    "source_build": dr.patch,
+                    "game_effect_id": _game_effect_id(dr),
                 }
             )
 
@@ -2795,6 +2799,57 @@ def _simc_corroborates_unresolved(
     return False
 
 
+def _game_effect_id(observation) -> int | None:
+    try:
+        value = json.loads(observation.raw).get("game_effect_id")
+        return int(value) if value is not None else None
+    except (ValueError, TypeError, AttributeError):
+        return None
+
+
+def _superseded_drustvar_effect(item, *, simc_dump, wowhead_by_spell):
+    """Recognize a demonstrably older row; never equate different effects.
+
+    Two current sources must agree on the concrete replacement effect,
+    including its multiplier. Retain the old observation as provenance.
+    """
+    if item.get("reason") != "UNMATCHED_DRUSTVAR_EFFECT":
+        return None
+    old_build = str(item.get("source_build") or "")
+    new_build = str(simc_dump.build or "")
+    if not all(re.fullmatch(r"\d+\.\d+\.\d+\.\d+", b) for b in (old_build, new_build)):
+        return None
+    if tuple(map(int, old_build.split('.'))) >= tuple(map(int, new_build.split('.'))):
+        return None
+    game_id = item.get("game_effect_id")
+    spell_id = int(item.get("source_spell_id", item["spell_id"]))
+    spell = simc_dump.spells.get(spell_id)
+    if game_id is None or spell is None:
+        return None
+    for effect in simc.parse_spell_effects(spell).values():
+        if effect.game_effect_id != game_id or effect.pvp_coefficient is None:
+            continue
+        for wh in wowhead_by_spell.get(spell_id, []):
+            if wh.effect_index != effect.effect_index or wh.pvp_multiplier is None:
+                continue
+            if not multipliers_close(wh.pvp_multiplier, effect.pvp_coefficient):
+                continue
+            if semantic_score(wh, _simc_observation(simc_dump, spell_id, effect)) <= 0:
+                continue
+            if wh.base_value is not None and effect.base_value is not None and abs(wh.base_value - effect.base_value) > 1e-6:
+                continue
+            return {
+                **item,
+                "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+                "current_build": new_build,
+                "effect_index": effect.effect_index,
+                "current_multiplier": effect.pvp_coefficient,
+                "current_effect_text": effect.effect_text,
+                "resolved_by": ["wowhead", "simc_exact_build"],
+            }
+    return None
+
+
 def _filter_simc_corroborated_unresolved(
     unresolved_rows: list[dict],
     *,
@@ -2805,6 +2860,12 @@ def _filter_simc_corroborated_unresolved(
     result = []
 
     for item in unresolved_rows:
+        superseded = _superseded_drustvar_effect(
+            item, simc_dump=simc_dump, wowhead_by_spell=wowhead_by_spell
+        )
+        if superseded is not None:
+            result.append(superseded)
+            continue
 
         if _simc_corroborates_unresolved(
             item,
@@ -4140,6 +4201,14 @@ async def audit_spec(
         final_candidate_ids
     )
 
+
+    for note in result.unresolved_rows:
+        if note.get("reason") != "SUPERSEDED_DRUSTVAR_EFFECT":
+            continue
+        for row in result.all_effect_rows:
+            if (row.get("source_spell_id", row.get("spell_id")) == note.get("source_spell_id", note.get("spell_id"))
+                    and row.get("effect_index") == note.get("effect_index")):
+                row.setdefault("source_notes", []).append(note)
 
     return result
 

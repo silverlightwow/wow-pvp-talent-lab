@@ -135,3 +135,14 @@ def test_raidbots_hero_tree_and_choice():
         450138,
         449912,
     }
+
+
+def test_required_point_gates_are_preserved():
+    from pvpcalc.sources.raidbots import _normalize_collection
+    rows = _normalize_collection(
+        [dict(id=1, name='Gated talent', reqPoints=20, entries=[dict(id=2, spellId=3)])],
+        tree_type='spec', hero_trees={}, class_name='Test', class_id=1,
+        spec_name='Test', spec_id=1, trait_tree_id=1, wow_build='test',
+        generated_at='test', content_hash='test',
+    )
+    assert rows[0]['required_points'] == 20

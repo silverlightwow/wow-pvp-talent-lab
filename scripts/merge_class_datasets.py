@@ -1,3 +1,4 @@
+"""Merge independently verified artifacts without modifying the prior snapshot on failure."""
 from __future__ import annotations
 
 import argparse
@@ -5,315 +6,80 @@ from datetime import datetime, timezone
 import json
 from pathlib import Path
 import shutil
+import tempfile
+
+from validate_site_data import validate_snapshot
 
 
-def load_class_manifests(
-    artifacts_root: Path,
-) -> list[tuple[Path, dict]]:
-    results = []
-
-    for manifest_path in sorted(
-        artifacts_root.glob(
-            "**/manifest.json"
-        )
-    ):
-        payload = json.loads(
-            manifest_path.read_text(
-                encoding="utf-8"
-            )
-        )
-
-        if not payload.get("classes"):
-            continue
-
-        results.append(
-            (
-                manifest_path.parent,
-                payload,
-            )
-        )
-
-    if not results:
-        raise RuntimeError(
-            "No dataset manifests found"
-        )
-
-    return results
-
-
-def merge(
-    *,
-    artifacts_root: Path,
-    output_dir: Path,
-) -> dict:
-    manifests = load_class_manifests(
-        artifacts_root
-    )
-
-    builds = {
-        payload.get("tree_build")
-        for _, payload in manifests
-    }
-
-    if len(builds) != 1:
-        raise RuntimeError(
-            "Artifacts were built from "
-            f"different Raidbots builds: {sorted(builds)}"
-        )
-
-    content_hashes = {
-        payload.get("content_hash")
-        for _, payload in manifests
-        if payload.get("content_hash")
-    }
-
-    if len(content_hashes) > 1:
-        raise RuntimeError(
-            "Artifacts were built from "
-            "different Raidbots content hashes"
-        )
-
-    class_map = {}
-    seen_slugs = set()
-
-    output_dir.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
-
-    # Remove generated spec datasets from the prior snapshot only after
-    # every class artifact has passed the build-consistency checks above.
-    for path in output_dir.iterdir():
-        if (
-            path.is_file()
-            and path.suffix in {".json", ".js"}
-            and path.name
-            not in {
-                "manifest.json",
-                "manifest.js",
-            }
-        ):
-            path.unlink()
-
-    for dataset_dir, payload in manifests:
-        for class_item in payload["classes"]:
-
-            class_name = class_item[
-                "name"
-            ]
-
-            merged_class = (
-                class_map.setdefault(
-                    class_name,
-                    {
-                        "name":
-                            class_name,
-                        "class_id":
-                            class_item.get(
-                                "class_id"
-                            ),
-                        "specs":
-                            [],
-                    },
-                )
-            )
-
-            for spec in class_item["specs"]:
-                slug = spec["slug"]
-
-                if slug in seen_slugs:
-                    raise RuntimeError(
-                        f"Duplicate specialization slug: {slug}"
-                    )
-
-                seen_slugs.add(slug)
-
-                merged_class[
-                    "specs"
-                ].append(spec)
-
-                for suffix in (
-                    ".json",
-                    ".js",
-                ):
-                    source = (
-                        dataset_dir
-                        / f"{slug}{suffix}"
-                    )
-
-                    if not source.exists():
-                        raise RuntimeError(
-                            f"Missing dataset artifact: {source}"
-                        )
-
-                    shutil.copy2(
-                        source,
-                        output_dir
-                        / source.name,
-                    )
-
-    classes = sorted(
-        class_map.values(),
-        key=lambda item:
-            item["name"],
-    )
-
-    for class_item in classes:
-        class_item["specs"].sort(
-            key=lambda item:
-                item["name"]
-        )
-
-    spec_count = sum(
-        len(
-            class_item["specs"]
-        )
-        for class_item in classes
-    )
-
-    if spec_count < 40:
-        raise RuntimeError(
-            f"Expected at least 40 specs, got {spec_count}"
-        )
-
-    default_slug = (
-        "priest-discipline"
-        if "priest-discipline"
-        in seen_slugs
-        else next(
-            iter(
-                sorted(
-                    seen_slugs
-                )
-            )
-        )
-    )
-
-    manifest = {
-        "generated_at":
-            datetime.now(timezone.utc)
-            .isoformat(),
-
-        "tree_build":
-            next(iter(builds)),
-
-        "content_hash":
-            (
-                next(
-                    iter(content_hashes)
-                )
-                if content_hashes
-                else None
-            ),
-
-        "default_slug":
-            default_slug,
-
-        "spec_count":
-            spec_count,
-
-        "verified_count":
-            sum(
-                spec.get(
-                    "verification_status"
-                ) == "VERIFIED"
-                for class_item in classes
-                for spec in class_item["specs"]
-            ),
-
-        "partial_count":
-            sum(
-                spec.get(
-                    "verification_status"
-                ) == "PARTIAL"
-                for class_item in classes
-                for spec in class_item["specs"]
-            ),
-
-        "classes":
-            classes,
-    }
-
-    manifest_text = json.dumps(
-        manifest,
-        ensure_ascii=False,
-        indent=2,
-    )
-
-    (
-        output_dir
-        / "manifest.json"
-    ).write_text(
-        manifest_text + "\n",
-        encoding="utf-8",
-    )
-
-    (
-        output_dir
-        / "manifest.js"
-    ).write_text(
-        "window.WOW_PVP_MANIFEST = "
-        + manifest_text
-        + ";\n",
-        encoding="utf-8",
-    )
-
-    return manifest
+def merge(*, artifacts_root: Path, output_dir: Path, expected_specs=None) -> dict:
+    manifests = [(p.parent, json.loads(p.read_text())) for p in sorted(artifacts_root.glob('**/manifest.json'))]
+    if not manifests:
+        raise ValueError('No dataset manifests found')
+    builds = {m.get('tree_build') for _, m in manifests}
+    hashes = {m.get('content_hash') for _, m in manifests}
+    if len(builds) != 1 or None in builds or len(hashes) != 1 or None in hashes:
+        raise ValueError('Artifacts have inconsistent source builds/content hashes')
+    classes, slugs = {}, set()
+    for directory, manifest in manifests:
+        validate_snapshot(directory)
+        for cls in manifest['classes']:
+            merged = classes.setdefault(cls['name'], dict(name=cls['name'], class_id=cls['class_id'], specs=[]))
+            for spec in cls['specs']:
+                if spec['slug'] in slugs:
+                    raise ValueError(f'Duplicate specialization: {spec["slug"]}')
+                slugs.add(spec['slug'])
+                merged['specs'].append(spec)
+    if expected_specs is None and len(slugs) < 40:
+        raise ValueError(f'Expected the complete catalog, received {len(slugs)} specs')
+    class_list = sorted(classes.values(), key=lambda c: c['name'])
+    for cls in class_list:
+        cls['specs'].sort(key=lambda s: s['name'])
+    result = dict(generated_at=datetime.now(timezone.utc).isoformat(), tree_build=builds.pop(),
+                  content_hash=hashes.pop(), default_slug='priest-discipline' if 'priest-discipline' in slugs else min(slugs),
+                  spec_count=len(slugs), verified_count=len(slugs), partial_count=0, classes=class_list)
+    output_dir.parent.mkdir(parents=True, exist_ok=True)
+    staging = Path(tempfile.mkdtemp(prefix='verified-data-', dir=output_dir.parent))
+    backup = None
+    try:
+        if output_dir.exists():
+            shutil.copytree(output_dir, staging, dirs_exist_ok=True)
+        for p in staging.iterdir():
+            if p.is_file() and p.suffix in {'.json', '.js'}:
+                p.unlink()
+        for directory, manifest in manifests:
+            for cls in manifest['classes']:
+                for spec in cls['specs']:
+                    for suffix in ('.json', '.js'):
+                        shutil.copy2(directory / (spec['slug'] + suffix), staging / (spec['slug'] + suffix))
+        text = json.dumps(result, ensure_ascii=False, indent=2)
+        (staging / 'manifest.json').write_text(text + '\n')
+        (staging / 'manifest.js').write_text('window.WOW_PVP_MANIFEST = ' + text + ';\n')
+        validate_snapshot(staging, expected_specs)
+        if output_dir.exists():
+            backup = Path(tempfile.mkdtemp(prefix='previous-data-', dir=output_dir.parent))
+            backup.rmdir()
+            output_dir.rename(backup)
+        try:
+            staging.rename(output_dir)
+        except BaseException:
+            if backup is not None:
+                backup.rename(output_dir)
+                backup = None
+            raise
+    finally:
+        if staging.exists():
+            shutil.rmtree(staging)
+        if backup is not None:
+            shutil.rmtree(backup)
+    return result
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser(
-        description=(
-            "Merge isolated per-class PvP dataset artifacts "
-            "into one production web/data snapshot"
-        )
-    )
-
-    parser.add_argument(
-        "--artifacts-root",
-        type=Path,
-        required=True,
-    )
-
-    parser.add_argument(
-        "--output-dir",
-        type=Path,
-        default=Path("web/data"),
-    )
-
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--artifacts-root', type=Path, required=True)
+    parser.add_argument('--output-dir', type=Path, default=Path('web/data'))
+    parser.add_argument('--expected-specs-json')
     args = parser.parse_args()
-
-    manifest = merge(
-        artifacts_root=
-            args.artifacts_root,
-        output_dir=
-            args.output_dir,
-    )
-
-    print(
-        json.dumps(
-            {
-                "tree_build":
-                    manifest[
-                        "tree_build"
-                    ],
-                "spec_count":
-                    manifest[
-                        "spec_count"
-                    ],
-                "verified_count":
-                    manifest[
-                        "verified_count"
-                    ],
-                "partial_count":
-                    manifest[
-                        "partial_count"
-                    ],
-            },
-            indent=2,
-        )
-    )
-
-
-if __name__ == "__main__":
-    main()
+    result = merge(artifacts_root=args.artifacts_root, output_dir=args.output_dir,
+                   expected_specs=json.loads(args.expected_specs_json) if args.expected_specs_json else None)
+    print(json.dumps({k: result[k] for k in ('tree_build', 'spec_count', 'verified_count', 'partial_count')}, indent=2))

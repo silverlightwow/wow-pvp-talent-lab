@@ -1,0 +1,24 @@
+SimulationCraft 1210-01 for World of Warcraft 12.1.0.69875 Live
+
+Name             : Strafing Run (id=1266151) [Spell Family (224), Passive] 
+Talent Entry     : Devastation [tree=spec, row=10, col=1, max_rank=1, req_points=20]
+Class            : Evoker
+School           : Fire
+Spell Type       : None
+Labels           : 16: Class Spells
+                 : 292
+                 : 1216: Evoker Spells
+Proc Chance      : 101%
+Proc Flags       : Magic Heal
+Attributes       : Passive (6), Not In Spellbook (143), Aura Points On Client (268), Do Not Log on Learn (355), Allow Class Ability Procs (416)
+Effects          :
+#1 (id=1278387)  : Apply Aura (6) | Add Percent Modifier (108): Spell Periodic Amount (22)
+                   Base Value: 20 | Scaled Value: 20 | PvP Coefficient: -1 | Misc Value: 22 | Target: Self (1)
+                   Affected Spells: Deep Breath (353759), Melt Armor (441172)
+                   Family Flags: 34
+Description      : Deep Breath deals $?a134735[$s1% reduced][$s1% increased] damage and can be cast again within $1266165d of being used.
+
+
+
+Recall will be available after the second cast if talented.
+

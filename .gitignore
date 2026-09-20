@@ -11,3 +11,6 @@ venv/
 .ipynb_checkpoints/
 *.bak
 *.tmp
+node_modules/
+playwright-report/
+test-results/

@@ -26,15 +26,10 @@ def slugify(class_name: str, spec_name: str) -> str:
 
 
 def _validate_for_all(audit, spec_catalog) -> dict:
-    """
-    Validate hard structural invariants for every specialization while
-    keeping source/render coverage problems explicit instead of blocking
-    the entire multi-spec publication.
+    """Check structural invariants and classify source/render coverage.
 
-    The renderer is conservative: ambiguous transformations are not
-    applied. Therefore a PARTIAL dataset is safe to publish, but the UI
-    must not label it VERIFIED until every source/render diagnostic is
-    clean.
+    Only VERIFIED results may be written by build_one. Provenance warnings
+    remain in the dataset but do not weaken the current-value checks.
     """
 
     talents = spec_catalog.talents
@@ -99,6 +94,7 @@ def _validate_for_all(audit, spec_catalog) -> dict:
         if item.get("reason")
         in {
             "WOWHEAD_ONLY_MODIFIER",
+                "SUPERSEDED_DRUSTVAR_EFFECT",
         }
     ]
 
@@ -266,7 +262,14 @@ async def build_one(
         spec_catalog,
     )
 
+    if summary["verification_status"] != "VERIFIED":
+        raise RuntimeError("Incomplete specialization: " + json.dumps(summary, default=_json_default))
+
     payload = spec_catalog.to_dict()
+    payload["source_warnings"] = [
+        item for item in audit.unresolved_rows
+        if item.get("reason") in {"WOWHEAD_ONLY_MODIFIER", "SUPERSEDED_DRUSTVAR_EFFECT"}
+    ]
 
     slug = slugify(
         class_name,

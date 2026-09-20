@@ -397,3 +397,35 @@ def test_unique_generic_simc_effect_does_not_hide_explicit_wowhead_conflict():
             300: [wowhead]
         },
     )
+
+
+def test_superseded_drustvar_requires_exact_effect_identity_and_current_agreement():
+    from pathlib import Path
+    from pvpcalc.sources.simc import parse_dump
+    dump = parse_dump(Path('tests/fixtures/simc-1266151.txt').read_text(), class_slug='evoker')
+    current = EffectObservation(
+        source='wowhead', spell_id=1266151, spell_name='Strafing Run',
+        effect_index=1, base_value=20, pvp_multiplier=-1,
+        effect_text='Apply Aura: Modifies Periodic Damage/Healing Done (22)',
+        patch=None, url='', raw='',
+    )
+    item = dict(
+        spell_id=1266151, reason='UNMATCHED_DRUSTVAR_EFFECT',
+        source_build='12.1.0.69587', game_effect_id=1278387, multiplier=0,
+        effect_text='Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)',
+    )
+    def resolve(row, wh=current):
+        return pipeline._superseded_drustvar_effect(
+            row, simc_dump=dump, wowhead_by_spell={1266151: [wh]}
+        )
+    result = resolve(item)
+    assert result['reason'] == 'SUPERSEDED_DRUSTVAR_EFFECT'
+    assert result['multiplier'] == 0  # Old source evidence is retained.
+    assert result['current_multiplier'] == -1
+    assert resolve(dict(item, game_effect_id=9999)) is None
+    assert resolve(dict(item, source_build=dump.build)) is None
+    assert resolve(dict(item, source_build='12.1.0.99999')) is None
+    assert resolve(dict(item, source_build=None)) is None
+    from dataclasses import replace
+    conflicting = replace(current, pvp_multiplier=0)
+    assert resolve(item, conflicting) is None

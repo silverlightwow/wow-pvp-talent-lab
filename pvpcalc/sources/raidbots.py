@@ -184,6 +184,8 @@ def _normalize_collection(
                         "maxRanks"
                     ),
 
+                    "required_points": int(node.get("reqPoints", 0)),
+
                     "entry_node": node.get(
                         "entryNode",
                         False,

@@ -150,6 +150,7 @@ async def audit_one(
             if item.get("reason")
             in {
                 "WOWHEAD_ONLY_MODIFIER",
+                "SUPERSEDED_DRUSTVAR_EFFECT",
             }
         ]
 

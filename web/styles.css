@@ -2658,3 +2658,36 @@ details.tooltip-comparison summary {
     background: var(--gold);
     box-shadow: 0 0 10px rgba(228, 186, 101, .45);
 }
+
+
+.floating-tooltip { max-width: calc(100vw - 28px); }
+.floating-tooltip.touch-tooltip {
+    inset: auto 12px 12px !important;
+    width: auto;
+    max-width: none;
+    max-height: 70dvh;
+    pointer-events: auto;
+    overscroll-behavior: contain;
+}
+.touch-talent-actions, .touch-choices {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 14px;
+}
+.touch-talent-actions button, .touch-choices button {
+    min-height: 44px;
+    flex: 1;
+    padding: 8px;
+    border: 1px solid var(--line-strong);
+    border-radius: 6px;
+    background: var(--panel);
+    color: var(--text);
+    font: inherit;
+}
+.touch-choices [aria-pressed="true"] { border-color: var(--accent); }
+.touch-talent-actions button:disabled { opacity: .4; }
+@media (max-width: 600px) {
+    .tabs { display: flex; flex-wrap: wrap; overflow: visible; }
+    .tab { flex: 1 1 auto; padding: 12px 8px; font-size: 11px; }
+}
