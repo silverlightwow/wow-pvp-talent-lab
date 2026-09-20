@@ -4,15 +4,17 @@
 
 A World of Warcraft talent calculator with player-facing PvE and PvP tooltips for all 40 current specializations across 13 classes. The catalog is discovered from live talent data, including Devourer, rather than maintained as a fixed list.
 
-- **Talent Tree:** class, hero, and specialization trees, source-defined point gates, choice talents, and PvE/PvP tooltips. On touch screens, tap a talent to inspect its tooltip and add or remove ranks.
-- **PvE vs PvP:** talents whose rendered values change in PvP, with a mobile card layout.
-- **Compendium:** spell modifiers, specialization PvP Aura rules, referenced effects, and expandable source evidence. Mobile details appear beneath the selected entry.
+- **Talent Tree:** class, hero, and specialization trees, source-defined point gates, choice talents, and description-only PvE/PvP tooltips. Ranked talents show the maximum rank when unlearned, the current and next ranks while partially learned, and the current rank when complete. On touch screens, tap a talent to inspect its tooltip and add or remove ranks.
+- **PvE vs PvP:** complete PvE and PvP descriptions side by side, with changed values highlighted and a mobile card layout.
+- **PvP mechanics:** spell modifiers, specialization PvP Aura rules, referenced effects, and expandable source evidence. Mobile details appear beneath the selected entry.
 
 ## Data and verification
 
 Raidbots supplies talent topology. SimulationCraft supplies exact-build spell descriptions and dependencies. Wowhead and Drustvar supply effect-level evidence and PvP coefficients. The engine reconciles concrete effects before rendering player-facing values; it does not apply a spell-wide multiplier to every number in a tooltip.
 
 `VERIFIED` means the pipeline's source and rendering checks passed. It is not a claim that every interaction has been tested inside the game. Each dataset records its build, verification counts, and source evidence.
+
+Rank values come from the exact-build TraitDefinition overrides, including set, multiply, and add operations. Only the expressions tied to those effects change; unrelated durations and percentages are preserved. PvP modifiers are then applied to the ranked effects. Missing or ambiguous rank descriptions block publication.
 
 Multiline spell descriptions retain all paragraphs and effect references. An older Drustvar effect can be classified as superseded only when its game effect identity matches the current SimulationCraft effect and current Wowhead agrees on the effect and multiplier. The old observation remains visible in provenance; ambiguous cases block publication.
 
@@ -24,7 +26,7 @@ Multiline spell descriptions retain all paragraphs and effect references. An old
 2. builds and validates each specialization independently;
 3. requires matching source builds and talent content hashes, complete tooltips, and zero unresolved or review-required records;
 4. merges exactly the discovered list without damaging the previous snapshot on failure;
-5. runs Chromium checks for every specialization and hero tree at 1440, 390, and 320 pixels, including tooltips, touch controls, point allocation, comparison, and Compendium;
+5. runs Chromium checks for every specialization and hero tree at 2560, 1440, 1024, 390, and 320 pixels, including tooltips, touch controls, point allocation, rank transitions, connection alignment, complete comparison text, and PvP mechanics;
 6. commits the verified data and publishes the site only after all checks pass.
 
 If any stage fails, the previous GitHub Pages deployment remains available. Generated JSON and JavaScript snapshots are checked for equality. The app loads datasets on demand and refreshes their cache keys even for updates within the same game build.

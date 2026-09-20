@@ -44,6 +44,15 @@ def validate_spec(directory: Path, class_item: dict, spec: dict, build: str) -> 
         changed = t['pve_tooltip'] != t['pvp_tooltip']
         if t.get('tooltip_changed') != changed or (t['render_status'] == 'CHANGED') != changed:
             raise ValueError(f'{slug}: inconsistent change flag for {t["spell_id"]}')
+        maximum = int(t['tree_data'].get('max_ranks') or 1)
+        if maximum > 1 and t['tree_data'].get('node_type') != 'tiered':
+            ranks = t.get('rank_tooltips', [])
+            if [r.get('rank') for r in ranks] != list(range(1, maximum + 1)):
+                raise ValueError(f'{slug}: missing rank descriptions for {t["spell_id"]}')
+            if any(not r.get(mode, '').strip() for r in ranks for mode in ('pve_tooltip', 'pvp_tooltip')):
+                raise ValueError(f'{slug}: empty rank description for {t["spell_id"]}')
+            if any(ranks[-1][mode] != t[mode] for mode in ('pve_tooltip', 'pvp_tooltip')):
+                raise ValueError(f'{slug}: default tooltip is not maximum rank for {t["spell_id"]}')
     actual = {
         'talents': len(talents),
         'unique_nodes': len({t['node_id'] for t in talents}),
