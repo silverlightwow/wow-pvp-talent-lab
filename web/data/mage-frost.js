@@ -7315,7 +7315,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1262935,
           "source_spell_id": 1262769,
           "effect_index": 1,
-          "effect_text": "School Damage (2): frost (SP mod: 5)",
+          "effect_text": "School Damage (Frost) (SP mod: 5)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7342,10 +7342,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -8362,7 +8361,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1262843,
           "source_spell_id": 1262862,
           "effect_index": 1,
-          "effect_text": "School Damage (2): frost (SP mod: 3.6624)",
+          "effect_text": "School Damage (Frost) (SP mod: 3.6624)",
           "base_value": null,
           "spell_pvp_multiplier": 0.33,
           "amount_kind": "direct",
@@ -8389,8 +8388,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         },
@@ -8400,7 +8400,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1262843,
           "source_spell_id": 1262863,
           "effect_index": 1,
-          "effect_text": "School Damage (2): fire | Attributes: Enforce Line of Sight To Chain Targets (16) (SP mod: 8.813)",
+          "effect_text": "School Damage (Fire) (SP mod: 8.813)",
           "base_value": null,
           "spell_pvp_multiplier": 0.33,
           "amount_kind": "direct",
@@ -8427,8 +8427,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -10278,7 +10279,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "mage-frost",
-  "generated_at": "2026-09-20T01:01:43.398603+00:00",
+  "generated_at": "2026-09-20T06:59:16.791169+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 23,
@@ -10291,27 +10292,11 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 3,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 1262769,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1262769/hand-of-frost'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1262862,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1262862'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1262863,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1262863'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }

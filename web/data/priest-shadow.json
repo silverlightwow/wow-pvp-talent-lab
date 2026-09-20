@@ -3709,7 +3709,7 @@
           "talent_spell_id": 1227280,
           "source_spell_id": 1227621,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (SP mod: 0.687926)",
+          "effect_text": "School Damage (2): shadow | Attributes: Always AOE Line of Sight (5) (SP mod: 0.687926)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -3736,9 +3736,10 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1
@@ -3821,7 +3822,7 @@
           "talent_spell_id": 341491,
           "source_spell_id": 413231,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (SP mod: 0.8505)",
+          "effect_text": "School Damage (2): shadow (SP mod: 0.8505)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -3848,9 +3849,10 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1
@@ -4188,7 +4190,7 @@
           "talent_spell_id": 228260,
           "source_spell_id": 1242189,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (SP mod: 0.9544)",
+          "effect_text": "School Damage (2): shadow (SP mod: 0.9544)",
           "base_value": null,
           "spell_pvp_multiplier": 0.805,
           "amount_kind": "direct",
@@ -4217,9 +4219,8 @@
             }
           ],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -4620,7 +4621,7 @@
           "talent_spell_id": 1231346,
           "source_spell_id": 1242189,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (SP mod: 0.9544)",
+          "effect_text": "School Damage (2): shadow (SP mod: 0.9544)",
           "base_value": null,
           "spell_pvp_multiplier": 0.805,
           "amount_kind": "direct",
@@ -4653,9 +4654,8 @@
             }
           ],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -4743,7 +4743,7 @@
           "talent_spell_id": 73510,
           "source_spell_id": 1231479,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (SP mod: 1.4)",
+          "effect_text": "School Damage (2): shadow (SP mod: 1.4)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4770,9 +4770,10 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1
@@ -5994,7 +5995,7 @@
           "talent_spell_id": 1279354,
           "source_spell_id": 1242189,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (SP mod: 0.9544)",
+          "effect_text": "School Damage (2): shadow (SP mod: 0.9544)",
           "base_value": null,
           "spell_pvp_multiplier": 0.805,
           "amount_kind": "direct",
@@ -6025,9 +6026,8 @@
             }
           ],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -6143,7 +6143,7 @@
           "talent_spell_id": 373280,
           "source_spell_id": 1243105,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (SP mod: 1.82)",
+          "effect_text": "School Damage (2): shadow (SP mod: 1.82)",
           "base_value": null,
           "spell_pvp_multiplier": 0.7,
           "amount_kind": "direct",
@@ -6170,9 +6170,8 @@
             }
           ],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         },
@@ -6182,7 +6181,7 @@
           "talent_spell_id": 373280,
           "source_spell_id": 1243106,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (SP mod: 6.89)",
+          "effect_text": "School Damage (2): shadow (SP mod: 6.89)",
           "base_value": null,
           "spell_pvp_multiplier": 0.7,
           "amount_kind": "direct",
@@ -6209,9 +6208,8 @@
             }
           ],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -6275,7 +6273,7 @@
           "talent_spell_id": 373273,
           "source_spell_id": 373279,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (SP mod: 0.938961)",
+          "effect_text": "School Damage (2): shadow (SP mod: 0.938961)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6302,9 +6300,10 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0
@@ -6364,8 +6363,36 @@
           "dependency_kind": "EMBEDDED",
           "talent_spell_id": 377349,
           "source_spell_id": 193473,
+          "effect_index": 3,
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "base_value": -30.0,
+          "spell_pvp_multiplier": 0.666667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.666667,
+          "final_pvp_value": -20.00001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            377349,
+            193473
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "simc",
+            "drustvar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 377349,
+          "source_spell_id": 193473,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Damage",
+          "effect_text": "Apply Aura (6) | Periodic Damage (3): shadow every 2 seconds (SP mod: 0.6436)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -6392,36 +6419,8 @@
             }
           ],
           "sources": [
-            "wowhead"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "EMBEDDED",
-          "talent_spell_id": 377349,
-          "source_spell_id": 193473,
-          "effect_index": 3,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
-          "base_value": -30.0,
-          "spell_pvp_multiplier": 0.666667,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.666667,
-          "final_pvp_value": -20.00001,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            377349,
-            193473
-          ],
-          "dependency_relations": [
-            "spelldesc_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         },
@@ -6431,7 +6430,7 @@
           "talent_spell_id": 377349,
           "source_spell_id": 394979,
           "effect_index": 2,
-          "effect_text": "School Damage (Shadow) (SP mod: 0.42925)",
+          "effect_text": "School Damage (2): shadow (SP mod: 0.42925)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6460,9 +6459,10 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0
@@ -6569,7 +6569,7 @@
           "talent_spell_id": 1264104,
           "source_spell_id": 1264177,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (SP mod: 1.5)",
+          "effect_text": "School Damage (2): shadow (SP mod: 1.5)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6596,9 +6596,10 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0
@@ -6731,7 +6732,7 @@
           "talent_spell_id": 120644,
           "source_spell_id": 120692,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 1.61)",
+          "effect_text": "Direct Heal (10) (SP mod: 1.61)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6758,9 +6759,10 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -6768,7 +6770,7 @@
           "talent_spell_id": 120644,
           "source_spell_id": 390964,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (SP mod: 1.442)",
+          "effect_text": "School Damage (2): shadow (SP mod: 1.442)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6804,9 +6806,10 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -6814,7 +6817,7 @@
           "talent_spell_id": 120644,
           "source_spell_id": 120696,
           "effect_index": 1,
-          "effect_text": "School Damage (Holy) (SP mod: 1.442)",
+          "effect_text": "School Damage (2): holy (SP mod: 1.442)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6854,9 +6857,10 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1
@@ -7024,7 +7028,7 @@
           "talent_spell_id": 453783,
           "source_spell_id": 391403,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Damage",
+          "effect_text": "Apply Aura (6) | Periodic Damage (3): shadow every 0.375 seconds (SP mod: 1.3559)",
           "base_value": null,
           "spell_pvp_multiplier": 0.875,
           "amount_kind": "periodic",
@@ -7051,9 +7055,8 @@
             }
           ],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         },
@@ -7063,7 +7066,7 @@
           "talent_spell_id": 453783,
           "source_spell_id": 391403,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -70.0,
           "spell_pvp_multiplier": 0.714286,
           "amount_kind": null,
@@ -7080,9 +7083,8 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "confidence": "high"
         }
@@ -7945,7 +7947,7 @@
           "talent_spell_id": 263165,
           "source_spell_id": 447448,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (SP mod: 0.6)",
+          "effect_text": "School Damage (2): shadow (SP mod: 0.6)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7974,9 +7976,10 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1
@@ -8190,7 +8193,7 @@
           "talent_spell_id": 450405,
           "source_spell_id": 450215,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (SP mod: 1.5)",
+          "effect_text": "School Damage (2): shadow (SP mod: 1.5)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8217,9 +8220,10 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8227,7 +8231,7 @@
           "talent_spell_id": 450405,
           "source_spell_id": 450983,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (SP mod: 2.1)",
+          "effect_text": "School Damage (2): shadow (SP mod: 2.1)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8263,9 +8267,10 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0
@@ -8674,7 +8679,7 @@
           "talent_spell_id": 451234,
           "source_spell_id": 451435,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow)",
+          "effect_text": "School Damage (2): shadow (SP mod: 1)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8703,9 +8708,10 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0
@@ -9217,7 +9223,7 @@
           "talent_spell_id": 448403,
           "source_spell_id": 448405,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (SP mod: 4.4)",
+          "effect_text": "School Damage (2): shadow (SP mod: 4.4)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9244,9 +9250,10 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0
@@ -9254,7 +9261,7 @@
   ],
   "fetch_errors": [],
   "slug": "priest-shadow",
-  "generated_at": "2026-09-20T01:07:09.326708+00:00",
+  "generated_at": "2026-09-20T07:04:20.500639+00:00",
   "validation": {
     "talents": 138,
     "changed_tooltips": 15,
@@ -9267,11 +9274,37 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 19,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 120692,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=120692'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 120696,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=120696'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 193473,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=193473'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 373279,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=373279'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 390964,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=390964'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }

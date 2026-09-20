@@ -8538,7 +8538,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "warrior-fury",
-  "generated_at": "2026-09-20T01:13:01.209728+00:00",
+  "generated_at": "2026-09-20T07:12:51.862472+00:00",
   "validation": {
     "talents": 122,
     "changed_tooltips": 17,

@@ -1297,7 +1297,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1270827,
           "source_spell_id": 44461,
           "effect_index": 2,
-          "effect_text": "School Damage (Fire) (SP mod: 0.268)",
+          "effect_text": "School Damage (2): fire (SP mod: 0.268)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -1328,9 +1328,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8685,8 +8686,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 451035,
         "icon": "inv_ragnaros_heart"
       },
-      "pve_tooltip": "Pyroblast damage increased by 3%.\nFlamestrike damage increased by 3%.",
-      "pvp_tooltip": "Pyroblast damage increased by 3%.\nFlamestrike damage increased by 3%.",
+      "pve_tooltip": "Talent\nRequires Mage\nPyroblast damage increased by 3%.\nFlamestrike damage increased by 3%.",
+      "pvp_tooltip": "Talent\nRequires Mage\nPyroblast damage increased by 3%.\nFlamestrike damage increased by 3%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -9680,7 +9681,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "mage-fire",
-  "generated_at": "2026-09-20T01:00:24.822388+00:00",
+  "generated_at": "2026-09-20T06:58:22.329864+00:00",
   "validation": {
     "talents": 127,
     "changed_tooltips": 23,
@@ -9693,11 +9694,22 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 2,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 451035,
+        "error": "RemoteProtocolError: <ConnectionTerminated error_code:0, last_stream_id:317, additional_data:None>"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 44461,
+        "error": "RemoteProtocolError: <ConnectionTerminated error_code:0, last_stream_id:1, additional_data:None>"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }
