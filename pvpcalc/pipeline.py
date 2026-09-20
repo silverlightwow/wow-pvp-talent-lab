@@ -64,6 +64,7 @@ class SpecAuditResult:
     # --------------------------------------------------------
 
     simc_build: str | None = None
+    simc_tooltip_fallbacks: dict[int, dict] = field(default_factory=dict)
 
     dependencies: list[Any] = field(
         default_factory=list
@@ -4202,6 +4203,14 @@ async def audit_spec(
     )
 
 
+    for spell_id in result.spell_ids:
+        fallback = simc.simple_player_description(
+            simc_dump, spell_id, class_name=class_name, spec_name=spec_name,
+            spec_names=result.metadata.get("classSpecNames", [spec_name]),
+        )
+        if fallback is not None:
+            result.simc_tooltip_fallbacks[spell_id] = fallback
+
     for note in result.unresolved_rows:
         if note.get("reason") != "SUPERSEDED_DRUSTVAR_EFFECT":
             continue
@@ -4211,4 +4220,3 @@ async def audit_spec(
                 row.setdefault("source_notes", []).append(note)
 
     return result
-

@@ -78,6 +78,8 @@ def _spec_label(
         .rstrip(",")
         .casefold()
     )
+    # Wowhead also labels branches such as "Holy (Ultimate Serenity)".
+    normalized = re.sub(r"\s+\([^()]+\)$", "", normalized)
 
     return _spec_names_map(
         spec_names

@@ -1009,3 +1009,12 @@ def test_sign_flip_without_directional_prose_still_requires_review():
 
     assert result["render_status"] == "REVIEW_REQUIRED"
     assert result["pvp_tooltip"] == tooltip
+
+
+def test_qualified_spec_heading_does_not_leave_holy_under_shadow():
+    text = 'Shadow\nCasting Mind Flay conjures apparitions.\nHoly (Ultimate Serenity)\nConsuming Surge of Light reduces the cooldown by 4 sec.'
+    holy = tooltip_renderer.tooltip_for_spec(text, 'Holy', ['Discipline', 'Holy', 'Shadow'])
+    assert 'Consuming Surge of Light' in holy
+    assert 'Mind Flay' not in holy
+    shadow = tooltip_renderer.tooltip_for_spec(text, 'Shadow', ['Discipline', 'Holy', 'Shadow'])
+    assert 'Surge of Light' not in shadow

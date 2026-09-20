@@ -1029,6 +1029,52 @@ def _player_text_sections(
     return result
 
 
+def simple_player_description(dump, spell_id, *, class_name, spec_name, spec_names):
+    """Resolve only literal base values and proven class-specialization branches.
+
+    Used when the tooltip service omits a specialization. Unknown conditions,
+    formulas, scaling, or applicable specialization modifiers fail closed.
+    """
+    spell = dump.spells.get(spell_id)
+    if spell is None:
+        return None
+    description = re.search(r"^Description\s*:\s*(.*)", spell.raw, re.M)
+    if description is None:
+        return None
+    text = "\n".join(_player_text_sections(spell.raw[description.start():]))
+    spec_auras = {
+        s.spell_id: name for s in dump.spells.values() for name in spec_names
+        if s.name == f"{name} {class_name}"
+        and re.search(r"^Class\s*:\s*" + re.escape(s.name) + r"\s*$", s.raw, re.M)
+    }
+    condition = re.compile(r"\$\?a(\d+)\[([^\[\]]*)\]\[([^\[\]]*)\]")
+    def branch(match):
+        aura = int(match[1])
+        if aura not in spec_auras:
+            raise ValueError("Unknown talent condition")
+        return match[2] if spec_auras[aura] == spec_name else match[3]
+    effects = parse_spell_effects(spell)
+    def value(index):
+        effect = effects.get(int(index))
+        if effect is None or effect.base_value is None or effect.sp_coefficient or effect.ap_coefficient:
+            raise ValueError("Not a literal effect")
+        for aura, name in spec_auras.items():
+            if name == spec_name and re.search(r"Modified By:.*\(" + str(aura) + r" effect#", spell.raw):
+                raise ValueError("Specialization modifies the base value")
+        return effect.base_value
+    try:
+        text = condition.sub(branch, text)
+        text = re.sub(r"\$\{\$s(\d+)/(-?\d+(?:\.\d+)?)\}",
+                      lambda m: f"{value(m[1]) / float(m[2]):g}", text)
+        text = re.sub(r"\$s(\d+)\b", lambda m: f"{value(m[1]):g}", text)
+    except (ValueError, ZeroDivisionError):
+        return None
+    if "$" in text or not text.strip():
+        return None
+    return {"text": text.strip(), "source": "simc_exact_build", "build": dump.build,
+            "spell_id": spell_id, "raw": spell.raw}
+
+
 def _variable_definitions(
     raw: str,
 ) -> dict[str, str]:

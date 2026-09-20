@@ -530,6 +530,13 @@ async def build_spec_catalog(
             else ""
         )
 
+        fallback_note = None
+        if not tooltip_renderer.tooltip_for_spec(pve_tooltip, audit.spec_name, audit.metadata.get("classSpecNames")).strip():
+            fallback = audit.simc_tooltip_fallbacks.get(spell_id)
+            if fallback:
+                pve_tooltip = fallback["text"]
+                fallback_note = {"status": "EXACT_BUILD_DESCRIPTION", **fallback}
+
 
         render_rows = (
             render_by_talent.get(
@@ -563,6 +570,9 @@ async def build_spec_catalog(
                     ),
             )
         )
+
+        if fallback_note:
+            rendered["diagnostics"].append(fallback_note)
 
 
         mechanic_rows = (
@@ -636,7 +646,7 @@ async def build_spec_catalog(
                 render_status=
                     _render_status(
                         tooltip=
-                            pve_tooltip,
+                            rendered["pve_tooltip"],
 
                         render_result=
                             rendered,

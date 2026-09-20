@@ -37,3 +37,24 @@ def test_player_text_stops_at_metadata_and_keeps_unindented_paragraphs():
     assert simc._player_text_sections(raw) == [
         'First $s1%.', 'Second $s2%.', 'Active.', 'Continued $s3%.',
     ]
+
+
+def test_exact_build_fills_omitted_blood_description_without_frost_modifier():
+    from pvpcalc.sources.simc import parse_dump, simple_player_description
+    from pathlib import Path
+    dump = parse_dump(Path('tests/fixtures/simc-207200.txt').read_text(), class_slug='deathknight')
+    result = simple_player_description(dump, 207200, class_name='Death Knight', spec_name='Blood', spec_names=['Blood', 'Frost', 'Unholy'])
+    assert result['text'] == 'Your auto attack damage grants you an absorb shield equal to 50% of the damage dealt.'
+    # Frost changes that base value; this narrow fallback must not ignore it.
+    assert simple_player_description(dump, 207200, class_name='Death Knight', spec_name='Frost', spec_names=['Blood', 'Frost', 'Unholy']) is None
+
+
+def test_exact_build_subterfuge_uses_proven_spec_condition_and_keeps_paragraphs():
+    from pvpcalc.sources.simc import parse_dump, simple_player_description
+    from pathlib import Path
+    dump = parse_dump(Path('tests/fixtures/simc-108208.txt').read_text(), class_slug='rogue')
+    def render(spec, names=('Assassination', 'Outlaw', 'Subtlety')):
+        return simple_player_description(dump, 108208, class_name='Rogue', spec_name=spec, spec_names=names)
+    assert render('Outlaw')['text'].count('3 sec') == 2
+    assert render('Subtlety')['text'].count('2 sec') == 2
+    assert render('Outlaw', ('Outlaw',)) is None  # Unidentified conditions cannot be guessed.
