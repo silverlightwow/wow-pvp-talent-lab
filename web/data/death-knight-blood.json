@@ -34,6 +34,7 @@
         "pos_x": 3000,
         "pos_y": 1200,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": true,
         "free_node": false,
         "prev": [],
@@ -85,6 +86,7 @@
         "pos_x": 4200,
         "pos_y": 1200,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": true,
         "free_node": true,
         "prev": [],
@@ -168,6 +170,7 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         },
         {
@@ -205,6 +208,7 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -237,6 +241,7 @@
         "pos_x": 5400,
         "pos_y": 1200,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": true,
         "free_node": false,
         "prev": [],
@@ -288,6 +293,7 @@
         "pos_x": 3000,
         "pos_y": 1800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -343,6 +349,7 @@
         "pos_x": 4200,
         "pos_y": 1800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -398,6 +405,7 @@
         "pos_x": 5400,
         "pos_y": 1800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -453,6 +461,7 @@
         "pos_x": 2400,
         "pos_y": 2400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -507,6 +516,7 @@
         "pos_x": 3000,
         "pos_y": 2400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -524,10 +534,21 @@
         "icon": "spell_frost_chillingblast"
       },
       "pve_tooltip": "Instant\n1 min cooldown\nTargets in a cone in front of you are blinded, causing them to wander disoriented for 5 sec. Damage may cancel the effect.\nWhen Blinding Sleet ends, enemies are slowed by 50% for 6 sec.",
-      "pvp_tooltip": "Instant\n1 min cooldown\nTargets in a cone in front of you are blinded, causing them to wander disoriented for 5 sec. Damage may cancel the effect.\nWhen Blinding Sleet ends, enemies are slowed by 50% for 6 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pvp_tooltip": "Instant\n1 min cooldown\nTargets in a cone in front of you are blinded, causing them to wander disoriented for 5 sec. Damage may cancel the effect.\nWhen Blinding Sleet ends, enemies are slowed by 30% for 6 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 194,
+          "end": 196,
+          "old_token": "50",
+          "new_token": "30",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
@@ -538,6 +559,15 @@
           "old": 60.0,
           "new": 49.99998,
           "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "50",
+          "new": "30"
         }
       ],
       "has_pvp_mechanics": true,
@@ -564,6 +594,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -593,10 +624,11 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 2
     },
     {
       "talent_name": "Gloom Ward",
@@ -625,6 +657,7 @@
         "pos_x": 3600,
         "pos_y": 2400,
         "max_ranks": 2,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -681,6 +714,7 @@
         "pos_x": 4200,
         "pos_y": 2400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -734,6 +768,7 @@
         "pos_x": 4200,
         "pos_y": 2400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -787,6 +822,7 @@
         "pos_x": 4800,
         "pos_y": 2400,
         "max_ranks": 2,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -843,6 +879,7 @@
         "pos_x": 5400,
         "pos_y": 2400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -896,6 +933,7 @@
         "pos_x": 6000,
         "pos_y": 2400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -988,6 +1026,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -1017,6 +1056,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -1049,6 +1089,7 @@
         "pos_x": 2400,
         "pos_y": 3000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1102,6 +1143,7 @@
         "pos_x": 3000,
         "pos_y": 3000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1157,6 +1199,7 @@
         "pos_x": 3600,
         "pos_y": 3000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1175,12 +1218,21 @@
         "spell_id": 207200,
         "icon": "achievement_zone_frostfire"
       },
-      "pve_tooltip": "",
-      "pvp_tooltip": "",
+      "pve_tooltip": "Your auto attack damage grants you an absorb shield equal to 50% of the damage dealt.",
+      "pvp_tooltip": "Your auto attack damage grants you an absorb shield equal to 50% of the damage dealt.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
+      "diagnostics": [
+        {
+          "status": "EXACT_BUILD_DESCRIPTION",
+          "text": "Your auto attack damage grants you an absorb shield equal to 50% of the damage dealt.",
+          "source": "simc_exact_build",
+          "build": "12.1.0.69875",
+          "spell_id": 207200,
+          "raw": "Name             : Permafrost (id=207200) [Spell Family (15), Passive] \r\nTalent Entry     : Generic [tree=class, row=4, col=3, max_rank=1, req_points=0]\r\nClass            : Death Knight\r\nSchool           : Physical\r\nSpell Type       : None\r\nSpell Level      : 1\r\nLabels           : 16: Class Spells\r\n                 : 27: Death Knight Spells\r\n                 : 117\r\n                 : 292\r\n                 : 4360: Frost Death Knight (137006 effect#9), Unholy Death Knight (137007 effect#7), Frigid Resolve (1265859 effect#1), Frigid Resolve (1265859 effect#2)\r\nProc Chance      : 100%\r\nProc Flags       : White Melee\r\nAttributes       : Is Ability (4), Passive (6), Not In Spellbook (143), Do Not Log on Learn (355), Allow Class Ability Procs (416)\r\nEffects          :\r\n#1 (id=306445)   : Apply Aura (6) | Dummy (4)\r\n                   Base Value: 50 | Scaled Value: 50 | Target: Self (1)\r\n                   Modified By: Frost Death Knight (137006 effect#9), Unholy Death Knight (137007 effect#7), Frigid Resolve (1265859 effect#1), Frigid Resolve (1265859 effect#2)\r\nDescription      : Your auto attack damage grants you an absorb shield equal to $s1% of the damage dealt.\r\n\r\n"
+        }
+      ],
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0
@@ -1212,6 +1264,7 @@
         "pos_x": 4200,
         "pos_y": 3000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1281,6 +1334,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -1313,6 +1367,7 @@
         "pos_x": 4800,
         "pos_y": 3000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1368,6 +1423,7 @@
         "pos_x": 5400,
         "pos_y": 3000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1423,6 +1479,7 @@
         "pos_x": 6000,
         "pos_y": 3000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1476,6 +1533,7 @@
         "pos_x": 3000,
         "pos_y": 3600,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1532,6 +1590,7 @@
         "pos_x": 3600,
         "pos_y": 3600,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1585,6 +1644,7 @@
         "pos_x": 4200,
         "pos_y": 3600,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1642,6 +1702,7 @@
         "pos_x": 4800,
         "pos_y": 3600,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1695,6 +1756,7 @@
         "pos_x": 5400,
         "pos_y": 3600,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1751,6 +1813,7 @@
         "pos_x": 2400,
         "pos_y": 4200,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1804,6 +1867,7 @@
         "pos_x": 3600,
         "pos_y": 4200,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1860,6 +1924,7 @@
         "pos_x": 3600,
         "pos_y": 4200,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1916,6 +1981,7 @@
         "pos_x": 4200,
         "pos_y": 4200,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1969,6 +2035,7 @@
         "pos_x": 4800,
         "pos_y": 4200,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2039,6 +2106,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -2071,6 +2139,7 @@
         "pos_x": 6000,
         "pos_y": 4200,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2124,6 +2193,7 @@
         "pos_x": 3000,
         "pos_y": 4800,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2179,6 +2249,7 @@
         "pos_x": 4200,
         "pos_y": 4800,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2235,6 +2306,7 @@
         "pos_x": 5400,
         "pos_y": 4800,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2290,6 +2362,7 @@
         "pos_x": 2400,
         "pos_y": 5400,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2343,6 +2416,7 @@
         "pos_x": 3600,
         "pos_y": 5400,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2398,6 +2472,7 @@
         "pos_x": 4800,
         "pos_y": 5400,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2453,6 +2528,7 @@
         "pos_x": 6000,
         "pos_y": 5400,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2506,6 +2582,7 @@
         "pos_x": 3000,
         "pos_y": 6000,
         "max_ranks": 2,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2561,6 +2638,7 @@
         "pos_x": 4200,
         "pos_y": 6000,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2616,6 +2694,7 @@
         "pos_x": 5400,
         "pos_y": 6000,
         "max_ranks": 2,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2685,6 +2764,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -2717,6 +2797,7 @@
         "pos_x": 2400,
         "pos_y": 6600,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2801,6 +2882,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -2825,6 +2907,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -2857,6 +2940,7 @@
         "pos_x": 3600,
         "pos_y": 6600,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2909,6 +2993,7 @@
         "pos_x": 4800,
         "pos_y": 6600,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2961,6 +3046,7 @@
         "pos_x": 6000,
         "pos_y": 6600,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3031,6 +3117,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -3063,6 +3150,7 @@
         "pos_x": 12600,
         "pos_y": 1200,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": true,
         "free_node": false,
         "prev": [],
@@ -3115,6 +3203,7 @@
         "pos_x": 12000,
         "pos_y": 1800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3168,6 +3257,7 @@
         "pos_x": 13200,
         "pos_y": 1800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3221,6 +3311,7 @@
         "pos_x": 12000,
         "pos_y": 2400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3275,6 +3366,7 @@
         "pos_x": 13200,
         "pos_y": 2400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3329,6 +3421,7 @@
         "pos_x": 11400,
         "pos_y": 3000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3384,6 +3477,7 @@
         "pos_x": 12000,
         "pos_y": 3000,
         "max_ranks": 2,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3438,6 +3532,7 @@
         "pos_x": 13200,
         "pos_y": 3000,
         "max_ranks": 2,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3492,6 +3587,7 @@
         "pos_x": 13800,
         "pos_y": 3000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3547,6 +3643,7 @@
         "pos_x": 10800,
         "pos_y": 3600,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3601,6 +3698,7 @@
         "pos_x": 11400,
         "pos_y": 3600,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3654,6 +3752,7 @@
         "pos_x": 12000,
         "pos_y": 3600,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3709,6 +3808,7 @@
         "pos_x": 12600,
         "pos_y": 3600,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3765,6 +3865,7 @@
         "pos_x": 13200,
         "pos_y": 3600,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3820,6 +3921,7 @@
         "pos_x": 13800,
         "pos_y": 3600,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3873,6 +3975,7 @@
         "pos_x": 14400,
         "pos_y": 3600,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3927,6 +4030,7 @@
         "pos_x": 11400,
         "pos_y": 4200,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3983,6 +4087,7 @@
         "pos_x": 11400,
         "pos_y": 4200,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4039,6 +4144,7 @@
         "pos_x": 12000,
         "pos_y": 4200,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4093,6 +4199,7 @@
         "pos_x": 12600,
         "pos_y": 4200,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4148,6 +4255,7 @@
         "pos_x": 13200,
         "pos_y": 4200,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4202,6 +4310,7 @@
         "pos_x": 13800,
         "pos_y": 4200,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4258,6 +4367,7 @@
         "pos_x": 10800,
         "pos_y": 4800,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4312,6 +4422,7 @@
         "pos_x": 12000,
         "pos_y": 4800,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4369,6 +4480,7 @@
         "pos_x": 12600,
         "pos_y": 4800,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4422,6 +4534,7 @@
         "pos_x": 13200,
         "pos_y": 4800,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4479,6 +4592,7 @@
         "pos_x": 14400,
         "pos_y": 4800,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4533,6 +4647,7 @@
         "pos_x": 11400,
         "pos_y": 5400,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4587,6 +4702,7 @@
         "pos_x": 12000,
         "pos_y": 5400,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4640,6 +4756,7 @@
         "pos_x": 12600,
         "pos_y": 5400,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4697,6 +4814,7 @@
         "pos_x": 13200,
         "pos_y": 5400,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4750,6 +4868,7 @@
         "pos_x": 13800,
         "pos_y": 5400,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4804,6 +4923,7 @@
         "pos_x": 11400,
         "pos_y": 6000,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4857,6 +4977,7 @@
         "pos_x": 12000,
         "pos_y": 6000,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4911,6 +5032,7 @@
         "pos_x": 12600,
         "pos_y": 6000,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4962,6 +5084,7 @@
         "pos_x": 13200,
         "pos_y": 6000,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5016,6 +5139,7 @@
         "pos_x": 13800,
         "pos_y": 6000,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5069,6 +5193,7 @@
         "pos_x": 11400,
         "pos_y": 6600,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5120,6 +5245,7 @@
         "pos_x": 12000,
         "pos_y": 6600,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5171,6 +5297,7 @@
         "pos_x": 13200,
         "pos_y": 6600,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5222,6 +5349,7 @@
         "pos_x": 13800,
         "pos_y": 6600,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5273,6 +5401,7 @@
         "pos_x": 12600,
         "pos_y": 7350,
         "max_ranks": 4,
+        "required_points": 20,
         "entry_node": true,
         "free_node": false,
         "prev": [],
@@ -5322,6 +5451,7 @@
         "pos_x": 12600,
         "pos_y": 7350,
         "max_ranks": 4,
+        "required_points": 20,
         "entry_node": true,
         "free_node": false,
         "prev": [],
@@ -5371,6 +5501,7 @@
         "pos_x": 12600,
         "pos_y": 7350,
         "max_ranks": 4,
+        "required_points": 20,
         "entry_node": true,
         "free_node": false,
         "prev": [],
@@ -5420,6 +5551,7 @@
         "pos_x": 8100,
         "pos_y": 1200,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": true,
         "free_node": true,
         "prev": [],
@@ -5438,10 +5570,21 @@
         "icon": "inv_ability_deathbringerdeathknight_reapersmark"
       },
       "pve_tooltip": "2 Runes\nMelee Range\nInstant\n45 sec cooldown\nViciously slice into the soul of your enemy, dealing (442.26% of Attack Power) Shadowfrost damage and applying Reaper's Mark.\nEach time you deal Shadow or Frost damage, add a stack of Reaper's Mark. After 12 sec or reaching 40 stacks, the mark explodes, dealing (45.348% of Attack Power) damage per stack.\nReaper's Mark travels to an unmarked enemy nearby if the target dies.",
-      "pvp_tooltip": "2 Runes\nMelee Range\nInstant\n45 sec cooldown\nViciously slice into the soul of your enemy, dealing (442.26% of Attack Power) Shadowfrost damage and applying Reaper's Mark.\nEach time you deal Shadow or Frost damage, add a stack of Reaper's Mark. After 12 sec or reaching 40 stacks, the mark explodes, dealing (45.348% of Attack Power) damage per stack.\nReaper's Mark travels to an unmarked enemy nearby if the target dies.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pvp_tooltip": "2 Runes\nMelee Range\nInstant\n45 sec cooldown\nViciously slice into the soul of your enemy, dealing (442.26% of Attack Power) Shadowfrost damage and applying Reaper's Mark.\nEach time you deal Shadow or Frost damage, add a stack of Reaper's Mark. After 12 sec or reaching 40 stacks, the mark explodes, dealing (25.1681% of Attack Power) damage per stack.\nReaper's Mark travels to an unmarked enemy nearby if the target dies.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 307,
+          "end": 313,
+          "old_token": "45.348",
+          "new_token": "25.1681",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
@@ -5452,6 +5595,25 @@
           "old": 234.0,
           "new": 187.20000000000002,
           "full_tooltip_match_count": 1
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "attack_power_coefficient",
+          "old": 30.364,
+          "new": 16.841908788,
+          "full_tooltip_match_count": 1
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "45.348",
+          "new": "25.1681"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5478,6 +5640,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -5506,6 +5669,7 @@
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         },
         {
@@ -5534,10 +5698,11 @@
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 3
     },
     {
       "talent_name": "Vampiric Strike",
@@ -5566,6 +5731,7 @@
         "pos_x": 15600,
         "pos_y": 1200,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": true,
         "free_node": true,
         "prev": [],
@@ -5620,6 +5786,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -5651,6 +5818,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -5683,6 +5851,7 @@
         "pos_x": 7200,
         "pos_y": 1800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5764,6 +5933,7 @@
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         },
         {
@@ -5792,6 +5962,7 @@
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         }
       ],
@@ -5824,6 +5995,7 @@
         "pos_x": 7800,
         "pos_y": 1800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5901,6 +6073,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -5925,6 +6098,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -5949,6 +6123,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -5972,6 +6147,7 @@
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -6004,6 +6180,7 @@
         "pos_x": 8400,
         "pos_y": 1800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6057,6 +6234,7 @@
         "pos_x": 9000,
         "pos_y": 1800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6110,6 +6288,7 @@
         "pos_x": 14700,
         "pos_y": 1800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6163,6 +6342,7 @@
         "pos_x": 14700,
         "pos_y": 1800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6216,6 +6396,7 @@
         "pos_x": 15300,
         "pos_y": 1800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6269,6 +6450,7 @@
         "pos_x": 15300,
         "pos_y": 1800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6322,6 +6504,7 @@
         "pos_x": 15900,
         "pos_y": 1800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6375,6 +6558,7 @@
         "pos_x": 15900,
         "pos_y": 1800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6428,6 +6612,7 @@
         "pos_x": 16500,
         "pos_y": 1800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6481,6 +6666,7 @@
         "pos_x": 7200,
         "pos_y": 2400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6534,6 +6720,7 @@
         "pos_x": 7800,
         "pos_y": 2400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6587,6 +6774,7 @@
         "pos_x": 8400,
         "pos_y": 2400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6654,6 +6842,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -6686,6 +6875,7 @@
         "pos_x": 8400,
         "pos_y": 2400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6749,6 +6939,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -6778,6 +6969,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -6810,6 +7002,7 @@
         "pos_x": 9000,
         "pos_y": 2400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6863,6 +7056,7 @@
         "pos_x": 14700,
         "pos_y": 2400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6916,6 +7110,7 @@
         "pos_x": 15300,
         "pos_y": 2400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6991,6 +7186,7 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -7023,6 +7219,7 @@
         "pos_x": 15900,
         "pos_y": 2400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7076,6 +7273,7 @@
         "pos_x": 16500,
         "pos_y": 2400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7129,6 +7327,7 @@
         "pos_x": 7200,
         "pos_y": 3000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7182,6 +7381,7 @@
         "pos_x": 7800,
         "pos_y": 3000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7235,6 +7435,7 @@
         "pos_x": 7800,
         "pos_y": 3000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7288,6 +7489,7 @@
         "pos_x": 8400,
         "pos_y": 3000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7341,6 +7543,7 @@
         "pos_x": 8400,
         "pos_y": 3000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7413,6 +7616,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -7445,6 +7649,7 @@
         "pos_x": 9000,
         "pos_y": 3000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7498,6 +7703,7 @@
         "pos_x": 14700,
         "pos_y": 3000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7551,6 +7757,7 @@
         "pos_x": 15300,
         "pos_y": 3000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7604,6 +7811,7 @@
         "pos_x": 15900,
         "pos_y": 3000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7657,6 +7865,7 @@
         "pos_x": 15900,
         "pos_y": 3000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7710,6 +7919,7 @@
         "pos_x": 16500,
         "pos_y": 3000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7782,6 +7992,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -7812,6 +8023,7 @@
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         },
         {
@@ -7842,6 +8054,7 @@
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         },
         {
@@ -7872,6 +8085,7 @@
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         },
         {
@@ -7902,6 +8116,7 @@
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         }
       ],
@@ -7934,6 +8149,7 @@
         "pos_x": 8100,
         "pos_y": 3600,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7952,11 +8168,71 @@
         "icon": "inv_polearm_2h_titanargus_d_01"
       },
       "pve_tooltip": "After Reaper's Mark explodes, your next 2 Marrowrends cost 1 Rune and summon 2 scythes to strike your enemies.\nThe first scythe strikes your target for (1030.25% of Attack Power) Shadowfrost damage and the second scythe strikes all enemies around your target for (469.2% of Attack Power) Shadowfrost damage\n[and applies Frost Fever]. Deals reduced damage beyond 8 targets.",
-      "pvp_tooltip": "After Reaper's Mark explodes, your next 2 Marrowrends cost 1 Rune and summon 2 scythes to strike your enemies.\nThe first scythe strikes your target for (1030.25% of Attack Power) Shadowfrost damage and the second scythe strikes all enemies around your target for (469.2% of Attack Power) Shadowfrost damage\n[and applies Frost Fever]. Deals reduced damage beyond 8 targets.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "After Reaper's Mark explodes, your next 2 Marrowrends cost 1 Rune and summon 2 scythes to strike your enemies.\nThe first scythe strikes your target for (721.175% of Attack Power) Shadowfrost damage and the second scythe strikes all enemies around your target for (328.44% of Attack Power) Shadowfrost damage\n[and applies Frost Fever]. Deals reduced damage beyond 8 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 153,
+          "end": 160,
+          "old_token": "1030.25",
+          "new_token": "721.175",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 264,
+          "end": 269,
+          "old_token": "469.2",
+          "new_token": "328.44",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "attack_power_coefficient",
+          "old": 440.205,
+          "new": 374.17425,
+          "full_tooltip_match_count": 1
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "attack_power_coefficient",
+          "old": 178.008,
+          "new": 151.3068,
+          "full_tooltip_match_count": 1
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "1030.25",
+          "new": "721.175"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "469.2",
+          "new": "328.44"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7986,6 +8262,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -8015,6 +8292,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -8044,6 +8322,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -8073,10 +8352,11 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 4
     },
     {
       "talent_name": "Gift of the San'layn",
@@ -8105,6 +8385,7 @@
         "pos_x": 15600,
         "pos_y": 3600,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8134,11 +8415,12 @@
     }
   ],
   "fetch_errors": [],
+  "source_warnings": [],
   "slug": "death-knight-blood",
-  "generated_at": "2026-09-20T06:50:02.967996+00:00",
+  "generated_at": "2026-09-20T09:47:14.699876+00:00",
   "validation": {
     "talents": 125,
-    "changed_tooltips": 13,
+    "changed_tooltips": 16,
     "talents_with_pvp_mechanics": 18,
     "unique_nodes": 113,
     "tree_build": "12.1.0.69875",

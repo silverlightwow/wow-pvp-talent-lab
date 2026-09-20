@@ -34,6 +34,7 @@
         "pos_x": 3000,
         "pos_y": 1500,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": true,
         "free_node": false,
         "prev": [],
@@ -108,6 +109,7 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -140,6 +142,7 @@
         "pos_x": 4200,
         "pos_y": 1500,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": true,
         "free_node": true,
         "prev": [],
@@ -192,6 +195,7 @@
         "pos_x": 5400,
         "pos_y": 1500,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": true,
         "free_node": true,
         "prev": [],
@@ -241,6 +245,7 @@
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -249,7 +254,7 @@
           "talent_spell_id": 107428,
           "source_spell_id": 185099,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 1.438)",
+          "effect_text": "School Damage (Physical) (AP mod: 1.438 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -276,10 +281,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0
@@ -311,6 +316,7 @@
         "pos_x": 2400,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -365,6 +371,7 @@
         "pos_x": 3600,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -421,6 +428,7 @@
         "pos_x": 4800,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -475,7 +483,7 @@
           "talent_spell_id": 450335,
           "source_spell_id": 450342,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -40.0,
           "spell_pvp_multiplier": 0.75,
           "amount_kind": null,
@@ -492,9 +500,11 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -527,6 +537,7 @@
         "pos_x": 4800,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -583,6 +594,7 @@
         "pos_x": 6000,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -637,6 +649,7 @@
         "pos_x": 3000,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -693,6 +706,7 @@
         "pos_x": 3600,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -746,6 +760,7 @@
         "pos_x": 4200,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -802,6 +817,7 @@
         "pos_x": 4800,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -855,6 +871,7 @@
         "pos_x": 5400,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -911,6 +928,7 @@
         "pos_x": 2400,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -966,6 +984,7 @@
         "pos_x": 2400,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1021,6 +1040,7 @@
         "pos_x": 3000,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1072,7 +1092,7 @@
           "talent_spell_id": 1266719,
           "source_spell_id": 1266720,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 3.75)",
+          "effect_text": "Heal (SP mod: 3.75)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -1099,10 +1119,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -1134,6 +1154,7 @@
         "pos_x": 3600,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1190,6 +1211,7 @@
         "pos_x": 4200,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1243,6 +1265,7 @@
         "pos_x": 4800,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1299,6 +1322,7 @@
         "pos_x": 5400,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1352,6 +1376,7 @@
         "pos_x": 6000,
         "pos_y": 3300,
         "max_ranks": 2,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1407,6 +1432,7 @@
         "pos_x": 3000,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1480,7 +1506,7 @@
           "talent_spell_id": 450391,
           "source_spell_id": 132463,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (AP mod: 0.6)",
+          "effect_text": "Heal (AP mod: 0.6 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -1507,10 +1533,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -1518,7 +1544,7 @@
           "talent_spell_id": 450391,
           "source_spell_id": 132467,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature (AP mod: 0.2)",
+          "effect_text": "School Damage (Nature) (AP mod: 0.2 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -1545,10 +1571,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 2
@@ -1580,6 +1606,7 @@
         "pos_x": 4200,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1637,6 +1664,7 @@
         "pos_x": 5400,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1693,6 +1721,7 @@
         "pos_x": 5400,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1749,6 +1778,7 @@
         "pos_x": 6000,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1802,6 +1832,7 @@
         "pos_x": 2400,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1857,6 +1888,7 @@
         "pos_x": 2400,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1912,6 +1944,7 @@
         "pos_x": 3600,
         "pos_y": 4500,
         "max_ranks": 2,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1966,6 +1999,7 @@
         "pos_x": 4200,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2021,6 +2055,7 @@
         "pos_x": 4200,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2076,6 +2111,7 @@
         "pos_x": 4800,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2128,7 +2164,7 @@
           "talent_spell_id": 450595,
           "source_spell_id": 450596,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -70.0,
           "spell_pvp_multiplier": 0.714286,
           "amount_kind": null,
@@ -2145,9 +2181,11 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -2180,6 +2218,7 @@
         "pos_x": 5400,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2233,6 +2272,7 @@
         "pos_x": 6000,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2288,6 +2328,7 @@
         "pos_x": 3000,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2344,6 +2385,7 @@
         "pos_x": 3600,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2414,6 +2456,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -2446,6 +2489,7 @@
         "pos_x": 4200,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2499,6 +2543,7 @@
         "pos_x": 4800,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2553,6 +2598,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -2585,6 +2631,7 @@
         "pos_x": 5400,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2654,6 +2701,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -2686,6 +2734,7 @@
         "pos_x": 2400,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2740,6 +2789,7 @@
         "pos_x": 3000,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2794,6 +2844,7 @@
         "pos_x": 3600,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2849,6 +2900,7 @@
         "pos_x": 4200,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2881,7 +2933,7 @@
           "talent_spell_id": 1242910,
           "source_spell_id": 198533,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 1 seconds (SP mod: 0.7)",
+          "effect_text": "Apply Aura: Periodic Heal",
           "base_value": null,
           "spell_pvp_multiplier": 1.6,
           "amount_kind": "periodic",
@@ -2908,9 +2960,11 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -2943,6 +2997,7 @@
         "pos_x": 4200,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2975,7 +3030,7 @@
           "talent_spell_id": 115313,
           "source_spell_id": 198533,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 1 seconds (SP mod: 0.7)",
+          "effect_text": "Apply Aura: Periodic Heal",
           "base_value": null,
           "spell_pvp_multiplier": 1.6,
           "amount_kind": "periodic",
@@ -3002,9 +3057,11 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -3037,6 +3094,7 @@
         "pos_x": 4800,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3092,6 +3150,7 @@
         "pos_x": 4800,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3147,6 +3206,7 @@
         "pos_x": 5400,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3198,6 +3258,7 @@
         "pos_x": 6000,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3252,6 +3313,7 @@
         "pos_x": 3000,
         "pos_y": 6300,
         "max_ranks": 2,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3308,6 +3370,7 @@
         "pos_x": 3600,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3362,6 +3425,7 @@
         "pos_x": 4200,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3417,6 +3481,7 @@
         "pos_x": 4800,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3471,6 +3536,7 @@
         "pos_x": 5400,
         "pos_y": 6300,
         "max_ranks": 2,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3526,6 +3592,7 @@
         "pos_x": 2400,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3581,6 +3648,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -3613,6 +3681,7 @@
         "pos_x": 3600,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3665,6 +3734,7 @@
         "pos_x": 4200,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3718,6 +3788,7 @@
         "pos_x": 4200,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3771,6 +3842,7 @@
         "pos_x": 4800,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3823,6 +3895,7 @@
         "pos_x": 6000,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3874,6 +3947,7 @@
         "pos_x": 12600,
         "pos_y": 1500,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": true,
         "free_node": false,
         "prev": [],
@@ -3950,6 +4024,7 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         },
         {
@@ -3982,6 +4057,7 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -4014,6 +4090,7 @@
         "pos_x": 12000,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4032,11 +4109,51 @@
         "icon": "ability_monk_thunderfocustea"
       },
       "pve_tooltip": "Instant\n30 sec cooldown\n1 Charge\nReceive a jolt of energy, empowering your next\nspell\ncast:\nEnveloping Mist\n: Immediately heals for (748.8% of Spell Power) and is instant cast.\nRenewing Mist\n: Duration increased by 10 sec.\nRising Sun Kick\n: Cooldown reduced by 9 sec.\n[\nThunderous Focus Tea\n:\nCrackling Jade Lightning\n: Knockback applied immediately.\nRoll\n: Refund a charge and heal yourself for (240% of Attack Power)\n]",
-      "pvp_tooltip": "Instant\n30 sec cooldown\n1 Charge\nReceive a jolt of energy, empowering your next\nspell\ncast:\nEnveloping Mist\n: Immediately heals for (748.8% of Spell Power) and is instant cast.\nRenewing Mist\n: Duration increased by 10 sec.\nRising Sun Kick\n: Cooldown reduced by 9 sec.\n[\nThunderous Focus Tea\n:\nCrackling Jade Lightning\n: Knockback applied immediately.\nRoll\n: Refund a charge and heal yourself for (240% of Attack Power)\n]",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Instant\n30 sec cooldown\n1 Charge\nReceive a jolt of energy, empowering your next\nspell\ncast:\nEnveloping Mist\n: Immediately heals for (561.6% of Spell Power) and is instant cast.\nRenewing Mist\n: Duration increased by 10 sec.\nRising Sun Kick\n: Cooldown reduced by 9 sec.\n[\nThunderous Focus Tea\n:\nCrackling Jade Lightning\n: Knockback applied immediately.\nRoll\n: Refund a charge and heal yourself for (180% of Attack Power)\n]",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 133,
+          "end": 138,
+          "old_token": "748.8",
+          "new_token": "561.6",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 397,
+          "end": 400,
+          "old_token": "240",
+          "new_token": "180",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "748.8",
+          "new": "561.6"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "240",
+          "new": "180"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -4045,7 +4162,7 @@
           "talent_spell_id": 116680,
           "source_spell_id": 274062,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 7.488)",
+          "effect_text": "Heal (SP mod: 7.488)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4072,10 +4189,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -4083,7 +4200,7 @@
           "talent_spell_id": 116680,
           "source_spell_id": 274062,
           "effect_index": 3,
-          "effect_text": "Direct Heal (10) (SP mod: 7.488)",
+          "effect_text": "Heal (SP mod: 7.488)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4110,10 +4227,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -4121,7 +4238,7 @@
           "talent_spell_id": 116680,
           "source_spell_id": 407058,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (AP mod: 2.4)",
+          "effect_text": "Heal (AP mod: 2.4 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4148,13 +4265,13 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 2
     },
     {
       "talent_name": "Misty Coalescence",
@@ -4183,6 +4300,7 @@
         "pos_x": 13200,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4237,6 +4355,7 @@
         "pos_x": 11400,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4284,6 +4403,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -4316,6 +4436,7 @@
         "pos_x": 12600,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4368,6 +4489,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -4400,6 +4522,7 @@
         "pos_x": 13800,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4452,7 +4575,7 @@
           "talent_spell_id": 274586,
           "source_spell_id": 425804,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 3.2318)",
+          "effect_text": "Heal (SP mod: 3.2318)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4479,10 +4602,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -4514,6 +4637,7 @@
         "pos_x": 10800,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4584,7 +4708,7 @@
           "talent_spell_id": 446260,
           "source_spell_id": 191894,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 0.001)",
+          "effect_text": "Heal (SP mod: 0.001)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4611,10 +4735,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -4646,6 +4770,7 @@
         "pos_x": 12600,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4723,6 +4848,7 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -4755,6 +4881,7 @@
         "pos_x": 12600,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4832,6 +4959,7 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -4864,6 +4992,7 @@
         "pos_x": 14400,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4915,7 +5044,7 @@
           "talent_spell_id": 122280,
           "source_spell_id": 428439,
           "effect_index": 1,
-          "effect_text": "Direct Heal% (136) | Attributes: Suppress Points Stacking (6)",
+          "effect_text": "Heal for % of Total Health",
           "base_value": 15.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": "direct",
@@ -4932,9 +5061,11 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -4967,6 +5098,7 @@
         "pos_x": 11400,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5022,6 +5154,7 @@
         "pos_x": 11400,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5077,6 +5210,7 @@
         "pos_x": 12000,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5130,6 +5264,7 @@
         "pos_x": 12600,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5183,6 +5318,7 @@
         "pos_x": 12600,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5250,6 +5386,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -5282,6 +5419,7 @@
         "pos_x": 13200,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5333,6 +5471,7 @@
         "pos_x": 13200,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5384,6 +5523,7 @@
         "pos_x": 13800,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5436,7 +5576,7 @@
           "talent_spell_id": 446326,
           "source_spell_id": 198487,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 1.6)",
+          "effect_text": "Heal (SP mod: 1.6)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5463,10 +5603,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -5498,6 +5638,7 @@
         "pos_x": 10800,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5553,6 +5694,7 @@
         "pos_x": 12000,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5606,7 +5748,7 @@
           "talent_spell_id": 388511,
           "source_spell_id": 388514,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 3)",
+          "effect_text": "Heal (SP mod: 3)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5633,10 +5775,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -5668,6 +5810,7 @@
         "pos_x": 12600,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5700,7 +5843,7 @@
           "talent_spell_id": 322118,
           "source_spell_id": 343737,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 1.5 seconds | Attributes: Add Target (Dest) Combat Reach to AOE (11) (SP mod: 0.7)",
+          "effect_text": "Apply Aura: Periodic Heal",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -5727,10 +5870,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0
@@ -5762,6 +5905,7 @@
         "pos_x": 12600,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5815,7 +5959,7 @@
           "talent_spell_id": 325197,
           "source_spell_id": 343819,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 0.001)",
+          "effect_text": "Heal (SP mod: 0.001)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5842,10 +5986,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -5877,6 +6021,7 @@
         "pos_x": 13200,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5931,6 +6076,7 @@
         "pos_x": 14400,
         "pos_y": 4500,
         "max_ranks": 2,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5986,6 +6132,7 @@
         "pos_x": 10800,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6043,6 +6190,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -6075,6 +6223,7 @@
         "pos_x": 10800,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6126,7 +6275,7 @@
           "talent_spell_id": 399226,
           "source_spell_id": 399230,
           "effect_index": 2,
-          "effect_text": "Direct Heal (10) (SP mod: 8.06)",
+          "effect_text": "Heal (SP mod: 8.06)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6153,10 +6302,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -6188,6 +6337,7 @@
         "pos_x": 11400,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6242,7 +6392,7 @@
           "talent_spell_id": 388038,
           "source_spell_id": 388044,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 0.91)",
+          "effect_text": "Heal (SP mod: 0.91)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6269,10 +6419,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -6304,6 +6454,7 @@
         "pos_x": 12000,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6358,6 +6509,7 @@
         "pos_x": 12600,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6390,7 +6542,7 @@
           "talent_spell_id": 343655,
           "source_spell_id": 343737,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 1.5 seconds | Attributes: Add Target (Dest) Combat Reach to AOE (11) (SP mod: 0.7)",
+          "effect_text": "Apply Aura: Periodic Heal",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -6419,10 +6571,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0
@@ -6454,6 +6606,7 @@
         "pos_x": 13200,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6509,6 +6662,7 @@
         "pos_x": 13200,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6597,6 +6751,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -6621,6 +6776,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -6653,6 +6809,7 @@
         "pos_x": 13800,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6708,6 +6865,7 @@
         "pos_x": 10800,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6762,6 +6920,7 @@
         "pos_x": 12000,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6818,6 +6977,7 @@
         "pos_x": 12600,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6873,6 +7033,7 @@
         "pos_x": 12600,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6928,6 +7089,7 @@
         "pos_x": 13200,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7016,6 +7178,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -7040,6 +7203,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -7064,6 +7228,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -7096,6 +7261,7 @@
         "pos_x": 13200,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7151,6 +7317,7 @@
         "pos_x": 13800,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7205,6 +7372,7 @@
         "pos_x": 14400,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7303,6 +7471,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -7335,6 +7504,7 @@
         "pos_x": 11400,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7403,6 +7573,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -7435,6 +7606,7 @@
         "pos_x": 11400,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7453,11 +7625,32 @@
         "icon": "inv12_ability_monk_rushingwindkick"
       },
       "pve_tooltip": "1.25% of base mana / 2 Chi\nInstant\n10 sec cooldown\n1 Charge\nWindwalker (\nWindwalker Monk\n)\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\n[\n:\nHeals up to 5 allies affected by your heal over time effects for (500% of Spell Power)\n]",
-      "pvp_tooltip": "1.25% of base mana / 2 Chi\nInstant\n10 sec cooldown\n1 Charge\nWindwalker (\nWindwalker Monk\n)\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\n[\n:\nHeals up to 5 allies affected by your heal over time effects for (500% of Spell Power)\n]",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "1.25% of base mana / 2 Chi\nInstant\n10 sec cooldown\n1 Charge\nWindwalker (\nWindwalker Monk\n)\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\n[\n:\nHeals up to 5 allies affected by your heal over time effects for (375% of Spell Power)\n]",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 577,
+          "end": 580,
+          "old_token": "500",
+          "new_token": "375",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "500",
+          "new": "375"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7466,7 +7659,7 @@
           "talent_spell_id": 467307,
           "source_spell_id": 468179,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature | Attributes: Area Effects Use Target Radius (17) (AP mod: 1.7975)",
+          "effect_text": "School Damage (Nature) (AP mod: 1.7975 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7493,10 +7686,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -7504,7 +7697,7 @@
           "talent_spell_id": 467307,
           "source_spell_id": 1269159,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 5)",
+          "effect_text": "Heal (SP mod: 5)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7531,13 +7724,13 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Resplendent Mist",
@@ -7566,6 +7759,7 @@
         "pos_x": 12000,
         "pos_y": 6300,
         "max_ranks": 2,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7621,6 +7815,7 @@
         "pos_x": 12600,
         "pos_y": 6300,
         "max_ranks": 2,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7675,6 +7870,7 @@
         "pos_x": 13200,
         "pos_y": 6300,
         "max_ranks": 2,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7730,6 +7926,7 @@
         "pos_x": 13800,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7785,6 +7982,7 @@
         "pos_x": 14400,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7839,6 +8037,7 @@
         "pos_x": 14400,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7893,6 +8092,7 @@
         "pos_x": 11400,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7922,7 +8122,7 @@
           "talent_spell_id": 1268807,
           "source_spell_id": 1248815,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature | Attributes: Area Effects Use Target Radius (17) (AP mod: 1)",
+          "effect_text": "School Damage (Nature)",
           "base_value": null,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": "direct",
@@ -7951,9 +8151,11 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -7986,6 +8188,7 @@
         "pos_x": 12600,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8038,6 +8241,7 @@
         "pos_x": 13200,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8104,6 +8308,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -8136,6 +8341,7 @@
         "pos_x": 13800,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8166,7 +8372,7 @@
           "talent_spell_id": 387991,
           "source_spell_id": 343737,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 1.5 seconds | Attributes: Add Target (Dest) Combat Reach to AOE (11) (SP mod: 0.7)",
+          "effect_text": "Apply Aura: Periodic Heal",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -8195,10 +8401,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0
@@ -8230,6 +8436,7 @@
         "pos_x": 13800,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8283,6 +8490,7 @@
         "pos_x": 15000,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8334,6 +8542,7 @@
         "pos_x": 15000,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8385,6 +8594,7 @@
         "pos_x": 12600,
         "pos_y": 7650,
         "max_ranks": 4,
+        "required_points": 20,
         "entry_node": true,
         "free_node": false,
         "prev": [],
@@ -8434,6 +8644,7 @@
         "pos_x": 12600,
         "pos_y": 7650,
         "max_ranks": 4,
+        "required_points": 20,
         "entry_node": true,
         "free_node": false,
         "prev": [],
@@ -8483,6 +8694,7 @@
         "pos_x": 12600,
         "pos_y": 7650,
         "max_ranks": 4,
+        "required_points": 20,
         "entry_node": true,
         "free_node": false,
         "prev": [],
@@ -8532,6 +8744,7 @@
         "pos_x": 8300,
         "pos_y": 1300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": true,
         "free_node": true,
         "prev": [],
@@ -8603,7 +8816,7 @@
           "talent_spell_id": 443028,
           "source_spell_id": 443038,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature (AP mod: 1.65)",
+          "effect_text": "School Damage (Nature) (AP mod: 1.65 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8630,10 +8843,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8641,7 +8854,7 @@
           "talent_spell_id": 443028,
           "source_spell_id": 443039,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 11)",
+          "effect_text": "Heal (SP mod: 11)",
           "base_value": null,
           "spell_pvp_multiplier": 2.25,
           "amount_kind": "direct",
@@ -8677,9 +8890,11 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -8712,6 +8927,7 @@
         "pos_x": 7400,
         "pos_y": 1900,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8765,6 +8981,7 @@
         "pos_x": 7400,
         "pos_y": 1900,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8818,6 +9035,7 @@
         "pos_x": 8000,
         "pos_y": 1900,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8869,7 +9087,7 @@
           "talent_spell_id": 443087,
           "source_spell_id": 457917,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 3.375)",
+          "effect_text": "School Damage (Physical) (AP mod: 3.375 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8896,10 +9114,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -8931,6 +9149,7 @@
         "pos_x": 8600,
         "pos_y": 1900,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8961,7 +9180,7 @@
           "talent_spell_id": 442719,
           "source_spell_id": 343737,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 1.5 seconds | Attributes: Add Target (Dest) Combat Reach to AOE (11) (SP mod: 0.7)",
+          "effect_text": "Apply Aura: Periodic Heal",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -8990,10 +9209,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0
@@ -9025,6 +9244,7 @@
         "pos_x": 8600,
         "pos_y": 1900,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9078,6 +9298,7 @@
         "pos_x": 9200,
         "pos_y": 1900,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9129,7 +9350,7 @@
           "talent_spell_id": 443294,
           "source_spell_id": 443421,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Modify Cooldown Recharge Rate% (286)",
+          "effect_text": "Apply Aura: Allow Dot to Crit",
           "base_value": 75.0,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": null,
@@ -9156,10 +9377,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -9191,6 +9412,7 @@
         "pos_x": 7400,
         "pos_y": 2500,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9244,6 +9466,7 @@
         "pos_x": 8000,
         "pos_y": 2500,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9285,7 +9508,7 @@
           "talent_spell_id": 443110,
           "source_spell_id": 443127,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature (AP mod: 2)",
+          "effect_text": "School Damage (Nature) (AP mod: 2 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9312,10 +9535,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -9347,6 +9570,7 @@
         "pos_x": 8600,
         "pos_y": 2500,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9400,6 +9624,7 @@
         "pos_x": 9200,
         "pos_y": 2500,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9467,6 +9692,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -9499,6 +9725,7 @@
         "pos_x": 7400,
         "pos_y": 3100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9552,6 +9779,7 @@
         "pos_x": 7400,
         "pos_y": 3100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9605,6 +9833,7 @@
         "pos_x": 8000,
         "pos_y": 3100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9658,6 +9887,7 @@
         "pos_x": 8600,
         "pos_y": 3100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9711,6 +9941,7 @@
         "pos_x": 9200,
         "pos_y": 3100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9741,7 +9972,7 @@
           "talent_spell_id": 1262672,
           "source_spell_id": 443421,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Modify Cooldown Recharge Rate% (286)",
+          "effect_text": "Apply Aura: Allow Dot to Crit",
           "base_value": 75.0,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": null,
@@ -9768,10 +9999,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0
@@ -9803,6 +10034,7 @@
         "pos_x": 8300,
         "pos_y": 3700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9857,6 +10089,7 @@
         "pos_x": 8100,
         "pos_y": 4200,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": true,
         "free_node": true,
         "prev": [],
@@ -9915,6 +10148,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -9947,6 +10181,7 @@
         "pos_x": 7200,
         "pos_y": 4800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -10014,6 +10249,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -10046,6 +10282,7 @@
         "pos_x": 7800,
         "pos_y": 4800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -10099,6 +10336,7 @@
         "pos_x": 7800,
         "pos_y": 4800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -10152,6 +10390,7 @@
         "pos_x": 8400,
         "pos_y": 4800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -10205,6 +10444,7 @@
         "pos_x": 9000,
         "pos_y": 4800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -10321,6 +10561,7 @@
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         },
         {
@@ -10344,6 +10585,7 @@
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         },
         {
@@ -10367,6 +10609,7 @@
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         },
         {
@@ -10390,6 +10633,7 @@
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         },
         {
@@ -10398,7 +10642,7 @@
           "talent_spell_id": 1270958,
           "source_spell_id": 1271011,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature (SP mod: 4)",
+          "effect_text": "School Damage (Nature) (SP mod: 4)",
           "base_value": null,
           "spell_pvp_multiplier": 0.33,
           "amount_kind": "direct",
@@ -10425,9 +10669,11 @@
             }
           ],
           "sources": [
+            "wowhead",
             "simc"
           ],
-          "confidence": "medium"
+          "source_notes": [],
+          "confidence": "ambiguous"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -10435,7 +10681,7 @@
           "talent_spell_id": 1270958,
           "source_spell_id": 1271011,
           "effect_index": 2,
-          "effect_text": "School Damage (2): nature (SP mod: 4)",
+          "effect_text": "School Damage (Nature) (SP mod: 4)",
           "base_value": null,
           "spell_pvp_multiplier": 0.33,
           "amount_kind": "direct",
@@ -10462,9 +10708,11 @@
             }
           ],
           "sources": [
+            "wowhead",
             "simc"
           ],
-          "confidence": "medium"
+          "source_notes": [],
+          "confidence": "ambiguous"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -10472,7 +10720,7 @@
           "talent_spell_id": 1270958,
           "source_spell_id": 1271045,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 5)",
+          "effect_text": "Heal (SP mod: 5)",
           "base_value": null,
           "spell_pvp_multiplier": 0.33,
           "amount_kind": "direct",
@@ -10501,9 +10749,11 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -10536,6 +10786,7 @@
         "pos_x": 7200,
         "pos_y": 5400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -10589,6 +10840,7 @@
         "pos_x": 7200,
         "pos_y": 5400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -10642,6 +10894,7 @@
         "pos_x": 7800,
         "pos_y": 5400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -10695,6 +10948,7 @@
         "pos_x": 8400,
         "pos_y": 5400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -10725,7 +10979,7 @@
           "talent_spell_id": 451036,
           "source_spell_id": 451452,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 2 seconds (SP mod: 0.5)",
+          "effect_text": "Apply Aura: Periodic Heal",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -10752,10 +11006,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0
@@ -10787,6 +11041,7 @@
         "pos_x": 8400,
         "pos_y": 5400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -10840,6 +11095,7 @@
         "pos_x": 9000,
         "pos_y": 5400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -10893,6 +11149,7 @@
         "pos_x": 7200,
         "pos_y": 6000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -10946,6 +11203,7 @@
         "pos_x": 7800,
         "pos_y": 6000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -10999,6 +11257,7 @@
         "pos_x": 7800,
         "pos_y": 6000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -11052,6 +11311,7 @@
         "pos_x": 8400,
         "pos_y": 6000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -11105,6 +11365,7 @@
         "pos_x": 9000,
         "pos_y": 6000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -11158,6 +11419,7 @@
         "pos_x": 8100,
         "pos_y": 6600,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -11187,11 +11449,12 @@
     }
   ],
   "fetch_errors": [],
+  "source_warnings": [],
   "slug": "monk-mistweaver",
-  "generated_at": "2026-09-20T07:00:19.736380+00:00",
+  "generated_at": "2026-09-20T09:50:13.746187+00:00",
   "validation": {
     "talents": 152,
-    "changed_tooltips": 30,
+    "changed_tooltips": 32,
     "talents_with_pvp_mechanics": 49,
     "unique_nodes": 122,
     "tree_build": "12.1.0.69875",
@@ -11201,37 +11464,11 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 31,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 124081,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=124081'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 132463,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132463'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 132467,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=132467'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 185099,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=185099'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 191894,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=191894'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }

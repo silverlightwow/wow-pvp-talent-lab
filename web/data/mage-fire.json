@@ -34,6 +34,7 @@
         "pos_x": 3900,
         "pos_y": 1500,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": true,
         "free_node": true,
         "prev": [],
@@ -50,7 +51,7 @@
         "icon": "ability_mage_moltenarmor"
       },
       "pve_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you in flame, absorbing [30 / 100 * Total Health * (1 + Versatility)] damage [\nMolten Skin\n:\nand reducing Physical damage taken by 0%\n] for 1 min.\nMelee attacks against you cause the attacker to take (14.375% of Spell Power) Fire damage.",
-      "pvp_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you in flame, absorbing [22.5 / 100 * Total Health * (1 + Versatility)] damage [\nMolten Skin\n:\nand reducing Physical damage taken by 0%\n] for 1 min.\nMelee attacks against you cause the attacker to take (14.375% of Spell Power) Fire damage.",
+      "pvp_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you in flame, absorbing [22.5 / 100 * Total Health * (1 + Versatility)] damage [\nMolten Skin\n:\nand reducing Physical damage taken by 0%\n] for 1 min.\nMelee attacks against you cause the attacker to take (13.0812% of Spell Power) Fire damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -63,6 +64,16 @@
           "effect_indexes": [
             2
           ]
+        },
+        {
+          "start": 258,
+          "end": 264,
+          "old_token": "14.375",
+          "new_token": "13.0812",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
         }
       ],
       "diagnostics": [
@@ -74,6 +85,15 @@
           "kind": "ordinary_value",
           "old": "30",
           "new": "22.5"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "14.375",
+          "new": "13.0812"
         }
       ],
       "has_pvp_mechanics": true,
@@ -100,6 +120,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -123,6 +144,7 @@
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -160,10 +182,11 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 2
     },
     {
       "talent_name": "Alter Time",
@@ -192,6 +215,7 @@
         "pos_x": 3300,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -246,6 +270,7 @@
         "pos_x": 4500,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -300,6 +325,7 @@
         "pos_x": 2700,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -353,6 +379,7 @@
         "pos_x": 2700,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -406,6 +433,7 @@
         "pos_x": 3300,
         "pos_y": 2700,
         "max_ranks": 2,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -460,6 +488,7 @@
         "pos_x": 4500,
         "pos_y": 2700,
         "max_ranks": 2,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -526,6 +555,7 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -558,6 +588,7 @@
         "pos_x": 5100,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -611,6 +642,7 @@
         "pos_x": 2700,
         "pos_y": 3300,
         "max_ranks": 2,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -666,6 +698,7 @@
         "pos_x": 3900,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -722,6 +755,7 @@
         "pos_x": 5100,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -777,6 +811,7 @@
         "pos_x": 2100,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -831,6 +866,7 @@
         "pos_x": 3300,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -887,6 +923,7 @@
         "pos_x": 3900,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -962,6 +999,7 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -994,6 +1032,7 @@
         "pos_x": 3900,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1069,6 +1108,7 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -1101,6 +1141,7 @@
         "pos_x": 4500,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1157,6 +1198,7 @@
         "pos_x": 5700,
         "pos_y": 3900,
         "max_ranks": 2,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1224,6 +1266,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -1256,6 +1299,7 @@
         "pos_x": 2100,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1297,7 +1341,7 @@
           "talent_spell_id": 1270827,
           "source_spell_id": 44461,
           "effect_index": 2,
-          "effect_text": "School Damage (2): fire (SP mod: 0.268)",
+          "effect_text": "School Damage (Fire) (SP mod: 0.268)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -1328,10 +1372,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -1372,6 +1416,7 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -1404,6 +1449,7 @@
         "pos_x": 2700,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1428,7 +1474,18 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "percent_value",
+          "old": 3.0,
+          "new": 1.5,
+          "full_tooltip_match_count": 0
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -1457,10 +1514,11 @@
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Improved Blink",
@@ -1489,6 +1547,7 @@
         "pos_x": 2700,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1549,6 +1608,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -1581,6 +1641,7 @@
         "pos_x": 3300,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1634,6 +1695,7 @@
         "pos_x": 3900,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1691,6 +1753,7 @@
         "pos_x": 4500,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1744,6 +1807,7 @@
         "pos_x": 5100,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1800,6 +1864,7 @@
         "pos_x": 2100,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1854,6 +1919,7 @@
         "pos_x": 2100,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1908,6 +1974,7 @@
         "pos_x": 2700,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1961,6 +2028,7 @@
         "pos_x": 3300,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2018,6 +2086,7 @@
         "pos_x": 3900,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2071,6 +2140,7 @@
         "pos_x": 4500,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2128,6 +2198,7 @@
         "pos_x": 5100,
         "pos_y": 5100,
         "max_ranks": 2,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2195,6 +2266,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -2227,6 +2299,7 @@
         "pos_x": 5700,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2280,6 +2353,7 @@
         "pos_x": 2700,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2337,6 +2411,7 @@
         "pos_x": 3300,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2390,6 +2465,7 @@
         "pos_x": 3900,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2451,6 +2527,7 @@
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         },
         {
@@ -2474,6 +2551,7 @@
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         }
       ],
@@ -2506,6 +2584,7 @@
         "pos_x": 4500,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2559,6 +2638,7 @@
         "pos_x": 5100,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2616,6 +2696,7 @@
         "pos_x": 2100,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2669,6 +2750,7 @@
         "pos_x": 2700,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2686,11 +2768,32 @@
         "icon": "spell_frost_glacier"
       },
       "pve_tooltip": "Enemies hit by Cone of Cold are frozen in place for 5 sec instead of snared.\nWhen your roots expire or are dispelled, your target is snared by 80%, decaying over 3 sec.",
-      "pvp_tooltip": "Enemies hit by Cone of Cold are frozen in place for 5 sec instead of snared.\nWhen your roots expire or are dispelled, your target is snared by 80%, decaying over 3 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Enemies hit by Cone of Cold are frozen in place for 5 sec instead of snared.\nWhen your roots expire or are dispelled, your target is snared by 70%, decaying over 3 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 143,
+          "end": 145,
+          "old_token": "80",
+          "new_token": "70",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "80",
+          "new": "70"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -2720,10 +2823,11 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Ice Nova",
@@ -2752,6 +2856,7 @@
         "pos_x": 2700,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2827,6 +2932,7 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -2859,6 +2965,7 @@
         "pos_x": 3300,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2915,6 +3022,7 @@
         "pos_x": 3900,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2932,11 +3040,32 @@
         "icon": "spell_frost_ring_of_frost"
       },
       "pve_tooltip": "8% of base mana\n30 yd range\n2 sec cast\n45 sec cooldown\nSummons a Ring of Frost for 10 sec at the target location. Enemies entering the ring are incapacitated for 10 sec. Limit 10 targets.\nWhen the incapacitate expires, enemies are slowed by 65% for 4 sec.",
-      "pvp_tooltip": "8% of base mana\n30 yd range\n2 sec cast\n45 sec cooldown\nSummons a Ring of Frost for 10 sec at the target location. Enemies entering the ring are incapacitated for 10 sec. Limit 10 targets.\nWhen the incapacitate expires, enemies are slowed by 65% for 4 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "8% of base mana\n30 yd range\n2 sec cast\n45 sec cooldown\nSummons a Ring of Frost for 10 sec at the target location. Enemies entering the ring are incapacitated for 10 sec. Limit 10 targets.\nWhen the incapacitate expires, enemies are slowed by 50% for 4 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 241,
+          "end": 243,
+          "old_token": "65",
+          "new_token": "50",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "65",
+          "new": "50"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -2966,10 +3095,11 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Mass Polymorph",
@@ -2998,6 +3128,7 @@
         "pos_x": 3900,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3051,6 +3182,7 @@
         "pos_x": 4500,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3107,6 +3239,7 @@
         "pos_x": 5100,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3160,6 +3293,7 @@
         "pos_x": 5700,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3217,6 +3351,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -3249,6 +3384,7 @@
         "pos_x": 2700,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3302,6 +3438,7 @@
         "pos_x": 3900,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3355,6 +3492,7 @@
         "pos_x": 3900,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3408,6 +3546,7 @@
         "pos_x": 5100,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3461,6 +3600,7 @@
         "pos_x": 12300,
         "pos_y": 1500,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": true,
         "free_node": false,
         "prev": [],
@@ -3538,6 +3678,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -3575,6 +3716,7 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -3607,6 +3749,7 @@
         "pos_x": 11700,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3685,6 +3828,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -3717,6 +3861,7 @@
         "pos_x": 12300,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3768,6 +3913,7 @@
         "pos_x": 12900,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3786,7 +3932,7 @@
         "icon": "spell_fire_selfdestruct"
       },
       "pve_tooltip": "1.5% of base mana\n40 yd range\n3.5 sec cast\nCalls down a pillar of fire, burning all enemies within the area for (345% of Spell Power) Fire damage. Deals reduced damage beyond 8 targets.\nThis spell is cast at a selected location.\nLeaves behind a patch of flames that burns enemies within it for (6 * (15% of Spell Power)) Fire damage over 6 sec.",
-      "pvp_tooltip": "1.5% of base mana\n40 yd range\n3.5 sec cast\nCalls down a pillar of fire, burning all enemies within the area for (313.95% of Spell Power) Fire damage. Deals reduced damage beyond 8 targets.\nThis spell is cast at a selected location.\nLeaves behind a patch of flames that burns enemies within it for (6 * (15% of Spell Power)) Fire damage over 6 sec.",
+      "pvp_tooltip": "1.5% of base mana\n40 yd range\n3.5 sec cast\nCalls down a pillar of fire, burning all enemies within the area for (313.95% of Spell Power) Fire damage. Deals reduced damage beyond 8 targets.\nThis spell is cast at a selected location.\nLeaves behind a patch of flames that burns enemies within it for (6 * (13.65% of Spell Power)) Fire damage over 6 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3795,6 +3941,16 @@
           "end": 116,
           "old_token": "345",
           "new_token": "313.95",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 300,
+          "end": 302,
+          "old_token": "15",
+          "new_token": "13.65",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -3810,6 +3966,15 @@
           "kind": "spell_power_coefficient",
           "old": "345",
           "new": "313.95"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "15",
+          "new": "13.65"
         }
       ],
       "has_pvp_mechanics": true,
@@ -3844,6 +4009,7 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         },
         {
@@ -3881,10 +4047,11 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 2
     },
     {
       "talent_name": "Flamestrike",
@@ -3913,6 +4080,7 @@
         "pos_x": 12900,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3931,7 +4099,7 @@
         "icon": "spell_fire_selfdestruct"
       },
       "pve_tooltip": "1.5% of base mana\n40 yd range\n3.5 sec cast\nCalls down a pillar of fire on your target, burning all enemies within the area for (345% of Spell Power) Fire damage. Deals reduced damage beyond 8 targets.\nThis spell is cast at your target.\nLeaves behind a patch of flames that burns enemies within it for (6 * (15% of Spell Power)) Fire damage over 6 sec.",
-      "pvp_tooltip": "1.5% of base mana\n40 yd range\n3.5 sec cast\nCalls down a pillar of fire on your target, burning all enemies within the area for (313.95% of Spell Power) Fire damage. Deals reduced damage beyond 8 targets.\nThis spell is cast at your target.\nLeaves behind a patch of flames that burns enemies within it for (6 * (15% of Spell Power)) Fire damage over 6 sec.",
+      "pvp_tooltip": "1.5% of base mana\n40 yd range\n3.5 sec cast\nCalls down a pillar of fire on your target, burning all enemies within the area for (313.95% of Spell Power) Fire damage. Deals reduced damage beyond 8 targets.\nThis spell is cast at your target.\nLeaves behind a patch of flames that burns enemies within it for (6 * (13.65% of Spell Power)) Fire damage over 6 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3940,6 +4108,16 @@
           "end": 131,
           "old_token": "345",
           "new_token": "313.95",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 307,
+          "end": 309,
+          "old_token": "15",
+          "new_token": "13.65",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -3955,6 +4133,15 @@
           "kind": "spell_power_coefficient",
           "old": "345",
           "new": "313.95"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "15",
+          "new": "13.65"
         }
       ],
       "has_pvp_mechanics": true,
@@ -3989,6 +4176,7 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         },
         {
@@ -4026,10 +4214,11 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 2
     },
     {
       "talent_name": "Ignition",
@@ -4058,6 +4247,7 @@
         "pos_x": 11100,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4111,6 +4301,7 @@
         "pos_x": 12300,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4165,6 +4356,7 @@
         "pos_x": 13500,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4218,6 +4410,7 @@
         "pos_x": 11100,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4272,6 +4465,7 @@
         "pos_x": 12300,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4327,6 +4521,7 @@
         "pos_x": 13500,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4429,6 +4624,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -4468,6 +4664,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -4500,6 +4697,7 @@
         "pos_x": 11100,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4578,6 +4776,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -4610,6 +4809,7 @@
         "pos_x": 11700,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4665,6 +4865,7 @@
         "pos_x": 12300,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4718,6 +4919,7 @@
         "pos_x": 12900,
         "pos_y": 3900,
         "max_ranks": 2,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4773,6 +4975,7 @@
         "pos_x": 13500,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4827,6 +5030,7 @@
         "pos_x": 10500,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4899,6 +5103,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -4931,6 +5136,7 @@
         "pos_x": 11700,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4987,6 +5193,7 @@
         "pos_x": 12300,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5042,6 +5249,7 @@
         "pos_x": 12900,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5098,6 +5306,7 @@
         "pos_x": 14100,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5151,6 +5360,7 @@
         "pos_x": 11100,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5211,6 +5421,7 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -5243,6 +5454,7 @@
         "pos_x": 11700,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5297,6 +5509,7 @@
         "pos_x": 12300,
         "pos_y": 5100,
         "max_ranks": 2,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5352,6 +5565,7 @@
         "pos_x": 12900,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5422,6 +5636,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -5451,6 +5666,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -5483,6 +5699,7 @@
         "pos_x": 13500,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5537,6 +5754,7 @@
         "pos_x": 11100,
         "pos_y": 5700,
         "max_ranks": 2,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5592,6 +5810,7 @@
         "pos_x": 12300,
         "pos_y": 5700,
         "max_ranks": 2,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5647,6 +5866,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -5679,6 +5899,7 @@
         "pos_x": 13500,
         "pos_y": 5700,
         "max_ranks": 2,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5734,6 +5955,7 @@
         "pos_x": 10500,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5787,6 +6009,7 @@
         "pos_x": 11700,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5842,6 +6065,7 @@
         "pos_x": 12300,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5893,6 +6117,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -5925,6 +6150,7 @@
         "pos_x": 12900,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5980,6 +6206,7 @@
         "pos_x": 14100,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6033,6 +6260,7 @@
         "pos_x": 10500,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6098,6 +6326,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -6130,6 +6359,7 @@
         "pos_x": 11700,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6181,6 +6411,7 @@
         "pos_x": 12300,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6234,6 +6465,7 @@
         "pos_x": 12300,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6301,6 +6533,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -6325,6 +6558,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -6357,6 +6591,7 @@
         "pos_x": 12900,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6408,6 +6643,7 @@
         "pos_x": 14100,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6486,6 +6722,7 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -6518,6 +6755,7 @@
         "pos_x": 12300,
         "pos_y": 7650,
         "max_ranks": 4,
+        "required_points": 20,
         "entry_node": true,
         "free_node": false,
         "prev": [],
@@ -6586,6 +6824,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -6618,6 +6857,7 @@
         "pos_x": 12300,
         "pos_y": 7650,
         "max_ranks": 4,
+        "required_points": 20,
         "entry_node": true,
         "free_node": false,
         "prev": [],
@@ -6667,6 +6907,7 @@
         "pos_x": 12300,
         "pos_y": 7650,
         "max_ranks": 4,
+        "required_points": 20,
         "entry_node": true,
         "free_node": false,
         "prev": [],
@@ -6716,6 +6957,7 @@
         "pos_x": 15000,
         "pos_y": 1500,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": true,
         "free_node": true,
         "prev": [],
@@ -6738,7 +6980,18 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
+          "kind": "spell_power_coefficient",
+          "old": 91.53999999999999,
+          "new": 83.3014,
+          "full_tooltip_match_count": 0
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6787,6 +7040,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -6835,6 +7089,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -6874,6 +7129,7 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         },
         {
@@ -6913,10 +7169,11 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Imbued Warding",
@@ -6945,6 +7202,7 @@
         "pos_x": 14100,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7013,6 +7271,7 @@
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         },
         {
@@ -7036,6 +7295,7 @@
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         }
       ],
@@ -7068,6 +7328,7 @@
         "pos_x": 14100,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7121,6 +7382,7 @@
         "pos_x": 14700,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7218,6 +7480,7 @@
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         },
         {
@@ -7241,6 +7504,7 @@
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         },
         {
@@ -7264,6 +7528,7 @@
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         },
         {
@@ -7293,6 +7558,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -7325,6 +7591,7 @@
         "pos_x": 15300,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7378,6 +7645,7 @@
         "pos_x": 15300,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7431,6 +7699,7 @@
         "pos_x": 15900,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7523,6 +7792,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -7562,6 +7832,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -7594,6 +7865,7 @@
         "pos_x": 14100,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7647,6 +7919,7 @@
         "pos_x": 14700,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7700,6 +7973,7 @@
         "pos_x": 14700,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7753,6 +8027,7 @@
         "pos_x": 15300,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7806,6 +8081,7 @@
         "pos_x": 15900,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7859,6 +8135,7 @@
         "pos_x": 14100,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7912,6 +8189,7 @@
         "pos_x": 14700,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7965,6 +8243,7 @@
         "pos_x": 15300,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8018,6 +8297,7 @@
         "pos_x": 15900,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8071,6 +8351,7 @@
         "pos_x": 15000,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8131,6 +8412,16 @@
           ],
           "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
           "kind": "spell_power_coefficient",
+          "old": 91.53999999999999,
+          "new": 83.3014,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
+          "kind": "spell_power_coefficient",
           "old": 86.0,
           "new": 109.56400000000001,
           "full_tooltip_match_count": 0
@@ -8179,6 +8470,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -8218,6 +8510,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -8257,6 +8550,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -8296,6 +8590,7 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         },
         {
@@ -8335,6 +8630,7 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         },
         {
@@ -8378,6 +8674,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -8421,10 +8718,11 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 5
+      "render_effect_count": 6
     },
     {
       "talent_name": "Spellfire Spheres",
@@ -8453,6 +8751,7 @@
         "pos_x": 7800,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": true,
         "free_node": true,
         "prev": [],
@@ -8504,6 +8803,7 @@
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         },
         {
@@ -8531,6 +8831,37 @@
           "sources": [
             "wowhead",
             "simc"
+          ],
+          "source_notes": [
+            {
+              "spell_id": 448604,
+              "talent_name": "Spellfire Spheres",
+              "side": "drustvar",
+              "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+              "multiplier": 2.0,
+              "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+              "source_build": "12.1.0.69587",
+              "game_effect_id": 1147193,
+              "effect_origin": "DEPENDENCY",
+              "talent_spell_id": 448601,
+              "source_spell_id": 448604,
+              "dependency_kind": "EMBEDDED",
+              "dependency_path": [
+                448601,
+                448604
+              ],
+              "dependency_relations": [
+                "spelldesc_ref"
+              ],
+              "current_build": "12.1.0.69875",
+              "effect_index": 2,
+              "current_multiplier": 2.0,
+              "current_effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Periodic Amount (22)",
+              "resolved_by": [
+                "wowhead",
+                "simc_exact_build"
+              ]
+            }
           ],
           "confidence": "ambiguous"
         }
@@ -8564,6 +8895,7 @@
         "pos_x": 6900,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8617,6 +8949,7 @@
         "pos_x": 7500,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8670,6 +9003,7 @@
         "pos_x": 8100,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8686,8 +9020,8 @@
         "spell_id": 451035,
         "icon": "inv_ragnaros_heart"
       },
-      "pve_tooltip": "Talent\nRequires Mage\nPyroblast damage increased by 3%.\nFlamestrike damage increased by 3%.",
-      "pvp_tooltip": "Talent\nRequires Mage\nPyroblast damage increased by 3%.\nFlamestrike damage increased by 3%.",
+      "pve_tooltip": "Pyroblast damage increased by 3%.\nFlamestrike damage increased by 3%.",
+      "pvp_tooltip": "Pyroblast damage increased by 3%.\nFlamestrike damage increased by 3%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -8723,6 +9057,7 @@
         "pos_x": 8700,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8784,6 +9119,7 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -8816,6 +9152,7 @@
         "pos_x": 6900,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8877,6 +9214,7 @@
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -8906,6 +9244,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -8935,6 +9274,7 @@
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -8963,6 +9303,7 @@
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -9002,6 +9343,7 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -9034,6 +9376,7 @@
         "pos_x": 6900,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9087,6 +9430,7 @@
         "pos_x": 7500,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9140,6 +9484,7 @@
         "pos_x": 8100,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9193,6 +9538,7 @@
         "pos_x": 8100,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9273,6 +9619,7 @@
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         },
         {
@@ -9301,6 +9648,7 @@
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -9333,6 +9681,7 @@
         "pos_x": 8700,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9386,6 +9735,7 @@
         "pos_x": 6900,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9439,6 +9789,7 @@
         "pos_x": 6900,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9492,6 +9843,7 @@
         "pos_x": 7500,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9545,6 +9897,7 @@
         "pos_x": 8100,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9598,6 +9951,7 @@
         "pos_x": 8700,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9651,6 +10005,7 @@
         "pos_x": 7800,
         "pos_y": 7500,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9680,11 +10035,42 @@
     }
   ],
   "fetch_errors": [],
+  "source_warnings": [
+    {
+      "spell_id": 448604,
+      "talent_name": "Spellfire Spheres",
+      "side": "drustvar",
+      "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+      "multiplier": 2.0,
+      "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+      "source_build": "12.1.0.69587",
+      "game_effect_id": 1147193,
+      "effect_origin": "DEPENDENCY",
+      "talent_spell_id": 448601,
+      "source_spell_id": 448604,
+      "dependency_kind": "EMBEDDED",
+      "dependency_path": [
+        448601,
+        448604
+      ],
+      "dependency_relations": [
+        "spelldesc_ref"
+      ],
+      "current_build": "12.1.0.69875",
+      "effect_index": 2,
+      "current_multiplier": 2.0,
+      "current_effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Periodic Amount (22)",
+      "resolved_by": [
+        "wowhead",
+        "simc_exact_build"
+      ]
+    }
+  ],
   "slug": "mage-fire",
-  "generated_at": "2026-09-20T06:58:22.329864+00:00",
+  "generated_at": "2026-09-20T09:49:02.969527+00:00",
   "validation": {
     "talents": 127,
-    "changed_tooltips": 23,
+    "changed_tooltips": 25,
     "talents_with_pvp_mechanics": 38,
     "unique_nodes": 110,
     "tree_build": "12.1.0.69875",
@@ -9694,20 +10080,39 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 2,
+    "source_warning_count": 1,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
       {
-        "source": "wowhead",
-        "spell_id": 451035,
-        "error": "RemoteProtocolError: <ConnectionTerminated error_code:0, last_stream_id:317, additional_data:None>"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 44461,
-        "error": "RemoteProtocolError: <ConnectionTerminated error_code:0, last_stream_id:1, additional_data:None>"
+        "spell_id": 448604,
+        "talent_name": "Spellfire Spheres",
+        "side": "drustvar",
+        "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+        "multiplier": 2.0,
+        "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+        "source_build": "12.1.0.69587",
+        "game_effect_id": 1147193,
+        "effect_origin": "DEPENDENCY",
+        "talent_spell_id": 448601,
+        "source_spell_id": 448604,
+        "dependency_kind": "EMBEDDED",
+        "dependency_path": [
+          448601,
+          448604
+        ],
+        "dependency_relations": [
+          "spelldesc_ref"
+        ],
+        "current_build": "12.1.0.69875",
+        "effect_index": 2,
+        "current_multiplier": 2.0,
+        "current_effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Periodic Amount (22)",
+        "resolved_by": [
+          "wowhead",
+          "simc_exact_build"
+        ]
       }
     ],
     "unresolved_examples": [],

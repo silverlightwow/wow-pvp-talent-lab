@@ -34,6 +34,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 3300,
         "pos_y": 1500,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": true,
         "free_node": false,
         "prev": [],
@@ -86,6 +87,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 4500,
         "pos_y": 1500,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": true,
         "free_node": false,
         "prev": [],
@@ -138,6 +140,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 5700,
         "pos_y": 1500,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": true,
         "free_node": true,
         "prev": [],
@@ -221,6 +224,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -253,6 +257,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 2700,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -330,6 +335,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -362,6 +368,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 3900,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -418,6 +425,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 5100,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -473,6 +481,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 6300,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": true,
         "prev": [
@@ -528,6 +537,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 2100,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -579,6 +589,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 3300,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -635,6 +646,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 3900,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -688,6 +700,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 4500,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -737,6 +750,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -769,6 +783,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 5700,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -787,8 +802,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1251030,
         "icon": "spell_holy_mindsooth"
       },
-      "pve_tooltip": "Holy (Holy Fire)\nIncreases the damage of Holy FireHoly Fire and Shadow Word: Pain by 10%.\nIncreases the damage of Shadow Word: Pain by 10%.",
-      "pvp_tooltip": "Holy (Holy Fire)\nIncreases the damage of Holy FireHoly Fire and Shadow Word: Pain by 10%.\nIncreases the damage of Shadow Word: Pain by 10%.",
+      "pve_tooltip": "Increases the damage of Shadow Word: Pain by 10%.",
+      "pvp_tooltip": "Increases the damage of Shadow Word: Pain by 10%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -824,6 +839,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 6900,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -877,6 +893,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 6900,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -930,6 +947,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 2700,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -984,6 +1002,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 3300,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1037,6 +1056,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 3900,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1093,6 +1113,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 4500,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1146,6 +1167,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 5100,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1215,6 +1237,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -1247,6 +1270,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 6300,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1303,6 +1327,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 6300,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1359,6 +1384,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 6900,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1412,6 +1438,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 6900,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1465,6 +1492,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 2700,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1518,6 +1546,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 3300,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1572,6 +1601,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 3900,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1639,6 +1669,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -1663,6 +1694,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -1687,6 +1719,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -1719,6 +1752,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 4500,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1775,6 +1809,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 5700,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1830,6 +1865,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 6300,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1883,6 +1919,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 6900,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1937,6 +1974,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 2700,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1991,6 +2029,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 3900,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2047,6 +2086,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 5100,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2144,6 +2184,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         },
         {
@@ -2185,6 +2226,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -2217,6 +2259,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 6300,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2272,6 +2315,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 3300,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2327,6 +2371,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 4500,
         "pos_y": 5100,
         "max_ranks": 2,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2382,6 +2427,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 5100,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2435,6 +2481,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 5700,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2491,6 +2538,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 2700,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2545,6 +2593,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 3900,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2600,6 +2649,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 5100,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2655,6 +2705,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 5700,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2708,6 +2759,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 6300,
         "pos_y": 5700,
         "max_ranks": 2,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2762,6 +2814,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 2700,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2815,6 +2868,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 3300,
         "pos_y": 6300,
         "max_ranks": 2,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2870,6 +2924,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 4500,
         "pos_y": 6300,
         "max_ranks": 2,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2939,6 +2994,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -2971,6 +3027,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 5700,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3026,6 +3083,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 2700,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3078,6 +3136,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 3900,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3130,6 +3189,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 3900,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3182,6 +3242,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 5100,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3234,6 +3295,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 6300,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3286,6 +3348,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12900,
         "pos_y": 1500,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": true,
         "free_node": false,
         "prev": [],
@@ -3339,6 +3402,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12300,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3392,6 +3456,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12900,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3445,6 +3510,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12900,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3498,6 +3564,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 13500,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3551,6 +3618,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 13500,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3604,6 +3672,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12300,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3657,6 +3726,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12900,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3709,7 +3779,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1227280,
           "source_spell_id": 1227621,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow | Attributes: Always AOE Line of Sight (5) (SP mod: 0.687926)",
+          "effect_text": "School Damage (Shadow) (SP mod: 0.687926)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -3736,10 +3806,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -3771,6 +3841,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 13500,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3822,7 +3893,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 341491,
           "source_spell_id": 413231,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow (SP mod: 0.8505)",
+          "effect_text": "School Damage (Shadow) (SP mod: 0.8505)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -3849,10 +3920,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -3884,6 +3955,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12300,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3940,6 +4012,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12900,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3993,6 +4066,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 13500,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4048,6 +4122,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 11700,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4103,6 +4178,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12300,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4156,6 +4232,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12900,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4190,7 +4267,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 228260,
           "source_spell_id": 1242189,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow (SP mod: 0.9544)",
+          "effect_text": "School Damage (Shadow) (SP mod: 0.9544)",
           "base_value": null,
           "spell_pvp_multiplier": 0.805,
           "amount_kind": "direct",
@@ -4219,9 +4296,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -4254,6 +4333,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 13500,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4307,6 +4387,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 14100,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4362,6 +4443,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 11100,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4416,6 +4498,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 11700,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4469,6 +4552,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12300,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4525,6 +4609,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12900,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4579,6 +4664,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12900,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4621,7 +4707,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1231346,
           "source_spell_id": 1242189,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow (SP mod: 0.9544)",
+          "effect_text": "School Damage (Shadow) (SP mod: 0.9544)",
           "base_value": null,
           "spell_pvp_multiplier": 0.805,
           "amount_kind": "direct",
@@ -4654,9 +4740,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -4689,6 +4777,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 13500,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4743,7 +4832,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 73510,
           "source_spell_id": 1231479,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow (SP mod: 1.4)",
+          "effect_text": "School Damage (Shadow) (SP mod: 1.4)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4770,10 +4859,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -4805,6 +4894,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 14100,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4858,6 +4948,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 14700,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4912,6 +5003,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 11100,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4965,6 +5057,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 11700,
         "pos_y": 5100,
         "max_ranks": 2,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5021,6 +5114,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12900,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5077,6 +5171,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12900,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5133,6 +5228,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 13500,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5187,6 +5283,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 14100,
         "pos_y": 5100,
         "max_ranks": 2,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5243,6 +5340,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 11100,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5298,6 +5396,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12300,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5354,6 +5453,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12300,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5410,6 +5510,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12900,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5463,6 +5564,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 13500,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5520,6 +5622,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 14700,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5575,6 +5678,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 11100,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5650,6 +5754,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -5682,6 +5787,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 11700,
         "pos_y": 6300,
         "max_ranks": 2,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5737,6 +5843,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12300,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5790,6 +5897,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12900,
         "pos_y": 6300,
         "max_ranks": 2,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5846,6 +5954,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 13500,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5899,6 +6008,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 14100,
         "pos_y": 6300,
         "max_ranks": 2,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5954,6 +6064,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 14700,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5995,7 +6106,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1279354,
           "source_spell_id": 1242189,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow (SP mod: 0.9544)",
+          "effect_text": "School Damage (Shadow) (SP mod: 0.9544)",
           "base_value": null,
           "spell_pvp_multiplier": 0.805,
           "amount_kind": "direct",
@@ -6026,9 +6137,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -6061,6 +6174,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 11100,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6113,6 +6227,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12300,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6130,11 +6245,51 @@ window.WOW_PVP_DATA = {
         "icon": "inv_eyeofnzothpet"
       },
       "pve_tooltip": "You create Horrific Visions when casting harmful spells on enemies.\nAt 50 stacks of Horrific Visions, your target sees a nightmare, dealing (182% of Spell Power) Shadow damage and granting you 2 Insanity over 3 sec.\nAt 100 stacks, your target witnesses a vision of N'Zoth, dealing (689% of Spell Power) Shadow damage and granting you 6 Insanity over 3 sec.",
-      "pvp_tooltip": "You create Horrific Visions when casting harmful spells on enemies.\nAt 50 stacks of Horrific Visions, your target sees a nightmare, dealing (182% of Spell Power) Shadow damage and granting you 2 Insanity over 3 sec.\nAt 100 stacks, your target witnesses a vision of N'Zoth, dealing (689% of Spell Power) Shadow damage and granting you 6 Insanity over 3 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "You create Horrific Visions when casting harmful spells on enemies.\nAt 50 stacks of Horrific Visions, your target sees a nightmare, dealing (119.756% of Spell Power) Shadow damage and granting you 2 Insanity over 3 sec.\nAt 100 stacks, your target witnesses a vision of N'Zoth, dealing (453.362% of Spell Power) Shadow damage and granting you 6 Insanity over 3 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 141,
+          "end": 144,
+          "old_token": "182",
+          "new_token": "119.756",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 282,
+          "end": 285,
+          "old_token": "689",
+          "new_token": "453.362",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "182",
+          "new": "119.756"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "689",
+          "new": "453.362"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6143,7 +6298,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 373280,
           "source_spell_id": 1243105,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow (SP mod: 1.82)",
+          "effect_text": "School Damage (Shadow) (SP mod: 1.82)",
           "base_value": null,
           "spell_pvp_multiplier": 0.7,
           "amount_kind": "direct",
@@ -6170,9 +6325,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -6181,7 +6338,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 373280,
           "source_spell_id": 1243106,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow (SP mod: 6.89)",
+          "effect_text": "School Damage (Shadow) (SP mod: 6.89)",
           "base_value": null,
           "spell_pvp_multiplier": 0.7,
           "amount_kind": "direct",
@@ -6208,13 +6365,15 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 2
     },
     {
       "talent_name": "Idol of Yogg-Saron",
@@ -6243,6 +6402,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 13500,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6273,7 +6433,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 373273,
           "source_spell_id": 373279,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow (SP mod: 0.938961)",
+          "effect_text": "School Damage (Shadow) (SP mod: 0.938961)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6300,10 +6460,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0
@@ -6335,6 +6495,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 14700,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6363,36 +6524,8 @@ window.WOW_PVP_DATA = {
           "dependency_kind": "EMBEDDED",
           "talent_spell_id": 377349,
           "source_spell_id": 193473,
-          "effect_index": 3,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
-          "base_value": -30.0,
-          "spell_pvp_multiplier": 0.666667,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.666667,
-          "final_pvp_value": -20.00001,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            377349,
-            193473
-          ],
-          "dependency_relations": [
-            "spelldesc_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "simc",
-            "drustvar"
-          ],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "EMBEDDED",
-          "talent_spell_id": 377349,
-          "source_spell_id": 193473,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Damage (3): shadow every 2 seconds (SP mod: 0.6436)",
+          "effect_text": "Apply Aura: Periodic Damage",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -6419,9 +6552,39 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
+          "source_notes": [],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "EMBEDDED",
+          "talent_spell_id": 377349,
+          "source_spell_id": 193473,
+          "effect_index": 3,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -30.0,
+          "spell_pvp_multiplier": 0.666667,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.666667,
+          "final_pvp_value": -20.00001,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            377349,
+            193473
+          ],
+          "dependency_relations": [
+            "spelldesc_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar",
+            "simc"
+          ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -6430,7 +6593,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 377349,
           "source_spell_id": 394979,
           "effect_index": 2,
-          "effect_text": "School Damage (2): shadow (SP mod: 0.42925)",
+          "effect_text": "School Damage (Shadow) (SP mod: 0.42925)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6459,10 +6622,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0
@@ -6494,6 +6657,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12900,
         "pos_y": 7650,
         "max_ranks": 4,
+        "required_points": 20,
         "entry_node": true,
         "free_node": false,
         "prev": [],
@@ -6543,6 +6707,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12900,
         "pos_y": 7650,
         "max_ranks": 4,
+        "required_points": 20,
         "entry_node": true,
         "free_node": false,
         "prev": [],
@@ -6569,7 +6734,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1264104,
           "source_spell_id": 1264177,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow (SP mod: 1.5)",
+          "effect_text": "School Damage (Shadow) (SP mod: 1.5)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6596,10 +6761,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0
@@ -6631,6 +6796,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12900,
         "pos_y": 7650,
         "max_ranks": 4,
+        "required_points": 20,
         "entry_node": true,
         "free_node": false,
         "prev": [],
@@ -6680,6 +6846,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 15600,
         "pos_y": 1500,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": true,
         "free_node": true,
         "prev": [],
@@ -6732,7 +6899,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 120644,
           "source_spell_id": 120692,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 1.61)",
+          "effect_text": "Heal (SP mod: 1.61)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6759,10 +6926,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -6770,7 +6937,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 120644,
           "source_spell_id": 390964,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow (SP mod: 1.442)",
+          "effect_text": "School Damage (Shadow) (SP mod: 1.442)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6806,10 +6973,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -6817,7 +6984,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 120644,
           "source_spell_id": 120696,
           "effect_index": 1,
-          "effect_text": "School Damage (2): holy (SP mod: 1.442)",
+          "effect_text": "School Damage (Holy) (SP mod: 1.442)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6857,10 +7024,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -6892,6 +7059,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 14700,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6945,6 +7113,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 15300,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6998,6 +7167,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 15900,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7028,7 +7198,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 453783,
           "source_spell_id": 391403,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Damage (3): shadow every 0.375 seconds (SP mod: 1.3559)",
+          "effect_text": "Apply Aura: Periodic Damage",
           "base_value": null,
           "spell_pvp_multiplier": 0.875,
           "amount_kind": "periodic",
@@ -7055,9 +7225,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -7066,7 +7238,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 453783,
           "source_spell_id": 391403,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -70.0,
           "spell_pvp_multiplier": 0.714286,
           "amount_kind": null,
@@ -7083,9 +7255,11 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -7118,6 +7292,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 16500,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7171,6 +7346,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 14700,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7224,6 +7400,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 14700,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7277,6 +7454,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 15300,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7330,6 +7508,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 15900,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7383,6 +7562,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 16500,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7436,6 +7616,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 16500,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7489,6 +7670,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 14700,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7542,6 +7724,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 14700,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7595,6 +7778,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 15300,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7648,6 +7832,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 15900,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7664,8 +7849,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 453828,
         "icon": "ability_priest_voidshift"
       },
-      "pve_tooltip": "Casting Mind Flay: Insanity has a 100% chance to conjure Shadowy Apparitions.\nHoly (Ultimate Serenity)\nConsuming Surge of Light reduces the cooldown of Holy Word: Serenity by 4 sec.Consuming Surge of Light reduces the cooldown of Holy Word: Sanctify by 4 sec.",
-      "pvp_tooltip": "Casting Mind Flay: Insanity has a 100% chance to conjure Shadowy Apparitions.\nHoly (Ultimate Serenity)\nConsuming Surge of Light reduces the cooldown of Holy Word: Serenity by 4 sec.Consuming Surge of Light reduces the cooldown of Holy Word: Sanctify by 4 sec.",
+      "pve_tooltip": "Casting Mind Flay: Insanity has a 100% chance to conjure Shadowy Apparitions.",
+      "pvp_tooltip": "Casting Mind Flay: Insanity has a 100% chance to conjure Shadowy Apparitions.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -7701,6 +7886,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 16500,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7754,6 +7940,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 16500,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7807,6 +7994,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 15600,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7861,6 +8049,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 8700,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": true,
         "free_node": true,
         "prev": [],
@@ -7939,6 +8128,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -7947,7 +8137,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 263165,
           "source_spell_id": 447448,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow (SP mod: 0.6)",
+          "effect_text": "School Damage (Shadow) (SP mod: 0.6)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7976,10 +8166,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1
@@ -8011,6 +8201,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 7800,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8078,6 +8269,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -8110,6 +8302,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 7800,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8163,6 +8356,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 8400,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8193,7 +8387,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 450405,
           "source_spell_id": 450215,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow (SP mod: 1.5)",
+          "effect_text": "School Damage (Shadow) (SP mod: 1.5)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8220,10 +8414,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8231,7 +8425,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 450405,
           "source_spell_id": 450983,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow (SP mod: 2.1)",
+          "effect_text": "School Damage (Shadow) (SP mod: 2.1)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8267,10 +8461,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0
@@ -8302,6 +8496,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 9000,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8369,6 +8564,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -8401,6 +8597,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 9600,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8458,6 +8655,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -8490,6 +8688,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 7800,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8543,6 +8742,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 8400,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8596,6 +8796,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 8400,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8649,6 +8850,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 9000,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8679,7 +8881,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 451234,
           "source_spell_id": 451435,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow (SP mod: 1)",
+          "effect_text": "School Damage (Shadow)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8708,10 +8910,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0
@@ -8743,6 +8945,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 9600,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8796,6 +8999,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 7800,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8842,6 +9046,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -8866,6 +9071,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -8898,6 +9104,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 8400,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8955,6 +9162,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -8987,6 +9195,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 9000,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9054,6 +9263,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -9086,6 +9296,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 9000,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9139,6 +9350,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 9600,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9192,6 +9404,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 8700,
         "pos_y": 6900,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9210,11 +9423,32 @@ window.WOW_PVP_DATA = {
         "icon": "inv_cosmicvoid_groundsate"
       },
       "pve_tooltip": "Each time you cast Shadow Word: Madness, Entropic Rift is empowered, increasing its damage and size by 20%.\nAfter Entropic Rift ends it collapses, dealing (440% of Spell Power) Shadow damage split amongst enemy targets within 15 yds.",
-      "pvp_tooltip": "Each time you cast Shadow Word: Madness, Entropic Rift is empowered, increasing its damage and size by 20%.\nAfter Entropic Rift ends it collapses, dealing (440% of Spell Power) Shadow damage split amongst enemy targets within 15 yds.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Each time you cast Shadow Word: Madness, Entropic Rift is empowered, increasing its damage and size by 20%.\nAfter Entropic Rift ends it collapses, dealing (413.6% of Spell Power) Shadow damage split amongst enemy targets within 15 yds.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 156,
+          "end": 159,
+          "old_token": "440",
+          "new_token": "413.6",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "440",
+          "new": "413.6"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -9223,7 +9457,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 448403,
           "source_spell_id": 448405,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow (SP mod: 4.4)",
+          "effect_text": "School Damage (Shadow) (SP mod: 4.4)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9250,21 +9484,22 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
-          "confidence": "high"
+          "source_notes": [],
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     }
   ],
   "fetch_errors": [],
+  "source_warnings": [],
   "slug": "priest-shadow",
-  "generated_at": "2026-09-20T07:04:20.500639+00:00",
+  "generated_at": "2026-09-20T09:50:26.914816+00:00",
   "validation": {
     "talents": 138,
-    "changed_tooltips": 15,
+    "changed_tooltips": 17,
     "talents_with_pvp_mechanics": 30,
     "unique_nodes": 120,
     "tree_build": "12.1.0.69875",
@@ -9274,37 +9509,11 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 19,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 120692,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=120692'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 120696,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=120696'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 193473,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=193473'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 373279,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=373279'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 390964,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=390964'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }

@@ -34,6 +34,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 2400,
         "pos_y": 900,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": true,
         "free_node": true,
         "prev": [],
@@ -101,6 +102,7 @@ window.WOW_PVP_DATA = {
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         },
         {
@@ -124,6 +126,7 @@ window.WOW_PVP_DATA = {
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         }
       ],
@@ -156,6 +159,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 4800,
         "pos_y": 900,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": true,
         "free_node": true,
         "prev": [],
@@ -222,6 +226,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -254,6 +259,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 1800,
         "pos_y": 1500,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -308,6 +314,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 3000,
         "pos_y": 1500,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -363,6 +370,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 4200,
         "pos_y": 1500,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -440,6 +448,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -472,6 +481,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 5400,
         "pos_y": 1500,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -526,6 +536,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 2400,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -623,6 +634,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         },
         {
@@ -652,6 +664,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -684,6 +697,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 3600,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -767,6 +781,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -799,6 +814,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 4200,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -850,6 +866,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 4800,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -927,6 +944,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -959,6 +977,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 1800,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1047,6 +1066,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -1086,6 +1106,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -1118,6 +1139,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 2400,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1169,6 +1191,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 3000,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1226,6 +1249,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 3600,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1301,6 +1325,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -1325,6 +1350,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -1354,6 +1380,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -1386,6 +1413,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 4200,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1442,6 +1470,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 5400,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1497,6 +1526,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 5400,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1552,6 +1582,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 2400,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1630,6 +1661,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -1662,6 +1694,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 3000,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1713,6 +1746,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 3600,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1782,6 +1816,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -1814,6 +1849,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 4200,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1865,6 +1901,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 4800,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1920,6 +1957,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 1800,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -1980,6 +2018,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         },
         {
@@ -2017,6 +2056,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         },
         {
@@ -2046,6 +2086,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -2078,6 +2119,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 1800,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2138,6 +2180,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         },
         {
@@ -2175,6 +2218,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         },
         {
@@ -2204,6 +2248,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -2236,6 +2281,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 2400,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2287,6 +2333,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 3000,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2342,6 +2389,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 3000,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2397,6 +2445,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 4200,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2452,6 +2501,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 4200,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2521,6 +2571,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -2553,6 +2604,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 5400,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2607,6 +2659,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 2400,
         "pos_y": 4500,
         "max_ranks": 2,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2662,6 +2715,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 3600,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2721,6 +2775,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -2753,6 +2808,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 4800,
         "pos_y": 4500,
         "max_ranks": 2,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2808,6 +2864,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 1800,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2824,8 +2881,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 383082,
         "icon": "ability_garrosh_whirling_corruption"
       },
-      "pve_tooltip": "Fury (Crashing Thunder)\nThunder Clap, Whirlwind, and Raging Blow deal 10% more damage and 5% increased critical strike damage.\nSlam, Whirlwind, and Cleave deal 10% more damage and 5% increased critical strike damage.",
-      "pvp_tooltip": "Fury (Crashing Thunder)\nThunder Clap, Whirlwind, and Raging Blow deal 10% more damage and 5% increased critical strike damage.\nSlam, Whirlwind, and Cleave deal 10% more damage and 5% increased critical strike damage.",
+      "pve_tooltip": "Slam, Whirlwind, and Cleave deal 10% more damage and 5% increased critical strike damage.",
+      "pvp_tooltip": "Slam, Whirlwind, and Cleave deal 10% more damage and 5% increased critical strike damage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2861,6 +2918,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 3000,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2916,6 +2974,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 4200,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -2971,6 +3030,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 5400,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3024,6 +3084,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 2400,
         "pos_y": 5700,
         "max_ranks": 2,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3079,6 +3140,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 3600,
         "pos_y": 5700,
         "max_ranks": 2,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3134,6 +3196,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 4800,
         "pos_y": 5700,
         "max_ranks": 2,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3189,6 +3252,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 1800,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3254,6 +3318,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -3286,6 +3351,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 3000,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3302,11 +3368,32 @@ window.WOW_PVP_DATA = {
         "icon": "inv_ability_warrior_championsspear"
       },
       "pve_tooltip": "25 yd range\nInstant\n1.5 min cooldown\nThrow a spear at the target location, chaining all enemies in the area to the spear's location and dealing (239.25% of Attack Power) Physical damage instantly and an additional (326.25% of Attack Power) Physical damage over 6 sec.\nWhile the spear is active, activating this ability will cause you to leap to the spear, dealing (47% of Attack Power) Physical damage to all targets.\nAll damage dealt reduced beyond 5 targets.\nGenerates\n10\nRage.",
-      "pvp_tooltip": "25 yd range\nInstant\n1.5 min cooldown\nThrow a spear at the target location, chaining all enemies in the area to the spear's location and dealing (239.25% of Attack Power) Physical damage instantly and an additional (326.25% of Attack Power) Physical damage over 6 sec.\nWhile the spear is active, activating this ability will cause you to leap to the spear, dealing (47% of Attack Power) Physical damage to all targets.\nAll damage dealt reduced beyond 5 targets.\nGenerates\n10\nRage.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "25 yd range\nInstant\n1.5 min cooldown\nThrow a spear at the target location, chaining all enemies in the area to the spear's location and dealing (239.25% of Attack Power) Physical damage instantly and an additional (326.25% of Attack Power) Physical damage over 6 sec.\nWhile the spear is active, activating this ability will cause you to leap to the spear, dealing (56.4% of Attack Power) Physical damage to all targets.\nAll damage dealt reduced beyond 5 targets.\nGenerates\n10\nRage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 365,
+          "end": 367,
+          "old_token": "47",
+          "new_token": "56.4",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "47",
+          "new": "56.4"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -3344,6 +3431,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         },
         {
@@ -3381,6 +3469,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         },
         {
@@ -3418,10 +3507,11 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 1
     },
     {
       "talent_name": "Stance Mastery",
@@ -3450,6 +3540,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 4200,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3502,6 +3593,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 5400,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 23,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3553,6 +3645,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12000,
         "pos_y": 900,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": true,
         "free_node": false,
         "prev": [],
@@ -3648,6 +3741,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -3676,6 +3770,7 @@ window.WOW_PVP_DATA = {
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -3708,6 +3803,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 11400,
         "pos_y": 1500,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3823,6 +3919,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -3855,6 +3952,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12600,
         "pos_y": 1500,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3908,6 +4006,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 11400,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -3962,6 +4061,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 11400,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4020,6 +4120,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -4052,6 +4153,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12600,
         "pos_y": 2100,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4106,6 +4208,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 10800,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4159,6 +4262,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 11400,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4213,6 +4317,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12600,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4297,6 +4402,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -4329,6 +4435,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 13200,
         "pos_y": 2700,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4382,6 +4489,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 10800,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4438,6 +4546,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12000,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4537,6 +4646,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -4565,6 +4675,7 @@ window.WOW_PVP_DATA = {
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         },
         {
@@ -4593,6 +4704,7 @@ window.WOW_PVP_DATA = {
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         }
       ],
@@ -4625,6 +4737,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 13200,
         "pos_y": 3300,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4681,6 +4794,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 10200,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4734,6 +4848,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 10200,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4787,6 +4902,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 10800,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4841,6 +4957,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 10800,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4895,6 +5012,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 11400,
         "pos_y": 3900,
         "max_ranks": 2,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -4950,6 +5068,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12000,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5003,6 +5122,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12000,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5056,6 +5176,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12600,
         "pos_y": 3900,
         "max_ranks": 2,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5127,6 +5248,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -5151,6 +5273,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -5183,6 +5306,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 13200,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5258,6 +5382,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -5290,6 +5415,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 13800,
         "pos_y": 3900,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5343,6 +5469,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 10200,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5397,6 +5524,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 10800,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5478,6 +5606,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -5510,6 +5639,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 11400,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5572,6 +5702,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -5604,6 +5735,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12000,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5657,6 +5789,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12000,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5710,6 +5843,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12600,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5764,6 +5898,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 13200,
         "pos_y": 4500,
         "max_ranks": 1,
+        "required_points": 8,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5819,6 +5954,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 10800,
         "pos_y": 5100,
         "max_ranks": 2,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5875,6 +6011,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12000,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -5946,6 +6083,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         },
         {
@@ -5994,6 +6132,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -6026,6 +6165,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12000,
         "pos_y": 5100,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6111,6 +6251,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -6143,6 +6284,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 13200,
         "pos_y": 5100,
         "max_ranks": 2,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6198,6 +6340,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 10200,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6251,6 +6394,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 11400,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6306,6 +6450,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12600,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6353,6 +6498,7 @@ window.WOW_PVP_DATA = {
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -6382,6 +6528,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -6414,6 +6561,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 13800,
         "pos_y": 5700,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6496,6 +6644,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -6528,6 +6677,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 10800,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6580,6 +6730,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12000,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6640,6 +6791,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -6672,6 +6824,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 13200,
         "pos_y": 6300,
         "max_ranks": 1,
+        "required_points": 20,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -6740,6 +6893,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -6764,6 +6918,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -6788,6 +6943,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -6820,6 +6976,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12000,
         "pos_y": 7050,
         "max_ranks": 4,
+        "required_points": 20,
         "entry_node": true,
         "free_node": false,
         "prev": [],
@@ -6869,6 +7026,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12000,
         "pos_y": 7050,
         "max_ranks": 4,
+        "required_points": 20,
         "entry_node": true,
         "free_node": false,
         "prev": [],
@@ -6918,6 +7076,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 12000,
         "pos_y": 7050,
         "max_ranks": 4,
+        "required_points": 20,
         "entry_node": true,
         "free_node": false,
         "prev": [],
@@ -6967,6 +7126,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 7850,
         "pos_y": 1250,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": true,
         "free_node": true,
         "prev": [],
@@ -7076,6 +7236,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         },
         {
@@ -7105,6 +7266,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -7134,6 +7296,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -7163,6 +7326,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -7195,6 +7359,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 6900,
         "pos_y": 1800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7248,6 +7413,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 7500,
         "pos_y": 1800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7301,6 +7467,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 8100,
         "pos_y": 1800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7373,6 +7540,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -7405,6 +7573,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 8100,
         "pos_y": 1800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7458,6 +7627,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 8700,
         "pos_y": 1800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7511,6 +7681,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 6900,
         "pos_y": 2400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7564,6 +7735,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 7500,
         "pos_y": 2400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7617,6 +7789,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 7500,
         "pos_y": 2400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7690,6 +7863,7 @@ window.WOW_PVP_DATA = {
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         },
         {
@@ -7718,6 +7892,7 @@ window.WOW_PVP_DATA = {
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         }
       ],
@@ -7750,6 +7925,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 8100,
         "pos_y": 2400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7803,6 +7979,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 8100,
         "pos_y": 2400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7856,6 +8033,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 8700,
         "pos_y": 2400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7909,6 +8087,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 6900,
         "pos_y": 3000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -7991,6 +8170,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -8020,6 +8200,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -8049,6 +8230,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         },
         {
@@ -8099,6 +8281,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -8131,6 +8314,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 7500,
         "pos_y": 3000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8213,6 +8397,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -8245,6 +8430,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 8100,
         "pos_y": 3000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8298,6 +8484,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 8700,
         "pos_y": 3000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8365,6 +8552,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -8397,6 +8585,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 7850,
         "pos_y": 3650,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8451,6 +8640,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 7850,
         "pos_y": 4250,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": true,
         "free_node": true,
         "prev": [],
@@ -8602,6 +8792,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         },
         {
@@ -8648,6 +8839,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         },
         {
@@ -8703,6 +8895,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         }
       ],
@@ -8735,6 +8928,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 6900,
         "pos_y": 4800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8788,6 +8982,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 7500,
         "pos_y": 4800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8839,6 +9034,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -8871,6 +9067,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 8100,
         "pos_y": 4800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -8943,6 +9140,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -8975,6 +9173,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 8100,
         "pos_y": 4800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9028,6 +9227,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 8700,
         "pos_y": 4800,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9081,6 +9281,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 6900,
         "pos_y": 5400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9134,6 +9335,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 6900,
         "pos_y": 5400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9185,6 +9387,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -9217,6 +9420,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 7500,
         "pos_y": 5400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9268,6 +9472,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -9300,6 +9505,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 8100,
         "pos_y": 5400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9353,6 +9559,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 8100,
         "pos_y": 5400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9406,6 +9613,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 8700,
         "pos_y": 5400,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9459,6 +9667,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 6900,
         "pos_y": 6000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9487,14 +9696,16 @@ window.WOW_PVP_DATA = {
           "new_token": "15",
           "kind": "percent_value",
           "effect_indexes": [
-            1
+            1,
+            3
           ]
         }
       ],
       "diagnostics": [
         {
           "effect_indexes": [
-            1
+            1,
+            3
           ],
           "status": "APPLIED",
           "kind": "percent_value",
@@ -9525,6 +9736,7 @@ window.WOW_PVP_DATA = {
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         },
         {
@@ -9548,10 +9760,11 @@ window.WOW_PVP_DATA = {
             "wowhead",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 2
     },
     {
       "talent_name": "Precise Might",
@@ -9580,6 +9793,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 7500,
         "pos_y": 6000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9631,6 +9845,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -9663,6 +9878,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 8100,
         "pos_y": 6000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9730,6 +9946,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -9762,6 +9979,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 8700,
         "pos_y": 6000,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9834,6 +10052,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -9866,6 +10085,7 @@ window.WOW_PVP_DATA = {
         "pos_x": 7850,
         "pos_y": 6650,
         "max_ranks": 1,
+        "required_points": 0,
         "entry_node": false,
         "free_node": false,
         "prev": [
@@ -9947,6 +10167,7 @@ window.WOW_PVP_DATA = {
           "sources": [
             "wowhead"
           ],
+          "source_notes": [],
           "confidence": "medium"
         },
         {
@@ -9976,6 +10197,7 @@ window.WOW_PVP_DATA = {
             "drustvar",
             "simc"
           ],
+          "source_notes": [],
           "confidence": "high"
         }
       ],
@@ -9983,11 +10205,12 @@ window.WOW_PVP_DATA = {
     }
   ],
   "fetch_errors": [],
+  "source_warnings": [],
   "slug": "warrior-arms",
-  "generated_at": "2026-09-20T07:12:49.261795+00:00",
+  "generated_at": "2026-09-20T09:52:09.994650+00:00",
   "validation": {
     "talents": 122,
-    "changed_tooltips": 33,
+    "changed_tooltips": 34,
     "talents_with_pvp_mechanics": 47,
     "unique_nodes": 104,
     "tree_build": "12.1.0.69875",
