@@ -57,7 +57,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Death Strike",
@@ -101,8 +102,8 @@
         "spell_id": 49998,
         "icon": "spell_deathknight_butcher2"
       },
-      "pve_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike with both weapons, that deals a total of [(153.12% of Attack Power) + (29.835% of Attack Power)] Physical damage and heals you for (20 /\nVoracious\n:\n21\n/\nImproved Death Strike\n:\n32\n)% of all damage taken in the last 5 sec, minimum\n7.0\n% of maximum health.",
-      "pvp_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike with both weapons, that deals a total of [(173.0256% of Attack Power) + (33.7135% of Attack Power)] Physical damage and heals you for (20 /\nVoracious\n:\n21\n/\nImproved Death Strike\n:\n32\n)% of all damage taken in the last 5 sec, minimum\n7.0\n% of maximum health.",
+      "pve_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike with both weapons, that deals a total of [(153.12% of Attack Power) + (29.835% of Attack Power)] Physical damage and heals you for (20 / Voracious: 21 / Improved Death Strike: 32)% of all damage taken in the last 5 sec, minimum 7.0% of maximum health.",
+      "pvp_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike with both weapons, that deals a total of [(173.0256% of Attack Power) + (33.7135% of Attack Power)] Physical damage and heals you for (20 / Voracious: 21 / Improved Death Strike: 32)% of all damage taken in the last 5 sec, minimum 7.0% of maximum health.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -221,7 +222,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Raise Dead",
@@ -265,15 +267,16 @@
         "spell_id": 46585,
         "icon": "inv_pet_ghoul"
       },
-      "pve_tooltip": "30 yd range\nInstant\n2 min cooldown\nRaises a [\nGlyph of the Geist\n:\ngeist\n/ ghoul] to fight by your side. You can have a maximum of one [\nGlyph of the Geist\n:\ngeist\n/ ghoul] at a time. Lasts 1 min.",
-      "pvp_tooltip": "30 yd range\nInstant\n2 min cooldown\nRaises a [\nGlyph of the Geist\n:\ngeist\n/ ghoul] to fight by your side. You can have a maximum of one [\nGlyph of the Geist\n:\ngeist\n/ ghoul] at a time. Lasts 1 min.",
+      "pve_tooltip": "30 yd range\nInstant\n2 min cooldown\nRaises a [Glyph of the Geist: geist / ghoul] to fight by your side. You can have a maximum of one [Glyph of the Geist: geist / ghoul] at a time. Lasts 1 min.",
+      "pvp_tooltip": "30 yd range\nInstant\n2 min cooldown\nRaises a [Glyph of the Geist: geist / ghoul] to fight by your side. You can have a maximum of one [Glyph of the Geist: geist / ghoul] at a time. Lasts 1 min.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Runic Attenuation",
@@ -321,15 +324,16 @@
         "spell_id": 207104,
         "icon": "boss_odunrunes_blue"
       },
-      "pve_tooltip": "Approximately\n10.8\nprocs per minute\nAuto attacks have a chance to generate 3 Runic Power.",
-      "pvp_tooltip": "Approximately\n10.8\nprocs per minute\nAuto attacks have a chance to generate 3 Runic Power.",
+      "pve_tooltip": "Approximately 10.8 procs per minute\nAuto attacks have a chance to generate 3 Runic Power.",
+      "pvp_tooltip": "Approximately 10.8 procs per minute\nAuto attacks have a chance to generate 3 Runic Power.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Death Strike",
@@ -385,7 +389,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cleaving Strikes",
@@ -441,7 +446,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mind Freeze",
@@ -496,7 +502,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blinding Sleet",
@@ -637,7 +644,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gloom Ward",
@@ -686,15 +694,33 @@
         "spell_id": 391571,
         "icon": "ability_rogue_envelopingshadows"
       },
-      "pve_tooltip": "Absorbs are 15% more effective on you.",
-      "pvp_tooltip": "Absorbs are 15% more effective on you.",
+      "pve_tooltip": "Absorbs are 30% more effective on you.",
+      "pvp_tooltip": "Absorbs are 30% more effective on you.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Absorbs are 15% more effective on you.",
+          "pvp_tooltip": "Absorbs are 15% more effective on you.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Absorbs are 30% more effective on you.",
+          "pvp_tooltip": "Absorbs are 30% more effective on you.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "March of Darkness",
@@ -740,15 +766,16 @@
         "spell_id": 391546,
         "icon": "ability_argus_deathfog"
       },
-      "pve_tooltip": "Death's Advance grants an additional 25% movement speed over the first 3 sec. [\nPrice of Progress\n:\nMovement speed while using Price of Progress is increased by 5%\n]",
-      "pvp_tooltip": "Death's Advance grants an additional 25% movement speed over the first 3 sec. [\nPrice of Progress\n:\nMovement speed while using Price of Progress is increased by 5%\n]",
+      "pve_tooltip": "Death's Advance grants an additional 25% movement speed over the first 3 sec. [Price of Progress: Movement speed while using Price of Progress is increased by 5%]",
+      "pvp_tooltip": "Death's Advance grants an additional 25% movement speed over the first 3 sec. [Price of Progress: Movement speed while using Price of Progress is increased by 5%]",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wraith Walk",
@@ -794,15 +821,16 @@
         "spell_id": 212552,
         "icon": "inv_helm_plate_raiddeathknight_p_01"
       },
-      "pve_tooltip": "Channeled (4 sec cast)\n1 min cooldown\nEmbrace the power of the Shadowlands, removing all root effects and increasing your movement speed by\n70\n% for 4 sec. Taking any action cancels the effect.\nWhile active, your movement speed cannot be reduced below 170%.",
-      "pvp_tooltip": "Channeled (4 sec cast)\n1 min cooldown\nEmbrace the power of the Shadowlands, removing all root effects and increasing your movement speed by\n70\n% for 4 sec. Taking any action cancels the effect.\nWhile active, your movement speed cannot be reduced below 170%.",
+      "pve_tooltip": "Channeled (4 sec cast)\n1 min cooldown\nEmbrace the power of the Shadowlands, removing all root effects and increasing your movement speed by 70% for 4 sec. Taking any action cancels the effect.\nWhile active, your movement speed cannot be reduced below 170%.",
+      "pvp_tooltip": "Channeled (4 sec cast)\n1 min cooldown\nEmbrace the power of the Shadowlands, removing all root effects and increasing your movement speed by 70% for 4 sec. Taking any action cancels the effect.\nWhile active, your movement speed cannot be reduced below 170%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unholy Momentum",
@@ -851,15 +879,33 @@
         "spell_id": 374265,
         "icon": "spell_necro_deathrift"
       },
-      "pve_tooltip": "Increases Haste by 2%.",
-      "pvp_tooltip": "Increases Haste by 2%.",
+      "pve_tooltip": "Increases Haste by 4%.",
+      "pvp_tooltip": "Increases Haste by 4%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Increases Haste by 2%.",
+          "pvp_tooltip": "Increases Haste by 2%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Increases Haste by 4%.",
+          "pvp_tooltip": "Increases Haste by 4%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Control Undead",
@@ -913,7 +959,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Enfeeble",
@@ -1069,7 +1116,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Coldthirst",
@@ -1123,7 +1171,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Proliferating Chill",
@@ -1179,7 +1228,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Permafrost",
@@ -1235,7 +1285,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Veteran of the Third War",
@@ -1328,7 +1379,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Death Pact",
@@ -1384,7 +1436,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Brittle",
@@ -1440,7 +1493,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blood Bond",
@@ -1494,7 +1548,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Icy Talons",
@@ -1551,7 +1606,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Death Notes",
@@ -1605,7 +1661,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Anti-Magic Zone",
@@ -1655,15 +1712,16 @@
         "spell_id": 51052,
         "icon": "spell_deathknight_antimagiczone"
       },
-      "pve_tooltip": "30 yd range\nInstant\n4 min cooldown\nPlaces an Anti-Magic Zone for\n6 sec\n, reducing the magic damage taken by party or raid members by 15%.",
-      "pvp_tooltip": "30 yd range\nInstant\n4 min cooldown\nPlaces an Anti-Magic Zone for\n6 sec\n, reducing the magic damage taken by party or raid members by 15%.",
+      "pve_tooltip": "30 yd range\nInstant\n4 min cooldown\nPlaces an Anti-Magic Zone for 6 sec, reducing the magic damage taken by party or raid members by 15%.",
+      "pvp_tooltip": "30 yd range\nInstant\n4 min cooldown\nPlaces an Anti-Magic Zone for 6 sec, reducing the magic damage taken by party or raid members by 15%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Death Defiance",
@@ -1717,7 +1775,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unholy Bond",
@@ -1774,7 +1833,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ice Prison",
@@ -1828,7 +1888,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Asphyxiate",
@@ -1885,7 +1946,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Death's Reach",
@@ -1942,7 +2004,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Assimilation",
@@ -1996,7 +2059,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Anti-Magic Barrier",
@@ -2100,7 +2164,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Grip of the Dead",
@@ -2146,15 +2211,16 @@
         "spell_id": 273952,
         "icon": "ability_creature_disease_05"
       },
-      "pve_tooltip": "[\nDefile\n/ Death and Decay] reduces the movement speed of enemies within its area by 90%, decaying by 10% every sec.",
-      "pvp_tooltip": "[\nDefile\n/ Death and Decay] reduces the movement speed of enemies within its area by 90%, decaying by 10% every sec.",
+      "pve_tooltip": "[Defile / Death and Decay] reduces the movement speed of enemies within its area by 90%, decaying by 10% every sec.",
+      "pvp_tooltip": "[Defile / Death and Decay] reduces the movement speed of enemies within its area by 90%, decaying by 10% every sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Suppression",
@@ -2210,7 +2276,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blood Scent",
@@ -2267,7 +2334,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unholy Endurance",
@@ -2323,7 +2391,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Osmosis",
@@ -2377,7 +2446,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Insidious Chill",
@@ -2433,7 +2503,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Runic Protection",
@@ -2489,7 +2560,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blood Draw",
@@ -2543,7 +2615,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rune Mastery",
@@ -2591,15 +2664,33 @@
         "spell_id": 374574,
         "icon": "ability_deathknight_hungeringruneblade"
       },
-      "pve_tooltip": "Consuming a Rune has a chance to increase your Strength by 3% for 8 sec.",
-      "pvp_tooltip": "Consuming a Rune has a chance to increase your Strength by 3% for 8 sec.",
+      "pve_tooltip": "Consuming a Rune has a chance to increase your Strength by 6% for 8 sec.",
+      "pvp_tooltip": "Consuming a Rune has a chance to increase your Strength by 6% for 8 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Consuming a Rune has a chance to increase your Strength by 3% for 8 sec.",
+          "pvp_tooltip": "Consuming a Rune has a chance to increase your Strength by 3% for 8 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Consuming a Rune has a chance to increase your Strength by 6% for 8 sec.",
+          "pvp_tooltip": "Consuming a Rune has a chance to increase your Strength by 6% for 8 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Subduing Grasp",
@@ -2655,7 +2746,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Will of the Necropolis",
@@ -2703,16 +2795,16 @@
         "spell_id": 206967,
         "icon": "achievement_boss_kelthuzad_01"
       },
-      "pve_tooltip": "Damage taken below 30% Health is reduced by 20%.",
-      "pvp_tooltip": "Damage taken below 30% Health is reduced by 10%.",
+      "pve_tooltip": "Damage taken below 30% Health is reduced by 35%.",
+      "pvp_tooltip": "Damage taken below 30% Health is reduced by 17.5%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
           "start": 44,
           "end": 46,
-          "old_token": "20",
-          "new_token": "10",
+          "old_token": "35",
+          "new_token": "17.5",
           "kind": "percent_value",
           "effect_indexes": [
             2
@@ -2726,8 +2818,8 @@
           ],
           "status": "APPLIED",
           "kind": "percent_value",
-          "old": "20",
-          "new": "10"
+          "old": "35",
+          "new": "17.5"
         }
       ],
       "has_pvp_mechanics": true,
@@ -2758,7 +2850,25 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Damage taken below 30% Health is reduced by 20%.",
+          "pvp_tooltip": "Damage taken below 30% Health is reduced by 10%.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Damage taken below 30% Health is reduced by 35%.",
+          "pvp_tooltip": "Damage taken below 30% Health is reduced by 17.5%.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Null Magic",
@@ -2892,7 +3002,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unyielding Will",
@@ -2945,7 +3056,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Death's Echo",
@@ -2998,7 +3110,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Vestigial Shell",
@@ -3102,7 +3215,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frost Strike",
@@ -3303,7 +3417,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Obliterate",
@@ -3511,7 +3626,7 @@
           "talent_spell_id": 49020,
           "source_spell_id": 1264082,
           "effect_index": 1,
-          "effect_text": "School Damage (2): frost (AP mod: 0.714221)",
+          "effect_text": "School Damage (Frost) (AP mod: 0.714221 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.88,
           "amount_kind": "direct",
@@ -3547,8 +3662,9 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -3559,7 +3675,7 @@
           "talent_spell_id": 49020,
           "source_spell_id": 1264083,
           "effect_index": 1,
-          "effect_text": "School Damage (2): frost (AP mod: 0.714221)",
+          "effect_text": "School Damage (Frost) (AP mod: 0.714221 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.88,
           "amount_kind": "direct",
@@ -3595,8 +3711,9 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -3607,7 +3724,7 @@
           "talent_spell_id": 49020,
           "source_spell_id": 1264084,
           "effect_index": 1,
-          "effect_text": "School Damage (2): frost (AP mod: 1.05731)",
+          "effect_text": "School Damage (Frost) (AP mod: 1.05731 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.88,
           "amount_kind": "direct",
@@ -3643,14 +3760,16 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Howling Blast",
@@ -3697,8 +3816,8 @@
         "spell_id": 49184,
         "icon": "spell_frost_arcticwinds"
       },
-      "pve_tooltip": "1 Rune / -10 Runic Power\n30 yd range\nInstant\nBlast the target with a frigid wind, dealing [(50.6819% of Attack Power) * [(Attack Power * 0.98)][((Attack Power + Offhand Attack Power) * 2 / 3)] -- 2H, DW / Attack Power] [\nNorthrend Winds\n:\nFrost damage and applying Frost Fever to the target\n/ Frost damage to that foe, and reduced damage to all other enemies within 10 yards, infecting all targets with Frost Fever.]\nFrost Fever\nA disease that deals [(342.4% of Attack Power) * [(Attack Power * 0.98)][((Attack Power + Offhand Attack Power) * 2 / 3)] -- 2H, DW / Attack Power] Frost damage over 24 sec and has a chance to grant the Death Knight 4 Runic Power each time it deals damage.",
-      "pvp_tooltip": "1 Rune / -10 Runic Power\n30 yd range\nInstant\nBlast the target with a frigid wind, dealing [(37.2259% of Attack Power) * [(Attack Power * 0.98)][((Attack Power + Offhand Attack Power) * 2 / 3)] -- 2H, DW / Attack Power] [\nNorthrend Winds\n:\nFrost damage and applying Frost Fever to the target\n/ Frost damage to that foe, and reduced damage to all other enemies within 10 yards, infecting all targets with Frost Fever.]\nFrost Fever\nA disease that deals [(342.4% of Attack Power) * [(Attack Power * 0.98)][((Attack Power + Offhand Attack Power) * 2 / 3)] -- 2H, DW / Attack Power] Frost damage over 24 sec and has a chance to grant the Death Knight 4 Runic Power each time it deals damage.",
+      "pve_tooltip": "1 Rune / -10 Runic Power\n30 yd range\nInstant\nBlast the target with a frigid wind, dealing [(50.6819% of Attack Power) * [(Attack Power * 0.98)][((Attack Power + Offhand Attack Power) * 2 / 3)] -- 2H, DW / Attack Power] [Northrend Winds: Frost damage and applying Frost Fever to the target / Frost damage to that foe, and reduced damage to all other enemies within 10 yards, infecting all targets with Frost Fever.]\nFrost Fever\nA disease that deals [(342.4% of Attack Power) * [(Attack Power * 0.98)][((Attack Power + Offhand Attack Power) * 2 / 3)] -- 2H, DW / Attack Power] Frost damage over 24 sec and has a chance to grant the Death Knight 4 Runic Power each time it deals damage.",
+      "pvp_tooltip": "1 Rune / -10 Runic Power\n30 yd range\nInstant\nBlast the target with a frigid wind, dealing [(37.2259% of Attack Power) * [(Attack Power * 0.98)][((Attack Power + Offhand Attack Power) * 2 / 3)] -- 2H, DW / Attack Power] [Northrend Winds: Frost damage and applying Frost Fever to the target / Frost damage to that foe, and reduced damage to all other enemies within 10 yards, infecting all targets with Frost Fever.]\nFrost Fever\nA disease that deals [(342.4% of Attack Power) * [(Attack Power * 0.98)][((Attack Power + Offhand Attack Power) * 2 / 3)] -- 2H, DW / Attack Power] Frost damage over 24 sec and has a chance to grant the Death Knight 4 Runic Power each time it deals damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3802,7 +3921,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Killing Machine",
@@ -3857,7 +3977,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Empower Rune Weapon",
@@ -3961,7 +4082,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frostscythe",
@@ -4073,7 +4195,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Arctic Assault",
@@ -4129,7 +4252,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Runic Overflow",
@@ -4176,15 +4300,33 @@
         "spell_id": 316803,
         "icon": "ability_domination_rune01"
       },
-      "pve_tooltip": "Increases Frost Strike and Glacial Advance damage by 10%.",
-      "pvp_tooltip": "Increases Frost Strike and Glacial Advance damage by 10%.",
+      "pve_tooltip": "Increases Frost Strike and Glacial Advance damage by 20%.",
+      "pvp_tooltip": "Increases Frost Strike and Glacial Advance damage by 20%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Increases Frost Strike and Glacial Advance damage by 10%.",
+          "pvp_tooltip": "Increases Frost Strike and Glacial Advance damage by 10%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Increases Frost Strike and Glacial Advance damage by 20%.",
+          "pvp_tooltip": "Increases Frost Strike and Glacial Advance damage by 20%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Frostbound Will",
@@ -4240,7 +4382,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Runic Command",
@@ -4287,15 +4430,33 @@
         "spell_id": 376251,
         "icon": "ability_domination_rune07"
       },
-      "pve_tooltip": "Increases your maximum Runic Power by 5.\nIncreases Rune regeneration rate by 10%.",
-      "pvp_tooltip": "Increases your maximum Runic Power by 5.\nIncreases Rune regeneration rate by 10%.",
+      "pve_tooltip": "Increases your maximum Runic Power by 20.\nIncreases Rune regeneration rate by 15%.",
+      "pvp_tooltip": "Increases your maximum Runic Power by 20.\nIncreases Rune regeneration rate by 15%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Increases your maximum Runic Power by 10.\nIncreases Rune regeneration rate by 8%.",
+          "pvp_tooltip": "Increases your maximum Runic Power by 10.\nIncreases Rune regeneration rate by 8%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Increases your maximum Runic Power by 20.\nIncreases Rune regeneration rate by 15%.",
+          "pvp_tooltip": "Increases your maximum Runic Power by 20.\nIncreases Rune regeneration rate by 15%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Biting Cold",
@@ -4351,7 +4512,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Inexorable Assault",
@@ -4398,14 +4560,14 @@
         "spell_id": 253593,
         "icon": "achievement_dungeon_icecrown_frostmourne"
       },
-      "pve_tooltip": "Gain Inexorable Assault every 4 sec, stacking up to 5 times.\n[\nFrostscythe\n:\nObliterate and Frostscythe consume\n/ Obliterate consumes] up to 3 stacks, dealing an additional (26.322% of Attack Power) Frost damage for each stack consumed.",
-      "pvp_tooltip": "Gain Inexorable Assault every 4 sec, stacking up to 5 times.\n[\nFrostscythe\n:\nObliterate and Frostscythe consume\n/ Obliterate consumes] up to 3 stacks, dealing an additional (29.7439% of Attack Power) Frost damage for each stack consumed.",
+      "pve_tooltip": "Gain Inexorable Assault every 4 sec, stacking up to 5 times.\n[Frostscythe: Obliterate and Frostscythe consume / Obliterate consumes] up to 3 stacks, dealing an additional (26.322% of Attack Power) Frost damage for each stack consumed.",
+      "pvp_tooltip": "Gain Inexorable Assault every 4 sec, stacking up to 5 times.\n[Frostscythe: Obliterate and Frostscythe consume / Obliterate consumes] up to 3 stacks, dealing an additional (29.7439% of Attack Power) Frost damage for each stack consumed.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 174,
-          "end": 180,
+          "start": 172,
+          "end": 178,
           "old_token": "26.322",
           "new_token": "29.7439",
           "kind": "attack_power_coefficient",
@@ -4466,7 +4628,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frostreaper",
@@ -4514,8 +4677,8 @@
         "spell_id": 1230301,
         "icon": "inv_axe_1h_pvpdraenors2_d_02"
       },
-      "pve_tooltip": "Approximately\n5\nprocs per minute\nObliterate deals 10% increased damage and has a chance to tether the souls of its target and a nearby enemy to yours.\nFrost Strike severs the tethers, dealing (205.92% of Attack Power) Shadowfrost damage to both foes.\n(700ms cooldown)",
-      "pvp_tooltip": "Approximately\n5\nprocs per minute\nObliterate deals 10% increased damage and has a chance to tether the souls of its target and a nearby enemy to yours.\nFrost Strike severs the tethers, dealing (232.6896% of Attack Power) Shadowfrost damage to both foes.\n(700ms cooldown)",
+      "pve_tooltip": "Approximately 5 procs per minute\nObliterate deals 10% increased damage and has a chance to tether the souls of its target and a nearby enemy to yours.\nFrost Strike severs the tethers, dealing (205.92% of Attack Power) Shadowfrost damage to both foes.\n(700ms cooldown)",
+      "pvp_tooltip": "Approximately 5 procs per minute\nObliterate deals 10% increased damage and has a chance to tether the souls of its target and a nearby enemy to yours.\nFrost Strike severs the tethers, dealing (232.6896% of Attack Power) Shadowfrost damage to both foes.\n(700ms cooldown)",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4549,7 +4712,7 @@
           "talent_spell_id": 1230301,
           "source_spell_id": 1233619,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadowfrost (AP mod: 2.0592)",
+          "effect_text": "School Damage (Frost, Shadow) (AP mod: 2.0592 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4576,14 +4739,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pillar of Frost",
@@ -4721,7 +4884,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Icy Onslaught",
@@ -4777,7 +4941,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gathering Storm",
@@ -4884,7 +5049,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Murderous Efficiency",
@@ -4941,7 +5107,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rage of the Frozen Champion",
@@ -4997,7 +5164,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Enduring Strength",
@@ -5051,7 +5219,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frozen Dominion",
@@ -5206,7 +5375,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frigid Executioner",
@@ -5263,7 +5433,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Howling Blades",
@@ -5345,7 +5516,7 @@
           "talent_spell_id": 1230223,
           "source_spell_id": 1231083,
           "effect_index": 1,
-          "effect_text": "School Damage (2): frost (AP mod: 0.252)",
+          "effect_text": "School Damage (Frost) (AP mod: 0.252 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5372,14 +5543,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cryogenic Chamber",
@@ -5435,7 +5606,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frostwyrm's Fury",
@@ -5554,7 +5726,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Everfrost",
@@ -5657,7 +5830,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Northwinds",
@@ -5712,7 +5886,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bonegrinder",
@@ -5760,16 +5935,16 @@
         "spell_id": 377098,
         "icon": "ability_deathknight_bonegrinder"
       },
-      "pve_tooltip": "Consuming Killing Machine grants 1% critical strike chance for 10 sec, stacking up to 5 times. At 5 stacks your next Killing Machine consumes the stacks and grants you 10% increased Frost damage for 10 sec.\n(700ms cooldown)",
-      "pvp_tooltip": "Consuming Killing Machine grants 1% critical strike chance for 10 sec, stacking up to 5 times. At 5 stacks your next Killing Machine consumes the stacks and grants you 5% increased Frost damage for 10 sec.\n(700ms cooldown)",
+      "pve_tooltip": "Consuming Killing Machine grants 1% critical strike chance for 10 sec, stacking up to 5 times. At 5 stacks your next Killing Machine consumes the stacks and grants you 20% increased Frost damage for 10 sec.\n(700ms cooldown)",
+      "pvp_tooltip": "Consuming Killing Machine grants 1% critical strike chance for 10 sec, stacking up to 5 times. At 5 stacks your next Killing Machine consumes the stacks and grants you 10% increased Frost damage for 10 sec.\n(700ms cooldown)",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
           "start": 168,
           "end": 170,
-          "old_token": "10",
-          "new_token": "5",
+          "old_token": "20",
+          "new_token": "10",
           "kind": "percent_value",
           "effect_indexes": [
             1
@@ -5783,8 +5958,8 @@
           ],
           "status": "APPLIED",
           "kind": "percent_value",
-          "old": "10",
-          "new": "5"
+          "old": "20",
+          "new": "10"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5815,7 +5990,25 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Consuming Killing Machine grants 1% critical strike chance for 10 sec, stacking up to 5 times. At 5 stacks your next Killing Machine consumes the stacks and grants you 10% increased Frost damage for 10 sec.\n(700ms cooldown)",
+          "pvp_tooltip": "Consuming Killing Machine grants 1% critical strike chance for 10 sec, stacking up to 5 times. At 5 stacks your next Killing Machine consumes the stacks and grants you 5% increased Frost damage for 10 sec.\n(700ms cooldown)",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Consuming Killing Machine grants 1% critical strike chance for 10 sec, stacking up to 5 times. At 5 stacks your next Killing Machine consumes the stacks and grants you 20% increased Frost damage for 10 sec.\n(700ms cooldown)",
+          "pvp_tooltip": "Consuming Killing Machine grants 1% critical strike chance for 10 sec, stacking up to 5 times. At 5 stacks your next Killing Machine consumes the stacks and grants you 10% increased Frost damage for 10 sec.\n(700ms cooldown)",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Smothering Offense",
@@ -5871,7 +6064,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Avalanche",
@@ -5987,7 +6181,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Icebreaker",
@@ -6035,15 +6230,33 @@
         "spell_id": 392950,
         "icon": "ability_mage_icewall"
       },
-      "pve_tooltip": "When empowered by Rime, Howling Blast deals 30% increased damage to your primary target.",
-      "pvp_tooltip": "When empowered by Rime, Howling Blast deals 30% increased damage to your primary target.",
+      "pve_tooltip": "When empowered by Rime, Howling Blast deals 60% increased damage to your primary target.",
+      "pvp_tooltip": "When empowered by Rime, Howling Blast deals 60% increased damage to your primary target.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "When empowered by Rime, Howling Blast deals 30% increased damage to your primary target.",
+          "pvp_tooltip": "When empowered by Rime, Howling Blast deals 30% increased damage to your primary target.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "When empowered by Rime, Howling Blast deals 60% increased damage to your primary target.",
+          "pvp_tooltip": "When empowered by Rime, Howling Blast deals 60% increased damage to your primary target.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Obliteration",
@@ -6089,15 +6302,16 @@
         "spell_id": 281238,
         "icon": "inv_axe_114"
       },
-      "pve_tooltip": "During Pillar of Frost, Frost Strike [\nGlacial Advance\n:\nGlacial Advance\n] and Howling Blast always grant Killing Machine and have a 20% chance to generate a Rune.\nAdditionally during Pillar of Frost, Empower Rune Weapon causes your next Obliterate or Frostscythe to cost no Runes.",
-      "pvp_tooltip": "During Pillar of Frost, Frost Strike [\nGlacial Advance\n:\nGlacial Advance\n] and Howling Blast always grant Killing Machine and have a 20% chance to generate a Rune.\nAdditionally during Pillar of Frost, Empower Rune Weapon causes your next Obliterate or Frostscythe to cost no Runes.",
+      "pve_tooltip": "During Pillar of Frost, Frost Strike [Glacial Advance: Glacial Advance] and Howling Blast always grant Killing Machine and have a 20% chance to generate a Rune.\nAdditionally during Pillar of Frost, Empower Rune Weapon causes your next Obliterate or Frostscythe to cost no Runes.",
+      "pvp_tooltip": "During Pillar of Frost, Frost Strike [Glacial Advance: Glacial Advance] and Howling Blast always grant Killing Machine and have a 20% chance to generate a Rune.\nAdditionally during Pillar of Frost, Empower Rune Weapon causes your next Obliterate or Frostscythe to cost no Runes.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Icy Death Torrent",
@@ -6204,7 +6418,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shattering Blade",
@@ -6348,7 +6563,8 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hyperpyrexia",
@@ -6402,7 +6618,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Killing Streak",
@@ -6454,7 +6671,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "The Long Winter",
@@ -6506,7 +6724,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frostbane",
@@ -6550,8 +6769,8 @@
         "spell_id": 455993,
         "icon": "inv_sword_1h_artifactruneblade_d_02"
       },
-      "pve_tooltip": "Start a frozen onslaught that strikes twice, unleashing the chilling essence of winter, dealing (71.9863% of Attack Power) Frost damage to all enemies caught in its wake with each strike.\nEach enemy struck reduces the damage dealt to the next foe by 5%, down to 40%.",
-      "pvp_tooltip": "Start a frozen onslaught that strikes twice, unleashing the chilling essence of winter, dealing (71.9863% of Attack Power) Frost damage to all enemies caught in its wake with each strike.\nEach enemy struck reduces the damage dealt to the next foe by 5%, down to 40%.",
+      "pve_tooltip": "Each foe struck with Glacial Advance has a chance to transform your next Frost Strike into Frostbane. The chance increases with the number of Razorice stacks on the target.\nFrostbane\nStart a frozen onslaught that strikes twice, unleashing the chilling essence of winter, dealing (71.9863% of Attack Power) Frost damage to all enemies caught in its wake with each strike.\nEach enemy struck reduces the damage dealt to the next foe by 5%, down to 40%.",
+      "pvp_tooltip": "Each foe struck with Glacial Advance has a chance to transform your next Frost Strike into Frostbane. The chance increases with the number of Razorice stacks on the target.\nFrostbane\nStart a frozen onslaught that strikes twice, unleashing the chilling essence of winter, dealing (71.9863% of Attack Power) Frost damage to all enemies caught in its wake with each strike.\nEach enemy struck reduces the damage dealt to the next foe by 5%, down to 40%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6564,7 +6783,7 @@
           "talent_spell_id": 455993,
           "source_spell_id": 1228443,
           "effect_index": 1,
-          "effect_text": "School Damage (2): frost (AP mod: 0.719863)",
+          "effect_text": "School Damage (Frost) (AP mod: 0.719863 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.42857,
           "amount_kind": "direct",
@@ -6602,14 +6821,16 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Breath of Sindragosa",
@@ -6702,7 +6923,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Chosen of Frostbrood",
@@ -6752,7 +6974,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Chosen of Frostbrood",
@@ -6802,7 +7025,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Chosen of Frostbrood",
@@ -6852,7 +7076,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Reaper's Mark",
@@ -7114,7 +7339,8 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 4
+      "render_effect_count": 4,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wave of Souls",
@@ -7278,7 +7504,8 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wither Away",
@@ -7324,8 +7551,8 @@
         "spell_id": 441894,
         "icon": "sha_spell_warlock_demonsoul"
       },
-      "pve_tooltip": "Frost Fever deals its damage\n% faster, and the second scythe of Exterminate applies Frost Fever.",
-      "pvp_tooltip": "Frost Fever deals its damage\n% faster, and the second scythe of Exterminate applies Frost Fever.",
+      "pve_tooltip": "Frost Fever deals its damage % faster, and the second scythe of Exterminate applies Frost Fever.",
+      "pvp_tooltip": "Frost Fever deals its damage % faster, and the second scythe of Exterminate applies Frost Fever.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -7453,7 +7680,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bind in Darkness",
@@ -7507,7 +7735,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frigid Resolve",
@@ -7561,7 +7790,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Soul Rupture",
@@ -7615,7 +7845,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Grim Reaper",
@@ -7669,7 +7900,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pact of the Deathbringer",
@@ -7770,7 +8002,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rune Carved Plates",
@@ -7897,7 +8130,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Deathly Blows",
@@ -7951,7 +8185,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Swift and Painful",
@@ -8005,7 +8240,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dark Talons",
@@ -8059,7 +8295,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Reaper's Onslaught",
@@ -8113,7 +8350,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Death's Messenger",
@@ -8167,7 +8405,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Expelling Shield",
@@ -8273,7 +8512,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Echoing Fury",
@@ -8327,7 +8567,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Exterminate",
@@ -8374,8 +8615,8 @@
         "spell_id": 441378,
         "icon": "inv_polearm_2h_titanargus_d_01"
       },
-      "pve_tooltip": "After Reaper's Mark explodes, your next 2\nObliterates\nor Frostscythes cost 1 Rune and summon 2 scythes to strike your enemies.\nThe first scythe strikes your target for (440.205% of Attack Power) Shadowfrost damage and has a 100% chance to grant Killing Machine, the second scythe strikes all enemies around your target for (178.008% of Attack Power) Shadowfrost damage\n[and applies Frost Fever]. Deals reduced damage beyond 8 targets.\n(1s cooldown)",
-      "pvp_tooltip": "After Reaper's Mark explodes, your next 2\nObliterates\nor Frostscythes cost 1 Rune and summon 2 scythes to strike your enemies.\nThe first scythe strikes your target for (422.8169% of Attack Power) Shadowfrost damage and has a 100% chance to grant Killing Machine, the second scythe strikes all enemies around your target for (170.9767% of Attack Power) Shadowfrost damage\n[and applies Frost Fever]. Deals reduced damage beyond 8 targets.\n(1s cooldown)",
+      "pve_tooltip": "After Reaper's Mark explodes, your next 2 Obliterates or Frostscythes cost 1 Rune and summon 2 scythes to strike your enemies.\nThe first scythe strikes your target for (440.205% of Attack Power) Shadowfrost damage and has a 100% chance to grant Killing Machine, the second scythe strikes all enemies around your target for (178.008% of Attack Power) Shadowfrost damage[and applies Frost Fever]. Deals reduced damage beyond 8 targets.\n(1s cooldown)",
+      "pvp_tooltip": "After Reaper's Mark explodes, your next 2 Obliterates or Frostscythes cost 1 Rune and summon 2 scythes to strike your enemies.\nThe first scythe strikes your target for (422.8169% of Attack Power) Shadowfrost damage and has a 100% chance to grant Killing Machine, the second scythe strikes all enemies around your target for (170.9767% of Attack Power) Shadowfrost damage[and applies Frost Fever]. Deals reduced damage beyond 8 targets.\n(1s cooldown)",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -8603,7 +8844,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 4
+      "render_effect_count": 4,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rider's Champion",
@@ -8805,7 +9047,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "On a Paler Horse",
@@ -8859,7 +9102,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Death Charge",
@@ -8965,7 +9209,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mograine's Might",
@@ -9019,7 +9264,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Horsemen's Aid",
@@ -9103,7 +9349,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pact of the Apocalypse",
@@ -9157,7 +9404,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ride or Die!",
@@ -9283,7 +9531,8 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Whitemane's Famine",
@@ -9337,7 +9586,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Nazgrim's Conquest",
@@ -9391,7 +9641,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Trollbane's Icy Fury",
@@ -9554,7 +9805,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Let Terror Reign",
@@ -9688,7 +9940,8 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hungering Thirst",
@@ -9742,7 +9995,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fury of the Horsemen",
@@ -9796,7 +10050,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "A Feast of Souls",
@@ -9850,7 +10105,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mawsworn Menace",
@@ -9904,7 +10160,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unholy Armaments",
@@ -9958,7 +10215,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Apocalypse Now",
@@ -10013,13 +10271,14 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     }
   ],
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "death-knight-frost",
-  "generated_at": "2026-09-20T12:49:24.496749+00:00",
+  "generated_at": "2026-09-20T19:58:52.559315+00:00",
   "validation": {
     "talents": 121,
     "changed_tooltips": 32,
@@ -10032,37 +10291,11 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 7,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 1228436,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1228436'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1228443,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1228443'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1231083,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1231083'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1233619,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1233619'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1264082,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1264082'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }

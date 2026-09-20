@@ -1,5 +1,5 @@
 window.WOW_PVP_MANIFEST = {
-  "generated_at": "2026-09-20T12:55:01.949512+00:00",
+  "generated_at": "2026-09-20T20:03:57.254846+00:00",
   "tree_build": "12.1.0.69875",
   "content_hash": "66952e6398559450a2f421d56adbcda2",
   "default_slug": "priest-discipline",
@@ -31,7 +31,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 40,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 7,
+          "source_warning_count": 0,
           "unresolved_count": 0,
           "review_required_count": 0
         },
@@ -69,7 +69,7 @@ window.WOW_PVP_MANIFEST = {
           "name": "Havoc",
           "spec_id": 577,
           "slug": "demon-hunter-havoc",
-          "changed_tooltips": 22,
+          "changed_tooltips": 23,
           "talents_with_pvp_mechanics": 42,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
@@ -103,7 +103,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 33,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 15,
+          "source_warning_count": 0,
           "unresolved_count": 0,
           "review_required_count": 0
         },
@@ -139,7 +139,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 34,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 7,
+          "source_warning_count": 0,
           "unresolved_count": 0,
           "review_required_count": 0
         }
@@ -237,7 +237,7 @@ window.WOW_PVP_MANIFEST = {
           "name": "Arcane",
           "spec_id": 62,
           "slug": "mage-arcane",
-          "changed_tooltips": 18,
+          "changed_tooltips": 17,
           "talents_with_pvp_mechanics": 31,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
@@ -249,7 +249,7 @@ window.WOW_PVP_MANIFEST = {
           "name": "Fire",
           "spec_id": 63,
           "slug": "mage-fire",
-          "changed_tooltips": 25,
+          "changed_tooltips": 24,
           "talents_with_pvp_mechanics": 38,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
@@ -261,7 +261,7 @@ window.WOW_PVP_MANIFEST = {
           "name": "Frost",
           "spec_id": 64,
           "slug": "mage-frost",
-          "changed_tooltips": 26,
+          "changed_tooltips": 25,
           "talents_with_pvp_mechanics": 40,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
@@ -283,7 +283,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 25,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 3,
+          "source_warning_count": 0,
           "unresolved_count": 0,
           "review_required_count": 0
         },
@@ -295,7 +295,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 49,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 38,
+          "source_warning_count": 5,
           "unresolved_count": 0,
           "review_required_count": 0
         },
@@ -303,11 +303,11 @@ window.WOW_PVP_MANIFEST = {
           "name": "Windwalker",
           "spec_id": 269,
           "slug": "monk-windwalker",
-          "changed_tooltips": 22,
+          "changed_tooltips": 23,
           "talents_with_pvp_mechanics": 32,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 4,
+          "source_warning_count": 3,
           "unresolved_count": 0,
           "review_required_count": 0
         }
@@ -325,7 +325,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 37,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 10,
+          "source_warning_count": 0,
           "unresolved_count": 0,
           "review_required_count": 0
         },
@@ -333,11 +333,11 @@ window.WOW_PVP_MANIFEST = {
           "name": "Protection",
           "spec_id": 66,
           "slug": "paladin-protection",
-          "changed_tooltips": 21,
+          "changed_tooltips": 20,
           "talents_with_pvp_mechanics": 35,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 3,
+          "source_warning_count": 0,
           "unresolved_count": 0,
           "review_required_count": 0
         },
@@ -345,11 +345,11 @@ window.WOW_PVP_MANIFEST = {
           "name": "Retribution",
           "spec_id": 70,
           "slug": "paladin-retribution",
-          "changed_tooltips": 26,
+          "changed_tooltips": 25,
           "talents_with_pvp_mechanics": 38,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 11,
+          "source_warning_count": 0,
           "unresolved_count": 0,
           "review_required_count": 0
         }
@@ -433,7 +433,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 25,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 3,
+          "source_warning_count": 0,
           "unresolved_count": 0,
           "review_required_count": 0
         }
@@ -463,7 +463,7 @@ window.WOW_PVP_MANIFEST = {
           "talents_with_pvp_mechanics": 28,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 13,
+          "source_warning_count": 0,
           "unresolved_count": 0,
           "review_required_count": 0
         },
@@ -471,11 +471,11 @@ window.WOW_PVP_MANIFEST = {
           "name": "Restoration",
           "spec_id": 264,
           "slug": "shaman-restoration",
-          "changed_tooltips": 22,
+          "changed_tooltips": 23,
           "talents_with_pvp_mechanics": 31,
           "verification_status": "VERIFIED",
           "fetch_error_count": 0,
-          "source_warning_count": 11,
+          "source_warning_count": 0,
           "unresolved_count": 0,
           "review_required_count": 0
         }

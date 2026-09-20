@@ -51,8 +51,8 @@
         "spell_id": 1822,
         "icon": "ability_druid_disembowel"
       },
-      "pve_tooltip": "35 Energy\nMelee Range\nInstant\nRake the target for (29.1% of Attack Power) Bleed damage and an additional (147% of Attack Power) Bleed damage over 15 sec. [\nInfected Wounds\n:\nReduces the target's movement speed by 20% for 12 sec\n]\nAwards 1 combo point.",
-      "pvp_tooltip": "35 Energy\nMelee Range\nInstant\nRake the target for (33.0576% of Attack Power) Bleed damage and an additional (147% of Attack Power) Bleed damage over 15 sec. [\nInfected Wounds\n:\nReduces the target's movement speed by 20% for 12 sec\n]\nAwards 1 combo point.",
+      "pve_tooltip": "35 Energy\nMelee Range\nInstant\nRake the target for (29.1% of Attack Power) Bleed damage and an additional (147% of Attack Power) Bleed damage over 15 sec. [Infected Wounds: Reduces the target's movement speed by 20% for 12 sec]\nAwards 1 combo point.",
+      "pvp_tooltip": "35 Energy\nMelee Range\nInstant\nRake the target for (33.0576% of Attack Power) Bleed damage and an additional (147% of Attack Power) Bleed damage over 15 sec. [Infected Wounds: Reduces the target's movement speed by 20% for 12 sec]\nAwards 1 combo point.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -106,7 +106,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frenzied Regeneration",
@@ -152,8 +153,8 @@
         "spell_id": 22842,
         "icon": "ability_bullrush"
       },
-      "pve_tooltip": "10 Rage\nInstant\n36 sec cooldown\n1 Charge\nHeals you for 24% health over\n3 sec\n.",
-      "pvp_tooltip": "10 Rage\nInstant\n36 sec cooldown\n1 Charge\nHeals you for 24% health over\n3 sec\n.",
+      "pve_tooltip": "10 Rage\nInstant\n36 sec cooldown\n1 Charge\nHeals you for 24% health over 3 sec.",
+      "pvp_tooltip": "10 Rage\nInstant\n36 sec cooldown\n1 Charge\nHeals you for 24% health over 3 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -207,7 +208,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rejuvenation",
@@ -253,8 +255,8 @@
         "spell_id": 774,
         "icon": "spell_nature_rejuvenation"
       },
-      "pve_tooltip": "5% of base mana\n40 yd range\nInstant\nHeals the target for (369.6% of Spell Power) over\n12 sec\n. [\nGermination\n:\nYou can apply Rejuvenation twice to the same target\n] [\nIncarnation: Tree of Life\n:\nTree of Life: Healing increased by 40% and Mana cost reduced by 30%.\n]",
-      "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\nHeals the target for (321.552% of Spell Power) over\n12 sec\n. [\nGermination\n:\nYou can apply Rejuvenation twice to the same target\n] [\nIncarnation: Tree of Life\n:\nTree of Life: Healing increased by 40% and Mana cost reduced by 30%.\n]",
+      "pve_tooltip": "5% of base mana\n40 yd range\nInstant\nHeals the target for (369.6% of Spell Power) over 12 sec. [Germination: You can apply Rejuvenation twice to the same target] [Incarnation: Tree of Life: Tree of Life: Healing increased by 40% and Mana cost reduced by 30%.]",
+      "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\nHeals the target for (321.552% of Spell Power) over 12 sec. [Germination: You can apply Rejuvenation twice to the same target] [Incarnation: Tree of Life: Tree of Life: Healing increased by 40% and Mana cost reduced by 30%.]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -308,7 +310,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Starfire",
@@ -353,8 +356,8 @@
         "spell_id": 194153,
         "icon": "spell_arcane_starfire"
       },
-      "pve_tooltip": "40 yd range\n2.25 sec cast\nCall down a burst of energy, causing (121.8% of Spell Power) Arcane damage to the target, and\n[(121.8% of Spell Power) * 70 / 100]\nArcane damage to all other enemies within 10 yards. Deals reduced damage beyond 8 targets.\nGenerates (80 /\nWarrior of Elune\n:\n104\n/\nWild Surges\n:\n100\n/\nMoon Guardian\n:\n100\n/ 10) Astral Power.",
-      "pvp_tooltip": "40 yd range\n2.25 sec cast\nCall down a burst of energy, causing (126.672% of Spell Power) Arcane damage to the target, and\n[(126.672% of Spell Power) * 70 / 100]\nArcane damage to all other enemies within 10 yards. Deals reduced damage beyond 8 targets.\nGenerates (80 /\nWarrior of Elune\n:\n104\n/\nWild Surges\n:\n100\n/\nMoon Guardian\n:\n100\n/ 10) Astral Power.",
+      "pve_tooltip": "40 yd range\n2.25 sec cast\nCall down a burst of energy, causing (121.8% of Spell Power) Arcane damage to the target, and [(121.8% of Spell Power) * 70 / 100] Arcane damage to all other enemies within 10 yards. Deals reduced damage beyond 8 targets.\nGenerates (80 / Warrior of Elune: 104 / Wild Surges: 100 / Moon Guardian: 100 / 10) Astral Power.",
+      "pvp_tooltip": "40 yd range\n2.25 sec cast\nCall down a burst of energy, causing (126.672% of Spell Power) Arcane damage to the target, and [(126.672% of Spell Power) * 70 / 100] Arcane damage to all other enemies within 10 yards. Deals reduced damage beyond 8 targets.\nGenerates (80 / Warrior of Elune: 104 / Wild Surges: 100 / Moon Guardian: 100 / 10) Astral Power.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -437,7 +440,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Grievous Wounds",
@@ -489,7 +493,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Swipe",
@@ -545,7 +550,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ursoc's Spirit",
@@ -602,7 +608,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wild Growth",
@@ -648,15 +655,16 @@
         "spell_id": 48438,
         "icon": "ability_druid_flourish"
       },
-      "pve_tooltip": "15% of base mana\n40 yd range\n1.5 sec cast\n10 sec cooldown\nHeals up to\n5\ninjured allies within 30 yards of the target for (336.7% of Spell Power) over 7 sec. Healing starts high and declines over the duration. [\nIncarnation: Tree of Life\n:\nTree of Life: Affects 2 additional targets.\n]",
-      "pvp_tooltip": "15% of base mana\n40 yd range\n1.5 sec cast\n10 sec cooldown\nHeals up to\n5\ninjured allies within 30 yards of the target for (336.7% of Spell Power) over 7 sec. Healing starts high and declines over the duration. [\nIncarnation: Tree of Life\n:\nTree of Life: Affects 2 additional targets.\n]",
+      "pve_tooltip": "15% of base mana\n40 yd range\n1.5 sec cast\n10 sec cooldown\nHeals up to 5 injured allies within 30 yards of the target for (336.7% of Spell Power) over 7 sec. Healing starts high and declines over the duration. [Incarnation: Tree of Life: Tree of Life: Affects 2 additional targets.]",
+      "pvp_tooltip": "15% of base mana\n40 yd range\n1.5 sec cast\n10 sec cooldown\nHeals up to 5 injured allies within 30 yards of the target for (336.7% of Spell Power) over 7 sec. Healing starts high and declines over the duration. [Incarnation: Tree of Life: Tree of Life: Affects 2 additional targets.]",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Starsurge",
@@ -763,7 +771,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rip",
@@ -941,7 +950,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Verdant Heart",
@@ -999,7 +1009,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Remove Corruption",
@@ -1056,7 +1067,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Moonkin Form",
@@ -1103,8 +1115,8 @@
         "spell_id": 24858,
         "icon": "spell_nature_forceofnature"
       },
-      "pve_tooltip": "Instant\nShapeshift into [\nGlyph of Stars\n:\nAstral Form\n/ Moonkin Form], increasing the damage of your spells by 10% and your armor by 125%, and granting protection from Polymorph effects.\nThe act of shapeshifting frees you from movement impairing effects.\nWhile in this form, single-target attacks against you have a 101% chance to make your next Starfire instant.",
-      "pvp_tooltip": "Instant\nShapeshift into [\nGlyph of Stars\n:\nAstral Form\n/ Moonkin Form], increasing the damage of your spells by 10% and your armor by 125%, and granting protection from Polymorph effects.\nThe act of shapeshifting frees you from movement impairing effects.\nWhile in this form, single-target attacks against you have a 101% chance to make your next Starfire instant.",
+      "pve_tooltip": "Instant\nShapeshift into [Glyph of Stars: Astral Form / Moonkin Form], increasing the damage of your spells by 10% and your armor by 125%, and granting protection from Polymorph effects.\nThe act of shapeshifting frees you from movement impairing effects.\nWhile in this form, single-target attacks against you have a 101% chance to make your next Starfire instant.",
+      "pvp_tooltip": "Instant\nShapeshift into [Glyph of Stars: Astral Form / Moonkin Form], increasing the damage of your spells by 10% and your armor by 125%, and granting protection from Polymorph effects.\nThe act of shapeshifting frees you from movement impairing effects.\nWhile in this form, single-target attacks against you have a 101% chance to make your next Starfire instant.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1156,7 +1168,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Maim",
@@ -1208,7 +1221,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Killer Instinct",
@@ -1266,7 +1280,25 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Physical damage and Armor increased by 3%.",
+          "pvp_tooltip": "Physical damage and Armor increased by 3%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Physical damage and Armor increased by 6%.",
+          "pvp_tooltip": "Physical damage and Armor increased by 6%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Ironfur",
@@ -1310,15 +1342,16 @@
         "spell_id": 192081,
         "icon": "ability_druid_ironfur"
       },
-      "pve_tooltip": "40 Rage\nInstant\n0.5 sec cooldown\nIncreases armor by (124 /\nMaster Shapeshifter\n:\n161\n/\nReinforced Fur\n:\n139\n* Agility / 100) for\n7 sec\n.",
-      "pvp_tooltip": "40 Rage\nInstant\n0.5 sec cooldown\nIncreases armor by (124 /\nMaster Shapeshifter\n:\n161\n/\nReinforced Fur\n:\n139\n* Agility / 100) for\n7 sec\n.",
+      "pve_tooltip": "40 Rage\nInstant\n0.5 sec cooldown\nIncreases armor by (124 / Master Shapeshifter: 161 / Reinforced Fur: 139 * Agility / 100) for 7 sec.",
+      "pvp_tooltip": "40 Rage\nInstant\n0.5 sec cooldown\nIncreases armor by (124 / Master Shapeshifter: 161 / Reinforced Fur: 139 * Agility / 100) for 7 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Barkskin",
@@ -1376,7 +1409,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hibernate",
@@ -1430,7 +1464,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Nurturing Instinct",
@@ -1488,7 +1523,25 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Magical damage and healing increased by 3%.",
+          "pvp_tooltip": "Magical damage and healing increased by 3%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Magical damage and healing increased by 6%.",
+          "pvp_tooltip": "Magical damage and healing increased by 6%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Sunfire",
@@ -1534,8 +1587,8 @@
         "spell_id": 93402,
         "icon": "ability_mage_firestarter"
       },
-      "pve_tooltip": "1.8% of base mana\n40 yd range\nInstant\nA quick beam of solar light burns the enemy\nfor (21.2% of Spell Power) Nature damage and then an additional (165.6% of Spell Power) Nature damage over 18 sec.\nGenerates 0 Astral Power.",
-      "pvp_tooltip": "1.8% of base mana\n40 yd range\nInstant\nA quick beam of solar light burns the enemy\nfor (22.5568% of Spell Power) Nature damage and then an additional (165.6% of Spell Power) Nature damage over 18 sec.\nGenerates 0 Astral Power.",
+      "pve_tooltip": "1.8% of base mana\n40 yd range\nInstant\nA quick beam of solar light burns the enemy for (21.2% of Spell Power) Nature damage and then an additional (165.6% of Spell Power) Nature damage over 18 sec.\nGenerates 0 Astral Power.",
+      "pvp_tooltip": "1.8% of base mana\n40 yd range\nInstant\nA quick beam of solar light burns the enemy for (22.5568% of Spell Power) Nature damage and then an additional (165.6% of Spell Power) Nature damage over 18 sec.\nGenerates 0 Astral Power.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -1644,7 +1697,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Primal Fury",
@@ -1696,7 +1750,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thick Hide",
@@ -1753,7 +1808,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Light of the Sun",
@@ -1805,7 +1861,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Natural Recovery",
@@ -1863,7 +1920,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Astral Influence",
@@ -1917,7 +1975,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wild Charge",
@@ -1974,7 +2033,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tiger Dash",
@@ -2031,7 +2091,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Soothe",
@@ -2086,7 +2147,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cyclone",
@@ -2141,7 +2203,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Aessina's Renewal",
@@ -2198,7 +2261,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Starlight Conduit",
@@ -2251,7 +2315,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Feline Swiftness",
@@ -2305,7 +2370,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Well-Honed Instincts",
@@ -2360,7 +2426,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Matted Fur",
@@ -2405,15 +2472,33 @@
         "spell_id": 385786,
         "icon": "inv_misc_pelt_15"
       },
-      "pve_tooltip": "When you use Barkskin or Survival Instincts, absorb [1875 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
-      "pvp_tooltip": "When you use Barkskin or Survival Instincts, absorb [1875 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
+      "pve_tooltip": "When you use Barkskin or Survival Instincts, absorb [3750 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
+      "pvp_tooltip": "When you use Barkskin or Survival Instincts, absorb [3750 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "When you use Barkskin or Survival Instincts, absorb [1875 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
+          "pvp_tooltip": "When you use Barkskin or Survival Instincts, absorb [1875 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "When you use Barkskin or Survival Instincts, absorb [3750 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
+          "pvp_tooltip": "When you use Barkskin or Survival Instincts, absorb [3750 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Stampeding Roar",
@@ -2469,7 +2554,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lingering Healing",
@@ -2522,7 +2608,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Typhoon",
@@ -2608,7 +2695,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mass Entanglement",
@@ -2662,7 +2750,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ursol's Vortex",
@@ -2716,7 +2805,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Oakskin",
@@ -2773,7 +2863,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Perfectly-Honed Instincts",
@@ -2825,7 +2916,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Instincts of the Claw",
@@ -2877,7 +2969,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lycara's Teachings",
@@ -2925,15 +3018,33 @@
         "spell_id": 378988,
         "icon": "inv_trinket_ardenweald_02_green"
       },
-      "pve_tooltip": "You gain 3% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
-      "pvp_tooltip": "You gain 3% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
+      "pve_tooltip": "You gain 6% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
+      "pvp_tooltip": "You gain 6% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "You gain 3% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
+          "pvp_tooltip": "You gain 3% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "You gain 6% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
+          "pvp_tooltip": "You gain 6% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Lore of the Grove",
@@ -2985,7 +3096,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gale Winds",
@@ -3037,7 +3149,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Incessant Tempest",
@@ -3089,7 +3202,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gift of the Wild",
@@ -3146,7 +3260,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Incapacitating Roar",
@@ -3198,7 +3313,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mighty Bash",
@@ -3250,7 +3366,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ursine Vigor",
@@ -3302,7 +3419,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Stampeding Roar",
@@ -3356,7 +3474,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Circle of the Wild",
@@ -3410,7 +3529,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Circle of the Heavens",
@@ -3464,7 +3584,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lycara's Inspiration",
@@ -3518,7 +3639,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Symbiotic Relationship",
@@ -3570,7 +3692,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Forestwalk",
@@ -3614,15 +3737,33 @@
         "spell_id": 400129,
         "icon": "spell_lifegivingspeed"
       },
-      "pve_tooltip": "Casting Regrowth increases your movement speed and healing received by 8% for 6 sec.\n(1s cooldown)",
-      "pvp_tooltip": "Casting Regrowth increases your movement speed and healing received by 8% for 6 sec.\n(1s cooldown)",
+      "pve_tooltip": "Casting Regrowth increases your movement speed and healing received by 16% for 6 sec.\n(1s cooldown)",
+      "pvp_tooltip": "Casting Regrowth increases your movement speed and healing received by 16% for 6 sec.\n(1s cooldown)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Casting Regrowth increases your movement speed and healing received by 8% for 6 sec.\n(1s cooldown)",
+          "pvp_tooltip": "Casting Regrowth increases your movement speed and healing received by 8% for 6 sec.\n(1s cooldown)",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Casting Regrowth increases your movement speed and healing received by 16% for 6 sec.\n(1s cooldown)",
+          "pvp_tooltip": "Casting Regrowth increases your movement speed and healing received by 16% for 6 sec.\n(1s cooldown)",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Fluid Form",
@@ -3674,7 +3815,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Heart of the Wild",
@@ -3780,7 +3922,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Innervate",
@@ -3869,7 +4012,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Eclipse",
@@ -3914,8 +4058,8 @@
         "spell_id": 1239669,
         "icon": "ability_druid_eclipseorange"
       },
-      "pve_tooltip": "You may draw the sun and moon into alignment for 15 sec, empowering either your Nature or Arcane spells. Casting Wrath or Starfire changes what mode of Eclipse will be entered, and the two modes of Eclipse share a button and\n32\nsec cooldown.\nEclipse (Solar)\nNature spells deal\n15\n% additional damage and Wrath damage is increased by\n40\n%.\nEclipse (Lunar)\nArcane spells deal\n15\n% additional damage and Starfire damage is increased by\n40\n%.",
-      "pvp_tooltip": "You may draw the sun and moon into alignment for 15 sec, empowering either your Nature or Arcane spells. Casting Wrath or Starfire changes what mode of Eclipse will be entered, and the two modes of Eclipse share a button and\n32\nsec cooldown.\nEclipse (Solar)\nNature spells deal\n15\n% additional damage and Wrath damage is increased by\n40\n%.\nEclipse (Lunar)\nArcane spells deal\n15\n% additional damage and Starfire damage is increased by\n40\n%.",
+      "pve_tooltip": "You may draw the sun and moon into alignment for 15 sec, empowering either your Nature or Arcane spells. Casting Wrath or Starfire changes what mode of Eclipse will be entered, and the two modes of Eclipse share a button and 32 sec cooldown.\nEclipse (Solar)\nNature spells deal 15% additional damage and Wrath damage is increased by 40%.\nEclipse (Lunar)\nArcane spells deal 15% additional damage and Starfire damage is increased by 40%.",
+      "pvp_tooltip": "You may draw the sun and moon into alignment for 15 sec, empowering either your Nature or Arcane spells. Casting Wrath or Starfire changes what mode of Eclipse will be entered, and the two modes of Eclipse share a button and 32 sec cooldown.\nEclipse (Solar)\nNature spells deal 15% additional damage and Wrath damage is increased by 40%.\nEclipse (Lunar)\nArcane spells deal 15% additional damage and Starfire damage is increased by 40%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3953,7 +4097,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shooting Stars",
@@ -4035,7 +4180,7 @@
           "talent_spell_id": 202342,
           "source_spell_id": 202497,
           "effect_index": 1,
-          "effect_text": "School Damage (2): astral (SP mod: 0.68)",
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 0.68)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4062,14 +4207,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Solar Beam",
@@ -4124,7 +4269,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Solstice",
@@ -4179,7 +4325,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Force of Nature",
@@ -4236,7 +4383,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Twin Moons",
@@ -4291,7 +4439,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Eclipse",
@@ -4346,7 +4495,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Nature's Balance",
@@ -4402,7 +4552,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Umbral Intensity",
@@ -4458,7 +4609,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Aetherial Kindling",
@@ -4513,7 +4665,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Meteor Storm",
@@ -4568,7 +4721,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wild Surges",
@@ -4625,7 +4779,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Celestial Alignment",
@@ -4683,7 +4838,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Soul of the Forest",
@@ -4740,7 +4896,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sunseeker Mushroom",
@@ -4788,8 +4945,8 @@
         "spell_id": 468936,
         "icon": "druid_ability_wildmushroom_b"
       },
-      "pve_tooltip": "Approximately\n1.66\nprocs per minute\nSunfire damage has a chance to grow a magical mushroom at a target's location. After 1 sec, the mushroom detonates, dealing (265.85% of Spell Power) Nature damage and then an additional (150% of Spell Power) Nature damage over 10 sec. Affected targets are slowed by 50%.\nGenerates up to 20 Astral Power based on targets hit.",
-      "pvp_tooltip": "Approximately\n1.66\nprocs per minute\nSunfire damage has a chance to grow a magical mushroom at a target's location. After 1 sec, the mushroom detonates, dealing (212.68% of Spell Power) Nature damage and then an additional (150% of Spell Power) Nature damage over 10 sec. Affected targets are slowed by 30%.\nGenerates up to 20 Astral Power based on targets hit.",
+      "pve_tooltip": "Approximately 1.66 procs per minute\nSunfire damage has a chance to grow a magical mushroom at a target's location. After 1 sec, the mushroom detonates, dealing (265.85% of Spell Power) Nature damage and then an additional (150% of Spell Power) Nature damage over 10 sec. Affected targets are slowed by 50%.\nGenerates up to 20 Astral Power based on targets hit.",
+      "pvp_tooltip": "Approximately 1.66 procs per minute\nSunfire damage has a chance to grow a magical mushroom at a target's location. After 1 sec, the mushroom detonates, dealing (212.68% of Spell Power) Nature damage and then an additional (150% of Spell Power) Nature damage over 10 sec. Affected targets are slowed by 30%.\nGenerates up to 20 Astral Power based on targets hit.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4842,7 +4999,7 @@
           "talent_spell_id": 468936,
           "source_spell_id": 1280212,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature | Attributes: Area Effects Use Target Radius (17) (SP mod: 2.6585)",
+          "effect_text": "School Damage (Nature) (SP mod: 2.6585)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4869,40 +5026,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 468936,
-          "source_spell_id": 1280213,
-          "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
-          "base_value": -50.0,
-          "spell_pvp_multiplier": 0.6,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.6,
-          "final_pvp_value": -30.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            468936,
-            1280213
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "simc",
-            "drustvar"
-          ],
-          "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -4910,7 +5037,7 @@
           "talent_spell_id": 468936,
           "source_spell_id": 1280213,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Damage (3): nature every 2 seconds (SP mod: 0.3)",
+          "effect_text": "Apply Aura: Periodic Damage",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -4937,14 +5064,44 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
+          ],
+          "source_notes": [],
+          "confidence": "medium"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 468936,
+          "source_spell_id": 1280213,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "base_value": -50.0,
+          "spell_pvp_multiplier": 0.6,
+          "amount_kind": null,
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 0.6,
+          "final_pvp_value": -30.0,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            468936,
+            1280213
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wild Mushroom",
@@ -5128,7 +5285,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Nature's Grace",
@@ -5182,7 +5340,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Elune's Challenge",
@@ -5236,7 +5395,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Stellar Amplification",
@@ -5291,7 +5451,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Whirling Stars",
@@ -5338,8 +5499,8 @@
         "spell_id": 468743,
         "icon": "spell_druid_equinox"
       },
-      "pve_tooltip": "[\nIncarnation: Chosen of Elune\n/ Celestial Alignment]'s cooldown is reduced by 60 seconds and it has two charges.",
-      "pvp_tooltip": "[\nIncarnation: Chosen of Elune\n/ Celestial Alignment]'s cooldown is reduced by 60 seconds and it has two charges.",
+      "pve_tooltip": "[Incarnation: Chosen of Elune / Celestial Alignment]'s cooldown is reduced by 60 seconds and it has two charges.",
+      "pvp_tooltip": "[Incarnation: Chosen of Elune / Celestial Alignment]'s cooldown is reduced by 60 seconds and it has two charges.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5372,7 +5533,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Orbital Strike",
@@ -5419,14 +5581,14 @@
         "spell_id": 390378,
         "icon": "ability_druid_cresentburn"
       },
-      "pve_tooltip": "[\nIncarnation: Chosen of Elune\n/ Celestial Alignment] blasts all enemies in a targeted area for [(201.4% of Spell Power) * 1.1236] Astral damage and applies Stellar Flare to them.\nReduces the cooldown of [\nIncarnation: Chosen of Elune\n/ Celestial Alignment] by 60 sec.\nStellar Flare\nBurns the target for (36% of Spell Power) Astral damage, and then an additional (210% of Spell Power) damage over 24 sec. If dispelled, causes (211.5% of Spell Power) damage to the dispeller and blasts them upwards.\nGenerates 12 Astral Power.",
-      "pvp_tooltip": "[\nIncarnation: Chosen of Elune\n/ Celestial Alignment] blasts all enemies in a targeted area for [(161.12% of Spell Power) * 1.1236] Astral damage and applies Stellar Flare to them.\nReduces the cooldown of [\nIncarnation: Chosen of Elune\n/ Celestial Alignment] by 60 sec.\nStellar Flare\nBurns the target for (28.8% of Spell Power) Astral damage, and then an additional (210% of Spell Power) damage over 24 sec. If dispelled, causes (169.2% of Spell Power) damage to the dispeller and blasts them upwards.\nGenerates 12 Astral Power.",
+      "pve_tooltip": "[Incarnation: Chosen of Elune / Celestial Alignment] blasts all enemies in a targeted area for [(201.4% of Spell Power) * 1.1236] Astral damage and applies Stellar Flare to them.\nReduces the cooldown of [Incarnation: Chosen of Elune / Celestial Alignment] by 60 sec.\nStellar Flare\nBurns the target for (36% of Spell Power) Astral damage, and then an additional (210% of Spell Power) damage over 24 sec. If dispelled, causes (211.5% of Spell Power) damage to the dispeller and blasts them upwards.\nGenerates 12 Astral Power.",
+      "pvp_tooltip": "[Incarnation: Chosen of Elune / Celestial Alignment] blasts all enemies in a targeted area for [(161.12% of Spell Power) * 1.1236] Astral damage and applies Stellar Flare to them.\nReduces the cooldown of [Incarnation: Chosen of Elune / Celestial Alignment] by 60 sec.\nStellar Flare\nBurns the target for (28.8% of Spell Power) Astral damage, and then an additional (210% of Spell Power) damage over 24 sec. If dispelled, causes (169.2% of Spell Power) damage to the dispeller and blasts them upwards.\nGenerates 12 Astral Power.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 305,
-          "end": 307,
+          "start": 303,
+          "end": 305,
           "old_token": "36",
           "new_token": "28.8",
           "kind": "spell_power_coefficient",
@@ -5435,8 +5597,8 @@
           ]
         },
         {
-          "start": 427,
-          "end": 432,
+          "start": 425,
+          "end": 430,
           "old_token": "211.5",
           "new_token": "169.2",
           "kind": "spell_power_coefficient",
@@ -5445,8 +5607,8 @@
           ]
         },
         {
-          "start": 98,
-          "end": 103,
+          "start": 97,
+          "end": 102,
           "old_token": "201.4",
           "new_token": "161.12",
           "kind": "spell_power_coefficient",
@@ -5568,7 +5730,7 @@
           "talent_spell_id": 390378,
           "source_spell_id": 356474,
           "effect_index": 1,
-          "effect_text": "School Damage (2): astral (SP mod: 2.115)",
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 2.115)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5595,11 +5757,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -5607,7 +5768,7 @@
           "talent_spell_id": 390378,
           "source_spell_id": 361237,
           "effect_index": 1,
-          "effect_text": "School Damage (2): astral (SP mod: 2.014)",
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 2.014)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5634,14 +5795,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 3,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Touch the Cosmos",
@@ -5697,7 +5858,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Meteorites",
@@ -5780,7 +5942,7 @@
           "talent_spell_id": 1240907,
           "source_spell_id": 1240913,
           "effect_index": 1,
-          "effect_text": "School Damage (2): astral (SP mod: 0.2195)",
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 0.2195)",
           "base_value": null,
           "spell_pvp_multiplier": 0.8,
           "amount_kind": "direct",
@@ -5807,14 +5969,16 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cosmic Rapidity",
@@ -5863,15 +6027,33 @@
         "spell_id": 400059,
         "icon": "spell_druid_swarm"
       },
-      "pve_tooltip": "Your Moonfire and Sunfire deal damage 20% more frequently, also increasing the rate that Shooting Stars fall.",
-      "pvp_tooltip": "Your Moonfire and Sunfire deal damage 20% more frequently, also increasing the rate that Shooting Stars fall.",
+      "pve_tooltip": "Your Moonfire and Sunfire deal damage 25% more frequently, also increasing the rate that Shooting Stars fall.",
+      "pvp_tooltip": "Your Moonfire and Sunfire deal damage 25% more frequently, also increasing the rate that Shooting Stars fall.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Your Moonfire and Sunfire deal damage 13% more frequently, also increasing the rate that Shooting Stars fall.",
+          "pvp_tooltip": "Your Moonfire and Sunfire deal damage 13% more frequently, also increasing the rate that Shooting Stars fall.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Your Moonfire and Sunfire deal damage 25% more frequently, also increasing the rate that Shooting Stars fall.",
+          "pvp_tooltip": "Your Moonfire and Sunfire deal damage 25% more frequently, also increasing the rate that Shooting Stars fall.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Celestial Fire",
@@ -5923,7 +6105,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sculpt the Stars",
@@ -5978,7 +6161,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hail of Stars",
@@ -6030,7 +6214,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Starlord",
@@ -6080,15 +6265,33 @@
         "spell_id": 202345,
         "icon": "spell_shaman_measuredinsight"
       },
-      "pve_tooltip": "Starsurge and Starfall grant you 2% Haste for 20 sec or until you enter a new Eclipse.\nStacks up to 3 times. Gaining a stack does not refresh the duration.",
-      "pvp_tooltip": "Starsurge and Starfall grant you 2% Haste for 20 sec or until you enter a new Eclipse.\nStacks up to 3 times. Gaining a stack does not refresh the duration.",
+      "pve_tooltip": "Starsurge and Starfall grant you 4% Haste for 20 sec or until you enter a new Eclipse.\nStacks up to 3 times. Gaining a stack does not refresh the duration.",
+      "pvp_tooltip": "Starsurge and Starfall grant you 4% Haste for 20 sec or until you enter a new Eclipse.\nStacks up to 3 times. Gaining a stack does not refresh the duration.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Starsurge and Starfall grant you 2% Haste for 20 sec or until you enter a new Eclipse.\nStacks up to 3 times. Gaining a stack does not refresh the duration.",
+          "pvp_tooltip": "Starsurge and Starfall grant you 2% Haste for 20 sec or until you enter a new Eclipse.\nStacks up to 3 times. Gaining a stack does not refresh the duration.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Starsurge and Starfall grant you 4% Haste for 20 sec or until you enter a new Eclipse.\nStacks up to 3 times. Gaining a stack does not refresh the duration.",
+          "pvp_tooltip": "Starsurge and Starfall grant you 4% Haste for 20 sec or until you enter a new Eclipse.\nStacks up to 3 times. Gaining a stack does not refresh the duration.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Astral Communion",
@@ -6143,7 +6346,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Balance of All Things",
@@ -6199,7 +6403,25 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Entering Eclipse increases your critical strike chance with Arcane or Nature spells by 10%, decreasing by 1% every 1 sec.",
+          "pvp_tooltip": "Entering Eclipse increases your critical strike chance with Arcane or Nature spells by 10%, decreasing by 1% every 1 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Entering Eclipse increases your critical strike chance with Arcane or Nature spells by 20%, decreasing by 2% every 1 sec.",
+          "pvp_tooltip": "Entering Eclipse increases your critical strike chance with Arcane or Nature spells by 20%, decreasing by 2% every 1 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Total Eclipse",
@@ -6247,15 +6469,33 @@
         "spell_id": 1240206,
         "icon": "inv12_ability_druid_totaleclipse"
       },
-      "pve_tooltip": "Entering any Eclipse has a 15% chance to grant the benefits of both Lunar and Solar Eclipse.",
-      "pvp_tooltip": "Entering any Eclipse has a 15% chance to grant the benefits of both Lunar and Solar Eclipse.",
+      "pve_tooltip": "Entering any Eclipse has a 30% chance to grant the benefits of both Lunar and Solar Eclipse.",
+      "pvp_tooltip": "Entering any Eclipse has a 30% chance to grant the benefits of both Lunar and Solar Eclipse.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Entering any Eclipse has a 15% chance to grant the benefits of both Lunar and Solar Eclipse.",
+          "pvp_tooltip": "Entering any Eclipse has a 15% chance to grant the benefits of both Lunar and Solar Eclipse.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Entering any Eclipse has a 30% chance to grant the benefits of both Lunar and Solar Eclipse.",
+          "pvp_tooltip": "Entering any Eclipse has a 30% chance to grant the benefits of both Lunar and Solar Eclipse.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Starweaver",
@@ -6309,7 +6549,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rattle the Stars",
@@ -6363,7 +6604,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Power of Goldrinn",
@@ -6470,7 +6712,7 @@
           "talent_spell_id": 394046,
           "source_spell_id": 394047,
           "effect_index": 1,
-          "effect_text": "School Damage (2): astral (SP mod: 1.927)",
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 1.927)",
           "base_value": null,
           "spell_pvp_multiplier": 0.4,
           "amount_kind": "direct",
@@ -6497,14 +6739,16 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sundered Firmament",
@@ -6560,7 +6804,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Orbit Breaker",
@@ -6663,7 +6908,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Incarnation: Chosen of Elune",
@@ -6712,15 +6958,16 @@
         "spell_id": 394013,
         "icon": "spell_druid_incarnation"
       },
-      "pve_tooltip": "An improved Moonkin Form that grants both Eclipses, any learned Celestial Alignment bonuses,\nand 10% critical strike chance.\nLasts 20 sec. You may shapeshift in and out of this improved Moonkin Form for its duration.",
-      "pvp_tooltip": "An improved Moonkin Form that grants both Eclipses, any learned Celestial Alignment bonuses,\nand 10% critical strike chance.\nLasts 20 sec. You may shapeshift in and out of this improved Moonkin Form for its duration.",
+      "pve_tooltip": "An improved Moonkin Form that grants both Eclipses, any learned Celestial Alignment bonuses, and 10% critical strike chance.\nLasts 20 sec. You may shapeshift in and out of this improved Moonkin Form for its duration.",
+      "pvp_tooltip": "An improved Moonkin Form that grants both Eclipses, any learned Celestial Alignment bonuses, and 10% critical strike chance.\nLasts 20 sec. You may shapeshift in and out of this improved Moonkin Form for its duration.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Convoke the Spirits",
@@ -6769,15 +7016,16 @@
         "spell_id": 391528,
         "icon": "inv_ability_druid_convokethespirits"
       },
-      "pve_tooltip": "Channeled (4 sec cast)\n2 min cooldown\nCall upon the spirits for an eruption of energy, channeling a rapid flurry of 16 /\nUrsoc's Guidance\n:\n12\n/\nElune's Guidance\n:\n12\n/\nAstral Insight\n:\n20\nDruid spells and abilities over 4 sec. [\nAshamane's Guidance\n:\nChance to use an exceptional spell or ability is increased\n]\nYou will cast\nWild Growth, Swiftmend,\nMoonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form.",
-      "pvp_tooltip": "Channeled (4 sec cast)\n2 min cooldown\nCall upon the spirits for an eruption of energy, channeling a rapid flurry of 16 /\nUrsoc's Guidance\n:\n12\n/\nElune's Guidance\n:\n12\n/\nAstral Insight\n:\n20\nDruid spells and abilities over 4 sec. [\nAshamane's Guidance\n:\nChance to use an exceptional spell or ability is increased\n]\nYou will cast\nWild Growth, Swiftmend,\nMoonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form.",
+      "pve_tooltip": "Channeled (4 sec cast)\n2 min cooldown\nCall upon the spirits for an eruption of energy, channeling a rapid flurry of 16 / Ursoc's Guidance: 12 / Elune's Guidance: 12 / Astral Insight: 20 Druid spells and abilities over 4 sec. [Ashamane's Guidance: Chance to use an exceptional spell or ability is increased]\nYou will cast Wild Growth, Swiftmend, Moonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form.",
+      "pvp_tooltip": "Channeled (4 sec cast)\n2 min cooldown\nCall upon the spirits for an eruption of energy, channeling a rapid flurry of 16 / Ursoc's Guidance: 12 / Elune's Guidance: 12 / Astral Insight: 20 Druid spells and abilities over 4 sec. [Ashamane's Guidance: Chance to use an exceptional spell or ability is increased]\nYou will cast Wild Growth, Swiftmend, Moonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fury of Elune",
@@ -6861,7 +7109,7 @@
           "talent_spell_id": 202770,
           "source_spell_id": 211545,
           "effect_index": 1,
-          "effect_text": "School Damage (2): astral (SP mod: 0.1834)",
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 0.1834)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6888,14 +7136,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "New Moon",
@@ -7007,7 +7255,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Umbral Embrace",
@@ -7106,7 +7355,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Harmony of the Heavens",
@@ -7159,7 +7409,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Elune's Guidance",
@@ -7211,7 +7462,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Denizen of the Dream",
@@ -7256,15 +7508,16 @@
         "spell_id": 394065,
         "icon": "inv_faeriedragon2_orange"
       },
-      "pve_tooltip": "Approximately\n1\nprocs per minute\nYour Moonfire and Sunfire have a chance to summon a Faerie Dragon to assist you in battle for 30 sec.",
-      "pvp_tooltip": "Approximately\n1\nprocs per minute\nYour Moonfire and Sunfire have a chance to summon a Faerie Dragon to assist you in battle for 30 sec.",
+      "pve_tooltip": "Approximately 1 procs per minute\nYour Moonfire and Sunfire have a chance to summon a Faerie Dragon to assist you in battle for 30 sec.",
+      "pvp_tooltip": "Approximately 1 procs per minute\nYour Moonfire and Sunfire have a chance to summon a Faerie Dragon to assist you in battle for 30 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Radiant Moonlight",
@@ -7316,7 +7569,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ascendant Eclipses",
@@ -7366,7 +7620,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ascendant Eclipses",
@@ -7416,7 +7671,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ascendant Eclipses",
@@ -7512,7 +7768,7 @@
           "talent_spell_id": 1261566,
           "source_spell_id": 1261573,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature (SP mod: 6.325)",
+          "effect_text": "School Damage (Nature) (SP mod: 6.325)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7539,11 +7795,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -7551,7 +7806,7 @@
           "talent_spell_id": 1261566,
           "source_spell_id": 1263137,
           "effect_index": 1,
-          "effect_text": "School Damage (2): arcane (SP mod: 1)",
+          "effect_text": "School Damage (Arcane)",
           "base_value": null,
           "spell_pvp_multiplier": 0.91,
           "amount_kind": "direct",
@@ -7578,14 +7833,16 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Boundless Moonlight",
@@ -7632,8 +7889,8 @@
         "spell_id": 424058,
         "icon": "inv_ability_eluneschosendruid_boundlessmoonlight"
       },
-      "pve_tooltip": "Fury of Elune\nFury of Elune now ends with a flash of energy, blasting nearby enemies for (216.32% of Spell Power) Astral damage.\nFull Moon\nFull Moon calls down 2 Minor\nMoons\nthat deal (188.5% of Spell Power) Astral damage and generate 3 Astral Power.",
-      "pvp_tooltip": "Fury of Elune\nFury of Elune now ends with a flash of energy, blasting nearby enemies for (192.2652% of Spell Power) Astral damage.\nFull Moon\nFull Moon calls down 2 Minor\nMoons\nthat deal (188.5% of Spell Power) Astral damage and generate 3 Astral Power.",
+      "pve_tooltip": "Fury of Elune\nFury of Elune now ends with a flash of energy, blasting nearby enemies for (216.32% of Spell Power) Astral damage.\nFull Moon\nFull Moon calls down 2 Minor Moons that deal (188.5% of Spell Power) Astral damage and generate 3 Astral Power.",
+      "pvp_tooltip": "Fury of Elune\nFury of Elune now ends with a flash of energy, blasting nearby enemies for (192.2652% of Spell Power) Astral damage.\nFull Moon\nFull Moon calls down 2 Minor Moons that deal (188.5% of Spell Power) Astral damage and generate 3 Astral Power.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -7667,7 +7924,7 @@
           "talent_spell_id": 424058,
           "source_spell_id": 424588,
           "effect_index": 1,
-          "effect_text": "School Damage (2): astral (SP mod: 1.885)",
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 1.885)",
           "base_value": null,
           "spell_pvp_multiplier": 1.111,
           "amount_kind": "direct",
@@ -7694,8 +7951,9 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7706,7 +7964,7 @@
           "talent_spell_id": 424058,
           "source_spell_id": 428682,
           "effect_index": 1,
-          "effect_text": "School Damage (2): astral (SP mod: 2.1632)",
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 2.1632)",
           "base_value": null,
           "spell_pvp_multiplier": 1.111,
           "amount_kind": "direct",
@@ -7733,14 +7991,16 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Moon Guardian",
@@ -7794,7 +8054,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lunar Insight",
@@ -7848,7 +8109,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Glistening Fur",
@@ -7902,7 +8164,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Star Cascade",
@@ -7956,7 +8219,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Stellar Command",
@@ -8010,7 +8274,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Atmospheric Exposure",
@@ -8056,15 +8321,16 @@
         "spell_id": 429532,
         "icon": "inv_cosmicvoid_nova"
       },
-      "pve_tooltip": "Enemies damaged by Full Moon or Fury of Elune take\n6\n% increased damage from you for 6 sec.",
-      "pvp_tooltip": "Enemies damaged by Full Moon or Fury of Elune take\n6\n% increased damage from you for 6 sec.",
+      "pve_tooltip": "Enemies damaged by Full Moon or Fury of Elune take 6% increased damage from you for 6 sec.",
+      "pvp_tooltip": "Enemies damaged by Full Moon or Fury of Elune take 6% increased damage from you for 6 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Moondust",
@@ -8199,7 +8465,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Elune's Grace",
@@ -8253,7 +8520,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Penumbral Swell",
@@ -8307,7 +8575,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lunar Calling",
@@ -8408,7 +8677,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "The Light of Elune",
@@ -8454,8 +8724,8 @@
         "spell_id": 428655,
         "icon": "ability_druid_dreamstate"
       },
-      "pve_tooltip": "Approximately\n1\nprocs per minute\nMoonfire damage has a chance to call down a Fury of Elune to follow your target for 3 sec.\nFury of Elune\nCalls down a beam of pure celestial energy, dealing [3000 / 1000 * 2 * (18.34% of Spell Power)] Astral damage over 3 sec within its area.\nGenerates 15 Astral Power over its duration.",
-      "pvp_tooltip": "Approximately\n1\nprocs per minute\nMoonfire damage has a chance to call down a Fury of Elune to follow your target for 3 sec.\nFury of Elune\nCalls down a beam of pure celestial energy, dealing [3000 / 1000 * 2 * (14.672% of Spell Power)] Astral damage over 3 sec within its area.\nGenerates 15 Astral Power over its duration.",
+      "pve_tooltip": "Approximately 1 procs per minute\nMoonfire damage has a chance to call down a Fury of Elune to follow your target for 3 sec.\nFury of Elune\nCalls down a beam of pure celestial energy, dealing [3000 / 1000 * 2 * (18.34% of Spell Power)] Astral damage over 3 sec within its area.\nGenerates 15 Astral Power over its duration.",
+      "pvp_tooltip": "Approximately 1 procs per minute\nMoonfire damage has a chance to call down a Fury of Elune to follow your target for 3 sec.\nFury of Elune\nCalls down a beam of pure celestial energy, dealing [3000 / 1000 * 2 * (14.672% of Spell Power)] Astral damage over 3 sec within its area.\nGenerates 15 Astral Power over its duration.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -8489,7 +8759,7 @@
           "talent_spell_id": 428655,
           "source_spell_id": 211545,
           "effect_index": 1,
-          "effect_text": "School Damage (2): astral (SP mod: 0.1834)",
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 0.1834)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8516,14 +8786,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Astral Insight",
@@ -8577,7 +8847,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Arcane Affinity",
@@ -8631,7 +8902,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lunation",
@@ -8685,7 +8957,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bask in Moonlight",
@@ -8739,7 +9012,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "The Eternal Moon",
@@ -8800,7 +9074,7 @@
           "talent_spell_id": 424113,
           "source_spell_id": 428682,
           "effect_index": 1,
-          "effect_text": "School Damage (2): astral (SP mod: 2.1632)",
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 2.1632)",
           "base_value": null,
           "spell_pvp_multiplier": 1.111,
           "amount_kind": "direct",
@@ -8827,8 +9101,9 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8839,7 +9114,7 @@
           "talent_spell_id": 424113,
           "source_spell_id": 424588,
           "effect_index": 1,
-          "effect_text": "School Damage (2): astral (SP mod: 1.885)",
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 1.885)",
           "base_value": null,
           "spell_pvp_multiplier": 1.111,
           "amount_kind": "direct",
@@ -8870,14 +9145,16 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dream Surge",
@@ -8959,7 +9236,7 @@
           "talent_spell_id": 433831,
           "source_spell_id": 433850,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature | Attributes: Always AOE Line of Sight (5), Suppress Points Stacking (6) (AP mod: 3.93)",
+          "effect_text": "School Damage (Nature) (AP mod: 3.93 )",
           "base_value": null,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": "direct",
@@ -8986,14 +9263,16 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Treants of the Moon",
@@ -9047,7 +9326,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Expansiveness",
@@ -9101,7 +9381,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Protective Growth",
@@ -9155,7 +9436,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sylvan Beckoning",
@@ -9201,15 +9483,16 @@
         "spell_id": 1264614,
         "icon": "ui_darkshore_warfront_alliance_dryad"
       },
-      "pve_tooltip": "Approximately\n1\nprocs per minute\nEntering an Eclipse summons a Dryad to assist you for 8 sec, casting Starsurge dealing (150% of Spell Power) Astral damage and Starfall at 250% effectiveness.",
-      "pvp_tooltip": "Approximately\n1\nprocs per minute\nEntering an Eclipse summons a Dryad to assist you for 8 sec, casting Starsurge dealing (150% of Spell Power) Astral damage and Starfall at 250% effectiveness.",
+      "pve_tooltip": "Approximately 1 procs per minute\nEntering an Eclipse summons a Dryad to assist you for 8 sec, casting Starsurge dealing (150% of Spell Power) Astral damage and Starfall at 250% effectiveness.",
+      "pvp_tooltip": "Approximately 1 procs per minute\nEntering an Eclipse summons a Dryad to assist you for 8 sec, casting Starsurge dealing (150% of Spell Power) Astral damage and Starfall at 250% effectiveness.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Power of Nature",
@@ -9263,7 +9546,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Durability of Nature",
@@ -9317,7 +9601,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cenarius' Might",
@@ -9371,7 +9656,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Grove's Inspiration",
@@ -9425,7 +9711,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Potent Enchantments",
@@ -9526,7 +9813,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dryad's Dance",
@@ -9580,7 +9868,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bounteous Bloom",
@@ -9634,7 +9923,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Early Spring",
@@ -9688,7 +9978,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Power of the Dream",
@@ -9742,7 +10033,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Control of the Dream",
@@ -9788,15 +10080,16 @@
         "spell_id": 434249,
         "icon": "inv_cloth_outdooremeralddream_d_01_buckle"
       },
-      "pve_tooltip": "Time elapsed while your major abilities are available to be used or at maximum charges is subtracted from that ability's cooldown after the next time you use it, up to 15 seconds.\nAffects Force of Nature,\nand Convoke the Spirits.",
-      "pvp_tooltip": "Time elapsed while your major abilities are available to be used or at maximum charges is subtracted from that ability's cooldown after the next time you use it, up to 15 seconds.\nAffects Force of Nature,\nand Convoke the Spirits.",
+      "pve_tooltip": "Time elapsed while your major abilities are available to be used or at maximum charges is subtracted from that ability's cooldown after the next time you use it, up to 15 seconds.\nAffects Force of Nature, and Convoke the Spirits.",
+      "pvp_tooltip": "Time elapsed while your major abilities are available to be used or at maximum charges is subtracted from that ability's cooldown after the next time you use it, up to 15 seconds.\nAffects Force of Nature, and Convoke the Spirits.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blooming Infusion",
@@ -9877,7 +10170,7 @@
           "talent_spell_id": 429433,
           "source_spell_id": 429474,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 100.0,
           "spell_pvp_multiplier": 0.25,
           "amount_kind": null,
@@ -9894,14 +10187,16 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spirit of the Thicket",
@@ -9955,7 +10250,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Harmony of the Grove",
@@ -10036,8 +10332,8 @@
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 428731,
           "source_spell_id": 428735,
-          "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Periodic Amount (22)",
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 4.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -10054,8 +10350,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10065,8 +10362,8 @@
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 428731,
           "source_spell_id": 428735,
-          "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
           "base_value": 4.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -10083,20 +10380,22 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     }
   ],
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "druid-balance",
-  "generated_at": "2026-09-20T12:49:36.214843+00:00",
+  "generated_at": "2026-09-20T19:58:55.030995+00:00",
   "validation": {
     "talents": 142,
     "changed_tooltips": 24,
@@ -10109,37 +10408,11 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 15,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 202497,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=202497'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 211545,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=211545'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 356474,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=356474'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 361237,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=361237'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 394047,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=394047'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }

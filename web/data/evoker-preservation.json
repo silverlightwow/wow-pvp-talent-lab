@@ -57,7 +57,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Obsidian Scales",
@@ -101,15 +102,16 @@
         "spell_id": 363916,
         "icon": "inv_artifact_dragonscales"
       },
-      "pve_tooltip": "300 yd range\nInstant\n1.5 min cooldown\n1 Charge\nReinforce your scales, reducing damage taken by\n30\n% [\nRenewing Blaze\n:\nand causing you to be healed over 8 sec equal to the damage it prevented\n]. Lasts 12 sec.",
-      "pvp_tooltip": "300 yd range\nInstant\n1.5 min cooldown\n1 Charge\nReinforce your scales, reducing damage taken by\n30\n% [\nRenewing Blaze\n:\nand causing you to be healed over 8 sec equal to the damage it prevented\n]. Lasts 12 sec.",
+      "pve_tooltip": "300 yd range\nInstant\n1.5 min cooldown\n1 Charge\nReinforce your scales, reducing damage taken by 30% [Renewing Blaze: and causing you to be healed over 8 sec equal to the damage it prevented]. Lasts 12 sec.",
+      "pvp_tooltip": "300 yd range\nInstant\n1.5 min cooldown\n1 Charge\nReinforce your scales, reducing damage taken by 30% [Renewing Blaze: and causing you to be healed over 8 sec equal to the damage it prevented]. Lasts 12 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Expunge",
@@ -161,7 +163,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Natural Convergence",
@@ -217,7 +220,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Heavy Wingbeats",
@@ -273,7 +277,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Verdant Embrace",
@@ -321,8 +326,8 @@
         "spell_id": 360995,
         "icon": "ability_evoker_rescue"
       },
-      "pve_tooltip": "10% of base mana\n25 yd range\nInstant\n24 sec cooldown\n1 Charge\nFly to an ally and heal them for (1719% of Spell Power), or heal yourself for the same amount.",
-      "pvp_tooltip": "10% of base mana\n25 yd range\nInstant\n24 sec cooldown\n1 Charge\nFly to an ally and heal them for (1375.2% of Spell Power), or heal yourself for the same amount.",
+      "pve_tooltip": "10% of base mana\n25 yd range\nInstant\n18 sec cooldown\n1 Charge\nFly to an ally and heal them for (1719% of Spell Power), or heal yourself for the same amount.",
+      "pvp_tooltip": "10% of base mana\n25 yd range\nInstant\n18 sec cooldown\n1 Charge\nFly to an ally and heal them for (1375.2% of Spell Power), or heal yourself for the same amount.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -381,7 +386,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Forger of Mountains",
@@ -433,7 +439,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Innate Magic",
@@ -482,15 +489,33 @@
         "spell_id": 375520,
         "icon": "ability_evoker_innatemagic4"
       },
-      "pve_tooltip": "Essence regenerates 5% faster.",
-      "pvp_tooltip": "Essence regenerates 5% faster.",
+      "pve_tooltip": "Essence regenerates 10% faster.",
+      "pvp_tooltip": "Essence regenerates 10% faster.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Essence regenerates 5% faster.",
+          "pvp_tooltip": "Essence regenerates 5% faster.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Essence regenerates 10% faster.",
+          "pvp_tooltip": "Essence regenerates 10% faster.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Obsidian Bulwark",
@@ -542,7 +567,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Enkindled",
@@ -591,15 +617,33 @@
         "spell_id": 375554,
         "icon": "ability_evoker_livingflame"
       },
-      "pve_tooltip": "Living Flame deals 3% more damage and healing.",
-      "pvp_tooltip": "Living Flame deals 3% more damage and healing.",
+      "pve_tooltip": "Living Flame deals 6% more damage and healing.",
+      "pvp_tooltip": "Living Flame deals 6% more damage and healing.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Living Flame deals 3% more damage and healing.",
+          "pvp_tooltip": "Living Flame deals 3% more damage and healing.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Living Flame deals 6% more damage and healing.",
+          "pvp_tooltip": "Living Flame deals 6% more damage and healing.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Scarlet Adaptation",
@@ -643,15 +687,16 @@
         "spell_id": 372469,
         "icon": "inv_bijou_red"
       },
-      "pve_tooltip": "Store 20% of your effective healing, up to (Spell Power * 2.254 *\n1\n). Your next damaging Living Flame consumes all stored healing to increase its damage dealt.",
-      "pvp_tooltip": "Store 20% of your effective healing, up to (Spell Power * 2.254 *\n1\n). Your next damaging Living Flame consumes all stored healing to increase its damage dealt.",
+      "pve_tooltip": "Store 20% of your effective healing, up to (Spell Power * 2.254 * 1). Your next damaging Living Flame consumes all stored healing to increase its damage dealt.",
+      "pvp_tooltip": "Store 20% of your effective healing, up to (Spell Power * 2.254 * 1). Your next damaging Living Flame consumes all stored healing to increase its damage dealt.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Inner Radiance",
@@ -707,7 +752,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Recall",
@@ -753,15 +799,16 @@
         "spell_id": 371806,
         "icon": "ability_evoker_recall"
       },
-      "pve_tooltip": "You may reactivate [\nDream Flight\n:\nDream Flight and\n] [\nBreath of Eons\n/\nDeep Breath\n] within 3 sec after landing to travel back in time to your takeoff location.",
-      "pvp_tooltip": "You may reactivate [\nDream Flight\n:\nDream Flight and\n] [\nBreath of Eons\n/\nDeep Breath\n] within 3 sec after landing to travel back in time to your takeoff location.",
+      "pve_tooltip": "You may reactivate [Dream Flight: Dream Flight and] [Breath of Eons / Deep Breath] within 3 sec after landing to travel back in time to your takeoff location.",
+      "pvp_tooltip": "You may reactivate [Dream Flight: Dream Flight and] [Breath of Eons / Deep Breath] within 3 sec after landing to travel back in time to your takeoff location.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Clobbering Sweep",
@@ -814,7 +861,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tailwind",
@@ -868,7 +916,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cauterizing Flame",
@@ -924,7 +973,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ancient Flame",
@@ -976,7 +1026,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Instinctive Arcana",
@@ -1022,15 +1073,33 @@
         "spell_id": 376164,
         "icon": "spell_arcane_studentofmagic"
       },
-      "pve_tooltip": "Your Magic damage done is increased by 2%.",
-      "pvp_tooltip": "Your Magic damage done is increased by 2%.",
+      "pve_tooltip": "Your Magic damage done is increased by 4%.",
+      "pvp_tooltip": "Your Magic damage done is increased by 4%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Your Magic damage done is increased by 2%.",
+          "pvp_tooltip": "Your Magic damage done is increased by 2%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Your Magic damage done is increased by 4%.",
+          "pvp_tooltip": "Your Magic damage done is increased by 4%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Tip the Scales",
@@ -1084,7 +1153,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Attuned to the Dream",
@@ -1130,15 +1200,33 @@
         "spell_id": 376930,
         "icon": "ability_rogue_imrovedrecuperate"
       },
-      "pve_tooltip": "Your healing done and healing received are increased by 3%.",
-      "pvp_tooltip": "Your healing done and healing received are increased by 3%.",
+      "pve_tooltip": "Your healing done and healing received are increased by 6%.",
+      "pvp_tooltip": "Your healing done and healing received are increased by 6%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Your healing done and healing received are increased by 3%.",
+          "pvp_tooltip": "Your healing done and healing received are increased by 3%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Your healing done and healing received are increased by 6%.",
+          "pvp_tooltip": "Your healing done and healing received are increased by 6%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Sleep Walk",
@@ -1190,7 +1278,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Protracted Talons",
@@ -1245,7 +1334,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Inherent Resistance",
@@ -1293,15 +1383,33 @@
         "spell_id": 375544,
         "icon": "inv_misc_rubysanctum1"
       },
-      "pve_tooltip": "Magic damage taken reduced by 4%.",
-      "pvp_tooltip": "Magic damage taken reduced by 4%.",
+      "pve_tooltip": "Magic damage taken reduced by 8%.",
+      "pvp_tooltip": "Magic damage taken reduced by 8%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Magic damage taken reduced by 4%.",
+          "pvp_tooltip": "Magic damage taken reduced by 4%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Magic damage taken reduced by 8%.",
+          "pvp_tooltip": "Magic damage taken reduced by 8%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Draconic Legacy",
@@ -1355,7 +1463,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Extended Flight",
@@ -1411,7 +1520,25 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Hover lasts 2 sec longer.",
+          "pvp_tooltip": "Hover lasts 2 sec longer.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Hover lasts 4 sec longer.",
+          "pvp_tooltip": "Hover lasts 4 sec longer.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Bountiful Bloom",
@@ -1465,7 +1592,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Regenerative Magic",
@@ -1517,7 +1645,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blast Furnace",
@@ -1574,7 +1703,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Exuberance",
@@ -1628,7 +1758,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Renewing Blaze",
@@ -1676,15 +1807,16 @@
         "spell_id": 374348,
         "icon": "ability_evoker_masterylifebinder_red"
       },
-      "pve_tooltip": "30 yd range\nObsidian Scales surrounds you with a Renewing Blaze, causing 100% of the damage it prevented to be healed back over\n8 sec\n.",
-      "pvp_tooltip": "30 yd range\nObsidian Scales surrounds you with a Renewing Blaze, causing 100% of the damage it prevented to be healed back over\n8 sec\n.",
+      "pve_tooltip": "30 yd range\nObsidian Scales surrounds you with a Renewing Blaze, causing 100% of the damage it prevented to be healed back over 8 sec.",
+      "pvp_tooltip": "30 yd range\nObsidian Scales surrounds you with a Renewing Blaze, causing 100% of the damage it prevented to be healed back over 8 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Walloping Blow",
@@ -1738,7 +1870,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Panacea",
@@ -1795,7 +1928,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Stretch Time",
@@ -1842,15 +1976,16 @@
         "spell_id": 410352,
         "icon": "ability_evoker_timedilation"
       },
-      "pve_tooltip": "While flying during [\nBreath of Eons\n/ Deep Breath], 100% of damage you would take is instead dealt over 10 sec.",
-      "pvp_tooltip": "While flying during [\nBreath of Eons\n/ Deep Breath], 100% of damage you would take is instead dealt over 10 sec.",
+      "pve_tooltip": "While flying during [Breath of Eons / Deep Breath], 100% of damage you would take is instead dealt over 10 sec.",
+      "pvp_tooltip": "While flying during [Breath of Eons / Deep Breath], 100% of damage you would take is instead dealt over 10 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unravel",
@@ -1956,7 +2091,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Oppressing Roar",
@@ -2006,8 +2142,8 @@
         "spell_id": 372048,
         "icon": "ability_evoker_oppressingroar"
       },
-      "pve_tooltip": "Instant\n2 min cooldown\nLet out a bone-shaking roar at enemies in a cone in front of you, increasing the duration of crowd controls that affect them by 50% in the next 10 sec. [\nOverawe\n:\nRemoves 1 Enrage effect from each enemy\n]",
-      "pvp_tooltip": "Instant\n2 min cooldown\nLet out a bone-shaking roar at enemies in a cone in front of you, increasing the duration of crowd controls that affect them by 30% in the next 10 sec. [\nOverawe\n:\nRemoves 1 Enrage effect from each enemy\n]",
+      "pve_tooltip": "Instant\n2 min cooldown\nLet out a bone-shaking roar at enemies in a cone in front of you, increasing the duration of crowd controls that affect them by 50% in the next 10 sec. [Overawe: Removes 1 Enrage effect from each enemy]",
+      "pvp_tooltip": "Instant\n2 min cooldown\nLet out a bone-shaking roar at enemies in a cone in front of you, increasing the duration of crowd controls that affect them by 30% in the next 10 sec. [Overawe: Removes 1 Enrage effect from each enemy]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -2476,7 +2612,8 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 17
+      "render_effect_count": 17,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Foci of Life",
@@ -2530,7 +2667,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rescue",
@@ -2587,7 +2725,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lush Growth",
@@ -2633,15 +2772,33 @@
         "spell_id": 375561,
         "icon": "inv_staff_2h_bloodelf_c_01"
       },
-      "pve_tooltip": "Green spells restore 5% more health.",
-      "pvp_tooltip": "Green spells restore 5% more health.",
+      "pve_tooltip": "Green spells restore 10% more health.",
+      "pvp_tooltip": "Green spells restore 10% more health.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Green spells restore 5% more health.",
+          "pvp_tooltip": "Green spells restore 5% more health.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Green spells restore 10% more health.",
+          "pvp_tooltip": "Green spells restore 10% more health.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Source of Magic",
@@ -2695,7 +2852,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Strike from Above",
@@ -2749,7 +2907,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Leaping Flames",
@@ -2805,7 +2964,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Overawe",
@@ -2857,7 +3017,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Aerial Mastery",
@@ -2913,7 +3074,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Twin Guardian",
@@ -2967,7 +3129,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Potent Mana",
@@ -3021,7 +3184,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Terror of the Skies",
@@ -3066,15 +3230,16 @@
         "spell_id": 371032,
         "icon": "ability_evoker_terroroftheskies"
       },
-      "pve_tooltip": "[\nBreath of Eons\n/ Deep Breath] stuns enemies for 3 sec.",
-      "pvp_tooltip": "[\nBreath of Eons\n/ Deep Breath] stuns enemies for 3 sec.",
+      "pve_tooltip": "[Breath of Eons / Deep Breath] stuns enemies for 3 sec.",
+      "pvp_tooltip": "[Breath of Eons / Deep Breath] stuns enemies for 3 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Time Spiral",
@@ -3126,7 +3291,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spatial Paradox",
@@ -3178,7 +3344,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Zephyr",
@@ -3224,15 +3391,16 @@
         "spell_id": 374227,
         "icon": "ability_evoker_hoverblack"
       },
-      "pve_tooltip": "Instant\n2 min cooldown\nConjure an updraft to lift you and your 4 nearest allies within 20 yds into the air, reducing damage taken from area-of-effect attacks by 20% and increasing movement speed by 30% for 8 sec.",
-      "pvp_tooltip": "Instant\n2 min cooldown\nConjure an updraft to lift you and your 4 nearest allies within 20 yds into the air, reducing damage taken from area-of-effect attacks by 20% and increasing movement speed by 30% for 8 sec.",
+      "pve_tooltip": "Instant\n18 sec cooldown\nConjure an updraft to lift you and your 4 nearest allies within 20 yds into the air, reducing damage taken from area-of-effect attacks by 20% and increasing movement speed by 30% for 8 sec.",
+      "pvp_tooltip": "Instant\n18 sec cooldown\nConjure an updraft to lift you and your 4 nearest allies within 20 yds into the air, reducing damage taken from area-of-effect attacks by 20% and increasing movement speed by 30% for 8 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Echo",
@@ -3277,15 +3445,16 @@
         "spell_id": 364343,
         "icon": "ability_evoker_echo"
       },
-      "pve_tooltip": "2 Essence / 1.9% of base mana\n30 yd range\nInstant\nWrap an ally with temporal energy, healing them for (240% of Spell Power) and causing your next healing spell to cast an additional time on that ally at [ceil(70 /\nTime Lord\n:\n105\n/\nGolden Opportunity\n:\n77\n)]% of normal healing. Essence spells cannot be Echoed.",
-      "pvp_tooltip": "2 Essence / 1.9% of base mana\n30 yd range\nInstant\nWrap an ally with temporal energy, healing them for (240% of Spell Power) and causing your next healing spell to cast an additional time on that ally at [ceil(70 /\nTime Lord\n:\n105\n/\nGolden Opportunity\n:\n77\n)]% of normal healing. Essence spells cannot be Echoed.",
+      "pve_tooltip": "2 Essence / 1.9% of base mana\n30 yd range\nInstant\nWrap an ally with temporal energy, healing them for (240% of Spell Power) and causing your next healing spell to cast an additional time on that ally at [ceil(70 / Time Lord: 105 / Golden Opportunity: 77)]% of normal healing. Essence spells cannot be Echoed.",
+      "pvp_tooltip": "2 Essence / 1.9% of base mana\n30 yd range\nInstant\nWrap an ally with temporal energy, healing them for (240% of Spell Power) and causing your next healing spell to cast an additional time on that ally at [ceil(70 / Time Lord: 105 / Golden Opportunity: 77)]% of normal healing. Essence spells cannot be Echoed.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dream Breath",
@@ -3332,8 +3501,8 @@
         "spell_id": 355936,
         "icon": "ability_evoker_dreambreath"
       },
-      "pve_tooltip": "4.9% of base mana\nChanneled (2.5 sec cast)\n30 sec cooldown\n1 Charge\nInhale, gathering the power of the Dream. Release to exhale, healing yourself and 5 injured allies in a 40 yd cone in front of you for [(92.16% of Spell Power) + (53.52% of Spell Power) * (8 +\n0\n)].\nI:\nHeals (92.16% of Spell Power) instantly and [(53.52% of Spell Power) * (8 +\n0\n)] over (16 +\n0\n) sec.\nII:\nHeals [(92.16% of Spell Power) + (53.52% of Spell Power) * 2] instantly and [(53.52% of Spell Power) * (6 +\n0\n)] over (12 +\n0\n) sec.\nIII:\nHeals [(92.16% of Spell Power) + (53.52% of Spell Power) * 4] instantly and [(53.52% of Spell Power) * (4 +\n0\n)] over (8 +\n0\n) sec.",
-      "pvp_tooltip": "4.9% of base mana\nChanneled (2.5 sec cast)\n30 sec cooldown\n1 Charge\nInhale, gathering the power of the Dream. Release to exhale, healing yourself and 5 injured allies in a 40 yd cone in front of you for [(92.16% of Spell Power) + (64.224% of Spell Power) * (8 +\n0\n)].\nI:\nHeals (92.16% of Spell Power) instantly and [(64.224% of Spell Power) * (8 +\n0\n)] over (16 +\n0\n) sec.\nII:\nHeals [(92.16% of Spell Power) + (64.224% of Spell Power) * 2] instantly and [(64.224% of Spell Power) * (6 +\n0\n)] over (12 +\n0\n) sec.\nIII:\nHeals [(92.16% of Spell Power) + (64.224% of Spell Power) * 4] instantly and [(64.224% of Spell Power) * (4 +\n0\n)] over (8 +\n0\n) sec.",
+      "pve_tooltip": "4.9% of base mana\nChanneled (2.5 sec cast)\n30 sec cooldown\n1 Charge\nInhale, gathering the power of the Dream. Release to exhale, healing yourself and 5 injured allies in a 40 yd cone in front of you for [(92.16% of Spell Power) + (53.52% of Spell Power) * (8 + 0)].\nI: Heals (92.16% of Spell Power) instantly and [(53.52% of Spell Power) * (8 + 0)] over (16 + 0) sec.\nII: Heals [(92.16% of Spell Power) + (53.52% of Spell Power) * 2] instantly and [(53.52% of Spell Power) * (6 + 0)] over (12 + 0) sec.\nIII: Heals [(92.16% of Spell Power) + (53.52% of Spell Power) * 4] instantly and [(53.52% of Spell Power) * (4 + 0)] over (8 + 0) sec.",
+      "pvp_tooltip": "4.9% of base mana\nChanneled (2.5 sec cast)\n30 sec cooldown\n1 Charge\nInhale, gathering the power of the Dream. Release to exhale, healing yourself and 5 injured allies in a 40 yd cone in front of you for [(92.16% of Spell Power) + (64.224% of Spell Power) * (8 + 0)].\nI: Heals (92.16% of Spell Power) instantly and [(64.224% of Spell Power) * (8 + 0)] over (16 + 0) sec.\nII: Heals [(92.16% of Spell Power) + (64.224% of Spell Power) * 2] instantly and [(64.224% of Spell Power) * (6 + 0)] over (12 + 0) sec.\nIII: Heals [(92.16% of Spell Power) + (64.224% of Spell Power) * 4] instantly and [(64.224% of Spell Power) * (4 + 0)] over (8 + 0) sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3348,8 +3517,8 @@
           ]
         },
         {
-          "start": 316,
-          "end": 321,
+          "start": 315,
+          "end": 320,
           "old_token": "53.52",
           "new_token": "64.224",
           "kind": "spell_power_coefficient",
@@ -3358,8 +3527,8 @@
           ]
         },
         {
-          "start": 409,
-          "end": 414,
+          "start": 406,
+          "end": 411,
           "old_token": "53.52",
           "new_token": "64.224",
           "kind": "spell_power_coefficient",
@@ -3368,8 +3537,8 @@
           ]
         },
         {
-          "start": 453,
-          "end": 458,
+          "start": 450,
+          "end": 455,
           "old_token": "53.52",
           "new_token": "64.224",
           "kind": "spell_power_coefficient",
@@ -3378,8 +3547,8 @@
           ]
         },
         {
-          "start": 547,
-          "end": 552,
+          "start": 542,
+          "end": 547,
           "old_token": "53.52",
           "new_token": "64.224",
           "kind": "spell_power_coefficient",
@@ -3388,8 +3557,8 @@
           ]
         },
         {
-          "start": 591,
-          "end": 596,
+          "start": 586,
+          "end": 591,
           "old_token": "53.52",
           "new_token": "64.224",
           "kind": "spell_power_coefficient",
@@ -3487,7 +3656,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Reversion",
@@ -3534,15 +3704,16 @@
         "spell_id": 366155,
         "icon": "ability_evoker_reversion"
       },
-      "pve_tooltip": "2.2% of base mana\n30 yd range\nInstant\n9 sec recharge\n2 Charges\nReverse an ally's injuries, [\nGolden Hour\n:\ninstantly healing them for 15% of damage taken in the last 5 sec and an additional\n/ healing them for] (256.5% of Spell Power) over 12 sec.\nWhen Reversion critically heals, its duration is extended by 2 sec, up to a maximum of 12 sec.",
-      "pvp_tooltip": "2.2% of base mana\n30 yd range\nInstant\n9 sec recharge\n2 Charges\nReverse an ally's injuries, [\nGolden Hour\n:\ninstantly healing them for 15% of damage taken in the last 5 sec and an additional\n/ healing them for] (256.5% of Spell Power) over 12 sec.\nWhen Reversion critically heals, its duration is extended by 2 sec, up to a maximum of 12 sec.",
+      "pve_tooltip": "2.2% of base mana\n30 yd range\nInstant\n9 sec recharge\n2 Charges\nReverse an ally's injuries, [Golden Hour: instantly healing them for 15% of damage taken in the last 5 sec and an additional / healing them for] (256.5% of Spell Power) over 12 sec.\nWhen Reversion critically heals, its duration is extended by 2 sec, up to a maximum of 12 sec.",
+      "pvp_tooltip": "2.2% of base mana\n30 yd range\nInstant\n9 sec recharge\n2 Charges\nReverse an ally's injuries, [Golden Hour: instantly healing them for 15% of damage taken in the last 5 sec and an additional / healing them for] (256.5% of Spell Power) over 12 sec.\nWhen Reversion critically heals, its duration is extended by 2 sec, up to a maximum of 12 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Temporal Compression",
@@ -3596,7 +3767,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Essence Burst",
@@ -3643,15 +3815,16 @@
         "spell_id": 369297,
         "icon": "ability_evoker_essenceburst"
       },
-      "pve_tooltip": "Living Flame has a 20% chance, and Reversion has a 15% chance to make your next Essence ability free. [\nEssence Attunement\n:\nStacks 1 times\n]",
-      "pvp_tooltip": "Living Flame has a 20% chance, and Reversion has a 15% chance to make your next Essence ability free. [\nEssence Attunement\n:\nStacks 1 times\n]",
+      "pve_tooltip": "Living Flame has a 20% chance, and Reversion has a 15% chance to make your next Essence ability free. [Essence Attunement: Stacks 1 times]",
+      "pvp_tooltip": "Living Flame has a 20% chance, and Reversion has a 15% chance to make your next Essence ability free. [Essence Attunement: Stacks 1 times]",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rewind",
@@ -3705,7 +3878,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lifebind",
@@ -3760,7 +3934,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Essence Attunement",
@@ -3816,7 +3991,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Time Dilation",
@@ -3872,7 +4048,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unshakable",
@@ -3927,7 +4104,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fluttering Seedlings",
@@ -3975,15 +4153,33 @@
         "spell_id": 359793,
         "icon": "inv_herbalism_70_yserallineseed"
       },
-      "pve_tooltip": "Emerald Blossom sends out 1 flying seedling when it bursts, plus up to 2 additional seedlings if Emerald Blossom heals fewer than 3 allies.\nSeedlings each heal an ally up to 40 yds away for (260% of Spell Power).",
-      "pvp_tooltip": "Emerald Blossom sends out 1 flying seedling when it bursts, plus up to 2 additional seedlings if Emerald Blossom heals fewer than 3 allies.\nSeedlings each heal an ally up to 40 yds away for (260% of Spell Power).",
+      "pve_tooltip": "Emerald Blossom sends out 2 flying seedling when it bursts, plus up to 4 additional seedlings if Emerald Blossom heals fewer than 3 allies.\nSeedlings each heal an ally up to 40 yds away for (260% of Spell Power).",
+      "pvp_tooltip": "Emerald Blossom sends out 2 flying seedling when it bursts, plus up to 4 additional seedlings if Emerald Blossom heals fewer than 3 allies.\nSeedlings each heal an ally up to 40 yds away for (260% of Spell Power).",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Emerald Blossom sends out 1 flying seedling when it bursts, plus up to 2 additional seedlings if Emerald Blossom heals fewer than 3 allies.\nSeedlings each heal an ally up to 40 yds away for (260% of Spell Power).",
+          "pvp_tooltip": "Emerald Blossom sends out 1 flying seedling when it bursts, plus up to 2 additional seedlings if Emerald Blossom heals fewer than 3 allies.\nSeedlings each heal an ally up to 40 yds away for (260% of Spell Power).",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Emerald Blossom sends out 2 flying seedling when it bursts, plus up to 4 additional seedlings if Emerald Blossom heals fewer than 3 allies.\nSeedlings each heal an ally up to 40 yds away for (260% of Spell Power).",
+          "pvp_tooltip": "Emerald Blossom sends out 2 flying seedling when it bursts, plus up to 4 additional seedlings if Emerald Blossom heals fewer than 3 allies.\nSeedlings each heal an ally up to 40 yds away for (260% of Spell Power).",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Font of Magic",
@@ -4037,7 +4233,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Golden Hour",
@@ -4093,7 +4290,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Delay Harm",
@@ -4145,7 +4343,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Just in Time",
@@ -4197,7 +4396,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Temporal Anomaly",
@@ -4252,7 +4452,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Empath",
@@ -4306,7 +4507,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spiritual Clarity",
@@ -4360,7 +4562,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Exhilarating Burst",
@@ -4405,15 +4608,33 @@
         "spell_id": 377100,
         "icon": "ability_evoker_essenceburst3"
       },
-      "pve_tooltip": "Each time you gain Essence Burst, your critical heals are 230% effective instead of the usual 200% for 10 sec.",
-      "pvp_tooltip": "Each time you gain Essence Burst, your critical heals are 230% effective instead of the usual 200% for 10 sec.",
+      "pve_tooltip": "Each time you gain Essence Burst, your critical heals are 260% effective instead of the usual 200% for 10 sec.",
+      "pvp_tooltip": "Each time you gain Essence Burst, your critical heals are 260% effective instead of the usual 200% for 10 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Each time you gain Essence Burst, your critical heals are 230% effective instead of the usual 200% for 10 sec.",
+          "pvp_tooltip": "Each time you gain Essence Burst, your critical heals are 230% effective instead of the usual 200% for 10 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Each time you gain Essence Burst, your critical heals are 260% effective instead of the usual 200% for 10 sec.",
+          "pvp_tooltip": "Each time you gain Essence Burst, your critical heals are 260% effective instead of the usual 200% for 10 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Field of Dreams",
@@ -4468,7 +4689,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Power Nexus",
@@ -4522,7 +4744,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Time Lord",
@@ -4577,7 +4800,25 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Echo replicates 25% more healing.",
+          "pvp_tooltip": "Echo replicates 25% more healing.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Echo replicates 50% more healing.",
+          "pvp_tooltip": "Echo replicates 50% more healing.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Flow State",
@@ -4630,7 +4871,25 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Empower spells cause time to flow 5% faster for you, increasing movement speed, cooldown recharge rate, and cast speed. Lasts 10 sec.",
+          "pvp_tooltip": "Empower spells cause time to flow 5% faster for you, increasing movement speed, cooldown recharge rate, and cast speed. Lasts 10 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Empower spells cause time to flow 10% faster for you, increasing movement speed, cooldown recharge rate, and cast speed. Lasts 10 sec.",
+          "pvp_tooltip": "Empower spells cause time to flow 10% faster for you, increasing movement speed, cooldown recharge rate, and cast speed. Lasts 10 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Temporal Barrier",
@@ -4684,7 +4943,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Nozdormu's Teachings",
@@ -4738,7 +4998,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Call of Ysera",
@@ -4795,7 +5056,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dream Flight",
@@ -4853,7 +5115,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Stasis",
@@ -4903,15 +5166,16 @@
         "spell_id": 370537,
         "icon": "ability_evoker_stasis"
       },
-      "pve_tooltip": "4% of base mana\nInstant\n1.5 min cooldown\nCauses your next 3 helpful spells to be duplicated and stored in a time lock. You may reactivate Stasis any time within 30 sec to quickly unleash their magic.",
-      "pvp_tooltip": "4% of base mana\nInstant\n1.5 min cooldown\nCauses your next 3 helpful spells to be duplicated and stored in a time lock. You may reactivate Stasis any time within 30 sec to quickly unleash their magic.",
+      "pve_tooltip": "4% of base mana\nInstant\n18 sec cooldown\nCauses your next 3 helpful spells to be duplicated and stored in a time lock. You may reactivate Stasis any time within 30 sec to quickly unleash their magic.",
+      "pvp_tooltip": "4% of base mana\nInstant\n18 sec cooldown\nCauses your next 3 helpful spells to be duplicated and stored in a time lock. You may reactivate Stasis any time within 30 sec to quickly unleash their magic.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Grace Period",
@@ -4968,7 +5232,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spark of Insight",
@@ -5022,7 +5287,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ouroboros",
@@ -5076,7 +5342,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Life-Giver's Flame",
@@ -5132,7 +5399,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Inner Flame",
@@ -5178,15 +5446,16 @@
         "spell_id": 1242745,
         "icon": "ability_evoker_infernosblessing"
       },
-      "pve_tooltip": "Casting Dream Flight or Stasis increases your healing over time by 50% and causes Living Flame and Reversion to have a 100% increased chance to grant Essence Burst. Lasts [\nDream Flight\n:\n20\n/ 15] sec.",
-      "pvp_tooltip": "Casting Dream Flight or Stasis increases your healing over time by 50% and causes Living Flame and Reversion to have a 100% increased chance to grant Essence Burst. Lasts [\nDream Flight\n:\n20\n/ 15] sec.",
+      "pve_tooltip": "Casting Dream Flight or Stasis increases your healing over time by 50% and causes Living Flame and Reversion to have a 100% increased chance to grant Essence Burst. Lasts [Dream Flight: 20 / 15] sec.",
+      "pvp_tooltip": "Casting Dream Flight or Stasis increases your healing over time by 50% and causes Living Flame and Reversion to have a 100% increased chance to grant Essence Burst. Lasts [Dream Flight: 20 / 15] sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Temporal Artificer",
@@ -5242,7 +5511,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Energy Loop",
@@ -5288,15 +5558,16 @@
         "spell_id": 372233,
         "icon": "inv_elemental_mote_mana"
       },
-      "pve_tooltip": "Level\n90\nDisintegrate deals 35% more damage and generates (\n2700\n* 4) mana over its duration.\n(100ms cooldown)",
-      "pvp_tooltip": "Level\n90\nDisintegrate deals 35% more damage and generates (\n2700\n* 4) mana over its duration.\n(100ms cooldown)",
+      "pve_tooltip": "Level 90\nDisintegrate deals 35% more damage and generates (2700 * 4) mana over its duration.\n(100ms cooldown)",
+      "pvp_tooltip": "Level 90\nDisintegrate deals 35% more damage and generates (2700 * 4) mana over its duration.\n(100ms cooldown)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Time of Need",
@@ -5402,7 +5673,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Renewing Breath",
@@ -5451,15 +5723,33 @@
         "spell_id": 371257,
         "icon": "ability_evoker_dreambreath"
       },
-      "pve_tooltip": "Dream Breath healing is increased by 15%.",
-      "pvp_tooltip": "Dream Breath healing is increased by 15%.",
+      "pve_tooltip": "Dream Breath healing is increased by 30%.",
+      "pvp_tooltip": "Dream Breath healing is increased by 30%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Dream Breath healing is increased by 15%.",
+          "pvp_tooltip": "Dream Breath healing is increased by 15%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Dream Breath healing is increased by 30%.",
+          "pvp_tooltip": "Dream Breath healing is increased by 30%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Lifeforce Mender",
@@ -5507,15 +5797,33 @@
         "spell_id": 376179,
         "icon": "ability_evoker_dragonrage2"
       },
-      "pve_tooltip": "Red spells deal 20% additional damage and healing.",
-      "pvp_tooltip": "Red spells deal 20% additional damage and healing.",
+      "pve_tooltip": "Red spells deal 40% additional damage and healing.",
+      "pvp_tooltip": "Red spells deal 40% additional damage and healing.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Red spells deal 20% additional damage and healing.",
+          "pvp_tooltip": "Red spells deal 20% additional damage and healing.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Red spells deal 40% additional damage and healing.",
+          "pvp_tooltip": "Red spells deal 40% additional damage and healing.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Timeless Magic",
@@ -5564,15 +5872,33 @@
         "spell_id": 376240,
         "icon": "inv_artifact_xp05"
       },
-      "pve_tooltip": "Reversion, Time Dilation, Echo, and [\nTemporal Barrier\n/ Temporal Anomaly] last 15% longer and cost 15% less mana.",
-      "pvp_tooltip": "Reversion, Time Dilation, Echo, and [\nTemporal Barrier\n/ Temporal Anomaly] last 15% longer and cost 15% less mana.",
+      "pve_tooltip": "Reversion, Time Dilation, Echo, and [Temporal Barrier / Temporal Anomaly] last 30% longer and cost 30% less mana.",
+      "pvp_tooltip": "Reversion, Time Dilation, Echo, and [Temporal Barrier / Temporal Anomaly] last 30% longer and cost 30% less mana.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Reversion, Time Dilation, Echo, and [Temporal Barrier / Temporal Anomaly] last 15% longer and cost 15% less mana.",
+          "pvp_tooltip": "Reversion, Time Dilation, Echo, and [Temporal Barrier / Temporal Anomaly] last 15% longer and cost 15% less mana.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Reversion, Time Dilation, Echo, and [Temporal Barrier / Temporal Anomaly] last 30% longer and cost 30% less mana.",
+          "pvp_tooltip": "Reversion, Time Dilation, Echo, and [Temporal Barrier / Temporal Anomaly] last 30% longer and cost 30% less mana.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Dream Simulacrum",
@@ -5624,7 +5950,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wings of Liberty",
@@ -5676,7 +6003,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Titan's Gift",
@@ -5728,7 +6056,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lifespark",
@@ -5843,7 +6172,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Twin Echoes",
@@ -5895,7 +6225,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tempo Charged",
@@ -5947,7 +6278,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Merithra's Blessing",
@@ -5989,8 +6321,8 @@
         "spell_id": 1256577,
         "icon": "inv12_apextalent_evoker_merithrasblessing"
       },
-      "pve_tooltip": "Spring a bloom of life from your target, healing them and up to 4 other allies within 30 yards for (225% of Spell Power). Blooms may heal your primary target multiple times if no nearby injured allies are present.\n(Proc chance: 20%)",
-      "pvp_tooltip": "Spring a bloom of life from your target, healing them and up to 4 other allies within 30 yards for (225% of Spell Power). Blooms may heal your primary target multiple times if no nearby injured allies are present.\n(Proc chance: 20%)",
+      "pve_tooltip": "Essence abilities have a chance to infuse your next Reversion with the power of the Green Dragonflight, upgrading it to Merithra's Blessing:\nMerithra's Blessing\nSpring a bloom of life from your target, healing them and up to 4 other allies within 30 yards for (225% of Spell Power). Blooms may heal your primary target multiple times if no nearby injured allies are present.\n(Proc chance: 20%)",
+      "pvp_tooltip": "Essence abilities have a chance to infuse your next Reversion with the power of the Green Dragonflight, upgrading it to Merithra's Blessing:\nMerithra's Blessing\nSpring a bloom of life from your target, healing them and up to 4 other allies within 30 yards for (225% of Spell Power). Blooms may heal your primary target multiple times if no nearby injured allies are present.\n(Proc chance: 20%)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6028,7 +6360,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Merithra's Blessing",
@@ -6078,7 +6411,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Merithra's Blessing",
@@ -6128,7 +6462,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Legacy of the Lifebinder",
@@ -6183,7 +6518,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Trailblazer",
@@ -6237,7 +6573,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shape of Flame",
@@ -6291,7 +6628,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ashes in Motion",
@@ -6345,7 +6683,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Enkindle",
@@ -6399,7 +6738,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Expanded Lungs",
@@ -6453,7 +6793,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Essence Well",
@@ -6507,7 +6848,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Conduit of Flame",
@@ -6561,7 +6903,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Burning Adrenaline",
@@ -6615,7 +6958,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fulminous Roar",
@@ -6669,7 +7013,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Twin Flame",
@@ -6723,7 +7068,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Titanic Precision",
@@ -6777,7 +7123,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Deep Exhalation",
@@ -6831,7 +7178,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lifecinders",
@@ -6885,7 +7233,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Draconic Instincts",
@@ -6939,7 +7288,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fire Torrent",
@@ -6993,7 +7343,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Consume Flame",
@@ -7085,7 +7436,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Chrono Flame",
@@ -7132,15 +7484,16 @@
         "spell_id": 431442,
         "icon": "inv_ability_chronowardenevoker_chronoflame"
       },
-      "pve_tooltip": "Living Flame is enhanced with Bronze magic, repeating 15% of the damage or healing you dealt to the target in the last 5 sec as Arcane, up to\n[(Spell Power * 2.5) * (1 + Versatility)]\n.",
-      "pvp_tooltip": "Living Flame is enhanced with Bronze magic, repeating 15% of the damage or healing you dealt to the target in the last 5 sec as Arcane, up to\n[(Spell Power * 2.5) * (1 + Versatility)]\n.",
+      "pve_tooltip": "Living Flame is enhanced with Bronze magic, repeating 15% of the damage or healing you dealt to the target in the last 5 sec as Arcane, up to [(Spell Power * 2.5) * (1 + Versatility)].",
+      "pvp_tooltip": "Living Flame is enhanced with Bronze magic, repeating 15% of the damage or healing you dealt to the target in the last 5 sec as Arcane, up to [(Spell Power * 2.5) * (1 + Versatility)].",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Warp",
@@ -7194,7 +7547,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Temporal Burst",
@@ -7638,7 +7992,8 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Chronoboon",
@@ -7692,7 +8047,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Reverberations",
@@ -7746,7 +8102,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Temporality",
@@ -7800,7 +8157,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Motes of Acceleration",
@@ -7854,7 +8212,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Nozdormu Adept",
@@ -7908,7 +8267,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Chronal Dynamo",
@@ -7962,7 +8322,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Primacy",
@@ -8016,7 +8377,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Double-time",
@@ -8070,7 +8432,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Time Convergence",
@@ -8124,7 +8487,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Instability Matrix",
@@ -8178,7 +8542,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Overclock",
@@ -8232,7 +8597,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Golden Opportunity",
@@ -8286,7 +8652,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Afterimage",
@@ -8341,13 +8708,14 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     }
   ],
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "evoker-preservation",
-  "generated_at": "2026-09-20T12:50:43.567275+00:00",
+  "generated_at": "2026-09-20T20:00:09.681650+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 5,

@@ -57,7 +57,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Death Strike",
@@ -101,8 +102,8 @@
         "spell_id": 49998,
         "icon": "spell_deathknight_butcher2"
       },
-      "pve_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike that deals (153.12% of Attack Power) Physical damage and heals you for (20 /\nVoracious\n:\n21\n/\nImproved Death Strike\n:\n32\n)% of all damage taken in the last 5 sec, minimum\n7.0\n% of maximum health.",
-      "pvp_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike that deals (156.1824% of Attack Power) Physical damage and heals you for (20 /\nVoracious\n:\n21\n/\nImproved Death Strike\n:\n32\n)% of all damage taken in the last 5 sec, minimum\n7.0\n% of maximum health.",
+      "pve_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike that deals (153.12% of Attack Power) Physical damage and heals you for (20 / Voracious: 21 / Improved Death Strike: 32)% of all damage taken in the last 5 sec, minimum 7.0% of maximum health.",
+      "pvp_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike that deals (156.1824% of Attack Power) Physical damage and heals you for (20 / Voracious: 21 / Improved Death Strike: 32)% of all damage taken in the last 5 sec, minimum 7.0% of maximum health.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -212,7 +213,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Raise Dead",
@@ -256,15 +258,16 @@
         "spell_id": 46585,
         "icon": "inv_pet_ghoul"
       },
-      "pve_tooltip": "30 yd range\nInstant\n2 min cooldown\nRaises a [\nGlyph of the Geist\n:\ngeist\n/ ghoul] to fight by your side. You can have a maximum of one [\nGlyph of the Geist\n:\ngeist\n/ ghoul] at a time. Lasts 1 min.",
-      "pvp_tooltip": "30 yd range\nInstant\n2 min cooldown\nRaises a [\nGlyph of the Geist\n:\ngeist\n/ ghoul] to fight by your side. You can have a maximum of one [\nGlyph of the Geist\n:\ngeist\n/ ghoul] at a time. Lasts 1 min.",
+      "pve_tooltip": "30 yd range\nInstant\n2 min cooldown\nRaises a [Glyph of the Geist: geist / ghoul] to fight by your side. You can have a maximum of one [Glyph of the Geist: geist / ghoul] at a time. Lasts 1 min.",
+      "pvp_tooltip": "30 yd range\nInstant\n2 min cooldown\nRaises a [Glyph of the Geist: geist / ghoul] to fight by your side. You can have a maximum of one [Glyph of the Geist: geist / ghoul] at a time. Lasts 1 min.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Runic Attenuation",
@@ -312,15 +315,16 @@
         "spell_id": 207104,
         "icon": "boss_odunrunes_blue"
       },
-      "pve_tooltip": "Approximately\n10.8\nprocs per minute\nAuto attacks have a chance to generate 3 Runic Power.",
-      "pvp_tooltip": "Approximately\n10.8\nprocs per minute\nAuto attacks have a chance to generate 3 Runic Power.",
+      "pve_tooltip": "Approximately 10.8 procs per minute\nAuto attacks have a chance to generate 3 Runic Power.",
+      "pvp_tooltip": "Approximately 10.8 procs per minute\nAuto attacks have a chance to generate 3 Runic Power.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Death Strike",
@@ -376,7 +380,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cleaving Strikes",
@@ -432,7 +437,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mind Freeze",
@@ -487,7 +493,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blinding Sleet",
@@ -628,7 +635,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gloom Ward",
@@ -677,15 +685,33 @@
         "spell_id": 391571,
         "icon": "ability_rogue_envelopingshadows"
       },
-      "pve_tooltip": "Absorbs are 15% more effective on you.",
-      "pvp_tooltip": "Absorbs are 15% more effective on you.",
+      "pve_tooltip": "Absorbs are 30% more effective on you.",
+      "pvp_tooltip": "Absorbs are 30% more effective on you.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Absorbs are 15% more effective on you.",
+          "pvp_tooltip": "Absorbs are 15% more effective on you.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Absorbs are 30% more effective on you.",
+          "pvp_tooltip": "Absorbs are 30% more effective on you.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "March of Darkness",
@@ -731,15 +757,16 @@
         "spell_id": 391546,
         "icon": "ability_argus_deathfog"
       },
-      "pve_tooltip": "Death's Advance grants an additional 25% movement speed over the first 3 sec. [\nPrice of Progress\n:\nMovement speed while using Price of Progress is increased by 5%\n]",
-      "pvp_tooltip": "Death's Advance grants an additional 25% movement speed over the first 3 sec. [\nPrice of Progress\n:\nMovement speed while using Price of Progress is increased by 5%\n]",
+      "pve_tooltip": "Death's Advance grants an additional 25% movement speed over the first 3 sec. [Price of Progress: Movement speed while using Price of Progress is increased by 5%]",
+      "pvp_tooltip": "Death's Advance grants an additional 25% movement speed over the first 3 sec. [Price of Progress: Movement speed while using Price of Progress is increased by 5%]",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wraith Walk",
@@ -785,15 +812,16 @@
         "spell_id": 212552,
         "icon": "inv_helm_plate_raiddeathknight_p_01"
       },
-      "pve_tooltip": "Channeled (4 sec cast)\n1 min cooldown\nEmbrace the power of the Shadowlands, removing all root effects and increasing your movement speed by\n70\n% for 4 sec. Taking any action cancels the effect.\nWhile active, your movement speed cannot be reduced below 170%.",
-      "pvp_tooltip": "Channeled (4 sec cast)\n1 min cooldown\nEmbrace the power of the Shadowlands, removing all root effects and increasing your movement speed by\n70\n% for 4 sec. Taking any action cancels the effect.\nWhile active, your movement speed cannot be reduced below 170%.",
+      "pve_tooltip": "Channeled (4 sec cast)\n1 min cooldown\nEmbrace the power of the Shadowlands, removing all root effects and increasing your movement speed by 70% for 4 sec. Taking any action cancels the effect.\nWhile active, your movement speed cannot be reduced below 170%.",
+      "pvp_tooltip": "Channeled (4 sec cast)\n1 min cooldown\nEmbrace the power of the Shadowlands, removing all root effects and increasing your movement speed by 70% for 4 sec. Taking any action cancels the effect.\nWhile active, your movement speed cannot be reduced below 170%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unholy Momentum",
@@ -842,15 +870,33 @@
         "spell_id": 374265,
         "icon": "spell_necro_deathrift"
       },
-      "pve_tooltip": "Increases Haste by 2%.",
-      "pvp_tooltip": "Increases Haste by 2%.",
+      "pve_tooltip": "Increases Haste by 4%.",
+      "pvp_tooltip": "Increases Haste by 4%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Increases Haste by 2%.",
+          "pvp_tooltip": "Increases Haste by 2%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Increases Haste by 4%.",
+          "pvp_tooltip": "Increases Haste by 4%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Control Undead",
@@ -904,7 +950,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Enfeeble",
@@ -1060,7 +1107,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Coldthirst",
@@ -1114,7 +1162,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Proliferating Chill",
@@ -1170,7 +1219,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Permafrost",
@@ -1226,7 +1276,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Veteran of the Third War",
@@ -1319,7 +1370,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Death Pact",
@@ -1375,7 +1427,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Brittle",
@@ -1431,7 +1484,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blood Bond",
@@ -1485,7 +1539,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Icy Talons",
@@ -1542,7 +1597,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Death Notes",
@@ -1596,7 +1652,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Anti-Magic Zone",
@@ -1646,15 +1703,16 @@
         "spell_id": 51052,
         "icon": "spell_deathknight_antimagiczone"
       },
-      "pve_tooltip": "30 yd range\nInstant\n4 min cooldown\nPlaces an Anti-Magic Zone for\n6 sec\n, reducing the magic damage taken by party or raid members by 15%.",
-      "pvp_tooltip": "30 yd range\nInstant\n4 min cooldown\nPlaces an Anti-Magic Zone for\n6 sec\n, reducing the magic damage taken by party or raid members by 15%.",
+      "pve_tooltip": "30 yd range\nInstant\n4 min cooldown\nPlaces an Anti-Magic Zone for 6 sec, reducing the magic damage taken by party or raid members by 15%.",
+      "pvp_tooltip": "30 yd range\nInstant\n4 min cooldown\nPlaces an Anti-Magic Zone for 6 sec, reducing the magic damage taken by party or raid members by 15%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Death Defiance",
@@ -1708,7 +1766,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unholy Bond",
@@ -1765,7 +1824,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ice Prison",
@@ -1819,7 +1879,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Asphyxiate",
@@ -1876,7 +1937,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Death's Reach",
@@ -1933,7 +1995,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Assimilation",
@@ -1987,7 +2050,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Anti-Magic Barrier",
@@ -2091,7 +2155,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Grip of the Dead",
@@ -2137,15 +2202,16 @@
         "spell_id": 273952,
         "icon": "ability_creature_disease_05"
       },
-      "pve_tooltip": "[\nDefile\n/ Death and Decay] reduces the movement speed of enemies within its area by 90%, decaying by 10% every sec.",
-      "pvp_tooltip": "[\nDefile\n/ Death and Decay] reduces the movement speed of enemies within its area by 90%, decaying by 10% every sec.",
+      "pve_tooltip": "[Defile / Death and Decay] reduces the movement speed of enemies within its area by 90%, decaying by 10% every sec.",
+      "pvp_tooltip": "[Defile / Death and Decay] reduces the movement speed of enemies within its area by 90%, decaying by 10% every sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Suppression",
@@ -2201,7 +2267,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blood Scent",
@@ -2258,7 +2325,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unholy Endurance",
@@ -2314,7 +2382,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Osmosis",
@@ -2368,7 +2437,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Insidious Chill",
@@ -2424,7 +2494,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Runic Protection",
@@ -2480,7 +2551,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blood Draw",
@@ -2534,7 +2606,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rune Mastery",
@@ -2582,15 +2655,33 @@
         "spell_id": 374574,
         "icon": "ability_deathknight_hungeringruneblade"
       },
-      "pve_tooltip": "Consuming a Rune has a chance to increase your Strength by 3% for 8 sec.",
-      "pvp_tooltip": "Consuming a Rune has a chance to increase your Strength by 3% for 8 sec.",
+      "pve_tooltip": "Consuming a Rune has a chance to increase your Strength by 6% for 8 sec.",
+      "pvp_tooltip": "Consuming a Rune has a chance to increase your Strength by 6% for 8 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Consuming a Rune has a chance to increase your Strength by 3% for 8 sec.",
+          "pvp_tooltip": "Consuming a Rune has a chance to increase your Strength by 3% for 8 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Consuming a Rune has a chance to increase your Strength by 6% for 8 sec.",
+          "pvp_tooltip": "Consuming a Rune has a chance to increase your Strength by 6% for 8 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Subduing Grasp",
@@ -2646,7 +2737,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Will of the Necropolis",
@@ -2694,16 +2786,16 @@
         "spell_id": 206967,
         "icon": "achievement_boss_kelthuzad_01"
       },
-      "pve_tooltip": "Damage taken below 30% Health is reduced by 20%.",
-      "pvp_tooltip": "Damage taken below 30% Health is reduced by 10%.",
+      "pve_tooltip": "Damage taken below 30% Health is reduced by 35%.",
+      "pvp_tooltip": "Damage taken below 30% Health is reduced by 17.5%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
           "start": 44,
           "end": 46,
-          "old_token": "20",
-          "new_token": "10",
+          "old_token": "35",
+          "new_token": "17.5",
           "kind": "percent_value",
           "effect_indexes": [
             2
@@ -2717,8 +2809,8 @@
           ],
           "status": "APPLIED",
           "kind": "percent_value",
-          "old": "20",
-          "new": "10"
+          "old": "35",
+          "new": "17.5"
         }
       ],
       "has_pvp_mechanics": true,
@@ -2749,7 +2841,25 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Damage taken below 30% Health is reduced by 20%.",
+          "pvp_tooltip": "Damage taken below 30% Health is reduced by 10%.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Damage taken below 30% Health is reduced by 35%.",
+          "pvp_tooltip": "Damage taken below 30% Health is reduced by 17.5%.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Null Magic",
@@ -2883,7 +2993,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unyielding Will",
@@ -2936,7 +3047,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Death's Echo",
@@ -2989,7 +3101,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Vestigial Shell",
@@ -3093,7 +3206,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Outbreak",
@@ -3138,8 +3252,8 @@
         "spell_id": 77575,
         "icon": "spell_deathvortex"
       },
-      "pve_tooltip": "1 Rune / -10 Runic Power\n30 yd range\nInstant\nInflicts the target with Dread Plague and Virulent Plague.\nDread Plague\nA malicious plague that deals (439.11% of Attack Power) Shadow damage over 24 sec. Explodes for (184.5% of Attack Power) Shadow damage to nearby enemies and infects one when the host dies. Can only be applied to\n1\nhost at a time.\nVirulent Plague\nAn infectious plague that spreads to all nearby enemies, dealing (202.854% of Attack Power) Shadow damage over 24 sec.",
-      "pvp_tooltip": "1 Rune / -10 Runic Power\n30 yd range\nInstant\nInflicts the target with Dread Plague and Virulent Plague.\nDread Plague\nA malicious plague that deals (439.11% of Attack Power) Shadow damage over 24 sec. Explodes for (184.5% of Attack Power) Shadow damage to nearby enemies and infects one when the host dies. Can only be applied to\n1\nhost at a time.\nVirulent Plague\nAn infectious plague that spreads to all nearby enemies, dealing (202.854% of Attack Power) Shadow damage over 24 sec.",
+      "pve_tooltip": "1 Rune / -10 Runic Power\n30 yd range\nInstant\nInflicts the target with Dread Plague and Virulent Plague.\nDread Plague\nA malicious plague that deals (439.11% of Attack Power) Shadow damage over 24 sec. Explodes for (184.5% of Attack Power) Shadow damage to nearby enemies and infects one when the host dies. Can only be applied to 1 host at a time.\nVirulent Plague\nAn infectious plague that spreads to all nearby enemies, dealing (202.854% of Attack Power) Shadow damage over 24 sec.",
+      "pvp_tooltip": "1 Rune / -10 Runic Power\n30 yd range\nInstant\nInflicts the target with Dread Plague and Virulent Plague.\nDread Plague\nA malicious plague that deals (439.11% of Attack Power) Shadow damage over 24 sec. Explodes for (184.5% of Attack Power) Shadow damage to nearby enemies and infects one when the host dies. Can only be applied to 1 host at a time.\nVirulent Plague\nAn infectious plague that spreads to all nearby enemies, dealing (202.854% of Attack Power) Shadow damage over 24 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3269,7 +3383,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Scourge Strike",
@@ -3381,7 +3496,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sudden Doom",
@@ -3436,7 +3552,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Clawing Shadows",
@@ -3490,7 +3607,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Putrefy",
@@ -3662,7 +3780,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dark Transformation",
@@ -3753,7 +3872,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Foul Infections",
@@ -3809,7 +3929,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Plague Mastery",
@@ -3865,7 +3986,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Grave Mastery",
@@ -3921,7 +4043,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Necromancer's Cunning",
@@ -3969,15 +4092,16 @@
         "spell_id": 288848,
         "icon": "artifactability_unholydeathknight_deathsembrace"
       },
-      "pve_tooltip": "When your Lesser Ghouls expire, they explode in viscera, dealing [0.21 * ((200% of Attack Power)) * (1 + Versatility) *\n1\n] Shadow damage to enemies nearby.",
-      "pvp_tooltip": "When your Lesser Ghouls expire, they explode in viscera, dealing [0.21 * ((200% of Attack Power)) * (1 + Versatility) *\n1\n] Shadow damage to enemies nearby.",
+      "pve_tooltip": "When your Lesser Ghouls expire, they explode in viscera, dealing [0.21 * ((200% of Attack Power)) * (1 + Versatility) * 1] Shadow damage to enemies nearby.",
+      "pvp_tooltip": "When your Lesser Ghouls expire, they explode in viscera, dealing [0.21 * ((200% of Attack Power)) * (1 + Versatility) * 1] Shadow damage to enemies nearby.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ebon Fever",
@@ -4032,7 +4156,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Festering Scythe",
@@ -4079,8 +4204,8 @@
         "spell_id": 455397,
         "icon": "inv_polearm_2h_mawnecromancerboss_d_01_darkblue"
       },
-      "pve_tooltip": "Slashes through all enemies within 14 yds in front of you, dealing (101.25% of Attack Power) Shadow damage and hastening all of your plagues on targets hit to deal damage 35% faster for 25 sec.",
-      "pvp_tooltip": "Slashes through all enemies within 14 yds in front of you, dealing (101.25% of Attack Power) Shadow damage and hastening all of your plagues on targets hit to deal damage 35% faster for 25 sec.",
+      "pve_tooltip": "Festering Strike now follows up with a Festering Scythe that costs no Runes.\nFestering Scythe\nSlashes through all enemies within 14 yds in front of you, dealing (101.25% of Attack Power) Shadow damage and hastening all of your plagues on targets hit to deal damage 35% faster for 25 sec.",
+      "pvp_tooltip": "Festering Strike now follows up with a Festering Scythe that costs no Runes.\nFestering Scythe\nSlashes through all enemies within 14 yds in front of you, dealing (101.25% of Attack Power) Shadow damage and hastening all of your plagues on targets hit to deal damage 35% faster for 25 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4128,7 +4253,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Superstrain",
@@ -4184,7 +4310,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Soul Reaper",
@@ -4297,7 +4424,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Magus of the Dead",
@@ -4353,7 +4481,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Infected Claws",
@@ -4446,7 +4575,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cycle of Death",
@@ -4503,7 +4633,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Coil of Devastation",
@@ -4558,7 +4689,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Army of the Dead",
@@ -4608,8 +4740,8 @@
         "spell_id": 42650,
         "icon": "spell_deathknight_armyofthedead"
       },
-      "pve_tooltip": "1 Rune / -10 Runic Power\nInstant\n1.5 min cooldown\nSummon or empower Lesser Ghouls to form an unholy army of 8 for 30 sec. While active, summoning a Lesser Ghoul will instead execute Orders based on nearby enemies.\nDeath Orders\nLesser Ghouls strike with you, dealing [0.30 * (100% of Attack Power) * (1 + $mas / 100)] Shadow damage to your target.\nEpidemic Orders\nLesser Ghouls erupt in viscera, dealing [15 / 100 * (0.21 * ((200% of Attack Power)) * (1 + Versatility) *\n1\n)] Shadow damage to nearby enemies. Deals reduced damage beyond 5 targets.",
-      "pvp_tooltip": "1 Rune / -10 Runic Power\nInstant\n1.5 min cooldown\nSummon or empower Lesser Ghouls to form an unholy army of 8 for 30 sec. While active, summoning a Lesser Ghoul will instead execute Orders based on nearby enemies.\nDeath Orders\nLesser Ghouls strike with you, dealing [0.30 * (115% of Attack Power) * (1 + $mas / 100)] Shadow damage to your target.\nEpidemic Orders\nLesser Ghouls erupt in viscera, dealing [15 / 100 * (0.21 * ((200% of Attack Power)) * (1 + Versatility) *\n1\n)] Shadow damage to nearby enemies. Deals reduced damage beyond 5 targets.",
+      "pve_tooltip": "1 Rune / -10 Runic Power\nInstant\n1.5 min cooldown\nSummon or empower Lesser Ghouls to form an unholy army of 8 for 30 sec. While active, summoning a Lesser Ghoul will instead execute Orders based on nearby enemies.\nDeath Orders\nLesser Ghouls strike with you, dealing [0.30 * (100% of Attack Power) * (1 + $mas / 100)] Shadow damage to your target.\nEpidemic Orders\nLesser Ghouls erupt in viscera, dealing [15 / 100 * (0.21 * ((200% of Attack Power)) * (1 + Versatility) * 1)] Shadow damage to nearby enemies. Deals reduced damage beyond 5 targets.",
+      "pvp_tooltip": "1 Rune / -10 Runic Power\nInstant\n1.5 min cooldown\nSummon or empower Lesser Ghouls to form an unholy army of 8 for 30 sec. While active, summoning a Lesser Ghoul will instead execute Orders based on nearby enemies.\nDeath Orders\nLesser Ghouls strike with you, dealing [0.30 * (115% of Attack Power) * (1 + $mas / 100)] Shadow damage to your target.\nEpidemic Orders\nLesser Ghouls erupt in viscera, dealing [15 / 100 * (0.21 * ((200% of Attack Power)) * (1 + Versatility) * 1)] Shadow damage to nearby enemies. Deals reduced damage beyond 5 targets.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4668,7 +4800,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Reaping",
@@ -4770,7 +4903,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Menacing Magus",
@@ -4826,7 +4960,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ghoulish Frenzy",
@@ -4881,7 +5016,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Morbidity",
@@ -4936,7 +5072,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Harbinger of Doom",
@@ -4993,7 +5130,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Raise Abomination",
@@ -5047,7 +5185,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Summon Gargoyle",
@@ -5101,7 +5240,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unholy Devotion",
@@ -5158,7 +5298,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "All Will Serve",
@@ -5213,7 +5354,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blightburst",
@@ -5270,7 +5412,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Putrid Echoes",
@@ -5327,7 +5470,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Doomed Bidding",
@@ -5384,7 +5528,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Scourging",
@@ -5430,15 +5575,33 @@
         "spell_id": 1242604,
         "icon": "spell_deathknight_deathstrike"
       },
-      "pve_tooltip": "Scourge Strike now causes your Plagues to erupt at 50% effectiveness.\nClawing Shadows can now stack 1 additional times.",
-      "pvp_tooltip": "Scourge Strike now causes your Plagues to erupt at 50% effectiveness.\nClawing Shadows can now stack 1 additional times.",
+      "pve_tooltip": "Scourge Strike now causes your Plagues to erupt at 70% effectiveness.\nClawing Shadows can now stack 2 additional times.",
+      "pvp_tooltip": "Scourge Strike now causes your Plagues to erupt at 70% effectiveness.\nClawing Shadows can now stack 2 additional times.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Scourge Strike now causes your Plagues to erupt at 50% effectiveness.\nClawing Shadows can now stack 1 additional times.",
+          "pvp_tooltip": "Scourge Strike now causes your Plagues to erupt at 50% effectiveness.\nClawing Shadows can now stack 1 additional times.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Scourge Strike now causes your Plagues to erupt at 70% effectiveness.\nClawing Shadows can now stack 2 additional times.",
+          "pvp_tooltip": "Scourge Strike now causes your Plagues to erupt at 70% effectiveness.\nClawing Shadows can now stack 2 additional times.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Ancient Power",
@@ -5485,15 +5648,33 @@
         "spell_id": 377590,
         "icon": "inv_relics_runestone"
       },
-      "pve_tooltip": "Spending Runic Power increases your Strength by 0.50% for 20 sec.\nMultiple applications may overlap.\n(100ms cooldown)",
-      "pvp_tooltip": "Spending Runic Power increases your Strength by 0.50% for 20 sec.\nMultiple applications may overlap.\n(100ms cooldown)",
+      "pve_tooltip": "Spending Runic Power increases your Strength by 0.3% for 20 sec.\nMultiple applications may overlap.\n(100ms cooldown)",
+      "pvp_tooltip": "Spending Runic Power increases your Strength by 0.3% for 20 sec.\nMultiple applications may overlap.\n(100ms cooldown)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Spending Runic Power increases your Strength by 0.15% for 20 sec.\nMultiple applications may overlap.\n(100ms cooldown)",
+          "pvp_tooltip": "Spending Runic Power increases your Strength by 0.15% for 20 sec.\nMultiple applications may overlap.\n(100ms cooldown)",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Spending Runic Power increases your Strength by 0.3% for 20 sec.\nMultiple applications may overlap.\n(100ms cooldown)",
+          "pvp_tooltip": "Spending Runic Power increases your Strength by 0.3% for 20 sec.\nMultiple applications may overlap.\n(100ms cooldown)",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Unholy Aura",
@@ -5540,15 +5721,33 @@
         "spell_id": 377440,
         "icon": "ability_deathknight_decomposingaura"
       },
-      "pve_tooltip": "Magus of the Dead grants you 1.0% Haste for 15 sec.\nMultiple applications may overlap.",
-      "pvp_tooltip": "Magus of the Dead grants you 1.0% Haste for 15 sec.\nMultiple applications may overlap.",
+      "pve_tooltip": "Magus of the Dead grants you 2% Haste for 15 sec.\nMultiple applications may overlap.",
+      "pvp_tooltip": "Magus of the Dead grants you 2% Haste for 15 sec.\nMultiple applications may overlap.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Magus of the Dead grants you 1.0% Haste for 15 sec.\nMultiple applications may overlap.",
+          "pvp_tooltip": "Magus of the Dead grants you 1.0% Haste for 15 sec.\nMultiple applications may overlap.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Magus of the Dead grants you 2% Haste for 15 sec.\nMultiple applications may overlap.",
+          "pvp_tooltip": "Magus of the Dead grants you 2% Haste for 15 sec.\nMultiple applications may overlap.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Commander of the Dead",
@@ -5594,15 +5793,33 @@
         "spell_id": 390259,
         "icon": "spell_shadow_fumble"
       },
-      "pve_tooltip": "Dark Transformation empowers your [\nDark Arbiter\n/ Gargoyle], Abomination, Magus and Lesser Ghouls for 30 sec, increasing their damage by 25%.",
-      "pvp_tooltip": "Dark Transformation empowers your [\nDark Arbiter\n/ Gargoyle], Abomination, Magus and Lesser Ghouls for 30 sec, increasing their damage by 25%.",
+      "pve_tooltip": "Dark Transformation empowers your [Dark Arbiter / Gargoyle], Abomination, Magus and Lesser Ghouls for 30 sec, increasing their damage by 20%.",
+      "pvp_tooltip": "Dark Transformation empowers your [Dark Arbiter / Gargoyle], Abomination, Magus and Lesser Ghouls for 30 sec, increasing their damage by 20%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Dark Transformation empowers your [Dark Arbiter / Gargoyle], Abomination, Magus and Lesser Ghouls for 30 sec, increasing their damage by 10%.",
+          "pvp_tooltip": "Dark Transformation empowers your [Dark Arbiter / Gargoyle], Abomination, Magus and Lesser Ghouls for 30 sec, increasing their damage by 10%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Dark Transformation empowers your [Dark Arbiter / Gargoyle], Abomination, Magus and Lesser Ghouls for 30 sec, increasing their damage by 20%.",
+          "pvp_tooltip": "Dark Transformation empowers your [Dark Arbiter / Gargoyle], Abomination, Magus and Lesser Ghouls for 30 sec, increasing their damage by 20%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Blightfall",
@@ -5646,14 +5863,14 @@
         "spell_id": 1271974,
         "icon": "inv_nullstone_shadow"
       },
-      "pve_tooltip": "Consume 100% of your plagues around you and deal 100% of their remaining damage instantly.\nGrants 1 charge of Putrefy.",
-      "pvp_tooltip": "Consume 100% of your plagues around you and deal 50% of their remaining damage instantly.\nGrants 1 charge of Putrefy.",
+      "pve_tooltip": "Dark Transformation grants access to Blightfall.\nBlightfall\nConsume 100% of your plagues around you and deal 100% of their remaining damage instantly.\nGrants 1 charge of Putrefy.",
+      "pvp_tooltip": "Dark Transformation grants access to Blightfall.\nBlightfall\nConsume 100% of your plagues around you and deal 50% of their remaining damage instantly.\nGrants 1 charge of Putrefy.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 49,
-          "end": 52,
+          "start": 109,
+          "end": 112,
           "old_token": "100",
           "new_token": "50",
           "kind": "ordinary_value",
@@ -5701,7 +5918,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lord of the Dead",
@@ -5754,7 +5972,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Outnumber",
@@ -5806,7 +6025,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Forbidden Knowledge",
@@ -6035,7 +6255,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Forbidden Knowledge",
@@ -6085,7 +6306,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Forbidden Knowledge",
@@ -6135,7 +6357,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Vampiric Strike",
@@ -6182,8 +6405,8 @@
         "spell_id": 433901,
         "icon": "inv_ability_sanlayndeathknight_vampiricstrike"
       },
-      "pve_tooltip": "Your Death Coil, Epidemic and Death Strike have a 25% chance to make your next\nbecome Vampiric Strike.\nVampiric Strike heals you for 2% of your maximum health and grants you Essence of the Blood Queen, increasing your Haste by 1.0%, up to 5.0% for 20 sec.",
-      "pvp_tooltip": "Your Death Coil, Epidemic and Death Strike have a 25% chance to make your next\nbecome Vampiric Strike.\nVampiric Strike heals you for 2% of your maximum health and grants you Essence of the Blood Queen, increasing your Haste by 1.0%, up to 5.0% for 20 sec.",
+      "pve_tooltip": "Your Death Coil, Epidemic and Death Strike have a 25% chance to make your next become Vampiric Strike.\nVampiric Strike heals you for 2% of your maximum health and grants you Essence of the Blood Queen, increasing your Haste by 1.0%, up to 5.0% for 20 sec.",
+      "pvp_tooltip": "Your Death Coil, Epidemic and Death Strike have a 25% chance to make your next become Vampiric Strike.\nVampiric Strike heals you for 2% of your maximum health and grants you Essence of the Blood Queen, increasing your Haste by 1.0%, up to 5.0% for 20 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6275,7 +6498,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Newly Turned",
@@ -6329,7 +6553,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Vampiric Speed",
@@ -6383,7 +6608,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blood-Soaked Ground",
@@ -6437,7 +6663,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Desecrate",
@@ -6491,7 +6718,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Vampiric Aura",
@@ -6545,7 +6773,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bloody Fortitude",
@@ -6599,7 +6828,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thrill of Blood",
@@ -6653,7 +6883,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Infliction of Sorrow",
@@ -6707,7 +6938,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frenzied Bloodthirst",
@@ -6761,7 +6993,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "The Blood is Life",
@@ -6815,7 +7048,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Visceral Strength",
@@ -6869,7 +7103,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Inevitable",
@@ -6923,7 +7158,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Incite Terror",
@@ -6969,15 +7205,16 @@
         "spell_id": 434151,
         "icon": "ability_warlock_improveddemonictactics"
       },
-      "pve_tooltip": "Vampiric Strike and\ncause your targets to take\n1\n% increased Shadow damage, up to (\n1\n* 5)% for 15 sec.\nVampiric Strike benefits from Incite Terror at 400% effectiveness.",
-      "pvp_tooltip": "Vampiric Strike and\ncause your targets to take\n1\n% increased Shadow damage, up to (\n1\n* 5)% for 15 sec.\nVampiric Strike benefits from Incite Terror at 400% effectiveness.",
+      "pve_tooltip": "Vampiric Strike and cause your targets to take 1% increased Shadow damage, up to (1 * 5)% for 15 sec.\nVampiric Strike benefits from Incite Terror at 400% effectiveness.",
+      "pvp_tooltip": "Vampiric Strike and cause your targets to take 1% increased Shadow damage, up to (1 * 5)% for 15 sec.\nVampiric Strike benefits from Incite Terror at 400% effectiveness.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pact of the San'layn",
@@ -7031,7 +7268,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sanguine Scent",
@@ -7085,7 +7323,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Transfusion",
@@ -7305,7 +7544,8 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gift of the San'layn",
@@ -7352,15 +7592,16 @@
         "spell_id": 434152,
         "icon": "spell_deathknight_bloodtap"
       },
-      "pve_tooltip": "While Dark Transformation is active you gain Gift of the San'layn.\nGift of the San'layn increases the effectiveness of your Essence of the Blood Queen by 80%, and Vampiric Strike replaces your\nfor the duration.",
-      "pvp_tooltip": "While Dark Transformation is active you gain Gift of the San'layn.\nGift of the San'layn increases the effectiveness of your Essence of the Blood Queen by 80%, and Vampiric Strike replaces your\nfor the duration.",
+      "pve_tooltip": "While Dark Transformation is active you gain Gift of the San'layn.\nGift of the San'layn increases the effectiveness of your Essence of the Blood Queen by 80%, and Vampiric Strike replaces your for the duration.",
+      "pvp_tooltip": "While Dark Transformation is active you gain Gift of the San'layn.\nGift of the San'layn increases the effectiveness of your Essence of the Blood Queen by 80%, and Vampiric Strike replaces your for the duration.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rider's Champion",
@@ -7571,7 +7812,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "On a Paler Horse",
@@ -7625,7 +7867,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Death Charge",
@@ -7731,7 +7974,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mograine's Might",
@@ -7785,7 +8029,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Horsemen's Aid",
@@ -7869,7 +8114,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pact of the Apocalypse",
@@ -7923,7 +8169,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ride or Die!",
@@ -8049,7 +8296,8 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Whitemane's Famine",
@@ -8095,15 +8343,16 @@
         "spell_id": 444033,
         "icon": "spell_deathknight_necroticplague"
       },
-      "pve_tooltip": "When\ndamages an enemy affected by Undeath it gains 1 stack and infects another nearby enemy.",
-      "pvp_tooltip": "When\ndamages an enemy affected by Undeath it gains 1 stack and infects another nearby enemy.",
+      "pve_tooltip": "When damages an enemy affected by Undeath it gains 1 stack and infects another nearby enemy.",
+      "pvp_tooltip": "When damages an enemy affected by Undeath it gains 1 stack and infects another nearby enemy.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Nazgrim's Conquest",
@@ -8157,7 +8406,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Trollbane's Icy Fury",
@@ -8329,7 +8579,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Let Terror Reign",
@@ -8463,7 +8714,8 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hungering Thirst",
@@ -8517,7 +8769,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fury of the Horsemen",
@@ -8571,7 +8824,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "A Feast of Souls",
@@ -8625,7 +8879,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mawsworn Menace",
@@ -8671,15 +8926,16 @@
         "spell_id": 444099,
         "icon": "inv_mawguardpet_black"
       },
-      "pve_tooltip": "% increased damage and\nthe cooldown of your Death and Decay is reduced by 5 sec.",
-      "pvp_tooltip": "% increased damage and\nthe cooldown of your Death and Decay is reduced by 5 sec.",
+      "pve_tooltip": "% increased damage and the cooldown of your Death and Decay is reduced by 5 sec.",
+      "pvp_tooltip": "% increased damage and the cooldown of your Death and Decay is reduced by 5 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unholy Armaments",
@@ -8733,7 +8989,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Apocalypse Now",
@@ -8788,13 +9045,14 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     }
   ],
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "death-knight-unholy",
-  "generated_at": "2026-09-20T12:49:11.894358+00:00",
+  "generated_at": "2026-09-20T19:59:00.034487+00:00",
   "validation": {
     "talents": 122,
     "changed_tooltips": 18,

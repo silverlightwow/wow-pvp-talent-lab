@@ -50,8 +50,8 @@
         "spell_id": 115175,
         "icon": "ability_monk_soothingmists"
       },
-      "pve_tooltip": "0% of base mana, plus 0.4% per second / 15 Energy per sec\n40 yd range\nChanneled (8 sec cast)\nHeals the target for (1680% of Spell Power) over 8 sec. While channeling, Enveloping Mist [\nSurging Mist\n:\nSurging Mist\n] [\nZen Pulse\n:\nZen Pulse\n] and Vivify may be cast instantly on the target.\nFollows the target of your Enveloping Mist and Vivify.",
-      "pvp_tooltip": "0% of base mana, plus 0.4% per second / 15 Energy per sec\n40 yd range\nChanneled (8 sec cast)\nHeals the target for (1260% of Spell Power) over 8 sec. While channeling, Enveloping Mist [\nSurging Mist\n:\nSurging Mist\n] [\nZen Pulse\n:\nZen Pulse\n] and Vivify may be cast instantly on the target.\nFollows the target of your Enveloping Mist and Vivify.",
+      "pve_tooltip": "0% of base mana, plus 0.4% per second / 15 Energy per sec\n40 yd range\nChanneled (8 sec cast)\nHeals the target for (1680% of Spell Power) over 8 sec. While channeling, Enveloping Mist [Surging Mist: Surging Mist] [Zen Pulse: Zen Pulse] and Vivify may be cast instantly on the target.\nFollows the target of your Enveloping Mist and Vivify.",
+      "pvp_tooltip": "0% of base mana, plus 0.4% per second / 15 Energy per sec\n40 yd range\nChanneled (8 sec cast)\nHeals the target for (1260% of Spell Power) over 8 sec. While channeling, Enveloping Mist [Surging Mist: Surging Mist] [Zen Pulse: Zen Pulse] and Vivify may be cast instantly on the target.\nFollows the target of your Enveloping Mist and Vivify.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -113,7 +113,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Paralysis",
@@ -166,7 +167,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rising Sun Kick",
@@ -211,8 +213,8 @@
         "spell_id": 107428,
         "icon": "ability_monk_risingsunkick"
       },
-      "pve_tooltip": "2 Chi / 2.5% of base mana\nMelee Range\nInstant\n10 sec cooldown\n1 Charge\nKick upwards, dealing (143.8% of Attack Power) Physical damage.\nApplies Renewing Mist for 6 seconds to an ally within 40 yds",
-      "pvp_tooltip": "2 Chi / 2.5% of base mana\nMelee Range\nInstant\n10 sec cooldown\n1 Charge\nKick upwards, dealing (143.8% of Attack Power) Physical damage.\nApplies Renewing Mist for 6 seconds to an ally within 40 yds",
+      "pve_tooltip": "2 Chi / 2.5% of base mana\nMelee Range\nInstant\n12 sec cooldown\n1 Charge\nKick upwards, dealing (143.8% of Attack Power) Physical damage.\nApplies Renewing Mist for 6 seconds to an ally within 40 yds",
+      "pvp_tooltip": "2 Chi / 2.5% of base mana\nMelee Range\nInstant\n12 sec cooldown\n1 Charge\nKick upwards, dealing (143.8% of Attack Power) Physical damage.\nApplies Renewing Mist for 6 seconds to an ally within 40 yds",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -225,7 +227,7 @@
           "talent_spell_id": 107428,
           "source_spell_id": 115804,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Modify Healing Received% (118)",
+          "effect_text": "Apply Aura: Mod Healing Taken - % (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow)",
           "base_value": -50.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -242,10 +244,11 @@
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -253,7 +256,7 @@
           "talent_spell_id": 107428,
           "source_spell_id": 185099,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 1.438)",
+          "effect_text": "School Damage (Physical) (AP mod: 1.438 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -280,14 +283,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Elusive Mists",
@@ -342,7 +345,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tiger's Lust",
@@ -399,7 +403,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Crashing Momentum",
@@ -483,7 +488,7 @@
           "talent_spell_id": 450335,
           "source_spell_id": 450342,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -40.0,
           "spell_pvp_multiplier": 0.75,
           "amount_kind": null,
@@ -500,14 +505,16 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Disable",
@@ -556,15 +563,16 @@
         "spell_id": 116095,
         "icon": "ability_shockwave"
       },
-      "pve_tooltip": ":\nTargets already snared will be rooted for 8 sec instead\n]",
-      "pvp_tooltip": ":\nTargets already snared will be rooted for 8 sec instead\n]",
+      "pve_tooltip": "15 Energy / 0.7% of base mana\nMelee Range\nInstant\nReduces the target's movement speed by 50% for 15 sec, duration refreshed by your melee attacks. [Disable: Targets already snared will be rooted for 8 sec instead]",
+      "pvp_tooltip": "15 Energy / 0.7% of base mana\nMelee Range\nInstant\nReduces the target's movement speed by 50% for 15 sec, duration refreshed by your melee attacks. [Disable: Targets already snared will be rooted for 8 sec instead]",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fast Feet",
@@ -619,7 +627,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Grace of the Crane",
@@ -676,7 +685,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bounding Agility",
@@ -730,7 +740,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Calming Presence",
@@ -787,7 +798,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wind's Reach",
@@ -841,7 +853,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Detox",
@@ -898,7 +911,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Vivacious Vivification",
@@ -946,15 +960,16 @@
         "spell_id": 388812,
         "icon": "ability_monk_vivify"
       },
-      "pve_tooltip": "After casting Rising Sun Kick, your next\nVivify\nbecomes instant cast.",
-      "pvp_tooltip": "After casting Rising Sun Kick, your next\nVivify\nbecomes instant cast.",
+      "pve_tooltip": "After casting Rising Sun Kick, your next Vivify becomes instant cast.",
+      "pvp_tooltip": "After casting Rising Sun Kick, your next Vivify becomes instant cast.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Serene Surge",
@@ -1002,15 +1017,16 @@
         "spell_id": 1266734,
         "icon": "ability_monk_surgingmist"
       },
-      "pve_tooltip": "After casting Enveloping Mist, your next\nVivify\nbecomes instant cast.",
-      "pvp_tooltip": "After casting Enveloping Mist, your next\nVivify\nbecomes instant cast.",
+      "pve_tooltip": "After casting Enveloping Mist, your next Vivify becomes instant cast.",
+      "pvp_tooltip": "After casting Enveloping Mist, your next Vivify becomes instant cast.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Silent Sanctuary",
@@ -1125,7 +1141,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Jade Walk",
@@ -1182,7 +1199,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pressure Points",
@@ -1236,7 +1254,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Chi Warding",
@@ -1285,15 +1304,16 @@
         "spell_id": 1277444,
         "icon": "inv_belt__inv_leather_raidmonkmythic_s_01"
       },
-      "pve_tooltip": "Talent\nRequires Monk\nYou heal for 3% of all magical damage taken.",
-      "pvp_tooltip": "Talent\nRequires Monk\nYou heal for 3% of all magical damage taken.",
+      "pve_tooltip": "You heal for 3% of all magical damage taken.",
+      "pvp_tooltip": "You heal for 3% of all magical damage taken.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Reinvigoration",
@@ -1347,7 +1367,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ancient Arts",
@@ -1403,7 +1424,25 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Reduces the cooldown of Paralysis by 15 sec and the cooldown of Leg Sweep by 5 sec.",
+          "pvp_tooltip": "Reduces the cooldown of Paralysis by 15 sec and the cooldown of Leg Sweep by 5 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Reduces the cooldown of Paralysis by 15 sec and the cooldown of Leg Sweep by 10 sec.",
+          "pvp_tooltip": "Reduces the cooldown of Paralysis by 15 sec and the cooldown of Leg Sweep by 10 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Chi Wave",
@@ -1452,8 +1491,8 @@
         "spell_id": 450391,
         "icon": "ability_monk_chiwave"
       },
-      "pve_tooltip": "Every 15 sec, your next Rising Sun Kick or\nVivify\nreleases a wave of Chi energy that flows through friends and foes, dealing (20% of Attack Power) Nature damage or (60% of Attack Power) healing. Bounces up to 7 times to targets within 25 yards.",
-      "pvp_tooltip": "Every 15 sec, your next Rising Sun Kick or\nVivify\nreleases a wave of Chi energy that flows through friends and foes, dealing (24.4% of Attack Power) Nature damage or (45% of Attack Power) healing. Bounces up to 7 times to targets within 25 yards.",
+      "pve_tooltip": "Every 15 sec, your next Rising Sun Kick or Vivify releases a wave of Chi energy that flows through friends and foes, dealing (20% of Attack Power) Nature damage or (60% of Attack Power) healing. Bounces up to 7 times to targets within 25 yards.",
+      "pvp_tooltip": "Every 15 sec, your next Rising Sun Kick or Vivify releases a wave of Chi energy that flows through friends and foes, dealing (24.4% of Attack Power) Nature damage or (45% of Attack Power) healing. Bounces up to 7 times to targets within 25 yards.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -1506,7 +1545,7 @@
           "talent_spell_id": 450391,
           "source_spell_id": 132463,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (AP mod: 0.6)",
+          "effect_text": "Heal (AP mod: 0.6 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -1533,11 +1572,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -1545,7 +1583,7 @@
           "talent_spell_id": 450391,
           "source_spell_id": 132467,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature (AP mod: 0.2)",
+          "effect_text": "School Damage (Nature) (AP mod: 0.2 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -1572,14 +1610,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Transcendence",
@@ -1637,7 +1675,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Celerity",
@@ -1694,7 +1733,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Chi Torpedo",
@@ -1743,15 +1783,16 @@
         "spell_id": 115008,
         "icon": "ability_monk_quitornado"
       },
-      "pve_tooltip": "Replaces\nRoll\nInstant\n20 sec recharge\n2 Charges\nTorpedoes you forward a long distance and increases your movement speed by 30% for\n10 sec\n, stacking up to 2 times.",
-      "pvp_tooltip": "Replaces\nRoll\nInstant\n20 sec recharge\n2 Charges\nTorpedoes you forward a long distance and increases your movement speed by 30% for\n10 sec\n, stacking up to 2 times.",
+      "pve_tooltip": "Replaces Roll\nInstant\n20 sec recharge\n2 Charges\nTorpedoes you forward a long distance and increases your movement speed by 30% for 10 sec, stacking up to 2 times.",
+      "pvp_tooltip": "Replaces Roll\nInstant\n20 sec recharge\n2 Charges\nTorpedoes you forward a long distance and increases your movement speed by 30% for 10 sec, stacking up to 2 times.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Stillstep Coil",
@@ -1805,7 +1846,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Quick Footed",
@@ -1861,7 +1903,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hasty Provocation",
@@ -1917,7 +1960,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ferocity of Xuen",
@@ -1964,15 +2008,33 @@
         "spell_id": 388674,
         "icon": "ability_mount_pinktiger"
       },
-      "pve_tooltip": "Increases all damage dealt by 2%.",
-      "pvp_tooltip": "Increases all damage dealt by 2%.",
+      "pve_tooltip": "Increases all damage dealt by 4%.",
+      "pvp_tooltip": "Increases all damage dealt by 4%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Increases all damage dealt by 2%.",
+          "pvp_tooltip": "Increases all damage dealt by 2%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Increases all damage dealt by 4%.",
+          "pvp_tooltip": "Increases all damage dealt by 4%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Ring of Peace",
@@ -2028,7 +2090,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Song of Chi-Ji",
@@ -2084,7 +2147,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spirit's Essence",
@@ -2166,7 +2230,7 @@
           "talent_spell_id": 450595,
           "source_spell_id": 450596,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -70.0,
           "spell_pvp_multiplier": 0.714286,
           "amount_kind": null,
@@ -2183,14 +2247,16 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tiger Tail Sweep",
@@ -2244,7 +2310,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Touch of Death",
@@ -2300,7 +2367,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mist Caller",
@@ -2357,7 +2425,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Yu'lon's Grace",
@@ -2461,7 +2530,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Peace and Prosperity",
@@ -2515,7 +2585,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fortifying Brew",
@@ -2578,7 +2649,7 @@
           "talent_spell_id": 388917,
           "source_spell_id": 115203,
           "effect_index": 2,
-          "effect_text": "Dummy (3)",
+          "effect_text": "Dummy",
           "base_value": -20.0,
           "spell_pvp_multiplier": 1.5,
           "amount_kind": null,
@@ -2595,14 +2666,16 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dance of the Wind",
@@ -2705,7 +2778,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Save Them All",
@@ -2760,7 +2834,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Swift Art",
@@ -2815,7 +2890,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Vital Clarity",
@@ -2871,7 +2947,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Jade Infusion",
@@ -2933,7 +3010,7 @@
           "talent_spell_id": 1242910,
           "source_spell_id": 198533,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 1 seconds (SP mod: 0.7)",
+          "effect_text": "Apply Aura: Periodic Heal",
           "base_value": null,
           "spell_pvp_multiplier": 1.6,
           "amount_kind": "periodic",
@@ -2960,14 +3037,16 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Summon Jade Serpent Statue",
@@ -3029,7 +3108,7 @@
           "talent_spell_id": 115313,
           "source_spell_id": 198533,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 1 seconds (SP mod: 0.7)",
+          "effect_text": "Apply Aura: Periodic Heal",
           "base_value": null,
           "spell_pvp_multiplier": 1.6,
           "amount_kind": "periodic",
@@ -3056,14 +3135,16 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ironshell Brew",
@@ -3119,7 +3200,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Expeditious Fortification",
@@ -3175,7 +3257,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Diffuse Magic",
@@ -3227,7 +3310,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Celestial Determination",
@@ -3282,7 +3366,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Chi Proficiency",
@@ -3331,15 +3416,33 @@
         "spell_id": 450426,
         "icon": "ability_monk_chiswirl"
       },
-      "pve_tooltip": "Magical damage done increased by 5% and healing done increased by 5%.",
-      "pvp_tooltip": "Magical damage done increased by 5% and healing done increased by 5%.",
+      "pve_tooltip": "Magical damage done increased by 4% and healing done increased by 4%.",
+      "pvp_tooltip": "Magical damage done increased by 4% and healing done increased by 4%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Magical damage done increased by 2% and healing done increased by 2%.",
+          "pvp_tooltip": "Magical damage done increased by 2% and healing done increased by 2%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Magical damage done increased by 4% and healing done increased by 4%.",
+          "pvp_tooltip": "Magical damage done increased by 4% and healing done increased by 4%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Healing Winds",
@@ -3394,7 +3497,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Windwalking",
@@ -3450,7 +3554,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Chi Transfer",
@@ -3505,7 +3610,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Martial Instincts",
@@ -3553,15 +3659,33 @@
         "spell_id": 450427,
         "icon": "ability_monk_palmstrike"
       },
-      "pve_tooltip": "Increases your Physical damage done by 5% and Avoidance increased by 2%.",
-      "pvp_tooltip": "Increases your Physical damage done by 5% and Avoidance increased by 2%.",
+      "pve_tooltip": "Increases your Physical damage done by 4% and Avoidance increased by 4%.",
+      "pvp_tooltip": "Increases your Physical damage done by 4% and Avoidance increased by 4%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Increases your Physical damage done by 2% and Avoidance increased by 2%.",
+          "pvp_tooltip": "Increases your Physical damage done by 2% and Avoidance increased by 2%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Increases your Physical damage done by 4% and Avoidance increased by 4%.",
+          "pvp_tooltip": "Increases your Physical damage done by 4% and Avoidance increased by 4%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Lighter Than Air",
@@ -3650,7 +3774,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flow of Chi",
@@ -3703,7 +3828,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Escape from Reality",
@@ -3757,7 +3883,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Transcendence: Linked Spirits",
@@ -3811,7 +3938,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fatal Touch",
@@ -3864,7 +3992,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rushing Reflexes",
@@ -3916,7 +4045,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Enveloping Mist",
@@ -3961,8 +4091,8 @@
         "spell_id": 124682,
         "icon": "spell_monk_envelopingmist"
       },
-      "pve_tooltip": "3.6% of base mana\n40 yd range\n2 sec cast\nWraps the target in healing mists, healing for (748.8% of Spell Power) over 6 sec /\nMist Wrap\n:\n7 sec\n/\nInvoke Yu'lon, the Jade Serpent\n:\n10 sec\n/\nInvoke Chi-Ji, the Red Crane\n:\n10 sec\n, and increasing healing received from your other spells by\n10\n%.\nApplies Renewing Mist for 6 seconds to an ally within 40 yds.",
-      "pvp_tooltip": "3.6% of base mana\n40 yd range\n2 sec cast\nWraps the target in healing mists, healing for (561.6% of Spell Power) over 6 sec /\nMist Wrap\n:\n7 sec\n/\nInvoke Yu'lon, the Jade Serpent\n:\n10 sec\n/\nInvoke Chi-Ji, the Red Crane\n:\n10 sec\n, and increasing healing received from your other spells by\n10\n%.\nApplies Renewing Mist for 6 seconds to an ally within 40 yds.",
+      "pve_tooltip": "3.6% of base mana\n40 yd range\n2 sec cast\nWraps the target in healing mists, healing for (748.8% of Spell Power) over 6 sec / Mist Wrap: 7 sec / Invoke Yu'lon, the Jade Serpent: 10 sec / Invoke Chi-Ji, the Red Crane: 10 sec, and increasing healing received from your other spells by 10%.\nApplies Renewing Mist for 6 seconds to an ally within 40 yds.",
+      "pvp_tooltip": "3.6% of base mana\n40 yd range\n2 sec cast\nWraps the target in healing mists, healing for (561.6% of Spell Power) over 6 sec / Mist Wrap: 7 sec / Invoke Yu'lon, the Jade Serpent: 10 sec / Invoke Chi-Ji, the Red Crane: 10 sec, and increasing healing received from your other spells by 10%.\nApplies Renewing Mist for 6 seconds to an ally within 40 yds.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4059,7 +4189,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thunder Focus Tea",
@@ -4106,14 +4237,14 @@
         "spell_id": 116680,
         "icon": "ability_monk_thunderfocustea"
       },
-      "pve_tooltip": "Instant\n30 sec cooldown\n1 Charge\nReceive a jolt of energy, empowering your next\nspell\ncast:\nEnveloping Mist\n: Immediately heals for (748.8% of Spell Power) and is instant cast.\nRenewing Mist\n: Duration increased by 10 sec.\nRising Sun Kick\n: Cooldown reduced by 9 sec.\n[\nThunderous Focus Tea\n:\nCrackling Jade Lightning\n: Knockback applied immediately.\nRoll\n: Refund a charge and heal yourself for (240% of Attack Power)\n]",
-      "pvp_tooltip": "Instant\n30 sec cooldown\n1 Charge\nReceive a jolt of energy, empowering your next\nspell\ncast:\nEnveloping Mist\n: Immediately heals for (561.6% of Spell Power) and is instant cast.\nRenewing Mist\n: Duration increased by 10 sec.\nRising Sun Kick\n: Cooldown reduced by 9 sec.\n[\nThunderous Focus Tea\n:\nCrackling Jade Lightning\n: Knockback applied immediately.\nRoll\n: Refund a charge and heal yourself for (180% of Attack Power)\n]",
+      "pve_tooltip": "Instant\n30 sec cooldown\n1 Charge\nReceive a jolt of energy, empowering your next spell cast:\nEnveloping Mist: Immediately heals for (748.8% of Spell Power) and is instant cast.\nRenewing Mist: Duration increased by 10 sec.\nRising Sun Kick: Cooldown reduced by 9 sec.\n[Thunderous Focus Tea: Crackling Jade Lightning: Knockback applied immediately.\nRoll: Refund a charge and heal yourself for (240% of Attack Power)]",
+      "pvp_tooltip": "Instant\n30 sec cooldown\n1 Charge\nReceive a jolt of energy, empowering your next spell cast:\nEnveloping Mist: Immediately heals for (561.6% of Spell Power) and is instant cast.\nRenewing Mist: Duration increased by 10 sec.\nRising Sun Kick: Cooldown reduced by 9 sec.\n[Thunderous Focus Tea: Crackling Jade Lightning: Knockback applied immediately.\nRoll: Refund a charge and heal yourself for (180% of Attack Power)]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 133,
-          "end": 138,
+          "start": 132,
+          "end": 137,
           "old_token": "748.8",
           "new_token": "561.6",
           "kind": "spell_power_coefficient",
@@ -4122,8 +4253,8 @@
           ]
         },
         {
-          "start": 397,
-          "end": 400,
+          "start": 390,
+          "end": 393,
           "old_token": "240",
           "new_token": "180",
           "kind": "attack_power_coefficient",
@@ -4160,7 +4291,7 @@
           "talent_spell_id": 116680,
           "source_spell_id": 274062,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 7.488)",
+          "effect_text": "Heal (SP mod: 7.488)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4187,11 +4318,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -4199,7 +4329,7 @@
           "talent_spell_id": 116680,
           "source_spell_id": 274062,
           "effect_index": 3,
-          "effect_text": "Direct Heal (10) (SP mod: 7.488)",
+          "effect_text": "Heal (SP mod: 7.488)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4226,11 +4356,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -4238,7 +4367,7 @@
           "talent_spell_id": 116680,
           "source_spell_id": 407058,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (AP mod: 2.4)",
+          "effect_text": "Heal (AP mod: 2.4 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4265,14 +4394,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Misty Coalescence",
@@ -4327,7 +4456,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Life Cocoon",
@@ -4408,7 +4538,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mana Tea",
@@ -4455,8 +4586,8 @@
         "spell_id": 115869,
         "icon": "monk_ability_cherrymanatea"
       },
-      "pve_tooltip": ":\nConsumes 1 stack of Mana Tea per 0.5 sec to restore\n6480\nMana.\nCan be cast while moving, but movement speed is reduced by 40% while channeling.",
-      "pvp_tooltip": ":\nConsumes 1 stack of Mana Tea per 0.5 sec to restore\n6480\nMana.\nCan be cast while moving, but movement speed is reduced by 40% while channeling.",
+      "pve_tooltip": "1% of base mana\nFor every 0 Mana you spend, you gain 1 stack of Mana Tea, with a chance equal to your critical strike chance to generate 1 extra stack.\nMana Tea:\nConsumes 1 stack of Mana Tea per 0.5 sec to restore 6480 Mana.\nCan be cast while moving, but movement speed is reduced by 40% while channeling.",
+      "pvp_tooltip": "1% of base mana\nFor every 0 Mana you spend, you gain 1 stack of Mana Tea, with a chance equal to your critical strike chance to generate 1 extra stack.\nMana Tea:\nConsumes 1 stack of Mana Tea per 0.5 sec to restore 6480 Mana.\nCan be cast while moving, but movement speed is reduced by 40% while channeling.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4469,7 +4600,7 @@
           "talent_spell_id": 115869,
           "source_spell_id": 115294,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Energize Power (24): every 0.5 seconds | Scaling Class: Restore Health/Resource (-2)",
+          "effect_text": "Apply Aura: Periodically give power (Mana)",
           "base_value": 3.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -4486,14 +4617,16 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Invigorating Mists",
@@ -4575,7 +4708,7 @@
           "talent_spell_id": 274586,
           "source_spell_id": 425804,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 3.2318)",
+          "effect_text": "Heal (SP mod: 3.2318)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4602,14 +4735,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Crane Style",
@@ -4655,8 +4788,8 @@
         "spell_id": 446260,
         "icon": "ability_monk_mightyoxkick"
       },
-      "pve_tooltip": "Approximately\n10\nprocs per minute\nRising Sun Kick now kicks up a Gust of Mist to heal 2 allies within 40 yds for (0.1% of Spell Power).\nSpinning Crane Kick and Blackout Kick have a chance to kick up a Gust of Mist to heal 1 ally within 40 yds for (0.1% of Spell Power).",
-      "pvp_tooltip": "Approximately\n10\nprocs per minute\nRising Sun Kick now kicks up a Gust of Mist to heal 2 allies within 40 yds for (0.075% of Spell Power).\nSpinning Crane Kick and Blackout Kick have a chance to kick up a Gust of Mist to heal 1 ally within 40 yds for (0.075% of Spell Power).",
+      "pve_tooltip": "Approximately 10 procs per minute\nRising Sun Kick now kicks up a Gust of Mist to heal 2 allies within 40 yds for (0.1% of Spell Power).\nSpinning Crane Kick and Blackout Kick have a chance to kick up a Gust of Mist to heal 1 ally within 40 yds for (0.1% of Spell Power).",
+      "pvp_tooltip": "Approximately 10 procs per minute\nRising Sun Kick now kicks up a Gust of Mist to heal 2 allies within 40 yds for (0.075% of Spell Power).\nSpinning Crane Kick and Blackout Kick have a chance to kick up a Gust of Mist to heal 1 ally within 40 yds for (0.075% of Spell Power).",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4709,7 +4842,7 @@
           "talent_spell_id": 446260,
           "source_spell_id": 191894,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 0.001)",
+          "effect_text": "Heal (SP mod: 0.001)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4736,14 +4869,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Revival",
@@ -4854,7 +4987,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Restoral",
@@ -4965,7 +5099,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Healing Elixir",
@@ -5046,7 +5181,7 @@
           "talent_spell_id": 122280,
           "source_spell_id": 428439,
           "effect_index": 1,
-          "effect_text": "Direct Heal% (136) | Attributes: Suppress Points Stacking (6)",
+          "effect_text": "Heal for % of Total Health",
           "base_value": 15.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": "direct",
@@ -5063,14 +5198,16 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Calming Coalescence",
@@ -5126,7 +5263,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Refreshment",
@@ -5182,7 +5320,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Uplifted Spirits",
@@ -5228,15 +5367,16 @@
         "spell_id": 388551,
         "icon": "inv_helm_leather_raidmonkgoblin_d_01"
       },
-      "pve_tooltip": "The cooldown of [\nRestoral\n/ Revival] is reduced by 30 sec and [\nRestoral\n/ Revival] healing increased by 15%.",
-      "pvp_tooltip": "The cooldown of [\nRestoral\n/ Revival] is reduced by 30 sec and [\nRestoral\n/ Revival] healing increased by 15%.",
+      "pve_tooltip": "The cooldown of [Restoral / Revival] is reduced by 30 sec and [Restoral / Revival] healing increased by 15%.",
+      "pvp_tooltip": "The cooldown of [Restoral / Revival] is reduced by 30 sec and [Restoral / Revival] healing increased by 15%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Way of the Serpent",
@@ -5282,15 +5422,16 @@
         "spell_id": 1243155,
         "icon": "monk_stance_wiseserpent"
       },
-      "pve_tooltip": "[\nSheilun's Gift\n/ Vivify] healing increased by 15% and Renewing Mist's healing is increased by 30%.",
-      "pvp_tooltip": "[\nSheilun's Gift\n/ Vivify] healing increased by 15% and Renewing Mist's healing is increased by 30%.",
+      "pve_tooltip": "[Sheilun's Gift / Vivify] healing increased by 15% and Renewing Mist's healing is increased by 30%.",
+      "pvp_tooltip": "[Sheilun's Gift / Vivify] healing increased by 15% and Renewing Mist's healing is increased by 30%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Way of the Crane",
@@ -5391,7 +5532,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Energizing Brew",
@@ -5443,7 +5585,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lifecycles",
@@ -5487,15 +5630,16 @@
         "spell_id": 197915,
         "icon": "ability_monk_souldance"
       },
-      "pve_tooltip": "[\nSheilun's Gift\n/ Vivify] has a 20% chance to cause your next Rising Sun Kick or Enveloping Mist to generate 1 stack of Mana Tea.\nEnveloping Mist and Rising Sun Kick have a 20% chance to cause your next [\nSheilun's Gift\n/ Vivify] to generate 1 stack of Mana Tea.",
-      "pvp_tooltip": "[\nSheilun's Gift\n/ Vivify] has a 20% chance to cause your next Rising Sun Kick or Enveloping Mist to generate 1 stack of Mana Tea.\nEnveloping Mist and Rising Sun Kick have a 20% chance to cause your next [\nSheilun's Gift\n/ Vivify] to generate 1 stack of Mana Tea.",
+      "pve_tooltip": "[Sheilun's Gift / Vivify] has a 20% chance to cause your next Rising Sun Kick or Enveloping Mist to generate 1 stack of Mana Tea.\nEnveloping Mist and Rising Sun Kick have a 20% chance to cause your next [Sheilun's Gift / Vivify] to generate 1 stack of Mana Tea.",
+      "pvp_tooltip": "[Sheilun's Gift / Vivify] has a 20% chance to cause your next Rising Sun Kick or Enveloping Mist to generate 1 stack of Mana Tea.\nEnveloping Mist and Rising Sun Kick have a 20% chance to cause your next [Sheilun's Gift / Vivify] to generate 1 stack of Mana Tea.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Zen Pulse",
@@ -5542,14 +5686,14 @@
         "spell_id": 446326,
         "icon": "ability_monk_forcesphere"
       },
-      "pve_tooltip": "Renewing Mist's heal over time has a chance to cause your next [\nSheilun's Gift\n/ Vivify] to also trigger a Zen Pulse on its target and all allies with Renewing Mist, healing them for (160% of Spell Power) increased by 6% per Renewing Mist active, up to 30%.",
-      "pvp_tooltip": "Renewing Mist's heal over time has a chance to cause your next [\nSheilun's Gift\n/ Vivify] to also trigger a Zen Pulse on its target and all allies with Renewing Mist, healing them for (120% of Spell Power) increased by 6% per Renewing Mist active, up to 30%.",
+      "pve_tooltip": "Renewing Mist's heal over time has a chance to cause your next [Sheilun's Gift / Vivify] to also trigger a Zen Pulse on its target and all allies with Renewing Mist, healing them for (160% of Spell Power) increased by 6% per Renewing Mist active, up to 30%.",
+      "pvp_tooltip": "Renewing Mist's heal over time has a chance to cause your next [Sheilun's Gift / Vivify] to also trigger a Zen Pulse on its target and all allies with Renewing Mist, healing them for (120% of Spell Power) increased by 6% per Renewing Mist active, up to 30%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 185,
-          "end": 188,
+          "start": 184,
+          "end": 187,
           "old_token": "160",
           "new_token": "120",
           "kind": "spell_power_coefficient",
@@ -5577,7 +5721,7 @@
           "talent_spell_id": 446326,
           "source_spell_id": 198487,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 1.6)",
+          "effect_text": "Heal (SP mod: 1.6)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5604,14 +5748,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mists of Life",
@@ -5667,7 +5811,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Overflowing Mists",
@@ -5750,7 +5895,7 @@
           "talent_spell_id": 388511,
           "source_spell_id": 388514,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 3)",
+          "effect_text": "Heal (SP mod: 3)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5777,14 +5922,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Invoke Yu'lon, the Jade Serpent",
@@ -5832,8 +5977,8 @@
         "spell_id": 322118,
         "icon": "ability_monk_dragonkick"
       },
-      "pve_tooltip": "5% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummons an effigy of Yu'lon, the Jade Serpent for\n25 sec\n. Yu'lon will heal injured allies with Soothing Breath, healing the target and up to 2 allies for (210% of Spell Power) over\n4.5 sec\n.\nEnveloping Mist costs 50% less mana while Yu'lon is active.",
-      "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummons an effigy of Yu'lon, the Jade Serpent for\n25 sec\n. Yu'lon will heal injured allies with Soothing Breath, healing the target and up to 2 allies for (210% of Spell Power) over\n4.5 sec\n.\nEnveloping Mist costs 50% less mana while Yu'lon is active.",
+      "pve_tooltip": "5% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummons an effigy of Yu'lon, the Jade Serpent for 25 sec. Yu'lon will heal injured allies with Soothing Breath, healing the target and up to 2 allies for (210% of Spell Power) over 4.5 sec.\nEnveloping Mist costs 50% less mana while Yu'lon is active.",
+      "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummons an effigy of Yu'lon, the Jade Serpent for 25 sec. Yu'lon will heal injured allies with Soothing Breath, healing the target and up to 2 allies for (210% of Spell Power) over 4.5 sec.\nEnveloping Mist costs 50% less mana while Yu'lon is active.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5846,7 +5991,7 @@
           "talent_spell_id": 322118,
           "source_spell_id": 343737,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 1.5 seconds | Attributes: Add Target (Dest) Combat Reach to AOE (11) (SP mod: 0.7)",
+          "effect_text": "Apply Aura: Periodic Heal",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -5873,14 +6018,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Invoke Chi-Ji, the Red Crane",
@@ -5928,8 +6073,8 @@
         "spell_id": 325197,
         "icon": "inv_pet_cranegod"
       },
-      "pve_tooltip": "5% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummon an effigy of Chi-Ji for\n25 sec\nthat kicks up 3 Gust of Mists when you Blackout Kick, Rising Sun Kick, or Spinning Crane Kick, healing up to 2 allies for [(0.1% of Spell Power) * 50 / 100].\nChi-Ji's presence makes you immune to movement impairing effects, makes Enveloping Mist instant cast, and reduces the mana cost of Enveloping Mist by 20%.",
-      "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummon an effigy of Chi-Ji for\n25 sec\nthat kicks up 3 Gust of Mists when you Blackout Kick, Rising Sun Kick, or Spinning Crane Kick, healing up to 2 allies for [(0.075% of Spell Power) * 50 / 100].\nChi-Ji's presence makes you immune to movement impairing effects, makes Enveloping Mist instant cast, and reduces the mana cost of Enveloping Mist by 20%.",
+      "pve_tooltip": "5% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummon an effigy of Chi-Ji for 25 sec that kicks up 3 Gust of Mists when you Blackout Kick, Rising Sun Kick, or Spinning Crane Kick, healing up to 2 allies for [(0.1% of Spell Power) * 50 / 100].\nChi-Ji's presence makes you immune to movement impairing effects, makes Enveloping Mist instant cast, and reduces the mana cost of Enveloping Mist by 20%.",
+      "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummon an effigy of Chi-Ji for 25 sec that kicks up 3 Gust of Mists when you Blackout Kick, Rising Sun Kick, or Spinning Crane Kick, healing up to 2 allies for [(0.075% of Spell Power) * 50 / 100].\nChi-Ji's presence makes you immune to movement impairing effects, makes Enveloping Mist instant cast, and reduces the mana cost of Enveloping Mist by 20%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -5963,7 +6108,7 @@
           "talent_spell_id": 325197,
           "source_spell_id": 343819,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 0.001)",
+          "effect_text": "Heal (SP mod: 0.001)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5990,14 +6135,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Deep Clarity",
@@ -6052,7 +6197,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rapid Diffusion",
@@ -6108,7 +6254,25 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "40 yd range\nRising Sun Kick and Enveloping Mist apply Renewing Mist for 3 seconds to an ally within 40 yds.\n(250ms cooldown)",
+          "pvp_tooltip": "40 yd range\nRising Sun Kick and Enveloping Mist apply Renewing Mist for 3 seconds to an ally within 40 yds.\n(250ms cooldown)",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "40 yd range\nRising Sun Kick and Enveloping Mist apply Renewing Mist for 6 seconds to an ally within 40 yds.\n(250ms cooldown)",
+          "pvp_tooltip": "40 yd range\nRising Sun Kick and Enveloping Mist apply Renewing Mist for 6 seconds to an ally within 40 yds.\n(250ms cooldown)",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Chrysalis",
@@ -6199,7 +6363,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Burst of Life",
@@ -6280,7 +6445,7 @@
           "talent_spell_id": 399226,
           "source_spell_id": 399230,
           "effect_index": 2,
-          "effect_text": "Direct Heal (10) (SP mod: 8.06)",
+          "effect_text": "Heal (SP mod: 8.06)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6307,14 +6472,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Yu'lon's Whisper",
@@ -6398,7 +6563,7 @@
           "talent_spell_id": 388038,
           "source_spell_id": 388044,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 0.91)",
+          "effect_text": "Heal (SP mod: 0.91)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6425,14 +6590,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mist Wrap",
@@ -6487,7 +6652,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Celestial Harmony",
@@ -6549,7 +6715,7 @@
           "talent_spell_id": 343655,
           "source_spell_id": 343737,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 1.5 seconds | Attributes: Add Target (Dest) Combat Reach to AOE (11) (SP mod: 0.7)",
+          "effect_text": "Apply Aura: Periodic Heal",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -6578,14 +6744,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dancing Mists",
@@ -6641,7 +6807,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Vital Expenditure",
@@ -6689,14 +6856,14 @@
         "spell_id": 1299572,
         "icon": "ability_monk_soothingmists"
       },
-      "pve_tooltip": "Talent\nRequires Monk\nSoothing Mist healing increased by 300%, but its mana cost is increased by 200%.",
-      "pvp_tooltip": "Talent\nRequires Monk\nSoothing Mist healing increased by 102%, but its mana cost is increased by 33%.",
+      "pve_tooltip": "Soothing Mist healing increased by 300%, but its mana cost is increased by 200%.",
+      "pvp_tooltip": "Soothing Mist healing increased by 102%, but its mana cost is increased by 33%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 56,
-          "end": 59,
+          "start": 35,
+          "end": 38,
           "old_token": "300",
           "new_token": "102",
           "kind": "percent_value",
@@ -6705,8 +6872,8 @@
           ]
         },
         {
-          "start": 96,
-          "end": 99,
+          "start": 75,
+          "end": 78,
           "old_token": "200",
           "new_token": "33",
           "kind": "percent_value",
@@ -6743,7 +6910,7 @@
           "talent_spell_id": 1299572,
           "source_spell_id": 1299572,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Periodic Amount (22)",
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
           "base_value": 300.0,
           "spell_pvp_multiplier": 0.34,
           "amount_kind": null,
@@ -6755,8 +6922,9 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -6767,7 +6935,7 @@
           "talent_spell_id": 1299572,
           "source_spell_id": 1299572,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Resource Cost 1 (14)",
+          "effect_text": "Apply Aura: Modifies Power Cost (14)",
           "base_value": 200.0,
           "spell_pvp_multiplier": 0.165,
           "amount_kind": null,
@@ -6779,14 +6947,16 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lotus Infusion",
@@ -6842,7 +7012,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Amplified Rush",
@@ -6897,7 +7068,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pool of Mists",
@@ -6954,7 +7126,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Jade Bond",
@@ -7010,7 +7183,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gift of the Celestials",
@@ -7058,15 +7232,16 @@
         "spell_id": 388212,
         "icon": "inv_pet_jadeserpentpet"
       },
-      "pve_tooltip": "Reduces the cooldown of [\nInvoke Chi-Ji, the Red Crane\n/ Invoke Yul'on, the Jade Serpent] by 1 min, but decreases its duration to 12 sec.",
-      "pvp_tooltip": "Reduces the cooldown of [\nInvoke Chi-Ji, the Red Crane\n/ Invoke Yul'on, the Jade Serpent] by 1 min, but decreases its duration to 12 sec.",
+      "pve_tooltip": "Reduces the cooldown of [Invoke Chi-Ji, the Red Crane / Invoke Yul'on, the Jade Serpent] by 1 min, but decreases its duration to 12 sec.",
+      "pvp_tooltip": "Reduces the cooldown of [Invoke Chi-Ji, the Red Crane / Invoke Yul'on, the Jade Serpent] by 1 min, but decreases its duration to 12 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Jade Empowerment",
@@ -7238,7 +7413,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Morning Breeze",
@@ -7286,15 +7462,16 @@
         "spell_id": 1277302,
         "icon": "expansionicon_mistsofpandaria"
       },
-      "pve_tooltip": "Talent\nRequires Monk\nRising Sun Kick's damage is increased by your Mastery rating and Thunder Focus Tea resets its cooldown.",
-      "pvp_tooltip": "Talent\nRequires Monk\nRising Sun Kick's damage is increased by your Mastery rating and Thunder Focus Tea resets its cooldown.",
+      "pve_tooltip": "Rising Sun Kick's damage is increased by your Mastery rating and Thunder Focus Tea resets its cooldown.",
+      "pvp_tooltip": "Rising Sun Kick's damage is increased by your Mastery rating and Thunder Focus Tea resets its cooldown.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Focused Thunder",
@@ -7349,7 +7526,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sheilun's Gift",
@@ -7397,8 +7575,8 @@
         "spell_id": 399491,
         "icon": "inv12_ability_monk_sheilunsgift"
       },
-      "pve_tooltip": "3% of base mana\n40 yd range\n2 sec cast\nDraws in all nearby clouds of mist, healing the friendly target\nand up to 2 nearby allies\nfor (416.96% of Spell Power) and an additional [(416.96% of Spell Power) * 5 / 100] per cloud absorbed.\nA cloud of mist is generated every\n8\nsec while in combat.",
-      "pvp_tooltip": "3% of base mana\n40 yd range\n2 sec cast\nDraws in all nearby clouds of mist, healing the friendly target\nand up to 2 nearby allies\nfor (250.176% of Spell Power) and an additional [(250.176% of Spell Power) * 5 / 100] per cloud absorbed.\nA cloud of mist is generated every\n8\nsec while in combat.",
+      "pve_tooltip": "3% of base mana\n40 yd range\n2 sec cast\nDraws in all nearby clouds of mist, healing the friendly target and up to 2 nearby allies for (416.96% of Spell Power) and an additional [(416.96% of Spell Power) * 5 / 100] per cloud absorbed.\nA cloud of mist is generated every 8 sec while in combat.",
+      "pvp_tooltip": "3% of base mana\n40 yd range\n2 sec cast\nDraws in all nearby clouds of mist, healing the friendly target and up to 2 nearby allies for (250.176% of Spell Power) and an additional [(250.176% of Spell Power) * 5 / 100] per cloud absorbed.\nA cloud of mist is generated every 8 sec while in combat.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -7481,7 +7659,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Jadefire Teachings",
@@ -7583,7 +7762,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rushing Wind Kick",
@@ -7630,14 +7810,14 @@
         "spell_id": 467307,
         "icon": "inv12_ability_monk_rushingwindkick"
       },
-      "pve_tooltip": "1.25% of base mana / 2 Chi\nInstant\n10 sec cooldown\n1 Charge\nWindwalker (\nWindwalker Monk\n)\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\n[\n:\nHeals up to 5 allies affected by your heal over time effects for (500% of Spell Power)\n]",
-      "pvp_tooltip": "1.25% of base mana / 2 Chi\nInstant\n10 sec cooldown\n1 Charge\nWindwalker (\nWindwalker Monk\n)\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\n[\n:\nHeals up to 5 allies affected by your heal over time effects for (375% of Spell Power)\n]",
+      "pve_tooltip": "1.25% of base mana / 2 Chi\nInstant\n12 sec cooldown\n1 Charge\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\nHeals up to 5 allies affected by your heal over time effects for (500% of Spell Power)",
+      "pvp_tooltip": "1.25% of base mana / 2 Chi\nInstant\n12 sec cooldown\n1 Charge\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\nHeals up to 5 allies affected by your heal over time effects for (375% of Spell Power)",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 577,
-          "end": 580,
+          "start": 334,
+          "end": 337,
           "old_token": "500",
           "new_token": "375",
           "kind": "spell_power_coefficient",
@@ -7665,7 +7845,7 @@
           "talent_spell_id": 467307,
           "source_spell_id": 468179,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature | Attributes: Area Effects Use Target Radius (17) (AP mod: 1.7975)",
+          "effect_text": "School Damage (Nature) (AP mod: 1.7975 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7692,11 +7872,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -7738,7 +7917,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Resplendent Mist",
@@ -7786,15 +7966,33 @@
         "spell_id": 388020,
         "icon": "spell_nature_abolishmagic"
       },
-      "pve_tooltip": "Gust of Mists has a 30% chance to do 100% more healing.",
-      "pvp_tooltip": "Gust of Mists has a 30% chance to do 100% more healing.",
+      "pve_tooltip": "Gust of Mists has a 30% chance to do 120% more healing.",
+      "pvp_tooltip": "Gust of Mists has a 30% chance to do 120% more healing.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Gust of Mists has a 30% chance to do 60% more healing.",
+          "pvp_tooltip": "Gust of Mists has a 30% chance to do 60% more healing.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Gust of Mists has a 30% chance to do 120% more healing.",
+          "pvp_tooltip": "Gust of Mists has a 30% chance to do 120% more healing.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Secret Infusion",
@@ -7841,15 +8039,33 @@
         "spell_id": 388491,
         "icon": "ability_monk_chibrew"
       },
-      "pve_tooltip": "After using Thunder Focus Tea, your next spell gives 4% of a stat. Only one stat increase may be active at once:\nEnveloping Mist\n: Critical strike\nRenewing Mist\n: Haste\nRising Sun Kick\n: Versatility",
-      "pvp_tooltip": "After using Thunder Focus Tea, your next spell gives 4% of a stat. Only one stat increase may be active at once:\nEnveloping Mist\n: Critical strike\nRenewing Mist\n: Haste\nRising Sun Kick\n: Versatility",
+      "pve_tooltip": "After using Thunder Focus Tea, your next spell gives 8% of a stat. Only one stat increase may be active at once:\nEnveloping Mist: Critical strike\nRenewing Mist: Haste\nRising Sun Kick: Versatility",
+      "pvp_tooltip": "After using Thunder Focus Tea, your next spell gives 8% of a stat. Only one stat increase may be active at once:\nEnveloping Mist: Critical strike\nRenewing Mist: Haste\nRising Sun Kick: Versatility",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "After using Thunder Focus Tea, your next spell gives 4% of a stat. Only one stat increase may be active at once:\nEnveloping Mist: Critical strike\nRenewing Mist: Haste\nRising Sun Kick: Versatility",
+          "pvp_tooltip": "After using Thunder Focus Tea, your next spell gives 4% of a stat. Only one stat increase may be active at once:\nEnveloping Mist: Critical strike\nRenewing Mist: Haste\nRising Sun Kick: Versatility",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "After using Thunder Focus Tea, your next spell gives 8% of a stat. Only one stat increase may be active at once:\nEnveloping Mist: Critical strike\nRenewing Mist: Haste\nRising Sun Kick: Versatility",
+          "pvp_tooltip": "After using Thunder Focus Tea, your next spell gives 8% of a stat. Only one stat increase may be active at once:\nEnveloping Mist: Critical strike\nRenewing Mist: Haste\nRising Sun Kick: Versatility",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Misty Peaks",
@@ -7897,15 +8113,33 @@
         "spell_id": 388682,
         "icon": "achievement_zone_stormpeaks_10"
       },
-      "pve_tooltip": "Renewing Mist's heal over time effect has a 5.0% chance to apply Enveloping Mist for 2 sec.",
-      "pvp_tooltip": "Renewing Mist's heal over time effect has a 5.0% chance to apply Enveloping Mist for 2 sec.",
+      "pve_tooltip": "Renewing Mist's heal over time effect has a 8% chance to apply Enveloping Mist for 2 sec.",
+      "pvp_tooltip": "Renewing Mist's heal over time effect has a 8% chance to apply Enveloping Mist for 2 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Renewing Mist's heal over time effect has a 4% chance to apply Enveloping Mist for 2 sec.",
+          "pvp_tooltip": "Renewing Mist's heal over time effect has a 4% chance to apply Enveloping Mist for 2 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Renewing Mist's heal over time effect has a 8% chance to apply Enveloping Mist for 2 sec.",
+          "pvp_tooltip": "Renewing Mist's heal over time effect has a 8% chance to apply Enveloping Mist for 2 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Peaceful Mending",
@@ -7961,7 +8195,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Veil of Pride",
@@ -8016,7 +8251,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tranquil Tea",
@@ -8071,7 +8307,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Emperor's Elixir",
@@ -8116,8 +8353,8 @@
         "spell_id": 1268807,
         "icon": "inv_drink_25_honeytea"
       },
-      "pve_tooltip": "Thunder Focus Tea now empowers Enveloping Mist and Rising Sun Kick further.\nEnveloping Mist\n:\nBegins a channel of Soothing Mist onto your target.\nRising Sun Kick\n:\nReleases a Jadefire Stomp infront of you that transfers damage into Ancient Teachings at 20% effectiveness.\nJadefire Stomp\n:\nYou release a Jadefire Stomp, dealing (100% of Attack Power) damage to 5 enemies in front of you.",
-      "pvp_tooltip": "Thunder Focus Tea now empowers Enveloping Mist and Rising Sun Kick further.\nEnveloping Mist\n:\nBegins a channel of Soothing Mist onto your target.\nRising Sun Kick\n:\nReleases a Jadefire Stomp infront of you that transfers damage into Ancient Teachings at 20% effectiveness.\nJadefire Stomp\n:\nYou release a Jadefire Stomp, dealing (100% of Attack Power) damage to 5 enemies in front of you.",
+      "pve_tooltip": "Thunder Focus Tea now empowers Enveloping Mist and Rising Sun Kick further.\nEnveloping Mist:\nBegins a channel of Soothing Mist onto your target.\nRising Sun Kick:\nReleases a Jadefire Stomp infront of you that transfers damage into Ancient Teachings at 20% effectiveness.\nJadefire Stomp:\nYou release a Jadefire Stomp, dealing (100% of Attack Power) damage to 5 enemies in front of you.",
+      "pvp_tooltip": "Thunder Focus Tea now empowers Enveloping Mist and Rising Sun Kick further.\nEnveloping Mist:\nBegins a channel of Soothing Mist onto your target.\nRising Sun Kick:\nReleases a Jadefire Stomp infront of you that transfers damage into Ancient Teachings at 20% effectiveness.\nJadefire Stomp:\nYou release a Jadefire Stomp, dealing (100% of Attack Power) damage to 5 enemies in front of you.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -8166,7 +8403,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dance of Chi-Ji",
@@ -8211,15 +8449,16 @@
         "spell_id": 438439,
         "icon": "ability_monk_cranekick_new"
       },
-      "pve_tooltip": "Approximately\n3\nprocs per minute\nYour spells and abilities have a chance to make your next Spinning Crane Kick deal an additional 400% damage.",
-      "pvp_tooltip": "Approximately\n3\nprocs per minute\nYour spells and abilities have a chance to make your next Spinning Crane Kick deal an additional 400% damage.",
+      "pve_tooltip": "Approximately 3 procs per minute\nYour spells and abilities have a chance to make your next Spinning Crane Kick deal an additional 400% damage.",
+      "pvp_tooltip": "Approximately 3 procs per minute\nYour spells and abilities have a chance to make your next Spinning Crane Kick deal an additional 400% damage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mistline",
@@ -8264,14 +8503,14 @@
         "spell_id": 1280297,
         "icon": "ability_monk_surgingmist"
       },
-      "pve_tooltip": "Talent\nRequires Monk\nRenewing Mist's healing is increased by 500% on your lowest health ally with its effect.",
-      "pvp_tooltip": "Talent\nRequires Monk\nRenewing Mist's healing is increased by 200% on your lowest health ally with its effect.",
+      "pve_tooltip": "Renewing Mist's healing is increased by 500% on your lowest health ally with its effect.",
+      "pvp_tooltip": "Renewing Mist's healing is increased by 200% on your lowest health ally with its effect.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 61,
-          "end": 64,
+          "start": 40,
+          "end": 43,
           "old_token": "500",
           "new_token": "200",
           "kind": "percent_value",
@@ -8299,7 +8538,7 @@
           "talent_spell_id": 1280297,
           "source_spell_id": 1280297,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Dummy (4)",
+          "effect_text": "Apply Aura: Dummy (17)",
           "base_value": 500.0,
           "spell_pvp_multiplier": 0.4,
           "amount_kind": null,
@@ -8311,14 +8550,16 @@
           "dependency_relations": [],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tear of Morning",
@@ -8364,8 +8605,8 @@
         "spell_id": 387991,
         "icon": "ability_monk_uplift"
       },
-      "pve_tooltip": "Your [\nSheilun's Gift\n/ Invigorating Mist] healing is increased by [\nSheilun's Gift\n:\n20%\n/ 20%] and your Enveloping Mist also heals allies with Renewing Mist for 8% of its healing.\nThe duration of Enveloping Mist is increased by 4 sec while you have a celestial summoned.",
-      "pvp_tooltip": "Your [\nSheilun's Gift\n/ Invigorating Mist] healing is increased by [\nSheilun's Gift\n:\n20%\n/ 20%] and your Enveloping Mist also heals allies with Renewing Mist for 8% of its healing.\nThe duration of Enveloping Mist is increased by 4 sec while you have a celestial summoned.",
+      "pve_tooltip": "Your [Sheilun's Gift / Invigorating Mist] healing is increased by [Sheilun's Gift: 20% / 20%] and your Enveloping Mist also heals allies with Renewing Mist for 8% of its healing.\nThe duration of Enveloping Mist is increased by 4 sec while you have a celestial summoned.",
+      "pvp_tooltip": "Your [Sheilun's Gift / Invigorating Mist] healing is increased by [Sheilun's Gift: 20% / 20%] and your Enveloping Mist also heals allies with Renewing Mist for 8% of its healing.\nThe duration of Enveloping Mist is increased by 4 sec while you have a celestial summoned.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -8378,7 +8619,7 @@
           "talent_spell_id": 387991,
           "source_spell_id": 343737,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 1.5 seconds | Attributes: Add Target (Dest) Combat Reach to AOE (11) (SP mod: 0.7)",
+          "effect_text": "Apply Aura: Periodic Heal",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -8407,14 +8648,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rising Mist",
@@ -8468,7 +8709,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Legacy of Wisdom",
@@ -8520,7 +8762,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Emperor's Favor",
@@ -8572,7 +8815,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spiritfont",
@@ -8614,15 +8858,16 @@
         "spell_id": 1260511,
         "icon": "inv12_apextalent_monk_spiritfont"
       },
-      "pve_tooltip": "Approximately\n1\nprocs per minute\nRising Sun Kick and Vivify have a chance to activate Spiritfont, causing your next Enveloping Mist's cast time to be reduced by 50% and channel Soothing Mist from you onto up to 5 allies at 20% effectiveness for 8 sec.\nIf Spiritfont's Soothing Mists heal a full health target, they will jump to another injured ally or split its healing into your remaining Soothing Mists.",
-      "pvp_tooltip": "Approximately\n1\nprocs per minute\nRising Sun Kick and Vivify have a chance to activate Spiritfont, causing your next Enveloping Mist's cast time to be reduced by 50% and channel Soothing Mist from you onto up to 5 allies at 20% effectiveness for 8 sec.\nIf Spiritfont's Soothing Mists heal a full health target, they will jump to another injured ally or split its healing into your remaining Soothing Mists.",
+      "pve_tooltip": "Approximately 1 procs per minute\nRising Sun Kick and Vivify have a chance to activate Spiritfont, causing your next Enveloping Mist's cast time to be reduced by 50% and channel Soothing Mist from you onto up to 5 allies at 20% effectiveness for 8 sec.\nIf Spiritfont's Soothing Mists heal a full health target, they will jump to another injured ally or split its healing into your remaining Soothing Mists.",
+      "pvp_tooltip": "Approximately 1 procs per minute\nRising Sun Kick and Vivify have a chance to activate Spiritfont, causing your next Enveloping Mist's cast time to be reduced by 50% and channel Soothing Mist from you onto up to 5 allies at 20% effectiveness for 8 sec.\nIf Spiritfont's Soothing Mists heal a full health target, they will jump to another injured ally or split its healing into your remaining Soothing Mists.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spiritfont",
@@ -8672,7 +8917,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spiritfont",
@@ -8722,7 +8968,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Celestial Conduit",
@@ -8823,7 +9070,7 @@
           "talent_spell_id": 443028,
           "source_spell_id": 443038,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature (AP mod: 1.65)",
+          "effect_text": "School Damage (Nature) (AP mod: 1.65 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8850,11 +9097,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8862,7 +9108,7 @@
           "talent_spell_id": 443028,
           "source_spell_id": 443039,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 11)",
+          "effect_text": "Heal (SP mod: 11)",
           "base_value": null,
           "spell_pvp_multiplier": 2.25,
           "amount_kind": "direct",
@@ -8898,14 +9144,16 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Temple Training",
@@ -8959,7 +9207,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Xuen's Guidance",
@@ -9013,7 +9262,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Courage of the White Tiger",
@@ -9059,8 +9309,8 @@
         "spell_id": 443087,
         "icon": "ability_monk_summontigerstatue"
       },
-      "pve_tooltip": "Approximately\n4\nprocs per minute\nTiger Palm, Vivify, and Sheilun's Gift have a chance to cause Xuen to claw a nearby enemy for (337.5% of Attack Power) Physical damage, healing a nearby ally for 100% of the damage done.\nInvoke Yu'lon, the Jade Serpent or Invoke Chi-Ji, the Red Crane guarantees your next cast activates this effect.",
-      "pvp_tooltip": "Approximately\n4\nprocs per minute\nTiger Palm, Vivify, and Sheilun's Gift have a chance to cause Xuen to claw a nearby enemy for (411.75% of Attack Power) Physical damage, healing a nearby ally for 100% of the damage done.\nInvoke Yu'lon, the Jade Serpent or Invoke Chi-Ji, the Red Crane guarantees your next cast activates this effect.",
+      "pve_tooltip": "Approximately 4 procs per minute\nTiger Palm, Vivify, and Sheilun's Gift have a chance to cause Xuen to claw a nearby enemy for (337.5% of Attack Power) Physical damage, healing a nearby ally for 100% of the damage done.\nInvoke Yu'lon, the Jade Serpent or Invoke Chi-Ji, the Red Crane guarantees your next cast activates this effect.",
+      "pvp_tooltip": "Approximately 4 procs per minute\nTiger Palm, Vivify, and Sheilun's Gift have a chance to cause Xuen to claw a nearby enemy for (411.75% of Attack Power) Physical damage, healing a nearby ally for 100% of the damage done.\nInvoke Yu'lon, the Jade Serpent or Invoke Chi-Ji, the Red Crane guarantees your next cast activates this effect.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -9094,7 +9344,7 @@
           "talent_spell_id": 443087,
           "source_spell_id": 457917,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical (AP mod: 3.375)",
+          "effect_text": "School Damage (Physical) (AP mod: 3.375 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9121,14 +9371,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Restore Balance",
@@ -9188,7 +9438,7 @@
           "talent_spell_id": 442719,
           "source_spell_id": 343737,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 1.5 seconds | Attributes: Add Target (Dest) Combat Reach to AOE (11) (SP mod: 0.7)",
+          "effect_text": "Apply Aura: Periodic Heal",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -9217,14 +9467,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Yu'lon's Knowledge",
@@ -9278,7 +9528,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Heart of the Jade Serpent",
@@ -9359,7 +9610,7 @@
           "talent_spell_id": 443294,
           "source_spell_id": 443421,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Modify Cooldown Recharge Rate% (286)",
+          "effect_text": "Apply Aura: Allow Dot to Crit",
           "base_value": 75.0,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": null,
@@ -9386,14 +9637,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Chi-Ji's Swiftness",
@@ -9447,7 +9698,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Strength of the Black Ox",
@@ -9518,7 +9770,7 @@
           "talent_spell_id": 443110,
           "source_spell_id": 443127,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature (AP mod: 2)",
+          "effect_text": "School Damage (Nature) (AP mod: 2 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9545,14 +9797,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Path of the Falling Star",
@@ -9606,7 +9858,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Yu'lon's Avatar",
@@ -9652,8 +9905,8 @@
         "spell_id": 1262667,
         "icon": "inv_celestialserpentmount_jade"
       },
-      "pve_tooltip": "Approximately\n1.5\nprocs per minute\nVivify and Sheilun's Gift have a chance to trigger Heart of the Jade Serpent for 4 sec at 100% effectiveness.\n(500ms cooldown)",
-      "pvp_tooltip": "Approximately\n1.5\nprocs per minute\nVivify and Sheilun's Gift have a chance to trigger Heart of the Jade Serpent for 4 sec at 33% effectiveness.\n(500ms cooldown)",
+      "pve_tooltip": "Approximately 1.5 procs per minute\nVivify and Sheilun's Gift have a chance to trigger Heart of the Jade Serpent for 4 sec at 100% effectiveness.\n(500ms cooldown)",
+      "pvp_tooltip": "Approximately 1.5 procs per minute\nVivify and Sheilun's Gift have a chance to trigger Heart of the Jade Serpent for 4 sec at 33% effectiveness.\n(500ms cooldown)",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -9707,7 +9960,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Niuzao's Protection",
@@ -9761,7 +10015,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Jade Sanctuary",
@@ -9815,7 +10070,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Stampede of the Ancients",
@@ -9869,7 +10125,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Inner Compass",
@@ -9915,15 +10172,16 @@
         "spell_id": 443571,
         "icon": "inv_10_dungeonjewelry_explorer_trinket_1compass_color2"
       },
-      "pve_tooltip": "You switch between alignments every 8 sec, increasing a corresponding secondary stat by 2%.\nCrane Stance\n:\nHaste\nTiger Stance\n:\nCritical Strike\nOx Stance\n:\nVersatility\nSerpent Stance\n:\nMastery",
-      "pvp_tooltip": "You switch between alignments every 8 sec, increasing a corresponding secondary stat by 2%.\nCrane Stance\n:\nHaste\nTiger Stance\n:\nCritical Strike\nOx Stance\n:\nVersatility\nSerpent Stance\n:\nMastery",
+      "pve_tooltip": "You switch between alignments every 8 sec, increasing a corresponding secondary stat by 2%.\nCrane Stance:\nHaste\nTiger Stance:\nCritical Strike\nOx Stance:\nVersatility\nSerpent Stance:\nMastery",
+      "pvp_tooltip": "You switch between alignments every 8 sec, increasing a corresponding secondary stat by 2%.\nCrane Stance:\nHaste\nTiger Stance:\nCritical Strike\nOx Stance:\nVersatility\nSerpent Stance:\nMastery",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flowing Wisdom",
@@ -9983,7 +10241,7 @@
           "talent_spell_id": 1262672,
           "source_spell_id": 443421,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Modify Cooldown Recharge Rate% (286)",
+          "effect_text": "Apply Aura: Allow Dot to Crit",
           "base_value": 75.0,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": null,
@@ -10010,14 +10268,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unity Within",
@@ -10072,7 +10330,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Aspect of Harmony",
@@ -10164,7 +10423,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Manifestation",
@@ -10265,7 +10525,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Purified Spirit",
@@ -10319,7 +10580,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Harmonic Gambit",
@@ -10373,7 +10635,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Balanced Stratagem",
@@ -10427,7 +10690,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Harmonic Surge",
@@ -10473,34 +10737,14 @@
         "spell_id": 1270958,
         "icon": "ability_socererking_forcenova"
       },
-      "pve_tooltip": ":\nFor each charge of Potential Energy, deal [(400% of Spell Power) * 55 / 100] Nature damage to your target and [(400% of Spell Power) * 55 / 100] Nature damage to other nearby enemies, and heal up to 5 allies for [(500% of Spell Power) * 10 / 100]. Damage reduced above 5 targets.",
-      "pvp_tooltip": ":\nFor each charge of Potential Energy, deal [(400% of Spell Power) * 18.15 / 100] Nature damage to your target and [(400% of Spell Power) * 18.15 / 100] Nature damage to other nearby enemies, and heal up to 5 allies for [(500% of Spell Power) * 3.3 / 100]. Damage reduced above 5 targets.",
+      "pve_tooltip": "Casting Thunder Focus Tea grants 2 charges of Potential Energy. Your next cast of Tiger Palm or Vivify consumes all charges of Potential Energy to cause a Harmonic Surge.\nHarmonic Surge:\nFor each charge of Potential Energy, deal [(400% of Spell Power) * 10 / 100] Nature damage to your target and [(400% of Spell Power) * 10 / 100] Nature damage to other nearby enemies, and heal up to 5 allies for [(500% of Spell Power) * 40 / 100]. Damage reduced above 5 targets.",
+      "pvp_tooltip": "Casting Thunder Focus Tea grants 2 charges of Potential Energy. Your next cast of Tiger Palm or Vivify consumes all charges of Potential Energy to cause a Harmonic Surge.\nHarmonic Surge:\nFor each charge of Potential Energy, deal [(400% of Spell Power) * 3.3 / 100] Nature damage to your target and [(400% of Spell Power) * 3.3 / 100] Nature damage to other nearby enemies, and heal up to 5 allies for [(500% of Spell Power) * 13.2 / 100]. Damage reduced above 5 targets.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 69,
-          "end": 71,
-          "old_token": "55",
-          "new_token": "18.15",
-          "kind": "ordinary_value",
-          "effect_indexes": [
-            1
-          ]
-        },
-        {
-          "start": 137,
-          "end": 139,
-          "old_token": "55",
-          "new_token": "18.15",
-          "kind": "ordinary_value",
-          "effect_indexes": [
-            1
-          ]
-        },
-        {
-          "start": 239,
-          "end": 241,
+          "start": 254,
+          "end": 256,
           "old_token": "10",
           "new_token": "3.3",
           "kind": "ordinary_value",
@@ -10508,36 +10752,39 @@
             2,
             3
           ]
+        },
+        {
+          "start": 322,
+          "end": 324,
+          "old_token": "10",
+          "new_token": "3.3",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2,
+            3
+          ]
+        },
+        {
+          "start": 424,
+          "end": 426,
+          "old_token": "40",
+          "new_token": "13.2",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            4
+          ]
         }
       ],
       "diagnostics": [
         {
           "effect_indexes": [
-            4
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
-          "old": 40.0,
-          "new": 13.200000000000001,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
             1
           ],
-          "status": "APPLIED",
+          "status": "OTHER_SPEC_BRANCH",
           "kind": "ordinary_value",
-          "old": "55",
-          "new": "18.15"
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "ordinary_value",
-          "old": "55",
-          "new": "18.15"
+          "old": 55.0,
+          "new": 18.150000000000002,
+          "full_tooltip_match_count": 2
         },
         {
           "effect_indexes": [
@@ -10548,6 +10795,25 @@
           "kind": "ordinary_value",
           "old": "10",
           "new": "3.3"
+        },
+        {
+          "effect_indexes": [
+            2,
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "10",
+          "new": "3.3"
+        },
+        {
+          "effect_indexes": [
+            4
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "40",
+          "new": "13.2"
         }
       ],
       "has_pvp_mechanics": true,
@@ -10766,7 +11032,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 4
+      "render_effect_count": 4,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tiger's Vigor",
@@ -10820,7 +11087,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Roar from the Heavens",
@@ -10874,7 +11142,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Endless Draught",
@@ -10928,7 +11197,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mantra of Purity",
@@ -10988,7 +11258,7 @@
           "talent_spell_id": 451036,
           "source_spell_id": 451452,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 2 seconds (SP mod: 0.5)",
+          "effect_text": "Apply Aura: Periodic Heal",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -11015,14 +11285,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mantra of Tenacity",
@@ -11076,7 +11346,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Potential Energy",
@@ -11130,7 +11401,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Overwhelming Force",
@@ -11184,7 +11456,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Path of Resurgence",
@@ -11230,15 +11503,16 @@
         "spell_id": 450912,
         "icon": "ability_monk_pathofmists"
       },
-      "pve_tooltip": "Chi Burst\nincreases vitality stored by 25% for 10 sec.\n(3s cooldown)",
-      "pvp_tooltip": "Chi Burst\nincreases vitality stored by 25% for 10 sec.\n(3s cooldown)",
+      "pve_tooltip": "Chi Burst increases vitality stored by 25% for 10 sec.\n(3s cooldown)",
+      "pvp_tooltip": "Chi Burst increases vitality stored by 25% for 10 sec.\n(3s cooldown)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Way of a Thousand Strikes",
@@ -11292,7 +11566,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Clarity of Purpose",
@@ -11346,7 +11621,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Meditative Focus",
@@ -11400,7 +11676,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Coalescence",
@@ -11447,21 +11724,22 @@
         "spell_id": 450529,
         "icon": "ability_monk_effuse"
       },
-      "pve_tooltip": "When Aspect of Harmony\nheals, it has a chance to spread to a nearby\nally. When you directly\nheal an affected target, it has a chance to intensify, withdrawing additional vitality to increase its effect by up to 20%.\nVivify no longer contributes vitality. While Aspect of Harmony is not active, Vivify instead draws on available vitality to deal an additional 100% healing over 8 sec.\nVitality stored by other abilities is increased by 50%.",
-      "pvp_tooltip": "When Aspect of Harmony\nheals, it has a chance to spread to a nearby\nally. When you directly\nheal an affected target, it has a chance to intensify, withdrawing additional vitality to increase its effect by up to 20%.\nVivify no longer contributes vitality. While Aspect of Harmony is not active, Vivify instead draws on available vitality to deal an additional 100% healing over 8 sec.\nVitality stored by other abilities is increased by 50%.",
+      "pve_tooltip": "When Aspect of Harmony heals, it has a chance to spread to a nearby ally. When you directly heal an affected target, it has a chance to intensify, withdrawing additional vitality to increase its effect by up to 20%.\nVivify no longer contributes vitality. While Aspect of Harmony is not active, Vivify instead draws on available vitality to deal an additional 100% healing over 8 sec.\nVitality stored by other abilities is increased by 50%.",
+      "pvp_tooltip": "When Aspect of Harmony heals, it has a chance to spread to a nearby ally. When you directly heal an affected target, it has a chance to intensify, withdrawing additional vitality to increase its effect by up to 20%.\nVivify no longer contributes vitality. While Aspect of Harmony is not active, Vivify instead draws on available vitality to deal an additional 100% healing over 8 sec.\nVitality stored by other abilities is increased by 50%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     }
   ],
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "monk-mistweaver",
-  "generated_at": "2026-09-20T12:52:32.870496+00:00",
+  "generated_at": "2026-09-20T20:01:26.169185+00:00",
   "validation": {
     "talents": 152,
     "changed_tooltips": 32,
@@ -11474,35 +11752,35 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 38,
+    "source_warning_count": 5,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
       {
         "source": "wowhead",
-        "spell_id": 1277302,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1277302'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 1248815,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1248815'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 1277444,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1277444'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 1266720,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1266720'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 1280297,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1280297'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 1269159,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1269159'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 1299572,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1299572'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 1271011,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1271011'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 115203,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=115203'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 1271045,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1271045'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],

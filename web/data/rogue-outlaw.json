@@ -50,14 +50,14 @@
         "spell_id": 5938,
         "icon": "inv_throwingknife_04"
       },
-      "pve_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [\nImproved Shiv\n:\npoisoned blades\n/ off-hand], dealing (125.4% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your\nactive Non-Lethal poison.\nAwards\n1\ncombo points.",
-      "pvp_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [\nImproved Shiv\n:\npoisoned blades\n/ off-hand], dealing (117.876% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your\nactive Non-Lethal poison.\nAwards\n1\ncombo points.",
+      "pve_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [Improved Shiv: poisoned blades / off-hand], dealing (125.4% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your active Non-Lethal poison.\nAwards 1 combo points.",
+      "pvp_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [Improved Shiv: poisoned blades / off-hand], dealing (117.876% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your active Non-Lethal poison.\nAwards 1 combo points.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 128,
-          "end": 133,
+          "start": 126,
+          "end": 131,
           "old_token": "125.4",
           "new_token": "117.876",
           "kind": "attack_power_coefficient",
@@ -307,7 +307,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 4
+      "render_effect_count": 4,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blind",
@@ -361,7 +362,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cloak of Shadows",
@@ -406,15 +408,16 @@
         "spell_id": 31224,
         "icon": "spell_shadow_nethercloak"
       },
-      "pve_tooltip": "Instant\n2 min cooldown\nProvides a moment of magic immunity, instantly removing all harmful spell effects. The cloak lingers, causing you to resist harmful spells for\n5 sec\n.",
-      "pvp_tooltip": "Instant\n2 min cooldown\nProvides a moment of magic immunity, instantly removing all harmful spell effects. The cloak lingers, causing you to resist harmful spells for\n5 sec\n.",
+      "pve_tooltip": "Instant\n2 min cooldown\nProvides a moment of magic immunity, instantly removing all harmful spell effects. The cloak lingers, causing you to resist harmful spells for 5 sec.",
+      "pvp_tooltip": "Instant\n2 min cooldown\nProvides a moment of magic immunity, instantly removing all harmful spell effects. The cloak lingers, causing you to resist harmful spells for 5 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Toxic Stiletto",
@@ -468,7 +471,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fleet Footed",
@@ -524,7 +528,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gouge",
@@ -570,15 +575,16 @@
         "spell_id": 1776,
         "icon": "ability_gouge"
       },
-      "pve_tooltip": "25 Energy\nMelee Range\nInstant\n25 sec cooldown\nGouges the eyes of an enemy target, incapacitating for 4 sec. Damage may interrupt the effect.\nMust be in front of your target.\nAwards\n1\ncombo points.",
-      "pvp_tooltip": "25 Energy\nMelee Range\nInstant\n25 sec cooldown\nGouges the eyes of an enemy target, incapacitating for 4 sec. Damage may interrupt the effect.\nMust be in front of your target.\nAwards\n1\ncombo points.",
+      "pve_tooltip": "25 Energy\nMelee Range\nInstant\n25 sec cooldown\nGouges the eyes of an enemy target, incapacitating for 4 sec. Damage may interrupt the effect.\nMust be in front of your target.\nAwards 1 combo points.",
+      "pvp_tooltip": "25 Energy\nMelee Range\nInstant\n25 sec cooldown\nGouges the eyes of an enemy target, incapacitating for 4 sec. Damage may interrupt the effect.\nMust be in front of your target.\nAwards 1 combo points.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Airborne Irritant",
@@ -679,7 +685,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thrill Seeking",
@@ -735,7 +742,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shadowrunner",
@@ -789,7 +797,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Master Poisoner",
@@ -886,7 +895,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Elusiveness",
@@ -942,7 +952,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cheat Death",
@@ -998,7 +1009,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tricks of the Trade",
@@ -1046,15 +1058,16 @@
         "spell_id": 57934,
         "icon": "ability_rogue_tricksofthetrade"
       },
-      "pve_tooltip": "100 yd range\nInstant\n30 sec cooldown\n[\nThick as Thieves\n:\nIncreases the target's damage by 15%, and redirects\n/ Redirects] all threat you cause to the targeted party or raid member, beginning with your next damaging attack within the next 30 sec and lasting 6 sec.\n(100ms cooldown)",
-      "pvp_tooltip": "100 yd range\nInstant\n30 sec cooldown\n[\nThick as Thieves\n:\nIncreases the target's damage by 15%, and redirects\n/ Redirects] all threat you cause to the targeted party or raid member, beginning with your next damaging attack within the next 30 sec and lasting 6 sec.\n(100ms cooldown)",
+      "pve_tooltip": "100 yd range\nInstant\n30 sec cooldown\n[Thick as Thieves: Increases the target's damage by 15%, and redirects / Redirects] all threat you cause to the targeted party or raid member, beginning with your next damaging attack within the next 30 sec and lasting 6 sec.\n(100ms cooldown)",
+      "pvp_tooltip": "100 yd range\nInstant\n30 sec cooldown\n[Thick as Thieves: Increases the target's damage by 15%, and redirects / Redirects] all threat you cause to the targeted party or raid member, beginning with your next damaging attack within the next 30 sec and lasting 6 sec.\n(100ms cooldown)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blackjack",
@@ -1102,15 +1115,16 @@
         "spell_id": 379005,
         "icon": "ability_rogue_blackjack"
       },
-      "pve_tooltip": "Enemies have\n30\n% reduced damage and healing for 6 sec after Blind or Sap's effect on them ends.",
-      "pvp_tooltip": "Enemies have\n30\n% reduced damage and healing for 6 sec after Blind or Sap's effect on them ends.",
+      "pve_tooltip": "Enemies have 30% reduced damage and healing for 6 sec after Blind or Sap's effect on them ends.",
+      "pvp_tooltip": "Enemies have 30% reduced damage and healing for 6 sec after Blind or Sap's effect on them ends.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Wound Poison",
@@ -1165,7 +1179,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Nimble Fingers",
@@ -1221,7 +1236,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Deadened Nerves",
@@ -1275,7 +1291,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Quick Fingers",
@@ -1331,7 +1348,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Sprint",
@@ -1386,7 +1404,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Superior Mixture",
@@ -1487,7 +1506,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Evasion",
@@ -1543,7 +1563,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Iron Stomach",
@@ -1597,7 +1618,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Virulent Poisons",
@@ -1655,7 +1677,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Stillshroud",
@@ -1709,7 +1732,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Graceful Guile",
@@ -1765,7 +1789,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Featherfoot",
@@ -1819,7 +1844,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Numbing Poison",
@@ -1866,8 +1892,8 @@
         "spell_id": 5761,
         "icon": "spell_nature_nullifydisease"
       },
-      "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, clouding their mind and slowing their attack and casting speed by 15 /\nMaster Poisoner\n:\n18\n/\nMaster Poisoner\n:\n18\n% for 10 sec.\n(Proc chance: 30%)",
-      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, clouding their mind and slowing their attack and casting speed by 15 /\nMaster Poisoner\n:\n18\n/\nMaster Poisoner\n:\n18\n% for 10 sec.\n(Proc chance: 30%)",
+      "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, clouding their mind and slowing their attack and casting speed by 15 / Master Poisoner: 18 / Master Poisoner: 18% for 10 sec.\n(Proc chance: 30%)",
+      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, clouding their mind and slowing their attack and casting speed by 15 / Master Poisoner: 18 / Master Poisoner: 18% for 10 sec.\n(Proc chance: 30%)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1935,7 +1961,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Atrophic Poison",
@@ -1982,15 +2009,16 @@
         "spell_id": 381637,
         "icon": "ability_rogue_nervesofsteel"
       },
-      "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, reducing their damage by (\n- 4\n*- 1)% for 1 min.\n(Proc chance: 30%)",
-      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, reducing their damage by (\n- 4\n*- 1)% for 1 min.\n(Proc chance: 30%)",
+      "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, reducing their damage by ( - 4 *- 1)% for 1 min.\n(Proc chance: 30%)",
+      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, reducing their damage by ( - 4 *- 1)% for 1 min.\n(Proc chance: 30%)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Deadly Precision",
@@ -2047,7 +2075,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sanguine Vial",
@@ -2093,15 +2122,16 @@
         "spell_id": 1293135,
         "icon": "inv_misc_potiona5"
       },
-      "pve_tooltip": "Sanguine Vial - Spell - World of Warcraft\nSkip to Main Content\nThis site makes extensive use of JavaScript.\nPlease enable JavaScript in your browser.\nLive\nPTR\n12.1.0\nPTR\n12.1.5\nQuick Facts\nScreenshots\nVideos\nComments\nComment by\nItsversayce\nGrants you a 30-second",
-      "pvp_tooltip": "Sanguine Vial - Spell - World of Warcraft\nSkip to Main Content\nThis site makes extensive use of JavaScript.\nPlease enable JavaScript in your browser.\nLive\nPTR\n12.1.0\nPTR\n12.1.5\nQuick Facts\nScreenshots\nVideos\nComments\nComment by\nItsversayce\nGrants you a 30-second",
+      "pve_tooltip": "When you deal the killing blow to a target that yields experience or honor, the cooldown of Crimson Vial is reduced by 15 sec and your next use heals 5% of your health instantly.",
+      "pvp_tooltip": "When you deal the killing blow to a target that yields experience or honor, the cooldown of Crimson Vial is reduced by 15 sec and your next use heals 5% of your health instantly.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Deep Cuts",
@@ -2158,7 +2188,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unbreakable Stride",
@@ -2213,7 +2244,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Danger Sense",
@@ -2269,7 +2301,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Swift Slasher",
@@ -2327,7 +2360,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Ambush",
@@ -2375,15 +2409,16 @@
         "spell_id": 381620,
         "icon": "ability_rogue_ambush"
       },
-      "pve_tooltip": "[\nShadowstrike\n:\nShadowstrike damage increased by 8%\n/ Ambush generates 1 additional combo point].",
-      "pvp_tooltip": "[\nShadowstrike\n:\nShadowstrike damage increased by 8%\n/ Ambush generates 1 additional combo point].",
+      "pve_tooltip": "[Shadowstrike: Shadowstrike damage increased by 8% / Ambush generates 1 additional combo point].",
+      "pvp_tooltip": "[Shadowstrike: Shadowstrike damage increased by 8% / Ambush generates 1 additional combo point].",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tight Spender",
@@ -2439,7 +2474,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Leeching Poison",
@@ -2493,7 +2529,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lethality",
@@ -2540,15 +2577,33 @@
         "spell_id": 382238,
         "icon": "ability_criticalstrike"
       },
-      "pve_tooltip": "Critical strike chance increased by 1%. Critical strike damage bonus of your attacks that generate combo points increased by 10%.",
-      "pvp_tooltip": "Critical strike chance increased by 1%. Critical strike damage bonus of your attacks that generate combo points increased by 10%.",
+      "pve_tooltip": "Critical strike chance increased by 2%. Critical strike damage bonus of your attacks that generate combo points increased by 20%.",
+      "pvp_tooltip": "Critical strike chance increased by 2%. Critical strike damage bonus of your attacks that generate combo points increased by 20%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Critical strike chance increased by 1%. Critical strike damage bonus of your attacks that generate combo points increased by 10%.",
+          "pvp_tooltip": "Critical strike chance increased by 1%. Critical strike damage bonus of your attacks that generate combo points increased by 10%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Critical strike chance increased by 2%. Critical strike damage bonus of your attacks that generate combo points increased by 20%.",
+          "pvp_tooltip": "Critical strike chance increased by 2%. Critical strike damage bonus of your attacks that generate combo points increased by 20%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Recuperator",
@@ -2602,7 +2657,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Alacrity",
@@ -2649,15 +2705,33 @@
         "spell_id": 193539,
         "icon": "ability_paladin_speedoflight"
       },
-      "pve_tooltip": "Haste increased by 1.5%.",
-      "pvp_tooltip": "Haste increased by 1.5%.",
+      "pve_tooltip": "Haste increased by 3%.",
+      "pvp_tooltip": "Haste increased by 3%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Haste increased by 1.5%.",
+          "pvp_tooltip": "Haste increased by 1.5%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Haste increased by 3%.",
+          "pvp_tooltip": "Haste increased by 3%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Soothing Darkness",
@@ -2753,7 +2827,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Vigor",
@@ -2799,15 +2874,33 @@
         "spell_id": 14983,
         "icon": "ability_rogue_vigor"
       },
-      "pve_tooltip": "Increases your maximum Energy by 50 and Energy regeneration by 5%.",
-      "pvp_tooltip": "Increases your maximum Energy by 50 and Energy regeneration by 5%.",
+      "pve_tooltip": "Increases your maximum Energy by 100 and Energy regeneration by 10%.",
+      "pvp_tooltip": "Increases your maximum Energy by 100 and Energy regeneration by 10%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Increases your maximum Energy by 50 and Energy regeneration by 5%.",
+          "pvp_tooltip": "Increases your maximum Energy by 50 and Energy regeneration by 5%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Increases your maximum Energy by 100 and Energy regeneration by 10%.",
+          "pvp_tooltip": "Increases your maximum Energy by 100 and Energy regeneration by 10%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Supercharger",
@@ -2853,15 +2946,33 @@
         "spell_id": 470347,
         "icon": "inv_engineering_90_electrifiedether"
       },
-      "pve_tooltip": "Adrenaline Rush supercharges 1 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
-      "pvp_tooltip": "Adrenaline Rush supercharges 1 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
+      "pve_tooltip": "Adrenaline Rush supercharges 2 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
+      "pvp_tooltip": "Adrenaline Rush supercharges 2 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Adrenaline Rush supercharges 1 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
+          "pvp_tooltip": "Adrenaline Rush supercharges 1 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Adrenaline Rush supercharges 2 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
+          "pvp_tooltip": "Adrenaline Rush supercharges 2 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Subterfuge",
@@ -2907,24 +3018,33 @@
         "spell_id": 108208,
         "icon": "rogue_subterfuge"
       },
-      "pve_tooltip": "Abilities requiring Stealth can be used for 3 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 3 sec after Stealth breaks.",
-      "pvp_tooltip": "Abilities requiring Stealth can be used for 3 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 3 sec after Stealth breaks.",
+      "pve_tooltip": "Abilities requiring Stealth can be used for 6 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 6 sec after Stealth breaks.",
+      "pvp_tooltip": "Abilities requiring Stealth can be used for 6 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 6 sec after Stealth breaks.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "status": "EXACT_BUILD_DESCRIPTION",
-          "text": "Abilities requiring Stealth can be used for 3 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 3 sec after Stealth breaks.",
-          "source": "simc_exact_build",
-          "build": "12.1.0.69875",
-          "spell_id": 108208,
-          "raw": "Name             : Subterfuge (id=108208) [Spell Family (8), Passive] \r\nTalent Entry     : Generic [tree=class, row=9, col=6, max_rank=2, req_points=23]\r\n                 : Effect#1 [op=set, values=(115191, 115191)]\r\n                 : Effect#2 [op=set, values=(3000, 6000)]\r\n                 : Effect#3 [op=set, values=(-100, -100)]\r\n                 : Effect#4 [op=set, values=(2000, 4000)]\r\nClass            : Rogue\r\nSchool           : Physical\r\nSpell Type       : None\r\nLabels           : 16: Class Spells\r\n                 : 20: Rogue Spells\r\n                 : 292\r\nAttributes       : Passive (6), No Aura Cancel (31), Not an Action (92), Not In Spellbook (143), Aura Points On Client (268), Do Not Log on Learn (355), Allow Class Ability Procs (416)\r\nEffects          :\r\n#1 (id=119248)   : Apply Aura (6) | Override Action Spell (Misc w/ Base) (332): Stealth overrides Stealth\r\n                   Base Value: 115191 | Scaled Value: 115191 | Misc Value: 1784 | Trigger Spell: 1784 | Target: Self (1)\r\n                   Affected Spells: Stealth (1784), Stealth (115191)\r\n                   Family Flags: 22\r\n#2 (id=322830)   : Apply Aura (6) | Apply Flat Modifier w/ Label (219): Spell Duration (1)\r\n                   Base Value: 3000 | Scaled Value: 3000 | Misc Value: 1 | Misc Value 2: 2890 (Label) | Target: Self (1)\r\n                   Affected Spells (Label): Subterfuge (115192), Indiscriminate Carnage (385747), Improved Garrote (392401), Take 'em by Surprise (430035)\r\n#3 (id=370946)   : Apply Aura (6) | Add Flat Modifier (107): Spell Effect 5 (33)\r\n                   Base Value: -100 | Scaled Value: -100 | Misc Value: 33 | Target: Self (1)\r\n                   Affected Spells: Vanish (11327)\r\n                   Family Flags: 96\r\n#4 (id=1277119)  : Apply Aura (6) | Dummy (4)\r\n                   Base Value: 2000 | Scaled Value: 2000 | Target: Self (1)\r\nDescription      : Abilities requiring Stealth can be used for $?a137035[${$s4/1000}][${$s2/1000}] sec after Stealth breaks.\r\r\n\r\r\nCombat benefits requiring Stealth persist for an additional $?a137035[${$s4/1000}][${$s2/1000}] sec after Stealth breaks.\r\n\r\n"
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Abilities requiring Stealth can be used for 3 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 3 sec after Stealth breaks.",
+          "pvp_tooltip": "Abilities requiring Stealth can be used for 3 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 3 sec after Stealth breaks.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Abilities requiring Stealth can be used for 6 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 6 sec after Stealth breaks.",
+          "pvp_tooltip": "Abilities requiring Stealth can be used for 6 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 6 sec after Stealth breaks.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Thistle Tea",
@@ -2976,7 +3096,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thistle Tea",
@@ -3028,7 +3149,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cold Blooded Killer",
@@ -3080,7 +3202,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Echoing Reprimand",
@@ -3192,7 +3315,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Forced Induction",
@@ -3244,7 +3368,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Deeper Stratagem",
@@ -3296,7 +3421,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Without a Trace",
@@ -3348,7 +3474,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Opportunity",
@@ -3394,8 +3521,8 @@
         "spell_id": 279876,
         "icon": "ability_rogue_pistolshot"
       },
-      "pve_tooltip": "Your next Pistol Shot costs 50% less Energy and deals 100% increased damage.",
-      "pvp_tooltip": "Your next Pistol Shot costs 50% less Energy and deals 100% increased damage.",
+      "pve_tooltip": "Sinister Strike has a 30% chance to hit an additional time and grant Opportunity.\nOpportunity\nYour next Pistol Shot costs 50% less Energy and deals 100% increased damage.",
+      "pvp_tooltip": "Sinister Strike has a 30% chance to hit an additional time and grant Opportunity.\nOpportunity\nYour next Pistol Shot costs 50% less Energy and deals 100% increased damage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3477,7 +3604,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hit and Run",
@@ -3531,7 +3659,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Combat Stamina",
@@ -3577,8 +3706,8 @@
         "spell_id": 381877,
         "icon": "ability_rogue_imrovedrecuperate"
       },
-      "pve_tooltip": "Stamina increased by (5 *\n1\n)%.",
-      "pvp_tooltip": "Stamina increased by (18 *\n1\n)%.",
+      "pve_tooltip": "Stamina increased by (5 * 1)%.",
+      "pvp_tooltip": "Stamina increased by (18 * 1)%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3632,7 +3761,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Adrenaline Rush",
@@ -3680,15 +3810,16 @@
         "spell_id": 13750,
         "icon": "spell_shadow_shadowworddominate"
       },
-      "pve_tooltip": "Instant\n3 min cooldown\nIncreases your Energy regeneration rate by 75%, your maximum Energy by 50, and your attack speed by 20% for\n15 sec\n.\n[\nDamage of combo point generating abilities and finishers increased by 0%.]",
-      "pvp_tooltip": "Instant\n3 min cooldown\nIncreases your Energy regeneration rate by 75%, your maximum Energy by 50, and your attack speed by 20% for\n15 sec\n.\n[\nDamage of combo point generating abilities and finishers increased by 0%.]",
+      "pve_tooltip": "Instant\n3 min cooldown\nIncreases your Energy regeneration rate by 75%, your maximum Energy by 50, and your attack speed by 20% for 15 sec.\n[Damage of combo point generating abilities and finishers increased by 0%.]",
+      "pvp_tooltip": "Instant\n3 min cooldown\nIncreases your Energy regeneration rate by 75%, your maximum Energy by 50, and your attack speed by 20% for 15 sec.\n[Damage of combo point generating abilities and finishers increased by 0%.]",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Retractable Hook",
@@ -3742,7 +3873,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blinding Powder",
@@ -3796,7 +3928,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Expert Duelist",
@@ -3852,7 +3985,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Combat Potency",
@@ -3908,7 +4042,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Deadly Pursuit",
@@ -3962,7 +4097,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Precision Shot",
@@ -4016,7 +4152,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Crescendo of Violence",
@@ -4070,7 +4207,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Deft Maneuvers",
@@ -4124,7 +4262,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Devious Stratagem",
@@ -4181,7 +4320,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fatal Flourish",
@@ -4237,7 +4377,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Quick Draw",
@@ -4294,7 +4435,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ruthlessness",
@@ -4350,7 +4492,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blade Rush",
@@ -4443,7 +4586,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Loaded Dice",
@@ -4498,7 +4642,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sleight of Hand",
@@ -4553,7 +4698,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Between the Eyes",
@@ -4644,7 +4790,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thief's Versatility",
@@ -4700,7 +4847,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flickering Steel",
@@ -4756,7 +4904,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Audacity",
@@ -4889,7 +5038,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Heavy Hitter",
@@ -4938,15 +5088,33 @@
         "spell_id": 381885,
         "icon": "spell_shadow_ritualofsacrifice"
       },
-      "pve_tooltip": "Attacks that generate combo points deal 15% increased damage.",
-      "pvp_tooltip": "Attacks that generate combo points deal 15% increased damage.",
+      "pve_tooltip": "Attacks that generate combo points deal 30% increased damage.",
+      "pvp_tooltip": "Attacks that generate combo points deal 30% increased damage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Attacks that generate combo points deal 15% increased damage.",
+          "pvp_tooltip": "Attacks that generate combo points deal 15% increased damage.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Attacks that generate combo points deal 30% increased damage.",
+          "pvp_tooltip": "Attacks that generate combo points deal 30% increased damage.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Improved Adrenaline Rush",
@@ -5002,7 +5170,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ace Up Your Sleeve",
@@ -5051,15 +5220,33 @@
         "spell_id": 381828,
         "icon": "inv_inscription_darkmooncard_putrescence"
       },
-      "pve_tooltip": "Between the Eyes has a 3% chance per combo point spent to grant 4 combo points and reset its own cooldown.",
-      "pvp_tooltip": "Between the Eyes has a 3% chance per combo point spent to grant 4 combo points and reset its own cooldown.",
+      "pve_tooltip": "Between the Eyes has a 6% chance per combo point spent to grant 4 combo points and reset its own cooldown.",
+      "pvp_tooltip": "Between the Eyes has a 6% chance per combo point spent to grant 4 combo points and reset its own cooldown.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Between the Eyes has a 3% chance per combo point spent to grant 4 combo points and reset its own cooldown.",
+          "pvp_tooltip": "Between the Eyes has a 3% chance per combo point spent to grant 4 combo points and reset its own cooldown.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Between the Eyes has a 6% chance per combo point spent to grant 4 combo points and reset its own cooldown.",
+          "pvp_tooltip": "Between the Eyes has a 6% chance per combo point spent to grant 4 combo points and reset its own cooldown.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Dancing Steel",
@@ -5113,7 +5300,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Find an Opening",
@@ -5169,7 +5357,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Acrobatic Strikes",
@@ -5225,7 +5414,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Heightened Rush",
@@ -5279,7 +5469,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Menacing Rush",
@@ -5405,7 +5596,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Zero In",
@@ -5461,7 +5653,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Grand Melee",
@@ -5517,7 +5710,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Summarily Dispatched",
@@ -5565,8 +5759,8 @@
         "spell_id": 381990,
         "icon": "ability_rogue_waylay"
       },
-      "pve_tooltip": "Dispatch deals 15% increased damage and costs 3 less Energy. This damage bonus is increased by 50% while your damage is enhanced by your Between the Eyes.",
-      "pvp_tooltip": "Dispatch deals 15% increased damage and costs 3 less Energy. This damage bonus is increased by 50% while your damage is enhanced by your Between the Eyes.",
+      "pve_tooltip": "Dispatch deals 30% increased damage and costs 6 less Energy. This damage bonus is increased by 50% while your damage is enhanced by your Between the Eyes.",
+      "pvp_tooltip": "Dispatch deals 30% increased damage and costs 6 less Energy. This damage bonus is increased by 50% while your damage is enhanced by your Between the Eyes.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5614,7 +5808,25 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Dispatch deals 15% increased damage and costs 3 less Energy. This damage bonus is increased by 50% while your damage is enhanced by your Between the Eyes.",
+          "pvp_tooltip": "Dispatch deals 15% increased damage and costs 3 less Energy. This damage bonus is increased by 50% while your damage is enhanced by your Between the Eyes.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Dispatch deals 30% increased damage and costs 6 less Energy. This damage bonus is increased by 50% while your damage is enhanced by your Between the Eyes.",
+          "pvp_tooltip": "Dispatch deals 30% increased damage and costs 6 less Energy. This damage bonus is increased by 50% while your damage is enhanced by your Between the Eyes.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Dragon-Bone Dice",
@@ -5672,7 +5884,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fan the Hammer",
@@ -5720,15 +5933,33 @@
         "spell_id": 381846,
         "icon": "ability_rogue_pistolshot"
       },
-      "pve_tooltip": "When you gain Opportunity, gain 1 additional charge. Max 6 charges.\nPistol Shot consumes 1 additional charge of Opportunity to fire 1 additional bullet. Additional shots deal 20% reduced damage.\n(500ms cooldown)",
-      "pvp_tooltip": "When you gain Opportunity, gain 1 additional charge. Max 6 charges.\nPistol Shot consumes 1 additional charge of Opportunity to fire 1 additional bullet. Additional shots deal 20% reduced damage.\n(500ms cooldown)",
+      "pve_tooltip": "When you gain Opportunity, gain 2 additional charge. Max 6 charges.\nPistol Shot consumes 2 additional charge of Opportunity to fire 2 additional bullet. Additional shots deal 20% reduced damage.\n(500ms cooldown)",
+      "pvp_tooltip": "When you gain Opportunity, gain 2 additional charge. Max 6 charges.\nPistol Shot consumes 2 additional charge of Opportunity to fire 2 additional bullet. Additional shots deal 20% reduced damage.\n(500ms cooldown)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "When you gain Opportunity, gain 1 additional charge. Max 6 charges.\nPistol Shot consumes 1 additional charge of Opportunity to fire 1 additional bullet. Additional shots deal 20% reduced damage.\n(500ms cooldown)",
+          "pvp_tooltip": "When you gain Opportunity, gain 1 additional charge. Max 6 charges.\nPistol Shot consumes 1 additional charge of Opportunity to fire 1 additional bullet. Additional shots deal 20% reduced damage.\n(500ms cooldown)",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "When you gain Opportunity, gain 2 additional charge. Max 6 charges.\nPistol Shot consumes 2 additional charge of Opportunity to fire 2 additional bullet. Additional shots deal 20% reduced damage.\n(500ms cooldown)",
+          "pvp_tooltip": "When you gain Opportunity, gain 2 additional charge. Max 6 charges.\nPistol Shot consumes 2 additional charge of Opportunity to fire 2 additional bullet. Additional shots deal 20% reduced damage.\n(500ms cooldown)",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Hidden Opportunity",
@@ -5780,7 +6011,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Killing Spree",
@@ -5825,14 +6057,14 @@
         "spell_id": 51690,
         "icon": "inv_112_rogue_betweentheeyes"
       },
-      "pve_tooltip": "45 Energy / 1 to 7 Combo Points\n8 yd range\nChanneled\n3 min cooldown\nFinishing move that unleashes a barrage of gunfire, striking random enemies within 8 yards for Physical damage. Number of strikes increased per combo point.\nRestores 1 combo point every 0.50 sec. Each combo point spent above [\nDeeper Stratagem\n:\n7\n]\n5\nincreases damage by 15%.\n1 point : [((225% of Attack Power) + (225% of Attack Power)) * 2] over 0.50 sec\n2 points: [((225% of Attack Power) + (225% of Attack Power)) * 3] over 1.00 sec\n3 points: [((225% of Attack Power) + (225% of Attack Power)) * 4] over 1.50 sec\n4 points: [((225% of Attack Power) + (225% of Attack Power)) * 5] over 2.00 sec\n5 points: [((225% of Attack Power) + (225% of Attack Power)) * 6] over 2.50 sec\n[ 6 points: [((225% of Attack Power) + (225% of Attack Power)) * 7] over 3.00 sec]\n[ 7 points: [((225% of Attack Power) + (225% of Attack Power)) * 8] over 3.50 sec]",
-      "pvp_tooltip": "45 Energy / 1 to 7 Combo Points\n8 yd range\nChanneled\n3 min cooldown\nFinishing move that unleashes a barrage of gunfire, striking random enemies within 8 yards for Physical damage. Number of strikes increased per combo point.\nRestores 1 combo point every 0.50 sec. Each combo point spent above [\nDeeper Stratagem\n:\n7\n]\n5\nincreases damage by 15%.\n1 point : [((131.6% of Attack Power) + (131.6% of Attack Power)) * 2] over 0.50 sec\n2 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 3] over 1.00 sec\n3 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 4] over 1.50 sec\n4 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 5] over 2.00 sec\n5 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 6] over 2.50 sec\n[ 6 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 7] over 3.00 sec]\n[ 7 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 8] over 3.50 sec]",
+      "pve_tooltip": "45 Energy / 1 to 7 Combo Points\n8 yd range\nChanneled\n3 min cooldown\nFinishing move that unleashes a barrage of gunfire, striking random enemies within 8 yards for Physical damage. Number of strikes increased per combo point.\nRestores 1 combo point every 0.50 sec. Each combo point spent above [Deeper Stratagem: 7]5 increases damage by 15%.\n1 point : [((225% of Attack Power) + (225% of Attack Power)) * 2] over 0.50 sec\n2 points: [((225% of Attack Power) + (225% of Attack Power)) * 3] over 1.00 sec\n3 points: [((225% of Attack Power) + (225% of Attack Power)) * 4] over 1.50 sec\n4 points: [((225% of Attack Power) + (225% of Attack Power)) * 5] over 2.00 sec\n5 points: [((225% of Attack Power) + (225% of Attack Power)) * 6] over 2.50 sec\n[ 6 points: [((225% of Attack Power) + (225% of Attack Power)) * 7] over 3.00 sec]\n[ 7 points: [((225% of Attack Power) + (225% of Attack Power)) * 8] over 3.50 sec]",
+      "pvp_tooltip": "45 Energy / 1 to 7 Combo Points\n8 yd range\nChanneled\n3 min cooldown\nFinishing move that unleashes a barrage of gunfire, striking random enemies within 8 yards for Physical damage. Number of strikes increased per combo point.\nRestores 1 combo point every 0.50 sec. Each combo point spent above [Deeper Stratagem: 7]5 increases damage by 15%.\n1 point : [((131.6% of Attack Power) + (131.6% of Attack Power)) * 2] over 0.50 sec\n2 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 3] over 1.00 sec\n3 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 4] over 1.50 sec\n4 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 5] over 2.00 sec\n5 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 6] over 2.50 sec\n[ 6 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 7] over 3.00 sec]\n[ 7 points: [((131.6% of Attack Power) + (131.6% of Attack Power)) * 8] over 3.50 sec]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 358,
-          "end": 361,
+          "start": 354,
+          "end": 357,
           "old_token": "225",
           "new_token": "131.6",
           "kind": "attack_power_coefficient",
@@ -5841,8 +6073,8 @@
           ]
         },
         {
-          "start": 383,
-          "end": 386,
+          "start": 379,
+          "end": 382,
           "old_token": "225",
           "new_token": "131.6",
           "kind": "attack_power_coefficient",
@@ -5851,8 +6083,8 @@
           ]
         },
         {
-          "start": 438,
-          "end": 441,
+          "start": 434,
+          "end": 437,
           "old_token": "225",
           "new_token": "131.6",
           "kind": "attack_power_coefficient",
@@ -5861,8 +6093,8 @@
           ]
         },
         {
-          "start": 463,
-          "end": 466,
+          "start": 459,
+          "end": 462,
           "old_token": "225",
           "new_token": "131.6",
           "kind": "attack_power_coefficient",
@@ -5871,8 +6103,8 @@
           ]
         },
         {
-          "start": 518,
-          "end": 521,
+          "start": 514,
+          "end": 517,
           "old_token": "225",
           "new_token": "131.6",
           "kind": "attack_power_coefficient",
@@ -5881,8 +6113,8 @@
           ]
         },
         {
-          "start": 543,
-          "end": 546,
+          "start": 539,
+          "end": 542,
           "old_token": "225",
           "new_token": "131.6",
           "kind": "attack_power_coefficient",
@@ -5891,8 +6123,8 @@
           ]
         },
         {
-          "start": 598,
-          "end": 601,
+          "start": 594,
+          "end": 597,
           "old_token": "225",
           "new_token": "131.6",
           "kind": "attack_power_coefficient",
@@ -5901,8 +6133,8 @@
           ]
         },
         {
-          "start": 623,
-          "end": 626,
+          "start": 619,
+          "end": 622,
           "old_token": "225",
           "new_token": "131.6",
           "kind": "attack_power_coefficient",
@@ -5911,8 +6143,8 @@
           ]
         },
         {
-          "start": 678,
-          "end": 681,
+          "start": 674,
+          "end": 677,
           "old_token": "225",
           "new_token": "131.6",
           "kind": "attack_power_coefficient",
@@ -5921,8 +6153,8 @@
           ]
         },
         {
-          "start": 703,
-          "end": 706,
+          "start": 699,
+          "end": 702,
           "old_token": "225",
           "new_token": "131.6",
           "kind": "attack_power_coefficient",
@@ -5931,8 +6163,8 @@
           ]
         },
         {
-          "start": 760,
-          "end": 763,
+          "start": 756,
+          "end": 759,
           "old_token": "225",
           "new_token": "131.6",
           "kind": "attack_power_coefficient",
@@ -5941,8 +6173,8 @@
           ]
         },
         {
-          "start": 785,
-          "end": 788,
+          "start": 781,
+          "end": 784,
           "old_token": "225",
           "new_token": "131.6",
           "kind": "attack_power_coefficient",
@@ -5951,8 +6183,8 @@
           ]
         },
         {
-          "start": 843,
-          "end": 846,
+          "start": 839,
+          "end": 842,
           "old_token": "225",
           "new_token": "131.6",
           "kind": "attack_power_coefficient",
@@ -5961,8 +6193,8 @@
           ]
         },
         {
-          "start": 868,
-          "end": 871,
+          "start": 864,
+          "end": 867,
           "old_token": "225",
           "new_token": "131.6",
           "kind": "attack_power_coefficient",
@@ -6217,7 +6449,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Keep It Rolling",
@@ -6269,7 +6502,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fast Action",
@@ -6322,7 +6556,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Preparation",
@@ -6374,7 +6609,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gravedigger",
@@ -6424,7 +6660,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gravedigger",
@@ -6529,7 +6766,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gravedigger",
@@ -6579,7 +6817,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hand of Fate",
@@ -6696,7 +6935,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Chosen's Revelry",
@@ -6750,7 +6990,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tempted Fate",
@@ -6804,7 +7045,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mean Streak",
@@ -6858,7 +7100,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Inexorable March",
@@ -6912,7 +7155,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Death's Arrival",
@@ -7027,7 +7271,8 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sometimes Lucky",
@@ -7081,7 +7326,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Deal Fate",
@@ -7127,15 +7373,16 @@
         "spell_id": 454419,
         "icon": "ability_rogue_preparation"
       },
-      "pve_tooltip": "Sinister Strike generates 1 additional combo point\nwhen it grants Opportunity.",
-      "pvp_tooltip": "Sinister Strike generates 1 additional combo point\nwhen it grants Opportunity.",
+      "pve_tooltip": "Sinister Strike generates 1 additional combo point when it grants Opportunity.",
+      "pvp_tooltip": "Sinister Strike generates 1 additional combo point when it grants Opportunity.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fate Intertwined",
@@ -7189,7 +7436,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Edge Case",
@@ -7243,7 +7491,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Controlled Chaos",
@@ -7297,7 +7546,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Delivered Doom",
@@ -7351,7 +7601,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Overflowing Purse",
@@ -7405,7 +7656,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Destiny Defined",
@@ -7459,7 +7711,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rush to the Inevitable",
@@ -7513,7 +7766,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ravenholdt Mint",
@@ -7567,7 +7821,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lucky Coin",
@@ -7622,7 +7877,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unseen Blade",
@@ -7669,8 +7925,8 @@
         "spell_id": 441146,
         "icon": "inv_weapon_shortblade_55"
       },
-      "pve_tooltip": "Sinister Strike and Ambush now also strike with an Unseen Blade dealing (280% of Attack Power) damage. Targets struck are Fazed for 10 sec.\nFazed enemies take\n5\n% more damage from you and cannot parry your attacks.\nThis effect may occur once every 20 sec.\n(750ms cooldown)",
-      "pvp_tooltip": "Sinister Strike and Ambush now also strike with an Unseen Blade dealing (263.2% of Attack Power) damage. Targets struck are Fazed for 10 sec.\nFazed enemies take\n5\n% more damage from you and cannot parry your attacks.\nThis effect may occur once every 20 sec.\n(750ms cooldown)",
+      "pve_tooltip": "Sinister Strike and Ambush now also strike with an Unseen Blade dealing (280% of Attack Power) damage. Targets struck are Fazed for 10 sec.\nFazed enemies take 5% more damage from you and cannot parry your attacks.\nThis effect may occur once every 20 sec.\n(750ms cooldown)",
+      "pvp_tooltip": "Sinister Strike and Ambush now also strike with an Unseen Blade dealing (263.2% of Attack Power) damage. Targets struck are Fazed for 10 sec.\nFazed enemies take 5% more damage from you and cannot parry your attacks.\nThis effect may occur once every 20 sec.\n(750ms cooldown)",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -7737,7 +7993,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Surprising Strikes",
@@ -7791,7 +8048,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Smoke",
@@ -7845,7 +8103,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mirrors",
@@ -7899,7 +8158,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flawless Form",
@@ -7953,7 +8213,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hoodwink",
@@ -8007,7 +8268,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "So Tricky",
@@ -8061,7 +8323,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Don't Be Suspicious",
@@ -8162,7 +8425,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Devious Distractions",
@@ -8216,7 +8480,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thousand Cuts",
@@ -8262,15 +8527,16 @@
         "spell_id": 441346,
         "icon": "inv_10_specialization_blacksmithing_blades_color1"
       },
-      "pve_tooltip": "Approximately\n4.5\nprocs per minute\nSlice and Dice grants 10% additional attack speed and gives your auto-attacks a chance to refresh your opportunity to strike with Unseen Blade.",
-      "pvp_tooltip": "Approximately\n4.5\nprocs per minute\nSlice and Dice grants 10% additional attack speed and gives your auto-attacks a chance to refresh your opportunity to strike with Unseen Blade.",
+      "pve_tooltip": "Approximately 4.5 procs per minute\nSlice and Dice grants 10% additional attack speed and gives your auto-attacks a chance to refresh your opportunity to strike with Unseen Blade.",
+      "pvp_tooltip": "Approximately 4.5 procs per minute\nSlice and Dice grants 10% additional attack speed and gives your auto-attacks a chance to refresh your opportunity to strike with Unseen Blade.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flickerstrike",
@@ -8324,7 +8590,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flashing Steel",
@@ -8378,7 +8645,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Disorienting Strikes",
@@ -8432,7 +8700,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cloud Cover",
@@ -8486,7 +8755,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "No Scruples",
@@ -8540,7 +8810,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Nimble Flurry",
@@ -8594,7 +8865,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Clever Combatant",
@@ -8648,7 +8920,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Coup de Grace",
@@ -8703,13 +8976,14 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     }
   ],
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "rogue-outlaw",
-  "generated_at": "2026-09-20T12:52:46.490851+00:00",
+  "generated_at": "2026-09-20T20:02:19.138053+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 11,

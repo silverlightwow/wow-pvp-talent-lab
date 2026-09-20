@@ -50,8 +50,8 @@
         "spell_id": 235313,
         "icon": "ability_mage_moltenarmor"
       },
-      "pve_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you in flame, absorbing [30 / 100 * Total Health * (1 + Versatility)] damage [\nMolten Skin\n:\nand reducing Physical damage taken by 0%\n] for 1 min.\nMelee attacks against you cause the attacker to take (14.375% of Spell Power) Fire damage.",
-      "pvp_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you in flame, absorbing [22.5 / 100 * Total Health * (1 + Versatility)] damage [\nMolten Skin\n:\nand reducing Physical damage taken by 0%\n] for 1 min.\nMelee attacks against you cause the attacker to take (13.0812% of Spell Power) Fire damage.",
+      "pve_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you in flame, absorbing [30 / 100 * Total Health * (1 + Versatility)] damage [Molten Skin: and reducing Physical damage taken by 0%] for 1 min.\nMelee attacks against you cause the attacker to take (14.375% of Spell Power) Fire damage.",
+      "pvp_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you in flame, absorbing [22.5 / 100 * Total Health * (1 + Versatility)] damage [Molten Skin: and reducing Physical damage taken by 0%] for 1 min.\nMelee attacks against you cause the attacker to take (13.0812% of Spell Power) Fire damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -66,8 +66,8 @@
           ]
         },
         {
-          "start": 258,
-          "end": 264,
+          "start": 255,
+          "end": 261,
           "old_token": "14.375",
           "new_token": "13.0812",
           "kind": "spell_power_coefficient",
@@ -186,7 +186,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Alter Time",
@@ -241,7 +242,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ice Block",
@@ -296,7 +298,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Time Walk",
@@ -350,7 +353,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Temporal Realignment",
@@ -404,7 +408,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Master of Time",
@@ -451,15 +456,33 @@
         "spell_id": 342249,
         "icon": "inv_belt_armor_waistoftime_d_01"
       },
-      "pve_tooltip": "Reduces the cooldown of\nAlter Time\nby 5 sec.",
-      "pvp_tooltip": "Reduces the cooldown of\nAlter Time\nby 5 sec.",
+      "pve_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Reduces the cooldown of Alter Time by 5 sec.",
+          "pvp_tooltip": "Reduces the cooldown of Alter Time by 5 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
+          "pvp_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Winter's Protection",
@@ -506,8 +529,8 @@
         "spell_id": 382424,
         "icon": "spell_ice_rune"
       },
-      "pve_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
-      "pvp_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
+      "pve_tooltip": "The cooldown of Ice Block is reduced by 60 sec.",
+      "pvp_tooltip": "The cooldown of Ice Block is reduced by 60 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -518,8 +541,8 @@
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
           "kind": "ordinary_value",
-          "old": 30000.0,
-          "new": 15000.0,
+          "old": 60000.0,
+          "new": 30000.0,
           "full_tooltip_match_count": 0
         }
       ],
@@ -559,7 +582,25 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
+          "pvp_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "The cooldown of Ice Block is reduced by 60 sec.",
+          "pvp_tooltip": "The cooldown of Ice Block is reduced by 60 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Frost Conditioning",
@@ -613,7 +654,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Arcane Warding",
@@ -661,15 +703,33 @@
         "spell_id": 383092,
         "icon": "spell_arcane_arcaneresilience"
       },
-      "pve_tooltip": "Reduces magic damage taken by 4%.",
-      "pvp_tooltip": "Reduces magic damage taken by 4%.",
+      "pve_tooltip": "Reduces magic damage taken by 8%.",
+      "pvp_tooltip": "Reduces magic damage taken by 8%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Reduces magic damage taken by 4%.",
+          "pvp_tooltip": "Reduces magic damage taken by 4%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Reduces magic damage taken by 8%.",
+          "pvp_tooltip": "Reduces magic damage taken by 8%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Inspired Intellect",
@@ -726,7 +786,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mirror Image",
@@ -782,7 +843,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spellsteal",
@@ -829,15 +891,16 @@
         "spell_id": 30449,
         "icon": "spell_arcane_arcane02"
       },
-      "pve_tooltip": "21% of base mana\n40 yd range\nInstant\nSteals [\nKleptomania\n:\nall beneficial magic effects from the target. These effects lasts a maximum of 2 min\n/ a beneficial magic effect from the target. This effect lasts a maximum of 2 min].",
-      "pvp_tooltip": "21% of base mana\n40 yd range\nInstant\nSteals [\nKleptomania\n:\nall beneficial magic effects from the target. These effects lasts a maximum of 2 min\n/ a beneficial magic effect from the target. This effect lasts a maximum of 2 min].",
+      "pve_tooltip": "21% of base mana\n40 yd range\nInstant\nSteals [Kleptomania: all beneficial magic effects from the target. These effects lasts a maximum of 2 min / a beneficial magic effect from the target. This effect lasts a maximum of 2 min].",
+      "pvp_tooltip": "21% of base mana\n40 yd range\nInstant\nSteals [Kleptomania: all beneficial magic effects from the target. These effects lasts a maximum of 2 min / a beneficial magic effect from the target. This effect lasts a maximum of 2 min].",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Quick Witted",
@@ -894,7 +957,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dragon's Breath",
@@ -1003,7 +1067,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Supernova",
@@ -1112,7 +1177,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Remove Curse",
@@ -1169,7 +1235,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Conjuration",
@@ -1215,31 +1282,21 @@
         "spell_id": 1244025,
         "icon": "spell_arcane_focusedpower"
       },
-      "pve_tooltip": "Mirror Image's cooldown is reduced by 30 sec.",
-      "pvp_tooltip": "Mirror Image's cooldown is reduced by 15 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 38,
-          "end": 40,
-          "old_token": "30",
-          "new_token": "15",
-          "kind": "duration_seconds",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
+      "pve_tooltip": "Mirror Image's cooldown is reduced by 60 sec.",
+      "pvp_tooltip": "Mirror Image's cooldown is reduced by 60 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "APPLIED",
-          "kind": "duration_seconds",
-          "old": "30",
-          "new": "15"
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 60000.0,
+          "new": 30000.0,
+          "full_tooltip_match_count": 0
         }
       ],
       "has_pvp_mechanics": true,
@@ -1270,7 +1327,25 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Mirror Image's cooldown is reduced by 30 sec.",
+          "pvp_tooltip": "Mirror Image's cooldown is reduced by 30 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Mirror Image's cooldown is reduced by 60 sec.",
+          "pvp_tooltip": "Mirror Image's cooldown is reduced by 60 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Improved Spellsteal",
@@ -1420,7 +1495,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shimmer",
@@ -1469,8 +1545,8 @@
         "spell_id": 212653,
         "icon": "spell_arcane_massdispel"
       },
-      "pve_tooltip": "Replaces\nBlink\n2% of base mana\nInstant\n30 sec cooldown\n1 Charge\nTeleports you 20 yds forward, unless something is in the way. Unaffected by the global cooldown and castable while casting.",
-      "pvp_tooltip": "Replaces\nBlink\n2% of base mana\nInstant\n30 sec cooldown\n1 Charge\nTeleports you 20 yds forward, unless something is in the way. Unaffected by the global cooldown and castable while casting.",
+      "pve_tooltip": "Replaces Blink\n2% of base mana\nInstant\n30 sec cooldown\n1 Charge\nTeleports you 20 yds forward, unless something is in the way. Unaffected by the global cooldown and castable while casting.",
+      "pvp_tooltip": "Replaces Blink\n2% of base mana\nInstant\n30 sec cooldown\n1 Charge\nTeleports you 20 yds forward, unless something is in the way. Unaffected by the global cooldown and castable while casting.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1518,7 +1594,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Blink",
@@ -1567,8 +1644,8 @@
         "spell_id": 1244340,
         "icon": "spell_arcane_blink"
       },
-      "pve_tooltip": "[\nShimmer\n/ Blink]'s cooldown is reduced by 2 sec.",
-      "pvp_tooltip": "[\nShimmer\n/ Blink]'s cooldown is reduced by 2 sec.",
+      "pve_tooltip": "[Shimmer / Blink]'s cooldown is reduced by 2 sec.",
+      "pvp_tooltip": "[Shimmer / Blink]'s cooldown is reduced by 2 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1612,7 +1689,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Counterspell",
@@ -1666,7 +1744,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Overflowing Energy",
@@ -1724,7 +1803,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Remove Curse",
@@ -1778,7 +1858,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Greater Invisibility",
@@ -1835,7 +1916,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Frost Nova",
@@ -1890,7 +1972,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ice Ward",
@@ -1945,7 +2028,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Captured Thoughts",
@@ -1999,7 +2083,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tome of Rhonin",
@@ -2057,7 +2142,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Warding",
@@ -2111,7 +2197,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tome of Antonidas",
@@ -2169,7 +2256,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Incantation of Swiftness",
@@ -2215,16 +2303,16 @@
         "spell_id": 382293,
         "icon": "rogue_burstofspeed"
       },
-      "pve_tooltip": "[\nGreater Invisibility\n:\nGreater\n]Invisibility increases your movement speed by 20% for 6 sec.",
-      "pvp_tooltip": "[\nGreater Invisibility\n:\nGreater\n]Invisibility increases your movement speed by 10% for 6 sec.",
+      "pve_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 40% for 6 sec.",
+      "pvp_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 20% for 6 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 80,
-          "end": 82,
-          "old_token": "20",
-          "new_token": "10",
+          "start": 77,
+          "end": 79,
+          "old_token": "40",
+          "new_token": "20",
           "kind": "percent_value",
           "effect_indexes": [
             1
@@ -2238,8 +2326,8 @@
           ],
           "status": "APPLIED",
           "kind": "percent_value",
-          "old": "20",
-          "new": "10"
+          "old": "40",
+          "new": "20"
         }
       ],
       "has_pvp_mechanics": true,
@@ -2270,7 +2358,25 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 20% for 6 sec.",
+          "pvp_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 10% for 6 sec.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 40% for 6 sec.",
+          "pvp_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 20% for 6 sec.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Master of Escape",
@@ -2324,7 +2430,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Charm of Aegwynn",
@@ -2382,7 +2489,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Brainstorm",
@@ -2436,7 +2544,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flow of Time",
@@ -2555,7 +2664,8 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mana Confluence",
@@ -2609,7 +2719,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Charm of Medivh",
@@ -2667,7 +2778,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Permafrost Bauble",
@@ -2721,7 +2833,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Freezing Cold",
@@ -2827,7 +2940,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ice Nova",
@@ -2936,7 +3050,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Time Manipulation",
@@ -2993,7 +3108,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ring of Frost",
@@ -3099,7 +3215,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mass Polymorph",
@@ -3153,7 +3270,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Energized Barriers",
@@ -3210,7 +3328,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mass Invisibility",
@@ -3264,7 +3383,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Barrier Diffusion",
@@ -3355,7 +3475,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ice Cold",
@@ -3409,7 +3530,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spatial Manipulation",
@@ -3455,15 +3577,16 @@
         "spell_id": 1244031,
         "icon": "spell_mage_overpowered"
       },
-      "pve_tooltip": "[\nShimmer\n/ Blink] gains an additional charge.",
-      "pvp_tooltip": "[\nShimmer\n/ Blink] gains an additional charge.",
+      "pve_tooltip": "[Shimmer / Blink] gains an additional charge.",
+      "pvp_tooltip": "[Shimmer / Blink] gains an additional charge.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Reflection",
@@ -3509,15 +3632,16 @@
         "spell_id": 1270829,
         "icon": "ability_hunter_displacement"
       },
-      "pve_tooltip": "Teleports you back to where you last [\nShimmer\n:\nShimmered\n/ Blinked]. Castable while casting and unaffected by the global cooldown.",
-      "pvp_tooltip": "Teleports you back to where you last [\nShimmer\n:\nShimmered\n/ Blinked]. Castable while casting and unaffected by the global cooldown.",
+      "pve_tooltip": "After casting [Shimmer / Blink], it is replaced with Reflection for 8 sec.\nReflection\nTeleports you back to where you last [Shimmer: Shimmered / Blinked]. Castable while casting and unaffected by the global cooldown.",
+      "pvp_tooltip": "After casting [Shimmer / Blink], it is replaced with Reflection for 8 sec.\nReflection\nTeleports you back to where you last [Shimmer: Shimmered / Blinked]. Castable while casting and unaffected by the global cooldown.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Blazing Barrier",
@@ -3571,7 +3695,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pyroblast",
@@ -3617,8 +3742,8 @@
         "spell_id": 11366,
         "icon": "spell_fire_fireball02"
       },
-      "pve_tooltip": "1.5% of base mana\n40 yd range\n4 sec cast\nHurls an immense fiery boulder that causes (638.8% of Spell Power) Fire damage\n.",
-      "pvp_tooltip": "1.5% of base mana\n40 yd range\n4 sec cast\nHurls an immense fiery boulder that causes (863.2424% of Spell Power) Fire damage\n.",
+      "pve_tooltip": "1.5% of base mana\n40 yd range\n4 sec cast\nHurls an immense fiery boulder that causes (638.8% of Spell Power) Fire damage.",
+      "pvp_tooltip": "1.5% of base mana\n40 yd range\n4 sec cast\nHurls an immense fiery boulder that causes (863.2424% of Spell Power) Fire damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3720,7 +3845,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fire Blast",
@@ -3767,8 +3893,8 @@
         "spell_id": 108853,
         "icon": "spell_fire_fireball"
       },
-      "pve_tooltip": "1% of base mana\n40 yd range\nInstant\n14 sec cooldown\n1 Charge\nBlasts the enemy, critically striking for [(98.625% of Spell Power) * 2]\ndamage.\nCastable while casting other spells.",
-      "pvp_tooltip": "1% of base mana\n40 yd range\nInstant\n14 sec cooldown\n1 Charge\nBlasts the enemy, critically striking for [(82.5689% of Spell Power) * 2]\ndamage.\nCastable while casting other spells.",
+      "pve_tooltip": "1% of base mana\n40 yd range\nInstant\n14 sec cooldown\n1 Charge\nBlasts the enemy, critically striking for [(98.625% of Spell Power) * 2] Fire damage.\nCastable while casting other spells.",
+      "pvp_tooltip": "1% of base mana\n40 yd range\nInstant\n14 sec cooldown\n1 Charge\nBlasts the enemy, critically striking for [(82.5689% of Spell Power) * 2] Fire damage.\nCastable while casting other spells.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3832,7 +3958,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Firestarter",
@@ -3884,7 +4011,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flamestrike",
@@ -4051,7 +4179,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flamestrike",
@@ -4218,7 +4347,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ignition",
@@ -4272,7 +4402,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Combustion",
@@ -4319,15 +4450,16 @@
         "spell_id": 190319,
         "icon": "spell_fire_sealoffire"
       },
-      "pve_tooltip": "10% of base mana\nInstant\n2 min cooldown\nEngulfs you in flames for 10 sec, increasing your spells' critical strike chance by 100%.\n[\nAdditionally, increases your spell damage by 0%.]\nCastable while casting other spells.\nAdditionally, increases your Mastery by 75% of your critical strike chance.",
-      "pvp_tooltip": "10% of base mana\nInstant\n2 min cooldown\nEngulfs you in flames for 10 sec, increasing your spells' critical strike chance by 100%.\n[\nAdditionally, increases your spell damage by 0%.]\nCastable while casting other spells.\nAdditionally, increases your Mastery by 75% of your critical strike chance.",
+      "pve_tooltip": "10% of base mana\nInstant\n2 min cooldown\nEngulfs you in flames for 10 sec, increasing your spells' critical strike chance by 100%.\n[Additionally, increases your spell damage by 0%.]\nCastable while casting other spells.\nAdditionally, increases your Mastery by 75% of your critical strike chance.",
+      "pvp_tooltip": "10% of base mana\nInstant\n2 min cooldown\nEngulfs you in flames for 10 sec, increasing your spells' critical strike chance by 100%.\n[Additionally, increases your spell damage by 0%.]\nCastable while casting other spells.\nAdditionally, increases your Mastery by 75% of your critical strike chance.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fuel the Fire",
@@ -4381,7 +4513,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fervent Flickering",
@@ -4436,7 +4569,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cauterize",
@@ -4492,7 +4626,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Meteor",
@@ -4668,7 +4803,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Scorch",
@@ -4780,7 +4916,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flame On",
@@ -4836,7 +4973,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Kindling",
@@ -4890,7 +5028,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Critical Mass",
@@ -4938,15 +5077,33 @@
         "spell_id": 117216,
         "icon": "spell_fire_volcano"
       },
-      "pve_tooltip": "Your spells have a 4% increased chance to deal a critical strike.\nYou gain 10% more of the Critical Strike stat from all sources.",
-      "pvp_tooltip": "Your spells have a 4% increased chance to deal a critical strike.\nYou gain 10% more of the Critical Strike stat from all sources.",
+      "pve_tooltip": "Your spells have a 8% increased chance to deal a critical strike.\nYou gain 20% more of the Critical Strike stat from all sources.",
+      "pvp_tooltip": "Your spells have a 8% increased chance to deal a critical strike.\nYou gain 20% more of the Critical Strike stat from all sources.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Your spells have a 4% increased chance to deal a critical strike.\nYou gain 10% more of the Critical Strike stat from all sources.",
+          "pvp_tooltip": "Your spells have a 4% increased chance to deal a critical strike.\nYou gain 10% more of the Critical Strike stat from all sources.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Your spells have a 8% increased chance to deal a critical strike.\nYou gain 20% more of the Critical Strike stat from all sources.",
+          "pvp_tooltip": "Your spells have a 8% increased chance to deal a critical strike.\nYou gain 20% more of the Critical Strike stat from all sources.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Deep Impact",
@@ -5001,7 +5158,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Heat Shimmer",
@@ -5047,8 +5205,8 @@
         "spell_id": 457735,
         "icon": "ability_rhyolith_magmaflow_wave"
       },
-      "pve_tooltip": "Approximately\n3\nprocs per minute\nWhile Combustion is not active, damage from Ignite has a small chance to make your next Scorch instant, deal 100% increased damage, and deal damage as though your target was below 30% health.",
-      "pvp_tooltip": "Approximately\n3\nprocs per minute\nWhile Combustion is not active, damage from Ignite has a small chance to make your next Scorch instant, deal 25% increased damage, and deal damage as though your target was below 30% health.",
+      "pve_tooltip": "Approximately 3 procs per minute\nWhile Combustion is not active, damage from Ignite has a small chance to make your next Scorch instant, deal 100% increased damage, and deal damage as though your target was below 30% health.",
+      "pvp_tooltip": "Approximately 3 procs per minute\nWhile Combustion is not active, damage from Ignite has a small chance to make your next Scorch instant, deal 25% increased damage, and deal damage as though your target was below 30% health.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -5107,7 +5265,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Scald",
@@ -5164,7 +5323,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Controlled Destruction",
@@ -5220,7 +5380,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mote of Flame",
@@ -5277,7 +5438,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blast Zone",
@@ -5331,7 +5493,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Conflagration",
@@ -5425,7 +5588,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Intensifying Flame",
@@ -5480,7 +5644,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spontaneous Combustion",
@@ -5528,15 +5693,33 @@
         "spell_id": 451875,
         "icon": "ability_mage_worldinflames"
       },
-      "pve_tooltip": "Casting Combustion refreshes up to 1 charge of Fire Blast.",
-      "pvp_tooltip": "Casting Combustion refreshes up to 1 charge of Fire Blast.",
+      "pve_tooltip": "Casting Combustion refreshes up to 2 charge of Fire Blast.",
+      "pvp_tooltip": "Casting Combustion refreshes up to 2 charge of Fire Blast.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Casting Combustion refreshes up to 1 charge of Fire Blast.",
+          "pvp_tooltip": "Casting Combustion refreshes up to 1 charge of Fire Blast.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Casting Combustion refreshes up to 2 charge of Fire Blast.",
+          "pvp_tooltip": "Casting Combustion refreshes up to 2 charge of Fire Blast.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Molten Fury",
@@ -5670,7 +5853,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Inflame",
@@ -5725,7 +5909,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wildfire",
@@ -5773,15 +5958,33 @@
         "spell_id": 1254828,
         "icon": "ability_warlock_inferno"
       },
-      "pve_tooltip": "Fire Blast damage increased by 10% and it now spreads Ignite to 1 additional target.",
-      "pvp_tooltip": "Fire Blast damage increased by 10% and it now spreads Ignite to 1 additional target.",
+      "pve_tooltip": "Fire Blast damage increased by 20% and it now spreads Ignite to 2 additional target.",
+      "pvp_tooltip": "Fire Blast damage increased by 20% and it now spreads Ignite to 2 additional target.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Fire Blast damage increased by 10% and it now spreads Ignite to 1 additional target.",
+          "pvp_tooltip": "Fire Blast damage increased by 10% and it now spreads Ignite to 1 additional target.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Fire Blast damage increased by 20% and it now spreads Ignite to 2 additional target.",
+          "pvp_tooltip": "Fire Blast damage increased by 20% and it now spreads Ignite to 2 additional target.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Fevered Incantation",
@@ -5831,8 +6034,8 @@
         "spell_id": 383810,
         "icon": "inv_misc_enchantedpearld"
       },
-      "pve_tooltip": "Each consecutive critical strike you deal increases critical strike damage you deal by 1%, up to 4% for 6 sec.",
-      "pvp_tooltip": "Each consecutive critical strike you deal increases critical strike damage you deal by 1%, up to 4% for 6 sec.",
+      "pve_tooltip": "Each consecutive critical strike you deal increases critical strike damage you deal by 2%, up to 8% for 6 sec.",
+      "pvp_tooltip": "Each consecutive critical strike you deal increases critical strike damage you deal by 2%, up to 8% for 6 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5870,7 +6073,25 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Each consecutive critical strike you deal increases critical strike damage you deal by 1%, up to 4% for 6 sec.",
+          "pvp_tooltip": "Each consecutive critical strike you deal increases critical strike damage you deal by 1%, up to 4% for 6 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Each consecutive critical strike you deal increases critical strike damage you deal by 2%, up to 8% for 6 sec.",
+          "pvp_tooltip": "Each consecutive critical strike you deal increases critical strike damage you deal by 2%, up to 8% for 6 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Fire's Ire",
@@ -5918,15 +6139,33 @@
         "spell_id": 450831,
         "icon": "achievement_boss_lordanthricyst"
       },
-      "pve_tooltip": "Your spell critical strike chance is increased by 2.5%.\nCombustion increases your critical strike damage by 2.5%.",
-      "pvp_tooltip": "Your spell critical strike chance is increased by 2.5%.\nCombustion increases your critical strike damage by 2.5%.",
+      "pve_tooltip": "Your spell critical strike chance is increased by 5%.\nCombustion increases your critical strike damage by 5%.",
+      "pvp_tooltip": "Your spell critical strike chance is increased by 5%.\nCombustion increases your critical strike damage by 5%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Your spell critical strike chance is increased by 2.5%.\nCombustion increases your critical strike damage by 2.5%.",
+          "pvp_tooltip": "Your spell critical strike chance is increased by 2.5%.\nCombustion increases your critical strike damage by 2.5%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Your spell critical strike chance is increased by 5%.\nCombustion increases your critical strike damage by 5%.",
+          "pvp_tooltip": "Your spell critical strike chance is increased by 5%.\nCombustion increases your critical strike damage by 5%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Master of Flame",
@@ -5980,7 +6219,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "From the Ashes",
@@ -6036,7 +6276,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fiery Rush",
@@ -6121,7 +6362,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flame Accelerant",
@@ -6177,7 +6419,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pyromaniac",
@@ -6231,7 +6474,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Burnout",
@@ -6330,7 +6574,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Feel the Burn",
@@ -6382,7 +6627,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Slow Burn",
@@ -6436,7 +6682,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Burn It All",
@@ -6562,7 +6809,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pyroclasm",
@@ -6614,7 +6862,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cinderstorm",
@@ -6726,7 +6975,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fired Up",
@@ -6828,7 +7078,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fired Up",
@@ -6878,7 +7129,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fired Up",
@@ -6928,7 +7180,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frostfire Bolt",
@@ -7173,7 +7426,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Imbued Warding",
@@ -7299,7 +7553,8 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Meltdown",
@@ -7353,7 +7608,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frostfire Empowerment",
@@ -7562,7 +7818,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 4
+      "render_effect_count": 4,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Elemental Affinity",
@@ -7616,7 +7873,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flame and Frost",
@@ -7670,7 +7928,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Duality",
@@ -7836,7 +8095,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Heat Sink",
@@ -7890,7 +8150,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thermal Conditioning",
@@ -7944,7 +8205,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Severe Temperatures",
@@ -7998,7 +8260,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dualcasting Adept",
@@ -8052,7 +8315,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Molten Chill",
@@ -8106,7 +8370,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frostfire Infusion",
@@ -8160,7 +8425,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flash Freezeburn",
@@ -8214,7 +8480,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blast Radius",
@@ -8268,7 +8535,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Elemental Conduit",
@@ -8322,7 +8590,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Isothermic Core",
@@ -8722,7 +8991,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 6
+      "render_effect_count": 6,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spellfire Spheres",
@@ -8866,7 +9136,8 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mana Cascade",
@@ -8920,7 +9191,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Invocation: Arcane Phoenix",
@@ -8974,7 +9246,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Burden of Power",
@@ -9028,7 +9301,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Glorious Incandescence",
@@ -9123,7 +9397,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Merely a Setback",
@@ -9347,7 +9622,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Time Twist",
@@ -9401,7 +9677,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Codex of the Sunstriders",
@@ -9455,7 +9732,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lessons in Debilitation",
@@ -9509,7 +9787,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Explosive Potential",
@@ -9555,8 +9834,8 @@
         "spell_id": 1246030,
         "icon": "6bf_explosive_shard"
       },
-      "pve_tooltip": "After casting Combustion, your next\nBlink\nwill cause a Blast Wave at your previous location, dealing (54.3375% of Spell Power) Fire damage, knocking enemies back 8 yds, and slowing them by 70% for 6 sec.",
-      "pvp_tooltip": "After casting Combustion, your next\nBlink\nwill cause a Blast Wave at your previous location, dealing (49.4471% of Spell Power) Fire damage, knocking enemies back 8 yds, and slowing them by 70% for 6 sec.",
+      "pve_tooltip": "After casting Combustion, your next Blink will cause a Blast Wave at your previous location, dealing (54.3375% of Spell Power) Fire damage, knocking enemies back 8 yds, and slowing them by 70% for 6 sec.",
+      "pvp_tooltip": "After casting Combustion, your next Blink will cause a Blast Wave at your previous location, dealing (49.4471% of Spell Power) Fire damage, knocking enemies back 8 yds, and slowing them by 70% for 6 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -9652,7 +9931,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pyrocosm",
@@ -9706,7 +9986,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Savor the Moment",
@@ -9760,7 +10041,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sunfury Execution",
@@ -9814,7 +10096,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ashes of Inspiration",
@@ -9868,7 +10151,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rondurmancy",
@@ -9922,7 +10206,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spellfire Salvo",
@@ -9976,7 +10261,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Memory of Al'ar",
@@ -10023,15 +10309,16 @@
         "spell_id": 449619,
         "icon": "inv_ability_sunfurymage_spellfirespheres"
       },
-      "pve_tooltip": "When your Arcane Phoenix expires it empowers you, granting Hyperthermia for 4.0 sec.\nHyperthermia\n:\nPyroblast and Flamestrike have no cast time, are guaranteed to critically strike, and increase the damage of Pyroblast and Flamestrike by 15%.",
-      "pvp_tooltip": "When your Arcane Phoenix expires it empowers you, granting Hyperthermia for 4.0 sec.\nHyperthermia\n:\nPyroblast and Flamestrike have no cast time, are guaranteed to critically strike, and increase the damage of Pyroblast and Flamestrike by 15%.",
+      "pve_tooltip": "When your Arcane Phoenix expires it empowers you, granting Hyperthermia for 4.0 sec.\nHyperthermia:\nPyroblast and Flamestrike have no cast time, are guaranteed to critically strike, and increase the damage of Pyroblast and Flamestrike by 15%.",
+      "pvp_tooltip": "When your Arcane Phoenix expires it empowers you, granting Hyperthermia for 4.0 sec.\nHyperthermia:\nPyroblast and Flamestrike have no cast time, are guaranteed to critically strike, and increase the damage of Pyroblast and Flamestrike by 15%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     }
   ],
   "fetch_errors": [],
@@ -10067,10 +10354,10 @@
     }
   ],
   "slug": "mage-fire",
-  "generated_at": "2026-09-20T12:51:03.244492+00:00",
+  "generated_at": "2026-09-20T20:00:22.485364+00:00",
   "validation": {
     "talents": 127,
-    "changed_tooltips": 25,
+    "changed_tooltips": 24,
     "talents_with_pvp_mechanics": 38,
     "unique_nodes": 110,
     "tree_build": "12.1.0.69875",

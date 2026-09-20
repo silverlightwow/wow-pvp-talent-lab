@@ -50,8 +50,8 @@
         "spell_id": 386164,
         "icon": "ability_warrior_offensivestance"
       },
-      "pve_tooltip": "Instant\n3 sec cooldown\nA balanced combat state that increases the critical strike chance of your abilities by 3%\nand reduces the duration of movement impairing effects by 10%.\nLasts until canceled.",
-      "pvp_tooltip": "Instant\n3 sec cooldown\nA balanced combat state that increases the critical strike chance of your abilities by 3%\nand reduces the duration of movement impairing effects by 25%.\nLasts until canceled.",
+      "pve_tooltip": "Instant\n3 sec cooldown\nA balanced combat state that increases the critical strike chance of your abilities by 3% and reduces the duration of movement impairing effects by 10%.\nLasts until canceled.",
+      "pvp_tooltip": "Instant\n3 sec cooldown\nA balanced combat state that increases the critical strike chance of your abilities by 3% and reduces the duration of movement impairing effects by 25%.\nLasts until canceled.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -130,7 +130,8 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Defensive Stance",
@@ -175,8 +176,8 @@
         "spell_id": 386208,
         "icon": "ability_warrior_defensivestance"
       },
-      "pve_tooltip": "Instant\n3 sec cooldown\nA defensive combat state that reduces all damage you take by 15%\n.\nLasts until canceled.",
-      "pvp_tooltip": "Instant\n3 sec cooldown\nA defensive combat state that reduces all damage you take by 15%\n.\nLasts until canceled.",
+      "pve_tooltip": "Instant\n3 sec cooldown\nA defensive combat state that reduces all damage you take by 15%.\nLasts until canceled.",
+      "pvp_tooltip": "Instant\n3 sec cooldown\nA defensive combat state that reduces all damage you take by 15%.\nLasts until canceled.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -220,7 +221,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fast Footwork",
@@ -275,7 +277,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "War Machine",
@@ -331,7 +334,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thunder Clap",
@@ -379,8 +383,8 @@
         "spell_id": 6343,
         "icon": "spell_nature_thunderclap"
       },
-      "pve_tooltip": "20 Rage\nInstant\n6 sec cooldown\nBlasts all enemies within 8 yards for (235.68% of Attack Power) Physical damage [\nThunderstruck\n:\nroots them for 4 sec\n] and reduces their movement speed by 20% for 10 sec. Deals reduced damage beyond 5 /\nRecklessness\n:\n8\n/\nCrashing Thunder\n:\n85\ntargets.\n[\nGenerates 0 Rage.\n]",
-      "pvp_tooltip": "20 Rage\nInstant\n6 sec cooldown\nBlasts all enemies within 8 yards for (200.328% of Attack Power) Physical damage [\nThunderstruck\n:\nroots them for 4 sec\n] and reduces their movement speed by 20% for 10 sec. Deals reduced damage beyond 5 /\nRecklessness\n:\n8\n/\nCrashing Thunder\n:\n85\ntargets.\n[\nGenerates 0 Rage.\n]",
+      "pve_tooltip": "20 Rage\nInstant\n6 sec cooldown\nBlasts all enemies within 8 yards for (235.68% of Attack Power) Physical damage [Thunderstruck: roots them for 4 sec] and reduces their movement speed by 20% for 10 sec. Deals reduced damage beyond 5 / Recklessness: 8 / Crashing Thunder: 85 targets.\n[Generates 0 Rage.]",
+      "pvp_tooltip": "20 Rage\nInstant\n6 sec cooldown\nBlasts all enemies within 8 yards for (200.328% of Attack Power) Physical damage [Thunderstruck: roots them for 4 sec] and reduces their movement speed by 20% for 10 sec. Deals reduced damage beyond 5 / Recklessness: 8 / Crashing Thunder: 85 targets.\n[Generates 0 Rage.]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -442,7 +446,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Leeching Strikes",
@@ -497,7 +502,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Impending Victory",
@@ -546,8 +552,8 @@
         "spell_id": 202168,
         "icon": "spell_impending_victory"
       },
-      "pve_tooltip": "Replaces\nVictory Rush\n10 Rage\nMelee Range\nInstant\n25 sec cooldown\nInstantly attack the target, causing (59% of Attack Power) damage and healing you for 30% of your maximum health.\nKilling an enemy that yields experience or honor resets the cooldown of Impending Victory and makes it cost no Rage.",
-      "pvp_tooltip": "Replaces\nVictory Rush\n10 Rage\nMelee Range\nInstant\n25 sec cooldown\nInstantly attack the target, causing (50.15% of Attack Power) damage and healing you for 20.1% of your maximum health.\nKilling an enemy that yields experience or honor resets the cooldown of Impending Victory and makes it cost no Rage.",
+      "pve_tooltip": "Replaces Victory Rush\n10 Rage\nMelee Range\nInstant\n25 sec cooldown\nInstantly attack the target, causing (59% of Attack Power) damage and healing you for 30% of your maximum health.\nKilling an enemy that yields experience or honor resets the cooldown of Impending Victory and makes it cost no Rage.",
+      "pvp_tooltip": "Replaces Victory Rush\n10 Rage\nMelee Range\nInstant\n25 sec cooldown\nInstantly attack the target, causing (50.15% of Attack Power) damage and healing you for 20.1% of your maximum health.\nKilling an enemy that yields experience or honor resets the cooldown of Impending Victory and makes it cost no Rage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -658,7 +664,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Heroic Leap",
@@ -775,7 +782,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Crackling Thunder",
@@ -827,7 +835,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Storm Bolt",
@@ -875,8 +884,8 @@
         "spell_id": 107570,
         "icon": "warrior_talent_icon_stormbolt"
       },
-      "pve_tooltip": "20 yd range\nInstant\n30 sec cooldown\nHurls your weapon at an enemy, causing (28.5% of Attack Power) Physical damage and stunning for 4 sec. [\nStorm Bolts\n:\nAlso hits 2 additional nearby targets, stunning for 2 sec\n]",
-      "pvp_tooltip": "20 yd range\nInstant\n30 sec cooldown\nHurls your weapon at an enemy, causing (24.225% of Attack Power) Physical damage and stunning for 4 sec. [\nStorm Bolts\n:\nAlso hits 2 additional nearby targets, stunning for 2 sec\n]",
+      "pve_tooltip": "20 yd range\nInstant\n30 sec cooldown\nHurls your weapon at an enemy, causing (28.5% of Attack Power) Physical damage and stunning for 4 sec. [Storm Bolts: Also hits 2 additional nearby targets, stunning for 2 sec]",
+      "pvp_tooltip": "20 yd range\nInstant\n30 sec cooldown\nHurls your weapon at an enemy, causing (24.225% of Attack Power) Physical damage and stunning for 4 sec. [Storm Bolts: Also hits 2 additional nearby targets, stunning for 2 sec]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -938,7 +947,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blood and Thunder",
@@ -1077,7 +1087,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Second Wind",
@@ -1129,7 +1140,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frothing Berserker",
@@ -1187,7 +1199,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bounding Stride",
@@ -1351,7 +1364,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pain and Gain",
@@ -1408,7 +1422,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Intervene",
@@ -1464,7 +1479,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shockwave",
@@ -1513,8 +1529,8 @@
         "spell_id": 46968,
         "icon": "ability_warrior_shockwave"
       },
-      "pve_tooltip": "Instant\n40 sec cooldown\nSends a wave of force in a frontal cone, causing (20% of Attack Power) damage and stunning all enemies within 10 yards for\n2 sec\n.",
-      "pvp_tooltip": "Instant\n40 sec cooldown\nSends a wave of force in a frontal cone, causing (17% of Attack Power) damage and stunning all enemies within 10 yards for\n2 sec\n.",
+      "pve_tooltip": "Instant\n40 sec cooldown\nSends a wave of force in a frontal cone, causing (20% of Attack Power) damage and stunning all enemies within 10 yards for 2 sec.",
+      "pvp_tooltip": "Instant\n40 sec cooldown\nSends a wave of force in a frontal cone, causing (17% of Attack Power) damage and stunning all enemies within 10 yards for 2 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -1576,7 +1592,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Overwhelming Rage",
@@ -1628,7 +1645,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rallying Cry",
@@ -1676,8 +1694,8 @@
         "spell_id": 97462,
         "icon": "ability_warrior_rallyingcry"
       },
-      "pve_tooltip": "Instant\n3 min cooldown\nLets loose a rallying cry, granting all party or raid members within 40 yards\n10\n% temporary and maximum health for\n10 sec\n.\nHealth granted increased by 50% when not in a raid.",
-      "pvp_tooltip": "Instant\n3 min cooldown\nLets loose a rallying cry, granting all party or raid members within 40 yards\n20\n% temporary and maximum health for\n10 sec\n.\nHealth granted increased by 50% when not in a raid.",
+      "pve_tooltip": "Instant\n3 min cooldown\nLets loose a rallying cry, granting all party or raid members within 40 yards 10% temporary and maximum health for 10 sec.\nHealth granted increased by 50% when not in a raid.",
+      "pvp_tooltip": "Instant\n3 min cooldown\nLets loose a rallying cry, granting all party or raid members within 40 yards 20% temporary and maximum health for 10 sec.\nHealth granted increased by 50% when not in a raid.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -1731,7 +1749,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Field Dressing",
@@ -1783,7 +1802,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spell Reflection",
@@ -1831,15 +1851,16 @@
         "spell_id": 23920,
         "icon": "ability_warrior_shieldreflection"
       },
-      "pve_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRaise your shield, reflecting\nthe first spell cast\non you and reducing magic damage you take by 20% for 5 sec.",
-      "pvp_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRaise your shield, reflecting\nthe first spell cast\non you and reducing magic damage you take by 20% for 5 sec.",
+      "pve_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRaise your shield, reflecting the first spell cast on you and reducing magic damage you take by 20% for 5 sec.",
+      "pvp_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRaise your shield, reflecting the first spell cast on you and reducing magic damage you take by 20% for 5 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wrecking Throw",
@@ -2001,7 +2022,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shattering Throw",
@@ -2163,7 +2185,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rumbling Earth",
@@ -2215,7 +2238,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Berserker Shout",
@@ -2263,15 +2287,16 @@
         "spell_id": 384100,
         "icon": "spell_nature_ancestralguardian"
       },
-      "pve_tooltip": "Instant\n1 min cooldown\nGo berserk, removing and granting immunity to Fear, Sap, and Incapacitate effects for 6 sec.\nAlso remove fear effects from\ngroup members within 12 yds.",
-      "pvp_tooltip": "Instant\n1 min cooldown\nGo berserk, removing and granting immunity to Fear, Sap, and Incapacitate effects for 6 sec.\nAlso remove fear effects from\ngroup members within 12 yds.",
+      "pve_tooltip": "Instant\n1 min cooldown\nGo berserk, removing and granting immunity to Fear, Sap, and Incapacitate effects for 6 sec.\nAlso remove fear effects from group members within 12 yds.",
+      "pvp_tooltip": "Instant\n1 min cooldown\nGo berserk, removing and granting immunity to Fear, Sap, and Incapacitate effects for 6 sec.\nAlso remove fear effects from group members within 12 yds.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fearless",
@@ -2327,7 +2352,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Intimidating Shout",
@@ -2383,7 +2409,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Piercing Howl",
@@ -2486,7 +2513,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Honed Reflexes",
@@ -2541,7 +2569,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Armored to the Teeth",
@@ -2589,15 +2618,33 @@
         "spell_id": 384124,
         "icon": "inv_shoulder_22"
       },
-      "pve_tooltip": "Gain Strength equal to 2% of your Armor.",
-      "pvp_tooltip": "Gain Strength equal to 2% of your Armor.",
+      "pve_tooltip": "Gain Strength equal to 4% of your Armor.",
+      "pvp_tooltip": "Gain Strength equal to 4% of your Armor.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Gain Strength equal to 2% of your Armor.",
+          "pvp_tooltip": "Gain Strength equal to 2% of your Armor.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Gain Strength equal to 4% of your Armor.",
+          "pvp_tooltip": "Gain Strength equal to 4% of your Armor.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Double Time",
@@ -2690,7 +2737,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Reinforced Plates",
@@ -2738,15 +2786,33 @@
         "spell_id": 382939,
         "icon": "inv_chest_plate04"
       },
-      "pve_tooltip": "Stamina increased by 5% and Armor increased by 5%.",
-      "pvp_tooltip": "Stamina increased by 5% and Armor increased by 5%.",
+      "pve_tooltip": "Stamina increased by 10% and Armor increased by 10%.",
+      "pvp_tooltip": "Stamina increased by 10% and Armor increased by 10%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Stamina increased by 5% and Armor increased by 5%.",
+          "pvp_tooltip": "Stamina increased by 5% and Armor increased by 5%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Stamina increased by 10% and Armor increased by 10%.",
+          "pvp_tooltip": "Stamina increased by 10% and Armor increased by 10%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Barbaric Training",
@@ -2800,7 +2866,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Javelineer",
@@ -2856,7 +2923,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Resonant Voice",
@@ -2912,7 +2980,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Crushing Force",
@@ -2966,7 +3035,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cruel Strikes",
@@ -3014,15 +3084,33 @@
         "spell_id": 392777,
         "icon": "ability_criticalstrike"
       },
-      "pve_tooltip": "Critical strike chance increased by 1% and critical strike damage of Execute increased by 5%.",
-      "pvp_tooltip": "Critical strike chance increased by 1% and critical strike damage of Execute increased by 5%.",
+      "pve_tooltip": "Critical strike chance increased by 2% and critical strike damage of Execute increased by 10%.",
+      "pvp_tooltip": "Critical strike chance increased by 2% and critical strike damage of Execute increased by 10%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Critical strike chance increased by 1% and critical strike damage of Execute increased by 5%.",
+          "pvp_tooltip": "Critical strike chance increased by 1% and critical strike damage of Execute increased by 5%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Critical strike chance increased by 2% and critical strike damage of Execute increased by 10%.",
+          "pvp_tooltip": "Critical strike chance increased by 2% and critical strike damage of Execute increased by 10%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "One-Handed Weapon Specialization",
@@ -3070,15 +3158,33 @@
         "spell_id": 382895,
         "icon": "inv_sword_20"
       },
-      "pve_tooltip": "While wielding one-handed weapons your damage is increased by 3% and Leech increased by 2%.",
-      "pvp_tooltip": "While wielding one-handed weapons your damage is increased by 3% and Leech increased by 2%.",
+      "pve_tooltip": "While wielding one-handed weapons your damage is increased by 6% and Leech increased by 4%.",
+      "pvp_tooltip": "While wielding one-handed weapons your damage is increased by 6% and Leech increased by 4%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "While wielding one-handed weapons your damage is increased by 3% and Leech increased by 2%.",
+          "pvp_tooltip": "While wielding one-handed weapons your damage is increased by 3% and Leech increased by 2%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "While wielding one-handed weapons your damage is increased by 6% and Leech increased by 4%.",
+          "pvp_tooltip": "While wielding one-handed weapons your damage is increased by 6% and Leech increased by 4%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Wild Strikes",
@@ -3126,15 +3232,33 @@
         "spell_id": 382946,
         "icon": "ability_rogue_sprint"
       },
-      "pve_tooltip": "Haste increased by 1% and your auto-attack critical strikes increase your auto-attack speed by 10% for 10 sec.\n(8s cooldown)",
-      "pvp_tooltip": "Haste increased by 1% and your auto-attack critical strikes increase your auto-attack speed by 10% for 10 sec.\n(8s cooldown)",
+      "pve_tooltip": "Haste increased by 2% and your auto-attack critical strikes increase your auto-attack speed by 20% for 10 sec.\n(8s cooldown)",
+      "pvp_tooltip": "Haste increased by 2% and your auto-attack critical strikes increase your auto-attack speed by 20% for 10 sec.\n(8s cooldown)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Haste increased by 1% and your auto-attack critical strikes increase your auto-attack speed by 10% for 10 sec.\n(8s cooldown)",
+          "pvp_tooltip": "Haste increased by 1% and your auto-attack critical strikes increase your auto-attack speed by 10% for 10 sec.\n(8s cooldown)",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Haste increased by 2% and your auto-attack critical strikes increase your auto-attack speed by 20% for 10 sec.\n(8s cooldown)",
+          "pvp_tooltip": "Haste increased by 2% and your auto-attack critical strikes increase your auto-attack speed by 20% for 10 sec.\n(8s cooldown)",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Anger Management",
@@ -3233,7 +3357,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Champion's Spear",
@@ -3278,8 +3403,8 @@
         "spell_id": 376079,
         "icon": "inv_ability_warrior_championsspear"
       },
-      "pve_tooltip": "25 yd range\nInstant\n1.5 min cooldown\nThrow a spear at the target location, chaining all enemies in the area to the spear's location and dealing (239.25% of Attack Power) Physical damage instantly and an additional (326.25% of Attack Power) Physical damage over 6 sec.\nWhile the spear is active, activating this ability will cause you to leap to the spear, dealing (47% of Attack Power) Physical damage to all targets.\nAll damage dealt reduced beyond 5 targets.\nGenerates\n10\nRage.",
-      "pvp_tooltip": "25 yd range\nInstant\n1.5 min cooldown\nThrow a spear at the target location, chaining all enemies in the area to the spear's location and dealing (239.25% of Attack Power) Physical damage instantly and an additional (326.25% of Attack Power) Physical damage over 6 sec.\nWhile the spear is active, activating this ability will cause you to leap to the spear, dealing (39.95% of Attack Power) Physical damage to all targets.\nAll damage dealt reduced beyond 5 targets.\nGenerates\n10\nRage.",
+      "pve_tooltip": "25 yd range\nInstant\n1.5 min cooldown\nThrow a spear at the target location, chaining all enemies in the area to the spear's location and dealing (239.25% of Attack Power) Physical damage instantly and an additional (326.25% of Attack Power) Physical damage over 6 sec.\nWhile the spear is active, activating this ability will cause you to leap to the spear, dealing (47% of Attack Power) Physical damage to all targets.\nAll damage dealt reduced beyond 5 targets.\nGenerates 10 Rage.",
+      "pvp_tooltip": "25 yd range\nInstant\n1.5 min cooldown\nThrow a spear at the target location, chaining all enemies in the area to the spear's location and dealing (239.25% of Attack Power) Physical damage instantly and an additional (326.25% of Attack Power) Physical damage over 6 sec.\nWhile the spear is active, activating this ability will cause you to leap to the spear, dealing (39.95% of Attack Power) Physical damage to all targets.\nAll damage dealt reduced beyond 5 targets.\nGenerates 10 Rage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3422,7 +3547,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Stance Mastery",
@@ -3475,7 +3601,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Battlefield Commander",
@@ -3519,15 +3646,16 @@
         "spell_id": 424742,
         "icon": "ability_warrior_commandingshout"
       },
-      "pve_tooltip": "Your Shout abilities have additional effects.\nBattle Shout\n:\nGrants you an additional 3% attack power.\nRallying Cry\n:\nGrants an additional 2% health and duration increased by 3 sec.\nPiercing Howl\n:\nRadius increased by 100%\nBerserker Shout\n:\nRadius increased by 100%.\nIntimidating Shout\n:\nCooldown reduced by 15 sec.",
-      "pvp_tooltip": "Your Shout abilities have additional effects.\nBattle Shout\n:\nGrants you an additional 3% attack power.\nRallying Cry\n:\nGrants an additional 2% health and duration increased by 3 sec.\nPiercing Howl\n:\nRadius increased by 100%\nBerserker Shout\n:\nRadius increased by 100%.\nIntimidating Shout\n:\nCooldown reduced by 15 sec.",
+      "pve_tooltip": "Your Shout abilities have additional effects.\nBattle Shout:\nGrants you an additional 3% attack power.\nRallying Cry:\nGrants an additional 2% health and duration increased by 3 sec.\nPiercing Howl:\nRadius increased by 100%\nBerserker Shout:\nRadius increased by 100%.\nIntimidating Shout:\nCooldown reduced by 15 sec.",
+      "pvp_tooltip": "Your Shout abilities have additional effects.\nBattle Shout:\nGrants you an additional 3% attack power.\nRallying Cry:\nGrants an additional 2% health and duration increased by 3 sec.\nPiercing Howl:\nRadius increased by 100%\nBerserker Shout:\nRadius increased by 100%.\nIntimidating Shout:\nCooldown reduced by 15 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ignore Pain",
@@ -3580,7 +3708,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Demoralizing Shout",
@@ -3627,8 +3756,8 @@
         "spell_id": 1160,
         "icon": "ability_warrior_warcry"
       },
-      "pve_tooltip": "Instant\n45 sec cooldown\n[\nMorale Killer\n:\nDemoralizes all enemies within 10 yards, reducing the damage they do by 25% for 8 sec\n/ Demoralizes all enemies within 10 yards, reducing the damage they deal to you by 20% for 8 sec.] [\nBooming Voice\n:\nGenerates 0 Rage.\n]",
-      "pvp_tooltip": "Instant\n45 sec cooldown\n[\nMorale Killer\n:\nDemoralizes all enemies within 10 yards, reducing the damage they do by 25% for 8 sec\n/ Demoralizes all enemies within 10 yards, reducing the damage they deal to you by 20% for 8 sec.] [\nBooming Voice\n:\nGenerates 0 Rage.\n]",
+      "pve_tooltip": "Instant\n3 sec cooldown\n[Morale Killer: Demoralizes all enemies within 10 yards, reducing the damage they do by 25% for 8 sec / Demoralizes all enemies within 10 yards, reducing the damage they deal to you by 20% for 8 sec.] [Booming Voice: Generates 0 Rage.]",
+      "pvp_tooltip": "Instant\n3 sec cooldown\n[Morale Killer: Demoralizes all enemies within 10 yards, reducing the damage they do by 25% for 8 sec / Demoralizes all enemies within 10 yards, reducing the damage they deal to you by 20% for 8 sec.] [Booming Voice: Generates 0 Rage.]",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -3661,7 +3790,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Revenge",
@@ -3771,7 +3901,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Brace For Impact",
@@ -3826,7 +3957,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Armor Specialization",
@@ -3880,7 +4012,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fight Through the Flames",
@@ -3934,7 +4067,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Devastator",
@@ -3981,8 +4115,8 @@
         "spell_id": 236279,
         "icon": "inv_sword_11"
       },
-      "pve_tooltip": "Replaces\nDevastate\nYour auto-attacks deal an additional (131.4% of Attack Power) Physical damage and have a 25% chance to reset the remaining cooldown on Shield Slam.",
-      "pvp_tooltip": "Replaces\nDevastate\nYour auto-attacks deal an additional (131.4% of Attack Power) Physical damage and have a 25% chance to reset the remaining cooldown on Shield Slam.",
+      "pve_tooltip": "Replaces Devastate\nYour auto-attacks deal an additional (131.4% of Attack Power) Physical damage and have a 25% chance to reset the remaining cooldown on Shield Slam.",
+      "pvp_tooltip": "Replaces Devastate\nYour auto-attacks deal an additional (131.4% of Attack Power) Physical damage and have a 25% chance to reset the remaining cooldown on Shield Slam.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4028,7 +4162,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Disrupting Shout",
@@ -4080,7 +4215,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Strategist",
@@ -4189,7 +4325,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Devastating Focus",
@@ -4233,15 +4370,16 @@
         "spell_id": 1264330,
         "icon": "spell_hunter_focusingshot"
       },
-      "pve_tooltip": "You focus on the target struck by your Devastator, dealing\n30\n% additional Revenge and Execute damage to them.\nOnly one target can have your focus at a time.",
-      "pvp_tooltip": "You focus on the target struck by your Devastator, dealing\n30\n% additional Revenge and Execute damage to them.\nOnly one target can have your focus at a time.",
+      "pve_tooltip": "You focus on the target struck by your Devastator, dealing 30% additional Revenge and Execute damage to them.\nOnly one target can have your focus at a time.",
+      "pvp_tooltip": "You focus on the target struck by your Devastator, dealing 30% additional Revenge and Execute damage to them.\nOnly one target can have your focus at a time.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Brutal Vitality",
@@ -4296,7 +4434,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Instigate",
@@ -4348,7 +4487,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shield Wall",
@@ -4404,7 +4544,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bloodsurge",
@@ -4456,7 +4597,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Best Served Cold",
@@ -4510,7 +4652,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spellbreaker",
@@ -4562,7 +4705,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hunker Down",
@@ -4614,7 +4758,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thunderlord",
@@ -4669,7 +4814,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Defender's Aegis",
@@ -4724,7 +4870,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Impenetrable Wall",
@@ -4779,7 +4926,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Last Stand",
@@ -4831,7 +4979,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bloodborne",
@@ -4886,7 +5035,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sudden Death",
@@ -4933,15 +5083,16 @@
         "spell_id": 29725,
         "icon": "ability_warrior_improveddisciplines"
       },
-      "pve_tooltip": "Approximately\n1.7\nprocs per minute\nYour attacks have a chance to make your next\nExecute\nbe usable on any target regardless of their health.",
-      "pvp_tooltip": "Approximately\n1.7\nprocs per minute\nYour attacks have a chance to make your next\nExecute\nbe usable on any target regardless of their health.",
+      "pve_tooltip": "Approximately 1.7 procs per minute\nYour attacks have a chance to make your next Execute be usable on any target regardless of their health.",
+      "pvp_tooltip": "Approximately 1.7 procs per minute\nYour attacks have a chance to make your next Execute be usable on any target regardless of their health.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Punish",
@@ -4996,7 +5147,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tough as Nails",
@@ -5108,7 +5260,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fueled by Violence",
@@ -5163,7 +5316,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Enduring Defenses",
@@ -5212,15 +5366,33 @@
         "spell_id": 386027,
         "icon": "ability_defend"
       },
-      "pve_tooltip": "Shield Block lasts 1 sec longer.",
-      "pvp_tooltip": "Shield Block lasts 1 sec longer.",
+      "pve_tooltip": "Shield Block lasts 2 sec longer.",
+      "pvp_tooltip": "Shield Block lasts 2 sec longer.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Shield Block lasts 1 sec longer.",
+          "pvp_tooltip": "Shield Block lasts 1 sec longer.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Shield Block lasts 2 sec longer.",
+          "pvp_tooltip": "Shield Block lasts 2 sec longer.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Unyielding Stance",
@@ -5275,7 +5447,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Deep Wounds",
@@ -5319,8 +5492,8 @@
         "spell_id": 1261060,
         "icon": "ability_backstab"
       },
-      "pve_tooltip": "Causes the target to suffer (145.48% of Attack Power) Bleed damage over 6 sec. If this effect is reapplied, any remaining damage will be added to the new Deep Wounds.",
-      "pvp_tooltip": "Causes the target to suffer (145.48% of Attack Power) Bleed damage over 6 sec. If this effect is reapplied, any remaining damage will be added to the new Deep Wounds.",
+      "pve_tooltip": "Execute inflicts Deep Wounds on the target.\nDeep Wounds\nCauses the target to suffer (145.48% of Attack Power) Bleed damage over 6 sec. If this effect is reapplied, any remaining damage will be added to the new Deep Wounds.",
+      "pvp_tooltip": "Execute inflicts Deep Wounds on the target.\nDeep Wounds\nCauses the target to suffer (145.48% of Attack Power) Bleed damage over 6 sec. If this effect is reapplied, any remaining damage will be added to the new Deep Wounds.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5368,7 +5541,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Heavy Repercussions",
@@ -5424,7 +5598,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Into the Fray",
@@ -5480,7 +5655,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Focused Vigor",
@@ -5532,7 +5708,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shield Specialization",
@@ -5588,7 +5765,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Enduring Alacrity",
@@ -5640,7 +5818,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Avatar",
@@ -5688,14 +5867,14 @@
         "spell_id": 107574,
         "icon": "warrior_talent_icon_avatar"
       },
-      "pve_tooltip": "Instant\n1.5 min cooldown\nTransform into a colossus, increasing all damage you deal by 20% and reducing all damage you take by 3% for 20 sec.",
-      "pvp_tooltip": "Instant\n1.5 min cooldown\nTransform into a colossus, increasing all damage you deal by 15% and reducing all damage you take by 3% for 20 sec.",
+      "pve_tooltip": "Instant\n3 sec cooldown\nTransform into a colossus, increasing all damage you deal by 20% and reducing all damage you take by 3% for 20 sec.",
+      "pvp_tooltip": "Instant\n3 sec cooldown\nTransform into a colossus, increasing all damage you deal by 15% and reducing all damage you take by 3% for 20 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 86,
-          "end": 88,
+          "start": 84,
+          "end": 86,
           "old_token": "20",
           "new_token": "15",
           "kind": "percent_value",
@@ -5795,7 +5974,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Massacre",
@@ -5839,15 +6019,16 @@
         "spell_id": 281001,
         "icon": "inv_axe_2h_orcwarrior_c_01"
       },
-      "pve_tooltip": "Execute\nis usable on targets below 35% health.",
-      "pvp_tooltip": "Execute\nis usable on targets below 35% health.",
+      "pve_tooltip": "Execute is usable on targets below 35% health.",
+      "pvp_tooltip": "Execute is usable on targets below 35% health.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Booming Voice",
@@ -5902,7 +6083,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Indomitable",
@@ -5956,7 +6138,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Violent Outburst",
@@ -6063,7 +6246,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Heavy Handed",
@@ -6115,7 +6299,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shield Charge",
@@ -6316,7 +6501,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Battle-Scarred Veteran",
@@ -6370,7 +6556,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Whirling Blade",
@@ -6414,15 +6601,16 @@
         "spell_id": 1235113,
         "icon": "warrior_talent_icon_ravager"
       },
-      "pve_tooltip": "Approximately\n5\nprocs per minute\nYour attacks have a chance to target a nearby enemy with Ravager for 4 sec.",
-      "pvp_tooltip": "Approximately\n5\nprocs per minute\nYour attacks have a chance to target a nearby enemy with Ravager for 4 sec.",
+      "pve_tooltip": "Approximately 5 procs per minute\nYour attacks have a chance to target a nearby enemy with Ravager for 4 sec.",
+      "pvp_tooltip": "Approximately 5 procs per minute\nYour attacks have a chance to target a nearby enemy with Ravager for 4 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ravager",
@@ -6466,8 +6654,8 @@
         "spell_id": 228920,
         "icon": "warrior_talent_icon_ravager"
       },
-      "pve_tooltip": "40 yd range\nInstant\n1.5 min cooldown\n1 Charge\nThrows a whirling weapon at your target that chases nearby enemies, inflicting [6 * (179.276% of Attack Power)] Physical damage to all enemies over 12 sec. Deals reduced damage beyond 8 targets.\nEnemies damaged by Ravager take\n50\n% additional damage from your Bleeds for 12 sec.\nGenerates 10 Rage each time it deals damage.",
-      "pvp_tooltip": "40 yd range\nInstant\n1.5 min cooldown\n1 Charge\nThrows a whirling weapon at your target that chases nearby enemies, inflicting [6 * (198.1% of Attack Power)] Physical damage to all enemies over 12 sec. Deals reduced damage beyond 8 targets.\nEnemies damaged by Ravager take\n50\n% additional damage from your Bleeds for 12 sec.\nGenerates 10 Rage each time it deals damage.",
+      "pve_tooltip": "40 yd range\nInstant\n1.5 min cooldown\n1 Charge\nThrows a whirling weapon at your target that chases nearby enemies, inflicting [6 * (179.276% of Attack Power)] Physical damage to all enemies over 12 sec. Deals reduced damage beyond 8 targets.\nEnemies damaged by Ravager take 50% additional damage from your Bleeds for 12 sec.\nGenerates 10 Rage each time it deals damage.",
+      "pvp_tooltip": "40 yd range\nInstant\n1.5 min cooldown\n1 Charge\nThrows a whirling weapon at your target that chases nearby enemies, inflicting [6 * (198.1% of Attack Power)] Physical damage to all enemies over 12 sec. Deals reduced damage beyond 8 targets.\nEnemies damaged by Ravager take 50% additional damage from your Bleeds for 12 sec.\nGenerates 10 Rage each time it deals damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -6536,7 +6724,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Phalanx",
@@ -6678,7 +6867,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Phalanx",
@@ -6728,7 +6918,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Phalanx",
@@ -6830,7 +7021,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lightning Strikes",
@@ -6877,8 +7069,8 @@
         "spell_id": 434969,
         "icon": "ability_vehicle_electrocharge"
       },
-      "pve_tooltip": "Damaging enemies with Thunder Clap, Revenge, or Execute has a 25% chance to also strike one with a lightning bolt, dealing (155.1% of Attack Power) Nature damage\n.\nLightning Strikes occur 30% more often during Avatar.",
-      "pvp_tooltip": "Damaging enemies with Thunder Clap, Revenge, or Execute has a 25% chance to also strike one with a lightning bolt, dealing (131.835% of Attack Power) Nature damage\n.\nLightning Strikes occur 30% more often during Avatar.",
+      "pve_tooltip": "Damaging enemies with Thunder Clap, Revenge, or Execute has a 25% chance to also strike one with a lightning bolt, dealing (155.1% of Attack Power) Nature damage.\nLightning Strikes occur 30% more often during Avatar.",
+      "pvp_tooltip": "Damaging enemies with Thunder Clap, Revenge, or Execute has a 25% chance to also strike one with a lightning bolt, dealing (131.835% of Attack Power) Nature damage.\nLightning Strikes occur 30% more often during Avatar.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -6945,7 +7137,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Crashing Thunder",
@@ -6999,7 +7192,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ground Current",
@@ -7113,7 +7307,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Strength of the Mountain",
@@ -7167,7 +7362,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Storm Surge",
@@ -7221,7 +7417,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thunder Blast",
@@ -7267,14 +7464,14 @@
         "spell_id": 435607,
         "icon": "warrior_talent_icon_bloodandthunder"
       },
-      "pve_tooltip": "Your next Thunder Clap becomes a Thunder Blast that deals (234.295% of Attack Power) Stormstrike damage and generates 2 Rage.",
-      "pvp_tooltip": "Your next Thunder Clap becomes a Thunder Blast that deals (199.1508% of Attack Power) Stormstrike damage and generates 2 Rage.",
+      "pve_tooltip": "Shield Slam and Bloodthirst have a 35% chance to grant you Thunder Blast, stacking up to 2 charges.\nThunder Blast\nYour next Thunder Clap becomes a Thunder Blast that deals (234.295% of Attack Power) Stormstrike damage and generates 2 Rage.",
+      "pvp_tooltip": "Shield Slam and Bloodthirst have a 35% chance to grant you Thunder Blast, stacking up to 2 charges.\nThunder Blast\nYour next Thunder Clap becomes a Thunder Blast that deals (199.1508% of Attack Power) Stormstrike damage and generates 2 Rage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 59,
-          "end": 66,
+          "start": 173,
+          "end": 180,
           "old_token": "234.295",
           "new_token": "199.1508",
           "kind": "attack_power_coefficient",
@@ -7335,7 +7532,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Storm Bolts",
@@ -7389,7 +7587,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Storm Shield",
@@ -7443,7 +7642,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Keep Your Feet on the Ground",
@@ -7497,7 +7697,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Steadfast as the Peaks",
@@ -7543,15 +7744,16 @@
         "spell_id": 434970,
         "icon": "ability_warrior_devastate"
       },
-      "pve_tooltip": "Stamina increased by 5%.\n[\nImpending Victory\n/ Victory Rush] increases your maximum health by 10% for 5 sec. When this health increase expires, you heal for any amount of the original [\nImpending Victory\n/ Victory Rush] that healed you in excess of your full health.",
-      "pvp_tooltip": "Stamina increased by 5%.\n[\nImpending Victory\n/ Victory Rush] increases your maximum health by 10% for 5 sec. When this health increase expires, you heal for any amount of the original [\nImpending Victory\n/ Victory Rush] that healed you in excess of your full health.",
+      "pve_tooltip": "Stamina increased by 5%.\n[Impending Victory / Victory Rush] increases your maximum health by 10% for 5 sec. When this health increase expires, you heal for any amount of the original [Impending Victory / Victory Rush] that healed you in excess of your full health.",
+      "pvp_tooltip": "Stamina increased by 5%.\n[Impending Victory / Victory Rush] increases your maximum health by 10% for 5 sec. When this health increase expires, you heal for any amount of the original [Impending Victory / Victory Rush] that healed you in excess of your full health.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Conductivity",
@@ -7605,7 +7807,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flashing Skies",
@@ -7659,7 +7862,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Snap Induction",
@@ -7754,7 +7958,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gathering Clouds",
@@ -7808,7 +8013,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thorim's Might",
@@ -7862,7 +8068,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Burst of Power",
@@ -7947,7 +8154,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Capacitance",
@@ -8001,7 +8209,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Avatar of the Storm",
@@ -8056,7 +8265,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Demolish",
@@ -8308,7 +8518,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 3,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Martial Expert",
@@ -8362,7 +8573,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Colossal Might",
@@ -8447,7 +8659,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Boneshaker",
@@ -8553,7 +8766,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Earthquaker",
@@ -8607,7 +8821,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Decimator",
@@ -8661,7 +8876,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "One Against Many",
@@ -8715,7 +8931,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Arterial Bleed",
@@ -8800,7 +9017,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tide of Battle",
@@ -8885,7 +9103,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "No Stranger to Pain",
@@ -8939,7 +9158,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Veteran Vitality",
@@ -8993,7 +9213,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cut to the Bone",
@@ -9047,7 +9268,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Practiced Strikes",
@@ -9173,7 +9395,8 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Precise Might",
@@ -9258,7 +9481,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mountain of Muscle and Scars",
@@ -9359,7 +9583,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Celeritous Conclusion",
@@ -9465,7 +9690,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dominance of the Colossus",
@@ -9551,13 +9777,14 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     }
   ],
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "warrior-protection",
-  "generated_at": "2026-09-20T12:54:37.173911+00:00",
+  "generated_at": "2026-09-20T20:03:39.734826+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 27,

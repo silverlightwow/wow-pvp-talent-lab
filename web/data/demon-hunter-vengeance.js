@@ -50,8 +50,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 198793,
         "icon": "ability_demonhunter_vengefulretreat2"
       },
-      "pve_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRemove all snares and vault away. Nearby enemies take (16% of Attack Power) Physical damage [\nVengeful Bonds\n:\nand have their movement speed reduced by 70% for 3 sec\n].",
-      "pvp_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRemove all snares and vault away. Nearby enemies take (16% of Attack Power) Physical damage [\nVengeful Bonds\n:\nand have their movement speed reduced by 70% for 3 sec\n].",
+      "pve_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRemove all snares and vault away. Nearby enemies take (16% of Attack Power) Physical damage [Vengeful Bonds: and have their movement speed reduced by 70% for 3 sec].",
+      "pvp_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRemove all snares and vault away. Nearby enemies take (16% of Attack Power) Physical damage [Vengeful Bonds: and have their movement speed reduced by 70% for 3 sec].",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -89,7 +89,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Felblade",
@@ -134,8 +135,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 232893,
         "icon": "ability_demonhunter_felblade"
       },
-      "pve_tooltip": "15 yd range\nInstant\n12 sec cooldown\nCharge to your target and deal (122.94% of Attack Power)%\nFire\ndamage.\n[\nFracture\n:\nGenerates 15 Fury.\n] [\nDemonic Wards\n:\nGenerates 15 Fury.\n]\nGenerates 15 Fury.",
-      "pvp_tooltip": "15 yd range\nInstant\n12 sec cooldown\nCharge to your target and deal (122.94% of Attack Power)%\nFire\ndamage.\n[\nFracture\n:\nGenerates 15 Fury.\n] [\nDemonic Wards\n:\nGenerates 15 Fury.\n]\nGenerates 15 Fury.",
+      "pve_tooltip": "15 yd range\nInstant\n12 sec cooldown\nCharge to your target and deal (122.94% of Attack Power)% Fire damage.\n[Fracture: Generates 15 Fury.] [Demonic Wards: Generates 15 Fury.]Generates 15 Fury.",
+      "pvp_tooltip": "15 yd range\nInstant\n12 sec cooldown\nCharge to your target and deal (122.94% of Attack Power)% Fire damage.\n[Fracture: Generates 15 Fury.] [Demonic Wards: Generates 15 Fury.]Generates 15 Fury.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -173,7 +174,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sigil of Misery",
@@ -218,15 +220,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 207684,
         "icon": "ability_demonhunter_sigilofmisery"
       },
-      "pve_tooltip": "30 yd range\nInstant\n2 min cooldown\n1 Charge\nPlace a Sigil of Misery at the target location that activates after\n2 sec\n.\nCauses all enemies affected by the sigil to cower in fear, disorienting them for\n15 sec\n.",
-      "pvp_tooltip": "30 yd range\nInstant\n2 min cooldown\n1 Charge\nPlace a Sigil of Misery at the target location that activates after\n2 sec\n.\nCauses all enemies affected by the sigil to cower in fear, disorienting them for\n15 sec\n.",
+      "pve_tooltip": "30 yd range\nInstant\n2 min cooldown\n1 Charge\nPlace a Sigil of Misery at the target location that activates after 2 sec.\nCauses all enemies affected by the sigil to cower in fear, disorienting them for 15 sec.",
+      "pvp_tooltip": "30 yd range\nInstant\n2 min cooldown\n1 Charge\nPlace a Sigil of Misery at the target location that activates after 2 sec.\nCauses all enemies affected by the sigil to cower in fear, disorienting them for 15 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Vengeful Bonds",
@@ -332,7 +335,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unrestrained Fury",
@@ -388,7 +392,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shattered Restoration",
@@ -444,7 +449,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Sigil of Misery",
@@ -490,15 +496,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 320418,
         "icon": "ability_demonhunter_sigilofmisery"
       },
-      "pve_tooltip": "Reduces the cooldown of Sigil of [\nSigil of Silence\n:\nSilence\n/ Misery] by [\nSigil of Chains\n:\n15\n/ 30] sec.",
-      "pvp_tooltip": "Reduces the cooldown of Sigil of [\nSigil of Silence\n:\nSilence\n/ Misery] by [\nSigil of Chains\n:\n15\n/ 30] sec.",
+      "pve_tooltip": "Reduces the cooldown of Sigil of [Sigil of Silence: Silence / Misery] by [Sigil of Chains: 15 / 30] sec.",
+      "pvp_tooltip": "Reduces the cooldown of Sigil of [Sigil of Silence: Silence / Misery] by [Sigil of Chains: 15 / 30] sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bouncing Glaives",
@@ -554,7 +561,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Imprison",
@@ -610,7 +618,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Charred Warblades",
@@ -666,7 +675,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Chaos Nova",
@@ -712,15 +722,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 179057,
         "icon": "spell_fire_felfirenova"
       },
-      "pve_tooltip": "25 Fury\nInstant\n45 sec cooldown\nUnleash an eruption of fel energy, dealing (27.4816% of Attack Power) Chaos damage and stunning all nearby enemies for 3 sec. [\nChaos Fragments\n:\nEach enemy stunned by Chaos Nova has a 30% chance to generate a Lesser Soul Fragment\n]",
-      "pvp_tooltip": "25 Fury\nInstant\n45 sec cooldown\nUnleash an eruption of fel energy, dealing (27.4816% of Attack Power) Chaos damage and stunning all nearby enemies for 3 sec. [\nChaos Fragments\n:\nEach enemy stunned by Chaos Nova has a 30% chance to generate a Lesser Soul Fragment\n]",
+      "pve_tooltip": "25 Fury\nInstant\n45 sec cooldown\nUnleash an eruption of fel energy, dealing (27.4816% of Attack Power) Chaos damage and stunning all nearby enemies for 3 sec. [Chaos Fragments: Each enemy stunned by Chaos Nova has a 30% chance to generate a Lesser Soul Fragment]",
+      "pvp_tooltip": "25 Fury\nInstant\n45 sec cooldown\nUnleash an eruption of fel energy, dealing (27.4816% of Attack Power) Chaos damage and stunning all nearby enemies for 3 sec. [Chaos Fragments: Each enemy stunned by Chaos Nova has a 30% chance to generate a Lesser Soul Fragment]",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Disrupt",
@@ -777,7 +788,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Consume Magic",
@@ -826,15 +838,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 278326,
         "icon": "spell_misc_zandalari_council_soulswap"
       },
-      "pve_tooltip": "30 yd range\nInstant\n10 sec cooldown\nConsume 1 beneficial Magic effect removing it from the target [\nSwallowed Anger\n:\nand granting you 20 Fury\n].",
-      "pvp_tooltip": "30 yd range\nInstant\n10 sec cooldown\nConsume 1 beneficial Magic effect removing it from the target [\nSwallowed Anger\n:\nand granting you 20 Fury\n].",
+      "pve_tooltip": "30 yd range\nInstant\n10 sec cooldown\nConsume 1 beneficial Magic effect removing it from the target [Swallowed Anger: and granting you 20 Fury].",
+      "pvp_tooltip": "30 yd range\nInstant\n10 sec cooldown\nConsume 1 beneficial Magic effect removing it from the target [Swallowed Anger: and granting you 20 Fury].",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Aldrachi Design",
@@ -889,7 +902,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Focused Ire",
@@ -980,7 +994,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Master of the Glaive",
@@ -1066,7 +1081,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Champion of the Glaive",
@@ -1121,7 +1137,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Disrupting Fury",
@@ -1175,7 +1192,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blazing Path",
@@ -1232,7 +1250,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Swallowed Anger",
@@ -1284,7 +1303,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Aura of Pain",
@@ -1341,7 +1361,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Live by the Glaive",
@@ -1395,7 +1416,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pursuit",
@@ -1450,7 +1472,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Soul Rending",
@@ -1499,16 +1522,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 204909,
         "icon": "ability_demonhunter_soulcleave2"
       },
-      "pve_tooltip": "Leech increased by 6%.\nGain an additional 6% leech while Metamorphosis is active.",
-      "pvp_tooltip": "Leech increased by 5%.\nGain an additional 5% leech while Metamorphosis is active.",
+      "pve_tooltip": "Leech increased by 10%.\nGain an additional 10% leech while Metamorphosis is active.",
+      "pvp_tooltip": "Leech increased by 8.3333%.\nGain an additional 8.3333% leech while Metamorphosis is active.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
           "start": 19,
-          "end": 20,
-          "old_token": "6",
-          "new_token": "5",
+          "end": 21,
+          "old_token": "10",
+          "new_token": "8.3333",
           "kind": "percent_value",
           "effect_indexes": [
             1,
@@ -1516,10 +1539,10 @@ window.WOW_PVP_DATA = {
           ]
         },
         {
-          "start": 42,
-          "end": 43,
-          "old_token": "6",
-          "new_token": "5",
+          "start": 43,
+          "end": 45,
+          "old_token": "10",
+          "new_token": "8.3333",
           "kind": "percent_value",
           "effect_indexes": [
             1,
@@ -1535,8 +1558,8 @@ window.WOW_PVP_DATA = {
           ],
           "status": "APPLIED",
           "kind": "percent_value",
-          "old": "6",
-          "new": "5"
+          "old": "10",
+          "new": "8.3333"
         },
         {
           "effect_indexes": [
@@ -1545,8 +1568,8 @@ window.WOW_PVP_DATA = {
           ],
           "status": "APPLIED",
           "kind": "percent_value",
-          "old": "6",
-          "new": "5"
+          "old": "10",
+          "new": "8.3333"
         }
       ],
       "has_pvp_mechanics": true,
@@ -1602,7 +1625,25 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Leech increased by 5%.\nGain an additional 5% leech while Metamorphosis is active.",
+          "pvp_tooltip": "Leech increased by 4.1667%.\nGain an additional 4.1667% leech while Metamorphosis is active.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Leech increased by 10%.\nGain an additional 10% leech while Metamorphosis is active.",
+          "pvp_tooltip": "Leech increased by 8.3333%.\nGain an additional 8.3333% leech while Metamorphosis is active.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Felfire Haste",
@@ -1656,7 +1697,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Infernal Armor",
@@ -1704,15 +1746,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 320331,
         "icon": "ability_demonhunter_immolation"
       },
-      "pve_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer [(12% of Attack Power)]\nFire\ndamage.",
-      "pvp_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer [(12% of Attack Power)]\nFire\ndamage.",
+      "pve_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer [(12% of Attack Power)] Fire damage.",
+      "pvp_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer [(12% of Attack Power)] Fire damage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Immolation Aura increases your armor by 10% and causes melee attackers to suffer [(6% of Attack Power)] Fire damage.",
+          "pvp_tooltip": "Immolation Aura increases your armor by 10% and causes melee attackers to suffer [(6% of Attack Power)] Fire damage.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer [(12% of Attack Power)] Fire damage.",
+          "pvp_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer [(12% of Attack Power)] Fire damage.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Burn It Out",
@@ -1766,7 +1826,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Soul Cleanse",
@@ -1820,7 +1881,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lost in Darkness",
@@ -1875,7 +1937,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Illidari Knowledge",
@@ -1923,16 +1986,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 389696,
         "icon": "spell_mage_overpowered"
       },
-      "pve_tooltip": "Reduces magic damage taken by 3%.",
-      "pvp_tooltip": "Reduces magic damage taken by 2%.",
+      "pve_tooltip": "Reduces magic damage taken by 6%.",
+      "pvp_tooltip": "Reduces magic damage taken by 4%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
           "start": 30,
           "end": 31,
-          "old_token": "3",
-          "new_token": "2",
+          "old_token": "6",
+          "new_token": "4",
           "kind": "percent_value",
           "effect_indexes": [
             1
@@ -1946,8 +2009,8 @@ window.WOW_PVP_DATA = {
           ],
           "status": "APPLIED",
           "kind": "percent_value",
-          "old": "3",
-          "new": "2"
+          "old": "6",
+          "new": "4"
         }
       ],
       "has_pvp_mechanics": true,
@@ -1978,7 +2041,25 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Reduces magic damage taken by 3%.",
+          "pvp_tooltip": "Reduces magic damage taken by 2%.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Reduces magic damage taken by 6%.",
+          "pvp_tooltip": "Reduces magic damage taken by 4%.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Felbound",
@@ -2035,7 +2116,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Will of the Illidari",
@@ -2084,16 +2166,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 389695,
         "icon": "ability_demonhunter_spectank"
       },
-      "pve_tooltip": "Increases maximum health by 3%.",
-      "pvp_tooltip": "Increases maximum health by 1.8%.",
+      "pve_tooltip": "Increases maximum health by 6%.",
+      "pvp_tooltip": "Increases maximum health by 3.6%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
           "start": 28,
           "end": 29,
-          "old_token": "3",
-          "new_token": "1.8",
+          "old_token": "6",
+          "new_token": "3.6",
           "kind": "percent_value",
           "effect_indexes": [
             1
@@ -2107,8 +2189,8 @@ window.WOW_PVP_DATA = {
           ],
           "status": "APPLIED",
           "kind": "percent_value",
-          "old": "3",
-          "new": "1.8"
+          "old": "6",
+          "new": "3.6"
         }
       ],
       "has_pvp_mechanics": true,
@@ -2139,7 +2221,25 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Increases maximum health by 3%.",
+          "pvp_tooltip": "Increases maximum health by 1.8%.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Increases maximum health by 6%.",
+          "pvp_tooltip": "Increases maximum health by 3.6%.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Internal Struggle",
@@ -2193,7 +2293,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Furious",
@@ -2249,7 +2350,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Remorseless",
@@ -2305,7 +2407,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "First In, Last Out",
@@ -2359,7 +2462,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Erratic Felheart",
@@ -2405,15 +2509,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 391397,
         "icon": "inv_archaeology_70_crystallineeyeofundravius"
       },
-      "pve_tooltip": "The cooldown of Infernal Strike is reduced by 1.0 sec.",
-      "pvp_tooltip": "The cooldown of Infernal Strike is reduced by 1.0 sec.",
+      "pve_tooltip": "The cooldown of Infernal Strike is reduced by 2 sec.",
+      "pvp_tooltip": "The cooldown of Infernal Strike is reduced by 2 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "The cooldown of Infernal Strike is reduced by 1.0 sec.",
+          "pvp_tooltip": "The cooldown of Infernal Strike is reduced by 1.0 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "The cooldown of Infernal Strike is reduced by 2 sec.",
+          "pvp_tooltip": "The cooldown of Infernal Strike is reduced by 2 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Final Breath",
@@ -2465,7 +2587,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Darkness",
@@ -2512,14 +2635,14 @@ window.WOW_PVP_DATA = {
         "spell_id": 196718,
         "icon": "ability_demonhunter_darkness"
       },
-      "pve_tooltip": "Instant\n5 min cooldown\nSummons darkness around you in a\nn 8 yd\nradius, granting friendly targets a 15% chance to avoid all damage from an attack. Lasts\n8 sec\n.\nChance to avoid damage increased by 100% when not in a raid.",
-      "pvp_tooltip": "Instant\n5 min cooldown\nSummons darkness around you in a\nn 8 yd\nradius, granting friendly targets a 25% chance to avoid all damage from an attack. Lasts\n8 sec\n.\nChance to avoid damage increased by 100% when not in a raid.",
+      "pve_tooltip": "Instant\n5 min cooldown\nSummons darkness around you in an 8 yd radius, granting friendly targets a 15% chance to avoid all damage from an attack. Lasts 8 sec.\nChance to avoid damage increased by 100% when not in a raid.",
+      "pvp_tooltip": "Instant\n5 min cooldown\nSummons darkness around you in an 8 yd radius, granting friendly targets a 25% chance to avoid all damage from an attack. Lasts 8 sec.\nChance to avoid damage increased by 100% when not in a raid.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 99,
-          "end": 101,
+          "start": 98,
+          "end": 100,
           "old_token": "15",
           "new_token": "25",
           "kind": "percent_value",
@@ -2572,7 +2695,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Demon Muzzle",
@@ -2655,7 +2779,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Soul Splitter",
@@ -2701,15 +2826,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 1266330,
         "icon": "ability_warlock_soulswap"
       },
-      "pve_tooltip": "Any time you would generate one or more Soul Fragments, you have a 2% chance to generate an additional Soul Fragment.",
-      "pvp_tooltip": "Any time you would generate one or more Soul Fragments, you have a 2% chance to generate an additional Soul Fragment.",
+      "pve_tooltip": "Any time you would generate one or more Soul Fragments, you have a 4% chance to generate an additional Soul Fragment.",
+      "pvp_tooltip": "Any time you would generate one or more Soul Fragments, you have a 4% chance to generate an additional Soul Fragment.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Any time you would generate one or more Soul Fragments, you have a 2% chance to generate an additional Soul Fragment.",
+          "pvp_tooltip": "Any time you would generate one or more Soul Fragments, you have a 2% chance to generate an additional Soul Fragment.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Any time you would generate one or more Soul Fragments, you have a 4% chance to generate an additional Soul Fragment.",
+          "pvp_tooltip": "Any time you would generate one or more Soul Fragments, you have a 4% chance to generate an additional Soul Fragment.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Wings of Wrath",
@@ -2761,7 +2904,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Long Night",
@@ -2813,7 +2957,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pitch Black",
@@ -2865,7 +3010,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Demonic Resilience",
@@ -2917,7 +3063,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fel Devastation",
@@ -2962,15 +3109,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 212084,
         "icon": "ability_demonhunter_feldevastation"
       },
-      "pve_tooltip": ":\nCausing damage also heals you for up to [(562.5% of Attack Power) * 10] health\n]",
-      "pvp_tooltip": ":\nCausing damage also heals you for up to [(562.5% of Attack Power) * 10] health\n]",
+      "pve_tooltip": "50 Fury\n20 yd range\nChanneled (2 sec cast)\n40 sec cooldown\nUnleash the fel within you, damaging enemies directly in front of you for [(41.1% of Attack Power) * (10)] Fire damage over 2 sec. [Fel Devastation: Causing damage also heals you for up to [(562.5% of Attack Power) * 10] health]",
+      "pvp_tooltip": "50 Fury\n20 yd range\nChanneled (2 sec cast)\n40 sec cooldown\nUnleash the fel within you, damaging enemies directly in front of you for [(41.1% of Attack Power) * (10)] Fire damage over 2 sec. [Fel Devastation: Causing damage also heals you for up to [(562.5% of Attack Power) * 10] health]",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spirit Bomb",
@@ -3017,15 +3165,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 247454,
         "icon": "inv_icon_shadowcouncilorb_purple"
       },
-      "pve_tooltip": "40 Fury\nInstant\n25 sec cooldown\nConsume up to\n5\nSoul Fragments then explode, dealing (200% of Attack Power) Fire damage to nearby enemies, increased by 20 /\nSoulcrush\n:\n30\n/\nUntethered Rage\n:\n25\n% per fragment consumed. Deals reduced damage beyond\n8\ntargets.",
-      "pvp_tooltip": "40 Fury\nInstant\n25 sec cooldown\nConsume up to\n5\nSoul Fragments then explode, dealing (200% of Attack Power) Fire damage to nearby enemies, increased by 20 /\nSoulcrush\n:\n30\n/\nUntethered Rage\n:\n25\n% per fragment consumed. Deals reduced damage beyond\n8\ntargets.",
+      "pve_tooltip": "40 Fury\nInstant\n25 sec cooldown\nConsume up to 5 Soul Fragments then explode, dealing (200% of Attack Power) Fire damage to nearby enemies, increased by 20 / Soulcrush: 30 / Untethered Rage: 25% per fragment consumed. Deals reduced damage beyond 8 targets.",
+      "pvp_tooltip": "40 Fury\nInstant\n25 sec cooldown\nConsume up to 5 Soul Fragments then explode, dealing (200% of Attack Power) Fire damage to nearby enemies, increased by 20 / Soulcrush: 30 / Untethered Rage: 25% per fragment consumed. Deals reduced damage beyond 8 targets.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fiery Brand",
@@ -3072,15 +3221,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 204021,
         "icon": "ability_demonhunter_fierybrand"
       },
-      "pve_tooltip": ":\nand [(32.2% of Attack Power) * 12] Fire damage over 12 sec\n] to the enemy.",
-      "pvp_tooltip": ":\nand [(32.2% of Attack Power) * 12] Fire damage over 12 sec\n] to the enemy.",
+      "pve_tooltip": "30 yd range\nInstant\n1 min cooldown\n1 Charge\nBrand yourself and an enemy target with demonic symbols, reducing the damage you take by 40% and instantly dealing (416% of Attack Power) Fire damage [Fiery Brand: and [(32.2% of Attack Power) * 12] Fire damage over 12 sec] to the enemy.",
+      "pvp_tooltip": "30 yd range\nInstant\n1 min cooldown\n1 Charge\nBrand yourself and an enemy target with demonic symbols, reducing the damage you take by 40% and instantly dealing (416% of Attack Power) Fire damage [Fiery Brand: and [(32.2% of Attack Power) * 12] Fire damage over 12 sec] to the enemy.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Perfectly Balanced Glaive",
@@ -3135,7 +3285,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Quickened Sigils",
@@ -3190,7 +3341,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ascending Flame",
@@ -3245,7 +3397,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tempered Steel",
@@ -3300,7 +3453,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Calcified Spikes",
@@ -3354,7 +3508,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Feed the Demon",
@@ -3410,7 +3565,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Retaliation",
@@ -3464,7 +3620,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Felfire Fist",
@@ -3519,7 +3676,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sigil of Spite",
@@ -3565,15 +3723,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 390163,
         "icon": "inv_ability_demonhunter_elysiandecree"
       },
-      "pve_tooltip": "30 yd range\nInstant\n1 min cooldown\n1 Charge\nPlace a demonic sigil at the target location that activates after\n2 sec\n.\nDetonates to deal (692% of Attack Power) Chaos damage and shatter up to 3 Soul Fragments from enemies affected by the sigil. Deals reduced damage beyond 5 targets.",
-      "pvp_tooltip": "30 yd range\nInstant\n1 min cooldown\n1 Charge\nPlace a demonic sigil at the target location that activates after\n2 sec\n.\nDetonates to deal (692% of Attack Power) Chaos damage and shatter up to 3 Soul Fragments from enemies affected by the sigil. Deals reduced damage beyond 5 targets.",
+      "pve_tooltip": "30 yd range\nInstant\n1 min cooldown\n1 Charge\nPlace a demonic sigil at the target location that activates after 2 sec.\nDetonates to deal (692% of Attack Power) Chaos damage and shatter up to 3 Soul Fragments from enemies affected by the sigil. Deals reduced damage beyond 5 targets.",
+      "pvp_tooltip": "30 yd range\nInstant\n1 min cooldown\n1 Charge\nPlace a demonic sigil at the target location that activates after 2 sec.\nDetonates to deal (692% of Attack Power) Chaos damage and shatter up to 3 Soul Fragments from enemies affected by the sigil. Deals reduced damage beyond 5 targets.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Agonizing Flames",
@@ -3631,7 +3790,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sigil of Silence",
@@ -3679,15 +3839,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 202137,
         "icon": "ability_demonhunter_sigilofsilence"
       },
-      "pve_tooltip": "30 yd range\nInstant\n1.5 min cooldown\n1 Charge\nPlace a Sigil of Silence at the target location that activates after\n2 sec\n.\nSilences all enemies affected by the sigil for\n2 sec\n.",
-      "pvp_tooltip": "30 yd range\nInstant\n1.5 min cooldown\n1 Charge\nPlace a Sigil of Silence at the target location that activates after\n2 sec\n.\nSilences all enemies affected by the sigil for\n2 sec\n.",
+      "pve_tooltip": "30 yd range\nInstant\n1.5 min cooldown\n1 Charge\nPlace a Sigil of Silence at the target location that activates after 2 sec.\nSilences all enemies affected by the sigil for 2 sec.",
+      "pvp_tooltip": "30 yd range\nInstant\n1.5 min cooldown\n1 Charge\nPlace a Sigil of Silence at the target location that activates after 2 sec.\nSilences all enemies affected by the sigil for 2 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Burning Blood",
@@ -3745,7 +3906,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Revel in Pain",
@@ -3799,7 +3961,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frailty",
@@ -3855,7 +4018,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Feast of Souls",
@@ -3909,7 +4073,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fallout",
@@ -3965,7 +4130,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ruinous Bulwark",
@@ -4019,7 +4185,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Volatile Flameblood",
@@ -4075,7 +4242,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Soul Barrier",
@@ -4129,7 +4297,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Soul Sigils",
@@ -4183,7 +4352,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fel Flame Fortification",
@@ -4239,7 +4409,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Void Reaver",
@@ -4293,7 +4464,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Painbringer",
@@ -4343,15 +4515,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 207387,
         "icon": "artifactability_vengeancedemonhunter_painbringer"
       },
-      "pve_tooltip": "Consuming a Soul Fragment reduces all damage you take by 3% for 8 sec.",
-      "pvp_tooltip": "Consuming a Soul Fragment reduces all damage you take by 3% for 8 sec.",
+      "pve_tooltip": "Consuming a Soul Fragment reduces all damage you take by 6% for 8 sec.",
+      "pvp_tooltip": "Consuming a Soul Fragment reduces all damage you take by 6% for 8 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Consuming a Soul Fragment reduces all damage you take by 3% for 8 sec.",
+          "pvp_tooltip": "Consuming a Soul Fragment reduces all damage you take by 3% for 8 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Consuming a Soul Fragment reduces all damage you take by 6% for 8 sec.",
+          "pvp_tooltip": "Consuming a Soul Fragment reduces all damage you take by 6% for 8 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Roaring Fire",
@@ -4407,7 +4597,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fiery Demise",
@@ -4457,15 +4648,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 389220,
         "icon": "ability_demonhunter_fierybrand"
       },
-      "pve_tooltip": "Fiery Brand also increases Fire damage you deal to the target by 15%.",
-      "pvp_tooltip": "Fiery Brand also increases Fire damage you deal to the target by 15%.",
+      "pve_tooltip": "Fiery Brand also increases Fire damage you deal to the target by 30%.",
+      "pvp_tooltip": "Fiery Brand also increases Fire damage you deal to the target by 30%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Fiery Brand also increases Fire damage you deal to the target by 15%.",
+          "pvp_tooltip": "Fiery Brand also increases Fire damage you deal to the target by 15%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Fiery Brand also increases Fire damage you deal to the target by 30%.",
+          "pvp_tooltip": "Fiery Brand also increases Fire damage you deal to the target by 30%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Chains of Anger",
@@ -4566,7 +4775,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Focused Cleave",
@@ -4621,7 +4831,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Soulmonger",
@@ -4676,7 +4887,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Stoke the Flames",
@@ -4732,7 +4944,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Burning Alive",
@@ -4787,7 +5000,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cycle of Binding",
@@ -4842,7 +5056,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Vulnerability",
@@ -4890,15 +5105,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 389976,
         "icon": "inv_icon_shadowcouncilorb_purple"
       },
-      "pve_tooltip": "Frailty now also increases all damage you deal to afflicted targets by 3%.",
-      "pvp_tooltip": "Frailty now also increases all damage you deal to afflicted targets by 3%.",
+      "pve_tooltip": "Frailty now also increases all damage you deal to afflicted targets by 6%.",
+      "pvp_tooltip": "Frailty now also increases all damage you deal to afflicted targets by 6%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Frailty now also increases all damage you deal to afflicted targets by 3%.",
+          "pvp_tooltip": "Frailty now also increases all damage you deal to afflicted targets by 3%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Frailty now also increases all damage you deal to afflicted targets by 6%.",
+          "pvp_tooltip": "Frailty now also increases all damage you deal to afflicted targets by 6%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Vengeful Beast",
@@ -4956,7 +5189,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Charred Flesh",
@@ -5004,15 +5238,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 336639,
         "icon": "ability_warlock_backdraft"
       },
-      "pve_tooltip": "Immolation Aura damage increases the duration of your Fiery Brand and Sigil of Flame by 0.25 sec.\n(900ms cooldown)",
-      "pvp_tooltip": "Immolation Aura damage increases the duration of your Fiery Brand and Sigil of Flame by 0.25 sec.\n(900ms cooldown)",
+      "pve_tooltip": "Immolation Aura damage increases the duration of your Fiery Brand and Sigil of Flame by 0.5 sec.\n(900ms cooldown)",
+      "pvp_tooltip": "Immolation Aura damage increases the duration of your Fiery Brand and Sigil of Flame by 0.5 sec.\n(900ms cooldown)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Immolation Aura damage increases the duration of your Fiery Brand and Sigil of Flame by 0.25 sec.\n(900ms cooldown)",
+          "pvp_tooltip": "Immolation Aura damage increases the duration of your Fiery Brand and Sigil of Flame by 0.25 sec.\n(900ms cooldown)",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Immolation Aura damage increases the duration of your Fiery Brand and Sigil of Flame by 0.5 sec.\n(900ms cooldown)",
+          "pvp_tooltip": "Immolation Aura damage increases the duration of your Fiery Brand and Sigil of Flame by 0.5 sec.\n(900ms cooldown)",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Soulcrush",
@@ -5064,7 +5316,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Soul Carver",
@@ -5117,7 +5370,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Last Resort",
@@ -5169,7 +5423,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Darkglare Boon",
@@ -5222,7 +5477,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Down in Flames",
@@ -5274,7 +5530,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Untethered Rage",
@@ -5324,7 +5581,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Untethered Rage",
@@ -5374,7 +5632,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Untethered Rage",
@@ -5424,7 +5683,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Art of the Glaive",
@@ -5471,15 +5731,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 442290,
         "icon": "inv_ability_aldrachireaverdemonhunter_reaversglaive"
       },
-      "pve_tooltip": "Consuming 20 Soul Fragments or casting Sigil of Spite converts your next Throw Glaive into Reaver's Glaive.\nReaver's Glaive\n:\nThrow a glaive enhanced with the essence of consumed souls at your target, dealing (385% of Attack Power) Physical damage and ricocheting to 2 additional enemies.\nBegins a well-practiced pattern of glaivework, enhancing your next\nand Soul Cleave.\nThe enhanced ability you cast first deals 10% increased damage, and the second deals 20% increased damage.",
-      "pvp_tooltip": "Consuming 20 Soul Fragments or casting Sigil of Spite converts your next Throw Glaive into Reaver's Glaive.\nReaver's Glaive\n:\nThrow a glaive enhanced with the essence of consumed souls at your target, dealing (385% of Attack Power) Physical damage and ricocheting to 2 additional enemies.\nBegins a well-practiced pattern of glaivework, enhancing your next\nand Soul Cleave.\nThe enhanced ability you cast first deals 10% increased damage, and the second deals 20% increased damage.",
+      "pve_tooltip": "Consuming 20 Soul Fragments or casting Sigil of Spite converts your next Throw Glaive into Reaver's Glaive.\nReaver's Glaive:\nThrow a glaive enhanced with the essence of consumed souls at your target, dealing (385% of Attack Power) Physical damage and ricocheting to 2 additional enemies.\nBegins a well-practiced pattern of glaivework, enhancing your next and Soul Cleave.\nThe enhanced ability you cast first deals 10% increased damage, and the second deals 20% increased damage.",
+      "pvp_tooltip": "Consuming 20 Soul Fragments or casting Sigil of Spite converts your next Throw Glaive into Reaver's Glaive.\nReaver's Glaive:\nThrow a glaive enhanced with the essence of consumed souls at your target, dealing (385% of Attack Power) Physical damage and ricocheting to 2 additional enemies.\nBegins a well-practiced pattern of glaivework, enhancing your next and Soul Cleave.\nThe enhanced ability you cast first deals 10% increased damage, and the second deals 20% increased damage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fury of the Aldrachi",
@@ -5525,8 +5786,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 442718,
         "icon": "spell_fire_felflamestrike"
       },
-      "pve_tooltip": "When enhanced by Reaver's Glaive, Soul Cleave casts 3 additional glaive slashes to nearby targets. Deals reduced damage beyond 8 targets.\nIf cast after\n, cast\n6\nslashes instead.",
-      "pvp_tooltip": "When enhanced by Reaver's Glaive, Soul Cleave casts 3 additional glaive slashes to nearby targets. Deals reduced damage beyond 8 targets.\nIf cast after\n, cast\n3\nslashes instead.",
+      "pve_tooltip": "When enhanced by Reaver's Glaive, Soul Cleave casts 3 additional glaive slashes to nearby targets. Deals reduced damage beyond 8 targets.\nIf cast after , cast 6 slashes instead.",
+      "pvp_tooltip": "When enhanced by Reaver's Glaive, Soul Cleave casts 3 additional glaive slashes to nearby targets. Deals reduced damage beyond 8 targets.\nIf cast after , cast 3 slashes instead.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -5615,7 +5876,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Evasive Action",
@@ -5669,7 +5931,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unhindered Assault",
@@ -5723,7 +5986,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Reaver's Mark",
@@ -5769,15 +6033,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 442679,
         "icon": "ability_hunter_harass"
       },
-      "pve_tooltip": "When enhanced by Reaver's Glaive,\napplies Reaver's Mark, which causes the target to take 7% increased damage for 20 sec. Max 2 stacks.\nApplies 1 additional stack of Reaver's Mark If cast after Soul Cleave.",
-      "pvp_tooltip": "When enhanced by Reaver's Glaive,\napplies Reaver's Mark, which causes the target to take 7% increased damage for 20 sec. Max 2 stacks.\nApplies 1 additional stack of Reaver's Mark If cast after Soul Cleave.",
+      "pve_tooltip": "When enhanced by Reaver's Glaive, applies Reaver's Mark, which causes the target to take 7% increased damage for 20 sec. Max 2 stacks.\nApplies 1 additional stack of Reaver's Mark If cast after Soul Cleave.",
+      "pvp_tooltip": "When enhanced by Reaver's Glaive, applies Reaver's Mark, which causes the target to take 7% increased damage for 20 sec. Max 2 stacks.\nApplies 1 additional stack of Reaver's Mark If cast after Soul Cleave.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Broken Spirit",
@@ -5831,7 +6096,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Aldrachi Tactics",
@@ -5885,7 +6151,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Army Unto Oneself",
@@ -5939,7 +6206,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Incorruptible Spirit",
@@ -5993,7 +6261,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wounded Quarry",
@@ -6039,15 +6308,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 442806,
         "icon": "ability_rogue_venomouswounds"
       },
-      "pve_tooltip": "Expose weaknesses in the target of your\nReaver's Mark\n, causing your Physical damage to any enemy to also deal 25% of the damage dealt to your marked target as Chaos, and sometimes shatter a Soul Fragment.",
-      "pvp_tooltip": "Expose weaknesses in the target of your\nReaver's Mark\n, causing your Physical damage to any enemy to also deal 25% of the damage dealt to your marked target as Chaos, and sometimes shatter a Soul Fragment.",
+      "pve_tooltip": "Expose weaknesses in the target of your Reaver's Mark, causing your Physical damage to any enemy to also deal 25% of the damage dealt to your marked target as Chaos, and sometimes shatter a Soul Fragment.",
+      "pvp_tooltip": "Expose weaknesses in the target of your Reaver's Mark, causing your Physical damage to any enemy to also deal 25% of the damage dealt to your marked target as Chaos, and sometimes shatter a Soul Fragment.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Keen Edge",
@@ -6148,7 +6418,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Incisive Blade",
@@ -6202,7 +6473,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Keen Engagement",
@@ -6256,7 +6528,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Preemptive Strike",
@@ -6310,7 +6583,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bladecraft",
@@ -6440,7 +6714,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Warblade's Hunger",
@@ -6486,15 +6761,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 442502,
         "icon": "ability_warlock_soulsiphon"
       },
-      "pve_tooltip": "Consuming a Soul Fragment causes your next\nto deal (62% of Attack Power) additional Physical damage.",
-      "pvp_tooltip": "Consuming a Soul Fragment causes your next\nto deal (62% of Attack Power) additional Physical damage.",
+      "pve_tooltip": "Consuming a Soul Fragment causes your next to deal (62% of Attack Power) additional Physical damage.",
+      "pvp_tooltip": "Consuming a Soul Fragment causes your next to deal (62% of Attack Power) additional Physical damage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thrill of the Fight",
@@ -6549,7 +6825,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Voidfall",
@@ -6645,7 +6922,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Swift Erasure",
@@ -6699,7 +6977,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Meteoric Rise",
@@ -6753,7 +7032,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Catastrophe",
@@ -6807,7 +7087,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Phase Shift",
@@ -6861,7 +7142,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Path to Oblivion",
@@ -6915,7 +7197,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "State of Matter",
@@ -6969,7 +7252,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mass Acceleration",
@@ -7023,7 +7307,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Doomsayer",
@@ -7077,7 +7362,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Harness the Cosmos",
@@ -7131,7 +7417,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Celestial Echoes",
@@ -7185,7 +7472,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Final Hour",
@@ -7284,7 +7572,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Meteoric Fall",
@@ -7338,7 +7627,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dark Matter",
@@ -7392,7 +7682,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Otherworldly Focus",
@@ -7446,7 +7737,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "World Killer",
@@ -7501,13 +7793,14 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     }
   ],
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "demon-hunter-vengeance",
-  "generated_at": "2026-09-20T12:49:13.595021+00:00",
+  "generated_at": "2026-09-20T19:58:33.656060+00:00",
   "validation": {
     "talents": 123,
     "changed_tooltips": 8,

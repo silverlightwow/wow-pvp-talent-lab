@@ -50,8 +50,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 11426,
         "icon": "spell_ice_lament"
       },
-      "pve_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you with ice, absorbing [35 / 100 * Total Health * (1 + Versatility)] damage [\nGlacial Insulation\n:\nand increasing your armor by 0%\n] for 1 min.\nMelee attacks against you reduce the attacker's movement speed by 50%.",
-      "pvp_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you with ice, absorbing [18.095 / 100 * Total Health * (1 + Versatility)] damage [\nGlacial Insulation\n:\nand increasing your armor by 0%\n] for 1 min.\nMelee attacks against you reduce the attacker's movement speed by 50%.",
+      "pve_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you with ice, absorbing [35 / 100 * Total Health * (1 + Versatility)] damage [Glacial Insulation: and increasing your armor by 0%] for 1 min.\nMelee attacks against you reduce the attacker's movement speed by 50%.",
+      "pvp_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you with ice, absorbing [18.095 / 100 * Total Health * (1 + Versatility)] damage [Glacial Insulation: and increasing your armor by 0%] for 1 min.\nMelee attacks against you reduce the attacker's movement speed by 50%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -129,7 +129,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Alter Time",
@@ -184,7 +185,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ice Block",
@@ -239,7 +241,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Time Walk",
@@ -293,7 +296,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Temporal Realignment",
@@ -347,7 +351,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Master of Time",
@@ -394,15 +399,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 342249,
         "icon": "inv_belt_armor_waistoftime_d_01"
       },
-      "pve_tooltip": "Reduces the cooldown of\nAlter Time\nby 5 sec.",
-      "pvp_tooltip": "Reduces the cooldown of\nAlter Time\nby 5 sec.",
+      "pve_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Reduces the cooldown of Alter Time by 5 sec.",
+          "pvp_tooltip": "Reduces the cooldown of Alter Time by 5 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
+          "pvp_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Winter's Protection",
@@ -449,8 +472,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 382424,
         "icon": "spell_ice_rune"
       },
-      "pve_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
-      "pvp_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
+      "pve_tooltip": "The cooldown of Ice Block is reduced by 60 sec.",
+      "pvp_tooltip": "The cooldown of Ice Block is reduced by 60 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -461,8 +484,8 @@ window.WOW_PVP_DATA = {
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
           "kind": "ordinary_value",
-          "old": 30000.0,
-          "new": 15000.0,
+          "old": 60000.0,
+          "new": 30000.0,
           "full_tooltip_match_count": 0
         }
       ],
@@ -502,7 +525,25 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
+          "pvp_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "The cooldown of Ice Block is reduced by 60 sec.",
+          "pvp_tooltip": "The cooldown of Ice Block is reduced by 60 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Frost Conditioning",
@@ -556,7 +597,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Arcane Warding",
@@ -604,15 +646,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 383092,
         "icon": "spell_arcane_arcaneresilience"
       },
-      "pve_tooltip": "Reduces magic damage taken by 4%.",
-      "pvp_tooltip": "Reduces magic damage taken by 4%.",
+      "pve_tooltip": "Reduces magic damage taken by 8%.",
+      "pvp_tooltip": "Reduces magic damage taken by 8%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Reduces magic damage taken by 4%.",
+          "pvp_tooltip": "Reduces magic damage taken by 4%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Reduces magic damage taken by 8%.",
+          "pvp_tooltip": "Reduces magic damage taken by 8%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Inspired Intellect",
@@ -669,7 +729,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mirror Image",
@@ -725,7 +786,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spellsteal",
@@ -772,15 +834,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 30449,
         "icon": "spell_arcane_arcane02"
       },
-      "pve_tooltip": "21% of base mana\n40 yd range\nInstant\nSteals [\nKleptomania\n:\nall beneficial magic effects from the target. These effects lasts a maximum of 2 min\n/ a beneficial magic effect from the target. This effect lasts a maximum of 2 min].",
-      "pvp_tooltip": "21% of base mana\n40 yd range\nInstant\nSteals [\nKleptomania\n:\nall beneficial magic effects from the target. These effects lasts a maximum of 2 min\n/ a beneficial magic effect from the target. This effect lasts a maximum of 2 min].",
+      "pve_tooltip": "21% of base mana\n40 yd range\nInstant\nSteals [Kleptomania: all beneficial magic effects from the target. These effects lasts a maximum of 2 min / a beneficial magic effect from the target. This effect lasts a maximum of 2 min].",
+      "pvp_tooltip": "21% of base mana\n40 yd range\nInstant\nSteals [Kleptomania: all beneficial magic effects from the target. These effects lasts a maximum of 2 min / a beneficial magic effect from the target. This effect lasts a maximum of 2 min].",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Quick Witted",
@@ -837,7 +900,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dragon's Breath",
@@ -946,7 +1010,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Supernova",
@@ -1055,7 +1120,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Remove Curse",
@@ -1112,7 +1178,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Conjuration",
@@ -1158,31 +1225,21 @@ window.WOW_PVP_DATA = {
         "spell_id": 1244025,
         "icon": "spell_arcane_focusedpower"
       },
-      "pve_tooltip": "Mirror Image's cooldown is reduced by 30 sec.",
-      "pvp_tooltip": "Mirror Image's cooldown is reduced by 15 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 38,
-          "end": 40,
-          "old_token": "30",
-          "new_token": "15",
-          "kind": "duration_seconds",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
+      "pve_tooltip": "Mirror Image's cooldown is reduced by 60 sec.",
+      "pvp_tooltip": "Mirror Image's cooldown is reduced by 60 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "APPLIED",
-          "kind": "duration_seconds",
-          "old": "30",
-          "new": "15"
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 60000.0,
+          "new": 30000.0,
+          "full_tooltip_match_count": 0
         }
       ],
       "has_pvp_mechanics": true,
@@ -1213,7 +1270,25 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Mirror Image's cooldown is reduced by 30 sec.",
+          "pvp_tooltip": "Mirror Image's cooldown is reduced by 30 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Mirror Image's cooldown is reduced by 60 sec.",
+          "pvp_tooltip": "Mirror Image's cooldown is reduced by 60 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Improved Spellsteal",
@@ -1363,7 +1438,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shimmer",
@@ -1412,8 +1488,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 212653,
         "icon": "spell_arcane_massdispel"
       },
-      "pve_tooltip": "Replaces\nBlink\n2% of base mana\nInstant\n30 sec cooldown\n1 Charge\nTeleports you 20 yds forward, unless something is in the way. Unaffected by the global cooldown and castable while casting.",
-      "pvp_tooltip": "Replaces\nBlink\n2% of base mana\nInstant\n30 sec cooldown\n1 Charge\nTeleports you 20 yds forward, unless something is in the way. Unaffected by the global cooldown and castable while casting.",
+      "pve_tooltip": "Replaces Blink\n2% of base mana\nInstant\n30 sec cooldown\n1 Charge\nTeleports you 20 yds forward, unless something is in the way. Unaffected by the global cooldown and castable while casting.",
+      "pvp_tooltip": "Replaces Blink\n2% of base mana\nInstant\n30 sec cooldown\n1 Charge\nTeleports you 20 yds forward, unless something is in the way. Unaffected by the global cooldown and castable while casting.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1461,7 +1537,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Blink",
@@ -1510,8 +1587,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1244340,
         "icon": "spell_arcane_blink"
       },
-      "pve_tooltip": "[\nShimmer\n/ Blink]'s cooldown is reduced by 2 sec.",
-      "pvp_tooltip": "[\nShimmer\n/ Blink]'s cooldown is reduced by 2 sec.",
+      "pve_tooltip": "[Shimmer / Blink]'s cooldown is reduced by 2 sec.",
+      "pvp_tooltip": "[Shimmer / Blink]'s cooldown is reduced by 2 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1555,7 +1632,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Counterspell",
@@ -1609,7 +1687,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Overflowing Energy",
@@ -1667,7 +1746,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Remove Curse",
@@ -1721,7 +1801,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Greater Invisibility",
@@ -1778,7 +1859,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Frost Nova",
@@ -1833,7 +1915,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ice Ward",
@@ -1888,7 +1971,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Captured Thoughts",
@@ -1942,7 +2026,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tome of Rhonin",
@@ -2000,7 +2085,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Warding",
@@ -2054,7 +2140,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tome of Antonidas",
@@ -2112,7 +2199,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Incantation of Swiftness",
@@ -2158,16 +2246,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 382293,
         "icon": "rogue_burstofspeed"
       },
-      "pve_tooltip": "[\nGreater Invisibility\n:\nGreater\n]Invisibility increases your movement speed by 20% for 6 sec.",
-      "pvp_tooltip": "[\nGreater Invisibility\n:\nGreater\n]Invisibility increases your movement speed by 10% for 6 sec.",
+      "pve_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 40% for 6 sec.",
+      "pvp_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 20% for 6 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 80,
-          "end": 82,
-          "old_token": "20",
-          "new_token": "10",
+          "start": 77,
+          "end": 79,
+          "old_token": "40",
+          "new_token": "20",
           "kind": "percent_value",
           "effect_indexes": [
             1
@@ -2181,8 +2269,8 @@ window.WOW_PVP_DATA = {
           ],
           "status": "APPLIED",
           "kind": "percent_value",
-          "old": "20",
-          "new": "10"
+          "old": "40",
+          "new": "20"
         }
       ],
       "has_pvp_mechanics": true,
@@ -2213,7 +2301,25 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 20% for 6 sec.",
+          "pvp_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 10% for 6 sec.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 40% for 6 sec.",
+          "pvp_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 20% for 6 sec.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Master of Escape",
@@ -2267,7 +2373,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Charm of Aegwynn",
@@ -2325,7 +2432,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Brainstorm",
@@ -2379,7 +2487,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flow of Time",
@@ -2498,7 +2607,8 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mana Confluence",
@@ -2552,7 +2662,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Charm of Medivh",
@@ -2610,7 +2721,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Permafrost Bauble",
@@ -2664,7 +2776,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Freezing Cold",
@@ -2770,7 +2883,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ice Nova",
@@ -2879,7 +2993,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Time Manipulation",
@@ -2936,7 +3051,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ring of Frost",
@@ -3042,7 +3158,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mass Polymorph",
@@ -3096,7 +3213,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Energized Barriers",
@@ -3153,7 +3271,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mass Invisibility",
@@ -3207,7 +3326,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Barrier Diffusion",
@@ -3298,7 +3418,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ice Cold",
@@ -3352,7 +3473,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spatial Manipulation",
@@ -3398,15 +3520,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 1244031,
         "icon": "spell_mage_overpowered"
       },
-      "pve_tooltip": "[\nShimmer\n/ Blink] gains an additional charge.",
-      "pvp_tooltip": "[\nShimmer\n/ Blink] gains an additional charge.",
+      "pve_tooltip": "[Shimmer / Blink] gains an additional charge.",
+      "pvp_tooltip": "[Shimmer / Blink] gains an additional charge.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Reflection",
@@ -3452,15 +3575,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 1270829,
         "icon": "ability_hunter_displacement"
       },
-      "pve_tooltip": "Teleports you back to where you last [\nShimmer\n:\nShimmered\n/ Blinked]. Castable while casting and unaffected by the global cooldown.",
-      "pvp_tooltip": "Teleports you back to where you last [\nShimmer\n:\nShimmered\n/ Blinked]. Castable while casting and unaffected by the global cooldown.",
+      "pve_tooltip": "After casting [Shimmer / Blink], it is replaced with Reflection for 8 sec.\nReflection\nTeleports you back to where you last [Shimmer: Shimmered / Blinked]. Castable while casting and unaffected by the global cooldown.",
+      "pvp_tooltip": "After casting [Shimmer / Blink], it is replaced with Reflection for 8 sec.\nReflection\nTeleports you back to where you last [Shimmer: Shimmered / Blinked]. Castable while casting and unaffected by the global cooldown.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Ice Barrier",
@@ -3514,7 +3638,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ice Lance",
@@ -3719,7 +3844,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blizzard",
@@ -3765,15 +3891,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 190356,
         "icon": "spell_frost_icestorm"
       },
-      "pve_tooltip": "2.5% of base mana\n40 yd range\n2 sec cast\n12 sec cooldown\nIce shards pelt the target area, dealing [(48.8% of Spell Power) * 8] Frost damage over 12 sec and reducing movement speed by\n50\n% for 3 sec.\nThis spell is cast at a selected location",
-      "pvp_tooltip": "2.5% of base mana\n40 yd range\n2 sec cast\n12 sec cooldown\nIce shards pelt the target area, dealing [(48.8% of Spell Power) * 8] Frost damage over 12 sec and reducing movement speed by\n50\n% for 3 sec.\nThis spell is cast at a selected location",
+      "pve_tooltip": "2.5% of base mana\n40 yd range\n2 sec cast\n12 sec cooldown\nIce shards pelt the target area, dealing [(48.8% of Spell Power) * 8] Frost damage over 12 sec and reducing movement speed by 50% for 3 sec.\nThis spell is cast at a selected location",
+      "pvp_tooltip": "2.5% of base mana\n40 yd range\n2 sec cast\n12 sec cooldown\nIce shards pelt the target area, dealing [(48.8% of Spell Power) * 8] Frost damage over 12 sec and reducing movement speed by 50% for 3 sec.\nThis spell is cast at a selected location",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blizzard",
@@ -3827,7 +3954,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fingers of Frost",
@@ -3873,8 +4001,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 112965,
         "icon": "ability_mage_wintersgrasp"
       },
-      "pve_tooltip": "[\nFrostfire Bolt\n/ Frostbolt] has a\n15\n% chance to grant a charge of Fingers of Frost.\nFingers of Frost causes your next Ice Lance to deal Shatter damage equal to 4 stacks of Freezing and does not consume Freezing stacks.\nMaximum 2 charges.",
-      "pvp_tooltip": "[\nFrostfire Bolt\n/ Frostbolt] has a\n15\n% chance to grant a charge of Fingers of Frost.\nFingers of Frost causes your next Ice Lance to deal Shatter damage equal to 4 stacks of Freezing and does not consume Freezing stacks.\nMaximum 2 charges.",
+      "pve_tooltip": "[Frostfire Bolt / Frostbolt] has a 15% chance to grant a charge of Fingers of Frost.\nFingers of Frost causes your next Ice Lance to deal Shatter damage equal to 4 stacks of Freezing and does not consume Freezing stacks.\nMaximum 2 charges.",
+      "pvp_tooltip": "[Frostfire Bolt / Frostbolt] has a 15% chance to grant a charge of Fingers of Frost.\nFingers of Frost causes your next Ice Lance to deal Shatter damage equal to 4 stacks of Freezing and does not consume Freezing stacks.\nMaximum 2 charges.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4008,7 +4136,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frostbite",
@@ -4055,14 +4184,14 @@ window.WOW_PVP_DATA = {
         "spell_id": 1248825,
         "icon": "spell_frost_frostarmor"
       },
-      "pve_tooltip": "When [\nFrostfire Bolt\n/ Frostbolt] critically strikes, it applies 1 additional stack of Freezing.\nEach stack of Freezing that you Shatter deals (24.8% of Spell Power) damage to nearby enemies. Damage reduced beyond 5 targets.",
-      "pvp_tooltip": "When [\nFrostfire Bolt\n/ Frostbolt] critically strikes, it applies 1 additional stack of Freezing.\nEach stack of Freezing that you Shatter deals (25.544% of Spell Power) damage to nearby enemies. Damage reduced beyond 5 targets.",
+      "pve_tooltip": "When [Frostfire Bolt / Frostbolt] critically strikes, it applies 1 additional stack of Freezing.\nEach stack of Freezing that you Shatter deals (24.8% of Spell Power) damage to nearby enemies. Damage reduced beyond 5 targets.",
+      "pvp_tooltip": "When [Frostfire Bolt / Frostbolt] critically strikes, it applies 1 additional stack of Freezing.\nEach stack of Freezing that you Shatter deals (25.544% of Spell Power) damage to nearby enemies. Damage reduced beyond 5 targets.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 145,
-          "end": 149,
+          "start": 144,
+          "end": 148,
           "old_token": "24.8",
           "new_token": "25.544",
           "kind": "spell_power_coefficient",
@@ -4161,7 +4290,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Icicles",
@@ -4208,8 +4338,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1246832,
         "icon": "ability_mage_glacialspike"
       },
-      "pve_tooltip": "While in combat, Frost crystallizes around you, generating an Icicle every 6.0 sec. Upon generating 5 Icicles, [\nFrostfire Bolt\n/ Frostbolt] upgrades to Glacial Spike for its next cast.\nGlacial Spike\nConjures a massive spike of ice that impales your target, dealing (1300% of Spell Power) damage and slowing the target's movement speed by\n50\n% for 8 sec.\nApplies\n3\nstacks of Freezing.",
-      "pvp_tooltip": "While in combat, Frost crystallizes around you, generating an Icicle every 6.0 sec. Upon generating 5 Icicles, [\nFrostfire Bolt\n/ Frostbolt] upgrades to Glacial Spike for its next cast.\nGlacial Spike\nConjures a massive spike of ice that impales your target, dealing (1300% of Spell Power) damage and slowing the target's movement speed by\n50\n% for 8 sec.\nApplies\n3\nstacks of Freezing.",
+      "pve_tooltip": "While in combat, Frost crystallizes around you, generating an Icicle every 6.0 sec. Upon generating 5 Icicles, [Frostfire Bolt / Frostbolt] upgrades to Glacial Spike for its next cast.\nGlacial Spike\nConjures a massive spike of ice that impales your target, dealing (1300% of Spell Power) damage and slowing the target's movement speed by 50% for 8 sec.\nApplies 3 stacks of Freezing.",
+      "pvp_tooltip": "While in combat, Frost crystallizes around you, generating an Icicle every 6.0 sec. Upon generating 5 Icicles, [Frostfire Bolt / Frostbolt] upgrades to Glacial Spike for its next cast.\nGlacial Spike\nConjures a massive spike of ice that impales your target, dealing (1300% of Spell Power) damage and slowing the target's movement speed by 50% for 8 sec.\nApplies 3 stacks of Freezing.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4343,7 +4473,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flurry",
@@ -4390,14 +4521,14 @@ window.WOW_PVP_DATA = {
         "spell_id": 44614,
         "icon": "ability_deathknight_chillstreak"
       },
-      "pve_tooltip": "1% of base mana\n40 yd range\nInstant\n30 sec recharge\n2 Charges\nUnleash a flurry of ice, striking the target 3 /\nFrigid Winds\n:\n7\n/\nImproved Flurry\n:\n4\ntimes for a total of [(128.52% of Spell Power) * 3 /\nFrigid Winds\n:\n- 7\n/\nImproved Flurry\n:\n4\n]\ndamage.\nApplies (3 /\nFrigid Winds\n:\n- 7\n/\nImproved Flurry\n:\n4\n) stacks of Freezing.",
-      "pvp_tooltip": "1% of base mana\n40 yd range\nInstant\n30 sec recharge\n2 Charges\nUnleash a flurry of ice, striking the target 3 /\nFrigid Winds\n:\n7\n/\nImproved Flurry\n:\n4\ntimes for a total of [(231.6573% of Spell Power) * 3 /\nFrigid Winds\n:\n- 7\n/\nImproved Flurry\n:\n4\n]\ndamage.\nApplies (3 /\nFrigid Winds\n:\n- 7\n/\nImproved Flurry\n:\n4\n) stacks of Freezing.",
+      "pve_tooltip": "1% of base mana\n40 yd range\nInstant\n30 sec recharge\n2 Charges\nUnleash a flurry of ice, striking the target 3 / Frigid Winds: 7 / Improved Flurry: 4 times for a total of [(128.52% of Spell Power) * 3 / Frigid Winds: - 7 / Improved Flurry: 4] Frost damage.\nApplies (3 / Frigid Winds: - 7 / Improved Flurry: 4) stacks of Freezing.",
+      "pvp_tooltip": "1% of base mana\n40 yd range\nInstant\n30 sec recharge\n2 Charges\nUnleash a flurry of ice, striking the target 3 / Frigid Winds: 7 / Improved Flurry: 4 times for a total of [(231.6573% of Spell Power) * 3 / Frigid Winds: - 7 / Improved Flurry: 4] Frost damage.\nApplies (3 / Frigid Winds: - 7 / Improved Flurry: 4) stacks of Freezing.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 173,
-          "end": 179,
+          "start": 171,
+          "end": 177,
           "old_token": "128.52",
           "new_token": "231.6573",
           "kind": "spell_power_coefficient",
@@ -4550,7 +4681,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cold Snap",
@@ -4597,15 +4729,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 235219,
         "icon": "spell_frost_wizardmark"
       },
-      "pve_tooltip": "Instant\n5 min cooldown\nResets the cooldown of your Ice Barrier, Frost Nova,\nCone of Cold,\nIce Cold, and Ice Block.",
-      "pvp_tooltip": "Instant\n5 min cooldown\nResets the cooldown of your Ice Barrier, Frost Nova,\nCone of Cold,\nIce Cold, and Ice Block.",
+      "pve_tooltip": "Instant\n5 min cooldown\nResets the cooldown of your Ice Barrier, Frost Nova, Cone of Cold, Ice Cold, and Ice Block.",
+      "pvp_tooltip": "Instant\n5 min cooldown\nResets the cooldown of your Ice Barrier, Frost Nova, Cone of Cold, Ice Cold, and Ice Block.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Glacial Bulwark",
@@ -4660,7 +4793,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frozen Orb",
@@ -4707,8 +4841,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 84714,
         "icon": "spell_frost_frozenorb"
       },
-      "pve_tooltip": "1% of base mana\n40 yd range\nInstant\n1 min cooldown\nLaunches an orb of swirling ice in front of you, dealing up to [20 * (67.584% of Spell Power)] Frost damage to all enemies it passes through over 15 sec. After a short delay, Frozen Orb will pursue its target. Deals reduced damage beyond 8 targets.\nEnemies damaged by the Frozen Orb are slowed by\n50\n% for 8 sec.",
-      "pvp_tooltip": "1% of base mana\n40 yd range\nInstant\n1 min cooldown\nLaunches an orb of swirling ice in front of you, dealing up to [20 * (121.8202% of Spell Power)] Frost damage to all enemies it passes through over 15 sec. After a short delay, Frozen Orb will pursue its target. Deals reduced damage beyond 8 targets.\nEnemies damaged by the Frozen Orb are slowed by\n50\n% for 8 sec.",
+      "pve_tooltip": "1% of base mana\n40 yd range\nInstant\n1 min cooldown\nLaunches an orb of swirling ice in front of you, dealing up to [20 * (67.584% of Spell Power)] Frost damage to all enemies it passes through over 15 sec. After a short delay, Frozen Orb will pursue its target. Deals reduced damage beyond 8 targets.\nEnemies damaged by the Frozen Orb are slowed by 50% for 8 sec.",
+      "pvp_tooltip": "1% of base mana\n40 yd range\nInstant\n1 min cooldown\nLaunches an orb of swirling ice in front of you, dealing up to [20 * (121.8202% of Spell Power)] Frost damage to all enemies it passes through over 15 sec. After a short delay, Frozen Orb will pursue its target. Deals reduced damage beyond 8 targets.\nEnemies damaged by the Frozen Orb are slowed by 50% for 8 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4777,7 +4911,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Brain Freeze",
@@ -4824,14 +4959,14 @@ window.WOW_PVP_DATA = {
         "spell_id": 190447,
         "icon": "ability_mage_brainfreeze"
       },
-      "pve_tooltip": "[\nFrostfire Bolt\n/ Frostbolt] has a 25 /\nFrozen Touch\n:\n30\n/\nFrostfire Infusion\n:\n26\n/\nArchmage's Wrath\n:\n30\n% chance to reset the remaining cooldown on Flurry and cause your next Flurry to deal\n50\n% increased damage.",
-      "pvp_tooltip": "[\nFrostfire Bolt\n/ Frostbolt] has a 25 /\nFrozen Touch\n:\n30\n/\nFrostfire Infusion\n:\n26\n/\nArchmage's Wrath\n:\n30\n% chance to reset the remaining cooldown on Flurry and cause your next Flurry to deal\n25\n% increased damage.",
+      "pve_tooltip": "[Frostfire Bolt / Frostbolt] has a 25 / Frozen Touch: 30 / Frostfire Infusion: 26 / Archmage's Wrath: 30% chance to reset the remaining cooldown on Flurry and cause your next Flurry to deal 50% increased damage.",
+      "pvp_tooltip": "[Frostfire Bolt / Frostbolt] has a 25 / Frozen Touch: 30 / Frostfire Infusion: 26 / Archmage's Wrath: 30% chance to reset the remaining cooldown on Flurry and cause your next Flurry to deal 25% increased damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 195,
-          "end": 197,
+          "start": 190,
+          "end": 192,
           "old_token": "50",
           "new_token": "25",
           "kind": "percent_value",
@@ -5036,7 +5171,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 3,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Piercing Cold",
@@ -5083,14 +5219,14 @@ window.WOW_PVP_DATA = {
         "spell_id": 378919,
         "icon": "spell_frost_frostbolt"
       },
-      "pve_tooltip": "[\nFrostfire Bolt\n/ Frostbolt] and Flurry critical strike damage increased by 20%.",
-      "pvp_tooltip": "[\nFrostfire Bolt\n/ Frostbolt] and Flurry critical strike damage increased by 10%.",
+      "pve_tooltip": "[Frostfire Bolt / Frostbolt] and Flurry critical strike damage increased by 20%.",
+      "pvp_tooltip": "[Frostfire Bolt / Frostbolt] and Flurry critical strike damage increased by 10%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 77,
-          "end": 79,
+          "start": 76,
+          "end": 78,
           "old_token": "20",
           "new_token": "10",
           "kind": "percent_value",
@@ -5138,7 +5274,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ray of Frost",
@@ -5251,7 +5388,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Everlasting Frost",
@@ -5306,7 +5444,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Permafrost Lances",
@@ -5447,7 +5586,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frozen Touch",
@@ -5501,7 +5641,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Splitting Ice",
@@ -5548,14 +5689,14 @@ window.WOW_PVP_DATA = {
         "spell_id": 56377,
         "icon": "spell_frost_ice_shards"
       },
-      "pve_tooltip": "Your Flurry and [\nFrostfire Bolt\n/ Frostbolt] spells strike 1 additional target at 50% effectiveness.",
-      "pvp_tooltip": "Your Flurry and [\nFrostfire Bolt\n/ Frostbolt] spells strike 1 additional target at 12.5% effectiveness.",
+      "pve_tooltip": "Your Flurry and [Frostfire Bolt / Frostbolt] spells strike 1 additional target at 50% effectiveness.",
+      "pvp_tooltip": "Your Flurry and [Frostfire Bolt / Frostbolt] spells strike 1 additional target at 12.5% effectiveness.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 83,
-          "end": 85,
+          "start": 82,
+          "end": 84,
           "old_token": "50",
           "new_token": "12.5",
           "kind": "percent_value",
@@ -5603,7 +5744,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flash Freeze",
@@ -5792,7 +5934,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Splintering Ray",
@@ -5847,7 +5990,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frigid Focus",
@@ -5902,7 +6046,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Winter's Blessing",
@@ -6005,7 +6150,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Freezing Rain",
@@ -6060,7 +6206,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cone of Frost",
@@ -6106,15 +6253,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 1247090,
         "icon": "ability_mage_chilledtothebone"
       },
-      "pve_tooltip": "Cone of Cold\nnow applies 3 stacks of Freezing to up to 5 enemies.",
-      "pvp_tooltip": "Cone of Cold\nnow applies 3 stacks of Freezing to up to 5 enemies.",
+      "pve_tooltip": "Cone of Cold now applies 3 stacks of Freezing to up to 5 enemies.",
+      "pvp_tooltip": "Cone of Cold now applies 3 stacks of Freezing to up to 5 enemies.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fractured Frost",
@@ -6170,7 +6318,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Shatter",
@@ -6226,7 +6375,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Deep Shatter",
@@ -6282,7 +6432,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wintertide",
@@ -6338,7 +6489,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "White Out",
@@ -6394,7 +6546,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Glacial Attunement",
@@ -6443,15 +6596,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 1247759,
         "icon": "ability_hunter_glacialtrap"
       },
-      "pve_tooltip": "Flurry and Blizzard damage increased by 10%.",
-      "pvp_tooltip": "Flurry and Blizzard damage increased by 10%.",
+      "pve_tooltip": "Flurry and Blizzard damage increased by 20%.",
+      "pvp_tooltip": "Flurry and Blizzard damage increased by 20%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Flurry and Blizzard damage increased by 10%.",
+          "pvp_tooltip": "Flurry and Blizzard damage increased by 10%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Flurry and Blizzard damage increased by 20%.",
+          "pvp_tooltip": "Flurry and Blizzard damage increased by 20%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Heart of Ice",
@@ -6508,7 +6679,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rimecaster",
@@ -6557,15 +6729,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 1247743,
         "icon": "spell_frost_manarecharge"
       },
-      "pve_tooltip": "[\nFrostfire Bolt\n/ Frostbolt] and Glacial Spike damage increased by 10%.",
-      "pvp_tooltip": "[\nFrostfire Bolt\n/ Frostbolt] and Glacial Spike damage increased by 10%.",
+      "pve_tooltip": "[Frostfire Bolt / Frostbolt] and Glacial Spike damage increased by 20%.",
+      "pvp_tooltip": "[Frostfire Bolt / Frostbolt] and Glacial Spike damage increased by 20%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "[Frostfire Bolt / Frostbolt] and Glacial Spike damage increased by 10%.",
+          "pvp_tooltip": "[Frostfire Bolt / Frostbolt] and Glacial Spike damage increased by 10%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "[Frostfire Bolt / Frostbolt] and Glacial Spike damage increased by 20%.",
+          "pvp_tooltip": "[Frostfire Bolt / Frostbolt] and Glacial Spike damage increased by 20%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Freezing Winds",
@@ -6619,7 +6809,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Flurry",
@@ -6673,7 +6864,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Glacial Assault",
@@ -6788,7 +6980,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Crystalline Refraction",
@@ -6842,7 +7035,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Summon Water Elemental",
@@ -6897,7 +7091,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lonely Winter",
@@ -6944,15 +7139,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 205024,
         "icon": "achievement_dungeon_frozenthrone"
       },
-      "pve_tooltip": "Replaces\nSummon Water Elemental\nSpell damage increased by 3%.",
-      "pvp_tooltip": "Replaces\nSummon Water Elemental\nSpell damage increased by 3%.",
+      "pve_tooltip": "Replaces Summon Water Elemental\nSpell damage increased by 3%.",
+      "pvp_tooltip": "Replaces Summon Water Elemental\nSpell damage increased by 3%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Glacial Chill",
@@ -7006,7 +7202,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Glacial Shatter",
@@ -7060,7 +7257,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hailstones",
@@ -7114,7 +7312,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thermal Void",
@@ -7259,7 +7458,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Glaciate",
@@ -7313,7 +7513,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Comet Storm",
@@ -7518,7 +7719,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hand of Frost",
@@ -7628,7 +7830,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hand of Frost",
@@ -7678,7 +7881,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hand of Frost",
@@ -7728,7 +7932,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frostfire Bolt",
@@ -7955,7 +8160,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Splintering Sorcery",
@@ -8002,8 +8208,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 443739,
         "icon": "achievement_dungeon_arcanevaults"
       },
-      "pve_tooltip": "Casting Frostbolt or Flurry conjures a Frost Splinter.\nFrost Splinter\n:\nConjure raw Frost magic into a sharp projectile that deals (45.3% of Spell Power) Frost damage.",
-      "pvp_tooltip": "Casting Frostbolt or Flurry conjures a Frost Splinter.\nFrost Splinter\n:\nConjure raw Frost magic into a sharp projectile that deals (45.3% of Spell Power) Frost damage.",
+      "pve_tooltip": "Casting Frostbolt or Flurry conjures a Frost Splinter.\nFrost Splinter:\nConjure raw Frost magic into a sharp projectile that deals (45.3% of Spell Power) Frost damage.",
+      "pvp_tooltip": "Casting Frostbolt or Flurry conjures a Frost Splinter.\nFrost Splinter:\nConjure raw Frost magic into a sharp projectile that deals (45.3% of Spell Power) Frost damage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -8087,7 +8293,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Imbued Warding",
@@ -8213,7 +8420,8 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Meltdown",
@@ -8267,7 +8475,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frostfire Empowerment",
@@ -8476,7 +8685,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 4
+      "render_effect_count": 4,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Elemental Affinity",
@@ -8530,7 +8740,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flame and Frost",
@@ -8584,7 +8795,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Duality",
@@ -8750,7 +8962,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Augury Abounds",
@@ -8804,7 +9017,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Force of Will",
@@ -8858,7 +9072,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Splintering Orbs",
@@ -8912,7 +9127,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Attuned Familiar",
@@ -8966,7 +9182,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shifting Shards",
@@ -9020,7 +9237,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Heat Sink",
@@ -9074,7 +9292,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thermal Conditioning",
@@ -9128,7 +9347,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Severe Temperatures",
@@ -9182,7 +9402,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dualcasting Adept",
@@ -9236,7 +9457,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Molten Chill",
@@ -9290,7 +9512,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Slippery Slinging",
@@ -9336,8 +9559,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 444752,
         "icon": "ability_mage_icyfeet"
       },
-      "pve_tooltip": "You have 40% increased movement speed during Alter Time\n.",
-      "pvp_tooltip": "You have 20% increased movement speed during Alter Time\n.",
+      "pve_tooltip": "You have 40% increased movement speed during Alter Time.",
+      "pvp_tooltip": "You have 20% increased movement speed during Alter Time.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -9391,7 +9614,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Look Again",
@@ -9445,7 +9669,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Controlled Instincts",
@@ -9540,7 +9765,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Reactive Barrier",
@@ -9660,7 +9886,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Phantasmal Image",
@@ -9714,7 +9941,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Infused Splinters",
@@ -9768,7 +9996,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frostfire Infusion",
@@ -9822,7 +10051,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flash Freezeburn",
@@ -9876,7 +10106,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blast Radius",
@@ -9930,7 +10161,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Elemental Conduit",
@@ -9984,7 +10216,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Archmage's Wrath",
@@ -10038,7 +10271,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Signature Spell",
@@ -10092,7 +10326,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spellfrost Teachings",
@@ -10146,7 +10381,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Polished Focus",
@@ -10200,7 +10436,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Isothermic Core",
@@ -10600,7 +10837,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 6
+      "render_effect_count": 6,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Splinterstorm",
@@ -10655,16 +10893,17 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     }
   ],
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "mage-frost",
-  "generated_at": "2026-09-20T12:51:02.629643+00:00",
+  "generated_at": "2026-09-20T20:00:40.621638+00:00",
   "validation": {
     "talents": 130,
-    "changed_tooltips": 26,
+    "changed_tooltips": 25,
     "talents_with_pvp_mechanics": 40,
     "unique_nodes": 109,
     "tree_build": "12.1.0.69875",

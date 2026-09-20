@@ -58,7 +58,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Soul Leech",
@@ -103,15 +104,16 @@
         "spell_id": 1311653,
         "icon": "warlock_siphonlife"
       },
-      "pve_tooltip": "All single-target damage done by you and your minions grants you and your pet shadowy shields that absorb 3% of the damage dealt for 15 sec, up to 5 /\nDemon Skin\n:\n10\n/\nIllhoof's Design\n:\n20\n/\nFortified Soul\n:\n10\n% of maximum health.",
-      "pvp_tooltip": "All single-target damage done by you and your minions grants you and your pet shadowy shields that absorb 3% of the damage dealt for 15 sec, up to 5 /\nDemon Skin\n:\n10\n/\nIllhoof's Design\n:\n20\n/\nFortified Soul\n:\n10\n% of maximum health.",
+      "pve_tooltip": "All single-target damage done by you and your minions grants you and your pet shadowy shields that absorb 3% of the damage dealt for 15 sec, up to 5 / Demon Skin: 10 / Illhoof's Design: 20 / Fortified Soul: 10% of maximum health.",
+      "pvp_tooltip": "All single-target damage done by you and your minions grants you and your pet shadowy shields that absorb 3% of the damage dealt for 15 sec, up to 5 / Demon Skin: 10 / Illhoof's Design: 20 / Fortified Soul: 10% of maximum health.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Burning Rush",
@@ -156,15 +158,16 @@
         "spell_id": 111400,
         "icon": "ability_deathwing_sealarmorbreachtga"
       },
-      "pve_tooltip": "Instant\nIncreases your movement speed by\n50\n%, but also damages you for 4% of your maximum health every 1 sec. Movement impairing effects may not reduce you below 100% of normal movement speed. Lasts until canceled.",
-      "pvp_tooltip": "Instant\nIncreases your movement speed by\n50\n%, but also damages you for 4% of your maximum health every 1 sec. Movement impairing effects may not reduce you below 100% of normal movement speed. Lasts until canceled.",
+      "pve_tooltip": "Instant\nIncreases your movement speed by 50%, but also damages you for 4% of your maximum health every 1 sec. Movement impairing effects may not reduce you below 100% of normal movement speed. Lasts until canceled.",
+      "pvp_tooltip": "Instant\nIncreases your movement speed by 50%, but also damages you for 4% of your maximum health every 1 sec. Movement impairing effects may not reduce you below 100% of normal movement speed. Lasts until canceled.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fel Pact",
@@ -218,7 +221,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Demon Skin",
@@ -266,16 +270,16 @@
         "spell_id": 219272,
         "icon": "spell_shadow_ragingscream"
       },
-      "pve_tooltip": "Your Soul Leech absorption now passively recharges at a rate of 0.2% of maximum health every 1 sec, and may now absorb an additional 5% of maximum health.\nIncreases your armor by 45%.",
-      "pvp_tooltip": "Your Soul Leech absorption now passively recharges at a rate of 0.2% of maximum health every 1 sec, and may now absorb an additional 5% of maximum health.\nIncreases your armor by 58.5%.",
+      "pve_tooltip": "Your Soul Leech absorption now passively recharges at a rate of 0.2% of maximum health every 1 sec, and may now absorb an additional 10% of maximum health.\nIncreases your armor by 90%.",
+      "pvp_tooltip": "Your Soul Leech absorption now passively recharges at a rate of 0.2% of maximum health every 1 sec, and may now absorb an additional 10% of maximum health.\nIncreases your armor by 117%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 179,
-          "end": 181,
-          "old_token": "45",
-          "new_token": "58.5",
+          "start": 180,
+          "end": 182,
+          "old_token": "90",
+          "new_token": "117",
           "kind": "ordinary_value",
           "effect_indexes": [
             4
@@ -289,8 +293,8 @@
           ],
           "status": "APPLIED",
           "kind": "ordinary_value",
-          "old": "45",
-          "new": "58.5"
+          "old": "90",
+          "new": "117"
         }
       ],
       "has_pvp_mechanics": true,
@@ -321,7 +325,25 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Your Soul Leech absorption now passively recharges at a rate of 0.1% of maximum health every 1 sec, and may now absorb an additional 5% of maximum health.\nIncreases your armor by 45%.",
+          "pvp_tooltip": "Your Soul Leech absorption now passively recharges at a rate of 0.1% of maximum health every 1 sec, and may now absorb an additional 5% of maximum health.\nIncreases your armor by 58.5%.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Your Soul Leech absorption now passively recharges at a rate of 0.2% of maximum health every 1 sec, and may now absorb an additional 10% of maximum health.\nIncreases your armor by 90%.",
+          "pvp_tooltip": "Your Soul Leech absorption now passively recharges at a rate of 0.2% of maximum health every 1 sec, and may now absorb an additional 10% of maximum health.\nIncreases your armor by 117%.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Fel Armor",
@@ -369,15 +391,33 @@
         "spell_id": 386124,
         "icon": "spell_shadow_felarmour"
       },
-      "pve_tooltip": "When Soul Leech absorbs damage, 5% of damage taken is absorbed and spread out over 5 sec.\nReduces damage taken by 1.5%.",
-      "pvp_tooltip": "When Soul Leech absorbs damage, 5% of damage taken is absorbed and spread out over 5 sec.\nReduces damage taken by 1.5%.",
+      "pve_tooltip": "When Soul Leech absorbs damage, 10% of damage taken is absorbed and spread out over 5 sec.\nReduces damage taken by 3%.",
+      "pvp_tooltip": "When Soul Leech absorbs damage, 10% of damage taken is absorbed and spread out over 5 sec.\nReduces damage taken by 3%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "When Soul Leech absorbs damage, 5% of damage taken is absorbed and spread out over 5 sec.\nReduces damage taken by 1.5%.",
+          "pvp_tooltip": "When Soul Leech absorbs damage, 5% of damage taken is absorbed and spread out over 5 sec.\nReduces damage taken by 1.5%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "When Soul Leech absorbs damage, 10% of damage taken is absorbed and spread out over 5 sec.\nReduces damage taken by 3%.",
+          "pvp_tooltip": "When Soul Leech absorbs damage, 10% of damage taken is absorbed and spread out over 5 sec.\nReduces damage taken by 3%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Fiendish Stride",
@@ -431,7 +471,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Demonic Embrace",
@@ -487,7 +528,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Nightmare",
@@ -590,7 +632,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Horrify",
@@ -646,7 +689,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Demonic Fortitude",
@@ -703,7 +747,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Banish",
@@ -749,15 +794,16 @@
         "spell_id": 710,
         "icon": "spell_shadow_cripple"
       },
-      "pve_tooltip": "1.5% of base mana\n30 yd range\n1.5 sec cast\nBanishes an enemy Demon, Aberration [\nGreater Banish\n:\nUndead\n], or Elemental, preventing any action for 30 sec. Limit 1. Casting Banish again on the target will cancel the effect.",
-      "pvp_tooltip": "1.5% of base mana\n30 yd range\n1.5 sec cast\nBanishes an enemy Demon, Aberration [\nGreater Banish\n:\nUndead\n], or Elemental, preventing any action for 30 sec. Limit 1. Casting Banish again on the target will cancel the effect.",
+      "pve_tooltip": "1.5% of base mana\n30 yd range\n1.5 sec cast\nBanishes an enemy Demon, Aberration [Greater Banish: Undead], or Elemental, preventing any action for 30 sec. Limit 1. Casting Banish again on the target will cancel the effect.",
+      "pvp_tooltip": "1.5% of base mana\n30 yd range\n1.5 sec cast\nBanishes an enemy Demon, Aberration [Greater Banish: Undead], or Elemental, preventing any action for 30 sec. Limit 1. Casting Banish again on the target will cancel the effect.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Curse of Exhaustion",
@@ -850,7 +896,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Curse of Tongues",
@@ -953,7 +1000,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Infernal Beneficiary",
@@ -1007,7 +1055,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mortal Coil",
@@ -1093,7 +1142,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pact of the Annihilan",
@@ -1150,7 +1200,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Demonic Circle",
@@ -1199,15 +1250,16 @@
         "spell_id": 268358,
         "icon": "spell_shadow_demoniccirclesummon"
       },
-      "pve_tooltip": "2% of base mana\nSummons a Demonic Circle for 15 min. Cast Demonic Circle: Teleport to teleport to its location and remove all movement slowing effects. [\nKilrogg's Cunning\n:\nIf you cast Demonic Circle: Summon while controlling an Eye of Kilrogg, the circle will appear where the eye is located\n]\nYou also learn:\nDemonic Circle: Teleport\nTeleports you to your Demonic Circle and removes all movement slowing effects.",
-      "pvp_tooltip": "2% of base mana\nSummons a Demonic Circle for 15 min. Cast Demonic Circle: Teleport to teleport to its location and remove all movement slowing effects. [\nKilrogg's Cunning\n:\nIf you cast Demonic Circle: Summon while controlling an Eye of Kilrogg, the circle will appear where the eye is located\n]\nYou also learn:\nDemonic Circle: Teleport\nTeleports you to your Demonic Circle and removes all movement slowing effects.",
+      "pve_tooltip": "2% of base mana\nSummons a Demonic Circle for 15 min. Cast Demonic Circle: Teleport to teleport to its location and remove all movement slowing effects. [Kilrogg's Cunning: If you cast Demonic Circle: Summon while controlling an Eye of Kilrogg, the circle will appear where the eye is located]\nYou also learn:\nDemonic Circle: Teleport\nTeleports you to your Demonic Circle and removes all movement slowing effects.",
+      "pvp_tooltip": "2% of base mana\nSummons a Demonic Circle for 15 min. Cast Demonic Circle: Teleport to teleport to its location and remove all movement slowing effects. [Kilrogg's Cunning: If you cast Demonic Circle: Summon while controlling an Eye of Kilrogg, the circle will appear where the eye is located]\nYou also learn:\nDemonic Circle: Teleport\nTeleports you to your Demonic Circle and removes all movement slowing effects.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pact of the Satyr",
@@ -1265,7 +1317,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Mortal Coil",
@@ -1319,7 +1372,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dark Pact",
@@ -1410,7 +1464,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Foul Mouth",
@@ -1456,15 +1511,16 @@
         "spell_id": 1265813,
         "icon": "ability_creature_cursed_02"
       },
-      "pve_tooltip": "Casting Curse of Exhaustion, Curse of Tongues, or\nCurse of Weakness\nnow curses all enemies within 10 yds of the target.",
-      "pvp_tooltip": "Casting Curse of Exhaustion, Curse of Tongues, or\nCurse of Weakness\nnow curses all enemies within 10 yds of the target.",
+      "pve_tooltip": "Casting Curse of Exhaustion, Curse of Tongues, or Curse of Weakness now curses all enemies within 10 yds of the target.",
+      "pvp_tooltip": "Casting Curse of Exhaustion, Curse of Tongues, or Curse of Weakness now curses all enemies within 10 yds of the target.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Empowered Healthstone",
@@ -1519,7 +1575,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Abyss Walker",
@@ -1605,7 +1662,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fortified Soul",
@@ -1661,7 +1719,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Teachings of the Black Harvest",
@@ -1707,15 +1766,16 @@
         "spell_id": 385881,
         "icon": "inv_misc_codexofxerrath_nochains"
       },
-      "pve_tooltip": "Your primary pets gain a bonus effect.\nImp\n: Successful Singe Magic casts grant the target 4% damage reduction for 5 sec.\nVoidwalker\n: Reduces the cooldown of Shadow Bulwark by 30 sec.\nFelhunter\n: Reduces the cooldown of Devour Magic by 5 sec.\nSayaad\n: Reduces the cooldown of Seduction by 10 sec and causes the target to walk faster towards the demon.",
-      "pvp_tooltip": "Your primary pets gain a bonus effect.\nImp\n: Successful Singe Magic casts grant the target 4% damage reduction for 5 sec.\nVoidwalker\n: Reduces the cooldown of Shadow Bulwark by 30 sec.\nFelhunter\n: Reduces the cooldown of Devour Magic by 5 sec.\nSayaad\n: Reduces the cooldown of Seduction by 10 sec and causes the target to walk faster towards the demon.",
+      "pve_tooltip": "Your primary pets gain a bonus effect.\nImp: Successful Singe Magic casts grant the target 4% damage reduction for 5 sec.\nVoidwalker: Reduces the cooldown of Shadow Bulwark by 30 sec.\nFelhunter: Reduces the cooldown of Devour Magic by 5 sec.\nSayaad: Reduces the cooldown of Seduction by 10 sec and causes the target to walk faster towards the demon.",
+      "pvp_tooltip": "Your primary pets gain a bonus effect.\nImp: Successful Singe Magic casts grant the target 4% damage reduction for 5 sec.\nVoidwalker: Reduces the cooldown of Shadow Bulwark by 30 sec.\nFelhunter: Reduces the cooldown of Devour Magic by 5 sec.\nSayaad: Reduces the cooldown of Seduction by 10 sec and causes the target to walk faster towards the demon.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gorefiend's Avarice",
@@ -1771,7 +1831,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ichor of Devils",
@@ -1825,7 +1886,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frequent Donor",
@@ -1879,7 +1941,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pact of the Eredar",
@@ -1936,7 +1999,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pact of the Nathrezim",
@@ -1992,7 +2056,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Demonic Resilience",
@@ -2095,7 +2160,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Empowered Drain Life",
@@ -2149,7 +2215,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Strength of Will",
@@ -2205,7 +2272,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dark Accord",
@@ -2261,7 +2329,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Demonic Gateway",
@@ -2310,15 +2379,16 @@
         "spell_id": 111771,
         "icon": "spell_warlock_demonicportal_green"
       },
-      "pve_tooltip": "10% of base mana\n10 - 40 yd range\n2 sec cast\n10 sec cooldown\nCreates a demonic gateway between two locations. Activating the gateway transports the user to the other gateway. Each player can use a Demonic Gateway only once per\n90\nsec.",
-      "pvp_tooltip": "10% of base mana\n10 - 40 yd range\n2 sec cast\n10 sec cooldown\nCreates a demonic gateway between two locations. Activating the gateway transports the user to the other gateway. Each player can use a Demonic Gateway only once per\n90\nsec.",
+      "pve_tooltip": "10% of base mana\n10 - 40 yd range\n2 sec cast\n10 sec cooldown\nCreates a demonic gateway between two locations. Activating the gateway transports the user to the other gateway. Each player can use a Demonic Gateway only once per 90 sec.",
+      "pvp_tooltip": "10% of base mana\n10 - 40 yd range\n2 sec cast\n10 sec cooldown\nCreates a demonic gateway between two locations. Activating the gateway transports the user to the other gateway. Each player can use a Demonic Gateway only once per 90 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Howl of Terror",
@@ -2367,15 +2437,16 @@
         "spell_id": 5484,
         "icon": "ability_warlock_howlofterror"
       },
-      "pve_tooltip": "1.8% of base mana\nInstant\n40 sec cooldown\nLet loose a terrifying howl, causing\n5\nenemies within 10 yds to flee in fear, disorienting them for 20 sec. Damage may cancel the effect.",
-      "pvp_tooltip": "1.8% of base mana\nInstant\n40 sec cooldown\nLet loose a terrifying howl, causing\n5\nenemies within 10 yds to flee in fear, disorienting them for 20 sec. Damage may cancel the effect.",
+      "pve_tooltip": "1.8% of base mana\nInstant\n40 sec cooldown\nLet loose a terrifying howl, causing 5 enemies within 10 yds to flee in fear, disorienting them for 20 sec. Damage may cancel the effect.",
+      "pvp_tooltip": "1.8% of base mana\nInstant\n40 sec cooldown\nLet loose a terrifying howl, causing 5 enemies within 10 yds to flee in fear, disorienting them for 20 sec. Damage may cancel the effect.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shadowfury",
@@ -2432,7 +2503,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Swift Artifice",
@@ -2486,7 +2558,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Soul Link",
@@ -2534,15 +2607,33 @@
         "spell_id": 108415,
         "icon": "ability_warlock_soullink"
       },
-      "pve_tooltip": "100 yd range\n5% of all damage you take is taken by your demon pet instead.\nWhile Grimoire of Sacrifice is active, your Stamina is increased by 3%.",
-      "pvp_tooltip": "100 yd range\n5% of all damage you take is taken by your demon pet instead.\nWhile Grimoire of Sacrifice is active, your Stamina is increased by 3%.",
+      "pve_tooltip": "100 yd range\n10% of all damage you take is taken by your demon pet instead.\nWhile Grimoire of Sacrifice is active, your Stamina is increased by 6%.",
+      "pvp_tooltip": "100 yd range\n10% of all damage you take is taken by your demon pet instead.\nWhile Grimoire of Sacrifice is active, your Stamina is increased by 6%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "100 yd range\n5% of all damage you take is taken by your demon pet instead.\nWhile Grimoire of Sacrifice is active, your Stamina is increased by 3%.",
+          "pvp_tooltip": "100 yd range\n5% of all damage you take is taken by your demon pet instead.\nWhile Grimoire of Sacrifice is active, your Stamina is increased by 3%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "100 yd range\n10% of all damage you take is taken by your demon pet instead.\nWhile Grimoire of Sacrifice is active, your Stamina is increased by 6%.",
+          "pvp_tooltip": "100 yd range\n10% of all damage you take is taken by your demon pet instead.\nWhile Grimoire of Sacrifice is active, your Stamina is increased by 6%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Frequent Traveler",
@@ -2596,7 +2687,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fel Synergy",
@@ -2644,15 +2736,33 @@
         "spell_id": 389367,
         "icon": "inv_sword_1h_felfireraid_d_01"
       },
-      "pve_tooltip": "100 yd range\nSoul Leech also heals you for 8% and your pet for 25% of the absorption it grants.",
-      "pvp_tooltip": "100 yd range\nSoul Leech also heals you for 8% and your pet for 25% of the absorption it grants.",
+      "pve_tooltip": "100 yd range\nSoul Leech also heals you for 15% and your pet for 50% of the absorption it grants.",
+      "pvp_tooltip": "100 yd range\nSoul Leech also heals you for 15% and your pet for 50% of the absorption it grants.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "100 yd range\nSoul Leech also heals you for 8% and your pet for 25% of the absorption it grants.",
+          "pvp_tooltip": "100 yd range\nSoul Leech also heals you for 8% and your pet for 25% of the absorption it grants.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "100 yd range\nSoul Leech also heals you for 15% and your pet for 50% of the absorption it grants.",
+          "pvp_tooltip": "100 yd range\nSoul Leech also heals you for 15% and your pet for 50% of the absorption it grants.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Oppressive Darkness",
@@ -2706,7 +2816,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pact of Gluttony",
@@ -2751,8 +2862,8 @@
         "spell_id": 386689,
         "icon": "warlock__bloodstone"
       },
-      "pve_tooltip": "Healthstones you conjure for yourself are now Demonic Healthstones and can be used multiple times in combat. Demonic Healthstones cannot be traded.\nDemonic Healthstone\nInstantly restores 25% health [\nEmpowered Healthstone\n:\nplus an additional 30% over 6 sec\n/ .]\n60 sec cooldown.",
-      "pvp_tooltip": "Healthstones you conjure for yourself are now Demonic Healthstones and can be used multiple times in combat. Demonic Healthstones cannot be traded.\nDemonic Healthstone\nInstantly restores 25% health [\nEmpowered Healthstone\n:\nplus an additional 30% over 6 sec\n/ .]\n60 sec cooldown.",
+      "pve_tooltip": "Healthstones you conjure for yourself are now Demonic Healthstones and can be used multiple times in combat. Demonic Healthstones cannot be traded.\nDemonic Healthstone\nInstantly restores 25% health [Empowered Healthstone: plus an additional 30% over 6 sec / .] 60 sec cooldown.",
+      "pvp_tooltip": "Healthstones you conjure for yourself are now Demonic Healthstones and can be used multiple times in combat. Demonic Healthstones cannot be traded.\nDemonic Healthstone\nInstantly restores 25% health [Empowered Healthstone: plus an additional 30% over 6 sec / .] 60 sec cooldown.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2790,7 +2901,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Soulburn",
@@ -2836,14 +2948,14 @@
         "spell_id": 385899,
         "icon": "spell_warlock_soulburn"
       },
-      "pve_tooltip": "1 Soul Shard\nInstant\n6 sec cooldown\nConsumes a Soul Shard, unlocking the hidden power of your spells.\nDemonic Circle: Teleport\n: Increases your movement speed by 50% and makes you immune to snares and roots for 6 sec.\nDemonic Gateway\n: Can be cast instantly.\nDrain Life\n: Gain an absorb shield equal to the amount of healing done for 30 sec. This shield cannot exceed 30% of your maximum health.\nHealthstone\n: Increases the healing of your Healthstone by 30% and increases your maximum health by 20% for 12 sec.",
-      "pvp_tooltip": "1 Soul Shard\nInstant\n6 sec cooldown\nConsumes a Soul Shard, unlocking the hidden power of your spells.\nDemonic Circle: Teleport\n: Increases your movement speed by 30% and makes you immune to snares and roots for 6 sec.\nDemonic Gateway\n: Can be cast instantly.\nDrain Life\n: Gain an absorb shield equal to the amount of healing done for 30 sec. This shield cannot exceed 30% of your maximum health.\nHealthstone\n: Increases the healing of your Healthstone by 30% and increases your maximum health by 15% for 12 sec.",
+      "pve_tooltip": "1 Soul Shard\nInstant\n6 sec cooldown\nConsumes a Soul Shard, unlocking the hidden power of your spells.\nDemonic Circle: Teleport: Increases your movement speed by 50% and makes you immune to snares and roots for 6 sec.\nDemonic Gateway: Can be cast instantly.\nDrain Life: Gain an absorb shield equal to the amount of healing done for 30 sec. This shield cannot exceed 30% of your maximum health.\nHealthstone: Increases the healing of your Healthstone by 30% and increases your maximum health by 20% for 12 sec.",
+      "pvp_tooltip": "1 Soul Shard\nInstant\n6 sec cooldown\nConsumes a Soul Shard, unlocking the hidden power of your spells.\nDemonic Circle: Teleport: Increases your movement speed by 30% and makes you immune to snares and roots for 6 sec.\nDemonic Gateway: Can be cast instantly.\nDrain Life: Gain an absorb shield equal to the amount of healing done for 30 sec. This shield cannot exceed 30% of your maximum health.\nHealthstone: Increases the healing of your Healthstone by 30% and increases your maximum health by 15% for 12 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 162,
-          "end": 164,
+          "start": 161,
+          "end": 163,
           "old_token": "50",
           "new_token": "30",
           "kind": "percent_value",
@@ -2852,8 +2964,8 @@
           ]
         },
         {
-          "start": 496,
-          "end": 498,
+          "start": 492,
+          "end": 494,
           "old_token": "20",
           "new_token": "15",
           "kind": "percent_value",
@@ -2975,7 +3087,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blight of Weakness",
@@ -3061,7 +3174,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blight of Tongues",
@@ -3166,7 +3280,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Agony",
@@ -3285,7 +3400,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unstable Affliction",
@@ -3395,7 +3511,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Seed of Corruption",
@@ -3442,8 +3559,8 @@
         "spell_id": 27243,
         "icon": "spell_shadow_seedofdestruction"
       },
-      "pve_tooltip": "1 Soul Shard\n40 yd range\n2 sec cast\nEmbeds a demon seed in the enemy target that will explode after 12 sec, dealing (236.5% of Spell Power) Shadow damage to all enemies within 10 yards and applying\nCorruption\nto them. Damage reduced beyond 8 targets.\nThe seed will detonate early if the target is hit by other detonations, or takes (Shadow spell power * 50 / 100) damage from your spells.",
-      "pvp_tooltip": "1 Soul Shard\n40 yd range\n2 sec cast\nEmbeds a demon seed in the enemy target that will explode after 12 sec, dealing (314.545% of Spell Power) Shadow damage to all enemies within 10 yards and applying\nCorruption\nto them. Damage reduced beyond 8 targets.\nThe seed will detonate early if the target is hit by other detonations, or takes (Shadow spell power * 50 / 100) damage from your spells.",
+      "pve_tooltip": "1 Soul Shard\n40 yd range\n2 sec cast\nEmbeds a demon seed in the enemy target that will explode after 12 sec, dealing (236.5% of Spell Power) Shadow damage to all enemies within 10 yards and applying Corruption to them. Damage reduced beyond 8 targets.\nThe seed will detonate early if the target is hit by other detonations, or takes (Shadow spell power * 50 / 100) damage from your spells.",
+      "pvp_tooltip": "1 Soul Shard\n40 yd range\n2 sec cast\nEmbeds a demon seed in the enemy target that will explode after 12 sec, dealing (314.545% of Spell Power) Shadow damage to all enemies within 10 yards and applying Corruption to them. Damage reduced beyond 8 targets.\nThe seed will detonate early if the target is hit by other detonations, or takes (Shadow spell power * 50 / 100) damage from your spells.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3543,7 +3660,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Nightfall",
@@ -3589,15 +3707,16 @@
         "spell_id": 108558,
         "icon": "spell_shadow_twilight"
       },
-      "pve_tooltip": "Corruption\ndamage has a chance to cause your next\nShadow Bolt\nor Malefic Grasp to deal 25% increased damage.\nShadow Bolt is instant cast and Malefic Grasp channels 50% faster when affected.",
-      "pvp_tooltip": "Corruption\ndamage has a chance to cause your next\nShadow Bolt\nor Malefic Grasp to deal 25% increased damage.\nShadow Bolt is instant cast and Malefic Grasp channels 50% faster when affected.",
+      "pve_tooltip": "Corruption damage has a chance to cause your next Shadow Bolt or Malefic Grasp to deal 25% increased damage.\nShadow Bolt is instant cast and Malefic Grasp channels 50% faster when affected.",
+      "pvp_tooltip": "Corruption damage has a chance to cause your next Shadow Bolt or Malefic Grasp to deal 25% increased damage.\nShadow Bolt is instant cast and Malefic Grasp channels 50% faster when affected.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Haunt",
@@ -3644,8 +3763,8 @@
         "spell_id": 48181,
         "icon": "ability_warlock_haunt"
       },
-      "pve_tooltip": "2% of base mana\n40 yd range\n1.5 sec cast\n15 sec cooldown\nA ghostly soul haunts a single target, dealing (720.612% of Spell Power) Shadow damage and increasing your damage dealt to the target by\n16\n% for 18 sec.\nIf the target dies, Haunt's cooldown is reset.",
-      "pvp_tooltip": "2% of base mana\n40 yd range\n1.5 sec cast\n15 sec cooldown\nA ghostly soul haunts a single target, dealing (680.4739% of Spell Power) Shadow damage and increasing your damage dealt to the target by\n16\n% for 18 sec.\nIf the target dies, Haunt's cooldown is reset.",
+      "pve_tooltip": "2% of base mana\n40 yd range\n1.5 sec cast\n15 sec cooldown\nA ghostly soul haunts a single target, dealing (720.612% of Spell Power) Shadow damage and increasing your damage dealt to the target by 16% for 18 sec.\nIf the target dies, Haunt's cooldown is reset.",
+      "pvp_tooltip": "2% of base mana\n40 yd range\n1.5 sec cast\n15 sec cooldown\nA ghostly soul haunts a single target, dealing (680.4739% of Spell Power) Shadow damage and increasing your damage dealt to the target by 16% for 18 sec.\nIf the target dies, Haunt's cooldown is reset.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3749,7 +3868,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shared Agony",
@@ -3803,7 +3923,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Shadow Bolt",
@@ -3858,7 +3979,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Drain Soul",
@@ -3984,7 +4106,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Haunt",
@@ -4039,7 +4162,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Absolute Corruption",
@@ -4086,15 +4210,16 @@
         "spell_id": 196103,
         "icon": "ability_bossmannoroth_empoweredmannorothsgaze"
       },
-      "pve_tooltip": "Corruption\nis now permanent and deals 15% increased damage.\nDuration reduced to 24 sec against players.",
-      "pvp_tooltip": "Corruption\nis now permanent and deals 15% increased damage.\nDuration reduced to 24 sec against players.",
+      "pve_tooltip": "Corruption is now permanent and deals 15% increased damage.\nDuration reduced to 24 sec against players.",
+      "pvp_tooltip": "Corruption is now permanent and deals 15% increased damage.\nDuration reduced to 24 sec against players.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Siphon Life",
@@ -4141,15 +4266,16 @@
         "spell_id": 452999,
         "icon": "spell_shadow_requiem"
       },
-      "pve_tooltip": "Corruption\ndeals 30% increased damage and its periodic damage heals you for 5% of the damage dealt.",
-      "pvp_tooltip": "Corruption\ndeals 30% increased damage and its periodic damage heals you for 5% of the damage dealt.",
+      "pve_tooltip": "Corruption deals 30% increased damage and its periodic damage heals you for 5% of the damage dealt.",
+      "pvp_tooltip": "Corruption deals 30% increased damage and its periodic damage heals you for 5% of the damage dealt.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cunning Cruelty",
@@ -4195,8 +4321,8 @@
         "spell_id": 453172,
         "icon": "inv_misc_coin_09"
       },
-      "pve_tooltip": "Shadow Bolt and Drain Soul have a chance to trigger a Shadow Bolt Volley, dealing [(124.74% of Spell Power) *\n1\n*\n1\n] Shadow damage to 5 enemies within 10 yards of your current target.",
-      "pvp_tooltip": "Shadow Bolt and Drain Soul have a chance to trigger a Shadow Bolt Volley, dealing [(124.74% of Spell Power) *\n1\n*\n1\n] Shadow damage to 5 enemies within 10 yards of your current target.",
+      "pve_tooltip": "Shadow Bolt and Drain Soul have a chance to trigger a Shadow Bolt Volley, dealing [(124.74% of Spell Power) * 1 * 1] Shadow damage to 5 enemies within 10 yards of your current target.",
+      "pvp_tooltip": "Shadow Bolt and Drain Soul have a chance to trigger a Shadow Bolt Volley, dealing [(124.74% of Spell Power) * 1 * 1] Shadow damage to 5 enemies within 10 yards of your current target.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4242,7 +4368,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Withering Bolt",
@@ -4290,15 +4417,33 @@
         "spell_id": 386976,
         "icon": "spell_shadow_shadowbolt"
       },
-      "pve_tooltip": "Shadow Bolt and Drain Soul deal 5% increased damage, up to 15%, per damage over time effect you have active on the target.",
-      "pvp_tooltip": "Shadow Bolt and Drain Soul deal 5% increased damage, up to 15%, per damage over time effect you have active on the target.",
+      "pve_tooltip": "Shadow Bolt and Drain Soul deal 10% increased damage, up to 30%, per damage over time effect you have active on the target.",
+      "pvp_tooltip": "Shadow Bolt and Drain Soul deal 10% increased damage, up to 30%, per damage over time effect you have active on the target.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Shadow Bolt and Drain Soul deal 5% increased damage, up to 15%, per damage over time effect you have active on the target.",
+          "pvp_tooltip": "Shadow Bolt and Drain Soul deal 5% increased damage, up to 15%, per damage over time effect you have active on the target.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Shadow Bolt and Drain Soul deal 10% increased damage, up to 30%, per damage over time effect you have active on the target.",
+          "pvp_tooltip": "Shadow Bolt and Drain Soul deal 10% increased damage, up to 30%, per damage over time effect you have active on the target.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Creeping Death",
@@ -4346,15 +4491,33 @@
         "spell_id": 264000,
         "icon": "ability_creature_cursed_03"
       },
-      "pve_tooltip": "Your Agony,\nCorruption\n, and Unstable Affliction deal damage 10% faster.",
-      "pvp_tooltip": "Your Agony,\nCorruption\n, and Unstable Affliction deal damage 10% faster.",
+      "pve_tooltip": "Your Agony, Corruption, and Unstable Affliction deal damage 20% faster.",
+      "pvp_tooltip": "Your Agony, Corruption, and Unstable Affliction deal damage 20% faster.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Your Agony, Corruption, and Unstable Affliction deal damage 10% faster.",
+          "pvp_tooltip": "Your Agony, Corruption, and Unstable Affliction deal damage 10% faster.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Your Agony, Corruption, and Unstable Affliction deal damage 20% faster.",
+          "pvp_tooltip": "Your Agony, Corruption, and Unstable Affliction deal damage 20% faster.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Dark Harvest",
@@ -4440,7 +4603,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Practiced Pestilence",
@@ -4496,7 +4660,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Summon Darkglare",
@@ -4545,14 +4710,14 @@
         "spell_id": 205180,
         "icon": "inv_beholderwarlock"
       },
-      "pve_tooltip": "2% of base mana\nInstant\n2 min cooldown\nSummons a Darkglare from the Twisting Nether that increases the damage of your Agony,\nCorruption\n, and Unstable Affliction by 20% while active.\nThe Darkglare will serve you for\n20 sec\n, blasting its target for (487.044% of Spell Power) Shadow damage, increased by 10% for every damage over time effect you have active on their current target.",
-      "pvp_tooltip": "2% of base mana\nInstant\n2 min cooldown\nSummons a Darkglare from the Twisting Nether that increases the damage of your Agony,\nCorruption\n, and Unstable Affliction by 20% while active.\nThe Darkglare will serve you for\n20 sec\n, blasting its target for (180.387% of Spell Power) Shadow damage, increased by 10% for every damage over time effect you have active on their current target.",
+      "pve_tooltip": "2% of base mana\nInstant\n2 min cooldown\nSummons a Darkglare from the Twisting Nether that increases the damage of your Agony, Corruption, and Unstable Affliction by 20% while active.\nThe Darkglare will serve you for 20 sec, blasting its target for (487.044% of Spell Power) Shadow damage, increased by 10% for every damage over time effect you have active on their current target.",
+      "pvp_tooltip": "2% of base mana\nInstant\n2 min cooldown\nSummons a Darkglare from the Twisting Nether that increases the damage of your Agony, Corruption, and Unstable Affliction by 20% while active.\nThe Darkglare will serve you for 20 sec, blasting its target for (180.387% of Spell Power) Shadow damage, increased by 10% for every damage over time effect you have active on their current target.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 250,
-          "end": 257,
+          "start": 248,
+          "end": 255,
           "old_token": "487.044",
           "new_token": "180.387",
           "kind": "spell_power_coefficient",
@@ -4605,7 +4770,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Summoner's Embrace",
@@ -4661,7 +4827,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Grimoire of Sacrifice",
@@ -4777,7 +4944,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cull the Weak",
@@ -4831,7 +4999,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Malediction",
@@ -4877,15 +5046,16 @@
         "spell_id": 453087,
         "icon": "spell_shadow_curseofachimonde"
       },
-      "pve_tooltip": "Increases the critical strike chance of Agony,\nCorruption\n, and Unstable Affliction by 5%.",
-      "pvp_tooltip": "Increases the critical strike chance of Agony,\nCorruption\n, and Unstable Affliction by 5%.",
+      "pve_tooltip": "Increases the critical strike chance of Agony, Corruption, and Unstable Affliction by 5%.",
+      "pvp_tooltip": "Increases the critical strike chance of Agony, Corruption, and Unstable Affliction by 5%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sudden Onset",
@@ -4940,7 +5110,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Eye Contract",
@@ -4994,7 +5165,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Malefic Grasp",
@@ -5041,8 +5213,8 @@
         "spell_id": 1261149,
         "icon": "ability_warlock_everlastingaffliction"
       },
-      "pve_tooltip": "Binds the target in twilight, dealing (1053% of Spell Power) Shadow damage over 4 sec.\nWhen Malefic Grasp deals damage, it causes all of your other periodic Affliction damage effects to instantly deal 30% of their normal periodic damage.",
-      "pvp_tooltip": "Binds the target in twilight, dealing (1053% of Spell Power) Shadow damage over 4 sec.\nWhen Malefic Grasp deals damage, it causes all of your other periodic Affliction damage effects to instantly deal 30% of their normal periodic damage.",
+      "pve_tooltip": "While Darkglare is active, your Shadow Bolt becomes Malefic Grasp.\nMalefic Grasp\nBinds the target in twilight, dealing (1053% of Spell Power) Shadow damage over 4 sec.\nWhen Malefic Grasp deals damage, it causes all of your other periodic Affliction damage effects to instantly deal 30% of their normal periodic damage.",
+      "pvp_tooltip": "While Darkglare is active, your Shadow Bolt becomes Malefic Grasp.\nMalefic Grasp\nBinds the target in twilight, dealing (1053% of Spell Power) Shadow damage over 4 sec.\nWhen Malefic Grasp deals damage, it causes all of your other periodic Affliction damage effects to instantly deal 30% of their normal periodic damage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5088,7 +5260,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Nether Plating",
@@ -5142,7 +5315,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sacrolash's Dark Strike",
@@ -5189,15 +5363,16 @@
         "spell_id": 386986,
         "icon": "spell_nzinsanity_fearofdeath"
       },
-      "pve_tooltip": "Corruption\ndamage is increased by 15%, and each time it deals damage any of your Curses active on the target are extended by 0.5 sec.",
-      "pvp_tooltip": "Corruption\ndamage is increased by 15%, and each time it deals damage any of your Curses active on the target are extended by 0.5 sec.",
+      "pve_tooltip": "Corruption damage is increased by 15%, and each time it deals damage any of your Curses active on the target are extended by 0.5 sec.",
+      "pvp_tooltip": "Corruption damage is increased by 15%, and each time it deals damage any of your Curses active on the target are extended by 0.5 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Contagion",
@@ -5244,15 +5419,16 @@
         "spell_id": 453096,
         "icon": "spell_shadow_creepingplague"
       },
-      "pve_tooltip": "Increases critical strike damage dealt by Agony,\nCorruption\n, and Unstable Affliction by 15%.",
-      "pvp_tooltip": "Increases critical strike damage dealt by Agony,\nCorruption\n, and Unstable Affliction by 15%.",
+      "pve_tooltip": "Increases critical strike damage dealt by Agony, Corruption, and Unstable Affliction by 15%.",
+      "pvp_tooltip": "Increases critical strike damage dealt by Agony, Corruption, and Unstable Affliction by 15%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shard Instability",
@@ -5299,15 +5475,16 @@
         "spell_id": 1260264,
         "icon": "spell_warlock_focusshadow"
       },
-      "pve_tooltip": "Damage dealt by [\nDrain Soul\n/ Shadow Bolt] has a [\nDrain Soul\n:\n10\n/ 20]% chance to make your next Unstable Affliction or Seed of Corruption cost no Soul Shards and cast instantly.",
-      "pvp_tooltip": "Damage dealt by [\nDrain Soul\n/ Shadow Bolt] has a [\nDrain Soul\n:\n10\n/ 20]% chance to make your next Unstable Affliction or Seed of Corruption cost no Soul Shards and cast instantly.",
+      "pve_tooltip": "Damage dealt by [Drain Soul / Shadow Bolt] has a [Drain Soul: 10 / 20]% chance to make your next Unstable Affliction or Seed of Corruption cost no Soul Shards and cast instantly.",
+      "pvp_tooltip": "Damage dealt by [Drain Soul / Shadow Bolt] has a [Drain Soul: 10 / 20]% chance to make your next Unstable Affliction or Seed of Corruption cost no Soul Shards and cast instantly.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Niskaran Methods",
@@ -5356,15 +5533,16 @@
         "spell_id": 1279510,
         "icon": "inv_lightforgedmatrixability_felheartofargus"
       },
-      "pve_tooltip": "Increases damage dealt by Agony and\nCorruption\nby 10%.",
-      "pvp_tooltip": "Increases damage dealt by Agony and\nCorruption\nby 10%.",
+      "pve_tooltip": "Increases damage dealt by Agony and Corruption by 10%.",
+      "pvp_tooltip": "Increases damage dealt by Agony and Corruption by 10%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Potent Soul Shards",
@@ -5421,7 +5599,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Impetuous Wrath",
@@ -5468,15 +5647,16 @@
         "spell_id": 1312998,
         "icon": "spell_shadow_manaburn"
       },
-      "pve_tooltip": "Shadow Bolt\nand Malefic Grasp damage increased by 10% or 20% if the target is affected by Haunt.\nDark Harvest damage increased by 10% or 20% if the target is affected by Haunt.",
-      "pvp_tooltip": "Shadow Bolt\nand Malefic Grasp damage increased by 10% or 20% if the target is affected by Haunt.\nDark Harvest damage increased by 10% or 20% if the target is affected by Haunt.",
+      "pve_tooltip": "Shadow Bolt and Malefic Grasp damage increased by 10% or 20% if the target is affected by Haunt.\nDark Harvest damage increased by 10% or 20% if the target is affected by Haunt.",
+      "pvp_tooltip": "Shadow Bolt and Malefic Grasp damage increased by 10% or 20% if the target is affected by Haunt.\nDark Harvest damage increased by 10% or 20% if the target is affected by Haunt.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Xavius' Gambit",
@@ -5524,15 +5704,33 @@
         "spell_id": 416615,
         "icon": "spell_shadow_mindshear"
       },
-      "pve_tooltip": "Reduces the cast time of Unstable Affliction by 0.15 sec and increases its damage by 5%.",
-      "pvp_tooltip": "Reduces the cast time of Unstable Affliction by 0.15 sec and increases its damage by 5%.",
+      "pve_tooltip": "Reduces the cast time of Unstable Affliction by 0.3 sec and increases its damage by 10%.",
+      "pvp_tooltip": "Reduces the cast time of Unstable Affliction by 0.3 sec and increases its damage by 10%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Reduces the cast time of Unstable Affliction by 0.15 sec and increases its damage by 5%.",
+          "pvp_tooltip": "Reduces the cast time of Unstable Affliction by 0.15 sec and increases its damage by 5%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Reduces the cast time of Unstable Affliction by 0.3 sec and increases its damage by 10%.",
+          "pvp_tooltip": "Reduces the cast time of Unstable Affliction by 0.3 sec and increases its damage by 10%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Ravenous Afflictions",
@@ -5579,15 +5777,16 @@
         "spell_id": 459440,
         "icon": "ability_warlock_improvedsoulleech"
       },
-      "pve_tooltip": "Approximately\n1.2\nprocs per minute\nCritical strikes from your Agony,\nCorruption\n, and Unstable Affliction have a chance to grant Nightfall.",
-      "pvp_tooltip": "Approximately\n1.2\nprocs per minute\nCritical strikes from your Agony,\nCorruption\n, and Unstable Affliction have a chance to grant Nightfall.",
+      "pve_tooltip": "Approximately 1.2 procs per minute\nCritical strikes from your Agony, Corruption, and Unstable Affliction have a chance to grant Nightfall.",
+      "pvp_tooltip": "Approximately 1.2 procs per minute\nCritical strikes from your Agony, Corruption, and Unstable Affliction have a chance to grant Nightfall.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Seeds of Destruction",
@@ -5635,15 +5834,33 @@
         "spell_id": 1259838,
         "icon": "sha_inv_elemental_primal_shadow_nightmare"
       },
-      "pve_tooltip": "Reduces the cast time of Seed of Corruption by 0.20 sec and increases its damage by 5%.",
-      "pvp_tooltip": "Reduces the cast time of Seed of Corruption by 0.20 sec and increases its damage by 5%.",
+      "pve_tooltip": "Reduces the cast time of Seed of Corruption by 0.4 sec and increases its damage by 10%.",
+      "pvp_tooltip": "Reduces the cast time of Seed of Corruption by 0.4 sec and increases its damage by 10%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Reduces the cast time of Seed of Corruption by 0.20 sec and increases its damage by 5%.",
+          "pvp_tooltip": "Reduces the cast time of Seed of Corruption by 0.20 sec and increases its damage by 5%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Reduces the cast time of Seed of Corruption by 0.4 sec and increases its damage by 10%.",
+          "pvp_tooltip": "Reduces the cast time of Seed of Corruption by 0.4 sec and increases its damage by 10%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Fatal Echoes",
@@ -5695,7 +5912,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cascading Calamity",
@@ -5747,7 +5965,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Death's Embrace",
@@ -5791,15 +6010,16 @@
         "spell_id": 234876,
         "icon": "spell_shadow_deathsembrace"
       },
-      "pve_tooltip": "Agony,\nCorruption\n, Unstable Affliction, Seed of Corruption, and [\nDrain Soul\n/ Shadow Bolt] deal up to 40% increased damage on targets below 35% health. Damage increase is higher against lower health targets.",
-      "pvp_tooltip": "Agony,\nCorruption\n, Unstable Affliction, Seed of Corruption, and [\nDrain Soul\n/ Shadow Bolt] deal up to 40% increased damage on targets below 35% health. Damage increase is higher against lower health targets.",
+      "pve_tooltip": "Agony, Corruption, Unstable Affliction, Seed of Corruption, and [Drain Soul / Shadow Bolt] deal up to 40% increased damage on targets below 35% health. Damage increase is higher against lower health targets.",
+      "pvp_tooltip": "Agony, Corruption, Unstable Affliction, Seed of Corruption, and [Drain Soul / Shadow Bolt] deal up to 40% increased damage on targets below 35% health. Damage increase is higher against lower health targets.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hedonic Gorging",
@@ -5851,7 +6071,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sow the Seeds",
@@ -5903,7 +6124,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shadow of Nathreza",
@@ -5945,8 +6167,8 @@
         "spell_id": 1261984,
         "icon": "inv12_apextalent_warlock_shadowsofnathreza"
       },
-      "pve_tooltip": "Haunt now calls upon a demonic soul from within the Twisting Nether to haunt your target.\nThe soul is unstable and ravenous, dealing [(45.2262% of Spell Power) * 18] Shadow damage to its host and 3 enemies within 10 yards suffering from your\nCorruption\nover its duration.",
-      "pvp_tooltip": "Haunt now calls upon a demonic soul from within the Twisting Nether to haunt your target.\nThe soul is unstable and ravenous, dealing [(36.181% of Spell Power) * 18] Shadow damage to its host and 3 enemies within 10 yards suffering from your\nCorruption\nover its duration.",
+      "pve_tooltip": "Haunt now calls upon a demonic soul from within the Twisting Nether to haunt your target.\nThe soul is unstable and ravenous, dealing [(45.2262% of Spell Power) * 18] Shadow damage to its host and 3 enemies within 10 yards suffering from your Corruption over its duration.",
+      "pvp_tooltip": "Haunt now calls upon a demonic soul from within the Twisting Nether to haunt your target.\nThe soul is unstable and ravenous, dealing [(36.181% of Spell Power) * 18] Shadow damage to its host and 3 enemies within 10 yards suffering from your Corruption over its duration.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -6005,7 +6227,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shadow of Nathreza",
@@ -6055,7 +6278,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shadow of Nathreza",
@@ -6097,8 +6321,8 @@
         "spell_id": 1261992,
         "icon": "inv12_apextalent_warlock_shadowsofnathreza"
       },
-      "pve_tooltip": "Approximately\n2\nprocs per minute\nDamage dealt by Haunt has a chance to release the demonic soul haunting its target. When released, it unleashes a devastating attack before being banished back to Nathreza.\nWrath of Nathreza\nCalls down a meteor formed from the ruins of Nathreza that explodes upon impact, dealing (2274.09% of Spell Power) Shadow damage to all enemies within 10 yds.\nDamage reduced beyond 8 targets.",
-      "pvp_tooltip": "Approximately\n2\nprocs per minute\nDamage dealt by Haunt has a chance to release the demonic soul haunting its target. When released, it unleashes a devastating attack before being banished back to Nathreza.\nWrath of Nathreza\nCalls down a meteor formed from the ruins of Nathreza that explodes upon impact, dealing (2274.09% of Spell Power) Shadow damage to all enemies within 10 yds.\nDamage reduced beyond 8 targets.",
+      "pve_tooltip": "Approximately 2 procs per minute\nDamage dealt by Haunt has a chance to release the demonic soul haunting its target. When released, it unleashes a devastating attack before being banished back to Nathreza.\nWrath of Nathreza\nCalls down a meteor formed from the ruins of Nathreza that explodes upon impact, dealing (2274.09% of Spell Power) Shadow damage to all enemies within 10 yds.\nDamage reduced beyond 8 targets.",
+      "pvp_tooltip": "Approximately 2 procs per minute\nDamage dealt by Haunt has a chance to release the demonic soul haunting its target. When released, it unleashes a devastating attack before being banished back to Nathreza.\nWrath of Nathreza\nCalls down a meteor formed from the ruins of Nathreza that explodes upon impact, dealing (2274.09% of Spell Power) Shadow damage to all enemies within 10 yds.\nDamage reduced beyond 8 targets.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6138,7 +6362,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wither",
@@ -6312,7 +6537,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Xalan's Ferocity",
@@ -6366,7 +6592,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blackened Soul",
@@ -6412,14 +6639,14 @@
         "spell_id": 440043,
         "icon": "spell_nzinsanity_chasedbyshadows"
       },
-      "pve_tooltip": "If the target is afflicted with your Wither, casting [\nUnstable Affliction\n/ Chaos Bolt and Shadowburn] increase its stack count by 1.\nEach time Wither gains a stack it has a chance to collapse, consuming a stack every 1 sec to deal (144.468% of Spell Power) Shadowflame damage to its host until 1 stack remains.",
-      "pvp_tooltip": "If the target is afflicted with your Wither, casting [\nUnstable Affliction\n/ Chaos Bolt and Shadowburn] increase its stack count by 1.\nEach time Wither gains a stack it has a chance to collapse, consuming a stack every 1 sec to deal (153.714% of Spell Power) Shadowflame damage to its host until 1 stack remains.",
+      "pve_tooltip": "If the target is afflicted with your Wither, casting [Unstable Affliction / Chaos Bolt and Shadowburn] increase its stack count by 1.\nEach time Wither gains a stack it has a chance to collapse, consuming a stack every 1 sec to deal (144.468% of Spell Power) Shadowflame damage to its host until 1 stack remains.",
+      "pvp_tooltip": "If the target is afflicted with your Wither, casting [Unstable Affliction / Chaos Bolt and Shadowburn] increase its stack count by 1.\nEach time Wither gains a stack it has a chance to collapse, consuming a stack every 1 sec to deal (153.714% of Spell Power) Shadowflame damage to its host until 1 stack remains.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 234,
-          "end": 241,
+          "start": 233,
+          "end": 240,
           "old_token": "144.468",
           "new_token": "153.714",
           "kind": "spell_power_coefficient",
@@ -6489,7 +6716,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Xalan's Cruelty",
@@ -6543,7 +6771,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Through the Felvine",
@@ -6634,7 +6863,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Demonic Soul",
@@ -6758,7 +6988,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Necrolyte Teachings",
@@ -6955,7 +7186,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 3,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Soul Anathema",
@@ -7048,7 +7280,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Demoniac's Fervor",
@@ -7149,7 +7382,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Manifested Avarice",
@@ -7312,7 +7546,8 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Curse of the Satyr",
@@ -7358,8 +7593,8 @@
         "spell_id": 440057,
         "icon": "inv_fabric_felrag"
       },
-      "pve_tooltip": "Increases the time between an enemy's attacks by 20% and the casting time of all spells by 30% for 2 min.\nCurses: A warlock can only have one Curse active per target.",
-      "pvp_tooltip": "Increases the time between an enemy's attacks by 20% and the casting time of all spells by 30% for 2 min.\nCurses: A warlock can only have one Curse active per target.",
+      "pve_tooltip": "Curse of Weakness is empowered and transforms into Curse of the Satyr.\nCurse of the Satyr\nIncreases the time between an enemy's attacks by 20% and the casting time of all spells by 30% for 2 min.\nCurses: A warlock can only have one Curse active per target.",
+      "pvp_tooltip": "Curse of Weakness is empowered and transforms into Curse of the Satyr.\nCurse of the Satyr\nIncreases the time between an enemy's attacks by 20% and the casting time of all spells by 30% for 2 min.\nCurses: A warlock can only have one Curse active per target.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -7397,7 +7632,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Aura of Enfeeblement",
@@ -7451,7 +7687,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hatefury Rituals",
@@ -7505,7 +7742,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bleakheart Tactics",
@@ -7559,7 +7797,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Zevrim's Resilience",
@@ -7613,7 +7852,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Illhoof's Design",
@@ -7667,7 +7907,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Devil Fruit",
@@ -7713,15 +7954,16 @@
         "spell_id": 1266805,
         "icon": "inv_112_raidtrinkets_blobofswirlingvoid_terra"
       },
-      "pve_tooltip": "Approximately\n1\nprocs per minute\nPeriodic damage dealt by Wither has a chance to grant Malevolence for 8 sec.",
-      "pvp_tooltip": "Approximately\n1\nprocs per minute\nPeriodic damage dealt by Wither has a chance to grant Malevolence for 8 sec.",
+      "pve_tooltip": "Approximately 1 procs per minute\nPeriodic damage dealt by Wither has a chance to grant Malevolence for 8 sec.",
+      "pvp_tooltip": "Approximately 1 procs per minute\nPeriodic damage dealt by Wither has a chance to grant Malevolence for 8 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gorebound Fortitude",
@@ -7874,7 +8116,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Friends In Dark Places",
@@ -7975,7 +8218,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shared Fate",
@@ -8089,7 +8333,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Feast of Souls",
@@ -8186,7 +8431,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Eternal Servitude",
@@ -8277,7 +8523,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gorefiend's Resolve",
@@ -8331,7 +8578,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shared Vessel",
@@ -8385,7 +8633,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mark of Xavius",
@@ -8431,15 +8680,16 @@
         "spell_id": 440046,
         "icon": "warlock_curse_shadow_aura"
       },
-      "pve_tooltip": "[\nAgony\n:\nAgony damage increased by 30%\n/ Wither damage increased by 25%.]\nBlackened Soul deals 2% increased damage per stack of Wither.",
-      "pvp_tooltip": "[\nAgony\n:\nAgony damage increased by 30%\n/ Wither damage increased by 25%.]\nBlackened Soul deals 2% increased damage per stack of Wither.",
+      "pve_tooltip": "[Agony: Agony damage increased by 30% / Wither damage increased by 25%.]\nBlackened Soul deals 2% increased damage per stack of Wither.",
+      "pvp_tooltip": "[Agony: Agony damage increased by 30% / Wither damage increased by 25%.]\nBlackened Soul deals 2% increased damage per stack of Wither.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Seeds of Their Demise",
@@ -8562,7 +8812,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mark of Peroth'arn",
@@ -8616,7 +8867,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Alzzin's Iniquity",
@@ -8670,7 +8922,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wicked Reaping",
@@ -8802,7 +9055,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Quietus",
@@ -8856,7 +9110,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sataiel's Volition",
@@ -8910,7 +9165,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Eternal Hunger",
@@ -8964,7 +9220,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Malevolence",
@@ -9060,7 +9317,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shadow of Death",
@@ -9115,13 +9373,14 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     }
   ],
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "warlock-affliction",
-  "generated_at": "2026-09-20T12:54:12.325329+00:00",
+  "generated_at": "2026-09-20T20:03:08.957402+00:00",
   "validation": {
     "talents": 123,
     "changed_tooltips": 21,

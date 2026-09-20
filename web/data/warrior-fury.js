@@ -50,15 +50,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 386196,
         "icon": "ability_racial_avatar"
       },
-      "pve_tooltip": "Instant\n3 sec cooldown\nAn aggressive combat state that increases the damage of your auto-attacks by 15%\nand reduces the duration of Fear, Sap and Incapacitate effects on you by 10%.\nLasts until canceled.",
-      "pvp_tooltip": "Instant\n3 sec cooldown\nAn aggressive combat state that increases the damage of your auto-attacks by 15%\nand reduces the duration of Fear, Sap and Incapacitate effects on you by 10%.\nLasts until canceled.",
+      "pve_tooltip": "Instant\n3 sec cooldown\nAn aggressive combat state that increases the damage of your auto-attacks by 15% and reduces the duration of Fear, Sap and Incapacitate effects on you by 10%.\nLasts until canceled.",
+      "pvp_tooltip": "Instant\n3 sec cooldown\nAn aggressive combat state that increases the damage of your auto-attacks by 15% and reduces the duration of Fear, Sap and Incapacitate effects on you by 10%.\nLasts until canceled.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Defensive Stance",
@@ -158,7 +159,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fast Footwork",
@@ -213,7 +215,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "War Machine",
@@ -269,7 +272,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thunder Clap",
@@ -317,15 +321,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 6343,
         "icon": "spell_nature_thunderclap"
       },
-      "pve_tooltip": "20 Rage\nInstant\n6 sec cooldown\nBlasts all enemies within 8 yards for (235.68% of Attack Power) Physical damage [\nThunderstruck\n:\nroots them for 4 sec\n] and reduces their movement speed by 20% for 10 sec. Deals reduced damage beyond 5 /\nRecklessness\n:\n8\n/\nCrashing Thunder\n:\n85\ntargets.\n[\nGenerates 0 Rage.\n]",
-      "pvp_tooltip": "20 Rage\nInstant\n6 sec cooldown\nBlasts all enemies within 8 yards for (235.68% of Attack Power) Physical damage [\nThunderstruck\n:\nroots them for 4 sec\n] and reduces their movement speed by 20% for 10 sec. Deals reduced damage beyond 5 /\nRecklessness\n:\n8\n/\nCrashing Thunder\n:\n85\ntargets.\n[\nGenerates 0 Rage.\n]",
+      "pve_tooltip": "20 Rage\nInstant\n6 sec cooldown\nBlasts all enemies within 8 yards for (235.68% of Attack Power) Physical damage [Thunderstruck: roots them for 4 sec] and reduces their movement speed by 20% for 10 sec. Deals reduced damage beyond 5 / Recklessness: 8 / Crashing Thunder: 85 targets.\n[Generates 0 Rage.]",
+      "pvp_tooltip": "20 Rage\nInstant\n6 sec cooldown\nBlasts all enemies within 8 yards for (235.68% of Attack Power) Physical damage [Thunderstruck: roots them for 4 sec] and reduces their movement speed by 20% for 10 sec. Deals reduced damage beyond 5 / Recklessness: 8 / Crashing Thunder: 85 targets.\n[Generates 0 Rage.]",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Leeching Strikes",
@@ -380,7 +385,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Impending Victory",
@@ -429,8 +435,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 202168,
         "icon": "spell_impending_victory"
       },
-      "pve_tooltip": "Replaces\nVictory Rush\n10 Rage\nMelee Range\nInstant\n25 sec cooldown\nInstantly attack the target, causing (59% of Attack Power) damage and healing you for 30% of your maximum health.\nKilling an enemy that yields experience or honor resets the cooldown of Impending Victory and makes it cost no Rage.",
-      "pvp_tooltip": "Replaces\nVictory Rush\n10 Rage\nMelee Range\nInstant\n25 sec cooldown\nInstantly attack the target, causing (59% of Attack Power) damage and healing you for 20.1% of your maximum health.\nKilling an enemy that yields experience or honor resets the cooldown of Impending Victory and makes it cost no Rage.",
+      "pve_tooltip": "Replaces Victory Rush\n10 Rage\nMelee Range\nInstant\n25 sec cooldown\nInstantly attack the target, causing (59% of Attack Power) damage and healing you for 30% of your maximum health.\nKilling an enemy that yields experience or honor resets the cooldown of Impending Victory and makes it cost no Rage.",
+      "pvp_tooltip": "Replaces Victory Rush\n10 Rage\nMelee Range\nInstant\n25 sec cooldown\nInstantly attack the target, causing (59% of Attack Power) damage and healing you for 20.1% of your maximum health.\nKilling an enemy that yields experience or honor resets the cooldown of Impending Victory and makes it cost no Rage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -489,7 +495,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Heroic Leap",
@@ -546,7 +553,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Crackling Thunder",
@@ -598,7 +606,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Storm Bolt",
@@ -646,15 +655,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 107570,
         "icon": "warrior_talent_icon_stormbolt"
       },
-      "pve_tooltip": "20 yd range\nInstant\n30 sec cooldown\nHurls your weapon at an enemy, causing (28.5% of Attack Power) Physical damage and stunning for 4 sec. [\nStorm Bolts\n:\nAlso hits 2 additional nearby targets, stunning for 2 sec\n]",
-      "pvp_tooltip": "20 yd range\nInstant\n30 sec cooldown\nHurls your weapon at an enemy, causing (28.5% of Attack Power) Physical damage and stunning for 4 sec. [\nStorm Bolts\n:\nAlso hits 2 additional nearby targets, stunning for 2 sec\n]",
+      "pve_tooltip": "20 yd range\nInstant\n30 sec cooldown\nHurls your weapon at an enemy, causing (28.5% of Attack Power) Physical damage and stunning for 4 sec. [Storm Bolts: Also hits 2 additional nearby targets, stunning for 2 sec]",
+      "pvp_tooltip": "20 yd range\nInstant\n30 sec cooldown\nHurls your weapon at an enemy, causing (28.5% of Attack Power) Physical damage and stunning for 4 sec. [Storm Bolts: Also hits 2 additional nearby targets, stunning for 2 sec]",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Storm of Blood",
@@ -702,8 +712,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1299025,
         "icon": "ability_ironmaidens_whirlofblood"
       },
-      "pve_tooltip": "Whirlwind\naffects all targets with Rend, causing them to Bleed for (190.465% of Attack Power) damage over 15 sec.",
-      "pvp_tooltip": "Whirlwind\naffects all targets with Rend, causing them to Bleed for (190.465% of Attack Power) damage over 15 sec.",
+      "pve_tooltip": "Whirlwind affects all targets with Rend, causing them to Bleed for (190.465% of Attack Power) damage over 15 sec.",
+      "pvp_tooltip": "Whirlwind affects all targets with Rend, causing them to Bleed for (190.465% of Attack Power) damage over 15 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -773,7 +783,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Second Wind",
@@ -825,7 +836,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frothing Berserker",
@@ -883,7 +895,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bounding Stride",
@@ -1047,7 +1060,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pain and Gain",
@@ -1104,7 +1118,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Intervene",
@@ -1160,7 +1175,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Interpose",
@@ -1216,7 +1232,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shockwave",
@@ -1265,15 +1282,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 46968,
         "icon": "ability_warrior_shockwave"
       },
-      "pve_tooltip": "Instant\n40 sec cooldown\nSends a wave of force in a frontal cone, causing (20% of Attack Power) damage and stunning all enemies within 10 yards for\n2 sec\n.",
-      "pvp_tooltip": "Instant\n40 sec cooldown\nSends a wave of force in a frontal cone, causing (20% of Attack Power) damage and stunning all enemies within 10 yards for\n2 sec\n.",
+      "pve_tooltip": "Instant\n40 sec cooldown\nSends a wave of force in a frontal cone, causing (20% of Attack Power) damage and stunning all enemies within 10 yards for 2 sec.",
+      "pvp_tooltip": "Instant\n40 sec cooldown\nSends a wave of force in a frontal cone, causing (20% of Attack Power) damage and stunning all enemies within 10 yards for 2 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Overwhelming Rage",
@@ -1325,7 +1343,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rallying Cry",
@@ -1373,8 +1392,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 97462,
         "icon": "ability_warrior_rallyingcry"
       },
-      "pve_tooltip": "Instant\n3 min cooldown\nLets loose a rallying cry, granting all party or raid members within 40 yards\n10\n% temporary and maximum health for\n10 sec\n.\nHealth granted increased by 50% when not in a raid.",
-      "pvp_tooltip": "Instant\n3 min cooldown\nLets loose a rallying cry, granting all party or raid members within 40 yards\n20\n% temporary and maximum health for\n10 sec\n.\nHealth granted increased by 50% when not in a raid.",
+      "pve_tooltip": "Instant\n3 min cooldown\nLets loose a rallying cry, granting all party or raid members within 40 yards 10% temporary and maximum health for 10 sec.\nHealth granted increased by 50% when not in a raid.",
+      "pvp_tooltip": "Instant\n3 min cooldown\nLets loose a rallying cry, granting all party or raid members within 40 yards 20% temporary and maximum health for 10 sec.\nHealth granted increased by 50% when not in a raid.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -1428,7 +1447,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Field Dressing",
@@ -1480,7 +1500,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spell Reflection",
@@ -1528,15 +1549,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 23920,
         "icon": "ability_warrior_shieldreflection"
       },
-      "pve_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRaise your weapon, reflecting\nthe first spell cast\non you and reducing magic damage you take by 20% for 5 sec.",
-      "pvp_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRaise your weapon, reflecting\nthe first spell cast\non you and reducing magic damage you take by 20% for 5 sec.",
+      "pve_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRaise your weapon, reflecting the first spell cast on you and reducing magic damage you take by 20% for 5 sec.",
+      "pvp_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRaise your weapon, reflecting the first spell cast on you and reducing magic damage you take by 20% for 5 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wrecking Throw",
@@ -1622,7 +1644,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shattering Throw",
@@ -1708,7 +1731,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rumbling Earth",
@@ -1760,7 +1784,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Berserker Shout",
@@ -1808,15 +1833,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 384100,
         "icon": "spell_nature_ancestralguardian"
       },
-      "pve_tooltip": "Instant\n1 min cooldown\nGo berserk, removing and granting immunity to Fear, Sap, and Incapacitate effects for 6 sec.\nAlso remove fear effects from\ngroup members within 12 yds.",
-      "pvp_tooltip": "Instant\n1 min cooldown\nGo berserk, removing and granting immunity to Fear, Sap, and Incapacitate effects for 6 sec.\nAlso remove fear effects from\ngroup members within 12 yds.",
+      "pve_tooltip": "Instant\n1 min cooldown\nGo berserk, removing and granting immunity to Fear, Sap, and Incapacitate effects for 6 sec.\nAlso remove fear effects from group members within 12 yds.",
+      "pvp_tooltip": "Instant\n1 min cooldown\nGo berserk, removing and granting immunity to Fear, Sap, and Incapacitate effects for 6 sec.\nAlso remove fear effects from group members within 12 yds.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fearless",
@@ -1872,7 +1898,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Intimidating Shout",
@@ -1928,7 +1955,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Piercing Howl",
@@ -2031,7 +2059,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Honed Reflexes",
@@ -2086,7 +2115,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Armored to the Teeth",
@@ -2134,15 +2164,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 384124,
         "icon": "inv_shoulder_22"
       },
-      "pve_tooltip": "Gain Strength equal to 5% of your Armor.",
-      "pvp_tooltip": "Gain Strength equal to 5% of your Armor.",
+      "pve_tooltip": "Gain Strength equal to 10% of your Armor.",
+      "pvp_tooltip": "Gain Strength equal to 10% of your Armor.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Gain Strength equal to 5% of your Armor.",
+          "pvp_tooltip": "Gain Strength equal to 5% of your Armor.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Gain Strength equal to 10% of your Armor.",
+          "pvp_tooltip": "Gain Strength equal to 10% of your Armor.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Double Time",
@@ -2235,7 +2283,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Reinforced Plates",
@@ -2283,15 +2332,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 382939,
         "icon": "inv_chest_plate04"
       },
-      "pve_tooltip": "Stamina increased by 5% and Armor increased by 5%.",
-      "pvp_tooltip": "Stamina increased by 5% and Armor increased by 5%.",
+      "pve_tooltip": "Stamina increased by 10% and Armor increased by 10%.",
+      "pvp_tooltip": "Stamina increased by 10% and Armor increased by 10%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Stamina increased by 5% and Armor increased by 5%.",
+          "pvp_tooltip": "Stamina increased by 5% and Armor increased by 5%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Stamina increased by 10% and Armor increased by 10%.",
+          "pvp_tooltip": "Stamina increased by 10% and Armor increased by 10%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Barbaric Training",
@@ -2345,7 +2412,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Javelineer",
@@ -2401,7 +2469,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Resonant Voice",
@@ -2457,7 +2526,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Crushing Force",
@@ -2511,7 +2581,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cruel Strikes",
@@ -2559,15 +2630,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 392777,
         "icon": "ability_criticalstrike"
       },
-      "pve_tooltip": "Critical strike chance increased by 1% and critical strike damage of Execute increased by 5%.",
-      "pvp_tooltip": "Critical strike chance increased by 1% and critical strike damage of Execute increased by 5%.",
+      "pve_tooltip": "Critical strike chance increased by 2% and critical strike damage of Execute increased by 10%.",
+      "pvp_tooltip": "Critical strike chance increased by 2% and critical strike damage of Execute increased by 10%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Critical strike chance increased by 1% and critical strike damage of Execute increased by 5%.",
+          "pvp_tooltip": "Critical strike chance increased by 1% and critical strike damage of Execute increased by 5%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Critical strike chance increased by 2% and critical strike damage of Execute increased by 10%.",
+          "pvp_tooltip": "Critical strike chance increased by 2% and critical strike damage of Execute increased by 10%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Dual Wield Specialization",
@@ -2615,15 +2704,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 382900,
         "icon": "ability_dualwield"
       },
-      "pve_tooltip": "While dual wielding your damage is increased by 3% and movement speed is increased by 2%.",
-      "pvp_tooltip": "While dual wielding your damage is increased by 3% and movement speed is increased by 2%.",
+      "pve_tooltip": "While dual wielding your damage is increased by 6% and movement speed is increased by 4%.",
+      "pvp_tooltip": "While dual wielding your damage is increased by 6% and movement speed is increased by 4%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "While dual wielding your damage is increased by 3% and movement speed is increased by 2%.",
+          "pvp_tooltip": "While dual wielding your damage is increased by 3% and movement speed is increased by 2%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "While dual wielding your damage is increased by 6% and movement speed is increased by 4%.",
+          "pvp_tooltip": "While dual wielding your damage is increased by 6% and movement speed is increased by 4%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Wild Strikes",
@@ -2671,15 +2778,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 382946,
         "icon": "ability_rogue_sprint"
       },
-      "pve_tooltip": "Haste increased by 1% and your auto-attack critical strikes increase your auto-attack speed by 10% for 10 sec.\n(8s cooldown)",
-      "pvp_tooltip": "Haste increased by 1% and your auto-attack critical strikes increase your auto-attack speed by 10% for 10 sec.\n(8s cooldown)",
+      "pve_tooltip": "Haste increased by 2% and your auto-attack critical strikes increase your auto-attack speed by 20% for 10 sec.\n(8s cooldown)",
+      "pvp_tooltip": "Haste increased by 2% and your auto-attack critical strikes increase your auto-attack speed by 20% for 10 sec.\n(8s cooldown)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Haste increased by 1% and your auto-attack critical strikes increase your auto-attack speed by 10% for 10 sec.\n(8s cooldown)",
+          "pvp_tooltip": "Haste increased by 1% and your auto-attack critical strikes increase your auto-attack speed by 10% for 10 sec.\n(8s cooldown)",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Haste increased by 2% and your auto-attack critical strikes increase your auto-attack speed by 20% for 10 sec.\n(8s cooldown)",
+          "pvp_tooltip": "Haste increased by 2% and your auto-attack critical strikes increase your auto-attack speed by 20% for 10 sec.\n(8s cooldown)",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Anger Management",
@@ -2778,7 +2903,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Champion's Spear",
@@ -2823,15 +2949,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 376079,
         "icon": "inv_ability_warrior_championsspear"
       },
-      "pve_tooltip": "25 yd range\nInstant\n1.5 min cooldown\nThrow a spear at the target location, chaining all enemies in the area to the spear's location and dealing (239.25% of Attack Power) Physical damage instantly and an additional (326.25% of Attack Power) Physical damage over 6 sec.\nWhile the spear is active, activating this ability will cause you to leap to the spear, dealing (47% of Attack Power) Physical damage to all targets.\nAll damage dealt reduced beyond 5 targets.\nGenerates\n10\nRage.",
-      "pvp_tooltip": "25 yd range\nInstant\n1.5 min cooldown\nThrow a spear at the target location, chaining all enemies in the area to the spear's location and dealing (239.25% of Attack Power) Physical damage instantly and an additional (326.25% of Attack Power) Physical damage over 6 sec.\nWhile the spear is active, activating this ability will cause you to leap to the spear, dealing (47% of Attack Power) Physical damage to all targets.\nAll damage dealt reduced beyond 5 targets.\nGenerates\n10\nRage.",
+      "pve_tooltip": "25 yd range\nInstant\n1.5 min cooldown\nThrow a spear at the target location, chaining all enemies in the area to the spear's location and dealing (239.25% of Attack Power) Physical damage instantly and an additional (326.25% of Attack Power) Physical damage over 6 sec.\nWhile the spear is active, activating this ability will cause you to leap to the spear, dealing (47% of Attack Power) Physical damage to all targets.\nAll damage dealt reduced beyond 5 targets.\nGenerates 10 Rage.",
+      "pvp_tooltip": "25 yd range\nInstant\n1.5 min cooldown\nThrow a spear at the target location, chaining all enemies in the area to the spear's location and dealing (239.25% of Attack Power) Physical damage instantly and an additional (326.25% of Attack Power) Physical damage over 6 sec.\nWhile the spear is active, activating this ability will cause you to leap to the spear, dealing (47% of Attack Power) Physical damage to all targets.\nAll damage dealt reduced beyond 5 targets.\nGenerates 10 Rage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Stance Mastery",
@@ -2943,7 +3070,8 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Battlefield Commander",
@@ -2987,15 +3115,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 424742,
         "icon": "ability_warrior_commandingshout"
       },
-      "pve_tooltip": "Your Shout abilities have additional effects.\nBattle Shout\n:\nGrants you an additional 3% attack power.\nRallying Cry\n:\nGrants an additional 2% health and duration increased by 3 sec.\nPiercing Howl\n:\nRadius increased by 100%\nBerserker Shout\n:\nRadius increased by 100%.\nIntimidating Shout\n:\nCooldown reduced by 15 sec.",
-      "pvp_tooltip": "Your Shout abilities have additional effects.\nBattle Shout\n:\nGrants you an additional 3% attack power.\nRallying Cry\n:\nGrants an additional 2% health and duration increased by 3 sec.\nPiercing Howl\n:\nRadius increased by 100%\nBerserker Shout\n:\nRadius increased by 100%.\nIntimidating Shout\n:\nCooldown reduced by 15 sec.",
+      "pve_tooltip": "Your Shout abilities have additional effects.\nBattle Shout:\nGrants you an additional 3% attack power.\nRallying Cry:\nGrants an additional 2% health and duration increased by 3 sec.\nPiercing Howl:\nRadius increased by 100%\nBerserker Shout:\nRadius increased by 100%.\nIntimidating Shout:\nCooldown reduced by 15 sec.",
+      "pvp_tooltip": "Your Shout abilities have additional effects.\nBattle Shout:\nGrants you an additional 3% attack power.\nRallying Cry:\nGrants an additional 2% health and duration increased by 3 sec.\nPiercing Howl:\nRadius increased by 100%\nBerserker Shout:\nRadius increased by 100%.\nIntimidating Shout:\nCooldown reduced by 15 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bloodthirst",
@@ -3039,8 +3168,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 23881,
         "icon": "spell_nature_bloodlust"
       },
-      "pve_tooltip": "Melee Range\nInstant\n4.5 sec cooldown\nAssault the target in a bloodthirsty craze, dealing (424.203% of Attack Power) Physical damage and restoring 3% of your health.\nGenerates (80 /\nRecklessness\n:\n120\n/\nSeethe\n:\n100\n/ 10) Rage and has a\n30\n% chance to Enrage you.",
-      "pvp_tooltip": "Melee Range\nInstant\n4.5 sec cooldown\nAssault the target in a bloodthirsty craze, dealing (424.203% of Attack Power) Physical damage and restoring 2% of your health.\nGenerates (80 /\nRecklessness\n:\n120\n/\nSeethe\n:\n100\n/ 10) Rage and has a\n30\n% chance to Enrage you.",
+      "pve_tooltip": "Melee Range\nInstant\n4.5 sec cooldown\nAssault the target in a bloodthirsty craze, dealing (424.203% of Attack Power) Physical damage and restoring 3% of your health.\nGenerates (80 / Recklessness: 120 / Seethe: 100 / 10) Rage and has a 30% chance to Enrage you.",
+      "pvp_tooltip": "Melee Range\nInstant\n4.5 sec cooldown\nAssault the target in a bloodthirsty craze, dealing (424.203% of Attack Power) Physical damage and restoring 2% of your health.\nGenerates (80 / Recklessness: 120 / Seethe: 100 / 10) Rage and has a 30% chance to Enrage you.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3099,7 +3228,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Raging Blow",
@@ -3147,15 +3277,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 85288,
         "icon": "warrior_wild_strike"
       },
-      "pve_tooltip": "Melee Range\nInstant\n8 sec cooldown\n1 Charge\nA mighty blow with both weapons that deals a total of [(206.998% of Attack Power) + (206.998% of Attack Power)] Physical damage. [\nImproved Raging Blow\n:\nRaging Blow has a 25% chance to instantly reset its own cooldown\n]\nGenerates (\n120\n/ 10) Rage.",
-      "pvp_tooltip": "Melee Range\nInstant\n8 sec cooldown\n1 Charge\nA mighty blow with both weapons that deals a total of [(206.998% of Attack Power) + (206.998% of Attack Power)] Physical damage. [\nImproved Raging Blow\n:\nRaging Blow has a 25% chance to instantly reset its own cooldown\n]\nGenerates (\n120\n/ 10) Rage.",
+      "pve_tooltip": "Melee Range\nInstant\n8 sec cooldown\n1 Charge\nA mighty blow with both weapons that deals a total of [(206.998% of Attack Power) + (206.998% of Attack Power)] Physical damage. [Improved Raging Blow: Raging Blow has a 25% chance to instantly reset its own cooldown]\nGenerates (120 / 10) Rage.",
+      "pvp_tooltip": "Melee Range\nInstant\n8 sec cooldown\n1 Charge\nA mighty blow with both weapons that deals a total of [(206.998% of Attack Power) + (206.998% of Attack Power)] Physical damage. [Improved Raging Blow: Raging Blow has a 25% chance to instantly reset its own cooldown]\nGenerates (120 / 10) Rage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sudden Death",
@@ -3202,15 +3333,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 29725,
         "icon": "ability_warrior_improveddisciplines"
       },
-      "pve_tooltip": "Approximately\n1.7\nprocs per minute\nYour attacks have a chance to make your next\nExecute\nbe usable on any target regardless of their health.",
-      "pvp_tooltip": "Approximately\n1.7\nprocs per minute\nYour attacks have a chance to make your next\nExecute\nbe usable on any target regardless of their health.",
+      "pve_tooltip": "Approximately 1.7 procs per minute\nYour attacks have a chance to make your next Execute be usable on any target regardless of their health.",
+      "pvp_tooltip": "Approximately 1.7 procs per minute\nYour attacks have a chance to make your next Execute be usable on any target regardless of their health.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frenzied Enrage",
@@ -3313,7 +3445,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Powerful Enrage",
@@ -3426,7 +3559,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Execute",
@@ -3481,7 +3615,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Focus in Chaos",
@@ -3536,7 +3671,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Enraged Regeneration",
@@ -3585,15 +3721,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 184364,
         "icon": "ability_warrior_focusedrage"
       },
-      "pve_tooltip": "Instant\n2 min cooldown\nReduces damage taken by 30% and Bloodthirst restores an additional 20% health for\n8 sec\n. Usable while stunned or incapacitated.",
-      "pvp_tooltip": "Instant\n2 min cooldown\nReduces damage taken by 30% and Bloodthirst restores an additional 20% health for\n8 sec\n. Usable while stunned or incapacitated.",
+      "pve_tooltip": "Instant\n2 min cooldown\nReduces damage taken by 30% and Bloodthirst restores an additional 20% health for 8 sec. Usable while stunned or incapacitated.",
+      "pvp_tooltip": "Instant\n2 min cooldown\nReduces damage taken by 30% and Bloodthirst restores an additional 20% health for 8 sec. Usable while stunned or incapacitated.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Warpaint",
@@ -3696,7 +3833,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Whirlwind",
@@ -3743,15 +3881,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 12950,
         "icon": "ability_whirlwind"
       },
-      "pve_tooltip": "Whirlwind [\nCrashing Thunder\n:\nand Thunder Clap cause\n/ causes] your next 4 single-target attacks to strike up to 4 additional targets for 65% damage.\nWhirlwind generates an additional 1 Rage per target hit. Maximum 8 Rage.",
-      "pvp_tooltip": "Whirlwind [\nCrashing Thunder\n:\nand Thunder Clap cause\n/ causes] your next 4 single-target attacks to strike up to 4 additional targets for 65% damage.\nWhirlwind generates an additional 1 Rage per target hit. Maximum 8 Rage.",
+      "pve_tooltip": "Whirlwind [Crashing Thunder: and Thunder Clap cause / causes] your next 4 single-target attacks to strike up to 4 additional targets for 65% damage.\nWhirlwind generates an additional 1 Rage per target hit. Maximum 8 Rage.",
+      "pvp_tooltip": "Whirlwind [Crashing Thunder: and Thunder Clap cause / causes] your next 4 single-target attacks to strike up to 4 additional targets for 65% damage.\nWhirlwind generates an additional 1 Rage per target hit. Maximum 8 Rage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Massacre",
@@ -3797,15 +3936,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 206315,
         "icon": "inv_axe_2h_orcwarrior_c_01"
       },
-      "pve_tooltip": "Execute\nis usable on targets below 35% health and its cooldown is reduced by 1.5 sec.",
-      "pvp_tooltip": "Execute\nis usable on targets below 35% health and its cooldown is reduced by 1.5 sec.",
+      "pve_tooltip": "Execute is usable on targets below 35% health and its cooldown is reduced by 1.5 sec.",
+      "pvp_tooltip": "Execute is usable on targets below 35% health and its cooldown is reduced by 1.5 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fresh Meat",
@@ -3861,7 +4001,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Invigorating Fury",
@@ -3913,7 +4054,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rampage",
@@ -4121,7 +4263,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Raging Blow",
@@ -4177,7 +4320,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rampaging Ruin",
@@ -4459,7 +4603,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 5
+      "render_effect_count": 5,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Deep Wounds",
@@ -4504,8 +4649,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1261060,
         "icon": "ability_backstab"
       },
-      "pve_tooltip": "Causes the target to suffer (145.48% of Attack Power) Bleed damage over 6 sec. If this effect is reapplied, any remaining damage will be added to the new Deep Wounds.",
-      "pvp_tooltip": "Causes the target to suffer (145.48% of Attack Power) Bleed damage over 6 sec. If this effect is reapplied, any remaining damage will be added to the new Deep Wounds.",
+      "pve_tooltip": "Execute inflicts Deep Wounds on the target.\nDeep Wounds\nCauses the target to suffer (145.48% of Attack Power) Bleed damage over 6 sec. If this effect is reapplied, any remaining damage will be added to the new Deep Wounds.",
+      "pvp_tooltip": "Execute inflicts Deep Wounds on the target.\nDeep Wounds\nCauses the target to suffer (145.48% of Attack Power) Bleed damage over 6 sec. If this effect is reapplied, any remaining damage will be added to the new Deep Wounds.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4543,7 +4688,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spite",
@@ -4590,15 +4736,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 383852,
         "icon": "warrior_talent_icon_furyintheblood"
       },
-      "pve_tooltip": "Bloodthirst and Raging Blow damage increased by 2.5% and critical strike damage increased by a further 2.5%.",
-      "pvp_tooltip": "Bloodthirst and Raging Blow damage increased by 2.5% and critical strike damage increased by a further 2.5%.",
+      "pve_tooltip": "Bloodthirst and Raging Blow damage increased by 5% and critical strike damage increased by a further 5%.",
+      "pvp_tooltip": "Bloodthirst and Raging Blow damage increased by 5% and critical strike damage increased by a further 5%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Bloodthirst and Raging Blow damage increased by 2.5% and critical strike damage increased by a further 2.5%.",
+          "pvp_tooltip": "Bloodthirst and Raging Blow damage increased by 2.5% and critical strike damage increased by a further 2.5%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Bloodthirst and Raging Blow damage increased by 5% and critical strike damage increased by a further 5%.",
+          "pvp_tooltip": "Bloodthirst and Raging Blow damage increased by 5% and critical strike damage increased by a further 5%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Scent of Blood",
@@ -4653,7 +4817,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Kill or Be Killed",
@@ -4707,7 +4872,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hack and Slash",
@@ -4762,7 +4928,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cruelty",
@@ -4809,15 +4976,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 392931,
         "icon": "spell_nature_focusedmind"
       },
-      "pve_tooltip": "While Enraged, Bloodthirst and Raging Blow deal 5% increased damage.",
-      "pvp_tooltip": "While Enraged, Bloodthirst and Raging Blow deal 5% increased damage.",
+      "pve_tooltip": "While Enraged, Bloodthirst and Raging Blow deal 10% increased damage.",
+      "pvp_tooltip": "While Enraged, Bloodthirst and Raging Blow deal 10% increased damage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "While Enraged, Bloodthirst and Raging Blow deal 5% increased damage.",
+          "pvp_tooltip": "While Enraged, Bloodthirst and Raging Blow deal 5% increased damage.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "While Enraged, Bloodthirst and Raging Blow deal 10% increased damage.",
+          "pvp_tooltip": "While Enraged, Bloodthirst and Raging Blow deal 10% increased damage.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Meat Cleaver",
@@ -4862,15 +5047,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 280392,
         "icon": "warrior_talent_icon_mastercleaver"
       },
-      "pve_tooltip": "Whirlwind [\nCrashing Thunder\n:\nand Thunder Clap deal\n/ deals] 50% additional damage when [\nCrashing Thunder\n:\nthey hit\n/ it hits] 3 or more targets.",
-      "pvp_tooltip": "Whirlwind [\nCrashing Thunder\n:\nand Thunder Clap deal\n/ deals] 50% additional damage when [\nCrashing Thunder\n:\nthey hit\n/ it hits] 3 or more targets.",
+      "pve_tooltip": "Whirlwind [Crashing Thunder: and Thunder Clap deal / deals] 50% additional damage when [Crashing Thunder: they hit / it hits] 3 or more targets.",
+      "pvp_tooltip": "Whirlwind [Crashing Thunder: and Thunder Clap deal / deals] 50% additional damage when [Crashing Thunder: they hit / it hits] 3 or more targets.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Carving Blades",
@@ -4923,7 +5109,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cold Steel, Hot Blood",
@@ -4977,7 +5164,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ragedrinker",
@@ -5064,7 +5252,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Recklessness",
@@ -5120,7 +5309,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bloodcraze",
@@ -5176,7 +5366,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wrath and Fury",
@@ -5230,7 +5421,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Deft Experience",
@@ -5278,15 +5470,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 383295,
         "icon": "inv_misc_book_07"
       },
-      "pve_tooltip": "Bloodthirst's critical strike chance increased by 5% and if you are Enraged, Bloodthirst extends your Enrage by 0.5 sec. This extension is doubled if Bloodthirst critically strikes your primary target.",
-      "pvp_tooltip": "Bloodthirst's critical strike chance increased by 5% and if you are Enraged, Bloodthirst extends your Enrage by 0.5 sec. This extension is doubled if Bloodthirst critically strikes your primary target.",
+      "pve_tooltip": "Bloodthirst's critical strike chance increased by 10% and if you are Enraged, Bloodthirst extends your Enrage by 1 sec. This extension is doubled if Bloodthirst critically strikes your primary target.",
+      "pvp_tooltip": "Bloodthirst's critical strike chance increased by 10% and if you are Enraged, Bloodthirst extends your Enrage by 1 sec. This extension is doubled if Bloodthirst critically strikes your primary target.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Bloodthirst's critical strike chance increased by 5% and if you are Enraged, Bloodthirst extends your Enrage by 0.5 sec. This extension is doubled if Bloodthirst critically strikes your primary target.",
+          "pvp_tooltip": "Bloodthirst's critical strike chance increased by 5% and if you are Enraged, Bloodthirst extends your Enrage by 0.5 sec. This extension is doubled if Bloodthirst critically strikes your primary target.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Bloodthirst's critical strike chance increased by 10% and if you are Enraged, Bloodthirst extends your Enrage by 1 sec. This extension is doubled if Bloodthirst critically strikes your primary target.",
+          "pvp_tooltip": "Bloodthirst's critical strike chance increased by 10% and if you are Enraged, Bloodthirst extends your Enrage by 1 sec. This extension is doubled if Bloodthirst critically strikes your primary target.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Frenzy",
@@ -5343,7 +5553,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Critical Thinking",
@@ -5391,15 +5602,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 383297,
         "icon": "ability_criticalstrike"
       },
-      "pve_tooltip": "Raging Blow's critical strike chance increased by 5% and critical strike damage increased by 5%.",
-      "pvp_tooltip": "Raging Blow's critical strike chance increased by 5% and critical strike damage increased by 5%.",
+      "pve_tooltip": "Raging Blow's critical strike chance increased by 10% and critical strike damage increased by 10%.",
+      "pvp_tooltip": "Raging Blow's critical strike chance increased by 10% and critical strike damage increased by 10%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Raging Blow's critical strike chance increased by 5% and critical strike damage increased by 5%.",
+          "pvp_tooltip": "Raging Blow's critical strike chance increased by 5% and critical strike damage increased by 5%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Raging Blow's critical strike chance increased by 10% and critical strike damage increased by 10%.",
+          "pvp_tooltip": "Raging Blow's critical strike chance increased by 10% and critical strike damage increased by 10%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Vicious Contempt",
@@ -5453,7 +5682,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Odyn's Fury",
@@ -5630,7 +5860,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bloodborne",
@@ -5686,7 +5917,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Surge of Adrenaline",
@@ -5740,7 +5972,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Executioner's Wrath",
@@ -5793,7 +6026,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Reckless Abandon",
@@ -5892,7 +6126,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Avatar",
@@ -6044,7 +6279,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bladestorm",
@@ -6176,7 +6412,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rampaging Berserker",
@@ -6226,7 +6463,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rampaging Berserker",
@@ -6276,7 +6514,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rampaging Berserker",
@@ -6326,7 +6565,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lightning Strikes",
@@ -6373,15 +6613,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 434969,
         "icon": "ability_vehicle_electrocharge"
       },
-      "pve_tooltip": "Damaging enemies with Thunder Clap, Raging Blow, or Execute has a 25% chance to also strike one with a lightning bolt, dealing (155.1% of Attack Power) Nature damage\n.\nLightning Strikes occur 30% more often during Avatar.",
-      "pvp_tooltip": "Damaging enemies with Thunder Clap, Raging Blow, or Execute has a 25% chance to also strike one with a lightning bolt, dealing (155.1% of Attack Power) Nature damage\n.\nLightning Strikes occur 30% more often during Avatar.",
+      "pve_tooltip": "Damaging enemies with Thunder Clap, Raging Blow, or Execute has a 25% chance to also strike one with a lightning bolt, dealing (155.1% of Attack Power) Nature damage.\nLightning Strikes occur 30% more often during Avatar.",
+      "pvp_tooltip": "Damaging enemies with Thunder Clap, Raging Blow, or Execute has a 25% chance to also strike one with a lightning bolt, dealing (155.1% of Attack Power) Nature damage.\nLightning Strikes occur 30% more often during Avatar.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Crashing Thunder",
@@ -6435,7 +6676,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ground Current",
@@ -6489,7 +6731,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Strength of the Mountain",
@@ -6543,7 +6786,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Storm Surge",
@@ -6597,7 +6841,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Slayer's Dominance",
@@ -6644,8 +6889,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 444767,
         "icon": "inv_ability_slayerwarrior_slayersdominance"
       },
-      "pve_tooltip": "Your attacks against your primary target have a 15% chance to overwhelm their defenses and trigger a Slayer's Strike, dealing (840.42% of Attack Power) Physical damage and granting you a stack of Executioner, increasing your Execute damage by\n3\n% for 12 sec. Multiple stacks of Executioner may overlap.",
-      "pvp_tooltip": "Your attacks against your primary target have a 15% chance to overwhelm their defenses and trigger a Slayer's Strike, dealing (840.42% of Attack Power) Physical damage and granting you a stack of Executioner, increasing your Execute damage by\n1\n% for 12 sec. Multiple stacks of Executioner may overlap.",
+      "pve_tooltip": "Your attacks against your primary target have a 15% chance to overwhelm their defenses and trigger a Slayer's Strike, dealing (840.42% of Attack Power) Physical damage and granting you a stack of Executioner, increasing your Execute damage by 3% for 12 sec. Multiple stacks of Executioner may overlap.",
+      "pvp_tooltip": "Your attacks against your primary target have a 15% chance to overwhelm their defenses and trigger a Slayer's Strike, dealing (840.42% of Attack Power) Physical damage and granting you a stack of Executioner, increasing your Execute damage by 1% for 12 sec. Multiple stacks of Executioner may overlap.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -6764,7 +7009,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thunder Blast",
@@ -6810,15 +7056,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 435607,
         "icon": "warrior_talent_icon_bloodandthunder"
       },
-      "pve_tooltip": "Your next Thunder Clap becomes a Thunder Blast that deals (234.295% of Attack Power) Stormstrike damage and generates 2 Rage.",
-      "pvp_tooltip": "Your next Thunder Clap becomes a Thunder Blast that deals (234.295% of Attack Power) Stormstrike damage and generates 2 Rage.",
+      "pve_tooltip": "Shield Slam and Bloodthirst have a 35% chance to grant you Thunder Blast, stacking up to 2 charges.\nThunder Blast\nYour next Thunder Clap becomes a Thunder Blast that deals (234.295% of Attack Power) Stormstrike damage and generates 2 Rage.",
+      "pvp_tooltip": "Shield Slam and Bloodthirst have a 35% chance to grant you Thunder Blast, stacking up to 2 charges.\nThunder Blast\nYour next Thunder Clap becomes a Thunder Blast that deals (234.295% of Attack Power) Stormstrike damage and generates 2 Rage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Storm Bolts",
@@ -6872,7 +7119,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Storm Shield",
@@ -6926,7 +7174,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Keep Your Feet on the Ground",
@@ -6980,7 +7229,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Steadfast as the Peaks",
@@ -7026,15 +7276,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 434970,
         "icon": "ability_warrior_devastate"
       },
-      "pve_tooltip": "Stamina increased by 5%.\n[\nImpending Victory\n/ Victory Rush] increases your maximum health by 10% for 5 sec. When this health increase expires, you heal for any amount of the original [\nImpending Victory\n/ Victory Rush] that healed you in excess of your full health.",
-      "pvp_tooltip": "Stamina increased by 5%.\n[\nImpending Victory\n/ Victory Rush] increases your maximum health by 10% for 5 sec. When this health increase expires, you heal for any amount of the original [\nImpending Victory\n/ Victory Rush] that healed you in excess of your full health.",
+      "pve_tooltip": "Stamina increased by 5%.\n[Impending Victory / Victory Rush] increases your maximum health by 10% for 5 sec. When this health increase expires, you heal for any amount of the original [Impending Victory / Victory Rush] that healed you in excess of your full health.",
+      "pvp_tooltip": "Stamina increased by 5%.\n[Impending Victory / Victory Rush] increases your maximum health by 10% for 5 sec. When this health increase expires, you heal for any amount of the original [Impending Victory / Victory Rush] that healed you in excess of your full health.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Conductivity",
@@ -7088,7 +7339,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Imminent Demise",
@@ -7142,7 +7394,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Overwhelming Blades",
@@ -7188,15 +7441,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 444772,
         "icon": "inv_10_specialization_blacksmithing_blades_color1"
       },
-      "pve_tooltip": "Each strike of Bladestorm applies Overwhelmed to all enemies affected, increasing damage you deal to them by\n1\n% for 20 sec, max 5 stacks.",
-      "pvp_tooltip": "Each strike of Bladestorm applies Overwhelmed to all enemies affected, increasing damage you deal to them by\n1\n% for 20 sec, max 5 stacks.",
+      "pve_tooltip": "Each strike of Bladestorm applies Overwhelmed to all enemies affected, increasing damage you deal to them by 1% for 20 sec, max 5 stacks.",
+      "pvp_tooltip": "Each strike of Bladestorm applies Overwhelmed to all enemies affected, increasing damage you deal to them by 1% for 20 sec, max 5 stacks.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Relentless Pursuit",
@@ -7302,7 +7556,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Vicious Agility",
@@ -7356,7 +7611,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Violent Euphoria",
@@ -7410,7 +7666,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flashing Skies",
@@ -7464,7 +7721,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Snap Induction",
@@ -7518,7 +7776,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gathering Clouds",
@@ -7572,7 +7831,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thorim's Might",
@@ -7626,7 +7886,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Burst of Power",
@@ -7711,7 +7972,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Capacitance",
@@ -7765,7 +8027,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Death Drive",
@@ -7819,7 +8082,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Culling Cyclone",
@@ -7873,7 +8137,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Brutal Finish",
@@ -8009,7 +8274,8 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fierce Followthrough",
@@ -8063,7 +8329,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Opportunist",
@@ -8117,7 +8384,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Deadly Focus",
@@ -8171,7 +8439,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Avatar of the Storm",
@@ -8226,7 +8495,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Show No Mercy",
@@ -8272,8 +8542,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 444771,
         "icon": "warrior_talent_icon_lambstotheslaughter"
       },
-      "pve_tooltip": "Executioner also increases your Execute critical strike chance and critical strike damage by\n3\n% per stack.",
-      "pvp_tooltip": "Executioner also increases your Execute critical strike chance and critical strike damage by\n1\n% per stack.",
+      "pve_tooltip": "Executioner also increases your Execute critical strike chance and critical strike damage by 3% per stack.",
+      "pvp_tooltip": "Executioner also increases your Execute critical strike chance and critical strike damage by 1% per stack.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -8392,7 +8662,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Reap the Storm",
@@ -8498,7 +8769,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Slayer's Malice",
@@ -8552,7 +8824,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unhinged",
@@ -8653,7 +8926,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unrelenting Onslaught",
@@ -8708,13 +8982,14 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     }
   ],
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "warrior-fury",
-  "generated_at": "2026-09-20T12:54:34.834140+00:00",
+  "generated_at": "2026-09-20T20:03:44.911238+00:00",
   "validation": {
     "talents": 122,
     "changed_tooltips": 17,

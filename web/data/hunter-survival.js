@@ -57,7 +57,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Survival of the Fittest",
@@ -101,8 +102,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 264735,
         "icon": "spell_nature_spiritarmor"
       },
-      "pve_tooltip": "Unlimited range\nInstant\n1.5 min cooldown\n1 Charge\nReduces all damage you and your pet take by\n30\n% for\n6 sec\n.",
-      "pvp_tooltip": "Unlimited range\nInstant\n1.5 min cooldown\n1 Charge\nReduces all damage you and your pet take by\n25\n% for\n6 sec\n.",
+      "pve_tooltip": "Unlimited range\nInstant\n1.5 min cooldown\n1 Charge\nReduces all damage you and your pet take by 30% for 6 sec.",
+      "pvp_tooltip": "Unlimited range\nInstant\n1.5 min cooldown\n1 Charge\nReduces all damage you and your pet take by 25% for 6 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -181,7 +182,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Posthaste",
@@ -233,7 +235,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Natural Mending",
@@ -280,15 +283,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 270581,
         "icon": "ability_hunter_onewithnature"
       },
-      "pve_tooltip": "Exhilaration's cooldown is reduced by 30 sec.",
-      "pvp_tooltip": "Exhilaration's cooldown is reduced by 30 sec.",
+      "pve_tooltip": "Exhilaration's cooldown is reduced by 60 sec.",
+      "pvp_tooltip": "Exhilaration's cooldown is reduced by 60 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Exhilaration's cooldown is reduced by 30 sec.",
+          "pvp_tooltip": "Exhilaration's cooldown is reduced by 30 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Exhilaration's cooldown is reduced by 60 sec.",
+          "pvp_tooltip": "Exhilaration's cooldown is reduced by 60 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Padded Armor",
@@ -343,7 +364,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hunter's Avoidance",
@@ -398,7 +420,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wilderness Medicine",
@@ -483,7 +506,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Combat Experience",
@@ -539,7 +563,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Aspect of the Cheetah",
@@ -595,7 +620,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Concussive Shot",
@@ -696,7 +722,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Precision Strikes",
@@ -752,7 +779,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Muzzle",
@@ -809,7 +837,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Serrated Tips",
@@ -857,15 +886,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 459502,
         "icon": "inv_spear_01"
       },
-      "pve_tooltip": "You gain 2% more critical strike from critical strike sources.",
-      "pvp_tooltip": "You gain 2% more critical strike from critical strike sources.",
+      "pve_tooltip": "You gain 4% more critical strike from critical strike sources.",
+      "pvp_tooltip": "You gain 4% more critical strike from critical strike sources.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "You gain 2% more critical strike from critical strike sources.",
+          "pvp_tooltip": "You gain 2% more critical strike from critical strike sources.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "You gain 4% more critical strike from critical strike sources.",
+          "pvp_tooltip": "You gain 4% more critical strike from critical strike sources.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Tranquilizing Shot",
@@ -920,7 +967,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pathfinding",
@@ -976,7 +1024,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Disruptive Rounds",
@@ -1032,7 +1081,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Feign Death",
@@ -1080,15 +1130,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 1258486,
         "icon": "ability_rogue_feigndeath"
       },
-      "pve_tooltip": "The cooldown of Feign Death is reduced by 5 sec.",
-      "pvp_tooltip": "The cooldown of Feign Death is reduced by 5 sec.",
+      "pve_tooltip": "The cooldown of Feign Death is reduced by 10 sec.",
+      "pvp_tooltip": "The cooldown of Feign Death is reduced by 10 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "The cooldown of Feign Death is reduced by 5 sec.",
+          "pvp_tooltip": "The cooldown of Feign Death is reduced by 5 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "The cooldown of Feign Death is reduced by 10 sec.",
+          "pvp_tooltip": "The cooldown of Feign Death is reduced by 10 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Misdirection",
@@ -1143,7 +1211,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Kodo Tranquilizer",
@@ -1197,7 +1266,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Devilsaur Tranquilizer",
@@ -1251,7 +1321,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Kindling Flare",
@@ -1306,7 +1377,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Trigger Finger",
@@ -1362,7 +1434,25 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "100 yd range\nHaste increased by 1%.",
+          "pvp_tooltip": "100 yd range\nHaste increased by 1%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "100 yd range\nHaste increased by 2%.",
+          "pvp_tooltip": "100 yd range\nHaste increased by 2%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Tar Trap",
@@ -1468,7 +1558,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Scare Beast",
@@ -1522,7 +1613,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Touch of Grass",
@@ -1570,15 +1662,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 1258402,
         "icon": "inv12_ability_druid_lifetreading"
       },
-      "pve_tooltip": "Your maximum health is increased by 5%.",
-      "pvp_tooltip": "Your maximum health is increased by 5%.",
+      "pve_tooltip": "Your maximum health is increased by 10%.",
+      "pvp_tooltip": "Your maximum health is increased by 10%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Your maximum health is increased by 5%.",
+          "pvp_tooltip": "Your maximum health is increased by 5%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Your maximum health is increased by 10%.",
+          "pvp_tooltip": "Your maximum health is increased by 10%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Camouflage",
@@ -1633,7 +1743,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "No Hard Feelings",
@@ -1687,7 +1798,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Aspect of the Turtle",
@@ -1745,7 +1857,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Specialized Arsenal",
@@ -1803,7 +1916,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Scout's Instincts",
@@ -1861,7 +1975,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shell Wall",
@@ -1915,7 +2030,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Intimidation",
@@ -1963,15 +2079,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 19577,
         "icon": "ability_devour"
       },
-      "pve_tooltip": "100 yd range\nInstant\n1 min cooldown\nCommands your pet to intimidate the target stunning your target for 5 sec\n.",
-      "pvp_tooltip": "100 yd range\nInstant\n1 min cooldown\nCommands your pet to intimidate the target stunning your target for 5 sec\n.",
+      "pve_tooltip": "100 yd range\nInstant\n1 min cooldown\nCommands your pet to intimidate the target stunning your target for 5 sec.",
+      "pvp_tooltip": "100 yd range\nInstant\n1 min cooldown\nCommands your pet to intimidate the target stunning your target for 5 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Snaring",
@@ -2026,7 +2143,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lone Survivor",
@@ -2081,7 +2199,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Catlike Reflexes",
@@ -2136,7 +2255,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Binding Shot",
@@ -2184,15 +2304,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 109248,
         "icon": "spell_shaman_bindelemental"
       },
-      "pve_tooltip": "30 yd range\nInstant\n45 sec cooldown\nFires a magical projectile, tethering the enemy and any other enemies within 5 yds for 10 sec, stunning them for 3 sec if they move more than 5 yds from the arrow. [\nBinding Shackles\n:\nTargets stunned by Binding Shot deal 10% less damage to you for 8 sec after the effect ends\n]",
-      "pvp_tooltip": "30 yd range\nInstant\n45 sec cooldown\nFires a magical projectile, tethering the enemy and any other enemies within 5 yds for 10 sec, stunning them for 3 sec if they move more than 5 yds from the arrow. [\nBinding Shackles\n:\nTargets stunned by Binding Shot deal 10% less damage to you for 8 sec after the effect ends\n]",
+      "pve_tooltip": "30 yd range\nInstant\n45 sec cooldown\nFires a magical projectile, tethering the enemy and any other enemies within 5 yds for 10 sec, stunning them for 3 sec if they move more than 5 yds from the arrow. [Binding Shackles: Targets stunned by Binding Shot deal 10% less damage to you for 8 sec after the effect ends]",
+      "pvp_tooltip": "30 yd range\nInstant\n45 sec cooldown\nFires a magical projectile, tethering the enemy and any other enemies within 5 yds for 10 sec, stunning them for 3 sec if they move more than 5 yds from the arrow. [Binding Shackles: Targets stunned by Binding Shot deal 10% less damage to you for 8 sec after the effect ends]",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Trailblazer",
@@ -2246,7 +2367,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Moment of Opportunity",
@@ -2300,7 +2422,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cold Feet",
@@ -2407,7 +2530,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Territorial Instincts",
@@ -2459,7 +2583,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Guttural Roar",
@@ -2511,7 +2636,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Born To Be Wild",
@@ -2560,15 +2686,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 266921,
         "icon": "ability_hunter_aspectoftheviper"
       },
-      "pve_tooltip": "The cooldown of Aspect of the Eagle, Aspect of the Cheetah, and Aspect of the Turtle are reduced by 15 sec.",
-      "pvp_tooltip": "The cooldown of Aspect of the Eagle, Aspect of the Cheetah, and Aspect of the Turtle are reduced by 15 sec.",
+      "pve_tooltip": "The cooldown of Aspect of the Eagle, Aspect of the Cheetah, and Aspect of the Turtle are reduced by 30 sec.",
+      "pvp_tooltip": "The cooldown of Aspect of the Eagle, Aspect of the Cheetah, and Aspect of the Turtle are reduced by 30 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "The cooldown of Aspect of the Eagle, Aspect of the Cheetah, and Aspect of the Turtle are reduced by 15 sec.",
+          "pvp_tooltip": "The cooldown of Aspect of the Eagle, Aspect of the Cheetah, and Aspect of the Turtle are reduced by 15 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "The cooldown of Aspect of the Eagle, Aspect of the Cheetah, and Aspect of the Turtle are reduced by 30 sec.",
+          "pvp_tooltip": "The cooldown of Aspect of the Eagle, Aspect of the Cheetah, and Aspect of the Turtle are reduced by 30 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Keen Eyesight",
@@ -2617,15 +2761,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 378004,
         "icon": "ability_hunter_silenthunter"
       },
-      "pve_tooltip": "Critical strike chance increased by 2%.",
-      "pvp_tooltip": "Critical strike chance increased by 2%.",
+      "pve_tooltip": "Critical strike chance increased by 4%.",
+      "pvp_tooltip": "Critical strike chance increased by 4%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Critical strike chance increased by 2%.",
+          "pvp_tooltip": "Critical strike chance increased by 2%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Critical strike chance increased by 4%.",
+          "pvp_tooltip": "Critical strike chance increased by 4%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Tar-Coated Bindings",
@@ -2677,7 +2839,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Horsehair Tether",
@@ -2729,7 +2892,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Traps",
@@ -2784,7 +2948,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Emergency Salve",
@@ -2837,7 +3002,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Roar of Sacrifice",
@@ -2937,7 +3103,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Guardian's Hide",
@@ -2990,7 +3157,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unnatural Causes",
@@ -3043,7 +3211,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Kill Command",
@@ -3088,8 +3257,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 259489,
         "icon": "ability_hunter_killcommand"
       },
-      "pve_tooltip": "50 yd range\nInstant\n5 sec recharge\n2 Charges\nGive the command to kill, causing your pet to savagely deal (300% of Attack Power) Physical damage to the enemy.\nGenerates 15 /\nInvigorating Pulse\n:\n20\n/\nFlanker's Advantage\n:\n20\nFocus.\nIncreases the damage of your next non-Kill Command ability by 0%.",
-      "pvp_tooltip": "50 yd range\nInstant\n5 sec recharge\n2 Charges\nGive the command to kill, causing your pet to savagely deal (345% of Attack Power) Physical damage to the enemy.\nGenerates 15 /\nInvigorating Pulse\n:\n20\n/\nFlanker's Advantage\n:\n20\nFocus.\nIncreases the damage of your next non-Kill Command ability by 0%.",
+      "pve_tooltip": "50 yd range\nInstant\n5 sec recharge\n2 Charges\nGive the command to kill, causing your pet to savagely deal (300% of Attack Power) Physical damage to the enemy.\nGenerates 15 / Invigorating Pulse: 20 / Flanker's Advantage: 20 Focus.\nIncreases the damage of your next non-Kill Command ability by 0%.",
+      "pvp_tooltip": "50 yd range\nInstant\n5 sec recharge\n2 Charges\nGive the command to kill, causing your pet to savagely deal (345% of Attack Power) Physical damage to the enemy.\nGenerates 15 / Invigorating Pulse: 20 / Flanker's Advantage: 20 Focus.\nIncreases the damage of your next non-Kill Command ability by 0%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3148,7 +3317,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wildfire Bomb",
@@ -3300,7 +3470,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Raptor Strike",
@@ -3411,7 +3582,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Guerrilla Tactics",
@@ -3466,7 +3638,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tip of the Spear",
@@ -3521,7 +3694,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lunge",
@@ -3576,7 +3750,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Boomstick",
@@ -3672,7 +3847,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Strike as One",
@@ -3728,7 +3904,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shrapnel Bomb",
@@ -3782,7 +3959,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flamebreak",
@@ -3836,7 +4014,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bloodseeker",
@@ -3891,7 +4070,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Quick Reload",
@@ -3946,7 +4126,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flanker's Advantage",
@@ -4001,7 +4182,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sic 'Em",
@@ -4094,7 +4276,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Two Against Many",
@@ -4148,7 +4331,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mongoose Fury",
@@ -4291,7 +4475,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mongoose Rounds",
@@ -4346,7 +4531,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wildfire Shells",
@@ -4401,7 +4587,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shellshock",
@@ -4456,7 +4643,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Primal Surge",
@@ -4513,7 +4701,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bloody Claws",
@@ -4567,7 +4756,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wallop",
@@ -4673,7 +4863,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Wildfire Bomb",
@@ -4719,15 +4910,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 321290,
         "icon": "inv_eng_bombfire"
       },
-      "pve_tooltip": "Wildfire Bomb deals 6% additional damage.",
-      "pvp_tooltip": "Wildfire Bomb deals 6% additional damage.",
+      "pve_tooltip": "Wildfire Bomb deals 12% additional damage.",
+      "pvp_tooltip": "Wildfire Bomb deals 12% additional damage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Wildfire Bomb deals 6% additional damage.",
+          "pvp_tooltip": "Wildfire Bomb deals 6% additional damage.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Wildfire Bomb deals 12% additional damage.",
+          "pvp_tooltip": "Wildfire Bomb deals 12% additional damage.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Bonding",
@@ -4783,7 +4992,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sweeping Spear",
@@ -4830,15 +5040,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 378950,
         "icon": "spell_warrior_wildstrike"
       },
-      "pve_tooltip": "Raptor Strike damage increased by 10%.",
-      "pvp_tooltip": "Raptor Strike damage increased by 10%.",
+      "pve_tooltip": "Raptor Strike damage increased by 20%.",
+      "pvp_tooltip": "Raptor Strike damage increased by 20%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Raptor Strike damage increased by 10%.",
+          "pvp_tooltip": "Raptor Strike damage increased by 10%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Raptor Strike damage increased by 20%.",
+          "pvp_tooltip": "Raptor Strike damage increased by 20%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Vulnerability",
@@ -4894,7 +5122,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blackrock Munitions",
@@ -4950,7 +5179,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Outland Venom",
@@ -5004,7 +5234,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Explosives Expert",
@@ -5052,15 +5283,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 378937,
         "icon": "inv_misc_bomb_05"
       },
-      "pve_tooltip": "Wildfire Bomb and Boomstick damage increased by 5%.",
-      "pvp_tooltip": "Wildfire Bomb and Boomstick damage increased by 5%.",
+      "pve_tooltip": "Wildfire Bomb and Boomstick damage increased by 10%.",
+      "pvp_tooltip": "Wildfire Bomb and Boomstick damage increased by 10%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Wildfire Bomb and Boomstick damage increased by 5%.",
+          "pvp_tooltip": "Wildfire Bomb and Boomstick damage increased by 5%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Wildfire Bomb and Boomstick damage increased by 10%.",
+          "pvp_tooltip": "Wildfire Bomb and Boomstick damage increased by 10%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Takedown",
@@ -5109,8 +5358,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1250646,
         "icon": "inv12_ability_hunter_takedown"
       },
-      "pve_tooltip": "15 yd range\nInstant\n1.5 min cooldown\nYou and your pet leap to your target and strike as one, dealing [(600% of Attack Power) + (1200% of Attack Power)] Physical damage\n. Your pet frees itself from roots when it leaps.\nFor the next\n8 sec\n, the damage dealt by you and your pet is increased by 20%\n.\nGenerates 50 Focus\n.",
-      "pvp_tooltip": "15 yd range\nInstant\n1.5 min cooldown\nYou and your pet leap to your target and strike as one, dealing [(340.875% of Attack Power) + (681.75% of Attack Power)] Physical damage\n. Your pet frees itself from roots when it leaps.\nFor the next\n8 sec\n, the damage dealt by you and your pet is increased by 20%\n.\nGenerates 50 Focus\n.",
+      "pve_tooltip": "15 yd range\nInstant\n1.5 min cooldown\nYou and your pet leap to your target and strike as one, dealing [(600% of Attack Power) + (1200% of Attack Power)] Physical damage. Your pet frees itself from roots when it leaps.\nFor the next 8 sec, the damage dealt by you and your pet is increased by 20%.\nGenerates 50 Focus.",
+      "pvp_tooltip": "15 yd range\nInstant\n1.5 min cooldown\nYou and your pet leap to your target and strike as one, dealing [(340.875% of Attack Power) + (681.75% of Attack Power)] Physical damage. Your pet frees itself from roots when it leaps.\nFor the next 8 sec, the damage dealt by you and your pet is increased by 20%.\nGenerates 50 Focus.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -5238,7 +5487,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Killer Companion",
@@ -5285,15 +5535,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 378955,
         "icon": "ability_hunter_masterscall"
       },
-      "pve_tooltip": "All damage dealt by your pet is increased by 10%.",
-      "pvp_tooltip": "All damage dealt by your pet is increased by 10%.",
+      "pve_tooltip": "All damage dealt by your pet is increased by 20%.",
+      "pvp_tooltip": "All damage dealt by your pet is increased by 20%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "All damage dealt by your pet is increased by 10%.",
+          "pvp_tooltip": "All damage dealt by your pet is increased by 10%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "All damage dealt by your pet is increased by 20%.",
+          "pvp_tooltip": "All damage dealt by your pet is increased by 20%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Bombardier",
@@ -5348,7 +5616,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Twin Fangs",
@@ -5402,7 +5671,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Savagery",
@@ -5448,15 +5718,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 1251790,
         "icon": "ability_hunter_ferociousinspiration"
       },
-      "pve_tooltip": "Takedown cooldown reduced by 15 sec.",
-      "pvp_tooltip": "Takedown cooldown reduced by 15 sec.",
+      "pve_tooltip": "Takedown cooldown reduced by 30 sec.",
+      "pvp_tooltip": "Takedown cooldown reduced by 30 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Takedown cooldown reduced by 15 sec.",
+          "pvp_tooltip": "Takedown cooldown reduced by 15 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Takedown cooldown reduced by 30 sec.",
+          "pvp_tooltip": "Takedown cooldown reduced by 30 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Wildfire Infusion",
@@ -5511,7 +5799,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Grenade Juggler",
@@ -5563,7 +5852,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wildfire Imbuement",
@@ -5607,8 +5897,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1252943,
         "icon": "spell_shaman_improvelavalash"
       },
-      "pve_tooltip": "Approximately\n2\nprocs per minute\nThrowing your Wildfire Bomb has a chance to imbue your weapon with flame, causing you and your pet's auto-attacks to deal an additional (40% of Attack Power) Fire damage for 10 sec.",
-      "pvp_tooltip": "Approximately\n2\nprocs per minute\nThrowing your Wildfire Bomb has a chance to imbue your weapon with flame, causing you and your pet's auto-attacks to deal an additional (40.4% of Attack Power) Fire damage for 10 sec.",
+      "pve_tooltip": "Approximately 2 procs per minute\nThrowing your Wildfire Bomb has a chance to imbue your weapon with flame, causing you and your pet's auto-attacks to deal an additional (40% of Attack Power) Fire damage for 10 sec.",
+      "pvp_tooltip": "Approximately 2 procs per minute\nThrowing your Wildfire Bomb has a chance to imbue your weapon with flame, causing you and your pet's auto-attacks to deal an additional (40.4% of Attack Power) Fire damage for 10 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -5675,7 +5965,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flanked",
@@ -5728,7 +6019,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lethal Calibration",
@@ -5780,7 +6072,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Razor Edge",
@@ -5824,15 +6117,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 1253053,
         "icon": "spell_druid_bloodythrash"
       },
-      "pve_tooltip": "Raptor Strike\nand Kill Command gain 10% increased critical strike chance and 10% increased critical damage dealt.",
-      "pvp_tooltip": "Raptor Strike\nand Kill Command gain 10% increased critical strike chance and 10% increased critical damage dealt.",
+      "pve_tooltip": "Raptor Strike and Kill Command gain 20% increased critical strike chance and 20% increased critical damage dealt.",
+      "pvp_tooltip": "Raptor Strike and Kill Command gain 20% increased critical strike chance and 20% increased critical damage dealt.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Raptor Strike and Kill Command gain 10% increased critical strike chance and 10% increased critical damage dealt.",
+          "pvp_tooltip": "Raptor Strike and Kill Command gain 10% increased critical strike chance and 10% increased critical damage dealt.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Raptor Strike and Kill Command gain 20% increased critical strike chance and 20% increased critical damage dealt.",
+          "pvp_tooltip": "Raptor Strike and Kill Command gain 20% increased critical strike chance and 20% increased critical damage dealt.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Raptor Swipe",
@@ -5944,7 +6255,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Raptor Swipe",
@@ -5994,7 +6306,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Raptor Swipe",
@@ -6044,7 +6357,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sentinel",
@@ -6099,7 +6413,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Don't Look Back",
@@ -6225,7 +6540,8 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Moon's Blessing",
@@ -6279,7 +6595,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sanctified Armaments",
@@ -6333,7 +6650,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Moonlight Chakram",
@@ -6379,8 +6697,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1264902,
         "icon": "inv_ability_hunter_deathchakram"
       },
-      "pve_tooltip": "Throw a chakram blessed with moonlight at your current target that will rapidly deal (284.4% of Attack Power) Physical damage 7 times, bouncing to other targets if they are nearby.\n(1s cooldown)",
-      "pvp_tooltip": "Throw a chakram blessed with moonlight at your current target that will rapidly deal (284.4% of Attack Power) Physical damage 7 times, bouncing to other targets if they are nearby.\n(1s cooldown)",
+      "pve_tooltip": "For 15 sec after casting Takedown, Takedown is replaced with Moonlight Chakram.\nMoonlight Chakram\nThrow a chakram blessed with moonlight at your current target that will rapidly deal (284.4% of Attack Power) Physical damage 7 times, bouncing to other targets if they are nearby.",
+      "pvp_tooltip": "For 15 sec after casting Takedown, Takedown is replaced with Moonlight Chakram.\nMoonlight Chakram\nThrow a chakram blessed with moonlight at your current target that will rapidly deal (284.4% of Attack Power) Physical damage 7 times, bouncing to other targets if they are nearby.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6464,7 +6782,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Stargazer",
@@ -6518,7 +6837,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Open Fire",
@@ -6572,7 +6892,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Can't Miss, Won't Miss",
@@ -6626,7 +6947,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Invigorating Pulse",
@@ -6680,7 +7002,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Twilight Requiem",
@@ -6794,7 +7117,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Stalk and Strike",
@@ -6848,7 +7172,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Arcane Talons",
@@ -6902,7 +7227,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lunar Calling",
@@ -6956,7 +7282,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Conditioning",
@@ -7010,7 +7337,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Scout's Vigil",
@@ -7064,7 +7392,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Radiant Edge",
@@ -7172,7 +7501,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lunar Storm",
@@ -7287,7 +7617,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Howl of the Pack Leader",
@@ -7334,8 +7665,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 471876,
         "icon": "inv_ability_packleaderhunter_vicioushunt"
       },
-      "pve_tooltip": "While in combat, every 30 sec your next Kill Command summons the aid of a Beast.\nWyvern\nA Wyvern descends from the skies, letting out a battle cry that increases the damage of you and your pets by 10% for 12 sec.\nBoar\nA Boar charges through your target 1 time, dealing (1440% of Attack Power) damage to nearby enemies and an additional (1200% of Attack Power) physical damage to its primary target. Damage reduced beyond 5 targets.\nBear\nA Bear leaps into the fray, rending the flesh of your enemies, dealing (400% of Attack Power) damage over 10 sec to up to\n8\nnearby enemies.",
-      "pvp_tooltip": "While in combat, every 30 sec your next Kill Command summons the aid of a Beast.\nWyvern\nA Wyvern descends from the skies, letting out a battle cry that increases the damage of you and your pets by 10% for 12 sec.\nBoar\nA Boar charges through your target 1 time, dealing (727.2% of Attack Power) damage to nearby enemies and an additional (606% of Attack Power) physical damage to its primary target. Damage reduced beyond 5 targets.\nBear\nA Bear leaps into the fray, rending the flesh of your enemies, dealing (400% of Attack Power) damage over 10 sec to up to\n8\nnearby enemies.",
+      "pve_tooltip": "While in combat, every 30 sec your next Kill Command summons the aid of a Beast.\nWyvern\nA Wyvern descends from the skies, letting out a battle cry that increases the damage of you and your pets by 10% for 12 sec.\nBoar\nA Boar charges through your target 1 time, dealing (1440% of Attack Power) damage to nearby enemies and an additional (1200% of Attack Power) physical damage to its primary target. Damage reduced beyond 5 targets.\nBear\nA Bear leaps into the fray, rending the flesh of your enemies, dealing (400% of Attack Power) damage over 10 sec to up to 8 nearby enemies.",
+      "pvp_tooltip": "While in combat, every 30 sec your next Kill Command summons the aid of a Beast.\nWyvern\nA Wyvern descends from the skies, letting out a battle cry that increases the damage of you and your pets by 10% for 12 sec.\nBoar\nA Boar charges through your target 1 time, dealing (727.2% of Attack Power) damage to nearby enemies and an additional (606% of Attack Power) physical damage to its primary target. Damage reduced beyond 5 targets.\nBear\nA Bear leaps into the fray, rending the flesh of your enemies, dealing (400% of Attack Power) damage over 10 sec to up to 8 nearby enemies.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -7501,7 +7832,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pack Mentality",
@@ -7555,7 +7887,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dire Summons",
@@ -7609,7 +7942,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Better Together",
@@ -7663,7 +7997,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Slicked Shoes",
@@ -7717,7 +8052,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Masterful Call",
@@ -7771,7 +8107,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ursine Fury",
@@ -7825,7 +8162,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sharpened Claws",
@@ -7879,7 +8217,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fury of the Wyvern",
@@ -8085,7 +8424,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hogstrider",
@@ -8229,7 +8569,8 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lethal Barbs",
@@ -8275,15 +8616,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 1264781,
         "icon": "ability_hunter_criticalshot"
       },
-      "pve_tooltip": "Approximately\n20\nprocs per minute\nYour auto attacks have a very high chance to grant 3 Focus to you and your pet.\nAuto attack damage increased by 15%.",
-      "pvp_tooltip": "Approximately\n20\nprocs per minute\nYour auto attacks have a very high chance to grant 3 Focus to you and your pet.\nAuto attack damage increased by 15%.",
+      "pve_tooltip": "Approximately 20 procs per minute\nYour auto attacks have a very high chance to grant 3 Focus to you and your pet.\nAuto attack damage increased by 15%.",
+      "pvp_tooltip": "Approximately 20 procs per minute\nYour auto attacks have a very high chance to grant 3 Focus to you and your pet.\nAuto attack damage increased by 15%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "No Mercy",
@@ -8337,7 +8679,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shell Cover",
@@ -8391,7 +8734,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hoof and Blade",
@@ -8445,7 +8789,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wyvern's Gaze",
@@ -8499,7 +8844,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sharpened Fangs",
@@ -8553,7 +8899,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Stampede!",
@@ -8668,13 +9015,14 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     }
   ],
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "hunter-survival",
-  "generated_at": "2026-09-20T12:50:54.141237+00:00",
+  "generated_at": "2026-09-20T20:00:10.550315+00:00",
   "validation": {
     "talents": 127,
     "changed_tooltips": 19,

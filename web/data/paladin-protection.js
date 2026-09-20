@@ -171,7 +171,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Auras of the Resolute",
@@ -217,8 +218,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 385633,
         "icon": "spell_holy_devotionaura"
       },
-      "pve_tooltip": "Learn Concentration Aura, Devotion Aura, and Crusader Aura:\nConcentration Aura\n:\nInterrupt and Silence effects on party and raid members within 40 yds are 30% shorter.\nDevotion Aura\n:\nParty and raid members within 40 yds are bolstered by their devotion, reducing damage taken by 3%.\nCrusader Aura\n:\nIncreases mounted speed by 20% for all party and raid members within 40 yds.",
-      "pvp_tooltip": "Learn Concentration Aura, Devotion Aura, and Crusader Aura:\nConcentration Aura\n:\nInterrupt and Silence effects on party and raid members within 40 yds are 30% shorter.\nDevotion Aura\n:\nParty and raid members within 40 yds are bolstered by their devotion, reducing damage taken by 3%.\nCrusader Aura\n:\nIncreases mounted speed by 20% for all party and raid members within 40 yds.",
+      "pve_tooltip": "Learn Concentration Aura, Devotion Aura, and Crusader Aura:\nConcentration Aura:\nInterrupt and Silence effects on party and raid members within 40 yds are 30% shorter.\nDevotion Aura:\nParty and raid members within 40 yds are bolstered by their devotion, reducing damage taken by 3%.\nCrusader Aura:\nIncreases mounted speed by 20% for all party and raid members within 40 yds.",
+      "pvp_tooltip": "Learn Concentration Aura, Devotion Aura, and Crusader Aura:\nConcentration Aura:\nInterrupt and Silence effects on party and raid members within 40 yds are 30% shorter.\nDevotion Aura:\nParty and raid members within 40 yds are bolstered by their devotion, reducing damage taken by 3%.\nCrusader Aura:\nIncreases mounted speed by 20% for all party and raid members within 40 yds.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -314,7 +315,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hammer of Wrath",
@@ -360,8 +362,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1241288,
         "icon": "inv12_ability_paladin_hammerofwrath"
       },
-      "pve_tooltip": "Hurls a divine hammer that strikes an enemy for [(215.807% of Attack Power) *\n1\n] Holy damage.\nGenerates 1 Holy Power.",
-      "pvp_tooltip": "Hurls a divine hammer that strikes an enemy for [(215.807% of Attack Power) *\n1\n] Holy damage.\nGenerates 1 Holy Power.",
+      "pve_tooltip": "During Avenging Wrath, Judgment is empowered into Hammer of Wrath.\nHammer of Wrath\nHurls a divine hammer that strikes an enemy for [(123.75% of Attack Power) * 1] [Blades of Light: Holystrike / Holy] damage.\nGenerates 1 Holy Power.",
+      "pvp_tooltip": "During Avenging Wrath, Judgment is empowered into Hammer of Wrath.\nHammer of Wrath\nHurls a divine hammer that strikes an enemy for [(123.75% of Attack Power) * 1] [Blades of Light: Holystrike / Holy] damage.\nGenerates 1 Holy Power.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -450,7 +452,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1241288,
           "source_spell_id": 1241413,
           "effect_index": 1,
-          "effect_text": "School Damage (2): holy | Attributes: Chain from Initial Target (7), Enforce Line of Sight To Chain Targets (16) (AP mod: 1.2375)",
+          "effect_text": "School Damage (Holy) (AP mod: 1.2375 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.3,
           "amount_kind": "direct",
@@ -477,14 +479,16 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cleanse Toxins",
@@ -539,7 +543,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Empyreal Ward",
@@ -624,7 +629,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fist of Justice",
@@ -681,7 +687,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blinding Light",
@@ -738,7 +745,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Turn Evil",
@@ -792,7 +800,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "A Just Reward",
@@ -838,31 +847,21 @@ window.WOW_PVP_DATA = {
         "spell_id": 469411,
         "icon": "spell_holy_blindingheal"
       },
-      "pve_tooltip": "After Cleanse Toxins successfully removes an effect from an ally, they are healed for [(540% of Spell Power)].",
-      "pvp_tooltip": "After Cleanse Toxins successfully removes an effect from an ally, they are healed for [(135.0011% of Spell Power)].",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 88,
-          "end": 91,
-          "old_token": "540",
-          "new_token": "135.0011",
-          "kind": "spell_power_coefficient",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
+      "pve_tooltip": "After Cleanse Toxins successfully removes an effect from an ally, they are healed for [(1080% of Spell Power)].",
+      "pvp_tooltip": "After Cleanse Toxins successfully removes an effect from an ally, they are healed for [(1080% of Spell Power)].",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "APPLIED",
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
           "kind": "spell_power_coefficient",
-          "old": "540",
-          "new": "135.0011"
+          "old": 540.0,
+          "new": 135.00108000000003,
+          "full_tooltip_match_count": 0
         }
       ],
       "has_pvp_mechanics": true,
@@ -908,7 +907,25 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "After Cleanse Toxins successfully removes an effect from an ally, they are healed for [(540% of Spell Power)].",
+          "pvp_tooltip": "After Cleanse Toxins successfully removes an effect from an ally, they are healed for [(135.0011% of Spell Power)].",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "After Cleanse Toxins successfully removes an effect from an ally, they are healed for [(1080% of Spell Power)].",
+          "pvp_tooltip": "After Cleanse Toxins successfully removes an effect from an ally, they are healed for [(1080% of Spell Power)].",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Afterimage",
@@ -965,7 +982,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Guided Prayer",
@@ -1017,7 +1035,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Divine Steed",
@@ -1067,15 +1086,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 190784,
         "icon": "ability_paladin_divinesteed"
       },
-      "pve_tooltip": "Instant\n45 sec cooldown\n1 Charge\nLeap atop your Charger for\n3 sec\n, increasing movement speed by 100%. Usable while indoors or in combat.",
-      "pvp_tooltip": "Instant\n45 sec cooldown\n1 Charge\nLeap atop your Charger for\n3 sec\n, increasing movement speed by 100%. Usable while indoors or in combat.",
+      "pve_tooltip": "Instant\n45 sec cooldown\n1 Charge\nLeap atop your Charger for 3 sec, increasing movement speed by 100%. Usable while indoors or in combat.",
+      "pvp_tooltip": "Instant\n45 sec cooldown\n1 Charge\nLeap atop your Charger for 3 sec, increasing movement speed by 100%. Usable while indoors or in combat.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Light's Countenance",
@@ -1127,7 +1147,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Greater Judgment",
@@ -1183,7 +1204,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wrench Evil",
@@ -1237,7 +1259,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Stand Against Evil",
@@ -1291,7 +1314,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Holy Reprieve",
@@ -1347,7 +1371,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cavalier",
@@ -1403,7 +1428,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Divine Spurs",
@@ -1455,7 +1481,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Steed of Liberty",
@@ -1503,15 +1530,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 469304,
         "icon": "spell_holy_crusaderaura"
       },
-      "pve_tooltip": "Divine Steed also grants Blessing of Freedom for 3.0 sec.\nBlessing of Freedom\n:\nBlesses a party or raid member, granting immunity to movement impairing effects [\nUnbound Freedom\n:\nand increasing movement speed by 30%\n]for 8 sec.\n(100ms cooldown)",
-      "pvp_tooltip": "Divine Steed also grants Blessing of Freedom for 3.0 sec.\nBlessing of Freedom\n:\nBlesses a party or raid member, granting immunity to movement impairing effects [\nUnbound Freedom\n:\nand increasing movement speed by 30%\n]for 8 sec.\n(100ms cooldown)",
+      "pve_tooltip": "Divine Steed also grants Blessing of Freedom for 3.0 sec.\nBlessing of Freedom:\nBlesses a party or raid member, granting immunity to movement impairing effects [Unbound Freedom: and increasing movement speed by 30%]for 8 sec.\n(100ms cooldown)",
+      "pvp_tooltip": "Divine Steed also grants Blessing of Freedom for 3.0 sec.\nBlessing of Freedom:\nBlesses a party or raid member, granting immunity to movement impairing effects [Unbound Freedom: and increasing movement speed by 30%]for 8 sec.\n(100ms cooldown)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blessing of Freedom",
@@ -1559,15 +1587,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 1044,
         "icon": "spell_holy_sealofvalor"
       },
-      "pve_tooltip": "1.4% of base mana\n40 yd range\nInstant\n25 sec cooldown\n1 Charge\nBlesses a party or raid member, granting immunity to movement impairing effects [\nUnbound Freedom\n:\nand increasing movement speed by 30%\n]for 8 sec.",
-      "pvp_tooltip": "1.4% of base mana\n40 yd range\nInstant\n25 sec cooldown\n1 Charge\nBlesses a party or raid member, granting immunity to movement impairing effects [\nUnbound Freedom\n:\nand increasing movement speed by 30%\n]for 8 sec.",
+      "pve_tooltip": "1.4% of base mana\n40 yd range\nInstant\n25 sec cooldown\n1 Charge\nBlesses a party or raid member, granting immunity to movement impairing effects [Unbound Freedom: and increasing movement speed by 30%]for 8 sec.",
+      "pvp_tooltip": "1.4% of base mana\n40 yd range\nInstant\n25 sec cooldown\n1 Charge\nBlesses a party or raid member, granting immunity to movement impairing effects [Unbound Freedom: and increasing movement speed by 30%]for 8 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rebuke",
@@ -1623,7 +1652,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Obduracy",
@@ -1673,15 +1703,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 385427,
         "icon": "ability_paladin_speedoflight"
       },
-      "pve_tooltip": "Speed increased by 2% and damage taken from area of effect attacks reduced by 2%.",
-      "pvp_tooltip": "Speed increased by 2% and damage taken from area of effect attacks reduced by 2%.",
+      "pve_tooltip": "Speed increased by 4% and damage taken from area of effect attacks reduced by 4%.",
+      "pvp_tooltip": "Speed increased by 4% and damage taken from area of effect attacks reduced by 4%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Speed increased by 2% and damage taken from area of effect attacks reduced by 2%.",
+          "pvp_tooltip": "Speed increased by 2% and damage taken from area of effect attacks reduced by 2%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Speed increased by 4% and damage taken from area of effect attacks reduced by 4%.",
+          "pvp_tooltip": "Speed increased by 4% and damage taken from area of effect attacks reduced by 4%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Divine Toll",
@@ -1738,7 +1786,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unbound Freedom",
@@ -1792,7 +1841,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sanctified Plates",
@@ -1842,15 +1892,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 402964,
         "icon": "inv_chest_plate_raidpaladin_s_01"
       },
-      "pve_tooltip": "Armor increased by 5%, Stamina increased by 8% and damage taken from area of effect attacks reduced by 3%.",
-      "pvp_tooltip": "Armor increased by 5%, Stamina increased by 8% and damage taken from area of effect attacks reduced by 3%.",
+      "pve_tooltip": "Armor increased by 10%, Stamina increased by 16% and damage taken from area of effect attacks reduced by 6%.",
+      "pvp_tooltip": "Armor increased by 10%, Stamina increased by 16% and damage taken from area of effect attacks reduced by 6%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Armor increased by 5%, Stamina increased by 8% and damage taken from area of effect attacks reduced by 3%.",
+          "pvp_tooltip": "Armor increased by 5%, Stamina increased by 8% and damage taken from area of effect attacks reduced by 3%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Armor increased by 10%, Stamina increased by 16% and damage taken from area of effect attacks reduced by 6%.",
+          "pvp_tooltip": "Armor increased by 10%, Stamina increased by 16% and damage taken from area of effect attacks reduced by 6%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Punishment",
@@ -1896,15 +1964,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 403530,
         "icon": "spell_holy_rebuke"
       },
-      "pve_tooltip": "Successfully interrupting an enemy with Rebuke\ncasts an extra\nCrusader Strike.",
-      "pvp_tooltip": "Successfully interrupting an enemy with Rebuke\ncasts an extra\nCrusader Strike.",
+      "pve_tooltip": "Successfully interrupting an enemy with Rebuke casts an extra Crusader Strike.",
+      "pvp_tooltip": "Successfully interrupting an enemy with Rebuke casts an extra Crusader Strike.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Divine Reach",
@@ -1960,7 +2029,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Brought to Light",
@@ -2014,7 +2084,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blessing of Sacrifice",
@@ -2072,7 +2143,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Divine Resonance",
@@ -2124,7 +2196,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Quickened Invocation",
@@ -2176,7 +2249,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blessing of Protection",
@@ -2234,7 +2308,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fear No Evil",
@@ -2404,7 +2479,8 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 3,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Consecrated Ground",
@@ -2460,7 +2536,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Holy Aegis",
@@ -2517,7 +2594,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sacrifice of the Just",
@@ -2573,7 +2651,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Recompense",
@@ -2629,7 +2708,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sacred Strength",
@@ -2685,7 +2765,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Divine Purpose",
@@ -2793,7 +2874,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Blessing of Protection",
@@ -2848,7 +2930,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unbreakable Spirit",
@@ -2897,15 +2980,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 114154,
         "icon": "spell_holy_holyguidance"
       },
-      "pve_tooltip": "Reduces the cooldown of your Divine Shield, [\nShield of Vengeance\n:\nShield of Vengeance\n] [\nArdent Defender\n/\nDivine Protection\n], and Lay on Hands by 30%.",
-      "pvp_tooltip": "Reduces the cooldown of your Divine Shield, [\nShield of Vengeance\n:\nShield of Vengeance\n] [\nArdent Defender\n/\nDivine Protection\n], and Lay on Hands by 30%.",
+      "pve_tooltip": "Reduces the cooldown of your Divine Shield, [Shield of Vengeance: Shield of Vengeance] [Ardent Defender / Divine Protection], and Lay on Hands by 30%.",
+      "pvp_tooltip": "Reduces the cooldown of your Divine Shield, [Shield of Vengeance: Shield of Vengeance] [Ardent Defender / Divine Protection], and Lay on Hands by 30%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lightforged Blessing",
@@ -2952,14 +3036,14 @@ window.WOW_PVP_DATA = {
         "spell_id": 406468,
         "icon": "spell_holy_circleofrenewal"
       },
-      "pve_tooltip": "[\nDenounce\n/ Shield of the Righteous] heals you and up to 2 nearby allies for (125% of Attack Power).",
-      "pvp_tooltip": "[\nDenounce\n/ Shield of the Righteous] heals you and up to 2 nearby allies for (112.5% of Attack Power).",
+      "pve_tooltip": "[Denounce / Shield of the Righteous] heals you and up to 2 nearby allies for (125% of Attack Power).",
+      "pvp_tooltip": "[Denounce / Shield of the Righteous] heals you and up to 2 nearby allies for (112.5% of Attack Power).",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 79,
-          "end": 82,
+          "start": 78,
+          "end": 81,
           "old_token": "125",
           "new_token": "112.5",
           "kind": "attack_power_coefficient",
@@ -3020,7 +3104,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lead the Charge",
@@ -3077,7 +3162,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Worthy Sacrifice",
@@ -3131,7 +3217,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Righteous Protection",
@@ -3185,7 +3272,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Holy Ritual",
@@ -3301,7 +3389,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blessed Calling",
@@ -3356,7 +3445,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Inspired Guard",
@@ -3413,7 +3503,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Light's Revocation",
@@ -3468,7 +3559,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Faith's Armor",
@@ -3523,7 +3615,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Stoicism",
@@ -3624,7 +3717,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Seal of Might",
@@ -3673,15 +3767,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 385450,
         "icon": "spell_holy_sealofwrath"
       },
-      "pve_tooltip": "Mastery increased by 2% and Strength increased by 2%.",
-      "pvp_tooltip": "Mastery increased by 2% and Strength increased by 2%.",
+      "pve_tooltip": "Mastery increased by 4% and Strength increased by 4%.",
+      "pvp_tooltip": "Mastery increased by 4% and Strength increased by 4%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Mastery increased by 2% and Strength increased by 2%.",
+          "pvp_tooltip": "Mastery increased by 2% and Strength increased by 2%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Mastery increased by 4% and Strength increased by 4%.",
+          "pvp_tooltip": "Mastery increased by 4% and Strength increased by 4%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Vengeful Wrath",
@@ -3785,7 +3897,25 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Hammer of Wrath deals up to 25% additional damage based on its target's health. Lower health targets receive more damage.",
+          "pvp_tooltip": "Hammer of Wrath deals up to 10% additional damage based on its target's health. Lower health targets receive more damage.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Hammer of Wrath deals up to 50% additional damage based on its target's health. Lower health targets receive more damage.",
+          "pvp_tooltip": "Hammer of Wrath deals up to 20% additional damage based on its target's health. Lower health targets receive more damage.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Eye for an Eye",
@@ -3901,7 +4031,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Golden Path",
@@ -4068,7 +4199,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Selfless Healer",
@@ -4123,7 +4255,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blessing of Dawn",
@@ -4177,7 +4310,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lightbearer",
@@ -4230,7 +4364,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blessing of Dusk",
@@ -4284,7 +4419,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Avenger's Shield",
@@ -4329,14 +4465,14 @@ window.WOW_PVP_DATA = {
         "spell_id": 31935,
         "icon": "spell_holy_avengersshield"
       },
-      "pve_tooltip": "30 yd range\nInstant\n15 sec cooldown\nHurls your shield at an enemy target, dealing (200% of Attack Power) Holy damage, interrupting and silencing the non-Player target for 3 sec, and then jumping to 2 additional nearby enemies.\nShields you for 8 sec, absorbing 75% as much damage as it dealt.\nDeals ((12% of Attack Power)) additional damage to all enemies within 5 yds of each target hit.",
-      "pvp_tooltip": "30 yd range\nInstant\n15 sec cooldown\nHurls your shield at an enemy target, dealing (162% of Attack Power) Holy damage, interrupting and silencing the non-Player target for 3 sec, and then jumping to 2 additional nearby enemies.\nShields you for 8 sec, absorbing 75% as much damage as it dealt.\nDeals ((9.72% of Attack Power)) additional damage to all enemies within 5 yds of each target hit.",
+      "pve_tooltip": "30 yd range\nInstant\n5 sec cooldown\nHurls your shield at an enemy target, dealing (200% of Attack Power) Holy damage, interrupting and silencing the non-Player target for 3 sec, and then jumping to 2 additional nearby enemies.\nShields you for 8 sec, absorbing 75% as much damage as it dealt.\nDeals ((12% of Attack Power)) additional damage to all enemies within 5 yds of each target hit.",
+      "pvp_tooltip": "30 yd range\nInstant\n5 sec cooldown\nHurls your shield at an enemy target, dealing (162% of Attack Power) Holy damage, interrupting and silencing the non-Player target for 3 sec, and then jumping to 2 additional nearby enemies.\nShields you for 8 sec, absorbing 75% as much damage as it dealt.\nDeals ((9.72% of Attack Power)) additional damage to all enemies within 5 yds of each target hit.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 83,
-          "end": 86,
+          "start": 82,
+          "end": 85,
           "old_token": "200",
           "new_token": "162",
           "kind": "attack_power_coefficient",
@@ -4345,8 +4481,8 @@ window.WOW_PVP_DATA = {
           ]
         },
         {
-          "start": 300,
-          "end": 302,
+          "start": 299,
+          "end": 301,
           "old_token": "12",
           "new_token": "9.72",
           "kind": "attack_power_coefficient",
@@ -4449,7 +4585,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shining Light",
@@ -4504,7 +4641,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hammer of the Righteous",
@@ -4551,8 +4689,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 53595,
         "icon": "ability_paladin_hammeroftherighteous"
       },
-      "pve_tooltip": "0.32% of base mana\nMelee Range\nInstant\n5 sec recharge\n2 Charges\nHammers the current target for (200% of Attack Power)% Physical damage. [\nConsecration\n:\nHammer of the Righteous also causes a wave of light that hits all other targets within 8 yds for (21% of Attack Power)% Holy damage\n] [\nWhile you are standing in your Consecration, Hammer of the Righteous also causes a wave of light that hits all other targets within 8 yds for (21% of Attack Power)% Holy damage\n]\nGenerates 1 Holy Power.",
-      "pvp_tooltip": "0.32% of base mana\nMelee Range\nInstant\n5 sec recharge\n2 Charges\nHammers the current target for (162% of Attack Power)% Physical damage. [\nConsecration\n:\nHammer of the Righteous also causes a wave of light that hits all other targets within 8 yds for (21% of Attack Power)% Holy damage\n] [\nWhile you are standing in your Consecration, Hammer of the Righteous also causes a wave of light that hits all other targets within 8 yds for (21% of Attack Power)% Holy damage\n]\nGenerates 1 Holy Power.",
+      "pve_tooltip": "0.32% of base mana\nMelee Range\nInstant\n5 sec recharge\n2 Charges\nHammers the current target for (200% of Attack Power)% Physical damage. [Consecration: Hammer of the Righteous also causes a wave of light that hits all other targets within 8 yds for (21% of Attack Power)% Holy damage] [While you are standing in your Consecration, Hammer of the Righteous also causes a wave of light that hits all other targets within 8 yds for (21% of Attack Power)% Holy damage]\nGenerates 1 Holy Power.",
+      "pvp_tooltip": "0.32% of base mana\nMelee Range\nInstant\n5 sec recharge\n2 Charges\nHammers the current target for (162% of Attack Power)% Physical damage. [Consecration: Hammer of the Righteous also causes a wave of light that hits all other targets within 8 yds for (21% of Attack Power)% Holy damage] [While you are standing in your Consecration, Hammer of the Righteous also causes a wave of light that hits all other targets within 8 yds for (21% of Attack Power)% Holy damage]\nGenerates 1 Holy Power.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4614,7 +4752,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blessed Hammer",
@@ -4661,8 +4800,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 204019,
         "icon": "paladin_retribution"
       },
-      "pve_tooltip": "Replaces\nCrusader Strike\n0.32% of base mana\nInstant\n5 sec recharge\n3 Charges\nThrows a Blessed Hammer that spirals outward, dealing (32.5% of Attack Power) Holy damage to enemies and reducing the next damage they deal to you by (Attack Power * 30 / 100).\nGenerates 1 Holy Power.",
-      "pvp_tooltip": "Replaces\nCrusader Strike\n0.32% of base mana\nInstant\n5 sec recharge\n3 Charges\nThrows a Blessed Hammer that spirals outward, dealing (26.325% of Attack Power) Holy damage to enemies and reducing the next damage they deal to you by (Attack Power * 30 / 100).\nGenerates 1 Holy Power.",
+      "pve_tooltip": "Replaces Crusader Strike\n0.32% of base mana\nInstant\n5 sec recharge\n3 Charges\nThrows a Blessed Hammer that spirals outward, dealing (32.5% of Attack Power) Holy damage to enemies and reducing the next damage they deal to you by (Attack Power * 30 / 100).\nGenerates 1 Holy Power.",
+      "pvp_tooltip": "Replaces Crusader Strike\n0.32% of base mana\nInstant\n5 sec recharge\n3 Charges\nThrows a Blessed Hammer that spirals outward, dealing (26.325% of Attack Power) Holy damage to enemies and reducing the next damage they deal to you by (Attack Power * 30 / 100).\nGenerates 1 Holy Power.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4729,7 +4868,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Valiant Crusade",
@@ -4784,7 +4924,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blessed Word",
@@ -4839,7 +4980,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Grand Crusader",
@@ -4888,15 +5030,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 85043,
         "icon": "inv_helmet_74"
       },
-      "pve_tooltip": "When you avoid a melee attack or use [\nHammer of the Righteous\n] [\nBlessed Hammer\n/\nCrusader Strike\n], you have a 15% chance to reset the remaining cooldown on Avenger's Shield [\nInspiring Vanguard\n:\nand increase your Strength by 2% for 8 sec\n/ .]\n(1s cooldown)",
-      "pvp_tooltip": "When you avoid a melee attack or use [\nHammer of the Righteous\n] [\nBlessed Hammer\n/\nCrusader Strike\n], you have a 15% chance to reset the remaining cooldown on Avenger's Shield [\nInspiring Vanguard\n:\nand increase your Strength by 2% for 8 sec\n/ .]\n(1s cooldown)",
+      "pve_tooltip": "When you avoid a melee attack or use [Hammer of the Righteous] [Blessed Hammer / Crusader Strike], you have a 15% chance to reset the remaining cooldown on Avenger's Shield [Inspiring Vanguard: and increase your Strength by 2% for 8 sec / .]\n(1s cooldown)",
+      "pvp_tooltip": "When you avoid a melee attack or use [Hammer of the Righteous] [Blessed Hammer / Crusader Strike], you have a 15% chance to reset the remaining cooldown on Avenger's Shield [Inspiring Vanguard: and increase your Strength by 2% for 8 sec / .]\n(1s cooldown)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Imbued Shield",
@@ -4951,7 +5094,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Redoubt",
@@ -5006,7 +5150,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blessing of Spellwarding",
@@ -5062,7 +5207,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Uther's Counsel",
@@ -5200,7 +5346,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ardent Defender",
@@ -5303,7 +5450,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Searing Sunlight",
@@ -5359,7 +5507,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hand of the Protector",
@@ -5415,7 +5564,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Refining Fire",
@@ -5463,15 +5613,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 469883,
         "icon": "inv_everburningignition_yellow"
       },
-      "pve_tooltip": "Unlimited range\nEnemies struck by Avenger's Shield burn with holy fire, suffering\n100\n% additional Radiant damage over 5 sec.",
-      "pvp_tooltip": "Unlimited range\nEnemies struck by Avenger's Shield burn with holy fire, suffering\n100\n% additional Radiant damage over 5 sec.",
+      "pve_tooltip": "Unlimited range\nEnemies struck by Avenger's Shield burn with holy fire, suffering 100% additional Radiant damage over 5 sec.",
+      "pvp_tooltip": "Unlimited range\nEnemies struck by Avenger's Shield burn with holy fire, suffering 100% additional Radiant damage over 5 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bulwark of Order",
@@ -5526,7 +5677,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Avenging Wrath",
@@ -5574,8 +5726,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 31884,
         "icon": "spell_holy_avenginewrath"
       },
-      "pve_tooltip": "Instant\n2 min cooldown\nCall upon the Light to become an avatar of retribution, [causing Judgment to generate 1 additional Holy Power,][each Holy Power spent causing you to explode with Holy light for (13.5% of Attack Power) damage to nearby enemies,]increasing your damage, healing, and critical strike chance by 20% for 20 sec /\nDivine Wrath\n:\n24 sec\n/\nCall of the Righteous\n:\n15 sec\n.",
-      "pvp_tooltip": "Instant\n2 min cooldown\nCall upon the Light to become an avatar of retribution, [causing Judgment to generate 1 additional Holy Power,][each Holy Power spent causing you to explode with Holy light for (10.935% of Attack Power) damage to nearby enemies,]increasing your damage, healing, and critical strike chance by 20% for 20 sec /\nDivine Wrath\n:\n24 sec\n/\nCall of the Righteous\n:\n15 sec\n.",
+      "pve_tooltip": "Instant\n5 sec cooldown\nCall upon the Light to become an avatar of retribution, [causing Judgment to generate 1 additional Holy Power,][each Holy Power spent causing you to explode with Holy light for (13.5% of Attack Power) damage to nearby enemies,]increasing your damage, healing, and critical strike chance by 20% for 20 sec / Divine Wrath: 24 sec / Call of the Righteous: 15 sec.",
+      "pvp_tooltip": "Instant\n5 sec cooldown\nCall upon the Light to become an avatar of retribution, [causing Judgment to generate 1 additional Holy Power,][each Holy Power spent causing you to explode with Holy light for (10.935% of Attack Power) damage to nearby enemies,]increasing your damage, healing, and critical strike chance by 20% for 20 sec / Divine Wrath: 24 sec / Call of the Righteous: 15 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -5642,7 +5794,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Light of the Titans",
@@ -5739,7 +5892,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tirion's Devotion",
@@ -5795,7 +5949,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Solace",
@@ -5851,7 +6006,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Instrument of the Divine",
@@ -5907,7 +6063,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tyr's Enforcer",
@@ -5954,8 +6111,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 378285,
         "icon": "spell_holy_persecution"
       },
-      "pve_tooltip": "Your Avenger's Shield is imbued with holy fire, causing it to deal [(12% of Attack Power)] Holy damage to all enemies within 5 yards of each target hit.",
-      "pvp_tooltip": "Your Avenger's Shield is imbued with holy fire, causing it to deal [(12% of Attack Power)] Holy damage to all enemies within 5 yards of each target hit.",
+      "pve_tooltip": "Your Avenger's Shield is imbued with holy fire, causing it to deal [(24% of Attack Power)] Holy damage to all enemies within 5 yards of each target hit.",
+      "pvp_tooltip": "Your Avenger's Shield is imbued with holy fire, causing it to deal [(24% of Attack Power)] Holy damage to all enemies within 5 yards of each target hit.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6001,7 +6158,25 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Your Avenger's Shield is imbued with holy fire, causing it to deal [(12% of Attack Power)] Holy damage to all enemies within 5 yards of each target hit.",
+          "pvp_tooltip": "Your Avenger's Shield is imbued with holy fire, causing it to deal [(12% of Attack Power)] Holy damage to all enemies within 5 yards of each target hit.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Your Avenger's Shield is imbued with holy fire, causing it to deal [(24% of Attack Power)] Holy damage to all enemies within 5 yards of each target hit.",
+          "pvp_tooltip": "Your Avenger's Shield is imbued with holy fire, causing it to deal [(24% of Attack Power)] Holy damage to all enemies within 5 yards of each target hit.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Undying Embers",
@@ -6055,7 +6230,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Relentless Inquisitor",
@@ -6111,7 +6287,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Ardent Defender",
@@ -6165,7 +6342,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Seal of Reprisal",
@@ -6211,15 +6389,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 377053,
         "icon": "spell_holy_sealoffury"
       },
-      "pve_tooltip": "Your [\nBlessed Hammer\n] [\nHammer of the Righteous\n/\nCrusader Strike\n] causes enemies struck to deal 10% reduced damage to you for 8 sec.",
-      "pvp_tooltip": "Your [\nBlessed Hammer\n] [\nHammer of the Righteous\n/\nCrusader Strike\n] causes enemies struck to deal 10% reduced damage to you for 8 sec.",
+      "pve_tooltip": "Your [Blessed Hammer] [Hammer of the Righteous / Crusader Strike] causes enemies struck to deal 10% reduced damage to you for 8 sec.",
+      "pvp_tooltip": "Your [Blessed Hammer] [Hammer of the Righteous / Crusader Strike] causes enemies struck to deal 10% reduced damage to you for 8 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Crusader's Judgment",
@@ -6275,7 +6454,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Vision of Sanctity",
@@ -6330,7 +6510,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Consecration in Flame",
@@ -6377,15 +6558,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 379022,
         "icon": "spell_fire_sealoffire"
       },
-      "pve_tooltip": "Consecration lasts 2 sec longer and its damage is increased by 20%.",
-      "pvp_tooltip": "Consecration lasts 2 sec longer and its damage is increased by 20%.",
+      "pve_tooltip": "Consecration lasts 2 sec longer and its damage is increased by 15%.",
+      "pvp_tooltip": "Consecration lasts 2 sec longer and its damage is increased by 15%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Consecration lasts 2 sec longer and its damage is increased by 15%.",
+          "pvp_tooltip": "Consecration lasts 2 sec longer and its damage is increased by 15%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Consecration lasts 2 sec longer and its damage is increased by 15%.",
+          "pvp_tooltip": "Consecration lasts 2 sec longer and its damage is increased by 15%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Soaring Shield",
@@ -6442,7 +6641,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Focused Enmity",
@@ -6499,7 +6699,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Guardian of Ancient Kings",
@@ -6557,7 +6758,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sanctuary",
@@ -6614,7 +6816,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Strength in Adversity",
@@ -6670,7 +6873,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Crusader's Resolve",
@@ -6726,7 +6930,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gift of the Golden Val'kyr",
@@ -6782,7 +6987,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Empyrean Authority",
@@ -6838,7 +7044,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Seal of Charity",
@@ -6894,7 +7101,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ferren Marcus's Fervor",
@@ -6943,15 +7151,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 378762,
         "icon": "spell_holy_sealofwrath"
       },
-      "pve_tooltip": "Avenger's Shield deals 10% increased damage to its primary target.",
-      "pvp_tooltip": "Avenger's Shield deals 10% increased damage to its primary target.",
+      "pve_tooltip": "Avenger's Shield deals 20% increased damage to its primary target.",
+      "pvp_tooltip": "Avenger's Shield deals 20% increased damage to its primary target.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Avenger's Shield deals 10% increased damage to its primary target.",
+          "pvp_tooltip": "Avenger's Shield deals 10% increased damage to its primary target.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Avenger's Shield deals 20% increased damage to its primary target.",
+          "pvp_tooltip": "Avenger's Shield deals 20% increased damage to its primary target.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Sentinel",
@@ -7000,8 +7226,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 389539,
         "icon": "spell_holy_holynova"
       },
-      "pve_tooltip": "Instant\n2 min cooldown\nCall upon the Light and gain 15 stacks of Divine Resolve, increasing your maximum health by 1% and reducing your damage taken by 2% per stack for 20 sec. After\n5.0\nsec, you will begin to lose 1 stack per second, but each 3 Holy Power spent will delay the loss of your next stack by 1 sec.\nWhile active, your damage and healing are increased by 10%, and critical strike chance is increased by 10%.",
-      "pvp_tooltip": "Instant\n2 min cooldown\nCall upon the Light and gain 15 stacks of Divine Resolve, increasing your maximum health by 1% and reducing your damage taken by 2% per stack for 20 sec. After\n5.0\nsec, you will begin to lose 1 stack per second, but each 3 Holy Power spent will delay the loss of your next stack by 1 sec.\nWhile active, your damage and healing are increased by 10%, and critical strike chance is increased by 10%.",
+      "pve_tooltip": "Instant\n5 sec cooldown\nCall upon the Light and gain 15 stacks of Divine Resolve, increasing your maximum health by 1% and reducing your damage taken by 2% per stack for 20 sec. After 5.0 sec, you will begin to lose 1 stack per second, but each 3 Holy Power spent will delay the loss of your next stack by 1 sec.\nWhile active, your damage and healing are increased by 10%, and critical strike chance is increased by 10%.",
+      "pvp_tooltip": "Instant\n5 sec cooldown\nCall upon the Light and gain 15 stacks of Divine Resolve, increasing your maximum health by 1% and reducing your damage taken by 2% per stack for 20 sec. After 5.0 sec, you will begin to lose 1 stack per second, but each 3 Holy Power spent will delay the loss of your next stack by 1 sec.\nWhile active, your damage and healing are increased by 10%, and critical strike chance is increased by 10%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -7060,7 +7286,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Zealot's Paragon",
@@ -7109,15 +7336,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 391142,
         "icon": "ability_paladin_conviction"
       },
-      "pve_tooltip": "Hammer of Wrath and Judgment deal 10% additional damage and extend the duration of [\nEcho\n:\nCrusade\n] [\nAvenging Crusader\n] [\nSentinel\n/\nAvenging Wrath\n] by 0.5 sec.",
-      "pvp_tooltip": "Hammer of Wrath and Judgment deal 10% additional damage and extend the duration of [\nEcho\n:\nCrusade\n] [\nAvenging Crusader\n] [\nSentinel\n/\nAvenging Wrath\n] by 0.5 sec.",
+      "pve_tooltip": "Hammer of Wrath and Judgment deal 10% additional damage and extend the duration of [Echo: Crusade] [Avenging Crusader] [Sentinel / Avenging Wrath] by 1 sec.",
+      "pvp_tooltip": "Hammer of Wrath and Judgment deal 10% additional damage and extend the duration of [Echo: Crusade] [Avenging Crusader] [Sentinel / Avenging Wrath] by 1 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Hammer of Wrath and Judgment deal 5% additional damage and extend the duration of [Echo: Crusade] [Avenging Crusader] [Sentinel / Avenging Wrath] by 0.5 sec.",
+          "pvp_tooltip": "Hammer of Wrath and Judgment deal 5% additional damage and extend the duration of [Echo: Crusade] [Avenging Crusader] [Sentinel / Avenging Wrath] by 0.5 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Hammer of Wrath and Judgment deal 10% additional damage and extend the duration of [Echo: Crusade] [Avenging Crusader] [Sentinel / Avenging Wrath] by 1 sec.",
+          "pvp_tooltip": "Hammer of Wrath and Judgment deal 10% additional damage and extend the duration of [Echo: Crusade] [Avenging Crusader] [Sentinel / Avenging Wrath] by 1 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Sweeping Verdict",
@@ -7176,7 +7421,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1246488,
           "source_spell_id": 1241413,
           "effect_index": 1,
-          "effect_text": "School Damage (2): holy | Attributes: Chain from Initial Target (7), Enforce Line of Sight To Chain Targets (16) (AP mod: 1.2375)",
+          "effect_text": "School Damage (Holy) (AP mod: 1.2375 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.3,
           "amount_kind": "direct",
@@ -7203,14 +7448,16 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Adjudication",
@@ -7263,7 +7510,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bulwark of Righteous Fury",
@@ -7317,7 +7565,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Final Stand",
@@ -7371,7 +7620,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Righteous Protector",
@@ -7515,7 +7765,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Glory of the Vanguard",
@@ -7565,7 +7816,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Glory of the Vanguard",
@@ -7615,7 +7867,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Glory of the Vanguard",
@@ -7711,7 +7964,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1267215,
           "source_spell_id": 1269179,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Dummy (4)",
+          "effect_text": "Apply Aura: Dummy",
           "base_value": 100.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -7728,8 +7981,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7740,7 +7994,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1267215,
           "source_spell_id": 1269224,
           "effect_index": 1,
-          "effect_text": "School Damage (2): holy (AP mod: 5)",
+          "effect_text": "School Damage (Holy) (AP mod: 5 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7767,14 +8021,14 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Light's Guidance",
@@ -7821,8 +8075,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 427445,
         "icon": "ability_paladin_longarmofthelaw"
       },
-      "pve_tooltip": "Divine Toll is replaced with\nHammer of Light\nfor 20 sec after it is cast.\nHammer of Light\n:\nHammer down your enemy with the power of the Light, dealing (696.774% of Attack Power) Holy damage and (348% of Attack Power) Holy damage up to 7 nearby enemies.\nAdditionally, calls down Empyrean Hammers from the sky to strike 3 nearby enemies for (46.55% of Attack Power) Holy damage each.\nCosts 5 Holy Power.",
-      "pvp_tooltip": "Divine Toll is replaced with\nHammer of Light\nfor 20 sec after it is cast.\nHammer of Light\n:\nHammer down your enemy with the power of the Light, dealing (696.774% of Attack Power) Holy damage and (348% of Attack Power) Holy damage up to 7 nearby enemies.\nAdditionally, calls down Empyrean Hammers from the sky to strike 3 nearby enemies for (46.55% of Attack Power) Holy damage each.\nCosts 5 Holy Power.",
+      "pve_tooltip": "Divine Toll is replaced with Hammer of Light for 20 sec after it is cast.\nHammer of Light:\nHammer down your enemy with the power of the Light, dealing (696.774% of Attack Power) Holy damage and (348% of Attack Power) Holy damage up to 7 nearby enemies.\nAdditionally, calls down Empyrean Hammers from the sky to strike 3 nearby enemies for (46.55% of Attack Power) Holy damage each.\nCosts 5 Holy Power.",
+      "pvp_tooltip": "Divine Toll is replaced with Hammer of Light for 20 sec after it is cast.\nHammer of Light:\nHammer down your enemy with the power of the Light, dealing (696.774% of Attack Power) Holy damage and (348% of Attack Power) Holy damage up to 7 nearby enemies.\nAdditionally, calls down Empyrean Hammers from the sky to strike 3 nearby enemies for (46.55% of Attack Power) Holy damage each.\nCosts 5 Holy Power.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -7970,7 +8224,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Zealous Vindication",
@@ -8024,7 +8279,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shake the Heavens",
@@ -8078,7 +8334,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wrathful Descent",
@@ -8132,7 +8389,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Divine Hammer",
@@ -8178,8 +8436,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 432929,
         "icon": "classicon_paladin"
       },
-      "pve_tooltip": "Strikes all enemies nearby for [\nBurning Crusade\n:\n[(144% of Attack Power)% * 1.05] Radiant\n/ (144% of Attack Power)% Holy] damage every 2 sec. Deals reduced damage beyond 8 targets.",
-      "pvp_tooltip": "Strikes all enemies nearby for [\nBurning Crusade\n:\n[(144% of Attack Power)% * 1.05] Radiant\n/ (144% of Attack Power)% Holy] damage every 2 sec. Deals reduced damage beyond 8 targets.",
+      "pve_tooltip": "Divine Toll summons Divine Hammers that spin around you for 8 sec.\nDivine Hammer\nStrikes all enemies nearby for [Burning Crusade: [(144% of Attack Power)% * 1.05] Radiant / (144% of Attack Power)% Holy] damage every 2 sec. Deals reduced damage beyond 8 targets.",
+      "pvp_tooltip": "Divine Toll summons Divine Hammers that spin around you for 8 sec.\nDivine Hammer\nStrikes all enemies nearby for [Burning Crusade: [(144% of Attack Power)% * 1.05] Radiant / (144% of Attack Power)% Holy] damage every 2 sec. Deals reduced damage beyond 8 targets.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -8227,7 +8485,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sacrosanct Crusade",
@@ -8281,7 +8540,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Higher Calling",
@@ -8335,7 +8595,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bonds of Fellowship",
@@ -8389,7 +8650,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unrelenting Charger",
@@ -8443,7 +8705,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Light's Judicator",
@@ -8544,7 +8807,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Endless Wrath",
@@ -8598,7 +8862,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sanctification",
@@ -8652,7 +8917,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hammerfall",
@@ -8706,7 +8972,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Undisputed Ruling",
@@ -8760,7 +9027,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Divine Exaction",
@@ -8899,7 +9167,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Seal of the Templar",
@@ -8990,7 +9259,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Light's Deliverance",
@@ -9045,7 +9315,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Holy Armaments",
@@ -9092,8 +9363,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 432459,
         "icon": "inv_ability_lightsmithpaladin_holybulwark"
       },
-      "pve_tooltip": ":\nWhile wielding a Holy Bulwark, gain an absorb shield for 15.0% of your max health and an additional 2.0% every 2 sec. Lasts 20 sec.\nBecomes Sacred Weapon after use.\nGenerates 3 Holy Power.",
-      "pvp_tooltip": ":\nWhile wielding a Holy Bulwark, gain an absorb shield for 15.0% of your max health and an additional 2.0% every 2 sec. Lasts 20 sec.\nBecomes Sacred Weapon after use.\nGenerates 3 Holy Power.",
+      "pve_tooltip": "40 yd range\nInstant\n1 min recharge\n2 Charges\nWill the Light to coalesce and become manifest as a Holy Armament, wielded by your friendly target.\nHoly Bulwark:\nWhile wielding a Holy Bulwark, gain an absorb shield for 15.0% of your max health and an additional 2.0% every 2 sec. Lasts 20 sec.\nBecomes Sacred Weapon after use.",
+      "pvp_tooltip": "40 yd range\nInstant\n1 min recharge\n2 Charges\nWill the Light to coalesce and become manifest as a Holy Armament, wielded by your friendly target.\nHoly Bulwark:\nWhile wielding a Holy Bulwark, gain an absorb shield for 15.0% of your max health and an additional 2.0% every 2 sec. Lasts 20 sec.\nBecomes Sacred Weapon after use.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -9161,7 +9432,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rite of Sanctification",
@@ -9215,7 +9487,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rite of Adjuration",
@@ -9269,7 +9542,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Solidarity",
@@ -9323,7 +9597,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Divine Guidance",
@@ -9407,7 +9682,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blessed Assurance",
@@ -9453,15 +9729,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 433015,
         "icon": "spell_holy_blessedlife"
       },
-      "pve_tooltip": "40 yd range\nCasting a Holy Power ability increases the damage and healing of your next\nCrusader Strike by 100%.",
-      "pvp_tooltip": "40 yd range\nCasting a Holy Power ability increases the damage and healing of your next\nCrusader Strike by 100%.",
+      "pve_tooltip": "40 yd range\nCasting a Holy Power ability increases the damage and healing of your next Crusader Strike by 100%.",
+      "pvp_tooltip": "40 yd range\nCasting a Holy Power ability increases the damage and healing of your next Crusader Strike by 100%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Masterwork",
@@ -9507,15 +9784,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 1271387,
         "icon": "inv_mace_1h_blacksmithing_b_01_black"
       },
-      "pve_tooltip": "After casting a Holy Armament, your next 3 casts of\nCrusader Strike bestow a Lesser Armament of the same kind on a nearby ally.",
-      "pvp_tooltip": "After casting a Holy Armament, your next 3 casts of\nCrusader Strike bestow a Lesser Armament of the same kind on a nearby ally.",
+      "pve_tooltip": "After casting a Holy Armament, your next 3 casts of Crusader Strike bestow a Lesser Armament of the same kind on a nearby ally.",
+      "pvp_tooltip": "After casting a Holy Armament, your next 3 casts of Crusader Strike bestow a Lesser Armament of the same kind on a nearby ally.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Divine Inspiration",
@@ -9569,7 +9847,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Forewarning",
@@ -9623,7 +9902,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Authoritative Rebuke",
@@ -9677,7 +9957,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tempered in Battle",
@@ -9783,7 +10064,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Laying Down Arms",
@@ -9837,7 +10119,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hammer and Anvil",
@@ -10001,7 +10284,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Valiance",
@@ -10055,7 +10339,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shared Resolve",
@@ -10170,7 +10455,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Reflection of Radiance",
@@ -10224,7 +10510,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Resounding Strike",
@@ -10278,7 +10565,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blessing of the Forge",
@@ -10333,16 +10621,17 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     }
   ],
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "paladin-protection",
-  "generated_at": "2026-09-20T12:52:25.194486+00:00",
+  "generated_at": "2026-09-20T20:01:43.473673+00:00",
   "validation": {
     "talents": 144,
-    "changed_tooltips": 21,
+    "changed_tooltips": 20,
     "talents_with_pvp_mechanics": 35,
     "unique_nodes": 117,
     "tree_build": "12.1.0.69875",
@@ -10352,27 +10641,11 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 3,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 1241413,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1241413/hammer-of-wrath'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1269179,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1269179'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1269224,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1269224'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }

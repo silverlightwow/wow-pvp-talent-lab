@@ -57,7 +57,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Obsidian Scales",
@@ -101,15 +102,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 363916,
         "icon": "inv_artifact_dragonscales"
       },
-      "pve_tooltip": "300 yd range\nInstant\n1.5 min cooldown\n1 Charge\nReinforce your scales, reducing damage taken by\n30\n% [\nRenewing Blaze\n:\nand causing you to be healed over 8 sec equal to the damage it prevented\n]. Lasts 12 sec.",
-      "pvp_tooltip": "300 yd range\nInstant\n1.5 min cooldown\n1 Charge\nReinforce your scales, reducing damage taken by\n30\n% [\nRenewing Blaze\n:\nand causing you to be healed over 8 sec equal to the damage it prevented\n]. Lasts 12 sec.",
+      "pve_tooltip": "300 yd range\nInstant\n1.5 min cooldown\n1 Charge\nReinforce your scales, reducing damage taken by 30% [Renewing Blaze: and causing you to be healed over 8 sec equal to the damage it prevented]. Lasts 12 sec.",
+      "pvp_tooltip": "300 yd range\nInstant\n1.5 min cooldown\n1 Charge\nReinforce your scales, reducing damage taken by 30% [Renewing Blaze: and causing you to be healed over 8 sec equal to the damage it prevented]. Lasts 12 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Expunge",
@@ -161,7 +163,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Natural Convergence",
@@ -217,7 +220,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Heavy Wingbeats",
@@ -273,7 +277,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Verdant Embrace",
@@ -381,7 +386,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Forger of Mountains",
@@ -433,7 +439,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Innate Magic",
@@ -482,15 +489,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 375520,
         "icon": "ability_evoker_innatemagic4"
       },
-      "pve_tooltip": "Essence regenerates 5% faster.",
-      "pvp_tooltip": "Essence regenerates 5% faster.",
+      "pve_tooltip": "Essence regenerates 10% faster.",
+      "pvp_tooltip": "Essence regenerates 10% faster.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Essence regenerates 5% faster.",
+          "pvp_tooltip": "Essence regenerates 5% faster.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Essence regenerates 10% faster.",
+          "pvp_tooltip": "Essence regenerates 10% faster.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Obsidian Bulwark",
@@ -542,7 +567,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Enkindled",
@@ -591,15 +617,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 375554,
         "icon": "ability_evoker_livingflame"
       },
-      "pve_tooltip": "Living Flame deals 3% more damage and healing.",
-      "pvp_tooltip": "Living Flame deals 3% more damage and healing.",
+      "pve_tooltip": "Living Flame deals 6% more damage and healing.",
+      "pvp_tooltip": "Living Flame deals 6% more damage and healing.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Living Flame deals 3% more damage and healing.",
+          "pvp_tooltip": "Living Flame deals 3% more damage and healing.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Living Flame deals 6% more damage and healing.",
+          "pvp_tooltip": "Living Flame deals 6% more damage and healing.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Scarlet Adaptation",
@@ -643,15 +687,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 372469,
         "icon": "inv_bijou_red"
       },
-      "pve_tooltip": "Store 20% of your effective healing, up to (Spell Power * 2.254 *\n1\n). Your next damaging Living Flame consumes all stored healing to increase its damage dealt.",
-      "pvp_tooltip": "Store 20% of your effective healing, up to (Spell Power * 2.254 *\n1\n). Your next damaging Living Flame consumes all stored healing to increase its damage dealt.",
+      "pve_tooltip": "Store 20% of your effective healing, up to (Spell Power * 2.254 * 1). Your next damaging Living Flame consumes all stored healing to increase its damage dealt.",
+      "pvp_tooltip": "Store 20% of your effective healing, up to (Spell Power * 2.254 * 1). Your next damaging Living Flame consumes all stored healing to increase its damage dealt.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Inner Radiance",
@@ -707,7 +752,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Recall",
@@ -753,15 +799,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 371806,
         "icon": "ability_evoker_recall"
       },
-      "pve_tooltip": "You may reactivate [\nDream Flight\n:\nDream Flight and\n] [\nBreath of Eons\n/\nDeep Breath\n] within 3 sec after landing to travel back in time to your takeoff location.",
-      "pvp_tooltip": "You may reactivate [\nDream Flight\n:\nDream Flight and\n] [\nBreath of Eons\n/\nDeep Breath\n] within 3 sec after landing to travel back in time to your takeoff location.",
+      "pve_tooltip": "You may reactivate [Dream Flight: Dream Flight and] [Breath of Eons / Deep Breath] within 3 sec after landing to travel back in time to your takeoff location.",
+      "pvp_tooltip": "You may reactivate [Dream Flight: Dream Flight and] [Breath of Eons / Deep Breath] within 3 sec after landing to travel back in time to your takeoff location.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Clobbering Sweep",
@@ -814,7 +861,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tailwind",
@@ -868,7 +916,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cauterizing Flame",
@@ -924,7 +973,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ancient Flame",
@@ -976,7 +1026,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Instinctive Arcana",
@@ -1022,15 +1073,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 376164,
         "icon": "spell_arcane_studentofmagic"
       },
-      "pve_tooltip": "Your Magic damage done is increased by 2%.",
-      "pvp_tooltip": "Your Magic damage done is increased by 2%.",
+      "pve_tooltip": "Your Magic damage done is increased by 4%.",
+      "pvp_tooltip": "Your Magic damage done is increased by 4%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Your Magic damage done is increased by 2%.",
+          "pvp_tooltip": "Your Magic damage done is increased by 2%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Your Magic damage done is increased by 4%.",
+          "pvp_tooltip": "Your Magic damage done is increased by 4%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Tip the Scales",
@@ -1084,7 +1153,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Attuned to the Dream",
@@ -1130,15 +1200,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 376930,
         "icon": "ability_rogue_imrovedrecuperate"
       },
-      "pve_tooltip": "Your healing done and healing received are increased by 2%.",
-      "pvp_tooltip": "Your healing done and healing received are increased by 2%.",
+      "pve_tooltip": "Your healing done and healing received are increased by 4%.",
+      "pvp_tooltip": "Your healing done and healing received are increased by 4%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Your healing done and healing received are increased by 2%.",
+          "pvp_tooltip": "Your healing done and healing received are increased by 2%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Your healing done and healing received are increased by 4%.",
+          "pvp_tooltip": "Your healing done and healing received are increased by 4%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Sleep Walk",
@@ -1190,7 +1278,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Protracted Talons",
@@ -1245,7 +1334,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Inherent Resistance",
@@ -1293,15 +1383,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 375544,
         "icon": "inv_misc_rubysanctum1"
       },
-      "pve_tooltip": "Magic damage taken reduced by 2%.",
-      "pvp_tooltip": "Magic damage taken reduced by 2%.",
+      "pve_tooltip": "Magic damage taken reduced by 4%.",
+      "pvp_tooltip": "Magic damage taken reduced by 4%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Magic damage taken reduced by 2%.",
+          "pvp_tooltip": "Magic damage taken reduced by 2%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Magic damage taken reduced by 4%.",
+          "pvp_tooltip": "Magic damage taken reduced by 4%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Draconic Legacy",
@@ -1355,7 +1463,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Extended Flight",
@@ -1411,7 +1520,25 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Hover lasts 2 sec longer.",
+          "pvp_tooltip": "Hover lasts 2 sec longer.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Hover lasts 4 sec longer.",
+          "pvp_tooltip": "Hover lasts 4 sec longer.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Bountiful Bloom",
@@ -1465,7 +1592,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Regenerative Magic",
@@ -1517,7 +1645,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blast Furnace",
@@ -1574,7 +1703,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Exuberance",
@@ -1628,7 +1758,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Renewing Blaze",
@@ -1676,15 +1807,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 374348,
         "icon": "ability_evoker_masterylifebinder_red"
       },
-      "pve_tooltip": "30 yd range\nObsidian Scales surrounds you with a Renewing Blaze, causing 100% of the damage it prevented to be healed back over\n8 sec\n.",
-      "pvp_tooltip": "30 yd range\nObsidian Scales surrounds you with a Renewing Blaze, causing 100% of the damage it prevented to be healed back over\n8 sec\n.",
+      "pve_tooltip": "30 yd range\nObsidian Scales surrounds you with a Renewing Blaze, causing 100% of the damage it prevented to be healed back over 8 sec.",
+      "pvp_tooltip": "30 yd range\nObsidian Scales surrounds you with a Renewing Blaze, causing 100% of the damage it prevented to be healed back over 8 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Walloping Blow",
@@ -1738,7 +1870,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Panacea",
@@ -1795,7 +1928,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Stretch Time",
@@ -1842,15 +1976,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 410352,
         "icon": "ability_evoker_timedilation"
       },
-      "pve_tooltip": "While flying during [\nBreath of Eons\n/ Deep Breath], 100% of damage you would take is instead dealt over 10 sec.",
-      "pvp_tooltip": "While flying during [\nBreath of Eons\n/ Deep Breath], 100% of damage you would take is instead dealt over 10 sec.",
+      "pve_tooltip": "While flying during [Breath of Eons / Deep Breath], 100% of damage you would take is instead dealt over 10 sec.",
+      "pvp_tooltip": "While flying during [Breath of Eons / Deep Breath], 100% of damage you would take is instead dealt over 10 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unravel",
@@ -1966,7 +2101,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Oppressing Roar",
@@ -2016,8 +2152,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 372048,
         "icon": "ability_evoker_oppressingroar"
       },
-      "pve_tooltip": "Instant\n2 min cooldown\nLet out a bone-shaking roar at enemies in a cone in front of you, increasing the duration of crowd controls that affect them by 50% in the next 10 sec. [\nOverawe\n:\nRemoves 1 Enrage effect from each enemy\n]",
-      "pvp_tooltip": "Instant\n2 min cooldown\nLet out a bone-shaking roar at enemies in a cone in front of you, increasing the duration of crowd controls that affect them by 30% in the next 10 sec. [\nOverawe\n:\nRemoves 1 Enrage effect from each enemy\n]",
+      "pve_tooltip": "Instant\n2 min cooldown\nLet out a bone-shaking roar at enemies in a cone in front of you, increasing the duration of crowd controls that affect them by 50% in the next 10 sec. [Overawe: Removes 1 Enrage effect from each enemy]",
+      "pvp_tooltip": "Instant\n2 min cooldown\nLet out a bone-shaking roar at enemies in a cone in front of you, increasing the duration of crowd controls that affect them by 30% in the next 10 sec. [Overawe: Removes 1 Enrage effect from each enemy]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -2486,7 +2622,8 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 17
+      "render_effect_count": 17,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Foci of Life",
@@ -2540,7 +2677,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rescue",
@@ -2597,7 +2735,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lush Growth",
@@ -2643,15 +2782,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 375561,
         "icon": "inv_staff_2h_bloodelf_c_01"
       },
-      "pve_tooltip": "Green spells restore 5% more health.",
-      "pvp_tooltip": "Green spells restore 5% more health.",
+      "pve_tooltip": "Green spells restore 10% more health.",
+      "pvp_tooltip": "Green spells restore 10% more health.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Green spells restore 5% more health.",
+          "pvp_tooltip": "Green spells restore 5% more health.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Green spells restore 10% more health.",
+          "pvp_tooltip": "Green spells restore 10% more health.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Source of Magic",
@@ -2705,7 +2862,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Strike from Above",
@@ -2759,7 +2917,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Leaping Flames",
@@ -2815,7 +2974,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Overawe",
@@ -2867,7 +3027,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Aerial Mastery",
@@ -2923,7 +3084,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Twin Guardian",
@@ -2977,7 +3139,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Potent Mana",
@@ -3031,7 +3194,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Terror of the Skies",
@@ -3076,15 +3240,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 371032,
         "icon": "ability_evoker_terroroftheskies"
       },
-      "pve_tooltip": "[\nBreath of Eons\n/ Deep Breath] stuns enemies for 3 sec.",
-      "pvp_tooltip": "[\nBreath of Eons\n/ Deep Breath] stuns enemies for 3 sec.",
+      "pve_tooltip": "[Breath of Eons / Deep Breath] stuns enemies for 3 sec.",
+      "pvp_tooltip": "[Breath of Eons / Deep Breath] stuns enemies for 3 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Time Spiral",
@@ -3136,7 +3301,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spatial Paradox",
@@ -3188,7 +3354,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Zephyr",
@@ -3242,7 +3409,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ebon Might",
@@ -3287,8 +3455,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 395152,
         "icon": "spell_sarkareth"
       },
-      "pve_tooltip": "1% of base mana\n1.5 sec cast\n30 sec cooldown\nIncrease all damage dealing allies' primary stat by (8 +\n0\n)% of your own and increase your own damage by 20% for 10 sec.\nEbon Might will split its effect when applied to more than 2 other allies.\nEruption, [\nBreath of Eons\n/ Deep Breath], and your empower spells extend the duration of these effects.",
-      "pvp_tooltip": "1% of base mana\n1.5 sec cast\n30 sec cooldown\nIncrease all damage dealing allies' primary stat by (10 +\n0\n)% of your own and increase your own damage by 20% for 10 sec.\nEbon Might will split its effect when applied to more than 2 other allies.\nEruption, [\nBreath of Eons\n/ Deep Breath], and your empower spells extend the duration of these effects.",
+      "pve_tooltip": "1% of base mana\n1.5 sec cast\n30 sec cooldown\nIncrease all damage dealing allies' primary stat by (8 + 0)% of your own and increase your own damage by 20% for 10 sec.\nEbon Might will split its effect when applied to more than 2 other allies.\nEruption, [Breath of Eons / Deep Breath], and your empower spells extend the duration of these effects.",
+      "pvp_tooltip": "1% of base mana\n1.5 sec cast\n30 sec cooldown\nIncrease all damage dealing allies' primary stat by (10 + 0)% of your own and increase your own damage by 20% for 10 sec.\nEbon Might will split its effect when applied to more than 2 other allies.\nEruption, [Breath of Eons / Deep Breath], and your empower spells extend the duration of these effects.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3397,7 +3565,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Eruption",
@@ -3444,8 +3613,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 395160,
         "icon": "ability_evoker_eruption"
       },
-      "pve_tooltip": "3 Essence\n25 yd range\n2.5 sec cast\nCause a violent eruption beneath an enemy's feet, dealing (280% of Spell Power) Volcanic damage split between them and nearby enemies. [\nSands of Time\n:\nIncreases the duration of your active Ebon Might effects by 1.0 sec\n]",
-      "pvp_tooltip": "3 Essence\n25 yd range\n2.5 sec cast\nCause a violent eruption beneath an enemy's feet, dealing (523.25% of Spell Power) Volcanic damage split between them and nearby enemies. [\nSands of Time\n:\nIncreases the duration of your active Ebon Might effects by 1.0 sec\n]",
+      "pve_tooltip": "3 Essence\n25 yd range\n2.5 sec cast\nCause a violent eruption beneath an enemy's feet, dealing (280% of Spell Power) Volcanic damage split between them and nearby enemies. [Sands of Time: Increases the duration of your active Ebon Might effects by 1.0 sec]",
+      "pvp_tooltip": "3 Essence\n25 yd range\n2.5 sec cast\nCause a violent eruption beneath an enemy's feet, dealing (523.25% of Spell Power) Volcanic damage split between them and nearby enemies. [Sands of Time: Increases the duration of your active Ebon Might effects by 1.0 sec]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3509,7 +3678,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Essence Burst",
@@ -3556,15 +3726,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 396187,
         "icon": "ability_evoker_essenceburst"
       },
-      "pve_tooltip": "Your Living Flame has a 20% chance, and your Azure Strike has a 15% chance, to make your next Eruption [\nDream of Spring\n:\nor Emerald Blossom\n]cost no Essence. [\nEssence Attunement\n:\nStacks 1 times\n]",
-      "pvp_tooltip": "Your Living Flame has a 20% chance, and your Azure Strike has a 15% chance, to make your next Eruption [\nDream of Spring\n:\nor Emerald Blossom\n]cost no Essence. [\nEssence Attunement\n:\nStacks 1 times\n]",
+      "pve_tooltip": "Your Living Flame has a 20% chance, and your Azure Strike has a 15% chance, to make your next Eruption [Dream of Spring: or Emerald Blossom]cost no Essence. [Essence Attunement: Stacks 1 times]",
+      "pvp_tooltip": "Your Living Flame has a 20% chance, and your Azure Strike has a 15% chance, to make your next Eruption [Dream of Spring: or Emerald Blossom]cost no Essence. [Essence Attunement: Stacks 1 times]",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Quell",
@@ -3618,7 +3789,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ricocheting Pyroclast",
@@ -3673,7 +3845,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Essence Attunement",
@@ -3728,7 +3901,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pupil of Alexstrasza",
@@ -3782,7 +3956,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Echoing Strike",
@@ -3836,7 +4011,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Upheaval",
@@ -3885,8 +4061,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 396286,
         "icon": "ability_evoker_upheaval"
       },
-      "pve_tooltip": "25 yd range\nChanneled (2.5 sec cast)\n40 sec cooldown\nGather earthen power beneath your enemy's feet and send them hurtling upwards, dealing (430% of Spell Power) Volcanic damage to the target and nearby enemies. [\nSands of Time\n:\nIncreases the duration of your active Ebon Might effects by 2 sec\n]\nEmpowering expands the area of effect.\nI:\n3 yd radius.\nII:\n6 yd radius.\nIII:\n9 yd radius.",
-      "pvp_tooltip": "25 yd range\nChanneled (2.5 sec cast)\n40 sec cooldown\nGather earthen power beneath your enemy's feet and send them hurtling upwards, dealing (559% of Spell Power) Volcanic damage to the target and nearby enemies. [\nSands of Time\n:\nIncreases the duration of your active Ebon Might effects by 2 sec\n]\nEmpowering expands the area of effect.\nI:\n3 yd radius.\nII:\n6 yd radius.\nIII:\n9 yd radius.",
+      "pve_tooltip": "25 yd range\nChanneled (2.5 sec cast)\n40 sec cooldown\nGather earthen power beneath your enemy's feet and send them hurtling upwards, dealing (430% of Spell Power) Volcanic damage to the target and nearby enemies. [Sands of Time: Increases the duration of your active Ebon Might effects by 2 sec]\nEmpowering expands the area of effect.\nI: 3 yd radius.\nII: 6 yd radius.\nIII: 9 yd radius.",
+      "pvp_tooltip": "25 yd range\nChanneled (2.5 sec cast)\n40 sec cooldown\nGather earthen power beneath your enemy's feet and send them hurtling upwards, dealing (559% of Spell Power) Volcanic damage to the target and nearby enemies. [Sands of Time: Increases the duration of your active Ebon Might effects by 2 sec]\nEmpowering expands the area of effect.\nI: 3 yd radius.\nII: 6 yd radius.\nIII: 9 yd radius.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3953,7 +4129,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Breath of Eons",
@@ -4001,14 +4178,14 @@ window.WOW_PVP_DATA = {
         "spell_id": 403631,
         "icon": "ability_evoker_breathofeons"
       },
-      "pve_tooltip": "15 - 50 yd range\nInstant\n2 min cooldown\nFly to the targeted location, exposing a\nTemporal Wound\non enemies in your path for 10 sec [\nSands of Time\n:\nand granting Ebon Might for 5 sec\n/ .]\nRemoves roots and grants immunity to movement impairing and loss of control effects while flying.\nTemporal Wound\n15% of damage dealt by allies affected by Ebon Might is copied as additional Arcane damage to enemies after 10 sec.\nDamage is reduced if Ebon Might affects more than 2 other allies.",
-      "pvp_tooltip": "15 - 50 yd range\nInstant\n2 min cooldown\nFly to the targeted location, exposing a\nTemporal Wound\non enemies in your path for 10 sec [\nSands of Time\n:\nand granting Ebon Might for 5 sec\n/ .]\nRemoves roots and grants immunity to movement impairing and loss of control effects while flying.\nTemporal Wound\n22.5% of damage dealt by allies affected by Ebon Might is copied as additional Arcane damage to enemies after 10 sec.\nDamage is reduced if Ebon Might affects more than 2 other allies.",
+      "pve_tooltip": "15 - 50 yd range\nInstant\n2 min cooldown\nFly to the targeted location, exposing a Temporal Wound on enemies in your path for 10 sec [Sands of Time: and granting Ebon Might for 5 sec / .]\nRemoves roots and grants immunity to movement impairing and loss of control effects while flying.\nTemporal Wound\n15% of damage dealt by allies affected by Ebon Might is copied as additional Arcane damage to enemies after 10 sec.\nDamage is reduced if Ebon Might affects more than 2 other allies.",
+      "pvp_tooltip": "15 - 50 yd range\nInstant\n2 min cooldown\nFly to the targeted location, exposing a Temporal Wound on enemies in your path for 10 sec [Sands of Time: and granting Ebon Might for 5 sec / .]\nRemoves roots and grants immunity to movement impairing and loss of control effects while flying.\nTemporal Wound\n22.5% of damage dealt by allies affected by Ebon Might is copied as additional Arcane damage to enemies after 10 sec.\nDamage is reduced if Ebon Might affects more than 2 other allies.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 301,
-          "end": 303,
+          "start": 299,
+          "end": 301,
           "old_token": "15",
           "new_token": "22.5",
           "kind": "percent_value",
@@ -4093,7 +4270,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Defy Fate",
@@ -4150,7 +4328,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ignition Rush",
@@ -4205,7 +4384,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Power Nexus",
@@ -4259,7 +4439,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Volcanism",
@@ -4314,7 +4495,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Perilous Fate",
@@ -4420,7 +4602,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Chrono Ward",
@@ -4474,7 +4657,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bestow Weyrnstone",
@@ -4530,7 +4714,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Timelessness",
@@ -4584,7 +4769,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Defy Fate",
@@ -4638,7 +4824,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blistering Scales",
@@ -4696,7 +4883,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Draconic Attunements",
@@ -4746,15 +4934,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 403208,
         "icon": "ability_evoker_draconicattunements"
       },
-      "pve_tooltip": "Learn to attune yourself to the essence of the Black or Bronze Dragonflights:\nBlack Attunement\n: You and your 4 nearest allies have 2% increased maximum health.\nBronze Attunement\n:You and your 4 nearest allies have 10% increased movement speed.",
-      "pvp_tooltip": "Learn to attune yourself to the essence of the Black or Bronze Dragonflights:\nBlack Attunement\n: You and your 4 nearest allies have 2% increased maximum health.\nBronze Attunement\n:You and your 4 nearest allies have 10% increased movement speed.",
+      "pve_tooltip": "Learn to attune yourself to the essence of the Black or Bronze Dragonflights:\nBlack Attunement: You and your 4 nearest allies have 2% increased maximum health.\nBronze Attunement:You and your 4 nearest allies have 10% increased movement speed.",
+      "pvp_tooltip": "Learn to attune yourself to the essence of the Black or Bronze Dragonflights:\nBlack Attunement: You and your 4 nearest allies have 2% increased maximum health.\nBronze Attunement:You and your 4 nearest allies have 10% increased movement speed.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Prescience",
@@ -4804,8 +4993,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 409311,
         "icon": "ability_evoker_prescience"
       },
-      "pve_tooltip": "25 yd range\nInstant\n12 sec recharge\n2 Charges\nGrant an ally the gift of foresight, increasing their critical strike chance by\n3\n% [\nFate Mirror\n:\nand occasionally copying their damage and healing spells at 15% power\n]for 18 sec.\nAffects the nearest ally within 25 yds, preferring damage dealers with their cooldowns active, if you do not have an ally targeted.",
-      "pvp_tooltip": "25 yd range\nInstant\n12 sec recharge\n2 Charges\nGrant an ally the gift of foresight, increasing their critical strike chance by\n3\n% [\nFate Mirror\n:\nand occasionally copying their damage and healing spells at 15% power\n]for 18 sec.\nAffects the nearest ally within 25 yds, preferring damage dealers with their cooldowns active, if you do not have an ally targeted.",
+      "pve_tooltip": "25 yd range\nInstant\n12 sec recharge\n2 Charges\nGrant an ally the gift of foresight, increasing their critical strike chance by 3% [Fate Mirror: and occasionally copying their damage and healing spells at 15% power]for 18 sec.\nAffects the nearest ally within 25 yds, preferring damage dealers with their cooldowns active, if you do not have an ally targeted.",
+      "pvp_tooltip": "25 yd range\nInstant\n12 sec recharge\n2 Charges\nGrant an ally the gift of foresight, increasing their critical strike chance by 3% [Fate Mirror: and occasionally copying their damage and healing spells at 15% power]for 18 sec.\nAffects the nearest ally within 25 yds, preferring damage dealers with their cooldowns active, if you do not have an ally targeted.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4843,7 +5032,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unyielding Domain",
@@ -4896,7 +5086,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tectonic Locus",
@@ -4996,7 +5187,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Regenerative Chitin",
@@ -5052,7 +5244,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Molten Blood",
@@ -5108,7 +5301,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Momentum Shift",
@@ -5163,7 +5357,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Aspects' Favor",
@@ -5210,15 +5405,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 407243,
         "icon": "ability_evoker_aspectsfavor"
       },
-      "pve_tooltip": "Obsidian Scales activates Black Attunement, and amplifies it to increase maximum health by 4.0% for 12 sec.\nHover activates Bronze Attunement, and amplifies it to increase movement speed by 25% for 4 sec.",
-      "pvp_tooltip": "Obsidian Scales activates Black Attunement, and amplifies it to increase maximum health by 4.0% for 12 sec.\nHover activates Bronze Attunement, and amplifies it to increase movement speed by 25% for 4 sec.",
+      "pve_tooltip": "Obsidian Scales activates Black Attunement, and amplifies it to increase maximum health by 4.0% for 12 sec.\nHover activates Bronze Attunement, and amplifies it to increase movement speed by 40% for 4 sec.",
+      "pvp_tooltip": "Obsidian Scales activates Black Attunement, and amplifies it to increase maximum health by 4.0% for 12 sec.\nHover activates Bronze Attunement, and amplifies it to increase movement speed by 40% for 4 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Obsidian Scales activates Black Attunement, and amplifies it to increase maximum health by 3% for 12 sec.\nHover activates Bronze Attunement, and amplifies it to increase movement speed by 25% for 4 sec.",
+          "pvp_tooltip": "Obsidian Scales activates Black Attunement, and amplifies it to increase maximum health by 3% for 12 sec.\nHover activates Bronze Attunement, and amplifies it to increase movement speed by 25% for 4 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Obsidian Scales activates Black Attunement, and amplifies it to increase maximum health by 4.0% for 12 sec.\nHover activates Bronze Attunement, and amplifies it to increase movement speed by 40% for 4 sec.",
+          "pvp_tooltip": "Obsidian Scales activates Black Attunement, and amplifies it to increase maximum health by 4.0% for 12 sec.\nHover activates Bronze Attunement, and amplifies it to increase movement speed by 40% for 4 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Arcane Reach",
@@ -5273,7 +5486,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fate Mirror",
@@ -5328,7 +5542,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Symbiotic Bloom",
@@ -5374,15 +5589,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 410685,
         "icon": "inv_10_herb_seed_magiccolor5"
       },
-      "pve_tooltip": "Emerald Blossom increases targets' healing received by 3% for 10 sec.",
-      "pvp_tooltip": "Emerald Blossom increases targets' healing received by 3% for 10 sec.",
+      "pve_tooltip": "Emerald Blossom increases targets' healing received by 6% for 10 sec.",
+      "pvp_tooltip": "Emerald Blossom increases targets' healing received by 6% for 10 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Emerald Blossom increases targets' healing received by 3% for 10 sec.",
+          "pvp_tooltip": "Emerald Blossom increases targets' healing received by 3% for 10 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Emerald Blossom increases targets' healing received by 6% for 10 sec.",
+          "pvp_tooltip": "Emerald Blossom increases targets' healing received by 6% for 10 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Reactive Hide",
@@ -5436,7 +5669,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Font of Magic",
@@ -5490,7 +5724,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hoarded Power",
@@ -5548,7 +5783,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Motes of Possibility",
@@ -5597,15 +5833,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 409267,
         "icon": "ability_evoker_motesofpossibility"
       },
-      "pve_tooltip": "Eruption has a\n25\n% chance to form a mote of diverted essence near you. Allies who comes in contact with the mote gain a random buff from your arsenal.\n(Proc chance: 25%)",
-      "pvp_tooltip": "Eruption has a\n25\n% chance to form a mote of diverted essence near you. Allies who comes in contact with the mote gain a random buff from your arsenal.\n(Proc chance: 25%)",
+      "pve_tooltip": "Eruption has a 25% chance to form a mote of diverted essence near you. Allies who comes in contact with the mote gain a random buff from your arsenal.\n(Proc chance: 25%)",
+      "pvp_tooltip": "Eruption has a 25% chance to form a mote of diverted essence near you. Allies who comes in contact with the mote gain a random buff from your arsenal.\n(Proc chance: 25%)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Anachronism",
@@ -5659,7 +5896,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Prolong Life",
@@ -5713,7 +5951,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dream of Spring",
@@ -5767,7 +6006,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Accretion",
@@ -5823,7 +6063,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Imminent Destruction",
@@ -5869,15 +6110,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 459537,
         "icon": "spell_burningbladeshaman_blazing_radiance"
       },
-      "pve_tooltip": "[\nBreath of Eons\n/ Deep Breath] reduces the Essence cost of your next 6 Eruptions by 1.",
-      "pvp_tooltip": "[\nBreath of Eons\n/ Deep Breath] reduces the Essence cost of your next 6 Eruptions by 1.",
+      "pve_tooltip": "[Breath of Eons / Deep Breath] reduces the Essence cost of your next 6 Eruptions by 1.",
+      "pvp_tooltip": "[Breath of Eons / Deep Breath] reduces the Essence cost of your next 6 Eruptions by 1.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Time Skip",
@@ -5924,15 +6166,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 404977,
         "icon": "ability_evoker_timeskip"
       },
-      "pve_tooltip": "Channeled (2 sec cast)\n3 min cooldown\nSurge forward in time, causing your cooldowns to recover 1000% faster for\n2 sec\n.",
-      "pvp_tooltip": "Channeled (2 sec cast)\n3 min cooldown\nSurge forward in time, causing your cooldowns to recover 1000% faster for\n2 sec\n.",
+      "pve_tooltip": "Channeled (2 sec cast)\n3 min cooldown\nSurge forward in time, causing your cooldowns to recover 1000% faster for 2 sec.",
+      "pvp_tooltip": "Channeled (2 sec cast)\n3 min cooldown\nSurge forward in time, causing your cooldowns to recover 1000% faster for 2 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Clairvoyant",
@@ -5986,7 +6229,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Inferno's Blessing",
@@ -6033,15 +6277,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 410261,
         "icon": "ability_evoker_infernosblessing"
       },
-      "pve_tooltip": "Fire Breath grants the inferno's blessing for 8 sec to you and a nearby ally, giving their damaging attacks and spells a high chance to deal an additional [$INT * 2.69 *\n1\n* (1 + Versatility) * Percent Damage] Fire damage.",
-      "pvp_tooltip": "Fire Breath grants the inferno's blessing for 8 sec to you and a nearby ally, giving their damaging attacks and spells a high chance to deal an additional [$INT * 2.69 *\n1\n* (1 + Versatility) * Percent Damage] Fire damage.",
+      "pve_tooltip": "Fire Breath grants the inferno's blessing for 8 sec to you and a nearby ally, giving their damaging attacks and spells a high chance to deal an additional [$INT * 2.69 * 1 * (1 + Versatility) * Percent Damage] Fire damage.",
+      "pvp_tooltip": "Fire Breath grants the inferno's blessing for 8 sec to you and a nearby ally, giving their damaging attacks and spells a high chance to deal an additional [$INT * 2.69 * 1 * (1 + Versatility) * Percent Damage] Fire damage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rumbling Earth",
@@ -6093,7 +6338,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Plot the Future",
@@ -6137,15 +6383,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 407866,
         "icon": "ability_evoker_plotthefuture"
       },
-      "pve_tooltip": "[\nBreath of Eons\n/ Deep Breath] grants you Fury of the Aspects for 15 sec after you land, without causing Exhaustion.",
-      "pvp_tooltip": "[\nBreath of Eons\n/ Deep Breath] grants you Fury of the Aspects for 15 sec after you land, without causing Exhaustion.",
+      "pve_tooltip": "[Breath of Eons / Deep Breath] grants you Fury of the Aspects for 15 sec after you land, without causing Exhaustion.",
+      "pvp_tooltip": "[Breath of Eons / Deep Breath] grants you Fury of the Aspects for 15 sec after you land, without causing Exhaustion.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tomorrow, Today",
@@ -6197,7 +6444,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Interwoven Threads",
@@ -6249,7 +6497,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Overlord",
@@ -6293,15 +6542,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 410260,
         "icon": "ability_evoker_overlord"
       },
-      "pve_tooltip": "[\nBreath of Eons\n/ Deep Breath] casts an Eruption at the first 3 enemies struck. These Eruptions have a 100% chance to create a Mote of Possibility.",
-      "pvp_tooltip": "[\nBreath of Eons\n/ Deep Breath] casts an Eruption at the first 3 enemies struck. These Eruptions have a 100% chance to create a Mote of Possibility.",
+      "pve_tooltip": "[Breath of Eons / Deep Breath] casts an Eruption at the first 3 enemies struck. These Eruptions have a 100% chance to create a Mote of Possibility.",
+      "pvp_tooltip": "[Breath of Eons / Deep Breath] casts an Eruption at the first 3 enemies struck. These Eruptions have a 100% chance to create a Mote of Possibility.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mighty Inferno",
@@ -6353,7 +6603,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Duplicate",
@@ -6403,7 +6654,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Duplicate",
@@ -6453,7 +6705,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Duplicate",
@@ -6503,7 +6756,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mass Eruption",
@@ -6558,7 +6812,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Might of the Black Dragonflight",
@@ -6612,7 +6867,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bombardments",
@@ -6658,15 +6914,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 434300,
         "icon": "inv_ability_scalecommanderevoker_bombardments"
       },
-      "pve_tooltip": "Mass Eruption marks your primary target for destruction for the next 6 sec.\nYou and your allies have a chance to trigger a Bombardment when attacking marked targets, dealing [$INT * 4.75 * (1 + Versatility) * Percent Damage *\n1\n] Volcanic damage split amongst all nearby enemies.",
-      "pvp_tooltip": "Mass Eruption marks your primary target for destruction for the next 6 sec.\nYou and your allies have a chance to trigger a Bombardment when attacking marked targets, dealing [$INT * 4.75 * (1 + Versatility) * Percent Damage *\n1\n] Volcanic damage split amongst all nearby enemies.",
+      "pve_tooltip": "Mass Eruption marks your primary target for destruction for the next 6 sec.\nYou and your allies have a chance to trigger a Bombardment when attacking marked targets, dealing [$INT * 4.75 * (1 + Versatility) * Percent Damage * 1] Volcanic damage split amongst all nearby enemies.",
+      "pvp_tooltip": "Mass Eruption marks your primary target for destruction for the next 6 sec.\nYou and your allies have a chance to trigger a Bombardment when attacking marked targets, dealing [$INT * 4.75 * (1 + Versatility) * Percent Damage * 1] Volcanic damage split amongst all nearby enemies.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Onslaught",
@@ -6720,7 +6977,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Command Squadron",
@@ -6766,14 +7024,14 @@ window.WOW_PVP_DATA = {
         "spell_id": 1260745,
         "icon": "ability_dragonriding_dynamicflight01"
       },
-      "pve_tooltip": "While flying during [\nBreath of Eons\n/ Deep Breath] you are assisted by a squadron of Dracthyr who assault enemies with Pyre, dealing (252% of Spell Power) Fire damage to nearby enemies up to 8 times.",
-      "pvp_tooltip": "While flying during [\nBreath of Eons\n/ Deep Breath] you are assisted by a squadron of Dracthyr who assault enemies with Pyre, dealing (108.108% of Spell Power) Fire damage to nearby enemies up to 8 times.",
+      "pve_tooltip": "While flying during [Breath of Eons / Deep Breath] you are assisted by a squadron of Dracthyr who assault enemies with Pyre, dealing (252% of Spell Power) Fire damage to nearby enemies up to 8 times.",
+      "pvp_tooltip": "While flying during [Breath of Eons / Deep Breath] you are assisted by a squadron of Dracthyr who assault enemies with Pyre, dealing (108.108% of Spell Power) Fire damage to nearby enemies up to 8 times.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 135,
-          "end": 138,
+          "start": 134,
+          "end": 137,
           "old_token": "252",
           "new_token": "108.108",
           "kind": "spell_power_coefficient",
@@ -6888,7 +7146,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Melt Armor",
@@ -6934,8 +7193,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 441176,
         "icon": "inv_10_gearupgrade_drakesshadowflameenhancedcrest"
       },
-      "pve_tooltip": "Deep Breath\ncauses enemies to take 20% increased damage from Bombardments and Essence abilities for 12 sec.",
-      "pvp_tooltip": "Deep Breath\ncauses enemies to take 20% increased damage from Bombardments and Essence abilities for 12 sec.",
+      "pve_tooltip": "Deep Breath causes enemies to take 20% increased damage from Bombardments and Essence abilities for 12 sec.",
+      "pvp_tooltip": "Deep Breath causes enemies to take 20% increased damage from Bombardments and Essence abilities for 12 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6981,7 +7240,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wingleader",
@@ -7035,7 +7295,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unrelenting Siege",
@@ -7089,7 +7350,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Concentrated Power",
@@ -7143,7 +7405,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hardened Scales",
@@ -7197,7 +7460,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Menacing Presence",
@@ -7251,7 +7515,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Extended Battle",
@@ -7305,7 +7570,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Diverted Power",
@@ -7359,7 +7625,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Nimble Flyer",
@@ -7413,7 +7680,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Slipstream",
@@ -7459,15 +7727,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 441257,
         "icon": "ability_dragonriding_barrelroll01"
       },
-      "pve_tooltip": "[\nBreath of Eons\n/ Deep Breath] resets a charge of Hover.",
-      "pvp_tooltip": "[\nBreath of Eons\n/ Deep Breath] resets a charge of Hover.",
+      "pve_tooltip": "[Breath of Eons / Deep Breath] resets a charge of Hover.",
+      "pvp_tooltip": "[Breath of Eons / Deep Breath] resets a charge of Hover.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Refined Essence",
@@ -7521,7 +7790,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Maneuverability",
@@ -7568,8 +7838,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 433871,
         "icon": "ability_evoker_deepbreath"
       },
-      "pve_tooltip": "Deep Breath\ncan now be steered in your desired direction.\nIn addition,\nDeep Breath\nburns targets for (840% of Spell Power) Volcanic damage over 12 sec.",
-      "pvp_tooltip": "Deep Breath\ncan now be steered in your desired direction.\nIn addition,\nDeep Breath\nburns targets for (840% of Spell Power) Volcanic damage over 12 sec.",
+      "pve_tooltip": "Deep Breath can now be steered in your desired direction.\nIn addition, Deep Breath burns targets for (840% of Spell Power) Volcanic damage over 12 sec.",
+      "pvp_tooltip": "Deep Breath can now be steered in your desired direction.\nIn addition, Deep Breath burns targets for (840% of Spell Power) Volcanic damage over 12 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -7615,7 +7885,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Chrono Flame",
@@ -7662,15 +7933,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 431442,
         "icon": "inv_ability_chronowardenevoker_chronoflame"
       },
-      "pve_tooltip": "Living Flame is enhanced with Bronze magic, repeating 25% of the damage or healing you dealt to the target in the last 5 sec as Arcane, up to\n[(Spell Power * 2.5) * (1 + Versatility)]\n.",
-      "pvp_tooltip": "Living Flame is enhanced with Bronze magic, repeating 25% of the damage or healing you dealt to the target in the last 5 sec as Arcane, up to\n[(Spell Power * 2.5) * (1 + Versatility)]\n.",
+      "pve_tooltip": "Living Flame is enhanced with Bronze magic, repeating 25% of the damage or healing you dealt to the target in the last 5 sec as Arcane, up to [(Spell Power * 2.5) * (1 + Versatility)].",
+      "pvp_tooltip": "Living Flame is enhanced with Bronze magic, repeating 25% of the damage or healing you dealt to the target in the last 5 sec as Arcane, up to [(Spell Power * 2.5) * (1 + Versatility)].",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Warp",
@@ -7724,7 +7996,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Temporal Burst",
@@ -8168,7 +8441,8 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Chronoboon",
@@ -8222,7 +8496,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Reverberations",
@@ -8330,7 +8605,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Temporality",
@@ -8384,7 +8660,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Motes of Acceleration",
@@ -8438,7 +8715,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Nozdormu Adept",
@@ -8492,7 +8770,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Chronal Dynamo",
@@ -8546,7 +8825,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Primacy",
@@ -8600,7 +8880,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Double-time",
@@ -8646,15 +8927,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 431874,
         "icon": "spell_holy_borrowedtime"
       },
-      "pve_tooltip": "Ebon Might and Prescience gain a chance equal to your critical strike chance to grant 50% additional stats. For Ebon Might, this increase lasts\n15.0\nsec.",
-      "pvp_tooltip": "Ebon Might and Prescience gain a chance equal to your critical strike chance to grant 50% additional stats. For Ebon Might, this increase lasts\n15.0\nsec.",
+      "pve_tooltip": "Ebon Might and Prescience gain a chance equal to your critical strike chance to grant 50% additional stats. For Ebon Might, this increase lasts 15.0 sec.",
+      "pvp_tooltip": "Ebon Might and Prescience gain a chance equal to your critical strike chance to grant 50% additional stats. For Ebon Might, this increase lasts 15.0 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Time Convergence",
@@ -8708,7 +8990,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Instability Matrix",
@@ -8762,7 +9045,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Overclock",
@@ -8816,7 +9100,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Golden Opportunity",
@@ -8870,7 +9155,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Afterimage",
@@ -8925,13 +9211,14 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     }
   ],
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "evoker-augmentation",
-  "generated_at": "2026-09-20T12:50:31.790008+00:00",
+  "generated_at": "2026-09-20T19:59:48.208296+00:00",
   "validation": {
     "talents": 134,
     "changed_tooltips": 10,

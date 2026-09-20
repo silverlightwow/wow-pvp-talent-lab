@@ -51,8 +51,8 @@
         "spell_id": 1822,
         "icon": "ability_druid_disembowel"
       },
-      "pve_tooltip": "35 Energy\nMelee Range\nInstant\nRake the target for (29.1% of Attack Power) Bleed damage and an additional (147% of Attack Power) Bleed damage over 15 sec. [\nInfected Wounds\n:\nReduces the target's movement speed by 20% for 12 sec\n]\nAwards 1 combo point.",
-      "pvp_tooltip": "35 Energy\nMelee Range\nInstant\nRake the target for (33.0576% of Attack Power) Bleed damage and an additional (147% of Attack Power) Bleed damage over 15 sec. [\nInfected Wounds\n:\nReduces the target's movement speed by 20% for 12 sec\n]\nAwards 1 combo point.",
+      "pve_tooltip": "35 Energy\nMelee Range\nInstant\nRake the target for (29.1% of Attack Power) Bleed damage and an additional (147% of Attack Power) Bleed damage over 15 sec. [Infected Wounds: Reduces the target's movement speed by 20% for 12 sec]\nAwards 1 combo point.",
+      "pvp_tooltip": "35 Energy\nMelee Range\nInstant\nRake the target for (33.0576% of Attack Power) Bleed damage and an additional (147% of Attack Power) Bleed damage over 15 sec. [Infected Wounds: Reduces the target's movement speed by 20% for 12 sec]\nAwards 1 combo point.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -106,7 +106,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frenzied Regeneration",
@@ -152,8 +153,8 @@
         "spell_id": 22842,
         "icon": "ability_bullrush"
       },
-      "pve_tooltip": "10 Rage\nInstant\n36 sec cooldown\n1 Charge\nHeals you for 24% health over 3 sec\n.",
-      "pvp_tooltip": "10 Rage\nInstant\n36 sec cooldown\n1 Charge\nHeals you for 24% health over 3 sec\n.",
+      "pve_tooltip": "10 Rage\nInstant\n26 sec cooldown\n1 Charge\nHeals you for 24% health over 3 sec.",
+      "pvp_tooltip": "10 Rage\nInstant\n26 sec cooldown\n1 Charge\nHeals you for 24% health over 3 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -207,7 +208,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rejuvenation",
@@ -253,8 +255,8 @@
         "spell_id": 774,
         "icon": "spell_nature_rejuvenation"
       },
-      "pve_tooltip": "5% of base mana\n40 yd range\nInstant\nHeals the target for (369.6% of Spell Power) over\n12 sec\n. [\nGermination\n:\nYou can apply Rejuvenation twice to the same target\n] [\nIncarnation: Tree of Life\n:\nTree of Life: Healing increased by 40% and Mana cost reduced by 30%.\n]",
-      "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\nHeals the target for (321.552% of Spell Power) over\n12 sec\n. [\nGermination\n:\nYou can apply Rejuvenation twice to the same target\n] [\nIncarnation: Tree of Life\n:\nTree of Life: Healing increased by 40% and Mana cost reduced by 30%.\n]",
+      "pve_tooltip": "5% of base mana\n40 yd range\nInstant\nHeals the target for (369.6% of Spell Power) over 12 sec. [Germination: You can apply Rejuvenation twice to the same target] [Incarnation: Tree of Life: Tree of Life: Healing increased by 40% and Mana cost reduced by 30%.]",
+      "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\nHeals the target for (321.552% of Spell Power) over 12 sec. [Germination: You can apply Rejuvenation twice to the same target] [Incarnation: Tree of Life: Tree of Life: Healing increased by 40% and Mana cost reduced by 30%.]",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -308,7 +310,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Starfire",
@@ -361,7 +364,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Grievous Wounds",
@@ -413,7 +417,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Swipe",
@@ -469,7 +474,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ursoc's Spirit",
@@ -526,7 +532,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wild Growth",
@@ -572,15 +579,16 @@
         "spell_id": 48438,
         "icon": "ability_druid_flourish"
       },
-      "pve_tooltip": "15% of base mana\n40 yd range\n1.5 sec cast\n10 sec cooldown\nHeals up to\n5\ninjured allies within 30 yards of the target for (336.7% of Spell Power) over 7 sec. Healing starts high and declines over the duration. [\nIncarnation: Tree of Life\n:\nTree of Life: Affects 2 additional targets.\n]",
-      "pvp_tooltip": "15% of base mana\n40 yd range\n1.5 sec cast\n10 sec cooldown\nHeals up to\n5\ninjured allies within 30 yards of the target for (336.7% of Spell Power) over 7 sec. Healing starts high and declines over the duration. [\nIncarnation: Tree of Life\n:\nTree of Life: Affects 2 additional targets.\n]",
+      "pve_tooltip": "15% of base mana\n40 yd range\n1.5 sec cast\n10 sec cooldown\nHeals up to 5 injured allies within 30 yards of the target for (336.7% of Spell Power) over 7 sec. Healing starts high and declines over the duration. [Incarnation: Tree of Life: Tree of Life: Affects 2 additional targets.]",
+      "pvp_tooltip": "15% of base mana\n40 yd range\n1.5 sec cast\n10 sec cooldown\nHeals up to 5 injured allies within 30 yards of the target for (336.7% of Spell Power) over 7 sec. Healing starts high and declines over the duration. [Incarnation: Tree of Life: Tree of Life: Affects 2 additional targets.]",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Starsurge",
@@ -632,7 +640,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rip",
@@ -810,7 +819,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Verdant Heart",
@@ -868,7 +878,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Remove Corruption",
@@ -925,7 +936,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Moonkin Form",
@@ -972,8 +984,8 @@
         "spell_id": 24858,
         "icon": "spell_nature_forceofnature"
       },
-      "pve_tooltip": "Instant\nShapeshift into [\nGlyph of Stars\n:\nAstral Form\n/ Moonkin Form], increasing the damage of your spells by 10% and your armor by 125%, and granting protection from Polymorph effects.\nThe act of shapeshifting frees you from movement impairing effects.",
-      "pvp_tooltip": "Instant\nShapeshift into [\nGlyph of Stars\n:\nAstral Form\n/ Moonkin Form], increasing the damage of your spells by 10% and your armor by 125%, and granting protection from Polymorph effects.\nThe act of shapeshifting frees you from movement impairing effects.",
+      "pve_tooltip": "Instant\nShapeshift into [Glyph of Stars: Astral Form / Moonkin Form], increasing the damage of your spells by 10% and your armor by 125%, and granting protection from Polymorph effects.\nThe act of shapeshifting frees you from movement impairing effects.",
+      "pvp_tooltip": "Instant\nShapeshift into [Glyph of Stars: Astral Form / Moonkin Form], increasing the damage of your spells by 10% and your armor by 125%, and granting protection from Polymorph effects.\nThe act of shapeshifting frees you from movement impairing effects.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1015,7 +1027,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Maim",
@@ -1067,7 +1080,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Killer Instinct",
@@ -1125,7 +1139,25 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Physical damage and Armor increased by 3%.",
+          "pvp_tooltip": "Physical damage and Armor increased by 3%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Physical damage and Armor increased by 6%.",
+          "pvp_tooltip": "Physical damage and Armor increased by 6%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Ironfur",
@@ -1169,15 +1201,16 @@
         "spell_id": 192081,
         "icon": "ability_druid_ironfur"
       },
-      "pve_tooltip": "40 Rage\nInstant\n0.5 sec cooldown\nIncreases armor by (124 /\nMaster Shapeshifter\n:\n161\n/\nReinforced Fur\n:\n139\n* Agility / 100) for\n7 sec\n.",
-      "pvp_tooltip": "40 Rage\nInstant\n0.5 sec cooldown\nIncreases armor by (124 /\nMaster Shapeshifter\n:\n161\n/\nReinforced Fur\n:\n139\n* Agility / 100) for\n7 sec\n.",
+      "pve_tooltip": "40 Rage\nInstant\n0.5 sec cooldown\nIncreases armor by (124 / Master Shapeshifter: 161 / Reinforced Fur: 139 * Agility / 100) for 7 sec.",
+      "pvp_tooltip": "40 Rage\nInstant\n0.5 sec cooldown\nIncreases armor by (124 / Master Shapeshifter: 161 / Reinforced Fur: 139 * Agility / 100) for 7 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Barkskin",
@@ -1235,7 +1268,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hibernate",
@@ -1289,7 +1323,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Nurturing Instinct",
@@ -1347,7 +1382,25 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Magical damage and healing increased by 3%.",
+          "pvp_tooltip": "Magical damage and healing increased by 3%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Magical damage and healing increased by 6%.",
+          "pvp_tooltip": "Magical damage and healing increased by 6%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Sunfire",
@@ -1393,8 +1446,8 @@
         "spell_id": 93402,
         "icon": "ability_mage_firestarter"
       },
-      "pve_tooltip": "1.8% of base mana\n40 yd range\nInstant\nA quick beam of solar light burns the enemy\nfor (21.2% of Spell Power) Nature damage and then an additional (165.6% of Spell Power) Nature damage over 18 sec.",
-      "pvp_tooltip": "1.8% of base mana\n40 yd range\nInstant\nA quick beam of solar light burns the enemy\nfor (28.196% of Spell Power) Nature damage and then an additional (165.6% of Spell Power) Nature damage over 18 sec.",
+      "pve_tooltip": "1.8% of base mana\n40 yd range\nInstant\nA quick beam of solar light burns the enemy for (21.2% of Spell Power) Nature damage and then an additional (165.6% of Spell Power) Nature damage over 18 sec.",
+      "pvp_tooltip": "1.8% of base mana\n40 yd range\nInstant\nA quick beam of solar light burns the enemy for (28.196% of Spell Power) Nature damage and then an additional (165.6% of Spell Power) Nature damage over 18 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -1483,7 +1536,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Primal Fury",
@@ -1535,7 +1589,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thick Hide",
@@ -1592,7 +1647,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Skull Bash",
@@ -1644,7 +1700,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Natural Recovery",
@@ -1702,7 +1759,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Astral Influence",
@@ -1756,7 +1814,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wild Charge",
@@ -1813,7 +1872,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tiger Dash",
@@ -1870,7 +1930,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Soothe",
@@ -1925,7 +1986,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cyclone",
@@ -1980,7 +2042,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Aessina's Renewal",
@@ -2037,7 +2100,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Starlight Conduit",
@@ -2090,7 +2154,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Feline Swiftness",
@@ -2144,7 +2209,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Well-Honed Instincts",
@@ -2199,7 +2265,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Matted Fur",
@@ -2244,15 +2311,33 @@
         "spell_id": 385786,
         "icon": "inv_misc_pelt_15"
       },
-      "pve_tooltip": "When you use Barkskin or Survival Instincts, absorb [1875 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
-      "pvp_tooltip": "When you use Barkskin or Survival Instincts, absorb [1875 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
+      "pve_tooltip": "When you use Barkskin or Survival Instincts, absorb [3750 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
+      "pvp_tooltip": "When you use Barkskin or Survival Instincts, absorb [3750 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "When you use Barkskin or Survival Instincts, absorb [1875 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
+          "pvp_tooltip": "When you use Barkskin or Survival Instincts, absorb [1875 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "When you use Barkskin or Survival Instincts, absorb [3750 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
+          "pvp_tooltip": "When you use Barkskin or Survival Instincts, absorb [3750 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Stampeding Roar",
@@ -2308,7 +2393,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lingering Healing",
@@ -2361,7 +2447,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Typhoon",
@@ -2447,7 +2534,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mass Entanglement",
@@ -2501,7 +2589,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ursol's Vortex",
@@ -2555,7 +2644,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Oakskin",
@@ -2612,7 +2702,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Perfectly-Honed Instincts",
@@ -2664,7 +2755,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Instincts of the Claw",
@@ -2716,7 +2808,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lycara's Teachings",
@@ -2764,15 +2857,33 @@
         "spell_id": 378988,
         "icon": "inv_trinket_ardenweald_02_green"
       },
-      "pve_tooltip": "You gain 3% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
-      "pvp_tooltip": "You gain 3% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
+      "pve_tooltip": "You gain 6% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
+      "pvp_tooltip": "You gain 6% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "You gain 3% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
+          "pvp_tooltip": "You gain 3% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "You gain 6% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
+          "pvp_tooltip": "You gain 6% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Lore of the Grove",
@@ -2824,7 +2935,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gale Winds",
@@ -2876,7 +2988,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Incessant Tempest",
@@ -2928,7 +3041,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gift of the Wild",
@@ -2985,7 +3099,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Incapacitating Roar",
@@ -3037,7 +3152,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mighty Bash",
@@ -3089,7 +3205,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ursine Vigor",
@@ -3141,7 +3258,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Stampeding Roar",
@@ -3195,7 +3313,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Circle of the Wild",
@@ -3249,7 +3368,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Circle of the Heavens",
@@ -3303,7 +3423,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lycara's Inspiration",
@@ -3357,7 +3478,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Symbiotic Relationship",
@@ -3409,7 +3531,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Forestwalk",
@@ -3453,15 +3576,33 @@
         "spell_id": 400129,
         "icon": "spell_lifegivingspeed"
       },
-      "pve_tooltip": "Casting Regrowth increases your movement speed and healing received by 8% for 6 sec.\n(1s cooldown)",
-      "pvp_tooltip": "Casting Regrowth increases your movement speed and healing received by 8% for 6 sec.\n(1s cooldown)",
+      "pve_tooltip": "Casting Regrowth increases your movement speed and healing received by 16% for 6 sec.\n(1s cooldown)",
+      "pvp_tooltip": "Casting Regrowth increases your movement speed and healing received by 16% for 6 sec.\n(1s cooldown)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Casting Regrowth increases your movement speed and healing received by 8% for 6 sec.\n(1s cooldown)",
+          "pvp_tooltip": "Casting Regrowth increases your movement speed and healing received by 8% for 6 sec.\n(1s cooldown)",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Casting Regrowth increases your movement speed and healing received by 16% for 6 sec.\n(1s cooldown)",
+          "pvp_tooltip": "Casting Regrowth increases your movement speed and healing received by 16% for 6 sec.\n(1s cooldown)",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Fluid Form",
@@ -3513,7 +3654,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Heart of the Wild",
@@ -3619,7 +3761,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Innervate",
@@ -3708,7 +3851,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Maul",
@@ -3761,7 +3905,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gore",
@@ -3816,7 +3961,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Survival Instincts",
@@ -3863,15 +4009,16 @@
         "spell_id": 61336,
         "icon": "ability_druid_tigersroar"
       },
-      "pve_tooltip": "Instant\n3 min cooldown\n1 Charge\nReduces all damage you take by\n50\n% for 6 sec.",
-      "pvp_tooltip": "Instant\n3 min cooldown\n1 Charge\nReduces all damage you take by\n50\n% for 6 sec.",
+      "pve_tooltip": "Instant\n3 min cooldown\n2 Charges\nReduces all damage you take by 50% for 6 sec.",
+      "pvp_tooltip": "Instant\n3 min cooldown\n2 Charges\nReduces all damage you take by 50% for 6 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Front of the Pack",
@@ -3925,7 +4072,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Persistence",
@@ -3980,7 +4128,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dream of Cenarius",
@@ -4027,8 +4176,8 @@
         "spell_id": 372119,
         "icon": "ability_druid_dreamstate"
       },
-      "pve_tooltip": "Approximately\n3\nprocs per minute\nWhen you take non-periodic damage, you have a chance to cause your next Regrowth to heal for an additional 130%, and to be instant, free, and castable in all forms for 30 sec.",
-      "pvp_tooltip": "Approximately\n3\nprocs per minute\nWhen you take non-periodic damage, you have a chance to cause your next Regrowth to heal for an additional 130%, and to be instant, free, and castable in all forms for 30 sec.",
+      "pve_tooltip": "Approximately 3 procs per minute\nWhen you take non-periodic damage, you have a chance to cause your next Regrowth to heal for an additional 130%, and to be instant, free, and castable in all forms for 30 sec.",
+      "pvp_tooltip": "Approximately 3 procs per minute\nWhen you take non-periodic damage, you have a chance to cause your next Regrowth to heal for an additional 130%, and to be instant, free, and castable in all forms for 30 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4100,7 +4249,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dream Guide",
@@ -4147,15 +4297,16 @@
         "spell_id": 1278886,
         "icon": "achievement_reputation_guardiansofcenarius"
       },
-      "pve_tooltip": "Approximately\n3\nprocs per minute\nWhen you take non-periodic damage, you have a chance to gain a charge of Dream Guide.\nWhen you or a nearby ally drops below 40% health, you consume a charge of Dream Guide to automatically cast Regrowth on them. This Regrowth heals for an additional 100%.",
-      "pvp_tooltip": "Approximately\n3\nprocs per minute\nWhen you take non-periodic damage, you have a chance to gain a charge of Dream Guide.\nWhen you or a nearby ally drops below 40% health, you consume a charge of Dream Guide to automatically cast Regrowth on them. This Regrowth heals for an additional 100%.",
+      "pve_tooltip": "Approximately 3 procs per minute\nWhen you take non-periodic damage, you have a chance to gain a charge of Dream Guide.\nWhen you or a nearby ally drops below 40% health, you consume a charge of Dream Guide to automatically cast Regrowth on them. This Regrowth heals for an additional 100%.",
+      "pvp_tooltip": "Approximately 3 procs per minute\nWhen you take non-periodic damage, you have a chance to gain a charge of Dream Guide.\nWhen you or a nearby ally drops below 40% health, you consume a charge of Dream Guide to automatically cast Regrowth on them. This Regrowth heals for an additional 100%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Infected Wounds",
@@ -4240,7 +4391,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Innate Resolve",
@@ -4296,7 +4448,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Berserk",
@@ -4345,15 +4498,16 @@
         "spell_id": 50334,
         "icon": "ability_druid_berserk"
       },
-      "pve_tooltip": "Instant\n3 min cooldown\nGo berserk for 15 sec, reducing the cooldowns of Mangle, Thrash, and Growl by 50% and the cooldown of Frenzied Regeneration by 100%.",
-      "pvp_tooltip": "Instant\n3 min cooldown\nGo berserk for 15 sec, reducing the cooldowns of Mangle, Thrash, and Growl by 50% and the cooldown of Frenzied Regeneration by 100%.",
+      "pve_tooltip": "Instant\n26 sec cooldown\nGo berserk for 15 sec, reducing the cooldowns of Mangle, Thrash, and Growl by 50% and the cooldown of Frenzied Regeneration by 100%.",
+      "pvp_tooltip": "Instant\n26 sec cooldown\nGo berserk for 15 sec, reducing the cooldowns of Mangle, Thrash, and Growl by 50% and the cooldown of Frenzied Regeneration by 100%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Vulnerable Flesh",
@@ -4409,7 +4563,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Survival of the Fittest",
@@ -4456,15 +4611,33 @@
         "spell_id": 203965,
         "icon": "ability_druid_enrage"
       },
-      "pve_tooltip": "Reduces the cooldowns of Barkskin and Survival Instincts by 12%.",
-      "pvp_tooltip": "Reduces the cooldowns of Barkskin and Survival Instincts by 12%.",
+      "pve_tooltip": "Reduces the cooldowns of Barkskin and Survival Instincts by 24%.",
+      "pvp_tooltip": "Reduces the cooldowns of Barkskin and Survival Instincts by 24%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Reduces the cooldowns of Barkskin and Survival Instincts by 12%.",
+          "pvp_tooltip": "Reduces the cooldowns of Barkskin and Survival Instincts by 12%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Reduces the cooldowns of Barkskin and Survival Instincts by 24%.",
+          "pvp_tooltip": "Reduces the cooldowns of Barkskin and Survival Instincts by 24%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Reinvigoration",
@@ -4512,15 +4685,33 @@
         "spell_id": 372945,
         "icon": "ability_druid_overgrowth"
       },
-      "pve_tooltip": "Frenzied Regeneration heals over 1.0 additional sec and casts Rejuvenation and Regrowth on you at 100% effectiveness.",
-      "pvp_tooltip": "Frenzied Regeneration heals over 1.0 additional sec and casts Rejuvenation and Regrowth on you at 100% effectiveness.",
+      "pve_tooltip": "Frenzied Regeneration heals over 2 additional sec and casts Rejuvenation and Regrowth on you at 200% effectiveness.",
+      "pvp_tooltip": "Frenzied Regeneration heals over 2 additional sec and casts Rejuvenation and Regrowth on you at 200% effectiveness.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Frenzied Regeneration heals over 1.0 additional sec and casts Rejuvenation and Regrowth on you at 100% effectiveness.",
+          "pvp_tooltip": "Frenzied Regeneration heals over 1.0 additional sec and casts Rejuvenation and Regrowth on you at 100% effectiveness.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Frenzied Regeneration heals over 2 additional sec and casts Rejuvenation and Regrowth on you at 200% effectiveness.",
+          "pvp_tooltip": "Frenzied Regeneration heals over 2 additional sec and casts Rejuvenation and Regrowth on you at 200% effectiveness.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "After the Wildfire",
@@ -4628,7 +4819,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Memory of Ysera",
@@ -4676,15 +4868,33 @@
         "spell_id": 1250906,
         "icon": "spell_nature_regeneration_02"
       },
-      "pve_tooltip": "Heal each time you spend Rage, up to 0.8% of your maximum health for 80 Rage spent.",
-      "pvp_tooltip": "Heal each time you spend Rage, up to 0.8% of your maximum health for 80 Rage spent.",
+      "pve_tooltip": "Heal each time you spend Rage, up to 1.6% of your maximum health for 80 Rage spent.",
+      "pvp_tooltip": "Heal each time you spend Rage, up to 1.6% of your maximum health for 80 Rage spent.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Heal each time you spend Rage, up to 0.8% of your maximum health for 80 Rage spent.",
+          "pvp_tooltip": "Heal each time you spend Rage, up to 0.8% of your maximum health for 80 Rage spent.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Heal each time you spend Rage, up to 1.6% of your maximum health for 80 Rage spent.",
+          "pvp_tooltip": "Heal each time you spend Rage, up to 1.6% of your maximum health for 80 Rage spent.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Scintillating Moonlight",
@@ -4731,15 +4941,33 @@
         "spell_id": 238049,
         "icon": "spell_fire_twilightfireward"
       },
-      "pve_tooltip": "Moonfire reduces damage dealt to you by 1%.",
-      "pvp_tooltip": "Moonfire reduces damage dealt to you by 1%.",
+      "pve_tooltip": "Moonfire reduces damage dealt to you by 12%.",
+      "pvp_tooltip": "Moonfire reduces damage dealt to you by 12%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Moonfire reduces damage dealt to you by 6%.",
+          "pvp_tooltip": "Moonfire reduces damage dealt to you by 6%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Moonfire reduces damage dealt to you by 12%.",
+          "pvp_tooltip": "Moonfire reduces damage dealt to you by 12%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Ward of the Forest",
@@ -4794,7 +5022,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Brambles",
@@ -4901,7 +5130,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Soul of the Forest",
@@ -4956,7 +5186,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Natural Resilience",
@@ -5012,7 +5243,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Reinforced Fur",
@@ -5066,7 +5298,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bristling Fur",
@@ -5112,15 +5345,16 @@
         "spell_id": 155835,
         "icon": "spell_druid_bristlingfur"
       },
-      "pve_tooltip": "Instant\n40 sec cooldown\nBristle your fur, causing you to generate Rage based on damage taken for 8 sec.",
-      "pvp_tooltip": "Instant\n40 sec cooldown\nBristle your fur, causing you to generate Rage based on damage taken for 8 sec.",
+      "pve_tooltip": "Instant\n45 sec cooldown\nBristle your fur, causing you to generate Rage based on damage taken for 8 sec.",
+      "pvp_tooltip": "Instant\n45 sec cooldown\nBristle your fur, causing you to generate Rage based on damage taken for 8 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gift of an Ancient Guardian",
@@ -5176,7 +5410,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Guardian of Elune",
@@ -5232,7 +5467,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ursoc's Endurance",
@@ -5287,7 +5523,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gory Fur",
@@ -5334,15 +5571,16 @@
         "spell_id": 200854,
         "icon": "artifactability_guardiandruid_goryfur"
       },
-      "pve_tooltip": "Ironfur has a 20% chance to make your next [\nRaze\n/ Maul] or Ravage free.\n[\nRaze\n/ Maul] and Ravage have a 10% chance to make your next Ironfur free.",
-      "pvp_tooltip": "Ironfur has a 20% chance to make your next [\nRaze\n/ Maul] or Ravage free.\n[\nRaze\n/ Maul] and Ravage have a 10% chance to make your next Ironfur free.",
+      "pve_tooltip": "Ironfur has a 20% chance to make your next [Raze / Maul] or Ravage free.\n[Raze / Maul] and Ravage have a 10% chance to make your next Ironfur free.",
+      "pvp_tooltip": "Ironfur has a 20% chance to make your next [Raze / Maul] or Ravage free.\n[Raze / Maul] and Ravage have a 10% chance to make your next Ironfur free.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ursol's Warding",
@@ -5397,7 +5635,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rend and Tear",
@@ -5455,7 +5694,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Untamed Savagery",
@@ -5513,7 +5753,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Raze",
@@ -5571,7 +5812,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lunar Beam",
@@ -5629,7 +5871,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ursoc's Fury",
@@ -5685,7 +5928,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flashing Claws",
@@ -5731,15 +5975,33 @@
         "spell_id": 393427,
         "icon": "spell_druid_thrash"
       },
-      "pve_tooltip": "Thrash has a 10% chance to trigger an additional Thrash.\nThrash stacks 1 additional time.",
-      "pvp_tooltip": "Thrash has a 10% chance to trigger an additional Thrash.\nThrash stacks 1 additional time.",
+      "pve_tooltip": "Thrash has a 20% chance to trigger an additional Thrash.\nThrash stacks 2 additional time.",
+      "pvp_tooltip": "Thrash has a 20% chance to trigger an additional Thrash.\nThrash stacks 2 additional time.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Thrash has a 10% chance to trigger an additional Thrash.\nThrash stacks 1 additional time.",
+          "pvp_tooltip": "Thrash has a 10% chance to trigger an additional Thrash.\nThrash stacks 1 additional time.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Thrash has a 20% chance to trigger an additional Thrash.\nThrash stacks 2 additional time.",
+          "pvp_tooltip": "Thrash has a 20% chance to trigger an additional Thrash.\nThrash stacks 2 additional time.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Blood Frenzy",
@@ -5795,7 +6057,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Moonless Night",
@@ -5851,7 +6114,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fury of Nature",
@@ -5897,15 +6161,33 @@
         "spell_id": 370695,
         "icon": "ability_druid_cresentburn"
       },
-      "pve_tooltip": "While in Bear Form, you deal 10% increased Arcane damage.",
-      "pvp_tooltip": "While in Bear Form, you deal 10% increased Arcane damage.",
+      "pve_tooltip": "While in Bear Form, you deal 30% increased Arcane damage.",
+      "pvp_tooltip": "While in Bear Form, you deal 30% increased Arcane damage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "While in Bear Form, you deal 15% increased Arcane damage.",
+          "pvp_tooltip": "While in Bear Form, you deal 15% increased Arcane damage.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "While in Bear Form, you deal 30% increased Arcane damage.",
+          "pvp_tooltip": "While in Bear Form, you deal 30% increased Arcane damage.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Twin Moonfire",
@@ -6033,7 +6315,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Red Moon",
@@ -6089,7 +6372,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Harnessed Rage",
@@ -6146,7 +6430,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Incarnation: Guardian of Ursoc",
@@ -6196,15 +6481,16 @@
         "spell_id": 102558,
         "icon": "spell_druid_incarnation"
       },
-      "pve_tooltip": "Replaces\nBerserk\nInstant\n3 min cooldown\nAn improved Bear Form that grants the benefits of Berserk, causes Mangle to hit up to 3 targets,\nand increases maximum health by 30%.\nLasts 30 sec. You may freely shapeshift in and out of this improved Bear Form for its duration.",
-      "pvp_tooltip": "Replaces\nBerserk\nInstant\n3 min cooldown\nAn improved Bear Form that grants the benefits of Berserk, causes Mangle to hit up to 3 targets,\nand increases maximum health by 30%.\nLasts 30 sec. You may freely shapeshift in and out of this improved Bear Form for its duration.",
+      "pve_tooltip": "Replaces Berserk\nInstant\n26 sec cooldown\nAn improved Bear Form that grants the benefits of Berserk, causes Mangle to hit up to 3 targets, and increases maximum health by 30%.\nLasts 30 sec. You may freely shapeshift in and out of this improved Bear Form for its duration.",
+      "pvp_tooltip": "Replaces Berserk\nInstant\n26 sec cooldown\nAn improved Bear Form that grants the benefits of Berserk, causes Mangle to hit up to 3 targets, and increases maximum health by 30%.\nLasts 30 sec. You may freely shapeshift in and out of this improved Bear Form for its duration.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Convoke the Spirits",
@@ -6254,15 +6540,16 @@
         "spell_id": 391528,
         "icon": "inv_ability_druid_convokethespirits"
       },
-      "pve_tooltip": "Channeled (4 sec cast)\n2 min cooldown\nCall upon the spirits for an eruption of energy, channeling a rapid flurry of 16 /\nUrsoc's Guidance\n:\n12\n/\nElune's Guidance\n:\n12\n/\nAstral Insight\n:\n20\nDruid spells and abilities over 4 sec. [\nAshamane's Guidance\n:\nChance to use an exceptional spell or ability is increased\n]\nYou will cast\nWild Growth, Swiftmend,\nMoonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form.",
-      "pvp_tooltip": "Channeled (4 sec cast)\n2 min cooldown\nCall upon the spirits for an eruption of energy, channeling a rapid flurry of 16 /\nUrsoc's Guidance\n:\n12\n/\nElune's Guidance\n:\n12\n/\nAstral Insight\n:\n20\nDruid spells and abilities over 4 sec. [\nAshamane's Guidance\n:\nChance to use an exceptional spell or ability is increased\n]\nYou will cast\nWild Growth, Swiftmend,\nMoonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form.",
+      "pve_tooltip": "Channeled (4 sec cast)\n2 min cooldown\nCall upon the spirits for an eruption of energy, channeling a rapid flurry of 16 / Ursoc's Guidance: 12 / Elune's Guidance: 12 / Astral Insight: 20 Druid spells and abilities over 4 sec. [Ashamane's Guidance: Chance to use an exceptional spell or ability is increased]\nYou will cast Wild Growth, Swiftmend, Moonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form.",
+      "pvp_tooltip": "Channeled (4 sec cast)\n2 min cooldown\nCall upon the spirits for an eruption of energy, channeling a rapid flurry of 16 / Ursoc's Guidance: 12 / Elune's Guidance: 12 / Astral Insight: 20 Druid spells and abilities over 4 sec. [Ashamane's Guidance: Chance to use an exceptional spell or ability is increased]\nYou will cast Wild Growth, Swiftmend, Moonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Elune's Favored",
@@ -6319,7 +6606,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Killing Blow",
@@ -6372,7 +6660,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sundering Roar",
@@ -6425,7 +6714,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ursoc's Guidance",
@@ -6469,15 +6759,16 @@
         "spell_id": 393414,
         "icon": "inv_ability_druid_convokethespirits"
       },
-      "pve_tooltip": "Incarnation: Guardian of Ursoc\n:\nEvery 25 Rage you spend reduces the cooldown of Incarnation: Guardian of Ursoc by 1 sec.\nConvoke the Spirits\n:\nConvoke the Spirits' cooldown is reduced by 50% and its duration and number of spells cast is reduced by 25%. Convoke the Spirits has an increased chance to use an exceptional spell or ability.",
-      "pvp_tooltip": "Incarnation: Guardian of Ursoc\n:\nEvery 25 Rage you spend reduces the cooldown of Incarnation: Guardian of Ursoc by 1 sec.\nConvoke the Spirits\n:\nConvoke the Spirits' cooldown is reduced by 50% and its duration and number of spells cast is reduced by 25%. Convoke the Spirits has an increased chance to use an exceptional spell or ability.",
+      "pve_tooltip": "Incarnation: Guardian of Ursoc:\nEvery 25 Rage you spend reduces the cooldown of Incarnation: Guardian of Ursoc by 1 sec.\nConvoke the Spirits:\nConvoke the Spirits' cooldown is reduced by 50% and its duration and number of spells cast is reduced by 25%. Convoke the Spirits has an increased chance to use an exceptional spell or ability.",
+      "pvp_tooltip": "Incarnation: Guardian of Ursoc:\nEvery 25 Rage you spend reduces the cooldown of Incarnation: Guardian of Ursoc by 1 sec.\nConvoke the Spirits:\nConvoke the Spirits' cooldown is reduced by 50% and its duration and number of spells cast is reduced by 25%. Convoke the Spirits has an increased chance to use an exceptional spell or ability.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Waking Nightmare",
@@ -6522,15 +6813,16 @@
         "spell_id": 1253461,
         "icon": "sha_spell_shadow_shadesofdarkness_nightmare"
       },
-      "pve_tooltip": "Approximately\n2\nprocs per minute\nAwaken memories of past conflicts, causing a Dread Shade to take form nearby.\nWhile active, shades slowly travel toward your target, dealing (70% of Attack Power) Nature damage to nearby enemies and mirroring your Thrash casts.",
-      "pvp_tooltip": "Approximately\n2\nprocs per minute\nAwaken memories of past conflicts, causing a Dread Shade to take form nearby.\nWhile active, shades slowly travel toward your target, dealing (70% of Attack Power) Nature damage to nearby enemies and mirroring your Thrash casts.",
+      "pve_tooltip": "Approximately 2 procs per minute\nAwaken memories of past conflicts, causing a Dread Shade to take form nearby.\nWhile active, shades slowly travel toward your target, dealing (70% of Attack Power) Nature damage to nearby enemies and mirroring your Thrash casts.",
+      "pvp_tooltip": "Approximately 2 procs per minute\nAwaken memories of past conflicts, causing a Dread Shade to take form nearby.\nWhile active, shades slowly travel toward your target, dealing (70% of Attack Power) Nature damage to nearby enemies and mirroring your Thrash casts.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Galactic Guardian",
@@ -6575,15 +6867,16 @@
         "spell_id": 203964,
         "icon": "spell_frost_iceclaw"
       },
-      "pve_tooltip": "Your damage has a 5% chance to trigger a free automatic Moonfire on that target.\nMoonfire\n:\nWhen this occurs, the next Moonfire you cast generates 8 Rage, and deals 300% increased direct damage.\nRed Moon\n:\nWhen this occurs, you gain 1 charge of Lunar Wrath. Each 20 Rage you spend while Red Moon is active consumes a stack to deal (100% of Spell Power) additional Arcane damage to its target and heal you for (130% of Spell Power).\n(2s cooldown)",
-      "pvp_tooltip": "Your damage has a 5% chance to trigger a free automatic Moonfire on that target.\nMoonfire\n:\nWhen this occurs, the next Moonfire you cast generates 8 Rage, and deals 300% increased direct damage.\nRed Moon\n:\nWhen this occurs, you gain 1 charge of Lunar Wrath. Each 20 Rage you spend while Red Moon is active consumes a stack to deal (100% of Spell Power) additional Arcane damage to its target and heal you for (130% of Spell Power).\n(2s cooldown)",
+      "pve_tooltip": "Your damage has a 5% chance to trigger a free automatic Moonfire on that target.\nMoonfire:\nWhen this occurs, the next Moonfire you cast generates 8 Rage, and deals 300% increased direct damage.\nRed Moon:\nWhen this occurs, you gain 1 charge of Lunar Wrath. Each 20 Rage you spend while Red Moon is active consumes a stack to deal (100% of Spell Power) additional Arcane damage to its target and heal you for (130% of Spell Power).\n(2s cooldown)",
+      "pvp_tooltip": "Your damage has a 5% chance to trigger a free automatic Moonfire on that target.\nMoonfire:\nWhen this occurs, the next Moonfire you cast generates 8 Rage, and deals 300% increased direct damage.\nRed Moon:\nWhen this occurs, you gain 1 charge of Lunar Wrath. Each 20 Rage you spend while Red Moon is active consumes a stack to deal (100% of Spell Power) additional Arcane damage to its target and heal you for (130% of Spell Power).\n(2s cooldown)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wild Guardian",
@@ -6633,7 +6926,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wild Guardian",
@@ -6675,15 +6969,16 @@
         "spell_id": 1269617,
         "icon": "inv12_apextalent_druid_wildguardian"
       },
-      "pve_tooltip": "Mangle, [\nRaze\n/ Maul] and Ravage deal 20% additional Nature damage over 12 sec. Your Mastery is increased by 3%.",
-      "pvp_tooltip": "Mangle, [\nRaze\n/ Maul] and Ravage deal 20% additional Nature damage over 12 sec. Your Mastery is increased by 3%.",
+      "pve_tooltip": "Mangle, [Raze / Maul] and Ravage deal 20% additional Nature damage over 12 sec. Your Mastery is increased by 3%.",
+      "pvp_tooltip": "Mangle, [Raze / Maul] and Ravage deal 20% additional Nature damage over 12 sec. Your Mastery is increased by 3%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wild Guardian",
@@ -6725,15 +7020,16 @@
         "spell_id": 1269619,
         "icon": "inv12_apextalent_druid_wildguardian"
       },
-      "pve_tooltip": ":\nYour next cast of [Raze][Maul] or Ravage is guaranteed to awaken a spirit.",
-      "pvp_tooltip": ":\nYour next cast of [Raze][Maul] or Ravage is guaranteed to awaken a spirit.",
+      "pve_tooltip": "When a spirit is awakened, the cooldowns of Thrash and Mangle are reset, and they deal 30% increased damage while the spirit is with you. Each time a spirit attacks, you generate 8 additional Rage.\nAfter casting [Incarnation: Guardian of Ursoc / Berserk], gain 1 charge of Wild Guardian:\nWild Guardian:\nYour next cast of [Raze][Maul] or Ravage is guaranteed to awaken a spirit.",
+      "pvp_tooltip": "When a spirit is awakened, the cooldowns of Thrash and Mangle are reset, and they deal 30% increased damage while the spirit is with you. Each time a spirit attacks, you generate 8 additional Rage.\nAfter casting [Incarnation: Guardian of Ursoc / Berserk], gain 1 charge of Wild Guardian:\nWild Guardian:\nYour next cast of [Raze][Maul] or Ravage is guaranteed to awaken a spirit.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Boundless Moonlight",
@@ -6870,7 +7166,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Moon Guardian",
@@ -6924,7 +7221,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lunar Insight",
@@ -6978,7 +7276,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Glistening Fur",
@@ -7032,7 +7331,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Star Cascade",
@@ -7086,7 +7386,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Stellar Command",
@@ -7140,7 +7441,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Atmospheric Exposure",
@@ -7186,15 +7488,16 @@
         "spell_id": 429532,
         "icon": "inv_cosmicvoid_nova"
       },
-      "pve_tooltip": "Enemies damaged by Lunar Beam or Fury of Elune take\n6\n% increased damage from you for 6 sec.",
-      "pvp_tooltip": "Enemies damaged by Lunar Beam or Fury of Elune take\n6\n% increased damage from you for 6 sec.",
+      "pve_tooltip": "Enemies damaged by Lunar Beam or Fury of Elune take 6% increased damage from you for 6 sec.",
+      "pvp_tooltip": "Enemies damaged by Lunar Beam or Fury of Elune take 6% increased damage from you for 6 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Moondust",
@@ -7309,7 +7612,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Elune's Grace",
@@ -7363,7 +7667,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Penumbral Swell",
@@ -7417,7 +7722,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lunar Calling",
@@ -7508,7 +7814,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "The Light of Elune",
@@ -7554,15 +7861,16 @@
         "spell_id": 428655,
         "icon": "ability_druid_dreamstate"
       },
-      "pve_tooltip": "Approximately\n1\nprocs per minute\nMoonfire damage has a chance to call down a Fury of Elune to follow your target for 3 sec.\nFury of Elune\nCalls down a beam of pure celestial energy, dealing [3000 / 1000 * 2 * (18.34% of Spell Power)] Astral damage over 3 sec within its area.\nGenerates 18 Rage over its duration.",
-      "pvp_tooltip": "Approximately\n1\nprocs per minute\nMoonfire damage has a chance to call down a Fury of Elune to follow your target for 3 sec.\nFury of Elune\nCalls down a beam of pure celestial energy, dealing [3000 / 1000 * 2 * (18.34% of Spell Power)] Astral damage over 3 sec within its area.\nGenerates 18 Rage over its duration.",
+      "pve_tooltip": "Approximately 1 procs per minute\nMoonfire damage has a chance to call down a Fury of Elune to follow your target for 3 sec.\nFury of Elune\nCalls down a beam of pure celestial energy, dealing [3000 / 1000 * 2 * (18.34% of Spell Power)] Astral damage over 3 sec within its area.\nGenerates 18 Rage over its duration.",
+      "pvp_tooltip": "Approximately 1 procs per minute\nMoonfire damage has a chance to call down a Fury of Elune to follow your target for 3 sec.\nFury of Elune\nCalls down a beam of pure celestial energy, dealing [3000 / 1000 * 2 * (18.34% of Spell Power)] Astral damage over 3 sec within its area.\nGenerates 18 Rage over its duration.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Astral Insight",
@@ -7616,7 +7924,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Arcane Affinity",
@@ -7670,7 +7979,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lunation",
@@ -7724,7 +8034,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bask in Moonlight",
@@ -7778,7 +8089,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "The Eternal Moon",
@@ -7898,7 +8210,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ravage",
@@ -7945,8 +8258,8 @@
         "spell_id": 441583,
         "icon": "inv_ability_druidoftheclawdruid_ravage"
       },
-      "pve_tooltip": "Slash through your target in a wide arc, dealing (272% of Attack Power) Physical damage to your target and (142.8% of Attack Power) to all other enemies in front of you.",
-      "pvp_tooltip": "Slash through your target in a wide arc, dealing (272% of Attack Power) Physical damage to your target and (142.8% of Attack Power) to all other enemies in front of you.",
+      "pve_tooltip": "Your auto-attacks have a chance to make your next Maul become Ravage.\nRavage\nSlash through your target in a wide arc, dealing (272% of Attack Power) Physical damage to your target and (142.8% of Attack Power) to all other enemies in front of you.",
+      "pvp_tooltip": "Your auto-attacks have a chance to make your next Maul become Ravage.\nRavage\nSlash through your target in a wide arc, dealing (272% of Attack Power) Physical damage to your target and (142.8% of Attack Power) to all other enemies in front of you.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -8181,7 +8494,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fount of Strength",
@@ -8235,7 +8549,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dreadful Wound",
@@ -8289,7 +8604,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bestial Strength",
@@ -8343,7 +8659,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Limb from Limb",
@@ -8389,15 +8706,16 @@
         "spell_id": 1271540,
         "icon": "artifactability_feraldruid_ashamanesbite"
       },
-      "pve_tooltip": "Your auto-attacks are 30% more likely to make your next\nbecome Ravage.",
-      "pvp_tooltip": "Your auto-attacks are 30% more likely to make your next\nbecome Ravage.",
+      "pve_tooltip": "Your auto-attacks are 30% more likely to make your next become Ravage.",
+      "pvp_tooltip": "Your auto-attacks are 30% more likely to make your next become Ravage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wildshape Mastery",
@@ -8451,7 +8769,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Exacerbating Wounds",
@@ -8505,7 +8824,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pack's Endurance",
@@ -8559,7 +8879,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ruthless Aggression",
@@ -8613,7 +8934,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Killing Strikes",
@@ -8667,7 +8989,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Empowered Shapeshifting",
@@ -8713,15 +9036,16 @@
         "spell_id": 441689,
         "icon": "spell_druid_primaltenacity"
       },
-      "pve_tooltip": "Frenzied Regeneration can be cast in Cat Form for 40 Energy.\nBear Form reduces magic damage you take by 6%.\nShred and [\nBrutal Slash\n/ Swipe] damage increased by 10%. Mangle damage increased by 25%.",
-      "pvp_tooltip": "Frenzied Regeneration can be cast in Cat Form for 40 Energy.\nBear Form reduces magic damage you take by 6%.\nShred and [\nBrutal Slash\n/ Swipe] damage increased by 10%. Mangle damage increased by 25%.",
+      "pve_tooltip": "Frenzied Regeneration can be cast in Cat Form for 40 Energy.\nBear Form reduces magic damage you take by 6%.\nShred and [Brutal Slash / Swipe] damage increased by 10%. Mangle damage increased by 25%.",
+      "pvp_tooltip": "Frenzied Regeneration can be cast in Cat Form for 40 Energy.\nBear Form reduces magic damage you take by 6%.\nShred and [Brutal Slash / Swipe] damage increased by 10%. Mangle damage increased by 25%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wildpower Surge",
@@ -8775,7 +9099,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Aggravate Wounds",
@@ -8829,7 +9154,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Strike for the Heart",
@@ -8883,7 +9209,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tear Down the Mighty",
@@ -8937,7 +9264,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Twin Claw",
@@ -8991,7 +9319,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Claw Rampage",
@@ -9046,13 +9375,14 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     }
   ],
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "druid-guardian",
-  "generated_at": "2026-09-20T12:49:40.191149+00:00",
+  "generated_at": "2026-09-20T19:58:54.315746+00:00",
   "validation": {
     "talents": 143,
     "changed_tooltips": 9,

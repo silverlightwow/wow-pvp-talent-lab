@@ -58,7 +58,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Angelic Feather",
@@ -103,15 +104,16 @@
         "spell_id": 121536,
         "icon": "ability_priest_angelicfeather"
       },
-      "pve_tooltip": "40 yd range\nInstant\n20 sec recharge\n3 Charges\nPlaces a feather at the target location, granting the first ally to walk through it 40% increased movement speed for 5 sec.\nOnly 3 feathers can be placed at one time.",
-      "pvp_tooltip": "40 yd range\nInstant\n20 sec recharge\n3 Charges\nPlaces a feather at the target location, granting the first ally to walk through it 40% increased movement speed for 5 sec.\nOnly 3 feathers can be placed at one time.",
+      "pve_tooltip": "40 yd range\nInstant\n20 sec recharge\n3 Charges\nPlaces a feather at the target location, granting the first ally to walk through it 40% increased movement speed for 5 sec. Only 3 feathers can be placed at one time.",
+      "pvp_tooltip": "40 yd range\nInstant\n20 sec recharge\n3 Charges\nPlaces a feather at the target location, granting the first ally to walk through it 40% increased movement speed for 5 sec. Only 3 feathers can be placed at one time.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mind Blast",
@@ -228,7 +230,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Holy Nova",
@@ -339,7 +342,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dispel Magic",
@@ -396,7 +400,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spiritual Guidance",
@@ -452,7 +457,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Psychic Scream",
@@ -508,7 +514,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lightburst",
@@ -560,7 +567,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Leap of Faith",
@@ -617,7 +625,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Purify Disease",
@@ -671,7 +680,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Power Infusion",
@@ -754,7 +764,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Painful Invocation",
@@ -810,7 +821,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sheer Terror",
@@ -864,7 +876,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Petrifying Scream",
@@ -910,15 +923,16 @@
         "spell_id": 55676,
         "icon": "spell_shadow_psychichorrors"
       },
-      "pve_tooltip": "Psychic Scream causes enemies to tremble in place instead of fleeing in fear.\nModifies Effect #2's Value -4:\nPandemonium\n,\nPsychic Scream",
-      "pvp_tooltip": "Psychic Scream causes enemies to tremble in place instead of fleeing in fear.\nModifies Effect #2's Value -4:\nPandemonium\n,\nPsychic Scream",
+      "pve_tooltip": "Psychic Scream causes enemies to tremble in place instead of fleeing in fear.\nModifies Effect #2's Value -4:\nPandemonium, Psychic Scream",
+      "pvp_tooltip": "Psychic Scream causes enemies to tremble in place instead of fleeing in fear.\nModifies Effect #2's Value -4:\nPandemonium, Psychic Scream",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Surge of Light",
@@ -965,15 +979,16 @@
         "spell_id": 109186,
         "icon": "spell_holy_surgeoflight"
       },
-      "pve_tooltip": "Your healing spells and Smite have a 8% chance to make your next Flash Heal\ninstant and cost\n[",
-      "pvp_tooltip": "Your healing spells and Smite have a 8% chance to make your next Flash Heal\ninstant and cost\n[",
+      "pve_tooltip": "Your healing spells and Smite have a 8% chance to make your next Flash Heal instant and cost 50% less mana. Stacks to 2.",
+      "pvp_tooltip": "Your healing spells and Smite have a 8% chance to make your next Flash Heal instant and cost 50% less mana. Stacks to 2.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Body and Soul",
@@ -1027,7 +1042,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mass Dispel",
@@ -1084,7 +1100,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Twins of the Sun Priestess",
@@ -1138,7 +1155,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Strength of Resolve",
@@ -1241,7 +1259,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mind Control",
@@ -1290,15 +1309,16 @@
         "spell_id": 605,
         "icon": "spell_shadow_shadowworddominate"
       },
-      "pve_tooltip": "2% of base mana\n30 yd range\n1.8 sec cast\nControls a mind up to 1 level above yours for 30 sec. Does not work versus Demonic\n, Undead,\nor Mechanical beings. Shares diminishing returns with other disorienting effects.",
-      "pvp_tooltip": "2% of base mana\n30 yd range\n1.8 sec cast\nControls a mind up to 1 level above yours for 30 sec. Does not work versus Demonic\n, Undead,\nor Mechanical beings. Shares diminishing returns with other disorienting effects.",
+      "pve_tooltip": "2% of base mana\n30 yd range\n1.8 sec cast\nControls a mind up to 1 level above yours for 30 sec. Does not work versus Demonic, Undead, or Mechanical beings. Shares diminishing returns with other disorienting effects.",
+      "pvp_tooltip": "2% of base mana\n30 yd range\n1.8 sec cast\nControls a mind up to 1 level above yours for 30 sec. Does not work versus Demonic, Undead, or Mechanical beings. Shares diminishing returns with other disorienting effects.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dominate Mind",
@@ -1347,15 +1367,16 @@
         "spell_id": 205364,
         "icon": "spell_priest_void_flay"
       },
-      "pve_tooltip": "2% of base mana\n30 yd range\n1.8 sec cast\n30 sec cooldown\nControls a mind up to 1 level above yours for 30 sec while still controlling your own mind. Does not work versus Demonic, Mechanical, or Undead beings\nor players\n. This spell shares diminishing returns with other disorienting effects.",
-      "pvp_tooltip": "2% of base mana\n30 yd range\n1.8 sec cast\n30 sec cooldown\nControls a mind up to 1 level above yours for 30 sec while still controlling your own mind. Does not work versus Demonic, Mechanical, or Undead beings\nor players\n. This spell shares diminishing returns with other disorienting effects.",
+      "pve_tooltip": "2% of base mana\n30 yd range\n1.8 sec cast\n30 sec cooldown\nControls a mind up to 1 level above yours for 30 sec while still controlling your own mind. Does not work versus Demonic, Mechanical, or Undead beings or players. This spell shares diminishing returns with other disorienting effects.",
+      "pvp_tooltip": "2% of base mana\n30 yd range\n1.8 sec cast\n30 sec cooldown\nControls a mind up to 1 level above yours for 30 sec while still controlling your own mind. Does not work versus Demonic, Mechanical, or Undead beings or players. This spell shares diminishing returns with other disorienting effects.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Psychic Voice",
@@ -1409,7 +1430,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Void Tendrils",
@@ -1463,7 +1485,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Everlasting Light",
@@ -1517,7 +1540,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Move with Grace",
@@ -1572,7 +1596,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mental Agility",
@@ -1723,7 +1748,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Twin Disciplines",
@@ -1780,7 +1806,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dark Enlightenment",
@@ -1836,7 +1863,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "False Autonomy",
@@ -1890,7 +1918,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shackle Horror",
@@ -1945,7 +1974,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Inspiration",
@@ -2000,7 +2030,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Binding Heals",
@@ -2057,7 +2088,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shadow Word: Death",
@@ -2230,7 +2262,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sanguine Teachings",
@@ -2286,7 +2319,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Desperate Prayer",
@@ -2334,15 +2368,16 @@
         "spell_id": 19236,
         "icon": "spell_holy_testoffaith"
       },
-      "pve_tooltip": "Instant\n1.5 min cooldown\nIncreases maximum health by [\nLight's Inspiration\n:\n35\n/ 25]% for\n10\nsec, and instantly heals you for that amount.",
-      "pvp_tooltip": "Instant\n1.5 min cooldown\nIncreases maximum health by [\nLight's Inspiration\n:\n35\n/ 25]% for\n10\nsec, and instantly heals you for that amount.",
+      "pve_tooltip": "Instant\n1.5 min cooldown\nIncreases maximum health by [Light's Inspiration: 35 / 25]% for 10 sec, and instantly heals you for that amount.",
+      "pvp_tooltip": "Instant\n1.5 min cooldown\nIncreases maximum health by [Light's Inspiration: 35 / 25]% for 10 sec, and instantly heals you for that amount.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Twist of Fate",
@@ -2390,15 +2425,33 @@
         "spell_id": 390972,
         "icon": "spell_shadow_mindtwisting"
       },
-      "pve_tooltip": "After damaging or healing a target below 35% health, gain 5% increased damage and healing for 8 sec.\n(500ms cooldown)",
-      "pvp_tooltip": "After damaging or healing a target below 35% health, gain 5% increased damage and healing for 8 sec.\n(500ms cooldown)",
+      "pve_tooltip": "After damaging or healing a target below 35% health, gain 10% increased damage and healing for 8 sec.\n(500ms cooldown)",
+      "pvp_tooltip": "After damaging or healing a target below 35% health, gain 10% increased damage and healing for 8 sec.\n(500ms cooldown)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "After damaging or healing a target below 35% health, gain 5% increased damage and healing for 8 sec.\n(500ms cooldown)",
+          "pvp_tooltip": "After damaging or healing a target below 35% health, gain 5% increased damage and healing for 8 sec.\n(500ms cooldown)",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "After damaging or healing a target below 35% health, gain 10% increased damage and healing for 8 sec.\n(500ms cooldown)",
+          "pvp_tooltip": "After damaging or healing a target below 35% health, gain 10% increased damage and healing for 8 sec.\n(500ms cooldown)",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Tithe Evasion",
@@ -2452,7 +2505,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fade",
@@ -2509,7 +2563,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Angel's Mercy",
@@ -2564,7 +2619,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Protective Light",
@@ -2620,7 +2676,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mindpierce",
@@ -2676,7 +2733,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spectral Illusion",
@@ -2730,7 +2788,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Fade",
@@ -2777,15 +2836,33 @@
         "spell_id": 390670,
         "icon": "spell_magic_lesserinvisibilty"
       },
-      "pve_tooltip": "Reduces the cooldown of Fade by (5)) sec.",
-      "pvp_tooltip": "Reduces the cooldown of Fade by (5)) sec.",
+      "pve_tooltip": "Reduces the cooldown of Fade by (10)) sec.",
+      "pvp_tooltip": "Reduces the cooldown of Fade by (10)) sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Reduces the cooldown of Fade by (5)) sec.",
+          "pvp_tooltip": "Reduces the cooldown of Fade by (5)) sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Reduces the cooldown of Fade by (10)) sec.",
+          "pvp_tooltip": "Reduces the cooldown of Fade by (10)) sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Light's Inspiration",
@@ -2839,7 +2916,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unwavering Will",
@@ -2887,15 +2965,33 @@
         "spell_id": 373456,
         "icon": "ability_warrior_unrelentingassault"
       },
-      "pve_tooltip": "While above 75% health, the cast time of your Flash Heal is reduced by 5%.",
-      "pvp_tooltip": "While above 75% health, the cast time of your Flash Heal is reduced by 5%.",
+      "pve_tooltip": "While above 75% health, the cast time of your Flash Heal is reduced by 10%.",
+      "pvp_tooltip": "While above 75% health, the cast time of your Flash Heal is reduced by 10%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "While above 75% health, the cast time of your Flash Heal is reduced by 5%.",
+          "pvp_tooltip": "While above 75% health, the cast time of your Flash Heal is reduced by 5%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "While above 75% health, the cast time of your Flash Heal is reduced by 10%.",
+          "pvp_tooltip": "While above 75% health, the cast time of your Flash Heal is reduced by 10%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Spell Warding",
@@ -2943,16 +3039,16 @@
         "spell_id": 390667,
         "icon": "spell_holy_spellwarding"
       },
-      "pve_tooltip": "Reduces all magic damage taken by 3%.",
-      "pvp_tooltip": "Reduces all magic damage taken by 2%.",
+      "pve_tooltip": "Reduces all magic damage taken by 6%.",
+      "pvp_tooltip": "Reduces all magic damage taken by 4%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
           "start": 34,
           "end": 35,
-          "old_token": "3",
-          "new_token": "2",
+          "old_token": "6",
+          "new_token": "4",
           "kind": "percent_value",
           "effect_indexes": [
             1
@@ -2966,8 +3062,8 @@
           ],
           "status": "APPLIED",
           "kind": "percent_value",
-          "old": "3",
-          "new": "2"
+          "old": "6",
+          "new": "4"
         }
       ],
       "has_pvp_mechanics": true,
@@ -2998,7 +3094,25 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Reduces all magic damage taken by 3%.",
+          "pvp_tooltip": "Reduces all magic damage taken by 2%.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Reduces all magic damage taken by 6%.",
+          "pvp_tooltip": "Reduces all magic damage taken by 4%.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Phantasm",
@@ -3054,7 +3168,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Angelic Bulwark",
@@ -3107,7 +3222,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Benevolence",
@@ -3160,7 +3276,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Focused Power",
@@ -3213,7 +3330,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Phantom Reach",
@@ -3266,7 +3384,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Translucent Image",
@@ -3319,7 +3438,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shadow Word: Madness",
@@ -3365,15 +3485,16 @@
         "spell_id": 335467,
         "icon": "inv12_ability_priest_powerwordmadness_eye"
       },
-      "pve_tooltip": "50 Insanity\n40 yd range\nInstant\nA word of madness haunts the target's mind, dealing (227.5% of Spell Power) Shadow damage instantly plus an additional 9 Shadow damage over\n6 sec\n. Heals you for 30% of damage dealt.\nWhen reapplied to a target, all remaining damage is added to the new effect.",
-      "pvp_tooltip": "50 Insanity\n40 yd range\nInstant\nA word of madness haunts the target's mind, dealing (227.5% of Spell Power) Shadow damage instantly plus an additional 9 Shadow damage over\n6 sec\n. Heals you for 30% of damage dealt.\nWhen reapplied to a target, all remaining damage is added to the new effect.",
+      "pve_tooltip": "50 Insanity\n40 yd range\nInstant\nA word of madness haunts the target's mind, dealing (227.5% of Spell Power) Shadow damage instantly plus an additional 9 Shadow damage over 6 sec. Heals you for 30% of damage dealt.\nWhen reapplied to a target, all remaining damage is added to the new effect.",
+      "pvp_tooltip": "50 Insanity\n40 yd range\nInstant\nA word of madness haunts the target's mind, dealing (227.5% of Spell Power) Shadow damage instantly plus an additional 9 Shadow damage over 6 sec. Heals you for 30% of damage dealt.\nWhen reapplied to a target, all remaining damage is added to the new effect.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Psychic Link",
@@ -3427,7 +3548,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Misery",
@@ -3481,7 +3603,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Invoked Nightmare",
@@ -3535,7 +3658,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Intangibility",
@@ -3581,15 +3705,16 @@
         "spell_id": 288733,
         "icon": "spell_shadow_dispersion"
       },
-      "pve_tooltip": "Dispersion heals you for an additional [(25 * (\n0\n+ 6) / 6)]% of your maximum health over its duration and its cooldown is reduced by 30 sec.",
-      "pvp_tooltip": "Dispersion heals you for an additional [(25 * (\n0\n+ 6) / 6)]% of your maximum health over its duration and its cooldown is reduced by 30 sec.",
+      "pve_tooltip": "Dispersion heals you for an additional [(25 * (0 + 6) / 6)]% of your maximum health over its duration and its cooldown is reduced by 30 sec.",
+      "pvp_tooltip": "Dispersion heals you for an additional [(25 * (0 + 6) / 6)]% of your maximum health over its duration and its cooldown is reduced by 30 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mental Fortitude",
@@ -3643,7 +3768,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thought Harvester",
@@ -3697,7 +3823,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tentacle Slam",
@@ -3812,7 +3939,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shadowy Apparitions",
@@ -3926,7 +4054,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tormenting Whispers",
@@ -3983,7 +4112,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Descending Darkness",
@@ -4037,7 +4167,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Surge of Insanity",
@@ -4093,7 +4224,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shadowy Insight",
@@ -4149,7 +4281,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Voidtouched",
@@ -4203,7 +4336,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Voidform",
@@ -4253,8 +4387,8 @@
         "spell_id": 228260,
         "icon": "spell_priest_void_blast"
       },
-      "pve_tooltip": "40 yd range\n1.5 sec cast\n2 min cooldown\nBombards your target with a Void Volley and twists your Shadowform with void magic, increasing your spell damage by 20% for 20 sec.\nDuring Voidform, Void Volley replaces this spell and can be used up to\n3\ntimes.\nVoid Volley\nReleases a volley of pure void energy, firing 10 bolts at your target and 1 bolt at all enemies within 10 yards of your target for (95.44% of Spell Power) Shadow damage.\nGenerates 10 Insanity.",
-      "pvp_tooltip": "40 yd range\n1.5 sec cast\n2 min cooldown\nBombards your target with a Void Volley and twists your Shadowform with void magic, increasing your spell damage by 20% for 20 sec.\nDuring Voidform, Void Volley replaces this spell and can be used up to\n3\ntimes.\nVoid Volley\nReleases a volley of pure void energy, firing 10 bolts at your target and 1 bolt at all enemies within 10 yards of your target for (95.44% of Spell Power) Shadow damage.\nGenerates 10 Insanity.",
+      "pve_tooltip": "40 yd range\n1.5 sec cast\n2 min cooldown\nBombards your target with a Void Volley and twists your Shadowform with void magic, increasing your spell damage by 20% for 20 sec.\nDuring Voidform, Void Volley replaces this spell and can be used up to 3 times.\nVoid Volley\nReleases a volley of pure void energy, firing 10 bolts at your target and 1 bolt at all enemies within 10 yards of your target for (95.44% of Spell Power) Shadow damage.\nGenerates 10 Insanity.",
+      "pvp_tooltip": "40 yd range\n1.5 sec cast\n2 min cooldown\nBombards your target with a Void Volley and twists your Shadowform with void magic, increasing your spell damage by 20% for 20 sec.\nDuring Voidform, Void Volley replaces this spell and can be used up to 3 times.\nVoid Volley\nReleases a volley of pure void energy, firing 10 bolts at your target and 1 bolt at all enemies within 10 yards of your target for (95.44% of Spell Power) Shadow damage.\nGenerates 10 Insanity.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4304,7 +4438,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Haunting Shadows",
@@ -4358,7 +4493,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mental Decay",
@@ -4414,7 +4550,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shadowfiend",
@@ -4461,15 +4598,16 @@
         "spell_id": 34433,
         "icon": "spell_shadow_shadowfiend"
       },
-      "pve_tooltip": "Summons a Shadowfiend to attack your target for 5 sec.\nGenerates 1 Insanity each time the Shadowfiend attacks.",
-      "pvp_tooltip": "Summons a Shadowfiend to attack your target for 5 sec.\nGenerates 1 Insanity each time the Shadowfiend attacks.",
+      "pve_tooltip": "Shadow Word: Death has a 40% chance to summon a Shadowfiend for 5 sec when damaging targets below 20% health.\nShadowfiend\nSummons a Shadowfiend to attack your target for 5 sec.\nGenerates 1 Insanity each time the Shadowfiend attacks.",
+      "pvp_tooltip": "Shadow Word: Death has a 40% chance to summon a Shadowfiend for 5 sec when damaging targets below 20% health.\nShadowfiend\nSummons a Shadowfiend to attack your target for 5 sec.\nGenerates 1 Insanity each time the Shadowfiend attacks.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dark Thoughts",
@@ -4523,7 +4661,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Maddening Touch",
@@ -4580,7 +4719,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Voidform",
@@ -4635,7 +4775,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ancient Madness",
@@ -4748,7 +4889,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shadeburst",
@@ -4865,7 +5007,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dark Evangelism",
@@ -4919,7 +5062,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shattered Psyche",
@@ -4974,7 +5118,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Subservient Shadows",
@@ -5028,7 +5173,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mastermind",
@@ -5077,15 +5223,33 @@
         "spell_id": 391151,
         "icon": "spell_nzinsanity_chasedbyshadows"
       },
-      "pve_tooltip": "Increases the critical strike chance of Mind Blast, Mind Flay, and Shadow Word: Death by 4% and increases their critical strike damage by 20%.",
-      "pvp_tooltip": "Increases the critical strike chance of Mind Blast, Mind Flay, and Shadow Word: Death by 4% and increases their critical strike damage by 20%.",
+      "pve_tooltip": "Increases the critical strike chance of Mind Blast, Mind Flay, and Shadow Word: Death by 8% and increases their critical strike damage by 40%.",
+      "pvp_tooltip": "Increases the critical strike chance of Mind Blast, Mind Flay, and Shadow Word: Death by 8% and increases their critical strike damage by 40%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Increases the critical strike chance of Mind Blast, Mind Flay, and Shadow Word: Death by 4% and increases their critical strike damage by 20%.",
+          "pvp_tooltip": "Increases the critical strike chance of Mind Blast, Mind Flay, and Shadow Word: Death by 4% and increases their critical strike damage by 20%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Increases the critical strike chance of Mind Blast, Mind Flay, and Shadow Word: Death by 8% and increases their critical strike damage by 40%.",
+          "pvp_tooltip": "Increases the critical strike chance of Mind Blast, Mind Flay, and Shadow Word: Death by 8% and increases their critical strike damage by 40%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Mind's Eye",
@@ -5142,7 +5306,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Distorted Reality",
@@ -5199,7 +5364,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spectral Horrors",
@@ -5254,7 +5420,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Instilled Doubt",
@@ -5303,15 +5470,33 @@
         "spell_id": 1242862,
         "icon": "spell_shadow_shadowwordpain"
       },
-      "pve_tooltip": "Increases the critical strike chance of Vampiric Touch and Shadow Word: Pain by 8% and their critical strike damage by 20%.",
-      "pvp_tooltip": "Increases the critical strike chance of Vampiric Touch and Shadow Word: Pain by 8% and their critical strike damage by 20%.",
+      "pve_tooltip": "Increases the critical strike chance of Vampiric Touch and Shadow Word: Pain by 15% and their critical strike damage by 40%.",
+      "pvp_tooltip": "Increases the critical strike chance of Vampiric Touch and Shadow Word: Pain by 15% and their critical strike damage by 40%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Increases the critical strike chance of Vampiric Touch and Shadow Word: Pain by 8% and their critical strike damage by 20%.",
+          "pvp_tooltip": "Increases the critical strike chance of Vampiric Touch and Shadow Word: Pain by 8% and their critical strike damage by 20%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Increases the critical strike chance of Vampiric Touch and Shadow Word: Pain by 15% and their critical strike damage by 40%.",
+          "pvp_tooltip": "Increases the critical strike chance of Vampiric Touch and Shadow Word: Pain by 15% and their critical strike damage by 40%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Mindbender",
@@ -5359,15 +5544,16 @@
         "spell_id": 1230339,
         "icon": "spell_shadow_soulleech_3"
       },
-      "pve_tooltip": "Summons a shadowy fiend to attack your target.\nGenerates 1 Insanity each time the Mindbender attacks.",
-      "pvp_tooltip": "Summons a shadowy fiend to attack your target.\nGenerates 1 Insanity each time the Mindbender attacks.",
+      "pve_tooltip": "40 yd range\nCasting Voidform summons a Mindbender for 10 sec.\nMindbender\nSummons a shadowy fiend to attack your target.\nGenerates 1 Insanity each time the Mindbender attacks.",
+      "pvp_tooltip": "40 yd range\nCasting Voidform summons a Mindbender for 10 sec.\nMindbender\nSummons a shadowy fiend to attack your target.\nGenerates 1 Insanity each time the Mindbender attacks.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Deathspeaker",
@@ -5416,15 +5602,16 @@
         "spell_id": 392507,
         "icon": "spell_shadow_demonicfortitude"
       },
-      "pve_tooltip": "Approximately\n2.25\nprocs per minute\nShadow Word: Death damage increased by 25%.\nShadow Word: Death gains its damage and talent bonuses against targets below 35% health instead of 20%.",
-      "pvp_tooltip": "Approximately\n2.25\nprocs per minute\nShadow Word: Death damage increased by 25%.\nShadow Word: Death gains its damage and talent bonuses against targets below 35% health instead of 20%.",
+      "pve_tooltip": "Approximately 2.25 procs per minute\nShadow Word: Death damage increased by 25%.\nShadow Word: Death gains its damage and talent bonuses against targets below 35% health instead of 20%.",
+      "pvp_tooltip": "Approximately 2.25 procs per minute\nShadow Word: Death damage increased by 25%.\nShadow Word: Death gains its damage and talent bonuses against targets below 35% health instead of 20%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Death and Madness",
@@ -5481,7 +5668,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mind Devourer",
@@ -5535,7 +5723,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Auspicious Spirits",
@@ -5593,7 +5782,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Maddening Tentacles",
@@ -5649,7 +5839,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Inescapable Torment",
@@ -5758,7 +5949,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Madness Weaving",
@@ -5814,7 +6006,25 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "The damage bonus from your Mastery: Shadow Weaving gains 25% additional benefit from Shadow Word: Madness.",
+          "pvp_tooltip": "The damage bonus from your Mastery: Shadow Weaving gains 25% additional benefit from Shadow Word: Madness.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "The damage bonus from your Mastery: Shadow Weaving gains 50% additional benefit from Shadow Word: Madness.",
+          "pvp_tooltip": "The damage bonus from your Mastery: Shadow Weaving gains 50% additional benefit from Shadow Word: Madness.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Death's Torment",
@@ -5868,7 +6078,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Screams of the Void",
@@ -5917,15 +6128,33 @@
         "spell_id": 375767,
         "icon": "spell_shadow_lifedrain02_purple"
       },
-      "pve_tooltip": "Shadow Word: Madness causes your Shadow Word: Pain and Vampiric Touch to deal damage 40% faster on all targets for 3 sec.",
-      "pvp_tooltip": "Shadow Word: Madness causes your Shadow Word: Pain and Vampiric Touch to deal damage 40% faster on all targets for 3 sec.",
+      "pve_tooltip": "Shadow Word: Madness causes your Shadow Word: Pain and Vampiric Touch to deal damage 80% faster on all targets for 3 sec.",
+      "pvp_tooltip": "Shadow Word: Madness causes your Shadow Word: Pain and Vampiric Touch to deal damage 80% faster on all targets for 3 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Shadow Word: Madness causes your Shadow Word: Pain and Vampiric Touch to deal damage 40% faster on all targets for 3 sec.",
+          "pvp_tooltip": "Shadow Word: Madness causes your Shadow Word: Pain and Vampiric Touch to deal damage 40% faster on all targets for 3 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Shadow Word: Madness causes your Shadow Word: Pain and Vampiric Touch to deal damage 80% faster on all targets for 3 sec.",
+          "pvp_tooltip": "Shadow Word: Madness causes your Shadow Word: Pain and Vampiric Touch to deal damage 80% faster on all targets for 3 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Tormented Spirits",
@@ -5979,7 +6208,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Insidious Ire",
@@ -6027,15 +6257,33 @@
         "spell_id": 373212,
         "icon": "spell_fire_twilightcano"
       },
-      "pve_tooltip": "While you have Shadow Word: Pain, Shadow Word: Madness, and Vampiric Touch active on the same target, your Mind Blast, Void Torrent, Mind Flay, and Void Volley deal 20% more damage.",
-      "pvp_tooltip": "While you have Shadow Word: Pain, Shadow Word: Madness, and Vampiric Touch active on the same target, your Mind Blast, Void Torrent, Mind Flay, and Void Volley deal 20% more damage.",
+      "pve_tooltip": "While you have Shadow Word: Pain, Shadow Word: Madness, and Vampiric Touch active on the same target, your Mind Blast, Void Torrent, Mind Flay, and Void Volley deal 25% more damage.",
+      "pvp_tooltip": "While you have Shadow Word: Pain, Shadow Word: Madness, and Vampiric Touch active on the same target, your Mind Blast, Void Torrent, Mind Flay, and Void Volley deal 25% more damage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "While you have Shadow Word: Pain, Shadow Word: Madness, and Vampiric Touch active on the same target, your Mind Blast, Void Torrent, Mind Flay, and Void Volley deal 13% more damage.",
+          "pvp_tooltip": "While you have Shadow Word: Pain, Shadow Word: Madness, and Vampiric Touch active on the same target, your Mind Blast, Void Torrent, Mind Flay, and Void Volley deal 13% more damage.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "While you have Shadow Word: Pain, Shadow Word: Madness, and Vampiric Touch active on the same target, your Mind Blast, Void Torrent, Mind Flay, and Void Volley deal 25% more damage.",
+          "pvp_tooltip": "While you have Shadow Word: Pain, Shadow Word: Madness, and Vampiric Touch active on the same target, your Mind Blast, Void Torrent, Mind Flay, and Void Volley deal 25% more damage.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Crushing Void",
@@ -6145,7 +6393,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Idol of Y'Shaarj",
@@ -6190,15 +6439,16 @@
         "spell_id": 373310,
         "icon": "achievement_raid_terraceofendlessspring04"
       },
-      "pve_tooltip": "Approximately\n2\nprocs per minute\nWhile Shadowfiend, Mindbender, or Voidwraith are active, your haste is increased by 10%.",
-      "pvp_tooltip": "Approximately\n2\nprocs per minute\nWhile Shadowfiend, Mindbender, or Voidwraith are active, your haste is increased by 10%.",
+      "pve_tooltip": "Approximately 2 procs per minute\nWhile Shadowfiend, Mindbender, or Voidwraith are active, your haste is increased by 10%.",
+      "pvp_tooltip": "Approximately 2 procs per minute\nWhile Shadowfiend, Mindbender, or Voidwraith are active, your haste is increased by 10%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Idol of N'Zoth",
@@ -6373,7 +6623,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Idol of Yogg-Saron",
@@ -6466,7 +6717,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Idol of C'Thun",
@@ -6511,8 +6763,8 @@
         "spell_id": 377349,
         "icon": "achievement_boss_cthun"
       },
-      "pve_tooltip": "Approximately\n2\nprocs per minute\nMind Flay has a chance to spawn a Void Tendril that channels Mind Flay or Void Lasher that channels Mind Sear at your target.\nMind Flay\nAssaults the target's mind with Shadow energy, causing (321.8% of Spell Power) Shadow damage over 10 sec and slowing their movement speed by\n30\n%.\nGenerates (\n5\n*\n100\n/ 100) Insanity over the duration.\nMind Sear\nCorrosive shadow energy radiates from the target, dealing [(42.925% of Spell Power) * 5] Shadow damage over 10 sec to all enemies within 10 yards of the target. Damage reduced beyond 5 targets.\nGenerates 5 Insanity over the duration.",
-      "pvp_tooltip": "Approximately\n2\nprocs per minute\nMind Flay has a chance to spawn a Void Tendril that channels Mind Flay or Void Lasher that channels Mind Sear at your target.\nMind Flay\nAssaults the target's mind with Shadow energy, causing (321.8% of Spell Power) Shadow damage over 10 sec and slowing their movement speed by\n30\n%.\nGenerates (\n5\n*\n100\n/ 100) Insanity over the duration.\nMind Sear\nCorrosive shadow energy radiates from the target, dealing [(42.925% of Spell Power) * 5] Shadow damage over 10 sec to all enemies within 10 yards of the target. Damage reduced beyond 5 targets.\nGenerates 5 Insanity over the duration.",
+      "pve_tooltip": "Approximately 2 procs per minute\nMind Flay has a chance to spawn a Void Tendril that channels Mind Flay or Void Lasher that channels Mind Sear at your target.\nMind Flay\nAssaults the target's mind with Shadow energy, causing (321.8% of Spell Power) Shadow damage over 10 sec and slowing their movement speed by 30%.\nGenerates (5 * 100 / 100) Insanity over the duration.\nMind Sear\nCorrosive shadow energy radiates from the target, dealing [(42.925% of Spell Power) * 5] Shadow damage over 10 sec to all enemies within 10 yards of the target. Damage reduced beyond 5 targets.\nGenerates 5 Insanity over the duration.",
+      "pvp_tooltip": "Approximately 2 procs per minute\nMind Flay has a chance to spawn a Void Tendril that channels Mind Flay or Void Lasher that channels Mind Sear at your target.\nMind Flay\nAssaults the target's mind with Shadow energy, causing (321.8% of Spell Power) Shadow damage over 10 sec and slowing their movement speed by 30%.\nGenerates (5 * 100 / 100) Insanity over the duration.\nMind Sear\nCorrosive shadow energy radiates from the target, dealing [(42.925% of Spell Power) * 5] Shadow damage over 10 sec to all enemies within 10 yards of the target. Damage reduced beyond 5 targets.\nGenerates 5 Insanity over the duration.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6628,7 +6880,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Void Apparitions",
@@ -6678,7 +6931,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Void Apparitions",
@@ -6720,8 +6974,8 @@
         "spell_id": 1264104,
         "icon": "inv12_apextalent_priest_voidapparitions"
       },
-      "pve_tooltip": "Shadowy Apparitions have a 15% chance to spawn as Void Apparitions that release a\nVoid Bolt\nat their target and deal 50% increased damage.\nVoid Bolt\nSends a bolt of pure void energy at your target, dealing (150% of Spell Power) Shadow damage.",
-      "pvp_tooltip": "Shadowy Apparitions have a 15% chance to spawn as Void Apparitions that release a\nVoid Bolt\nat their target and deal 50% increased damage.\nVoid Bolt\nSends a bolt of pure void energy at your target, dealing (150% of Spell Power) Shadow damage.",
+      "pve_tooltip": "Shadowy Apparitions have a 15% chance to spawn as Void Apparitions that release a Void Bolt at their target and deal 50% increased damage.\nVoid Bolt\nSends a bolt of pure void energy at your target, dealing (150% of Spell Power) Shadow damage.",
+      "pvp_tooltip": "Shadowy Apparitions have a 15% chance to spawn as Void Apparitions that release a Void Bolt at their target and deal 50% increased damage.\nVoid Bolt\nSends a bolt of pure void energy at your target, dealing (150% of Spell Power) Shadow damage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6767,7 +7021,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Void Apparitions",
@@ -6817,7 +7072,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Halo",
@@ -6864,8 +7120,8 @@
         "spell_id": 120644,
         "icon": "ability_priest_halo_shadow"
       },
-      "pve_tooltip": "4% of base mana\n40 yd range\n1.5 sec cast\n1 min cooldown\nCreates a ring of Shadow energy around you that quickly expands to a\n40\nyd radius, healing allies for (161% of Spell Power) and dealing [(144.2% of Spell Power) *\n1\n*\n1\n*\n1\n] Shadow damage to enemies. Healing reduced beyond 6 targets. [\n:\nGenerates 5 Insanity.\n]",
-      "pvp_tooltip": "4% of base mana\n40 yd range\n1.5 sec cast\n1 min cooldown\nCreates a ring of Shadow energy around you that quickly expands to a\n40\nyd radius, healing allies for (201.25% of Spell Power) and dealing [(144.2% of Spell Power) *\n1\n*\n1\n*\n1\n] Shadow damage to enemies. Healing reduced beyond 6 targets. [\n:\nGenerates 5 Insanity.\n]",
+      "pve_tooltip": "4% of base mana\n40 yd range\n1.5 sec cast\n1 min cooldown\nCreates a ring of Shadow energy around you that quickly expands to a 40 yd radius, healing allies for (161% of Spell Power) and dealing [(144.2% of Spell Power) * 1 * 1 * 1] Shadow damage to enemies. Healing reduced beyond 6 targets. Generates 5 Insanity.",
+      "pvp_tooltip": "4% of base mana\n40 yd range\n1.5 sec cast\n1 min cooldown\nCreates a ring of Shadow energy around you that quickly expands to a 40 yd radius, healing allies for (201.25% of Spell Power) and dealing [(144.2% of Spell Power) * 1 * 1 * 1] Shadow damage to enemies. Healing reduced beyond 6 targets. Generates 5 Insanity.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -7030,7 +7286,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Perfected Form",
@@ -7084,7 +7341,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Power Surge",
@@ -7138,7 +7396,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Manifested Power",
@@ -7263,7 +7522,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Focused Outburst",
@@ -7317,7 +7577,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shock Pulse",
@@ -7363,15 +7624,16 @@
         "spell_id": 453852,
         "icon": "spell_priest_pathofdevout"
       },
-      "pve_tooltip": "Halo damage reduces enemy movement speed by\n5\n% for 5 sec, stacking up to 5 times.",
-      "pvp_tooltip": "Halo damage reduces enemy movement speed by\n5\n% for 5 sec, stacking up to 5 times.",
+      "pve_tooltip": "Halo damage reduces enemy movement speed by 5% for 5 sec, stacking up to 5 times.",
+      "pvp_tooltip": "Halo damage reduces enemy movement speed by 5% for 5 sec, stacking up to 5 times.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Incessant Screams",
@@ -7425,7 +7687,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Energy Conservation",
@@ -7479,7 +7742,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Empowered Surges",
@@ -7533,7 +7797,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Word of Supremacy",
@@ -7587,7 +7852,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Heightened Alteration",
@@ -7641,7 +7907,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Energy Compression",
@@ -7695,7 +7962,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sustained Potency",
@@ -7749,7 +8017,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Resonant Energy",
@@ -7795,15 +8064,16 @@
         "spell_id": 453845,
         "icon": "inv_ability_holyfire_orb"
       },
-      "pve_tooltip": "Creating a Halo increases your spell damage by\n2\n% for 10 sec, stacking up to 4 times.",
-      "pvp_tooltip": "Creating a Halo increases your spell damage by\n2\n% for 10 sec, stacking up to 4 times.",
+      "pve_tooltip": "Creating a Halo increases your spell damage by 2% for 10 sec, stacking up to 4 times.",
+      "pvp_tooltip": "Creating a Halo increases your spell damage by 2% for 10 sec, stacking up to 4 times.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Energy Cycle",
@@ -7857,7 +8127,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Realized Potential",
@@ -7911,7 +8182,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spiritwell",
@@ -7965,7 +8237,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Divine Halo",
@@ -8020,7 +8293,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Void Torrent",
@@ -8067,8 +8341,8 @@
         "spell_id": 263165,
         "icon": "spell_priest_voidsear"
       },
-      "pve_tooltip": "40 yd range\nChanneled (3 sec cast)\n30 sec cooldown\nChannel a torrent of void energy into the target, dealing (713.055% of Spell Power) Shadow damage over 3 sec and tearing open an\nEntropic Rift\n.\nEntropic Rift\nMind Blast tears open an Entropic Rift that follows the enemy for 8 sec. Enemies caught in its path suffer (60% of Spell Power) Shadow damage every 1 sec while within its reach.\nGenerates 24 Insanity over the duration.",
-      "pvp_tooltip": "40 yd range\nChanneled (3 sec cast)\n30 sec cooldown\nChannel a torrent of void energy into the target, dealing (469.1902% of Spell Power) Shadow damage over 3 sec and tearing open an\nEntropic Rift\n.\nEntropic Rift\nMind Blast tears open an Entropic Rift that follows the enemy for 8 sec. Enemies caught in its path suffer (60% of Spell Power) Shadow damage every 1 sec while within its reach.\nGenerates 24 Insanity over the duration.",
+      "pve_tooltip": "40 yd range\nChanneled (3 sec cast)\n30 sec cooldown\nChannel a torrent of void energy into the target, dealing (713.055% of Spell Power) Shadow damage over 3 sec and tearing open an Entropic Rift.\nEntropic Rift\nMind Blast tears open an Entropic Rift that follows the enemy for 8 sec. Enemies caught in its path suffer (60% of Spell Power) Shadow damage every 1 sec while within its reach.\nGenerates 24 Insanity over the duration.",
+      "pvp_tooltip": "40 yd range\nChanneled (3 sec cast)\n30 sec cooldown\nChannel a torrent of void energy into the target, dealing (469.1902% of Spell Power) Shadow damage over 3 sec and tearing open an Entropic Rift.\nEntropic Rift\nMind Blast tears open an Entropic Rift that follows the enemy for 8 sec. Enemies caught in its path suffer (60% of Spell Power) Shadow damage every 1 sec while within its reach.\nGenerates 24 Insanity over the duration.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -8172,7 +8446,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "No Escape",
@@ -8273,7 +8548,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dark Energy",
@@ -8327,7 +8603,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Void Blast",
@@ -8373,8 +8650,8 @@
         "spell_id": 450405,
         "icon": "inv_cosmicvoid_missile"
       },
-      "pve_tooltip": ":\nSends a blast of cosmic void energy at the enemy, causing (150% of Spell Power) Shadow damage. [\n:\nGenerates 0 Insanity.\n]",
-      "pvp_tooltip": ":\nSends a blast of cosmic void energy at the enemy, causing (150% of Spell Power) Shadow damage. [\n:\nGenerates 0 Insanity.\n]",
+      "pve_tooltip": "Entropic Rift upgrades Mind Blast into Void Blast while it is active.\nVoid Blast:\nSends a blast of cosmic void energy at the enemy, causing (210% of Spell Power) Shadow damage. Generates 0 Insanity.",
+      "pvp_tooltip": "Entropic Rift upgrades Mind Blast into Void Blast while it is active.\nVoid Blast:\nSends a blast of cosmic void energy at the enemy, causing (210% of Spell Power) Shadow damage. Generates 0 Insanity.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -8467,7 +8744,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Inner Quietus",
@@ -8568,7 +8846,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Voidheart",
@@ -8659,7 +8938,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Devour Matter",
@@ -8713,7 +8993,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Void Empowerment",
@@ -8767,7 +9048,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Darkening Horizon",
@@ -8821,7 +9103,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Voidwraith",
@@ -8867,8 +9150,8 @@
         "spell_id": 451234,
         "icon": "warlock_curse_shadow"
       },
-      "pve_tooltip": "Summon a Voidwraith that casts Void Flay from afar. Void Flay deals bonus damage to high health enemies, up to a maximum of 50% if they are full health. [\n:\nGenerates 1 Insanity each time the Voidwraith attacks.\n/",
-      "pvp_tooltip": "Summon a Voidwraith that casts Void Flay from afar. Void Flay deals bonus damage to high health enemies, up to a maximum of 50% if they are full health. [\n:\nGenerates 1 Insanity each time the Voidwraith attacks.\n/",
+      "pve_tooltip": "When Entropic Rift ends, a Voidwraith is summoned from the collapsed rift for 5 sec.\nVoidwraith\nSummon a Voidwraith that casts Void Flay from afar. Void Flay deals bonus damage to high health enemies, up to a maximum of 50% if they are full health. Generates 1 Insanity each time the Voidwraith attacks.",
+      "pvp_tooltip": "When Entropic Rift ends, a Voidwraith is summoned from the collapsed rift for 5 sec.\nVoidwraith\nSummon a Voidwraith that casts Void Flay from afar. Void Flay deals bonus damage to high health enemies, up to a maximum of 50% if they are full health. Generates 1 Insanity each time the Voidwraith attacks.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -8916,7 +9199,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Touch of the Void",
@@ -8970,7 +9254,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Quickened Pulse",
@@ -9075,7 +9360,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Void Infusion",
@@ -9166,7 +9452,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Void Leech",
@@ -9267,7 +9554,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Embrace the Shadow",
@@ -9321,7 +9609,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Overwhelming Shadows",
@@ -9375,7 +9664,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Collapsing Void",
@@ -9490,13 +9780,14 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     }
   ],
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "priest-shadow",
-  "generated_at": "2026-09-20T12:53:07.286247+00:00",
+  "generated_at": "2026-09-20T20:02:21.992279+00:00",
   "validation": {
     "talents": 138,
     "changed_tooltips": 17,

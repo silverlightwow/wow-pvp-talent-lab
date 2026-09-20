@@ -50,8 +50,8 @@
         "spell_id": 1064,
         "icon": "inv_1115_shaman_chainheal"
       },
-      "pve_tooltip": "15% of base mana\n40 yd range\n2 sec cast\nHeals the friendly target for (231% of Spell Power), then jumps up to\n20\nyards to heal the 3 most injured nearby allies. Healing is reduced by\n30\n% with each jump.",
-      "pvp_tooltip": "15% of base mana\n40 yd range\n2 sec cast\nHeals the friendly target for (218.988% of Spell Power), then jumps up to\n20\nyards to heal the 3 most injured nearby allies. Healing is reduced by\n30\n% with each jump.",
+      "pve_tooltip": "15% of base mana\n40 yd range\n2 sec cast\nHeals the friendly target for (231% of Spell Power), then jumps up to 20 yards to heal the 3 most injured nearby allies. Healing is reduced by 30% with each jump.",
+      "pvp_tooltip": "15% of base mana\n40 yd range\n2 sec cast\nHeals the friendly target for (218.988% of Spell Power), then jumps up to 20 yards to heal the 3 most injured nearby allies. Healing is reduced by 30% with each jump.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -115,7 +115,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lava Burst",
@@ -208,7 +209,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Chain Lightning",
@@ -261,7 +263,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Earth Shield",
@@ -308,8 +311,8 @@
         "spell_id": 974,
         "icon": "spell_nature_skinofearth"
       },
-      "pve_tooltip": "5% of base mana\n40 yd range\nInstant\nProtects the target with an earthen shield, increasing your healing on them by 20% and healing them for [(73% of Spell Power) * (1.2)] when they take damage. This heal can only occur once every\n3\nsec.\nMaximum 9 charges\n.\n[\nElemental Orbit\n:\nEarth Shield can only be placed on the Shaman and one other target at a time. The Shaman can have up to two Elemental Shields active on them\n/ Earth Shield can only be placed on one target at a time. Only one Elemental Shield can be active on the Shaman.]\n(3s cooldown)",
-      "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\nProtects the target with an earthen shield, increasing your healing on them by 20% and healing them for [(58.8234% of Spell Power) * (1.2)] when they take damage. This heal can only occur once every\n3\nsec.\nMaximum 9 charges\n.\n[\nElemental Orbit\n:\nEarth Shield can only be placed on the Shaman and one other target at a time. The Shaman can have up to two Elemental Shields active on them\n/ Earth Shield can only be placed on one target at a time. Only one Elemental Shield can be active on the Shaman.]\n(3s cooldown)",
+      "pve_tooltip": "5% of base mana\n40 yd range\nInstant\nProtects the target with an earthen shield, increasing your healing on them by 20% and healing them for [(73% of Spell Power) * (1.2)] when they take damage. This heal can only occur once every 3 sec. Maximum 9 charges.\n[Elemental Orbit: Earth Shield can only be placed on the Shaman and one other target at a time. The Shaman can have up to two Elemental Shields active on them / Earth Shield can only be placed on one target at a time. Only one Elemental Shield can be active on the Shaman.]\n(3s cooldown)",
+      "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\nProtects the target with an earthen shield, increasing your healing on them by 20% and healing them for [(58.8234% of Spell Power) * (1.2)] when they take damage. This heal can only occur once every 3 sec. Maximum 9 charges.\n[Elemental Orbit: Earth Shield can only be placed on the Shaman and one other target at a time. The Shaman can have up to two Elemental Shields active on them / Earth Shield can only be placed on one target at a time. Only one Elemental Shield can be active on the Shaman.]\n(3s cooldown)",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -402,7 +405,7 @@
           "talent_spell_id": 974,
           "source_spell_id": 462477,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 2.7333)",
+          "effect_text": "Heal (SP mod: 2.7333)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -431,14 +434,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ancestral Wolf Affinity",
@@ -494,7 +497,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fire and Ice",
@@ -548,7 +552,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spirit Wolf",
@@ -604,7 +609,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thunderous Paws",
@@ -660,7 +666,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frost Shock",
@@ -715,7 +722,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Elemental Orbit",
@@ -769,7 +777,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spirit Walk",
@@ -825,7 +834,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gust of Wind",
@@ -881,7 +891,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Astral Shift",
@@ -931,15 +942,16 @@
         "spell_id": 108271,
         "icon": "ability_shaman_astralshift"
       },
-      "pve_tooltip": "Instant\n2 min cooldown\nShift partially into the elemental planes, taking\n40\n% less damage for 12 sec.",
-      "pvp_tooltip": "Instant\n2 min cooldown\nShift partially into the elemental planes, taking\n40\n% less damage for 12 sec.",
+      "pve_tooltip": "Instant\n2 min cooldown\nShift partially into the elemental planes, taking 40% less damage for 12 sec.",
+      "pvp_tooltip": "Instant\n2 min cooldown\nShift partially into the elemental planes, taking 40% less damage for 12 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Nature's Guardian",
@@ -995,7 +1007,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Encasing Cold",
@@ -1049,7 +1062,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Arctic Snowstorm",
@@ -1130,7 +1144,7 @@
           "talent_spell_id": 462764,
           "source_spell_id": 462765,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
+          "effect_text": "Apply Aura: Decrease Run Speed %",
           "base_value": -30.0,
           "spell_pvp_multiplier": 0.666667,
           "amount_kind": null,
@@ -1147,14 +1161,16 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Healing Stream Totem",
@@ -1202,15 +1218,16 @@
         "spell_id": 392915,
         "icon": "inv_spear_04"
       },
-      "pve_tooltip": ".",
-      "pvp_tooltip": ".",
+      "pve_tooltip": "1.8% of base mana / 5.0% of base mana / 5.0% of base mana / 5.0% of base mana\nInstant\n30 sec recharge\nSummons a totem at your feet for 15 sec that heals [Rushing Streams: two injured party or raid members / an injured party or raid member] within 40 yards for (67.68% of Spell Power) every 2 sec.\nIf you already know Healing Stream Totem, instead gain 1 additional charge of Healing Stream Totem.",
+      "pvp_tooltip": "1.8% of base mana / 5.0% of base mana / 5.0% of base mana / 5.0% of base mana\nInstant\n30 sec recharge\nSummons a totem at your feet for 15 sec that heals [Rushing Streams: two injured party or raid members / an injured party or raid member] within 40 yards for (67.68% of Spell Power) every 2 sec.\nIf you already know Healing Stream Totem, instead gain 1 additional charge of Healing Stream Totem.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Winds of Al'Akir",
@@ -1258,15 +1275,33 @@
         "spell_id": 382215,
         "icon": "ability_druid_galewinds"
       },
-      "pve_tooltip": "Increases your movement speed by 5% and the movement speed bonus of Ghost Wolf by an additional 5%.",
-      "pvp_tooltip": "Increases your movement speed by 5% and the movement speed bonus of Ghost Wolf by an additional 5%.",
+      "pve_tooltip": "Increases your movement speed by 6% and the movement speed bonus of Ghost Wolf by an additional 10%.",
+      "pvp_tooltip": "Increases your movement speed by 6% and the movement speed bonus of Ghost Wolf by an additional 10%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Increases your movement speed by 3% and the movement speed bonus of Ghost Wolf by an additional 5%.",
+          "pvp_tooltip": "Increases your movement speed by 3% and the movement speed bonus of Ghost Wolf by an additional 5%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Increases your movement speed by 6% and the movement speed bonus of Ghost Wolf by an additional 10%.",
+          "pvp_tooltip": "Increases your movement speed by 6% and the movement speed bonus of Ghost Wolf by an additional 10%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Planes Traveler",
@@ -1321,7 +1356,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Astral Bulwark",
@@ -1376,7 +1412,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Brimming with Life",
@@ -1424,15 +1461,33 @@
         "spell_id": 381689,
         "icon": "inv_jewelry_talisman_06"
       },
-      "pve_tooltip": "Stamina increased by 8%.\nWhile you are at full health, Reincarnation cools down 50% faster.",
-      "pvp_tooltip": "Stamina increased by 8%.\nWhile you are at full health, Reincarnation cools down 50% faster.",
+      "pve_tooltip": "Stamina increased by 15%.\nWhile you are at full health, Reincarnation cools down 100% faster.",
+      "pvp_tooltip": "Stamina increased by 15%.\nWhile you are at full health, Reincarnation cools down 100% faster.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Stamina increased by 8%.\nWhile you are at full health, Reincarnation cools down 50% faster.",
+          "pvp_tooltip": "Stamina increased by 8%.\nWhile you are at full health, Reincarnation cools down 50% faster.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Stamina increased by 15%.\nWhile you are at full health, Reincarnation cools down 100% faster.",
+          "pvp_tooltip": "Stamina increased by 15%.\nWhile you are at full health, Reincarnation cools down 100% faster.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Wind Shear",
@@ -1480,15 +1535,16 @@
         "spell_id": 57994,
         "icon": "spell_nature_cyclone"
       },
-      "pve_tooltip": "30 yd range\nInstant\n12 sec cooldown\nDisrupts the target's concentration with a burst of wind, interrupting spellcasting and preventing any spell in that school from being cast for 4 sec.",
-      "pvp_tooltip": "30 yd range\nInstant\n12 sec cooldown\nDisrupts the target's concentration with a burst of wind, interrupting spellcasting and preventing any spell in that school from being cast for 4 sec.",
+      "pve_tooltip": "30 yd range\nInstant\n30 sec cooldown\nDisrupts the target's concentration with a burst of wind, interrupting spellcasting and preventing any spell in that school from being cast for 4 sec.",
+      "pvp_tooltip": "30 yd range\nInstant\n30 sec cooldown\nDisrupts the target's concentration with a burst of wind, interrupting spellcasting and preventing any spell in that school from being cast for 4 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Elemental Resistance",
@@ -1542,7 +1598,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Earthgrab Totem",
@@ -1650,7 +1707,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Capacitor Totem",
@@ -1707,7 +1765,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spiritual Awakening",
@@ -1763,7 +1822,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Enhanced Imbues",
@@ -1818,7 +1878,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Windveil",
@@ -1872,7 +1933,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Refreshing Waters",
@@ -1928,7 +1990,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Purify Spirit",
@@ -1984,7 +2047,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Static Charge",
@@ -2030,15 +2094,33 @@
         "spell_id": 265046,
         "icon": "spell_nature_brilliance"
       },
-      "pve_tooltip": "Reduces the cooldown of Capacitor Totem by 15 sec.",
-      "pvp_tooltip": "Reduces the cooldown of Capacitor Totem by 15 sec.",
+      "pve_tooltip": "Reduces the cooldown of Capacitor Totem by 20 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Capacitor Totem by 20 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Reduces the cooldown of Capacitor Totem by 10 sec.",
+          "pvp_tooltip": "Reduces the cooldown of Capacitor Totem by 10 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Reduces the cooldown of Capacitor Totem by 20 sec.",
+          "pvp_tooltip": "Reduces the cooldown of Capacitor Totem by 20 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Wind Rush Totem",
@@ -2094,7 +2176,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Earth Elemental",
@@ -2142,15 +2225,16 @@
         "spell_id": 198103,
         "icon": "spell_nature_earthelemental_totem"
       },
-      "pve_tooltip": "40 yd range\nInstant\n3 min cooldown\nCalls forth a\nGreater\nEarth Elemental to protect you\nand your allies, generating high threat and taunting enemies periodically\nfor 30 sec.",
-      "pvp_tooltip": "40 yd range\nInstant\n3 min cooldown\nCalls forth a\nGreater\nEarth Elemental to protect you\nand your allies, generating high threat and taunting enemies periodically\nfor 30 sec.",
+      "pve_tooltip": "40 yd range\nInstant\n3 min cooldown\nCalls forth a Greater Earth Elemental to protect you and your allies, generating high threat and taunting enemies periodically for 30 sec.",
+      "pvp_tooltip": "40 yd range\nInstant\n3 min cooldown\nCalls forth a Greater Earth Elemental to protect you and your allies, generating high threat and taunting enemies periodically for 30 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Purge",
@@ -2206,7 +2290,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Greater Purge",
@@ -2262,7 +2347,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Nature's Fury",
@@ -2311,15 +2397,33 @@
         "spell_id": 381655,
         "icon": "spell_nature_spiritarmor"
       },
-      "pve_tooltip": "Increases the critical strike chance of your Nature spells and abilities by 2%.",
-      "pvp_tooltip": "Increases the critical strike chance of your Nature spells and abilities by 2%.",
+      "pve_tooltip": "Increases the critical strike chance of your Nature spells and abilities by 4%.",
+      "pvp_tooltip": "Increases the critical strike chance of your Nature spells and abilities by 4%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Increases the critical strike chance of your Nature spells and abilities by 2%.",
+          "pvp_tooltip": "Increases the critical strike chance of your Nature spells and abilities by 2%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Increases the critical strike chance of your Nature spells and abilities by 4%.",
+          "pvp_tooltip": "Increases the critical strike chance of your Nature spells and abilities by 4%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Ascending Air",
@@ -2374,7 +2478,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Jet Stream",
@@ -2429,7 +2534,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Primordial Bond",
@@ -2483,7 +2589,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hex",
@@ -2539,7 +2646,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spiritwalker's Grace",
@@ -2594,7 +2702,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Totemic Projection",
@@ -2649,7 +2758,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Elemental Warding",
@@ -2706,7 +2816,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Totemic Focus",
@@ -2763,7 +2874,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Graceful Spirit",
@@ -2817,7 +2929,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spiritwalker's Aegis",
@@ -2871,7 +2984,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mana Spring",
@@ -2919,15 +3033,16 @@
         "spell_id": 381930,
         "icon": "spell_nature_manaregentotem"
       },
-      "pve_tooltip": "Level\n90\nYour Lava Burst and Riptide casts restore\n225\nmana to you and 4 allies nearest to you within 40 yards.\nAllies can only benefit from one Shaman's Mana Spring effect at a time, prioritizing healers.",
-      "pvp_tooltip": "Level\n90\nYour Lava Burst and Riptide casts restore\n225\nmana to you and 4 allies nearest to you within 40 yards.\nAllies can only benefit from one Shaman's Mana Spring effect at a time, prioritizing healers.",
+      "pve_tooltip": "Level 90\nYour Lava Burst and Riptide casts restore 225 mana to you and 4 allies nearest to you within 40 yards.\nAllies can only benefit from one Shaman's Mana Spring effect at a time, prioritizing healers.",
+      "pvp_tooltip": "Level 90\nYour Lava Burst and Riptide casts restore 225 mana to you and 4 allies nearest to you within 40 yards.\nAllies can only benefit from one Shaman's Mana Spring effect at a time, prioritizing healers.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tremor Totem",
@@ -2981,7 +3096,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Poison Cleansing Totem",
@@ -3035,7 +3151,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Therazane's Resilience",
@@ -3091,7 +3208,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Reactive Warding",
@@ -3139,8 +3257,8 @@
         "spell_id": 462454,
         "icon": "inv_10_elementalcombinedfoozles_water"
       },
-      "pve_tooltip": "Level\n90\nWhen refreshing Earth Shield, your target is healed for (273.33% of Spell Power) for each stack of Earth Shield they are missing.\nWhen refreshing Water Shield, you are refunded\n429\nmana for each stack of Water Shield missing.\nAdditionally, Earth Shield and Water Shield can consume charges 1.0 sec faster.",
-      "pvp_tooltip": "Level\n90\nWhen refreshing Earth Shield, your target is healed for (215.9307% of Spell Power) for each stack of Earth Shield they are missing.\nWhen refreshing Water Shield, you are refunded\n429\nmana for each stack of Water Shield missing.\nAdditionally, Earth Shield and Water Shield can consume charges 1.0 sec faster.",
+      "pve_tooltip": "Level 90\nWhen refreshing Earth Shield, your target is healed for (273.33% of Spell Power) for each stack of Earth Shield they are missing.\nWhen refreshing Water Shield, you are refunded 429 mana for each stack of Water Shield missing.\nAdditionally, Earth Shield and Water Shield can consume charges 1.0 sec faster.",
+      "pvp_tooltip": "Level 90\nWhen refreshing Earth Shield, your target is healed for (215.9307% of Spell Power) for each stack of Earth Shield they are missing.\nWhen refreshing Water Shield, you are refunded 429 mana for each stack of Water Shield missing.\nAdditionally, Earth Shield and Water Shield can consume charges 1.0 sec faster.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3174,7 +3292,7 @@
           "talent_spell_id": 462454,
           "source_spell_id": 462477,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 2.7333)",
+          "effect_text": "Heal (SP mod: 2.7333)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -3201,14 +3319,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Voodoo Mastery",
@@ -3314,7 +3432,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Nature's Swiftness",
@@ -3359,15 +3478,16 @@
         "spell_id": 378081,
         "icon": "spell_nature_ravenform"
       },
-      "pve_tooltip": "Instant\n1 min cooldown\nYour next healing or damaging Nature spell\nis instant cast and costs no mana.",
-      "pvp_tooltip": "Instant\n1 min cooldown\nYour next healing or damaging Nature spell\nis instant cast and costs no mana.",
+      "pve_tooltip": "Instant\n1 min cooldown\nYour next healing or damaging Nature spell is instant cast and costs no mana.",
+      "pvp_tooltip": "Instant\n1 min cooldown\nYour next healing or damaging Nature spell is instant cast and costs no mana.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Totemic Surge",
@@ -3421,7 +3541,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Instinctive Imbuements",
@@ -3475,7 +3596,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Riptide",
@@ -3520,8 +3642,8 @@
         "spell_id": 61295,
         "icon": "spell_nature_riptide"
       },
-      "pve_tooltip": "1.52% of base mana\n40 yd range\nInstant\n6 sec cooldown\n1 Charge\nRestorative waters wash over a friendly target, healing them for (600% of Spell Power) and an additional (478.2% of Spell Power) over\n18 sec\n.",
-      "pvp_tooltip": "1.52% of base mana\n40 yd range\nInstant\n6 sec cooldown\n1 Charge\nRestorative waters wash over a friendly target, healing them for (719.532% of Spell Power) and an additional (695.1115% of Spell Power) over\n18 sec\n.",
+      "pve_tooltip": "1.52% of base mana\n40 yd range\nInstant\n6 sec cooldown\n1 Charge\nRestorative waters wash over a friendly target, healing them for (600% of Spell Power) and an additional (478.2% of Spell Power) over 18 sec.",
+      "pvp_tooltip": "1.52% of base mana\n40 yd range\nInstant\n6 sec cooldown\n1 Charge\nRestorative waters wash over a friendly target, healing them for (719.532% of Spell Power) and an additional (695.1115% of Spell Power) over 18 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3639,7 +3761,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Healing Rain",
@@ -3695,7 +3818,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Healing Stream Totem",
@@ -3742,15 +3866,16 @@
         "spell_id": 392916,
         "icon": "inv_spear_04"
       },
-      "pve_tooltip": ".",
-      "pvp_tooltip": ".",
+      "pve_tooltip": "1.8% of base mana / 5.0% of base mana / 5.0% of base mana / 5.0% of base mana\nInstant\n30 sec recharge\nSummons a totem at your feet for 15 sec that heals [Rushing Streams: two injured party or raid members / an injured party or raid member] within 40 yards for (67.68% of Spell Power) every 2 sec.\nIf you already know Healing Stream Totem, instead gain 1 additional charge of Healing Stream Totem.",
+      "pvp_tooltip": "1.8% of base mana / 5.0% of base mana / 5.0% of base mana / 5.0% of base mana\nInstant\n30 sec recharge\nSummons a totem at your feet for 15 sec that heals [Rushing Streams: two injured party or raid members / an injured party or raid member] within 40 yards for (67.68% of Spell Power) every 2 sec.\nIf you already know Healing Stream Totem, instead gain 1 additional charge of Healing Stream Totem.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Soothing Rain",
@@ -3798,15 +3923,16 @@
         "spell_id": 1252874,
         "icon": "spell_shadow_soulleech_2"
       },
-      "pve_tooltip": "Increases the healing done by\nHealing Rain by 10% and reduces its cast time by 0.5 sec.",
-      "pvp_tooltip": "Increases the healing done by\nHealing Rain by 10% and reduces its cast time by 0.5 sec.",
+      "pve_tooltip": "Increases the healing done by Healing Rain by 10% and reduces its cast time by 0.5 sec.",
+      "pvp_tooltip": "Increases the healing done by Healing Rain by 10% and reduces its cast time by 0.5 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Acid Rain",
@@ -3912,7 +4038,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ascendance",
@@ -3961,8 +4088,8 @@
         "spell_id": 114052,
         "icon": "inv121_ability_shaman_ascendance_water"
       },
-      "pve_tooltip": "Instant\n3 min cooldown\nImmediately heals for (1287.72% of Spell Power) split between allies within 20 yds and transforms into a Water Ascendant for\n15 sec\n.\nWhile ascended, Chain Heal jumps to 3 additional allies with 10% healing reduced for all jumps, Healing Wave always critical heals and heals 1 additional ally at 50% effectiveness, and the mana cost of Chain Heal and Healing Wave is reduced by 25%.",
-      "pvp_tooltip": "Instant\n3 min cooldown\nImmediately heals for (1287.72% of Spell Power) split between allies within 20 yds and transforms into a Water Ascendant for\n15 sec\n.\nWhile ascended, Chain Heal jumps to 3 additional allies with 10% healing reduced for all jumps, Healing Wave always critical heals and heals 1 additional ally at 50% effectiveness, and the mana cost of Chain Heal and Healing Wave is reduced by 25%.",
+      "pve_tooltip": "Instant\n3 min cooldown\nImmediately heals for (1287.72% of Spell Power) split between allies within 20 yds and transforms into a Water Ascendant for 15 sec.\nWhile ascended, Chain Heal jumps to 3 additional allies with 10% healing reduced for all jumps, Healing Wave always critical heals and heals 1 additional ally at 50% effectiveness, and the mana cost of Chain Heal and Healing Wave is reduced by 25%.",
+      "pvp_tooltip": "Instant\n3 min cooldown\nImmediately heals for (1287.72% of Spell Power) split between allies within 20 yds and transforms into a Water Ascendant for 15 sec.\nWhile ascended, Chain Heal jumps to 3 additional allies with 10% healing reduced for all jumps, Healing Wave always critical heals and heals 1 additional ally at 50% effectiveness, and the mana cost of Chain Heal and Healing Wave is reduced by 25%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -4008,7 +4135,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Healing Tide Totem",
@@ -4057,14 +4185,14 @@
         "spell_id": 108280,
         "icon": "ability_shaman_healingtide"
       },
-      "pve_tooltip": "1.12% of base mana\nInstant\n3 min cooldown\nSummons a totem at your feet for\n10 sec\n, which pulses every 2 sec, healing all party or raid members within 40 yards for (514.5% of Spell Power).\nHealing reduced beyond 5 targets.",
-      "pvp_tooltip": "1.12% of base mana\nInstant\n3 min cooldown\nSummons a totem at your feet for\n10 sec\n, which pulses every 2 sec, healing all party or raid members within 40 yards for (711.2962% of Spell Power).\nHealing reduced beyond 5 targets.",
+      "pve_tooltip": "1.12% of base mana\nInstant\n3 min cooldown\nSummons a totem at your feet for 10 sec, which pulses every 2 sec, healing all party or raid members within 40 yards for (514.5% of Spell Power).\nHealing reduced beyond 5 targets.",
+      "pvp_tooltip": "1.12% of base mana\nInstant\n3 min cooldown\nSummons a totem at your feet for 10 sec, which pulses every 2 sec, healing all party or raid members within 40 yards for (711.2962% of Spell Power).\nHealing reduced beyond 5 targets.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 165,
-          "end": 170,
+          "start": 164,
+          "end": 169,
           "old_token": "514.5",
           "new_token": "711.2962",
           "kind": "spell_power_coefficient",
@@ -4127,7 +4255,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Water Totem Mastery",
@@ -4182,7 +4311,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Overflowing Shores",
@@ -4228,8 +4358,8 @@
         "spell_id": 383222,
         "icon": "spell_nature_giftofthewaterspirit"
       },
-      "pve_tooltip": "Healing Rain\ninstantly restores (75.6756% of Spell Power) health to 5 allies within its area, and its radius is increased by 2 yards.",
-      "pvp_tooltip": "Healing Rain\ninstantly restores (59.7837% of Spell Power) health to 5 allies within its area, and its radius is increased by 2 yards.",
+      "pve_tooltip": "Healing Rain instantly restores (75.6756% of Spell Power) health to 5 allies within its area, and its radius is increased by 2 yards.",
+      "pvp_tooltip": "Healing Rain instantly restores (59.7837% of Spell Power) health to 5 allies within its area, and its radius is increased by 2 yards.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4263,7 +4393,7 @@
           "talent_spell_id": 383222,
           "source_spell_id": 383223,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 0.756756)",
+          "effect_text": "Heal (SP mod: 0.756756)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4290,14 +4420,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ancestral Vigor",
@@ -4346,15 +4476,33 @@
         "spell_id": 207401,
         "icon": "spell_shaman_blessingoftheeternals"
       },
-      "pve_tooltip": "Targets you heal with Healing Wave, Chain Heal, or Riptide's initial heal gain 5% increased health for 10 sec.",
-      "pvp_tooltip": "Targets you heal with Healing Wave, Chain Heal, or Riptide's initial heal gain 5% increased health for 10 sec.",
+      "pve_tooltip": "Targets you heal with Healing Wave, Chain Heal, or Riptide's initial heal gain 10% increased health for 10 sec.",
+      "pvp_tooltip": "Targets you heal with Healing Wave, Chain Heal, or Riptide's initial heal gain 10% increased health for 10 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Targets you heal with Healing Wave, Chain Heal, or Riptide's initial heal gain 5% increased health for 10 sec.",
+          "pvp_tooltip": "Targets you heal with Healing Wave, Chain Heal, or Riptide's initial heal gain 5% increased health for 10 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Targets you heal with Healing Wave, Chain Heal, or Riptide's initial heal gain 10% increased health for 10 sec.",
+          "pvp_tooltip": "Targets you heal with Healing Wave, Chain Heal, or Riptide's initial heal gain 10% increased health for 10 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "First Ascendant",
@@ -4408,7 +4556,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Preeminence",
@@ -4462,7 +4611,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Resurgence",
@@ -4518,7 +4668,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Living Stream",
@@ -4573,7 +4724,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Current Control",
@@ -4630,7 +4782,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "White Water",
@@ -4688,7 +4841,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wavespeaker's Blessing",
@@ -4737,15 +4891,33 @@
         "spell_id": 381946,
         "icon": "inv_alchemist_81_spiritedalchemiststone"
       },
-      "pve_tooltip": "Increases Riptide's duration by 6.0 sec and its healing over time by 15%.",
-      "pvp_tooltip": "Increases Riptide's duration by 6.0 sec and its healing over time by 15%.",
+      "pve_tooltip": "Increases Riptide's duration by 6.0 sec and its healing over time by 20%.",
+      "pvp_tooltip": "Increases Riptide's duration by 6.0 sec and its healing over time by 20%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Increases Riptide's duration by 3 sec and its healing over time by 10%.",
+          "pvp_tooltip": "Increases Riptide's duration by 3 sec and its healing over time by 10%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Increases Riptide's duration by 6.0 sec and its healing over time by 20%.",
+          "pvp_tooltip": "Increases Riptide's duration by 6.0 sec and its healing over time by 20%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Quickstream",
@@ -4799,7 +4971,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rip Current",
@@ -4855,7 +5028,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Crashing Waves",
@@ -4909,7 +5083,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unleash Life",
@@ -5021,7 +5196,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Torrent",
@@ -5075,7 +5251,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Earthliving Weapon",
@@ -5138,7 +5315,7 @@
           "talent_spell_id": 382021,
           "source_spell_id": 382024,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 2 seconds (SP mod: 0.46305)",
+          "effect_text": "Apply Aura: Periodic Heal",
           "base_value": null,
           "spell_pvp_multiplier": 1.2,
           "amount_kind": "periodic",
@@ -5165,14 +5342,16 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Earthweaver",
@@ -5228,7 +5407,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Deluge",
@@ -5285,7 +5465,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Earthen Accord",
@@ -5339,7 +5520,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tidal Waves",
@@ -5396,7 +5578,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Earthliving Weapon",
@@ -5450,7 +5633,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ancestral Reach",
@@ -5507,7 +5691,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flow of the Tides",
@@ -5564,7 +5749,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Downpour",
@@ -5612,8 +5798,8 @@
         "spell_id": 462486,
         "icon": "ability_mage_waterjet"
       },
-      "pve_tooltip": "A burst of water at your\nHealing Rain's\nlocation heals up to 5 injured allies within 12 yards for (323.4% of Spell Power).",
-      "pvp_tooltip": "A burst of water at your\nHealing Rain's\nlocation heals up to 5 injured allies within 12 yards for (323.4% of Spell Power).",
+      "pve_tooltip": "Casting Healing Rain grants a use of Downpour for 16 sec.\nDownpour\nA burst of water at your Healing Rain's location heals up to 5 injured allies within 12 yards for (323.4% of Spell Power).",
+      "pvp_tooltip": "Casting Healing Rain grants a use of Downpour for 16 sec.\nDownpour\nA burst of water at your Healing Rain's location heals up to 5 injured allies within 12 yards for (323.4% of Spell Power).",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5659,7 +5845,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Echo of the Elements",
@@ -5717,7 +5904,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spirit Link Totem",
@@ -5775,7 +5963,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Earthen Harmony",
@@ -5878,7 +6067,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Water Expulsion",
@@ -5932,7 +6122,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ancestral Awakening",
@@ -5979,15 +6170,33 @@
         "spell_id": 382309,
         "icon": "spell_shaman_ancestralawakening"
       },
-      "pve_tooltip": "When you heal with your Healing Wave or Riptide you have a 30% chance to summon an Ancestral spirit to aid you, instantly healing an injured friendly party or raid target within 40 yards for 15% of the amount healed. Critical strikes increase this chance to 60%.",
-      "pvp_tooltip": "When you heal with your Healing Wave or Riptide you have a 30% chance to summon an Ancestral spirit to aid you, instantly healing an injured friendly party or raid target within 40 yards for 15% of the amount healed. Critical strikes increase this chance to 60%.",
+      "pve_tooltip": "When you heal with your Healing Wave or Riptide you have a 30% chance to summon an Ancestral spirit to aid you, instantly healing an injured friendly party or raid target within 40 yards for 50% of the amount healed. Critical strikes increase this chance to 60%.",
+      "pvp_tooltip": "When you heal with your Healing Wave or Riptide you have a 30% chance to summon an Ancestral spirit to aid you, instantly healing an injured friendly party or raid target within 40 yards for 50% of the amount healed. Critical strikes increase this chance to 60%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "When you heal with your Healing Wave or Riptide you have a 30% chance to summon an Ancestral spirit to aid you, instantly healing an injured friendly party or raid target within 40 yards for 25% of the amount healed. Critical strikes increase this chance to 60%.",
+          "pvp_tooltip": "When you heal with your Healing Wave or Riptide you have a 30% chance to summon an Ancestral spirit to aid you, instantly healing an injured friendly party or raid target within 40 yards for 25% of the amount healed. Critical strikes increase this chance to 60%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "When you heal with your Healing Wave or Riptide you have a 30% chance to summon an Ancestral spirit to aid you, instantly healing an injured friendly party or raid target within 40 yards for 50% of the amount healed. Critical strikes increase this chance to 60%.",
+          "pvp_tooltip": "When you heal with your Healing Wave or Riptide you have a 30% chance to summon an Ancestral spirit to aid you, instantly healing an injured friendly party or raid target within 40 yards for 50% of the amount healed. Critical strikes increase this chance to 60%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Tidewaters",
@@ -6033,14 +6242,14 @@
         "spell_id": 462424,
         "icon": "ability_shawaterelemental_split"
       },
-      "pve_tooltip": "When you cast\nHealing Rain\n, each ally with your Riptide on them is healed for (264.6% of Spell Power).",
-      "pvp_tooltip": "When you cast\nHealing Rain\n, each ally with your Riptide on them is healed for (209.034% of Spell Power).",
+      "pve_tooltip": "When you cast Healing Rain, each ally with your Riptide on them is healed for (264.6% of Spell Power).",
+      "pvp_tooltip": "When you cast Healing Rain, each ally with your Riptide on them is healed for (209.034% of Spell Power).",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 80,
-          "end": 85,
+          "start": 79,
+          "end": 84,
           "old_token": "264.6",
           "new_token": "209.034",
           "kind": "spell_power_coefficient",
@@ -6068,7 +6277,7 @@
           "talent_spell_id": 462424,
           "source_spell_id": 462425,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 2.646)",
+          "effect_text": "Heal (SP mod: 2.646)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6095,14 +6304,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Undercurrent",
@@ -6150,32 +6359,43 @@
         "spell_id": 382194,
         "icon": "spell_fire_bluehellfire"
       },
-      "pve_tooltip": "For each Riptide active on an ally, your heals are 0.5% more effective.",
-      "pvp_tooltip": "For each Riptide active on an ally, your heals are 0.5% more effective.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [
+      "pve_tooltip": "For each Riptide active on an ally, your heals are 1% more effective.",
+      "pvp_tooltip": "For each Riptide active on an ally, your heals are 2% more effective.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
         {
+          "start": 51,
+          "end": 52,
+          "old_token": "1",
+          "new_token": "2",
+          "kind": "ordinary_value",
           "effect_indexes": [
             1,
             3
-          ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
-          "old": 1.0,
-          "new": 2.0,
-          "full_tooltip_match_count": 0
-        },
+          ]
+        }
+      ],
+      "diagnostics": [
         {
           "effect_indexes": [
             2
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
           "kind": "ordinary_value",
-          "old": 5.0,
-          "new": 10.0,
+          "old": 10.0,
+          "new": 20.0,
           "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1,
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "1",
+          "new": "2"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6253,7 +6473,25 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 3,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "For each Riptide active on an ally, your heals are 0.5% more effective.",
+          "pvp_tooltip": "For each Riptide active on an ally, your heals are 1% more effective.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "For each Riptide active on an ally, your heals are 1% more effective.",
+          "pvp_tooltip": "For each Riptide active on an ally, your heals are 2% more effective.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Spouting Spirits",
@@ -6334,7 +6572,7 @@
           "talent_spell_id": 462383,
           "source_spell_id": 462384,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 11.466)",
+          "effect_text": "Heal (SP mod: 11.466)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6361,14 +6599,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Swelling Tides",
@@ -6416,15 +6654,16 @@
         "spell_id": 1312843,
         "icon": "ability_shaman_manatidetotem"
       },
-      "pve_tooltip": "Healing Stream Totem\nextend\ns\nthe duration of your active Riptides by 3.0 sec.",
-      "pvp_tooltip": "Healing Stream Totem\nextend\ns\nthe duration of your active Riptides by 3.0 sec.",
+      "pve_tooltip": "Healing Stream Totem extends the duration of your active Riptides by 3.0 sec.",
+      "pvp_tooltip": "Healing Stream Totem extends the duration of your active Riptides by 3.0 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Double Dip",
@@ -6468,15 +6707,16 @@
         "spell_id": 1252882,
         "icon": "ability_mage_waterjet"
       },
-      "pve_tooltip": "Healing Rain\ngrants an additional use of Downpour.",
-      "pvp_tooltip": "Healing Rain\ngrants an additional use of Downpour.",
+      "pve_tooltip": "Healing Rain grants an additional use of Downpour.",
+      "pvp_tooltip": "Healing Rain grants an additional use of Downpour.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Primal Tide Core",
@@ -6530,7 +6770,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Coalescing Water",
@@ -6584,7 +6825,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Deeply Rooted Elements",
@@ -6739,7 +6981,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Stormstream Totem",
@@ -6816,7 +7059,7 @@
           "talent_spell_id": 1267016,
           "source_spell_id": 1268684,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 13.23)",
+          "effect_text": "Heal (SP mod: 13.23)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6843,14 +7086,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Stormstream Totem",
@@ -6900,7 +7143,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Stormstream Totem",
@@ -6942,15 +7186,16 @@
         "spell_id": 1267120,
         "icon": "inv12_apextalent_shaman_stormstreamtotem"
       },
-      "pve_tooltip": "Casting [\nAncestral Swiftness\n:\nAncestral\n/ Nature's] Swiftness grants a use of Stormstream Totem and Stormstream Totem no longer consumes a charge of Healing Stream Totem when used.",
-      "pvp_tooltip": "Casting [\nAncestral Swiftness\n:\nAncestral\n/ Nature's] Swiftness grants a use of Stormstream Totem and Stormstream Totem no longer consumes a charge of Healing Stream Totem when used.",
+      "pve_tooltip": "Casting [Ancestral Swiftness: Ancestral / Nature's] Swiftness grants a use of Stormstream Totem and Stormstream Totem no longer consumes a charge of Healing Stream Totem when used.",
+      "pvp_tooltip": "Casting [Ancestral Swiftness: Ancestral / Nature's] Swiftness grants a use of Stormstream Totem and Stormstream Totem no longer consumes a charge of Healing Stream Totem when used.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Call of the Ancestors",
@@ -7005,7 +7250,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Surging Totem",
@@ -7060,7 +7306,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Latent Wisdom",
@@ -7114,7 +7361,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ancient Fellowship",
@@ -7168,7 +7416,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Heed My Call",
@@ -7222,7 +7471,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Routine Communication",
@@ -7276,7 +7526,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Elemental Reverb",
@@ -7402,7 +7653,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ancestral Influence",
@@ -7456,7 +7708,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Totemic Rebound",
@@ -7502,8 +7755,8 @@
         "spell_id": 445025,
         "icon": "ability_vehicle_electrocharge"
       },
-      "pve_tooltip": "Approximately\n10\nprocs per minute\nChain Heal now jumps to a nearby totem within 20 yards once it reaches its last target, causing the totem to cast Chain Heal on an injured ally within 30 yards for (220.5% of Spell Power). Jumps to 2 nearby targets within 20 yards.",
-      "pvp_tooltip": "Approximately\n10\nprocs per minute\nChain Heal now jumps to a nearby totem within 20 yards once it reaches its last target, causing the totem to cast Chain Heal on an injured ally within 30 yards for (174.195% of Spell Power). Jumps to 2 nearby targets within 20 yards.",
+      "pve_tooltip": "Approximately 10 procs per minute\nChain Heal now jumps to a nearby totem within 20 yards once it reaches its last target, causing the totem to cast Chain Heal on an injured ally within 30 yards for (220.5% of Spell Power). Jumps to 2 nearby targets within 20 yards.",
+      "pvp_tooltip": "Approximately 10 procs per minute\nChain Heal now jumps to a nearby totem within 20 yards once it reaches its last target, causing the totem to cast Chain Heal on an injured ally within 30 yards for (174.195% of Spell Power). Jumps to 2 nearby targets within 20 yards.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -7547,7 +7800,7 @@
           "talent_spell_id": 445025,
           "source_spell_id": 458267,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature (AP mod: 1.61)",
+          "effect_text": "School Damage (Nature) (AP mod: 1.61 )",
           "base_value": null,
           "spell_pvp_multiplier": 0.85,
           "amount_kind": "direct",
@@ -7564,8 +7817,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7576,7 +7830,7 @@
           "talent_spell_id": 445025,
           "source_spell_id": 458357,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 2.205)",
+          "effect_text": "Heal (SP mod: 2.205)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7603,14 +7857,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Amplification Core",
@@ -7664,7 +7918,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Oversurge",
@@ -7710,8 +7965,8 @@
         "spell_id": 445030,
         "icon": "spell_fire_elementaldevastation"
       },
-      "pve_tooltip": "Surging Totem\ndeals 50% more damage\nwhile Ascendance or Healing Tide Totem is active.",
-      "pvp_tooltip": "Surging Totem\ndeals 25% more damage\nwhile Ascendance or Healing Tide Totem is active.",
+      "pve_tooltip": "Surging Totem deals 50% more damage while Ascendance or Healing Tide Totem is active.",
+      "pvp_tooltip": "Surging Totem deals 25% more damage while Ascendance or Healing Tide Totem is active.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -7765,7 +8020,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lively Totems",
@@ -7825,7 +8081,7 @@
           "talent_spell_id": 445034,
           "source_spell_id": 458221,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Dummy (4)",
+          "effect_text": "Apply Aura: Dummy",
           "base_value": 100.0,
           "spell_pvp_multiplier": 1.5,
           "amount_kind": null,
@@ -7842,14 +8098,16 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Totemic Momentum",
@@ -7903,7 +8161,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Offering from Beyond",
@@ -7957,7 +8216,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Primordial Capacity",
@@ -8058,7 +8318,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spiritwalker's Momentum",
@@ -8112,7 +8373,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Windspeaker",
@@ -8166,7 +8428,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Oversized Totems",
@@ -8220,7 +8483,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Swift Recall",
@@ -8274,7 +8538,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wind Barrier",
@@ -8328,7 +8593,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Splitstream",
@@ -8429,7 +8695,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Elemental Attunement",
@@ -8483,7 +8750,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Natural Harmony",
@@ -8537,7 +8805,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Earthen Communion",
@@ -8591,7 +8860,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Maelstrom Supremacy",
@@ -8692,7 +8962,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Final Calling",
@@ -8752,7 +9023,7 @@
           "talent_spell_id": 443446,
           "source_spell_id": 444490,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Absorb Damage (69) (SP mod: 4.725)",
+          "effect_text": "Apply Aura: Absorb Damage (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow) (SP mod: 4.725)",
           "base_value": null,
           "spell_pvp_multiplier": 1.35,
           "amount_kind": "absorb",
@@ -8769,14 +9040,16 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mystic Knowledge",
@@ -8830,7 +9103,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Imbuement Mastery",
@@ -8884,7 +9158,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pulse Capacitor",
@@ -8938,7 +9213,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Supportive Imbuements",
@@ -8992,7 +9268,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Totemic Coordination",
@@ -9046,7 +9323,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Earthsurge",
@@ -9147,7 +9425,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Primal Catalyst",
@@ -9238,7 +9517,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ancestral Swiftness",
@@ -9285,15 +9565,16 @@
         "spell_id": 448861,
         "icon": "inv_ability_farseershaman_ancestralswiftness"
       },
-      "pve_tooltip": "Your next healing or damaging spell\nis instant, costs no mana, and deals 10% increased damage and healing.\nIf you know Nature's Swiftness, it is replaced by Ancestral Swiftness and causes Ancestral Swiftness to call an Ancestor to your side for 8 sec.",
-      "pvp_tooltip": "Your next healing or damaging spell\nis instant, costs no mana, and deals 10% increased damage and healing.\nIf you know Nature's Swiftness, it is replaced by Ancestral Swiftness and causes Ancestral Swiftness to call an Ancestor to your side for 8 sec.",
+      "pve_tooltip": "Your next healing or damaging spell is instant, costs no mana, and deals 10% increased damage and healing.\nIf you know Nature's Swiftness, it is replaced by Ancestral Swiftness and causes Ancestral Swiftness to call an Ancestor to your side for 8 sec.",
+      "pvp_tooltip": "Your next healing or damaging spell is instant, costs no mana, and deals 10% increased damage and healing.\nIf you know Nature's Swiftness, it is replaced by Ancestral Swiftness and causes Ancestral Swiftness to call an Ancestor to your side for 8 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Whirling Elements",
@@ -9340,24 +9621,25 @@
         "spell_id": 445024,
         "icon": "inv_10_enchanting2_elementalswirl_color1"
       },
-      "pve_tooltip": "The cast time of your next healing spell is reduced by 40%\n]\nEarth:\n[\nYour next Chain Heal applies Earthliving at 150% effectiveness to all targets hit\n]\nFire:\nYour next Lava Lash grants you Hot Hand for 8 sec.\nElemental motes orbit around your Surging Totem. Your abilities consume the motes for enhanced effects.\nWater:\nYour next Healing Wave also heals an ally inside of your Healing Rain at 50% effectiveness.\nAir:\n[\nThe cast time of your next healing spell is reduced by 40%\n]\nEarth:\n[\nYour next Chain Heal applies Earthliving at 150% effectiveness to all targets hit\n]",
-      "pvp_tooltip": "The cast time of your next healing spell is reduced by 40%\n]\nEarth:\n[\nYour next Chain Heal applies Earthliving at 150% effectiveness to all targets hit\n]\nFire:\nYour next Lava Lash grants you Hot Hand for 8 sec.\nElemental motes orbit around your Surging Totem. Your abilities consume the motes for enhanced effects.\nWater:\nYour next Healing Wave also heals an ally inside of your Healing Rain at 50% effectiveness.\nAir:\n[\nThe cast time of your next healing spell is reduced by 40%\n]\nEarth:\n[\nYour next Chain Heal applies Earthliving at 150% effectiveness to all targets hit\n]",
+      "pve_tooltip": "Elemental motes orbit around your Surging Totem. Your abilities consume the motes for enhanced effects.\nWater: Your next Healing Wave also heals an ally inside of your Healing Rain at 50% effectiveness.\nAir: Elemental, Restoration\nThe cast time of your next healing spell is reduced by 40%\nEarth: Elemental, Restoration\nYour next Chain Heal applies Earthliving at 150% effectiveness to all targets hit",
+      "pvp_tooltip": "Elemental motes orbit around your Surging Totem. Your abilities consume the motes for enhanced effects.\nWater: Your next Healing Wave also heals an ally inside of your Healing Rain at 50% effectiveness.\nAir: Elemental, Restoration\nThe cast time of your next healing spell is reduced by 40%\nEarth: Elemental, Restoration\nYour next Chain Heal applies Earthliving at 150% effectiveness to all targets hit",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     }
   ],
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "shaman-restoration",
-  "generated_at": "2026-09-20T12:54:06.506348+00:00",
+  "generated_at": "2026-09-20T20:03:04.701450+00:00",
   "validation": {
     "talents": 137,
-    "changed_tooltips": 22,
+    "changed_tooltips": 23,
     "talents_with_pvp_mechanics": 31,
     "unique_nodes": 116,
     "tree_build": "12.1.0.69875",
@@ -9367,37 +9649,11 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 11,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 382024,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=382024'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 383223,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=383223'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 444490,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=444490'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 458221,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=458221'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 458267,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=458267'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }

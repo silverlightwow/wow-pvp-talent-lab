@@ -50,8 +50,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 235450,
         "icon": "spell_magearmor"
       },
-      "pve_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you with an arcane force, absorbing [30 / 100 * Total Health * (1 + Versatility)] damage and reducing magic damage taken by\n15\n% for 1 min.\nThe duration of harmful Magic effects against you is reduced by 25%.",
-      "pvp_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you with an arcane force, absorbing [22.5 / 100 * Total Health * (1 + Versatility)] damage and reducing magic damage taken by\n10\n% for 1 min.\nThe duration of harmful Magic effects against you is reduced by 15%.",
+      "pve_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you with an arcane force, absorbing [30 / 100 * Total Health * (1 + Versatility)] damage and reducing magic damage taken by 15% for 1 min.\nThe duration of harmful Magic effects against you is reduced by 25%.",
+      "pvp_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you with an arcane force, absorbing [22.5 / 100 * Total Health * (1 + Versatility)] damage and reducing magic damage taken by 10% for 1 min.\nThe duration of harmful Magic effects against you is reduced by 15%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -76,8 +76,8 @@ window.WOW_PVP_DATA = {
           ]
         },
         {
-          "start": 261,
-          "end": 263,
+          "start": 260,
+          "end": 262,
           "old_token": "25",
           "new_token": "15",
           "kind": "percent_value",
@@ -215,7 +215,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 3,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Alter Time",
@@ -270,7 +271,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ice Block",
@@ -325,7 +327,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Time Walk",
@@ -379,7 +382,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Temporal Realignment",
@@ -433,7 +437,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Master of Time",
@@ -480,15 +485,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 342249,
         "icon": "inv_belt_armor_waistoftime_d_01"
       },
-      "pve_tooltip": "Reduces the cooldown of\nAlter Time\nby 5 sec.",
-      "pvp_tooltip": "Reduces the cooldown of\nAlter Time\nby 5 sec.",
+      "pve_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Reduces the cooldown of Alter Time by 5 sec.",
+          "pvp_tooltip": "Reduces the cooldown of Alter Time by 5 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
+          "pvp_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Winter's Protection",
@@ -535,8 +558,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 382424,
         "icon": "spell_ice_rune"
       },
-      "pve_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
-      "pvp_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
+      "pve_tooltip": "The cooldown of Ice Block is reduced by 60 sec.",
+      "pvp_tooltip": "The cooldown of Ice Block is reduced by 60 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -547,8 +570,8 @@ window.WOW_PVP_DATA = {
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
           "kind": "ordinary_value",
-          "old": 30000.0,
-          "new": 15000.0,
+          "old": 60000.0,
+          "new": 30000.0,
           "full_tooltip_match_count": 0
         }
       ],
@@ -588,7 +611,25 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
+          "pvp_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "The cooldown of Ice Block is reduced by 60 sec.",
+          "pvp_tooltip": "The cooldown of Ice Block is reduced by 60 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Frost Conditioning",
@@ -642,7 +683,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Arcane Warding",
@@ -690,15 +732,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 383092,
         "icon": "spell_arcane_arcaneresilience"
       },
-      "pve_tooltip": "Reduces magic damage taken by 4%.",
-      "pvp_tooltip": "Reduces magic damage taken by 4%.",
+      "pve_tooltip": "Reduces magic damage taken by 8%.",
+      "pvp_tooltip": "Reduces magic damage taken by 8%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Reduces magic damage taken by 4%.",
+          "pvp_tooltip": "Reduces magic damage taken by 4%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Reduces magic damage taken by 8%.",
+          "pvp_tooltip": "Reduces magic damage taken by 8%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Inspired Intellect",
@@ -755,7 +815,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mirror Image",
@@ -811,7 +872,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spellsteal",
@@ -858,15 +920,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 30449,
         "icon": "spell_arcane_arcane02"
       },
-      "pve_tooltip": "21% of base mana\n40 yd range\nInstant\nSteals [\nKleptomania\n:\nall beneficial magic effects from the target. These effects lasts a maximum of 2 min\n/ a beneficial magic effect from the target. This effect lasts a maximum of 2 min].",
-      "pvp_tooltip": "21% of base mana\n40 yd range\nInstant\nSteals [\nKleptomania\n:\nall beneficial magic effects from the target. These effects lasts a maximum of 2 min\n/ a beneficial magic effect from the target. This effect lasts a maximum of 2 min].",
+      "pve_tooltip": "21% of base mana\n40 yd range\nInstant\nSteals [Kleptomania: all beneficial magic effects from the target. These effects lasts a maximum of 2 min / a beneficial magic effect from the target. This effect lasts a maximum of 2 min].",
+      "pvp_tooltip": "21% of base mana\n40 yd range\nInstant\nSteals [Kleptomania: all beneficial magic effects from the target. These effects lasts a maximum of 2 min / a beneficial magic effect from the target. This effect lasts a maximum of 2 min].",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Quick Witted",
@@ -923,7 +986,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dragon's Breath",
@@ -1032,7 +1096,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Supernova",
@@ -1141,7 +1206,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Remove Curse",
@@ -1198,7 +1264,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Conjuration",
@@ -1244,31 +1311,21 @@ window.WOW_PVP_DATA = {
         "spell_id": 1244025,
         "icon": "spell_arcane_focusedpower"
       },
-      "pve_tooltip": "Mirror Image's cooldown is reduced by 30 sec.",
-      "pvp_tooltip": "Mirror Image's cooldown is reduced by 15 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 38,
-          "end": 40,
-          "old_token": "30",
-          "new_token": "15",
-          "kind": "duration_seconds",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
+      "pve_tooltip": "Mirror Image's cooldown is reduced by 60 sec.",
+      "pvp_tooltip": "Mirror Image's cooldown is reduced by 60 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "APPLIED",
-          "kind": "duration_seconds",
-          "old": "30",
-          "new": "15"
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 60000.0,
+          "new": 30000.0,
+          "full_tooltip_match_count": 0
         }
       ],
       "has_pvp_mechanics": true,
@@ -1299,7 +1356,25 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Mirror Image's cooldown is reduced by 30 sec.",
+          "pvp_tooltip": "Mirror Image's cooldown is reduced by 30 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Mirror Image's cooldown is reduced by 60 sec.",
+          "pvp_tooltip": "Mirror Image's cooldown is reduced by 60 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Improved Spellsteal",
@@ -1449,7 +1524,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shimmer",
@@ -1498,8 +1574,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 212653,
         "icon": "spell_arcane_massdispel"
       },
-      "pve_tooltip": "Replaces\nBlink\n2% of base mana\nInstant\n30 sec cooldown\n1 Charge\nTeleports you 20 yds forward, unless something is in the way. Unaffected by the global cooldown and castable while casting.",
-      "pvp_tooltip": "Replaces\nBlink\n2% of base mana\nInstant\n30 sec cooldown\n1 Charge\nTeleports you 20 yds forward, unless something is in the way. Unaffected by the global cooldown and castable while casting.",
+      "pve_tooltip": "Replaces Blink\n2% of base mana\nInstant\n30 sec cooldown\n1 Charge\nTeleports you 20 yds forward, unless something is in the way. Unaffected by the global cooldown and castable while casting.",
+      "pvp_tooltip": "Replaces Blink\n2% of base mana\nInstant\n30 sec cooldown\n1 Charge\nTeleports you 20 yds forward, unless something is in the way. Unaffected by the global cooldown and castable while casting.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1547,7 +1623,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Blink",
@@ -1596,8 +1673,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1244340,
         "icon": "spell_arcane_blink"
       },
-      "pve_tooltip": "[\nShimmer\n/ Blink]'s cooldown is reduced by 2 sec.",
-      "pvp_tooltip": "[\nShimmer\n/ Blink]'s cooldown is reduced by 2 sec.",
+      "pve_tooltip": "[Shimmer / Blink]'s cooldown is reduced by 2 sec.",
+      "pvp_tooltip": "[Shimmer / Blink]'s cooldown is reduced by 2 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1641,7 +1718,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Counterspell",
@@ -1695,7 +1773,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Overflowing Energy",
@@ -1753,7 +1832,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Remove Curse",
@@ -1807,7 +1887,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Greater Invisibility",
@@ -1864,7 +1945,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Frost Nova",
@@ -1919,7 +2001,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ice Ward",
@@ -1974,7 +2057,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Captured Thoughts",
@@ -2028,7 +2112,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tome of Rhonin",
@@ -2086,7 +2171,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Warding",
@@ -2140,7 +2226,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tome of Antonidas",
@@ -2198,7 +2285,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Incantation of Swiftness",
@@ -2244,16 +2332,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 382293,
         "icon": "rogue_burstofspeed"
       },
-      "pve_tooltip": "[\nGreater Invisibility\n:\nGreater\n]Invisibility increases your movement speed by 20% for 6 sec.",
-      "pvp_tooltip": "[\nGreater Invisibility\n:\nGreater\n]Invisibility increases your movement speed by 10% for 6 sec.",
+      "pve_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 40% for 6 sec.",
+      "pvp_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 20% for 6 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 80,
-          "end": 82,
-          "old_token": "20",
-          "new_token": "10",
+          "start": 77,
+          "end": 79,
+          "old_token": "40",
+          "new_token": "20",
           "kind": "percent_value",
           "effect_indexes": [
             1
@@ -2267,8 +2355,8 @@ window.WOW_PVP_DATA = {
           ],
           "status": "APPLIED",
           "kind": "percent_value",
-          "old": "20",
-          "new": "10"
+          "old": "40",
+          "new": "20"
         }
       ],
       "has_pvp_mechanics": true,
@@ -2299,7 +2387,25 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 20% for 6 sec.",
+          "pvp_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 10% for 6 sec.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 40% for 6 sec.",
+          "pvp_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 20% for 6 sec.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Master of Escape",
@@ -2353,7 +2459,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Charm of Aegwynn",
@@ -2411,7 +2518,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Brainstorm",
@@ -2465,7 +2573,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flow of Time",
@@ -2584,7 +2693,8 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mana Confluence",
@@ -2638,7 +2748,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Charm of Medivh",
@@ -2696,7 +2807,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Permafrost Bauble",
@@ -2750,7 +2862,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Freezing Cold",
@@ -2856,7 +2969,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ice Nova",
@@ -2965,7 +3079,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Time Manipulation",
@@ -3022,7 +3137,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ring of Frost",
@@ -3128,7 +3244,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mass Polymorph",
@@ -3182,7 +3299,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Energized Barriers",
@@ -3239,7 +3357,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mass Invisibility",
@@ -3293,7 +3412,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Barrier Diffusion",
@@ -3384,7 +3504,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ice Cold",
@@ -3438,7 +3559,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spatial Manipulation",
@@ -3484,15 +3606,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 1244031,
         "icon": "spell_mage_overpowered"
       },
-      "pve_tooltip": "[\nShimmer\n/ Blink] gains an additional charge.",
-      "pvp_tooltip": "[\nShimmer\n/ Blink] gains an additional charge.",
+      "pve_tooltip": "[Shimmer / Blink] gains an additional charge.",
+      "pvp_tooltip": "[Shimmer / Blink] gains an additional charge.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Reflection",
@@ -3538,15 +3661,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 1270829,
         "icon": "ability_hunter_displacement"
       },
-      "pve_tooltip": "Teleports you back to where you last [\nShimmer\n:\nShimmered\n/ Blinked]. Castable while casting and unaffected by the global cooldown.",
-      "pvp_tooltip": "Teleports you back to where you last [\nShimmer\n:\nShimmered\n/ Blinked]. Castable while casting and unaffected by the global cooldown.",
+      "pve_tooltip": "After casting [Shimmer / Blink], it is replaced with Reflection for 8 sec.\nReflection\nTeleports you back to where you last [Shimmer: Shimmered / Blinked]. Castable while casting and unaffected by the global cooldown.",
+      "pvp_tooltip": "After casting [Shimmer / Blink], it is replaced with Reflection for 8 sec.\nReflection\nTeleports you back to where you last [Shimmer: Shimmered / Blinked]. Castable while casting and unaffected by the global cooldown.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Prismatic Barrier",
@@ -3600,7 +3724,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Arcane Missiles",
@@ -3753,7 +3878,8 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Concentrated Power",
@@ -3808,7 +3934,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Arcane Salvo",
@@ -3906,7 +4033,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Clearcasting",
@@ -3960,7 +4088,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Refractive Images",
@@ -4015,7 +4144,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Arcing Cleave",
@@ -4069,7 +4199,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Arcane Pulse",
@@ -4179,7 +4310,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Arcane Surge",
@@ -4227,8 +4359,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 365350,
         "icon": "ability_mage_arcanesurge"
       },
-      "pve_tooltip": "1 to 2900001 Mana\n40 yd range\n2.5 sec cast\n1.5 min cooldown\nExpend all of your current mana to annihilate your enemy target and nearby enemies for up to\n[(372% of Spell Power) * 2]\nArcane damage based on Mana spent. Deals reduced damage beyond 8 targets.\nFor the next 15 sec, your Mana regeneration is increased by 425% and spell damage is increased by 35%.\nGenerates Clearcasting.",
-      "pvp_tooltip": "1 to 2900001 Mana\n40 yd range\n2.5 sec cast\n1.5 min cooldown\nExpend all of your current mana to annihilate your enemy target and nearby enemies for up to\n[(494.76% of Spell Power) * 2]\nArcane damage based on Mana spent. Deals reduced damage beyond 8 targets.\nFor the next 15 sec, your Mana regeneration is increased by 425% and spell damage is increased by 15%.\nGenerates Clearcasting.",
+      "pve_tooltip": "1 to 2900001 Mana\n40 yd range\n2.5 sec cast\n1.5 min cooldown\nExpend all of your current mana to annihilate your enemy target and nearby enemies for up to [(372% of Spell Power) * 2] Arcane damage based on Mana spent. Deals reduced damage beyond 8 targets.\nFor the next 15 sec, your Mana regeneration is increased by 425% and spell damage is increased by 35%.\nGenerates Clearcasting.",
+      "pvp_tooltip": "1 to 2900001 Mana\n40 yd range\n2.5 sec cast\n1.5 min cooldown\nExpend all of your current mana to annihilate your enemy target and nearby enemies for up to [(494.76% of Spell Power) * 2] Arcane damage based on Mana spent. Deals reduced damage beyond 8 targets.\nFor the next 15 sec, your Mana regeneration is increased by 425% and spell damage is increased by 15%.\nGenerates Clearcasting.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4371,7 +4503,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Arcane Orb",
@@ -4488,7 +4621,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Reverberate",
@@ -4542,7 +4676,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Presence of Mind",
@@ -4591,15 +4726,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 205025,
         "icon": "spell_nature_enchantarmor"
       },
-      "pve_tooltip": "Instant\n45 sec cooldown\nCauses your next 2 Arcane Blasts to be instant cast\n.",
-      "pvp_tooltip": "Instant\n45 sec cooldown\nCauses your next 2 Arcane Blasts to be instant cast\n.",
+      "pve_tooltip": "Instant\n45 sec cooldown\nCauses your next 2 Arcane Blasts to be instant cast.",
+      "pvp_tooltip": "Instant\n45 sec cooldown\nCauses your next 2 Arcane Blasts to be instant cast.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Slipstream",
@@ -4656,7 +4792,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mana Bomb",
@@ -4708,7 +4845,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Arcane Familiar",
@@ -4765,7 +4903,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Charged Orb",
@@ -4819,7 +4958,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Intuition",
@@ -4876,7 +5016,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Amplification",
@@ -4928,7 +5069,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Touch of the Magi",
@@ -4985,7 +5127,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Energized Familiar",
@@ -5039,7 +5182,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Expanded Mind",
@@ -5095,7 +5239,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Consortium's Bauble",
@@ -5149,7 +5294,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Arcane Tempo",
@@ -5203,7 +5349,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Aether Attunement",
@@ -5251,15 +5398,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 1243307,
         "icon": "inv_enchant_essencearcanelarge"
       },
-      "pve_tooltip": "Arcane Missiles now damages 2 additional targets at 50% effectiveness.",
-      "pvp_tooltip": "Arcane Missiles now damages 2 additional targets at 50% effectiveness.",
+      "pve_tooltip": "Arcane Missiles now damages 4 additional targets at 50% effectiveness.",
+      "pvp_tooltip": "Arcane Missiles now damages 4 additional targets at 50% effectiveness.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Arcane Missiles now damages 2 additional targets at 50% effectiveness.",
+          "pvp_tooltip": "Arcane Missiles now damages 2 additional targets at 50% effectiveness.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Arcane Missiles now damages 4 additional targets at 50% effectiveness.",
+          "pvp_tooltip": "Arcane Missiles now damages 4 additional targets at 50% effectiveness.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Aegwynn's Technique",
@@ -5314,7 +5479,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Arcane Echo",
@@ -5361,14 +5527,14 @@ window.WOW_PVP_DATA = {
         "spell_id": 342231,
         "icon": "ability_socererking_arcanewrath"
       },
-      "pve_tooltip": "Direct damage you deal to enemies affected by [\nNether Flux\n/ Touch of the Magi], causes an explosion that deals [\nNether Flux\n:\n[(10% of Spell Power) * 5]\n/ (10% of Spell Power)] Arcane damage to all nearby enemies. Deals reduced damage beyond 8 targets.",
-      "pvp_tooltip": "Direct damage you deal to enemies affected by [\nNether Flux\n/ Touch of the Magi], causes an explosion that deals [\nNether Flux\n:\n[(9.5% of Spell Power) * 5]\n/ (9.5% of Spell Power)] Arcane damage to all nearby enemies. Deals reduced damage beyond 8 targets.",
+      "pve_tooltip": "Direct damage you deal to enemies affected by [Nether Flux / Touch of the Magi], causes an explosion that deals [Nether Flux: [(10% of Spell Power) * 5] / (10% of Spell Power)] Arcane damage to all nearby enemies. Deals reduced damage beyond 8 targets.",
+      "pvp_tooltip": "Direct damage you deal to enemies affected by [Nether Flux / Touch of the Magi], causes an explosion that deals [Nether Flux: [(9.5% of Spell Power) * 5] / (9.5% of Spell Power)] Arcane damage to all nearby enemies. Deals reduced damage beyond 8 targets.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 131,
-          "end": 133,
+          "start": 128,
+          "end": 130,
           "old_token": "10",
           "new_token": "9.5",
           "kind": "spell_power_coefficient",
@@ -5377,8 +5543,8 @@ window.WOW_PVP_DATA = {
           ]
         },
         {
-          "start": 159,
-          "end": 161,
+          "start": 156,
+          "end": 158,
           "old_token": "10",
           "new_token": "9.5",
           "kind": "spell_power_coefficient",
@@ -5448,7 +5614,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Resonance",
@@ -5505,7 +5672,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Impetus",
@@ -5559,7 +5727,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Evocation",
@@ -5615,7 +5784,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mana Adept",
@@ -5671,7 +5841,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Enlightened",
@@ -5727,7 +5898,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Focusing Crystal",
@@ -5783,7 +5955,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Illuminated Thoughts",
@@ -5838,7 +6011,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Prodigious Savant",
@@ -5886,15 +6060,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 384612,
         "icon": "ability_mage_studentofthemind"
       },
-      "pve_tooltip": "Arcane Charges increase the damage of Arcane Blast and Arcane Barrage by an additional 10%.",
-      "pvp_tooltip": "Arcane Charges increase the damage of Arcane Blast and Arcane Barrage by an additional 10%.",
+      "pve_tooltip": "Arcane Charges increase the damage of Arcane Blast and Arcane Barrage by an additional 20%.",
+      "pvp_tooltip": "Arcane Charges increase the damage of Arcane Blast and Arcane Barrage by an additional 20%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Arcane Charges increase the damage of Arcane Blast and Arcane Barrage by an additional 10%.",
+          "pvp_tooltip": "Arcane Charges increase the damage of Arcane Blast and Arcane Barrage by an additional 10%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Arcane Charges increase the damage of Arcane Blast and Arcane Barrage by an additional 20%.",
+          "pvp_tooltip": "Arcane Charges increase the damage of Arcane Blast and Arcane Barrage by an additional 20%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Eureka",
@@ -5949,7 +6141,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Arcane Singularity",
@@ -5997,16 +6190,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 1244001,
         "icon": "spell_nature_wispheal"
       },
-      "pve_tooltip": "Arcane Salvo damage bonus increased by 2%.\nArcane Salvo\n:\nIncreases the damage of your next Arcane Barrage by 3%.",
-      "pvp_tooltip": "Arcane Salvo damage bonus increased by 1%.\nArcane Salvo\n:\nIncreases the damage of your next Arcane Barrage by 3%.",
+      "pve_tooltip": "Arcane Salvo damage bonus increased by 4%.\nArcane Salvo:\nIncreases the damage of your next Arcane Barrage by 3%.",
+      "pvp_tooltip": "Arcane Salvo damage bonus increased by 2%.\nArcane Salvo:\nIncreases the damage of your next Arcane Barrage by 3%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
           "start": 39,
           "end": 40,
-          "old_token": "2",
-          "new_token": "1",
+          "old_token": "4",
+          "new_token": "2",
           "kind": "percent_value",
           "effect_indexes": [
             1
@@ -6020,8 +6213,8 @@ window.WOW_PVP_DATA = {
           ],
           "status": "APPLIED",
           "kind": "percent_value",
-          "old": "2",
-          "new": "1"
+          "old": "4",
+          "new": "2"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6094,7 +6287,25 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Arcane Salvo damage bonus increased by 2%.\nArcane Salvo:\nIncreases the damage of your next Arcane Barrage by 3%.",
+          "pvp_tooltip": "Arcane Salvo damage bonus increased by 1%.\nArcane Salvo:\nIncreases the damage of your next Arcane Barrage by 3%.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Arcane Salvo damage bonus increased by 4%.\nArcane Salvo:\nIncreases the damage of your next Arcane Barrage by 3%.",
+          "pvp_tooltip": "Arcane Salvo damage bonus increased by 2%.\nArcane Salvo:\nIncreases the damage of your next Arcane Barrage by 3%.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "High Voltage",
@@ -6146,7 +6357,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Charged Missiles",
@@ -6198,7 +6410,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Overflowing Insight",
@@ -6250,7 +6463,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Overpowered Missiles",
@@ -6354,7 +6568,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Orb Mastery",
@@ -6406,7 +6621,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Orb Barrage",
@@ -6458,7 +6674,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Prismatic Bolt",
@@ -6500,8 +6717,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1295923,
         "icon": "inv12_apextalent_mage_touchofthearchmage"
       },
-      "pve_tooltip": "Devastates the target with overwhelming energy, dealing (3200% of Spell Power) Arcane damage to them and (2500% of Spell Power) Arcane damage to other nearby enemies. Damage reduced beyond 5 targets.\nGenerates 4 Arcane Charges.",
-      "pvp_tooltip": "Devastates the target with overwhelming energy, dealing (3200% of Spell Power) Arcane damage to them and (2500% of Spell Power) Arcane damage to other nearby enemies. Damage reduced beyond 5 targets.\nGenerates 4 Arcane Charges.",
+      "pve_tooltip": "40 yd range\nArcane Barrage has a 1% chance per stack of Arcane Salvo consumed to replace your next Arcane Blast with Prismatic Bolt.\nPrismatic Bolt\nDevastates the target with overwhelming energy, dealing (3200% of Spell Power) Arcane damage to them and (2500% of Spell Power) Arcane damage to other nearby enemies. Damage reduced beyond 5 targets.\nGenerates 4 Arcane Charges.",
+      "pvp_tooltip": "40 yd range\nArcane Barrage has a 1% chance per stack of Arcane Salvo consumed to replace your next Arcane Blast with Prismatic Bolt.\nPrismatic Bolt\nDevastates the target with overwhelming energy, dealing (3200% of Spell Power) Arcane damage to them and (2500% of Spell Power) Arcane damage to other nearby enemies. Damage reduced beyond 5 targets.\nGenerates 4 Arcane Charges.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6587,7 +6804,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Prismatic Bolt",
@@ -6637,7 +6855,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Prismatic Bolt",
@@ -6687,7 +6906,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Splintering Sorcery",
@@ -6734,8 +6954,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 443739,
         "icon": "achievement_dungeon_arcanevaults"
       },
-      "pve_tooltip": "Casting Arcane Blast or Arcane Pulse conjures an Arcane Splinter.\nArcane Splinter\n:\nConjure raw Arcane magic into a sharp projectile that deals (43.65% of Spell Power) Arcane damage.",
-      "pvp_tooltip": "Casting Arcane Blast or Arcane Pulse conjures an Arcane Splinter.\nArcane Splinter\n:\nConjure raw Arcane magic into a sharp projectile that deals (43.65% of Spell Power) Arcane damage.",
+      "pve_tooltip": "Casting Arcane Blast or Arcane Pulse conjures an Arcane Splinter.\nArcane Splinter:\nConjure raw Arcane magic into a sharp projectile that deals (43.65% of Spell Power) Arcane damage.",
+      "pvp_tooltip": "Casting Arcane Blast or Arcane Pulse conjures an Arcane Splinter.\nArcane Splinter:\nConjure raw Arcane magic into a sharp projectile that deals (43.65% of Spell Power) Arcane damage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6819,7 +7039,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Augury Abounds",
@@ -6873,7 +7094,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Force of Will",
@@ -6927,7 +7149,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Splintering Orbs",
@@ -6981,7 +7204,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Attuned Familiar",
@@ -7035,7 +7259,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shifting Shards",
@@ -7089,7 +7314,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Slippery Slinging",
@@ -7135,8 +7361,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 444752,
         "icon": "ability_mage_icyfeet"
       },
-      "pve_tooltip": "You have 40% increased movement speed during Alter Time\n.",
-      "pvp_tooltip": "You have 20% increased movement speed during Alter Time\n.",
+      "pve_tooltip": "You have 40% increased movement speed during Alter Time.",
+      "pvp_tooltip": "You have 20% increased movement speed during Alter Time.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -7190,7 +7416,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Look Again",
@@ -7244,7 +7471,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Controlled Instincts",
@@ -7339,7 +7567,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Reactive Barrier",
@@ -7459,7 +7688,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Phantasmal Image",
@@ -7513,7 +7743,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Infused Splinters",
@@ -7567,7 +7798,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Archmage's Wrath",
@@ -7621,7 +7853,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Signature Spell",
@@ -7675,7 +7908,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spellfrost Teachings",
@@ -7729,7 +7963,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Polished Focus",
@@ -7783,7 +8018,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Splinterstorm",
@@ -7838,7 +8074,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spellfire Spheres",
@@ -7982,7 +8219,8 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mana Cascade",
@@ -8036,7 +8274,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Invocation: Arcane Phoenix",
@@ -8090,7 +8329,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Burden of Power",
@@ -8144,7 +8384,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Glorious Incandescence",
@@ -8239,7 +8480,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Merely a Setback",
@@ -8530,7 +8772,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Time Twist",
@@ -8584,7 +8827,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Codex of the Sunstriders",
@@ -8638,7 +8882,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lessons in Debilitation",
@@ -8692,7 +8937,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Explosive Potential",
@@ -8738,8 +8984,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1246030,
         "icon": "6bf_explosive_shard"
       },
-      "pve_tooltip": "After casting Arcane Surge, your next\nBlink\nwill cause a Blast Wave at your previous location, dealing (54.3375% of Spell Power) Fire damage, knocking enemies back 8 yds, and slowing them by 70% for 6 sec.",
-      "pvp_tooltip": "After casting Arcane Surge, your next\nBlink\nwill cause a Blast Wave at your previous location, dealing (51.6206% of Spell Power) Fire damage, knocking enemies back 8 yds, and slowing them by 70% for 6 sec.",
+      "pve_tooltip": "After casting Arcane Surge, your next Blink will cause a Blast Wave at your previous location, dealing (54.3375% of Spell Power) Fire damage, knocking enemies back 8 yds, and slowing them by 70% for 6 sec.",
+      "pvp_tooltip": "After casting Arcane Surge, your next Blink will cause a Blast Wave at your previous location, dealing (51.6206% of Spell Power) Fire damage, knocking enemies back 8 yds, and slowing them by 70% for 6 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -8835,7 +9081,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pyrocosm",
@@ -8889,7 +9136,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Savor the Moment",
@@ -8943,7 +9191,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sunfury Execution",
@@ -8997,7 +9246,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ashes of Inspiration",
@@ -9051,7 +9301,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rondurmancy",
@@ -9105,7 +9356,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spellfire Salvo",
@@ -9159,7 +9411,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Memory of Al'ar",
@@ -9206,15 +9459,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 449619,
         "icon": "inv_ability_sunfurymage_spellfirespheres"
       },
-      "pve_tooltip": "When your Arcane Phoenix expires it empowers you, granting Arcane Soul for 4.0 sec.\nArcane Soul\n:\nArcane Barrage grants Clearcasting and generates 4 Arcane Charges.\nEach cast of Arcane Barrage grants 5 stacks of Arcane Salvo and casting Arcane Barrage does not consume Arcane Salvo.",
-      "pvp_tooltip": "When your Arcane Phoenix expires it empowers you, granting Arcane Soul for 4.0 sec.\nArcane Soul\n:\nArcane Barrage grants Clearcasting and generates 4 Arcane Charges.\nEach cast of Arcane Barrage grants 5 stacks of Arcane Salvo and casting Arcane Barrage does not consume Arcane Salvo.",
+      "pve_tooltip": "When your Arcane Phoenix expires it empowers you, granting Arcane Soul for 4.0 sec.\nArcane Soul:\nArcane Barrage grants Clearcasting and generates 4 Arcane Charges.\nEach cast of Arcane Barrage grants 5 stacks of Arcane Salvo and casting Arcane Barrage does not consume Arcane Salvo.",
+      "pvp_tooltip": "When your Arcane Phoenix expires it empowers you, granting Arcane Soul for 4.0 sec.\nArcane Soul:\nArcane Barrage grants Clearcasting and generates 4 Arcane Charges.\nEach cast of Arcane Barrage grants 5 stacks of Arcane Salvo and casting Arcane Barrage does not consume Arcane Salvo.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     }
   ],
   "fetch_errors": [],
@@ -9250,10 +9504,10 @@ window.WOW_PVP_DATA = {
     }
   ],
   "slug": "mage-arcane",
-  "generated_at": "2026-09-20T12:51:02.049232+00:00",
+  "generated_at": "2026-09-20T20:00:42.427642+00:00",
   "validation": {
     "talents": 128,
-    "changed_tooltips": 18,
+    "changed_tooltips": 17,
     "talents_with_pvp_mechanics": 31,
     "unique_nodes": 109,
     "tree_build": "12.1.0.69875",

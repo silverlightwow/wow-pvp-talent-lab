@@ -50,8 +50,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1064,
         "icon": "inv_1115_shaman_chainheal"
       },
-      "pve_tooltip": "15% of base mana\n40 yd range\n2 sec cast\nHeals the friendly target for (231% of Spell Power), then jumps up to\n20\nyards to heal the 3 most injured nearby allies. Healing is reduced by\n30\n% with each jump.",
-      "pvp_tooltip": "15% of base mana\n40 yd range\n2 sec cast\nHeals the friendly target for (277.2% of Spell Power), then jumps up to\n20\nyards to heal the 3 most injured nearby allies. Healing is reduced by\n30\n% with each jump.",
+      "pve_tooltip": "15% of base mana\n40 yd range\n2 sec cast\nHeals the friendly target for (231% of Spell Power), then jumps up to 20 yards to heal the 3 most injured nearby allies. Healing is reduced by 30% with each jump.",
+      "pvp_tooltip": "15% of base mana\n40 yd range\n2 sec cast\nHeals the friendly target for (277.2% of Spell Power), then jumps up to 20 yards to heal the 3 most injured nearby allies. Healing is reduced by 30% with each jump.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -105,7 +105,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lava Burst",
@@ -207,7 +208,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Chain Lightning",
@@ -324,7 +326,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Earth Shield",
@@ -371,8 +374,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 974,
         "icon": "spell_nature_skinofearth"
       },
-      "pve_tooltip": "5% of base mana\n40 yd range\nInstant\nProtects the target with an earthen shield, increasing your healing on them by 20% and healing them for [(73% of Spell Power) * (1.2)] when they take damage. This heal can only occur once every\n3\nsec.\nMaximum 9 charges\n.\n[\nElemental Orbit\n:\nEarth Shield can only be placed on the Shaman and one other target at a time. The Shaman can have up to two Elemental Shields active on them\n/ Earth Shield can only be placed on one target at a time. Only one Elemental Shield can be active on the Shaman.]\n(3s cooldown)",
-      "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\nProtects the target with an earthen shield, increasing your healing on them by 20% and healing them for [(39.0915% of Spell Power) * (1.2)] when they take damage. This heal can only occur once every\n3\nsec.\nMaximum 9 charges\n.\n[\nElemental Orbit\n:\nEarth Shield can only be placed on the Shaman and one other target at a time. The Shaman can have up to two Elemental Shields active on them\n/ Earth Shield can only be placed on one target at a time. Only one Elemental Shield can be active on the Shaman.]\n(3s cooldown)",
+      "pve_tooltip": "5% of base mana\n40 yd range\nInstant\nProtects the target with an earthen shield, increasing your healing on them by 20% and healing them for [(73% of Spell Power) * (1.2)] when they take damage. This heal can only occur once every 3 sec. Maximum 9 charges.\n[Elemental Orbit: Earth Shield can only be placed on the Shaman and one other target at a time. The Shaman can have up to two Elemental Shields active on them / Earth Shield can only be placed on one target at a time. Only one Elemental Shield can be active on the Shaman.]\n(3s cooldown)",
+      "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\nProtects the target with an earthen shield, increasing your healing on them by 20% and healing them for [(39.0915% of Spell Power) * (1.2)] when they take damage. This heal can only occur once every 3 sec. Maximum 9 charges.\n[Elemental Orbit: Earth Shield can only be placed on the Shaman and one other target at a time. The Shaman can have up to two Elemental Shields active on them / Earth Shield can only be placed on one target at a time. Only one Elemental Shield can be active on the Shaman.]\n(3s cooldown)",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -441,7 +444,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ancestral Wolf Affinity",
@@ -497,7 +501,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fire and Ice",
@@ -551,7 +556,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spirit Wolf",
@@ -607,7 +613,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thunderous Paws",
@@ -663,7 +670,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frost Shock",
@@ -782,7 +790,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Elemental Orbit",
@@ -836,7 +845,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spirit Walk",
@@ -892,7 +902,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gust of Wind",
@@ -948,7 +959,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Astral Shift",
@@ -998,15 +1010,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 108271,
         "icon": "ability_shaman_astralshift"
       },
-      "pve_tooltip": "Instant\n2 min cooldown\nShift partially into the elemental planes, taking\n40\n% less damage for 12 sec.",
-      "pvp_tooltip": "Instant\n2 min cooldown\nShift partially into the elemental planes, taking\n40\n% less damage for 12 sec.",
+      "pve_tooltip": "Instant\n2 min cooldown\nShift partially into the elemental planes, taking 40% less damage for 12 sec.",
+      "pvp_tooltip": "Instant\n2 min cooldown\nShift partially into the elemental planes, taking 40% less damage for 12 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Nature's Guardian",
@@ -1062,7 +1075,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Encasing Cold",
@@ -1116,7 +1130,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Arctic Snowstorm",
@@ -1222,7 +1237,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Healing Stream Totem",
@@ -1270,15 +1286,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 392915,
         "icon": "inv_spear_04"
       },
-      "pve_tooltip": ".",
-      "pvp_tooltip": ".",
+      "pve_tooltip": "1.8% of base mana / 5.0% of base mana / 5.0% of base mana / 5.0% of base mana\nInstant\n30 sec recharge\nSummons a totem at your feet for 15 sec that heals [Rushing Streams: two injured party or raid members / an injured party or raid member] within 40 yards for (67.68% of Spell Power) every 2 sec.\nIf you already know Healing Stream Totem, instead gain 1 additional charge of Healing Stream Totem.",
+      "pvp_tooltip": "1.8% of base mana / 5.0% of base mana / 5.0% of base mana / 5.0% of base mana\nInstant\n30 sec recharge\nSummons a totem at your feet for 15 sec that heals [Rushing Streams: two injured party or raid members / an injured party or raid member] within 40 yards for (67.68% of Spell Power) every 2 sec.\nIf you already know Healing Stream Totem, instead gain 1 additional charge of Healing Stream Totem.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Winds of Al'Akir",
@@ -1326,15 +1343,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 382215,
         "icon": "ability_druid_galewinds"
       },
-      "pve_tooltip": "Increases your movement speed by 5% and the movement speed bonus of Ghost Wolf by an additional 5%.",
-      "pvp_tooltip": "Increases your movement speed by 5% and the movement speed bonus of Ghost Wolf by an additional 5%.",
+      "pve_tooltip": "Increases your movement speed by 6% and the movement speed bonus of Ghost Wolf by an additional 10%.",
+      "pvp_tooltip": "Increases your movement speed by 6% and the movement speed bonus of Ghost Wolf by an additional 10%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Increases your movement speed by 3% and the movement speed bonus of Ghost Wolf by an additional 5%.",
+          "pvp_tooltip": "Increases your movement speed by 3% and the movement speed bonus of Ghost Wolf by an additional 5%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Increases your movement speed by 6% and the movement speed bonus of Ghost Wolf by an additional 10%.",
+          "pvp_tooltip": "Increases your movement speed by 6% and the movement speed bonus of Ghost Wolf by an additional 10%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Planes Traveler",
@@ -1389,7 +1424,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Astral Bulwark",
@@ -1444,7 +1480,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Brimming with Life",
@@ -1492,15 +1529,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 381689,
         "icon": "inv_jewelry_talisman_06"
       },
-      "pve_tooltip": "Stamina increased by 8%.\nWhile you are at full health, Reincarnation cools down 50% faster.",
-      "pvp_tooltip": "Stamina increased by 8%.\nWhile you are at full health, Reincarnation cools down 50% faster.",
+      "pve_tooltip": "Stamina increased by 15%.\nWhile you are at full health, Reincarnation cools down 100% faster.",
+      "pvp_tooltip": "Stamina increased by 15%.\nWhile you are at full health, Reincarnation cools down 100% faster.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Stamina increased by 8%.\nWhile you are at full health, Reincarnation cools down 50% faster.",
+          "pvp_tooltip": "Stamina increased by 8%.\nWhile you are at full health, Reincarnation cools down 50% faster.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Stamina increased by 15%.\nWhile you are at full health, Reincarnation cools down 100% faster.",
+          "pvp_tooltip": "Stamina increased by 15%.\nWhile you are at full health, Reincarnation cools down 100% faster.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Wind Shear",
@@ -1556,7 +1611,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Elemental Resistance",
@@ -1610,7 +1666,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Earthgrab Totem",
@@ -1718,7 +1775,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Capacitor Totem",
@@ -1775,7 +1833,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spiritual Awakening",
@@ -1831,7 +1890,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Enhanced Imbues",
@@ -1886,7 +1946,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Windveil",
@@ -1940,7 +2001,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Refreshing Waters",
@@ -1996,7 +2058,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cleanse Spirit",
@@ -2052,7 +2115,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Static Charge",
@@ -2098,15 +2162,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 265046,
         "icon": "spell_nature_brilliance"
       },
-      "pve_tooltip": "Reduces the cooldown of Capacitor Totem by 15 sec.",
-      "pvp_tooltip": "Reduces the cooldown of Capacitor Totem by 15 sec.",
+      "pve_tooltip": "Reduces the cooldown of Capacitor Totem by 20 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Capacitor Totem by 20 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Reduces the cooldown of Capacitor Totem by 10 sec.",
+          "pvp_tooltip": "Reduces the cooldown of Capacitor Totem by 10 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Reduces the cooldown of Capacitor Totem by 20 sec.",
+          "pvp_tooltip": "Reduces the cooldown of Capacitor Totem by 20 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Wind Rush Totem",
@@ -2162,7 +2244,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Earth Elemental",
@@ -2210,15 +2293,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 198103,
         "icon": "spell_nature_earthelemental_totem"
       },
-      "pve_tooltip": "40 yd range\nInstant\n3 min cooldown\nCalls forth a\nGreater\nEarth Elemental to protect you\nand your allies, generating high threat and taunting enemies periodically\nfor 30 sec.",
-      "pvp_tooltip": "40 yd range\nInstant\n3 min cooldown\nCalls forth a\nGreater\nEarth Elemental to protect you\nand your allies, generating high threat and taunting enemies periodically\nfor 30 sec.",
+      "pve_tooltip": "40 yd range\nInstant\n3 min cooldown\nCalls forth a Greater Earth Elemental to protect you and your allies, generating high threat and taunting enemies periodically for 30 sec.",
+      "pvp_tooltip": "40 yd range\nInstant\n3 min cooldown\nCalls forth a Greater Earth Elemental to protect you and your allies, generating high threat and taunting enemies periodically for 30 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Purge",
@@ -2274,7 +2358,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Greater Purge",
@@ -2330,7 +2415,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Nature's Fury",
@@ -2379,15 +2465,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 381655,
         "icon": "spell_nature_spiritarmor"
       },
-      "pve_tooltip": "Increases the critical strike chance of your Nature spells and abilities by 2%.",
-      "pvp_tooltip": "Increases the critical strike chance of your Nature spells and abilities by 2%.",
+      "pve_tooltip": "Increases the critical strike chance of your Nature spells and abilities by 4%.",
+      "pvp_tooltip": "Increases the critical strike chance of your Nature spells and abilities by 4%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Increases the critical strike chance of your Nature spells and abilities by 2%.",
+          "pvp_tooltip": "Increases the critical strike chance of your Nature spells and abilities by 2%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Increases the critical strike chance of your Nature spells and abilities by 4%.",
+          "pvp_tooltip": "Increases the critical strike chance of your Nature spells and abilities by 4%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Ascending Air",
@@ -2442,7 +2546,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Jet Stream",
@@ -2497,7 +2602,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Primordial Bond",
@@ -2551,7 +2657,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hex",
@@ -2607,7 +2714,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spiritwalker's Grace",
@@ -2654,15 +2762,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 79206,
         "icon": "spell_shaman_spiritwalkersgrace"
       },
-      "pve_tooltip": "2.82% of base mana\nInstant\n2 min cooldown\nCalls upon the guidance of the spirits for 15 sec, permitting movement while casting Shaman spells. Castable while casting.",
-      "pvp_tooltip": "2.82% of base mana\nInstant\n2 min cooldown\nCalls upon the guidance of the spirits for 15 sec, permitting movement while casting Shaman spells. Castable while casting.",
+      "pve_tooltip": "2.82% of base mana\nInstant\nuntil canceled\nCalls upon the guidance of the spirits for 15 sec, permitting movement while casting Shaman spells. Castable while casting.",
+      "pvp_tooltip": "2.82% of base mana\nInstant\nuntil canceled\nCalls upon the guidance of the spirits for 15 sec, permitting movement while casting Shaman spells. Castable while casting.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Totemic Projection",
@@ -2717,7 +2826,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Elemental Warding",
@@ -2774,7 +2884,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Totemic Focus",
@@ -2831,7 +2942,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Graceful Spirit",
@@ -2885,7 +2997,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spiritwalker's Aegis",
@@ -2939,7 +3052,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mana Spring",
@@ -2987,15 +3101,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 381930,
         "icon": "spell_nature_manaregentotem"
       },
-      "pve_tooltip": "Level\n90\nYour Lava Burst casts restore\n150\nmana to you and 4 allies nearest to you within 40 yards.\nAllies can only benefit from one Shaman's Mana Spring effect at a time, prioritizing healers.",
-      "pvp_tooltip": "Level\n90\nYour Lava Burst casts restore\n150\nmana to you and 4 allies nearest to you within 40 yards.\nAllies can only benefit from one Shaman's Mana Spring effect at a time, prioritizing healers.",
+      "pve_tooltip": "Level 90\nYour Lava Burst casts restore 150 mana to you and 4 allies nearest to you within 40 yards.\nAllies can only benefit from one Shaman's Mana Spring effect at a time, prioritizing healers.",
+      "pvp_tooltip": "Level 90\nYour Lava Burst casts restore 150 mana to you and 4 allies nearest to you within 40 yards.\nAllies can only benefit from one Shaman's Mana Spring effect at a time, prioritizing healers.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tremor Totem",
@@ -3049,7 +3164,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Poison Cleansing Totem",
@@ -3103,7 +3219,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Therazane's Resilience",
@@ -3159,7 +3276,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Reactive Warding",
@@ -3207,15 +3325,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 462454,
         "icon": "inv_10_elementalcombinedfoozles_water"
       },
-      "pve_tooltip": "Level\n90\nWhen refreshing Earth Shield, your target is healed for (273.33% of Spell Power) for each stack of Earth Shield they are missing.\nAdditionally, Earth Shield can consume charges 1.0 sec faster.",
-      "pvp_tooltip": "Level\n90\nWhen refreshing Earth Shield, your target is healed for (273.33% of Spell Power) for each stack of Earth Shield they are missing.\nAdditionally, Earth Shield can consume charges 1.0 sec faster.",
+      "pve_tooltip": "Level 90\nWhen refreshing Earth Shield, your target is healed for (273.33% of Spell Power) for each stack of Earth Shield they are missing.\nAdditionally, Earth Shield can consume charges 1.0 sec faster.",
+      "pvp_tooltip": "Level 90\nWhen refreshing Earth Shield, your target is healed for (273.33% of Spell Power) for each stack of Earth Shield they are missing.\nAdditionally, Earth Shield can consume charges 1.0 sec faster.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Voodoo Mastery",
@@ -3321,7 +3440,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Nature's Swiftness",
@@ -3366,15 +3486,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 378081,
         "icon": "spell_nature_ravenform"
       },
-      "pve_tooltip": "Instant\n1 min cooldown\nYour next healing or damaging Nature spell\nis instant cast and costs no mana.",
-      "pvp_tooltip": "Instant\n1 min cooldown\nYour next healing or damaging Nature spell\nis instant cast and costs no mana.",
+      "pve_tooltip": "Instant\nuntil canceled\nYour next healing or damaging Nature spell is instant cast and costs no mana.",
+      "pvp_tooltip": "Instant\nuntil canceled\nYour next healing or damaging Nature spell is instant cast and costs no mana.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Totemic Surge",
@@ -3428,7 +3549,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Instinctive Imbuements",
@@ -3482,7 +3604,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Earth Shock",
@@ -3593,7 +3716,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Elemental Blast",
@@ -3639,14 +3763,14 @@ window.WOW_PVP_DATA = {
         "spell_id": 117014,
         "icon": "shaman_talent_elementalblast"
       },
-      "pve_tooltip": "0.55% of base mana / 90 Maelstrom\n40 yd range\n2 sec cast\n12 sec cooldown\n1 Charge\nHarnesses the raw power of the elements, dealing (201.25% of Spell Power) Elemental damage and increasing your Critical Strike or Haste by 8% or Mastery by (8 *\n1.875\n)% for 10 sec.",
-      "pvp_tooltip": "0.55% of base mana / 90 Maelstrom\n40 yd range\n2 sec cast\n12 sec cooldown\n1 Charge\nHarnesses the raw power of the elements, dealing (127.512% of Spell Power) Elemental damage and increasing your Critical Strike or Haste by 8% or Mastery by (8 *\n1.875\n)% for 10 sec.",
+      "pve_tooltip": "0.55% of base mana / 90 Maelstrom\n40 yd range\n2 sec cast\nuntil canceled\n1 Charge\nHarnesses the raw power of the elements, dealing (201.25% of Spell Power) Elemental damage and increasing your Critical Strike or Haste by 8% or Mastery by (8 * 1.875)% for 10 sec.",
+      "pvp_tooltip": "0.55% of base mana / 90 Maelstrom\n40 yd range\n2 sec cast\nuntil canceled\n1 Charge\nHarnesses the raw power of the elements, dealing (127.512% of Spell Power) Elemental damage and increasing your Critical Strike or Haste by 8% or Mastery by (8 * 1.875)% for 10 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 132,
-          "end": 138,
+          "start": 131,
+          "end": 137,
           "old_token": "201.25",
           "new_token": "127.512",
           "kind": "spell_power_coefficient",
@@ -3711,7 +3835,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Earthquake",
@@ -3827,7 +3952,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Earthquake",
@@ -3943,7 +4069,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Elemental Fury",
@@ -3989,15 +4116,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 60188,
         "icon": "spell_fire_volcano"
       },
-      "pve_tooltip": "Your damaging\ncritical strikes deal (50 /\nPrimordial Fury\n:\n75\n/\nFeedback Loop\n:\n65\n+ 200)% damage\ninstead of the usual 200%.",
-      "pvp_tooltip": "Your damaging\ncritical strikes deal (50 /\nPrimordial Fury\n:\n75\n/\nFeedback Loop\n:\n65\n+ 200)% damage\ninstead of the usual 200%.",
+      "pve_tooltip": "Your damaging critical strikes deal (50 / Primordial Fury: 75 / Feedback Loop: 65 + 200)% damage instead of the usual 200%.",
+      "pvp_tooltip": "Your damaging critical strikes deal (50 / Primordial Fury: 75 / Feedback Loop: 65 + 200)% damage instead of the usual 200%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Echo of the Elements",
@@ -4051,7 +4179,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flash of Lightning",
@@ -4098,15 +4227,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 381936,
         "icon": "spell_lightning_lightningbolt01"
       },
-      "pve_tooltip": "Increases the critical strike chance of Lightning Bolt\nand Chain Lightning by 10%.",
-      "pvp_tooltip": "Increases the critical strike chance of Lightning Bolt\nand Chain Lightning by 10%.",
+      "pve_tooltip": "Increases the critical strike chance of Lightning Bolt and Chain Lightning by 10%.",
+      "pvp_tooltip": "Increases the critical strike chance of Lightning Bolt and Chain Lightning by 10%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tectonic Collapse",
@@ -4160,7 +4290,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Aftershock",
@@ -4214,7 +4345,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Molten Wrath",
@@ -4268,7 +4400,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Master of the Elements",
@@ -4314,15 +4447,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 16166,
         "icon": "spell_nature_elementalabsorption"
       },
-      "pve_tooltip": "Casting Lava Burst increases the damage or healing of your next Nature\n, Physical,\nor Frost spell by 15%.",
-      "pvp_tooltip": "Casting Lava Burst increases the damage or healing of your next Nature\n, Physical,\nor Frost spell by 15%.",
+      "pve_tooltip": "Casting Lava Burst increases the damage or healing of your next Nature, Physical, or Frost spell by 15%.",
+      "pvp_tooltip": "Casting Lava Burst increases the damage or healing of your next Nature, Physical, or Frost spell by 15%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lightning Capacitor",
@@ -4376,7 +4510,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Stormkeeper",
@@ -4519,7 +4654,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flametongue Weapon",
@@ -4623,7 +4759,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Storm Frenzy",
@@ -4671,15 +4808,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 462695,
         "icon": "spell_nature_callstorm"
       },
-      "pve_tooltip": "Reduces the cast time of Lightning Bolt [\nTempest\n:\nTempest\n] and Chain Lightning by 15%.",
-      "pvp_tooltip": "Reduces the cast time of Lightning Bolt [\nTempest\n:\nTempest\n] and Chain Lightning by 15%.",
+      "pve_tooltip": "Reduces the cast time of Lightning Bolt [Tempest: Tempest] and Chain Lightning by 15%.",
+      "pvp_tooltip": "Reduces the cast time of Lightning Bolt [Tempest: Tempest] and Chain Lightning by 15%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Swelling Maelstrom",
@@ -4733,7 +4871,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Primordial Fury",
@@ -4788,7 +4927,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fury of the Storms",
@@ -4835,15 +4975,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 191717,
         "icon": "inv_stormelemental"
       },
-      "pve_tooltip": "Casting Stormkeeper summons a\nGreater\nStorm Elemental to hurl gusts of wind at your enemies for 10 sec.",
-      "pvp_tooltip": "Casting Stormkeeper summons a\nGreater\nStorm Elemental to hurl gusts of wind at your enemies for 10 sec.",
+      "pve_tooltip": "Casting Stormkeeper summons a Greater Storm Elemental to hurl gusts of wind at your enemies for 10 sec.",
+      "pvp_tooltip": "Casting Stormkeeper summons a Greater Storm Elemental to hurl gusts of wind at your enemies for 10 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Herald of the Storms",
@@ -4898,7 +5039,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flames of the Cauldron",
@@ -5025,7 +5167,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Amped Up",
@@ -5081,7 +5224,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Elemental Resonance",
@@ -5139,7 +5283,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thunderstrike Ward",
@@ -5189,8 +5334,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 462757,
         "icon": "inv_armorkit_lightning_imbued"
       },
-      "pve_tooltip": "Instant\nImbue your shield with the element of Lightning for 1 hour, giving Lightning Bolt\nand Chain Lightning a chance to call down 2 Thunderstrikes on your target for (71.5% of Spell Power) Nature damage.",
-      "pvp_tooltip": "Instant\nImbue your shield with the element of Lightning for 1 hour, giving Lightning Bolt\nand Chain Lightning a chance to call down 2 Thunderstrikes on your target for (68.64% of Spell Power) Nature damage.",
+      "pve_tooltip": "Instant\nImbue your shield with the element of Lightning for 1 hour, giving Lightning Bolt and Chain Lightning a chance to call down 2 Thunderstrikes on your target for (71.5% of Spell Power) Nature damage.",
+      "pvp_tooltip": "Instant\nImbue your shield with the element of Lightning for 1 hour, giving Lightning Bolt and Chain Lightning a chance to call down 2 Thunderstrikes on your target for (68.64% of Spell Power) Nature damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -5257,7 +5402,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Path of the Seer",
@@ -5311,7 +5457,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Elemental Unity",
@@ -5367,7 +5514,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Searing Flames",
@@ -5423,7 +5571,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Power of the Maelstrom",
@@ -5477,7 +5626,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Earthshatter",
@@ -5533,7 +5683,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Storm Infusion",
@@ -5587,7 +5738,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Echo Chamber",
@@ -5645,7 +5797,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Everlasting Elements",
@@ -5699,7 +5852,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Earthen Rage",
@@ -5817,7 +5971,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lava Flows",
@@ -5872,7 +6027,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fusion of Elements",
@@ -5926,7 +6082,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Eye of the Storm",
@@ -5983,7 +6140,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ascendance",
@@ -6084,7 +6242,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Inferno Arc",
@@ -6132,15 +6291,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 1259047,
         "icon": "spell_shaman_shockinglava"
       },
-      "pve_tooltip": "Lightning Bolt,\nChain Lightning, Earth Shock, Elemental Blast, and Earthquake deal 10% increased damage to targets affected by Flame Shock.",
-      "pvp_tooltip": "Lightning Bolt,\nChain Lightning, Earth Shock, Elemental Blast, and Earthquake deal 10% increased damage to targets affected by Flame Shock.",
+      "pve_tooltip": "Lightning Bolt, Chain Lightning, Earth Shock, Elemental Blast, and Earthquake deal 10% increased damage to targets affected by Flame Shock.",
+      "pvp_tooltip": "Lightning Bolt, Chain Lightning, Earth Shock, Elemental Blast, and Earthquake deal 10% increased damage to targets affected by Flame Shock.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flames of the Firelord",
@@ -6195,7 +6355,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lightning Rod",
@@ -6242,15 +6403,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 210689,
         "icon": "inv_rod_enchantedcobalt"
       },
-      "pve_tooltip": "Enhancement (\nEnhancement Shaman\n)\nLightning Bolt and Chain Lightning make your target a Lightning Rod for 8 sec.\nLightning Rods take 8% of all damage you deal with\nLightning Bolt\nand Chain Lightning.\n[\nTempest\n:\nTempest\n] [\n:\nEarth Shock, Elemental Blast, and Earthquake\n/\nLightning Bolt and Chain Lightning\n] make your target a Lightning Rod for 8 sec.\nLightning Rods take 10% of all damage you deal with [\nTempest\n:\nTempest, Lightning Bolt\n/ Lightning Bolt] and Chain Lightning.",
-      "pvp_tooltip": "Enhancement (\nEnhancement Shaman\n)\nLightning Bolt and Chain Lightning make your target a Lightning Rod for 8 sec.\nLightning Rods take 8% of all damage you deal with\nLightning Bolt\nand Chain Lightning.\n[\nTempest\n:\nTempest\n] [\n:\nEarth Shock, Elemental Blast, and Earthquake\n/\nLightning Bolt and Chain Lightning\n] make your target a Lightning Rod for 8 sec.\nLightning Rods take 10% of all damage you deal with [\nTempest\n:\nTempest, Lightning Bolt\n/ Lightning Bolt] and Chain Lightning.",
+      "pve_tooltip": "[Tempest: Tempest] Earth Shock, Elemental Blast, and Earthquake make your target a Lightning Rod for 8 sec.\nLightning Rods take 10% of all damage you deal with [Tempest: Tempest, Lightning Bolt / Lightning Bolt] and Chain Lightning.",
+      "pvp_tooltip": "[Tempest: Tempest] Earth Shock, Elemental Blast, and Earthquake make your target a Lightning Rod for 8 sec.\nLightning Rods take 10% of all damage you deal with [Tempest: Tempest, Lightning Bolt / Lightning Bolt] and Chain Lightning.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mountains Will Fall",
@@ -6303,7 +6465,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Call of Fire",
@@ -6350,8 +6513,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 378255,
         "icon": "spell_fire_elemental_totem"
       },
-      "pve_tooltip": "Ascendance summons a\nGreater\nFire Elemental to rain destruction on your enemies for 20 sec.\nWhile the Fire Elemental is active, Flame Shock deals damage 33% faster, and newly applied Flame Shocks last 100% longer.",
-      "pvp_tooltip": "Ascendance summons a\nGreater\nFire Elemental to rain destruction on your enemies for 20 sec.\nWhile the Fire Elemental is active, Flame Shock deals damage 33% faster, and newly applied Flame Shocks last 100% longer.",
+      "pve_tooltip": "Ascendance summons a Greater Fire Elemental to rain destruction on your enemies for 20 sec.\nWhile the Fire Elemental is active, Flame Shock deals damage 33% faster, and newly applied Flame Shocks last 100% longer.",
+      "pvp_tooltip": "Ascendance summons a Greater Fire Elemental to rain destruction on your enemies for 20 sec.\nWhile the Fire Elemental is active, Flame Shock deals damage 33% faster, and newly applied Flame Shocks last 100% longer.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6400,7 +6563,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Voltaic Blaze",
@@ -6516,7 +6680,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Charged Conduit",
@@ -6615,7 +6780,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "First Ascendant",
@@ -6667,7 +6833,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Preeminence",
@@ -6719,7 +6886,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Primal Elementalist",
@@ -6771,7 +6939,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Crackling Fury",
@@ -6815,15 +6984,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 1269215,
         "icon": "inv_10_dungeonjewelry_primalist_trinket_1ragingelement_air"
       },
-      "pve_tooltip": "Voltaic Blaze's cooldown is reduced by 3 sec and its instant damage is increased by 50%.",
-      "pvp_tooltip": "Voltaic Blaze's cooldown is reduced by 3 sec and its instant damage is increased by 50%.",
+      "pve_tooltip": "Voltaic Blaze's cooldown is reduced by 6 sec and its instant damage is increased by 100%.",
+      "pvp_tooltip": "Voltaic Blaze's cooldown is reduced by 6 sec and its instant damage is increased by 100%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Voltaic Blaze's cooldown is reduced by 3 sec and its instant damage is increased by 50%.",
+          "pvp_tooltip": "Voltaic Blaze's cooldown is reduced by 3 sec and its instant damage is increased by 50%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Voltaic Blaze's cooldown is reduced by 6 sec and its instant damage is increased by 100%.",
+          "pvp_tooltip": "Voltaic Blaze's cooldown is reduced by 6 sec and its instant damage is increased by 100%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Purging Flames",
@@ -6906,7 +7093,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Feedback Loop",
@@ -6956,7 +7144,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Feedback Loop",
@@ -7006,7 +7195,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Feedback Loop",
@@ -7056,7 +7246,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Call of the Ancestors",
@@ -7111,7 +7302,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Latent Wisdom",
@@ -7165,7 +7357,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ancient Fellowship",
@@ -7219,7 +7412,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Heed My Call",
@@ -7273,7 +7467,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Routine Communication",
@@ -7327,7 +7522,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Elemental Reverb",
@@ -7443,7 +7639,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ancestral Influence",
@@ -7497,7 +7694,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Offering from Beyond",
@@ -7551,7 +7749,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Primordial Capacity",
@@ -7642,7 +7841,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spiritwalker's Momentum",
@@ -7696,7 +7896,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Windspeaker",
@@ -7750,7 +7951,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Natural Harmony",
@@ -7804,7 +8006,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Earthen Communion",
@@ -7858,7 +8061,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Maelstrom Supremacy",
@@ -7978,7 +8182,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Final Calling",
@@ -8063,7 +8268,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mystic Knowledge",
@@ -8117,7 +8323,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ancestral Swiftness",
@@ -8164,15 +8371,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 448861,
         "icon": "inv_ability_farseershaman_ancestralswiftness"
       },
-      "pve_tooltip": "Your next healing or damaging spell\nis instant, costs no mana, and deals 10% increased damage and healing.\nIf you know Nature's Swiftness, it is replaced by Ancestral Swiftness and causes Ancestral Swiftness to call an Ancestor to your side for 8 sec.",
-      "pvp_tooltip": "Your next healing or damaging spell\nis instant, costs no mana, and deals 10% increased damage and healing.\nIf you know Nature's Swiftness, it is replaced by Ancestral Swiftness and causes Ancestral Swiftness to call an Ancestor to your side for 8 sec.",
+      "pve_tooltip": "Your next healing or damaging spell is instant, costs no mana, and deals 10% increased damage and healing.\nIf you know Nature's Swiftness, it is replaced by Ancestral Swiftness and causes Ancestral Swiftness to call an Ancestor to your side for 8 sec.",
+      "pvp_tooltip": "Your next healing or damaging spell is instant, costs no mana, and deals 10% increased damage and healing.\nIf you know Nature's Swiftness, it is replaced by Ancestral Swiftness and causes Ancestral Swiftness to call an Ancestor to your side for 8 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tempest",
@@ -8219,15 +8427,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 454009,
         "icon": "inv_ability_stormcallershaman_tempest"
       },
-      "pve_tooltip": "0.2% of base mana\n40 yd range\n2 sec cast\nCalls down a tremendous lightning strike that deals (388.125% of Spell Power) Nature damage to your target and [(388.125% of Spell Power) * 65 / 100] Nature damage to enemies within 8 yds of your target. Damage reduced beyond 5 targets.",
-      "pvp_tooltip": "0.2% of base mana\n40 yd range\n2 sec cast\nCalls down a tremendous lightning strike that deals (388.125% of Spell Power) Nature damage to your target and [(388.125% of Spell Power) * 65 / 100] Nature damage to enemies within 8 yds of your target. Damage reduced beyond 5 targets.",
+      "pve_tooltip": "Each Maelstrom spent has a 0.30% chance to upgrade your next Lightning Bolt to Tempest.\nTempest\n0.2% of base mana\n40 yd range\n2 sec cast\nCalls down a tremendous lightning strike that deals (388.125% of Spell Power) Nature damage to your target and [(388.125% of Spell Power) * 65 / 100] Nature damage to enemies within 8 yds of your target. Damage reduced beyond 5 targets.",
+      "pvp_tooltip": "Each Maelstrom spent has a 0.30% chance to upgrade your next Lightning Bolt to Tempest.\nTempest\n0.2% of base mana\n40 yd range\n2 sec cast\nCalls down a tremendous lightning strike that deals (388.125% of Spell Power) Nature damage to your target and [(388.125% of Spell Power) * 65 / 100] Nature damage to enemies within 8 yds of your target. Damage reduced beyond 5 targets.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unlimited Power",
@@ -8281,7 +8490,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Stormcaller",
@@ -8335,7 +8545,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lightning Conduit",
@@ -8389,7 +8600,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Electroshock",
@@ -8443,7 +8655,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Stormwell",
@@ -8497,7 +8710,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Storm Swell",
@@ -8551,7 +8765,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Supercharge",
@@ -8605,7 +8820,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Arc Discharge",
@@ -8701,7 +8917,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rolling Thunder",
@@ -8755,7 +8972,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Natural Gift",
@@ -8809,7 +9027,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Voltaic Surge",
@@ -8863,7 +9082,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Conductive Energy",
@@ -8909,15 +9129,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 455123,
         "icon": "inv_rod_enchantedcobalt"
       },
-      "pve_tooltip": ":\nEarth Shock, Elemental Blast, and Earthquake\n/ Lightning Bolt and Chain Lightning] make your target a Lightning Rod for 8 sec.\nLightning Rods take 8% of all damage you deal with [\nTempest\n:\nTempest, Lightning Bolt\n/ Lightning Bolt] and Chain Lightning.\nLightning Rod targets now also take 10% of the damage that Tempest deals, and Tempest also applies Lightning Rod effect.",
-      "pvp_tooltip": ":\nEarth Shock, Elemental Blast, and Earthquake\n/ Lightning Bolt and Chain Lightning] make your target a Lightning Rod for 8 sec.\nLightning Rods take 8% of all damage you deal with [\nTempest\n:\nTempest, Lightning Bolt\n/ Lightning Bolt] and Chain Lightning.\nLightning Rod targets now also take 10% of the damage that Tempest deals, and Tempest also applies Lightning Rod effect.",
+      "pve_tooltip": "Lightning Rod targets now also take 10% of the damage that Tempest deals, and Tempest also applies Lightning Rod effect.",
+      "pvp_tooltip": "Lightning Rod targets now also take 10% of the damage that Tempest deals, and Tempest also applies Lightning Rod effect.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Nature's Protection",
@@ -8971,7 +9192,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Surging Currents",
@@ -9025,7 +9247,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Descending Skies",
@@ -9079,7 +9302,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Awakening Storms",
@@ -9126,21 +9350,22 @@ window.WOW_PVP_DATA = {
         "spell_id": 455129,
         "icon": "spell_nature_stormreach"
       },
-      "pve_tooltip": "Approximately\n1.1\nprocs per minute\nEach Maelstrom spent has an additional 0.30% chance to upgrade your next Lightning Bolt to Tempest.",
-      "pvp_tooltip": "Approximately\n1.1\nprocs per minute\nEach Maelstrom spent has an additional 0.30% chance to upgrade your next Lightning Bolt to Tempest.",
+      "pve_tooltip": "Approximately 1.1 procs per minute\nEach Maelstrom spent has an additional 0.30% chance to upgrade your next Lightning Bolt to Tempest.",
+      "pvp_tooltip": "Approximately 1.1 procs per minute\nEach Maelstrom spent has an additional 0.30% chance to upgrade your next Lightning Bolt to Tempest.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     }
   ],
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "shaman-elemental",
-  "generated_at": "2026-09-20T12:54:06.643704+00:00",
+  "generated_at": "2026-09-20T20:03:09.958265+00:00",
   "validation": {
     "talents": 140,
     "changed_tooltips": 19,

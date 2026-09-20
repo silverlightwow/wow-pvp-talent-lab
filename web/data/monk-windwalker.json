@@ -50,15 +50,16 @@
         "spell_id": 115175,
         "icon": "ability_monk_soothingmists"
       },
-      "pve_tooltip": "0% of base mana, plus 0.4% per second / 15 Energy per sec\n40 yd range\nChanneled (8 sec cast)\nHeals the target for (1680% of Spell Power) over 8 sec. While channeling, Enveloping Mist [\nSurging Mist\n:\nSurging Mist\n] [\nZen Pulse\n:\nZen Pulse\n] and Vivify may be cast instantly on the target.",
-      "pvp_tooltip": "0% of base mana, plus 0.4% per second / 15 Energy per sec\n40 yd range\nChanneled (8 sec cast)\nHeals the target for (1680% of Spell Power) over 8 sec. While channeling, Enveloping Mist [\nSurging Mist\n:\nSurging Mist\n] [\nZen Pulse\n:\nZen Pulse\n] and Vivify may be cast instantly on the target.",
+      "pve_tooltip": "0% of base mana, plus 0.4% per second / 15 Energy per sec\n40 yd range\nChanneled (8 sec cast)\nHeals the target for (1680% of Spell Power) over 8 sec. While channeling, Enveloping Mist [Surging Mist: Surging Mist] [Zen Pulse: Zen Pulse] and Vivify may be cast instantly on the target.",
+      "pvp_tooltip": "0% of base mana, plus 0.4% per second / 15 Energy per sec\n40 yd range\nChanneled (8 sec cast)\nHeals the target for (1680% of Spell Power) over 8 sec. While channeling, Enveloping Mist [Surging Mist: Surging Mist] [Zen Pulse: Zen Pulse] and Vivify may be cast instantly on the target.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Paralysis",
@@ -111,7 +112,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rising Sun Kick",
@@ -156,8 +158,8 @@
         "spell_id": 107428,
         "icon": "ability_monk_risingsunkick"
       },
-      "pve_tooltip": "2 Chi / 2.5% of base mana\nMelee Range\nInstant\n10 sec cooldown\n1 Charge\nKick upwards, dealing [(143.8% of Attack Power) * [(Attack Power * 0.98)][((Attack Power + Offhand Attack Power) * 2 / 3)] -- 2H, DW / Attack Power] Physical damage\n.",
-      "pvp_tooltip": "2 Chi / 2.5% of base mana\nMelee Range\nInstant\n10 sec cooldown\n1 Charge\nKick upwards, dealing [(143.8% of Attack Power) * [(Attack Power * 0.98)][((Attack Power + Offhand Attack Power) * 2 / 3)] -- 2H, DW / Attack Power] Physical damage\n.",
+      "pve_tooltip": "2 Chi / 2.5% of base mana\nMelee Range\nInstant\n10 sec cooldown\n1 Charge\nKick upwards, dealing [(143.8% of Attack Power) * [(Attack Power * 0.98)][((Attack Power + Offhand Attack Power) * 2 / 3)] -- 2H, DW / Attack Power] Physical damage.",
+      "pvp_tooltip": "2 Chi / 2.5% of base mana\nMelee Range\nInstant\n10 sec cooldown\n1 Charge\nKick upwards, dealing [(143.8% of Attack Power) * [(Attack Power * 0.98)][((Attack Power + Offhand Attack Power) * 2 / 3)] -- 2H, DW / Attack Power] Physical damage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -241,7 +243,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Elusive Mists",
@@ -296,7 +299,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tiger's Lust",
@@ -353,7 +357,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Crashing Momentum",
@@ -462,7 +467,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Disable",
@@ -511,15 +517,16 @@
         "spell_id": 116095,
         "icon": "ability_shockwave"
       },
-      "pve_tooltip": ":\nTargets already snared will be rooted for 8 sec instead\n]",
-      "pvp_tooltip": ":\nTargets already snared will be rooted for 8 sec instead\n]",
+      "pve_tooltip": "15 Energy / 0.7% of base mana\nMelee Range\nInstant\nReduces the target's movement speed by 50% for 15 sec, duration refreshed by your melee attacks. [Disable: Targets already snared will be rooted for 8 sec instead]",
+      "pvp_tooltip": "15 Energy / 0.7% of base mana\nMelee Range\nInstant\nReduces the target's movement speed by 50% for 15 sec, duration refreshed by your melee attacks. [Disable: Targets already snared will be rooted for 8 sec instead]",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fast Feet",
@@ -574,7 +581,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Grace of the Crane",
@@ -631,7 +639,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bounding Agility",
@@ -685,7 +694,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Calming Presence",
@@ -742,7 +752,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wind's Reach",
@@ -796,7 +807,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Detox",
@@ -853,7 +865,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Vivacious Vivification",
@@ -909,7 +922,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Silent Sanctuary",
@@ -963,7 +977,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Jade Walk",
@@ -1020,7 +1035,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pressure Points",
@@ -1074,7 +1090,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spear Hand Strike",
@@ -1132,7 +1149,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Reinvigoration",
@@ -1186,7 +1204,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ancient Arts",
@@ -1242,7 +1261,25 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Reduces the cooldown of Paralysis by 15 sec and the cooldown of Leg Sweep by 5 sec.",
+          "pvp_tooltip": "Reduces the cooldown of Paralysis by 15 sec and the cooldown of Leg Sweep by 5 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Reduces the cooldown of Paralysis by 15 sec and the cooldown of Leg Sweep by 10 sec.",
+          "pvp_tooltip": "Reduces the cooldown of Paralysis by 15 sec and the cooldown of Leg Sweep by 10 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Tiger Fang",
@@ -1299,7 +1336,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Transcendence",
@@ -1357,7 +1395,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Energy Transfer",
@@ -1411,7 +1450,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Celerity",
@@ -1468,7 +1508,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Chi Torpedo",
@@ -1517,15 +1558,16 @@
         "spell_id": 115008,
         "icon": "ability_monk_quitornado"
       },
-      "pve_tooltip": "Replaces\nRoll\nInstant\n20 sec recharge\n2 Charges\nTorpedoes you forward a long distance and increases your movement speed by 30% for\n10 sec\n, stacking up to 2 times.",
-      "pvp_tooltip": "Replaces\nRoll\nInstant\n20 sec recharge\n2 Charges\nTorpedoes you forward a long distance and increases your movement speed by 30% for\n10 sec\n, stacking up to 2 times.",
+      "pve_tooltip": "Replaces Roll\nInstant\n20 sec recharge\n2 Charges\nTorpedoes you forward a long distance and increases your movement speed by 30% for 10 sec, stacking up to 2 times.",
+      "pvp_tooltip": "Replaces Roll\nInstant\n20 sec recharge\n2 Charges\nTorpedoes you forward a long distance and increases your movement speed by 30% for 10 sec, stacking up to 2 times.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Stillstep Coil",
@@ -1579,7 +1621,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Quick Footed",
@@ -1635,7 +1678,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hasty Provocation",
@@ -1691,7 +1735,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ferocity of Xuen",
@@ -1738,15 +1783,33 @@
         "spell_id": 388674,
         "icon": "ability_mount_pinktiger"
       },
-      "pve_tooltip": "Increases all damage dealt by 2%.",
-      "pvp_tooltip": "Increases all damage dealt by 2%.",
+      "pve_tooltip": "Increases all damage dealt by 4%.",
+      "pvp_tooltip": "Increases all damage dealt by 4%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Increases all damage dealt by 2%.",
+          "pvp_tooltip": "Increases all damage dealt by 2%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Increases all damage dealt by 4%.",
+          "pvp_tooltip": "Increases all damage dealt by 4%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Ring of Peace",
@@ -1802,7 +1865,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Song of Chi-Ji",
@@ -1858,7 +1922,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spirit's Essence",
@@ -1965,7 +2030,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tiger Tail Sweep",
@@ -2020,7 +2086,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Touch of Death",
@@ -2076,7 +2143,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Vigorous Expulsion",
@@ -2133,7 +2201,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Yu'lon's Grace",
@@ -2227,7 +2296,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Peace and Prosperity",
@@ -2281,7 +2351,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fortifying Brew",
@@ -2369,7 +2440,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dance of the Wind",
@@ -2472,7 +2544,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Save Them All",
@@ -2527,7 +2600,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Swift Art",
@@ -2582,7 +2656,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Strength of Spirit",
@@ -2685,7 +2760,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Profound Rebuttal",
@@ -2741,7 +2817,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Zenith Stomp",
@@ -2858,7 +2935,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ironshell Brew",
@@ -2914,7 +2992,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Expeditious Fortification",
@@ -2970,7 +3049,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Diffuse Magic",
@@ -3022,7 +3102,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Celestial Determination",
@@ -3077,7 +3158,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Chi Proficiency",
@@ -3126,15 +3208,33 @@
         "spell_id": 450426,
         "icon": "ability_monk_chiswirl"
       },
-      "pve_tooltip": "Magical damage done increased by 5% and healing done increased by 5%.",
-      "pvp_tooltip": "Magical damage done increased by 5% and healing done increased by 5%.",
+      "pve_tooltip": "Magical damage done increased by 4% and healing done increased by 4%.",
+      "pvp_tooltip": "Magical damage done increased by 4% and healing done increased by 4%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Magical damage done increased by 2% and healing done increased by 2%.",
+          "pvp_tooltip": "Magical damage done increased by 2% and healing done increased by 2%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Magical damage done increased by 4% and healing done increased by 4%.",
+          "pvp_tooltip": "Magical damage done increased by 4% and healing done increased by 4%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Healing Winds",
@@ -3189,7 +3289,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Windwalking",
@@ -3245,7 +3346,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Chi Transfer",
@@ -3300,7 +3402,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Martial Instincts",
@@ -3348,15 +3451,33 @@
         "spell_id": 450427,
         "icon": "ability_monk_palmstrike"
       },
-      "pve_tooltip": "Increases your Physical damage done by 5% and Avoidance increased by 3%.",
-      "pvp_tooltip": "Increases your Physical damage done by 5% and Avoidance increased by 3%.",
+      "pve_tooltip": "Increases your Physical damage done by 4% and Avoidance increased by 6%.",
+      "pvp_tooltip": "Increases your Physical damage done by 4% and Avoidance increased by 6%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Increases your Physical damage done by 2% and Avoidance increased by 3%.",
+          "pvp_tooltip": "Increases your Physical damage done by 2% and Avoidance increased by 3%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Increases your Physical damage done by 4% and Avoidance increased by 6%.",
+          "pvp_tooltip": "Increases your Physical damage done by 4% and Avoidance increased by 6%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Lighter Than Air",
@@ -3445,7 +3566,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flow of Chi",
@@ -3498,7 +3620,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Escape from Reality",
@@ -3552,7 +3675,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Transcendence: Linked Spirits",
@@ -3606,7 +3730,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fatal Touch",
@@ -3659,7 +3784,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rushing Reflexes",
@@ -3711,7 +3837,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fists of Fury",
@@ -3852,7 +3979,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Momentum Boost",
@@ -3907,7 +4035,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Combat Wisdom",
@@ -3953,15 +4082,16 @@
         "spell_id": 121817,
         "icon": "ability_monk_expelharm"
       },
-      "pve_tooltip": "While out of combat, your Chi balances to 2 instead of depleting to empty.\nYour stamina is increased by 5% and every 15 sec, your next Tiger Palm also casts Expel Harm.\nExpel Harm\nExpel negative chi from your body, healing for (120% of Spell Power) and dealing 10% of the amount healed as Nature damage to an enemy within 20 yards. [\nExpel Harm\n:\nDraws in the positive chi of all your Healing Spheres to increase the healing of Expel Harm\n] [\nReverse Harm\n:\nGenerates [(120% of Spell Power) + 30] Chi.\n]",
-      "pvp_tooltip": "While out of combat, your Chi balances to 2 instead of depleting to empty.\nYour stamina is increased by 5% and every 15 sec, your next Tiger Palm also casts Expel Harm.\nExpel Harm\nExpel negative chi from your body, healing for (120% of Spell Power) and dealing 10% of the amount healed as Nature damage to an enemy within 20 yards. [\nExpel Harm\n:\nDraws in the positive chi of all your Healing Spheres to increase the healing of Expel Harm\n] [\nReverse Harm\n:\nGenerates [(120% of Spell Power) + 30] Chi.\n]",
+      "pve_tooltip": "While out of combat, your Chi balances to 2 instead of depleting to empty.\nYour stamina is increased by 5% and every 15 sec, your next Tiger Palm also casts Expel Harm.\nExpel Harm\nExpel negative chi from your body, healing for (120% of Spell Power) and dealing 10% of the amount healed as Nature damage to an enemy within 20 yards. [Expel Harm: Draws in the positive chi of all your Healing Spheres to increase the healing of Expel Harm] [Reverse Harm: Generates [(120% of Spell Power) + 30] Chi.]",
+      "pvp_tooltip": "While out of combat, your Chi balances to 2 instead of depleting to empty.\nYour stamina is increased by 5% and every 15 sec, your next Tiger Palm also casts Expel Harm.\nExpel Harm\nExpel negative chi from your body, healing for (120% of Spell Power) and dealing 10% of the amount healed as Nature damage to an enemy within 20 yards. [Expel Harm: Draws in the positive chi of all your Healing Spheres to increase the healing of Expel Harm] [Reverse Harm: Generates [(120% of Spell Power) + 30] Chi.]",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sharp Reflexes",
@@ -4016,7 +4146,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Touch of the Tiger",
@@ -4070,7 +4201,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ferociousness",
@@ -4116,15 +4248,33 @@
         "spell_id": 458623,
         "icon": "ability_mount_whitetiger"
       },
-      "pve_tooltip": "Critical Strike chance increased by 2%. This effect is increased by 100% while Xuen, the White Tiger is active.",
-      "pvp_tooltip": "Critical Strike chance increased by 2%. This effect is increased by 100% while Xuen, the White Tiger is active.",
+      "pve_tooltip": "Critical Strike chance increased by 4%. This effect is increased by 100% while Xuen, the White Tiger is active.",
+      "pvp_tooltip": "Critical Strike chance increased by 4%. This effect is increased by 100% while Xuen, the White Tiger is active.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Critical Strike chance increased by 2%. This effect is increased by 100% while Xuen, the White Tiger is active.",
+          "pvp_tooltip": "Critical Strike chance increased by 2%. This effect is increased by 100% while Xuen, the White Tiger is active.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Critical Strike chance increased by 4%. This effect is increased by 100% while Xuen, the White Tiger is active.",
+          "pvp_tooltip": "Critical Strike chance increased by 4%. This effect is increased by 100% while Xuen, the White Tiger is active.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Hardened Soles",
@@ -4170,15 +4320,33 @@
         "spell_id": 391383,
         "icon": "ability_monk_roundhousekick"
       },
-      "pve_tooltip": "Blackout Kick critical strike chance increased by 10% and critical damage increased by 18%.",
-      "pvp_tooltip": "Blackout Kick critical strike chance increased by 10% and critical damage increased by 18%.",
+      "pve_tooltip": "Blackout Kick critical strike chance increased by 12% and critical damage increased by 20%.",
+      "pvp_tooltip": "Blackout Kick critical strike chance increased by 12% and critical damage increased by 20%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Blackout Kick critical strike chance increased by 6% and critical damage increased by 10%.",
+          "pvp_tooltip": "Blackout Kick critical strike chance increased by 6% and critical damage increased by 10%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Blackout Kick critical strike chance increased by 12% and critical damage increased by 20%.",
+          "pvp_tooltip": "Blackout Kick critical strike chance increased by 12% and critical damage increased by 20%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Ascension",
@@ -4232,7 +4400,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dual Threat",
@@ -4349,7 +4518,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Teachings of the Monastery",
@@ -4397,21 +4567,31 @@
         "spell_id": 116645,
         "icon": "passive_monk_teachingsofmonastery"
       },
-      "pve_tooltip": "cause\nSpinning Crane Kick\nalso\nheal\nnearby injured allies every hits, and increases damage of these spells for",
-      "pvp_tooltip": "cause\nSpinning Crane Kick\nalso\nheal\nnearby injured allies every hits, and increases damage of these spells for",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pve_tooltip": "Tiger Palm causes your next Blackout Kick to strike an additional time dealing (84.7% of Attack Power) Physical damage, stacking up to 4.\nBlackout Kick has a 12% chance to reset the remaining cooldown on Rising Sun Kick.",
+      "pvp_tooltip": "Tiger Palm causes your next Blackout Kick to strike an additional time dealing (87.042% of Attack Power) Physical damage, stacking up to 4.\nBlackout Kick has a 12% chance to reset the remaining cooldown on Rising Sun Kick.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 80,
+          "end": 84,
+          "old_token": "84.7",
+          "new_token": "87.042",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "APPLIED",
           "kind": "attack_power_coefficient",
-          "old": 84.7,
-          "new": 87.041955,
-          "full_tooltip_match_count": 0
+          "old": "84.7",
+          "new": "87.042"
         }
       ],
       "has_pvp_mechanics": true,
@@ -4466,7 +4646,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Glory of the Dawn",
@@ -4619,7 +4800,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Crane Vortex",
@@ -4674,7 +4856,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Meridian Strikes",
@@ -4775,7 +4958,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rising Star",
@@ -4830,7 +5014,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Zenith",
@@ -4878,15 +5063,16 @@
         "spell_id": 1249625,
         "icon": "inv_ability_monk_weaponsoforder"
       },
-      "pve_tooltip": "Instant\n1.5 min recharge\n2 Charges\nChi costs are reduced by 1 and Blackout Kick reduces the cooldown of affected abilities by an additional 1 sec for\n15 sec\n.\nActivating Zenith resets the remaining cooldown on Rising Sun Kick.",
-      "pvp_tooltip": "Instant\n1.5 min recharge\n2 Charges\nChi costs are reduced by 1 and Blackout Kick reduces the cooldown of affected abilities by an additional 1 sec for\n15 sec\n.\nActivating Zenith resets the remaining cooldown on Rising Sun Kick.",
+      "pve_tooltip": "Instant\nuntil canceled\n2 Charges\nChi costs are reduced by 1 and Blackout Kick reduces the cooldown of affected abilities by an additional 1 sec for 15 sec.\nActivating Zenith resets the remaining cooldown on Rising Sun Kick.",
+      "pvp_tooltip": "Instant\nuntil canceled\n2 Charges\nChi costs are reduced by 1 and Blackout Kick reduces the cooldown of affected abilities by an additional 1 sec for 15 sec.\nActivating Zenith resets the remaining cooldown on Rising Sun Kick.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hit Combo",
@@ -4941,7 +5127,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Brawler's Intensity",
@@ -4995,7 +5182,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Jade Ignition",
@@ -5088,7 +5276,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cyclone's Drift",
@@ -5145,7 +5334,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Crashing Fists",
@@ -5202,7 +5392,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Drinking Horn Cover",
@@ -5256,7 +5447,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Spiritual Focus",
@@ -5310,7 +5502,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Obsidian Spiral",
@@ -5362,7 +5555,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Combo Breaker",
@@ -5420,7 +5614,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dance of Chi-Ji",
@@ -5468,15 +5663,16 @@
         "spell_id": 325201,
         "icon": "ability_monk_cranekick_new"
       },
-      "pve_tooltip": "Approximately\n1\nprocs per minute\nSpending Chi has a chance to make your next Spinning Crane Kick cost no Chi.",
-      "pvp_tooltip": "Approximately\n1\nprocs per minute\nSpending Chi has a chance to make your next Spinning Crane Kick cost no Chi.",
+      "pve_tooltip": "Approximately 1 procs per minute\nSpending Chi has a chance to make your next Spinning Crane Kick cost no Chi.",
+      "pvp_tooltip": "Approximately 1 procs per minute\nSpending Chi has a chance to make your next Spinning Crane Kick cost no Chi.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shadowboxing Treads",
@@ -5531,7 +5727,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Strike of the Windlord",
@@ -5710,7 +5907,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Whirling Dragon Punch",
@@ -5883,7 +6081,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Energy Burst",
@@ -5938,7 +6137,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Inner Peace",
@@ -5993,7 +6193,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sequenced Strikes",
@@ -6048,7 +6249,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sunfire Spiral",
@@ -6103,7 +6305,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Communion With Wind",
@@ -6157,7 +6360,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Revolving Whirl",
@@ -6213,7 +6417,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Echo Technique",
@@ -6269,7 +6474,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Universal Energy",
@@ -6325,7 +6531,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Memory of the Monastery",
@@ -6382,7 +6589,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rushing Wind Kick",
@@ -6426,8 +6634,8 @@
         "spell_id": 1250566,
         "icon": "inv12_ability_monk_rushingwindkick"
       },
-      "pve_tooltip": ":\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\n[",
-      "pvp_tooltip": ":\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.\n[",
+      "pve_tooltip": "After consuming Blackout Kick!, Rising Sun Kick has a 60% chance to become Rushing Wind Kick.\nRushing Wind Kick:\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.",
+      "pvp_tooltip": "After consuming Blackout Kick!, Rising Sun Kick has a 60% chance to become Rushing Wind Kick.\nRushing Wind Kick:\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6440,7 +6648,7 @@
           "talent_spell_id": 1250566,
           "source_spell_id": 468179,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature | Attributes: Area Effects Use Target Radius (17) (AP mod: 1.7975)",
+          "effect_text": "School Damage (Nature) (AP mod: 1.7975 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6478,14 +6686,14 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Xuen's Battlegear",
@@ -6657,7 +6865,8 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 3,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thunderfist",
@@ -6771,7 +6980,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Weapon of Wind",
@@ -6826,7 +7036,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Knowledge of the Broken Temple",
@@ -6995,7 +7206,8 @@
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Slicing Winds",
@@ -7111,7 +7323,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Jadefire Stomp",
@@ -7373,7 +7586,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 3,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Skyfire Heel",
@@ -7425,7 +7639,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Harmonic Combo",
@@ -7477,7 +7692,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flurry of Xuen",
@@ -7523,8 +7739,8 @@
         "spell_id": 452137,
         "icon": "monk_stance_whitetiger"
       },
-      "pve_tooltip": "Approximately\n2\nprocs per minute\nYour spells and abilities have a chance to activate Flurry of Xuen, unleashing a barrage of deadly swipes to deal [(54.88% of Attack Power) * 10] Physical damage in a 10 yd cone, damage reduced beyond 5 targets.\nInvoking Xuen, the White Tiger activates Flurry of Xuen.",
-      "pvp_tooltip": "Approximately\n2\nprocs per minute\nYour spells and abilities have a chance to activate Flurry of Xuen, unleashing a barrage of deadly swipes to deal [(51.0384% of Attack Power) * 10] Physical damage in a 10 yd cone, damage reduced beyond 5 targets.\nInvoking Xuen, the White Tiger activates Flurry of Xuen.",
+      "pve_tooltip": "Approximately 2 procs per minute\nYour spells and abilities have a chance to activate Flurry of Xuen, unleashing a barrage of deadly swipes to deal [(54.88% of Attack Power) * 10] Physical damage in a 10 yd cone, damage reduced beyond 5 targets.\nInvoking Xuen, the White Tiger activates Flurry of Xuen.",
+      "pvp_tooltip": "Approximately 2 procs per minute\nYour spells and abilities have a chance to activate Flurry of Xuen, unleashing a barrage of deadly swipes to deal [(51.0384% of Attack Power) * 10] Physical damage in a 10 yd cone, damage reduced beyond 5 targets.\nInvoking Xuen, the White Tiger activates Flurry of Xuen.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -7591,7 +7807,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Martial Agility",
@@ -7644,7 +7861,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Airborne Rhythm",
@@ -7696,7 +7914,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hurricane's Vault",
@@ -7748,7 +7967,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Path of Jade",
@@ -7800,7 +8020,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Singularly Focused Jade",
@@ -7852,7 +8073,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tigereye Brew",
@@ -7902,7 +8124,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tigereye Brew",
@@ -7999,7 +8222,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tigereye Brew",
@@ -8041,8 +8265,8 @@
         "spell_id": 1261849,
         "icon": "inv12_apextalent_monk_tigereyebrew"
       },
-      "pve_tooltip": "Zenith now grants access to 2 additional Zenith Stomps.\nZenith Stomp\n:\nRelease a powerful stomp, dealing (700% of Attack Power) Nature damage to nearby enemies, reduced beyond 5 targets.\nGenerates 2 Chi.",
-      "pvp_tooltip": "Zenith now grants access to 2 additional Zenith Stomps.\nZenith Stomp\n:\nRelease a powerful stomp, dealing (700% of Attack Power) Nature damage to nearby enemies, reduced beyond 5 targets.\nGenerates 2 Chi.",
+      "pve_tooltip": "Zenith now grants access to 2 additional Zenith Stomps.\nZenith Stomp:\nRelease a powerful stomp, dealing (700% of Attack Power) Nature damage to nearby enemies, reduced beyond 5 targets.\nGenerates 2 Chi.",
+      "pvp_tooltip": "Zenith now grants access to 2 additional Zenith Stomps.\nZenith Stomp:\nRelease a powerful stomp, dealing (700% of Attack Power) Nature damage to nearby enemies, reduced beyond 5 targets.\nGenerates 2 Chi.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -8089,7 +8313,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flurry Strikes",
@@ -8204,7 +8429,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Invoke Xuen, the White Tiger",
@@ -8251,15 +8477,16 @@
         "spell_id": 123904,
         "icon": "ability_monk_summontigerstatue"
       },
-      "pve_tooltip": "40 yd range\nInstant\n2 min cooldown\nSummons an effigy of Xuen, the White Tiger for\n20 sec\n. Xuen attacks your primary target, and strikes 3 enemies within 10 yards every 1 sec with Tiger Lightning for (25.7% of Attack Power) Nature damage. [\nEmpowered Tiger Lightning\n:\nEvery 4 sec, Xuen strikes your enemies with Empowered Tiger Lightning dealing 4% of the damage you have dealt to those targets in the last 4 sec\n]",
-      "pvp_tooltip": "40 yd range\nInstant\n2 min cooldown\nSummons an effigy of Xuen, the White Tiger for\n20 sec\n. Xuen attacks your primary target, and strikes 3 enemies within 10 yards every 1 sec with Tiger Lightning for (25.7% of Attack Power) Nature damage. [\nEmpowered Tiger Lightning\n:\nEvery 4 sec, Xuen strikes your enemies with Empowered Tiger Lightning dealing 4% of the damage you have dealt to those targets in the last 4 sec\n]",
+      "pve_tooltip": "40 yd range\nInstant\nuntil canceled\nSummons an effigy of Xuen, the White Tiger for 20 sec. Xuen attacks your primary target, and strikes 3 enemies within 10 yards every 1 sec with Tiger Lightning for (25.7% of Attack Power) Nature damage. [Empowered Tiger Lightning: Every 4 sec, Xuen strikes your enemies with Empowered Tiger Lightning dealing 4% of the damage you have dealt to those targets in the last 4 sec]",
+      "pvp_tooltip": "40 yd range\nInstant\nuntil canceled\nSummons an effigy of Xuen, the White Tiger for 20 sec. Xuen attacks your primary target, and strikes 3 enemies within 10 yards every 1 sec with Tiger Lightning for (25.7% of Attack Power) Nature damage. [Empowered Tiger Lightning: Every 4 sec, Xuen strikes your enemies with Empowered Tiger Lightning dealing 4% of the damage you have dealt to those targets in the last 4 sec]",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pride of Pandaria",
@@ -8313,7 +8540,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "High Impact",
@@ -8367,7 +8595,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Veteran's Eye",
@@ -8421,7 +8650,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Martial Precision",
@@ -8475,7 +8705,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shado Over the Battlefield",
@@ -8589,7 +8820,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Temple Training",
@@ -8643,7 +8875,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Xuen's Guidance",
@@ -8697,7 +8930,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Courage of the White Tiger",
@@ -8743,8 +8977,8 @@
         "spell_id": 443087,
         "icon": "ability_monk_summontigerstatue"
       },
-      "pve_tooltip": "Approximately\n4\nprocs per minute\nTiger Palm has a chance to cause Xuen to claw your target for (337.5% of Attack Power) Physical damage, healing a nearby ally for 25% of the damage done.\nInvoke Xuen, the White Tiger guarantees your next cast activates this effect.",
-      "pvp_tooltip": "Approximately\n4\nprocs per minute\nTiger Palm has a chance to cause Xuen to claw your target for (313.875% of Attack Power) Physical damage, healing a nearby ally for 25% of the damage done.\nInvoke Xuen, the White Tiger guarantees your next cast activates this effect.",
+      "pve_tooltip": "Approximately 4 procs per minute\nTiger Palm has a chance to cause Xuen to claw your target for (337.5% of Attack Power) Physical damage, healing a nearby ally for 25% of the damage done.\nInvoke Xuen, the White Tiger guarantees your next cast activates this effect.",
+      "pvp_tooltip": "Approximately 4 procs per minute\nTiger Palm has a chance to cause Xuen to claw your target for (313.875% of Attack Power) Physical damage, healing a nearby ally for 25% of the damage done.\nInvoke Xuen, the White Tiger guarantees your next cast activates this effect.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -8811,7 +9045,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Restore Balance",
@@ -8865,7 +9100,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Xuen's Bond",
@@ -8919,7 +9155,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Heart of the Jade Serpent",
@@ -8973,7 +9210,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Combat Stance",
@@ -9027,7 +9265,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Initiator's Edge",
@@ -9081,7 +9320,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "One Versus Many",
@@ -9135,7 +9375,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Whirling Steel",
@@ -9189,7 +9430,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Predictive Training",
@@ -9243,7 +9485,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Stand Ready",
@@ -9297,7 +9540,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Chi-Ji's Swiftness",
@@ -9351,7 +9595,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Strength of the Black Ox",
@@ -9465,7 +9710,8 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Path of the Falling Star",
@@ -9519,7 +9765,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Yu'lon's Avatar",
@@ -9565,8 +9812,8 @@
         "spell_id": 1262667,
         "icon": "inv_celestialserpentmount_jade"
       },
-      "pve_tooltip": "Approximately\n1.5\nprocs per minute\nHeart of the Jade Serpent additionally triggers for 4 sec at 100% effectiveness after you cast Zenith.",
-      "pvp_tooltip": "Approximately\n1.5\nprocs per minute\nHeart of the Jade Serpent additionally triggers for 4 sec at 33% effectiveness after you cast Zenith.",
+      "pve_tooltip": "Approximately 1.5 procs per minute\nHeart of the Jade Serpent additionally triggers for 4 sec at 100% effectiveness after you cast Zenith.",
+      "pvp_tooltip": "Approximately 1.5 procs per minute\nHeart of the Jade Serpent additionally triggers for 4 sec at 33% effectiveness after you cast Zenith.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -9620,7 +9867,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Against All Odds",
@@ -9674,7 +9922,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Efficient Training",
@@ -9728,7 +9977,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Vigilant Watch",
@@ -9782,7 +10032,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Weapons of the Wall",
@@ -9836,7 +10087,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Niuzao's Protection",
@@ -9890,7 +10142,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Jade Sanctuary",
@@ -9944,7 +10197,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Celestial Conduit",
@@ -9990,8 +10244,8 @@
         "spell_id": 1248989,
         "icon": "inv_ability_conduitofthecelestialsmonk_celestialconduit"
       },
-      "pve_tooltip": ":\n[",
-      "pvp_tooltip": ":\n[",
+      "pve_tooltip": "After Invoking Xuen, the White Tiger you may cast Celestial Conduit within 1 min.\nCelestial Conduit:\n[ Mistweaver: The August Celestials empower you, causing you to radiate [(1100% of Spell Power) * 5] healing onto up to 5 injured allies and [(165% of Attack Power) * 5] Nature damage onto enemies within 20 yds over 4 sec, reduced beyond 5 targets]\nYou may move while channeling, but casting other healing or damaging spells cancels this effect.",
+      "pvp_tooltip": "After Invoking Xuen, the White Tiger you may cast Celestial Conduit within 1 min.\nCelestial Conduit:\n[ Mistweaver: The August Celestials empower you, causing you to radiate [(1100% of Spell Power) * 5] healing onto up to 5 injured allies and [(165% of Attack Power) * 5] Nature damage onto enemies within 20 yds over 4 sec, reduced beyond 5 targets]\nYou may move while channeling, but casting other healing or damaging spells cancels this effect.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -10071,7 +10325,8 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Inner Compass",
@@ -10117,15 +10372,16 @@
         "spell_id": 443571,
         "icon": "inv_10_dungeonjewelry_explorer_trinket_1compass_color2"
       },
-      "pve_tooltip": "You switch between alignments every 8 sec, increasing a corresponding secondary stat by 2%.\nCrane Stance\n:\nHaste\nTiger Stance\n:\nCritical Strike\nOx Stance\n:\nVersatility\nSerpent Stance\n:\nMastery",
-      "pvp_tooltip": "You switch between alignments every 8 sec, increasing a corresponding secondary stat by 2%.\nCrane Stance\n:\nHaste\nTiger Stance\n:\nCritical Strike\nOx Stance\n:\nVersatility\nSerpent Stance\n:\nMastery",
+      "pve_tooltip": "You switch between alignments every 8 sec, increasing a corresponding secondary stat by 2%.\nCrane Stance:\nHaste\nTiger Stance:\nCritical Strike\nOx Stance:\nVersatility\nSerpent Stance:\nMastery",
+      "pvp_tooltip": "You switch between alignments every 8 sec, increasing a corresponding secondary stat by 2%.\nCrane Stance:\nHaste\nTiger Stance:\nCritical Strike\nOx Stance:\nVersatility\nSerpent Stance:\nMastery",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flowing Wisdom",
@@ -10179,7 +10435,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wisdom of the Wall",
@@ -10234,7 +10491,8 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unity Within",
@@ -10289,16 +10547,17 @@
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     }
   ],
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "monk-windwalker",
-  "generated_at": "2026-09-20T12:52:05.642093+00:00",
+  "generated_at": "2026-09-20T20:01:26.336633+00:00",
   "validation": {
     "talents": 148,
-    "changed_tooltips": 22,
+    "changed_tooltips": 23,
     "talents_with_pvp_mechanics": 32,
     "unique_nodes": 127,
     "tree_build": "12.1.0.69875",
@@ -10308,16 +10567,11 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 4,
+    "source_warning_count": 3,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 468179,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=468179'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "source": "wowhead",
         "spell_id": 1217411,

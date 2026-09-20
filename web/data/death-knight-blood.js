@@ -57,7 +57,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Death Strike",
@@ -101,8 +102,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 49998,
         "icon": "spell_deathknight_butcher2"
       },
-      "pve_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike that deals (153.12% of Attack Power) Physical damage and heals you for (20 /\nVoracious\n:\n21\n/\nImproved Death Strike\n:\n32\n)% of all damage taken in the last 5 sec, minimum\n7.0\n% of maximum health.",
-      "pvp_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike that deals (107.184% of Attack Power) Physical damage and heals you for (20 /\nVoracious\n:\n21\n/\nImproved Death Strike\n:\n32\n)% of all damage taken in the last 5 sec, minimum\n7.0\n% of maximum health.",
+      "pve_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike that deals (153.12% of Attack Power) Physical damage and heals you for (20 / Voracious: 21 / Improved Death Strike: 32)% of all damage taken in the last 5 sec, minimum 7.0% of maximum health.",
+      "pvp_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike that deals (107.184% of Attack Power) Physical damage and heals you for (20 / Voracious: 21 / Improved Death Strike: 32)% of all damage taken in the last 5 sec, minimum 7.0% of maximum health.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -212,7 +213,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Raise Dead",
@@ -256,15 +258,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 46585,
         "icon": "inv_pet_ghoul"
       },
-      "pve_tooltip": "30 yd range\nInstant\n2 min cooldown\nRaises a [\nGlyph of the Geist\n:\ngeist\n/ ghoul] to fight by your side. You can have a maximum of one [\nGlyph of the Geist\n:\ngeist\n/ ghoul] at a time. Lasts 1 min.",
-      "pvp_tooltip": "30 yd range\nInstant\n2 min cooldown\nRaises a [\nGlyph of the Geist\n:\ngeist\n/ ghoul] to fight by your side. You can have a maximum of one [\nGlyph of the Geist\n:\ngeist\n/ ghoul] at a time. Lasts 1 min.",
+      "pve_tooltip": "30 yd range\nInstant\n2 min cooldown\nRaises a [Glyph of the Geist: geist / ghoul] to fight by your side. You can have a maximum of one [Glyph of the Geist: geist / ghoul] at a time. Lasts 1 min.",
+      "pvp_tooltip": "30 yd range\nInstant\n2 min cooldown\nRaises a [Glyph of the Geist: geist / ghoul] to fight by your side. You can have a maximum of one [Glyph of the Geist: geist / ghoul] at a time. Lasts 1 min.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Runic Attenuation",
@@ -312,15 +315,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 207104,
         "icon": "boss_odunrunes_blue"
       },
-      "pve_tooltip": "Approximately\n10.8\nprocs per minute\nAuto attacks have a chance to generate 3 Runic Power.",
-      "pvp_tooltip": "Approximately\n10.8\nprocs per minute\nAuto attacks have a chance to generate 3 Runic Power.",
+      "pve_tooltip": "Approximately 10.8 procs per minute\nAuto attacks have a chance to generate 3 Runic Power.",
+      "pvp_tooltip": "Approximately 10.8 procs per minute\nAuto attacks have a chance to generate 3 Runic Power.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Death Strike",
@@ -376,7 +380,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cleaving Strikes",
@@ -432,7 +437,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mind Freeze",
@@ -487,7 +493,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blinding Sleet",
@@ -628,7 +635,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gloom Ward",
@@ -677,15 +685,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 391571,
         "icon": "ability_rogue_envelopingshadows"
       },
-      "pve_tooltip": "Absorbs are 15% more effective on you.",
-      "pvp_tooltip": "Absorbs are 15% more effective on you.",
+      "pve_tooltip": "Absorbs are 30% more effective on you.",
+      "pvp_tooltip": "Absorbs are 30% more effective on you.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Absorbs are 15% more effective on you.",
+          "pvp_tooltip": "Absorbs are 15% more effective on you.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Absorbs are 30% more effective on you.",
+          "pvp_tooltip": "Absorbs are 30% more effective on you.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "March of Darkness",
@@ -731,15 +757,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 391546,
         "icon": "ability_argus_deathfog"
       },
-      "pve_tooltip": "Death's Advance grants an additional 25% movement speed over the first 3 sec. [\nPrice of Progress\n:\nMovement speed while using Price of Progress is increased by 5%\n]",
-      "pvp_tooltip": "Death's Advance grants an additional 25% movement speed over the first 3 sec. [\nPrice of Progress\n:\nMovement speed while using Price of Progress is increased by 5%\n]",
+      "pve_tooltip": "Death's Advance grants an additional 25% movement speed over the first 3 sec. [Price of Progress: Movement speed while using Price of Progress is increased by 5%]",
+      "pvp_tooltip": "Death's Advance grants an additional 25% movement speed over the first 3 sec. [Price of Progress: Movement speed while using Price of Progress is increased by 5%]",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wraith Walk",
@@ -785,15 +812,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 212552,
         "icon": "inv_helm_plate_raiddeathknight_p_01"
       },
-      "pve_tooltip": "Channeled (4 sec cast)\n1 min cooldown\nEmbrace the power of the Shadowlands, removing all root effects and increasing your movement speed by\n70\n% for 4 sec. Taking any action cancels the effect.\nWhile active, your movement speed cannot be reduced below 170%.",
-      "pvp_tooltip": "Channeled (4 sec cast)\n1 min cooldown\nEmbrace the power of the Shadowlands, removing all root effects and increasing your movement speed by\n70\n% for 4 sec. Taking any action cancels the effect.\nWhile active, your movement speed cannot be reduced below 170%.",
+      "pve_tooltip": "Channeled (4 sec cast)\n1 min cooldown\nEmbrace the power of the Shadowlands, removing all root effects and increasing your movement speed by 70% for 4 sec. Taking any action cancels the effect.\nWhile active, your movement speed cannot be reduced below 170%.",
+      "pvp_tooltip": "Channeled (4 sec cast)\n1 min cooldown\nEmbrace the power of the Shadowlands, removing all root effects and increasing your movement speed by 70% for 4 sec. Taking any action cancels the effect.\nWhile active, your movement speed cannot be reduced below 170%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unholy Momentum",
@@ -842,15 +870,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 374265,
         "icon": "spell_necro_deathrift"
       },
-      "pve_tooltip": "Increases Haste by 2%.",
-      "pvp_tooltip": "Increases Haste by 2%.",
+      "pve_tooltip": "Increases Haste by 4%.",
+      "pvp_tooltip": "Increases Haste by 4%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Increases Haste by 2%.",
+          "pvp_tooltip": "Increases Haste by 2%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Increases Haste by 4%.",
+          "pvp_tooltip": "Increases Haste by 4%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Control Undead",
@@ -904,7 +950,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Enfeeble",
@@ -1060,7 +1107,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Coldthirst",
@@ -1114,7 +1162,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Proliferating Chill",
@@ -1170,7 +1219,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Permafrost",
@@ -1235,7 +1285,8 @@ window.WOW_PVP_DATA = {
       ],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Veteran of the Third War",
@@ -1338,7 +1389,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Death Pact",
@@ -1394,7 +1446,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Brittle",
@@ -1450,7 +1503,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blood Bond",
@@ -1504,7 +1558,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Icy Talons",
@@ -1561,7 +1616,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Death Notes",
@@ -1615,7 +1671,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Anti-Magic Zone",
@@ -1665,15 +1722,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 51052,
         "icon": "spell_deathknight_antimagiczone"
       },
-      "pve_tooltip": "30 yd range\nInstant\n4 min cooldown\nPlaces an Anti-Magic Zone for\n6 sec\n, reducing the magic damage taken by party or raid members by 15%.",
-      "pvp_tooltip": "30 yd range\nInstant\n4 min cooldown\nPlaces an Anti-Magic Zone for\n6 sec\n, reducing the magic damage taken by party or raid members by 15%.",
+      "pve_tooltip": "30 yd range\nInstant\n4 min cooldown\nPlaces an Anti-Magic Zone for 6 sec, reducing the magic damage taken by party or raid members by 15%.",
+      "pvp_tooltip": "30 yd range\nInstant\n4 min cooldown\nPlaces an Anti-Magic Zone for 6 sec, reducing the magic damage taken by party or raid members by 15%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Death Defiance",
@@ -1727,7 +1785,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unholy Bond",
@@ -1784,7 +1843,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ice Prison",
@@ -1838,7 +1898,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Asphyxiate",
@@ -1895,7 +1956,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Death's Reach",
@@ -1952,7 +2014,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Assimilation",
@@ -2006,7 +2069,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Anti-Magic Barrier",
@@ -2110,7 +2174,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Grip of the Dead",
@@ -2156,15 +2221,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 273952,
         "icon": "ability_creature_disease_05"
       },
-      "pve_tooltip": "[\nDefile\n/ Death and Decay] reduces the movement speed of enemies within its area by 90%, decaying by 10% every sec.",
-      "pvp_tooltip": "[\nDefile\n/ Death and Decay] reduces the movement speed of enemies within its area by 90%, decaying by 10% every sec.",
+      "pve_tooltip": "[Defile / Death and Decay] reduces the movement speed of enemies within its area by 90%, decaying by 10% every sec.",
+      "pvp_tooltip": "[Defile / Death and Decay] reduces the movement speed of enemies within its area by 90%, decaying by 10% every sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Suppression",
@@ -2220,7 +2286,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blood Scent",
@@ -2277,7 +2344,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unholy Endurance",
@@ -2333,7 +2401,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Osmosis",
@@ -2387,7 +2456,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Insidious Chill",
@@ -2443,7 +2513,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Runic Protection",
@@ -2499,7 +2570,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blood Draw",
@@ -2553,7 +2625,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rune Mastery",
@@ -2601,15 +2674,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 374574,
         "icon": "ability_deathknight_hungeringruneblade"
       },
-      "pve_tooltip": "Consuming a Rune has a chance to increase your Strength by 3% for 8 sec.",
-      "pvp_tooltip": "Consuming a Rune has a chance to increase your Strength by 3% for 8 sec.",
+      "pve_tooltip": "Consuming a Rune has a chance to increase your Strength by 6% for 8 sec.",
+      "pvp_tooltip": "Consuming a Rune has a chance to increase your Strength by 6% for 8 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Consuming a Rune has a chance to increase your Strength by 3% for 8 sec.",
+          "pvp_tooltip": "Consuming a Rune has a chance to increase your Strength by 3% for 8 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Consuming a Rune has a chance to increase your Strength by 6% for 8 sec.",
+          "pvp_tooltip": "Consuming a Rune has a chance to increase your Strength by 6% for 8 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Subduing Grasp",
@@ -2665,7 +2756,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Will of the Necropolis",
@@ -2713,16 +2805,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 206967,
         "icon": "achievement_boss_kelthuzad_01"
       },
-      "pve_tooltip": "Damage taken below 30% Health is reduced by 20%.",
-      "pvp_tooltip": "Damage taken below 30% Health is reduced by 10%.",
+      "pve_tooltip": "Damage taken below 30% Health is reduced by 35%.",
+      "pvp_tooltip": "Damage taken below 30% Health is reduced by 17.5%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
           "start": 44,
           "end": 46,
-          "old_token": "20",
-          "new_token": "10",
+          "old_token": "35",
+          "new_token": "17.5",
           "kind": "percent_value",
           "effect_indexes": [
             2
@@ -2736,8 +2828,8 @@ window.WOW_PVP_DATA = {
           ],
           "status": "APPLIED",
           "kind": "percent_value",
-          "old": "20",
-          "new": "10"
+          "old": "35",
+          "new": "17.5"
         }
       ],
       "has_pvp_mechanics": true,
@@ -2768,7 +2860,25 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Damage taken below 30% Health is reduced by 20%.",
+          "pvp_tooltip": "Damage taken below 30% Health is reduced by 10%.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Damage taken below 30% Health is reduced by 35%.",
+          "pvp_tooltip": "Damage taken below 30% Health is reduced by 17.5%.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Null Magic",
@@ -2911,7 +3021,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unyielding Will",
@@ -2964,7 +3075,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Death's Echo",
@@ -3017,7 +3129,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Vestigial Shell",
@@ -3121,7 +3234,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Heart Strike",
@@ -3166,15 +3280,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 206930,
         "icon": "inv_weapon_shortblade_40"
       },
-      "pve_tooltip": ":\nGenerates 5 bonus Runic Power\n] [\nHeartbreaker\n:\nplus 2 Runic Power per additional enemy struck\n].",
-      "pvp_tooltip": ":\nGenerates 5 bonus Runic Power\n] [\nHeartbreaker\n:\nplus 2 Runic Power per additional enemy struck\n].",
+      "pve_tooltip": "1 Rune / -15 Runic Power\nMelee Range\nInstant\nInstantly strike the target and 1 other nearby enemy, causing (196.7% of Attack Power) Physical damage, and reducing enemies' movement speed by 20% for 8 sec [Heart Strike: Generates 5 bonus Runic Power] [Heartbreaker: plus 2 Runic Power per additional enemy struck].",
+      "pvp_tooltip": "1 Rune / -15 Runic Power\nMelee Range\nInstant\nInstantly strike the target and 1 other nearby enemy, causing (196.7% of Attack Power) Physical damage, and reducing enemies' movement speed by 20% for 8 sec [Heart Strike: Generates 5 bonus Runic Power] [Heartbreaker: plus 2 Runic Power per additional enemy struck].",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Marrowrend",
@@ -3220,15 +3335,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 195182,
         "icon": "ability_deathknight_marrowrend"
       },
-      "pve_tooltip": ":\nand your Haste by 0%\n]. Each melee attack against you consumes a charge. Lasts 30 sec or until all charges are consumed.",
-      "pvp_tooltip": ":\nand your Haste by 0%\n]. Each melee attack against you consumes a charge. Lasts 30 sec or until all charges are consumed.",
+      "pve_tooltip": "2 Runes / -20 Runic Power\nMelee Range\nInstant\nSmash the target, dealing (220.65% of Attack Power) Physical damage and generating 3 charges of Bone Shield.\nBone Shield\nSurrounds you with a barrier of whirling bones, increasing Armor by (180 * Strength / 100) [Marrowrend: and your Haste by 0%]. Each melee attack against you consumes a charge. Lasts 30 sec or until all charges are consumed.",
+      "pvp_tooltip": "2 Runes / -20 Runic Power\nMelee Range\nInstant\nSmash the target, dealing (220.65% of Attack Power) Physical damage and generating 3 charges of Bone Shield.\nBone Shield\nSurrounds you with a barrier of whirling bones, increasing Armor by (180 * Strength / 100) [Marrowrend: and your Haste by 0%]. Each melee attack against you consumes a charge. Lasts 30 sec or until all charges are consumed.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blood Boil",
@@ -3282,7 +3398,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Vampiric Blood",
@@ -3329,15 +3446,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 55233,
         "icon": "spell_shadow_lifedrain"
       },
-      "pve_tooltip": "Instant\n1.5 min cooldown\nEmbrace your undeath, increasing your maximum health by 30% and increasing all healing and absorbs received by\n30\n% for\n10 sec\n.",
-      "pvp_tooltip": "Instant\n1.5 min cooldown\nEmbrace your undeath, increasing your maximum health by 30% and increasing all healing and absorbs received by\n30\n% for\n10 sec\n.",
+      "pve_tooltip": "Instant\n1.5 min cooldown\nEmbrace your undeath, increasing your maximum health by 30% and increasing all healing and absorbs received by 30% for 10 sec.",
+      "pvp_tooltip": "Instant\n1.5 min cooldown\nEmbrace your undeath, increasing your maximum health by 30% and increasing all healing and absorbs received by 30% for 10 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bone Collector",
@@ -3384,15 +3502,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 458572,
         "icon": "ability_deathknight_boneshield"
       },
-      "pve_tooltip": "When you would pull an enemy generate 1 charge of Bone Shield.\nBone Shield\nSurrounds you with a barrier of whirling bones, increasing Armor by (180 * Strength / 100) [\nMarrowrend\n:\nand your Haste by 0%\n]. Each melee attack against you consumes a charge. Lasts 30 sec or until all charges are consumed.",
-      "pvp_tooltip": "When you would pull an enemy generate 1 charge of Bone Shield.\nBone Shield\nSurrounds you with a barrier of whirling bones, increasing Armor by (180 * Strength / 100) [\nMarrowrend\n:\nand your Haste by 0%\n]. Each melee attack against you consumes a charge. Lasts 30 sec or until all charges are consumed.",
+      "pve_tooltip": "When you would pull an enemy generate 1 charge of Bone Shield.\nBone Shield\nSurrounds you with a barrier of whirling bones, increasing Armor by (180 * Strength / 100) [Marrowrend: and your Haste by 0%]. Each melee attack against you consumes a charge. Lasts 30 sec or until all charges are consumed.",
+      "pvp_tooltip": "When you would pull an enemy generate 1 charge of Bone Shield.\nBone Shield\nSurrounds you with a barrier of whirling bones, increasing Armor by (180 * Strength / 100) [Marrowrend: and your Haste by 0%]. Each melee attack against you consumes a charge. Lasts 30 sec or until all charges are consumed.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ossuary",
@@ -3448,7 +3567,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Vampiric Blood",
@@ -3495,15 +3615,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 317133,
         "icon": "spell_shadow_lifedrain"
       },
-      "pve_tooltip": "Vampiric Blood's healing and absorb amount is increased by 5% and duration by 2 sec.",
-      "pvp_tooltip": "Vampiric Blood's healing and absorb amount is increased by 5% and duration by 2 sec.",
+      "pve_tooltip": "Vampiric Blood's healing and absorb amount is increased by 10% and duration by 4 sec.",
+      "pvp_tooltip": "Vampiric Blood's healing and absorb amount is increased by 10% and duration by 4 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Vampiric Blood's healing and absorb amount is increased by 5% and duration by 2 sec.",
+          "pvp_tooltip": "Vampiric Blood's healing and absorb amount is increased by 5% and duration by 2 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Vampiric Blood's healing and absorb amount is increased by 10% and duration by 4 sec.",
+          "pvp_tooltip": "Vampiric Blood's healing and absorb amount is increased by 10% and duration by 4 sec.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Improved Heart Strike",
@@ -3550,15 +3688,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 374717,
         "icon": "inv_weapon_shortblade_40"
       },
-      "pve_tooltip": "Heart Strike damage increased by 15%.",
-      "pvp_tooltip": "Heart Strike damage increased by 15%.",
+      "pve_tooltip": "Heart Strike damage increased by 30%.",
+      "pvp_tooltip": "Heart Strike damage increased by 30%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Heart Strike damage increased by 15%.",
+          "pvp_tooltip": "Heart Strike damage increased by 15%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Heart Strike damage increased by 30%.",
+          "pvp_tooltip": "Heart Strike damage increased by 30%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Relish in Blood",
@@ -3614,7 +3770,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Leeching Strike",
@@ -3669,7 +3826,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Heartbreaker",
@@ -3723,7 +3881,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Foul Bulwark",
@@ -3779,7 +3938,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dancing Rune Weapon",
@@ -3828,15 +3988,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 49028,
         "icon": "inv_sword_07"
       },
-      "pve_tooltip": "30 yd range\nInstant\n2 min cooldown\nSummons a rune weapon for\n8 sec\nthat mirrors your melee attacks and bolsters your defenses.\nWhile active, you gain\n30\n% parry chance.",
-      "pvp_tooltip": "30 yd range\nInstant\n2 min cooldown\nSummons a rune weapon for\n8 sec\nthat mirrors your melee attacks and bolsters your defenses.\nWhile active, you gain\n30\n% parry chance.",
+      "pve_tooltip": "30 yd range\nInstant\n2 min cooldown\nSummons a rune weapon for 8 sec that mirrors your melee attacks and bolsters your defenses.\nWhile active, you gain 30% parry chance.",
+      "pvp_tooltip": "30 yd range\nInstant\n2 min cooldown\nSummons a rune weapon for 8 sec that mirrors your melee attacks and bolsters your defenses.\nWhile active, you gain 30% parry chance.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hemostasis",
@@ -3892,7 +4053,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Perseverance of the Ebon Blade",
@@ -3946,7 +4108,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bloodworms",
@@ -3993,15 +4156,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 195679,
         "icon": "spell_shadow_soulleech"
       },
-      "pve_tooltip": "Approximately\n5\nprocs per minute\nYour auto attacks have a chance to summon a Bloodworm.\nBloodworms deal minor damage to your target for 15 sec and then burst, healing you for 15% of your missing health.\nIf you drop below 50% health, your Bloodworms will immediately burst and heal you.",
-      "pvp_tooltip": "Approximately\n5\nprocs per minute\nYour auto attacks have a chance to summon a Bloodworm.\nBloodworms deal minor damage to your target for 15 sec and then burst, healing you for 15% of your missing health.\nIf you drop below 50% health, your Bloodworms will immediately burst and heal you.",
+      "pve_tooltip": "Approximately 5 procs per minute\nYour auto attacks have a chance to summon a Bloodworm.\nBloodworms deal minor damage to your target for 15 sec and then burst, healing you for 15% of your missing health.\nIf you drop below 50% health, your Bloodworms will immediately burst and heal you.",
+      "pvp_tooltip": "Approximately 5 procs per minute\nYour auto attacks have a chance to summon a Bloodworm.\nBloodworms deal minor damage to your target for 15 sec and then burst, healing you for 15% of your missing health.\nIf you drop below 50% health, your Bloodworms will immediately burst and heal you.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gorefiend's Grasp",
@@ -4050,15 +4214,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 108199,
         "icon": "ability_deathknight_aoedeathgrip"
       },
-      "pve_tooltip": "30 yd range\nInstant\n1.5 min cooldown\nShadowy tendrils coil around all enemies within 15 yards of a hostile or friendly target, pulling them to the target's location and Silencing them for 3 sec.",
-      "pvp_tooltip": "30 yd range\nInstant\n1.5 min cooldown\nShadowy tendrils coil around all enemies within 15 yards of a hostile or friendly target, pulling them to the target's location and Silencing them for 3 sec.",
+      "pve_tooltip": "30 yd range\nInstant\n15 sec cooldown\nShadowy tendrils coil around all enemies within 15 yards of a hostile or friendly target, pulling them to the target's location and Silencing them for 3 sec.",
+      "pvp_tooltip": "30 yd range\nInstant\n15 sec cooldown\nShadowy tendrils coil around all enemies within 15 yards of a hostile or friendly target, pulling them to the target's location and Silencing them for 3 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Abomination Limb",
@@ -4115,7 +4280,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Bone Shield",
@@ -4170,7 +4336,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Insatiable Blade",
@@ -4226,7 +4393,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Deadly Reach",
@@ -4281,7 +4449,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rapid Decomposition",
@@ -4338,7 +4507,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Boiling Point",
@@ -4393,7 +4563,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lifeblood",
@@ -4451,7 +4622,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Everlasting Bond",
@@ -4505,7 +4677,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Voracious",
@@ -4563,7 +4736,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blood Feast",
@@ -4618,7 +4792,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Plague Infusion",
@@ -4673,7 +4848,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bloody Reflection",
@@ -4727,7 +4903,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Iron Heart",
@@ -4785,7 +4962,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bloodied Blade",
@@ -4839,7 +5017,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Coagulopathy",
@@ -4894,7 +5073,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blood Mist",
@@ -4948,7 +5128,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sanguine Ground",
@@ -5003,7 +5184,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bloodshot",
@@ -5055,7 +5237,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Consumption",
@@ -5102,15 +5285,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 1263824,
         "icon": "inv_axe_2h_artifactmaw_d_01"
       },
-      "pve_tooltip": "Melee Range\nChanneled (2 sec cast)\n45 sec cooldown\nEmpower the runes in your weapon, reducing the damage you take over the duration and unleashing a devastating attack that deals (625.1% of Attack Power) Shadow damage and consumes up to 75% of your Blood Plague instantly from enemies in front of you.\nI:\nConsumes up to 25% of your Blood Plague. While empowering, your damage taken is reduced by\n5\n% and an additional 8 sec after empowering.\nII:\nConsumes up to 50% of your Blood Plague. While empowering, your damage taken is reduced by 10% and an additional 4 sec after empowering.\nIII:\nConsumes up to 75% of your Blood Plague. While empowering, your damage taken is reduced by 15% and an additional 2 sec after empowering.",
-      "pvp_tooltip": "Melee Range\nChanneled (2 sec cast)\n45 sec cooldown\nEmpower the runes in your weapon, reducing the damage you take over the duration and unleashing a devastating attack that deals (625.1% of Attack Power) Shadow damage and consumes up to 75% of your Blood Plague instantly from enemies in front of you.\nI:\nConsumes up to 25% of your Blood Plague. While empowering, your damage taken is reduced by\n5\n% and an additional 8 sec after empowering.\nII:\nConsumes up to 50% of your Blood Plague. While empowering, your damage taken is reduced by 10% and an additional 4 sec after empowering.\nIII:\nConsumes up to 75% of your Blood Plague. While empowering, your damage taken is reduced by 15% and an additional 2 sec after empowering.",
+      "pve_tooltip": "Melee Range\nChanneled (2 sec cast)\n45 sec cooldown\nEmpower the runes in your weapon, reducing the damage you take over the duration and unleashing a devastating attack that deals (625.1% of Attack Power) Shadow damage and consumes up to 75% of your Blood Plague instantly from enemies in front of you.\nI: Consumes up to 25% of your Blood Plague. While empowering, your damage taken is reduced by 5% and an additional 8 sec after empowering.\nII: Consumes up to 50% of your Blood Plague. While empowering, your damage taken is reduced by 10% and an additional 4 sec after empowering.\nIII: Consumes up to 75% of your Blood Plague. While empowering, your damage taken is reduced by 15% and an additional 2 sec after empowering.",
+      "pvp_tooltip": "Melee Range\nChanneled (2 sec cast)\n45 sec cooldown\nEmpower the runes in your weapon, reducing the damage you take over the duration and unleashing a devastating attack that deals (625.1% of Attack Power) Shadow damage and consumes up to 75% of your Blood Plague instantly from enemies in front of you.\nI: Consumes up to 25% of your Blood Plague. While empowering, your damage taken is reduced by 5% and an additional 8 sec after empowering.\nII: Consumes up to 50% of your Blood Plague. While empowering, your damage taken is reduced by 10% and an additional 4 sec after empowering.\nIII: Consumes up to 75% of your Blood Plague. While empowering, your damage taken is reduced by 15% and an additional 2 sec after empowering.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Red Thirst",
@@ -5164,7 +5348,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sanguinary Burst",
@@ -5216,7 +5401,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Purgatory",
@@ -5268,7 +5454,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Carnage",
@@ -5312,15 +5499,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 458752,
         "icon": "sha_ability_warrior_bloodnova_nightmare"
       },
-      "pve_tooltip": "Approximately\n1.1\nprocs per minute\nConsumption now contributes to your Mastery: Blood Shield.\nEach time an enemy strikes your Blood Shield, the cooldown of Consumption has chance to be reset.",
-      "pvp_tooltip": "Approximately\n1.1\nprocs per minute\nConsumption now contributes to your Mastery: Blood Shield.\nEach time an enemy strikes your Blood Shield, the cooldown of Consumption has chance to be reset.",
+      "pve_tooltip": "Approximately 1.1 procs per minute\nConsumption now contributes to your Mastery: Blood Shield.\nEach time an enemy strikes your Blood Shield, the cooldown of Consumption has chance to be reset.",
+      "pvp_tooltip": "Approximately 1.1 procs per minute\nConsumption now contributes to your Mastery: Blood Shield.\nEach time an enemy strikes your Blood Shield, the cooldown of Consumption has chance to be reset.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Umbilicus Eternus",
@@ -5372,7 +5560,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dance of Midnight",
@@ -5422,7 +5611,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dance of Midnight",
@@ -5472,7 +5662,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dance of Midnight",
@@ -5522,7 +5713,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Reaper's Mark",
@@ -5702,7 +5894,8 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 3,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Vampiric Strike",
@@ -5822,7 +6015,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wave of Souls",
@@ -5966,7 +6160,8 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Wither Away",
@@ -6151,7 +6346,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bind in Darkness",
@@ -6205,7 +6401,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frigid Resolve",
@@ -6259,7 +6456,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Newly Turned",
@@ -6313,7 +6511,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Vampiric Speed",
@@ -6367,7 +6566,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blood-Soaked Ground",
@@ -6421,7 +6621,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Desecrate",
@@ -6475,7 +6676,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Vampiric Aura",
@@ -6529,7 +6731,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bloody Fortitude",
@@ -6583,7 +6786,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thrill of Blood",
@@ -6637,7 +6841,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Soul Rupture",
@@ -6691,7 +6896,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Grim Reaper",
@@ -6745,7 +6951,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pact of the Deathbringer",
@@ -6846,7 +7053,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Rune Carved Plates",
@@ -6973,7 +7181,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Deathly Blows",
@@ -7027,7 +7236,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Infliction of Sorrow",
@@ -7081,7 +7291,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Frenzied Bloodthirst",
@@ -7190,7 +7401,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "The Blood is Life",
@@ -7244,7 +7456,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Visceral Strength",
@@ -7298,7 +7511,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Swift and Painful",
@@ -7352,7 +7566,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dark Talons",
@@ -7406,7 +7621,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Reaper's Onslaught",
@@ -7460,7 +7676,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Death's Messenger",
@@ -7514,7 +7731,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Expelling Shield",
@@ -7620,7 +7838,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Echoing Fury",
@@ -7674,7 +7893,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Inevitable",
@@ -7728,7 +7948,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Incite Terror",
@@ -7774,15 +7995,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 434151,
         "icon": "ability_warlock_improveddemonictactics"
       },
-      "pve_tooltip": "Vampiric Strike and Heart Strike cause your targets to take\n1\n% increased Shadow damage, up to (\n1\n* 5)% for 15 sec.\nVampiric Strike benefits from Incite Terror at 400% effectiveness.",
-      "pvp_tooltip": "Vampiric Strike and Heart Strike cause your targets to take\n1\n% increased Shadow damage, up to (\n1\n* 5)% for 15 sec.\nVampiric Strike benefits from Incite Terror at 400% effectiveness.",
+      "pve_tooltip": "Vampiric Strike and Heart Strike cause your targets to take 1% increased Shadow damage, up to (1 * 5)% for 15 sec.\nVampiric Strike benefits from Incite Terror at 400% effectiveness.",
+      "pvp_tooltip": "Vampiric Strike and Heart Strike cause your targets to take 1% increased Shadow damage, up to (1 * 5)% for 15 sec.\nVampiric Strike benefits from Incite Terror at 400% effectiveness.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Pact of the San'layn",
@@ -7836,7 +8058,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sanguine Scent",
@@ -7890,7 +8113,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Transfusion",
@@ -8120,7 +8344,8 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Exterminate",
@@ -8167,8 +8392,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 441378,
         "icon": "inv_polearm_2h_titanargus_d_01"
       },
-      "pve_tooltip": "After Reaper's Mark explodes, your next 2 Marrowrends cost 1 Rune and summon 2 scythes to strike your enemies.\nThe first scythe strikes your target for (1030.25% of Attack Power) Shadowfrost damage and the second scythe strikes all enemies around your target for (469.2% of Attack Power) Shadowfrost damage\n[and applies Frost Fever]. Deals reduced damage beyond 8 targets.",
-      "pvp_tooltip": "After Reaper's Mark explodes, your next 2 Marrowrends cost 1 Rune and summon 2 scythes to strike your enemies.\nThe first scythe strikes your target for (721.175% of Attack Power) Shadowfrost damage and the second scythe strikes all enemies around your target for (328.44% of Attack Power) Shadowfrost damage\n[and applies Frost Fever]. Deals reduced damage beyond 8 targets.",
+      "pve_tooltip": "After Reaper's Mark explodes, your next 2 Marrowrends cost 1 Rune and summon 2 scythes to strike your enemies.\nThe first scythe strikes your target for (1030.25% of Attack Power) Shadowfrost damage and the second scythe strikes all enemies around your target for (469.2% of Attack Power) Shadowfrost damage[and applies Frost Fever]. Deals reduced damage beyond 8 targets.",
+      "pvp_tooltip": "After Reaper's Mark explodes, your next 2 Marrowrends cost 1 Rune and summon 2 scythes to strike your enemies.\nThe first scythe strikes your target for (721.175% of Attack Power) Shadowfrost damage and the second scythe strikes all enemies around your target for (328.44% of Attack Power) Shadowfrost damage[and applies Frost Fever]. Deals reduced damage beyond 8 targets.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -8356,7 +8581,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 4
+      "render_effect_count": 4,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gift of the San'layn",
@@ -8411,13 +8637,14 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     }
   ],
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "death-knight-blood",
-  "generated_at": "2026-09-20T12:49:09.025248+00:00",
+  "generated_at": "2026-09-20T19:58:44.148038+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 16,

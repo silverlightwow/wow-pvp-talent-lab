@@ -50,14 +50,14 @@ window.WOW_PVP_DATA = {
         "spell_id": 5938,
         "icon": "inv_throwingknife_04"
       },
-      "pve_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [\nImproved Shiv\n:\npoisoned blades\n/ off-hand], dealing (125.4% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your\nactive Non-Lethal poison.\nAwards\n1\ncombo points.",
-      "pvp_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [\nImproved Shiv\n:\npoisoned blades\n/ off-hand], dealing (105.336% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your\nactive Non-Lethal poison.\nAwards\n1\ncombo points.",
+      "pve_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [Improved Shiv: poisoned blades / off-hand], dealing (125.4% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your active Non-Lethal poison.\nAwards 1 combo points.",
+      "pvp_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [Improved Shiv: poisoned blades / off-hand], dealing (105.336% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your active Non-Lethal poison.\nAwards 1 combo points.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 128,
-          "end": 133,
+          "start": 126,
+          "end": 131,
           "old_token": "125.4",
           "new_token": "105.336",
           "kind": "attack_power_coefficient",
@@ -307,7 +307,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 4
+      "render_effect_count": 4,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blind",
@@ -361,7 +362,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cloak of Shadows",
@@ -406,15 +408,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 31224,
         "icon": "spell_shadow_nethercloak"
       },
-      "pve_tooltip": "Instant\n2 min cooldown\nProvides a moment of magic immunity, instantly removing all harmful spell effects. The cloak lingers, causing you to resist harmful spells for\n5 sec\n.",
-      "pvp_tooltip": "Instant\n2 min cooldown\nProvides a moment of magic immunity, instantly removing all harmful spell effects. The cloak lingers, causing you to resist harmful spells for\n5 sec\n.",
+      "pve_tooltip": "Instant\n2 min cooldown\nProvides a moment of magic immunity, instantly removing all harmful spell effects. The cloak lingers, causing you to resist harmful spells for 5 sec.",
+      "pvp_tooltip": "Instant\n2 min cooldown\nProvides a moment of magic immunity, instantly removing all harmful spell effects. The cloak lingers, causing you to resist harmful spells for 5 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Toxic Stiletto",
@@ -468,7 +471,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fleet Footed",
@@ -524,7 +528,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gouge",
@@ -570,15 +575,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 1776,
         "icon": "ability_gouge"
       },
-      "pve_tooltip": "25 Energy\nMelee Range\nInstant\n25 sec cooldown\nGouges the eyes of an enemy target, incapacitating for 4 sec. Damage may interrupt the effect.\nMust be in front of your target.\nAwards\n1\ncombo points.",
-      "pvp_tooltip": "25 Energy\nMelee Range\nInstant\n25 sec cooldown\nGouges the eyes of an enemy target, incapacitating for 4 sec. Damage may interrupt the effect.\nMust be in front of your target.\nAwards\n1\ncombo points.",
+      "pve_tooltip": "25 Energy\nMelee Range\nInstant\n25 sec cooldown\nGouges the eyes of an enemy target, incapacitating for 4 sec. Damage may interrupt the effect.\nMust be in front of your target.\nAwards 1 combo points.",
+      "pvp_tooltip": "25 Energy\nMelee Range\nInstant\n25 sec cooldown\nGouges the eyes of an enemy target, incapacitating for 4 sec. Damage may interrupt the effect.\nMust be in front of your target.\nAwards 1 combo points.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Airborne Irritant",
@@ -679,7 +685,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thrill Seeking",
@@ -735,7 +742,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shadowrunner",
@@ -789,7 +797,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Master Poisoner",
@@ -886,7 +895,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Elusiveness",
@@ -942,7 +952,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cheat Death",
@@ -998,7 +1009,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tricks of the Trade",
@@ -1046,15 +1058,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 57934,
         "icon": "ability_rogue_tricksofthetrade"
       },
-      "pve_tooltip": "100 yd range\nInstant\n30 sec cooldown\n[\nThick as Thieves\n:\nIncreases the target's damage by 15%, and redirects\n/ Redirects] all threat you cause to the targeted party or raid member, beginning with your next damaging attack within the next 30 sec and lasting 6 sec.\n(100ms cooldown)",
-      "pvp_tooltip": "100 yd range\nInstant\n30 sec cooldown\n[\nThick as Thieves\n:\nIncreases the target's damage by 15%, and redirects\n/ Redirects] all threat you cause to the targeted party or raid member, beginning with your next damaging attack within the next 30 sec and lasting 6 sec.\n(100ms cooldown)",
+      "pve_tooltip": "100 yd range\nInstant\n30 sec cooldown\n[Thick as Thieves: Increases the target's damage by 15%, and redirects / Redirects] all threat you cause to the targeted party or raid member, beginning with your next damaging attack within the next 30 sec and lasting 6 sec.\n(100ms cooldown)",
+      "pvp_tooltip": "100 yd range\nInstant\n30 sec cooldown\n[Thick as Thieves: Increases the target's damage by 15%, and redirects / Redirects] all threat you cause to the targeted party or raid member, beginning with your next damaging attack within the next 30 sec and lasting 6 sec.\n(100ms cooldown)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Blackjack",
@@ -1102,15 +1115,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 379005,
         "icon": "ability_rogue_blackjack"
       },
-      "pve_tooltip": "Enemies have\n30\n% reduced damage and healing for 6 sec after Blind or Sap's effect on them ends.",
-      "pvp_tooltip": "Enemies have\n30\n% reduced damage and healing for 6 sec after Blind or Sap's effect on them ends.",
+      "pve_tooltip": "Enemies have 30% reduced damage and healing for 6 sec after Blind or Sap's effect on them ends.",
+      "pvp_tooltip": "Enemies have 30% reduced damage and healing for 6 sec after Blind or Sap's effect on them ends.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Wound Poison",
@@ -1165,7 +1179,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Nimble Fingers",
@@ -1221,7 +1236,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Deadened Nerves",
@@ -1275,7 +1291,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Quick Fingers",
@@ -1331,7 +1348,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Sprint",
@@ -1386,7 +1404,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Superior Mixture",
@@ -1487,7 +1506,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Evasion",
@@ -1543,7 +1563,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Iron Stomach",
@@ -1597,7 +1618,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Virulent Poisons",
@@ -1655,7 +1677,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Stillshroud",
@@ -1709,7 +1732,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Graceful Guile",
@@ -1765,7 +1789,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Featherfoot",
@@ -1819,7 +1844,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Numbing Poison",
@@ -1866,8 +1892,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 5761,
         "icon": "spell_nature_nullifydisease"
       },
-      "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, clouding their mind and slowing their attack and casting speed by 15 /\nMaster Poisoner\n:\n18\n/\nMaster Poisoner\n:\n18\n% for 10 sec.\n(Proc chance: 30%)",
-      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, clouding their mind and slowing their attack and casting speed by 15 /\nMaster Poisoner\n:\n18\n/\nMaster Poisoner\n:\n18\n% for 10 sec.\n(Proc chance: 30%)",
+      "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, clouding their mind and slowing their attack and casting speed by 15 / Master Poisoner: 18 / Master Poisoner: 18% for 10 sec.\n(Proc chance: 30%)",
+      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, clouding their mind and slowing their attack and casting speed by 15 / Master Poisoner: 18 / Master Poisoner: 18% for 10 sec.\n(Proc chance: 30%)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1935,7 +1961,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Atrophic Poison",
@@ -1982,15 +2009,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 381637,
         "icon": "ability_rogue_nervesofsteel"
       },
-      "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, reducing their damage by (\n- 4\n*- 1)% for 1 min.\n(Proc chance: 30%)",
-      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, reducing their damage by (\n- 4\n*- 1)% for 1 min.\n(Proc chance: 30%)",
+      "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, reducing their damage by ( - 4 *- 1)% for 1 min.\n(Proc chance: 30%)",
+      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, reducing their damage by ( - 4 *- 1)% for 1 min.\n(Proc chance: 30%)",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Deadly Precision",
@@ -2047,7 +2075,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Sanguine Vial",
@@ -2093,15 +2122,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 1293135,
         "icon": "inv_misc_potiona5"
       },
-      "pve_tooltip": "Sanguine Vial - Spell - World of Warcraft\nSkip to Main Content\nThis site makes extensive use of JavaScript.\nPlease enable JavaScript in your browser.\nLive\nPTR\n12.1.0\nPTR\n12.1.5\nQuick Facts\nScreenshots\nVideos\nComments\nComment by\nItsversayce\nGrants you a 30-second",
-      "pvp_tooltip": "Sanguine Vial - Spell - World of Warcraft\nSkip to Main Content\nThis site makes extensive use of JavaScript.\nPlease enable JavaScript in your browser.\nLive\nPTR\n12.1.0\nPTR\n12.1.5\nQuick Facts\nScreenshots\nVideos\nComments\nComment by\nItsversayce\nGrants you a 30-second",
+      "pve_tooltip": "When you deal the killing blow to a target that yields experience or honor, the cooldown of Crimson Vial is reduced by 15 sec and your next use heals 5% of your health instantly.",
+      "pvp_tooltip": "When you deal the killing blow to a target that yields experience or honor, the cooldown of Crimson Vial is reduced by 15 sec and your next use heals 5% of your health instantly.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Deep Cuts",
@@ -2158,7 +2188,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unbreakable Stride",
@@ -2213,7 +2244,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Danger Sense",
@@ -2269,7 +2301,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Swift Slasher",
@@ -2327,7 +2360,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Ambush",
@@ -2375,15 +2409,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 381620,
         "icon": "ability_rogue_ambush"
       },
-      "pve_tooltip": "[\nShadowstrike\n:\nShadowstrike damage increased by 8%\n/ Ambush generates 1 additional combo point].",
-      "pvp_tooltip": "[\nShadowstrike\n:\nShadowstrike damage increased by 8%\n/ Ambush generates 1 additional combo point].",
+      "pve_tooltip": "[Shadowstrike: Shadowstrike damage increased by 8% / Ambush generates 1 additional combo point].",
+      "pvp_tooltip": "[Shadowstrike: Shadowstrike damage increased by 8% / Ambush generates 1 additional combo point].",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Tight Spender",
@@ -2439,7 +2474,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Leeching Poison",
@@ -2493,7 +2529,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lethality",
@@ -2540,15 +2577,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 382238,
         "icon": "ability_criticalstrike"
       },
-      "pve_tooltip": "Critical strike chance increased by 1%. Critical strike damage bonus of your attacks that generate combo points increased by 10%.",
-      "pvp_tooltip": "Critical strike chance increased by 1%. Critical strike damage bonus of your attacks that generate combo points increased by 10%.",
+      "pve_tooltip": "Critical strike chance increased by 2%. Critical strike damage bonus of your attacks that generate combo points increased by 20%.",
+      "pvp_tooltip": "Critical strike chance increased by 2%. Critical strike damage bonus of your attacks that generate combo points increased by 20%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Critical strike chance increased by 1%. Critical strike damage bonus of your attacks that generate combo points increased by 10%.",
+          "pvp_tooltip": "Critical strike chance increased by 1%. Critical strike damage bonus of your attacks that generate combo points increased by 10%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Critical strike chance increased by 2%. Critical strike damage bonus of your attacks that generate combo points increased by 20%.",
+          "pvp_tooltip": "Critical strike chance increased by 2%. Critical strike damage bonus of your attacks that generate combo points increased by 20%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Recuperator",
@@ -2602,7 +2657,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Alacrity",
@@ -2649,15 +2705,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 193539,
         "icon": "ability_paladin_speedoflight"
       },
-      "pve_tooltip": "Haste increased by 1.5%.",
-      "pvp_tooltip": "Haste increased by 1.5%.",
+      "pve_tooltip": "Haste increased by 3%.",
+      "pvp_tooltip": "Haste increased by 3%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Haste increased by 1.5%.",
+          "pvp_tooltip": "Haste increased by 1.5%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Haste increased by 3%.",
+          "pvp_tooltip": "Haste increased by 3%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Soothing Darkness",
@@ -2753,7 +2827,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Vigor",
@@ -2799,15 +2874,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 14983,
         "icon": "ability_rogue_vigor"
       },
-      "pve_tooltip": "Increases your maximum Energy by 50 and Energy regeneration by 5%.",
-      "pvp_tooltip": "Increases your maximum Energy by 50 and Energy regeneration by 5%.",
+      "pve_tooltip": "Increases your maximum Energy by 100 and Energy regeneration by 10%.",
+      "pvp_tooltip": "Increases your maximum Energy by 100 and Energy regeneration by 10%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Increases your maximum Energy by 50 and Energy regeneration by 5%.",
+          "pvp_tooltip": "Increases your maximum Energy by 50 and Energy regeneration by 5%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Increases your maximum Energy by 100 and Energy regeneration by 10%.",
+          "pvp_tooltip": "Increases your maximum Energy by 100 and Energy regeneration by 10%.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Supercharger",
@@ -2853,15 +2946,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 470347,
         "icon": "inv_engineering_90_electrifiedether"
       },
-      "pve_tooltip": "Shadow Dance supercharges 1 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
-      "pvp_tooltip": "Shadow Dance supercharges 1 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
+      "pve_tooltip": "Shadow Dance supercharges 2 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
+      "pvp_tooltip": "Shadow Dance supercharges 2 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Shadow Dance supercharges 1 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
+          "pvp_tooltip": "Shadow Dance supercharges 1 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Shadow Dance supercharges 2 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
+          "pvp_tooltip": "Shadow Dance supercharges 2 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Subterfuge",
@@ -2907,15 +3018,33 @@ window.WOW_PVP_DATA = {
         "spell_id": 108208,
         "icon": "rogue_subterfuge"
       },
-      "pve_tooltip": "Abilities requiring Stealth can be used for 2 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 2 sec after Stealth breaks.",
-      "pvp_tooltip": "Abilities requiring Stealth can be used for 2 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 2 sec after Stealth breaks.",
+      "pve_tooltip": "Abilities requiring Stealth can be used for 4 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 4 sec after Stealth breaks.",
+      "pvp_tooltip": "Abilities requiring Stealth can be used for 4 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 4 sec after Stealth breaks.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Abilities requiring Stealth can be used for 2 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 2 sec after Stealth breaks.",
+          "pvp_tooltip": "Abilities requiring Stealth can be used for 2 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 2 sec after Stealth breaks.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Abilities requiring Stealth can be used for 4 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 4 sec after Stealth breaks.",
+          "pvp_tooltip": "Abilities requiring Stealth can be used for 4 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 4 sec after Stealth breaks.",
+          "tooltip_changed": false,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Thistle Tea",
@@ -2967,7 +3096,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thistle Tea",
@@ -3019,7 +3149,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cold Blooded Killer",
@@ -3071,7 +3202,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Echoing Reprimand",
@@ -3115,8 +3247,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 470669,
         "icon": "inv_ability_rogue_echoingreprimand"
       },
-      "pve_tooltip": "After consuming a supercharged combo point, your next\nBackstab also strikes the target with an Echoing Reprimand dealing (118% of Attack Power) Physical damage.",
-      "pvp_tooltip": "After consuming a supercharged combo point, your next\nBackstab also strikes the target with an Echoing Reprimand dealing (99.12% of Attack Power) Physical damage.",
+      "pve_tooltip": "After consuming a supercharged combo point, your next Backstab also strikes the target with an Echoing Reprimand dealing (118% of Attack Power) Physical damage.",
+      "pvp_tooltip": "After consuming a supercharged combo point, your next Backstab also strikes the target with an Echoing Reprimand dealing (99.12% of Attack Power) Physical damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3183,7 +3315,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Forced Induction",
@@ -3235,7 +3368,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Deeper Stratagem",
@@ -3287,7 +3421,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Without a Trace",
@@ -3339,7 +3474,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Find Weakness",
@@ -3393,7 +3529,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Backstab",
@@ -3439,15 +3576,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 319949,
         "icon": "ability_backstab"
       },
-      "pve_tooltip": "[\nGloomblade\n/ Backstab] has 15% increased critical strike chance.\nWhile behind your target, Backstab critical strikes grant Find Weakness for 10 sec.",
-      "pvp_tooltip": "[\nGloomblade\n/ Backstab] has 15% increased critical strike chance.\nWhile behind your target, Backstab critical strikes grant Find Weakness for 10 sec.",
+      "pve_tooltip": "[Gloomblade / Backstab] has 15% increased critical strike chance.\nWhile behind your target, Backstab critical strikes grant Find Weakness for 10 sec.",
+      "pvp_tooltip": "[Gloomblade / Backstab] has 15% increased critical strike chance.\nWhile behind your target, Backstab critical strikes grant Find Weakness for 10 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shadow Blades",
@@ -3548,7 +3686,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Shuriken Storm",
@@ -3602,7 +3741,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Premeditation",
@@ -3657,7 +3797,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Quick Decisions",
@@ -3712,7 +3853,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ephemeral Bond",
@@ -3767,7 +3909,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Silent Storm",
@@ -3822,7 +3965,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shrouded in Darkness",
@@ -3876,7 +4020,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shot in the Dark",
@@ -3933,7 +4078,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Exhilarating Execution",
@@ -3990,7 +4136,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cloaked in Shadows",
@@ -4080,7 +4227,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Fade to Nothing",
@@ -4137,7 +4285,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Night Terrors",
@@ -4183,15 +4332,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 277953,
         "icon": "spell_shadow_shadesofdarkness"
       },
-      "pve_tooltip": "Shuriken Storm reduces enemies' movement speed by\n50\n% for 8 sec.",
-      "pvp_tooltip": "Shuriken Storm reduces enemies' movement speed by\n50\n% for 8 sec.",
+      "pve_tooltip": "Shuriken Storm reduces enemies' movement speed by 50% for 8 sec.",
+      "pvp_tooltip": "Shuriken Storm reduces enemies' movement speed by 50% for 8 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Terrifying Pace",
@@ -4245,7 +4395,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Master of Shadows",
@@ -4302,7 +4453,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Gloomblade",
@@ -4348,8 +4500,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 200758,
         "icon": "ability_ironmaidens_convulsiveshadows"
       },
-      "pve_tooltip": "Replaces\nBackstab\n40 Energy\nMelee Range\nInstant\nPunctures your target with your shadow-infused blade for (123% of Attack Power) Shadow damage, bypassing armor. [\nImproved Backstab\n:\nCritical strikes apply Find Weakness for 10 sec\n]\nAwards\n1\ncombo points.",
-      "pvp_tooltip": "Replaces\nBackstab\n40 Energy\nMelee Range\nInstant\nPunctures your target with your shadow-infused blade for (179.7768% of Attack Power) Shadow damage, bypassing armor. [\nImproved Backstab\n:\nCritical strikes apply Find Weakness for 10 sec\n]\nAwards\n1\ncombo points.",
+      "pve_tooltip": "Replaces Backstab\n40 Energy\nMelee Range\nInstant\nPunctures your target with your shadow-infused blade for (123% of Attack Power) Shadow damage, bypassing armor. [Improved Backstab: Critical strikes apply Find Weakness for 10 sec]\nAwards 1 combo points.",
+      "pvp_tooltip": "Replaces Backstab\n40 Energy\nMelee Range\nInstant\nPunctures your target with your shadow-infused blade for (179.7768% of Attack Power) Shadow damage, bypassing armor. [Improved Backstab: Critical strikes apply Find Weakness for 10 sec]\nAwards 1 combo points.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -4413,7 +4565,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shadow Focus",
@@ -4469,7 +4622,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Secret Technique",
@@ -4523,7 +4677,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Relentless Strikes",
@@ -4580,7 +4735,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Weaponmaster",
@@ -4626,15 +4782,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 193537,
         "icon": "ability_ironmaidens_bladerush"
       },
-      "pve_tooltip": "[\nGloomblade\n/ Backstab] and Shadowstrike have a 15% chance to create a Shadow Clone that repeats the attack for 50% of normal damage as Shadow.",
-      "pvp_tooltip": "[\nGloomblade\n/ Backstab] and Shadowstrike have a 15% chance to create a Shadow Clone that repeats the attack for 50% of normal damage as Shadow.",
+      "pve_tooltip": "[Gloomblade / Backstab] and Shadowstrike have a 15% chance to create a Shadow Clone that repeats the attack for 50% of normal damage as Shadow.",
+      "pvp_tooltip": "[Gloomblade / Backstab] and Shadowstrike have a 15% chance to create a Shadow Clone that repeats the attack for 50% of normal damage as Shadow.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Planned Execution",
@@ -4689,7 +4846,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Warning Signs",
@@ -4744,7 +4902,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Double Dance",
@@ -4801,7 +4960,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shadowed Finishers",
@@ -4858,7 +5018,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Secret Stratagem",
@@ -4913,7 +5074,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shuriken Tornado",
@@ -4967,7 +5129,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Umbral Edge",
@@ -5022,7 +5185,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Deepening Shadows",
@@ -5070,15 +5234,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 185314,
         "icon": "spell_shadow_twilight"
       },
-      "pve_tooltip": "Shadow Dance duration is increased by 150% of your Haste stat.\nCurrent bonus duration: (\n0\n/ 1000) sec",
-      "pvp_tooltip": "Shadow Dance duration is increased by 150% of your Haste stat.\nCurrent bonus duration: (\n0\n/ 1000) sec",
+      "pve_tooltip": "Shadow Dance duration is increased by 150% of your Haste stat.\nCurrent bonus duration: (0 / 1000) sec",
+      "pvp_tooltip": "Shadow Dance duration is increased by 150% of your Haste stat.\nCurrent bonus duration: (0 / 1000) sec",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Goremaw's Bite",
@@ -5219,7 +5384,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 426591,
           "source_spell_id": 1309274,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Dummy (4)",
+          "effect_text": "Apply Aura: Dummy",
           "base_value": 20.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -5236,14 +5401,16 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Veiltouched",
@@ -5299,7 +5466,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Replicating Shadows",
@@ -5401,7 +5569,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Improved Find Weakness",
@@ -5456,7 +5625,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Perforated Veins",
@@ -5504,15 +5674,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 382518,
         "icon": "ability_warrior_bloodfrenzy"
       },
-      "pve_tooltip": "[\nGloomblade\n/ Backstab], Shuriken Storm, and Shadowstrike have 10% increased damage while Find Weakness is active.",
-      "pvp_tooltip": "[\nGloomblade\n/ Backstab], Shuriken Storm, and Shadowstrike have 10% increased damage while Find Weakness is active.",
+      "pve_tooltip": "[Gloomblade / Backstab], Shuriken Storm, and Shadowstrike have 10% increased damage while Find Weakness is active.",
+      "pvp_tooltip": "[Gloomblade / Backstab], Shuriken Storm, and Shadowstrike have 10% increased damage while Find Weakness is active.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lingering Shadow",
@@ -5558,15 +5729,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 382524,
         "icon": "spell_fire_twilightnova"
       },
-      "pve_tooltip": "After Shadow Dance ends, [\nGloomblade\n/ Backstab] and Shuriken Storm deal an additional 50% damage as Shadow, fading by 2.8% per sec.",
-      "pvp_tooltip": "After Shadow Dance ends, [\nGloomblade\n/ Backstab] and Shuriken Storm deal an additional 50% damage as Shadow, fading by 2.8% per sec.",
+      "pve_tooltip": "After Shadow Dance ends, [Gloomblade / Backstab] and Shuriken Storm deal an additional 50% damage as Shadow, fading by 2.8% per sec.",
+      "pvp_tooltip": "After Shadow Dance ends, [Gloomblade / Backstab] and Shuriken Storm deal an additional 50% damage as Shadow, fading by 2.8% per sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Deeper Daggers",
@@ -5622,7 +5794,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Potent Powder",
@@ -5677,7 +5850,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Death Perception",
@@ -5725,16 +5899,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 469642,
         "icon": "spell_nzinsanity_shortsighted"
       },
-      "pve_tooltip": "Find Weakness increases the damage of finishing moves by 5%.\nShadow Dance increases the damage of finishing moves by 5%.\nShadow Blades increases the damage of finishing moves by 5%.",
-      "pvp_tooltip": "Find Weakness increases the damage of finishing moves by 3%.\nShadow Dance increases the damage of finishing moves by 5%.\nShadow Blades increases the damage of finishing moves by 5%.",
+      "pve_tooltip": "Find Weakness increases the damage of finishing moves by 10%.\nShadow Dance increases the damage of finishing moves by 10%.\nShadow Blades increases the damage of finishing moves by 10%.",
+      "pvp_tooltip": "Find Weakness increases the damage of finishing moves by 6%.\nShadow Dance increases the damage of finishing moves by 10%.\nShadow Blades increases the damage of finishing moves by 10%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
           "start": 57,
-          "end": 58,
-          "old_token": "5",
-          "new_token": "3",
+          "end": 59,
+          "old_token": "10",
+          "new_token": "6",
           "kind": "percent_value",
           "effect_indexes": [
             1,
@@ -5752,8 +5926,8 @@ window.WOW_PVP_DATA = {
           ],
           "status": "APPLIED",
           "kind": "percent_value",
-          "old": "5",
-          "new": "3"
+          "old": "10",
+          "new": "6"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5834,7 +6008,25 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 3
+      "render_effect_count": 3,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Find Weakness increases the damage of finishing moves by 5%.\nShadow Dance increases the damage of finishing moves by 5%.\nShadow Blades increases the damage of finishing moves by 5%.",
+          "pvp_tooltip": "Find Weakness increases the damage of finishing moves by 3%.\nShadow Dance increases the damage of finishing moves by 5%.\nShadow Blades increases the damage of finishing moves by 5%.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Find Weakness increases the damage of finishing moves by 10%.\nShadow Dance increases the damage of finishing moves by 10%.\nShadow Blades increases the damage of finishing moves by 10%.",
+          "pvp_tooltip": "Find Weakness increases the damage of finishing moves by 6%.\nShadow Dance increases the damage of finishing moves by 10%.\nShadow Blades increases the damage of finishing moves by 10%.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Dark Shadow",
@@ -5884,16 +6076,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 245687,
         "icon": "spell_warlock_demonsoul"
       },
-      "pve_tooltip": "Shadow Dance increases all ability damage by 5%, and Shadowstrike and Shuriken Storm damage by an additional 5%.",
-      "pvp_tooltip": "Shadow Dance increases all ability damage by 5%, and Shadowstrike and Shuriken Storm damage by an additional 3.3335%.",
+      "pve_tooltip": "Shadow Dance increases all ability damage by 10%, and Shadowstrike and Shuriken Storm damage by an additional 10%.",
+      "pvp_tooltip": "Shadow Dance increases all ability damage by 10%, and Shadowstrike and Shuriken Storm damage by an additional 6.667%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 109,
-          "end": 110,
-          "old_token": "5",
-          "new_token": "3.3335",
+          "start": 110,
+          "end": 112,
+          "old_token": "10",
+          "new_token": "6.667",
           "kind": "percent_value",
           "effect_indexes": [
             1,
@@ -5909,8 +6101,8 @@ window.WOW_PVP_DATA = {
           ],
           "status": "APPLIED",
           "kind": "percent_value",
-          "old": "5",
-          "new": "3.3335"
+          "old": "10",
+          "new": "6.667"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5966,7 +6158,25 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Shadow Dance increases all ability damage by 5%, and Shadowstrike and Shuriken Storm damage by an additional 5%.",
+          "pvp_tooltip": "Shadow Dance increases all ability damage by 5%, and Shadowstrike and Shuriken Storm damage by an additional 3.3335%.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Shadow Dance increases all ability damage by 10%, and Shadowstrike and Shuriken Storm damage by an additional 10%.",
+          "pvp_tooltip": "Shadow Dance increases all ability damage by 10%, and Shadowstrike and Shuriken Storm damage by an additional 6.667%.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Finality",
@@ -6014,33 +6224,41 @@ window.WOW_PVP_DATA = {
         "spell_id": 382525,
         "icon": "ability_rogue_eviscerate"
       },
-      "pve_tooltip": "Eviscerate and Black Powder have 15% increased critical strike damage bonus.",
-      "pvp_tooltip": "Eviscerate and Black Powder have 7.5% increased critical strike damage bonus.",
+      "pve_tooltip": "Eviscerate and Black Powder have 30% increased critical strike damage bonus.",
+      "pvp_tooltip": "Eviscerate and Black Powder have 15% increased critical strike damage bonus.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
           "start": 33,
           "end": 35,
-          "old_token": "15",
-          "new_token": "7.5",
+          "old_token": "30",
+          "new_token": "15",
           "kind": "percent_value",
           "effect_indexes": [
-            1,
-            2
+            1
           ]
         }
       ],
       "diagnostics": [
         {
           "effect_indexes": [
-            1,
             2
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 15.0,
+          "new": 7.5,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
           ],
           "status": "APPLIED",
           "kind": "percent_value",
-          "old": "15",
-          "new": "7.5"
+          "old": "30",
+          "new": "15"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6094,7 +6312,25 @@ window.WOW_PVP_DATA = {
           "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Eviscerate and Black Powder have 15% increased critical strike damage bonus.",
+          "pvp_tooltip": "Eviscerate and Black Powder have 7.5% increased critical strike damage bonus.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Eviscerate and Black Powder have 30% increased critical strike damage bonus.",
+          "pvp_tooltip": "Eviscerate and Black Powder have 15% increased critical strike damage bonus.",
+          "tooltip_changed": true,
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "The Rotten",
@@ -6177,7 +6413,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shadowcraft",
@@ -6230,7 +6467,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Danse Macabre",
@@ -6309,7 +6547,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 382528,
           "source_spell_id": 1264397,
           "effect_index": 1,
-          "effect_text": "School Damage (2): shadow | Attributes: Suppress Points Stacking (6) (AP mod: 4.2)",
+          "effect_text": "School Damage (Shadow) (AP mod: 4.2 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6336,14 +6574,14 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "The First Dance",
@@ -6448,7 +6686,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Dark Brew",
@@ -6500,7 +6739,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ancient Arts",
@@ -6550,7 +6790,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ancient Arts",
@@ -6600,7 +6841,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ancient Arts",
@@ -6650,7 +6892,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Deathstalker's Mark",
@@ -6765,7 +7008,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Clear the Witnesses",
@@ -6819,7 +7063,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hunt Them Down",
@@ -6933,7 +7178,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Singular Focus",
@@ -6987,7 +7233,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Precise Killer",
@@ -7041,7 +7288,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unshakeable Drive",
@@ -7087,8 +7335,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 1248774,
         "icon": "ability_warrior_deepcuts"
       },
-      "pve_tooltip": "When you consume an application of Deathstalker's Mark, the damage of your next\nis increased by 50% or Shadowstrike increased by 25%.",
-      "pvp_tooltip": "When you consume an application of Deathstalker's Mark, the damage of your next\nis increased by 30% or Shadowstrike increased by 15%.",
+      "pve_tooltip": "When you consume an application of Deathstalker's Mark, the damage of your next is increased by 50% or Shadowstrike increased by 25%.",
+      "pvp_tooltip": "When you consume an application of Deathstalker's Mark, the damage of your next is increased by 30% or Shadowstrike increased by 15%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -7141,7 +7389,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1248774,
           "source_spell_id": 1248775,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0) | Attributes: Suppress Points Stacking (6)",
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -7158,10 +7406,11 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "ambiguous"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -7169,7 +7418,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1248774,
           "source_spell_id": 1248775,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0) | Attributes: Suppress Points Stacking (6)",
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 25.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -7186,13 +7435,15 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
+            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "ambiguous"
         }
       ],
-      "render_effect_count": 2
+      "render_effect_count": 2,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Corrupt the Blood",
@@ -7246,7 +7497,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Lingering Darkness",
@@ -7300,7 +7552,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Symbolic Victory",
@@ -7415,7 +7668,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Quietus Celeris",
@@ -7469,7 +7723,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Ethereal Cloak",
@@ -7523,7 +7778,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Bait and Switch",
@@ -7577,7 +7833,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Momentum of Despair",
@@ -7631,7 +7888,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Follow the Blood",
@@ -7685,7 +7943,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shadewalker",
@@ -7739,7 +7998,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Shroud of Night",
@@ -7793,7 +8053,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mass Casualty",
@@ -7847,7 +8108,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Darkest Night",
@@ -7944,7 +8206,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Unseen Blade",
@@ -7991,8 +8254,8 @@ window.WOW_PVP_DATA = {
         "spell_id": 441146,
         "icon": "inv_weapon_shortblade_55"
       },
-      "pve_tooltip": "and Shadowstrike now also strike with an Unseen Blade dealing (280% of Attack Power) damage. Targets struck are Fazed for 10 sec.\nFazed enemies take\n5\n% more damage from you and cannot parry your attacks.\nThis effect may occur once every 20 sec.",
-      "pvp_tooltip": "and Shadowstrike now also strike with an Unseen Blade dealing (235.2% of Attack Power) damage. Targets struck are Fazed for 10 sec.\nFazed enemies take\n5\n% more damage from you and cannot parry your attacks.\nThis effect may occur once every 20 sec.",
+      "pve_tooltip": "and Shadowstrike now also strike with an Unseen Blade dealing (280% of Attack Power) damage. Targets struck are Fazed for 10 sec.\nFazed enemies take 5% more damage from you and cannot parry your attacks.\nThis effect may occur once every 20 sec.",
+      "pvp_tooltip": "and Shadowstrike now also strike with an Unseen Blade dealing (235.2% of Attack Power) damage. Targets struck are Fazed for 10 sec.\nFazed enemies take 5% more damage from you and cannot parry your attacks.\nThis effect may occur once every 20 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -8059,7 +8322,8 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Surprising Strikes",
@@ -8113,7 +8377,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Smoke",
@@ -8167,7 +8432,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Mirrors",
@@ -8221,7 +8487,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flawless Form",
@@ -8275,7 +8542,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Hoodwink",
@@ -8329,7 +8597,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "So Tricky",
@@ -8383,7 +8652,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Don't Be Suspicious",
@@ -8484,7 +8754,8 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1
+      "render_effect_count": 1,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Devious Distractions",
@@ -8538,7 +8809,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Thousand Cuts",
@@ -8584,15 +8856,16 @@ window.WOW_PVP_DATA = {
         "spell_id": 441346,
         "icon": "inv_10_specialization_blacksmithing_blades_color1"
       },
-      "pve_tooltip": "Approximately\n4.5\nprocs per minute\nSlice and Dice grants 10% additional attack speed and gives your auto-attacks a chance to refresh your opportunity to strike with Unseen Blade.",
-      "pvp_tooltip": "Approximately\n4.5\nprocs per minute\nSlice and Dice grants 10% additional attack speed and gives your auto-attacks a chance to refresh your opportunity to strike with Unseen Blade.",
+      "pve_tooltip": "Approximately 4.5 procs per minute\nSlice and Dice grants 10% additional attack speed and gives your auto-attacks a chance to refresh your opportunity to strike with Unseen Blade.",
+      "pvp_tooltip": "Approximately 4.5 procs per minute\nSlice and Dice grants 10% additional attack speed and gives your auto-attacks a chance to refresh your opportunity to strike with Unseen Blade.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flickerstrike",
@@ -8646,7 +8919,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Flashing Steel",
@@ -8700,7 +8974,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Disorienting Strikes",
@@ -8754,7 +9029,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Cloud Cover",
@@ -8808,7 +9084,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "No Scruples",
@@ -8862,7 +9139,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Nimble Flurry",
@@ -8916,7 +9194,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Clever Combatant",
@@ -8970,7 +9249,8 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     },
     {
       "talent_name": "Coup de Grace",
@@ -9025,13 +9305,14 @@ window.WOW_PVP_DATA = {
       "diagnostics": [],
       "has_pvp_mechanics": false,
       "mechanics": [],
-      "render_effect_count": 0
+      "render_effect_count": 0,
+      "rank_tooltips": []
     }
   ],
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "rogue-subtlety",
-  "generated_at": "2026-09-20T12:54:05.150380+00:00",
+  "generated_at": "2026-09-20T20:02:35.181317+00:00",
   "validation": {
     "talents": 135,
     "changed_tooltips": 17,
@@ -9044,27 +9325,11 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 3,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 1248775,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1248775/unshakeable-drive'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1264397,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1264397'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1309274,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1309274'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }
