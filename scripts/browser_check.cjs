@@ -21,6 +21,7 @@ if (process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE) launch.executablePath = process.
    await page.route('https://**/*', r => r.abort());
    await page.goto(pathToFileURL(path.join(root, 'web/index.html')).href);
    for (const spec of specs) {
+    console.log(`Checking ${spec.slug} at ${width}px`);
     await page.locator('[data-tab="tree"]').click();
     if (await page.locator('#classSelect').inputValue() !== spec.className) {
      await page.locator('#classSelect').selectOption(spec.className);

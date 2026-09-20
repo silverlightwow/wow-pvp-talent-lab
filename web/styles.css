@@ -2691,3 +2691,9 @@ details.tooltip-comparison summary {
     .tabs { display: flex; flex-wrap: wrap; overflow: visible; }
     .tab { flex: 1 1 auto; padding: 12px 8px; font-size: 11px; }
 }
+
+.touch-help { display: none; }
+@media (hover: none) {
+  .pointer-help { display: none; }
+  .touch-help { display: inline; }
+}
