@@ -525,7 +525,7 @@ async def build_spec_catalog(
 
 
         pve_tooltip = (
-            page.player_tooltip
+            wowhead.tooltip_for_specialization(page, audit.metadata.get("specAuraSpellIds", []))
             if page is not None
             else ""
         )

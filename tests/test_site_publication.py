@@ -12,15 +12,25 @@ from validate_site_data import validate_snapshot
 
 @pytest.fixture
 def artifact(tmp_path):
-    root = Path(__file__).resolve().parents[1] / 'web/data'
-    m = json.loads((root / 'manifest.json').read_text())
-    cls = next(c for c in m['classes'] if c['name'] == 'Priest')
-    spec = next(s for s in cls['specs'] if s['name'] == 'Discipline')
-    m.update(classes=[dict(cls, specs=[spec])], spec_count=1, verified_count=1, partial_count=0)
+    # Publication tests use a controlled artifact, independent of live source
+    # snapshots (which may intentionally be rejected after stricter validation).
+    build = '12.1.0.69875'
+    spec = dict(name='Discipline', spec_id=256, slug='priest-discipline',
+                verification_status='VERIFIED', fetch_error_count=0, unresolved_count=0, review_required_count=0)
+    m = dict(classes=[dict(name='Priest', class_id=5, specs=[spec])],
+             spec_count=1, verified_count=1, partial_count=0, default_slug=spec['slug'],
+             tree_build=build, content_hash='controlled-test-topology')
+    talents = [dict(spell_id=1000+i, entry_id=2000+i, node_id=3000+i,
+                    tree_data={'required_points': 0}, pve_tooltip='Heals for 10.',
+                    pvp_tooltip='Heals for 15.', tooltip_changed=True,
+                    render_status='CHANGED', has_pvp_mechanics=True) for i in range(50)]
+    data = dict(slug=spec['slug'], class_name='Priest', spec_name='Discipline',
+                tree_build=build, simc_build=build, talents=talents,
+                validation=dict(spec, talents=50, unique_nodes=50, changed_tooltips=50, talents_with_pvp_mechanics=50))
     directory = tmp_path / 'artifacts/priest'
     directory.mkdir(parents=True)
-    for suffix in ('.json', '.js'):
-        shutil.copy2(root / ('priest-discipline' + suffix), directory)
+    (directory / 'priest-discipline.json').write_text(json.dumps(data))
+    (directory / 'priest-discipline.js').write_text('window.WOW_PVP_DATA = ' + json.dumps(data) + ';')
     text = json.dumps(m)
     (directory / 'manifest.json').write_text(text)
     (directory / 'manifest.js').write_text('window.WOW_PVP_MANIFEST = ' + text + ';\n')
@@ -38,7 +48,7 @@ def test_verified_artifacts_merge_and_preserve_unrelated_files(artifact, tmp_pat
     assert (output / 'keep.txt').read_text() == 'unchanged'
 
 
-@pytest.mark.parametrize('fault', ['missing_js', 'mismatched_js', 'incomplete_matrix', 'partial'])
+@pytest.mark.parametrize('fault', ['missing_js', 'mismatched_js', 'incomplete_matrix', 'partial', 'broken_description'])
 def test_failed_merge_keeps_previous_snapshot(artifact, tmp_path, fault):
     source, expected = artifact
     output = tmp_path / 'published'
@@ -50,6 +60,12 @@ def test_failed_merge_keeps_previous_snapshot(artifact, tmp_path, fault):
         (source / 'priest-discipline.js').write_text('window.WOW_PVP_DATA = {};')
     elif fault == 'incomplete_matrix':
         expected.append(dict(class_name='Priest', spec_name='Shadow', spec_id=258))
+    elif fault == 'broken_description':
+        p = source / 'priest-discipline.json'
+        d = json.loads(p.read_text())
+        d['talents'][0]['pve_tooltip'] = 'Healing costs ['
+        p.write_text(json.dumps(d))
+        (source / 'priest-discipline.js').write_text('window.WOW_PVP_DATA = ' + json.dumps(d) + ';')
     else:
         p = source / 'manifest.json'
         m = json.loads(p.read_text())

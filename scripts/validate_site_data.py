@@ -35,6 +35,10 @@ def validate_spec(directory: Path, class_item: dict, spec: dict, build: str) -> 
     for t in talents:
         if not t.get('tree_data') or not t.get('pve_tooltip', '').strip() or not t.get('pvp_tooltip', '').strip():
             raise ValueError(f'{slug}: missing topology/tooltip for {t.get("spell_id")}')
+        for mode in ('pve_tooltip', 'pvp_tooltip'):
+            text = t[mode]
+            if text.count('[') != text.count(']') or any(line.strip() in {'[', ']', ':'} for line in text.splitlines()):
+                raise ValueError(f'{slug}: broken conditional text for {t["spell_id"]}')
         if t.get('render_status') not in {'CHANGED', 'UNCHANGED'}:
             raise ValueError(f'{slug}: unsafe tooltip for {t["spell_id"]}')
         changed = t['pve_tooltip'] != t['pvp_tooltip']

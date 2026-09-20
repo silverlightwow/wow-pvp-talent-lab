@@ -1018,3 +1018,10 @@ def test_qualified_spec_heading_does_not_leave_holy_under_shadow():
     assert 'Mind Flay' not in holy
     shadow = tooltip_renderer.tooltip_for_spec(text, 'Shadow', ['Discipline', 'Holy', 'Shadow'])
     assert 'Surge of Light' not in shadow
+
+
+def test_inline_spec_branch_returns_to_shared_text_and_preserves_arithmetic():
+    text = 'Healing costs [Holy: 40 / 50]% less mana. Stacks to 2.\nDeals [(100% of Spell Power) * 2] damage. [Shadow: Generates 6 Insanity.]'
+    assert tooltip_renderer.tooltip_for_spec(text, 'Discipline') == 'Healing costs 50% less mana. Stacks to 2.\nDeals [(100% of Spell Power) * 2] damage.'
+    assert 'costs 40%' in tooltip_renderer.tooltip_for_spec(text, 'Holy')
+    assert 'Generates 6 Insanity.' in tooltip_renderer.tooltip_for_spec(text, 'Shadow')

@@ -130,3 +130,37 @@ def test_nether_tooltip_payload_preserves_player_text():
     assert not page.player_tooltip.startswith(
         "Example Talent"
     )
+
+
+def test_inline_conditions_and_embedded_spell_titles_keep_complete_descriptions():
+    import json
+    from pathlib import Path
+    from pvpcalc.sources.wowhead import parse_spell_page
+    from pvpcalc.tooltip_renderer import tooltip_for_spec
+    expected = {
+        109186: 'Your healing spells and Smite have a 8% chance to make your next Flash Heal instant and cost 50% less mana. Stacks to 2.',
+        450405: 'Entropic Rift upgrades Smite into Void Blast while it is active.\nVoid Blast:\nSends a blast of cosmic void energy at the enemy, causing (150% of Spell Power) Shadow damage.',
+    }
+    for spell_id, text in expected.items():
+        payload = json.loads(Path(f'tests/fixtures/wowhead-{spell_id}.json').read_text())
+        html = Path(f'tests/fixtures/wowhead-{spell_id}.html').read_text()
+        for page in (parse_nether_tooltip_payload(payload, spell_id), parse_spell_page(html, spell_id)):
+            assert tooltip_for_spec(page.player_tooltip, 'Discipline') == text
+            if spell_id == 450405:
+                shadow = tooltip_for_spec(page.player_tooltip, 'Shadow')
+                assert 'upgrades Mind Blast' in shadow
+                assert '210%' in shadow and 'Generates 0 Insanity.' in shadow
+                assert '150%' not in shadow and 'upgrades Smite' not in shadow
+
+
+def test_mind_blast_source_metadata_selects_discipline_recharge_override():
+    import json
+    from pathlib import Path
+    from pvpcalc.sources.wowhead import parse_spell_page, tooltip_for_specialization
+    payload = json.loads(Path('tests/fixtures/wowhead-8092.json').read_text())
+    html = Path('tests/fixtures/wowhead-8092.html').read_text()
+    for page in (parse_nether_tooltip_payload(payload, 8092), parse_spell_page(html, 8092)):
+        assert '9 sec cooldown' in page.player_tooltip  # Generic source record.
+        disc = tooltip_for_specialization(page, [137032])
+        assert '28 sec cooldown' in disc and '9 sec cooldown' not in disc
+        assert '9 sec cooldown' in tooltip_for_specialization(page, [137033])

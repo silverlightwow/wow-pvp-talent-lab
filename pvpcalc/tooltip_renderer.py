@@ -198,6 +198,25 @@ def tooltip_for_spec(
         spec_name,
     )
 
+    # Inline [Holy: 50 / 50] branches are local expressions, not section
+    # headings. Resolve them before interpreting the surrounding paragraphs.
+    labels = "|".join(re.escape(name) for name in names.values())
+    label_pattern = re.compile(r"^(" + labels + r")\s*:\s*(.*)$", re.I | re.S)
+    def inline_branch(match):
+        body = match[1].strip()
+        if not label_pattern.match(body):
+            return match[0]  # Arithmetic brackets remain meaningful text.
+        default = ""
+        for part in re.split(r"\s+/\s+", body):
+            branch = label_pattern.match(part.strip())
+            if branch:
+                if branch[1].casefold() == target.casefold():
+                    return branch[2].strip()
+            else:
+                default = part.strip()
+        return default
+    tooltip = re.sub(r"\[([^\[\]]*)\]", inline_branch, str(tooltip or ""))
+
     segments = (
         parse_tooltip_segments(
             tooltip,
@@ -214,9 +233,7 @@ def tooltip_for_spec(
         )
     ]
 
-    return "\n".join(
-        selected
-    )
+    return "\n".join(selected).strip()
 
 
 # ============================================================

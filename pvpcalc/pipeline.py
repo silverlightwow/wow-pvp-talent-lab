@@ -4203,6 +4203,11 @@ async def audit_spec(
     )
 
 
+    result.metadata["specAuraSpellIds"] = [
+        spell.spell_id for spell in simc_dump.spells.values()
+        if spell.name == f"{spec_name} {class_name}"
+        and re.search(r"^Class\s*:\s*" + re.escape(spell.name) + r"\s*$", spell.raw, re.M)
+    ]
     for spell_id in result.spell_ids:
         fallback = simc.simple_player_description(
             simc_dump, spell_id, class_name=class_name, spec_name=spec_name,

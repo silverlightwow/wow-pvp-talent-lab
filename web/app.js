@@ -400,102 +400,25 @@
 
 
 
-    function changeContext(
-        talent,
-        change
-    ) {
-
-        const source = String(
-            talent.pve_tooltip || ""
-        ).replace(/\s+/g, " ").trim();
-
-        const token = String(
-            change.old_token ?? ""
-        );
-
-        if (!source || !token) {
-            return "";
-        }
-
-        const index = source.indexOf(
-            token
-        );
-
-        if (index < 0) {
-            return "";
-        }
-
-        const start = Math.max(
-            0,
-            index - 42
-        );
-
-        const end = Math.min(
-            source.length,
-            index + token.length + 56
-        );
-
-        let snippet = source.slice(
-            start,
-            end
-        ).trim();
-
-        if (start > 0) {
-            snippet = `…${snippet}`;
-        }
-
-        if (end < source.length) {
-            snippet = `${snippet}…`;
-        }
-
-        return snippet;
+    function descriptionText(text) {
+        const metadata = /^(?:[\d.,]+%? (?:of base mana|Mana|Energy|Focus|Rage|Runic Power|Insanity|Fury|Pain|Essence|Chi|Holy Power|Soul Shards?|Runes?|Maelstrom|Astral Power)(?:\s*(?:\/|,|per) .*)?|[\d.,]+(?: - [\d.,]+)? (?:yd|yard|yards) range|(?:[\d.,]+ (?:sec|min) (?:cast|cooldown|recharge))|\d+ Charges?|Instant(?: cast)?|Channeled(?: \(.*\))?|Melee Range|Unlimited Range|Passive|Talent|Requires .*)$/i;
+        return String(text || "").split("\n").map(line => line.trim())
+            .filter(line => line && !metadata.test(line)).join("\n");
     }
 
-
-    function comparisonChangeHtml(
-        talent
-    ) {
-
-        const changes =
-            talent.changes || [];
-
-        return `
-            <div class="comparison-change-list">
-                ${
-                    changes.map(
-                        change => `
-                            <div class="comparison-change-item">
-                                <span class="change-chip">
-                                    ${escapeHtml(change.old_token)}
-                                    <span class="change-arrow">→</span>
-                                    ${escapeHtml(change.new_token)}
-                                </span>
-
-                                ${
-                                    changeContext(
-                                        talent,
-                                        change
-                                    )
-                                    ? `
-                                        <div class="change-context">
-                                            ${
-                                                escapeHtml(
-                                                    changeContext(
-                                                        talent,
-                                                        change
-                                                    )
-                                                )
-                                            }
-                                        </div>
-                                    `
-                                    : ""
-                                }
-                            </div>
-                        `
-                    ).join("")
-                }
-            </div>
-        `;
+    function comparisonTextHtml(talent, mode) {
+        // Renderer offsets identify exact changes, including repeated numbers.
+        const original = String(talent.pve_tooltip || "");
+        const changes = [...(talent.changes || [])].sort((a, b) => a.start - b.start);
+        let cursor = 0;
+        let html = "";
+        for (const change of changes) {
+            if (change.start < cursor || original.slice(change.start, change.end) !== change.old_token) continue;
+            html += escapeHtml(original.slice(cursor, change.start));
+            html += `<mark class="value-${mode}">${escapeHtml(mode === "pvp" ? change.new_token : change.old_token)}</mark>`;
+            cursor = change.end;
+        }
+        return html + escapeHtml(original.slice(cursor));
     }
 
 
@@ -999,10 +922,10 @@
             specName;
 
         $("#compendiumTabLabel").textContent =
-            `${specName} Compendium`;
+            `PvP mechanics`;
 
         $("#compendiumTitle").textContent =
-            `${specName} Compendium`;
+            `PvP mechanics`;
 
         document.title =
             `${specName} ${className} · WoW PvP Talent Lab`;
@@ -2370,11 +2293,13 @@
     function svgLine(
         from,
         to,
-        active
+        active,
+        fromId,
+        toId
     ) {
 
         return `
-            <line
+            <line data-from="${fromId}" data-to="${toId}"
                 x1="${from.x}"
                 y1="${from.y}"
                 x2="${to.x}"
@@ -2452,10 +2377,7 @@
             );
 
 
-        const text =
-            state.pvpMode
-            ? talent.pvp_tooltip
-            : talent.pve_tooltip;
+        const text = descriptionText(state.pvpMode ? talent.pvp_tooltip : talent.pve_tooltip);
 
 
         const modeBadge =
@@ -2533,9 +2455,7 @@
                                         </div>
                                         <div class="apex-stage-text">
                                             ${escapeHtml(
-                                                state.pvpMode
-                                                ? entry.pvp_tooltip
-                                                : entry.pve_tooltip
+                                                descriptionText(state.pvpMode ? entry.pvp_tooltip : entry.pve_tooltip)
                                             )}
                                         </div>
                                     </div>
@@ -2760,9 +2680,8 @@
 
         const viewportWidth =
             Math.max(
-                container.parentElement
-                    ?.clientWidth
-                    || container.clientWidth,
+                container.clientWidth
+                    || container.parentElement?.clientWidth,
                 220
             );
 
@@ -2877,7 +2796,9 @@
                                 positions.get(
                                     targetId
                                 ),
-                                active
+                                active,
+                                group.nodeId,
+                                targetId
                             );
                     }
                 );
@@ -2890,7 +2811,8 @@
             <svg
                 class="tree-lines"
                 viewBox="0 0 ${viewportWidth} ${height}"
-                preserveAspectRatio="none"
+                width="${viewportWidth}" height="${height}"
+                style="width:${viewportWidth}px;height:${height}px"
             >
                 ${edgeHtml}
             </svg>
@@ -3407,139 +3329,20 @@
             `${rows.length} modified talents`;
 
 
-        $("#compareBody")
-            .innerHTML =
-            rows.map(
-                talent => {
-
-                    return `
-                        <tr>
-
-                            <td>
-                                <div
-                                    class="talent-cell"
-                                >
-                                    <img
-                                        class="small-icon"
-                                        src="${
-                                            iconUrl(
-                                                talent
-                                            )
-                                        }"
-                                        alt=""
-                                    >
-
-                                    <div>
-                                        <strong>
-                                            ${
-                                                escapeHtml(
-                                                    talent
-                                                    .talent_name
-                                                )
-                                            }
-                                        </strong>
-
-                                        <div
-                                            class="spell-id"
-                                        >
-                                            Spell ${
-                                                talent.spell_id
-                                            }
-                                        </div>
-                                    </div>
-                                </div>
-                            </td>
-
-
-                            <td>
-                                <span
-                                    class="tree-label"
-                                >
-                                    ${
-                                        escapeHtml(
-                                            treeDisplayName(
-                                                talent
-                                            )
-                                        )
-                                    }
-                                </span>
-                            </td>
-
-
-                            <td>
-                                ${
-                                    comparisonChangeHtml(
-                                        talent
-                                    )
-                                }
-                            </td>
-
-
-                            <td>
-                                <details
-                                    class="
-                                        tooltip-comparison
-                                    "
-                                >
-                                    <summary>
-                                        View full tooltip
-                                    </summary>
-
-                                    <div
-                                        class="
-                                            tooltip-columns
-                                        "
-                                    >
-                                        <div
-                                            class="
-                                                tooltip-column
-                                            "
-                                        >
-                                            <h4>
-                                                PvE
-                                            </h4>
-
-                                            <pre
-                                                class="
-                                                    tooltip-text
-                                                "
-                                            >${
-                                                escapeHtml(
-                                                    talent
-                                                    .pve_tooltip
-                                                )
-                                            }</pre>
-                                        </div>
-
-
-                                        <div
-                                            class="
-                                                tooltip-column
-                                            "
-                                        >
-                                            <h4>
-                                                PvP
-                                            </h4>
-
-                                            <pre
-                                                class="
-                                                    tooltip-text
-                                                "
-                                            >${
-                                                escapeHtml(
-                                                    talent
-                                                    .pvp_tooltip
-                                                )
-                                            }</pre>
-                                        </div>
-                                    </div>
-                                </details>
-                            </td>
-
-                        </tr>
-                    `;
-                }
-            ).join("");
+        $("#compareBody").innerHTML = rows.map(talent => `
+            <tr data-spell-id="${talent.spell_id}">
+                <td>
+                    <div class="talent-cell">
+                        <img class="small-icon" src="${iconUrl(talent)}" alt="">
+                        <div><strong>${escapeHtml(talent.talent_name)}</strong>
+                            <div class="spell-id">${escapeHtml(treeDisplayName(talent))}</div>
+                        </div>
+                    </div>
+                    ${changeHtml(talent)}
+                </td>
+                <td><pre class="tooltip-text comparison-pve">${comparisonTextHtml(talent, "pve")}</pre></td>
+                <td><pre class="tooltip-text comparison-pvp">${comparisonTextHtml(talent, "pvp")}</pre></td>
+            </tr>`).join("");
     }
 
 
@@ -3745,337 +3548,6 @@
     }
 
 
-    function compendiumRecords() {
-
-        const search =
-            $("#compendiumSearch")
-            ?.value
-            ?.trim()
-            ?.toLowerCase()
-            || "";
-
-
-        return talents
-            .filter(
-                talent =>
-                    talent.has_pvp_mechanics
-            )
-            .filter(
-                talent =>
-                    !search
-                    || talent
-                    .talent_name
-                    .toLowerCase()
-                    .includes(search)
-            )
-            .sort(
-                (a, b) =>
-                    a.talent_name
-                    .localeCompare(
-                        b.talent_name
-                    )
-            );
-    }
-
-
-    function renderCompendiumList() {
-
-        const records =
-            compendiumRecords();
-
-
-        if (
-            !state.compendiumSpellId
-            || !records.some(
-                talent =>
-                    talent.spell_id
-                    === state.compendiumSpellId
-            )
-        ) {
-
-            const preferred =
-                records.find(
-                    talent =>
-                        talent.spell_id
-                        === 62618
-                )
-                || records[0];
-
-
-            state.compendiumSpellId =
-                preferred
-                ? preferred.spell_id
-                : null;
-        }
-
-
-        $("#compendiumList")
-            .innerHTML =
-            records.map(
-                talent => `
-                    <button
-                        class="
-                            compendium-item
-                            ${
-                                talent.spell_id
-                                === state
-                                .compendiumSpellId
-                                ? "active"
-                                : ""
-                            }
-                        "
-                        data-spell-id="${
-                            talent.spell_id
-                        }"
-                    >
-
-                        <img
-                            src="${
-                                iconUrl(
-                                    talent
-                                )
-                            }"
-                            alt=""
-                        >
-
-                        <div>
-                            <div
-                                class="
-                                    compendium-item-title
-                                "
-                            >
-                                ${
-                                    escapeHtml(
-                                        talent.talent_name
-                                    )
-                                }
-                            </div>
-
-                            <div
-                                class="
-                                    compendium-item-meta
-                                "
-                            >
-                                ${
-                                    talent.mechanics.length
-                                }
-                                PvP effect${
-                                    talent.mechanics.length
-                                    === 1
-                                    ? ""
-                                    : "s"
-                                }
-
-                                ${
-                                    talent.tooltip_changed
-                                    ? " · tooltip changed"
-                                    : " · hidden/internal"
-                                }
-                            </div>
-                        </div>
-
-                    </button>
-                `
-            ).join("");
-
-
-        $$(".compendium-item")
-            .forEach(
-                button => {
-
-                    button.addEventListener(
-                        "click",
-                        () => {
-
-                            state.compendiumSpellId =
-                                Number(
-                                    button.dataset
-                                    .spellId
-                                );
-
-
-                            renderCompendiumList();
-                        }
-                    );
-
-                }
-            );
-
-
-        renderCompendiumDetail();
-    }
-
-
-    function renderCompendiumDetail() {
-
-        const talent =
-            talents.find(
-                record =>
-                    record.spell_id
-                    === state.compendiumSpellId
-            );
-
-
-        const container =
-            $("#compendiumDetail");
-
-
-        if (!talent) {
-
-            container.innerHTML = `
-                <div class="empty-state">
-                    Select a talent.
-                </div>
-            `;
-
-            return;
-        }
-
-
-        container.innerHTML = `
-
-            <div class="detail-title-row">
-
-                <img
-                    src="${
-                        iconUrl(
-                            talent
-                        )
-                    }"
-                    alt=""
-                >
-
-                <div>
-                    <h2>
-                        ${
-                            escapeHtml(
-                                talent.talent_name
-                            )
-                        }
-                    </h2>
-
-                    <div class="detail-meta">
-                        ${
-                            escapeHtml(
-                                treeDisplayName(
-                                    talent
-                                )
-                            )
-                        }
-
-                        · Spell ${
-                            talent.spell_id
-                        }
-
-                        · ${
-                            talent.mechanics.length
-                        } PvP mechanic${
-                            talent.mechanics.length
-                            === 1
-                            ? ""
-                            : "s"
-                        }
-                    </div>
-                </div>
-
-            </div>
-
-
-            ${
-                talent.tooltip_changed
-                ? `
-                    <div
-                        style="margin-bottom:13px"
-                    >
-                        ${
-                            changeHtml(
-                                talent
-                            )
-                        }
-                    </div>
-                `
-                : `
-                    <div
-                        style="margin-bottom:13px"
-                    >
-                        <span class="tree-label">
-                            Main tooltip unchanged —
-                            PvP mechanic preserved below
-                        </span>
-                    </div>
-                `
-            }
-
-
-            <div class="detail-grid">
-
-                <div class="detail-box">
-
-                    <h3>
-                        PvE tooltip
-                    </h3>
-
-                    <pre
-                        class="tooltip-text"
-                    >${
-                        escapeHtml(
-                            talent.pve_tooltip
-                        )
-                    }</pre>
-
-                </div>
-
-
-                <div class="detail-box">
-
-                    <h3>
-                        PvP tooltip
-                    </h3>
-
-                    <pre
-                        class="tooltip-text"
-                    >${
-                        escapeHtml(
-                            talent.pvp_tooltip
-                        )
-                    }</pre>
-
-                </div>
-
-            </div>
-
-
-            <h3 class="mechanics-heading">
-                Datamined PvP mechanics
-            </h3>
-
-
-            <div class="mechanics-grid">
-
-                ${
-                    talent.mechanics
-                    .map(
-                        mechanic =>
-                            mechanicCard(
-                                mechanic
-                            )
-                    )
-                    .join("")
-                }
-
-            </div>
-        `;
-    }
-
-
-
-    // ========================================================
-    // Player-facing Compendium v2
-    //
-    // Tiered Apex entries are one talent, not multiple talents.
-    // True choice entries remain separate spells.
-    // ========================================================
-
     function compendiumGroups(
         sourceTalents
     ) {
@@ -4223,166 +3695,6 @@
                     b.primary.talent_name
                 )
         );
-    }
-
-
-    function compendiumSummary(
-        group
-    ) {
-
-        const changedEntries =
-            group.entries.filter(
-                entry =>
-                    entry.tooltip_changed
-            );
-
-        if (changedEntries.length) {
-
-            const changeCount =
-                changedEntries.reduce(
-                    (total, entry) =>
-                        total
-                        + (
-                            entry.changes
-                            || []
-                        ).length,
-                    0
-                );
-
-            return `
-                <div class="player-summary changed-summary">
-                    <div class="player-summary-label">
-                        What changes in PvP
-                    </div>
-
-                    <div class="player-summary-text">
-                        ${
-                            changeCount === 1
-                            ? "This talent has one player-facing value changed in PvP."
-                            : `This talent has ${changeCount} player-facing values changed in PvP.`
-                        }
-                    </div>
-
-                    <div class="player-summary-changes">
-                        ${
-                            changedEntries
-                            .map(
-                                entry =>
-                                    changeHtml(entry)
-                            )
-                            .join("")
-                        }
-                    </div>
-                </div>
-            `;
-        }
-
-        return `
-            <div class="player-summary internal-summary">
-                <div class="player-summary-label">
-                    PvP mechanics
-                </div>
-
-                <div class="player-summary-text">
-                    The player-facing tooltip is unchanged, but
-                    ${group.mechanics.length}
-                    datamined PvP mechanic${
-                        group.mechanics.length === 1
-                        ? " is"
-                        : "s are"
-                    }
-                    attached to this talent or its referenced output spells.
-                </div>
-            </div>
-        `;
-    }
-
-
-    function apexRankLabel(
-        group,
-        index
-    ) {
-
-        const maxRanks = Number(
-            group.primary.tree_data
-            ?.max_ranks || 1
-        );
-
-        if (
-            maxRanks === 4
-            && group.entries.length === 3
-        ) {
-            return [
-                "Rank 1",
-                "Ranks 2–3",
-                "Rank 4",
-            ][index];
-        }
-
-        return `Stage ${index + 1}`;
-    }
-
-
-    function apexProgressionHtml(
-        group
-    ) {
-
-        return `
-            <div class="apex-section">
-                <div class="apex-heading-row">
-                    <h3 class="mechanics-heading">
-                        Apex progression
-                    </h3>
-
-                    <span class="apex-badge">
-                        ${
-                            group.primary.tree_data
-                            ?.max_ranks || 1
-                        } ranks
-                    </span>
-                </div>
-
-                <div class="apex-ranks">
-                    ${
-                        group.entries.map(
-                            (entry, index) => `
-                                <div class="apex-rank-card">
-                                    <div class="apex-rank-label">
-                                        ${
-                                            escapeHtml(
-                                                apexRankLabel(
-                                                    group,
-                                                    index
-                                                )
-                                            )
-                                        }
-                                    </div>
-
-                                    <div class="apex-rank-text">
-                                        ${
-                                            escapeHtml(
-                                                entry.pve_tooltip
-                                                || "No player-facing text."
-                                            )
-                                        }
-                                    </div>
-
-                                    ${
-                                        entry.tooltip_changed
-                                        ? `
-                                            <div class="apex-rank-change">
-                                                ${changeHtml(entry)}
-                                            </div>
-                                        `
-                                        : ""
-                                    }
-                                </div>
-                            `
-                        ).join("")
-                    }
-                </div>
-            </div>
-        `;
     }
 
 
@@ -4556,53 +3868,10 @@
                 </div>
             </div>
 
-            ${compendiumSummary(group)}
-
-            ${
-                group.isTiered
-                ? apexProgressionHtml(group)
-                : `
-                    <div class="detail-grid">
-                        <div class="detail-box">
-                            <h3>PvE tooltip</h3>
-                            <pre class="tooltip-text">${
-                                escapeHtml(
-                                    talent.pve_tooltip
-                                )
-                            }</pre>
-                        </div>
-
-                        <div class="detail-box">
-                            <h3>PvP tooltip</h3>
-                            <pre class="tooltip-text">${
-                                escapeHtml(
-                                    talent.pvp_tooltip
-                                )
-                            }</pre>
-                        </div>
-                    </div>
-                `
-            }
-
-            <details class="technical-details">
-                <summary>
-                    Technical datamining details
-                    <span>${group.mechanics.length} ${mechanicsWord}</span>
-                </summary>
-
-                <div class="technical-details-body">
-                    <div class="mechanics-grid">
-                        ${
-                            group.mechanics
-                            .map(
-                                mechanic =>
-                                    mechanicCard(mechanic)
-                            )
-                            .join("")
-                        }
-                    </div>
-                </div>
-            </details>
+            <p class="mechanics-explanation">These modifiers explain the talent's PvP behavior, including effects on spells it triggers. The factors below apply to the listed effect, not to every number in the talent description.</p>
+            <div class="mechanics-grid">
+                ${group.mechanics.map(mechanic => mechanicCard(mechanic)).join("")}
+            </div>
         `;
     }
 

@@ -357,6 +357,40 @@ class WowheadSpellPage:
     player_tooltip: str
     effects: tuple[EffectObservation, ...]
     url: str
+    metadata_overrides: tuple[tuple[str, int, str], ...] = ()
+
+
+def _tooltip_card_lines(html: str, spell_name: str) -> list[str]:
+    """Keep inline spans inline; only real HTML blocks create text lines."""
+    soup = BeautifulSoup(html, "lxml")
+    for br in soup.find_all("br"):
+        br.replace_with("\n")
+    for block in soup.find_all(["table", "tr", "td", "th", "div", "p"]):
+        block.insert_before("\n")
+        block.insert_after("\n")
+    lines = [_clean_line(line) for line in soup.get_text().splitlines()]
+    lines = [line for line in lines if line and line.casefold() not in {"talent", "passive"}
+             and not line.casefold().startswith("requires ")]
+    # Only the leading title is chrome. A repeated title inside the body
+    # introduces an embedded spell (e.g. Void Blast), not a new tooltip.
+    while lines and lines[0].casefold() == spell_name.casefold():
+        lines.pop(0)
+    return lines
+
+
+def _metadata_overrides(html: str) -> tuple[tuple[str, int, str], ...]:
+    return tuple((kind, int(aura), value.strip()) for kind, aura, value in
+                 re.findall(r"<!--(cooldown|charges):(\d+):([^<>]+)-->", html))
+
+
+def tooltip_for_specialization(page: WowheadSpellPage, aura_ids) -> str:
+    lines = page.player_tooltip.splitlines()
+    patterns = {"cooldown": r"^[\d.]+\s+(?:sec|min)\s+(?:cooldown|recharge)$",
+                "charges": r"^\d+\s+Charges?$"}
+    for kind, aura, value in page.metadata_overrides:
+        if aura in aura_ids:
+            lines = [value if re.fullmatch(patterns[kind], line, re.I) else line for line in lines]
+    return "\n".join(lines)
 
 
 def _page_text_lines(
@@ -432,6 +466,15 @@ def parse_player_tooltip(
     It returns the clean current PvE text exactly for the
     downstream spec-aware renderer.
     """
+
+    soup = BeautifulSoup(html, "lxml")
+    title = soup.find("h1")
+    if title:
+        name = _clean_line(title.get_text(" ", strip=True))
+        for card in soup.find_all("noscript"):
+            heading = card.select_one(".whtt-name")
+            if heading and _clean_line(heading.get_text(" ", strip=True)).casefold() == name.casefold():
+                return name, "\n".join(_tooltip_card_lines(str(card), name))
 
     (
         spell_name,
@@ -699,6 +742,7 @@ def parse_spell_page(
 
         url=
             page_url,
+        metadata_overrides=_metadata_overrides(html),
     )
 
 
@@ -758,10 +802,9 @@ def parse_nether_tooltip_payload(
     return WowheadSpellPage(
         spell_id=int(spell_id),
         spell_name=spell_name,
-        player_tooltip="\n".join(
-            lines
-        ).strip(),
+        player_tooltip="\n".join(_tooltip_card_lines(tooltip_html, spell_name)),
         effects=tuple(),
+        metadata_overrides=_metadata_overrides(tooltip_html),
         url=(
             url
             or NETHER_BASE.format(
@@ -827,4 +870,3 @@ async def fetch_spell_page(
             client,
             spell_id,
         )
-
