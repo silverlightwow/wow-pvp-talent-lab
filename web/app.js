@@ -4700,11 +4700,8 @@
         );
 
 
-        window.addEventListener(
-            "scroll",
-            closeChoicePicker,
-            true
-        );
+        // Keep the fixed choice picker open through browser focus/scroll
+        // events. Outside clicks, Escape, and a completed choice dismiss it.
 
 
         $("#pvpToggle")

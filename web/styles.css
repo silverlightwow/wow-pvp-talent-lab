@@ -961,6 +961,9 @@ main {
 
 
 .choice-picker {
+    max-width: calc(100vw - 24px);
+    max-height: calc(100dvh - 24px);
+    overflow-y: auto;
     position: fixed;
     z-index: 1200;
 

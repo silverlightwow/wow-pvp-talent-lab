@@ -78,7 +78,12 @@ if (process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE) launch.executablePath = process.
         const node = page.locator(`#${type}Tree [data-node-id="${candidate}"]`);
         const isChoice = (await node.getAttribute('class')).includes('choice-node');
         await node.click();
-        if (isChoice) await page.locator('.choice-option').first().click();
+        if (isChoice) {
+         // Scrolling to a low talent must not dismiss its newly opened picker.
+         await page.evaluate(() => window.dispatchEvent(new Event('scroll')));
+         assert.ok(await page.locator('.choice-option').first().isVisible());
+         await page.locator('.choice-option').first().click();
+        }
        }
        assert.equal((await page.locator(`#${type}Points`).textContent()).trim(), `${cap}/${cap}`);
       }
