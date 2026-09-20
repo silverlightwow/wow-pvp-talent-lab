@@ -403,7 +403,8 @@
     function descriptionText(text) {
         const metadata = /^(?:[\d.,]+%? (?:of base mana|Mana|Energy|Focus|Rage|Runic Power|Insanity|Fury|Pain|Essence|Chi|Holy Power|Soul Shards?|Runes?|Maelstrom|Astral Power)(?:\s*(?:\/|,|per) .*)?|[\d.,]+(?: - [\d.,]+)? (?:yd|yard|yards) range|(?:[\d.,]+ (?:sec|min) (?:cast|cooldown|recharge))|\d+ Charges?|Instant(?: cast)?|Channeled(?: \(.*\))?|Melee Range|Unlimited Range|Passive|Talent|Requires .*)$/i;
         return String(text || "").split("\n").map(line => line.trim())
-            .filter(line => line && !metadata.test(line)).join("\n");
+            .filter(line => line && !metadata.test(line)
+                && !/^\(?[\d.,]+\s*(?:ms|sec|min)\s+(?:cooldown|recharge|cast)\)?$/i.test(line)).join("\n");
     }
 
     function comparisonTextHtml(talent, mode) {
