@@ -8135,7 +8135,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "death-knight-blood",
-  "generated_at": "2026-09-19T18:47:19.480044+00:00",
+  "generated_at": "2026-09-20T00:51:39.701646+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 13,

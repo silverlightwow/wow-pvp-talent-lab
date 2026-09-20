@@ -2936,7 +2936,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1265799,
           "source_spell_id": 1271798,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Modify Ranged and Melee Auto Attack Speed% (342)",
+          "effect_text": "Apply Aura: Mod Attack Speed % (1)",
           "base_value": -100.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -2955,8 +2955,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -3040,7 +3041,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1271802,
           "source_spell_id": 1272122,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Modify Spell Haste% (355)",
+          "effect_text": "Apply Aura: Mod Casting Speed %",
           "base_value": -100.0,
           "spell_pvp_multiplier": 0.3,
           "amount_kind": null,
@@ -3057,8 +3058,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -8961,7 +8963,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1268716,
           "source_spell_id": 1269879,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Modify Total Stat% (137)",
+          "effect_text": "Apply Aura: Mod Stat - % (Intellect)",
           "base_value": 2.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -8978,8 +8980,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -9085,7 +9088,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "warlock-destruction",
-  "generated_at": "2026-09-19T19:04:54.242373+00:00",
+  "generated_at": "2026-09-20T01:11:37.595767+00:00",
   "validation": {
     "talents": 129,
     "changed_tooltips": 21,
@@ -9098,27 +9101,11 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 3,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 1269879,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1269879'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1271798,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1271798'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1272122,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1272122'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }

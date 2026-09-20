@@ -6398,7 +6398,7 @@
           "talent_spell_id": 455993,
           "source_spell_id": 1228443,
           "effect_index": 1,
-          "effect_text": "School Damage (2): frost (AP mod: 0.719863)",
+          "effect_text": "School Damage (Frost) (AP mod: 0.719863 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.42857,
           "amount_kind": "direct",
@@ -6436,8 +6436,9 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "confidence": "high"
         }
@@ -9633,7 +9634,7 @@
   ],
   "fetch_errors": [],
   "slug": "death-knight-frost",
-  "generated_at": "2026-09-19T18:47:34.523778+00:00",
+  "generated_at": "2026-09-20T00:51:57.728161+00:00",
   "validation": {
     "talents": 121,
     "changed_tooltips": 26,
@@ -9646,21 +9647,11 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 7,
+    "source_warning_count": 5,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 1228436,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1228436'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1228443,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1228443'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "source": "wowhead",
         "spell_id": 1231083,
@@ -9675,6 +9666,16 @@
         "source": "wowhead",
         "spell_id": 1264082,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1264082'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1264083,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1264083'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1264084,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1264084'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],

@@ -8899,7 +8899,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "mage-arcane",
-  "generated_at": "2026-09-19T18:54:42.067570+00:00",
+  "generated_at": "2026-09-20T01:00:21.530397+00:00",
   "validation": {
     "talents": 128,
     "changed_tooltips": 15,

@@ -9004,7 +9004,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "priest-holy",
-  "generated_at": "2026-09-19T19:00:14.626008+00:00",
+  "generated_at": "2026-09-20T01:05:34.290621+00:00",
   "validation": {
     "talents": 135,
     "changed_tooltips": 14,

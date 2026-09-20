@@ -9133,7 +9133,7 @@ window.WOW_PVP_DATA = {
   ],
   "fetch_errors": [],
   "slug": "shaman-restoration",
-  "generated_at": "2026-09-19T19:03:04.392017+00:00",
+  "generated_at": "2026-09-20T01:10:13.049079+00:00",
   "validation": {
     "talents": 137,
     "changed_tooltips": 20,
