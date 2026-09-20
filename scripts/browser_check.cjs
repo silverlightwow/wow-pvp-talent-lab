@@ -105,6 +105,7 @@ function assertDescription(shown, original) {
       assert.equal((await page.locator('#specPoints').textContent()).trim(), '0/34');
      }
     }
+    if(spec.slug==='priest-discipline' && [1440,390].includes(width))await require('./rank_browser_check.cjs')(page,data,width<600);
     await page.locator('[data-tab="compare"]').click();
     assert.equal(await page.locator('#compareBody tr').count(),data.talents.filter(t=>t.tooltip_changed).length);
     const comparisonRows=await page.locator('#compareBody tr').evaluateAll(rows=>rows.map(row=>({id:Number(row.dataset.spellId),pve:row.querySelector('.comparison-pve').textContent,pvp:row.querySelector('.comparison-pvp').textContent})));

@@ -2716,3 +2716,5 @@ details.tooltip-comparison summary {
     .comparison-table td:nth-child(2), .comparison-table td:nth-child(3) { display: block; }
     .comparison-table td:nth-child(2)::before, .comparison-table td:nth-child(3)::before { display: block; margin-bottom: 8px; }
 }
+.tooltip-rank-label { color: #bca6ff; font-size: 12px; font-weight: 700; margin: 12px 0 7px; }
+.tooltip-next-rank { border-top: 1px solid #3b4252; margin-top: 14px; padding-top: 2px; }

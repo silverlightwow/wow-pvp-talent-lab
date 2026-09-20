@@ -133,6 +133,16 @@ def parse_tooltip_segments(
 
     for line in lines:
 
+        # A single inline span can label a shared specialization section.
+        shared_labels = [_spec_label(part.strip(), spec_names) for part in line.split(",") if part.strip()]
+        if len(shared_labels) > 1 and all(shared_labels):
+            if not previous_was_label:
+                pending_specs = []
+            pending_specs.extend(label for label in shared_labels if label not in pending_specs)
+            previous_was_label = True
+            seen_spec_section = True
+            continue
+
         label = _spec_label(
             line,
             spec_names,

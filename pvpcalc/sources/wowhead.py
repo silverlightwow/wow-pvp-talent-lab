@@ -368,7 +368,9 @@ def _tooltip_card_lines(html: str, spell_name: str) -> list[str]:
     for block in soup.find_all(["table", "tr", "td", "th", "div", "p"]):
         block.insert_before("\n")
         block.insert_after("\n")
-    lines = [_clean_line(line) for line in soup.get_text().splitlines()]
+    text = re.sub(r"\[\s*\n\s*", "[", soup.get_text())
+    text = re.sub(r"\s*\n\s*\]", "]", text)
+    lines = [_clean_line(line) for line in text.splitlines()]
     lines = [line for line in lines if line and line.casefold() not in {"talent", "passive"}
              and not line.casefold().startswith("requires ")]
     # Only the leading title is chrome. A repeated title inside the body

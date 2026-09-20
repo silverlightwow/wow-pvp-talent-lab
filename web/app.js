@@ -2377,12 +2377,20 @@
             );
 
 
-        const text = descriptionText(state.pvpMode ? talent.pvp_tooltip : talent.pve_tooltip);
+        const selectedRank = state.selected.get(group.nodeId)?.rank || 0;
+        const shownRank = selectedRank || group.maxRanks;
+        const rankData = talent.rank_tooltips?.find(item => item.rank === shownRank);
+        const nextRankData = selectedRank > 0 && selectedRank < group.maxRanks
+            ? talent.rank_tooltips?.find(item => item.rank === selectedRank + 1) : null;
+        const activeTalent = rankData || talent;
+        const text = descriptionText(state.pvpMode ? activeTalent.pvp_tooltip : activeTalent.pve_tooltip);
+        const rankLabel = rankData ? `<div class="tooltip-rank-label">${selectedRank ? "Current rank" : "Maximum rank"} · ${shownRank}/${group.maxRanks}</div>` : "";
+        const nextRankHtml = nextRankData ? `<section class="tooltip-next-rank"><div class="tooltip-rank-label">Next rank · ${selectedRank + 1}/${group.maxRanks}</div><pre class="tooltip-text">${escapeHtml(descriptionText(state.pvpMode ? nextRankData.pvp_tooltip : nextRankData.pve_tooltip))}</pre></section>` : "";
 
 
         const modeBadge =
             state.pvpMode
-            && talent.tooltip_changed
+            && activeTalent.tooltip_changed
             ? `
                 <span class="tooltip-badge">
                     PvP modified
@@ -2514,15 +2522,19 @@
 
             </div>
 
+            ${rankLabel}
             <pre class="tooltip-text">${
                 escapeHtml(
                     text
                 )
             }</pre>
 
+            ${nextRankHtml}
+
             ${
                 state.pvpMode
                 && talent.tooltip_changed
+                && !rankData
                 ? `
                     <div
                         style="margin-top:10px"

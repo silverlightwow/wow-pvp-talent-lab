@@ -10,6 +10,7 @@ from typing import Any
 from .http import CachedClient
 from .sources import wowhead
 from . import tooltip_renderer
+from . import ranks
 
 
 # ============================================================
@@ -74,6 +75,7 @@ class TalentRecord:
     # Count of rows which were permitted to influence the
     # main parent tooltip.
     render_effect_count: int
+    rank_tooltips: list[dict]
 
 
 @dataclass
@@ -574,6 +576,31 @@ async def build_spec_catalog(
         if fallback_note:
             rendered["diagnostics"].append(fallback_note)
 
+        rank_tooltips = []
+        rank_source = getattr(audit, "rank_sources", {}).get(int(talent.get("entry_id") or 0))
+        if rank_source:
+            for rank in range(1, int(talent["max_ranks"]) + 1):
+                rank_text, rank_diagnostics = ranks.render_rank(
+                    pve_tooltip, rank_source, rank, spec_name=audit.spec_name,
+                    spec_names=audit.metadata.get("classSpecNames"),
+                )
+                rank_rendered = tooltip_renderer.render_pvp_tooltip(
+                    tooltip=rank_text, spec_name=audit.spec_name,
+                    spec_names=audit.metadata.get("classSpecNames"),
+                    effect_rows=ranks.rows_at_rank(render_rows, rank_source["rules"], rank, spell_id),
+                    context_rows=ranks.rows_at_rank(context_by_talent.get(spell_id, []), rank_source["rules"], rank, spell_id),
+                )
+                if rank_diagnostics:
+                    raise ValueError(f"Unresolved rank description: {spell_id}, rank {rank}: {rank_diagnostics}")
+                status = _render_status(tooltip=rank_text, render_result=rank_rendered)
+                if status in {"REVIEW_REQUIRED", "MISSING_TOOLTIP"}:
+                    raise ValueError(f"Unresolved rank PvP values: {spell_id}, rank {rank}: {rank_rendered['diagnostics']}")
+                rank_tooltips.append({"rank": rank, "pve_tooltip": rank_rendered["pve_tooltip"],
+                                      "pvp_tooltip": rank_rendered["pvp_tooltip"],
+                                      "tooltip_changed": rank_rendered["changed"],
+                                      "source": "simc_exact_build_trait_rank", "build": rank_source["build"]})
+                rendered = rank_rendered
+
 
         mechanic_rows = (
             mechanics_by_talent.get(
@@ -599,6 +626,8 @@ async def build_spec_catalog(
 
                 spell_id=
                     spell_id,
+
+                rank_tooltips=rank_tooltips,
 
                 node_id=
                     talent.get(

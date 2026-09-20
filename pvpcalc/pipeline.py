@@ -25,6 +25,7 @@ from .sources import (
 
 from . import validator
 from . import pvp_aura
+from . import ranks
 
 
 @dataclass
@@ -65,6 +66,7 @@ class SpecAuditResult:
 
     simc_build: str | None = None
     simc_tooltip_fallbacks: dict[int, dict] = field(default_factory=dict)
+    rank_sources: dict[int, dict] = field(default_factory=dict)
 
     dependencies: list[Any] = field(
         default_factory=list
@@ -4208,6 +4210,11 @@ async def audit_spec(
         if spell.name == f"{spec_name} {class_name}"
         and re.search(r"^Class\s*:\s*" + re.escape(spell.name) + r"\s*$", spell.raw, re.M)
     ]
+    for talent in result.talents:
+        if int(talent.get("max_ranks") or 1) > 1 and talent.get("node_type") != "tiered":
+            source = ranks.rank_source(simc_dump, talent)
+            if source:
+                result.rank_sources[int(talent["entry_id"])] = source
     for spell_id in result.spell_ids:
         fallback = simc.simple_player_description(
             simc_dump, spell_id, class_name=class_name, spec_name=spec_name,
