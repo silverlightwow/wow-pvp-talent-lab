@@ -10207,7 +10207,7 @@ window.WOW_PVP_DATA = {
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "warrior-arms",
-  "generated_at": "2026-09-20T09:52:09.994650+00:00",
+  "generated_at": "2026-09-20T12:54:27.476283+00:00",
   "validation": {
     "talents": 122,
     "changed_tooltips": 34,

@@ -9052,7 +9052,7 @@ window.WOW_PVP_DATA = {
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "druid-guardian",
-  "generated_at": "2026-09-20T09:47:39.805548+00:00",
+  "generated_at": "2026-09-20T12:49:40.191149+00:00",
   "validation": {
     "talents": 143,
     "changed_tooltips": 9,

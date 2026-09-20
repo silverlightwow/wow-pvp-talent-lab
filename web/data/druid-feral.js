@@ -10534,7 +10534,7 @@ window.WOW_PVP_DATA = {
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "druid-feral",
-  "generated_at": "2026-09-20T09:47:52.081001+00:00",
+  "generated_at": "2026-09-20T12:49:25.569483+00:00",
   "validation": {
     "talents": 140,
     "changed_tooltips": 17,

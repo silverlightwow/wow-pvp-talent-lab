@@ -8329,7 +8329,7 @@ window.WOW_PVP_DATA = {
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "warlock-demonology",
-  "generated_at": "2026-09-20T09:51:40.943618+00:00",
+  "generated_at": "2026-09-20T12:54:12.076555+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 14,

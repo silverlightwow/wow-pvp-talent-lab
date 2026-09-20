@@ -5219,7 +5219,7 @@
           "talent_spell_id": 426591,
           "source_spell_id": 1309274,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Dummy",
+          "effect_text": "Apply Aura (6) | Dummy (4)",
           "base_value": 20.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -5236,9 +5236,8 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -6310,7 +6309,7 @@
           "talent_spell_id": 382528,
           "source_spell_id": 1264397,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (AP mod: 4.2 )",
+          "effect_text": "School Damage (2): shadow | Attributes: Suppress Points Stacking (6) (AP mod: 4.2)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6337,10 +6336,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1
@@ -7141,7 +7141,7 @@
           "talent_spell_id": 1248774,
           "source_spell_id": 1248775,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0) | Attributes: Suppress Points Stacking (6)",
           "base_value": 50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -7158,11 +7158,10 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "ambiguous"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -7170,7 +7169,7 @@
           "talent_spell_id": 1248774,
           "source_spell_id": 1248775,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0) | Attributes: Suppress Points Stacking (6)",
           "base_value": 25.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -7187,11 +7186,10 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "ambiguous"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 2
@@ -9033,7 +9031,7 @@
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "rogue-subtlety",
-  "generated_at": "2026-09-20T09:51:10.327177+00:00",
+  "generated_at": "2026-09-20T12:54:05.150380+00:00",
   "validation": {
     "talents": 135,
     "changed_tooltips": 17,
@@ -9046,11 +9044,27 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 3,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 1248775,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1248775/unshakeable-drive'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1264397,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1264397'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1309274,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1309274'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }
