@@ -3092,6 +3092,8 @@ def _classify_dependency(
     relations = tuple(
         dependency.relations
     )
+    if relations and relations[0] == "tooltip_override":
+        return "DISPLAY_OVERRIDE"
 
 
     if (

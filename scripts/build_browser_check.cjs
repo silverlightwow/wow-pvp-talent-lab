@@ -57,6 +57,33 @@ const sample='CAQAAAAAAAAAAAAAAAAAAAAAAADswMWGjZmZmxMbwMzYmZAAAAAAAAAAYmZ2mBjZGL
   assert.ok(geometry.every(Boolean),'Hidden-tab class switch geometry');
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1),false);
   await shot(page,`class-switch-${width}`);
+  await page.locator('#classSelect').selectOption('Demon Hunter');
+  await page.waitForFunction(()=>!document.querySelector('#specSelect').disabled);
+  await page.locator('#specSelect').selectOption('Havoc');
+  await page.waitForFunction(()=>document.querySelector('#treeTitle').textContent==='Havoc Demon Hunter');
+  for(const spell of [204909,428492]) {
+   const nodeId=await page.evaluate(id=>window.WOW_PVP_DATA.talents.find(t=>t.spell_id===id).node_id,spell);
+   const node=page.locator(`[data-node-id="${nodeId}"]`);
+   if(width<600)await node.tap();else await node.hover();
+   const sections=page.locator('#talentTooltip .tooltip-rank-section');
+   assert.equal(await sections.count(),2);
+   for(let i=0;i<2;i++)assert.ok(await sections.nth(i).locator('.change-chip').count());
+   if(spell===428492)assert.equal(await page.locator('#talentTooltip .tooltip-badge.direction-mixed').count(),1);
+   await shot(page,`rank-${spell}-${width}`);
+   if(width<600)await page.locator('[data-touch-close]').tap();else await page.mouse.move(0,0);
+  }
+  const apexId=await page.evaluate(()=>window.WOW_PVP_DATA.talents.find(t=>t.spell_id===1270898).node_id);
+  if(width===1440)await page.setViewportSize({width,height:300});
+  const apex=page.locator(`[data-node-id="${apexId}"]`);
+  if(width<600)await apex.tap();else await apex.hover();
+  assert.equal(await page.locator('#talentTooltip .apex-stage').count(),4);
+  assert.deepEqual(await page.locator('#talentTooltip .apex-stage-label').allTextContents().then(xs=>xs.map(x=>x.trim())),['Rank 1','Rank 2','Rank 3','Rank 4']);
+  if(width===1440){
+   assert.ok(await page.locator('#talentTooltip').evaluate(el=>el.scrollHeight>el.clientHeight));
+   await page.mouse.wheel(0,300);
+   await page.waitForFunction(()=>document.querySelector('#talentTooltip').scrollTop>0);
+  }
+  await shot(page,`apex-${width}`);
   await page.close();console.log(`Build UI checks passed at ${width}px`);
  }assert.deepEqual(errors,[]);}finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});

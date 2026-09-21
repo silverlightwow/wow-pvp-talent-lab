@@ -54,3 +54,9 @@ for(const filename of fs.readdirSync(dir).filter(f=>f.endsWith('.json')&&f!=='ma
  }
 }
 console.log('Source regressions: Fury, Bladecraft, Demon Muzzle, Chaotic Disposition, Knowledge, Apex, icons and tooltip prose passed.');
+
+for(const slug of ['shaman-enhancement','shaman-restoration']){
+ const t=data(slug).talents.find(t=>t.spell_id===455630);
+ assert.ok(t.pve_tooltip.includes('Summons a totem'));
+ assert.ok(t.diagnostics.some(d=>d.status==='EXPLICIT_DISPLAY_OVERRIDE'));
+}

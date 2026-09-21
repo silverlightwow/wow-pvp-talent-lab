@@ -2804,3 +2804,6 @@ dialog::backdrop { background:#070a12cc; backdrop-filter:blur(5px); }
     .tree-actions .loadout-actions { flex:1; }
     .tree-actions .loadout-actions button { flex:1; white-space:nowrap; }
 }
+
+.tooltip-scroll-hint { color:var(--muted); font-size:11px; margin:8px 0; }
+.touch-tooltip .tooltip-scroll-hint { display:none; }

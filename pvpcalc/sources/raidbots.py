@@ -233,6 +233,7 @@ def _normalize_collection(
                         else None
                     ),
 
+                    "visible_spell_id": entry.get("visibleSpellId"),
                     "icon": entry.get("icon"),
                 }
             )

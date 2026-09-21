@@ -2553,9 +2553,13 @@
             "block";
 
 
-        moveTooltip(
-            event
-        );
+        moveTooltip(event);
+        if (tooltip.scrollHeight > tooltip.clientHeight + 1) {
+            const hint = document.createElement("div");
+            hint.className = "tooltip-scroll-hint";
+            hint.textContent = "Scroll while hovering to read all ranks";
+            tooltip.querySelector(".tooltip-header").after(hint);
+        }
     }
 
 
@@ -3094,6 +3098,13 @@
                     }
                 );
 
+
+                button.addEventListener("wheel", event => {
+                    if (tooltip.style.display === "block" && tooltip.scrollHeight > tooltip.clientHeight + 1) {
+                        event.preventDefault();
+                        tooltip.scrollTop += event.deltaY;
+                    }
+                }, {passive: false});
 
                 button.addEventListener(
                     "mouseleave",

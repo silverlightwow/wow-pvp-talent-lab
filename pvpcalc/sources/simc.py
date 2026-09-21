@@ -198,6 +198,8 @@ def _build_edges(
     ):
 
         block = _without_inactive_equipment_branches(spell.raw, spells)
+        for override in re.finditer(r'^Talent Entry[^\n]*override="[^"\n]+" \(id=(\d+)\)', block, re.M):
+            add(spell_id, int(override[1]), "tooltip_override", override[0])
 
 
         # ----------------------------------------------------
@@ -668,6 +670,8 @@ def dependency_closure(
             target = (
                 edge.target_spell_id
             )
+            if target == root_spell_id:
+                continue
 
             new_path = (
                 path
@@ -1369,6 +1373,9 @@ def dependency_effect_reference_contexts(
     and named variables whose formulas depend on that token. Internal
     Variables lines are not themselves treated as player-facing proof.
     """
+
+    if dump is not None and dependency.relations == ("tooltip_override",):
+        return effect_reference_contexts(dump, source_spell_id, effect_index)
 
     token = re.compile(
         r"\$"

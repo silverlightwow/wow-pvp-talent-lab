@@ -320,6 +320,9 @@ async def build_spec_catalog(
     )
 
 
+    spell_ids = sorted(set(spell_ids) | {
+        int(row["visible_spell_id"]) for row in audit.talents if row.get("visible_spell_id")
+    })
     client = CachedClient(
         concurrency=concurrency
     )
@@ -533,6 +536,15 @@ async def build_spec_catalog(
         )
 
         fallback_note = None
+        display_override = False
+        visible_id = talent.get("visible_spell_id")
+        if visible_id and not tooltip_renderer.tooltip_for_spec(pve_tooltip, audit.spec_name, audit.metadata.get("classSpecNames")).strip():
+            visible_page = pages.get(int(visible_id))
+            if visible_page is not None:
+                page = visible_page
+                pve_tooltip = wowhead.tooltip_for_specialization(page, audit.metadata.get("specAuraSpellIds", []))
+                display_override = True
+                fallback_note = {"status": "EXPLICIT_DISPLAY_OVERRIDE", "source_spell_id": visible_id, "source": "raidbots_visible_spell_id"}
         if not tooltip_renderer.tooltip_for_spec(pve_tooltip, audit.spec_name, audit.metadata.get("classSpecNames")).strip():
             fallback = audit.simc_tooltip_fallbacks.get(spell_id)
             if fallback:
@@ -547,6 +559,15 @@ async def build_spec_catalog(
             )
         )
 
+
+        context_rows = context_by_talent.get(spell_id, [])
+        if display_override:
+            override_rows = [row for row in audit.all_effect_rows
+                             if row.get("talent_spell_id") == spell_id
+                             and row.get("dependency_kind") == "DISPLAY_OVERRIDE"
+                             and row.get("dependency_effect_referenced")]
+            render_rows = [*render_rows, *override_rows]
+            context_rows = [*context_rows, *override_rows]
 
         rendered = (
             tooltip_renderer
@@ -565,11 +586,7 @@ async def build_spec_catalog(
                         "classSpecNames"
                     ),
 
-                context_rows=
-                    context_by_talent.get(
-                        spell_id,
-                        [],
-                    ),
+                context_rows=context_rows,
             )
         )
 
@@ -579,7 +596,7 @@ async def build_spec_catalog(
         rank_tooltips = []
         rank_source = getattr(audit, "rank_sources", {}).get(int(talent.get("entry_id") or 0))
         if rank_source:
-            for rank in range(1, len(rank_source["rules"][0]["values"]) + 1):
+            for rank in range(1, rank_source["rank_count"] + 1):
                 rank_text, rank_diagnostics = ranks.render_rank(
                     pve_tooltip, rank_source, rank, spec_name=audit.spec_name,
                     spec_names=audit.metadata.get("classSpecNames"),
@@ -588,7 +605,7 @@ async def build_spec_catalog(
                     tooltip=rank_text, spec_name=audit.spec_name,
                     spec_names=audit.metadata.get("classSpecNames"),
                     effect_rows=ranks.rows_at_rank(render_rows, rank_source["rules"], rank, spell_id),
-                    context_rows=ranks.rows_at_rank(context_by_talent.get(spell_id, []), rank_source["rules"], rank, spell_id),
+                    context_rows=ranks.rows_at_rank(context_rows, rank_source["rules"], rank, spell_id),
                 )
                 if rank_diagnostics:
                     raise ValueError(f"Unresolved rank description: {spell_id}, rank {rank}: {rank_diagnostics}")

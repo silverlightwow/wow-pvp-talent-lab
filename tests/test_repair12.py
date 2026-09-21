@@ -41,3 +41,39 @@ def test_apex_middle_stage_keeps_its_two_ranks():
     source=ranks.rank_source(DUMP,talent)
     assert source and all(len(r['values'])==2 for r in source['rules'])
     assert next(r for r in source['rules'] if r['effect_index']==3)['values']==[2,4]
+
+def test_declared_rank_count_ignores_spare_override_values():
+    raw = '''World of Warcraft 12.1.0.69875 Live
+Name             : Spare rank fixture (id=100)
+Talent Entry     : Protection [tree=spec, row=5, col=2, max_rank=2]
+                 : Effect#1 [op=set, values=(15, 15, 30)]
+Effects          :
+#1 (id=1)        : Apply Aura (6) | Dummy (4)
+                   Base Value: 15 | Scaled Value: 15
+Description      : Increases damage by $s1%.
+'''
+    dump=simc.parse_dump(raw,class_slug='test')
+    source=ranks.rank_source(dump,dict(spell_id=100,spec_name='Protection',class_name='Paladin',tree_type='spec',node_type='single',max_ranks=2))
+    assert source['rank_count']==2
+    assert len(source['rules'][0]['values'])==3
+    assert len(source['expressions'][0]['values'])==2
+
+def test_missing_wrapper_description_uses_explicit_visible_spell(monkeypatch):
+    import asyncio
+    from pvpcalc import catalog, pipeline
+    dump=simc.parse_dump((FIX/'shaman.txt').read_text(),class_slug='shaman')
+    dependencies=simc.dependency_closure(dump,455630)
+    assert all(d.target_spell_id != 455630 for d in dependencies)
+    assert next(d for d in dependencies if d.target_spell_id==444995).relations==('tooltip_override',)
+    dep=next(d for d in dependencies if d.target_spell_id==455622)
+    assert simc.dependency_effect_reference_contexts(dep,455622,1,dump)
+    async def fetch(client,spell_id):
+        return wowhead.parse_nether_tooltip_payload(json.loads((FIX/f'{spell_id}.json').read_text()),spell_id=spell_id,url='fixture')
+    monkeypatch.setattr(wowhead,'fetch_spell_page',fetch)
+    talent=dict(spell_id=455630,visible_spell_id=444995,talent_name='Surging Totem',entry_id=117474,node_id=94877,tree_type='hero')
+    audit=pipeline.SpecAuditResult(class_name='Shaman',spec_name='Enhancement',metadata={'classSpecNames':['Elemental','Enhancement','Restoration']},drustvar_builds=[],talents=[talent],spell_ids=[455630],wowhead_by_spell={},drustvar_by_spell={},wowhead_candidate_ids=set(),drustvar_candidate_ids=set(),candidate_ids=set(),effect_rows=[])
+    result=asyncio.run(catalog.build_spec_catalog(audit)).talents[0]
+    assert 'creates a Tremor' in result.pve_tooltip
+    assert 'maintains Healing Rain' not in result.pve_tooltip
+    assert result.render_status=='UNCHANGED'
+    assert any(d['status']=='EXPLICIT_DISPLAY_OVERRIDE' for d in result.diagnostics)

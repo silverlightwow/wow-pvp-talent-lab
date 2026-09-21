@@ -432,6 +432,7 @@ def rank_source(dump, talent):
                 )
             )
     return dict(
+        rank_count=int(talent["max_ranks"]),
         rules=rules,
         expressions=rank_expressions(dump, talent, rules),
         switches=switches,
