@@ -42,11 +42,13 @@ window.WOW_PVP_DATA = {
           93312
         ],
         "entry_id": 115614,
+        "entry_max_ranks": 1,
         "definition_id": 120626,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Landslide",
         "spell_id": 358385,
+        "visible_spell_id": null,
         "icon": "ability_earthen_pillar"
       },
       "pve_tooltip": "1.4% of base mana\n10 - 40 yd range\nInstant\n1.5 min cooldown\nConjure a path of shifting stone towards the target location, rooting enemies for 15 sec. Damage may cancel the effect.",
@@ -95,11 +97,13 @@ window.WOW_PVP_DATA = {
           103843
         ],
         "entry_id": 115613,
+        "entry_max_ranks": 1,
         "definition_id": 120625,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Obsidian Scales",
         "spell_id": 363916,
+        "visible_spell_id": null,
         "icon": "inv_artifact_dragonscales"
       },
       "pve_tooltip": "300 yd range\nInstant\n1.5 min cooldown\n1 Charge\nReinforce your scales, reducing damage taken by 30% [Renewing Blaze: and causing you to be healed over 8 sec equal to the damage it prevented]. Lasts 12 sec.",
@@ -148,11 +152,13 @@ window.WOW_PVP_DATA = {
           93341
         ],
         "entry_id": 115615,
+        "entry_max_ranks": 1,
         "definition_id": 120627,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Expunge",
         "spell_id": 365585,
+        "visible_spell_id": null,
         "icon": "ability_evoker_fontofmagic_green"
       },
       "pve_tooltip": "10% of base mana\n25 yd range\nInstant\n8 sec cooldown\nExpunge toxins affecting an ally, removing all Poison effects.",
@@ -205,11 +211,13 @@ window.WOW_PVP_DATA = {
           93311
         ],
         "entry_id": 115621,
+        "entry_max_ranks": 1,
         "definition_id": 120633,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Natural Convergence",
         "spell_id": 369913,
+        "visible_spell_id": null,
         "icon": "spell_frost_frostblast"
       },
       "pve_tooltip": "Disintegrate channels 20% faster.",
@@ -262,11 +270,13 @@ window.WOW_PVP_DATA = {
           93295
         ],
         "entry_id": 128216,
+        "entry_max_ranks": 1,
         "definition_id": 133023,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Heavy Wingbeats",
         "spell_id": 368838,
+        "visible_spell_id": null,
         "icon": "ability_racial_wingbuffet"
       },
       "pve_tooltip": "Wing Buffet's cooldown is reduced by 2 min.",
@@ -319,11 +329,13 @@ window.WOW_PVP_DATA = {
           93294
         ],
         "entry_id": 115655,
+        "entry_max_ranks": 1,
         "definition_id": 120667,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Verdant Embrace",
         "spell_id": 360995,
+        "visible_spell_id": null,
         "icon": "ability_evoker_rescue"
       },
       "pve_tooltip": "10% of base mana\n25 yd range\nInstant\n24 sec cooldown\n1 Charge\nFly to an ally and heal them for (1719% of Spell Power), or heal yourself for the same amount.",
@@ -424,11 +436,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 115576,
+        "entry_max_ranks": 1,
         "definition_id": 120588,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Forger of Mountains",
         "spell_id": 375528,
+        "visible_spell_id": null,
         "icon": "ability_earthen_pillar"
       },
       "pve_tooltip": "Landslide's cooldown is reduced by 30 sec, and it can withstand 200% more damage before breaking.",
@@ -482,11 +496,13 @@ window.WOW_PVP_DATA = {
           103844
         ],
         "entry_id": 115611,
+        "entry_max_ranks": 2,
         "definition_id": 120623,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Innate Magic",
         "spell_id": 375520,
+        "visible_spell_id": null,
         "icon": "ability_evoker_innatemagic4"
       },
       "pve_tooltip": "Essence regenerates 10% faster.",
@@ -504,6 +520,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Essence regenerates 5% faster.",
           "pvp_tooltip": "Essence regenerates 5% faster.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -512,6 +529,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Essence regenerates 10% faster.",
           "pvp_tooltip": "Essence regenerates 10% faster.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -552,11 +570,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 115597,
+        "entry_max_ranks": 1,
         "definition_id": 120609,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Obsidian Bulwark",
         "spell_id": 375406,
+        "visible_spell_id": null,
         "icon": "inv_shield_1h_revenantfire_d_01"
       },
       "pve_tooltip": "Obsidian Scales has an additional charge.",
@@ -610,11 +630,13 @@ window.WOW_PVP_DATA = {
           93294
         ],
         "entry_id": 115603,
+        "entry_max_ranks": 2,
         "definition_id": 120615,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Enkindled",
         "spell_id": 375554,
+        "visible_spell_id": null,
         "icon": "ability_evoker_livingflame"
       },
       "pve_tooltip": "Living Flame deals 6% more damage and healing.",
@@ -632,6 +654,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Living Flame deals 3% more damage and healing.",
           "pvp_tooltip": "Living Flame deals 3% more damage and healing.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -640,6 +663,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Living Flame deals 6% more damage and healing.",
           "pvp_tooltip": "Living Flame deals 6% more damage and healing.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -680,11 +704,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 115654,
+        "entry_max_ranks": 1,
         "definition_id": 120666,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Scarlet Adaptation",
         "spell_id": 372469,
+        "visible_spell_id": null,
         "icon": "inv_bijou_red"
       },
       "pve_tooltip": "Store 20% of your effective healing, up to (Spell Power * 2.254 * 1). Your next damaging Living Flame consumes all stored healing to increase its damage dealt.",
@@ -737,11 +763,13 @@ window.WOW_PVP_DATA = {
           93310
         ],
         "entry_id": 115620,
+        "entry_max_ranks": 1,
         "definition_id": 120632,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Inner Radiance",
         "spell_id": 386405,
+        "visible_spell_id": null,
         "icon": "spell_holy_spellwarding"
       },
       "pve_tooltip": "Your Living Flame and Emerald Blossom are 30% more effective on yourself.",
@@ -792,11 +820,13 @@ window.WOW_PVP_DATA = {
           93355
         ],
         "entry_id": 115610,
+        "entry_max_ranks": 1,
         "definition_id": 120622,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Recall",
         "spell_id": 371806,
+        "visible_spell_id": null,
         "icon": "ability_evoker_recall"
       },
       "pve_tooltip": "You may reactivate [Dream Flight: Dream Flight and] [Breath of Eons / Deep Breath] within 3 sec after landing to travel back in time to your takeoff location.",
@@ -846,11 +876,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 128217,
+        "entry_max_ranks": 1,
         "definition_id": 133024,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Clobbering Sweep",
         "spell_id": 375443,
+        "visible_spell_id": null,
         "icon": "ability_racial_tailswipe"
       },
       "pve_tooltip": "Tail Swipe's cooldown is reduced by 2 min.",
@@ -901,11 +933,13 @@ window.WOW_PVP_DATA = {
           93349
         ],
         "entry_id": 115598,
+        "entry_max_ranks": 1,
         "definition_id": 120610,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Tailwind",
         "spell_id": 375556,
+        "visible_spell_id": null,
         "icon": "ability_skyreach_wind"
       },
       "pve_tooltip": "Hover increases your movement speed by 70% for the first 4 sec.",
@@ -958,11 +992,13 @@ window.WOW_PVP_DATA = {
           93293
         ],
         "entry_id": 115602,
+        "entry_max_ranks": 1,
         "definition_id": 120614,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Cauterizing Flame",
         "spell_id": 374251,
+        "visible_spell_id": null,
         "icon": "ability_evoker_fontofmagic_red"
       },
       "pve_tooltip": "10% of base mana\n25 yd range\nInstant\n1 min cooldown\nCauterize an ally's wounds, removing all Bleed, Poison, Curse, and Disease effects. Heals for (350% of Spell Power) upon removing any effect.",
@@ -1011,11 +1047,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 115577,
+        "entry_max_ranks": 1,
         "definition_id": 120589,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ancient Flame",
         "spell_id": 369990,
+        "visible_spell_id": null,
         "icon": "inv_elemental_mote_fire01"
       },
       "pve_tooltip": "Casting Emerald Blossom or Verdant Embrace reduces the cast time of your next Living Flame by 40%.\n(500ms cooldown)",
@@ -1066,11 +1104,13 @@ window.WOW_PVP_DATA = {
           110064
         ],
         "entry_id": 115619,
+        "entry_max_ranks": 2,
         "definition_id": 120631,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Instinctive Arcana",
         "spell_id": 376164,
+        "visible_spell_id": null,
         "icon": "spell_arcane_studentofmagic"
       },
       "pve_tooltip": "Your Magic damage done is increased by 4%.",
@@ -1088,6 +1128,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Your Magic damage done is increased by 2%.",
           "pvp_tooltip": "Your Magic damage done is increased by 2%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -1096,6 +1137,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Your Magic damage done is increased by 4%.",
           "pvp_tooltip": "Your Magic damage done is increased by 4%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -1138,11 +1180,13 @@ window.WOW_PVP_DATA = {
           93349
         ],
         "entry_id": 115665,
+        "entry_max_ranks": 1,
         "definition_id": 120677,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Tip the Scales",
         "spell_id": 370553,
+        "visible_spell_id": null,
         "icon": "ability_evoker_tipthescales"
       },
       "pve_tooltip": "Instant\n2 min cooldown\nCompress time to make your next empowered spell cast instantly at its maximum empower level.",
@@ -1193,11 +1237,13 @@ window.WOW_PVP_DATA = {
           93291
         ],
         "entry_id": 115600,
+        "entry_max_ranks": 2,
         "definition_id": 120612,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Attuned to the Dream",
         "spell_id": 376930,
+        "visible_spell_id": null,
         "icon": "ability_rogue_imrovedrecuperate"
       },
       "pve_tooltip": "Your healing done and healing received are increased by 6%.",
@@ -1215,6 +1261,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Your healing done and healing received are increased by 3%.",
           "pvp_tooltip": "Your healing done and healing received are increased by 3%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -1223,6 +1270,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Your healing done and healing received are increased by 6%.",
           "pvp_tooltip": "Your healing done and healing received are increased by 6%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -1263,11 +1311,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 115601,
+        "entry_max_ranks": 1,
         "definition_id": 120613,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Sleep Walk",
         "spell_id": 360806,
+        "visible_spell_id": null,
         "icon": "ability_xavius_dreamsimulacrum"
       },
       "pve_tooltip": "1% of base mana\n25 yd range\n1.7 sec cast\nDisorient an enemy for 20 sec, causing them to sleep walk towards you. Damage has a chance to awaken them.",
@@ -1319,11 +1369,13 @@ window.WOW_PVP_DATA = {
           93309
         ],
         "entry_id": 136559,
+        "entry_max_ranks": 1,
         "definition_id": 141332,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Protracted Talons",
         "spell_id": 369909,
+        "visible_spell_id": null,
         "icon": "ability_evoker_azurestrike"
       },
       "pve_tooltip": "Azure Strike damages 1 additional enemy.",
@@ -1376,11 +1428,13 @@ window.WOW_PVP_DATA = {
           93299
         ],
         "entry_id": 115670,
+        "entry_max_ranks": 2,
         "definition_id": 120682,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Inherent Resistance",
         "spell_id": 375544,
+        "visible_spell_id": null,
         "icon": "inv_misc_rubysanctum1"
       },
       "pve_tooltip": "Magic damage taken reduced by 8%.",
@@ -1398,6 +1452,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Magic damage taken reduced by 4%.",
           "pvp_tooltip": "Magic damage taken reduced by 4%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -1406,6 +1461,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Magic damage taken reduced by 8%.",
           "pvp_tooltip": "Magic damage taken reduced by 8%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -1448,11 +1504,13 @@ window.WOW_PVP_DATA = {
           93354
         ],
         "entry_id": 115609,
+        "entry_max_ranks": 1,
         "definition_id": 120621,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Draconic Legacy",
         "spell_id": 376166,
+        "visible_spell_id": null,
         "icon": "inv_helm_mail_dracthyrquest_b_02"
       },
       "pve_tooltip": "Your Stamina is increased by 8%.",
@@ -1505,11 +1563,13 @@ window.WOW_PVP_DATA = {
           93348
         ],
         "entry_id": 115664,
+        "entry_max_ranks": 2,
         "definition_id": 120676,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Extended Flight",
         "spell_id": 375517,
+        "visible_spell_id": null,
         "icon": "ability_evoker_hover"
       },
       "pve_tooltip": "Hover lasts 4 sec longer.",
@@ -1527,6 +1587,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Hover lasts 2 sec longer.",
           "pvp_tooltip": "Hover lasts 2 sec longer.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -1535,6 +1596,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Hover lasts 4 sec longer.",
           "pvp_tooltip": "Hover lasts 4 sec longer.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -1577,11 +1639,13 @@ window.WOW_PVP_DATA = {
           93348
         ],
         "entry_id": 115599,
+        "entry_max_ranks": 1,
         "definition_id": 120611,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Bountiful Bloom",
         "spell_id": 370886,
+        "visible_spell_id": null,
         "icon": "ability_evoker_emeraldblossom"
       },
       "pve_tooltip": "Emerald Blossom heals 2 additional allies.",
@@ -1630,11 +1694,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 115668,
+        "entry_max_ranks": 1,
         "definition_id": 120680,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Regenerative Magic",
         "spell_id": 387787,
+        "visible_spell_id": null,
         "icon": "spell_frost_manarecharge"
       },
       "pve_tooltip": "Your Leech is increased by 4%.",
@@ -1688,11 +1754,13 @@ window.WOW_PVP_DATA = {
           93298
         ],
         "entry_id": 115618,
+        "entry_max_ranks": 1,
         "definition_id": 120630,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Blast Furnace",
         "spell_id": 375510,
+        "visible_spell_id": null,
         "icon": "ability_evoker_firebreath"
       },
       "pve_tooltip": "Fire Breath's damage over time lasts 4 sec longer.",
@@ -1743,11 +1811,13 @@ window.WOW_PVP_DATA = {
           93298
         ],
         "entry_id": 115608,
+        "entry_max_ranks": 1,
         "definition_id": 120620,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Exuberance",
         "spell_id": 375542,
+        "visible_spell_id": null,
         "icon": "ability_evoker_hover2"
       },
       "pve_tooltip": "While above 75% health, your movement speed is increased by 10%.",
@@ -1800,11 +1870,13 @@ window.WOW_PVP_DATA = {
           93288
         ],
         "entry_id": 115669,
+        "entry_max_ranks": 1,
         "definition_id": 120681,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Renewing Blaze",
         "spell_id": 374348,
+        "visible_spell_id": null,
         "icon": "ability_evoker_masterylifebinder_red"
       },
       "pve_tooltip": "30 yd range\nObsidian Scales surrounds you with a Renewing Blaze, causing 100% of the damage it prevented to be healed back over 8 sec.",
@@ -1855,11 +1927,13 @@ window.WOW_PVP_DATA = {
           93288
         ],
         "entry_id": 115594,
+        "entry_max_ranks": 1,
         "definition_id": 120606,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Walloping Blow",
         "spell_id": 387341,
+        "visible_spell_id": null,
         "icon": "inv_misc_monsterscales_06"
       },
       "pve_tooltip": "Wing Buffet and Tail Swipe knock enemies further and daze them, reducing movement speed by 70% for 4 sec.",
@@ -1913,11 +1987,13 @@ window.WOW_PVP_DATA = {
           93344
         ],
         "entry_id": 115663,
+        "entry_max_ranks": 1,
         "definition_id": 120675,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Panacea",
         "spell_id": 387761,
+        "visible_spell_id": null,
         "icon": "ability_druid_protectionofthegrove"
       },
       "pve_tooltip": "Emerald Blossom and Verdant Embrace instantly heal you for (250% of Spell Power) when cast.",
@@ -1969,11 +2045,13 @@ window.WOW_PVP_DATA = {
           93343
         ],
         "entry_id": 115617,
+        "entry_max_ranks": 1,
         "definition_id": 120629,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Stretch Time",
         "spell_id": 410352,
+        "visible_spell_id": null,
         "icon": "ability_evoker_timedilation"
       },
       "pve_tooltip": "While flying during [Breath of Eons / Deep Breath], 100% of damage you would take is instead dealt over 10 sec.",
@@ -2024,11 +2102,13 @@ window.WOW_PVP_DATA = {
           93343
         ],
         "entry_id": 115616,
+        "entry_max_ranks": 1,
         "definition_id": 120628,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unravel",
         "spell_id": 1264378,
+        "visible_spell_id": null,
         "icon": "ability_evoker_unravel"
       },
       "pve_tooltip": "Direct damage from Fire Breath consumes absorb shields from enemies, dealing (1200% of Spell Power) additional Spellfrost damage to them.",
@@ -2145,11 +2225,13 @@ window.WOW_PVP_DATA = {
           93352
         ],
         "entry_id": 115607,
+        "entry_max_ranks": 1,
         "definition_id": 120619,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Oppressing Roar",
         "spell_id": 372048,
+        "visible_spell_id": null,
         "icon": "ability_evoker_oppressingroar"
       },
       "pve_tooltip": "Instant\n2 min cooldown\nLet out a bone-shaking roar at enemies in a cone in front of you, increasing the duration of crowd controls that affect them by 50% in the next 10 sec. [Overawe: Removes 1 Enrage effect from each enemy]",
@@ -2662,11 +2744,13 @@ window.WOW_PVP_DATA = {
           93352
         ],
         "entry_id": 115660,
+        "entry_max_ranks": 1,
         "definition_id": 120672,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Foci of Life",
         "spell_id": 375574,
+        "visible_spell_id": null,
         "icon": "spell_fire_incinerate"
       },
       "pve_tooltip": "Renewing Blaze restores you more quickly, causing damage you take to be healed back over 4 sec.",
@@ -2720,11 +2804,13 @@ window.WOW_PVP_DATA = {
           93287
         ],
         "entry_id": 115596,
+        "entry_max_ranks": 1,
         "definition_id": 120608,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Rescue",
         "spell_id": 370665,
+        "visible_spell_id": null,
         "icon": "ability_evoker_flywithme"
       },
       "pve_tooltip": "30 yd range\nInstant\n1 min cooldown\nSwoop to an ally and fly with them to the target location. Clears movement impairing effects from you and your ally.",
@@ -2775,11 +2861,13 @@ window.WOW_PVP_DATA = {
           93346
         ],
         "entry_id": 115662,
+        "entry_max_ranks": 2,
         "definition_id": 120674,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lush Growth",
         "spell_id": 375561,
+        "visible_spell_id": null,
         "icon": "inv_staff_2h_bloodelf_c_01"
       },
       "pve_tooltip": "Green spells restore 10% more health.",
@@ -2797,6 +2885,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Green spells restore 5% more health.",
           "pvp_tooltip": "Green spells restore 5% more health.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2805,6 +2894,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Green spells restore 10% more health.",
           "pvp_tooltip": "Green spells restore 10% more health.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2847,11 +2937,13 @@ window.WOW_PVP_DATA = {
           93715
         ],
         "entry_id": 115658,
+        "entry_max_ranks": 1,
         "definition_id": 120670,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Source of Magic",
         "spell_id": 369459,
+        "visible_spell_id": null,
         "icon": "ability_evoker_blue_01"
       },
       "pve_tooltip": "25 yd range\nInstant\nRedirect your excess magic to a friendly healer for 1 hour. When you cast an empowered spell, you restore 0.25% of their maximum mana per empower level. Limit 1.",
@@ -2902,11 +2994,13 @@ window.WOW_PVP_DATA = {
           93342
         ],
         "entry_id": 136560,
+        "entry_max_ranks": 1,
         "definition_id": 141333,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Strike from Above",
         "spell_id": 1267206,
+        "visible_spell_id": null,
         "icon": "ability_racial_glide"
       },
       "pve_tooltip": "Glide speed and height increased by 10%.",
@@ -2959,11 +3053,13 @@ window.WOW_PVP_DATA = {
           93342
         ],
         "entry_id": 115657,
+        "entry_max_ranks": 1,
         "definition_id": 120669,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Leaping Flames",
         "spell_id": 369939,
+        "visible_spell_id": null,
         "icon": "ability_evoker_pupilofalexstraza"
       },
       "pve_tooltip": "Fire Breath causes your next Living Flame to strike 1 additional target per empower level.",
@@ -3012,11 +3108,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 115606,
+        "entry_max_ranks": 1,
         "definition_id": 120618,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Overawe",
         "spell_id": 374346,
+        "visible_spell_id": null,
         "icon": "ability_evoker_oppressingroar2"
       },
       "pve_tooltip": "Oppressing Roar removes 1 Enrage effect from each enemy, and its cooldown is reduced by 30 sec.",
@@ -3069,11 +3167,13 @@ window.WOW_PVP_DATA = {
           93351
         ],
         "entry_id": 115667,
+        "entry_max_ranks": 1,
         "definition_id": 120679,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Aerial Mastery",
         "spell_id": 365933,
+        "visible_spell_id": null,
         "icon": "ability_evoker_aerialmastery"
       },
       "pve_tooltip": "Hover gains 1 additional charge.",
@@ -3124,11 +3224,13 @@ window.WOW_PVP_DATA = {
           93346
         ],
         "entry_id": 115595,
+        "entry_max_ranks": 1,
         "definition_id": 120607,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Twin Guardian",
         "spell_id": 370888,
+        "visible_spell_id": null,
         "icon": "inv_misc_volatileair"
       },
       "pve_tooltip": "Rescue increases movement speed by 100% and allows spells to be cast while moving for 3 sec.",
@@ -3179,11 +3281,13 @@ window.WOW_PVP_DATA = {
           93346
         ],
         "entry_id": 116103,
+        "entry_max_ranks": 1,
         "definition_id": 121115,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Potent Mana",
         "spell_id": 418101,
+        "visible_spell_id": null,
         "icon": "spell_magic_managain"
       },
       "pve_tooltip": "Source of Magic increases the target's healing and damage done by 3%.",
@@ -3233,11 +3337,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 115656,
+        "entry_max_ranks": 1,
         "definition_id": 120668,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Terror of the Skies",
         "spell_id": 371032,
+        "visible_spell_id": null,
         "icon": "ability_evoker_terroroftheskies"
       },
       "pve_tooltip": "[Breath of Eons / Deep Breath] stuns enemies for 3 sec.",
@@ -3286,11 +3392,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 115666,
+        "entry_max_ranks": 1,
         "definition_id": 120678,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Time Spiral",
         "spell_id": 374968,
+        "visible_spell_id": null,
         "icon": "ability_evoker_timespiral"
       },
       "pve_tooltip": "Instant\n2 min cooldown\nBend time, allowing you and your allies within 40 yds to cast their major movement ability once in the next 10 sec, even if it is on cooldown.",
@@ -3339,11 +3447,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 125610,
+        "entry_max_ranks": 1,
         "definition_id": 130442,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Spatial Paradox",
         "spell_id": 406732,
+        "visible_spell_id": null,
         "icon": "ability_evoker_stretchtime"
       },
       "pve_tooltip": "60 yd range\nInstant\n3 min cooldown\nEvoke a paradox for you and a friendly healer, allowing casting while moving and increasing the range of most spells by 100% for 10 sec.\nAffects the nearest healer within 60 yds, if you do not have a healer targeted.",
@@ -3394,11 +3504,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 115661,
+        "entry_max_ranks": 1,
         "definition_id": 120673,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Zephyr",
         "spell_id": 374227,
+        "visible_spell_id": null,
         "icon": "ability_evoker_hoverblack"
       },
       "pve_tooltip": "Instant\n2 min cooldown\nConjure an updraft to lift you and your 4 nearest allies within 20 yds into the air, reducing damage taken from area-of-effect attacks by 20% and increasing movement speed by 30% for 8 sec.",
@@ -3448,11 +3560,13 @@ window.WOW_PVP_DATA = {
           93333
         ],
         "entry_id": 115647,
+        "entry_max_ranks": 1,
         "definition_id": 120659,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Pyre",
         "spell_id": 357211,
+        "visible_spell_id": null,
         "icon": "ability_evoker_pyre"
       },
       "pve_tooltip": "3 Essence\n25 yd range\nInstant\nLob a ball of flame, dealing (440% of Spell Power) Fire damage to your target and all enemies within 8 yds.",
@@ -3564,11 +3678,13 @@ window.WOW_PVP_DATA = {
           93332
         ],
         "entry_id": 115593,
+        "entry_max_ranks": 1,
         "definition_id": 120605,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ruby Essence Burst",
         "spell_id": 376872,
+        "visible_spell_id": null,
         "icon": "ability_evoker_essenceburst4"
       },
       "pve_tooltip": "Your Living Flame has a 20% chance to cause an Essence Burst, making your next Disintegrate or Pyre cost no Essence.",
@@ -3620,11 +3736,13 @@ window.WOW_PVP_DATA = {
           93275
         ],
         "entry_id": 115646,
+        "entry_max_ranks": 1,
         "definition_id": 120658,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Azure Essence Burst",
         "spell_id": 375721,
+        "visible_spell_id": null,
         "icon": "ability_evoker_essenceburst2"
       },
       "pve_tooltip": "Azure Strike has a 15% chance to cause an Essence Burst, making your next Disintegrate or Pyre cost no Essence.",
@@ -3676,11 +3794,13 @@ window.WOW_PVP_DATA = {
           93276
         ],
         "entry_id": 115592,
+        "entry_max_ranks": 1,
         "definition_id": 120604,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lay Waste",
         "spell_id": 371034,
+        "visible_spell_id": null,
         "icon": "ability_evoker_deepbreath"
       },
       "pve_tooltip": "Deep Breath's damage is increased by 20%.",
@@ -3732,11 +3852,13 @@ window.WOW_PVP_DATA = {
           93331
         ],
         "entry_id": 115645,
+        "entry_max_ranks": 1,
         "definition_id": 120657,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Quell",
         "spell_id": 351338,
+        "visible_spell_id": null,
         "icon": "ability_evoker_quell"
       },
       "pve_tooltip": "25 yd range\nInstant\n20 sec cooldown\nInterrupt an enemy's spellcasting and prevent any spell from that school of magic from being cast for 6 sec.",
@@ -3788,11 +3910,13 @@ window.WOW_PVP_DATA = {
           93274
         ],
         "entry_id": 115581,
+        "entry_max_ranks": 1,
         "definition_id": 120593,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Eternity Surge",
         "spell_id": 359073,
+        "visible_spell_id": null,
         "icon": "ability_evoker_eternitysurge"
       },
       "pve_tooltip": "25 yd range\nChanneled (2.5 sec cast)\n30 sec cooldown\nFocus your energies to release a salvo of pure magic, dealing [(1088.47% of Spell Power)] Spellfrost damage to an enemy. Damages additional enemies within 25 yds when empowered.\nI: Damages [Eternity's Span: 2 enemies enemy].\nII: Damages [Eternity's Span: 4 enemies / 2 enemies].\nIII: Damages [Eternity's Span: 6 enemies / 3 enemies].",
@@ -3905,11 +4029,13 @@ window.WOW_PVP_DATA = {
           93282
         ],
         "entry_id": 115591,
+        "entry_max_ranks": 2,
         "definition_id": 120603,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Volatility",
         "spell_id": 369089,
+        "visible_spell_id": null,
         "icon": "spell_fire_ragnaros_lavabolt"
       },
       "pve_tooltip": "Pyre has a 30% chance to flare up and explode again on a nearby target.",
@@ -3927,6 +4053,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Pyre has a 15% chance to flare up and explode again on a nearby target.",
           "pvp_tooltip": "Pyre has a 15% chance to flare up and explode again on a nearby target.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -3935,6 +4062,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Pyre has a 30% chance to flare up and explode again on a nearby target.",
           "pvp_tooltip": "Pyre has a 30% chance to flare up and explode again on a nearby target.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -3977,11 +4105,13 @@ window.WOW_PVP_DATA = {
           93282
         ],
         "entry_id": 115582,
+        "entry_max_ranks": 1,
         "definition_id": 120594,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Power Nexus",
         "spell_id": 369908,
+        "visible_spell_id": null,
         "icon": "ability_evoker_powernexus"
       },
       "pve_tooltip": "Increases your maximum Essence to 6.",
@@ -4032,11 +4162,13 @@ window.WOW_PVP_DATA = {
           93330
         ],
         "entry_id": 115643,
+        "entry_max_ranks": 1,
         "definition_id": 120655,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Dragonrage",
         "spell_id": 375087,
+        "visible_spell_id": null,
         "icon": "ability_evoker_dragonrage"
       },
       "pve_tooltip": "Instant\n2 min cooldown\nErupt with draconic fury and exhale Pyres at 3 enemies within 25 yds.\nFor 18 sec, Essence Burst's chance to occur is increased to 100% [Tyranny: and you gain the maximum benefit of Mastery: Giantkiller regardless of targets' health].",
@@ -4087,11 +4219,13 @@ window.WOW_PVP_DATA = {
           93319
         ],
         "entry_id": 115579,
+        "entry_max_ranks": 1,
         "definition_id": 120591,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Azure Sweep",
         "spell_id": 1265867,
+        "visible_spell_id": null,
         "icon": "inv_10_skinning_dragonscales_blue"
       },
       "pve_tooltip": "Eternity Surge upgrades your next Azure Strike to Azure Sweep, damaging all nearby enemies and dealing 75% additional damage.\nAzure Sweep\nConcentrate azure energy into your tail and sweep to release pure magic upon an enemy and nearby targets for (163.185% of Spell Power) Spellfrost damage. Damage reduced beyond 8 targets.",
@@ -4183,11 +4317,13 @@ window.WOW_PVP_DATA = {
           93319
         ],
         "entry_id": 115580,
+        "entry_max_ranks": 2,
         "definition_id": 120592,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Arcane Intensity",
         "spell_id": 375618,
+        "visible_spell_id": null,
         "icon": "ability_evoker_disintegrate"
       },
       "pve_tooltip": "Disintegrate and Azure Strike deal 16% more damage.",
@@ -4205,6 +4341,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Disintegrate and Azure Strike deal 8% more damage.",
           "pvp_tooltip": "Disintegrate and Azure Strike deal 8% more damage.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -4213,6 +4350,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Disintegrate and Azure Strike deal 16% more damage.",
           "pvp_tooltip": "Disintegrate and Azure Strike deal 16% more damage.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -4257,11 +4395,13 @@ window.WOW_PVP_DATA = {
           93281
         ],
         "entry_id": 115590,
+        "entry_max_ranks": 1,
         "definition_id": 120602,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ruby Embers",
         "spell_id": 365937,
+        "visible_spell_id": null,
         "icon": "inv_tradeskillitem_lessersorcerersfire"
       },
       "pve_tooltip": "Living Flame deals (26.5144% of Spell Power) damage over 12 sec to enemies, or restores (52% of Spell Power) health to allies over 12 sec. Stacks 3 times.",
@@ -4420,11 +4560,13 @@ window.WOW_PVP_DATA = {
           93329
         ],
         "entry_id": 115642,
+        "entry_max_ranks": 1,
         "definition_id": 120654,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Animosity",
         "spell_id": 375797,
+        "visible_spell_id": null,
         "icon": "spell_nature_shamanrage"
       },
       "pve_tooltip": "Casting an empower spell extends the duration of Dragonrage by 5 sec.\nEach time this occurs during Dragonrage, its effectiveness is reduced by 25%.",
@@ -4478,11 +4620,13 @@ window.WOW_PVP_DATA = {
           93318
         ],
         "entry_id": 115631,
+        "entry_max_ranks": 1,
         "definition_id": 120643,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Essence Attunement",
         "spell_id": 375722,
+        "visible_spell_id": null,
         "icon": "ability_evoker_essenceburststacks"
       },
       "pve_tooltip": "Essence Burst stacks 2 times.",
@@ -4534,11 +4678,13 @@ window.WOW_PVP_DATA = {
           93277
         ],
         "entry_id": 115585,
+        "entry_max_ranks": 1,
         "definition_id": 120597,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Engulfing Blaze",
         "spell_id": 370837,
+        "visible_spell_id": null,
         "icon": "inv_inscription_pigment_ruby"
       },
       "pve_tooltip": "Living Flame deals 10% increased damage and healing and its cast time is reduced by 0.3 sec.",
@@ -4591,11 +4737,13 @@ window.WOW_PVP_DATA = {
           93328
         ],
         "entry_id": 115588,
+        "entry_max_ranks": 2,
         "definition_id": 120600,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Heat Wave",
         "spell_id": 375725,
+        "visible_spell_id": null,
         "icon": "spell_fire_moltenblood"
       },
       "pve_tooltip": "Fire Breath deals 30% more damage.",
@@ -4613,6 +4761,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Fire Breath deals 15% more damage.",
           "pvp_tooltip": "Fire Breath deals 15% more damage.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -4621,6 +4770,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Fire Breath deals 30% more damage.",
           "pvp_tooltip": "Fire Breath deals 30% more damage.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -4665,11 +4815,13 @@ window.WOW_PVP_DATA = {
           93317
         ],
         "entry_id": 115641,
+        "entry_max_ranks": 2,
         "definition_id": 120653,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Honed Aggression",
         "spell_id": 371038,
+        "visible_spell_id": null,
         "icon": "spell_fire_blueimmolation"
       },
       "pve_tooltip": "The critical strike chance of your spells is increased by 4%.",
@@ -4687,6 +4839,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "The critical strike chance of your spells is increased by 2%.",
           "pvp_tooltip": "The critical strike chance of your spells is increased by 2%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -4695,6 +4848,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "The critical strike chance of your spells is increased by 4%.",
           "pvp_tooltip": "The critical strike chance of your spells is increased by 4%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -4735,11 +4889,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 115632,
+        "entry_max_ranks": 1,
         "definition_id": 120644,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Eternity's Span",
         "spell_id": 375757,
+        "visible_spell_id": null,
         "icon": "spell_arcane_arcanetorrent"
       },
       "pve_tooltip": "Eternity Surge hits twice as many targets.",
@@ -4791,11 +4947,13 @@ window.WOW_PVP_DATA = {
           93316
         ],
         "entry_id": 115630,
+        "entry_max_ranks": 1,
         "definition_id": 120642,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Eye of Infinity",
         "spell_id": 411165,
+        "visible_spell_id": null,
         "icon": "ability_evoker_dragonrage2_blue"
       },
       "pve_tooltip": "Eternity Surge deals 15% increased damage to your primary target.",
@@ -4847,11 +5005,13 @@ window.WOW_PVP_DATA = {
           93316
         ],
         "entry_id": 115629,
+        "entry_max_ranks": 1,
         "definition_id": 120641,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Event Horizon",
         "spell_id": 411164,
+        "visible_spell_id": null,
         "icon": "ability_priest_cascade_shadow"
       },
       "pve_tooltip": "Eternity Surge's cooldown is reduced by 3 sec.",
@@ -4903,11 +5063,13 @@ window.WOW_PVP_DATA = {
           93314
         ],
         "entry_id": 115587,
+        "entry_max_ranks": 1,
         "definition_id": 120599,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Catalyze",
         "spell_id": 386283,
+        "visible_spell_id": null,
         "icon": "spell_fire_masterofelements"
       },
       "pve_tooltip": "While channeling Disintegrate your Fire Breath on the target deals damage 100% more often.",
@@ -4961,11 +5123,13 @@ window.WOW_PVP_DATA = {
           93323
         ],
         "entry_id": 115640,
+        "entry_max_ranks": 1,
         "definition_id": 120652,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Tyranny",
         "spell_id": 376888,
+        "visible_spell_id": null,
         "icon": "ability_evoker_dragonrage2"
       },
       "pve_tooltip": "During Deep Breath and Dragonrage you gain the maximum benefit of Mastery: Giantkiller regardless of targets' health.\nUnbound Flame always gains the maximum benefit.",
@@ -5017,11 +5181,13 @@ window.WOW_PVP_DATA = {
           93323
         ],
         "entry_id": 115628,
+        "entry_max_ranks": 1,
         "definition_id": 120640,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Charged Blast",
         "spell_id": 370455,
+        "visible_spell_id": null,
         "icon": "spell_arcane_arcanepotency"
       },
       "pve_tooltip": "Your Blue damage increases the damage of your next Pyre by 2%, stacking 20 times.",
@@ -5029,12 +5195,23 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
+          "kind": "spell_power_coefficient",
+          "old": 440.00000000000006,
+          "new": 457.6000000000001,
+          "full_tooltip_match_count": 0
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 370455,
           "source_spell_id": 357212,
           "effect_index": 1,
@@ -5053,7 +5230,7 @@ window.WOW_PVP_DATA = {
             357212
           ],
           "dependency_relations": [
-            "triggered_by_reverse",
+            "tooltip_value_ref",
             "triggered_by_reverse",
             "tooltip_value_ref"
           ],
@@ -5075,7 +5252,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -5115,11 +5292,13 @@ window.WOW_PVP_DATA = {
           93315
         ],
         "entry_id": 115627,
+        "entry_max_ranks": 1,
         "definition_id": 120639,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shattering Stars",
         "spell_id": 1265802,
+        "visible_spell_id": null,
         "icon": "ability_evoker_chargedblast"
       },
       "pve_tooltip": "Eternity Surge additionally releases a Shattering Star at your target that deals 50% more damage per empower level reached.\nShattering Star\nExhale a bolt of concentrated power from your mouth at the target for (173.645% of Spell Power) Spellfrost damage.",
@@ -5209,11 +5388,13 @@ window.WOW_PVP_DATA = {
           93326
         ],
         "entry_id": 115584,
+        "entry_max_ranks": 1,
         "definition_id": 120596,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Feed the Flames",
         "spell_id": 369846,
+        "visible_spell_id": null,
         "icon": "mace_1h_blacksmithing_d_04_icon"
       },
       "pve_tooltip": "After casting 6 Pyres, your next Pyre will explode into a Firestorm.\nFirestorm\nAn explosion bombards the target area with white-hot embers, dealing [(239.4% of Spell Power) * 6] Fire damage to enemies over 10 sec.",
@@ -5308,11 +5489,13 @@ window.WOW_PVP_DATA = {
           93272
         ],
         "entry_id": 115624,
+        "entry_max_ranks": 1,
         "definition_id": 120636,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Burnout",
         "spell_id": 375801,
+        "visible_spell_id": null,
         "icon": "spell_fire_soulburn"
       },
       "pve_tooltip": "Fire Breath damage has 16% chance to cause your next Living Flame to be instant cast, stacking 2 times.\n(1s cooldown)",
@@ -5361,11 +5544,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 115639,
+        "entry_max_ranks": 1,
         "definition_id": 120651,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Onyx Legacy",
         "spell_id": 386348,
+        "visible_spell_id": null,
         "icon": "inv_misc_head_dragon_black"
       },
       "pve_tooltip": "Deep Breath's cooldown is reduced by 1 min.",
@@ -5419,11 +5604,13 @@ window.WOW_PVP_DATA = {
           93322
         ],
         "entry_id": 115635,
+        "entry_max_ranks": 1,
         "definition_id": 120647,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Spellweaver's Dominance",
         "spell_id": 370845,
+        "visible_spell_id": null,
         "icon": "spell_shaman_shockinglava"
       },
       "pve_tooltip": "Your damaging critical strikes deal 230% damage instead of the usual 200%.",
@@ -5511,11 +5698,13 @@ window.WOW_PVP_DATA = {
           93322
         ],
         "entry_id": 115626,
+        "entry_max_ranks": 1,
         "definition_id": 120638,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Star Salvo",
         "spell_id": 1265826,
+        "visible_spell_id": null,
         "icon": "inv12_ability_mage_arcanesalvo"
       },
       "pve_tooltip": "Increases Shattering Star damage by 35%.\nShattering Stars are exhaled at all of your Eternity Surge targets.",
@@ -5567,11 +5756,13 @@ window.WOW_PVP_DATA = {
           93313
         ],
         "entry_id": 115638,
+        "entry_max_ranks": 1,
         "definition_id": 120650,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Imminent Destruction",
         "spell_id": 370781,
+        "visible_spell_id": null,
         "icon": "spell_burningbladeshaman_blazing_radiance"
       },
       "pve_tooltip": "Deep Breath reduces the Essence costs of your next 4 Disintegrates and Pyres by 1. Stacks up to 8 times.",
@@ -5622,11 +5813,13 @@ window.WOW_PVP_DATA = {
           93365
         ],
         "entry_id": 115586,
+        "entry_max_ranks": 1,
         "definition_id": 120598,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Font of Magic",
         "spell_id": 411212,
+        "visible_spell_id": null,
         "icon": "ability_evoker_fontofmagic"
       },
       "pve_tooltip": "Your empower spells' maximum level is increased by 1, and they reach maximum empower level 20% faster.",
@@ -5678,11 +5871,13 @@ window.WOW_PVP_DATA = {
           93366
         ],
         "entry_id": 115578,
+        "entry_max_ranks": 1,
         "definition_id": 120590,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Titanic Wrath",
         "spell_id": 386272,
+        "visible_spell_id": null,
         "icon": "spell_fireresistancetotem_01"
       },
       "pve_tooltip": "Essence Burst increases the damage of affected spells by 15.0%.",
@@ -5733,11 +5928,13 @@ window.WOW_PVP_DATA = {
           93324
         ],
         "entry_id": 115637,
+        "entry_max_ranks": 1,
         "definition_id": 120649,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Azure Celerity",
         "spell_id": 1219723,
+        "visible_spell_id": null,
         "icon": "ability_evoker_masterylifebinder_blue"
       },
       "pve_tooltip": "Disintegrate deals damage 25% more often, but deals 10% less damage.",
@@ -5789,11 +5986,13 @@ window.WOW_PVP_DATA = {
           93321
         ],
         "entry_id": 115634,
+        "entry_max_ranks": 1,
         "definition_id": 120646,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Power Swell",
         "spell_id": 370839,
+        "visible_spell_id": null,
         "icon": "ability_evoker_powernexus2"
       },
       "pve_tooltip": "Casting an empower spell increases your Essence regeneration rate by 100% for 4 sec.",
@@ -5842,11 +6041,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 115623,
+        "entry_max_ranks": 1,
         "definition_id": 120635,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Strafing Run",
         "spell_id": 1266151,
+        "visible_spell_id": null,
         "icon": "ability_evoker_blackattunementalt"
       },
       "pve_tooltip": "Deep Breath deals 20% increased damage and can be cast again within 18 sec of being used.\nRecall will be available after the second cast if talented.",
@@ -5979,11 +6180,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 115622,
+        "entry_max_ranks": 1,
         "definition_id": 120634,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Scorching Embers",
         "spell_id": 370819,
+        "visible_spell_id": null,
         "icon": "spell_fire_burnout"
       },
       "pve_tooltip": "Enemies affected by Fire Breath's damage over time effect take 25% increased damage from your Red spells.",
@@ -6032,11 +6235,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 115683,
+        "entry_max_ranks": 1,
         "definition_id": 120695,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Causality",
         "spell_id": 375777,
+        "visible_spell_id": null,
         "icon": "spell_azerite_essence_16"
       },
       "pve_tooltip": "Disintegrate reduces the remaining cooldown of your empower spells by 0.50 sec each time it deals damage.\nPyre reduces the remaining cooldown of your empower spells by 0.40 sec per enemy struck, up to 2.0 sec.",
@@ -6085,11 +6290,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 115636,
+        "entry_max_ranks": 1,
         "definition_id": 120648,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Scintillation",
         "spell_id": 370821,
+        "visible_spell_id": null,
         "icon": "spell_arcane_arcane03"
       },
       "pve_tooltip": "Disintegrate has a 15% chance each time it deals damage to launch a level 1 Eternity Surge at 40% power.",
@@ -6138,11 +6345,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 115633,
+        "entry_max_ranks": 1,
         "definition_id": 120645,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Iridescence",
         "spell_id": 370867,
+        "visible_spell_id": null,
         "icon": "ability_evoker_powerswell"
       },
       "pve_tooltip": "Casting an empower spell increases the damage of your next 2 spells of the same color by 20% within 10 sec.",
@@ -6189,11 +6398,13 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 137010,
+        "entry_max_ranks": 1,
         "definition_id": 141773,
         "entry_index": 100,
         "entry_type": "tierrank",
         "talent_name": "Rising Fury",
         "spell_id": 1271687,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_evoker_risingfury"
       },
       "pve_tooltip": "While Dragonrage is active you gain Rising Fury every 6 sec, increasing your haste by 4%, stacking up to 5 times.",
@@ -6240,15 +6451,17 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 137009,
+        "entry_max_ranks": 2,
         "definition_id": 141772,
         "entry_index": 200,
         "entry_type": "tierrank",
         "talent_name": "Rising Fury",
         "spell_id": 1271796,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_evoker_risingfury"
       },
-      "pve_tooltip": "At 5 stacks of Rising Fury, all damage dealt is increased by 8%.",
-      "pvp_tooltip": "At 5 stacks of Rising Fury, all damage dealt is increased by 8%.",
+      "pve_tooltip": "At 5 stacks of Rising Fury, all damage dealt is increased by 15%.",
+      "pvp_tooltip": "At 5 stacks of Rising Fury, all damage dealt is increased by 15%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6256,7 +6469,26 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "At 5 stacks of Rising Fury, all damage dealt is increased by 8%.",
+          "pvp_tooltip": "At 5 stacks of Rising Fury, all damage dealt is increased by 8%.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "At 5 stacks of Rising Fury, all damage dealt is increased by 15%.",
+          "pvp_tooltip": "At 5 stacks of Rising Fury, all damage dealt is increased by 15%.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Rising Fury",
@@ -6291,11 +6523,13 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 137008,
+        "entry_max_ranks": 1,
         "definition_id": 141771,
         "entry_index": 300,
         "entry_type": "tierrank",
         "talent_name": "Rising Fury",
         "spell_id": 1271788,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_evoker_risingfury"
       },
       "pve_tooltip": "When Dragonrage ends, Rising Fury persists for 4 sec per stack, and Dragonrage becomes Unbound Flame. Unbound Flame may be cast 4 times before Dragonrage finishes its cooldown.\nUnbound Flame\nExhale destructive flame, critically striking for [(800% of Spell Power) * 2] Fire damage to your target and nearby enemies, reduced beyond 5 targets.\nCauses 1 Essence Burst.",
@@ -6327,7 +6561,7 @@ window.WOW_PVP_DATA = {
           ],
           "dependency_relations": [
             "spelldesc_ref",
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -6388,11 +6622,13 @@ window.WOW_PVP_DATA = {
           109795
         ],
         "entry_id": 117536,
+        "entry_max_ranks": 1,
         "definition_id": 122548,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Mass Disintegrate",
         "spell_id": 436335,
+        "visible_spell_id": null,
         "icon": "inv_1205_ability_evoker_massdisintegration"
       },
       "pve_tooltip": "Empower spells cause your next Disintegrate to strike up to 3 targets. When striking fewer than 3 targets, Disintegrate damage is increased by 10% for each missing target.",
@@ -6444,11 +6680,13 @@ window.WOW_PVP_DATA = {
           109797
         ],
         "entry_id": 117547,
+        "entry_max_ranks": 1,
         "definition_id": 122559,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Legacy of the Lifebinder",
         "spell_id": 1264269,
+        "visible_spell_id": null,
         "icon": "ability_evoker_dragonrage2"
       },
       "pve_tooltip": "Fire Breath gains an additional charge.",
@@ -6499,11 +6737,13 @@ window.WOW_PVP_DATA = {
           94921
         ],
         "entry_id": 117549,
+        "entry_max_ranks": 1,
         "definition_id": 122561,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Might of the Black Dragonflight",
         "spell_id": 441705,
+        "visible_spell_id": null,
         "icon": "ability_evoker_blackattunementalt"
       },
       "pve_tooltip": "Black spells deal 20% increased damage.",
@@ -6554,11 +6794,13 @@ window.WOW_PVP_DATA = {
           94953
         ],
         "entry_id": 117533,
+        "entry_max_ranks": 1,
         "definition_id": 122545,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Bombardments",
         "spell_id": 434300,
+        "visible_spell_id": null,
         "icon": "inv_ability_scalecommanderevoker_bombardments"
       },
       "pve_tooltip": "Mass Disintegrate marks your primary target for destruction for the next 6 sec.\nYou and your allies have a chance to trigger a Bombardment when attacking marked targets, dealing [$INT * 4.75 * (1 + Versatility) * Percent Damage * 1] Volcanic damage split amongst all nearby enemies.",
@@ -6609,11 +6851,13 @@ window.WOW_PVP_DATA = {
           94934
         ],
         "entry_id": 117541,
+        "entry_max_ranks": 1,
         "definition_id": 122553,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Onslaught",
         "spell_id": 441245,
+        "visible_spell_id": null,
         "icon": "spell_fire_soulburn"
       },
       "pve_tooltip": "Entering combat grants a charge of Burnout, causing your next Living Flame to cast instantly.",
@@ -6664,11 +6908,13 @@ window.WOW_PVP_DATA = {
           109794
         ],
         "entry_id": 136053,
+        "entry_max_ranks": 1,
         "definition_id": 140808,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Command Squadron",
         "spell_id": 1260745,
+        "visible_spell_id": null,
         "icon": "ability_dragonriding_dynamicflight01"
       },
       "pve_tooltip": "While flying during [Breath of Eons / Deep Breath] you are assisted by a squadron of Dracthyr who assault enemies with Pyre, dealing (252% of Spell Power) Fire damage to nearby enemies up to 8 times.",
@@ -6833,11 +7079,13 @@ window.WOW_PVP_DATA = {
           94949
         ],
         "entry_id": 117534,
+        "entry_max_ranks": 1,
         "definition_id": 122546,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Trailblazer",
         "spell_id": 444849,
+        "visible_spell_id": null,
         "icon": "ability_deathwing_fierygrip"
       },
       "pve_tooltip": "Hover and Deep Breath travel 40% faster, and Hover travels 40% further.",
@@ -6888,11 +7136,13 @@ window.WOW_PVP_DATA = {
           94949
         ],
         "entry_id": 123404,
+        "entry_max_ranks": 1,
         "definition_id": 128242,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Shape of Flame",
         "spell_id": 445074,
+        "visible_spell_id": null,
         "icon": "ability_mage_flamecannon"
       },
       "pve_tooltip": "Tail Swipe and Wing Buffet scorch enemies and blind them with ash, causing their next attack within 4 sec to miss.",
@@ -6943,11 +7193,13 @@ window.WOW_PVP_DATA = {
           94946
         ],
         "entry_id": 123416,
+        "entry_max_ranks": 1,
         "definition_id": 128254,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ashes in Motion",
         "spell_id": 1264365,
+        "visible_spell_id": null,
         "icon": "inv_ability_flameshaperevoker_engulf"
       },
       "pve_tooltip": "Fire Breath's cooldown is reduced by 5 sec.",
@@ -6998,11 +7250,13 @@ window.WOW_PVP_DATA = {
           94923
         ],
         "entry_id": 117553,
+        "entry_max_ranks": 1,
         "definition_id": 122565,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Enkindle",
         "spell_id": 444016,
+        "visible_spell_id": null,
         "icon": "inv_10_elementalcombinedfoozles_purifiedshadowflame"
       },
       "pve_tooltip": "Essence abilities are enhanced with Flame, dealing 20% of healing or damage done as Fire over 8 sec.",
@@ -7108,11 +7362,13 @@ window.WOW_PVP_DATA = {
           94923
         ],
         "entry_id": 128713,
+        "entry_max_ranks": 1,
         "definition_id": 133515,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Expanded Lungs",
         "spell_id": 444845,
+        "visible_spell_id": null,
         "icon": "inv_fyrakk_dragonbreath"
       },
       "pve_tooltip": "Fire Breath's damage over time is increased by 30%. Dream Breath's heal over time is increased by 20%.",
@@ -7218,11 +7474,13 @@ window.WOW_PVP_DATA = {
           109798
         ],
         "entry_id": 136055,
+        "entry_max_ranks": 1,
         "definition_id": 140810,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Essence Well",
         "spell_id": 1265993,
+        "visible_spell_id": null,
         "icon": "ability_evoker_essenceburst4"
       },
       "pve_tooltip": "Fire Breath has a 50% chance to generate Essence Burst.\n(100ms cooldown)",
@@ -7273,11 +7531,13 @@ window.WOW_PVP_DATA = {
           94933
         ],
         "entry_id": 117518,
+        "entry_max_ranks": 1,
         "definition_id": 122530,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Melt Armor",
         "spell_id": 441176,
+        "visible_spell_id": null,
         "icon": "inv_10_gearupgrade_drakesshadowflameenhancedcrest"
       },
       "pve_tooltip": "Deep Breath causes enemies to take 20% increased damage from Bombardments and Essence abilities for 12 sec.\nThe duration of this effect is extended when Deep Breath is cast multiple times.",
@@ -7367,11 +7627,13 @@ window.WOW_PVP_DATA = {
           94928
         ],
         "entry_id": 117550,
+        "entry_max_ranks": 1,
         "definition_id": 122562,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Wingleader",
         "spell_id": 441206,
+        "visible_spell_id": null,
         "icon": "ability_racial_soar"
       },
       "pve_tooltip": "Mass Disintegrate reduces the remaining cooldown of Deep Breath by 1.0 sec for each target struck.",
@@ -7422,11 +7684,13 @@ window.WOW_PVP_DATA = {
           94943
         ],
         "entry_id": 117531,
+        "entry_max_ranks": 1,
         "definition_id": 122543,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unrelenting Siege",
         "spell_id": 441246,
+        "visible_spell_id": null,
         "icon": "ability_siege_engineer_superheated"
       },
       "pve_tooltip": "For each second you are in combat, Azure Strike, Living Flame, and Disintegrate deal 1% increased damage, up to 15%.",
@@ -7477,11 +7741,13 @@ window.WOW_PVP_DATA = {
           109793
         ],
         "entry_id": 136052,
+        "entry_max_ranks": 1,
         "definition_id": 140807,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Concentrated Power",
         "spell_id": 1261448,
+        "visible_spell_id": null,
         "icon": "inv_10_dungeonjewelry_dragon_trinket_1arcanemagical_blue"
       },
       "pve_tooltip": "Mass Disintegrate strikes 1 additional target.",
@@ -7532,11 +7798,13 @@ window.WOW_PVP_DATA = {
           94920
         ],
         "entry_id": 117546,
+        "entry_max_ranks": 1,
         "definition_id": 122558,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Conduit of Flame",
         "spell_id": 444843,
+        "visible_spell_id": null,
         "icon": "ability_evoker_innatemagic5"
       },
       "pve_tooltip": "Critical strike chance against targets above 50% health increased by 10%.",
@@ -7587,11 +7855,13 @@ window.WOW_PVP_DATA = {
           94945
         ],
         "entry_id": 117543,
+        "entry_max_ranks": 1,
         "definition_id": 122555,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Burning Adrenaline",
         "spell_id": 444020,
+        "visible_spell_id": null,
         "icon": "inv_gauntlets_03"
       },
       "pve_tooltip": "Fire Breath reaches its maximum empower level 20% faster.",
@@ -7642,11 +7912,13 @@ window.WOW_PVP_DATA = {
           94931
         ],
         "entry_id": 117520,
+        "entry_max_ranks": 1,
         "definition_id": 122532,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fulminous Roar",
         "spell_id": 1218447,
+        "visible_spell_id": null,
         "icon": "ability_evoker_oppressingroar2"
       },
       "pve_tooltip": "Fire Breath deals its damage 15% more often.",
@@ -7697,11 +7969,13 @@ window.WOW_PVP_DATA = {
           109796
         ],
         "entry_id": 136056,
+        "entry_max_ranks": 1,
         "definition_id": 140811,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Twin Flame",
         "spell_id": 1265979,
+        "visible_spell_id": null,
         "icon": "ability_evoker_infernosblessing"
       },
       "pve_tooltip": "Consuming Essence Burst fires a twin flame, striking your target for (144% of Spell Power) Fire damage.",
@@ -7812,11 +8086,13 @@ window.WOW_PVP_DATA = {
           94941
         ],
         "entry_id": 117530,
+        "entry_max_ranks": 1,
         "definition_id": 122542,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Hardened Scales",
         "spell_id": 441180,
+        "visible_spell_id": null,
         "icon": "inv_10_skinning_scales_black"
       },
       "pve_tooltip": "Obsidian Scales reduces damage taken by an additional 10%.",
@@ -7867,11 +8143,13 @@ window.WOW_PVP_DATA = {
           94941
         ],
         "entry_id": 120125,
+        "entry_max_ranks": 1,
         "definition_id": 125025,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Menacing Presence",
         "spell_id": 441181,
+        "visible_spell_id": null,
         "icon": "ability_racial_wingbuffet"
       },
       "pve_tooltip": "Knocking enemies up or backwards reduces their damage done to you by 15% for 8 sec.",
@@ -7922,11 +8200,13 @@ window.WOW_PVP_DATA = {
           94941
         ],
         "entry_id": 117525,
+        "entry_max_ranks": 1,
         "definition_id": 122537,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Extended Battle",
         "spell_id": 441212,
+        "visible_spell_id": null,
         "icon": "ability_evoker_divideandconquer"
       },
       "pve_tooltip": "Essence abilities extend Bombardments by 1 sec.",
@@ -7977,11 +8257,13 @@ window.WOW_PVP_DATA = {
           94941
         ],
         "entry_id": 120124,
+        "entry_max_ranks": 1,
         "definition_id": 125024,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Diverted Power",
         "spell_id": 441219,
+        "visible_spell_id": null,
         "icon": "ability_evoker_powerswell"
       },
       "pve_tooltip": "Bombardments have a chance to generate Essence Burst.",
@@ -8032,11 +8314,13 @@ window.WOW_PVP_DATA = {
           94941
         ],
         "entry_id": 117540,
+        "entry_max_ranks": 1,
         "definition_id": 122552,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Nimble Flyer",
         "spell_id": 441253,
+        "visible_spell_id": null,
         "icon": "ability_evoker_hover"
       },
       "pve_tooltip": "While Hovering, damage taken from area of effect attacks is reduced by 10%.",
@@ -8087,11 +8371,13 @@ window.WOW_PVP_DATA = {
           94941
         ],
         "entry_id": 120123,
+        "entry_max_ranks": 1,
         "definition_id": 125023,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Slipstream",
         "spell_id": 441257,
+        "visible_spell_id": null,
         "icon": "ability_dragonriding_barrelroll01"
       },
       "pve_tooltip": "[Breath of Eons / Deep Breath] resets a charge of Hover.",
@@ -8142,11 +8428,13 @@ window.WOW_PVP_DATA = {
           94941
         ],
         "entry_id": 136051,
+        "entry_max_ranks": 1,
         "definition_id": 140806,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Refined Essence",
         "spell_id": 1261452,
+        "visible_spell_id": null,
         "icon": "ability_evoker_essenceburststacks"
       },
       "pve_tooltip": "Essence abilities deal 25% additional damage.",
@@ -8197,11 +8485,13 @@ window.WOW_PVP_DATA = {
           94922
         ],
         "entry_id": 117517,
+        "entry_max_ranks": 1,
         "definition_id": 122529,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Titanic Precision",
         "spell_id": 445625,
+        "visible_spell_id": null,
         "icon": "inv_10_misc_titansspark_shadowflame"
       },
       "pve_tooltip": "Living Flame and Azure Strike have 1 extra chance to trigger Essence Burst when they critically strike.",
@@ -8252,11 +8542,13 @@ window.WOW_PVP_DATA = {
           94922
         ],
         "entry_id": 117542,
+        "entry_max_ranks": 1,
         "definition_id": 122554,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Deep Exhalation",
         "spell_id": 1264321,
+        "visible_spell_id": null,
         "icon": "ability_evoker_firebreath"
       },
       "pve_tooltip": "Fire Breath's damage over time lasts 4 sec longer.",
@@ -8307,11 +8599,13 @@ window.WOW_PVP_DATA = {
           94922
         ],
         "entry_id": 117528,
+        "entry_max_ranks": 1,
         "definition_id": 122540,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lifecinders",
         "spell_id": 444322,
+        "visible_spell_id": null,
         "icon": "inv_misc_herb_cinderbloom_petal"
       },
       "pve_tooltip": "Obsidian Scales also applies to your target or 1 nearby injured ally at 50% value.",
@@ -8362,11 +8656,13 @@ window.WOW_PVP_DATA = {
           94922
         ],
         "entry_id": 123405,
+        "entry_max_ranks": 1,
         "definition_id": 128243,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Draconic Instincts",
         "spell_id": 445958,
+        "visible_spell_id": null,
         "icon": "inv_misc_scales_basilliskorange"
       },
       "pve_tooltip": "Your wounds have a small chance to cauterize, healing you for 30% of damage taken. Occurs more often from attacks that deal high damage.",
@@ -8417,11 +8713,13 @@ window.WOW_PVP_DATA = {
           94922
         ],
         "entry_id": 136054,
+        "entry_max_ranks": 1,
         "definition_id": 140809,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fire Torrent",
         "spell_id": 1265992,
+        "visible_spell_id": null,
         "icon": "spell_shaman_stormearthfire"
       },
       "pve_tooltip": "Twin Flame bounces to up to 2 additional targets.",
@@ -8473,11 +8771,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 117538,
+        "entry_max_ranks": 1,
         "definition_id": 122550,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Maneuverability",
         "spell_id": 433871,
+        "visible_spell_id": null,
         "icon": "ability_evoker_deepbreath"
       },
       "pve_tooltip": "Deep Breath can now be steered in your desired direction.\nIn addition, Deep Breath burns targets for (840% of Spell Power) Volcanic damage over 12 sec.\nThe duration of this effect is extended when Deep Breath is cast multiple times.",
@@ -8568,11 +8868,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 117519,
+        "entry_max_ranks": 1,
         "definition_id": 122531,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Consume Flame",
         "spell_id": 444088,
+        "visible_spell_id": null,
         "icon": "inv_shadowflames_wave"
       },
       "pve_tooltip": "Disintegrate consumes 1.0 sec of Fire Breath from enemies it damages, detonating it for 150% of the amount consumed.\nPyre consumes 4 sec of Fire Breath from enemies it damages, detonating it for 115% of the amount consumed.",
@@ -8635,6 +8937,294 @@ window.WOW_PVP_DATA = {
     }
   ],
   "fetch_errors": [],
+  "serialization": {
+    "version": 2,
+    "spec_id": 1467,
+    "node_order": [
+      93195,
+      93196,
+      93197,
+      93198,
+      93199,
+      93200,
+      93201,
+      93202,
+      93203,
+      93205,
+      93206,
+      93207,
+      93208,
+      93209,
+      93210,
+      93211,
+      93212,
+      93213,
+      93215,
+      93217,
+      93218,
+      93219,
+      93220,
+      93221,
+      93222,
+      93223,
+      93225,
+      93226,
+      93227,
+      93229,
+      93230,
+      93231,
+      93232,
+      93234,
+      93235,
+      93236,
+      93237,
+      93238,
+      93239,
+      93240,
+      93241,
+      93242,
+      93243,
+      93245,
+      93246,
+      93247,
+      93248,
+      93249,
+      93250,
+      93251,
+      93252,
+      93253,
+      93254,
+      93255,
+      93256,
+      93257,
+      93258,
+      93259,
+      93260,
+      93261,
+      93262,
+      93263,
+      93264,
+      93265,
+      93266,
+      93267,
+      93268,
+      93269,
+      93270,
+      93271,
+      93272,
+      93273,
+      93274,
+      93275,
+      93276,
+      93277,
+      93278,
+      93279,
+      93280,
+      93281,
+      93282,
+      93283,
+      93284,
+      93285,
+      93286,
+      93287,
+      93288,
+      93289,
+      93290,
+      93291,
+      93292,
+      93293,
+      93294,
+      93295,
+      93297,
+      93298,
+      93299,
+      93300,
+      93301,
+      93302,
+      93304,
+      93305,
+      93306,
+      93307,
+      93308,
+      93309,
+      93310,
+      93311,
+      93312,
+      93313,
+      93314,
+      93315,
+      93316,
+      93317,
+      93318,
+      93319,
+      93320,
+      93321,
+      93322,
+      93323,
+      93324,
+      93325,
+      93326,
+      93327,
+      93328,
+      93329,
+      93330,
+      93331,
+      93332,
+      93333,
+      93334,
+      93335,
+      93336,
+      93337,
+      93338,
+      93339,
+      93340,
+      93341,
+      93342,
+      93343,
+      93344,
+      93345,
+      93346,
+      93347,
+      93348,
+      93349,
+      93350,
+      93351,
+      93352,
+      93353,
+      93354,
+      93355,
+      93358,
+      93359,
+      93360,
+      93365,
+      93366,
+      93367,
+      93368,
+      93369,
+      93382,
+      93715,
+      94920,
+      94921,
+      94922,
+      94923,
+      94925,
+      94928,
+      94929,
+      94930,
+      94931,
+      94932,
+      94933,
+      94934,
+      94935,
+      94936,
+      94937,
+      94939,
+      94941,
+      94942,
+      94943,
+      94944,
+      94945,
+      94946,
+      94947,
+      94948,
+      94949,
+      94950,
+      94951,
+      94952,
+      94953,
+      94954,
+      94955,
+      94956,
+      98931,
+      99803,
+      99804,
+      99825,
+      99826,
+      99827,
+      99857,
+      102248,
+      102249,
+      103843,
+      103844,
+      109508,
+      109509,
+      109510,
+      109793,
+      109794,
+      109795,
+      109796,
+      109797,
+      109798,
+      110064,
+      110065,
+      110413,
+      110414,
+      110415
+    ],
+    "subtree_nodes": [
+      {
+        "id": 99827,
+        "name": "Flameshaper / Scalecommander",
+        "type": "subtree",
+        "posX": 6900,
+        "posY": 600,
+        "entryNode": true,
+        "next": [],
+        "prev": [],
+        "entries": [
+          {
+            "id": 123336,
+            "type": "subtree",
+            "name": "Flameshaper",
+            "traitSubTreeId": 37,
+            "traitTreeId": 872,
+            "atlasMemberName": "talents-heroclass-evoker-flameshaper",
+            "nodes": [
+              94950,
+              94937,
+              99857,
+              94956,
+              109797,
+              94949,
+              94946,
+              94923,
+              109798,
+              94920,
+              94945,
+              94931,
+              109796,
+              94922
+            ]
+          },
+          {
+            "id": 123333,
+            "type": "subtree",
+            "name": "Scalecommander",
+            "traitSubTreeId": 36,
+            "traitTreeId": 872,
+            "atlasMemberName": "talents-heroclass-evoker-scalecommander",
+            "nodes": [
+              94939,
+              98931,
+              94952,
+              94936,
+              94944,
+              109795,
+              94921,
+              94953,
+              94934,
+              109794,
+              94933,
+              94928,
+              94943,
+              109793,
+              94941
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "source_warnings": [
     {
       "spell_id": 1266151,
@@ -8656,7 +9246,7 @@ window.WOW_PVP_DATA = {
     }
   ],
   "slug": "evoker-devastation",
-  "generated_at": "2026-09-21T12:50:46.014234+00:00",
+  "generated_at": "2026-09-21T19:39:30.218913+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 11,

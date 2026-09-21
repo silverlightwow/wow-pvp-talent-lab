@@ -43,11 +43,13 @@
           101147
         ],
         "entry_id": 124933,
+        "entry_max_ranks": 1,
         "definition_id": 129771,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Soothing Mist",
         "spell_id": 115175,
+        "visible_spell_id": null,
         "icon": "ability_monk_soothingmists"
       },
       "pve_tooltip": "0% of base mana, plus 0.4% per second / 15 Energy per sec\n40 yd range\nChanneled (8 sec cast)\nHeals the target for (1680% of Spell Power) over 8 sec. While channeling, Enveloping Mist [Surging Mist: Surging Mist] [Zen Pulse: Zen Pulse] and Vivify may be cast instantly on the target.",
@@ -97,11 +99,13 @@
           101149
         ],
         "entry_id": 124932,
+        "entry_max_ranks": 1,
         "definition_id": 129770,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Paralysis",
         "spell_id": 115078,
+        "visible_spell_id": null,
         "icon": "ability_monk_paralysis"
       },
       "pve_tooltip": "20 Energy\n20 yd range\nInstant\n45 sec cooldown\nIncapacitates the target for 1 min. Limit 1. Damage may cancel the effect.",
@@ -151,19 +155,42 @@
           101185
         ],
         "entry_id": 124985,
+        "entry_max_ranks": 1,
         "definition_id": 129823,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Rising Sun Kick",
         "spell_id": 107428,
+        "visible_spell_id": null,
         "icon": "ability_monk_risingsunkick"
       },
       "pve_tooltip": "2 Chi / 2.5% of base mana\nMelee Range\nInstant\n10 sec cooldown\n1 Charge\nKick upwards, dealing [(143.8% of Attack Power) * [(Attack Power * 0.98)][((Attack Power + Offhand Attack Power) * 2 / 3)] -- 2H, DW / Attack Power] Physical damage.",
-      "pvp_tooltip": "2 Chi / 2.5% of base mana\nMelee Range\nInstant\n10 sec cooldown\n1 Charge\nKick upwards, dealing [(143.8% of Attack Power) * [(Attack Power * 0.98)][((Attack Power + Offhand Attack Power) * 2 / 3)] -- 2H, DW / Attack Power] Physical damage.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "2 Chi / 2.5% of base mana\nMelee Range\nInstant\n10 sec cooldown\n1 Charge\nKick upwards, dealing [(120.3606% of Attack Power) * [(Attack Power * 0.98)][((Attack Power + Offhand Attack Power) * 2 / 3)] -- 2H, DW / Attack Power] Physical damage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 95,
+          "end": 100,
+          "old_token": "143.8",
+          "new_token": "120.3606",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "143.8",
+          "new": "120.3606"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -197,11 +224,11 @@
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 107428,
           "source_spell_id": 185099,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 1.438 )",
+          "effect_text": "School Damage (2): physical (AP mod: 1.438)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -214,7 +241,7 @@
             185099
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -237,13 +264,14 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -284,11 +312,13 @@
           110023
         ],
         "entry_id": 124934,
+        "entry_max_ranks": 1,
         "definition_id": 129772,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Elusive Mists",
         "spell_id": 388681,
+        "visible_spell_id": null,
         "icon": "ability_monk_soothingmists"
       },
       "pve_tooltip": "Reduces all damage taken by you and your target while channeling Soothing Mists by 6%.",
@@ -342,11 +372,13 @@
           101153
         ],
         "entry_id": 124937,
+        "entry_max_ranks": 1,
         "definition_id": 129775,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Tiger's Lust",
         "spell_id": 116841,
+        "visible_spell_id": null,
         "icon": "ability_monk_tigerslust"
       },
       "pve_tooltip": "20 yd range\nInstant\n30 sec cooldown\nIncreases a friendly target's movement speed by 70% for 6 sec and removes all roots and snares.",
@@ -400,11 +432,13 @@
           101150
         ],
         "entry_id": 124940,
+        "entry_max_ranks": 1,
         "definition_id": 129778,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Crashing Momentum",
         "spell_id": 450335,
+        "visible_spell_id": null,
         "icon": "ability_monk_blackoutkick"
       },
       "pve_tooltip": "Targets you Roll through are snared by 40% for 5 sec.",
@@ -442,7 +476,7 @@
           "talent_spell_id": 450335,
           "source_spell_id": 450342,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -40.0,
           "spell_pvp_multiplier": 0.75,
           "amount_kind": null,
@@ -459,9 +493,8 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -510,11 +543,13 @@
           101150
         ],
         "entry_id": 124939,
+        "entry_max_ranks": 1,
         "definition_id": 129777,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Disable",
         "spell_id": 116095,
+        "visible_spell_id": null,
         "icon": "ability_shockwave"
       },
       "pve_tooltip": "15 Energy / 0.7% of base mana\nMelee Range\nInstant\nReduces the target's movement speed by 50% for 15 sec, duration refreshed by your melee attacks. [Disable: Targets already snared will be rooted for 8 sec instead]",
@@ -566,11 +601,13 @@
           101184
         ],
         "entry_id": 124984,
+        "entry_max_ranks": 1,
         "definition_id": 129822,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fast Feet",
         "spell_id": 388809,
+        "visible_spell_id": null,
         "icon": "ability_monk_risingsunkick"
       },
       "pve_tooltip": "Rising Sun Kick deals 70% increased damage. Spinning Crane Kick deals 10% additional damage.",
@@ -624,11 +661,13 @@
           101160
         ],
         "entry_id": 124936,
+        "entry_max_ranks": 1,
         "definition_id": 129774,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Grace of the Crane",
         "spell_id": 388811,
+        "visible_spell_id": null,
         "icon": "monk_ability_cherrymanatea"
       },
       "pve_tooltip": "Increases all healing taken by 6%.",
@@ -679,11 +718,13 @@
           101160
         ],
         "entry_id": 124955,
+        "entry_max_ranks": 1,
         "definition_id": 129793,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Bounding Agility",
         "spell_id": 450520,
+        "visible_spell_id": null,
         "icon": "ability_monk_roll"
       },
       "pve_tooltip": "Roll and Chi Torpedo travel a small distance further.\nModifies Buff Duration +80:\nChi Torpedo",
@@ -737,11 +778,13 @@
           110098
         ],
         "entry_id": 124944,
+        "entry_max_ranks": 1,
         "definition_id": 129782,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Calming Presence",
         "spell_id": 388664,
+        "visible_spell_id": null,
         "icon": "inv_misc_orb_01"
       },
       "pve_tooltip": "Reduces all damage taken by 10%.",
@@ -792,11 +835,13 @@
           110098
         ],
         "entry_id": 124938,
+        "entry_max_ranks": 1,
         "definition_id": 129776,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Wind's Reach",
         "spell_id": 450514,
+        "visible_spell_id": null,
         "icon": "ability_monk_zenflight"
       },
       "pve_tooltip": "The range of Disable is increased by 5 yds.\nThe duration of Crashing Momentum is increased by 3 sec and its snare now reduces movement speed by an additional 20%.",
@@ -850,11 +895,13 @@
           101184
         ],
         "entry_id": 124941,
+        "entry_max_ranks": 1,
         "definition_id": 129779,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Detox",
         "spell_id": 218164,
+        "visible_spell_id": null,
         "icon": "ability_rogue_imrovedrecuperate"
       },
       "pve_tooltip": "10 Energy\n40 yd range\nInstant\n8 sec cooldown\n1 Charge\nRemoves all Poison and Disease effects from the target.",
@@ -907,11 +954,13 @@
           101158
         ],
         "entry_id": 136515,
+        "entry_max_ranks": 1,
         "definition_id": 141288,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Vivacious Vivification",
         "spell_id": 388812,
+        "visible_spell_id": null,
         "icon": "ability_monk_vivify"
       },
       "pve_tooltip": "After casting Rising Sun Kick, your next Vivify becomes instant cast.\nThis effect also reduces the energy cost of Vivify by 75%.\n(500ms cooldown)",
@@ -962,11 +1011,13 @@
           101159
         ],
         "entry_id": 136517,
+        "entry_max_ranks": 1,
         "definition_id": 141290,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Silent Sanctuary",
         "spell_id": 1266719,
+        "visible_spell_id": null,
         "icon": "spell_monk_zenpilgrimage"
       },
       "pve_tooltip": "While no enemies are within 15 yds, you heal for (375% of Spell Power) every 3 sec.",
@@ -1020,11 +1071,13 @@
           101167
         ],
         "entry_id": 124954,
+        "entry_max_ranks": 1,
         "definition_id": 129792,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Jade Walk",
         "spell_id": 450553,
+        "visible_spell_id": null,
         "icon": "spell_lifegivingspeed"
       },
       "pve_tooltip": "While out of combat, your movement speed is increased by 15%.",
@@ -1075,11 +1128,13 @@
           101167
         ],
         "entry_id": 124931,
+        "entry_max_ranks": 1,
         "definition_id": 129769,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Pressure Points",
         "spell_id": 450432,
+        "visible_spell_id": null,
         "icon": "ability_monk_deadlyreach"
       },
       "pve_tooltip": "Paralysis now removes all Enrage effects from its target.",
@@ -1134,11 +1189,13 @@
           101183
         ],
         "entry_id": 136599,
+        "entry_max_ranks": 1,
         "definition_id": 141372,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Spear Hand Strike",
         "spell_id": 116705,
+        "visible_spell_id": null,
         "icon": "ability_monk_spearhand"
       },
       "pve_tooltip": "Melee Range\nInstant\n15 sec cooldown\nJabs the target in the throat, interrupting spellcasting and preventing any spell from that school of magic from being cast for 5 sec.",
@@ -1189,11 +1246,13 @@
           101183
         ],
         "entry_id": 136520,
+        "entry_max_ranks": 1,
         "definition_id": 141293,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Reinvigoration",
         "spell_id": 1266740,
+        "visible_spell_id": null,
         "icon": "ability_monk_quipunch"
       },
       "pve_tooltip": "After Detox successfully removes an effect from an ally, their movement speed is increased by 30% for 5 sec.\n(300ms cooldown)",
@@ -1246,11 +1305,13 @@
           110025
         ],
         "entry_id": 124983,
+        "entry_max_ranks": 2,
         "definition_id": 129821,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ancient Arts",
         "spell_id": 344359,
+        "visible_spell_id": null,
         "icon": "ability_monk_dpsstance"
       },
       "pve_tooltip": "Reduces the cooldown of Paralysis by 15 sec and the cooldown of Leg Sweep by 10 sec.",
@@ -1268,6 +1329,7 @@
           "pve_tooltip": "Reduces the cooldown of Paralysis by 15 sec and the cooldown of Leg Sweep by 5 sec.",
           "pvp_tooltip": "Reduces the cooldown of Paralysis by 15 sec and the cooldown of Leg Sweep by 5 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -1276,6 +1338,7 @@
           "pve_tooltip": "Reduces the cooldown of Paralysis by 15 sec and the cooldown of Leg Sweep by 10 sec.",
           "pvp_tooltip": "Reduces the cooldown of Paralysis by 15 sec and the cooldown of Leg Sweep by 10 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -1321,11 +1384,13 @@
           110020
         ],
         "entry_id": 124953,
+        "entry_max_ranks": 1,
         "definition_id": 129791,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Tiger Fang",
         "spell_id": 1272781,
+        "visible_spell_id": null,
         "icon": "ability_mount_siberiantigermount"
       },
       "pve_tooltip": "Your auto attack critical strike chance is increased by 15%.",
@@ -1380,11 +1445,13 @@
           101138
         ],
         "entry_id": 124962,
+        "entry_max_ranks": 1,
         "definition_id": 129800,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Transcendence",
         "spell_id": 101643,
+        "visible_spell_id": null,
         "icon": "monk_ability_transcendence"
       },
       "pve_tooltip": "Instant\n10 sec cooldown\nSplit your body and spirit, leaving your spirit behind for 15 min. Use Transcendence: Transfer to swap locations with your spirit.",
@@ -1435,11 +1502,13 @@
           101182
         ],
         "entry_id": 136596,
+        "entry_max_ranks": 1,
         "definition_id": 141369,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Energy Transfer",
         "spell_id": 450631,
+        "visible_spell_id": null,
         "icon": "monk_ability_avertharm"
       },
       "pve_tooltip": "Successfully interrupting an enemy reduces the cooldown of Paralysis and Roll by 5 sec.",
@@ -1493,11 +1562,13 @@
           101140
         ],
         "entry_id": 124982,
+        "entry_max_ranks": 1,
         "definition_id": 129820,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Celerity",
         "spell_id": 115173,
+        "visible_spell_id": null,
         "icon": "ability_monk_quipunch"
       },
       "pve_tooltip": "Reduces the cooldown of Roll by 5 sec and increases its maximum number of charges by 1.",
@@ -1551,11 +1622,13 @@
           101140
         ],
         "entry_id": 124981,
+        "entry_max_ranks": 1,
         "definition_id": 129819,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Chi Torpedo",
         "spell_id": 115008,
+        "visible_spell_id": null,
         "icon": "ability_monk_quitornado"
       },
       "pve_tooltip": "Replaces Roll\nInstant\n20 sec recharge\n2 Charges\nTorpedoes you forward a long distance and increases your movement speed by 30% for 10 sec, stacking up to 2 times.",
@@ -1606,11 +1679,13 @@
           101140
         ],
         "entry_id": 136518,
+        "entry_max_ranks": 1,
         "definition_id": 141291,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Stillstep Coil",
         "spell_id": 1266733,
+        "visible_spell_id": null,
         "icon": "inv_helm_leather_raidmonkprogenitormythic_d_01"
       },
       "pve_tooltip": "Leg Sweep applies Disable for 5.0 sec when it ends.",
@@ -1663,11 +1738,13 @@
           101157
         ],
         "entry_id": 124951,
+        "entry_max_ranks": 1,
         "definition_id": 129789,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Quick Footed",
         "spell_id": 450503,
+        "visible_spell_id": null,
         "icon": "ability_monk_hurricanestrike"
       },
       "pve_tooltip": "The duration of snare effects on you is reduced by 20%.",
@@ -1720,11 +1797,13 @@
           101157
         ],
         "entry_id": 124950,
+        "entry_max_ranks": 1,
         "definition_id": 129788,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Hasty Provocation",
         "spell_id": 328670,
+        "visible_spell_id": null,
         "icon": "ability_monk_provoke"
       },
       "pve_tooltip": "Provoked targets move towards you at 50% increased speed.",
@@ -1776,11 +1855,13 @@
           101165
         ],
         "entry_id": 124961,
+        "entry_max_ranks": 2,
         "definition_id": 129799,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ferocity of Xuen",
         "spell_id": 388674,
+        "visible_spell_id": null,
         "icon": "ability_mount_pinktiger"
       },
       "pve_tooltip": "Increases all damage dealt by 4%.",
@@ -1798,6 +1879,7 @@
           "pve_tooltip": "Increases all damage dealt by 2%.",
           "pvp_tooltip": "Increases all damage dealt by 2%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -1806,6 +1888,7 @@
           "pve_tooltip": "Increases all damage dealt by 4%.",
           "pvp_tooltip": "Increases all damage dealt by 4%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -1850,11 +1933,13 @@
           101165
         ],
         "entry_id": 124926,
+        "entry_max_ranks": 1,
         "definition_id": 129764,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Ring of Peace",
         "spell_id": 116844,
+        "visible_spell_id": null,
         "icon": "spell_monk_ringofpeace"
       },
       "pve_tooltip": "40 yd range\nInstant\n45 sec cooldown\nForm a Ring of Peace at the target location for 5 sec. Enemies that enter will be ejected from the Ring.",
@@ -1907,11 +1992,13 @@
           101165
         ],
         "entry_id": 124925,
+        "entry_max_ranks": 1,
         "definition_id": 129763,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Song of Chi-Ji",
         "spell_id": 198898,
+        "visible_spell_id": null,
         "icon": "inv_chaos_orb"
       },
       "pve_tooltip": "40 yd range\n1.8 sec cast\n30 sec cooldown\nConjures a cloud of hypnotic mist that slowly travels forward. Enemies touched by the mist fall asleep, Disoriented for 20 sec.",
@@ -1963,11 +2050,13 @@
           101137
         ],
         "entry_id": 124928,
+        "entry_max_ranks": 1,
         "definition_id": 129766,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Spirit's Essence",
         "spell_id": 450595,
+        "visible_spell_id": null,
         "icon": "spell_shaman_spectraltransformation"
       },
       "pve_tooltip": "Transcendence: Transfer snares targets within 10 yds by 70% for 4 sec when cast.",
@@ -2005,7 +2094,7 @@
           "talent_spell_id": 450595,
           "source_spell_id": 450596,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Decrease Run Speed %",
+          "effect_text": "Apply Aura (6) | Decrease Movement Speed% (33)",
           "base_value": -70.0,
           "spell_pvp_multiplier": 0.714286,
           "amount_kind": null,
@@ -2022,9 +2111,8 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -2071,11 +2159,13 @@
           101137
         ],
         "entry_id": 124980,
+        "entry_max_ranks": 1,
         "definition_id": 129818,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Tiger Tail Sweep",
         "spell_id": 264348,
+        "visible_spell_id": null,
         "icon": "ability_monk_legsweep"
       },
       "pve_tooltip": "Increases the range of Leg Sweep by 4 yds.",
@@ -2128,11 +2218,13 @@
           101180
         ],
         "entry_id": 124930,
+        "entry_max_ranks": 1,
         "definition_id": 129768,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Touch of Death",
         "spell_id": 322113,
+        "visible_spell_id": null,
         "icon": "ability_monk_touchofdeath"
       },
       "pve_tooltip": "Touch of Death can now be used on targets with less than 15% health remaining, dealing 35% of your maximum health in damage.",
@@ -2186,11 +2278,13 @@
           101155
         ],
         "entry_id": 136511,
+        "entry_max_ranks": 1,
         "definition_id": 141284,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Vigorous Expulsion",
         "spell_id": 392900,
+        "visible_spell_id": null,
         "icon": "ability_monk_expelharm"
       },
       "pve_tooltip": "Expel Harm's healing increased by 6% and critical strike chance increased by 15%.",
@@ -2244,11 +2338,13 @@
           101162
         ],
         "entry_id": 124960,
+        "entry_max_ranks": 1,
         "definition_id": 129798,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Yu'lon's Grace",
         "spell_id": 414131,
+        "visible_spell_id": null,
         "icon": "ability_monk_dragonkick"
       },
       "pve_tooltip": "Find resilience in the flow of chi in battle, gaining a magic absorb shield for 0.6% of your max health every 3 sec in combat, stacking up to 6%.",
@@ -2262,9 +2358,9 @@
             1
           ],
           "status": "OTHER_SPEC_BRANCH",
-          "kind": "ordinary_value",
-          "old": 10.0,
-          "new": 5.0,
+          "kind": "percent_value",
+          "old": 1.0,
+          "new": 0.5,
           "full_tooltip_match_count": 1
         }
       ],
@@ -2336,11 +2432,13 @@
           101162
         ],
         "entry_id": 124957,
+        "entry_max_ranks": 1,
         "definition_id": 129795,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Peace and Prosperity",
         "spell_id": 450448,
+        "visible_spell_id": null,
         "icon": "inv_inscription_deck_redcrane"
       },
       "pve_tooltip": "Reduces the cooldown of Ring of Peace by 5 sec and Song of Chi-Ji's cast time is reduced by 0.5 sec.",
@@ -2394,11 +2492,13 @@
           108540
         ],
         "entry_id": 124968,
+        "entry_max_ranks": 1,
         "definition_id": 129806,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Fortifying Brew",
         "spell_id": 388917,
+        "visible_spell_id": 115203,
         "icon": "ability_monk_fortifyingale_new"
       },
       "pve_tooltip": "Turns your skin to stone for 15 sec, increasing your current and maximum health by 20% and reducing all damage you take by 20%.\nCombines with other Fortifying Brew effects.",
@@ -2482,11 +2582,13 @@
           101180
         ],
         "entry_id": 124927,
+        "entry_max_ranks": 1,
         "definition_id": 129765,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Dance of the Wind",
         "spell_id": 432181,
+        "visible_spell_id": null,
         "icon": "ability_monk_dematerialize"
       },
       "pve_tooltip": "Your physical damage taken is reduced by 10% and an additional 10% every 4 sec until you receive a physical attack, stacking up to 4.",
@@ -2585,11 +2687,13 @@
           101169
         ],
         "entry_id": 124949,
+        "entry_max_ranks": 1,
         "definition_id": 129787,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Save Them All",
         "spell_id": 389579,
+        "visible_spell_id": null,
         "icon": "inv_weapon_hand_22"
       },
       "pve_tooltip": "Your healing is increased by up to 10%, based on the current health of your target. Lower health targets are healed for more.",
@@ -2641,11 +2745,13 @@
           101169
         ],
         "entry_id": 124947,
+        "entry_max_ranks": 1,
         "definition_id": 129785,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Swift Art",
         "spell_id": 450622,
+        "visible_spell_id": null,
         "icon": "ability_monk_standingkick"
       },
       "pve_tooltip": "Roll removes a snare effect once every 30 sec.\n(30s cooldown)",
@@ -2698,11 +2804,13 @@
           101175
         ],
         "entry_id": 136514,
+        "entry_max_ranks": 1,
         "definition_id": 141287,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Strength of Spirit",
         "spell_id": 387276,
+        "visible_spell_id": null,
         "icon": "ability_monk_healthsphere"
       },
       "pve_tooltip": "Expel Harm's healing is increased by up to 100%, based on your missing health.",
@@ -2802,11 +2910,13 @@
           101175
         ],
         "entry_id": 136513,
+        "entry_max_ranks": 1,
         "definition_id": 141286,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Profound Rebuttal",
         "spell_id": 392910,
+        "visible_spell_id": null,
         "icon": "ability_monk_expelharm"
       },
       "pve_tooltip": "Expel Harm's critical healing is increased by 50%.",
@@ -2859,11 +2969,13 @@
           101175
         ],
         "entry_id": 124956,
+        "entry_max_ranks": 1,
         "definition_id": 129794,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Zenith Stomp",
         "spell_id": 1272694,
+        "visible_spell_id": null,
         "icon": "inv_ability_monk_jadefirestomp"
       },
       "pve_tooltip": "Activating Zenith causes you to release a powerful stomp, dealing (700% of Attack Power) Nature damage to nearby enemies, reduced beyond 5 targets.\nGenerates 2 Chi.",
@@ -2977,11 +3089,13 @@
           101179
         ],
         "entry_id": 124970,
+        "entry_max_ranks": 1,
         "definition_id": 129808,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ironshell Brew",
         "spell_id": 388814,
+        "visible_spell_id": null,
         "icon": "ability_monk_fortifyingale_new"
       },
       "pve_tooltip": "Increases your maximum health by an additional 10% and your damage taken is reduced by an additional 10% while Fortifying Brew is active.",
@@ -3034,11 +3148,13 @@
           101179
         ],
         "entry_id": 124969,
+        "entry_max_ranks": 1,
         "definition_id": 129807,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Expeditious Fortification",
         "spell_id": 388813,
+        "visible_spell_id": null,
         "icon": "ability_monk_fortifyingale_new"
       },
       "pve_tooltip": "Fortifying Brew cooldown reduced by 30 sec.",
@@ -3087,11 +3203,13 @@
         ],
         "next": [],
         "entry_id": 134029,
+        "entry_max_ranks": 1,
         "definition_id": 138812,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Diffuse Magic",
         "spell_id": 1243287,
+        "visible_spell_id": null,
         "icon": "spell_monk_diffusemagic"
       },
       "pve_tooltip": "Activating Fortifying Brew transfers all currently active harmful magical effects on you back to their original caster if possible.",
@@ -3143,11 +3261,13 @@
           101179
         ],
         "entry_id": 124977,
+        "entry_max_ranks": 1,
         "definition_id": 129815,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Celestial Determination",
         "spell_id": 450638,
+        "visible_spell_id": null,
         "icon": "ability_monk_essencefont"
       },
       "pve_tooltip": "While your Celestial is active, you cannot be slowed below 90% normal movement speed.",
@@ -3201,11 +3321,13 @@
           101170
         ],
         "entry_id": 124964,
+        "entry_max_ranks": 2,
         "definition_id": 129802,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Chi Proficiency",
         "spell_id": 450426,
+        "visible_spell_id": null,
         "icon": "ability_monk_chiswirl"
       },
       "pve_tooltip": "Magical damage done increased by 4% and healing done increased by 4%.",
@@ -3223,6 +3345,7 @@
           "pve_tooltip": "Magical damage done increased by 2% and healing done increased by 2%.",
           "pvp_tooltip": "Magical damage done increased by 2% and healing done increased by 2%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -3231,6 +3354,7 @@
           "pve_tooltip": "Magical damage done increased by 4% and healing done increased by 4%.",
           "pvp_tooltip": "Magical damage done increased by 4% and healing done increased by 4%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -3274,11 +3398,13 @@
           101176
         ],
         "entry_id": 124966,
+        "entry_max_ranks": 1,
         "definition_id": 129804,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Healing Winds",
         "spell_id": 450560,
+        "visible_spell_id": null,
         "icon": "ability_monk_pathofmists"
       },
       "pve_tooltip": "Transcendence: Transfer immediately heals you for 10% of your maximum health.",
@@ -3331,11 +3457,13 @@
           101176
         ],
         "entry_id": 124971,
+        "entry_max_ranks": 1,
         "definition_id": 129809,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Windwalking",
         "spell_id": 157411,
+        "visible_spell_id": null,
         "icon": "monk_stance_whitetiger"
       },
       "pve_tooltip": "You and your allies within 10 yards have 10% increased movement speed. Stacks with other similar effects.",
@@ -3387,11 +3515,13 @@
           101178
         ],
         "entry_id": 124974,
+        "entry_max_ranks": 1,
         "definition_id": 129812,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Chi Transfer",
         "spell_id": 1272452,
+        "visible_spell_id": null,
         "icon": "ability_monk_zenmeditation"
       },
       "pve_tooltip": "Touch of Death now heals you for 60% of its damage done.",
@@ -3444,11 +3574,13 @@
           101154
         ],
         "entry_id": 124976,
+        "entry_max_ranks": 2,
         "definition_id": 129814,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Martial Instincts",
         "spell_id": 450427,
+        "visible_spell_id": null,
         "icon": "ability_monk_palmstrike"
       },
       "pve_tooltip": "Increases your Physical damage done by 4% and Avoidance increased by 6%.",
@@ -3466,6 +3598,7 @@
           "pve_tooltip": "Increases your Physical damage done by 2% and Avoidance increased by 3%.",
           "pvp_tooltip": "Increases your Physical damage done by 2% and Avoidance increased by 3%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -3474,6 +3607,7 @@
           "pve_tooltip": "Increases your Physical damage done by 4% and Avoidance increased by 6%.",
           "pvp_tooltip": "Increases your Physical damage done by 4% and Avoidance increased by 6%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -3514,28 +3648,40 @@
         ],
         "next": [],
         "entry_id": 124963,
+        "entry_max_ranks": 1,
         "definition_id": 129801,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lighter Than Air",
         "spell_id": 449582,
+        "visible_spell_id": null,
         "icon": "ability_monk_ridethewind"
       },
       "pve_tooltip": "Roll causes you to become lighter than air, allowing you to double jump to dash forward a short distance once within 5 sec, but the cooldown of Roll is increased by 2 sec.",
-      "pvp_tooltip": "Roll causes you to become lighter than air, allowing you to double jump to dash forward a short distance once within 5 sec, but the cooldown of Roll is increased by 2 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pvp_tooltip": "Roll causes you to become lighter than air, allowing you to double jump to dash forward a short distance once within 5 sec, but the cooldown of Roll is increased by 4 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 165,
+          "end": 166,
+          "old_token": "2",
+          "new_token": "4",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "APPLIED",
           "kind": "ordinary_value",
-          "old": 2000.0,
-          "new": 4000.0,
-          "full_tooltip_match_count": 0
+          "old": "2",
+          "new": "4"
         }
       ],
       "has_pvp_mechanics": true,
@@ -3605,11 +3751,13 @@
         ],
         "next": [],
         "entry_id": 124965,
+        "entry_max_ranks": 1,
         "definition_id": 129803,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Flow of Chi",
         "spell_id": 450569,
+        "visible_spell_id": null,
         "icon": "ability_monk_healthsphere"
       },
       "pve_tooltip": "You gain a bonus effect based on your current health.\nAbove 90% health: Movement speed increased by 5%. This bonus stacks with similar effects.\nBetween 90% and 35% health: Damage taken reduced by 5%.\nBelow 35% health: Healing received increased by 10%.",
@@ -3660,11 +3808,13 @@
         ],
         "next": [],
         "entry_id": 124973,
+        "entry_max_ranks": 1,
         "definition_id": 129811,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Escape from Reality",
         "spell_id": 394110,
+        "visible_spell_id": null,
         "icon": "monk_ability_transcendence"
       },
       "pve_tooltip": "After you use Transcendence: Transfer, you can use Transcendence: Transfer again within 10 sec, ignoring its cooldown.",
@@ -3715,11 +3865,13 @@
         ],
         "next": [],
         "entry_id": 124972,
+        "entry_max_ranks": 1,
         "definition_id": 129810,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Transcendence: Linked Spirits",
         "spell_id": 434774,
+        "visible_spell_id": null,
         "icon": "monk_ability_transcendence"
       },
       "pve_tooltip": "10 sec cooldown\nTranscendence now tethers your spirit onto an ally for 1 hour. Use Transcendence: Transfer to teleport to your ally's location.",
@@ -3769,11 +3921,13 @@
         ],
         "next": [],
         "entry_id": 124975,
+        "entry_max_ranks": 1,
         "definition_id": 129813,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fatal Touch",
         "spell_id": 394123,
+        "visible_spell_id": null,
         "icon": "ability_monk_touchofdeath"
       },
       "pve_tooltip": "Touch of Death's cooldown is reduced by 90 sec.",
@@ -3822,11 +3976,13 @@
         ],
         "next": [],
         "entry_id": 124946,
+        "entry_max_ranks": 1,
         "definition_id": 129784,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Rushing Reflexes",
         "spell_id": 450154,
+        "visible_spell_id": null,
         "icon": "ability_monk_yulonsgift"
       },
       "pve_tooltip": "Your heightened reflexes allow you to react swiftly to the presence of enemies, causing you to quickly lunge to the nearest enemy in front of you within 10 yards after you Roll.",
@@ -3877,18 +4033,41 @@
           101036
         ],
         "entry_id": 125026,
+        "entry_max_ranks": 1,
         "definition_id": 129864,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Fists of Fury",
         "spell_id": 113656,
+        "visible_spell_id": null,
         "icon": "monk_ability_fistoffury"
       },
       "pve_tooltip": "3 Chi\n8 yd range\nChanneled (4 sec cast)\n24 sec cooldown\nPummels all targets in front of you, dealing [5 * (260.82% of Attack Power)] Physical damage to your primary target and [5 * (260.82% of Attack Power) * 60 / 100] damage to all other enemies over 4 sec. Deals reduced damage beyond 5 targets. Can be channeled while moving.",
-      "pvp_tooltip": "3 Chi\n8 yd range\nChanneled (4 sec cast)\n24 sec cooldown\nPummels all targets in front of you, dealing [5 * (260.82% of Attack Power)] Physical damage to your primary target and [5 * (260.82% of Attack Power) * 60 / 100] damage to all other enemies over 4 sec. Deals reduced damage beyond 5 targets. Can be channeled while moving.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pvp_tooltip": "3 Chi\n8 yd range\nChanneled (4 sec cast)\n24 sec cooldown\nPummels all targets in front of you, dealing [5 * (278.947% of Attack Power)] Physical damage to your primary target and [5 * (278.947% of Attack Power) * 60 / 100] damage to all other enemies over 4 sec. Deals reduced damage beyond 5 targets. Can be channeled while moving.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 107,
+          "end": 113,
+          "old_token": "260.82",
+          "new_token": "278.947",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 182,
+          "end": 188,
+          "old_token": "260.82",
+          "new_token": "278.947",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
@@ -3899,6 +4078,24 @@
           "old": 120.75,
           "new": 129.142125,
           "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "260.82",
+          "new": "278.947"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "260.82",
+          "new": "278.947"
         }
       ],
       "has_pvp_mechanics": true,
@@ -3940,7 +4137,7 @@
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 113656,
           "source_spell_id": 117418,
           "effect_index": 1,
@@ -3957,7 +4154,7 @@
             117418
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -3979,7 +4176,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 1,
+      "render_effect_count": 2,
       "rank_tooltips": []
     },
     {
@@ -4020,11 +4217,13 @@
           101035
         ],
         "entry_id": 124820,
+        "entry_max_ranks": 1,
         "definition_id": 129658,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Momentum Boost",
         "spell_id": 451294,
+        "visible_spell_id": null,
         "icon": "inv_belt_leather_raidmonk_n_01"
       },
       "pve_tooltip": "Fists of Fury's damage is increased by 100% of your haste and Fists of Fury does 10% more damage each time it deals damage, resetting when Fists of Fury ends.\nYour auto attack speed is increased by 60% for 8 sec after Fists of Fury ends.",
@@ -4075,11 +4274,13 @@
           101054
         ],
         "entry_id": 125025,
+        "entry_max_ranks": 1,
         "definition_id": 129863,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Combat Wisdom",
         "spell_id": 121817,
+        "visible_spell_id": null,
         "icon": "ability_monk_expelharm"
       },
       "pve_tooltip": "While out of combat, your Chi balances to 2 instead of depleting to empty.\nYour stamina is increased by 5% and every 15 sec, your next Tiger Palm also casts Expel Harm.\nExpel Harm\nExpel negative chi from your body, healing for (120% of Spell Power) and dealing 10% of the amount healed as Nature damage to an enemy within 20 yards. [Expel Harm: Draws in the positive chi of all your Healing Spheres to increase the healing of Expel Harm] [Reverse Harm: Generates [(120% of Spell Power) + 30] Chi.]",
@@ -4131,11 +4332,13 @@
           101037
         ],
         "entry_id": 124806,
+        "entry_max_ranks": 1,
         "definition_id": 129644,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sharp Reflexes",
         "spell_id": 261917,
+        "visible_spell_id": null,
         "icon": "ability_monk_roundhousekick"
       },
       "pve_tooltip": "Blackout Kick reduces the cooldown of Rising Sun Kick and Fists of Fury by 1.0 sec.",
@@ -4186,11 +4389,13 @@
           101055
         ],
         "entry_id": 124821,
+        "entry_max_ranks": 1,
         "definition_id": 129659,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Touch of the Tiger",
         "spell_id": 388856,
+        "visible_spell_id": null,
         "icon": "ability_monk_tigerpalm"
       },
       "pve_tooltip": "Tiger Palm damage increased by 50%.",
@@ -4241,11 +4446,13 @@
           101055
         ],
         "entry_id": 124805,
+        "entry_max_ranks": 2,
         "definition_id": 129643,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ferociousness",
         "spell_id": 458623,
+        "visible_spell_id": null,
         "icon": "ability_mount_whitetiger"
       },
       "pve_tooltip": "Critical Strike chance increased by 4%. This effect is increased by 100% while Xuen, the White Tiger is active.",
@@ -4263,6 +4470,7 @@
           "pve_tooltip": "Critical Strike chance increased by 2%. This effect is increased by 100% while Xuen, the White Tiger is active.",
           "pvp_tooltip": "Critical Strike chance increased by 2%. This effect is increased by 100% while Xuen, the White Tiger is active.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -4271,6 +4479,7 @@
           "pve_tooltip": "Critical Strike chance increased by 4%. This effect is increased by 100% while Xuen, the White Tiger is active.",
           "pvp_tooltip": "Critical Strike chance increased by 4%. This effect is increased by 100% while Xuen, the White Tiger is active.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -4313,11 +4522,13 @@
           101039
         ],
         "entry_id": 124819,
+        "entry_max_ranks": 2,
         "definition_id": 129657,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Hardened Soles",
         "spell_id": 391383,
+        "visible_spell_id": null,
         "icon": "ability_monk_roundhousekick"
       },
       "pve_tooltip": "Blackout Kick critical strike chance increased by 12% and critical damage increased by 20%.",
@@ -4335,6 +4546,7 @@
           "pve_tooltip": "Blackout Kick critical strike chance increased by 6% and critical damage increased by 10%.",
           "pvp_tooltip": "Blackout Kick critical strike chance increased by 6% and critical damage increased by 10%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -4343,6 +4555,7 @@
           "pve_tooltip": "Blackout Kick critical strike chance increased by 12% and critical damage increased by 20%.",
           "pvp_tooltip": "Blackout Kick critical strike chance increased by 12% and critical damage increased by 20%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -4385,11 +4598,13 @@
           101039
         ],
         "entry_id": 124807,
+        "entry_max_ranks": 1,
         "definition_id": 129645,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ascension",
         "spell_id": 115396,
+        "visible_spell_id": null,
         "icon": "ability_monk_ascension"
       },
       "pve_tooltip": "Increases your maximum Chi by 1, maximum Energy by 20, and your Energy regeneration by 10%.",
@@ -4443,11 +4658,13 @@
           101205
         ],
         "entry_id": 124828,
+        "entry_max_ranks": 1,
         "definition_id": 129666,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Dual Threat",
         "spell_id": 451823,
+        "visible_spell_id": null,
         "icon": "ability_monk_standingkick"
       },
       "pve_tooltip": "Your auto attacks have a 30% chance to instead kick your target dealing (484.38% of Attack Power) Physical damage. Damage increased while using a two-handed weapon.",
@@ -4485,7 +4702,7 @@
           "talent_spell_id": 451823,
           "source_spell_id": 451839,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 4.8438 )",
+          "effect_text": "School Damage (2): physical (AP mod: 4.8438)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4512,10 +4729,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -4560,11 +4778,13 @@
           101216
         ],
         "entry_id": 124827,
+        "entry_max_ranks": 1,
         "definition_id": 129665,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Teachings of the Monastery",
         "spell_id": 116645,
+        "visible_spell_id": null,
         "icon": "passive_monk_teachingsofmonastery"
       },
       "pve_tooltip": "Tiger Palm causes your next Blackout Kick to strike an additional time dealing (84.7% of Attack Power) Physical damage, stacking up to 4.\nBlackout Kick has a 12% chance to reset the remaining cooldown on Rising Sun Kick.",
@@ -4602,7 +4822,7 @@
           "talent_spell_id": 116645,
           "source_spell_id": 228649,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 0.847 )",
+          "effect_text": "School Damage (2): physical (AP mod: 0.847)",
           "base_value": null,
           "spell_pvp_multiplier": 1.3,
           "amount_kind": "direct",
@@ -4638,9 +4858,8 @@
             }
           ],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -4689,11 +4908,13 @@
           101215
         ],
         "entry_id": 124810,
+        "entry_max_ranks": 1,
         "definition_id": 129648,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Glory of the Dawn",
         "spell_id": 392958,
+        "visible_spell_id": null,
         "icon": "ability_monk_mightyoxkick"
       },
       "pve_tooltip": "Rising Sun Kick has a chance equal to 100% of your haste to trigger a second time, dealing (50% of Attack Power) Physical damage and restoring 1 Chi.",
@@ -4756,7 +4977,7 @@
           "talent_spell_id": 392958,
           "source_spell_id": 392959,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 0.5 )",
+          "effect_text": "School Damage (2): physical (AP mod: 0.5)",
           "base_value": null,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": "direct",
@@ -4792,9 +5013,8 @@
             }
           ],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -4841,11 +5061,13 @@
           101057
         ],
         "entry_id": 125018,
+        "entry_max_ranks": 1,
         "definition_id": 129856,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Crane Vortex",
         "spell_id": 388848,
+        "visible_spell_id": null,
         "icon": "ability_monk_cranekick_new"
       },
       "pve_tooltip": "Spinning Crane Kick damage increased by 15% and its radius is increased by 15%.",
@@ -4896,11 +5118,13 @@
           101057
         ],
         "entry_id": 124835,
+        "entry_max_ranks": 1,
         "definition_id": 129673,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Meridian Strikes",
         "spell_id": 391330,
+        "visible_spell_id": null,
         "icon": "ability_monk_touchofdeath"
       },
       "pve_tooltip": "The cooldown of Touch of Death is reduced by 45 sec.\nTouch of Death deals an additional 15% damage.",
@@ -4999,11 +5223,13 @@
           101057
         ],
         "entry_id": 125012,
+        "entry_max_ranks": 1,
         "definition_id": 129850,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Rising Star",
         "spell_id": 388849,
+        "visible_spell_id": null,
         "icon": "ability_monk_risingsunkick"
       },
       "pve_tooltip": "Rising Sun Kick damage increased by 15% and critical strike damage increased by 10%.",
@@ -5056,11 +5282,13 @@
           101207
         ],
         "entry_id": 124826,
+        "entry_max_ranks": 1,
         "definition_id": 129664,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Zenith",
         "spell_id": 1249625,
+        "visible_spell_id": null,
         "icon": "inv_ability_monk_weaponsoforder"
       },
       "pve_tooltip": "Instant\nuntil canceled\n2 Charges\nChi costs are reduced by 1 and Blackout Kick reduces the cooldown of affected abilities by an additional 1 sec for 15 sec.\nActivating Zenith resets the remaining cooldown on Rising Sun Kick.",
@@ -5112,11 +5340,13 @@
           101215
         ],
         "entry_id": 125023,
+        "entry_max_ranks": 1,
         "definition_id": 129861,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Hit Combo",
         "spell_id": 196740,
+        "visible_spell_id": null,
         "icon": "ability_monk_palmstrike"
       },
       "pve_tooltip": "Each successive attack that triggers Combo Strikes in a row grants 1% increased damage, stacking up to 5 times.",
@@ -5167,11 +5397,13 @@
           101215
         ],
         "entry_id": 124809,
+        "entry_max_ranks": 1,
         "definition_id": 129647,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Brawler's Intensity",
         "spell_id": 451485,
+        "visible_spell_id": null,
         "icon": "inv_staff_2h_artifactmonkeyking_d_03"
       },
       "pve_tooltip": "The cooldown of Rising Sun Kick is reduced by 1.0 sec and the damage of Blackout Kick is increased by 12%.",
@@ -5222,28 +5454,51 @@
           101060
         ],
         "entry_id": 124822,
+        "entry_max_ranks": 1,
         "definition_id": 129660,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Jade Ignition",
         "spell_id": 392979,
+        "visible_spell_id": null,
         "icon": "ability_monk_chiexplosion"
       },
       "pve_tooltip": "Spinning Crane Kick detonates into a Chi Explosion, dealing (351% of Attack Power) Nature damage to all enemies within 8 yards, reduced beyond 5 targets.",
-      "pvp_tooltip": "Spinning Crane Kick detonates into a Chi Explosion, dealing (351% of Attack Power) Nature damage to all enemies within 8 yards, reduced beyond 5 targets.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Spinning Crane Kick detonates into a Chi Explosion, dealing (326.43% of Attack Power) Nature damage to all enemies within 8 yards, reduced beyond 5 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 61,
+          "end": 64,
+          "old_token": "351",
+          "new_token": "326.43",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "351",
+          "new": "326.43"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 392979,
           "source_spell_id": 393056,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 3.51 )",
+          "effect_text": "School Damage (2): nature | Attributes: Add Target (Dest) Combat Reach to AOE (11) (AP mod: 3.51)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5256,7 +5511,7 @@
             393056
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -5270,13 +5525,14 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -5319,11 +5575,13 @@
           101062
         ],
         "entry_id": 124830,
+        "entry_max_ranks": 1,
         "definition_id": 129668,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Cyclone's Drift",
         "spell_id": 1248749,
+        "visible_spell_id": null,
         "icon": "ability_skyreach_wind"
       },
       "pve_tooltip": "You gain 10% more Haste from all sources of Haste.",
@@ -5377,11 +5635,13 @@
           101062
         ],
         "entry_id": 134453,
+        "entry_max_ranks": 1,
         "definition_id": 139224,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Crashing Fists",
         "spell_id": 1248747,
+        "visible_spell_id": null,
         "icon": "inv_fistofthewhitetiger"
       },
       "pve_tooltip": "The damage of Fists of Fury is increased by 20%.",
@@ -5432,11 +5692,13 @@
           101062
         ],
         "entry_id": 124825,
+        "entry_max_ranks": 1,
         "definition_id": 129663,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Drinking Horn Cover",
         "spell_id": 391370,
+        "visible_spell_id": null,
         "icon": "ability_warrior_unrelentingassault"
       },
       "pve_tooltip": "The duration of Zenith is extended by 5 sec.",
@@ -5487,11 +5749,13 @@
           101062
         ],
         "entry_id": 124824,
+        "entry_max_ranks": 1,
         "definition_id": 129662,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Spiritual Focus",
         "spell_id": 280197,
+        "visible_spell_id": null,
         "icon": "spell_nature_giftofthewild"
       },
       "pve_tooltip": "40 yd range\nThe cooldown of Zenith is reduced by 20 sec.",
@@ -5540,11 +5804,13 @@
         ],
         "next": [],
         "entry_id": 124823,
+        "entry_max_ranks": 1,
         "definition_id": 129661,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Obsidian Spiral",
         "spell_id": 1249832,
+        "visible_spell_id": null,
         "icon": "ability_monk_spherediscord"
       },
       "pve_tooltip": "During Zenith, Blackout Kick generates 1 Chi.\n(800ms cooldown)",
@@ -5599,11 +5865,13 @@
           101209
         ],
         "entry_id": 125022,
+        "entry_max_ranks": 1,
         "definition_id": 129860,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Combo Breaker",
         "spell_id": 137384,
+        "visible_spell_id": null,
         "icon": "pandarenracial_bouncy"
       },
       "pve_tooltip": "You have a 8% chance when you Tiger Palm to cause your next Blackout Kick to cost no Chi within 15 sec.",
@@ -5656,11 +5924,13 @@
           101213
         ],
         "entry_id": 124834,
+        "entry_max_ranks": 1,
         "definition_id": 129672,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Dance of Chi-Ji",
         "spell_id": 325201,
+        "visible_spell_id": null,
         "icon": "ability_monk_cranekick_new"
       },
       "pve_tooltip": "Approximately 1 procs per minute\nSpending Chi has a chance to make your next Spinning Crane Kick cost no Chi.",
@@ -5712,11 +5982,13 @@
           101213
         ],
         "entry_id": 124836,
+        "entry_max_ranks": 1,
         "definition_id": 129674,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shadowboxing Treads",
         "spell_id": 392982,
+        "visible_spell_id": null,
         "icon": "ability_monk_roundhousekick"
       },
       "pve_tooltip": "Blackout Kick damage increased by 5% and strikes an additional 2 targets at 80% effectiveness.",
@@ -5769,15 +6041,17 @@
           101046
         ],
         "entry_id": 125014,
+        "entry_max_ranks": 1,
         "definition_id": 129852,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Strike of the Windlord",
         "spell_id": 392983,
+        "visible_spell_id": null,
         "icon": "inv_hand_1h_artifactskywall_d_01"
       },
       "pve_tooltip": "2 Chi\n9 yd range\nInstant\n35 sec cooldown\nStrike with both fists at all enemies in front of you, dealing [(1008% of Attack Power) + (504% of Attack Power)] Physical damage and reducing movement speed by 50% for 6 sec. Deals reduced damage to secondary targets.",
-      "pvp_tooltip": "2 Chi\n9 yd range\nInstant\n35 sec cooldown\nStrike with both fists at all enemies in front of you, dealing [(1008% of Attack Power) + (504% of Attack Power)] Physical damage and reducing movement speed by 30% for 6 sec. Deals reduced damage to secondary targets.",
+      "pvp_tooltip": "2 Chi\n9 yd range\nInstant\n35 sec cooldown\nStrike with both fists at all enemies in front of you, dealing [(937.44% of Attack Power) + (468.72% of Attack Power)] Physical damage and reducing movement speed by 30% for 6 sec. Deals reduced damage to secondary targets.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -5790,9 +6064,47 @@
           "effect_indexes": [
             2
           ]
+        },
+        {
+          "start": 106,
+          "end": 110,
+          "old_token": "1008",
+          "new_token": "937.44",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 132,
+          "end": 135,
+          "old_token": "504",
+          "new_token": "468.72",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
         }
       ],
       "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "1008",
+          "new": "937.44"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "504",
+          "new": "468.72"
+        },
         {
           "effect_indexes": [
             2
@@ -5832,11 +6144,11 @@
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 392983,
           "source_spell_id": 395519,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 10.08 )",
+          "effect_text": "School Damage (2): physical (AP mod: 10.08)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5849,7 +6161,7 @@
             395519
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -5863,18 +6175,19 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 392983,
           "source_spell_id": 395521,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 5.04 )",
+          "effect_text": "School Damage (2): physical (AP mod: 5.04)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5887,7 +6200,7 @@
             395521
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -5901,13 +6214,14 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
-      "render_effect_count": 1,
+      "render_effect_count": 3,
       "rank_tooltips": []
     },
     {
@@ -5949,11 +6263,13 @@
           101046
         ],
         "entry_id": 134452,
+        "entry_max_ranks": 1,
         "definition_id": 139223,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Whirling Dragon Punch",
         "spell_id": 152175,
+        "visible_spell_id": null,
         "icon": "ability_monk_hurricanestrike"
       },
       "pve_tooltip": "Instant\n35 sec cooldown\nPerforms a devastating whirling upward strike, dealing [3 * (313.95% of Attack Power)] damage to all nearby enemies and an additional (450% of Attack Power) damage to the first target struck. Damage reduced beyond 5 targets.\nOnly usable while both Fists of Fury and Rising Sun Kick are on cooldown.\n(3s cooldown)",
@@ -6010,7 +6326,7 @@
           "talent_spell_id": 152175,
           "source_spell_id": 158221,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 3.1395 )",
+          "effect_text": "School Damage (2): physical (AP mod: 3.1395)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6037,10 +6353,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -6048,7 +6365,7 @@
           "talent_spell_id": 152175,
           "source_spell_id": 451767,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 4.5 )",
+          "effect_text": "School Damage (2): physical (AP mod: 4.5)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6075,10 +6392,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 2,
@@ -6122,11 +6440,13 @@
           101209
         ],
         "entry_id": 124829,
+        "entry_max_ranks": 1,
         "definition_id": 129667,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Energy Burst",
         "spell_id": 451498,
+        "visible_spell_id": null,
         "icon": "ability_monk_blackoutstrike"
       },
       "pve_tooltip": "When you consume Blackout Kick!, you have a 100% chance to generate 1 Chi.",
@@ -6178,11 +6498,13 @@
           101045
         ],
         "entry_id": 125021,
+        "entry_max_ranks": 1,
         "definition_id": 129859,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Inner Peace",
         "spell_id": 397768,
+        "visible_spell_id": null,
         "icon": "ability_monk_jasmineforcetea"
       },
       "pve_tooltip": "100 yd range\nIncreases maximum Energy by 30. Tiger Palm's Energy cost reduced by 5.",
@@ -6234,11 +6556,13 @@
           101210
         ],
         "entry_id": 124833,
+        "entry_max_ranks": 1,
         "definition_id": 129671,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sequenced Strikes",
         "spell_id": 451515,
+        "visible_spell_id": null,
         "icon": "ability_monk_sparring"
       },
       "pve_tooltip": "You have a 100% chance to gain Blackout Kick! after consuming Dance of Chi-Ji.",
@@ -6290,11 +6614,13 @@
           101210
         ],
         "entry_id": 125020,
+        "entry_max_ranks": 1,
         "definition_id": 129858,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sunfire Spiral",
         "spell_id": 1272415,
+        "visible_spell_id": null,
         "icon": "inv_helm_suncrown_d_01"
       },
       "pve_tooltip": "Rising Sun Kick gains 40% additional effectiveness from Mastery: Combo Strikes.",
@@ -6345,11 +6671,13 @@
           101210
         ],
         "entry_id": 124812,
+        "entry_max_ranks": 1,
         "definition_id": 129650,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Communion With Wind",
         "spell_id": 451576,
+        "visible_spell_id": null,
         "icon": "ability_skyreach_four_wind"
       },
       "pve_tooltip": "Strike of the Windlord and Whirling Dragon Punch have their cooldowns reduced by 5 sec and their damage is increased by 20%.",
@@ -6402,11 +6730,13 @@
           101212
         ],
         "entry_id": 125010,
+        "entry_max_ranks": 1,
         "definition_id": 129848,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Revolving Whirl",
         "spell_id": 451524,
+        "visible_spell_id": null,
         "icon": "ability_monk_chiswirl"
       },
       "pve_tooltip": "Strike of the Windlord and Whirling Dragon Punch have a 100% chance to activate Dance of Chi-Ji.\n(2s cooldown)",
@@ -6459,11 +6789,13 @@
           101212
         ],
         "entry_id": 125009,
+        "entry_max_ranks": 1,
         "definition_id": 129847,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Echo Technique",
         "spell_id": 1250042,
+        "visible_spell_id": null,
         "icon": "ability_monk_cranekick"
       },
       "pve_tooltip": "Casting Strike of the Windlord or Whirling Dragon Punch grants Blackout Kick!.\n(3s cooldown)",
@@ -6516,11 +6848,13 @@
           102250
         ],
         "entry_id": 124818,
+        "entry_max_ranks": 1,
         "definition_id": 129656,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Universal Energy",
         "spell_id": 1272175,
+        "visible_spell_id": null,
         "icon": "ability_monk_chiswirl"
       },
       "pve_tooltip": "Your magical damage is increased by 8%.",
@@ -6574,11 +6908,13 @@
           101045
         ],
         "entry_id": 125016,
+        "entry_max_ranks": 1,
         "definition_id": 129854,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Memory of the Monastery",
         "spell_id": 454969,
+        "visible_spell_id": null,
         "icon": "ability_mount_goatmountwhite"
       },
       "pve_tooltip": "Tiger Palm's chance to activate Blackout Kick! is increased by 75% and Tiger Palm's damage is increased by 30%.",
@@ -6627,11 +6963,13 @@
         ],
         "next": [],
         "entry_id": 134543,
+        "entry_max_ranks": 1,
         "definition_id": 139311,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Rushing Wind Kick",
         "spell_id": 1250566,
+        "visible_spell_id": null,
         "icon": "inv12_ability_monk_rushingwindkick"
       },
       "pve_tooltip": "After consuming Blackout Kick!, Rising Sun Kick has a 60% chance to become Rushing Wind Kick.\nRushing Wind Kick:\nKick up a powerful gust of wind, dealing (179.75% of Attack Power) Nature damage in a 25 yd cone to enemies in front of you, split evenly among them. Damage is increased by 6% for each target hit, up to 30%.",
@@ -6663,7 +7001,7 @@
           ],
           "dependency_relations": [
             "spelldesc_ref",
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -6737,24 +7075,36 @@
           101204
         ],
         "entry_id": 125017,
+        "entry_max_ranks": 1,
         "definition_id": 129855,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Xuen's Battlegear",
         "spell_id": 392993,
+        "visible_spell_id": null,
         "icon": "monk_stance_whitetiger"
       },
       "pve_tooltip": "Rising Sun Kick critical strikes reduce the cooldown of Fists of Fury by 4 sec.\nSpinning Crane Kick reduces the cooldown of Fists of Fury by 0.5 sec for each unique target struck, up to 2.5 sec.\nThe critical strike chance of Rising Sun Kick is increased by 20%.",
-      "pvp_tooltip": "Rising Sun Kick critical strikes reduce the cooldown of Fists of Fury by 4 sec.\nSpinning Crane Kick reduces the cooldown of Fists of Fury by 0.5 sec for each unique target struck, up to 1.2 sec.\nThe critical strike chance of Rising Sun Kick is increased by 20%.",
+      "pvp_tooltip": "Rising Sun Kick critical strikes reduce the cooldown of Fists of Fury by 4 sec.\nSpinning Crane Kick reduces the cooldown of Fists of Fury by 0.2 sec for each unique target struck, up to 1.2 sec.\nThe critical strike chance of Rising Sun Kick is increased by 20%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
+        {
+          "start": 141,
+          "end": 144,
+          "old_token": "0.5",
+          "new_token": "0.2",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            4
+          ]
+        },
         {
           "start": 186,
           "end": 189,
           "old_token": "2.5",
           "new_token": "1.2",
-          "kind": "duration_seconds",
+          "kind": "ordinary_value",
           "effect_indexes": [
             5
           ]
@@ -6775,18 +7125,17 @@
           "effect_indexes": [
             4
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "APPLIED",
           "kind": "ordinary_value",
-          "old": 500.0,
-          "new": 250.0,
-          "full_tooltip_match_count": 0
+          "old": "0.5",
+          "new": "0.2"
         },
         {
           "effect_indexes": [
             5
           ],
           "status": "APPLIED",
-          "kind": "duration_seconds",
+          "kind": "ordinary_value",
           "old": "2.5",
           "new": "1.2"
         }
@@ -6906,11 +7255,13 @@
           101204
         ],
         "entry_id": 124811,
+        "entry_max_ranks": 1,
         "definition_id": 129649,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Thunderfist",
         "spell_id": 392985,
+        "visible_spell_id": null,
         "icon": "inv_hand_1h_artifactskywall_d_01"
       },
       "pve_tooltip": "Strike of the Windlord and Whirling Dragon Punch grant you 4 stacks of Thunderfist and an additional stack for each additional enemy struck.\nThunderfist discharges upon melee strikes, dealing (161% of Attack Power) Nature damage.\n(1.5s cooldown)",
@@ -6948,7 +7299,7 @@
           "talent_spell_id": 392985,
           "source_spell_id": 393566,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 1.61 )",
+          "effect_text": "School Damage (2): nature | Attributes: Suppress Points Stacking (6) (AP mod: 1.61)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6975,10 +7326,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -7022,11 +7374,13 @@
           101208
         ],
         "entry_id": 125013,
+        "entry_max_ranks": 1,
         "definition_id": 129851,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Weapon of Wind",
         "spell_id": 1272678,
+        "visible_spell_id": null,
         "icon": "inv_tradeskillitem_sorcererswind_tong"
       },
       "pve_tooltip": "Your damage during Zenith is increased by 5%.",
@@ -7078,11 +7432,13 @@
           101208
         ],
         "entry_id": 125019,
+        "entry_max_ranks": 1,
         "definition_id": 129857,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Knowledge of the Broken Temple",
         "spell_id": 451529,
+        "visible_spell_id": null,
         "icon": "inv_glove_leather_pvpmonk_f_01"
       },
       "pve_tooltip": "Strike of the Windlord and Whirling Dragon Punch grant 4 stacks of Teachings of the Monastery.\nTeachings of the Monastery can now stack up to 8 times.\n(3s cooldown)",
@@ -7248,11 +7604,13 @@
           101043
         ],
         "entry_id": 126307,
+        "entry_max_ranks": 1,
         "definition_id": 131133,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Slicing Winds",
         "spell_id": 1217413,
+        "visible_spell_id": null,
         "icon": "ability_skyreach_wind_wall"
       },
       "pve_tooltip": "2 Chi\nChanneled (1.4 sec cast)\n30 sec cooldown\nEnvelop yourself in razor-sharp winds, then lunge forward dealing (448% of Attack Power) Nature damage to enemies in your path. Damage reduced beyond 5 enemies.\nHold to increase lunge distance.",
@@ -7365,11 +7723,13 @@
           101044
         ],
         "entry_id": 124817,
+        "entry_max_ranks": 1,
         "definition_id": 129655,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Jadefire Stomp",
         "spell_id": 457974,
+        "visible_spell_id": null,
         "icon": "inv_ability_monk_jadefirestomp"
       },
       "pve_tooltip": "At the end of your Fists of Fury channel, you release a Jadefire Stomp, dealing (100% of Attack Power) damage to 5 enemies in front of you and increasing your movement speed by 20% for 3 sec.",
@@ -7466,7 +7826,7 @@
           "talent_spell_id": 457974,
           "source_spell_id": 388201,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 0.65 )",
+          "effect_text": "School Damage (2): nature | Attributes: Area Effects Use Target Radius (17) (AP mod: 0.65)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7497,10 +7857,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -7508,7 +7869,7 @@
           "talent_spell_id": 457974,
           "source_spell_id": 388207,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 0.4 )",
+          "effect_text": "School Damage (2): nature | Attributes: Area Effects Use Target Radius (17) (AP mod: 0.4)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7539,10 +7900,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -7550,7 +7912,7 @@
           "talent_spell_id": 457974,
           "source_spell_id": 388207,
           "effect_index": 2,
-          "effect_text": "Heal (SP mod: 0.91)",
+          "effect_text": "Direct Heal (10) | Attributes: Area Effects Use Target Radius (17) (SP mod: 0.91)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7581,10 +7943,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 3,
@@ -7625,11 +7988,13 @@
         ],
         "next": [],
         "entry_id": 128711,
+        "entry_max_ranks": 1,
         "definition_id": 133513,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Skyfire Heel",
         "spell_id": 1248704,
+        "visible_spell_id": null,
         "icon": "inv_1115_warrior_kick"
       },
       "pve_tooltip": "Rising Sun Kick's critical strike chance is increased by 4% for each nearby enemy, up to 5 enemies.\n10% of Rising Sun Kick's damage splashes onto nearby enemies. Damage is reduced beyond 5 targets.",
@@ -7678,11 +8043,13 @@
         ],
         "next": [],
         "entry_id": 128712,
+        "entry_max_ranks": 1,
         "definition_id": 133514,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Harmonic Combo",
         "spell_id": 1250041,
+        "visible_spell_id": null,
         "icon": "ability_monk_serenity"
       },
       "pve_tooltip": "Fists of Fury's Chi cost is reduced by 1, but its damage is reduced by 10%.",
@@ -7733,11 +8100,13 @@
         ],
         "next": [],
         "entry_id": 125011,
+        "entry_max_ranks": 1,
         "definition_id": 129849,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Flurry of Xuen",
         "spell_id": 452137,
+        "visible_spell_id": null,
         "icon": "monk_stance_whitetiger"
       },
       "pve_tooltip": "Approximately 2 procs per minute\nYour spells and abilities have a chance to activate Flurry of Xuen, unleashing a barrage of deadly swipes to deal [(54.88% of Attack Power) * 10] Physical damage in a 10 yd cone, damage reduced beyond 5 targets.\nInvoking Xuen, the White Tiger activates Flurry of Xuen.",
@@ -7775,7 +8144,7 @@
           "talent_spell_id": 452137,
           "source_spell_id": 452130,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 0.5488 )",
+          "effect_text": "School Damage (2): physical (AP mod: 0.5488)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7802,10 +8171,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -7847,11 +8217,13 @@
         ],
         "next": [],
         "entry_id": 125015,
+        "entry_max_ranks": 1,
         "definition_id": 129853,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Martial Agility",
         "spell_id": 1272685,
+        "visible_spell_id": null,
         "icon": "ability_monk_dpsstance"
       },
       "pve_tooltip": "Your melee attack speed is increased by 30%. This bonus is increased to 60% during Zenith.",
@@ -7900,11 +8272,13 @@
         ],
         "next": [],
         "entry_id": 124815,
+        "entry_max_ranks": 1,
         "definition_id": 129653,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Airborne Rhythm",
         "spell_id": 1248833,
+        "visible_spell_id": null,
         "icon": "inv_tradeskillitem_sorcererswind_tong"
       },
       "pve_tooltip": "Slicing Winds now generates 1 Chi when cast.",
@@ -7953,11 +8327,13 @@
         ],
         "next": [],
         "entry_id": 124814,
+        "entry_max_ranks": 1,
         "definition_id": 129652,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Hurricane's Vault",
         "spell_id": 1248837,
+        "visible_spell_id": null,
         "icon": "ability_druid_galewinds"
       },
       "pve_tooltip": "Slicing Winds now costs 2 Chi to cast, but its damage is increased by 40%.",
@@ -8006,11 +8382,13 @@
         ],
         "next": [],
         "entry_id": 124816,
+        "entry_max_ranks": 1,
         "definition_id": 129654,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Path of Jade",
         "spell_id": 392994,
+        "visible_spell_id": null,
         "icon": "achievement_zone_jadeforest"
       },
       "pve_tooltip": "Increases the damage of Jadefire Stomp by 10% per target hit by that damage, up to a maximum of 50% additional damage.",
@@ -8059,11 +8437,13 @@
         ],
         "next": [],
         "entry_id": 126026,
+        "entry_max_ranks": 1,
         "definition_id": 130858,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Singularly Focused Jade",
         "spell_id": 451573,
+        "visible_spell_id": null,
         "icon": "ability_monk_fortuneturned"
       },
       "pve_tooltip": "Jadefire Stomp now strikes 1 target, but deals 300% increased damage and healing.",
@@ -8110,11 +8490,13 @@
         "prev": [],
         "next": [],
         "entry_id": 137076,
+        "entry_max_ranks": 1,
         "definition_id": 141840,
         "entry_index": 200,
         "entry_type": "tierrank",
         "talent_name": "Tigereye Brew",
         "spell_id": 1261703,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_monk_tigereyebrew"
       },
       "pve_tooltip": "Every 3 Chi spent generates Tigereye Brew. Zenith consumes up to 20 Tigereye Brew stacks to increase your critical strike chance for its duration by 1% per stack.\nGenerates quickly up to 10 stacks while out of combat and may generate up to a maximum of 30 stacks.\n(100ms cooldown)",
@@ -8161,23 +8543,25 @@
         "prev": [],
         "next": [],
         "entry_id": 137077,
+        "entry_max_ranks": 2,
         "definition_id": 141841,
         "entry_index": 300,
         "entry_type": "tierrank",
         "talent_name": "Tigereye Brew",
         "spell_id": 1261844,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_monk_tigereyebrew"
       },
-      "pve_tooltip": "Your spells and abilities deal 5% increased critical strike damage.",
-      "pvp_tooltip": "Your spells and abilities deal 3% increased critical strike damage.",
+      "pve_tooltip": "Your spells and abilities deal 10% increased critical strike damage.",
+      "pvp_tooltip": "Your spells and abilities deal 6% increased critical strike damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
           "start": 31,
-          "end": 32,
-          "old_token": "5",
-          "new_token": "3",
+          "end": 33,
+          "old_token": "10",
+          "new_token": "6",
           "kind": "percent_value",
           "effect_indexes": [
             1
@@ -8191,8 +8575,8 @@
           ],
           "status": "APPLIED",
           "kind": "percent_value",
-          "old": "5",
-          "new": "3"
+          "old": "10",
+          "new": "6"
         }
       ],
       "has_pvp_mechanics": true,
@@ -8224,7 +8608,48 @@
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Your spells and abilities deal 5% increased critical strike damage.",
+          "pvp_tooltip": "Your spells and abilities deal 3% increased critical strike damage.",
+          "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 31,
+              "end": 32,
+              "old_token": "5",
+              "new_token": "3",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Your spells and abilities deal 10% increased critical strike damage.",
+          "pvp_tooltip": "Your spells and abilities deal 6% increased critical strike damage.",
+          "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 31,
+              "end": 33,
+              "old_token": "10",
+              "new_token": "6",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Tigereye Brew",
@@ -8259,11 +8684,13 @@
         "prev": [],
         "next": [],
         "entry_id": 137078,
+        "entry_max_ranks": 1,
         "definition_id": 141842,
         "entry_index": 400,
         "entry_type": "tierrank",
         "talent_name": "Tigereye Brew",
         "spell_id": 1261849,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_monk_tigereyebrew"
       },
       "pve_tooltip": "Zenith now grants access to 2 additional Zenith Stomps.\nZenith Stomp:\nRelease a powerful stomp, dealing (700% of Attack Power) Nature damage to nearby enemies, reduced beyond 5 targets.\nGenerates 2 Chi.",
@@ -8355,11 +8782,13 @@
           109697
         ],
         "entry_id": 125069,
+        "entry_max_ranks": 1,
         "definition_id": 129901,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Flurry Strikes",
         "spell_id": 450615,
+        "visible_spell_id": null,
         "icon": "inv_ability_shadopanmonk_flurrystrikes"
       },
       "pve_tooltip": "Your auto attacks have a chance to generate 1-2 Flurry Charges. When you cast Fists of Fury, unleash all Flurry Charges, dealing (60% of Attack Power) Physical damage per charge.",
@@ -8397,7 +8826,7 @@
           "talent_spell_id": 450615,
           "source_spell_id": 450617,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 0.6 )",
+          "effect_text": "School Damage (2): physical (AP mod: 0.6)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8424,10 +8853,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -8471,11 +8901,13 @@
           109701
         ],
         "entry_id": 125062,
+        "entry_max_ranks": 1,
         "definition_id": 129894,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Invoke Xuen, the White Tiger",
         "spell_id": 123904,
+        "visible_spell_id": null,
         "icon": "ability_monk_summontigerstatue"
       },
       "pve_tooltip": "40 yd range\nInstant\nuntil canceled\nSummons an effigy of Xuen, the White Tiger for 20 sec. Xuen attacks your primary target, and strikes 3 enemies within 10 yards every 1 sec with Tiger Lightning for (25.7% of Attack Power) Nature damage. [Empowered Tiger Lightning: Every 4 sec, Xuen strikes your enemies with Empowered Tiger Lightning dealing 4% of the damage you have dealt to those targets in the last 4 sec]",
@@ -8526,11 +8958,13 @@
           101254
         ],
         "entry_id": 125068,
+        "entry_max_ranks": 1,
         "definition_id": 129900,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Pride of Pandaria",
         "spell_id": 450979,
+        "visible_spell_id": null,
         "icon": "inv_staff_2h_pandarenmonk_c_01"
       },
       "pve_tooltip": "Flurry Strikes have 15% additional chance to critically strike.",
@@ -8581,11 +9015,13 @@
           101254
         ],
         "entry_id": 125067,
+        "entry_max_ranks": 1,
         "definition_id": 129899,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "High Impact",
         "spell_id": 450982,
+        "visible_spell_id": null,
         "icon": "ability_monk_powerstrikes"
       },
       "pve_tooltip": "Enemies who die within 10 sec of being damaged by a Flurry Strike explode, dealing (100% of Attack Power) physical damage to uncontrolled enemies within 8 yds.",
@@ -8636,11 +9072,13 @@
           101250
         ],
         "entry_id": 125070,
+        "entry_max_ranks": 1,
         "definition_id": 129902,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Veteran's Eye",
         "spell_id": 450987,
+        "visible_spell_id": null,
         "icon": "ability_monk_provoke"
       },
       "pve_tooltip": "Haste increased by 5%.",
@@ -8691,11 +9129,13 @@
           101245
         ],
         "entry_id": 125066,
+        "entry_max_ranks": 1,
         "definition_id": 129898,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Martial Precision",
         "spell_id": 450990,
+        "visible_spell_id": null,
         "icon": "ability_monk_jab"
       },
       "pve_tooltip": "Your attacks penetrate 12% armor.",
@@ -8746,11 +9186,13 @@
           109698
         ],
         "entry_id": 135955,
+        "entry_max_ranks": 1,
         "definition_id": 140710,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shado Over the Battlefield",
         "spell_id": 1262612,
+        "visible_spell_id": null,
         "icon": "inv_elemental_primal_shadow"
       },
       "pve_tooltip": "Flurry Strikes deal (52% of Attack Power) Nature damage to all enemies within 6 yds, reduced beyond 8 targets.",
@@ -8788,7 +9230,7 @@
           "talent_spell_id": 1262612,
           "source_spell_id": 451250,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 0.52 )",
+          "effect_text": "School Damage (2): nature | Attributes: Area Effects Use Target Radius (17) (AP mod: 0.52)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8815,10 +9257,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -8861,11 +9304,13 @@
           101237
         ],
         "entry_id": 125054,
+        "entry_max_ranks": 1,
         "definition_id": 129886,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Temple Training",
         "spell_id": 442743,
+        "visible_spell_id": null,
         "icon": "ability_monk_provoke"
       },
       "pve_tooltip": "Fists of Fury and Spinning Crane Kick deal 30% more damage.",
@@ -8916,11 +9361,13 @@
           101237
         ],
         "entry_id": 125053,
+        "entry_max_ranks": 1,
         "definition_id": 129885,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Xuen's Guidance",
         "spell_id": 442687,
+        "visible_spell_id": null,
         "icon": "ability_monk_dpsstance"
       },
       "pve_tooltip": "Teachings of the Monastery has a 15% chance to refund a charge when consumed.\nThe damage of Tiger Palm is increased by 10%.",
@@ -8971,11 +9418,13 @@
           110211
         ],
         "entry_id": 125061,
+        "entry_max_ranks": 1,
         "definition_id": 129893,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Courage of the White Tiger",
         "spell_id": 443087,
+        "visible_spell_id": null,
         "icon": "ability_monk_summontigerstatue"
       },
       "pve_tooltip": "Approximately 4 procs per minute\nTiger Palm has a chance to cause Xuen to claw your target for (337.5% of Attack Power) Physical damage, healing a nearby ally for 25% of the damage done.\nInvoke Xuen, the White Tiger guarantees your next cast activates this effect.",
@@ -9087,11 +9536,13 @@
           101234
         ],
         "entry_id": 136760,
+        "entry_max_ranks": 1,
         "definition_id": 141531,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Restore Balance",
         "spell_id": 442719,
+        "visible_spell_id": null,
         "icon": "ability_monk_chiexplosion"
       },
       "pve_tooltip": "Damage increased by 5% while Xuen, the White Tiger is active.",
@@ -9142,11 +9593,13 @@
           101234
         ],
         "entry_id": 136744,
+        "entry_max_ranks": 1,
         "definition_id": 141516,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Xuen's Bond",
         "spell_id": 392986,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_netherbond"
       },
       "pve_tooltip": "Invoke Xuen, the White Tiger's damage is increased by 30% and its cooldown is reduced by 30 sec.",
@@ -9197,11 +9650,13 @@
           110218
         ],
         "entry_id": 135959,
+        "entry_max_ranks": 1,
         "definition_id": 140714,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Heart of the Jade Serpent",
         "spell_id": 443294,
+        "visible_spell_id": null,
         "icon": "ability_monk_dragonkick"
       },
       "pve_tooltip": "Strike of the Windlord and Whirling Dragon Punch call upon Yu'lon to increase the cooldown recovery rate of Fists of Fury, Strike of the Windlord, Rising Sun Kick, and Whirling Dragon Punch by 75% for 8 sec.\nThe channel time of Fists of Fury is reduced by 50% while Yu'lon is active.",
@@ -9252,11 +9707,13 @@
           101253
         ],
         "entry_id": 125076,
+        "entry_max_ranks": 1,
         "definition_id": 129908,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Combat Stance",
         "spell_id": 1272844,
+        "visible_spell_id": null,
         "icon": "ability_monk_roll"
       },
       "pve_tooltip": "The cooldown of Roll is decreased by 10%.",
@@ -9307,11 +9764,13 @@
           101253
         ],
         "entry_id": 125075,
+        "entry_max_ranks": 1,
         "definition_id": 129907,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Initiator's Edge",
         "spell_id": 1272849,
+        "visible_spell_id": null,
         "icon": "crest_monk"
       },
       "pve_tooltip": "Movement speed is increased by 50% for the first 8 sec of combat.",
@@ -9362,11 +9821,13 @@
           101251
         ],
         "entry_id": 125071,
+        "entry_max_ranks": 1,
         "definition_id": 129903,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "One Versus Many",
         "spell_id": 450988,
+        "visible_spell_id": null,
         "icon": "ability_monk_chargingoxwave"
       },
       "pve_tooltip": "Auto attack critical strikes generate double the amount of Flurry Charges.\nFists of Fury damage increased by 50%.",
@@ -9417,11 +9878,13 @@
           101244
         ],
         "entry_id": 125065,
+        "entry_max_ranks": 1,
         "definition_id": 129897,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Whirling Steel",
         "spell_id": 450991,
+        "visible_spell_id": null,
         "icon": "ability_whirlwind"
       },
       "pve_tooltip": "When your health drops below 50%, summon Whirling Steel, increasing your parry chance and avoidance by 15% for 6 sec.\nThis effect can not occur more than once every 180 sec.\n(3m cooldown)",
@@ -9472,11 +9935,13 @@
           101244
         ],
         "entry_id": 125064,
+        "entry_max_ranks": 1,
         "definition_id": 129896,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Predictive Training",
         "spell_id": 450992,
+        "visible_spell_id": null,
         "icon": "ability_monk_domeofmist"
       },
       "pve_tooltip": "When you dodge or parry an attack, reduce all damage taken by 10% for the next 6 sec.",
@@ -9527,11 +9992,13 @@
           109699
         ],
         "entry_id": 135956,
+        "entry_max_ranks": 1,
         "definition_id": 140711,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Stand Ready",
         "spell_id": 1262603,
+        "visible_spell_id": null,
         "icon": "ability_monk_sparring"
       },
       "pve_tooltip": "Activating Zenith instantly grants 10 stacks of Flurry Strikes that trigger on your next attack at 70% effectiveness.",
@@ -9582,11 +10049,13 @@
           101238
         ],
         "entry_id": 125055,
+        "entry_max_ranks": 1,
         "definition_id": 129887,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Chi-Ji's Swiftness",
         "spell_id": 443566,
+        "visible_spell_id": null,
         "icon": "inv_shoulder_leather_raidmonkemerald_d_01"
       },
       "pve_tooltip": "Your movement speed is increased by 75% during Celestial Conduit and by 15% for 3 sec after being assisted by any Celestial.",
@@ -9637,11 +10106,13 @@
           110220
         ],
         "entry_id": 136747,
+        "entry_max_ranks": 1,
         "definition_id": 141519,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Strength of the Black Ox",
         "spell_id": 443110,
+        "visible_spell_id": null,
         "icon": "ability_monk_chargingoxwave"
       },
       "pve_tooltip": "After Xuen assists you, your next Blackout Kick refunds 2 stacks of Teachings of the Monastery and causes Niuzao to stomp at your target's location, dealing (200% of Attack Power) damage to nearby enemies, reduced beyond 5 targets.",
@@ -9679,7 +10150,7 @@
           "talent_spell_id": 443110,
           "source_spell_id": 443127,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 2 )",
+          "effect_text": "School Damage (2): nature (AP mod: 2)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9706,10 +10177,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -9752,11 +10224,13 @@
           101235
         ],
         "entry_id": 125050,
+        "entry_max_ranks": 1,
         "definition_id": 129882,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Path of the Falling Star",
         "spell_id": 1273154,
+        "visible_spell_id": null,
         "icon": "ability_monk_chiswirl"
       },
       "pve_tooltip": "Celestial Conduit's healing and damage is increased by 100% when striking a single target.\nEach addtional target reduces this bonus by 20%.",
@@ -9807,11 +10281,13 @@
           109700
         ],
         "entry_id": 136754,
+        "entry_max_ranks": 1,
         "definition_id": 141526,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Yu'lon's Avatar",
         "spell_id": 1262667,
+        "visible_spell_id": null,
         "icon": "inv_celestialserpentmount_jade"
       },
       "pve_tooltip": "Approximately 1.5 procs per minute\nHeart of the Jade Serpent additionally triggers for 4 sec at 100% effectiveness after you cast Zenith.",
@@ -9909,11 +10385,13 @@
           101252
         ],
         "entry_id": 125074,
+        "entry_max_ranks": 1,
         "definition_id": 129906,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Against All Odds",
         "spell_id": 450986,
+        "visible_spell_id": null,
         "icon": "achievement_legionpvp6tier1"
       },
       "pve_tooltip": "Your agility is increased by 4%.",
@@ -9964,11 +10442,13 @@
           101252
         ],
         "entry_id": 125072,
+        "entry_max_ranks": 1,
         "definition_id": 129904,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Efficient Training",
         "spell_id": 450989,
+        "visible_spell_id": null,
         "icon": "inv_fistofthewhitetiger"
       },
       "pve_tooltip": "Energy spenders deal an additional 40% damage.\nThe cooldown of Zenith is reduced by 10 sec.",
@@ -10019,11 +10499,13 @@
           101252
         ],
         "entry_id": 125063,
+        "entry_max_ranks": 1,
         "definition_id": 129895,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Vigilant Watch",
         "spell_id": 450993,
+        "visible_spell_id": null,
         "icon": "ability_rogue_masterofsubtlety"
       },
       "pve_tooltip": "Blackout Kick deals an additional 30% critical damage.",
@@ -10074,11 +10556,13 @@
           101252
         ],
         "entry_id": 135957,
+        "entry_max_ranks": 1,
         "definition_id": 140712,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Weapons of the Wall",
         "spell_id": 1262610,
+        "visible_spell_id": null,
         "icon": "misc_legionfall_monk"
       },
       "pve_tooltip": "Zenith Stomp damage increased by 20%.",
@@ -10129,11 +10613,13 @@
           101239
         ],
         "entry_id": 125057,
+        "entry_max_ranks": 1,
         "definition_id": 129889,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Niuzao's Protection",
         "spell_id": 442747,
+        "visible_spell_id": null,
         "icon": "ability_monk_chargingoxwave"
       },
       "pve_tooltip": "Fortifying Brew grants you an absorb shield for 25% of your maximum health.",
@@ -10184,11 +10670,13 @@
           101239
         ],
         "entry_id": 125056,
+        "entry_max_ranks": 1,
         "definition_id": 129888,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Jade Sanctuary",
         "spell_id": 443059,
+        "visible_spell_id": null,
         "icon": "ability_monk_jadeserpentbreath"
       },
       "pve_tooltip": "You heal for 10% of your maximum health instantly when you activate Celestial Conduit and receive 15% less damage for its duration.\nThis effect lingers for an additional 8 sec after Celestial Conduit ends.",
@@ -10239,11 +10727,13 @@
           101239
         ],
         "entry_id": 136745,
+        "entry_max_ranks": 1,
         "definition_id": 141517,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Celestial Conduit",
         "spell_id": 1248989,
+        "visible_spell_id": null,
         "icon": "inv_ability_conduitofthecelestialsmonk_celestialconduit"
       },
       "pve_tooltip": "After Invoking Xuen, the White Tiger you may cast Celestial Conduit within 1 min.\nCelestial Conduit:\n[ Mistweaver: The August Celestials empower you, causing you to radiate [(1100% of Spell Power) * 5] healing onto up to 5 injured allies and [(165% of Attack Power) * 5] Nature damage onto enemies within 20 yds over 4 sec, reduced beyond 5 targets]\nYou may move while channeling, but casting other healing or damaging spells cancels this effect.",
@@ -10260,7 +10750,7 @@
           "talent_spell_id": 1248989,
           "source_spell_id": 443038,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 1.65 )",
+          "effect_text": "School Damage (2): nature (AP mod: 1.65)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -10289,10 +10779,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -10300,7 +10791,7 @@
           "talent_spell_id": 1248989,
           "source_spell_id": 443039,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 11)",
+          "effect_text": "Direct Heal (10) (SP mod: 11)",
           "base_value": null,
           "spell_pvp_multiplier": 2.25,
           "amount_kind": "direct",
@@ -10319,9 +10810,8 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10367,11 +10857,13 @@
           101239
         ],
         "entry_id": 125052,
+        "entry_max_ranks": 1,
         "definition_id": 129884,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Inner Compass",
         "spell_id": 443571,
+        "visible_spell_id": null,
         "icon": "inv_10_dungeonjewelry_explorer_trinket_1compass_color2"
       },
       "pve_tooltip": "You switch between alignments every 8 sec, increasing a corresponding secondary stat by 2%.\nCrane Stance:\nHaste\nTiger Stance:\nCritical Strike\nOx Stance:\nVersatility\nSerpent Stance:\nMastery",
@@ -10422,11 +10914,13 @@
           101239
         ],
         "entry_id": 135958,
+        "entry_max_ranks": 1,
         "definition_id": 140713,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Flowing Wisdom",
         "spell_id": 1262672,
+        "visible_spell_id": null,
         "icon": "ability_monk_flyingdragonkick"
       },
       "pve_tooltip": "Heart of the Jade Serpent increases your haste by 10% while active.",
@@ -10478,11 +10972,13 @@
         ],
         "next": [],
         "entry_id": 125073,
+        "entry_max_ranks": 1,
         "definition_id": 129905,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Wisdom of the Wall",
         "spell_id": 1272821,
+        "visible_spell_id": null,
         "icon": "inv_legendary_sigilofwisdom"
       },
       "pve_tooltip": "Zenith causes Rising Sun Kick and Spinning Crane Kick to launch 3 Flurry Strikes.\n(1s cooldown)",
@@ -10534,11 +11030,13 @@
         ],
         "next": [],
         "entry_id": 125058,
+        "entry_max_ranks": 1,
         "definition_id": 129890,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unity Within",
         "spell_id": 443589,
+        "visible_spell_id": null,
         "icon": "ability_monk_prideofthetiger"
       },
       "pve_tooltip": "Celestial Conduit can be recast once during its duration to call upon all of the August Celestials to assist you at 200% effectiveness.\nUnity Within is automatically cast when Celestial Conduit ends if not used before expiration.",
@@ -10554,12 +11052,336 @@
     }
   ],
   "fetch_errors": [],
+  "serialization": {
+    "version": 2,
+    "spec_id": 269,
+    "node_order": [
+      101035,
+      101036,
+      101037,
+      101038,
+      101039,
+      101040,
+      101041,
+      101043,
+      101044,
+      101045,
+      101046,
+      101047,
+      101048,
+      101049,
+      101050,
+      101051,
+      101052,
+      101053,
+      101054,
+      101055,
+      101056,
+      101057,
+      101059,
+      101060,
+      101061,
+      101062,
+      101063,
+      101064,
+      101065,
+      101067,
+      101068,
+      101069,
+      101070,
+      101071,
+      101072,
+      101073,
+      101074,
+      101075,
+      101076,
+      101077,
+      101078,
+      101079,
+      101080,
+      101081,
+      101082,
+      101083,
+      101084,
+      101085,
+      101086,
+      101087,
+      101088,
+      101089,
+      101090,
+      101092,
+      101093,
+      101094,
+      101095,
+      101096,
+      101097,
+      101098,
+      101099,
+      101100,
+      101101,
+      101102,
+      101103,
+      101104,
+      101106,
+      101107,
+      101108,
+      101109,
+      101110,
+      101111,
+      101112,
+      101113,
+      101114,
+      101115,
+      101116,
+      101117,
+      101118,
+      101119,
+      101120,
+      101121,
+      101122,
+      101123,
+      101124,
+      101125,
+      101126,
+      101127,
+      101128,
+      101129,
+      101130,
+      101131,
+      101132,
+      101133,
+      101134,
+      101135,
+      101136,
+      101137,
+      101138,
+      101139,
+      101140,
+      101141,
+      101142,
+      101143,
+      101144,
+      101145,
+      101146,
+      101147,
+      101148,
+      101149,
+      101150,
+      101151,
+      101152,
+      101153,
+      101154,
+      101155,
+      101156,
+      101157,
+      101158,
+      101159,
+      101160,
+      101161,
+      101162,
+      101163,
+      101164,
+      101165,
+      101166,
+      101167,
+      101168,
+      101169,
+      101170,
+      101171,
+      101172,
+      101173,
+      101174,
+      101175,
+      101176,
+      101177,
+      101178,
+      101179,
+      101180,
+      101181,
+      101182,
+      101183,
+      101184,
+      101185,
+      101186,
+      101187,
+      101188,
+      101189,
+      101190,
+      101193,
+      101195,
+      101196,
+      101197,
+      101198,
+      101199,
+      101201,
+      101202,
+      101203,
+      101204,
+      101205,
+      101206,
+      101207,
+      101208,
+      101209,
+      101210,
+      101211,
+      101212,
+      101213,
+      101214,
+      101215,
+      101216,
+      101217,
+      101218,
+      101219,
+      101220,
+      101221,
+      101222,
+      101223,
+      101224,
+      101225,
+      101226,
+      101227,
+      101228,
+      101229,
+      101230,
+      101231,
+      101232,
+      101233,
+      101234,
+      101235,
+      101236,
+      101237,
+      101238,
+      101239,
+      101240,
+      101242,
+      101243,
+      101244,
+      101245,
+      101246,
+      101247,
+      101248,
+      101249,
+      101250,
+      101251,
+      101252,
+      101253,
+      101254,
+      101710,
+      101711,
+      102004,
+      102250,
+      102432,
+      102433,
+      104128,
+      104129,
+      108540,
+      108946,
+      109516,
+      109694,
+      109695,
+      109696,
+      109697,
+      109698,
+      109699,
+      109700,
+      109701,
+      109826,
+      109827,
+      109882,
+      109883,
+      109910,
+      110019,
+      110020,
+      110021,
+      110022,
+      110023,
+      110024,
+      110025,
+      110026,
+      110027,
+      110067,
+      110095,
+      110097,
+      110098,
+      110211,
+      110218,
+      110220,
+      110221,
+      110435,
+      110436
+    ],
+    "subtree_nodes": [
+      {
+        "id": 101232,
+        "name": "Conduit of the Celestials / Shado-Pan",
+        "type": "subtree",
+        "posX": 8700,
+        "posY": 600,
+        "entryNode": true,
+        "next": [],
+        "prev": [],
+        "entries": [
+          {
+            "id": 125047,
+            "type": "subtree",
+            "name": "Conduit of the Celestials",
+            "traitSubTreeId": 64,
+            "traitTreeId": 1000,
+            "atlasMemberName": "talents-heroclass-monk-conduitofthecelestials",
+            "nodes": [
+              101243,
+              110067,
+              101236,
+              101242,
+              101233,
+              110221,
+              109701,
+              101237,
+              110211,
+              101234,
+              110218,
+              101238,
+              101240,
+              110220,
+              101235,
+              109700,
+              101239
+            ]
+          },
+          {
+            "id": 125046,
+            "type": "subtree",
+            "name": "Shado-Pan",
+            "traitSubTreeId": 65,
+            "traitTreeId": 1000,
+            "atlasMemberName": "talents-heroclass-monk-shadopan",
+            "nodes": [
+              101248,
+              101247,
+              101249,
+              101246,
+              109697,
+              101254,
+              101250,
+              101245,
+              109698,
+              101253,
+              101251,
+              101244,
+              109699,
+              101252
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "source_warnings": [],
   "slug": "monk-windwalker",
-  "generated_at": "2026-09-21T12:52:16.391365+00:00",
+  "generated_at": "2026-09-21T19:41:01.669868+00:00",
   "validation": {
     "talents": 148,
-    "changed_tooltips": 23,
+    "changed_tooltips": 27,
     "talents_with_pvp_mechanics": 32,
     "unique_nodes": 127,
     "tree_build": "12.1.0.69875",
@@ -10569,35 +11391,35 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 6,
+    "source_warning_count": 26,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
       {
         "source": "wowhead",
-        "spell_id": 457917,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=457917'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 158221,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=158221'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 467307,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=467307'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 185099,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=185099'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 468179,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=468179'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 228649,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=228649'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 1217411,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1217411'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 388201,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=388201'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       },
       {
         "source": "wowhead",
-        "spell_id": 1248815,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1248815'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        "spell_id": 388207,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=388207'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],

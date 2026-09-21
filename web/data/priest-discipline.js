@@ -43,11 +43,13 @@ window.WOW_PVP_DATA = {
           109009
         ],
         "entry_id": 103869,
+        "entry_max_ranks": 1,
         "definition_id": 108874,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Flash Heal",
         "spell_id": 393870,
+        "visible_spell_id": null,
         "icon": "spell_holy_heal"
       },
       "pve_tooltip": "Increases healing done by Flash Heal and Shadow Mend by 15%.",
@@ -97,11 +99,13 @@ window.WOW_PVP_DATA = {
           82672
         ],
         "entry_id": 103853,
+        "entry_max_ranks": 1,
         "definition_id": 108858,
         "entry_index": 0,
         "entry_type": "active",
         "talent_name": "Angelic Feather",
         "spell_id": 121536,
+        "visible_spell_id": null,
         "icon": "ability_priest_angelicfeather"
       },
       "pve_tooltip": "40 yd range\nInstant\n20 sec recharge\n3 Charges\nPlaces a feather at the target location, granting the first ally to walk through it 40% increased movement speed for 5 sec. Only 3 feathers can be placed at one time.",
@@ -151,11 +155,13 @@ window.WOW_PVP_DATA = {
           82701
         ],
         "entry_id": 103865,
+        "entry_max_ranks": 1,
         "definition_id": 108870,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Mind Blast",
         "spell_id": 8092,
+        "visible_spell_id": null,
         "icon": "spell_shadow_unholyfrenzy"
       },
       "pve_tooltip": "4% of base mana\n40 yd range\n1.5 sec cast\n28 sec cooldown\n1 Charge\nBlast the target's mind for (78.336% of Spell Power) Shadow damage. Costs a high amount of mana.",
@@ -263,15 +269,17 @@ window.WOW_PVP_DATA = {
           82716
         ],
         "entry_id": 103870,
+        "entry_max_ranks": 1,
         "definition_id": 108875,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Holy Nova",
         "spell_id": 132157,
+        "visible_spell_id": null,
         "icon": "spell_holy_holynova"
       },
       "pve_tooltip": "0.2% of base mana\nInstant\nAn explosion of holy light around you deals up to (40.95% of Spell Power) Holy damage to enemies and up to (31.5% of Spell Power) healing to allies within 12 yds, reduced if there are more than 5 targets.",
-      "pvp_tooltip": "0.2% of base mana\nInstant\nAn explosion of holy light around you deals up to (61.425% of Spell Power) Holy damage to enemies and up to (31.5% of Spell Power) healing to allies within 12 yds, reduced if there are more than 5 targets.",
+      "pvp_tooltip": "0.2% of base mana\nInstant\nAn explosion of holy light around you deals up to (61.425% of Spell Power) Holy damage to enemies and up to (32.445% of Spell Power) healing to allies within 12 yds, reduced if there are more than 5 targets.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -280,6 +288,16 @@ window.WOW_PVP_DATA = {
           "end": 82,
           "old_token": "40.95",
           "new_token": "61.425",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 134,
+          "end": 138,
+          "old_token": "31.5",
+          "new_token": "32.445",
           "kind": "spell_power_coefficient",
           "effect_indexes": [
             1
@@ -295,6 +313,15 @@ window.WOW_PVP_DATA = {
           "kind": "spell_power_coefficient",
           "old": "40.95",
           "new": "61.425"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "31.5",
+          "new": "32.445"
         }
       ],
       "has_pvp_mechanics": true,
@@ -334,7 +361,7 @@ window.WOW_PVP_DATA = {
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 132157,
           "source_spell_id": 281265,
           "effect_index": 1,
@@ -351,7 +378,7 @@ window.WOW_PVP_DATA = {
             281265
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -371,7 +398,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1,
+      "render_effect_count": 2,
       "rank_tooltips": []
     },
     {
@@ -414,11 +441,13 @@ window.WOW_PVP_DATA = {
           82556
         ],
         "entry_id": 103677,
+        "entry_max_ranks": 1,
         "definition_id": 108682,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Dispel Magic",
         "spell_id": 528,
+        "visible_spell_id": null,
         "icon": "spell_nature_nullifydisease"
       },
       "pve_tooltip": "14% of base mana\n30 yd range\nInstant\nDispels Magic on the enemy target, removing 1 beneficial Magic effect.",
@@ -471,11 +500,13 @@ window.WOW_PVP_DATA = {
           109006
         ],
         "entry_id": 103818,
+        "entry_max_ranks": 1,
         "definition_id": 108823,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Spiritual Guidance",
         "spell_id": 1250818,
+        "visible_spell_id": null,
         "icon": "spell_holy_spiritualguidence"
       },
       "pve_tooltip": "Increases your Intellect by 3%.",
@@ -528,11 +559,13 @@ window.WOW_PVP_DATA = {
           82710
         ],
         "entry_id": 103851,
+        "entry_max_ranks": 1,
         "definition_id": 108856,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Psychic Scream",
         "spell_id": 8122,
+        "visible_spell_id": null,
         "icon": "spell_shadow_psychicscream"
       },
       "pve_tooltip": "1.2% of base mana\nInstant\n40 sec cooldown\nLets out a psychic scream, causing all enemies within 8 yards to flee, disorienting them for 8 sec. Damage may interrupt the effect.",
@@ -581,11 +614,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103871,
+        "entry_max_ranks": 1,
         "definition_id": 108876,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lightburst",
         "spell_id": 1246549,
+        "visible_spell_id": null,
         "icon": "inv_ability_holyfire_nova"
       },
       "pve_tooltip": "Increases the damage of Holy Nova by 400%, its healing by 500%, and its cooldown by 30 sec.",
@@ -639,11 +674,13 @@ window.WOW_PVP_DATA = {
           109890
         ],
         "entry_id": 103867,
+        "entry_max_ranks": 1,
         "definition_id": 108872,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Leap of Faith",
         "spell_id": 73325,
+        "visible_spell_id": null,
         "icon": "priest_spell_leapoffaith_a"
       },
       "pve_tooltip": "2.6% of base mana\n40 yd range\nInstant\n1.5 min cooldown\n1 Charge\nPulls the spirit of a party or raid member, instantly moving them directly in front of you.",
@@ -694,11 +731,13 @@ window.WOW_PVP_DATA = {
           109890
         ],
         "entry_id": 103855,
+        "entry_max_ranks": 1,
         "definition_id": 108860,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Purify",
         "spell_id": 390632,
+        "visible_spell_id": null,
         "icon": "spell_holy_nullifydisease"
       },
       "pve_tooltip": "Purify additionally removes all Disease effects.",
@@ -752,11 +791,13 @@ window.WOW_PVP_DATA = {
           82687
         ],
         "entry_id": 103834,
+        "entry_max_ranks": 1,
         "definition_id": 108839,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Power Infusion",
         "spell_id": 10060,
+        "visible_spell_id": null,
         "icon": "spell_holy_powerinfusion"
       },
       "pve_tooltip": "40 yd range\nInstant\n28 sec cooldown\nInfuses the target with power for 15 sec, increasing haste by 20%.\nCan only be cast on players.",
@@ -835,11 +876,13 @@ window.WOW_PVP_DATA = {
           82710
         ],
         "entry_id": 103841,
+        "entry_max_ranks": 1,
         "definition_id": 119742,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Painful Invocation",
         "spell_id": 1251030,
+        "visible_spell_id": null,
         "icon": "spell_holy_mindsooth"
       },
       "pve_tooltip": "Increases the damage of Shadow Word: Pain by 10%.",
@@ -890,11 +933,13 @@ window.WOW_PVP_DATA = {
           82708
         ],
         "entry_id": 103845,
+        "entry_max_ranks": 1,
         "definition_id": 108850,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sheer Terror",
         "spell_id": 390919,
+        "visible_spell_id": null,
         "icon": "spell_nzinsanity_fearofdeath"
       },
       "pve_tooltip": "Increases the amount of damage required to break your Psychic Scream by 25%.",
@@ -945,15 +990,17 @@ window.WOW_PVP_DATA = {
           82708
         ],
         "entry_id": 114588,
+        "entry_max_ranks": 1,
         "definition_id": 119593,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Petrifying Scream",
         "spell_id": 55676,
+        "visible_spell_id": null,
         "icon": "spell_shadow_psychichorrors"
       },
-      "pve_tooltip": "Psychic Scream causes enemies to tremble in place instead of fleeing in fear.\nModifies Effect #2's Value -4:\nPandemonium, Psychic Scream",
-      "pvp_tooltip": "Psychic Scream causes enemies to tremble in place instead of fleeing in fear.\nModifies Effect #2's Value -4:\nPandemonium, Psychic Scream",
+      "pve_tooltip": "Psychic Scream causes enemies to tremble in place instead of fleeing in fear.",
+      "pvp_tooltip": "Psychic Scream causes enemies to tremble in place instead of fleeing in fear.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1001,11 +1048,13 @@ window.WOW_PVP_DATA = {
           82702
         ],
         "entry_id": 103868,
+        "entry_max_ranks": 1,
         "definition_id": 108873,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Surge of Light",
         "spell_id": 109186,
+        "visible_spell_id": null,
         "icon": "spell_holy_surgeoflight"
       },
       "pve_tooltip": "Your healing spells and Smite have a 8% chance to make your next Flash Heal instant and cost 50% less mana. Stacks to 2.",
@@ -1195,11 +1244,13 @@ window.WOW_PVP_DATA = {
           82699
         ],
         "entry_id": 136185,
+        "entry_max_ranks": 1,
         "definition_id": 140958,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Body and Soul",
         "spell_id": 64129,
+        "visible_spell_id": null,
         "icon": "spell_holy_symbolofhope"
       },
       "pve_tooltip": "Power Word: Shield and Leap of Faith increase your target's movement speed by 40% for 3 sec.",
@@ -1253,11 +1304,13 @@ window.WOW_PVP_DATA = {
           82690
         ],
         "entry_id": 136157,
+        "entry_max_ranks": 1,
         "definition_id": 140912,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Mass Dispel",
         "spell_id": 32375,
+        "visible_spell_id": null,
         "icon": "spell_arcane_massdispel"
       },
       "pve_tooltip": "20% of base mana\n30 yd range\n1.5 sec cast\n2 min cooldown\nDispels magic in a 15 yard radius, removing all harmful Magic from 5 friendly targets and 1 beneficial Magic effect from 5 enemy targets. Potent enough to remove Magic that is normally undispellable.",
@@ -1308,11 +1361,13 @@ window.WOW_PVP_DATA = {
           82690
         ],
         "entry_id": 134284,
+        "entry_max_ranks": 1,
         "definition_id": 139057,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Twins of the Sun Priestess",
         "spell_id": 373466,
+        "visible_spell_id": null,
         "icon": "spell_fire_felflamering_red"
       },
       "pve_tooltip": "Power Infusion also grants you its effect at 100% value when used on an ally.\nIf no ally is targeted, it will grant its effect at 100% value to a nearby ally, preferring damage dealers.",
@@ -1365,11 +1420,13 @@ window.WOW_PVP_DATA = {
           109020
         ],
         "entry_id": 103837,
+        "entry_max_ranks": 1,
         "definition_id": 108842,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Strength of Resolve",
         "spell_id": 1250820,
+        "visible_spell_id": null,
         "icon": "spell_holy_ashestoashes"
       },
       "pve_tooltip": "Increases your Stamina by 6%.",
@@ -1470,11 +1527,13 @@ window.WOW_PVP_DATA = {
           82693
         ],
         "entry_id": 103862,
+        "entry_max_ranks": 1,
         "definition_id": 108867,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Mind Control",
         "spell_id": 605,
+        "visible_spell_id": null,
         "icon": "spell_shadow_shadowworddominate"
       },
       "pve_tooltip": "2% of base mana\n30 yd range\n1.8 sec cast\nControls a mind up to 1 level above yours for 30 sec. Does not work versus Demonic, Undead, or Mechanical beings. Shares diminishing returns with other disorienting effects.",
@@ -1528,11 +1587,13 @@ window.WOW_PVP_DATA = {
           82693
         ],
         "entry_id": 103678,
+        "entry_max_ranks": 1,
         "definition_id": 108683,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Dominate Mind",
         "spell_id": 205364,
+        "visible_spell_id": null,
         "icon": "spell_priest_void_flay"
       },
       "pve_tooltip": "2% of base mana\n30 yd range\n1.8 sec cast\n30 sec cooldown\nControls a mind up to 1 level above yours for 30 sec while still controlling your own mind. Does not work versus Demonic, Mechanical, or Undead beings or players. This spell shares diminishing returns with other disorienting effects.",
@@ -1583,11 +1644,13 @@ window.WOW_PVP_DATA = {
           82693
         ],
         "entry_id": 103860,
+        "entry_max_ranks": 1,
         "definition_id": 108865,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Psychic Voice",
         "spell_id": 196704,
+        "visible_spell_id": null,
         "icon": "ability_warrior_commandingshout"
       },
       "pve_tooltip": "Reduces the cooldown of Psychic Scream by 10 sec.",
@@ -1638,11 +1701,13 @@ window.WOW_PVP_DATA = {
           82693
         ],
         "entry_id": 103859,
+        "entry_max_ranks": 1,
         "definition_id": 108864,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Void Tendrils",
         "spell_id": 1250691,
+        "visible_spell_id": null,
         "icon": "spell_priest_voidtendrils"
       },
       "pve_tooltip": "Call shadowy tendrils to constrict enemies when Psychic Scream ends, rooting them in place for 4 sec.",
@@ -1693,11 +1758,13 @@ window.WOW_PVP_DATA = {
           82696
         ],
         "entry_id": 103852,
+        "entry_max_ranks": 1,
         "definition_id": 108857,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Everlasting Light",
         "spell_id": 1249233,
+        "visible_spell_id": null,
         "icon": "spell_holy_greaterheal"
       },
       "pve_tooltip": "Surge of Light occurs up to 50% more often based on your missing mana.",
@@ -1749,11 +1816,13 @@ window.WOW_PVP_DATA = {
           82678
         ],
         "entry_id": 103849,
+        "entry_max_ranks": 1,
         "definition_id": 108854,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Move with Grace",
         "spell_id": 390620,
+        "visible_spell_id": null,
         "icon": "ability_priest_savinggrace"
       },
       "pve_tooltip": "Reduces the cooldown of Leap of Faith by 30 sec.",
@@ -1804,11 +1873,13 @@ window.WOW_PVP_DATA = {
           82678
         ],
         "entry_id": 134852,
+        "entry_max_ranks": 1,
         "definition_id": 139620,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Mental Agility",
         "spell_id": 341167,
+        "visible_spell_id": null,
         "icon": "spell_holy_dispelmagic"
       },
       "pve_tooltip": "Reduces the mana cost of Purify and Mass Dispel by 50% and Dispel Magic by 10%.",
@@ -1959,11 +2030,13 @@ window.WOW_PVP_DATA = {
           82712
         ],
         "entry_id": 103840,
+        "entry_max_ranks": 1,
         "definition_id": 108845,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Twin Disciplines",
         "spell_id": 1251077,
+        "visible_spell_id": null,
         "icon": "ability_priest_innerlightandshadow"
       },
       "pve_tooltip": "Increases the damage and healing of your Holy and Shadow spells by 2%.",
@@ -2016,11 +2089,13 @@ window.WOW_PVP_DATA = {
           109021
         ],
         "entry_id": 134859,
+        "entry_max_ranks": 1,
         "definition_id": 139627,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Dark Enlightenment",
         "spell_id": 1250835,
+        "visible_spell_id": null,
         "icon": "ability_priest_darkness"
       },
       "pve_tooltip": "Increases your haste by 3%.",
@@ -2071,11 +2146,13 @@ window.WOW_PVP_DATA = {
           109021
         ],
         "entry_id": 134841,
+        "entry_max_ranks": 1,
         "definition_id": 139609,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "False Autonomy",
         "spell_id": 1250806,
+        "visible_spell_id": null,
         "icon": "spell_arcane_mindmastery"
       },
       "pve_tooltip": "Increases the duration of Mind Control and Dominate Mind against enemy creatures by 15 sec.",
@@ -2127,11 +2204,13 @@ window.WOW_PVP_DATA = {
           109021
         ],
         "entry_id": 103843,
+        "entry_max_ranks": 1,
         "definition_id": 108848,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Shackle Horror",
         "spell_id": 9484,
+        "visible_spell_id": null,
         "icon": "spell_nature_slow"
       },
       "pve_tooltip": "1.2% of base mana\n30 yd range\n1.5 sec cast\nShackles an aberration or undead enemy for 50 sec, preventing all actions and movement. Damage will cancel the effect. Limit 1.",
@@ -2183,11 +2262,13 @@ window.WOW_PVP_DATA = {
           109012
         ],
         "entry_id": 103846,
+        "entry_max_ranks": 1,
         "definition_id": 108851,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Inspiration",
         "spell_id": 390676,
+        "visible_spell_id": null,
         "icon": "spell_holy_layonhands"
       },
       "pve_tooltip": "Reduces your target's physical damage taken by 5% for 15 sec after a critical heal with Flash Heal, Shadow Mend, or Penance.",
@@ -2241,11 +2322,13 @@ window.WOW_PVP_DATA = {
           82684
         ],
         "entry_id": 103825,
+        "entry_max_ranks": 1,
         "definition_id": 108830,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Binding Heals",
         "spell_id": 368275,
+        "visible_spell_id": null,
         "icon": "spell_holy_blindingheal"
       },
       "pve_tooltip": "20% of Flash Heal healing on other targets also heals you.",
@@ -2299,11 +2382,13 @@ window.WOW_PVP_DATA = {
           109015
         ],
         "entry_id": 103864,
+        "entry_max_ranks": 1,
         "definition_id": 108869,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Shadow Word: Death",
         "spell_id": 32379,
+        "visible_spell_id": null,
         "icon": "spell_shadow_demonicfortitude"
       },
       "pve_tooltip": "0.5% of base mana\n40 yd range\nInstant\n10 sec cooldown\n1 Charge\nA word of dark binding that inflicts (85% of Spell Power) Shadow damage to your target. If your target is not killed by Shadow Word: Death, you take backlash damage equal to 5% of your maximum health.\nDamage increased by 150% to targets below 20% health.",
@@ -2454,11 +2539,13 @@ window.WOW_PVP_DATA = {
           109015
         ],
         "entry_id": 134860,
+        "entry_max_ranks": 1,
         "definition_id": 139628,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sanguine Teachings",
         "spell_id": 373218,
+        "visible_spell_id": null,
         "icon": "inv_archaeology_80_zandalari_sanguinetotem"
       },
       "pve_tooltip": "Increases your Leech by 2%.",
@@ -2511,11 +2598,13 @@ window.WOW_PVP_DATA = {
           82677
         ],
         "entry_id": 134846,
+        "entry_max_ranks": 1,
         "definition_id": 139614,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Desperate Prayer",
         "spell_id": 19236,
+        "visible_spell_id": null,
         "icon": "spell_holy_testoffaith"
       },
       "pve_tooltip": "Instant\n1.5 min cooldown\nIncreases maximum health by [Light's Inspiration: 35 / 25]% for 10 sec, and instantly heals you for that amount.",
@@ -2568,11 +2657,13 @@ window.WOW_PVP_DATA = {
           109011
         ],
         "entry_id": 103833,
+        "entry_max_ranks": 2,
         "definition_id": 108838,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Twist of Fate",
         "spell_id": 390972,
+        "visible_spell_id": null,
         "icon": "spell_shadow_mindtwisting"
       },
       "pve_tooltip": "After damaging or healing a target below 35% health, gain 10% increased damage and healing for 8 sec.\n(500ms cooldown)",
@@ -2590,6 +2681,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "After damaging or healing a target below 35% health, gain 5% increased damage and healing for 8 sec.\n(500ms cooldown)",
           "pvp_tooltip": "After damaging or healing a target below 35% health, gain 5% increased damage and healing for 8 sec.\n(500ms cooldown)",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2598,6 +2690,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "After damaging or healing a target below 35% health, gain 10% increased damage and healing for 8 sec.\n(500ms cooldown)",
           "pvp_tooltip": "After damaging or healing a target below 35% health, gain 10% increased damage and healing for 8 sec.\n(500ms cooldown)",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2640,11 +2733,13 @@ window.WOW_PVP_DATA = {
           109011
         ],
         "entry_id": 103863,
+        "entry_max_ranks": 1,
         "definition_id": 108868,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Tithe Evasion",
         "spell_id": 373223,
+        "visible_spell_id": null,
         "icon": "spell_nzinsanity_bloodthirst"
       },
       "pve_tooltip": "Shadow Word: Death deals 50% less damage to you.",
@@ -2698,11 +2793,13 @@ window.WOW_PVP_DATA = {
           82686
         ],
         "entry_id": 134849,
+        "entry_max_ranks": 1,
         "definition_id": 139617,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Fade",
         "spell_id": 586,
+        "visible_spell_id": null,
         "icon": "spell_magic_lesserinvisibilty"
       },
       "pve_tooltip": "Instant\n30 sec cooldown\nFade out, removing all your threat and reducing enemies' detection range against you for 10 sec.",
@@ -2754,11 +2851,13 @@ window.WOW_PVP_DATA = {
           82697
         ],
         "entry_id": 103831,
+        "entry_max_ranks": 1,
         "definition_id": 108836,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Angel's Mercy",
         "spell_id": 238100,
+        "visible_spell_id": null,
         "icon": "spell_holy_testoffaith"
       },
       "pve_tooltip": "Reduces the cooldown of Desperate Prayer by 20 sec.",
@@ -2811,11 +2910,13 @@ window.WOW_PVP_DATA = {
           109010
         ],
         "entry_id": 103823,
+        "entry_max_ranks": 1,
         "definition_id": 108828,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Protective Light",
         "spell_id": 193063,
+        "visible_spell_id": null,
         "icon": "spell_holy_holyprotection"
       },
       "pve_tooltip": "Casting Flash Heal or Shadow Mend on yourself reduces all damage you take by 10% for 10 sec.",
@@ -2868,11 +2969,13 @@ window.WOW_PVP_DATA = {
           109010
         ],
         "entry_id": 134845,
+        "entry_max_ranks": 1,
         "definition_id": 139613,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Mindpierce",
         "spell_id": 1251029,
+        "visible_spell_id": null,
         "icon": "spell_shadow_mindshear"
       },
       "pve_tooltip": "Increases the damage of Smite by 15%.",
@@ -2923,11 +3026,13 @@ window.WOW_PVP_DATA = {
           82674
         ],
         "entry_id": 134848,
+        "entry_max_ranks": 1,
         "definition_id": 139616,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Spectral Illusion",
         "spell_id": 1250378,
+        "visible_spell_id": null,
         "icon": "spell_priest_spectralguise"
       },
       "pve_tooltip": "Fade creates an illusion of you for 4 sec, tricking enemies to attack it instead.",
@@ -2979,15 +3084,17 @@ window.WOW_PVP_DATA = {
           82685
         ],
         "entry_id": 103836,
+        "entry_max_ranks": 2,
         "definition_id": 108841,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Fade",
         "spell_id": 390670,
+        "visible_spell_id": null,
         "icon": "spell_magic_lesserinvisibilty"
       },
-      "pve_tooltip": "Reduces the cooldown of Fade by (10)) sec.",
-      "pvp_tooltip": "Reduces the cooldown of Fade by (10)) sec.",
+      "pve_tooltip": "Reduces the cooldown of Fade by 10 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Fade by 10 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2998,17 +3105,19 @@ window.WOW_PVP_DATA = {
       "rank_tooltips": [
         {
           "rank": 1,
-          "pve_tooltip": "Reduces the cooldown of Fade by (5)) sec.",
-          "pvp_tooltip": "Reduces the cooldown of Fade by (5)) sec.",
+          "pve_tooltip": "Reduces the cooldown of Fade by 5 sec.",
+          "pvp_tooltip": "Reduces the cooldown of Fade by 5 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
         {
           "rank": 2,
-          "pve_tooltip": "Reduces the cooldown of Fade by (10)) sec.",
-          "pvp_tooltip": "Reduces the cooldown of Fade by (10)) sec.",
+          "pve_tooltip": "Reduces the cooldown of Fade by 10 sec.",
+          "pvp_tooltip": "Reduces the cooldown of Fade by 10 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -3051,11 +3160,13 @@ window.WOW_PVP_DATA = {
           82675
         ],
         "entry_id": 103826,
+        "entry_max_ranks": 1,
         "definition_id": 108831,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Light's Inspiration",
         "spell_id": 373450,
+        "visible_spell_id": null,
         "icon": "spell_holy_restoration"
       },
       "pve_tooltip": "Increases the maximum health gained from Desperate Prayer by 10%.",
@@ -3108,11 +3219,13 @@ window.WOW_PVP_DATA = {
           82676
         ],
         "entry_id": 103847,
+        "entry_max_ranks": 2,
         "definition_id": 108852,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unwavering Will",
         "spell_id": 373456,
+        "visible_spell_id": null,
         "icon": "ability_warrior_unrelentingassault"
       },
       "pve_tooltip": "While above 75% health, the cast time of your Flash Heal, Shadow Mend, and Smite are reduced by 10%.",
@@ -3130,6 +3243,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "While above 75% health, the cast time of your Flash Heal, Shadow Mend, and Smite are reduced by 5%.",
           "pvp_tooltip": "While above 75% health, the cast time of your Flash Heal, Shadow Mend, and Smite are reduced by 5%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -3138,6 +3252,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "While above 75% health, the cast time of your Flash Heal, Shadow Mend, and Smite are reduced by 10%.",
           "pvp_tooltip": "While above 75% health, the cast time of your Flash Heal, Shadow Mend, and Smite are reduced by 10%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -3182,11 +3297,13 @@ window.WOW_PVP_DATA = {
           82673
         ],
         "entry_id": 134844,
+        "entry_max_ranks": 2,
         "definition_id": 139612,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Spell Warding",
         "spell_id": 390667,
+        "visible_spell_id": null,
         "icon": "spell_holy_spellwarding"
       },
       "pve_tooltip": "Reduces all magic damage taken by 6%.",
@@ -3251,6 +3368,18 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Reduces all magic damage taken by 3%.",
           "pvp_tooltip": "Reduces all magic damage taken by 2%.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 34,
+              "end": 35,
+              "old_token": "3",
+              "new_token": "2",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -3259,6 +3388,18 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Reduces all magic damage taken by 6%.",
           "pvp_tooltip": "Reduces all magic damage taken by 4%.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 34,
+              "end": 35,
+              "old_token": "6",
+              "new_token": "4",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -3303,11 +3444,13 @@ window.WOW_PVP_DATA = {
           82685
         ],
         "entry_id": 115883,
+        "entry_max_ranks": 1,
         "definition_id": 120895,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Phantasm",
         "spell_id": 108942,
+        "visible_spell_id": null,
         "icon": "ability_priest_phantasm"
       },
       "pve_tooltip": "Activating Fade removes all snare effects.",
@@ -3357,11 +3500,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103821,
+        "entry_max_ranks": 1,
         "definition_id": 108826,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Angelic Bulwark",
         "spell_id": 108945,
+        "visible_spell_id": null,
         "icon": "ability_priest_angelicbulwark"
       },
       "pve_tooltip": "When an attack brings you below 30% health, you gain an absorption shield equal to 25% of your maximum health for 20 sec. Cannot occur more than once every 90 sec.",
@@ -3411,11 +3556,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 115884,
+        "entry_max_ranks": 1,
         "definition_id": 120896,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Benevolence",
         "spell_id": 415416,
+        "visible_spell_id": null,
         "icon": "ability_priest_spiritoftheredeemer"
       },
       "pve_tooltip": "Increases the healing of your spells by 3%.",
@@ -3465,11 +3612,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 135091,
+        "entry_max_ranks": 1,
         "definition_id": 139859,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Focused Power",
         "spell_id": 1249230,
+        "visible_spell_id": null,
         "icon": "ability_priest_focusedwill"
       },
       "pve_tooltip": "Increases the damage of your spells by 3%.",
@@ -3519,11 +3668,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103819,
+        "entry_max_ranks": 1,
         "definition_id": 108824,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Phantom Reach",
         "spell_id": 459559,
+        "visible_spell_id": null,
         "icon": "spell_shadow_chilltouch"
       },
       "pve_tooltip": "Increases the range of most spells by 15%.",
@@ -3573,11 +3724,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103835,
+        "entry_max_ranks": 1,
         "definition_id": 108840,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Translucent Image",
         "spell_id": 373446,
+        "visible_spell_id": null,
         "icon": "spell_shadow_twistedfaith"
       },
       "pve_tooltip": "Fade reduces damage you take by 10%.",
@@ -3628,11 +3781,13 @@ window.WOW_PVP_DATA = {
           82595
         ],
         "entry_id": 103723,
+        "entry_max_ranks": 1,
         "definition_id": 108728,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Atonement",
         "spell_id": 81749,
+        "visible_spell_id": null,
         "icon": "ability_priest_atonement"
       },
       "pve_tooltip": "Power Word: Shield, Flash Heal, Shadow Mend, Plea, and Power Word: Radiance apply Atonement to your target for 15 sec.\nYour spell damage heals all targets affected by Atonement for 46% of the damage done. Healing is reduced when healing more than 5 targets.",
@@ -3731,11 +3886,13 @@ window.WOW_PVP_DATA = {
           92225
         ],
         "entry_id": 103722,
+        "entry_max_ranks": 1,
         "definition_id": 108727,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Power Word: Radiance",
         "spell_id": 194509,
+        "visible_spell_id": null,
         "icon": "spell_priest_power_word"
       },
       "pve_tooltip": "5.4% of base mana\n40 yd range\n2 sec cast\n18 sec cooldown\n1 Charge\nA burst of light heals the target and 4 injured allies within 40 yards for (575% of Spell Power), and applies Atonement for 60% of its normal duration.",
@@ -3844,11 +4001,13 @@ window.WOW_PVP_DATA = {
           82588
         ],
         "entry_id": 103713,
+        "entry_max_ranks": 1,
         "definition_id": 108718,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Pain Suppression",
         "spell_id": 33206,
+        "visible_spell_id": null,
         "icon": "spell_holy_painsupression"
       },
       "pve_tooltip": "1.6% of base mana\n40 yd range\nInstant\n3 min cooldown\n1 Charge\nReduces all damage taken by a friendly target by 40% for 8 sec. Castable while stunned.",
@@ -3900,11 +4059,13 @@ window.WOW_PVP_DATA = {
           82579
         ],
         "entry_id": 103724,
+        "entry_max_ranks": 1,
         "definition_id": 108729,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Power of the Dark Side",
         "spell_id": 198068,
+        "visible_spell_id": null,
         "icon": "inv_artifact_powerofthedarkside"
       },
       "pve_tooltip": "Approximately 1 procs per minute\nShadow Word: Pain has a chance to empower your next Penance with Shadow, increasing its effectiveness by 30%.",
@@ -3956,12 +4117,14 @@ window.WOW_PVP_DATA = {
           82589
         ],
         "entry_id": 103721,
+        "entry_max_ranks": 1,
         "definition_id": 108726,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Light's Promise",
         "spell_id": 322115,
-        "icon": "spell_priest_power_word"
+        "visible_spell_id": null,
+        "icon": "spell_priest_power-word"
       },
       "pve_tooltip": "Power Word: Radiance gains an additional charge.",
       "pvp_tooltip": "Power Word: Radiance gains an additional charge.",
@@ -4013,11 +4176,13 @@ window.WOW_PVP_DATA = {
           82564
         ],
         "entry_id": 108225,
+        "entry_max_ranks": 1,
         "definition_id": 113230,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sanctuary",
         "spell_id": 231682,
+        "visible_spell_id": null,
         "icon": "spell_holy_holysmite"
       },
       "pve_tooltip": "Smite prevents the next [(Shadow spell power * 180 / 100) * (1 + Versatility)] damage dealt by the enemy.",
@@ -4068,11 +4233,13 @@ window.WOW_PVP_DATA = {
           82564
         ],
         "entry_id": 103715,
+        "entry_max_ranks": 1,
         "definition_id": 108720,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Pain Transformation",
         "spell_id": 372991,
+        "visible_spell_id": null,
         "icon": "spell_holy_blessedrecovery"
       },
       "pve_tooltip": "Pain Suppression also heals your target for 15% of their maximum health and applies Atonement.",
@@ -4123,11 +4290,13 @@ window.WOW_PVP_DATA = {
           82564
         ],
         "entry_id": 103714,
+        "entry_max_ranks": 1,
         "definition_id": 108719,
         "entry_index": 300,
         "entry_type": "passive",
         "talent_name": "Protector of the Frail",
         "spell_id": 373035,
+        "visible_spell_id": null,
         "icon": "ability_racial_forceshield"
       },
       "pve_tooltip": "Pain Suppression gains an additional charge.\nPower Word: Shield reduces the cooldown of Pain Suppression by 3 sec.",
@@ -4179,11 +4348,13 @@ window.WOW_PVP_DATA = {
           82597
         ],
         "entry_id": 103725,
+        "entry_max_ranks": 1,
         "definition_id": 108730,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Dark Indulgence",
         "spell_id": 372972,
+        "visible_spell_id": null,
         "icon": "spell_shadow_unholyfrenzy"
       },
       "pve_tooltip": "Mind Blast has a 100% chance to grant Power of the Dark Side and deals 20% additional damage.",
@@ -4236,11 +4407,13 @@ window.WOW_PVP_DATA = {
           82581
         ],
         "entry_id": 103704,
+        "entry_max_ranks": 1,
         "definition_id": 108709,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Encroaching Shadows",
         "spell_id": 472568,
+        "visible_spell_id": null,
         "icon": "spell_shadow_painspike"
       },
       "pve_tooltip": "Shadow Word: Pain Spreads to [Revel in Darkness: 2 nearby enemies / a nearby enemy] when you cast Penance on the target.",
@@ -4291,11 +4464,13 @@ window.WOW_PVP_DATA = {
           82590
         ],
         "entry_id": 103720,
+        "entry_max_ranks": 1,
         "definition_id": 108725,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Bright Pupil",
         "spell_id": 390684,
+        "visible_spell_id": null,
         "icon": "spell_holy_surgeoflight"
       },
       "pve_tooltip": "Reduces the cooldown of Power Word: Radiance by 3 sec.",
@@ -4346,11 +4521,13 @@ window.WOW_PVP_DATA = {
           82590
         ],
         "entry_id": 103719,
+        "entry_max_ranks": 1,
         "definition_id": 108724,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Enduring Luminescence",
         "spell_id": 390685,
+        "visible_spell_id": null,
         "icon": "ability_priest_holybolts01"
       },
       "pve_tooltip": "Reduces the cast time of Power Word: Radiance by 30% and causes it to apply Atonement at an additional 10% of its normal duration.",
@@ -4403,11 +4580,13 @@ window.WOW_PVP_DATA = {
           82598
         ],
         "entry_id": 103717,
+        "entry_max_ranks": 1,
         "definition_id": 108722,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Shield Discipline",
         "spell_id": 197045,
+        "visible_spell_id": null,
         "icon": "spell_holy_divineprotection"
       },
       "pve_tooltip": "When your Power Word: Shield is completely absorbed, you restore 0.5% of your maximum mana.",
@@ -4460,11 +4639,13 @@ window.WOW_PVP_DATA = {
           82598
         ],
         "entry_id": 116182,
+        "entry_max_ranks": 1,
         "definition_id": 121194,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Ultimate Penitence",
         "spell_id": 421453,
+        "visible_spell_id": null,
         "icon": "ability_priest_ascendance"
       },
       "pve_tooltip": "40 yd range\n1.5 sec cast\n4 min cooldown\nAscend into the air and unleash a massive barrage of Penance bolts, causing [(247% of Spell Power)> * 24] Holy damage to enemies or [(578.5% of Spell Power)> * 24] healing to allies over 6 sec.\nWhile ascended, gain a shield for 100% of your health. In addition, you are unaffected by knockbacks or crowd control effects.",
@@ -4617,11 +4798,13 @@ window.WOW_PVP_DATA = {
           82598
         ],
         "entry_id": 103687,
+        "entry_max_ranks": 1,
         "definition_id": 108692,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Power Word: Barrier",
         "spell_id": 62618,
+        "visible_spell_id": null,
         "icon": "spell_holy_powerwordbarrier"
       },
       "pve_tooltip": "4% of base mana\n40 yd range\nInstant\n3 min cooldown\nSummons a holy barrier to protect all allies at the target location for 10 sec, reducing all damage taken by 20% and preventing damage from delaying spellcasting.",
@@ -4726,11 +4909,13 @@ window.WOW_PVP_DATA = {
           82581
         ],
         "entry_id": 103726,
+        "entry_max_ranks": 1,
         "definition_id": 108731,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Painful Punishment",
         "spell_id": 390686,
+        "visible_spell_id": null,
         "icon": "ability_priest_clarityofpower"
       },
       "pve_tooltip": "Each Penance bolt extends the duration of Shadow Word: Pain on enemies hit by 1.5 sec.",
@@ -4781,11 +4966,13 @@ window.WOW_PVP_DATA = {
           82581
         ],
         "entry_id": 103705,
+        "entry_max_ranks": 1,
         "definition_id": 108710,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Revel in Darkness",
         "spell_id": 373003,
+        "visible_spell_id": null,
         "icon": "ability_rogue_envelopingshadows"
       },
       "pve_tooltip": "Shadow Word: Pain deals 5% additional damage and spreads to 1 additional target when you cast Penance to its target.",
@@ -4838,11 +5025,13 @@ window.WOW_PVP_DATA = {
           82575
         ],
         "entry_id": 103718,
+        "entry_max_ranks": 1,
         "definition_id": 108723,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Holy Ray",
         "spell_id": 372969,
+        "visible_spell_id": null,
         "icon": "ability_paladin_infusionoflight"
       },
       "pve_tooltip": "Each successive Penance bolt during a channel deals 5% increased damage and healing.",
@@ -4897,11 +5086,13 @@ window.WOW_PVP_DATA = {
           82578
         ],
         "entry_id": 103727,
+        "entry_max_ranks": 1,
         "definition_id": 108732,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lenience",
         "spell_id": 238063,
+        "visible_spell_id": null,
         "icon": "ability_priest_atonement"
       },
       "pve_tooltip": "Atonement reduces damage taken by 2%.",
@@ -4955,11 +5146,13 @@ window.WOW_PVP_DATA = {
           82582
         ],
         "entry_id": 103706,
+        "entry_max_ranks": 1,
         "definition_id": 108711,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shadow Tap",
         "spell_id": 1235211,
+        "visible_spell_id": null,
         "icon": "ability_creature_disease_05"
       },
       "pve_tooltip": "Mind Blast deals 150% increased damage, but costs 40% more mana.",
@@ -5010,11 +5203,13 @@ window.WOW_PVP_DATA = {
           82600
         ],
         "entry_id": 103690,
+        "entry_max_ranks": 1,
         "definition_id": 108695,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Purge the Wicked",
         "spell_id": 1250218,
+        "visible_spell_id": null,
         "icon": "ability_mage_firestarter"
       },
       "pve_tooltip": "Holy damage increased by 10%.",
@@ -5067,11 +5262,13 @@ window.WOW_PVP_DATA = {
           82577
         ],
         "entry_id": 103700,
+        "entry_max_ranks": 1,
         "definition_id": 108705,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Castigation",
         "spell_id": 193134,
+        "visible_spell_id": null,
         "icon": "spell_holy_searinglightpriest"
       },
       "pve_tooltip": "Penance fires one additional bolt of holy light over its duration.",
@@ -5122,11 +5319,13 @@ window.WOW_PVP_DATA = {
           82577
         ],
         "entry_id": 108226,
+        "entry_max_ranks": 1,
         "definition_id": 113231,
         "entry_index": 300,
         "entry_type": "passive",
         "talent_name": "Indemnity",
         "spell_id": 373049,
+        "visible_spell_id": null,
         "icon": "ability_priest_clarityofwill"
       },
       "pve_tooltip": "Atonements granted by Power Word: Shield last an additional 4 sec.",
@@ -5179,11 +5378,13 @@ window.WOW_PVP_DATA = {
           82583
         ],
         "entry_id": 103703,
+        "entry_max_ranks": 2,
         "definition_id": 108708,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Pain and Suffering",
         "spell_id": 390689,
+        "visible_spell_id": null,
         "icon": "spell_shadow_shadowwordpain"
       },
       "pve_tooltip": "Increases the damage of Shadow Word: Pain by 30% and increases its duration by 4 sec.",
@@ -5201,6 +5402,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Increases the damage of Shadow Word: Pain by 15% and increases its duration by 2 sec.",
           "pvp_tooltip": "Increases the damage of Shadow Word: Pain by 15% and increases its duration by 2 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -5209,6 +5411,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Increases the damage of Shadow Word: Pain by 30% and increases its duration by 4 sec.",
           "pvp_tooltip": "Increases the damage of Shadow Word: Pain by 30% and increases its duration by 4 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -5251,11 +5454,13 @@ window.WOW_PVP_DATA = {
           82583
         ],
         "entry_id": 103708,
+        "entry_max_ranks": 1,
         "definition_id": 108713,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Occultist",
         "spell_id": 1250293,
+        "visible_spell_id": null,
         "icon": "ability_priest_touchofdecay"
       },
       "pve_tooltip": "Shadow damage and healing done increased by 15%.",
@@ -5308,11 +5513,13 @@ window.WOW_PVP_DATA = {
           82601
         ],
         "entry_id": 103729,
+        "entry_max_ranks": 2,
         "definition_id": 108734,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Harsh Discipline",
         "spell_id": 373180,
+        "visible_spell_id": null,
         "icon": "ability_paladin_handoflight"
       },
       "pve_tooltip": "Power Word: Radiance causes your next Penance to fire 2 additional bolts, stacking up to 2 charges.",
@@ -5330,6 +5537,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Power Word: Radiance causes your next Penance to fire 1 additional bolts, stacking up to 2 charges.",
           "pvp_tooltip": "Power Word: Radiance causes your next Penance to fire 1 additional bolts, stacking up to 2 charges.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -5338,6 +5546,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Power Word: Radiance causes your next Penance to fire 2 additional bolts, stacking up to 2 charges.",
           "pvp_tooltip": "Power Word: Radiance causes your next Penance to fire 2 additional bolts, stacking up to 2 charges.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -5384,11 +5593,13 @@ window.WOW_PVP_DATA = {
           82567
         ],
         "entry_id": 103702,
+        "entry_max_ranks": 1,
         "definition_id": 108707,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Evangelism",
         "spell_id": 472433,
+        "visible_spell_id": null,
         "icon": "spell_holy_divineillumination"
       },
       "pve_tooltip": "40 yd range\nInstant\n1.5 min cooldown\nImmediately Power Word: Radiance your target at 150% effectiveness, and causes your next 2 casts of Power Word: Radiance to be instant cast with 40% reduced mana cost.",
@@ -5441,11 +5652,13 @@ window.WOW_PVP_DATA = {
           82570
         ],
         "entry_id": 103709,
+        "entry_max_ranks": 2,
         "definition_id": 108714,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Abyssal Reverie",
         "spell_id": 373054,
+        "visible_spell_id": null,
         "icon": "ability_priest_surgeofdarkness"
       },
       "pve_tooltip": "Atonement heals for 10% more when activated by Shadow spells.",
@@ -5463,6 +5676,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Atonement heals for 5% more when activated by Shadow spells.",
           "pvp_tooltip": "Atonement heals for 5% more when activated by Shadow spells.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -5471,6 +5685,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Atonement heals for 10% more when activated by Shadow spells.",
           "pvp_tooltip": "Atonement heals for 10% more when activated by Shadow spells.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -5514,15 +5729,17 @@ window.WOW_PVP_DATA = {
           82602
         ],
         "entry_id": 103728,
+        "entry_max_ranks": 1,
         "definition_id": 108733,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Divine Procession",
         "spell_id": 472361,
+        "visible_spell_id": null,
         "icon": "ability_priest_evangelism"
       },
       "pve_tooltip": "Smite extends the duration of an active Atonement by 2.0 sec.",
-      "pvp_tooltip": "Smite extends the duration of an active Atonement by 1.0 sec.",
+      "pvp_tooltip": "Smite extends the duration of an active Atonement by 1 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -5530,8 +5747,8 @@ window.WOW_PVP_DATA = {
           "start": 53,
           "end": 56,
           "old_token": "2.0",
-          "new_token": "1.0",
-          "kind": "duration_seconds",
+          "new_token": "1",
+          "kind": "ordinary_value",
           "effect_indexes": [
             1
           ]
@@ -5543,9 +5760,9 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "duration_seconds",
+          "kind": "ordinary_value",
           "old": "2.0",
-          "new": "1.0"
+          "new": "1"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5618,11 +5835,13 @@ window.WOW_PVP_DATA = {
           82572
         ],
         "entry_id": 103731,
+        "entry_max_ranks": 1,
         "definition_id": 108736,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Inner Focus",
         "spell_id": 390693,
+        "visible_spell_id": null,
         "icon": "spell_frost_windwalkon"
       },
       "pve_tooltip": "Flash Heal, Shadow Mend, Power Word: Shield, Penance, and Power Word: Radiance have a 20% increased chance to critically heal.",
@@ -5674,11 +5893,13 @@ window.WOW_PVP_DATA = {
           82568
         ],
         "entry_id": 103696,
+        "entry_max_ranks": 1,
         "definition_id": 108701,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Archangel",
         "spell_id": 197862,
+        "visible_spell_id": null,
         "icon": "ability_priest_archangel"
       },
       "pve_tooltip": "Evangelism increases your healing and absorption effects by 15% for 18 sec.",
@@ -5730,11 +5951,13 @@ window.WOW_PVP_DATA = {
           82568
         ],
         "entry_id": 136829,
+        "entry_max_ranks": 1,
         "definition_id": 141592,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Mindbender",
         "spell_id": 1280137,
+        "visible_spell_id": null,
         "icon": "spell_shadow_soulleech_3"
       },
       "pve_tooltip": "Evangelism summons a Mindbender to attack a nearby target for 12 sec.\nGenerates 0.2% Mana each time the Mindbender attacks.",
@@ -5788,11 +6011,13 @@ window.WOW_PVP_DATA = {
           110277
         ],
         "entry_id": 103692,
+        "entry_max_ranks": 1,
         "definition_id": 108697,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Shadow Mend",
         "spell_id": 1252217,
+        "visible_spell_id": null,
         "icon": "spell_shadow_shadowmend"
       },
       "pve_tooltip": "Flash Heal is upgraded to Shadow Mend, a stronger heal with a higher mana cost.\nShadow Mend:\nWraps an ally in shadows which heal for (874% of Spell Power), but at a price.\nThe ally will take [(874% of Spell Power) / 20] damage every 1 sec, until they have taken [(874% of Spell Power) / 2] total damage from all sources, or leave combat.",
@@ -5805,7 +6030,7 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "EMBEDDED",
           "talent_spell_id": 1252217,
           "source_spell_id": 186263,
           "effect_index": 1,
@@ -5822,7 +6047,7 @@ window.WOW_PVP_DATA = {
             186263
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "spelldesc_ref"
           ],
           "aura_rules": [
             {
@@ -5892,11 +6117,13 @@ window.WOW_PVP_DATA = {
           110278
         ],
         "entry_id": 103695,
+        "entry_max_ranks": 1,
         "definition_id": 108700,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shadowfiend",
         "spell_id": 34433,
+        "visible_spell_id": null,
         "icon": "spell_shadow_shadowfiend"
       },
       "pve_tooltip": "Shadow Word: Death has a 100% chance to summon a Shadowfiend for 5 sec when damaging targets below 20% health.\nShadowfiend\nSummons a Shadowfiend to attack your target for 5 sec.\nGenerates 0.5% mana each time the Shadowfiend attacks.",
@@ -5947,11 +6174,13 @@ window.WOW_PVP_DATA = {
           86730
         ],
         "entry_id": 103694,
+        "entry_max_ranks": 1,
         "definition_id": 108699,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Greater Smite",
         "spell_id": 1253724,
+        "visible_spell_id": null,
         "icon": "spell_paladin_inquisition"
       },
       "pve_tooltip": "Casting Smite increases the damage of Smite by 25%, stacking 2 times. Lasts 4 sec.",
@@ -6003,11 +6232,13 @@ window.WOW_PVP_DATA = {
           86730
         ],
         "entry_id": 103732,
+        "entry_max_ranks": 1,
         "definition_id": 108737,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Divine Aegis",
         "spell_id": 47515,
+        "visible_spell_id": null,
         "icon": "spell_holy_devineaegis"
       },
       "pve_tooltip": "Direct critical heals create a protective shield on the target, absorbing 30% of the amount healed. Lasts 15 sec.",
@@ -6060,11 +6291,13 @@ window.WOW_PVP_DATA = {
           82573
         ],
         "entry_id": 103697,
+        "entry_max_ranks": 2,
         "definition_id": 108702,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Borrowed Time",
         "spell_id": 390691,
+        "visible_spell_id": null,
         "icon": "spell_holy_borrowedtime"
       },
       "pve_tooltip": "Casting Power Word: Shield increases your Haste by 10% for 4 sec.",
@@ -6082,6 +6315,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Casting Power Word: Shield increases your Haste by 5% for 4 sec.",
           "pvp_tooltip": "Casting Power Word: Shield increases your Haste by 5% for 4 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -6090,6 +6324,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Casting Power Word: Shield increases your Haste by 10% for 4 sec.",
           "pvp_tooltip": "Casting Power Word: Shield increases your Haste by 10% for 4 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6133,11 +6368,13 @@ window.WOW_PVP_DATA = {
           82586
         ],
         "entry_id": 103693,
+        "entry_max_ranks": 2,
         "definition_id": 108698,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Blaze of Light",
         "spell_id": 215768,
+        "visible_spell_id": null,
         "icon": "spell_holy_searinglight"
       },
       "pve_tooltip": "The damage of Smite and Penance is increased by 15%, and Penance increases or decreases your target's movement speed by 50% for 2 sec.",
@@ -6155,6 +6392,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "The damage of Smite and Penance is increased by 8%, and Penance increases or decreases your target's movement speed by 25% for 2 sec.",
           "pvp_tooltip": "The damage of Smite and Penance is increased by 8%, and Penance increases or decreases your target's movement speed by 25% for 2 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -6163,6 +6401,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "The damage of Smite and Penance is increased by 15%, and Penance increases or decreases your target's movement speed by 50% for 2 sec.",
           "pvp_tooltip": "The damage of Smite and Penance is increased by 15%, and Penance increases or decreases your target's movement speed by 50% for 2 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6206,11 +6445,13 @@ window.WOW_PVP_DATA = {
           82585
         ],
         "entry_id": 137463,
+        "entry_max_ranks": 1,
         "definition_id": 142223,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Grim Deliverance",
         "spell_id": 1298779,
+        "visible_spell_id": null,
         "icon": "spell_bastion_priest_shadow"
       },
       "pve_tooltip": "Shadow Mend heals for 40% more and applies Atonement for an additional 4 sec, but its cast time is increased by 0.3 sec.",
@@ -6262,11 +6503,13 @@ window.WOW_PVP_DATA = {
           82585
         ],
         "entry_id": 136828,
+        "entry_max_ranks": 1,
         "definition_id": 141591,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Death's Torment",
         "spell_id": 1240364,
+        "visible_spell_id": null,
         "icon": "spell_shadow_deathsembrace"
       },
       "pve_tooltip": "Shadow Word: Death deals damage 2 additional times at 15% effectiveness.",
@@ -6317,11 +6560,13 @@ window.WOW_PVP_DATA = {
           82585
         ],
         "entry_id": 136830,
+        "entry_max_ranks": 1,
         "definition_id": 141593,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Inescapable Torment",
         "spell_id": 373427,
+        "visible_spell_id": null,
         "icon": "spell_shadow_chilltouch"
       },
       "pve_tooltip": "Penance, Mind Blast and Shadow Word: Death cause your Shadowfiend, Mindbender, and Voidwraith to teleport behind your target, slashing up to 5 nearby enemies for [(190% of Spell Power) * 0.442] Shadow damage and extending their durations by 0.7 sec.",
@@ -6436,11 +6681,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103688,
+        "entry_max_ranks": 1,
         "definition_id": 108693,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Eternal Barrier",
         "spell_id": 238135,
+        "visible_spell_id": null,
         "icon": "spell_holy_powerwordshield"
       },
       "pve_tooltip": "Power Word: Shield absorbs 20% additional damage and lasts 5 sec longer.",
@@ -6489,11 +6736,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103698,
+        "entry_max_ranks": 1,
         "definition_id": 108703,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Weal and Woe",
         "spell_id": 390786,
+        "visible_spell_id": null,
         "icon": "spell_priest_burningwill"
       },
       "pve_tooltip": "Your Penance bolts increase the absorb of your next Power Word: Shield by 3%.\nStacks up to 10 times.",
@@ -6543,11 +6792,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103712,
+        "entry_max_ranks": 1,
         "definition_id": 108717,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Searing Light",
         "spell_id": 1280131,
+        "visible_spell_id": null,
         "icon": "spell_holy_penance"
       },
       "pve_tooltip": "Your Penance bolts sear the enemy, dealing 20% of its damage over 8 sec.",
@@ -6598,11 +6849,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103711,
+        "entry_max_ranks": 2,
         "definition_id": 108716,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Expiation",
         "spell_id": 390832,
+        "visible_spell_id": null,
         "icon": "spell_shadow_shadowpower"
       },
       "pve_tooltip": "Mind Blast and Shadow Word: Death consume 2 sec of Shadow Word: Pain, dealing damage equal to 300% of the amount consumed.",
@@ -6667,6 +6920,18 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Mind Blast and Shadow Word: Death consume 1 sec of Shadow Word: Pain, dealing damage equal to 300% of the amount consumed.",
           "pvp_tooltip": "Mind Blast and Shadow Word: Death consume 1 sec of Shadow Word: Pain, dealing damage equal to 150% of the amount consumed.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 94,
+              "end": 97,
+              "old_token": "300",
+              "new_token": "150",
+              "kind": "percent_value",
+              "effect_indexes": [
+                2
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -6675,6 +6940,18 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Mind Blast and Shadow Word: Death consume 2 sec of Shadow Word: Pain, dealing damage equal to 300% of the amount consumed.",
           "pvp_tooltip": "Mind Blast and Shadow Word: Death consume 2 sec of Shadow Word: Pain, dealing damage equal to 150% of the amount consumed.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 94,
+              "end": 97,
+              "old_token": "300",
+              "new_token": "150",
+              "kind": "percent_value",
+              "effect_indexes": [
+                2
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6713,11 +6990,13 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 136998,
+        "entry_max_ranks": 1,
         "definition_id": 141761,
         "entry_index": 100,
         "entry_type": "tierrank",
         "talent_name": "Master the Darkness",
         "spell_id": 1253590,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_priest_voidshield"
       },
       "pve_tooltip": "Penance has a 25% chance to upgrade Power Word: Shield into Void Shield.\nVoid Shield:\nShields 3 allies for 15 sec, absorbing 0 damage.",
@@ -6814,15 +7093,17 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 136997,
+        "entry_max_ranks": 2,
         "definition_id": 141760,
         "entry_index": 200,
         "entry_type": "tierrank",
         "talent_name": "Master the Darkness",
         "spell_id": 1253845,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_priest_voidshield"
       },
-      "pve_tooltip": "Shadow damage and Atonement healing increased by 3%.",
-      "pvp_tooltip": "Shadow damage and Atonement healing increased by 3%.",
+      "pve_tooltip": "Shadow damage and Atonement healing increased by 6%.",
+      "pvp_tooltip": "Shadow damage and Atonement healing increased by 6%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6907,7 +7188,26 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Shadow damage and Atonement healing increased by 3%.",
+          "pvp_tooltip": "Shadow damage and Atonement healing increased by 3%.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Shadow damage and Atonement healing increased by 6%.",
+          "pvp_tooltip": "Shadow damage and Atonement healing increased by 6%.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Master the Darkness",
@@ -6942,11 +7242,13 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 136996,
+        "entry_max_ranks": 1,
         "definition_id": 141759,
         "entry_index": 300,
         "entry_type": "tierrank",
         "talent_name": "Master the Darkness",
         "spell_id": 1253827,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_priest_voidshield"
       },
       "pve_tooltip": "Casting Mind Blast upgrades your next Power Word: Shield to Void Shield.\nVoid Shield now reflects 10% of damage taken to enemies, causing Atonement healing.",
@@ -7075,11 +7377,13 @@ window.WOW_PVP_DATA = {
           109782
         ],
         "entry_id": 117286,
+        "entry_max_ranks": 1,
         "definition_id": 122298,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Guiding Light",
         "spell_id": 1248423,
+        "visible_spell_id": null,
         "icon": "ability_priest_holywordlife"
       },
       "pve_tooltip": "Penance gains an additional charge.",
@@ -7130,11 +7434,13 @@ window.WOW_PVP_DATA = {
           94691
         ],
         "entry_id": 117301,
+        "entry_max_ranks": 1,
         "definition_id": 122313,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Preventive Measures",
         "spell_id": 440662,
+        "visible_spell_id": null,
         "icon": "spell_holy_powerwordshield"
       },
       "pve_tooltip": "Power Word: Shield absorbs 30% additional damage.\nAll damage dealt by Penance, Smite and Holy Nova increased by 15%.",
@@ -7336,11 +7642,13 @@ window.WOW_PVP_DATA = {
           94675
         ],
         "entry_id": 117277,
+        "entry_max_ranks": 1,
         "definition_id": 122289,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Preemptive Care",
         "spell_id": 440671,
+        "visible_spell_id": null,
         "icon": "spell_holy_renew"
       },
       "pve_tooltip": "Increases the duration of Atonement by 4 sec.",
@@ -7391,11 +7699,13 @@ window.WOW_PVP_DATA = {
           94689
         ],
         "entry_id": 117282,
+        "entry_max_ranks": 1,
         "definition_id": 122294,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Waste No Time",
         "spell_id": 440681,
+        "visible_spell_id": null,
         "icon": "spell_nature_timestop"
       },
       "pve_tooltip": "Reduces the cooldown of Power Word: Shield by 1.5 sec.",
@@ -7446,12 +7756,14 @@ window.WOW_PVP_DATA = {
           109783
         ],
         "entry_id": 136040,
+        "entry_max_ranks": 1,
         "definition_id": 140795,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Words of the Wise",
         "spell_id": 1272352,
-        "icon": "spell_priest_power_word"
+        "visible_spell_id": null,
+        "icon": "spell_priest_power-word"
       },
       "pve_tooltip": "Flash Heal, Shadow Mend, Plea, and Power Word: Radiance healing increased by 15%.",
       "pvp_tooltip": "Flash Heal, Shadow Mend, Plea, and Power Word: Radiance healing increased by 15%.",
@@ -7501,11 +7813,13 @@ window.WOW_PVP_DATA = {
           94690
         ],
         "entry_id": 117294,
+        "entry_max_ranks": 1,
         "definition_id": 122306,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Assured Safety",
         "spell_id": 440766,
+        "visible_spell_id": null,
         "icon": "spell_holy_prayerofmendingtga"
       },
       "pve_tooltip": "Power Word: Shield casts apply 4 stacks of Prayer of Mending to your target.\nPrayer of Mending\nPlaces a ward on an ally that heals them for (73.2% of Spell Power) the next time they take damage, and then jumps to another ally within 30 yds. Jumps up to 4 times and lasts 30 sec after each jump.",
@@ -7646,11 +7960,13 @@ window.WOW_PVP_DATA = {
           94673
         ],
         "entry_id": 117278,
+        "entry_max_ranks": 1,
         "definition_id": 122290,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Divine Feathers",
         "spell_id": 440670,
+        "visible_spell_id": null,
         "icon": "ability_priest_angelicfeather"
       },
       "pve_tooltip": "Your Angelic Feathers increase movement speed by an additional 10%.\nWhen an ally walks through your Angelic Feather, you are also granted 100% of its effect.",
@@ -7701,11 +8017,13 @@ window.WOW_PVP_DATA = {
           94673
         ],
         "entry_id": 119331,
+        "entry_max_ranks": 1,
         "definition_id": 124231,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Save the Day",
         "spell_id": 440669,
+        "visible_spell_id": null,
         "icon": "priest_spell_leapoffaith_a"
       },
       "pve_tooltip": "For 6 sec after casting Leap of Faith you may cast it a second time for free, ignoring its cooldown.",
@@ -7756,11 +8074,13 @@ window.WOW_PVP_DATA = {
           94700
         ],
         "entry_id": 117292,
+        "entry_max_ranks": 1,
         "definition_id": 122304,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Foreseen Circumstances",
         "spell_id": 440738,
+        "visible_spell_id": null,
         "icon": "spell_holy_painsupression"
       },
       "pve_tooltip": "Pain Suppression reduces damage taken by an additional 10%.",
@@ -7811,11 +8131,13 @@ window.WOW_PVP_DATA = {
           109781
         ],
         "entry_id": 136041,
+        "entry_max_ranks": 1,
         "definition_id": 140796,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Prophet's Insight",
         "spell_id": 1272359,
+        "visible_spell_id": null,
         "icon": "spell_priest_pontifex"
       },
       "pve_tooltip": "Atonement healing from Holy spells is increased by 15%.",
@@ -7866,11 +8188,13 @@ window.WOW_PVP_DATA = {
           94687
         ],
         "entry_id": 117293,
+        "entry_max_ranks": 1,
         "definition_id": 122305,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Prophet's Will",
         "spell_id": 433905,
+        "visible_spell_id": null,
         "icon": "ability_priest_clarityofpurpose"
       },
       "pve_tooltip": "Your Flash Heal, Shadow Mend, and Power Word: Shield are 30% more effective when cast on yourself.",
@@ -7968,11 +8292,13 @@ window.WOW_PVP_DATA = {
           94687
         ],
         "entry_id": 126068,
+        "entry_max_ranks": 1,
         "definition_id": 130900,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Desperate Measures",
         "spell_id": 458718,
+        "visible_spell_id": null,
         "icon": "spell_holy_testoffaith"
       },
       "pve_tooltip": "Desperate Prayer lasts an additional 10 sec.\nAngelic Bulwark's absorption effect is increased by 15% of your maximum health.",
@@ -8023,11 +8349,13 @@ window.WOW_PVP_DATA = {
           94687
         ],
         "entry_id": 117276,
+        "entry_max_ranks": 1,
         "definition_id": 122288,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Prompt Prognosis",
         "spell_id": 1246799,
+        "visible_spell_id": null,
         "icon": "spell_holy_blessedlife"
       },
       "pve_tooltip": "The first bolt of each Penance cast damages or heals for 125% more.",
@@ -8119,11 +8447,13 @@ window.WOW_PVP_DATA = {
           94687
         ],
         "entry_id": 117303,
+        "entry_max_ranks": 1,
         "definition_id": 122315,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Piety",
         "spell_id": 1246802,
+        "visible_spell_id": null,
         "icon": "inv_ability_oraclepriest_premonitionpiety"
       },
       "pve_tooltip": "15% of overhealing done is redistributed to up to 4 nearby injured allies.",
@@ -8174,11 +8504,13 @@ window.WOW_PVP_DATA = {
           94687
         ],
         "entry_id": 136039,
+        "entry_max_ranks": 1,
         "definition_id": 140794,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unfolding Vision",
         "spell_id": 1272363,
+        "visible_spell_id": null,
         "icon": "spell_holy_mindvision"
       },
       "pve_tooltip": "When Power Word: Shield or Void Shield expires with absorption remaining, it jumps to a nearby injured ally instead. Can only happen once per shield.",
@@ -8230,11 +8562,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 117290,
+        "entry_max_ranks": 1,
         "definition_id": 122302,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Twinsight",
         "spell_id": 440742,
+        "visible_spell_id": null,
         "icon": "inv_ability_oraclepriest_clairvoyance"
       },
       "pve_tooltip": "3 additional Penance bolts are fired at an enemy within 40 yards when healing an ally with Penance, or fired at an ally within 40 yards when damaging an enemy with Penance.",
@@ -8323,11 +8657,13 @@ window.WOW_PVP_DATA = {
           109780
         ],
         "entry_id": 136498,
+        "entry_max_ranks": 1,
         "definition_id": 141271,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Entropic Rift",
         "spell_id": 447444,
+        "visible_spell_id": null,
         "icon": "inv_ability_voidweaverpriest_entropicrift"
       },
       "pve_tooltip": "Mind Blast tears open an Entropic Rift that follows the enemy for 8 sec. Enemies caught in its path suffer (60% of Spell Power) Shadow damage every 1 sec while within its reach.",
@@ -8438,11 +8774,13 @@ window.WOW_PVP_DATA = {
           94668
         ],
         "entry_id": 117296,
+        "entry_max_ranks": 1,
         "definition_id": 122308,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "No Escape",
         "spell_id": 451204,
+        "visible_spell_id": null,
         "icon": "spell_fire_twilighthellfire"
       },
       "pve_tooltip": "Entropic Rift slows enemies by up to 70%, increased the closer they are to its center.",
@@ -8540,11 +8878,13 @@ window.WOW_PVP_DATA = {
           94668
         ],
         "entry_id": 123845,
+        "entry_max_ranks": 1,
         "definition_id": 128683,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Dark Energy",
         "spell_id": 451018,
+        "visible_spell_id": null,
         "icon": "achievement_boss_triumvirate_darknaaru"
       },
       "pve_tooltip": "While Entropic Rift is active, you move 20% faster.",
@@ -8595,11 +8935,13 @@ window.WOW_PVP_DATA = {
           94695
         ],
         "entry_id": 117306,
+        "entry_max_ranks": 1,
         "definition_id": 122318,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Void Blast",
         "spell_id": 450405,
+        "visible_spell_id": null,
         "icon": "inv_cosmicvoid_missile"
       },
       "pve_tooltip": "Entropic Rift upgrades Smite into Void Blast while it is active.\nVoid Blast:\nSends a blast of cosmic void energy at the enemy, causing (150% of Spell Power) Shadow damage.",
@@ -8745,11 +9087,13 @@ window.WOW_PVP_DATA = {
           100212
         ],
         "entry_id": 117273,
+        "entry_max_ranks": 1,
         "definition_id": 122285,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Inner Quietus",
         "spell_id": 448278,
+        "visible_spell_id": null,
         "icon": "inv_cosmicvoid_buff"
       },
       "pve_tooltip": "Power Word: Shield absorbs 20% additional damage.",
@@ -8847,11 +9191,13 @@ window.WOW_PVP_DATA = {
           109779
         ],
         "entry_id": 136038,
+        "entry_max_ranks": 1,
         "definition_id": 140793,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Voidheart",
         "spell_id": 449880,
+        "visible_spell_id": null,
         "icon": "inv_cosmicvoid_orb"
       },
       "pve_tooltip": "While Entropic Rift is active, your Atonement healing is increased by 20%.",
@@ -8949,11 +9295,13 @@ window.WOW_PVP_DATA = {
           94692
         ],
         "entry_id": 117271,
+        "entry_max_ranks": 1,
         "definition_id": 122283,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Devour Matter",
         "spell_id": 451840,
+        "visible_spell_id": null,
         "icon": "spell_holy_consumemagic"
       },
       "pve_tooltip": "Shadow Word: Death consumes absorb shields from your target, dealing (255% of Spell Power) extra damage to them and granting you 1% mana if a shield was present.",
@@ -9004,11 +9352,13 @@ window.WOW_PVP_DATA = {
           94669
         ],
         "entry_id": 125821,
+        "entry_max_ranks": 1,
         "definition_id": 128681,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Void Empowerment",
         "spell_id": 450138,
+        "visible_spell_id": null,
         "icon": "inv_cosmicvoid_nova"
       },
       "pve_tooltip": "Summoning an Entropic Rift extends the duration of your 5 shortest Atonements by 1 sec.",
@@ -9059,11 +9409,13 @@ window.WOW_PVP_DATA = {
           94669
         ],
         "entry_id": 125982,
+        "entry_max_ranks": 1,
         "definition_id": 130813,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Darkening Horizon",
         "spell_id": 449912,
+        "visible_spell_id": null,
         "icon": "inv_misc_83_voidfocus"
       },
       "pve_tooltip": "Void Blast increases the duration of Entropic Rift by 1.0 sec, up to a maximum of 3 sec.",
@@ -9114,11 +9466,13 @@ window.WOW_PVP_DATA = {
           94696
         ],
         "entry_id": 123841,
+        "entry_max_ranks": 1,
         "definition_id": 128679,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Voidwraith",
         "spell_id": 451234,
+        "visible_spell_id": null,
         "icon": "warlock_curse_shadow"
       },
       "pve_tooltip": "When Entropic Rift ends, a Voidwraith is summoned from the collapsed rift for 5 sec.\nVoidwraith\nSummon a Voidwraith that casts Void Flay from afar. Void Flay deals bonus damage to high health enemies, up to a maximum of 50% if they are full health. Discipline, Holy\nGenerates 0.5% Mana each time the Voidwraith attacks.",
@@ -9131,7 +9485,7 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "EMBEDDED",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 451234,
           "source_spell_id": 451435,
           "effect_index": 1,
@@ -9149,7 +9503,7 @@ window.WOW_PVP_DATA = {
             451435
           ],
           "dependency_relations": [
-            "spelldesc_ref",
+            "tooltip_value_ref",
             "tooltip_value_ref"
           ],
           "aura_rules": [
@@ -9210,11 +9564,13 @@ window.WOW_PVP_DATA = {
           109778
         ],
         "entry_id": 136037,
+        "entry_max_ranks": 1,
         "definition_id": 140792,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Touch of the Void",
         "spell_id": 1266856,
+        "visible_spell_id": null,
         "icon": "inv_112_raidtrinkets_blobofswirlingvoid_purple"
       },
       "pve_tooltip": "Voidheart now persists for 8 sec after Entropic Rift ends.",
@@ -9265,11 +9621,13 @@ window.WOW_PVP_DATA = {
           94694
         ],
         "entry_id": 117295,
+        "entry_max_ranks": 1,
         "definition_id": 122307,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Quickened Pulse",
         "spell_id": 1266845,
+        "visible_spell_id": null,
         "icon": "ability_rogue_sanguinaryvein"
       },
       "pve_tooltip": "Shadow Word: Pain and Entropic Rift deal damage 25% more often.",
@@ -9371,11 +9729,13 @@ window.WOW_PVP_DATA = {
           94694
         ],
         "entry_id": 117272,
+        "entry_max_ranks": 1,
         "definition_id": 122284,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Void Infusion",
         "spell_id": 450612,
+        "visible_spell_id": null,
         "icon": "inv_misc_volatileshadow"
       },
       "pve_tooltip": "While Entropic Rift is active, Atonement healing with Void Blast and Penance is 75% more effective.",
@@ -9473,11 +9833,13 @@ window.WOW_PVP_DATA = {
           94694
         ],
         "entry_id": 117299,
+        "entry_max_ranks": 1,
         "definition_id": 122311,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Void Leech",
         "spell_id": 451311,
+        "visible_spell_id": null,
         "icon": "spell_shadow_soulleech_2"
       },
       "pve_tooltip": "Every 3 sec siphon an amount equal to 4% of your health from an ally within 40 yds if they are higher health than you.",
@@ -9575,11 +9937,13 @@ window.WOW_PVP_DATA = {
           94694
         ],
         "entry_id": 123844,
+        "entry_max_ranks": 1,
         "definition_id": 128682,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Embrace the Shadow",
         "spell_id": 451569,
+        "visible_spell_id": null,
         "icon": "spell_shadow_shadesofdarkness"
       },
       "pve_tooltip": "You absorb 3% of all magic damage taken. Absorbing Shadow damage heals you for 100% of the amount absorbed.",
@@ -9630,11 +9994,13 @@ window.WOW_PVP_DATA = {
           94694
         ],
         "entry_id": 136036,
+        "entry_max_ranks": 1,
         "definition_id": 140791,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Overwhelming Shadows",
         "spell_id": 1266883,
+        "visible_spell_id": null,
         "icon": "inv_shadowelementalmount"
       },
       "pve_tooltip": "Mind Blast deals 100% increased damage.",
@@ -9686,11 +10052,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 117297,
+        "entry_max_ranks": 1,
         "definition_id": 122309,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Collapsing Void",
         "spell_id": 448403,
+        "visible_spell_id": null,
         "icon": "inv_cosmicvoid_groundsate"
       },
       "pve_tooltip": "Each time Penance damages or heals, Entropic Rift is empowered, increasing its damage and size by 10%.\nAfter Entropic Rift ends it collapses, dealing (440% of Spell Power) Shadow damage split amongst enemy targets within 15 yds.",
@@ -9775,9 +10143,305 @@ window.WOW_PVP_DATA = {
     }
   ],
   "fetch_errors": [],
+  "serialization": {
+    "version": 2,
+    "spec_id": 256,
+    "node_order": [
+      82552,
+      82553,
+      82554,
+      82555,
+      82556,
+      82558,
+      82559,
+      82560,
+      82563,
+      82564,
+      82566,
+      82567,
+      82568,
+      82569,
+      82570,
+      82571,
+      82572,
+      82573,
+      82575,
+      82576,
+      82577,
+      82578,
+      82579,
+      82580,
+      82581,
+      82582,
+      82583,
+      82585,
+      82586,
+      82587,
+      82588,
+      82589,
+      82590,
+      82591,
+      82592,
+      82593,
+      82594,
+      82595,
+      82596,
+      82597,
+      82598,
+      82599,
+      82600,
+      82601,
+      82602,
+      82603,
+      82604,
+      82606,
+      82607,
+      82608,
+      82609,
+      82610,
+      82611,
+      82612,
+      82613,
+      82614,
+      82615,
+      82616,
+      82617,
+      82618,
+      82619,
+      82620,
+      82621,
+      82622,
+      82623,
+      82627,
+      82628,
+      82629,
+      82630,
+      82631,
+      82632,
+      82633,
+      82634,
+      82635,
+      82636,
+      82637,
+      82638,
+      82639,
+      82640,
+      82641,
+      82642,
+      82643,
+      82644,
+      82645,
+      82646,
+      82647,
+      82648,
+      82649,
+      82651,
+      82653,
+      82654,
+      82655,
+      82656,
+      82657,
+      82658,
+      82659,
+      82660,
+      82662,
+      82663,
+      82665,
+      82666,
+      82667,
+      82668,
+      82669,
+      82670,
+      82671,
+      82672,
+      82673,
+      82674,
+      82675,
+      82676,
+      82677,
+      82678,
+      82679,
+      82680,
+      82682,
+      82684,
+      82685,
+      82686,
+      82687,
+      82690,
+      82693,
+      82695,
+      82696,
+      82697,
+      82699,
+      82701,
+      82702,
+      82703,
+      82704,
+      82705,
+      82708,
+      82710,
+      82711,
+      82712,
+      82713,
+      82715,
+      82716,
+      82717,
+      82718,
+      82719,
+      86730,
+      92225,
+      93170,
+      93171,
+      94668,
+      94669,
+      94670,
+      94673,
+      94674,
+      94675,
+      94676,
+      94677,
+      94678,
+      94679,
+      94680,
+      94681,
+      94683,
+      94684,
+      94685,
+      94686,
+      94687,
+      94688,
+      94689,
+      94690,
+      94691,
+      94692,
+      94693,
+      94694,
+      94695,
+      94696,
+      94697,
+      94698,
+      94699,
+      94700,
+      94702,
+      94703,
+      99800,
+      99801,
+      99802,
+      100212,
+      103900,
+      103901,
+      103914,
+      103916,
+      104097,
+      108006,
+      108007,
+      108029,
+      108031,
+      108147,
+      108152,
+      108153,
+      108724,
+      108730,
+      108731,
+      109005,
+      109006,
+      109009,
+      109010,
+      109011,
+      109012,
+      109014,
+      109015,
+      109017,
+      109018,
+      109019,
+      109020,
+      109021,
+      109775,
+      109776,
+      109777,
+      109778,
+      109779,
+      109780,
+      109781,
+      109782,
+      109783,
+      109890,
+      109917,
+      110008,
+      110277,
+      110278,
+      110408,
+      110409,
+      110410,
+      110648
+    ],
+    "subtree_nodes": [
+      {
+        "id": 99801,
+        "name": "Oracle / Voidweaver",
+        "type": "subtree",
+        "posX": 8400,
+        "posY": 900,
+        "entryNode": true,
+        "next": [],
+        "prev": [],
+        "entries": [
+          {
+            "id": 123290,
+            "type": "subtree",
+            "name": "Oracle",
+            "traitSubTreeId": 20,
+            "traitTreeId": 795,
+            "atlasMemberName": "talents-heroclass-priest-oracle",
+            "nodes": [
+              94683,
+              94698,
+              94674,
+              94679,
+              109782,
+              94691,
+              94675,
+              94689,
+              109783,
+              94690,
+              94673,
+              94700,
+              109781,
+              94687
+            ]
+          },
+          {
+            "id": 123288,
+            "type": "subtree",
+            "name": "Voidweaver",
+            "traitSubTreeId": 18,
+            "traitTreeId": 795,
+            "atlasMemberName": "talents-heroclass-priest-voidweaver",
+            "nodes": [
+              94684,
+              110008,
+              94693,
+              94703,
+              94670,
+              109780,
+              94668,
+              94695,
+              100212,
+              109779,
+              94692,
+              94669,
+              94696,
+              109778,
+              94694
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "source_warnings": [],
   "slug": "priest-discipline",
-  "generated_at": "2026-09-21T12:52:52.711774+00:00",
+  "generated_at": "2026-09-21T19:41:13.233279+00:00",
   "validation": {
     "talents": 133,
     "changed_tooltips": 22,

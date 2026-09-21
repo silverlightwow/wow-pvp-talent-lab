@@ -42,11 +42,13 @@
           76045
         ],
         "entry_id": 96210,
+        "entry_max_ranks": 1,
         "definition_id": 101212,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Icebound Fortitude",
         "spell_id": 48792,
+        "visible_spell_id": null,
         "icon": "spell_deathknight_iceboundfortitude"
       },
       "pve_tooltip": "Instant\n2 min cooldown\nYour blood freezes, granting immunity to Stun effects and reducing all damage you take by 30% for 8 sec.",
@@ -95,11 +97,13 @@
           76067
         ],
         "entry_id": 96200,
+        "entry_max_ranks": 1,
         "definition_id": 101202,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Death Strike",
         "spell_id": 49998,
+        "visible_spell_id": null,
         "icon": "spell_deathknight_butcher2"
       },
       "pve_tooltip": "45 Runic Power\nMelee Range\nInstant\nFocuses dark power into a strike that deals (153.12% of Attack Power) Physical damage and heals you for (20 / Voracious: 21 / Improved Death Strike: 32)% of all damage taken in the last 5 sec, minimum 7.0% of maximum health.",
@@ -251,11 +255,13 @@
           76073
         ],
         "entry_id": 96201,
+        "entry_max_ranks": 1,
         "definition_id": 101203,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Raise Dead",
         "spell_id": 46585,
+        "visible_spell_id": null,
         "icon": "inv_pet_ghoul"
       },
       "pve_tooltip": "30 yd range\nInstant\n2 min cooldown\nRaises a [Glyph of the Geist: geist / ghoul] to fight by your side. You can have a maximum of one [Glyph of the Geist: geist / ghoul] at a time. Lasts 1 min.",
@@ -308,11 +314,13 @@
           76052
         ],
         "entry_id": 96173,
+        "entry_max_ranks": 1,
         "definition_id": 101175,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Runic Attenuation",
         "spell_id": 207104,
+        "visible_spell_id": null,
         "icon": "boss_odunrunes_blue"
       },
       "pve_tooltip": "Approximately 10.8 procs per minute\nAuto attacks have a chance to generate 3 Runic Power.",
@@ -365,11 +373,13 @@
           76069
         ],
         "entry_id": 96196,
+        "entry_max_ranks": 1,
         "definition_id": 101198,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Death Strike",
         "spell_id": 374277,
+        "visible_spell_id": null,
         "icon": "spell_deathknight_butcher2"
       },
       "pve_tooltip": "Death Strike's cost is reduced by 10, and its healing is increased by 60%.",
@@ -422,11 +432,13 @@
           110029
         ],
         "entry_id": 96202,
+        "entry_max_ranks": 1,
         "definition_id": 101204,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Cleaving Strikes",
         "spell_id": 316916,
+        "visible_spell_id": null,
         "icon": "inv_1115_warrior_fastermeleeattacks"
       },
       "pve_tooltip": "Scourge Strike and Festering Strike deal 10% increased damage.",
@@ -478,11 +490,13 @@
           101708
         ],
         "entry_id": 96213,
+        "entry_max_ranks": 1,
         "definition_id": 101215,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Mind Freeze",
         "spell_id": 47528,
+        "visible_spell_id": null,
         "icon": "spell_deathknight_mindfreeze"
       },
       "pve_tooltip": "15 yd range\nInstant\n15 sec cooldown\nSmash the target's mind with cold, interrupting spellcasting and preventing any spell in that school from being cast for 5 sec.",
@@ -533,11 +547,13 @@
           101708
         ],
         "entry_id": 96172,
+        "entry_max_ranks": 1,
         "definition_id": 101174,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Blinding Sleet",
         "spell_id": 207167,
+        "visible_spell_id": null,
         "icon": "spell_frost_chillingblast"
       },
       "pve_tooltip": "Instant\n1 min cooldown\nTargets in a cone in front of you are blinded, causing them to wander disoriented for 5 sec. Damage may cancel the effect.\nWhen Blinding Sleet ends, enemies are slowed by 50% for 6 sec.",
@@ -678,11 +694,13 @@
           76068
         ],
         "entry_id": 96180,
+        "entry_max_ranks": 2,
         "definition_id": 101182,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Gloom Ward",
         "spell_id": 391571,
+        "visible_spell_id": null,
         "icon": "ability_rogue_envelopingshadows"
       },
       "pve_tooltip": "Absorbs are 30% more effective on you.",
@@ -700,6 +718,7 @@
           "pve_tooltip": "Absorbs are 15% more effective on you.",
           "pvp_tooltip": "Absorbs are 15% more effective on you.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -708,6 +727,7 @@
           "pve_tooltip": "Absorbs are 30% more effective on you.",
           "pvp_tooltip": "Absorbs are 30% more effective on you.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -750,11 +770,13 @@
           76068
         ],
         "entry_id": 96203,
+        "entry_max_ranks": 1,
         "definition_id": 101205,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "March of Darkness",
         "spell_id": 391546,
+        "visible_spell_id": null,
         "icon": "ability_argus_deathfog"
       },
       "pve_tooltip": "Death's Advance grants an additional 25% movement speed over the first 3 sec. [Price of Progress: Movement speed while using Price of Progress is increased by 5%]",
@@ -805,11 +827,13 @@
           76068
         ],
         "entry_id": 133518,
+        "entry_max_ranks": 1,
         "definition_id": 138304,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Wraith Walk",
         "spell_id": 212552,
+        "visible_spell_id": null,
         "icon": "inv_helm_plate_raiddeathknight_p_01"
       },
       "pve_tooltip": "Channeled (4 sec cast)\n1 min cooldown\nEmbrace the power of the Shadowlands, removing all root effects and increasing your movement speed by 70% for 4 sec. Taking any action cancels the effect.\nWhile active, your movement speed cannot be reduced below 170%.",
@@ -863,11 +887,13 @@
           76061
         ],
         "entry_id": 96198,
+        "entry_max_ranks": 2,
         "definition_id": 101200,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unholy Momentum",
         "spell_id": 374265,
+        "visible_spell_id": null,
         "icon": "spell_necro_deathrift"
       },
       "pve_tooltip": "Increases Haste by 4%.",
@@ -885,6 +911,7 @@
           "pve_tooltip": "Increases Haste by 2%.",
           "pvp_tooltip": "Increases Haste by 2%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -893,6 +920,7 @@
           "pve_tooltip": "Increases Haste by 4%.",
           "pvp_tooltip": "Increases Haste by 4%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -935,11 +963,13 @@
           76061
         ],
         "entry_id": 96188,
+        "entry_max_ranks": 1,
         "definition_id": 101190,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Control Undead",
         "spell_id": 111673,
+        "visible_spell_id": null,
         "icon": "inv_misc_bone_skull_01"
       },
       "pve_tooltip": "1 Rune / -10 Runic Power\n30 yd range\n1.5 sec cast\nDominates the target undead creature up to level 38, forcing it to do your bidding for 5 min.",
@@ -991,11 +1021,13 @@
           76060
         ],
         "entry_id": 136523,
+        "entry_max_ranks": 1,
         "definition_id": 141296,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Enfeeble",
         "spell_id": 392566,
+        "visible_spell_id": null,
         "icon": "ability_creature_poison_01"
       },
       "pve_tooltip": "Your ghoul's attacks have a chance to apply Enfeeble, reducing the enemies movement speed by 30% and the damage they deal to you by 12% for 6 sec.",
@@ -1147,11 +1179,13 @@
           76085
         ],
         "entry_id": 96212,
+        "entry_max_ranks": 1,
         "definition_id": 101214,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Coldthirst",
         "spell_id": 378848,
+        "visible_spell_id": null,
         "icon": "spell_deathknight_mindfreeze"
       },
       "pve_tooltip": "Successfully interrupting an enemy with Mind Freeze grants 10 Runic Power and reduces its cooldown by 3 sec.",
@@ -1204,11 +1238,13 @@
           76085
         ],
         "entry_id": 125606,
+        "entry_max_ranks": 1,
         "definition_id": 130438,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Proliferating Chill",
         "spell_id": 373930,
+        "visible_spell_id": null,
         "icon": "spell_frost_chainsofice"
       },
       "pve_tooltip": "Chains of Ice affects 1 additional nearby enemy.",
@@ -1261,11 +1297,13 @@
           76065
         ],
         "entry_id": 96195,
+        "entry_max_ranks": 1,
         "definition_id": 101197,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Permafrost",
         "spell_id": 207200,
+        "visible_spell_id": null,
         "icon": "achievement_zone_frostfire"
       },
       "pve_tooltip": "Your auto attack damage grants you an absorb shield equal to 35% of the damage dealt.",
@@ -1318,11 +1356,13 @@
           76065
         ],
         "entry_id": 96197,
+        "entry_max_ranks": 1,
         "definition_id": 101199,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Veteran of the Third War",
         "spell_id": 48263,
+        "visible_spell_id": null,
         "icon": "spell_misc_warsongfocus"
       },
       "pve_tooltip": "Stamina increased by 12%.",
@@ -1412,11 +1452,13 @@
           76076
         ],
         "entry_id": 96204,
+        "entry_max_ranks": 1,
         "definition_id": 101206,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Death Pact",
         "spell_id": 48743,
+        "visible_spell_id": null,
         "icon": "spell_shadow_deathpact"
       },
       "pve_tooltip": "Instant\n2 min cooldown\nCreate a death pact that heals you for 50% of your maximum health, but absorbs incoming healing equal to 30% of your max health for 15 sec.",
@@ -1469,11 +1511,13 @@
           76076
         ],
         "entry_id": 96190,
+        "entry_max_ranks": 1,
         "definition_id": 101192,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Brittle",
         "spell_id": 374504,
+        "visible_spell_id": null,
         "icon": "ability_bosskilrogg_deaththroes"
       },
       "pve_tooltip": "Your diseases have a chance to weaken your enemy causing your attacks against them to deal 6% increased damage for 5 sec.\n(Proc chance: 15%)",
@@ -1524,11 +1568,13 @@
           76076
         ],
         "entry_id": 96189,
+        "entry_max_ranks": 1,
         "definition_id": 101191,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Blood Bond",
         "spell_id": 1267028,
+        "visible_spell_id": null,
         "icon": "ability_deathknight_roilingblood"
       },
       "pve_tooltip": "While you are below 50% health, your Ghoul sacrifices 4% of its maximum health to heal you for 1% of your maximum health every sec.",
@@ -1582,11 +1628,13 @@
           76064
         ],
         "entry_id": 96214,
+        "entry_max_ranks": 1,
         "definition_id": 101216,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Icy Talons",
         "spell_id": 194878,
+        "visible_spell_id": null,
         "icon": "spell_deathknight_icytalons"
       },
       "pve_tooltip": "Your Runic Power spending abilities increase your melee attack speed by 6% for 10 sec, stacking up to 3 times.\n(500ms cooldown)",
@@ -1637,11 +1685,13 @@
           76064
         ],
         "entry_id": 136524,
+        "entry_max_ranks": 1,
         "definition_id": 141297,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Death Notes",
         "spell_id": 1266819,
+        "visible_spell_id": null,
         "icon": "inv_misc_book_01"
       },
       "pve_tooltip": "Raise Ally costs 30 less Runic Power.",
@@ -1696,11 +1746,13 @@
           76046
         ],
         "entry_id": 96194,
+        "entry_max_ranks": 1,
         "definition_id": 101196,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Anti-Magic Zone",
         "spell_id": 51052,
+        "visible_spell_id": null,
         "icon": "spell_deathknight_antimagiczone"
       },
       "pve_tooltip": "30 yd range\nInstant\n4 min cooldown\nPlaces an Anti-Magic Zone for 6 sec, reducing the magic damage taken by party or raid members by 15%.",
@@ -1751,11 +1803,13 @@
           76046
         ],
         "entry_id": 136525,
+        "entry_max_ranks": 1,
         "definition_id": 141298,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Death Defiance",
         "spell_id": 1266818,
+        "visible_spell_id": null,
         "icon": "spell_nature_shamanrage"
       },
       "pve_tooltip": "The cooldown of Death Pact is reduced by 30 sec, and you receive 50% increased healing while its healing absorb is active.",
@@ -1809,11 +1863,13 @@
           76057
         ],
         "entry_id": 96205,
+        "entry_max_ranks": 1,
         "definition_id": 101207,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unholy Bond",
         "spell_id": 374261,
+        "visible_spell_id": null,
         "icon": "inv_sword_1h_felfireraid_d_01"
       },
       "pve_tooltip": "Increases the effectiveness of your Runeforge effects by 20%.",
@@ -1864,11 +1920,13 @@
           76087
         ],
         "entry_id": 96215,
+        "entry_max_ranks": 1,
         "definition_id": 101217,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ice Prison",
         "spell_id": 454786,
+        "visible_spell_id": null,
         "icon": "ability_mage_deepfreeze"
       },
       "pve_tooltip": "Chains of Ice now also roots enemies for 4 sec but its cooldown is increased to 12 sec.",
@@ -1922,11 +1980,13 @@
           76078
         ],
         "entry_id": 96193,
+        "entry_max_ranks": 1,
         "definition_id": 101195,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Asphyxiate",
         "spell_id": 221562,
+        "visible_spell_id": null,
         "icon": "ability_deathknight_asphixiate"
       },
       "pve_tooltip": "20 yd range\nInstant\n45 sec cooldown\nLifts the enemy target off the ground, crushing their throat with dark energy and stunning them for 5 sec.",
@@ -1980,11 +2040,13 @@
           76078
         ],
         "entry_id": 136526,
+        "entry_max_ranks": 1,
         "definition_id": 141299,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Death's Reach",
         "spell_id": 276079,
+        "visible_spell_id": null,
         "icon": "spell_deathknight_strangulate"
       },
       "pve_tooltip": "Increases the range of Death Grip by 10 yds.\nKilling an enemy that yields experience or honor resets the cooldown of Death Grip.",
@@ -2035,11 +2097,13 @@
           76078
         ],
         "entry_id": 96176,
+        "entry_max_ranks": 1,
         "definition_id": 101178,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Assimilation",
         "spell_id": 374383,
+        "visible_spell_id": null,
         "icon": "spell_deathknight_antimagiczone"
       },
       "pve_tooltip": "The cooldown of Anti-Magic Zone is reduced by 60 sec and its duration is increased by 2 sec.",
@@ -2093,11 +2157,13 @@
           76058
         ],
         "entry_id": 96174,
+        "entry_max_ranks": 1,
         "definition_id": 101176,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Anti-Magic Barrier",
         "spell_id": 205727,
+        "visible_spell_id": null,
         "icon": "spell_shadow_antimagicshell"
       },
       "pve_tooltip": "Reduces the cooldown of Anti-Magic Shell by 20 sec and increases its duration and amount absorbed by 40%.",
@@ -2195,11 +2261,13 @@
           76058
         ],
         "entry_id": 96186,
+        "entry_max_ranks": 1,
         "definition_id": 101188,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Grip of the Dead",
         "spell_id": 273952,
+        "visible_spell_id": null,
         "icon": "ability_creature_disease_05"
       },
       "pve_tooltip": "[Defile / Death and Decay] reduces the movement speed of enemies within its area by 90%, decaying by 10% every sec.",
@@ -2252,11 +2320,13 @@
           76051
         ],
         "entry_id": 96216,
+        "entry_max_ranks": 1,
         "definition_id": 101218,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Suppression",
         "spell_id": 374049,
+        "visible_spell_id": null,
         "icon": "ability_racial_forceshield"
       },
       "pve_tooltip": "Damage taken from area of effect attacks reduced by 3%. When suffering a loss of control effect, this bonus is increased by an additional 6% for 6 sec.",
@@ -2310,11 +2380,13 @@
           76055
         ],
         "entry_id": 96207,
+        "entry_max_ranks": 1,
         "definition_id": 101209,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Blood Scent",
         "spell_id": 374030,
+        "visible_spell_id": null,
         "icon": "ability_ironmaidens_bloodritual"
       },
       "pve_tooltip": "Increases Leech by 3%.",
@@ -2367,11 +2439,13 @@
           76056
         ],
         "entry_id": 96187,
+        "entry_max_ranks": 1,
         "definition_id": 101189,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unholy Endurance",
         "spell_id": 389682,
+        "visible_spell_id": null,
         "icon": "spell_deathknight_subversion"
       },
       "pve_tooltip": "Increases Lichborne duration by 2 sec and reduces the cooldown by 30 sec.",
@@ -2422,11 +2496,13 @@
           76079
         ],
         "entry_id": 96217,
+        "entry_max_ranks": 1,
         "definition_id": 101219,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Osmosis",
         "spell_id": 454835,
+        "visible_spell_id": null,
         "icon": "spell_nature_rune"
       },
       "pve_tooltip": "Anti-Magic Shell increases healing received by 15%.",
@@ -2479,11 +2555,13 @@
           76080
         ],
         "entry_id": 96179,
+        "entry_max_ranks": 1,
         "definition_id": 101181,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Insidious Chill",
         "spell_id": 391566,
+        "visible_spell_id": null,
         "icon": "ability_racial_wardoftheloafrost"
       },
       "pve_tooltip": "Your auto-attacks reduce the target's auto-attack speed by 5% for 30 sec, stacking up to 4 times.",
@@ -2536,11 +2614,13 @@
           76054
         ],
         "entry_id": 96183,
+        "entry_max_ranks": 1,
         "definition_id": 101185,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Runic Protection",
         "spell_id": 454788,
+        "visible_spell_id": null,
         "icon": "ability_mage_shattershield"
       },
       "pve_tooltip": "Your chance to be critically struck is reduced by 3% and your Armor is increased by 6%.",
@@ -2591,11 +2671,13 @@
           76054
         ],
         "entry_id": 96184,
+        "entry_max_ranks": 1,
         "definition_id": 101186,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Blood Draw",
         "spell_id": 374598,
+        "visible_spell_id": null,
         "icon": "inv_artifact_bloodoftheassassinated"
       },
       "pve_tooltip": "When you fall below 30% health you drain (120% of Attack Power) health from nearby enemies, the damage you take is reduced by 10% and your Death Strike cost is reduced by 10 for 8 sec.\nCan only occur every 2 min.",
@@ -2648,11 +2730,13 @@
           76050
         ],
         "entry_id": 96208,
+        "entry_max_ranks": 2,
         "definition_id": 101210,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Rune Mastery",
         "spell_id": 374574,
+        "visible_spell_id": null,
         "icon": "ability_deathknight_hungeringruneblade"
       },
       "pve_tooltip": "Consuming a Rune has a chance to increase your Strength by 6% for 8 sec.",
@@ -2670,6 +2754,7 @@
           "pve_tooltip": "Consuming a Rune has a chance to increase your Strength by 3% for 8 sec.",
           "pvp_tooltip": "Consuming a Rune has a chance to increase your Strength by 3% for 8 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2678,6 +2763,7 @@
           "pve_tooltip": "Consuming a Rune has a chance to increase your Strength by 6% for 8 sec.",
           "pvp_tooltip": "Consuming a Rune has a chance to increase your Strength by 6% for 8 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2722,11 +2808,13 @@
           102007
         ],
         "entry_id": 96209,
+        "entry_max_ranks": 1,
         "definition_id": 101211,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Subduing Grasp",
         "spell_id": 454822,
+        "visible_spell_id": null,
         "icon": "spell_nature_elementalshields"
       },
       "pve_tooltip": "When you would pull an enemy, the damage they deal to you is reduced by 6% for 6 sec.",
@@ -2779,11 +2867,13 @@
           76053
         ],
         "entry_id": 96182,
+        "entry_max_ranks": 2,
         "definition_id": 101184,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Will of the Necropolis",
         "spell_id": 206967,
+        "visible_spell_id": null,
         "icon": "achievement_boss_kelthuzad_01"
       },
       "pve_tooltip": "Damage taken below 30% Health is reduced by 35%.",
@@ -2848,6 +2938,18 @@
           "pve_tooltip": "Damage taken below 30% Health is reduced by 20%.",
           "pvp_tooltip": "Damage taken below 30% Health is reduced by 10%.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 44,
+              "end": 46,
+              "old_token": "20",
+              "new_token": "10",
+              "kind": "percent_value",
+              "effect_indexes": [
+                2
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2856,6 +2958,18 @@
           "pve_tooltip": "Damage taken below 30% Health is reduced by 35%.",
           "pvp_tooltip": "Damage taken below 30% Health is reduced by 17.5%.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 44,
+              "end": 46,
+              "old_token": "35",
+              "new_token": "17.5",
+              "kind": "percent_value",
+              "effect_indexes": [
+                2
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2896,11 +3010,13 @@
         ],
         "next": [],
         "entry_id": 126016,
+        "entry_max_ranks": 1,
         "definition_id": 130847,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Null Magic",
         "spell_id": 454842,
+        "visible_spell_id": null,
         "icon": "spell_shadow_detectinvisibility"
       },
       "pve_tooltip": "Magic damage taken is reduced by 5% and the duration of harmful Magic effects against you are reduced by 35%.",
@@ -3032,11 +3148,13 @@
         ],
         "next": [],
         "entry_id": 96178,
+        "entry_max_ranks": 1,
         "definition_id": 101180,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unyielding Will",
         "spell_id": 457574,
+        "visible_spell_id": null,
         "icon": "spell_shadow_nethercloak"
       },
       "pve_tooltip": "Anti-Magic Shell now removes all harmful magical effects when activated, but its cooldown is increased by 20 sec.",
@@ -3086,11 +3204,13 @@
         ],
         "next": [],
         "entry_id": 126015,
+        "entry_max_ranks": 1,
         "definition_id": 130846,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Death's Echo",
         "spell_id": 356367,
+        "visible_spell_id": null,
         "icon": "inv_fabric_ebonweave"
       },
       "pve_tooltip": "Death's Advance, Death and Decay, and Death Grip have 1 additional charge.",
@@ -3139,11 +3259,13 @@
         ],
         "next": [],
         "entry_id": 96181,
+        "entry_max_ranks": 1,
         "definition_id": 101183,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Vestigial Shell",
         "spell_id": 454851,
+        "visible_spell_id": null,
         "icon": "ability_domination_rune12"
       },
       "pve_tooltip": "Casting Anti-Magic Shell grants 2 nearby allies a Lesser Anti-Magic Shell that Absorbs up to 0 magic damage and reduces the duration of harmful Magic effects against them by 50%.",
@@ -3245,11 +3367,13 @@
           76191
         ],
         "entry_id": 96326,
+        "entry_max_ranks": 1,
         "definition_id": 101328,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Outbreak",
         "spell_id": 77575,
+        "visible_spell_id": null,
         "icon": "spell_deathvortex"
       },
       "pve_tooltip": "1 Rune / -10 Runic Power\n30 yd range\nInstant\nInflicts the target with Dread Plague and Virulent Plague.\nDread Plague\nA malicious plague that deals (439.11% of Attack Power) Shadow damage over 24 sec. Explodes for (184.5% of Attack Power) Shadow damage to nearby enemies and infects one when the host dies. Can only be applied to 1 host at a time.\nVirulent Plague\nAn infectious plague that spreads to all nearby enemies, dealing (202.854% of Attack Power) Shadow damage over 24 sec.",
@@ -3262,7 +3386,7 @@
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "EMBEDDED",
           "talent_spell_id": 77575,
           "source_spell_id": 191587,
           "effect_index": 1,
@@ -3279,7 +3403,7 @@
             191587
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "spelldesc_ref"
           ],
           "aura_rules": [
             {
@@ -3302,7 +3426,7 @@
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "EMBEDDED",
           "talent_spell_id": 77575,
           "source_spell_id": 1240996,
           "effect_index": 1,
@@ -3319,7 +3443,7 @@
             1240996
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "spelldesc_ref"
           ],
           "aura_rules": [
             {
@@ -3342,7 +3466,7 @@
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "EMBEDDED",
           "talent_spell_id": 77575,
           "source_spell_id": 1242564,
           "effect_index": 1,
@@ -3360,7 +3484,7 @@
             1242564
           ],
           "dependency_relations": [
-            "trigger_spell",
+            "spelldesc_ref",
             "tooltip_value_ref"
           ],
           "aura_rules": [
@@ -3424,11 +3548,13 @@
           108129
         ],
         "entry_id": 96327,
+        "entry_max_ranks": 1,
         "definition_id": 101329,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Scourge Strike",
         "spell_id": 55090,
+        "visible_spell_id": null,
         "icon": "spell_deathknight_scourgestrike"
       },
       "pve_tooltip": "1 Rune / -10 Runic Power\n30 yd range\nInstant\nAn unholy strike that deals (135% of Attack Power) Shadow damage and causing your plagues on the target to erupt, dealing their damage an additional time at 35% effectiveness.\nApplies Virulent Plague or spreads it to a nearby enemy.",
@@ -3537,11 +3663,13 @@
           76185
         ],
         "entry_id": 96328,
+        "entry_max_ranks": 1,
         "definition_id": 101330,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sudden Doom",
         "spell_id": 49530,
+        "visible_spell_id": null,
         "icon": "spell_shadow_painspike"
       },
       "pve_tooltip": "Dread Plague has a 35% chance to exhilarate you, making your next Death Coil or Epidemic cost 15 less Runic Power and deal 35% increased damage.",
@@ -3592,11 +3720,13 @@
           76162
         ],
         "entry_id": 133523,
+        "entry_max_ranks": 1,
         "definition_id": 138309,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Clawing Shadows",
         "spell_id": 1241567,
+        "visible_spell_id": null,
         "icon": "warlock_curse_shadow"
       },
       "pve_tooltip": "Shadows guide your strikes, increasing the damage of your Scourge Strike by 25%, and causing it to grant you Clawing Shadows up to 4 times.\nFor each stack of Clawing Shadows, your Scourge Strike chains to an additional enemy. Each subsequent chain deals 10% reduced damage.",
@@ -3648,11 +3778,13 @@
           76186
         ],
         "entry_id": 133522,
+        "entry_max_ranks": 1,
         "definition_id": 138308,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Putrefy",
         "spell_id": 1247378,
+        "visible_spell_id": null,
         "icon": "inv12_ability_deathknight_putrefy"
       },
       "pve_tooltip": "-10 Runic Power / 1 Rune\n40 yd range\nInstant\n30 sec cooldown\n1 Charge\nSummon a Lesser Ghoul to strike the enemy for (199.665% of Attack Power) Shadow damage and have them explode for (139.421% of Attack Power) Shadow damage to nearby enemies.",
@@ -3820,11 +3952,13 @@
           110260
         ],
         "entry_id": 96322,
+        "entry_max_ranks": 1,
         "definition_id": 101324,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Dark Transformation",
         "spell_id": 1233448,
+        "visible_spell_id": null,
         "icon": "achievement_boss_festergutrotface"
       },
       "pve_tooltip": "100 yd range\nInstant\n45 sec cooldown\nCorrupt and evolve your Ghoul into a Monstrosity, greatly empowering its abilities for 15 sec.\nDeath Coil and Epidemic extends the duration of this effect by 1.0 sec.",
@@ -3914,11 +4048,13 @@
           76192
         ],
         "entry_id": 96296,
+        "entry_max_ranks": 1,
         "definition_id": 101298,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Foul Infections",
         "spell_id": 455396,
+        "visible_spell_id": null,
         "icon": "spell_holy_nullifydisease"
       },
       "pve_tooltip": "Your diseases deal 10% more damage and have a 5% increased chance to critically strike.",
@@ -3971,11 +4107,13 @@
           76196
         ],
         "entry_id": 96323,
+        "entry_max_ranks": 1,
         "definition_id": 101325,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Plague Mastery",
         "spell_id": 390166,
+        "visible_spell_id": null,
         "icon": "spell_shadow_blackplague"
       },
       "pve_tooltip": "Critical strike damage of your diseases is increased by 25%",
@@ -4028,11 +4166,13 @@
           76196
         ],
         "entry_id": 133365,
+        "entry_max_ranks": 1,
         "definition_id": 138151,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Grave Mastery",
         "spell_id": 1238900,
+        "visible_spell_id": null,
         "icon": "achievement_dungeon_plaguefall_stradamamargrave"
       },
       "pve_tooltip": "Critical strike damage of your minions is increased by 15%",
@@ -4085,11 +4225,13 @@
           76187
         ],
         "entry_id": 136797,
+        "entry_max_ranks": 1,
         "definition_id": 141560,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Necromancer's Cunning",
         "spell_id": 288848,
+        "visible_spell_id": null,
         "icon": "artifactability_unholydeathknight_deathsembrace"
       },
       "pve_tooltip": "When your Lesser Ghouls expire, they explode in viscera, dealing [0.21 * ((200% of Attack Power)) * (1 + Versatility) * 1] Shadow damage to enemies nearby.",
@@ -4141,11 +4283,13 @@
           76160
         ],
         "entry_id": 96334,
+        "entry_max_ranks": 1,
         "definition_id": 101336,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ebon Fever",
         "spell_id": 207269,
+        "visible_spell_id": null,
         "icon": "spell_shadow_creepingplague"
       },
       "pve_tooltip": "Plagues deal 15% more damage over time in 75% of their duration.",
@@ -4197,11 +4341,13 @@
           76156
         ],
         "entry_id": 96330,
+        "entry_max_ranks": 1,
         "definition_id": 101332,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Festering Scythe",
         "spell_id": 455397,
+        "visible_spell_id": null,
         "icon": "inv_polearm_2h_mawnecromancerboss_d_01_darkblue"
       },
       "pve_tooltip": "Festering Strike now follows up with a Festering Scythe that costs no Runes.\nFestering Scythe\nSlashes through all enemies within 14 yds in front of you, dealing (101.25% of Attack Power) Shadow damage and hastening all of your plagues on targets hit to deal damage 35% faster for 25 sec.",
@@ -4295,11 +4441,13 @@
           76196
         ],
         "entry_id": 96329,
+        "entry_max_ranks": 1,
         "definition_id": 101331,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Superstrain",
         "spell_id": 390283,
+        "visible_spell_id": null,
         "icon": "spell_deathknight_explode_ghoul"
       },
       "pve_tooltip": "Dread Plague deals damage to an additional nearby enemy at 75% effectiveness and has a chance to grant you 4 Runic Power.",
@@ -4352,11 +4500,13 @@
           109392
         ],
         "entry_id": 96314,
+        "entry_max_ranks": 1,
         "definition_id": 101316,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Soul Reaper",
         "spell_id": 343294,
+        "visible_spell_id": null,
         "icon": "ability_deathknight_soulreaper"
       },
       "pve_tooltip": "1 Rune / -10 Runic Power\nMelee Range\nInstant\n15 sec cooldown\nRupture the soul of your enemy, dealing (450% of Attack Power) Shadowfrost damage and causing the foe to take 20% increased damage from your diseases and minions for 8 sec.\nOnly usable on enemies below 35% maximum health.\nConsumes up to 3 Lesser Ghoul stacks to summon them instantly.",
@@ -4466,11 +4616,13 @@
           76194
         ],
         "entry_id": 96282,
+        "entry_max_ranks": 1,
         "definition_id": 101284,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Magus of the Dead",
         "spell_id": 390196,
+        "visible_spell_id": null,
         "icon": "ability_maldraxxus_mage"
       },
       "pve_tooltip": "Dark Transformation and Army of the Dead summon a Magus of the Dead who hurls Frostbolts and Shadow Bolts at your foes for 15 sec.",
@@ -4521,11 +4673,13 @@
           76194
         ],
         "entry_id": 96324,
+        "entry_max_ranks": 1,
         "definition_id": 101326,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Infected Claws",
         "spell_id": 207272,
+        "visible_spell_id": null,
         "icon": "ability_creature_disease_05"
       },
       "pve_tooltip": "The infected claws of your ghouls have a chance to sicken the foe, dealing (15.5925% of Attack Power) Shadow damage over 12 sec. When reapplied, any remaining damage is added to the new effect.",
@@ -4618,11 +4772,13 @@
           108126
         ],
         "entry_id": 96289,
+        "entry_max_ranks": 1,
         "definition_id": 101291,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Cycle of Death",
         "spell_id": 1290864,
+        "visible_spell_id": null,
         "icon": "ability_ironmaidens_whirlofblood"
       },
       "pve_tooltip": "Putrefy reduces the cooldown of Death and Decay by 1.0 sec.\nDeath and Decay reduces the cooldown of Putrefy by 0.3 sec for each enemy it damages, up to 3.0 sec.",
@@ -4674,11 +4830,13 @@
           76178
         ],
         "entry_id": 96290,
+        "entry_max_ranks": 1,
         "definition_id": 101292,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Coil of Devastation",
         "spell_id": 390270,
+        "visible_spell_id": null,
         "icon": "ability_malkorok_blightofyshaarj_green"
       },
       "pve_tooltip": "Death Coil deals 10% increased damage and causes the target to take an additional 30% of the direct damage dealt over 4 sec.",
@@ -4733,11 +4891,13 @@
           76184
         ],
         "entry_id": 96333,
+        "entry_max_ranks": 1,
         "definition_id": 101335,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Army of the Dead",
         "spell_id": 42650,
+        "visible_spell_id": null,
         "icon": "spell_deathknight_armyofthedead"
       },
       "pve_tooltip": "1 Rune / -10 Runic Power\nInstant\n1.5 min cooldown\nSummon or empower Lesser Ghouls to form an unholy army of 8 for 30 sec. While active, summoning a Lesser Ghoul will instead execute Orders based on nearby enemies.\nDeath Orders\nLesser Ghouls strike with you, dealing [0.30 * (100% of Attack Power) * (1 + $mas / 100)] Shadow damage to your target.\nEpidemic Orders\nLesser Ghouls erupt in viscera, dealing [15 / 100 * (0.21 * ((200% of Attack Power)) * (1 + Versatility) * 1)] Shadow damage to nearby enemies. Deals reduced damage beyond 5 targets.",
@@ -4841,11 +5001,13 @@
           76184
         ],
         "entry_id": 133517,
+        "entry_max_ranks": 1,
         "definition_id": 138303,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Reaping",
         "spell_id": 377514,
+        "visible_spell_id": null,
         "icon": "ability_deathwing_bloodcorruption_death"
       },
       "pve_tooltip": "Scourge Strike, Festering Strike, and Death Coil deal 30% additional damage to enemies below 35% health.\nDark Transformation resets Soul Reaper's cooldown and allows it to be used on any target.\n(300ms cooldown)",
@@ -4945,11 +5107,13 @@
           108130
         ],
         "entry_id": 125815,
+        "entry_max_ranks": 1,
         "definition_id": 130647,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Menacing Magus",
         "spell_id": 455135,
+        "visible_spell_id": null,
         "icon": "ability_warlock_coil2"
       },
       "pve_tooltip": "Your Magus of the Dead Shadow Bolt now fires a volley of Shadow Bolts at up to 8 nearby enemies.\nYour Lord of the Dead Frostbolts now chain to 3 additional enemies.",
@@ -5001,11 +5165,13 @@
           76181
         ],
         "entry_id": 96331,
+        "entry_max_ranks": 1,
         "definition_id": 101333,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ghoulish Frenzy",
         "spell_id": 377587,
+        "visible_spell_id": null,
         "icon": "ability_warlock_baneofhavoc"
       },
       "pve_tooltip": "Dark Transformation increases the attack speed and damage of you and your Monstrosity by 5% for 15 sec.",
@@ -5057,11 +5223,13 @@
           108126
         ],
         "entry_id": 96294,
+        "entry_max_ranks": 1,
         "definition_id": 101296,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Morbidity",
         "spell_id": 377592,
+        "visible_spell_id": null,
         "icon": "spell_necro_deathlyecho"
       },
       "pve_tooltip": "Diseased enemies take 1% increased damage from you per disease they are affected by.",
@@ -5115,11 +5283,13 @@
           108151
         ],
         "entry_id": 96313,
+        "entry_max_ranks": 1,
         "definition_id": 101315,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Harbinger of Doom",
         "spell_id": 276023,
+        "visible_spell_id": null,
         "icon": "inv_mawguardpet_black"
       },
       "pve_tooltip": "Sudden Doom triggers 30% more often and can accumulate up to 2 charges.\nSummoning a Lesser Ghoul with Scourge Strike reduces the cooldown of Putrefy by 2.5 sec.\n(300ms cooldown)",
@@ -5170,11 +5340,13 @@
           108151
         ],
         "entry_id": 96311,
+        "entry_max_ranks": 1,
         "definition_id": 101313,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Raise Abomination",
         "spell_id": 1242608,
+        "visible_spell_id": null,
         "icon": "achievement_boss_patchwerk"
       },
       "pve_tooltip": "Army of the Dead now raises an Abomination for 30 sec to attack enemies while emitting a disease cloud, dealing (35% of Attack Power) Plague damage to nearby enemies every 2 sec.",
@@ -5225,11 +5397,13 @@
           108151
         ],
         "entry_id": 133514,
+        "entry_max_ranks": 1,
         "definition_id": 138300,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Summon Gargoyle",
         "spell_id": 1242147,
+        "visible_spell_id": null,
         "icon": "ability_deathknight_summongargoyle"
       },
       "pve_tooltip": "Army of the Dead now summons a Gargoyle into the battlefield to bombard your enemies for 25 sec.\nThe Gargoyle gains 1% increased damage for every 1 Runic Power you spend and always critically strikes.",
@@ -5283,11 +5457,13 @@
           108130
         ],
         "entry_id": 96321,
+        "entry_max_ranks": 1,
         "definition_id": 101323,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unholy Devotion",
         "spell_id": 1241858,
+        "visible_spell_id": null,
         "icon": "ability_creature_cursed_03"
       },
       "pve_tooltip": "Putrefy causes your permanent Ghoul to go on an unholy frenzy, increasing its attack speed and energy regeneration by 25% for 12 sec.\nMultiple applications may overlap.",
@@ -5339,11 +5515,13 @@
           108130
         ],
         "entry_id": 96317,
+        "entry_max_ranks": 1,
         "definition_id": 101319,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "All Will Serve",
         "spell_id": 194916,
+        "visible_spell_id": null,
         "icon": "ability_fiegndead"
       },
       "pve_tooltip": "Raise Dead summons an additional skeletal archer at your command that shoots Blighted Arrows.\nBlighted Arrow\nAn unholy arrow that deals (34% of Attack Power) Shadow damage. When consuming Sudden Doom, your Death Coil commands your archer to fire an additional Blighted Arrow at 80% effectiveness. Epidemic will instead cause Blighted Arrow to ricochet and hit up to 5 additional targets.",
@@ -5397,11 +5575,13 @@
           76152
         ],
         "entry_id": 133515,
+        "entry_max_ranks": 1,
         "definition_id": 138301,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Blightburst",
         "spell_id": 1254552,
+        "visible_spell_id": null,
         "icon": "spell_shadow_unstableaffliction_3_purple"
       },
       "pve_tooltip": "The explosion effect of Putrefy extends the duration of your plagues by 3.0 sec and deals 35% of the damage they would deal over that time instantly.\nPutrefy now applies your plagues to unaffected targets.",
@@ -5455,11 +5635,13 @@
           76150
         ],
         "entry_id": 133546,
+        "entry_max_ranks": 1,
         "definition_id": 138332,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Putrid Echoes",
         "spell_id": 377580,
+        "visible_spell_id": null,
         "icon": "inv12_ability_deathknight_dreadplague"
       },
       "pve_tooltip": "Putrefy deals 20% increased damage, has 2 additional charges and consumes up to 2 available charges.",
@@ -5513,11 +5695,13 @@
           76149
         ],
         "entry_id": 125816,
+        "entry_max_ranks": 1,
         "definition_id": 130648,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Doomed Bidding",
         "spell_id": 455386,
+        "visible_spell_id": null,
         "icon": "ability_deathknight_shatteringbone"
       },
       "pve_tooltip": "Consuming Sudden Doom summons forth a Lesser Ghoul to assist you for 8 sec.",
@@ -5568,11 +5752,13 @@
           108124
         ],
         "entry_id": 133516,
+        "entry_max_ranks": 2,
         "definition_id": 138302,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Scourging",
         "spell_id": 1242604,
+        "visible_spell_id": null,
         "icon": "spell_deathknight_deathstrike"
       },
       "pve_tooltip": "Scourge Strike now causes your Plagues to erupt at 70% effectiveness.\nClawing Shadows can now stack 2 additional times.",
@@ -5590,6 +5776,7 @@
           "pve_tooltip": "Scourge Strike now causes your Plagues to erupt at 50% effectiveness.\nClawing Shadows can now stack 1 additional times.",
           "pvp_tooltip": "Scourge Strike now causes your Plagues to erupt at 50% effectiveness.\nClawing Shadows can now stack 1 additional times.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -5598,6 +5785,7 @@
           "pve_tooltip": "Scourge Strike now causes your Plagues to erupt at 70% effectiveness.\nClawing Shadows can now stack 2 additional times.",
           "pvp_tooltip": "Scourge Strike now causes your Plagues to erupt at 70% effectiveness.\nClawing Shadows can now stack 2 additional times.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -5641,11 +5829,13 @@
           109458
         ],
         "entry_id": 96286,
+        "entry_max_ranks": 2,
         "definition_id": 101288,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ancient Power",
         "spell_id": 377590,
+        "visible_spell_id": null,
         "icon": "inv_relics_runestone"
       },
       "pve_tooltip": "Spending Runic Power increases your Strength by 0.3% for 20 sec.\nMultiple applications may overlap.\n(100ms cooldown)",
@@ -5663,6 +5853,7 @@
           "pve_tooltip": "Spending Runic Power increases your Strength by 0.15% for 20 sec.\nMultiple applications may overlap.\n(100ms cooldown)",
           "pvp_tooltip": "Spending Runic Power increases your Strength by 0.15% for 20 sec.\nMultiple applications may overlap.\n(100ms cooldown)",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -5671,6 +5862,7 @@
           "pve_tooltip": "Spending Runic Power increases your Strength by 0.3% for 20 sec.\nMultiple applications may overlap.\n(100ms cooldown)",
           "pvp_tooltip": "Spending Runic Power increases your Strength by 0.3% for 20 sec.\nMultiple applications may overlap.\n(100ms cooldown)",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -5714,11 +5906,13 @@
           109458
         ],
         "entry_id": 96284,
+        "entry_max_ranks": 2,
         "definition_id": 101286,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unholy Aura",
         "spell_id": 377440,
+        "visible_spell_id": null,
         "icon": "ability_deathknight_decomposingaura"
       },
       "pve_tooltip": "Magus of the Dead grants you 2% Haste for 15 sec.\nMultiple applications may overlap.",
@@ -5736,6 +5930,7 @@
           "pve_tooltip": "Magus of the Dead grants you 1.0% Haste for 15 sec.\nMultiple applications may overlap.",
           "pvp_tooltip": "Magus of the Dead grants you 1.0% Haste for 15 sec.\nMultiple applications may overlap.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -5744,6 +5939,7 @@
           "pve_tooltip": "Magus of the Dead grants you 2% Haste for 15 sec.\nMultiple applications may overlap.",
           "pvp_tooltip": "Magus of the Dead grants you 2% Haste for 15 sec.\nMultiple applications may overlap.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -5786,11 +5982,13 @@
           76182
         ],
         "entry_id": 96283,
+        "entry_max_ranks": 2,
         "definition_id": 101285,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Commander of the Dead",
         "spell_id": 390259,
+        "visible_spell_id": null,
         "icon": "spell_shadow_fumble"
       },
       "pve_tooltip": "Dark Transformation empowers your [Dark Arbiter / Gargoyle], Abomination, Magus and Lesser Ghouls for 30 sec, increasing their damage by 20%.",
@@ -5808,6 +6006,7 @@
           "pve_tooltip": "Dark Transformation empowers your [Dark Arbiter / Gargoyle], Abomination, Magus and Lesser Ghouls for 30 sec, increasing their damage by 10%.",
           "pvp_tooltip": "Dark Transformation empowers your [Dark Arbiter / Gargoyle], Abomination, Magus and Lesser Ghouls for 30 sec, increasing their damage by 10%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -5816,6 +6015,7 @@
           "pve_tooltip": "Dark Transformation empowers your [Dark Arbiter / Gargoyle], Abomination, Magus and Lesser Ghouls for 30 sec, increasing their damage by 20%.",
           "pvp_tooltip": "Dark Transformation empowers your [Dark Arbiter / Gargoyle], Abomination, Magus and Lesser Ghouls for 30 sec, increasing their damage by 20%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -5856,11 +6056,13 @@
         ],
         "next": [],
         "entry_id": 133513,
+        "entry_max_ranks": 1,
         "definition_id": 138299,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Blightfall",
         "spell_id": 1271974,
+        "visible_spell_id": null,
         "icon": "inv_nullstone_shadow"
       },
       "pve_tooltip": "Dark Transformation grants access to Blightfall.\nBlightfall\nConsume 100% of your plagues around you and deal 100% of their remaining damage instantly.\nGrants 1 charge of Putrefy.",
@@ -5957,11 +6159,13 @@
         ],
         "next": [],
         "entry_id": 135676,
+        "entry_max_ranks": 1,
         "definition_id": 140432,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lord of the Dead",
         "spell_id": 1256813,
+        "visible_spell_id": null,
         "icon": "achievement_dungeon_thenecroticwake_nalthor"
       },
       "pve_tooltip": "Putrefying a Lesser Ghoul has a 100% chance to reanimate it as a Magus of the Dead who hurls Frostbolts and Shadow Bolts at your foes for 15 sec.\nWhen you control 3 Magus of the Dead, sacrifice them to summon their Lord of the Dead for 15 sec, casting Frostbolts that chain between 2 enemies. Magus with higher remaining duration grant increased power.",
@@ -6010,11 +6214,13 @@
         ],
         "next": [],
         "entry_id": 96318,
+        "entry_max_ranks": 1,
         "definition_id": 101320,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Outnumber",
         "spell_id": 1241705,
+        "visible_spell_id": null,
         "icon": "spell_shadow_darksummoning"
       },
       "pve_tooltip": "Each Lesser Ghoul increases the damage of your permanent Ghoul by 10%, and Dark Transformation additionally empowers the Claw attacks of your Lesser Ghouls to Sweeping Claws.\nSweeping Claws\nRakes an enemy with deformed claws, dealing [(Attack Power * 0.2484) * (1 + Versatility) * 2 * 1.144] Shadow damage to the target and [(Attack Power * 0.17155125) * (1 + Versatility) * 2 * 1.144] Shadow damage to nearby enemies.",
@@ -6061,11 +6267,13 @@
         "prev": [],
         "next": [],
         "entry_id": 136920,
+        "entry_max_ranks": 1,
         "definition_id": 141683,
         "entry_index": 100,
         "entry_type": "tierrank",
         "talent_name": "Forbidden Knowledge",
         "spell_id": 1242158,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_deathknight_forbiddenknowledge"
       },
       "pve_tooltip": "Army of the Dead siphons the power of the fallen, transforming Death Coil and Epidemic into Necrotic Coil and Graveyard for 30 sec.\nNecrotic Coil\nUnleash a vortex of necrotic energy and bone, dealing (205.335% of Attack Power) Shadowstrike damage up to 3 foes and (64.584% of Attack Power) Shadow damage to all pierced enemies.\nGraveyard\nThe dead erupt beneath all foes with Virulent Plague, dealing (111.983% of Attack Power) Shadow damage and (52.6989% of Attack Power) Shadow damage to enemies nearby.",
@@ -6291,15 +6499,17 @@
         "prev": [],
         "next": [],
         "entry_id": 136919,
+        "entry_max_ranks": 2,
         "definition_id": 141682,
         "entry_index": 200,
         "entry_type": "tierrank",
         "talent_name": "Forbidden Knowledge",
         "spell_id": 1256565,
+        "visible_spell_id": null,
         "icon": "spell_shadow_fingerofdeath"
       },
-      "pve_tooltip": "Putrefy causes your next 1 Scourge Strike to summon a Lesser Ghoul, and grants you 3% Mastery for 12 sec.\nMultiple applications may overlap.",
-      "pvp_tooltip": "Putrefy causes your next 1 Scourge Strike to summon a Lesser Ghoul, and grants you 3% Mastery for 12 sec.\nMultiple applications may overlap.",
+      "pve_tooltip": "Putrefy causes your next 1 Scourge Strike to summon a Lesser Ghoul, and grants you 6% Mastery for 12 sec.\nMultiple applications may overlap.",
+      "pvp_tooltip": "Putrefy causes your next 1 Scourge Strike to summon a Lesser Ghoul, and grants you 6% Mastery for 12 sec.\nMultiple applications may overlap.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6307,7 +6517,26 @@
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Putrefy causes your next 1 Scourge Strike to summon a Lesser Ghoul, and grants you 3% Mastery for 12 sec.\nMultiple applications may overlap.",
+          "pvp_tooltip": "Putrefy causes your next 1 Scourge Strike to summon a Lesser Ghoul, and grants you 3% Mastery for 12 sec.\nMultiple applications may overlap.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Putrefy causes your next 1 Scourge Strike to summon a Lesser Ghoul, and grants you 6% Mastery for 12 sec.\nMultiple applications may overlap.",
+          "pvp_tooltip": "Putrefy causes your next 1 Scourge Strike to summon a Lesser Ghoul, and grants you 6% Mastery for 12 sec.\nMultiple applications may overlap.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Forbidden Knowledge",
@@ -6342,11 +6571,13 @@
         "prev": [],
         "next": [],
         "entry_id": 136918,
+        "entry_max_ranks": 1,
         "definition_id": 141681,
         "entry_index": 300,
         "entry_type": "tierrank",
         "talent_name": "Forbidden Knowledge",
         "spell_id": 1256566,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_deathknight_forbiddenknowledge"
       },
       "pve_tooltip": "Dread Plague has a 20% chance to rouse the dead, causing a Lesser Ghoul to unearth and leap at the target to Putrefy at 100% effectiveness.",
@@ -6398,11 +6629,13 @@
           109737
         ],
         "entry_id": 117648,
+        "entry_max_ranks": 1,
         "definition_id": 122660,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Vampiric Strike",
         "spell_id": 433901,
+        "visible_spell_id": null,
         "icon": "inv_ability_sanlayndeathknight_vampiricstrike"
       },
       "pve_tooltip": "Your Death Coil, Epidemic and Death Strike have a 25% chance to make your next become Vampiric Strike.\nVampiric Strike heals you for 2% of your maximum health and grants you Essence of the Blood Queen, increasing your Haste by 1.0%, up to 5.0% for 20 sec.",
@@ -6538,11 +6771,13 @@
           95033
         ],
         "entry_id": 117661,
+        "entry_max_ranks": 1,
         "definition_id": 122673,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Newly Turned",
         "spell_id": 433934,
+        "visible_spell_id": null,
         "icon": "ability_deathknight_hemorrhagicfever"
       },
       "pve_tooltip": "Raise Ally revives players at full health and grants you and your ally an absorb shield equal to 20% of your maximum health.",
@@ -6593,11 +6828,13 @@
           95033
         ],
         "entry_id": 117892,
+        "entry_max_ranks": 1,
         "definition_id": 122904,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Vampiric Speed",
         "spell_id": 434028,
+        "visible_spell_id": null,
         "icon": "inv_boots_cloth_34v2"
       },
       "pve_tooltip": "Death's Advance and Wraith Walk movement speed bonuses are increased by 10%.\nActivating Death's Advance or Wraith Walk increases 4 nearby allies movement speed by 20% for 5 sec.\n(100ms cooldown)",
@@ -6648,11 +6885,13 @@
           95065
         ],
         "entry_id": 117645,
+        "entry_max_ranks": 1,
         "definition_id": 122657,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Blood-Soaked Ground",
         "spell_id": 434033,
+        "visible_spell_id": null,
         "icon": "ability_ironmaidens_corruptedblood"
       },
       "pve_tooltip": "While you are within your Death and Decay, your physical damage taken is reduced by 8% and your chance to gain Vampiric Strike is increased by 5%.",
@@ -6703,11 +6942,13 @@
           95065
         ],
         "entry_id": 136836,
+        "entry_max_ranks": 1,
         "definition_id": 141599,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Desecrate",
         "spell_id": 1234559,
+        "visible_spell_id": null,
         "icon": "sha_ability_rogue_bloodyeye_nightmare"
       },
       "pve_tooltip": "Death and Decay deals its damage 100% faster.",
@@ -6758,11 +6999,13 @@
           95046
         ],
         "entry_id": 117653,
+        "entry_max_ranks": 1,
         "definition_id": 122665,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Vampiric Aura",
         "spell_id": 434100,
+        "visible_spell_id": null,
         "icon": "ability_rogue_vendetta"
       },
       "pve_tooltip": "Your Leech is increased by 2%.\nWhile Lichborne is active, the Leech bonus of this effect is increased by 100%, and it affects 4 allies within 12 yds.",
@@ -6813,11 +7056,13 @@
           95046
         ],
         "entry_id": 117891,
+        "entry_max_ranks": 1,
         "definition_id": 122903,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Bloody Fortitude",
         "spell_id": 434136,
+        "visible_spell_id": null,
         "icon": "ability_warrior_intensifyrage"
       },
       "pve_tooltip": "Icebound Fortitude reduces all damage you take by up to an additional 20% based on your missing health.\nKilling an enemy that yields experience or honor reduces the cooldown of Icebound Fortitude by 3 sec.",
@@ -6868,11 +7113,13 @@
           109738
         ],
         "entry_id": 135995,
+        "entry_max_ranks": 1,
         "definition_id": 140750,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Thrill of Blood",
         "spell_id": 1265547,
+        "visible_spell_id": null,
         "icon": "spell_nzinsanity_bloodthirst"
       },
       "pve_tooltip": "Essence of the Blood Queen additionally increases your Mastery by 0.2% per stack.\nDread Plague deals 10% and Virulent Plague deals 10% increased damage.",
@@ -6923,11 +7170,13 @@
           95045
         ],
         "entry_id": 117630,
+        "entry_max_ranks": 1,
         "definition_id": 122642,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Infliction of Sorrow",
         "spell_id": 434143,
+        "visible_spell_id": null,
         "icon": "ability_warrior_bloodbath"
       },
       "pve_tooltip": "When Vampiric Strike damages an enemy affected by your plagues, it extends the duration of the plagues by 3.0 sec, and erupts them with 30% increased effectiveness.",
@@ -6978,11 +7227,13 @@
           95040
         ],
         "entry_id": 117662,
+        "entry_max_ranks": 1,
         "definition_id": 122674,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Frenzied Bloodthirst",
         "spell_id": 434075,
+        "visible_spell_id": null,
         "icon": "inv_sulfurelemental_blood"
       },
       "pve_tooltip": "Essence of the Blood Queen stacks 2 additional times and increases the damage of your Death Coil and Death Strike by 3%, and Epidemic by 5% per stack.",
@@ -7033,11 +7284,13 @@
           95055
         ],
         "entry_id": 117643,
+        "entry_max_ranks": 1,
         "definition_id": 122655,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "The Blood is Life",
         "spell_id": 434260,
+        "visible_spell_id": null,
         "icon": "achievement_nazmir_boss_bloodofghuun"
       },
       "pve_tooltip": "summons a Blood Beast to attack your enemy for 10 sec.\nEach time the Blood Beast attacks, it stores a portion of the damage dealt. When the Blood Beast dies, it explodes, dealing 15% of the damage accumulated to nearby enemies and healing the Death Knight for the same amount. Deals reduced damage beyond 8 targets.",
@@ -7088,11 +7341,13 @@
           109736
         ],
         "entry_id": 135996,
+        "entry_max_ranks": 1,
         "definition_id": 140751,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Visceral Strength",
         "spell_id": 434157,
+        "visible_spell_id": null,
         "icon": "inv_ragnaros_heart"
       },
       "pve_tooltip": "When Sudden Doom is consumed, you gain 4% Strength for 5 sec.",
@@ -7143,11 +7398,13 @@
           95053
         ],
         "entry_id": 117642,
+        "entry_max_ranks": 1,
         "definition_id": 122654,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Inevitable",
         "spell_id": 1280658,
+        "visible_spell_id": null,
         "icon": "spell_warlock_demonsoul"
       },
       "pve_tooltip": "Your plagues deal up to 30% increased damage based on the target's missing health.\nVampiric Strike grants maximum stacks of Clawing Shadows.",
@@ -7198,11 +7455,13 @@
           95053
         ],
         "entry_id": 117637,
+        "entry_max_ranks": 1,
         "definition_id": 122649,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Incite Terror",
         "spell_id": 434151,
+        "visible_spell_id": null,
         "icon": "ability_warlock_improveddemonictactics"
       },
       "pve_tooltip": "Vampiric Strike and cause your targets to take 1% increased Shadow damage, up to (1 * 5)% for 15 sec.\nVampiric Strike benefits from Incite Terror at 400% effectiveness.",
@@ -7253,11 +7512,13 @@
           95053
         ],
         "entry_id": 117652,
+        "entry_max_ranks": 1,
         "definition_id": 122664,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Pact of the San'layn",
         "spell_id": 434261,
+        "visible_spell_id": null,
         "icon": "ability_warrior_bloodnova"
       },
       "pve_tooltip": "You store 10% of all Shadow damage dealt into your Blood Beast to explode for additional damage when it expires.",
@@ -7308,11 +7569,13 @@
           95053
         ],
         "entry_id": 117893,
+        "entry_max_ranks": 1,
         "definition_id": 122905,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Sanguine Scent",
         "spell_id": 434263,
+        "visible_spell_id": null,
         "icon": "ability_deathknight_roilingblood"
       },
       "pve_tooltip": "Your Death Coil, Epidemic and Death Strike have a 15% increased chance to trigger Vampiric Strike when damaging enemies below 35% health.",
@@ -7363,11 +7626,13 @@
           95053
         ],
         "entry_id": 135994,
+        "entry_max_ranks": 1,
         "definition_id": 140749,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Transfusion",
         "spell_id": 1265574,
+        "visible_spell_id": null,
         "icon": "inv_artifact_bloodoftheassassinated"
       },
       "pve_tooltip": "Vampiric Strike increases the damage of your Lesser Ghouls by 10% for 8 sec.",
@@ -7585,11 +7850,13 @@
         ],
         "next": [],
         "entry_id": 117650,
+        "entry_max_ranks": 1,
         "definition_id": 122662,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Gift of the San'layn",
         "spell_id": 434152,
+        "visible_spell_id": null,
         "icon": "spell_deathknight_bloodtap"
       },
       "pve_tooltip": "While Dark Transformation is active you gain Gift of the San'layn.\nGift of the San'layn increases the effectiveness of your Essence of the Blood Queen by 80%, and Vampiric Strike replaces your for the duration.",
@@ -7641,11 +7908,13 @@
           109741
         ],
         "entry_id": 117663,
+        "entry_max_ranks": 1,
         "definition_id": 122675,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Rider's Champion",
         "spell_id": 444005,
+        "visible_spell_id": null,
         "icon": "achievement_zone_icecrown_01"
       },
       "pve_tooltip": "Spending Runes has a chance to call forth the aid of a Horsemen for 10 sec.\nMograine\nCasts Death and Decay at his location that follows his position and extends the duration of your diseases by 1.0 sec whenever it deals damage.\nWhitemane\nCasts Undeath on your target dealing (6.86532% of Attack Power) Shadowfrost damage per stack every 3 sec, for 24 sec. Each time Undeath deals damage it gains a stack. Cannot be refreshed.\nTrollbane\nCasts Chains of Ice on your target slowing their movement speed by 40% and increasing the damage they take from you by 5% for 8 sec.\nNazgrim\nWhile Nazgrim is active you gain Apocalyptic Conquest, increasing your Strength by 5%.",
@@ -7852,11 +8121,13 @@
           95047
         ],
         "entry_id": 117657,
+        "entry_max_ranks": 1,
         "definition_id": 122669,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "On a Paler Horse",
         "spell_id": 444008,
+        "visible_spell_id": null,
         "icon": "inv_skeletalwarhorse_01_purple"
       },
       "pve_tooltip": "While outdoors you are able to mount your Acherus Deathcharger in combat.",
@@ -7907,11 +8178,13 @@
           95047
         ],
         "entry_id": 123412,
+        "entry_max_ranks": 1,
         "definition_id": 128250,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Death Charge",
         "spell_id": 444010,
+        "visible_spell_id": null,
         "icon": "ability_mount_steelwarhorse"
       },
       "pve_tooltip": "Call upon your Death Charger to break free of movement impairment effects.\nFor 10 sec, while upon your Death Charger your movement speed is increased by 100%, you cannot be slowed below 100% of normal speed, and you are immune to forced movement effects and knockbacks.",
@@ -8014,11 +8287,13 @@
           95059
         ],
         "entry_id": 117664,
+        "entry_max_ranks": 1,
         "definition_id": 122676,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Mograine's Might",
         "spell_id": 444047,
+        "visible_spell_id": null,
         "icon": "ability_warlock_improvedsoulleech"
       },
       "pve_tooltip": "Your damage is increased by 5% and you gain the benefits of your Death and Decay while inside Mograine's Death and Decay.",
@@ -8069,11 +8344,13 @@
           95063
         ],
         "entry_id": 117634,
+        "entry_max_ranks": 1,
         "definition_id": 122646,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Horsemen's Aid",
         "spell_id": 444074,
+        "visible_spell_id": null,
         "icon": "achievement_dungeon_nexusraid_10man"
       },
       "pve_tooltip": "While at your aid, the Horsemen will occasionally cast Anti-Magic Shell on you and themselves at 80% effectiveness.\nYou may only benefit from this effect every 45 sec.",
@@ -8154,11 +8431,13 @@
           95063
         ],
         "entry_id": 123410,
+        "entry_max_ranks": 1,
         "definition_id": 128248,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Pact of the Apocalypse",
         "spell_id": 444083,
+        "visible_spell_id": null,
         "icon": "achievement_dungeon_nexus80_25man"
       },
       "pve_tooltip": "When you take damage, 5% of the damage is redirected to each active horsemen.",
@@ -8209,11 +8488,13 @@
           109740
         ],
         "entry_id": 135999,
+        "entry_max_ranks": 1,
         "definition_id": 140754,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ride or Die!",
         "spell_id": 1265959,
+        "visible_spell_id": null,
         "icon": "achievement_boss_fourhorsemen"
       },
       "pve_tooltip": "Dark Transformation summons forth Whitemane for 6 sec.",
@@ -8336,11 +8617,13 @@
           95044
         ],
         "entry_id": 117644,
+        "entry_max_ranks": 1,
         "definition_id": 122656,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Whitemane's Famine",
         "spell_id": 444033,
+        "visible_spell_id": null,
         "icon": "spell_deathknight_necroticplague"
       },
       "pve_tooltip": "When damages an enemy affected by Undeath it gains 1 stack and infects another nearby enemy.",
@@ -8391,11 +8674,13 @@
           95042
         ],
         "entry_id": 117656,
+        "entry_max_ranks": 1,
         "definition_id": 122668,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Nazgrim's Conquest",
         "spell_id": 444052,
+        "visible_spell_id": null,
         "icon": "ability_maldraxxus_warriorplantbanner"
       },
       "pve_tooltip": "If an enemy dies while Nazgrim is active, the strength of Apocalyptic Conquest is increased by 3%.\nAdditionally, each Rune you spend increase its value by 1%.",
@@ -8446,11 +8731,13 @@
           95054
         ],
         "entry_id": 117660,
+        "entry_max_ranks": 1,
         "definition_id": 122672,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Trollbane's Icy Fury",
         "spell_id": 444097,
+        "visible_spell_id": null,
         "icon": "ability_warrior_shatteringthrow"
       },
       "pve_tooltip": "shatters Trollbane's Chains of Ice when hit, dealing (105.3% of Attack Power) Shadowfrost damage to nearby enemies, and slowing them by 40% for 4 sec. Deals reduced damage beyond 8 targets.",
@@ -8619,11 +8906,13 @@
           109739
         ],
         "entry_id": 135998,
+        "entry_max_ranks": 1,
         "definition_id": 140753,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Let Terror Reign",
         "spell_id": 1265949,
+        "visible_spell_id": null,
         "icon": "spell_deathknight_plaguestrike"
       },
       "pve_tooltip": "Casting Death Coil or Epidemic orders Whitemane to cast her Death Coil or Epidemic alongside you at 125% effectiveness.",
@@ -8754,11 +9043,13 @@
           95041
         ],
         "entry_id": 117641,
+        "entry_max_ranks": 1,
         "definition_id": 122653,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Hungering Thirst",
         "spell_id": 444037,
+        "visible_spell_id": null,
         "icon": "spell_shadow_fumble"
       },
       "pve_tooltip": "The damage of your diseases and Death Coil are increased by 5%.",
@@ -8809,11 +9100,13 @@
           95041
         ],
         "entry_id": 117639,
+        "entry_max_ranks": 1,
         "definition_id": 122651,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fury of the Horsemen",
         "spell_id": 444069,
+        "visible_spell_id": null,
         "icon": "inv_plate_raiddeathknightmythic_o_01helm"
       },
       "pve_tooltip": "Every 50 Runic Power you spend extends the duration of the Horsemen's aid in combat by 1 sec, up to 5 sec.",
@@ -8864,11 +9157,13 @@
           95041
         ],
         "entry_id": 123411,
+        "entry_max_ranks": 1,
         "definition_id": 128249,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "A Feast of Souls",
         "spell_id": 444072,
+        "visible_spell_id": null,
         "icon": "inv_misc_supersoulash"
       },
       "pve_tooltip": "While you have 2 or more Horsemen aiding you, your Death Coil deals 20% and Epidemic deals 20% increased damage.",
@@ -8919,11 +9214,13 @@
           95041
         ],
         "entry_id": 117651,
+        "entry_max_ranks": 1,
         "definition_id": 122663,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Mawsworn Menace",
         "spell_id": 444099,
+        "visible_spell_id": null,
         "icon": "inv_mawguardpet_black"
       },
       "pve_tooltip": "% increased damage and the cooldown of your Death and Decay is reduced by 5 sec.",
@@ -8974,11 +9271,13 @@
           95041
         ],
         "entry_id": 135997,
+        "entry_max_ranks": 1,
         "definition_id": 140752,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unholy Armaments",
         "spell_id": 1265971,
+        "visible_spell_id": null,
         "icon": "ability_deathknight_necroticstrike"
       },
       "pve_tooltip": "The abilities that Horsemen cast deal 5% increased damage.\nYour Ghoul and skeletal archer deals 10% and Lesser Ghouls deal 20% increased damage.",
@@ -9030,11 +9329,13 @@
         ],
         "next": [],
         "entry_id": 117638,
+        "entry_max_ranks": 1,
         "definition_id": 122650,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Apocalypse Now",
         "spell_id": 444040,
+        "visible_spell_id": null,
         "icon": "inv_ability_rideroftheapocalypsedeathknight_apocalypsenow"
       },
       "pve_tooltip": "Army of the Dead and Frostwyrm's Fury call upon all 4 Horsemen to aid you for 20 sec.\n(1s cooldown)",
@@ -9050,9 +9351,283 @@
     }
   ],
   "fetch_errors": [],
+  "serialization": {
+    "version": 2,
+    "spec_id": 252,
+    "node_order": [
+      76033,
+      76037,
+      76039,
+      76040,
+      76041,
+      76042,
+      76043,
+      76044,
+      76045,
+      76046,
+      76048,
+      76050,
+      76051,
+      76052,
+      76053,
+      76054,
+      76055,
+      76056,
+      76057,
+      76058,
+      76059,
+      76060,
+      76061,
+      76064,
+      76065,
+      76066,
+      76067,
+      76068,
+      76069,
+      76071,
+      76072,
+      76073,
+      76074,
+      76075,
+      76076,
+      76078,
+      76079,
+      76080,
+      76081,
+      76083,
+      76084,
+      76085,
+      76086,
+      76087,
+      76088,
+      76091,
+      76092,
+      76093,
+      76094,
+      76095,
+      76096,
+      76098,
+      76099,
+      76100,
+      76101,
+      76102,
+      76103,
+      76105,
+      76106,
+      76108,
+      76109,
+      76110,
+      76112,
+      76113,
+      76114,
+      76115,
+      76116,
+      76117,
+      76118,
+      76121,
+      76122,
+      76123,
+      76124,
+      76125,
+      76126,
+      76127,
+      76128,
+      76129,
+      76130,
+      76131,
+      76132,
+      76133,
+      76135,
+      76137,
+      76138,
+      76139,
+      76140,
+      76141,
+      76142,
+      76143,
+      76144,
+      76145,
+      76146,
+      76147,
+      76148,
+      76149,
+      76150,
+      76152,
+      76155,
+      76156,
+      76160,
+      76162,
+      76166,
+      76167,
+      76168,
+      76169,
+      76170,
+      76171,
+      76172,
+      76173,
+      76174,
+      76176,
+      76178,
+      76179,
+      76181,
+      76182,
+      76184,
+      76185,
+      76186,
+      76187,
+      76189,
+      76190,
+      76191,
+      76192,
+      76193,
+      76194,
+      76196,
+      76197,
+      95032,
+      95033,
+      95034,
+      95035,
+      95036,
+      95037,
+      95040,
+      95041,
+      95042,
+      95043,
+      95044,
+      95045,
+      95046,
+      95047,
+      95048,
+      95049,
+      95051,
+      95053,
+      95054,
+      95055,
+      95056,
+      95057,
+      95058,
+      95059,
+      95060,
+      95061,
+      95062,
+      95063,
+      95064,
+      95065,
+      95066,
+      95067,
+      95068,
+      99820,
+      99821,
+      99822,
+      101708,
+      101882,
+      101929,
+      101930,
+      101931,
+      101932,
+      101933,
+      102007,
+      102008,
+      102009,
+      102242,
+      102243,
+      102244,
+      102245,
+      106790,
+      106791,
+      108124,
+      108126,
+      108127,
+      108129,
+      108130,
+      108131,
+      108151,
+      109258,
+      109392,
+      109458,
+      109733,
+      109734,
+      109735,
+      109736,
+      109737,
+      109738,
+      109739,
+      109740,
+      109741,
+      110029,
+      110030,
+      110031,
+      110260,
+      110353,
+      110354,
+      110400
+    ],
+    "subtree_nodes": [
+      {
+        "id": 99820,
+        "name": "Rider of the Apocalypse / San'layn",
+        "type": "subtree",
+        "posX": 9300,
+        "posY": 600,
+        "entryNode": true,
+        "next": [],
+        "prev": [],
+        "entries": [
+          {
+            "id": 123322,
+            "type": "subtree",
+            "name": "Rider of the Apocalypse",
+            "traitSubTreeId": 32,
+            "traitTreeId": 750,
+            "atlasMemberName": "talents-heroclass-deathknight-rideroftheapocalypse",
+            "nodes": [
+              95066,
+              95060,
+              95067,
+              95037,
+              109741,
+              95047,
+              95059,
+              95063,
+              109740,
+              95044,
+              95042,
+              95054,
+              109739,
+              95041
+            ]
+          },
+          {
+            "id": 123321,
+            "type": "subtree",
+            "name": "San'layn",
+            "traitSubTreeId": 31,
+            "traitTreeId": 750,
+            "atlasMemberName": "talents-heroclass-deathknight-sanlayn",
+            "nodes": [
+              95051,
+              95064,
+              95048,
+              95056,
+              109737,
+              95033,
+              95065,
+              95046,
+              109738,
+              95045,
+              95040,
+              95055,
+              109736,
+              95053
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "source_warnings": [],
   "slug": "death-knight-unholy",
-  "generated_at": "2026-09-21T12:49:26.771872+00:00",
+  "generated_at": "2026-09-21T19:38:00.535529+00:00",
   "validation": {
     "talents": 122,
     "changed_tooltips": 18,

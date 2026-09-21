@@ -43,11 +43,13 @@
           90764
         ],
         "entry_id": 112630,
+        "entry_max_ranks": 1,
         "definition_id": 117635,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Shiv",
         "spell_id": 5938,
+        "visible_spell_id": null,
         "icon": "inv_throwingknife_04"
       },
       "pve_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [Improved Shiv: poisoned blades / off-hand], dealing (125.4% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your active Non-Lethal poison.\nAwards 1 combo points.",
@@ -295,7 +297,7 @@
           "dependency_relations": [
             "tooltip_value_ref",
             "spelldesc_ref",
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -347,11 +349,13 @@
           90695
         ],
         "entry_id": 112572,
+        "entry_max_ranks": 1,
         "definition_id": 117577,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Blind",
         "spell_id": 2094,
+        "visible_spell_id": null,
         "icon": "spell_shadow_mindsteal"
       },
       "pve_tooltip": "15 yd range\nInstant\n2 min cooldown\nBlinds the target, causing it to wander disoriented for 1 min. Damage may interrupt the effect. Limit 1.",
@@ -401,11 +405,13 @@
           110324
         ],
         "entry_id": 112585,
+        "entry_max_ranks": 1,
         "definition_id": 117590,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Cloak of Shadows",
         "spell_id": 31224,
+        "visible_spell_id": null,
         "icon": "spell_shadow_nethercloak"
       },
       "pve_tooltip": "Instant\n2 min cooldown\nProvides a moment of magic immunity, instantly removing all harmful spell effects. The cloak lingers, causing you to resist harmful spells for 5 sec.",
@@ -456,11 +462,13 @@
           90636
         ],
         "entry_id": 136883,
+        "entry_max_ranks": 1,
         "definition_id": 141646,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Toxic Stiletto",
         "spell_id": 1267182,
+        "visible_spell_id": null,
         "icon": "ability_rogue_poisonedknife"
       },
       "pve_tooltip": "Shiv's Energy cost is reduced by 20, its cooldown is reduced by 15 sec, and its range is increased by 3 yds.",
@@ -513,11 +521,13 @@
           90742
         ],
         "entry_id": 112657,
+        "entry_max_ranks": 1,
         "definition_id": 117662,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fleet Footed",
         "spell_id": 378813,
+        "visible_spell_id": null,
         "icon": "ability_rogue_quickrecovery"
       },
       "pve_tooltip": "Movement speed increased by 15%.",
@@ -568,11 +578,13 @@
           90742
         ],
         "entry_id": 112631,
+        "entry_max_ranks": 1,
         "definition_id": 117636,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Gouge",
         "spell_id": 1776,
+        "visible_spell_id": null,
         "icon": "ability_gouge"
       },
       "pve_tooltip": "25 Energy\nMelee Range\nInstant\n25 sec cooldown\nGouges the eyes of an enemy target, incapacitating for 4 sec. Damage may interrupt the effect.\nMust be in front of your target.\nAwards 1 combo points.",
@@ -623,11 +635,13 @@
           90742
         ],
         "entry_id": 117740,
+        "entry_max_ranks": 1,
         "definition_id": 122752,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Airborne Irritant",
         "spell_id": 200733,
+        "visible_spell_id": null,
         "icon": "ability_rogue_bloodyeye"
       },
       "pve_tooltip": "Blind has 50% reduced cooldown, 70% reduced duration, and applies to all nearby enemies.",
@@ -727,11 +741,13 @@
           90686
         ],
         "entry_id": 112583,
+        "entry_max_ranks": 1,
         "definition_id": 117588,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Thrill Seeking",
         "spell_id": 394931,
+        "visible_spell_id": null,
         "icon": "inv_ragnaros_heart_shadowflame"
       },
       "pve_tooltip": "Grappling Hook has 1 additional charge.",
@@ -782,11 +798,13 @@
           90686
         ],
         "entry_id": 136882,
+        "entry_max_ranks": 1,
         "definition_id": 141645,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shadowrunner",
         "spell_id": 378807,
+        "visible_spell_id": null,
         "icon": "ability_stealth"
       },
       "pve_tooltip": "While Stealth or Shadow Dance is active, you move 20% faster.",
@@ -839,11 +857,13 @@
           90745
         ],
         "entry_id": 112521,
+        "entry_max_ranks": 1,
         "definition_id": 117526,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Master Poisoner",
         "spell_id": 378436,
+        "visible_spell_id": null,
         "icon": "ability_creature_poison_06"
       },
       "pve_tooltip": "Increases the non-damaging effects of your weapon poisons by 20%.",
@@ -875,7 +895,7 @@
           ],
           "dependency_relations": [
             "trigger_spell",
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -937,11 +957,13 @@
           110323
         ],
         "entry_id": 112632,
+        "entry_max_ranks": 1,
         "definition_id": 117637,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Elusiveness",
         "spell_id": 79008,
+        "visible_spell_id": null,
         "icon": "ability_rogue_turnthetables"
       },
       "pve_tooltip": "Evasion also reduces damage taken by 20%, and Feint also reduces non-area-of-effect damage taken by 20%.",
@@ -994,11 +1016,13 @@
           110323
         ],
         "entry_id": 114737,
+        "entry_max_ranks": 1,
         "definition_id": 119744,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Cheat Death",
         "spell_id": 31230,
+        "visible_spell_id": null,
         "icon": "ability_rogue_cheatdeath"
       },
       "pve_tooltip": "Fatal attacks instead reduce you to 7% of your maximum health. For 3 sec afterward, you take 85% reduced damage. Cannot trigger more often than once per 6 min.",
@@ -1051,11 +1075,13 @@
           90687
         ],
         "entry_id": 112574,
+        "entry_max_ranks": 1,
         "definition_id": 117579,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Tricks of the Trade",
         "spell_id": 57934,
+        "visible_spell_id": null,
         "icon": "ability_rogue_tricksofthetrade"
       },
       "pve_tooltip": "100 yd range\nInstant\n30 sec cooldown\n[Thick as Thieves: Increases the target's damage by 15%, and redirects / Redirects] all threat you cause to the targeted party or raid member, beginning with your next damaging attack within the next 30 sec and lasting 6 sec.\n(100ms cooldown)",
@@ -1108,11 +1134,13 @@
           90687
         ],
         "entry_id": 117143,
+        "entry_max_ranks": 1,
         "definition_id": 122155,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Blackjack",
         "spell_id": 379005,
+        "visible_spell_id": null,
         "icon": "ability_rogue_blackjack"
       },
       "pve_tooltip": "Enemies have 30% reduced damage and healing for 6 sec after Blind or Sap's effect on them ends.",
@@ -1164,11 +1192,13 @@
           90762
         ],
         "entry_id": 112522,
+        "entry_max_ranks": 1,
         "definition_id": 117527,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Wound Poison",
         "spell_id": 319066,
+        "visible_spell_id": null,
         "icon": "inv_misc_herb_16"
       },
       "pve_tooltip": "Wound Poison can now stack 2 additional times.",
@@ -1221,11 +1251,13 @@
           90747
         ],
         "entry_id": 112635,
+        "entry_max_ranks": 1,
         "definition_id": 117640,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Nimble Fingers",
         "spell_id": 378427,
+        "visible_spell_id": null,
         "icon": "ability_rogue_crimsonvial"
       },
       "pve_tooltip": "Energy cost of Feint and Crimson Vial reduced by 10.",
@@ -1276,11 +1308,13 @@
           90747
         ],
         "entry_id": 136881,
+        "entry_max_ranks": 1,
         "definition_id": 141644,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Deadened Nerves",
         "spell_id": 231719,
+        "visible_spell_id": null,
         "icon": "ability_rogue_nervesofsteel"
       },
       "pve_tooltip": "Physical damage taken reduced by 5%.",
@@ -1333,11 +1367,13 @@
           90754
         ],
         "entry_id": 112636,
+        "entry_max_ranks": 1,
         "definition_id": 117641,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Quick Fingers",
         "spell_id": 1267210,
+        "visible_spell_id": null,
         "icon": "ability_rogue_improvedrecuperate"
       },
       "pve_tooltip": "Increases your Agility by 3%.",
@@ -1389,11 +1425,13 @@
           101714
         ],
         "entry_id": 112575,
+        "entry_max_ranks": 1,
         "definition_id": 117580,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Sprint",
         "spell_id": 231691,
+        "visible_spell_id": null,
         "icon": "ability_rogue_sprint"
       },
       "pve_tooltip": "Reduces the cooldown of Sprint by 60 sec.",
@@ -1444,11 +1482,13 @@
           90763
         ],
         "entry_id": 117151,
+        "entry_max_ranks": 1,
         "definition_id": 122163,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Superior Mixture",
         "spell_id": 423701,
+        "visible_spell_id": null,
         "icon": "inv_misc_potionsete"
       },
       "pve_tooltip": "Crippling Poison reduces movement speed by an additional 10%.",
@@ -1548,11 +1588,13 @@
           90743
         ],
         "entry_id": 112654,
+        "entry_max_ranks": 1,
         "definition_id": 117659,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Evasion",
         "spell_id": 5277,
+        "visible_spell_id": null,
         "icon": "spell_shadow_shadowward"
       },
       "pve_tooltip": "Instant\n2 min cooldown\nIncreases your dodge chance by 100% for 10 sec.",
@@ -1603,11 +1645,13 @@
           90743
         ],
         "entry_id": 112634,
+        "entry_max_ranks": 1,
         "definition_id": 117639,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Iron Stomach",
         "spell_id": 193546,
+        "visible_spell_id": null,
         "icon": "inv_misc_organ_11"
       },
       "pve_tooltip": "Increases the healing you receive from Crimson Vial, healing potions, and healthstones by 25%.",
@@ -1662,11 +1706,13 @@
           94562
         ],
         "entry_id": 112638,
+        "entry_max_ranks": 1,
         "definition_id": 117643,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Virulent Poisons",
         "spell_id": 381543,
+        "visible_spell_id": null,
         "icon": "ability_creature_poison_06"
       },
       "pve_tooltip": "Increases the damage of your weapon poisons by 10%.",
@@ -1717,11 +1763,13 @@
           94562
         ],
         "entry_id": 117146,
+        "entry_max_ranks": 1,
         "definition_id": 122158,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Stillshroud",
         "spell_id": 423662,
+        "visible_spell_id": null,
         "icon": "ability_rogue_shroudofconcealment"
       },
       "pve_tooltip": "Shroud of Concealment has 50% reduced cooldown.",
@@ -1774,11 +1822,13 @@
           94561
         ],
         "entry_id": 112646,
+        "entry_max_ranks": 1,
         "definition_id": 117651,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Graceful Guile",
         "spell_id": 423647,
+        "visible_spell_id": null,
         "icon": "ability_rogue_ghostpirate"
       },
       "pve_tooltip": "Feint has 1 additional charge.",
@@ -1829,11 +1879,13 @@
           94561
         ],
         "entry_id": 125615,
+        "entry_max_ranks": 1,
         "definition_id": 130447,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Featherfoot",
         "spell_id": 423683,
+        "visible_spell_id": null,
         "icon": "spell_magic_featherfall"
       },
       "pve_tooltip": "Sprint increases movement speed by an additional 30% and has 4 sec increased duration.",
@@ -1885,11 +1937,13 @@
           90760
         ],
         "entry_id": 112656,
+        "entry_max_ranks": 1,
         "definition_id": 117661,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Numbing Poison",
         "spell_id": 5761,
+        "visible_spell_id": null,
         "icon": "spell_nature_nullifydisease"
       },
       "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, clouding their mind and slowing their attack and casting speed by 15 / Master Poisoner: 18 / Master Poisoner: 18% for 10 sec.\n(Proc chance: 30%)",
@@ -1897,12 +1951,23 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "percent_value",
+          "old": 15.0,
+          "new": 7.999994999999999,
+          "full_tooltip_match_count": 0
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 5761,
           "source_spell_id": 5760,
           "effect_index": 1,
@@ -1919,7 +1984,7 @@
             5760
           ],
           "dependency_relations": [
-            "triggered_by_reverse"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -1932,7 +1997,7 @@
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 5761,
           "source_spell_id": 5760,
           "effect_index": 2,
@@ -1949,7 +2014,7 @@
             5760
           ],
           "dependency_relations": [
-            "triggered_by_reverse"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -1961,7 +2026,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -2002,11 +2067,13 @@
           90760
         ],
         "entry_id": 112655,
+        "entry_max_ranks": 1,
         "definition_id": 117660,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Atrophic Poison",
         "spell_id": 381637,
+        "visible_spell_id": null,
         "icon": "ability_rogue_nervesofsteel"
       },
       "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, reducing their damage by ( - 4 *- 1)% for 1 min.\n(Proc chance: 30%)",
@@ -2060,11 +2127,13 @@
           90752
         ],
         "entry_id": 112633,
+        "entry_max_ranks": 1,
         "definition_id": 117638,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Deadly Precision",
         "spell_id": 381542,
+        "visible_spell_id": null,
         "icon": "ability_rogue_deadenednerves"
       },
       "pve_tooltip": "Increases the critical strike chance of your attacks that generate combo points by 5%.",
@@ -2115,11 +2184,13 @@
           90752
         ],
         "entry_id": 137380,
+        "entry_max_ranks": 1,
         "definition_id": 142140,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sanguine Vial",
         "spell_id": 1293135,
+        "visible_spell_id": null,
         "icon": "inv_misc_potiona5"
       },
       "pve_tooltip": "When you deal the killing blow to a target that yields experience or honor, the cooldown of Crimson Vial is reduced by 15 sec and your next use heals 5% of your health instantly.",
@@ -2173,11 +2244,13 @@
           90692
         ],
         "entry_id": 117145,
+        "entry_max_ranks": 1,
         "definition_id": 122157,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Deep Cuts",
         "spell_id": 1267216,
+        "visible_spell_id": null,
         "icon": "inv_1115_firstkilloftheday_firstkilloftheday"
       },
       "pve_tooltip": "Your finishing moves deal 6% increased damage.",
@@ -2229,11 +2302,13 @@
           90692
         ],
         "entry_id": 117144,
+        "entry_max_ranks": 1,
         "definition_id": 122156,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unbreakable Stride",
         "spell_id": 400804,
+        "visible_spell_id": null,
         "icon": "ability_rogue_trip"
       },
       "pve_tooltip": "Reduces the duration of movement slowing effects 30%.",
@@ -2286,11 +2361,13 @@
           90749
         ],
         "entry_id": 112652,
+        "entry_max_ranks": 1,
         "definition_id": 117657,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Danger Sense",
         "spell_id": 1267220,
+        "visible_spell_id": null,
         "icon": "ability_rogue_wrongfullyaccused"
       },
       "pve_tooltip": "You have a 20% chance to partially evade any damage dealt to you, reducing the damage it deals by 20%.",
@@ -2345,11 +2422,13 @@
           90751
         ],
         "entry_id": 112644,
+        "entry_max_ranks": 1,
         "definition_id": 117649,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Swift Slasher",
         "spell_id": 381988,
+        "visible_spell_id": null,
         "icon": "ability_rogue_slicedice"
       },
       "pve_tooltip": "Slice and Dice grants additional attack speed equal to 100% of your Haste.",
@@ -2402,11 +2481,13 @@
           90691
         ],
         "entry_id": 112580,
+        "entry_max_ranks": 1,
         "definition_id": 117585,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Ambush",
         "spell_id": 381620,
+        "visible_spell_id": null,
         "icon": "ability_rogue_ambush"
       },
       "pve_tooltip": "[Shadowstrike: Shadowstrike damage increased by 8% / Ambush generates 1 additional combo point].",
@@ -2459,11 +2540,13 @@
           90691
         ],
         "entry_id": 117152,
+        "entry_max_ranks": 1,
         "definition_id": 122164,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Tight Spender",
         "spell_id": 381621,
+        "visible_spell_id": null,
         "icon": "inv_misc_coin_03"
       },
       "pve_tooltip": "Energy cost of finishing moves reduced by 6%.",
@@ -2514,11 +2597,13 @@
           90759
         ],
         "entry_id": 112650,
+        "entry_max_ranks": 1,
         "definition_id": 117655,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Leeching Poison",
         "spell_id": 280716,
+        "visible_spell_id": null,
         "icon": "rogue_leeching_poison"
       },
       "pve_tooltip": "Adds a Leeching effect to your Lethal poisons, granting you 3.0% Leech.",
@@ -2570,11 +2655,13 @@
           90748
         ],
         "entry_id": 112640,
+        "entry_max_ranks": 2,
         "definition_id": 117645,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lethality",
         "spell_id": 382238,
+        "visible_spell_id": null,
         "icon": "ability_criticalstrike"
       },
       "pve_tooltip": "Critical strike chance increased by 2%. Critical strike damage bonus of your attacks that generate combo points increased by 20%.",
@@ -2592,6 +2679,7 @@
           "pve_tooltip": "Critical strike chance increased by 1%. Critical strike damage bonus of your attacks that generate combo points increased by 10%.",
           "pvp_tooltip": "Critical strike chance increased by 1%. Critical strike damage bonus of your attacks that generate combo points increased by 10%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2600,6 +2688,7 @@
           "pve_tooltip": "Critical strike chance increased by 2%. Critical strike damage bonus of your attacks that generate combo points increased by 20%.",
           "pvp_tooltip": "Critical strike chance increased by 2%. Critical strike damage bonus of your attacks that generate combo points increased by 20%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2642,11 +2731,13 @@
           90639
         ],
         "entry_id": 112526,
+        "entry_max_ranks": 1,
         "definition_id": 117531,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Recuperator",
         "spell_id": 378996,
+        "visible_spell_id": null,
         "icon": "inv_gizmo_runichealthinjector"
       },
       "pve_tooltip": "Slice and Dice heals you for up to 1% of your maximum health per 3 sec.",
@@ -2698,11 +2789,13 @@
           90750
         ],
         "entry_id": 112643,
+        "entry_max_ranks": 2,
         "definition_id": 117648,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Alacrity",
         "spell_id": 193539,
+        "visible_spell_id": null,
         "icon": "ability_paladin_speedoflight"
       },
       "pve_tooltip": "Haste increased by 3%.",
@@ -2720,6 +2813,7 @@
           "pve_tooltip": "Haste increased by 1.5%.",
           "pvp_tooltip": "Haste increased by 1.5%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2728,6 +2822,7 @@
           "pve_tooltip": "Haste increased by 3%.",
           "pvp_tooltip": "Haste increased by 3%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2770,11 +2865,13 @@
           90688
         ],
         "entry_id": 112579,
+        "entry_max_ranks": 1,
         "definition_id": 117584,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Soothing Darkness",
         "spell_id": 393970,
+        "visible_spell_id": null,
         "icon": "spell_shadow_twilight"
       },
       "pve_tooltip": "You are healed for 30% of your maximum health over 6 sec after activating Vanish.",
@@ -2867,11 +2964,13 @@
           90756
         ],
         "entry_id": 112651,
+        "entry_max_ranks": 2,
         "definition_id": 117656,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Vigor",
         "spell_id": 14983,
+        "visible_spell_id": null,
         "icon": "ability_rogue_vigor"
       },
       "pve_tooltip": "Increases your maximum Energy by 100 and Energy regeneration by 10%.",
@@ -2889,6 +2988,7 @@
           "pve_tooltip": "Increases your maximum Energy by 50 and Energy regeneration by 5%.",
           "pvp_tooltip": "Increases your maximum Energy by 50 and Energy regeneration by 5%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2897,6 +2997,7 @@
           "pve_tooltip": "Increases your maximum Energy by 100 and Energy regeneration by 10%.",
           "pvp_tooltip": "Increases your maximum Energy by 100 and Energy regeneration by 10%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2939,11 +3040,13 @@
           90638
         ],
         "entry_id": 112525,
+        "entry_max_ranks": 2,
         "definition_id": 117530,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Supercharger",
         "spell_id": 470347,
+        "visible_spell_id": null,
         "icon": "inv_engineering_90_electrifiedether"
       },
       "pve_tooltip": "Adrenaline Rush supercharges 2 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
@@ -2961,6 +3064,7 @@
           "pve_tooltip": "Adrenaline Rush supercharges 1 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
           "pvp_tooltip": "Adrenaline Rush supercharges 1 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2969,6 +3073,7 @@
           "pve_tooltip": "Adrenaline Rush supercharges 2 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
           "pvp_tooltip": "Adrenaline Rush supercharges 2 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -3011,11 +3116,13 @@
           101713
         ],
         "entry_id": 112576,
+        "entry_max_ranks": 2,
         "definition_id": 117581,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Subterfuge",
         "spell_id": 108208,
+        "visible_spell_id": null,
         "icon": "rogue_subterfuge"
       },
       "pve_tooltip": "Abilities requiring Stealth can be used for 6 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 6 sec after Stealth breaks.",
@@ -3033,6 +3140,7 @@
           "pve_tooltip": "Abilities requiring Stealth can be used for 3 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 3 sec after Stealth breaks.",
           "pvp_tooltip": "Abilities requiring Stealth can be used for 3 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 3 sec after Stealth breaks.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -3041,6 +3149,7 @@
           "pve_tooltip": "Abilities requiring Stealth can be used for 6 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 6 sec after Stealth breaks.",
           "pvp_tooltip": "Abilities requiring Stealth can be used for 6 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 6 sec after Stealth breaks.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -3081,11 +3190,13 @@
         ],
         "next": [],
         "entry_id": 112648,
+        "entry_max_ranks": 1,
         "definition_id": 117653,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Thistle Tea",
         "spell_id": 469779,
+        "visible_spell_id": 381623,
         "icon": "inv_drink_milk_05"
       },
       "pve_tooltip": "Restore 100 Energy.\nWhen your Energy is reduced below 30, drink a Thistle Tea.",
@@ -3134,11 +3245,13 @@
         ],
         "next": [],
         "entry_id": 137464,
+        "entry_max_ranks": 1,
         "definition_id": 142224,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Thistle Tea",
         "spell_id": 1298826,
+        "visible_spell_id": null,
         "icon": "inv_drink_milk_05"
       },
       "pve_tooltip": "Instant\n1 min recharge\n3 Charges\nRestore 100 Energy.",
@@ -3187,11 +3300,13 @@
         ],
         "next": [],
         "entry_id": 112639,
+        "entry_max_ranks": 1,
         "definition_id": 117644,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Cold Blooded Killer",
         "spell_id": 382245,
+        "visible_spell_id": null,
         "icon": "spell_ice_lament"
       },
       "pve_tooltip": "Critically striking with an attack that generates combo points increases the critical strike chance of your next finishing move by 10%.\n(100ms cooldown)",
@@ -3240,11 +3355,13 @@
         ],
         "next": [],
         "entry_id": 112524,
+        "entry_max_ranks": 1,
         "definition_id": 117529,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Echoing Reprimand",
         "spell_id": 470669,
+        "visible_spell_id": null,
         "icon": "inv_ability_rogue_echoingreprimand"
       },
       "pve_tooltip": "After consuming a supercharged combo point, your next Sinister Strike also strikes the target with an Echoing Reprimand dealing (118% of Attack Power) Physical damage.",
@@ -3353,11 +3470,13 @@
         ],
         "next": [],
         "entry_id": 112523,
+        "entry_max_ranks": 1,
         "definition_id": 117528,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Forced Induction",
         "spell_id": 470668,
+        "visible_spell_id": null,
         "icon": "inv_misc_enggizmos_06"
       },
       "pve_tooltip": "Increase the bonus granted when a damaging finishing move consumes a supercharged combo point by 1.",
@@ -3406,11 +3525,13 @@
         ],
         "next": [],
         "entry_id": 112642,
+        "entry_max_ranks": 1,
         "definition_id": 117647,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Deeper Stratagem",
         "spell_id": 193531,
+        "visible_spell_id": null,
         "icon": "archaeology_5_0_changkiboard"
       },
       "pve_tooltip": "Gain 1 additional max combo point.\nYour finishing moves that consume more than 5 combo points have increased effects, and your finishing moves deal 5% increased damage.",
@@ -3459,11 +3580,13 @@
         ],
         "next": [],
         "entry_id": 125614,
+        "entry_max_ranks": 1,
         "definition_id": 130446,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Without a Trace",
         "spell_id": 382513,
+        "visible_spell_id": null,
         "icon": "ability_vanish"
       },
       "pve_tooltip": "Vanish has 1 additional charge.",
@@ -3514,11 +3637,13 @@
           90673
         ],
         "entry_id": 112571,
+        "entry_max_ranks": 1,
         "definition_id": 117576,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Opportunity",
         "spell_id": 279876,
+        "visible_spell_id": null,
         "icon": "ability_rogue_pistolshot"
       },
       "pve_tooltip": "Sinister Strike has a 30% chance to hit an additional time and grant Opportunity.\nOpportunity\nYour next Pistol Shot costs 50% less Energy and deals 100% increased damage.",
@@ -3644,11 +3769,13 @@
           90645
         ],
         "entry_id": 112569,
+        "entry_max_ranks": 1,
         "definition_id": 117574,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Hit and Run",
         "spell_id": 196922,
+        "visible_spell_id": null,
         "icon": "ability_rogue_fleetfooted"
       },
       "pve_tooltip": "Movement speed increased by 15%.",
@@ -3699,11 +3826,13 @@
           90645
         ],
         "entry_id": 135734,
+        "entry_max_ranks": 1,
         "definition_id": 140489,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Combat Stamina",
         "spell_id": 381877,
+        "visible_spell_id": null,
         "icon": "ability_rogue_imrovedrecuperate"
       },
       "pve_tooltip": "Stamina increased by (5 * 1)%.",
@@ -3803,11 +3932,13 @@
           90662
         ],
         "entry_id": 112545,
+        "entry_max_ranks": 1,
         "definition_id": 117550,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Adrenaline Rush",
         "spell_id": 13750,
+        "visible_spell_id": null,
         "icon": "spell_shadow_shadowworddominate"
       },
       "pve_tooltip": "Instant\n3 min cooldown\nIncreases your Energy regeneration rate by 75%, your maximum Energy by 50, and your attack speed by 20% for 15 sec.\n[Damage of combo point generating abilities and finishers increased by 0%.]",
@@ -3858,11 +3989,13 @@
           90648
         ],
         "entry_id": 112560,
+        "entry_max_ranks": 1,
         "definition_id": 117565,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Retractable Hook",
         "spell_id": 256188,
+        "visible_spell_id": null,
         "icon": "ability_rogue_grapplinghook"
       },
       "pve_tooltip": "Reduces the cooldown of Grappling Hook by 15 sec.",
@@ -3913,11 +4046,13 @@
           90648
         ],
         "entry_id": 135733,
+        "entry_max_ranks": 1,
         "definition_id": 140488,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Blinding Powder",
         "spell_id": 256165,
+        "visible_spell_id": null,
         "icon": "inv_misc_ammo_gunpowder_06"
       },
       "pve_tooltip": "Reduces the cooldown of Blind by 25% and increases its range by 5 yds.",
@@ -3970,11 +4105,13 @@
           90755
         ],
         "entry_id": 112531,
+        "entry_max_ranks": 1,
         "definition_id": 117536,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Expert Duelist",
         "spell_id": 1259498,
+        "visible_spell_id": null,
         "icon": "inv_weapon_rifle_01"
       },
       "pve_tooltip": "Between the Eyes increases your damage dealt by an additional 2%.",
@@ -4027,11 +4164,13 @@
           90647
         ],
         "entry_id": 112534,
+        "entry_max_ranks": 1,
         "definition_id": 117539,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Combat Potency",
         "spell_id": 61329,
+        "visible_spell_id": null,
         "icon": "inv_weapon_shortblade_38"
       },
       "pve_tooltip": "Increases your Energy regeneration rate by 16%.",
@@ -4082,11 +4221,13 @@
           90679
         ],
         "entry_id": 112529,
+        "entry_max_ranks": 1,
         "definition_id": 117534,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Deadly Pursuit",
         "spell_id": 1259612,
+        "visible_spell_id": null,
         "icon": "ability_rogue_murderspree"
       },
       "pve_tooltip": "After spending 15 combo points, if you spend no combo points for 4 sec, abilities affected by Restless Blades will cool down 200% faster for 5 sec or until you spend a combo point.",
@@ -4137,11 +4278,13 @@
           90679
         ],
         "entry_id": 112647,
+        "entry_max_ranks": 1,
         "definition_id": 117652,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Precision Shot",
         "spell_id": 428377,
+        "visible_spell_id": null,
         "icon": "inv_legendary_gun"
       },
       "pve_tooltip": "Between the Eyes and Pistol Shot have 10 yd increased range and deal 20% increased damage.",
@@ -4192,11 +4335,13 @@
           90663
         ],
         "entry_id": 112547,
+        "entry_max_ranks": 1,
         "definition_id": 117552,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Crescendo of Violence",
         "spell_id": 1259499,
+        "visible_spell_id": null,
         "icon": "ability_rogue_dirtydeeds"
       },
       "pve_tooltip": "Your finishing moves deal 10% increased damage.",
@@ -4247,11 +4392,13 @@
           90663
         ],
         "entry_id": 112533,
+        "entry_max_ranks": 1,
         "definition_id": 117538,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Deft Maneuvers",
         "spell_id": 381878,
+        "visible_spell_id": null,
         "icon": "spell_warrior_wildstrike"
       },
       "pve_tooltip": "Blade Flurry's initial damage is increased by 100% and generates 1 combo point per target struck, but its Energy cost is increased by 30.",
@@ -4305,11 +4452,13 @@
           90656
         ],
         "entry_id": 112567,
+        "entry_max_ranks": 1,
         "definition_id": 117572,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Devious Stratagem",
         "spell_id": 394321,
+        "visible_spell_id": null,
         "icon": "archaeology_5_0_changkiboard"
       },
       "pve_tooltip": "Gain 1 additional max combo point.\nYour finishing moves that consume more than 5 combo points have increased effects, and your finishing moves deal 5% increased damage.",
@@ -4362,11 +4511,13 @@
           90654
         ],
         "entry_id": 112548,
+        "entry_max_ranks": 1,
         "definition_id": 117553,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fatal Flourish",
         "spell_id": 35551,
+        "visible_spell_id": null,
         "icon": "ability_rogue_unfairadvantage"
       },
       "pve_tooltip": "Your off-hand attacks and Pistol Shots have a 25% chance to generate 8 Energy.",
@@ -4420,11 +4571,13 @@
           90671
         ],
         "entry_id": 112549,
+        "entry_max_ranks": 1,
         "definition_id": 117554,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Quick Draw",
         "spell_id": 196938,
+        "visible_spell_id": null,
         "icon": "inv_weapon_rifle_40"
       },
       "pve_tooltip": "Opportunity increases the damage of Pistol Shot by an additional 20%. Each charge of Opportunity consumed by Pistol Shot generates 1 combo point.",
@@ -4477,11 +4630,13 @@
           90677
         ],
         "entry_id": 112568,
+        "entry_max_ranks": 1,
         "definition_id": 117573,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ruthlessness",
         "spell_id": 14161,
+        "visible_spell_id": null,
         "icon": "ability_druid_disembowel"
       },
       "pve_tooltip": "Your finishing moves have a 20% chance per combo point spent to grant a combo point.",
@@ -4532,11 +4687,13 @@
           90678
         ],
         "entry_id": 112535,
+        "entry_max_ranks": 1,
         "definition_id": 117540,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Blade Rush",
         "spell_id": 271877,
+        "visible_spell_id": null,
         "icon": "ability_arakkoa_spinning_blade"
       },
       "pve_tooltip": "20 yd range\nInstant\n1 min cooldown\nCharge to your target with your blades out, dealing [(375.3% of Attack Power)% * 230 / 100] Physical damage to the target and (375.3% of Attack Power)% to all other nearby enemies. Damage reduced beyond 8% targets.\nWhile Blade Flurry is active, damage to non-primary targets is increased by 100%.\nGenerates 25 Energy over 5 sec.",
@@ -4627,11 +4784,13 @@
           90678
         ],
         "entry_id": 112542,
+        "entry_max_ranks": 1,
         "definition_id": 117547,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Loaded Dice",
         "spell_id": 256170,
+        "visible_spell_id": null,
         "icon": "ability_rogue_rollthebones"
       },
       "pve_tooltip": "Activating Adrenaline Rush improves the result of your next Roll the Bones by one level.",
@@ -4683,11 +4842,13 @@
           90668
         ],
         "entry_id": 112537,
+        "entry_max_ranks": 1,
         "definition_id": 117542,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sleight of Hand",
         "spell_id": 381839,
+        "visible_spell_id": null,
         "icon": "inv_misc_dice_02"
       },
       "pve_tooltip": "Roll the Bones has a 20% increased chance of granting more powerful results.",
@@ -4738,11 +4899,13 @@
           90668
         ],
         "entry_id": 112645,
+        "entry_max_ranks": 1,
         "definition_id": 117650,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Between the Eyes",
         "spell_id": 235484,
+        "visible_spell_id": null,
         "icon": "ability_rogue_rollthebones01"
       },
       "pve_tooltip": "Critical strikes with Between the Eyes deal 2.5 times normal damage.",
@@ -4832,11 +4995,13 @@
           90667
         ],
         "entry_id": 112558,
+        "entry_max_ranks": 1,
         "definition_id": 117563,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Thief's Versatility",
         "spell_id": 381619,
+        "visible_spell_id": null,
         "icon": "ability_rogue_versatility"
       },
       "pve_tooltip": "Versatility increased by 3%.",
@@ -4889,11 +5054,13 @@
           90667
         ],
         "entry_id": 135731,
+        "entry_max_ranks": 1,
         "definition_id": 140486,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Flickering Steel",
         "spell_id": 1259492,
+        "visible_spell_id": null,
         "icon": "inv_1115_warrior_fastermeleeattacks"
       },
       "pve_tooltip": "Sinister Strike and Ambush deal 20% increased damage. They also generate 5 Energy when they grant you Opportunity.",
@@ -4944,11 +5111,13 @@
           90677
         ],
         "entry_id": 112527,
+        "entry_max_ranks": 1,
         "definition_id": 117532,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Audacity",
         "spell_id": 381845,
+        "visible_spell_id": null,
         "icon": "ability_rogue_ambush"
       },
       "pve_tooltip": "Using Pistol Shot with Opportunity has a 30% chance to make your next Ambush usable without Stealth.\nChance to trigger this effect matches the chance for Sinister Strike to grant Opportunity.\nAmbush damage increased by 80%.",
@@ -5081,11 +5250,13 @@
           90664
         ],
         "entry_id": 112566,
+        "entry_max_ranks": 2,
         "definition_id": 117571,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Heavy Hitter",
         "spell_id": 381885,
+        "visible_spell_id": null,
         "icon": "spell_shadow_ritualofsacrifice"
       },
       "pve_tooltip": "Attacks that generate combo points deal 30% increased damage.",
@@ -5103,6 +5274,7 @@
           "pve_tooltip": "Attacks that generate combo points deal 15% increased damage.",
           "pvp_tooltip": "Attacks that generate combo points deal 15% increased damage.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -5111,6 +5283,7 @@
           "pve_tooltip": "Attacks that generate combo points deal 30% increased damage.",
           "pvp_tooltip": "Attacks that generate combo points deal 30% increased damage.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -5155,11 +5328,13 @@
           90670
         ],
         "entry_id": 112540,
+        "entry_max_ranks": 1,
         "definition_id": 117545,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Adrenaline Rush",
         "spell_id": 395422,
+        "visible_spell_id": null,
         "icon": "spell_shadow_shadowworddominate"
       },
       "pve_tooltip": "Generate full combo points when you gain Adrenaline Rush.",
@@ -5213,11 +5388,13 @@
           90667
         ],
         "entry_id": 112555,
+        "entry_max_ranks": 2,
         "definition_id": 117560,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ace Up Your Sleeve",
         "spell_id": 381828,
+        "visible_spell_id": null,
         "icon": "inv_inscription_darkmooncard_putrescence"
       },
       "pve_tooltip": "Between the Eyes has a 6% chance per combo point spent to grant 4 combo points and reset its own cooldown.",
@@ -5235,6 +5412,7 @@
           "pve_tooltip": "Between the Eyes has a 3% chance per combo point spent to grant 4 combo points and reset its own cooldown.",
           "pvp_tooltip": "Between the Eyes has a 3% chance per combo point spent to grant 4 combo points and reset its own cooldown.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -5243,6 +5421,7 @@
           "pve_tooltip": "Between the Eyes has a 6% chance per combo point spent to grant 4 combo points and reset its own cooldown.",
           "pvp_tooltip": "Between the Eyes has a 6% chance per combo point spent to grant 4 combo points and reset its own cooldown.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -5285,11 +5464,13 @@
           90667
         ],
         "entry_id": 112556,
+        "entry_max_ranks": 1,
         "definition_id": 117561,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Dancing Steel",
         "spell_id": 272026,
+        "visible_spell_id": null,
         "icon": "ability_warrior_punishingblow"
       },
       "pve_tooltip": "Blade Flurry strikes 3 additional enemies and its duration is increased by 3 sec.",
@@ -5342,11 +5523,13 @@
           90676
         ],
         "entry_id": 112565,
+        "entry_max_ranks": 1,
         "definition_id": 117570,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Find an Opening",
         "spell_id": 1259457,
+        "visible_spell_id": null,
         "icon": "ability_rogue_pistolshot"
       },
       "pve_tooltip": "Your chance for Sinister Strike to strike twice and grant Opportunity is increased by 10%",
@@ -5399,11 +5582,13 @@
           90653
         ],
         "entry_id": 112551,
+        "entry_max_ranks": 1,
         "definition_id": 117556,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Acrobatic Strikes",
         "spell_id": 455143,
+        "visible_spell_id": null,
         "icon": "spell_warrior_wildstrike"
       },
       "pve_tooltip": "Auto-attacks increase auto-attack damage by 3% and movement speed by 1% for 3 sec, stacking up to 10 times.",
@@ -5454,11 +5639,13 @@
           90653
         ],
         "entry_id": 112541,
+        "entry_max_ranks": 1,
         "definition_id": 117546,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Heightened Rush",
         "spell_id": 1259465,
+        "visible_spell_id": null,
         "icon": "spell_shadow_unholyfrenzy"
       },
       "pve_tooltip": "Adrenaline Rush's duration is increased by 4 sec.",
@@ -5509,11 +5696,13 @@
           90653
         ],
         "entry_id": 135732,
+        "entry_max_ranks": 1,
         "definition_id": 140487,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Menacing Rush",
         "spell_id": 1256630,
+        "visible_spell_id": null,
         "icon": "inv_1115_warrior_fasterreflexes"
       },
       "pve_tooltip": "Adrenaline Rush magnifies your precision and power, increasing the damage your combo point generating abilities and finishers deal by 20%.",
@@ -5638,11 +5827,13 @@
           90666
         ],
         "entry_id": 112557,
+        "entry_max_ranks": 1,
         "definition_id": 117562,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Zero In",
         "spell_id": 1259485,
+        "visible_spell_id": null,
         "icon": "ability_hisek_aim"
       },
       "pve_tooltip": "Your auto-attack critical strikes increase the damage and critical strike chance of your next Between the Eyes by 2%, stacking up to 20 times.",
@@ -5695,11 +5886,13 @@
           90666
         ],
         "entry_id": 112554,
+        "entry_max_ranks": 1,
         "definition_id": 117559,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Grand Melee",
         "spell_id": 1259469,
+        "visible_spell_id": null,
         "icon": "ability_rogue_rollthebones02"
       },
       "pve_tooltip": "Blade Flurry causes your attacks to hit nearby enemies for an additional 8% of their normal damage.",
@@ -5752,11 +5945,13 @@
           94565
         ],
         "entry_id": 112563,
+        "entry_max_ranks": 2,
         "definition_id": 117568,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Summarily Dispatched",
         "spell_id": 381990,
+        "visible_spell_id": null,
         "icon": "ability_rogue_waylay"
       },
       "pve_tooltip": "Dispatch deals 30% increased damage and costs 6 less Energy. This damage bonus is increased by 50% while your damage is enhanced by your Between the Eyes.",
@@ -5815,6 +6010,7 @@
           "pve_tooltip": "Dispatch deals 15% increased damage and costs 3 less Energy. This damage bonus is increased by 50% while your damage is enhanced by your Between the Eyes.",
           "pvp_tooltip": "Dispatch deals 15% increased damage and costs 3 less Energy. This damage bonus is increased by 50% while your damage is enhanced by your Between the Eyes.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -5823,6 +6019,7 @@
           "pve_tooltip": "Dispatch deals 30% increased damage and costs 6 less Energy. This damage bonus is increased by 50% while your damage is enhanced by your Between the Eyes.",
           "pvp_tooltip": "Dispatch deals 30% increased damage and costs 6 less Energy. This damage bonus is increased by 50% while your damage is enhanced by your Between the Eyes.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -5869,11 +6066,13 @@
           90644
         ],
         "entry_id": 112539,
+        "entry_max_ranks": 1,
         "definition_id": 117544,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Dragon-Bone Dice",
         "spell_id": 1259481,
+        "visible_spell_id": null,
         "icon": "ability_rogue_rollthebones"
       },
       "pve_tooltip": "The bonuses granted by your Roll the Bones are stronger.\nBonuses to chance for Sinister Strike to strike twice are 5% greater.\nBonuses to Sinister Strike and Ambush damage are 5% greater.\nBonuses to Restless Blades cooldown reduction are 10% greater.\nJackpot's bonus to critical strike chance is 5% greater.",
@@ -5926,11 +6125,13 @@
           90665
         ],
         "entry_id": 112553,
+        "entry_max_ranks": 2,
         "definition_id": 117558,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fan the Hammer",
         "spell_id": 381846,
+        "visible_spell_id": null,
         "icon": "ability_rogue_pistolshot"
       },
       "pve_tooltip": "When you gain Opportunity, gain 2 additional charge. Max 6 charges.\nPistol Shot consumes 2 additional charge of Opportunity to fire 2 additional bullet. Additional shots deal 20% reduced damage.\n(500ms cooldown)",
@@ -5948,6 +6149,7 @@
           "pve_tooltip": "When you gain Opportunity, gain 1 additional charge. Max 6 charges.\nPistol Shot consumes 1 additional charge of Opportunity to fire 1 additional bullet. Additional shots deal 20% reduced damage.\n(500ms cooldown)",
           "pvp_tooltip": "When you gain Opportunity, gain 1 additional charge. Max 6 charges.\nPistol Shot consumes 1 additional charge of Opportunity to fire 1 additional bullet. Additional shots deal 20% reduced damage.\n(500ms cooldown)",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -5956,6 +6158,7 @@
           "pve_tooltip": "When you gain Opportunity, gain 2 additional charge. Max 6 charges.\nPistol Shot consumes 2 additional charge of Opportunity to fire 2 additional bullet. Additional shots deal 20% reduced damage.\n(500ms cooldown)",
           "pvp_tooltip": "When you gain Opportunity, gain 2 additional charge. Max 6 charges.\nPistol Shot consumes 2 additional charge of Opportunity to fire 2 additional bullet. Additional shots deal 20% reduced damage.\n(500ms cooldown)",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -5996,11 +6199,13 @@
         ],
         "next": [],
         "entry_id": 112562,
+        "entry_max_ranks": 1,
         "definition_id": 117567,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Hidden Opportunity",
         "spell_id": 383281,
+        "visible_spell_id": null,
         "icon": "ability_rogue_ambush"
       },
       "pve_tooltip": "Ambush has a chance to grant Opportunity. Chance to trigger this effect is 100% of the chance for Sinister Strike to grant Opportunity.\nEnergy cost of Ambush reduced by 5.",
@@ -6050,11 +6255,13 @@
         ],
         "next": [],
         "entry_id": 117148,
+        "entry_max_ranks": 1,
         "definition_id": 122160,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Killing Spree",
         "spell_id": 51690,
+        "visible_spell_id": null,
         "icon": "inv_112_rogue_betweentheeyes"
       },
       "pve_tooltip": "45 Energy / 1 to 7 Combo Points\n8 yd range\nChanneled\n3 min cooldown\nFinishing move that unleashes a barrage of gunfire, striking random enemies within 8 yards for Physical damage. Number of strikes increased per combo point.\nRestores 1 combo point every 0.50 sec. Each combo point spent above [Deeper Stratagem: 7]5 increases damage by 15%.\n1 point : [((225% of Attack Power) + (225% of Attack Power)) * 2] over 0.50 sec\n2 points: [((225% of Attack Power) + (225% of Attack Power)) * 3] over 1.00 sec\n3 points: [((225% of Attack Power) + (225% of Attack Power)) * 4] over 1.50 sec\n4 points: [((225% of Attack Power) + (225% of Attack Power)) * 5] over 2.00 sec\n5 points: [((225% of Attack Power) + (225% of Attack Power)) * 6] over 2.50 sec\n[ 6 points: [((225% of Attack Power) + (225% of Attack Power)) * 7] over 3.00 sec]\n[ 7 points: [((225% of Attack Power) + (225% of Attack Power)) * 8] over 3.50 sec]",
@@ -6487,11 +6694,13 @@
         ],
         "next": [],
         "entry_id": 112538,
+        "entry_max_ranks": 1,
         "definition_id": 117543,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Keep It Rolling",
         "spell_id": 381989,
+        "visible_spell_id": null,
         "icon": "ability_rogue_keepitrolling"
       },
       "pve_tooltip": "Instant\n6 min cooldown\nIncrease the remaining duration of your active Roll the Bones combat enhancement by 30 sec.",
@@ -6541,11 +6750,13 @@
         ],
         "next": [],
         "entry_id": 112530,
+        "entry_max_ranks": 1,
         "definition_id": 117535,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fast Action",
         "spell_id": 1259480,
+        "visible_spell_id": null,
         "icon": "inv_musket_02"
       },
       "pve_tooltip": "The cooldown of Between the Eyes is reduced by 8 sec.\nBetween the Eyes increases your damage dealt by an additional 1%.",
@@ -6594,11 +6805,13 @@
         ],
         "next": [],
         "entry_id": 112552,
+        "entry_max_ranks": 1,
         "definition_id": 117557,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Preparation",
         "spell_id": 1277933,
+        "visible_spell_id": null,
         "icon": "ability_rogue_preparation"
       },
       "pve_tooltip": "Instant\n4 min cooldown\nImmediately reset the cooldowns of Adrenaline Rush, Between the Eyes, Blade Flurry, Blade Rush, and Killing Spree.",
@@ -6645,11 +6858,13 @@
         "prev": [],
         "next": [],
         "entry_id": 137070,
+        "entry_max_ranks": 1,
         "definition_id": 141834,
         "entry_index": 100,
         "entry_type": "tierrank",
         "talent_name": "Gravedigger",
         "spell_id": 1265861,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_rogue_gravedigger"
       },
       "pve_tooltip": "Between the Eyes has a 45% chance to apply 2 stacks of its bonus to your damage dealt.",
@@ -6696,11 +6911,13 @@
         "prev": [],
         "next": [],
         "entry_id": 137069,
+        "entry_max_ranks": 2,
         "definition_id": 141833,
         "entry_index": 200,
         "entry_type": "tierrank",
         "talent_name": "Gravedigger",
         "spell_id": 1265862,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_rogue_gravedigger"
       },
       "pve_tooltip": "When you spend 5 or more combo points on Dispatch, immediately strike your target with an underhanded Scoundrel Strike for (160% of Attack Power) Physical damage.",
@@ -6767,7 +6984,48 @@
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "When you spend 5 or more combo points on Dispatch, immediately strike your target with an underhanded Scoundrel Strike for (160% of Attack Power) Physical damage.",
+          "pvp_tooltip": "When you spend 5 or more combo points on Dispatch, immediately strike your target with an underhanded Scoundrel Strike for (150.4% of Attack Power) Physical damage.",
+          "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 124,
+              "end": 127,
+              "old_token": "160",
+              "new_token": "150.4",
+              "kind": "attack_power_coefficient",
+              "effect_indexes": [
+                3
+              ]
+            }
+          ],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "When you spend 5 or more combo points on Dispatch, immediately strike your target with an underhanded Scoundrel Strike for (160% of Attack Power) Physical damage.",
+          "pvp_tooltip": "When you spend 5 or more combo points on Dispatch, immediately strike your target with an underhanded Scoundrel Strike for (150.4% of Attack Power) Physical damage.",
+          "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 124,
+              "end": 127,
+              "old_token": "160",
+              "new_token": "150.4",
+              "kind": "attack_power_coefficient",
+              "effect_indexes": [
+                3
+              ]
+            }
+          ],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Gravedigger",
@@ -6802,11 +7060,13 @@
         "prev": [],
         "next": [],
         "entry_id": 137068,
+        "entry_max_ranks": 1,
         "definition_id": 141832,
         "entry_index": 300,
         "entry_type": "tierrank",
         "talent_name": "Gravedigger",
         "spell_id": 1265863,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_rogue_gravedigger"
       },
       "pve_tooltip": "When you Dispatch you have a 12% chance per combo point spent to hide a bullet up your sleeve. When you've hidden 6 bullets, your next Between the Eyes consumes them and costs no Energy, generates 6 combo points, and immediately resets its own cooldown.\n(100ms cooldown)",
@@ -6858,11 +7118,13 @@
           109767
         ],
         "entry_id": 117722,
+        "entry_max_ranks": 1,
         "definition_id": 122734,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Hand of Fate",
         "spell_id": 452536,
+        "visible_spell_id": null,
         "icon": "inv_ability_fateboundrogue_handoffateheads"
       },
       "pve_tooltip": "Flip a Fatebound Coin each time a finishing move consumes 5 or more combo points. Heads increases the damage of your attacks by 10%, lasting 15 sec or until you flip Tails. Tails deals (168% of Attack Power) Cosmic damage to your target.\nFor each time the same face is flipped in a row, Heads increases damage by an additional 2% and Tails increases its damage by 10%.\n(200ms cooldown)",
@@ -6975,11 +7237,13 @@
           95107
         ],
         "entry_id": 117735,
+        "entry_max_ranks": 1,
         "definition_id": 122747,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Chosen's Revelry",
         "spell_id": 1249201,
+        "visible_spell_id": null,
         "icon": "ability_priest_heavanlyvoice"
       },
       "pve_tooltip": "Flipping a Fatebound Coin restores (30% of Attack Power) health.",
@@ -7030,11 +7294,13 @@
           95107
         ],
         "entry_id": 125132,
+        "entry_max_ranks": 1,
         "definition_id": 129964,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Tempted Fate",
         "spell_id": 454286,
+        "visible_spell_id": null,
         "icon": "ability_rogue_sabreslash"
       },
       "pve_tooltip": "You have a 30% chance to absorb 10% of any damage taken.",
@@ -7085,11 +7351,13 @@
           95139
         ],
         "entry_id": 117719,
+        "entry_max_ranks": 1,
         "definition_id": 122731,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Mean Streak",
         "spell_id": 453428,
+        "visible_spell_id": null,
         "icon": "inv_sigil_thorim"
       },
       "pve_tooltip": "Fatebound Coins flipped by Dispatch are 33% more likely to match the same face as the last flip.",
@@ -7140,11 +7408,13 @@
           95120
         ],
         "entry_id": 117727,
+        "entry_max_ranks": 1,
         "definition_id": 122739,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Inexorable March",
         "spell_id": 454432,
+        "visible_spell_id": null,
         "icon": "ability_monk_ridethewind"
       },
       "pve_tooltip": "You cannot be slowed below 70% of normal movement speed while your Fatebound Coin flips have an active streak of at least 2 flips matching the same face.",
@@ -7195,29 +7465,50 @@
           95120
         ],
         "entry_id": 125140,
+        "entry_max_ranks": 1,
         "definition_id": 129972,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Death's Arrival",
         "spell_id": 454433,
-        "icon": "achievement_guildperk_havegroup_willtravel"
+        "visible_spell_id": null,
+        "icon": "achievement_guildperk_havegroup-willtravel"
       },
       "pve_tooltip": "Grappling Hook may be used a second time within 3 sec with no cooldown, but its total cooldown is increased by 5 sec.",
-      "pvp_tooltip": "Grappling Hook may be used a second time within 3 sec with no cooldown, but its total cooldown is increased by 5 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pvp_tooltip": "Grappling Hook may be used a second time within 3 sec with no cooldown, but its total cooldown is increased by 10 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 111,
+          "end": 112,
+          "old_token": "5",
+          "new_token": "10",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            3
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
-            2,
-            3
+            2
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
           "kind": "ordinary_value",
           "old": 5000.0,
           "new": 10000.0,
           "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "5",
+          "new": "10"
         }
       ],
       "has_pvp_mechanics": true,
@@ -7311,11 +7602,13 @@
           109768
         ],
         "entry_id": 136025,
+        "entry_max_ranks": 1,
         "definition_id": 140780,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sometimes Lucky",
         "spell_id": 1277030,
+        "visible_spell_id": null,
         "icon": "inv_misc_celestialmap"
       },
       "pve_tooltip": "Critical strike chance increased by 3%.",
@@ -7366,11 +7659,13 @@
           95119
         ],
         "entry_id": 117704,
+        "entry_max_ranks": 1,
         "definition_id": 122716,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Deal Fate",
         "spell_id": 454419,
+        "visible_spell_id": null,
         "icon": "ability_rogue_preparation"
       },
       "pve_tooltip": "Sinister Strike generates 1 additional combo point when it grants Opportunity.",
@@ -7421,11 +7716,13 @@
           95114
         ],
         "entry_id": 117736,
+        "entry_max_ranks": 1,
         "definition_id": 122748,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fate Intertwined",
         "spell_id": 1249215,
+        "visible_spell_id": null,
         "icon": "inv_cosmicvoid_beam"
       },
       "pve_tooltip": "Blade Flurry causes an additional 5% of attack damage dealt to be dealt to affected enemies.",
@@ -7476,11 +7773,13 @@
           95129
         ],
         "entry_id": 117717,
+        "entry_max_ranks": 1,
         "definition_id": 122729,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Edge Case",
         "spell_id": 453457,
+        "visible_spell_id": null,
         "icon": "item_icecrownnecklacea"
       },
       "pve_tooltip": "Activating Adrenaline Rush flips a Fatebound Coin and causes it to land on its edge, counting as both Heads and Tails.",
@@ -7531,11 +7830,13 @@
           109766
         ],
         "entry_id": 136026,
+        "entry_max_ranks": 1,
         "definition_id": 140781,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Controlled Chaos",
         "spell_id": 1276816,
+        "visible_spell_id": null,
         "icon": "inv_112_raidtrinkets_blobofswirlingvoid_purple"
       },
       "pve_tooltip": "After flipping a Fatebound Coin that ends a streak of 4 or more, flip another that matches the same face.",
@@ -7586,11 +7887,13 @@
           95127
         ],
         "entry_id": 117716,
+        "entry_max_ranks": 1,
         "definition_id": 122728,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Delivered Doom",
         "spell_id": 1249194,
+        "visible_spell_id": null,
         "icon": "ability_bossgorefiend_touchofdoom"
       },
       "pve_tooltip": "Dispatch and Between the Eyes deal 5% more damage when they consume 5 or more combo points.",
@@ -7641,11 +7944,13 @@
           95127
         ],
         "entry_id": 117711,
+        "entry_max_ranks": 1,
         "definition_id": 122723,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Overflowing Purse",
         "spell_id": 1249190,
+        "visible_spell_id": null,
         "icon": "inv_misc_coinbag_special"
       },
       "pve_tooltip": "Dispatch has a 4% chance to flip 3 Fatebound Coins.",
@@ -7696,11 +8001,13 @@
           95127
         ],
         "entry_id": 125139,
+        "entry_max_ranks": 1,
         "definition_id": 129971,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Destiny Defined",
         "spell_id": 454435,
+        "visible_spell_id": null,
         "icon": "ability_boss_fatescribe_rune6"
       },
       "pve_tooltip": "Sinister Strike has 5% increased chance to strike an additional time and grant Opportunity and your Fatebound Coins flipped have an additional 5% chance to match the same face as the last flip.",
@@ -7751,11 +8058,13 @@
           95127
         ],
         "entry_id": 117726,
+        "entry_max_ranks": 1,
         "definition_id": 122738,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Rush to the Inevitable",
         "spell_id": 1249204,
+        "visible_spell_id": null,
         "icon": "ability_rogue_vigor"
       },
       "pve_tooltip": "Gain 2 Energy every time you flip a Fatebound Coin. Gain 10 Energy for Coins that land on their edge.",
@@ -7806,11 +8115,13 @@
           95127
         ],
         "entry_id": 136024,
+        "entry_max_ranks": 1,
         "definition_id": 140779,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ravenholdt Mint",
         "spell_id": 1276809,
+        "visible_spell_id": null,
         "icon": "inv_misc_coin_02"
       },
       "pve_tooltip": "Flipping Heads increases damage by an additional 4%. Damage dealt by flipping Tails is increased by 12%.",
@@ -7862,11 +8173,13 @@
         ],
         "next": [],
         "entry_id": 117724,
+        "entry_max_ranks": 1,
         "definition_id": 122736,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lucky Coin",
         "spell_id": 1248970,
+        "visible_spell_id": null,
         "icon": "inv_misc_markoftheworldtree"
       },
       "pve_tooltip": "Every 7 coin flips, keep a lucky coin that bends you towards your fate for 12 sec. Your Agility is increased by 4%, the damage and bonuses of Fatebound Coins are increased by 50%, and coin flips are 15% more likely to match the same face as the last flip.\nCoin flips do not count toward finding a lucky coin while you have a lucky coin.",
@@ -7918,11 +8231,13 @@
           109765
         ],
         "entry_id": 117737,
+        "entry_max_ranks": 1,
         "definition_id": 122749,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unseen Blade",
         "spell_id": 441146,
+        "visible_spell_id": null,
         "icon": "inv_weapon_shortblade_55"
       },
       "pve_tooltip": "Sinister Strike and Ambush now also strike with an Unseen Blade dealing (280% of Attack Power) damage. Targets struck are Fazed for 10 sec.\nFazed enemies take 5% more damage from you and cannot parry your attacks.\nThis effect may occur once every 20 sec.\n(750ms cooldown)",
@@ -8033,11 +8348,13 @@
           95134
         ],
         "entry_id": 117718,
+        "entry_max_ranks": 1,
         "definition_id": 122730,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Surprising Strikes",
         "spell_id": 441273,
+        "visible_spell_id": null,
         "icon": "ability_rogue_surpriseattack2"
       },
       "pve_tooltip": "Attacks that generate combo points deal 50% increased critical strike damage to Fazed targets.",
@@ -8088,11 +8405,13 @@
           95133
         ],
         "entry_id": 117738,
+        "entry_max_ranks": 1,
         "definition_id": 122750,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Smoke",
         "spell_id": 441247,
+        "visible_spell_id": null,
         "icon": "rogue_dirtytricks"
       },
       "pve_tooltip": "You take 5% reduced damage from Fazed targets.",
@@ -8143,11 +8462,13 @@
           95133
         ],
         "entry_id": 120130,
+        "entry_max_ranks": 1,
         "definition_id": 125030,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Mirrors",
         "spell_id": 441250,
+        "visible_spell_id": null,
         "icon": "trade_archaeology_highbornesoulmirror"
       },
       "pve_tooltip": "Feint reduces damage taken from area-of-effect attacks by an additional 10%",
@@ -8198,11 +8519,13 @@
           95137
         ],
         "entry_id": 117708,
+        "entry_max_ranks": 1,
         "definition_id": 122720,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Flawless Form",
         "spell_id": 441321,
+        "visible_spell_id": null,
         "icon": "inv_qiraj_jewelblessed"
       },
       "pve_tooltip": "Unseen Blade and Killing Spree increase the damage of your finishing moves by 4% for 12 sec. Max 5 stacks.",
@@ -8253,11 +8576,13 @@
           109764
         ],
         "entry_id": 136023,
+        "entry_max_ranks": 1,
         "definition_id": 140778,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Hoodwink",
         "spell_id": 1276626,
+        "visible_spell_id": null,
         "icon": "spell_holy_dizzy"
       },
       "pve_tooltip": "Fazed increases damage taken by an additional 3%.",
@@ -8308,11 +8633,13 @@
           95118
         ],
         "entry_id": 117731,
+        "entry_max_ranks": 1,
         "definition_id": 122743,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "So Tricky",
         "spell_id": 441403,
+        "visible_spell_id": null,
         "icon": "ability_rogue_tricksofthetrade"
       },
       "pve_tooltip": "Tricks of the Trade's threat redirect duration is increased to 1 hour.",
@@ -8363,11 +8690,13 @@
           95118
         ],
         "entry_id": 120133,
+        "entry_max_ranks": 1,
         "definition_id": 125033,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Don't Be Suspicious",
         "spell_id": 441415,
+        "visible_spell_id": null,
         "icon": "ability_rogue_disguise"
       },
       "pve_tooltip": "Blind and Shroud of Concealment have 10% reduced cooldown.\nPick Pocket and Sap have 10 yd increased range.",
@@ -8465,11 +8794,13 @@
           95116
         ],
         "entry_id": 117730,
+        "entry_max_ranks": 1,
         "definition_id": 122742,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Devious Distractions",
         "spell_id": 441263,
+        "visible_spell_id": null,
         "icon": "ability_rogue_ghostpirate"
       },
       "pve_tooltip": "Killing Spree applies Fazed to any targets struck.",
@@ -8520,11 +8851,13 @@
           95128
         ],
         "entry_id": 117734,
+        "entry_max_ranks": 1,
         "definition_id": 122746,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Thousand Cuts",
         "spell_id": 441346,
+        "visible_spell_id": null,
         "icon": "inv_10_specialization_blacksmithing_blades_color1"
       },
       "pve_tooltip": "Approximately 4.5 procs per minute\nSlice and Dice grants 10% additional attack speed and gives your auto-attacks a chance to refresh your opportunity to strike with Unseen Blade.",
@@ -8575,11 +8908,13 @@
           95128
         ],
         "entry_id": 120131,
+        "entry_max_ranks": 1,
         "definition_id": 125031,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Flickerstrike",
         "spell_id": 441359,
+        "visible_spell_id": null,
         "icon": "spell_nature_invisibilty"
       },
       "pve_tooltip": "Taking damage from an area-of-effect attack while Feint is active or dodging while Evasion is active refreshes your opportunity to strike with Unseen Blade.\nThis effect may only occur once every 5 sec.\n(5s cooldown)",
@@ -8630,11 +8965,13 @@
           109763
         ],
         "entry_id": 136022,
+        "entry_max_ranks": 1,
         "definition_id": 140777,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Flashing Steel",
         "spell_id": 1276630,
+        "visible_spell_id": null,
         "icon": "inv_1115_warrior_fastermeleeattacks"
       },
       "pve_tooltip": "Unseen Blade may now occur once every 15 sec and has 25% chance to strike twice.",
@@ -8685,11 +9022,13 @@
           95115
         ],
         "entry_id": 117715,
+        "entry_max_ranks": 1,
         "definition_id": 122727,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Disorienting Strikes",
         "spell_id": 441274,
+        "visible_spell_id": null,
         "icon": "petbattle_speed"
       },
       "pve_tooltip": "Killing Spree has 10% reduced cooldown and allows your next 2 strikes of Unseen Blade to ignore its cooldown.",
@@ -8740,11 +9079,13 @@
           95115
         ],
         "entry_id": 117713,
+        "entry_max_ranks": 1,
         "definition_id": 122725,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Cloud Cover",
         "spell_id": 441429,
+        "visible_spell_id": null,
         "icon": "ability_rogue_smoke"
       },
       "pve_tooltip": "Activating Adrenaline Rush creates a cloud of smoke for 6 sec, allowing attacks from within the cloud to apply Fazed, stacking up to 1 additional time.\nEffect persists for 6 sec after leaving the cloud.",
@@ -8795,11 +9136,13 @@
           95115
         ],
         "entry_id": 120132,
+        "entry_max_ranks": 1,
         "definition_id": 125032,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "No Scruples",
         "spell_id": 441398,
+        "visible_spell_id": null,
         "icon": "ability_rogue_surpriseattack"
       },
       "pve_tooltip": "Finishing moves have 12% increased chance to critically strike Fazed targets.",
@@ -8850,11 +9193,13 @@
           95115
         ],
         "entry_id": 117725,
+        "entry_max_ranks": 1,
         "definition_id": 122737,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Nimble Flurry",
         "spell_id": 441367,
+        "visible_spell_id": null,
         "icon": "ability_rogue_bladetwisting"
       },
       "pve_tooltip": "Blade Flurry damage is increased by 25% while Flawless Form is active.",
@@ -8905,11 +9250,13 @@
           95115
         ],
         "entry_id": 136021,
+        "entry_max_ranks": 1,
         "definition_id": 140776,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Clever Combatant",
         "spell_id": 1276679,
+        "visible_spell_id": null,
         "icon": "ability_rogue_versatility"
       },
       "pve_tooltip": "Pistol Shot has 20% increased critical strike chance and now triggers Unseen Blade when available.",
@@ -8961,11 +9308,13 @@
         ],
         "next": [],
         "entry_id": 117712,
+        "entry_max_ranks": 1,
         "definition_id": 122724,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Coup de Grace",
         "spell_id": 441423,
+        "visible_spell_id": null,
         "icon": "inv_ability_tricksterrogue_coupdegrace"
       },
       "pve_tooltip": "After 4 strikes with Unseen Blade, your next Dispatch will be performed as a Coup de Grace, functioning as if it had consumed 5 additional combo points, and granting you 5 stacks of Flawless Form.",
@@ -8981,12 +9330,286 @@
     }
   ],
   "fetch_errors": [],
+  "serialization": {
+    "version": 2,
+    "spec_id": 260,
+    "node_order": [
+      90622,
+      90624,
+      90625,
+      90626,
+      90628,
+      90630,
+      90633,
+      90634,
+      90635,
+      90636,
+      90637,
+      90638,
+      90639,
+      90640,
+      90641,
+      90643,
+      90644,
+      90645,
+      90647,
+      90648,
+      90649,
+      90651,
+      90652,
+      90653,
+      90654,
+      90655,
+      90656,
+      90659,
+      90661,
+      90662,
+      90663,
+      90664,
+      90665,
+      90666,
+      90667,
+      90668,
+      90669,
+      90670,
+      90671,
+      90673,
+      90675,
+      90676,
+      90677,
+      90678,
+      90679,
+      90680,
+      90681,
+      90683,
+      90684,
+      90686,
+      90687,
+      90688,
+      90690,
+      90691,
+      90692,
+      90695,
+      90697,
+      90698,
+      90699,
+      90700,
+      90701,
+      90703,
+      90704,
+      90705,
+      90706,
+      90707,
+      90709,
+      90710,
+      90713,
+      90714,
+      90715,
+      90716,
+      90717,
+      90718,
+      90719,
+      90720,
+      90721,
+      90722,
+      90723,
+      90724,
+      90726,
+      90727,
+      90728,
+      90730,
+      90731,
+      90732,
+      90733,
+      90734,
+      90735,
+      90737,
+      90738,
+      90739,
+      90740,
+      90741,
+      90742,
+      90743,
+      90744,
+      90745,
+      90746,
+      90747,
+      90748,
+      90749,
+      90750,
+      90751,
+      90752,
+      90753,
+      90754,
+      90755,
+      90756,
+      90757,
+      90758,
+      90759,
+      90760,
+      90762,
+      90763,
+      90764,
+      90766,
+      90767,
+      90768,
+      90769,
+      90770,
+      90771,
+      90772,
+      90774,
+      90775,
+      90776,
+      90777,
+      90779,
+      90780,
+      90783,
+      90784,
+      90785,
+      90786,
+      94536,
+      94551,
+      94552,
+      94553,
+      94554,
+      94555,
+      94556,
+      94557,
+      94561,
+      94562,
+      94563,
+      94565,
+      94567,
+      94580,
+      94581,
+      94582,
+      95106,
+      95107,
+      95108,
+      95109,
+      95110,
+      95111,
+      95114,
+      95115,
+      95116,
+      95117,
+      95118,
+      95119,
+      95120,
+      95121,
+      95122,
+      95123,
+      95125,
+      95127,
+      95128,
+      95129,
+      95130,
+      95131,
+      95132,
+      95133,
+      95134,
+      95135,
+      95136,
+      95137,
+      95138,
+      95139,
+      95140,
+      95141,
+      95142,
+      99842,
+      99843,
+      99844,
+      101713,
+      101714,
+      101715,
+      109003,
+      109004,
+      109760,
+      109761,
+      109762,
+      109763,
+      109764,
+      109765,
+      109766,
+      109767,
+      109768,
+      110323,
+      110324,
+      110325,
+      110432,
+      110433,
+      110434,
+      110576
+    ],
+    "subtree_nodes": [
+      {
+        "id": 99843,
+        "name": "Fatebound / Trickster",
+        "type": "subtree",
+        "posX": 7800,
+        "posY": 600,
+        "entryNode": true,
+        "next": [],
+        "prev": [],
+        "entries": [
+          {
+            "id": 123374,
+            "type": "subtree",
+            "name": "Fatebound",
+            "traitSubTreeId": 52,
+            "traitTreeId": 852,
+            "atlasMemberName": "talents-heroclass-rogue-fatebound",
+            "nodes": [
+              95125,
+              95138,
+              95122,
+              95130,
+              109767,
+              95107,
+              95139,
+              95120,
+              109768,
+              95119,
+              95114,
+              95129,
+              109766,
+              95127
+            ]
+          },
+          {
+            "id": 123372,
+            "type": "subtree",
+            "name": "Trickster",
+            "traitSubTreeId": 51,
+            "traitTreeId": 852,
+            "atlasMemberName": "talents-heroclass-rogue-trickster",
+            "nodes": [
+              95140,
+              95121,
+              95141,
+              95111,
+              109765,
+              95134,
+              95133,
+              95137,
+              109764,
+              95118,
+              95116,
+              95128,
+              109763,
+              95115
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "source_warnings": [],
   "slug": "rogue-outlaw",
-  "generated_at": "2026-09-21T12:52:56.176203+00:00",
+  "generated_at": "2026-09-21T19:41:37.877911+00:00",
   "validation": {
     "talents": 130,
-    "changed_tooltips": 11,
+    "changed_tooltips": 12,
     "talents_with_pvp_mechanics": 20,
     "unique_nodes": 110,
     "tree_build": "12.1.0.69875",

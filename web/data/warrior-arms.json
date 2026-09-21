@@ -43,11 +43,13 @@
           90328
         ],
         "entry_id": 112184,
+        "entry_max_ranks": 1,
         "definition_id": 117189,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Battle Stance",
         "spell_id": 386164,
+        "visible_spell_id": null,
         "icon": "ability_warrior_offensivestance"
       },
       "pve_tooltip": "Instant\n3 sec cooldown\nA balanced combat state that increases the critical strike chance of your abilities by 3% and reduces the duration of movement impairing effects by 10%.\nLasts until canceled.",
@@ -169,11 +171,13 @@
           90371
         ],
         "entry_id": 114643,
+        "entry_max_ranks": 1,
         "definition_id": 119649,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Defensive Stance",
         "spell_id": 386208,
+        "visible_spell_id": null,
         "icon": "ability_warrior_defensivestance"
       },
       "pve_tooltip": "Instant\n3 sec cooldown\nA defensive combat state that reduces all damage you take by 15% and all damage you deal by 10%.\nLasts until canceled.",
@@ -272,11 +276,13 @@
           109391
         ],
         "entry_id": 112206,
+        "entry_max_ranks": 1,
         "definition_id": 117211,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fast Footwork",
         "spell_id": 382260,
+        "visible_spell_id": null,
         "icon": "ability_hunter_posthaste"
       },
       "pve_tooltip": "Movement speed increased by 5%.",
@@ -329,11 +335,13 @@
           90352
         ],
         "entry_id": 112185,
+        "entry_max_ranks": 1,
         "definition_id": 117190,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "War Machine",
         "spell_id": 262231,
+        "visible_spell_id": null,
         "icon": "ability_hunter_rapidkilling"
       },
       "pve_tooltip": "Your auto-attacks generate 1050% more Rage.\nKilling an enemy instantly generates 5 Rage and increases your movement speed by 30% for 8 sec.",
@@ -386,11 +394,13 @@
           90337
         ],
         "entry_id": 112205,
+        "entry_max_ranks": 1,
         "definition_id": 117210,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Thunder Clap",
         "spell_id": 6343,
+        "visible_spell_id": null,
         "icon": "spell_nature_thunderclap"
       },
       "pve_tooltip": "20 Rage\nInstant\n6 sec cooldown\nBlasts all enemies within 8 yards for (235.68% of Attack Power) Physical damage [Thunderstruck: roots them for 4 sec] and reduces their movement speed by 20% for 10 sec. Deals reduced damage beyond 5 / Recklessness: 8 / Crashing Thunder: 85 targets.\n[Generates 0 Rage.]",
@@ -497,11 +507,13 @@
           108676
         ],
         "entry_id": 112238,
+        "entry_max_ranks": 1,
         "definition_id": 117243,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Leeching Strikes",
         "spell_id": 382258,
+        "visible_spell_id": null,
         "icon": "inv_artifact_bloodoftheassassinated"
       },
       "pve_tooltip": "Leech increased by 3%.",
@@ -555,11 +567,13 @@
           90352
         ],
         "entry_id": 112183,
+        "entry_max_ranks": 1,
         "definition_id": 117188,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Impending Victory",
         "spell_id": 202168,
+        "visible_spell_id": null,
         "icon": "spell_impending_victory"
       },
       "pve_tooltip": "Replaces Victory Rush\n10 Rage\nMelee Range\nInstant\n25 sec cooldown\nInstantly attack the target, causing (59% of Attack Power) damage and healing you for 30% of your maximum health.\nKilling an enemy that yields experience or honor resets the cooldown of Impending Victory and makes it cost no Rage.",
@@ -717,11 +731,13 @@
           90353
         ],
         "entry_id": 112208,
+        "entry_max_ranks": 1,
         "definition_id": 117213,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Heroic Leap",
         "spell_id": 6544,
+        "visible_spell_id": null,
         "icon": "ability_heroicleap"
       },
       "pve_tooltip": "8 - 40 yd range\nInstant\n45 sec cooldown\n1 Charge\nLeap through the air toward a target location, slamming down with destructive force to deal (23.5% of Attack Power) Physical damage to all enemies within 8 yards.",
@@ -830,11 +846,13 @@
         ],
         "next": [],
         "entry_id": 118853,
+        "entry_max_ranks": 1,
         "definition_id": 123753,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Crackling Thunder",
         "spell_id": 203201,
+        "visible_spell_id": null,
         "icon": "ability_thunderking_overcharge"
       },
       "pve_tooltip": "Thunder Clap's radius is increased by 50% and it reduces affected target's movement speed by an additional 20%.",
@@ -887,11 +905,13 @@
           108676
         ],
         "entry_id": 112198,
+        "entry_max_ranks": 1,
         "definition_id": 117203,
         "entry_index": 0,
         "entry_type": "active",
         "talent_name": "Storm Bolt",
         "spell_id": 107570,
+        "visible_spell_id": null,
         "icon": "warrior_talent_icon_stormbolt"
       },
       "pve_tooltip": "20 yd range\nInstant\n30 sec cooldown\nHurls your weapon at an enemy, causing (28.5% of Attack Power) Physical damage and stunning for 4 sec. [Storm Bolts: Also hits 2 additional nearby targets, stunning for 2 sec]",
@@ -999,11 +1019,13 @@
           90351
         ],
         "entry_id": 135597,
+        "entry_max_ranks": 1,
         "definition_id": 140353,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Rend",
         "spell_id": 772,
+        "visible_spell_id": null,
         "icon": "ability_gouge"
       },
       "pve_tooltip": "10 Rage\nMelee Range\nInstant\nWounds the target, causing (124.581% of Attack Power) Physical damage instantly and an additional (190.465% of Attack Power) Bleed damage over 15 sec.",
@@ -1158,11 +1180,13 @@
         ],
         "next": [],
         "entry_id": 112190,
+        "entry_max_ranks": 1,
         "definition_id": 117195,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Second Wind",
         "spell_id": 29838,
+        "visible_spell_id": null,
         "icon": "ability_hunter_harass"
       },
       "pve_tooltip": "Restores 6% health every 1 sec when you have not taken damage for 5 sec.\nRestores 2% health every 1 sec while you are below 35% health. The amount restored increases the closer you are to death.",
@@ -1217,11 +1241,13 @@
           90331
         ],
         "entry_id": 112216,
+        "entry_max_ranks": 1,
         "definition_id": 117221,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Frothing Berserker",
         "spell_id": 392792,
+        "visible_spell_id": null,
         "icon": "warrior_talent_icon_furyintheblood"
       },
       "pve_tooltip": "Mortal Strike and Cleave have a 20% chance to immediately refund 10% of the Rage spent.",
@@ -1270,11 +1296,13 @@
         ],
         "next": [],
         "entry_id": 112219,
+        "entry_max_ranks": 1,
         "definition_id": 117224,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Bounding Stride",
         "spell_id": 202163,
+        "visible_spell_id": null,
         "icon": "ability_heroicleap"
       },
       "pve_tooltip": "Reduces the cooldown of Heroic Leap by 15 sec and Heroic Leap also increases your movement speed by 70% for 3 sec.",
@@ -1440,11 +1468,13 @@
           90385
         ],
         "entry_id": 112217,
+        "entry_max_ranks": 1,
         "definition_id": 117222,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Pain and Gain",
         "spell_id": 382549,
+        "visible_spell_id": null,
         "icon": "spell_holy_painsupression"
       },
       "pve_tooltip": "When you take any damage, heal for 2.0% of your maximum health.\nThis can only occur once every 10 sec.\n(10s cooldown)",
@@ -1497,11 +1527,13 @@
           95956
         ],
         "entry_id": 134217,
+        "entry_max_ranks": 1,
         "definition_id": 141828,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Intervene",
         "spell_id": 3411,
+        "visible_spell_id": null,
         "icon": "ability_warrior_victoryrush"
       },
       "pve_tooltip": "25 yd range\nInstant\n30 sec cooldown\n1 Charge\nRun at high speed toward an ally, intercepting all melee and ranged attacks against them for 6 sec while they remain within 10 yds.",
@@ -1554,15 +1586,17 @@
           95956
         ],
         "entry_id": 134216,
+        "entry_max_ranks": 1,
         "definition_id": 138994,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Interpose",
         "spell_id": 1244088,
+        "visible_spell_id": null,
         "icon": "ability_paladin_speedoflight"
       },
-      "pve_tooltip": "25 yd range\nInstant\n30 sec cooldown\n1 Charge\nRun at high speed toward a target location near your allies, taking 30% of all damage dealt to allies within 3 yards for 8 sec or until you take at least [(0.2) * Total Health] damage from this effect.",
-      "pvp_tooltip": "25 yd range\nInstant\n30 sec cooldown\n1 Charge\nRun at high speed toward a target location near your allies, taking 30% of all damage dealt to allies within 3 yards for 8 sec or until you take at least [(0.2) * Total Health] damage from this effect.",
+      "pve_tooltip": "25 yd range\nInstant\n30 sec cooldown\n1 Charge\nRun at high speed toward a target location near your allies, taking 30% of all damage dealt to allies within 3 yards for 8 sec or until you take at least [0.2 * Total Health] damage from this effect.",
+      "pvp_tooltip": "25 yd range\nInstant\n30 sec cooldown\n1 Charge\nRun at high speed toward a target location near your allies, taking 30% of all damage dealt to allies within 3 yards for 8 sec or until you take at least [0.2 * Total Health] damage from this effect.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -1612,11 +1646,13 @@
           90348
         ],
         "entry_id": 112242,
+        "entry_max_ranks": 1,
         "definition_id": 117247,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Shockwave",
         "spell_id": 46968,
+        "visible_spell_id": null,
         "icon": "ability_warrior_shockwave"
       },
       "pve_tooltip": "Instant\n40 sec cooldown\nSends a wave of force in a frontal cone, causing (20% of Attack Power) damage and stunning all enemies within 10 yards for 2 sec.",
@@ -1720,11 +1756,13 @@
         ],
         "next": [],
         "entry_id": 112245,
+        "entry_max_ranks": 1,
         "definition_id": 117250,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Overwhelming Rage",
         "spell_id": 382767,
+        "visible_spell_id": null,
         "icon": "racial_orc_berserkerstrength"
       },
       "pve_tooltip": "Maximum Rage increased by 30.",
@@ -1777,11 +1815,13 @@
           108705
         ],
         "entry_id": 112188,
+        "entry_max_ranks": 1,
         "definition_id": 117193,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Rallying Cry",
         "spell_id": 97462,
+        "visible_spell_id": null,
         "icon": "ability_warrior_rallyingcry"
       },
       "pve_tooltip": "Instant\n3 min cooldown\nLets loose a rallying cry, granting all party or raid members within 40 yards 10% temporary and maximum health for 10 sec.\nHealth granted increased by 50% when not in a raid.",
@@ -1877,11 +1917,13 @@
         ],
         "next": [],
         "entry_id": 136626,
+        "entry_max_ranks": 1,
         "definition_id": 141398,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Field Dressing",
         "spell_id": 1271926,
+        "visible_spell_id": null,
         "icon": "inv_misc_bandage_08"
       },
       "pve_tooltip": "Healing received increased by 3% and all self-healing increased by an additional 10%.",
@@ -1934,11 +1976,13 @@
           95956
         ],
         "entry_id": 112253,
+        "entry_max_ranks": 1,
         "definition_id": 117258,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Spell Reflection",
         "spell_id": 23920,
+        "visible_spell_id": null,
         "icon": "ability_warrior_shieldreflection"
       },
       "pve_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRaise your weapon, reflecting the first spell cast on you and reducing magic damage you take by 20% for 5 sec.",
@@ -1990,24 +2034,66 @@
           90366
         ],
         "entry_id": 112215,
+        "entry_max_ranks": 1,
         "definition_id": 117220,
         "entry_index": 0,
         "entry_type": "active",
         "talent_name": "Wrecking Throw",
         "spell_id": 384110,
+        "visible_spell_id": null,
         "icon": "warrior_talent_icon_mastercleaver"
       },
       "pve_tooltip": "25 yd range\nInstant\n45 sec cooldown\nHurl your weapon at the enemy, causing (600% of Attack Power) Physical damage, ignoring armor. Deals up to 500% increased damage to absorb shields.",
-      "pvp_tooltip": "25 yd range\nInstant\n45 sec cooldown\nHurl your weapon at the enemy, causing (600% of Attack Power) Physical damage, ignoring armor. Deals up to 500% increased damage to absorb shields.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "25 yd range\nInstant\n45 sec cooldown\nHurl your weapon at the enemy, causing (720% of Attack Power) Physical damage, ignoring armor. Deals up to 125% increased damage to absorb shields.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 76,
+          "end": 79,
+          "old_token": "600",
+          "new_token": "720",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        },
+        {
+          "start": 143,
+          "end": 146,
+          "old_token": "500",
+          "new_token": "125",
+          "kind": "percent_value",
+          "effect_indexes": [
+            3
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "600",
+          "new": "720"
+        },
+        {
+          "effect_indexes": [
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "500",
+          "new": "125"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 384110,
           "source_spell_id": 394354,
           "effect_index": 1,
@@ -2024,7 +2110,7 @@
             394354
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -2045,7 +2131,7 @@
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 384110,
           "source_spell_id": 394354,
           "effect_index": 2,
@@ -2062,7 +2148,7 @@
             394354
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -2083,7 +2169,7 @@
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 384110,
           "source_spell_id": 394354,
           "effect_index": 3,
@@ -2100,7 +2186,7 @@
             394354
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -2112,7 +2198,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 2,
       "rank_tooltips": []
     },
     {
@@ -2153,24 +2239,66 @@
           90366
         ],
         "entry_id": 112214,
+        "entry_max_ranks": 1,
         "definition_id": 117219,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Shattering Throw",
         "spell_id": 64382,
+        "visible_spell_id": null,
         "icon": "ability_warrior_shatteringthrow"
       },
       "pve_tooltip": "25 yd range\n1.5 sec cast\n3 min cooldown\nHurl your weapon at the enemy, removing any magical immunities and causing (600% of Attack Power) Physical damage, ignoring armor. Deals up to 500% increased damage to absorb shields.",
-      "pvp_tooltip": "25 yd range\n1.5 sec cast\n3 min cooldown\nHurl your weapon at the enemy, removing any magical immunities and causing (600% of Attack Power) Physical damage, ignoring armor. Deals up to 500% increased damage to absorb shields.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "25 yd range\n1.5 sec cast\n3 min cooldown\nHurl your weapon at the enemy, removing any magical immunities and causing (720% of Attack Power) Physical damage, ignoring armor. Deals up to 125% increased damage to absorb shields.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 116,
+          "end": 119,
+          "old_token": "600",
+          "new_token": "720",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        },
+        {
+          "start": 183,
+          "end": 186,
+          "old_token": "500",
+          "new_token": "125",
+          "kind": "percent_value",
+          "effect_indexes": [
+            3
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "600",
+          "new": "720"
+        },
+        {
+          "effect_indexes": [
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "500",
+          "new": "125"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 64382,
           "source_spell_id": 394352,
           "effect_index": 1,
@@ -2187,7 +2315,7 @@
             394352
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -2208,7 +2336,7 @@
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 64382,
           "source_spell_id": 394352,
           "effect_index": 2,
@@ -2225,7 +2353,7 @@
             394352
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -2246,7 +2374,7 @@
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 64382,
           "source_spell_id": 394352,
           "effect_index": 3,
@@ -2263,7 +2391,7 @@
             394352
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -2275,7 +2403,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 2,
       "rank_tooltips": []
     },
     {
@@ -2313,11 +2441,13 @@
         ],
         "next": [],
         "entry_id": 112241,
+        "entry_max_ranks": 1,
         "definition_id": 117246,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Rumbling Earth",
         "spell_id": 275339,
+        "visible_spell_id": null,
         "icon": "spell_shaman_earthquake"
       },
       "pve_tooltip": "Shockwave's range increased by 6 yards and when it strikes at least 3 targets its cooldown is reduced by 15 sec.",
@@ -2370,11 +2500,13 @@
           90382
         ],
         "entry_id": 112211,
+        "entry_max_ranks": 1,
         "definition_id": 117216,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Berserker Shout",
         "spell_id": 384100,
+        "visible_spell_id": null,
         "icon": "spell_nature_ancestralguardian"
       },
       "pve_tooltip": "Instant\n1 min cooldown\nGo berserk, removing and granting immunity to Fear, Sap, and Incapacitate effects for 6 sec.\nAlso remove fear effects from group members within 12 yds.",
@@ -2427,11 +2559,13 @@
           90382
         ],
         "entry_id": 112210,
+        "entry_max_ranks": 1,
         "definition_id": 117215,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Fearless",
         "spell_id": 1271925,
+        "visible_spell_id": null,
         "icon": "ability_warrior_endlessrage"
       },
       "pve_tooltip": "Cooldown of Berserker Rage is reduced by 50% and Berseker Rage removes all movement speed-impairing effects.",
@@ -2484,11 +2618,13 @@
           90382
         ],
         "entry_id": 134254,
+        "entry_max_ranks": 1,
         "definition_id": 139027,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Intimidating Shout",
         "spell_id": 5246,
+        "visible_spell_id": null,
         "icon": "ability_golemthunderclap"
       },
       "pve_tooltip": "8 yd range\nInstant\n1.5 min cooldown\nCauses the targeted enemy to cower in fear while all enemies within 8 yards flee from you and their movement speed is reduced by 70% for 8 sec.\nDamage may cancel the effect.",
@@ -2541,11 +2677,13 @@
           90382
         ],
         "entry_id": 136627,
+        "entry_max_ranks": 1,
         "definition_id": 141399,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Piercing Howl",
         "spell_id": 12323,
+        "visible_spell_id": null,
         "icon": "spell_shadow_deathscream"
       },
       "pve_tooltip": "Instant\n1.5 min cooldown\nSnares all enemies within 12 yards, reducing their movement speed by 70% for 8 sec.\nSpurs all allies within 6 yards, increasing their movement speed by 30% for 4 sec.",
@@ -2644,11 +2782,13 @@
           90368
         ],
         "entry_id": 118850,
+        "entry_max_ranks": 1,
         "definition_id": 123750,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Honed Reflexes",
         "spell_id": 391271,
+        "visible_spell_id": null,
         "icon": "spell_holy_borrowedtime"
       },
       "pve_tooltip": "Cooldown of Die By the Sword, Intervene, Interpose, Spell Reflection, Storm Bolt, and Pummel reduced by 10%.\nSuccessfully interrupting an enemy increases the damage you deal to them by 5% for 10 sec.",
@@ -2701,11 +2841,13 @@
           110118
         ],
         "entry_id": 112233,
+        "entry_max_ranks": 2,
         "definition_id": 117238,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Armored to the Teeth",
         "spell_id": 384124,
+        "visible_spell_id": null,
         "icon": "inv_shoulder_22"
       },
       "pve_tooltip": "Gain Strength equal to 10% of your Armor.",
@@ -2723,6 +2865,7 @@
           "pve_tooltip": "Gain Strength equal to 5% of your Armor.",
           "pvp_tooltip": "Gain Strength equal to 5% of your Armor.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2731,6 +2874,7 @@
           "pve_tooltip": "Gain Strength equal to 10% of your Armor.",
           "pvp_tooltip": "Gain Strength equal to 10% of your Armor.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2775,28 +2919,40 @@
           108685
         ],
         "entry_id": 112249,
+        "entry_max_ranks": 1,
         "definition_id": 117254,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Double Time",
         "spell_id": 103827,
+        "visible_spell_id": null,
         "icon": "inv_misc_horn_04"
       },
       "pve_tooltip": "Charge gains 1 additional charge and its cooldown is reduced by 3 sec.",
-      "pvp_tooltip": "Charge gains 1 additional charge and its cooldown is reduced by 3 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pvp_tooltip": "Charge gains 1 additional charge and its cooldown is reduced by 2.4 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 64,
+          "end": 65,
+          "old_token": "3",
+          "new_token": "2.4",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "APPLIED",
           "kind": "ordinary_value",
-          "old": 3000.0,
-          "new": 2400.0,
-          "full_tooltip_match_count": 0
+          "old": "3",
+          "new": "2.4"
         }
       ],
       "has_pvp_mechanics": true,
@@ -2869,11 +3025,13 @@
           108686
         ],
         "entry_id": 112235,
+        "entry_max_ranks": 2,
         "definition_id": 117240,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Reinforced Plates",
         "spell_id": 382939,
+        "visible_spell_id": null,
         "icon": "inv_chest_plate04"
       },
       "pve_tooltip": "Stamina increased by 10% and Armor increased by 10%.",
@@ -2891,6 +3049,7 @@
           "pve_tooltip": "Stamina increased by 5% and Armor increased by 5%.",
           "pvp_tooltip": "Stamina increased by 5% and Armor increased by 5%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2899,6 +3058,7 @@
           "pve_tooltip": "Stamina increased by 10% and Armor increased by 10%.",
           "pvp_tooltip": "Stamina increased by 10% and Armor increased by 10%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2941,11 +3101,13 @@
           90381
         ],
         "entry_id": 112209,
+        "entry_max_ranks": 1,
         "definition_id": 117214,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Barbaric Training",
         "spell_id": 383082,
+        "visible_spell_id": null,
         "icon": "ability_garrosh_whirling_corruption"
       },
       "pve_tooltip": "Slam, Whirlwind, and Cleave deal 10% more damage and 5% increased critical strike damage.",
@@ -2998,12 +3160,14 @@
           90322
         ],
         "entry_id": 136625,
+        "entry_max_ranks": 1,
         "definition_id": 141397,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Javelineer",
         "spell_id": 1271948,
-        "icon": "inv121_ability_warrior_javelineer"
+        "visible_spell_id": null,
+        "icon": "8026700"
       },
       "pve_tooltip": "Range of your thrown abilities is increased by 5 yards.\nDamage dealt by Champion's Spear, Shattering Throw, and Wrecking Throw increased by 20%.\nShattering Throw and Wrecking Throw silence non-players for 3 sec.",
       "pvp_tooltip": "Range of your thrown abilities is increased by 5 yards.\nDamage dealt by Champion's Spear, Shattering Throw, and Wrecking Throw increased by 20%.\nShattering Throw and Wrecking Throw silence non-players for 3 sec.",
@@ -3055,11 +3219,13 @@
           90360
         ],
         "entry_id": 134225,
+        "entry_max_ranks": 1,
         "definition_id": 139003,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Resonant Voice",
         "spell_id": 1243660,
+        "visible_spell_id": null,
         "icon": "warrior_disruptingshout"
       },
       "pve_tooltip": "The effects of your shouts last 20% longer.",
@@ -3110,11 +3276,13 @@
           90360
         ],
         "entry_id": 134226,
+        "entry_max_ranks": 1,
         "definition_id": 139004,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Crushing Force",
         "spell_id": 382764,
+        "visible_spell_id": null,
         "icon": "spell_shadow_unholystrength"
       },
       "pve_tooltip": "Mortal Strike deals an additional 5% damage and deals 5% increased critical strike damage.",
@@ -3167,11 +3335,13 @@
           90380
         ],
         "entry_id": 112248,
+        "entry_max_ranks": 2,
         "definition_id": 117253,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Cruel Strikes",
         "spell_id": 392777,
+        "visible_spell_id": null,
         "icon": "ability_criticalstrike"
       },
       "pve_tooltip": "Critical strike chance increased by 2% and critical strike damage of Execute increased by 10%.",
@@ -3189,6 +3359,7 @@
           "pve_tooltip": "Critical strike chance increased by 1% and critical strike damage of Execute increased by 5%.",
           "pvp_tooltip": "Critical strike chance increased by 1% and critical strike damage of Execute increased by 5%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -3197,6 +3368,7 @@
           "pve_tooltip": "Critical strike chance increased by 2% and critical strike damage of Execute increased by 10%.",
           "pvp_tooltip": "Critical strike chance increased by 2% and critical strike damage of Execute increased by 10%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -3241,11 +3413,13 @@
           108542
         ],
         "entry_id": 112179,
+        "entry_max_ranks": 2,
         "definition_id": 117184,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Two-Handed Weapon Specialization",
         "spell_id": 382896,
+        "visible_spell_id": null,
         "icon": "inv_axe_09"
       },
       "pve_tooltip": "While wielding two-handed weapons your damage is increased by 6% and damage taken from area of effect attacks is reduced by 4%.",
@@ -3263,6 +3437,7 @@
           "pve_tooltip": "While wielding two-handed weapons your damage is increased by 3% and damage taken from area of effect attacks is reduced by 2%.",
           "pvp_tooltip": "While wielding two-handed weapons your damage is increased by 3% and damage taken from area of effect attacks is reduced by 2%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -3271,6 +3446,7 @@
           "pve_tooltip": "While wielding two-handed weapons your damage is increased by 6% and damage taken from area of effect attacks is reduced by 4%.",
           "pvp_tooltip": "While wielding two-handed weapons your damage is increased by 6% and damage taken from area of effect attacks is reduced by 4%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -3315,11 +3491,13 @@
           108544
         ],
         "entry_id": 112224,
+        "entry_max_ranks": 2,
         "definition_id": 117229,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Wild Strikes",
         "spell_id": 382946,
+        "visible_spell_id": null,
         "icon": "ability_rogue_sprint"
       },
       "pve_tooltip": "Haste increased by 2% and your auto-attack critical strikes increase your auto-attack speed by 20% for 10 sec.\n(8s cooldown)",
@@ -3337,6 +3515,7 @@
           "pve_tooltip": "Haste increased by 1% and your auto-attack critical strikes increase your auto-attack speed by 10% for 10 sec.\n(8s cooldown)",
           "pvp_tooltip": "Haste increased by 1% and your auto-attack critical strikes increase your auto-attack speed by 10% for 10 sec.\n(8s cooldown)",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -3345,6 +3524,7 @@
           "pve_tooltip": "Haste increased by 2% and your auto-attack critical strikes increase your auto-attack speed by 20% for 10 sec.\n(8s cooldown)",
           "pvp_tooltip": "Haste increased by 2% and your auto-attack critical strikes increase your auto-attack speed by 20% for 10 sec.\n(8s cooldown)",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -3385,11 +3565,13 @@
         ],
         "next": [],
         "entry_id": 134032,
+        "entry_max_ranks": 1,
         "definition_id": 138815,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Anger Management",
         "spell_id": 152278,
+        "visible_spell_id": null,
         "icon": "warrior_talent_icon_angermanagement"
       },
       "pve_tooltip": "Every 20 Rage you spend on attacks reduces the remaining cooldown on Avatar and Colossus Smash by 1 sec.",
@@ -3486,18 +3668,30 @@
         ],
         "next": [],
         "entry_id": 112247,
+        "entry_max_ranks": 1,
         "definition_id": 117252,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Champion's Spear",
         "spell_id": 376079,
+        "visible_spell_id": null,
         "icon": "inv_ability_warrior_championsspear"
       },
       "pve_tooltip": "25 yd range\nInstant\n1.5 min cooldown\nThrow a spear at the target location, chaining all enemies in the area to the spear's location and dealing (239.25% of Attack Power) Physical damage instantly and an additional (326.25% of Attack Power) Physical damage over 6 sec.\nWhile the spear is active, activating this ability will cause you to leap to the spear, dealing (47% of Attack Power) Physical damage to all targets.\nAll damage dealt reduced beyond 5 targets.\nGenerates 10 Rage.",
-      "pvp_tooltip": "25 yd range\nInstant\n1.5 min cooldown\nThrow a spear at the target location, chaining all enemies in the area to the spear's location and dealing (239.25% of Attack Power) Physical damage instantly and an additional (326.25% of Attack Power) Physical damage over 6 sec.\nWhile the spear is active, activating this ability will cause you to leap to the spear, dealing (56.4% of Attack Power) Physical damage to all targets.\nAll damage dealt reduced beyond 5 targets.\nGenerates 10 Rage.",
+      "pvp_tooltip": "25 yd range\nInstant\n1.5 min cooldown\nThrow a spear at the target location, chaining all enemies in the area to the spear's location and dealing (287.1% of Attack Power) Physical damage instantly and an additional (326.25% of Attack Power) Physical damage over 6 sec.\nWhile the spear is active, activating this ability will cause you to leap to the spear, dealing (56.4% of Attack Power) Physical damage to all targets.\nAll damage dealt reduced beyond 5 targets.\nGenerates 10 Rage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
+        {
+          "start": 145,
+          "end": 151,
+          "old_token": "239.25",
+          "new_token": "287.1",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
         {
           "start": 365,
           "end": 367,
@@ -3516,6 +3710,15 @@
           ],
           "status": "APPLIED",
           "kind": "attack_power_coefficient",
+          "old": "239.25",
+          "new": "287.1"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
           "old": "47",
           "new": "56.4"
         }
@@ -3524,7 +3727,7 @@
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 376079,
           "source_spell_id": 376080,
           "effect_index": 1,
@@ -3541,7 +3744,7 @@
             376080
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -3562,7 +3765,7 @@
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 376079,
           "source_spell_id": 376080,
           "effect_index": 4,
@@ -3579,7 +3782,7 @@
             376080
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -3637,7 +3840,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1,
+      "render_effect_count": 2,
       "rank_tooltips": []
     },
     {
@@ -3676,11 +3879,13 @@
         ],
         "next": [],
         "entry_id": 134031,
+        "entry_max_ranks": 1,
         "definition_id": 138814,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Stance Mastery",
         "spell_id": 1280961,
+        "visible_spell_id": null,
         "icon": "crest_warrior"
       },
       "pve_tooltip": "Your stances have additional effects.\nBattle Stance\nIncreases the critical strike damage of your abilities by 3%.\nDefensive Stance\nWhen an attack deals 20% or more of your maximum health in damage, that damage is reduced by 15%.",
@@ -3729,11 +3934,13 @@
         ],
         "next": [],
         "entry_id": 134033,
+        "entry_max_ranks": 1,
         "definition_id": 138816,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Battlefield Commander",
         "spell_id": 424742,
+        "visible_spell_id": null,
         "icon": "ability_warrior_commandingshout"
       },
       "pve_tooltip": "Your Shout abilities have additional effects.\nBattle Shout:\nGrants you an additional 3% attack power.\nRallying Cry:\nGrants an additional 2% health and duration increased by 3 sec.\nPiercing Howl:\nRadius increased by 100%\nBerserker Shout:\nRadius increased by 100%.\nIntimidating Shout:\nCooldown reduced by 15 sec.",
@@ -3783,11 +3990,13 @@
           90274
         ],
         "entry_id": 112122,
+        "entry_max_ranks": 1,
         "definition_id": 117127,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Mortal Strike",
         "spell_id": 12294,
+        "visible_spell_id": null,
         "icon": "ability_warrior_savageblow"
       },
       "pve_tooltip": "30 Rage\nMelee Range\nInstant\n6 sec cooldown\nA vicious strike that deals (520.121% of Attack Power) Physical damage and reduces the effectiveness of healing on the target by 50% for 10 sec.",
@@ -3943,11 +4152,13 @@
           90276
         ],
         "entry_id": 112123,
+        "entry_max_ranks": 1,
         "definition_id": 117128,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Overpower",
         "spell_id": 7384,
+        "visible_spell_id": null,
         "icon": "ability_meleedamage"
       },
       "pve_tooltip": "Melee Range\nInstant\n12 sec cooldown\n1 Charge\nOverpower the enemy, dealing (385.614% of Attack Power) Physical damage. Cannot be blocked, dodged, or parried. [Martial Prowess: Increases the damage of your next Mortal Strike or Cleave by (385.614% of Attack Power)%, stacking up to 1 times] [Increases the damage of your next Mortal Strike by (385.614% of Attack Power)%, stacking up to 1 times]",
@@ -4093,11 +4304,13 @@
           90269
         ],
         "entry_id": 112126,
+        "entry_max_ranks": 1,
         "definition_id": 117131,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sudden Death",
         "spell_id": 29725,
+        "visible_spell_id": null,
         "icon": "ability_warrior_improveddisciplines"
       },
       "pve_tooltip": "Approximately 1.7 procs per minute\nYour attacks have a chance to make your next Execute cost no Rage, be usable on any target regardless of their health, and deal damage as if you spent 40 Rage.\n(3s cooldown)",
@@ -4149,11 +4362,13 @@
           90279
         ],
         "entry_id": 112128,
+        "entry_max_ranks": 1,
         "definition_id": 117133,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fueled by Violence",
         "spell_id": 383103,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_bloodlet"
       },
       "pve_tooltip": "You are healed for 85% of the Bleed damage dealt by Rend and Deep Wounds.",
@@ -4205,11 +4420,13 @@
           90279
         ],
         "entry_id": 136701,
+        "entry_max_ranks": 1,
         "definition_id": 141473,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Ignore Pain",
         "spell_id": 1277297,
+        "visible_spell_id": null,
         "icon": "ability_warrior_renewedvigor"
       },
       "pve_tooltip": "Instant\n20 sec cooldown\nFight through the pain, ignoring 50% of damage taken for 12 sec or until [0 * (1 + Versatility)] damage has been prevented.",
@@ -4298,11 +4515,13 @@
           90267
         ],
         "entry_id": 112121,
+        "entry_max_ranks": 1,
         "definition_id": 117126,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Die by the Sword",
         "spell_id": 118038,
+        "visible_spell_id": null,
         "icon": "ability_warrior_challange"
       },
       "pve_tooltip": "Instant\n2 min cooldown\nIncreases your parry chance by 100% and reduces all damage you take by 30% for 8 sec.",
@@ -4353,11 +4572,13 @@
           90282
         ],
         "entry_id": 112129,
+        "entry_max_ranks": 1,
         "definition_id": 117134,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Bloodsurge",
         "spell_id": 384361,
+        "visible_spell_id": null,
         "icon": "ability_warrior_bloodsurge"
       },
       "pve_tooltip": "Damage from Rend has a chance to generate 5 Rage.",
@@ -4409,11 +4630,13 @@
           90290
         ],
         "entry_id": 112131,
+        "entry_max_ranks": 1,
         "definition_id": 117136,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Overpower",
         "spell_id": 385571,
+        "visible_spell_id": null,
         "icon": "ability_meleedamage"
       },
       "pve_tooltip": "Overpower has 2 charges and deals 15% more damage.",
@@ -4465,11 +4688,13 @@
           90292
         ],
         "entry_id": 112125,
+        "entry_max_ranks": 1,
         "definition_id": 117130,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Execute",
         "spell_id": 316405,
+        "visible_spell_id": null,
         "icon": "inv_sword_48"
       },
       "pve_tooltip": "Execute no longer has a cooldown and if your foe survives, 10% of the Rage spent is refunded.",
@@ -4512,7 +4737,7 @@
           ],
           "dependency_relations": [
             "tooltip_value_ref",
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -4583,11 +4808,13 @@
           90292
         ],
         "entry_id": 135932,
+        "entry_max_ranks": 1,
         "definition_id": 140687,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fervor of Battle",
         "spell_id": 202316,
+        "visible_spell_id": null,
         "icon": "ability_rogue_waylay"
       },
       "pve_tooltip": "If Cleave or Whirlwind hits 3 or more targets you also Slam your primary target. This Slam deals 50% additional damage.",
@@ -4641,11 +4868,13 @@
           109687
         ],
         "entry_id": 112134,
+        "entry_max_ranks": 1,
         "definition_id": 117139,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Tactician",
         "spell_id": 184783,
+        "visible_spell_id": null,
         "icon": "ability_warrior_unrelentingassault"
       },
       "pve_tooltip": "You have a 30% chance to gain a charge of Overpower when you use an attack that has a Rage cost.\nThis effect applies even if that ability's Rage cost has been reduced to zero.\n(500ms cooldown)",
@@ -4699,11 +4928,13 @@
           90447
         ],
         "entry_id": 112144,
+        "entry_max_ranks": 1,
         "definition_id": 117149,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Colossus Smash",
         "spell_id": 167105,
+        "visible_spell_id": null,
         "icon": "inv_warbreaker"
       },
       "pve_tooltip": "Instant\n45 sec cooldown\nSmash the ground and shatter the armor of all enemies within 10 yds, dealing (306.263% of Attack Power) Physical damage and increasing damage you deal to them by 30% for 10 sec. Deals reduced damage beyond 8 targets.\nGenerates 15 Rage.",
@@ -4891,11 +5122,13 @@
           92536
         ],
         "entry_id": 112146,
+        "entry_max_ranks": 1,
         "definition_id": 117151,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Impale",
         "spell_id": 383430,
+        "visible_spell_id": null,
         "icon": "ability_searingarrow"
       },
       "pve_tooltip": "Critical strike damage of your abilities is increased by 10%.",
@@ -4946,11 +5179,13 @@
           109680
         ],
         "entry_id": 135936,
+        "entry_max_ranks": 1,
         "definition_id": 140691,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Brute Force",
         "spell_id": 1261046,
+        "visible_spell_id": null,
         "icon": "ability_smash"
       },
       "pve_tooltip": "Slam has a 10% increased chance to trigger Tactician.",
@@ -5001,11 +5236,13 @@
           109680
         ],
         "entry_id": 135935,
+        "entry_max_ranks": 1,
         "definition_id": 140690,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Efficiency",
         "spell_id": 1261047,
+        "visible_spell_id": null,
         "icon": "ability_warrior_revenge"
       },
       "pve_tooltip": "Slam's Rage cost is reduced by 25%.",
@@ -5057,11 +5294,13 @@
           90285
         ],
         "entry_id": 114733,
+        "entry_max_ranks": 1,
         "definition_id": 119740,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Overpowering Finish",
         "spell_id": 400205,
+        "visible_spell_id": null,
         "icon": "ability_warrior_punishingblow"
       },
       "pve_tooltip": "Overpower deals 15% additional damage to targets below 35% health.",
@@ -5113,11 +5352,13 @@
           90285
         ],
         "entry_id": 137473,
+        "entry_max_ranks": 1,
         "definition_id": 142233,
         "entry_index": 300,
         "entry_type": "passive",
         "talent_name": "Mass Execution",
         "spell_id": 1273075,
+        "visible_spell_id": null,
         "icon": "warrior_talent_icon_mastercleaver"
       },
       "pve_tooltip": "Cleave and Whirlwind deal 20% additional damage to targets below 35% health.",
@@ -5170,11 +5411,13 @@
           109684
         ],
         "entry_id": 135944,
+        "entry_max_ranks": 2,
         "definition_id": 140699,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Strength of Arms",
         "spell_id": 400803,
+        "visible_spell_id": null,
         "icon": "inv_gauntlets_26"
       },
       "pve_tooltip": "Overpower and Slam damage increased by 10% and critical strike damage increased by 10%.\nCritical strike chance of Slam and Overpower increased by 10%.",
@@ -5192,6 +5435,7 @@
           "pve_tooltip": "Overpower and Slam damage increased by 5% and critical strike damage increased by 5%.\nCritical strike chance of Slam and Overpower increased by 5%.",
           "pvp_tooltip": "Overpower and Slam damage increased by 5% and critical strike damage increased by 5%.\nCritical strike chance of Slam and Overpower increased by 5%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -5200,6 +5444,7 @@
           "pve_tooltip": "Overpower and Slam damage increased by 10% and critical strike damage increased by 10%.\nCritical strike chance of Slam and Overpower increased by 10%.",
           "pvp_tooltip": "Overpower and Slam damage increased by 10% and critical strike damage increased by 10%.\nCritical strike chance of Slam and Overpower increased by 10%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -5242,11 +5487,13 @@
           109683
         ],
         "entry_id": 135943,
+        "entry_max_ranks": 1,
         "definition_id": 140698,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Just Warming Up",
         "spell_id": 1261048,
+        "visible_spell_id": null,
         "icon": "ability_warrior_endlessrage"
       },
       "pve_tooltip": "Colossus Smash generates 15 Rage.",
@@ -5297,11 +5544,13 @@
           109683
         ],
         "entry_id": 135942,
+        "entry_max_ranks": 1,
         "definition_id": 140697,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Broad Strokes",
         "spell_id": 1261049,
+        "visible_spell_id": null,
         "icon": "inv_ability_rogue_echoingreprimand"
       },
       "pve_tooltip": "Colossus Smash grants 6 stacks of Sweeping Strikes.",
@@ -5354,11 +5603,13 @@
           109682
         ],
         "entry_id": 112320,
+        "entry_max_ranks": 2,
         "definition_id": 117325,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Sharpened Blades",
         "spell_id": 383341,
+        "visible_spell_id": null,
         "icon": "inv_sword_27"
       },
       "pve_tooltip": "Mortal Strike, Cleave, and Execute damage increased by 10% and critical strike damage increased by 10%.",
@@ -5450,6 +5701,19 @@
           "pve_tooltip": "Mortal Strike, Cleave, and Execute damage increased by 5% and critical strike damage increased by 5%.",
           "pvp_tooltip": "Mortal Strike, Cleave, and Execute damage increased by 2.5% and critical strike damage increased by 5%.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 55,
+              "end": 56,
+              "old_token": "5",
+              "new_token": "2.5",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1,
+                2
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -5458,6 +5722,19 @@
           "pve_tooltip": "Mortal Strike, Cleave, and Execute damage increased by 10% and critical strike damage increased by 10%.",
           "pvp_tooltip": "Mortal Strike, Cleave, and Execute damage increased by 5% and critical strike damage increased by 10%.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 55,
+              "end": 57,
+              "old_token": "10",
+              "new_token": "5",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1,
+                2
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -5500,11 +5777,13 @@
           109682
         ],
         "entry_id": 112147,
+        "entry_max_ranks": 1,
         "definition_id": 117152,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Cleave",
         "spell_id": 845,
+        "visible_spell_id": null,
         "icon": "ability_warrior_cleave"
       },
       "pve_tooltip": "20 Rage\nMelee Range\nInstant\n4.5 sec cooldown\nStrikes all enemies in front of you for (232.814% of Attack Power) Physical damage. Deals reduced damage beyond 5 targets. [Rend: Inflicts Rend on all targets /\nIf you know Rend, inflicts Rend on all targets.]",
@@ -5610,11 +5889,13 @@
           109682
         ],
         "entry_id": 114739,
+        "entry_max_ranks": 1,
         "definition_id": 119746,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Powerful Momentum",
         "spell_id": 1261050,
+        "visible_spell_id": null,
         "icon": "inv_1115_warrior_crushingblow"
       },
       "pve_tooltip": "Secondary targets take an additional 20% damage from Sweeping Strikes.",
@@ -5666,11 +5947,13 @@
           90283
         ],
         "entry_id": 135934,
+        "entry_max_ranks": 1,
         "definition_id": 140689,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Martial Prowess",
         "spell_id": 1273062,
+        "visible_spell_id": null,
         "icon": "warrior_talent_icon_igniteweapon"
       },
       "pve_tooltip": "Overpower and Slam increase the damage of your next Mortal Strike by 5%, stacking up to 3 times.\n(500ms cooldown)",
@@ -5722,11 +6005,13 @@
           90283
         ],
         "entry_id": 112137,
+        "entry_max_ranks": 1,
         "definition_id": 117142,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Dreadnaught",
         "spell_id": 262150,
+        "visible_spell_id": null,
         "icon": "inv_sword_05"
       },
       "pve_tooltip": "Overpower's impact causes a seismic wave, dealing (140% of Attack Power) damage to all enemies in a 10 yd line around your target. Deals reduced damage beyond 5 targets.\nDreadnaught benefits from all effects that modify Overpower's damage.",
@@ -5838,11 +6123,13 @@
           90441
         ],
         "entry_id": 135940,
+        "entry_max_ranks": 1,
         "definition_id": 140695,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Deep Wounds",
         "spell_id": 1261060,
+        "visible_spell_id": null,
         "icon": "ability_backstab"
       },
       "pve_tooltip": "Execute inflicts Deep Wounds on the target.\nDeep Wounds\nCauses the target to suffer (145.48% of Attack Power) Bleed damage over 6 sec. If this effect is reapplied, any remaining damage will be added to the new Deep Wounds.",
@@ -5855,7 +6142,7 @@
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "EMBEDDED",
           "talent_spell_id": 1261060,
           "source_spell_id": 262115,
           "effect_index": 1,
@@ -5872,7 +6159,7 @@
             262115
           ],
           "dependency_relations": [
-            "triggered_by_reverse"
+            "spelldesc_ref"
           ],
           "aura_rules": [
             {
@@ -5934,11 +6221,13 @@
           90441
         ],
         "entry_id": 135939,
+        "entry_max_ranks": 1,
         "definition_id": 140694,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Tactical Edge",
         "spell_id": 1261051,
+        "visible_spell_id": null,
         "icon": "inv12_ability_warrior_arms"
       },
       "pve_tooltip": "Colossus Smash immediately grants 1 use of Sudden Death.",
@@ -5989,11 +6278,13 @@
           90441
         ],
         "entry_id": 135938,
+        "entry_max_ranks": 1,
         "definition_id": 140693,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Crushing Combo",
         "spell_id": 1261056,
+        "visible_spell_id": null,
         "icon": "ability_warrior_cleave"
       },
       "pve_tooltip": "Colossus Smash causes your next 2 Cleaves within 20 sec to trigger no cooldown.",
@@ -6045,11 +6336,13 @@
           90444
         ],
         "entry_id": 112145,
+        "entry_max_ranks": 1,
         "definition_id": 117150,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Massacre",
         "spell_id": 281001,
+        "visible_spell_id": null,
         "icon": "inv_axe_2h_orcwarrior_c_01"
       },
       "pve_tooltip": "Execute is usable on targets below 35% health.",
@@ -6102,11 +6395,13 @@
           90444
         ],
         "entry_id": 135937,
+        "entry_max_ranks": 1,
         "definition_id": 140692,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Collateral Damage",
         "spell_id": 334779,
+        "visible_spell_id": null,
         "icon": "ability_warrior_incite"
       },
       "pve_tooltip": "When an ability used during Sweeping Strikes damages a second target, your next Cleave or Whirlwind deals 25% increased damage, stacking up to 3 times.",
@@ -6160,11 +6455,13 @@
           90438
         ],
         "entry_id": 112135,
+        "entry_max_ranks": 2,
         "definition_id": 117140,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Bloodborne",
         "spell_id": 383287,
+        "visible_spell_id": null,
         "icon": "inv_artifact_bloodoftheassassinated"
       },
       "pve_tooltip": "Your Bleed effects deal 10% increased damage and 10% increased critical strike damage.",
@@ -6182,6 +6479,7 @@
           "pve_tooltip": "Your Bleed effects deal 5% increased damage and 5% increased critical strike damage.",
           "pvp_tooltip": "Your Bleed effects deal 5% increased damage and 5% increased critical strike damage.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -6190,6 +6488,7 @@
           "pve_tooltip": "Your Bleed effects deal 10% increased damage and 10% increased critical strike damage.",
           "pvp_tooltip": "Your Bleed effects deal 10% increased damage and 10% increased critical strike damage.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6235,11 +6534,13 @@
           90445
         ],
         "entry_id": 112314,
+        "entry_max_ranks": 1,
         "definition_id": 117319,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Bladestorm",
         "spell_id": 227847,
+        "visible_spell_id": null,
         "icon": "ability_warrior_bladestorm"
       },
       "pve_tooltip": "Instant\n1.5 min cooldown\n1 Charge\nBecome an unstoppable storm of destructive force, striking all nearby enemies for [7 * (271.635% of Attack Power)%] Physical damage over 6 sec. Deals reduced damage beyond 8 targets.\nYou are immune to movement impairing and loss of control effects, but can use defensive abilities and can avoid attacks.",
@@ -6252,7 +6553,7 @@
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 227847,
           "source_spell_id": 50622,
           "effect_index": 1,
@@ -6269,7 +6570,7 @@
             50622
           ],
           "dependency_relations": [
-            "triggered_by_reverse"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -6299,7 +6600,7 @@
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 227847,
           "source_spell_id": 95738,
           "effect_index": 1,
@@ -6317,7 +6618,7 @@
             95738
           ],
           "dependency_relations": [
-            "triggered_by_reverse",
+            "tooltip_value_ref",
             "trigger_spell"
           ],
           "aura_rules": [
@@ -6390,11 +6691,13 @@
           90445
         ],
         "entry_id": 136702,
+        "entry_max_ranks": 1,
         "definition_id": 141474,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Ravager",
         "spell_id": 228920,
+        "visible_spell_id": null,
         "icon": "warrior_talent_icon_ravager"
       },
       "pve_tooltip": "40 yd range\nInstant\n1.5 min cooldown\n1 Charge\nThrows a whirling weapon at your target that chases nearby enemies, inflicting [6 * (179.276% of Attack Power)] Physical damage to all enemies over 12 sec. Deals reduced damage beyond 8 targets.\nEnemies damaged by Ravager take 50% additional damage from your Bleeds for 12 sec.",
@@ -6509,11 +6812,13 @@
           90439
         ],
         "entry_id": 112317,
+        "entry_max_ranks": 2,
         "definition_id": 117322,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Critical Thinking",
         "spell_id": 389306,
+        "visible_spell_id": null,
         "icon": "ability_criticalstrike"
       },
       "pve_tooltip": "Execute critical strike chance increased by 10% and Execute immediately refunds an additional 20% of the Rage spent.",
@@ -6531,6 +6836,7 @@
           "pve_tooltip": "Execute critical strike chance increased by 5% and Execute immediately refunds an additional 10% of the Rage spent.",
           "pvp_tooltip": "Execute critical strike chance increased by 5% and Execute immediately refunds an additional 10% of the Rage spent.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -6539,6 +6845,7 @@
           "pve_tooltip": "Execute critical strike chance increased by 10% and Execute immediately refunds an additional 20% of the Rage spent.",
           "pvp_tooltip": "Execute critical strike chance increased by 10% and Execute immediately refunds an additional 20% of the Rage spent.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6581,11 +6888,13 @@
           109679
         ],
         "entry_id": 114740,
+        "entry_max_ranks": 1,
         "definition_id": 119747,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Master Tactician",
         "spell_id": 1261057,
+        "visible_spell_id": null,
         "icon": "ability_warrior_revenge"
       },
       "pve_tooltip": "Tactician has a 5% increased chance to trigger.",
@@ -6638,11 +6947,13 @@
           109685
         ],
         "entry_id": 112310,
+        "entry_max_ranks": 1,
         "definition_id": 117315,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Bloodletting",
         "spell_id": 383154,
+        "visible_spell_id": null,
         "icon": "ability_skeer_bloodletting"
       },
       "pve_tooltip": "Your abilities have a 5% increased chance to critically strike targets affected by Rend.\nIf you know Rend, Mortal Strike inflicts Rend on targets below 35% health.\nDeep Wounds lasts 33% longer.",
@@ -6695,19 +7006,42 @@
           110176
         ],
         "entry_id": 112318,
+        "entry_max_ranks": 1,
         "definition_id": 117323,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Executioner's Precision",
         "spell_id": 386634,
+        "visible_spell_id": null,
         "icon": "ability_revendreth_warrior"
       },
       "pve_tooltip": "Execute increases the damage of your next Mortal Strike by 35%, stacking up to 2 times.\n(500ms cooldown)",
-      "pvp_tooltip": "Execute increases the damage of your next Mortal Strike by 35%, stacking up to 2 times.\n(500ms cooldown)",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Execute increases the damage of your next Mortal Strike by 10.5%, stacking up to 2 times.\n(500ms cooldown)",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 59,
+          "end": 61,
+          "old_token": "35",
+          "new_token": "10.5",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "35",
+          "new": "10.5"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -6736,7 +7070,7 @@
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 386634,
           "source_spell_id": 386633,
           "effect_index": 1,
@@ -6753,7 +7087,7 @@
             386633
           ],
           "dependency_relations": [
-            "triggered_by_reverse"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -6765,7 +7099,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -6805,11 +7139,13 @@
           110176
         ],
         "entry_id": 112311,
+        "entry_max_ranks": 1,
         "definition_id": 117316,
         "entry_index": 300,
         "entry_type": "passive",
         "talent_name": "Fatality",
         "spell_id": 383703,
+        "visible_spell_id": null,
         "icon": "achievement_bg_killingblow_berserker"
       },
       "pve_tooltip": "Mortal Strike has a 50% chance to apply a Fatal Mark to your target, stacking up to 5 times. Your next Execute on a target with a Fatal Mark causes the Fatal Mark to deal (276% of Attack Power) additional Physical damage per stack.",
@@ -6921,11 +7257,13 @@
         ],
         "next": [],
         "entry_id": 135933,
+        "entry_max_ranks": 1,
         "definition_id": 140688,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Battlelord",
         "spell_id": 386630,
+        "visible_spell_id": null,
         "icon": "ability_pvp_hardiness"
       },
       "pve_tooltip": "Overpower has a 35% chance to reset the cooldown of Mortal Strike and reduce the cost of your next Mortal Strike by 33%.\n(Proc chance: 35%, 500ms cooldown)",
@@ -6975,11 +7313,13 @@
         ],
         "next": [],
         "entry_id": 135941,
+        "entry_max_ranks": 1,
         "definition_id": 140696,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Mortal Wounds",
         "spell_id": 1261062,
+        "visible_spell_id": null,
         "icon": "ability_warrior_bloodbath"
       },
       "pve_tooltip": "Mortal Strike and Slam critical strikes inflict Deep Wounds at 100% effectiveness.\nDeep Wounds\nCauses the target to suffer (145.48% of Attack Power) Bleed damage over 6 sec. If this effect is reapplied, any remaining damage will be added to the new Deep Wounds.",
@@ -7070,11 +7410,13 @@
         ],
         "next": [],
         "entry_id": 136703,
+        "entry_max_ranks": 1,
         "definition_id": 141475,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Avatar",
         "spell_id": 107574,
+        "visible_spell_id": null,
         "icon": "warrior_talent_icon_avatar"
       },
       "pve_tooltip": "Instant\n1.5 min cooldown\nTransform into a colossus, increasing all damage you deal by 20% and reducing damage you take from area of effect attacks by 5% for 20 sec.",
@@ -7220,11 +7562,13 @@
         "prev": [],
         "next": [],
         "entry_id": 136989,
+        "entry_max_ranks": 1,
         "definition_id": 141752,
         "entry_index": 100,
         "entry_type": "tierrank",
         "talent_name": "Master of Warfare",
         "spell_id": 1269314,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_warrior_masterofwarfare"
       },
       "pve_tooltip": "Your single target melee abilities have a chance to upgrade Slam to Heroic Strike.\nAll modifiers and talents that affect Slam also affect Heroic Strike.\nHeroic Strike\n20 Rage\nMelee Range\nInstant\nPowerfully strike an opponent, causing (600% of Attack Power) Physical damage and gaining a stack of Master of Warfare, allowing your attacks to penetrate 3% armor for 30 sec. Multiple applications of this effect may overlap.\n(100ms cooldown)",
@@ -7271,15 +7615,17 @@
         "prev": [],
         "next": [],
         "entry_id": 136988,
+        "entry_max_ranks": 2,
         "definition_id": 141751,
         "entry_index": 200,
         "entry_type": "tierrank",
         "talent_name": "Master of Warfare",
         "spell_id": 1269306,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_warrior_masterofwarfare"
       },
-      "pve_tooltip": "Each stack of Master of Warfare increases Mortal Strike, Cleave, and Overpower damage by 2.5% and critical strike damage by 2.5%.",
-      "pvp_tooltip": "Each stack of Master of Warfare increases Mortal Strike, Cleave, and Overpower damage by 2.5% and critical strike damage by 2.5%.",
+      "pve_tooltip": "Each stack of Master of Warfare increases Mortal Strike, Cleave, and Overpower damage by 5% and critical strike damage by 5%.",
+      "pvp_tooltip": "Each stack of Master of Warfare increases Mortal Strike, Cleave, and Overpower damage by 5% and critical strike damage by 5%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -7287,7 +7633,26 @@
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Each stack of Master of Warfare increases Mortal Strike, Cleave, and Overpower damage by 2.5% and critical strike damage by 2.5%.",
+          "pvp_tooltip": "Each stack of Master of Warfare increases Mortal Strike, Cleave, and Overpower damage by 2.5% and critical strike damage by 2.5%.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Each stack of Master of Warfare increases Mortal Strike, Cleave, and Overpower damage by 5% and critical strike damage by 5%.",
+          "pvp_tooltip": "Each stack of Master of Warfare increases Mortal Strike, Cleave, and Overpower damage by 5% and critical strike damage by 5%.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Master of Warfare",
@@ -7322,11 +7687,13 @@
         "prev": [],
         "next": [],
         "entry_id": 136987,
+        "entry_max_ranks": 1,
         "definition_id": 141750,
         "entry_index": 300,
         "entry_type": "tierrank",
         "talent_name": "Master of Warfare",
         "spell_id": 1269307,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_warrior_masterofwarfare"
       },
       "pve_tooltip": "Heroic Strike increases the damage you deal to enemies affected by your next Colossus Smash by an additional 3.0%. Stacks up to 5 times.",
@@ -7378,11 +7745,13 @@
           109817
         ],
         "entry_id": 117411,
+        "entry_max_ranks": 1,
         "definition_id": 122423,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Slayer's Dominance",
         "spell_id": 444767,
+        "visible_spell_id": null,
         "icon": "inv_ability_slayerwarrior_slayersdominance"
       },
       "pve_tooltip": "Your attacks against your primary target have a 25% chance to overwhelm their defenses and trigger a Slayer's Strike, dealing (840.42% of Attack Power) Physical damage and granting you a stack of Executioner, increasing your Execute damage by 3% for 12 sec. Multiple stacks of Executioner may overlap.\n(500ms cooldown)",
@@ -7611,11 +7980,13 @@
           94813
         ],
         "entry_id": 117385,
+        "entry_max_ranks": 1,
         "definition_id": 122397,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Imminent Demise",
         "spell_id": 444769,
+        "visible_spell_id": null,
         "icon": "ability_warrior_improveddisciplines"
       },
       "pve_tooltip": "Every 3 Slayer's Strikes you gain Sudden Death.\nUsing Sudden Death accelerates your next Bladestorm, striking 1 additional time (max 3). Bladestorm's total duration is unchanged.\nSudden Death has a 100% chance to trigger Reap the Storm at 100% effectiveness.",
@@ -7666,11 +8037,13 @@
           94786
         ],
         "entry_id": 117407,
+        "entry_max_ranks": 1,
         "definition_id": 122419,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Overwhelming Blades",
         "spell_id": 444772,
+        "visible_spell_id": null,
         "icon": "inv_10_specialization_blacksmithing_blades_color1"
       },
       "pve_tooltip": "Each strike of Bladestorm applies Overwhelmed to all enemies affected, increasing damage you deal to them by 1% for 20 sec, max 5 stacks.",
@@ -7721,11 +8094,13 @@
           94787
         ],
         "entry_id": 117392,
+        "entry_max_ranks": 1,
         "definition_id": 122404,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Relentless Pursuit",
         "spell_id": 444776,
+        "visible_spell_id": null,
         "icon": "ability_rogue_sprint"
       },
       "pve_tooltip": "Charge increases your movement speed by 70% for 3 sec.\nCharge removes all movement impairing effects, this effect cannot occur more than once every 30 sec.",
@@ -7828,11 +8203,13 @@
           94787
         ],
         "entry_id": 123408,
+        "entry_max_ranks": 1,
         "definition_id": 128246,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Vicious Agility",
         "spell_id": 444777,
+        "visible_spell_id": null,
         "icon": "ability_paladin_speedoflight"
       },
       "pve_tooltip": "Heroic Leap reduces the cooldown of Charge by 5 sec and Charge reduces the cooldown of Heroic Leap by 2 sec.",
@@ -7883,11 +8260,13 @@
           109816
         ],
         "entry_id": 136076,
+        "entry_max_ranks": 1,
         "definition_id": 140831,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Violent Euphoria",
         "spell_id": 1270717,
+        "visible_spell_id": null,
         "icon": "ability_butcher_exsanguination"
       },
       "pve_tooltip": "Bladestorm puts you into a battle trance, granting you 15% haste for 8 sec after you stop Bladestorming.",
@@ -7938,11 +8317,13 @@
           94784
         ],
         "entry_id": 117410,
+        "entry_max_ranks": 1,
         "definition_id": 122422,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Death Drive",
         "spell_id": 444770,
+        "visible_spell_id": null,
         "icon": "ability_warrior_focusedrage"
       },
       "pve_tooltip": "You heal for 15% of damage dealt by Sudden Death.",
@@ -7993,11 +8374,13 @@
           94809
         ],
         "entry_id": 117383,
+        "entry_max_ranks": 1,
         "definition_id": 122395,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Culling Cyclone",
         "spell_id": 444778,
+        "visible_spell_id": null,
         "icon": "ability_warrior_bladestorm"
       },
       "pve_tooltip": "Each strike of Bladestorm deals an additional 20% damage evenly split across all targets.",
@@ -8048,11 +8431,13 @@
           94809
         ],
         "entry_id": 123409,
+        "entry_max_ranks": 1,
         "definition_id": 128247,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Brutal Finish",
         "spell_id": 446085,
+        "visible_spell_id": null,
         "icon": "ability_revendreth_warrior"
       },
       "pve_tooltip": "Your next Mortal Strike after Bladestorm ends deals 50% additional damage.",
@@ -8185,11 +8570,13 @@
           94801
         ],
         "entry_id": 117384,
+        "entry_max_ranks": 1,
         "definition_id": 122396,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fierce Followthrough",
         "spell_id": 444773,
+        "visible_spell_id": null,
         "icon": "spell_deathknight_butcher2"
       },
       "pve_tooltip": "Mortal Strike critical strikes increase the damage of your next Mortal Strike by 20%.",
@@ -8240,11 +8627,13 @@
           94801
         ],
         "entry_id": 123770,
+        "entry_max_ranks": 1,
         "definition_id": 128608,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Opportunist",
         "spell_id": 444774,
+        "visible_spell_id": null,
         "icon": "ability_warrior_weaponmastery"
       },
       "pve_tooltip": "When Overpower has its cooldown reset by Tactician, your next Overpower deals 20% additional damage and 20% additional critical damage. Stacking up to 2 times.",
@@ -8295,11 +8684,13 @@
           109815
         ],
         "entry_id": 136075,
+        "entry_max_ranks": 1,
         "definition_id": 140830,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Deadly Focus",
         "spell_id": 1270718,
+        "visible_spell_id": null,
         "icon": "spell_hunter_focusingshot"
       },
       "pve_tooltip": "Executioner's duration is increased by 6 sec.",
@@ -8350,11 +8741,13 @@
           94820
         ],
         "entry_id": 117381,
+        "entry_max_ranks": 1,
         "definition_id": 122393,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Show No Mercy",
         "spell_id": 444771,
+        "visible_spell_id": null,
         "icon": "warrior_talent_icon_lambstotheslaughter"
       },
       "pve_tooltip": "Executioner also increases your Execute critical strike chance and critical strike damage by 3% per stack.",
@@ -8578,11 +8971,13 @@
           94820
         ],
         "entry_id": 117406,
+        "entry_max_ranks": 1,
         "definition_id": 122418,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Reap the Storm",
         "spell_id": 444775,
+        "visible_spell_id": null,
         "icon": "ability_arakkoa_spinning_blade"
       },
       "pve_tooltip": "When Cleave hits 3 or more targets you have a 20% chance to unleash a flurry of steel, striking all nearby enemies for (771.909% of Attack Power) Physical damage and applying Overwhelmed. Deals reduced damage beyond 8 targets.",
@@ -8695,11 +9090,13 @@
           94820
         ],
         "entry_id": 117398,
+        "entry_max_ranks": 1,
         "definition_id": 122410,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Slayer's Malice",
         "spell_id": 444779,
+        "visible_spell_id": null,
         "icon": "ability_warrior_revenge"
       },
       "pve_tooltip": "Overpower and Execute damage increased by 15%.",
@@ -8750,11 +9147,13 @@
           94820
         ],
         "entry_id": 136074,
+        "entry_max_ranks": 1,
         "definition_id": 140829,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unhinged",
         "spell_id": 386628,
+        "visible_spell_id": null,
         "icon": "spell_shadow_spectralsight"
       },
       "pve_tooltip": "Every 2 strikes of Bladestorm, you automatically cast a Mortal Strike at your target or random nearby enemy, dealing 100% of normal damage.",
@@ -8853,11 +9252,13 @@
         ],
         "next": [],
         "entry_id": 117417,
+        "entry_max_ranks": 1,
         "definition_id": 122429,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unrelenting Onslaught",
         "spell_id": 444780,
+        "visible_spell_id": null,
         "icon": "ability_warrior_commandingshout"
       },
       "pve_tooltip": "Using Sudden Death causes you to both reduce the cooldown of Bladestorm by 5 sec and apply 1 stack of Overwhelmed to your primary target per stack of Executioner you have.\nYou can use Pummel and Storm Bolt while Bladestorming.\nBladestorm damage increased by 20%.",
@@ -8909,11 +9310,13 @@
           109814
         ],
         "entry_id": 117415,
+        "entry_max_ranks": 1,
         "definition_id": 122427,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Demolish",
         "spell_id": 436358,
+        "visible_spell_id": null,
         "icon": "inv_ability_colossuswarrior_demolish"
       },
       "pve_tooltip": "Melee Range\nChanneled (2 sec cast)\n30 sec cooldown\nUnleash a series of precise and powerful strikes against your target, dealing [(531.455% of Attack Power) + (531.455% of Attack Power) + (1232.36% of Attack Power)] damage to it, and (1232.36% of Attack Power) damage to enemies within 10 yds of it. Deals reduced damage beyond 8 targets.\nWhile channeling Demolish, you take 10% less damage and are immune to stuns, knockbacks, and forced movement effects.\nYou can block, parry, dodge, and use certain defensive abilities while channeling Demolish.",
@@ -9197,11 +9600,13 @@
           94799
         ],
         "entry_id": 117409,
+        "entry_max_ranks": 1,
         "definition_id": 122421,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Martial Expert",
         "spell_id": 429638,
+        "visible_spell_id": null,
         "icon": "ability_warrior_stalwartprotector"
       },
       "pve_tooltip": "Critical strike damage of your abilities is increased by 10% and the amount of damage blocked by your critical blocks is increased by 20%.",
@@ -9252,24 +9657,47 @@
           94811
         ],
         "entry_id": 117416,
+        "entry_max_ranks": 1,
         "definition_id": 122428,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Colossal Might",
         "spell_id": 429634,
+        "visible_spell_id": null,
         "icon": "ability_warrior_strengthofarms"
       },
       "pve_tooltip": "Colossal Might increases damage dealt by your next Demolish by 5%, stacking up to 5 times.\nMortal Strike grants a stack of Colossal Might and Cleave grants a stack of Colossal Might when it strikes 3 or more targets.",
-      "pvp_tooltip": "Colossal Might increases damage dealt by your next Demolish by 5%, stacking up to 5 times.\nMortal Strike grants a stack of Colossal Might and Cleave grants a stack of Colossal Might when it strikes 3 or more targets.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Colossal Might increases damage dealt by your next Demolish by 2.5%, stacking up to 5 times.\nMortal Strike grants a stack of Colossal Might and Cleave grants a stack of Colossal Might when it strikes 3 or more targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 63,
+          "end": 64,
+          "old_token": "5",
+          "new_token": "2.5",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "5",
+          "new": "2.5"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 429634,
           "source_spell_id": 440989,
           "effect_index": 1,
@@ -9286,7 +9714,7 @@
             440989
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -9298,7 +9726,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -9338,11 +9766,13 @@
           94815
         ],
         "entry_id": 117386,
+        "entry_max_ranks": 1,
         "definition_id": 122398,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Boneshaker",
         "spell_id": 429639,
+        "visible_spell_id": null,
         "icon": "ability_deathknight_brittlebones"
       },
       "pve_tooltip": "Shockwave's stun duration is increased by 1 sec and reduces the movement speed of affected enemies by 40% for 3 sec after the stun ends.",
@@ -9445,11 +9875,13 @@
           94815
         ],
         "entry_id": 119858,
+        "entry_max_ranks": 1,
         "definition_id": 124758,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Earthquaker",
         "spell_id": 440992,
+        "visible_spell_id": null,
         "icon": "spell_shaman_earthquake"
       },
       "pve_tooltip": "Shockwave also knocks enemies into the air and its cooldown is reduced by 5 sec.",
@@ -9500,11 +9932,13 @@
           109813
         ],
         "entry_id": 136073,
+        "entry_max_ranks": 1,
         "definition_id": 140828,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Decimator",
         "spell_id": 1270704,
+        "visible_spell_id": null,
         "icon": "inv_10_blacksmithing_craftedbar_bloodyalloy"
       },
       "pve_tooltip": "Demolish's final strike applies Deep Wounds to all targets at 100% effectiveness.",
@@ -9555,11 +9989,13 @@
           94796
         ],
         "entry_id": 117396,
+        "entry_max_ranks": 1,
         "definition_id": 122408,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "One Against Many",
         "spell_id": 429637,
+        "visible_spell_id": null,
         "icon": "ability_warrior_incite"
       },
       "pve_tooltip": "Shockwave, Cleave, and Whirlwind deal 5% more damage per target affected up to 5.",
@@ -9610,11 +10046,13 @@
           94796
         ],
         "entry_id": 119856,
+        "entry_max_ranks": 1,
         "definition_id": 124756,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Arterial Bleed",
         "spell_id": 440995,
+        "visible_spell_id": null,
         "icon": "ability_butcher_gushingwounds"
       },
       "pve_tooltip": "Colossal Might increases the damage of your Rend and Deep Wounds by 3% per stack.",
@@ -9696,11 +10134,13 @@
           94794
         ],
         "entry_id": 117408,
+        "entry_max_ranks": 1,
         "definition_id": 122420,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Tide of Battle",
         "spell_id": 429641,
+        "visible_spell_id": null,
         "icon": "ability_warrior_weaponmastery"
       },
       "pve_tooltip": "Colossal Might increases the damage of your Overpower and Execute by 3% per stack.",
@@ -9782,11 +10222,13 @@
           94806
         ],
         "entry_id": 117412,
+        "entry_max_ranks": 1,
         "definition_id": 122424,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "No Stranger to Pain",
         "spell_id": 429644,
+        "visible_spell_id": null,
         "icon": "ability_warrior_renewedvigor"
       },
       "pve_tooltip": "Damage prevented by each use of Ignore Pain is increased by 30%.",
@@ -9837,11 +10279,13 @@
           94806
         ],
         "entry_id": 119857,
+        "entry_max_ranks": 1,
         "definition_id": 124757,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Veteran Vitality",
         "spell_id": 440993,
+        "visible_spell_id": null,
         "icon": "ability_hunter_harass"
       },
       "pve_tooltip": "When your health is brought below 35%, you gain a Second Wind, healing you for 12% of your max health over 2 sec.\nThis effect cannot occur more than once every 60 sec.\n(1m cooldown)",
@@ -9892,11 +10336,13 @@
           109812
         ],
         "entry_id": 136072,
+        "entry_max_ranks": 1,
         "definition_id": 140827,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Cut to the Bone",
         "spell_id": 1270709,
+        "visible_spell_id": null,
         "icon": "ability_warrior_deepcuts"
       },
       "pve_tooltip": "Mortal Strike critical strikes increase your Rend and Deep Wounds damage by 15% for 8 sec.",
@@ -9947,11 +10393,13 @@
           94793
         ],
         "entry_id": 117393,
+        "entry_max_ranks": 1,
         "definition_id": 122405,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Practiced Strikes",
         "spell_id": 429647,
+        "visible_spell_id": null,
         "icon": "spell_warrior_sharpenblade"
       },
       "pve_tooltip": "Mortal Strike and Slam damage increased by 25%.\nCleave and Whirlwind damage increased by 15%.",
@@ -10074,11 +10522,13 @@
           94793
         ],
         "entry_id": 117391,
+        "entry_max_ranks": 1,
         "definition_id": 122403,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Precise Might",
         "spell_id": 431548,
+        "visible_spell_id": null,
         "icon": "spell_hunter_focusingshot"
       },
       "pve_tooltip": "Mortal Strike critical strikes grant an additional stack of Colossal Might.",
@@ -10160,11 +10610,13 @@
           94793
         ],
         "entry_id": 117403,
+        "entry_max_ranks": 1,
         "definition_id": 122415,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Mountain of Muscle and Scars",
         "spell_id": 429642,
+        "visible_spell_id": null,
         "icon": "ability_warrior_intensifyrage"
       },
       "pve_tooltip": "You deal 5% more damage and take 5% less damage.\nSize increased by 5%.",
@@ -10262,11 +10714,13 @@
           94793
         ],
         "entry_id": 136071,
+        "entry_max_ranks": 1,
         "definition_id": 140826,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Celeritous Conclusion",
         "spell_id": 1270710,
+        "visible_spell_id": null,
         "icon": "inv_1115_warrior_fasterreflexes"
       },
       "pve_tooltip": "Demolish's final strike grants 10% Haste for 10 sec and increases the critical strike chance of your next Mortal Strike by 100%.",
@@ -10370,11 +10824,13 @@
         ],
         "next": [],
         "entry_id": 117390,
+        "entry_max_ranks": 1,
         "definition_id": 122402,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Dominance of the Colossus",
         "spell_id": 429636,
+        "visible_spell_id": null,
         "icon": "ability_warrior_titansgrip"
       },
       "pve_tooltip": "Enemies affected by Demolish take up to 10% more damage from you and deal up to 20% less damage to you for 10 sec based on the number of stacks of Colossal Might consumed by Demolish.\nColossal Might stacks up to 10 times.",
@@ -10480,12 +10936,289 @@
     }
   ],
   "fetch_errors": [],
+  "serialization": {
+    "version": 2,
+    "spec_id": 71,
+    "node_order": [
+      90261,
+      90264,
+      90265,
+      90267,
+      90269,
+      90270,
+      90271,
+      90273,
+      90274,
+      90276,
+      90277,
+      90279,
+      90282,
+      90283,
+      90285,
+      90290,
+      90291,
+      90292,
+      90293,
+      90295,
+      90296,
+      90297,
+      90298,
+      90299,
+      90300,
+      90301,
+      90302,
+      90303,
+      90304,
+      90305,
+      90306,
+      90308,
+      90309,
+      90310,
+      90311,
+      90312,
+      90313,
+      90314,
+      90315,
+      90317,
+      90318,
+      90319,
+      90320,
+      90322,
+      90324,
+      90325,
+      90326,
+      90327,
+      90328,
+      90329,
+      90330,
+      90331,
+      90332,
+      90337,
+      90343,
+      90344,
+      90346,
+      90347,
+      90348,
+      90351,
+      90352,
+      90353,
+      90355,
+      90360,
+      90366,
+      90368,
+      90371,
+      90373,
+      90374,
+      90375,
+      90378,
+      90380,
+      90381,
+      90382,
+      90385,
+      90387,
+      90388,
+      90390,
+      90391,
+      90392,
+      90394,
+      90395,
+      90396,
+      90397,
+      90398,
+      90399,
+      90401,
+      90402,
+      90403,
+      90405,
+      90406,
+      90407,
+      90408,
+      90410,
+      90412,
+      90415,
+      90421,
+      90425,
+      90427,
+      90428,
+      90429,
+      90430,
+      90432,
+      90433,
+      90434,
+      90435,
+      90438,
+      90439,
+      90441,
+      90444,
+      90445,
+      90447,
+      90448,
+      90449,
+      90450,
+      90451,
+      92536,
+      92537,
+      92538,
+      92614,
+      92615,
+      94784,
+      94785,
+      94786,
+      94787,
+      94788,
+      94789,
+      94792,
+      94793,
+      94794,
+      94795,
+      94796,
+      94797,
+      94798,
+      94799,
+      94800,
+      94801,
+      94803,
+      94805,
+      94806,
+      94807,
+      94808,
+      94809,
+      94810,
+      94811,
+      94812,
+      94813,
+      94814,
+      94815,
+      94816,
+      94817,
+      94818,
+      94819,
+      94820,
+      95956,
+      95959,
+      99851,
+      99852,
+      99853,
+      107575,
+      107576,
+      107577,
+      107578,
+      107579,
+      108542,
+      108543,
+      108544,
+      108674,
+      108676,
+      108685,
+      108686,
+      108705,
+      109391,
+      109679,
+      109680,
+      109681,
+      109682,
+      109683,
+      109684,
+      109685,
+      109686,
+      109687,
+      109809,
+      109810,
+      109811,
+      109812,
+      109813,
+      109814,
+      109815,
+      109816,
+      109817,
+      109962,
+      109963,
+      109964,
+      109965,
+      109966,
+      109967,
+      109968,
+      109969,
+      110118,
+      110119,
+      110176,
+      110203,
+      110330,
+      110407,
+      110411,
+      110412,
+      110653,
+      110654
+    ],
+    "subtree_nodes": [
+      {
+        "id": 99853,
+        "name": "Colossus / Slayer",
+        "type": "subtree",
+        "posX": 6900,
+        "posY": 600,
+        "entryNode": true,
+        "next": [],
+        "prev": [],
+        "entries": [
+          {
+            "id": 123393,
+            "type": "subtree",
+            "name": "Colossus",
+            "traitSubTreeId": 62,
+            "traitTreeId": 850,
+            "atlasMemberName": "talents-heroclass-warrior-colossus",
+            "nodes": [
+              94818,
+              94812,
+              94819,
+              94789,
+              109814,
+              94799,
+              94811,
+              94815,
+              109813,
+              94796,
+              94794,
+              94806,
+              109812,
+              94793
+            ]
+          },
+          {
+            "id": 123390,
+            "type": "subtree",
+            "name": "Slayer",
+            "traitSubTreeId": 60,
+            "traitTreeId": 850,
+            "atlasMemberName": "talents-heroclass-warrior-slayer",
+            "nodes": [
+              94814,
+              94788,
+              94810,
+              94795,
+              109817,
+              94813,
+              94786,
+              94787,
+              109816,
+              94784,
+              94809,
+              94801,
+              109815,
+              94820
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "source_warnings": [],
   "slug": "warrior-arms",
-  "generated_at": "2026-09-21T12:54:21.399185+00:00",
+  "generated_at": "2026-09-21T19:43:04.719647+00:00",
   "validation": {
     "talents": 122,
-    "changed_tooltips": 34,
+    "changed_tooltips": 39,
     "talents_with_pvp_mechanics": 47,
     "unique_nodes": 104,
     "tree_build": "12.1.0.69875",

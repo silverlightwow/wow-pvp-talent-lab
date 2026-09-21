@@ -43,11 +43,13 @@ window.WOW_PVP_DATA = {
           90764
         ],
         "entry_id": 112630,
+        "entry_max_ranks": 1,
         "definition_id": 117635,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Shiv",
         "spell_id": 5938,
+        "visible_spell_id": null,
         "icon": "inv_throwingknife_04"
       },
       "pve_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [Improved Shiv: poisoned blades / off-hand], dealing (125.4% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your active Non-Lethal poison.\nAwards 1 combo points.",
@@ -295,7 +297,7 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [
             "tooltip_value_ref",
             "spelldesc_ref",
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -347,11 +349,13 @@ window.WOW_PVP_DATA = {
           90695
         ],
         "entry_id": 112572,
+        "entry_max_ranks": 1,
         "definition_id": 117577,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Blind",
         "spell_id": 2094,
+        "visible_spell_id": null,
         "icon": "spell_shadow_mindsteal"
       },
       "pve_tooltip": "15 yd range\nInstant\n2 min cooldown\nBlinds the target, causing it to wander disoriented for 1 min. Damage may interrupt the effect. Limit 1.",
@@ -401,11 +405,13 @@ window.WOW_PVP_DATA = {
           110324
         ],
         "entry_id": 112585,
+        "entry_max_ranks": 1,
         "definition_id": 117590,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Cloak of Shadows",
         "spell_id": 31224,
+        "visible_spell_id": null,
         "icon": "spell_shadow_nethercloak"
       },
       "pve_tooltip": "Instant\n2 min cooldown\nProvides a moment of magic immunity, instantly removing all harmful spell effects. The cloak lingers, causing you to resist harmful spells for 5 sec.",
@@ -456,11 +462,13 @@ window.WOW_PVP_DATA = {
           90636
         ],
         "entry_id": 136883,
+        "entry_max_ranks": 1,
         "definition_id": 141646,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Toxic Stiletto",
         "spell_id": 1267182,
+        "visible_spell_id": null,
         "icon": "ability_rogue_poisonedknife"
       },
       "pve_tooltip": "Shiv's Energy cost is reduced by 20, its cooldown is reduced by 15 sec, and its range is increased by 3 yds.",
@@ -513,11 +521,13 @@ window.WOW_PVP_DATA = {
           90742
         ],
         "entry_id": 112657,
+        "entry_max_ranks": 1,
         "definition_id": 117662,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fleet Footed",
         "spell_id": 378813,
+        "visible_spell_id": null,
         "icon": "ability_rogue_quickrecovery"
       },
       "pve_tooltip": "Movement speed increased by 15%.",
@@ -568,11 +578,13 @@ window.WOW_PVP_DATA = {
           90742
         ],
         "entry_id": 112631,
+        "entry_max_ranks": 1,
         "definition_id": 117636,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Gouge",
         "spell_id": 1776,
+        "visible_spell_id": null,
         "icon": "ability_gouge"
       },
       "pve_tooltip": "25 Energy\nMelee Range\nInstant\n25 sec cooldown\nGouges the eyes of an enemy target, incapacitating for 4 sec. Damage may interrupt the effect.\nMust be in front of your target.\nAwards 1 combo points.",
@@ -623,11 +635,13 @@ window.WOW_PVP_DATA = {
           90742
         ],
         "entry_id": 117740,
+        "entry_max_ranks": 1,
         "definition_id": 122752,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Airborne Irritant",
         "spell_id": 200733,
+        "visible_spell_id": null,
         "icon": "ability_rogue_bloodyeye"
       },
       "pve_tooltip": "Blind has 50% reduced cooldown, 70% reduced duration, and applies to all nearby enemies.",
@@ -727,11 +741,13 @@ window.WOW_PVP_DATA = {
           90686
         ],
         "entry_id": 112583,
+        "entry_max_ranks": 1,
         "definition_id": 117588,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Thrill Seeking",
         "spell_id": 394931,
+        "visible_spell_id": null,
         "icon": "inv_ragnaros_heart_shadowflame"
       },
       "pve_tooltip": "Shadowstep has 1 additional charge.",
@@ -782,11 +798,13 @@ window.WOW_PVP_DATA = {
           90686
         ],
         "entry_id": 136882,
+        "entry_max_ranks": 1,
         "definition_id": 141645,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shadowrunner",
         "spell_id": 378807,
+        "visible_spell_id": null,
         "icon": "ability_stealth"
       },
       "pve_tooltip": "While Stealth or Shadow Dance is active, you move 20% faster.",
@@ -839,11 +857,13 @@ window.WOW_PVP_DATA = {
           90745
         ],
         "entry_id": 112521,
+        "entry_max_ranks": 1,
         "definition_id": 117526,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Master Poisoner",
         "spell_id": 378436,
+        "visible_spell_id": null,
         "icon": "ability_creature_poison_06"
       },
       "pve_tooltip": "Increases the non-damaging effects of your weapon poisons by 20%.",
@@ -875,7 +895,7 @@ window.WOW_PVP_DATA = {
           ],
           "dependency_relations": [
             "trigger_spell",
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -937,11 +957,13 @@ window.WOW_PVP_DATA = {
           110323
         ],
         "entry_id": 112632,
+        "entry_max_ranks": 1,
         "definition_id": 117637,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Elusiveness",
         "spell_id": 79008,
+        "visible_spell_id": null,
         "icon": "ability_rogue_turnthetables"
       },
       "pve_tooltip": "Evasion also reduces damage taken by 20%, and Feint also reduces non-area-of-effect damage taken by 20%.",
@@ -994,11 +1016,13 @@ window.WOW_PVP_DATA = {
           110323
         ],
         "entry_id": 114737,
+        "entry_max_ranks": 1,
         "definition_id": 119744,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Cheat Death",
         "spell_id": 31230,
+        "visible_spell_id": null,
         "icon": "ability_rogue_cheatdeath"
       },
       "pve_tooltip": "Fatal attacks instead reduce you to 7% of your maximum health. For 3 sec afterward, you take 85% reduced damage. Cannot trigger more often than once per 6 min.",
@@ -1051,11 +1075,13 @@ window.WOW_PVP_DATA = {
           90687
         ],
         "entry_id": 112574,
+        "entry_max_ranks": 1,
         "definition_id": 117579,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Tricks of the Trade",
         "spell_id": 57934,
+        "visible_spell_id": null,
         "icon": "ability_rogue_tricksofthetrade"
       },
       "pve_tooltip": "100 yd range\nInstant\n30 sec cooldown\n[Thick as Thieves: Increases the target's damage by 15%, and redirects / Redirects] all threat you cause to the targeted party or raid member, beginning with your next damaging attack within the next 30 sec and lasting 6 sec.\n(100ms cooldown)",
@@ -1108,11 +1134,13 @@ window.WOW_PVP_DATA = {
           90687
         ],
         "entry_id": 117143,
+        "entry_max_ranks": 1,
         "definition_id": 122155,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Blackjack",
         "spell_id": 379005,
+        "visible_spell_id": null,
         "icon": "ability_rogue_blackjack"
       },
       "pve_tooltip": "Enemies have 30% reduced damage and healing for 6 sec after Blind or Sap's effect on them ends.",
@@ -1164,11 +1192,13 @@ window.WOW_PVP_DATA = {
           90762
         ],
         "entry_id": 112522,
+        "entry_max_ranks": 1,
         "definition_id": 117527,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Wound Poison",
         "spell_id": 319066,
+        "visible_spell_id": null,
         "icon": "inv_misc_herb_16"
       },
       "pve_tooltip": "Wound Poison can now stack 2 additional times.",
@@ -1221,11 +1251,13 @@ window.WOW_PVP_DATA = {
           90747
         ],
         "entry_id": 112635,
+        "entry_max_ranks": 1,
         "definition_id": 117640,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Nimble Fingers",
         "spell_id": 378427,
+        "visible_spell_id": null,
         "icon": "ability_rogue_crimsonvial"
       },
       "pve_tooltip": "Energy cost of Feint and Crimson Vial reduced by 10.",
@@ -1276,11 +1308,13 @@ window.WOW_PVP_DATA = {
           90747
         ],
         "entry_id": 136881,
+        "entry_max_ranks": 1,
         "definition_id": 141644,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Deadened Nerves",
         "spell_id": 231719,
+        "visible_spell_id": null,
         "icon": "ability_rogue_nervesofsteel"
       },
       "pve_tooltip": "Physical damage taken reduced by 5%.",
@@ -1333,11 +1367,13 @@ window.WOW_PVP_DATA = {
           90754
         ],
         "entry_id": 112636,
+        "entry_max_ranks": 1,
         "definition_id": 117641,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Quick Fingers",
         "spell_id": 1267210,
+        "visible_spell_id": null,
         "icon": "ability_rogue_improvedrecuperate"
       },
       "pve_tooltip": "Increases your Agility by 3%.",
@@ -1389,11 +1425,13 @@ window.WOW_PVP_DATA = {
           101714
         ],
         "entry_id": 112575,
+        "entry_max_ranks": 1,
         "definition_id": 117580,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Sprint",
         "spell_id": 231691,
+        "visible_spell_id": null,
         "icon": "ability_rogue_sprint"
       },
       "pve_tooltip": "Reduces the cooldown of Sprint by 60 sec.",
@@ -1444,11 +1482,13 @@ window.WOW_PVP_DATA = {
           90763
         ],
         "entry_id": 117151,
+        "entry_max_ranks": 1,
         "definition_id": 122163,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Superior Mixture",
         "spell_id": 423701,
+        "visible_spell_id": null,
         "icon": "inv_misc_potionsete"
       },
       "pve_tooltip": "Crippling Poison reduces movement speed by an additional 10%.",
@@ -1548,11 +1588,13 @@ window.WOW_PVP_DATA = {
           90743
         ],
         "entry_id": 112654,
+        "entry_max_ranks": 1,
         "definition_id": 117659,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Evasion",
         "spell_id": 5277,
+        "visible_spell_id": null,
         "icon": "spell_shadow_shadowward"
       },
       "pve_tooltip": "Instant\n2 min cooldown\nIncreases your dodge chance by 100% for 10 sec.",
@@ -1603,11 +1645,13 @@ window.WOW_PVP_DATA = {
           90743
         ],
         "entry_id": 112634,
+        "entry_max_ranks": 1,
         "definition_id": 117639,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Iron Stomach",
         "spell_id": 193546,
+        "visible_spell_id": null,
         "icon": "inv_misc_organ_11"
       },
       "pve_tooltip": "Increases the healing you receive from Crimson Vial, healing potions, and healthstones by 25%.",
@@ -1662,11 +1706,13 @@ window.WOW_PVP_DATA = {
           94562
         ],
         "entry_id": 112638,
+        "entry_max_ranks": 1,
         "definition_id": 117643,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Virulent Poisons",
         "spell_id": 381543,
+        "visible_spell_id": null,
         "icon": "ability_creature_poison_06"
       },
       "pve_tooltip": "Increases the damage of your weapon poisons by 10%.",
@@ -1717,11 +1763,13 @@ window.WOW_PVP_DATA = {
           94562
         ],
         "entry_id": 117146,
+        "entry_max_ranks": 1,
         "definition_id": 122158,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Stillshroud",
         "spell_id": 423662,
+        "visible_spell_id": null,
         "icon": "ability_rogue_shroudofconcealment"
       },
       "pve_tooltip": "Shroud of Concealment has 50% reduced cooldown.",
@@ -1774,11 +1822,13 @@ window.WOW_PVP_DATA = {
           94561
         ],
         "entry_id": 112646,
+        "entry_max_ranks": 1,
         "definition_id": 117651,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Graceful Guile",
         "spell_id": 423647,
+        "visible_spell_id": null,
         "icon": "ability_rogue_ghostpirate"
       },
       "pve_tooltip": "Feint has 1 additional charge.",
@@ -1829,11 +1879,13 @@ window.WOW_PVP_DATA = {
           94561
         ],
         "entry_id": 125615,
+        "entry_max_ranks": 1,
         "definition_id": 130447,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Featherfoot",
         "spell_id": 423683,
+        "visible_spell_id": null,
         "icon": "spell_magic_featherfall"
       },
       "pve_tooltip": "Sprint increases movement speed by an additional 30% and has 4 sec increased duration.",
@@ -1885,11 +1937,13 @@ window.WOW_PVP_DATA = {
           90760
         ],
         "entry_id": 112656,
+        "entry_max_ranks": 1,
         "definition_id": 117661,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Numbing Poison",
         "spell_id": 5761,
+        "visible_spell_id": null,
         "icon": "spell_nature_nullifydisease"
       },
       "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, clouding their mind and slowing their attack and casting speed by 15 / Master Poisoner: 18 / Master Poisoner: 18% for 10 sec.\n(Proc chance: 30%)",
@@ -1897,12 +1951,23 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "percent_value",
+          "old": 15.0,
+          "new": 7.999994999999999,
+          "full_tooltip_match_count": 0
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 5761,
           "source_spell_id": 5760,
           "effect_index": 1,
@@ -1919,7 +1984,7 @@ window.WOW_PVP_DATA = {
             5760
           ],
           "dependency_relations": [
-            "triggered_by_reverse"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -1932,7 +1997,7 @@ window.WOW_PVP_DATA = {
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 5761,
           "source_spell_id": 5760,
           "effect_index": 2,
@@ -1949,7 +2014,7 @@ window.WOW_PVP_DATA = {
             5760
           ],
           "dependency_relations": [
-            "triggered_by_reverse"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -1961,7 +2026,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -2002,11 +2067,13 @@ window.WOW_PVP_DATA = {
           90760
         ],
         "entry_id": 112655,
+        "entry_max_ranks": 1,
         "definition_id": 117660,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Atrophic Poison",
         "spell_id": 381637,
+        "visible_spell_id": null,
         "icon": "ability_rogue_nervesofsteel"
       },
       "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, reducing their damage by ( - 4 *- 1)% for 1 min.\n(Proc chance: 30%)",
@@ -2060,11 +2127,13 @@ window.WOW_PVP_DATA = {
           90752
         ],
         "entry_id": 112633,
+        "entry_max_ranks": 1,
         "definition_id": 117638,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Deadly Precision",
         "spell_id": 381542,
+        "visible_spell_id": null,
         "icon": "ability_rogue_deadenednerves"
       },
       "pve_tooltip": "Increases the critical strike chance of your attacks that generate combo points by 5%.",
@@ -2115,11 +2184,13 @@ window.WOW_PVP_DATA = {
           90752
         ],
         "entry_id": 137380,
+        "entry_max_ranks": 1,
         "definition_id": 142140,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sanguine Vial",
         "spell_id": 1293135,
+        "visible_spell_id": null,
         "icon": "inv_misc_potiona5"
       },
       "pve_tooltip": "When you deal the killing blow to a target that yields experience or honor, the cooldown of Crimson Vial is reduced by 15 sec and your next use heals 5% of your health instantly.",
@@ -2173,11 +2244,13 @@ window.WOW_PVP_DATA = {
           90692
         ],
         "entry_id": 117145,
+        "entry_max_ranks": 1,
         "definition_id": 122157,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Deep Cuts",
         "spell_id": 1267216,
+        "visible_spell_id": null,
         "icon": "inv_1115_firstkilloftheday_firstkilloftheday"
       },
       "pve_tooltip": "Your finishing moves deal 6% increased damage.",
@@ -2229,11 +2302,13 @@ window.WOW_PVP_DATA = {
           90692
         ],
         "entry_id": 117144,
+        "entry_max_ranks": 1,
         "definition_id": 122156,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unbreakable Stride",
         "spell_id": 400804,
+        "visible_spell_id": null,
         "icon": "ability_rogue_trip"
       },
       "pve_tooltip": "Reduces the duration of movement slowing effects 30%.",
@@ -2286,11 +2361,13 @@ window.WOW_PVP_DATA = {
           90749
         ],
         "entry_id": 112652,
+        "entry_max_ranks": 1,
         "definition_id": 117657,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Danger Sense",
         "spell_id": 1267220,
+        "visible_spell_id": null,
         "icon": "ability_rogue_wrongfullyaccused"
       },
       "pve_tooltip": "You have a 20% chance to partially evade any damage dealt to you, reducing the damage it deals by 20%.",
@@ -2345,11 +2422,13 @@ window.WOW_PVP_DATA = {
           90751
         ],
         "entry_id": 112644,
+        "entry_max_ranks": 1,
         "definition_id": 117649,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Swift Slasher",
         "spell_id": 381988,
+        "visible_spell_id": null,
         "icon": "ability_rogue_slicedice"
       },
       "pve_tooltip": "Slice and Dice grants additional attack speed equal to 100% of your Haste.",
@@ -2402,11 +2481,13 @@ window.WOW_PVP_DATA = {
           90691
         ],
         "entry_id": 112580,
+        "entry_max_ranks": 1,
         "definition_id": 117585,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Ambush",
         "spell_id": 381620,
+        "visible_spell_id": null,
         "icon": "ability_rogue_ambush"
       },
       "pve_tooltip": "[Shadowstrike: Shadowstrike damage increased by 8% / Ambush generates 1 additional combo point].",
@@ -2459,11 +2540,13 @@ window.WOW_PVP_DATA = {
           90691
         ],
         "entry_id": 117152,
+        "entry_max_ranks": 1,
         "definition_id": 122164,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Tight Spender",
         "spell_id": 381621,
+        "visible_spell_id": null,
         "icon": "inv_misc_coin_03"
       },
       "pve_tooltip": "Energy cost of finishing moves reduced by 6%.",
@@ -2514,11 +2597,13 @@ window.WOW_PVP_DATA = {
           90759
         ],
         "entry_id": 112650,
+        "entry_max_ranks": 1,
         "definition_id": 117655,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Leeching Poison",
         "spell_id": 280716,
+        "visible_spell_id": null,
         "icon": "rogue_leeching_poison"
       },
       "pve_tooltip": "Adds a Leeching effect to your Lethal poisons, granting you 3.0% Leech.",
@@ -2570,11 +2655,13 @@ window.WOW_PVP_DATA = {
           90748
         ],
         "entry_id": 112640,
+        "entry_max_ranks": 2,
         "definition_id": 117645,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lethality",
         "spell_id": 382238,
+        "visible_spell_id": null,
         "icon": "ability_criticalstrike"
       },
       "pve_tooltip": "Critical strike chance increased by 2%. Critical strike damage bonus of your attacks that generate combo points increased by 20%.",
@@ -2592,6 +2679,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Critical strike chance increased by 1%. Critical strike damage bonus of your attacks that generate combo points increased by 10%.",
           "pvp_tooltip": "Critical strike chance increased by 1%. Critical strike damage bonus of your attacks that generate combo points increased by 10%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2600,6 +2688,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Critical strike chance increased by 2%. Critical strike damage bonus of your attacks that generate combo points increased by 20%.",
           "pvp_tooltip": "Critical strike chance increased by 2%. Critical strike damage bonus of your attacks that generate combo points increased by 20%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2642,11 +2731,13 @@ window.WOW_PVP_DATA = {
           90639
         ],
         "entry_id": 112526,
+        "entry_max_ranks": 1,
         "definition_id": 117531,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Recuperator",
         "spell_id": 378996,
+        "visible_spell_id": null,
         "icon": "inv_gizmo_runichealthinjector"
       },
       "pve_tooltip": "Slice and Dice heals you for up to 1% of your maximum health per 3 sec.",
@@ -2698,11 +2789,13 @@ window.WOW_PVP_DATA = {
           90750
         ],
         "entry_id": 112643,
+        "entry_max_ranks": 2,
         "definition_id": 117648,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Alacrity",
         "spell_id": 193539,
+        "visible_spell_id": null,
         "icon": "ability_paladin_speedoflight"
       },
       "pve_tooltip": "Haste increased by 3%.",
@@ -2720,6 +2813,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Haste increased by 1.5%.",
           "pvp_tooltip": "Haste increased by 1.5%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2728,6 +2822,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Haste increased by 3%.",
           "pvp_tooltip": "Haste increased by 3%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2770,11 +2865,13 @@ window.WOW_PVP_DATA = {
           90688
         ],
         "entry_id": 112579,
+        "entry_max_ranks": 1,
         "definition_id": 117584,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Soothing Darkness",
         "spell_id": 393970,
+        "visible_spell_id": null,
         "icon": "spell_shadow_twilight"
       },
       "pve_tooltip": "You are healed for 30% of your maximum health over 6 sec after activating Vanish.",
@@ -2867,11 +2964,13 @@ window.WOW_PVP_DATA = {
           90756
         ],
         "entry_id": 112651,
+        "entry_max_ranks": 2,
         "definition_id": 117656,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Vigor",
         "spell_id": 14983,
+        "visible_spell_id": null,
         "icon": "ability_rogue_vigor"
       },
       "pve_tooltip": "Increases your maximum Energy by 100 and Energy regeneration by 10%.",
@@ -2889,6 +2988,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Increases your maximum Energy by 50 and Energy regeneration by 5%.",
           "pvp_tooltip": "Increases your maximum Energy by 50 and Energy regeneration by 5%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2897,6 +2997,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Increases your maximum Energy by 100 and Energy regeneration by 10%.",
           "pvp_tooltip": "Increases your maximum Energy by 100 and Energy regeneration by 10%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2939,11 +3040,13 @@ window.WOW_PVP_DATA = {
           90638
         ],
         "entry_id": 112525,
+        "entry_max_ranks": 2,
         "definition_id": 117530,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Supercharger",
         "spell_id": 470347,
+        "visible_spell_id": null,
         "icon": "inv_engineering_90_electrifiedether"
       },
       "pve_tooltip": "Shadow Dance supercharges 2 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
@@ -2961,6 +3064,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Shadow Dance supercharges 1 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
           "pvp_tooltip": "Shadow Dance supercharges 1 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2969,6 +3073,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Shadow Dance supercharges 2 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
           "pvp_tooltip": "Shadow Dance supercharges 2 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -3011,11 +3116,13 @@ window.WOW_PVP_DATA = {
           101713
         ],
         "entry_id": 112576,
+        "entry_max_ranks": 2,
         "definition_id": 117581,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Subterfuge",
         "spell_id": 108208,
+        "visible_spell_id": null,
         "icon": "rogue_subterfuge"
       },
       "pve_tooltip": "Abilities requiring Stealth can be used for 4 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 4 sec after Stealth breaks.",
@@ -3033,6 +3140,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Abilities requiring Stealth can be used for 2 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 2 sec after Stealth breaks.",
           "pvp_tooltip": "Abilities requiring Stealth can be used for 2 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 2 sec after Stealth breaks.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -3041,6 +3149,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Abilities requiring Stealth can be used for 4 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 4 sec after Stealth breaks.",
           "pvp_tooltip": "Abilities requiring Stealth can be used for 4 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 4 sec after Stealth breaks.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -3081,11 +3190,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 112648,
+        "entry_max_ranks": 1,
         "definition_id": 117653,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Thistle Tea",
         "spell_id": 469779,
+        "visible_spell_id": 381623,
         "icon": "inv_drink_milk_05"
       },
       "pve_tooltip": "Restore 100 Energy.\nWhen your Energy is reduced below 30, drink a Thistle Tea.",
@@ -3134,11 +3245,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 137464,
+        "entry_max_ranks": 1,
         "definition_id": 142224,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Thistle Tea",
         "spell_id": 1298826,
+        "visible_spell_id": null,
         "icon": "inv_drink_milk_05"
       },
       "pve_tooltip": "Instant\n1 min recharge\n3 Charges\nRestore 100 Energy.",
@@ -3187,11 +3300,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 112639,
+        "entry_max_ranks": 1,
         "definition_id": 117644,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Cold Blooded Killer",
         "spell_id": 382245,
+        "visible_spell_id": null,
         "icon": "spell_ice_lament"
       },
       "pve_tooltip": "Critically striking with an attack that generates combo points increases the critical strike chance of your next finishing move by 10%.\n(100ms cooldown)",
@@ -3240,11 +3355,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 112524,
+        "entry_max_ranks": 1,
         "definition_id": 117529,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Echoing Reprimand",
         "spell_id": 470669,
+        "visible_spell_id": null,
         "icon": "inv_ability_rogue_echoingreprimand"
       },
       "pve_tooltip": "After consuming a supercharged combo point, your next Backstab also strikes the target with an Echoing Reprimand dealing (118% of Attack Power) Physical damage.",
@@ -3353,11 +3470,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 112523,
+        "entry_max_ranks": 1,
         "definition_id": 117528,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Forced Induction",
         "spell_id": 470668,
+        "visible_spell_id": null,
         "icon": "inv_misc_enggizmos_06"
       },
       "pve_tooltip": "Increase the bonus granted when a damaging finishing move consumes a supercharged combo point by 1.",
@@ -3406,11 +3525,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 112642,
+        "entry_max_ranks": 1,
         "definition_id": 117647,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Deeper Stratagem",
         "spell_id": 193531,
+        "visible_spell_id": null,
         "icon": "archaeology_5_0_changkiboard"
       },
       "pve_tooltip": "Gain 1 additional max combo point.\nYour finishing moves that consume more than 5 combo points have increased effects, and your finishing moves deal 5% increased damage.",
@@ -3459,11 +3580,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 125614,
+        "entry_max_ranks": 1,
         "definition_id": 130446,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Without a Trace",
         "spell_id": 382513,
+        "visible_spell_id": null,
         "icon": "ability_vanish"
       },
       "pve_tooltip": "Vanish has 1 additional charge.",
@@ -3514,11 +3637,13 @@ window.WOW_PVP_DATA = {
           90710
         ],
         "entry_id": 112578,
+        "entry_max_ranks": 1,
         "definition_id": 117583,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Find Weakness",
         "spell_id": 91023,
+        "visible_spell_id": null,
         "icon": "ability_rogue_findweakness"
       },
       "pve_tooltip": "Your Stealth abilities allow you to see the flaws in enemies' defenses, causing your attacks to ignore 30% armor for 10 sec.",
@@ -3569,11 +3694,13 @@ window.WOW_PVP_DATA = {
           90700
         ],
         "entry_id": 112629,
+        "entry_max_ranks": 1,
         "definition_id": 117634,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Backstab",
         "spell_id": 319949,
+        "visible_spell_id": null,
         "icon": "ability_backstab"
       },
       "pve_tooltip": "[Gloomblade / Backstab] has 15% increased critical strike chance.\nWhile behind your target, Backstab critical strikes grant Find Weakness for 10 sec.",
@@ -3624,11 +3751,13 @@ window.WOW_PVP_DATA = {
           90728
         ],
         "entry_id": 112614,
+        "entry_max_ranks": 1,
         "definition_id": 117619,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Shadow Blades",
         "spell_id": 121471,
+        "visible_spell_id": null,
         "icon": "inv_knife_1h_grimbatolraid_d_03"
       },
       "pve_tooltip": "Instant\n1.5 min cooldown\nDraws upon surrounding shadows to empower your weapons, causing your attacks to deal 20% additional damage as Shadow and causing your combo point generating abilities to generate double combo points for 16 sec.",
@@ -3726,12 +3855,14 @@ window.WOW_PVP_DATA = {
           94582
         ],
         "entry_id": 112598,
+        "entry_max_ranks": 1,
         "definition_id": 117603,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Shuriken Storm",
         "spell_id": 319951,
-        "icon": "ability_rogue_shuriken_storm"
+        "visible_spell_id": null,
+        "icon": "ability_rogue_shuriken-storm"
       },
       "pve_tooltip": "Shuriken Storm has 15% increased critical strike chance.\nShuriken Storm critical strikes grant Find Weakness for 10 sec.",
       "pvp_tooltip": "Shuriken Storm has 15% increased critical strike chance.\nShuriken Storm critical strikes grant Find Weakness for 10 sec.",
@@ -3782,11 +3913,13 @@ window.WOW_PVP_DATA = {
           90701
         ],
         "entry_id": 112588,
+        "entry_max_ranks": 1,
         "definition_id": 117593,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Premeditation",
         "spell_id": 343160,
+        "visible_spell_id": null,
         "icon": "spell_shadow_possession"
       },
       "pve_tooltip": "After entering Stealth, your next combo point generating ability generates full combo points.",
@@ -3838,11 +3971,13 @@ window.WOW_PVP_DATA = {
           90733
         ],
         "entry_id": 112616,
+        "entry_max_ranks": 1,
         "definition_id": 117621,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Quick Decisions",
         "spell_id": 382503,
+        "visible_spell_id": null,
         "icon": "inv_misc_hook_01"
       },
       "pve_tooltip": "Shadowstep's cooldown is reduced by 20%, and its maximum range is increased by 20%.",
@@ -3894,11 +4029,13 @@ window.WOW_PVP_DATA = {
           90733
         ],
         "entry_id": 136808,
+        "entry_max_ranks": 1,
         "definition_id": 141571,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Ephemeral Bond",
         "spell_id": 426563,
+        "visible_spell_id": null,
         "icon": "ability_warlock_soullink"
       },
       "pve_tooltip": "Increases healing received by 8%.",
@@ -3950,12 +4087,14 @@ window.WOW_PVP_DATA = {
           90714
         ],
         "entry_id": 117170,
+        "entry_max_ranks": 1,
         "definition_id": 122182,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Silent Storm",
         "spell_id": 385722,
-        "icon": "ability_rogue_shuriken_storm"
+        "visible_spell_id": null,
+        "icon": "ability_rogue_shuriken-storm"
       },
       "pve_tooltip": "Gaining Stealth, Vanish, or Shadow Dance causes your next Shuriken Storm to have 100% increased chance to critically strike.",
       "pvp_tooltip": "Gaining Stealth, Vanish, or Shadow Dance causes your next Shuriken Storm to have 100% increased chance to critically strike.",
@@ -4005,11 +4144,13 @@ window.WOW_PVP_DATA = {
           90727
         ],
         "entry_id": 112586,
+        "entry_max_ranks": 1,
         "definition_id": 117591,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shrouded in Darkness",
         "spell_id": 382507,
+        "visible_spell_id": null,
         "icon": "ability_rogue_envelopingshadows"
       },
       "pve_tooltip": "Shroud of Concealment increases the movement speed of allies by 100% and leaving its area no longer cancels the effect.",
@@ -4063,11 +4204,13 @@ window.WOW_PVP_DATA = {
           90734
         ],
         "entry_id": 112589,
+        "entry_max_ranks": 1,
         "definition_id": 117594,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shot in the Dark",
         "spell_id": 257505,
+        "visible_spell_id": null,
         "icon": "ability_cheapshot"
       },
       "pve_tooltip": "After using Vanish or Shadow Dance, your next Cheap Shot is free and ignores its cooldown.",
@@ -4121,11 +4264,13 @@ window.WOW_PVP_DATA = {
           90734
         ],
         "entry_id": 136807,
+        "entry_max_ranks": 1,
         "definition_id": 141570,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Exhilarating Execution",
         "spell_id": 428486,
+        "visible_spell_id": null,
         "icon": "inv_weapon_hand_04"
       },
       "pve_tooltip": "Your finishing moves heal you for 5% of damage done. At full health gain shielding instead, absorbing up to 10% of your maximum health.",
@@ -4179,11 +4324,13 @@ window.WOW_PVP_DATA = {
           90709
         ],
         "entry_id": 112622,
+        "entry_max_ranks": 1,
         "definition_id": 117627,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Cloaked in Shadows",
         "spell_id": 382515,
+        "visible_spell_id": null,
         "icon": "inv_helm_cloth_shadowmoonclan_b_01"
       },
       "pve_tooltip": "Vanish grants you a shield for 6 sec, absorbing damage equal to 18% of your maximum health.",
@@ -4270,11 +4417,13 @@ window.WOW_PVP_DATA = {
           90709
         ],
         "entry_id": 112621,
+        "entry_max_ranks": 1,
         "definition_id": 117626,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Fade to Nothing",
         "spell_id": 382514,
+        "visible_spell_id": null,
         "icon": "ability_warlock_everlastingaffliction"
       },
       "pve_tooltip": "Movement speed increased by 20% and damage taken reduced by 10% for 8 sec after gaining Stealth, Vanish, or Shadow Dance.",
@@ -4325,11 +4474,13 @@ window.WOW_PVP_DATA = {
           90709
         ],
         "entry_id": 112602,
+        "entry_max_ranks": 1,
         "definition_id": 117607,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Night Terrors",
         "spell_id": 277953,
+        "visible_spell_id": null,
         "icon": "spell_shadow_shadesofdarkness"
       },
       "pve_tooltip": "Shuriken Storm reduces enemies' movement speed by 50% for 8 sec.",
@@ -4380,11 +4531,13 @@ window.WOW_PVP_DATA = {
           90709
         ],
         "entry_id": 136488,
+        "entry_max_ranks": 1,
         "definition_id": 141261,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Terrifying Pace",
         "spell_id": 428387,
+        "visible_spell_id": null,
         "icon": "ability_druid_typhoon"
       },
       "pve_tooltip": "Shuriken Storm increases your movement speed by 30% for 3 sec when striking 3 or more enemies.",
@@ -4438,11 +4591,13 @@ window.WOW_PVP_DATA = {
           101715
         ],
         "entry_id": 112615,
+        "entry_max_ranks": 1,
         "definition_id": 117620,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Master of Shadows",
         "spell_id": 196976,
+        "visible_spell_id": null,
         "icon": "spell_shadow_charm"
       },
       "pve_tooltip": "Gain 30 Energy over 3 sec when you enter Stealth or activate Shadow Dance.",
@@ -4493,11 +4648,13 @@ window.WOW_PVP_DATA = {
           101715
         ],
         "entry_id": 112587,
+        "entry_max_ranks": 1,
         "definition_id": 117592,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Gloomblade",
         "spell_id": 200758,
+        "visible_spell_id": null,
         "icon": "ability_ironmaidens_convulsiveshadows"
       },
       "pve_tooltip": "Replaces Backstab\n40 Energy\nMelee Range\nInstant\nPunctures your target with your shadow-infused blade for (123% of Attack Power) Shadow damage, bypassing armor. [Improved Backstab: Critical strikes apply Find Weakness for 10 sec]\nAwards 1 combo points.",
@@ -4607,11 +4764,13 @@ window.WOW_PVP_DATA = {
           90723
         ],
         "entry_id": 112623,
+        "entry_max_ranks": 1,
         "definition_id": 117628,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shadow Focus",
         "spell_id": 108209,
+        "visible_spell_id": null,
         "icon": "rogue_shadowfocus"
       },
       "pve_tooltip": "Abilities deal 10% more damage while Stealth or Shadow Dance is active.",
@@ -4662,11 +4821,13 @@ window.WOW_PVP_DATA = {
           90723
         ],
         "entry_id": 112603,
+        "entry_max_ranks": 1,
         "definition_id": 117608,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Secret Technique",
         "spell_id": 1279444,
+        "visible_spell_id": null,
         "icon": "ability_rogue_sinistercalling"
       },
       "pve_tooltip": "Secret Technique damage increased by 15%.",
@@ -4720,11 +4881,13 @@ window.WOW_PVP_DATA = {
           90717
         ],
         "entry_id": 112597,
+        "entry_max_ranks": 1,
         "definition_id": 117602,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Relentless Strikes",
         "spell_id": 58423,
+        "visible_spell_id": null,
         "icon": "ability_warrior_decisivestrike"
       },
       "pve_tooltip": "Your finishing moves generate 4 Energy per combo point spent.",
@@ -4775,11 +4938,13 @@ window.WOW_PVP_DATA = {
           90738
         ],
         "entry_id": 112627,
+        "entry_max_ranks": 1,
         "definition_id": 117632,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Weaponmaster",
         "spell_id": 193537,
+        "visible_spell_id": null,
         "icon": "ability_ironmaidens_bladerush"
       },
       "pve_tooltip": "[Gloomblade / Backstab] and Shadowstrike have a 15% chance to create a Shadow Clone that repeats the attack for 50% of normal damage as Shadow.",
@@ -4831,11 +4996,13 @@ window.WOW_PVP_DATA = {
           90735
         ],
         "entry_id": 112591,
+        "entry_max_ranks": 1,
         "definition_id": 117596,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Planned Execution",
         "spell_id": 382508,
+        "visible_spell_id": null,
         "icon": "ability_creature_cursed_02"
       },
       "pve_tooltip": "Shadow Dance increases the critical strike damage bonus of your abilities by 10%.",
@@ -4887,11 +5054,13 @@ window.WOW_PVP_DATA = {
           90735
         ],
         "entry_id": 117172,
+        "entry_max_ranks": 1,
         "definition_id": 122184,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Warning Signs",
         "spell_id": 426555,
+        "visible_spell_id": null,
         "icon": "achievement_bg_kill_flag_carrier"
       },
       "pve_tooltip": "Shadow Dance increases attack speed by 25%.",
@@ -4945,11 +5114,13 @@ window.WOW_PVP_DATA = {
           90724
         ],
         "entry_id": 125619,
+        "entry_max_ranks": 1,
         "definition_id": 130451,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Double Dance",
         "spell_id": 394930,
+        "visible_spell_id": null,
         "icon": "warrior_doubletime"
       },
       "pve_tooltip": "Shadow Dance has 1 additional charge.",
@@ -5003,11 +5174,13 @@ window.WOW_PVP_DATA = {
           90713
         ],
         "entry_id": 112611,
+        "entry_max_ranks": 1,
         "definition_id": 117616,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shadowed Finishers",
         "spell_id": 382511,
+        "visible_spell_id": null,
         "icon": "ability_rogue_eviscerate"
       },
       "pve_tooltip": "Eviscerate and Black Powder deal an additional 30% damage as Shadow while Find Weakness is active.",
@@ -5059,11 +5232,13 @@ window.WOW_PVP_DATA = {
           90716
         ],
         "entry_id": 112610,
+        "entry_max_ranks": 1,
         "definition_id": 117615,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Secret Stratagem",
         "spell_id": 394320,
+        "visible_spell_id": null,
         "icon": "archaeology_5_0_changkiboard"
       },
       "pve_tooltip": "Gain 1 additional max combo point.\nYour finishing moves that consume more than 5 combo points have increased effects, and your finishing moves deal 5% increased damage.",
@@ -5114,11 +5289,13 @@ window.WOW_PVP_DATA = {
           90716
         ],
         "entry_id": 112605,
+        "entry_max_ranks": 1,
         "definition_id": 117610,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shuriken Tornado",
         "spell_id": 1264764,
+        "visible_spell_id": null,
         "icon": "ability_rogue_throwingspecialization"
       },
       "pve_tooltip": "Shuriken Storm has a 15% chance to create a Shadow Clone that repeats the attack for 50% of normal damage as Shadow.",
@@ -5170,11 +5347,13 @@ window.WOW_PVP_DATA = {
           90704
         ],
         "entry_id": 112628,
+        "entry_max_ranks": 1,
         "definition_id": 117633,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Umbral Edge",
         "spell_id": 1281468,
+        "visible_spell_id": null,
         "icon": "ability_rogue_nightblade"
       },
       "pve_tooltip": "Shadow Clones deal 15% increased damage.\nCheap Shot creates a Shadow Clone to Shadowstrike the target for 50% of normal damage as Shadow.\nKidney Shot creates a Shadow Clone to Eviscerate the target for 50% of normal damage as Shadow.",
@@ -5227,11 +5406,13 @@ window.WOW_PVP_DATA = {
           90707
         ],
         "entry_id": 112625,
+        "entry_max_ranks": 1,
         "definition_id": 117630,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Deepening Shadows",
         "spell_id": 185314,
+        "visible_spell_id": null,
         "icon": "spell_shadow_twilight"
       },
       "pve_tooltip": "Shadow Dance duration is increased by 150% of your Haste stat.\nCurrent bonus duration: (0 / 1000) sec",
@@ -5285,24 +5466,47 @@ window.WOW_PVP_DATA = {
           90721
         ],
         "entry_id": 112612,
+        "entry_max_ranks": 1,
         "definition_id": 117617,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Goremaw's Bite",
         "spell_id": 426591,
+        "visible_spell_id": null,
         "icon": "inv_knife_1h_artifactfangs_d_01"
       },
       "pve_tooltip": "25 Energy\nMelee Range\nInstant\n45 sec cooldown\nLash out at your target and 2 additional nearby enemies, inflicting (630% of Attack Power) Shadow damage and causing them to Bleed for (1106% of Attack Power) damage over 14 sec.\n20% of all damage from Finishing Moves is repeated as Shadow, split evenly among affected enemies.",
-      "pvp_tooltip": "25 Energy\nMelee Range\nInstant\n45 sec cooldown\nLash out at your target and 2 additional nearby enemies, inflicting (630% of Attack Power) Shadow damage and causing them to Bleed for (1106% of Attack Power) damage over 14 sec.\n20% of all damage from Finishing Moves is repeated as Shadow, split evenly among affected enemies.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "25 Energy\nMelee Range\nInstant\n45 sec cooldown\nLash out at your target and 2 additional nearby enemies, inflicting (529.2% of Attack Power) Shadow damage and causing them to Bleed for (1106% of Attack Power) damage over 14 sec.\n20% of all damage from Finishing Moves is repeated as Shadow, split evenly among affected enemies.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 115,
+          "end": 118,
+          "old_token": "630",
+          "new_token": "529.2",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "630",
+          "new": "529.2"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 426591,
           "source_spell_id": 426592,
           "effect_index": 1,
@@ -5319,7 +5523,7 @@ window.WOW_PVP_DATA = {
             426592
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -5340,7 +5544,7 @@ window.WOW_PVP_DATA = {
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 426591,
           "source_spell_id": 426593,
           "effect_index": 1,
@@ -5357,7 +5561,7 @@ window.WOW_PVP_DATA = {
             426593
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -5380,7 +5584,7 @@ window.WOW_PVP_DATA = {
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 426591,
           "source_spell_id": 1309274,
           "effect_index": 1,
@@ -5397,7 +5601,7 @@ window.WOW_PVP_DATA = {
             1309274
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -5409,7 +5613,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -5451,11 +5655,13 @@ window.WOW_PVP_DATA = {
           90718
         ],
         "entry_id": 112601,
+        "entry_max_ranks": 1,
         "definition_id": 117606,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Veiltouched",
         "spell_id": 382017,
+        "visible_spell_id": null,
         "icon": "spell_arcane_prismaticcloak"
       },
       "pve_tooltip": "Your abilities deal 5% increased magic damage.",
@@ -5507,11 +5713,13 @@ window.WOW_PVP_DATA = {
           90718
         ],
         "entry_id": 112604,
+        "entry_max_ranks": 1,
         "definition_id": 117609,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Replicating Shadows",
         "spell_id": 382506,
+        "visible_spell_id": null,
         "icon": "spell_deathknight_strangulate"
       },
       "pve_tooltip": "Shadow Clones deal 15% increased damage and your effects that have a chance to create them have 5% additional chance to occur.",
@@ -5610,11 +5818,13 @@ window.WOW_PVP_DATA = {
           90706
         ],
         "entry_id": 112592,
+        "entry_max_ranks": 1,
         "definition_id": 117597,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Find Weakness",
         "spell_id": 382512,
+        "visible_spell_id": null,
         "icon": "ability_rogue_findweakness"
       },
       "pve_tooltip": "Find Weakness causes your attacks to ignore an additional 20% armor.",
@@ -5667,11 +5877,13 @@ window.WOW_PVP_DATA = {
           90732
         ],
         "entry_id": 112595,
+        "entry_max_ranks": 1,
         "definition_id": 117600,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Perforated Veins",
         "spell_id": 382518,
+        "visible_spell_id": null,
         "icon": "ability_warrior_bloodfrenzy"
       },
       "pve_tooltip": "[Gloomblade / Backstab], Shuriken Storm, and Shadowstrike have 10% increased damage while Find Weakness is active.",
@@ -5722,11 +5934,13 @@ window.WOW_PVP_DATA = {
           90732
         ],
         "entry_id": 112619,
+        "entry_max_ranks": 1,
         "definition_id": 117624,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lingering Shadow",
         "spell_id": 382524,
+        "visible_spell_id": null,
         "icon": "spell_fire_twilightnova"
       },
       "pve_tooltip": "After Shadow Dance ends, [Gloomblade / Backstab] and Shuriken Storm deal an additional 50% damage as Shadow, fading by 2.8% per sec.",
@@ -5779,11 +5993,13 @@ window.WOW_PVP_DATA = {
           90720
         ],
         "entry_id": 112609,
+        "entry_max_ranks": 1,
         "definition_id": 117614,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Deeper Daggers",
         "spell_id": 382517,
+        "visible_spell_id": null,
         "icon": "inv_weapon_shortblade_15"
       },
       "pve_tooltip": "Shadow damage increased by 8%.\n(500ms cooldown)",
@@ -5835,11 +6051,13 @@ window.WOW_PVP_DATA = {
           90720
         ],
         "entry_id": 112606,
+        "entry_max_ranks": 1,
         "definition_id": 117611,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Potent Powder",
         "spell_id": 1265952,
+        "visible_spell_id": null,
         "icon": "spell_priest_divinestar_shadow"
       },
       "pve_tooltip": "Black Powder deals increased damage equal to 20% of your Mastery when it spends 5 or more combo points.\n(500ms cooldown)",
@@ -5892,11 +6110,13 @@ window.WOW_PVP_DATA = {
           94580
         ],
         "entry_id": 112594,
+        "entry_max_ranks": 2,
         "definition_id": 117599,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Death Perception",
         "spell_id": 469642,
+        "visible_spell_id": null,
         "icon": "spell_nzinsanity_shortsighted"
       },
       "pve_tooltip": "Find Weakness increases the damage of finishing moves by 10%.\nShadow Dance increases the damage of finishing moves by 10%.\nShadow Blades increases the damage of finishing moves by 10%.",
@@ -6015,6 +6235,20 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Find Weakness increases the damage of finishing moves by 5%.\nShadow Dance increases the damage of finishing moves by 5%.\nShadow Blades increases the damage of finishing moves by 5%.",
           "pvp_tooltip": "Find Weakness increases the damage of finishing moves by 3%.\nShadow Dance increases the damage of finishing moves by 5%.\nShadow Blades increases the damage of finishing moves by 5%.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 57,
+              "end": 58,
+              "old_token": "5",
+              "new_token": "3",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1,
+                2,
+                3
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -6023,6 +6257,20 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Find Weakness increases the damage of finishing moves by 10%.\nShadow Dance increases the damage of finishing moves by 10%.\nShadow Blades increases the damage of finishing moves by 10%.",
           "pvp_tooltip": "Find Weakness increases the damage of finishing moves by 6%.\nShadow Dance increases the damage of finishing moves by 10%.\nShadow Blades increases the damage of finishing moves by 10%.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 57,
+              "end": 59,
+              "old_token": "10",
+              "new_token": "6",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1,
+                2,
+                3
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6069,11 +6317,13 @@ window.WOW_PVP_DATA = {
           94581
         ],
         "entry_id": 112620,
+        "entry_max_ranks": 2,
         "definition_id": 117625,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Dark Shadow",
         "spell_id": 245687,
+        "visible_spell_id": null,
         "icon": "spell_warlock_demonsoul"
       },
       "pve_tooltip": "Shadow Dance increases all ability damage by 10%, and Shadowstrike and Shuriken Storm damage by an additional 10%.",
@@ -6165,6 +6415,19 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Shadow Dance increases all ability damage by 5%, and Shadowstrike and Shuriken Storm damage by an additional 5%.",
           "pvp_tooltip": "Shadow Dance increases all ability damage by 5%, and Shadowstrike and Shuriken Storm damage by an additional 3.3335%.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 109,
+              "end": 110,
+              "old_token": "5",
+              "new_token": "3.3335",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1,
+                2
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -6173,6 +6436,19 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Shadow Dance increases all ability damage by 10%, and Shadowstrike and Shuriken Storm damage by an additional 10%.",
           "pvp_tooltip": "Shadow Dance increases all ability damage by 10%, and Shadowstrike and Shuriken Storm damage by an additional 6.667%.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 110,
+              "end": 112,
+              "old_token": "10",
+              "new_token": "6.667",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1,
+                2
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6217,11 +6493,13 @@ window.WOW_PVP_DATA = {
           90719
         ],
         "entry_id": 112608,
+        "entry_max_ranks": 2,
         "definition_id": 117613,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Finality",
         "spell_id": 382525,
+        "visible_spell_id": null,
         "icon": "ability_rogue_eviscerate"
       },
       "pve_tooltip": "Eviscerate and Black Powder have 30% increased critical strike damage bonus.",
@@ -6319,6 +6597,19 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Eviscerate and Black Powder have 15% increased critical strike damage bonus.",
           "pvp_tooltip": "Eviscerate and Black Powder have 7.5% increased critical strike damage bonus.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 33,
+              "end": 35,
+              "old_token": "15",
+              "new_token": "7.5",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1,
+                2
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -6327,6 +6618,18 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Eviscerate and Black Powder have 30% increased critical strike damage bonus.",
           "pvp_tooltip": "Eviscerate and Black Powder have 15% increased critical strike damage bonus.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 33,
+              "end": 35,
+              "old_token": "30",
+              "new_token": "15",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6367,24 +6670,47 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 112593,
+        "entry_max_ranks": 1,
         "definition_id": 117598,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "The Rotten",
         "spell_id": 382015,
+        "visible_spell_id": null,
         "icon": "spell_shadow_nightofthedead"
       },
       "pve_tooltip": "After activating Shadow Dance, your next 2 attacks that generate combo points deal 35% increased damage.",
-      "pvp_tooltip": "After activating Shadow Dance, your next 2 attacks that generate combo points deal 35% increased damage.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "After activating Shadow Dance, your next 2 attacks that generate combo points deal 21% increased damage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 83,
+          "end": 85,
+          "old_token": "35",
+          "new_token": "21",
+          "kind": "percent_value",
+          "effect_indexes": [
+            3
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "35",
+          "new": "21"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 382015,
           "source_spell_id": 394203,
           "effect_index": 3,
@@ -6401,7 +6727,7 @@ window.WOW_PVP_DATA = {
             394203
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -6413,7 +6739,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -6452,11 +6778,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 117168,
+        "entry_max_ranks": 1,
         "definition_id": 122180,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shadowcraft",
         "spell_id": 426594,
+        "visible_spell_id": null,
         "icon": "spell_shadow_sealofkings"
       },
       "pve_tooltip": "While Shadow Dance is active, your Shadow Techniques triggers 25% more frequently and generates 1 additional combo point.",
@@ -6505,11 +6833,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 112618,
+        "entry_max_ranks": 1,
         "definition_id": 117623,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Danse Macabre",
         "spell_id": 382528,
+        "visible_spell_id": null,
         "icon": "ability_deathwing_bloodcorruption_death"
       },
       "pve_tooltip": "While Shadow Dance is active, each different attack that generates or spends combo points lashes out at the target, dealing (420% of Attack Power) Shadow damage.\n(500ms cooldown)",
@@ -6619,38 +6949,30 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 117169,
+        "entry_max_ranks": 1,
         "definition_id": 122181,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "The First Dance",
         "spell_id": 382505,
+        "visible_spell_id": null,
         "icon": "ability_rogue_shadowdance"
       },
       "pve_tooltip": "Remaining out of combat for 6 sec increases the duration of your next Shadow Dance by 4 sec.",
-      "pvp_tooltip": "Remaining out of combat for 6 sec increases the duration of your next Shadow Dance by 2.66667 sec.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 86,
-          "end": 87,
-          "old_token": "4",
-          "new_token": "2.66667",
-          "kind": "duration_seconds",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
+      "pvp_tooltip": "Remaining out of combat for 6 sec increases the duration of your next Shadow Dance by 4 sec.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "APPLIED",
-          "kind": "duration_seconds",
-          "old": "4",
-          "new": "2.66667"
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "ordinary_value",
+          "old": 0.004,
+          "new": 0.0027,
+          "full_tooltip_match_count": 0
         }
       ],
       "has_pvp_mechanics": true,
@@ -6724,11 +7046,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 112607,
+        "entry_max_ranks": 1,
         "definition_id": 117612,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Dark Brew",
         "spell_id": 382504,
+        "visible_spell_id": null,
         "icon": "spell_nature_slowpoison"
       },
       "pve_tooltip": "Your weapon poisons have 10% increased application chance and now deal damage as Shadow instead of Nature.\nShadow damage increased by 10%.",
@@ -6775,11 +7099,13 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 137064,
+        "entry_max_ranks": 1,
         "definition_id": 141827,
         "entry_index": 100,
         "entry_type": "tierrank",
         "talent_name": "Ancient Arts",
         "spell_id": 1268932,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_rogue_ancientarts"
       },
       "pve_tooltip": "Damaging attacks that expend Shadow Techniques to generate combo points have a 15% chance per stack expended to create a Shadow Clone that repeats the attack for 50% of normal damage as Shadow.",
@@ -6826,15 +7152,17 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 137063,
+        "entry_max_ranks": 2,
         "definition_id": 141826,
         "entry_index": 200,
         "entry_type": "tierrank",
         "talent_name": "Ancient Arts",
         "spell_id": 1268936,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_rogue_ancientarts"
       },
-      "pve_tooltip": "Shadow damage increased by 5%.\nShadow Clones have a 50% chance to trigger Shadow Techniques' effect.",
-      "pvp_tooltip": "Shadow damage increased by 5%.\nShadow Clones have a 50% chance to trigger Shadow Techniques' effect.",
+      "pve_tooltip": "Shadow damage increased by 10%.\nShadow Clones have a 100% chance to trigger Shadow Techniques' effect.",
+      "pvp_tooltip": "Shadow damage increased by 10%.\nShadow Clones have a 100% chance to trigger Shadow Techniques' effect.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6842,7 +7170,26 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Shadow damage increased by 5%.\nShadow Clones have a 50% chance to trigger Shadow Techniques' effect.",
+          "pvp_tooltip": "Shadow damage increased by 5%.\nShadow Clones have a 50% chance to trigger Shadow Techniques' effect.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Shadow damage increased by 10%.\nShadow Clones have a 100% chance to trigger Shadow Techniques' effect.",
+          "pvp_tooltip": "Shadow damage increased by 10%.\nShadow Clones have a 100% chance to trigger Shadow Techniques' effect.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Ancient Arts",
@@ -6877,11 +7224,13 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 137062,
+        "entry_max_ranks": 1,
         "definition_id": 141825,
         "entry_index": 300,
         "entry_type": "tierrank",
         "talent_name": "Ancient Arts",
         "spell_id": 1268939,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_rogue_ancientarts"
       },
       "pve_tooltip": "After attacks that generate combo points, if 5 or more stacks of Shadow Techniques remain, your next damaging finishing move will expend them to generate combo points up to your max.",
@@ -6933,11 +7282,13 @@ window.WOW_PVP_DATA = {
           109762
         ],
         "entry_id": 117733,
+        "entry_max_ranks": 1,
         "definition_id": 122745,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Deathstalker's Mark",
         "spell_id": 457052,
+        "visible_spell_id": null,
         "icon": "inv_ability_deathstalkerrogue_deathstalkersmark"
       },
       "pve_tooltip": "Shadowstrike applies 3 stacks of Deathstalker's Mark to your target, unless Deathstalker's Mark is already active. You learn Mark for Death.\nWhen you spend 5 or more combo points on attacks against a Marked target you consume an application of Deathstalker's Mark, dealing (156% of Attack Power) Plague damage.\nMark for Death\nMove your active Deathstalker's Mark to your target.",
@@ -7048,11 +7399,13 @@ window.WOW_PVP_DATA = {
           95135
         ],
         "entry_id": 117707,
+        "entry_max_ranks": 1,
         "definition_id": 122719,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Clear the Witnesses",
         "spell_id": 1248793,
+        "visible_spell_id": null,
         "icon": "ability_rogue_fanofknives"
       },
       "pve_tooltip": "Shuriken Storm damage increased by 60%.",
@@ -7103,11 +7456,13 @@ window.WOW_PVP_DATA = {
           95108
         ],
         "entry_id": 117729,
+        "entry_max_ranks": 1,
         "definition_id": 122741,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Hunt Them Down",
         "spell_id": 457054,
+        "visible_spell_id": null,
         "icon": "ability_rogue_creepingvenom"
       },
       "pve_tooltip": "Auto-attacks against Marked targets deal an additional (10% of Attack Power) Plague damage.",
@@ -7218,11 +7573,13 @@ window.WOW_PVP_DATA = {
           95109
         ],
         "entry_id": 117714,
+        "entry_max_ranks": 1,
         "definition_id": 122726,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Singular Focus",
         "spell_id": 457055,
+        "visible_spell_id": null,
         "icon": "spell_hunter_focusingshot"
       },
       "pve_tooltip": "Damage dealt to targets other than your Marked target deals 5% Plague damage to your Marked target.",
@@ -7273,11 +7630,13 @@ window.WOW_PVP_DATA = {
           109761
         ],
         "entry_id": 136020,
+        "entry_max_ranks": 1,
         "definition_id": 140775,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Precise Killer",
         "spell_id": 1272989,
+        "visible_spell_id": null,
         "icon": "inv_tradeskillitem_sorcererswind"
       },
       "pve_tooltip": "Critical strike damage bonus increased by 20%.",
@@ -7328,11 +7687,13 @@ window.WOW_PVP_DATA = {
           95106
         ],
         "entry_id": 117732,
+        "entry_max_ranks": 1,
         "definition_id": 122744,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unshakeable Drive",
         "spell_id": 1248774,
+        "visible_spell_id": null,
         "icon": "ability_warrior_deepcuts"
       },
       "pve_tooltip": "When you consume an application of Deathstalker's Mark, the damage of your next is increased by 50% or Shadowstrike increased by 25%.",
@@ -7482,11 +7843,13 @@ window.WOW_PVP_DATA = {
           95131
         ],
         "entry_id": 117705,
+        "entry_max_ranks": 1,
         "definition_id": 122717,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Corrupt the Blood",
         "spell_id": 1248785,
+        "visible_spell_id": null,
         "icon": "ability_ironmaidens_bloodritual"
       },
       "pve_tooltip": "Deathstalker's Mark damage increased by 25%.",
@@ -7537,11 +7900,13 @@ window.WOW_PVP_DATA = {
           95123
         ],
         "entry_id": 117706,
+        "entry_max_ranks": 1,
         "definition_id": 122718,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lingering Darkness",
         "spell_id": 457056,
+        "visible_spell_id": null,
         "icon": "ability_rogue_envelopingshadows"
       },
       "pve_tooltip": "After Shadow Blades expires, gain 30% increased Shadow damage for 30 sec.",
@@ -7592,24 +7957,57 @@ window.WOW_PVP_DATA = {
           95123
         ],
         "entry_id": 126030,
+        "entry_max_ranks": 1,
         "definition_id": 130862,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Symbolic Victory",
         "spell_id": 457062,
+        "visible_spell_id": null,
         "icon": "ability_priest_surgeofdarkness"
       },
       "pve_tooltip": "Shadow Dance additionally increases the damage of your next Eviscerate or Black Powder by 15%.",
-      "pvp_tooltip": "Shadow Dance additionally increases the damage of your next Eviscerate or Black Powder by 15%.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Shadow Dance additionally increases the damage of your next Eviscerate or Black Powder by 10%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 90,
+          "end": 92,
+          "old_token": "15",
+          "new_token": "10",
+          "kind": "percent_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "percent_value",
+          "old": 18.0,
+          "new": 10.080000000000002,
+          "full_tooltip_match_count": 1
+        },
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "15",
+          "new": "10"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 457062,
           "source_spell_id": 457167,
           "effect_index": 1,
@@ -7626,7 +8024,7 @@ window.WOW_PVP_DATA = {
             457167
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -7639,7 +8037,7 @@ window.WOW_PVP_DATA = {
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 457062,
           "source_spell_id": 457167,
           "effect_index": 2,
@@ -7656,7 +8054,7 @@ window.WOW_PVP_DATA = {
             457167
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -7668,7 +8066,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 2,
       "rank_tooltips": []
     },
     {
@@ -7708,11 +8106,13 @@ window.WOW_PVP_DATA = {
           109760
         ],
         "entry_id": 136019,
+        "entry_max_ranks": 1,
         "definition_id": 140774,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Quietus Celeris",
         "spell_id": 1273017,
+        "visible_spell_id": null,
         "icon": "ability_argus_deathfog"
       },
       "pve_tooltip": "Deathstalker's Mark has a 30% chance to immediately consume a stack when applied.",
@@ -7763,11 +8163,13 @@ window.WOW_PVP_DATA = {
           95142
         ],
         "entry_id": 117703,
+        "entry_max_ranks": 1,
         "definition_id": 122715,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ethereal Cloak",
         "spell_id": 457022,
+        "visible_spell_id": null,
         "icon": "spell_arcane_prismaticcloak"
       },
       "pve_tooltip": "Cloak of Shadows duration increased by 2 sec.",
@@ -7818,11 +8220,13 @@ window.WOW_PVP_DATA = {
           95142
         ],
         "entry_id": 126029,
+        "entry_max_ranks": 1,
         "definition_id": 130861,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Bait and Switch",
         "spell_id": 457034,
+        "visible_spell_id": null,
         "icon": "ability_druid_earthandsky"
       },
       "pve_tooltip": "Evasion reduces magical damage taken by 15%.\nCloak of Shadows reduces physical damage taken by 20%.",
@@ -7873,11 +8277,13 @@ window.WOW_PVP_DATA = {
           95142
         ],
         "entry_id": 117728,
+        "entry_max_ranks": 1,
         "definition_id": 122740,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Momentum of Despair",
         "spell_id": 457067,
+        "visible_spell_id": null,
         "icon": "spell_shadow_shadesofdarkness"
       },
       "pve_tooltip": "If you have critically struck with Shuriken Storm, increase the critical strike chance of Shuriken Storm and Black Powder by 10% and critical strike damage by 30% for 8 sec.",
@@ -7928,11 +8334,13 @@ window.WOW_PVP_DATA = {
           95142
         ],
         "entry_id": 126028,
+        "entry_max_ranks": 1,
         "definition_id": 130860,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Follow the Blood",
         "spell_id": 457068,
+        "visible_spell_id": null,
         "icon": "sha_ability_rogue_bloodyeye_nightmare"
       },
       "pve_tooltip": "Shuriken Storm and Black Powder deal 15% additional damage while Find Weakness is active.",
@@ -7983,11 +8391,13 @@ window.WOW_PVP_DATA = {
           95142
         ],
         "entry_id": 117720,
+        "entry_max_ranks": 1,
         "definition_id": 122732,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shadewalker",
         "spell_id": 457057,
+        "visible_spell_id": null,
         "icon": "rogue_shadow_reflection"
       },
       "pve_tooltip": "Each time you consume a stack of Deathstalker's Mark, reduce the cooldown of Shadowstep by 3 sec.",
@@ -8038,11 +8448,13 @@ window.WOW_PVP_DATA = {
           95142
         ],
         "entry_id": 126027,
+        "entry_max_ranks": 1,
         "definition_id": 130859,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Shroud of Night",
         "spell_id": 457063,
+        "visible_spell_id": null,
         "icon": "spell_holy_elunesgrace"
       },
       "pve_tooltip": "Shroud of Concealment duration increased by 5 sec.",
@@ -8093,11 +8505,13 @@ window.WOW_PVP_DATA = {
           95142
         ],
         "entry_id": 136018,
+        "entry_max_ranks": 1,
         "definition_id": 140773,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Mass Casualty",
         "spell_id": 1273035,
+        "visible_spell_id": null,
         "icon": "ability_hunter_rapidkilling"
       },
       "pve_tooltip": "Deathstalker's Mark deals 75% of its normal damage to all other enemies within 8 yds when a stack is consumed by Black Powder.",
@@ -8149,11 +8563,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 117739,
+        "entry_max_ranks": 1,
         "definition_id": 122751,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Darkest Night",
         "spell_id": 457058,
+        "visible_spell_id": null,
         "icon": "spell_shadow_twilight"
       },
       "pve_tooltip": "When you consume the final Deathstalker's Mark from a target or your target dies, gain 30 Energy and Darkest Night, causing your next Eviscerate cast with 5 or more combo points to critically strike, deal 50% additional damage, and apply 3 stacks of Deathstalker's Mark to the target if no other Deathstalker's Mark is active.\nEviscerate cast with Darkest Night does not consume a stack of active Deathstalker's Marks.",
@@ -8247,11 +8663,13 @@ window.WOW_PVP_DATA = {
           109765
         ],
         "entry_id": 117737,
+        "entry_max_ranks": 1,
         "definition_id": 122749,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unseen Blade",
         "spell_id": 441146,
+        "visible_spell_id": null,
         "icon": "inv_weapon_shortblade_55"
       },
       "pve_tooltip": "and Shadowstrike now also strike with an Unseen Blade dealing (280% of Attack Power) damage. Targets struck are Fazed for 10 sec.\nFazed enemies take 5% more damage from you and cannot parry your attacks.\nThis effect may occur once every 20 sec.",
@@ -8362,11 +8780,13 @@ window.WOW_PVP_DATA = {
           95134
         ],
         "entry_id": 117718,
+        "entry_max_ranks": 1,
         "definition_id": 122730,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Surprising Strikes",
         "spell_id": 441273,
+        "visible_spell_id": null,
         "icon": "ability_rogue_surpriseattack2"
       },
       "pve_tooltip": "Attacks that generate combo points deal 50% increased critical strike damage to Fazed targets.",
@@ -8417,11 +8837,13 @@ window.WOW_PVP_DATA = {
           95133
         ],
         "entry_id": 117738,
+        "entry_max_ranks": 1,
         "definition_id": 122750,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Smoke",
         "spell_id": 441247,
+        "visible_spell_id": null,
         "icon": "rogue_dirtytricks"
       },
       "pve_tooltip": "You take 5% reduced damage from Fazed targets.",
@@ -8472,11 +8894,13 @@ window.WOW_PVP_DATA = {
           95133
         ],
         "entry_id": 120130,
+        "entry_max_ranks": 1,
         "definition_id": 125030,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Mirrors",
         "spell_id": 441250,
+        "visible_spell_id": null,
         "icon": "trade_archaeology_highbornesoulmirror"
       },
       "pve_tooltip": "Feint reduces damage taken from area-of-effect attacks by an additional 10%",
@@ -8527,11 +8951,13 @@ window.WOW_PVP_DATA = {
           95137
         ],
         "entry_id": 117708,
+        "entry_max_ranks": 1,
         "definition_id": 122720,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Flawless Form",
         "spell_id": 441321,
+        "visible_spell_id": null,
         "icon": "inv_qiraj_jewelblessed"
       },
       "pve_tooltip": "Unseen Blade and Secret Technique increase the damage of your finishing moves by 2% for 12 sec. Max 5 stacks.",
@@ -8582,11 +9008,13 @@ window.WOW_PVP_DATA = {
           109764
         ],
         "entry_id": 136023,
+        "entry_max_ranks": 1,
         "definition_id": 140778,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Hoodwink",
         "spell_id": 1276626,
+        "visible_spell_id": null,
         "icon": "spell_holy_dizzy"
       },
       "pve_tooltip": "Fazed increases damage taken by an additional 3%.",
@@ -8637,11 +9065,13 @@ window.WOW_PVP_DATA = {
           95118
         ],
         "entry_id": 117731,
+        "entry_max_ranks": 1,
         "definition_id": 122743,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "So Tricky",
         "spell_id": 441403,
+        "visible_spell_id": null,
         "icon": "ability_rogue_tricksofthetrade"
       },
       "pve_tooltip": "Tricks of the Trade's threat redirect duration is increased to 1 hour.",
@@ -8692,11 +9122,13 @@ window.WOW_PVP_DATA = {
           95118
         ],
         "entry_id": 120133,
+        "entry_max_ranks": 1,
         "definition_id": 125033,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Don't Be Suspicious",
         "spell_id": 441415,
+        "visible_spell_id": null,
         "icon": "ability_rogue_disguise"
       },
       "pve_tooltip": "Blind and Shroud of Concealment have 10% reduced cooldown.\nPick Pocket and Sap have 10 yd increased range.",
@@ -8794,11 +9226,13 @@ window.WOW_PVP_DATA = {
           95116
         ],
         "entry_id": 117730,
+        "entry_max_ranks": 1,
         "definition_id": 122742,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Devious Distractions",
         "spell_id": 441263,
+        "visible_spell_id": null,
         "icon": "ability_rogue_ghostpirate"
       },
       "pve_tooltip": "Secret Technique applies Fazed to any targets struck.",
@@ -8849,11 +9283,13 @@ window.WOW_PVP_DATA = {
           95128
         ],
         "entry_id": 117734,
+        "entry_max_ranks": 1,
         "definition_id": 122746,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Thousand Cuts",
         "spell_id": 441346,
+        "visible_spell_id": null,
         "icon": "inv_10_specialization_blacksmithing_blades_color1"
       },
       "pve_tooltip": "Approximately 4.5 procs per minute\nSlice and Dice grants 10% additional attack speed and gives your auto-attacks a chance to refresh your opportunity to strike with Unseen Blade.",
@@ -8904,11 +9340,13 @@ window.WOW_PVP_DATA = {
           95128
         ],
         "entry_id": 120131,
+        "entry_max_ranks": 1,
         "definition_id": 125031,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Flickerstrike",
         "spell_id": 441359,
+        "visible_spell_id": null,
         "icon": "spell_nature_invisibilty"
       },
       "pve_tooltip": "Taking damage from an area-of-effect attack while Feint is active or dodging while Evasion is active refreshes your opportunity to strike with Unseen Blade.\nThis effect may only occur once every 5 sec.\n(5s cooldown)",
@@ -8959,11 +9397,13 @@ window.WOW_PVP_DATA = {
           109763
         ],
         "entry_id": 136022,
+        "entry_max_ranks": 1,
         "definition_id": 140777,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Flashing Steel",
         "spell_id": 1276630,
+        "visible_spell_id": null,
         "icon": "inv_1115_warrior_fastermeleeattacks"
       },
       "pve_tooltip": "Unseen Blade may now occur once every 15 sec and has 25% chance to strike twice.",
@@ -9014,11 +9454,13 @@ window.WOW_PVP_DATA = {
           95115
         ],
         "entry_id": 117715,
+        "entry_max_ranks": 1,
         "definition_id": 122727,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Disorienting Strikes",
         "spell_id": 441274,
+        "visible_spell_id": null,
         "icon": "petbattle_speed"
       },
       "pve_tooltip": "Secret Technique has 10% reduced cooldown and allows your next 2 strikes of Unseen Blade to ignore its cooldown.",
@@ -9069,11 +9511,13 @@ window.WOW_PVP_DATA = {
           95115
         ],
         "entry_id": 117713,
+        "entry_max_ranks": 1,
         "definition_id": 122725,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Cloud Cover",
         "spell_id": 441429,
+        "visible_spell_id": null,
         "icon": "ability_rogue_smoke"
       },
       "pve_tooltip": "Activating Shadow Blades creates a cloud of smoke for 6 sec, allowing attacks from within the cloud to apply Fazed, stacking up to 2 additional times.\nEffect persists for 6 sec after leaving the cloud.",
@@ -9124,11 +9568,13 @@ window.WOW_PVP_DATA = {
           95115
         ],
         "entry_id": 120132,
+        "entry_max_ranks": 1,
         "definition_id": 125032,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "No Scruples",
         "spell_id": 441398,
+        "visible_spell_id": null,
         "icon": "ability_rogue_surpriseattack"
       },
       "pve_tooltip": "Finishing moves have 12% increased chance to critically strike Fazed targets.",
@@ -9179,11 +9625,13 @@ window.WOW_PVP_DATA = {
           95115
         ],
         "entry_id": 117725,
+        "entry_max_ranks": 1,
         "definition_id": 122737,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Nimble Flurry",
         "spell_id": 441367,
+        "visible_spell_id": null,
         "icon": "ability_rogue_bladetwisting"
       },
       "pve_tooltip": "Your auto-attacks, Unseen Blade, and Coup de Grace also strike up to 7 nearby enemies for 50% of normal damage while Flawless Form is active.",
@@ -9234,11 +9682,13 @@ window.WOW_PVP_DATA = {
           95115
         ],
         "entry_id": 136021,
+        "entry_max_ranks": 1,
         "definition_id": 140776,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Clever Combatant",
         "spell_id": 1276679,
+        "visible_spell_id": null,
         "icon": "ability_rogue_versatility"
       },
       "pve_tooltip": "Shuriken Storm has 10% increased critical strike chance and now triggers Unseen Blade when available.",
@@ -9290,11 +9740,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 117712,
+        "entry_max_ranks": 1,
         "definition_id": 122724,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Coup de Grace",
         "spell_id": 441423,
+        "visible_spell_id": null,
         "icon": "inv_ability_tricksterrogue_coupdegrace"
       },
       "pve_tooltip": "After 4 strikes with Unseen Blade, your next Eviscerate will be performed as a Coup de Grace, functioning as if it had consumed 5 additional combo points, and granting you 5 stacks of Flawless Form.",
@@ -9310,12 +9762,286 @@ window.WOW_PVP_DATA = {
     }
   ],
   "fetch_errors": [],
+  "serialization": {
+    "version": 2,
+    "spec_id": 261,
+    "node_order": [
+      90622,
+      90624,
+      90625,
+      90626,
+      90628,
+      90630,
+      90633,
+      90634,
+      90635,
+      90636,
+      90637,
+      90638,
+      90639,
+      90640,
+      90641,
+      90643,
+      90644,
+      90645,
+      90647,
+      90648,
+      90649,
+      90651,
+      90652,
+      90653,
+      90654,
+      90655,
+      90656,
+      90659,
+      90661,
+      90662,
+      90663,
+      90664,
+      90665,
+      90666,
+      90667,
+      90668,
+      90669,
+      90670,
+      90671,
+      90673,
+      90675,
+      90676,
+      90677,
+      90678,
+      90679,
+      90680,
+      90681,
+      90683,
+      90684,
+      90686,
+      90687,
+      90688,
+      90690,
+      90691,
+      90692,
+      90695,
+      90697,
+      90698,
+      90699,
+      90700,
+      90701,
+      90703,
+      90704,
+      90705,
+      90706,
+      90707,
+      90709,
+      90710,
+      90713,
+      90714,
+      90715,
+      90716,
+      90717,
+      90718,
+      90719,
+      90720,
+      90721,
+      90722,
+      90723,
+      90724,
+      90726,
+      90727,
+      90728,
+      90730,
+      90731,
+      90732,
+      90733,
+      90734,
+      90735,
+      90737,
+      90738,
+      90739,
+      90740,
+      90741,
+      90742,
+      90743,
+      90744,
+      90745,
+      90746,
+      90747,
+      90748,
+      90749,
+      90750,
+      90751,
+      90752,
+      90753,
+      90754,
+      90755,
+      90756,
+      90757,
+      90758,
+      90759,
+      90760,
+      90762,
+      90763,
+      90764,
+      90766,
+      90767,
+      90768,
+      90769,
+      90770,
+      90771,
+      90772,
+      90774,
+      90775,
+      90776,
+      90777,
+      90779,
+      90780,
+      90783,
+      90784,
+      90785,
+      90786,
+      94536,
+      94551,
+      94552,
+      94553,
+      94554,
+      94555,
+      94556,
+      94557,
+      94561,
+      94562,
+      94563,
+      94565,
+      94567,
+      94580,
+      94581,
+      94582,
+      95106,
+      95107,
+      95108,
+      95109,
+      95110,
+      95111,
+      95114,
+      95115,
+      95116,
+      95117,
+      95118,
+      95119,
+      95120,
+      95121,
+      95122,
+      95123,
+      95125,
+      95127,
+      95128,
+      95129,
+      95130,
+      95131,
+      95132,
+      95133,
+      95134,
+      95135,
+      95136,
+      95137,
+      95138,
+      95139,
+      95140,
+      95141,
+      95142,
+      99842,
+      99843,
+      99844,
+      101713,
+      101714,
+      101715,
+      109003,
+      109004,
+      109760,
+      109761,
+      109762,
+      109763,
+      109764,
+      109765,
+      109766,
+      109767,
+      109768,
+      110323,
+      110324,
+      110325,
+      110432,
+      110433,
+      110434,
+      110576
+    ],
+    "subtree_nodes": [
+      {
+        "id": 99842,
+        "name": "Deathstalker / Trickster",
+        "type": "subtree",
+        "posX": 8100,
+        "posY": 600,
+        "entryNode": true,
+        "next": [],
+        "prev": [],
+        "entries": [
+          {
+            "id": 123373,
+            "type": "subtree",
+            "name": "Deathstalker",
+            "traitSubTreeId": 53,
+            "traitTreeId": 852,
+            "atlasMemberName": "talents-heroclass-rogue-deathstalker",
+            "nodes": [
+              95136,
+              95110,
+              95132,
+              95117,
+              109762,
+              95135,
+              95108,
+              95109,
+              109761,
+              95106,
+              95131,
+              95123,
+              109760,
+              95142
+            ]
+          },
+          {
+            "id": 123370,
+            "type": "subtree",
+            "name": "Trickster",
+            "traitSubTreeId": 51,
+            "traitTreeId": 852,
+            "atlasMemberName": "talents-heroclass-rogue-trickster",
+            "nodes": [
+              95140,
+              95121,
+              95141,
+              95111,
+              109765,
+              95134,
+              95133,
+              95137,
+              109764,
+              95118,
+              95116,
+              95128,
+              109763,
+              95115
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "source_warnings": [],
   "slug": "rogue-subtlety",
-  "generated_at": "2026-09-21T12:53:37.833010+00:00",
+  "generated_at": "2026-09-21T19:41:57.906773+00:00",
   "validation": {
     "talents": 135,
-    "changed_tooltips": 17,
+    "changed_tooltips": 19,
     "talents_with_pvp_mechanics": 25,
     "unique_nodes": 113,
     "tree_build": "12.1.0.69875",

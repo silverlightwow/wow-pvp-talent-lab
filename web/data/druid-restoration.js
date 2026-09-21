@@ -44,11 +44,13 @@ window.WOW_PVP_DATA = {
           82222
         ],
         "entry_id": 103277,
+        "entry_max_ranks": 1,
         "definition_id": 108282,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Rake",
         "spell_id": 1822,
+        "visible_spell_id": null,
         "icon": "ability_druid_disembowel"
       },
       "pve_tooltip": "35 Energy\nMelee Range\nInstant\nRake the target for (29.1% of Attack Power) Bleed damage and an additional (147% of Attack Power) Bleed damage over 15 sec. [Infected Wounds: Reduces the target's movement speed by 20% for 12 sec]\nAwards 1 combo point.",
@@ -117,7 +119,7 @@ window.WOW_PVP_DATA = {
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 1822,
           "source_spell_id": 155722,
           "effect_index": 1,
@@ -134,7 +136,7 @@ window.WOW_PVP_DATA = {
             155722
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -194,11 +196,13 @@ window.WOW_PVP_DATA = {
           82218
         ],
         "entry_id": 103298,
+        "entry_max_ranks": 1,
         "definition_id": 108303,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Frenzied Regeneration",
         "spell_id": 22842,
+        "visible_spell_id": null,
         "icon": "ability_bullrush"
       },
       "pve_tooltip": "10 Rage\nInstant\n36 sec cooldown\n1 Charge\nHeals you for 24% health over 3 sec.",
@@ -286,11 +290,13 @@ window.WOW_PVP_DATA = {
           104084
         ],
         "entry_id": 103295,
+        "entry_max_ranks": 1,
         "definition_id": 108300,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Rejuvenation",
         "spell_id": 774,
+        "visible_spell_id": null,
         "icon": "spell_nature_rejuvenation"
       },
       "pve_tooltip": "5% of base mana\n40 yd range\nInstant\nHeals the target for (369.6% of Spell Power) over 12 sec. [Germination: You can apply Rejuvenation twice to the same target] [Incarnation: Tree of Life: Tree of Life: Healing increased by 40% and Mana cost reduced by 30%.]",
@@ -397,11 +403,13 @@ window.WOW_PVP_DATA = {
           82208
         ],
         "entry_id": 112967,
+        "entry_max_ranks": 1,
         "definition_id": 117972,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Starfire",
         "spell_id": 197628,
+        "visible_spell_id": null,
         "icon": "spell_arcane_starfire"
       },
       "pve_tooltip": "0.6% of base mana\n40 yd range\n2.5 sec cast\nCall down a burst of energy, causing (93% of Spell Power) Arcane damage to the target, and [(93% of Spell Power) * 70 / 100] Arcane damage to all other enemies within 5 yards. Deals reduced damage beyond 8 targets.",
@@ -533,11 +541,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103318,
+        "entry_max_ranks": 1,
         "definition_id": 108323,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Grievous Wounds",
         "spell_id": 474526,
+        "visible_spell_id": null,
         "icon": "ability_xavius_tormentingswipe"
       },
       "pve_tooltip": "Rake, Rip, and Thrash damage increased by 10%.",
@@ -590,11 +600,13 @@ window.WOW_PVP_DATA = {
           82225
         ],
         "entry_id": 103301,
+        "entry_max_ranks": 1,
         "definition_id": 108306,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Swipe",
         "spell_id": 213764,
+        "visible_spell_id": null,
         "icon": "inv_misc_monsterclaw_03"
       },
       "pve_tooltip": "8 yd range\nInstant\nSwipe nearby enemies, inflicting Physical damage. Damage varies by shapeshift form.",
@@ -648,11 +660,13 @@ window.WOW_PVP_DATA = {
           104085
         ],
         "entry_id": 103297,
+        "entry_max_ranks": 1,
         "definition_id": 108302,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ursoc's Spirit",
         "spell_id": 449182,
+        "visible_spell_id": null,
         "icon": "spell_nature_spiritarmor"
       },
       "pve_tooltip": "Stamina increased by 4%.\nStamina in Bear Form is increased by an additional 5%.",
@@ -703,11 +717,13 @@ window.WOW_PVP_DATA = {
           82214
         ],
         "entry_id": 103283,
+        "entry_max_ranks": 1,
         "definition_id": 108288,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Wild Growth",
         "spell_id": 48438,
+        "visible_spell_id": null,
         "icon": "ability_druid_flourish"
       },
       "pve_tooltip": "15% of base mana\n40 yd range\n1.5 sec cast\n10 sec cooldown\nHeals up to 5 injured allies within 30 yards of the target for (336.7% of Spell Power) over 7 sec. Healing starts high and declines over the duration. [Incarnation: Tree of Life: Tree of Life: Affects 2 additional targets.]",
@@ -811,11 +827,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103278,
+        "entry_max_ranks": 1,
         "definition_id": 108283,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Starsurge",
         "spell_id": 197626,
+        "visible_spell_id": null,
         "icon": "spell_arcane_arcane03"
       },
       "pve_tooltip": "0.6% of base mana\n40 yd range\nInstant\n10 sec cooldown\nLaunch a surge of stellar energies at the target, dealing (210.1% of Spell Power) Astral damage.",
@@ -922,11 +940,13 @@ window.WOW_PVP_DATA = {
           82221
         ],
         "entry_id": 103300,
+        "entry_max_ranks": 1,
         "definition_id": 108305,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Rip",
         "spell_id": 1079,
+        "visible_spell_id": null,
         "icon": "ability_ghoulfrenzy"
       },
       "pve_tooltip": "20 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\nFinishing move that causes Bleed damage over time. Lasts longer per combo point.\n1 point : [(62.26% of Attack Power) * 2 / 6] over 1 sec\n2 points: [(62.26% of Attack Power) * 3 / 6] over 2 sec\n3 points: [(62.26% of Attack Power) * 4 / 6] over 3 sec\n4 points: [(62.26% of Attack Power) * 5 / 6] over 3 sec\n5 points: [(62.26% of Attack Power) * 6 / 6] over 4 sec",
@@ -1114,11 +1134,13 @@ window.WOW_PVP_DATA = {
           104085
         ],
         "entry_id": 103296,
+        "entry_max_ranks": 1,
         "definition_id": 108301,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Verdant Heart",
         "spell_id": 301768,
+        "visible_spell_id": null,
         "icon": "ability_bullrush"
       },
       "pve_tooltip": "Frenzied Regeneration and Barkskin increase all healing received by 20%.",
@@ -1172,11 +1194,13 @@ window.WOW_PVP_DATA = {
           82214
         ],
         "entry_id": 128590,
+        "entry_max_ranks": 1,
         "definition_id": 133393,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Nature's Cure",
         "spell_id": 392378,
+        "visible_spell_id": null,
         "icon": "ability_shaman_cleansespirit"
       },
       "pve_tooltip": "Nature's Cure additionally removes all Curse and Poison effects.",
@@ -1228,11 +1252,13 @@ window.WOW_PVP_DATA = {
           93714
         ],
         "entry_id": 103286,
+        "entry_max_ranks": 1,
         "definition_id": 108291,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Moonkin Form",
         "spell_id": 24858,
+        "visible_spell_id": null,
         "icon": "spell_nature_forceofnature"
       },
       "pve_tooltip": "Instant\nShapeshift into [Glyph of Stars: Astral Form / Moonkin Form], increasing the damage of your spells by 10% and your armor by 125%, and granting protection from Polymorph effects.\nThe act of shapeshifting frees you from movement impairing effects.",
@@ -1249,7 +1275,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 24858,
           "source_spell_id": 191037,
           "effect_index": 1,
-          "effect_text": "School Damage (2): astral (SP mod: 0.27)",
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 0.27)",
           "base_value": null,
           "spell_pvp_multiplier": 0.833,
           "amount_kind": "direct",
@@ -1270,8 +1296,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -1315,11 +1342,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103299,
+        "entry_max_ranks": 1,
         "definition_id": 108304,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Maim",
         "spell_id": 22570,
+        "visible_spell_id": null,
         "icon": "ability_druid_mangle.tga"
       },
       "pve_tooltip": "30 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\n30 sec cooldown\nFinishing move that causes Physical damage and stuns the target. Damage and duration increased per combo point:\n1 point : [(14.4% of Attack Power)] damage, 1 sec\n2 points: [(14.4% of Attack Power) * 2] damage, 2 sec\n3 points: [(14.4% of Attack Power) * 3] damage, 3 sec\n4 points: [(14.4% of Attack Power) * 4] damage, 4 sec\n5 points: [(14.4% of Attack Power) * 5] damage, 5 sec",
@@ -1374,11 +1403,13 @@ window.WOW_PVP_DATA = {
           82198
         ],
         "entry_id": 103303,
+        "entry_max_ranks": 2,
         "definition_id": 108308,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Killer Instinct",
         "spell_id": 108299,
+        "visible_spell_id": null,
         "icon": "ability_druid_predatoryinstincts"
       },
       "pve_tooltip": "Physical damage and Armor increased by 6%.",
@@ -1396,6 +1427,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Physical damage and Armor increased by 3%.",
           "pvp_tooltip": "Physical damage and Armor increased by 3%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -1404,6 +1436,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Physical damage and Armor increased by 6%.",
           "pvp_tooltip": "Physical damage and Armor increased by 6%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -1444,11 +1477,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103305,
+        "entry_max_ranks": 1,
         "definition_id": 108310,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Ironfur",
         "spell_id": 192081,
+        "visible_spell_id": null,
         "icon": "ability_druid_ironfur"
       },
       "pve_tooltip": "40 Rage\nInstant\n0.5 sec cooldown\nIncreases armor by (124 / Master Shapeshifter: 161 / Reinforced Fur: 139 * Agility / 100) for 7 sec.",
@@ -1502,11 +1537,13 @@ window.WOW_PVP_DATA = {
           82206
         ],
         "entry_id": 128591,
+        "entry_max_ranks": 1,
         "definition_id": 133394,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Barkskin",
         "spell_id": 327993,
+        "visible_spell_id": null,
         "icon": "spell_nature_stoneclawtotem"
       },
       "pve_tooltip": "Barkskin's duration is increased by 4 sec.",
@@ -1557,11 +1594,13 @@ window.WOW_PVP_DATA = {
           82206
         ],
         "entry_id": 103289,
+        "entry_max_ranks": 1,
         "definition_id": 108294,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Hibernate",
         "spell_id": 2637,
+        "visible_spell_id": null,
         "icon": "spell_nature_sleep"
       },
       "pve_tooltip": "1.2% of base mana\n30 yd range\n1.5 sec cast\nForces the enemy target to sleep for up to 40 sec. Any damage will awaken the target. Only one target can be forced to hibernate at a time. Only works on Beasts and Dragonkin.",
@@ -1616,11 +1655,13 @@ window.WOW_PVP_DATA = {
           82232
         ],
         "entry_id": 103292,
+        "entry_max_ranks": 2,
         "definition_id": 108297,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Nurturing Instinct",
         "spell_id": 33873,
+        "visible_spell_id": null,
         "icon": "ability_druid_healinginstincts"
       },
       "pve_tooltip": "Magical damage and healing increased by 6%.",
@@ -1638,6 +1679,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Magical damage and healing increased by 3%.",
           "pvp_tooltip": "Magical damage and healing increased by 3%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -1646,6 +1688,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Magical damage and healing increased by 6%.",
           "pvp_tooltip": "Magical damage and healing increased by 6%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -1688,11 +1731,13 @@ window.WOW_PVP_DATA = {
           100223
         ],
         "entry_id": 116102,
+        "entry_max_ranks": 1,
         "definition_id": 121114,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Sunfire",
         "spell_id": 93402,
+        "visible_spell_id": null,
         "icon": "ability_mage_firestarter"
       },
       "pve_tooltip": "1.8% of base mana\n40 yd range\nInstant\nA quick beam of solar light burns the enemy for (21.2% of Spell Power) Nature damage and then an additional (165.6% of Spell Power) Nature damage over 18 sec.",
@@ -1729,47 +1774,8 @@ window.WOW_PVP_DATA = {
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 93402,
           "source_spell_id": 164815,
-          "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Periodic Damage (3): nature every 2 seconds (SP mod: 0.184)",
-          "base_value": null,
-          "spell_pvp_multiplier": 1.33,
-          "amount_kind": "periodic",
-          "aura_factor": 0.9299999999999999,
-          "final_pvp_multiplier": 1.2368999999999999,
-          "final_pvp_value": null,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            93402,
-            164815
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [
-            {
-              "aura_spell_id": 1256995,
-              "game_effect_id": 1266739,
-              "amount_kind": "periodic",
-              "value_pct": -7.0,
-              "factor": 0.9299999999999999,
-              "label_id": null,
-              "build": "12.1.0.69587"
-            }
-          ],
-          "sources": [
-            "simc",
-            "drustvar"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 93402,
-          "source_spell_id": 164815,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature (SP mod: 0.212)",
+          "effect_text": "School Damage (Nature) (SP mod: 0.212)",
           "base_value": null,
           "spell_pvp_multiplier": 1.33,
           "amount_kind": "direct",
@@ -1796,8 +1802,49 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        },
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "REFERENCED",
+          "talent_spell_id": 93402,
+          "source_spell_id": 164815,
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Periodic Damage",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.33,
+          "amount_kind": "periodic",
+          "aura_factor": 0.9299999999999999,
+          "final_pvp_multiplier": 1.2368999999999999,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            93402,
+            164815
+          ],
+          "dependency_relations": [
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1256995,
+              "game_effect_id": 1266739,
+              "amount_kind": "periodic",
+              "value_pct": -7.0,
+              "factor": 0.9299999999999999,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -1841,11 +1888,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103302,
+        "entry_max_ranks": 1,
         "definition_id": 108307,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Primal Fury",
         "spell_id": 159286,
+        "visible_spell_id": null,
         "icon": "ability_racial_cannibalize"
       },
       "pve_tooltip": "While in Cat Form, when you critically strike with an attack that generates a combo point, you gain an additional combo point. Damage over time cannot trigger this effect.\nMangle critical strike damage increased by 20%.\n(100ms cooldown)",
@@ -1899,11 +1948,13 @@ window.WOW_PVP_DATA = {
           100177
         ],
         "entry_id": 103306,
+        "entry_max_ranks": 1,
         "definition_id": 108311,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Thick Hide",
         "spell_id": 16931,
+        "visible_spell_id": null,
         "icon": "inv_misc_pelt_bear_03"
       },
       "pve_tooltip": "Reduces all damage taken by 4%.",
@@ -1958,11 +2009,13 @@ window.WOW_PVP_DATA = {
           82240
         ],
         "entry_id": 103284,
+        "entry_max_ranks": 1,
         "definition_id": 108289,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Natural Recovery",
         "spell_id": 377796,
+        "visible_spell_id": null,
         "icon": "ability_druid_naturalperfection"
       },
       "pve_tooltip": "Healing you receive is increased by 4%.",
@@ -2013,11 +2066,13 @@ window.WOW_PVP_DATA = {
           100223
         ],
         "entry_id": 103288,
+        "entry_max_ranks": 1,
         "definition_id": 108293,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Astral Influence",
         "spell_id": 197524,
+        "visible_spell_id": null,
         "icon": "ability_skyreach_lens_flare"
       },
       "pve_tooltip": "Increases the range of all of your spells by 5 yards.",
@@ -2071,11 +2126,13 @@ window.WOW_PVP_DATA = {
           100177
         ],
         "entry_id": 103276,
+        "entry_max_ranks": 1,
         "definition_id": 108281,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Wild Charge",
         "spell_id": 102401,
+        "visible_spell_id": null,
         "icon": "spell_druid_wildcharge"
       },
       "pve_tooltip": "5 - 25 yd range\nInstant\n15 sec cooldown\nFly to a nearby ally's position.",
@@ -2129,11 +2186,13 @@ window.WOW_PVP_DATA = {
           100177
         ],
         "entry_id": 103275,
+        "entry_max_ranks": 1,
         "definition_id": 108280,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Tiger Dash",
         "spell_id": 252216,
+        "visible_spell_id": null,
         "icon": "ability_druid_dash_orange"
       },
       "pve_tooltip": "Instant\n45 sec cooldown\nShift into Cat Form and increase your movement speed by 200%, reducing gradually over 5 sec.",
@@ -2185,11 +2244,13 @@ window.WOW_PVP_DATA = {
           82234
         ],
         "entry_id": 103307,
+        "entry_max_ranks": 1,
         "definition_id": 108312,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Soothe",
         "spell_id": 2908,
+        "visible_spell_id": null,
         "icon": "ability_hunter_beastsoothe"
       },
       "pve_tooltip": "1.12% of base mana\n40 yd range\nInstant\n10 sec cooldown\nSoothes the target, dispelling all enrage effects.",
@@ -2241,11 +2302,13 @@ window.WOW_PVP_DATA = {
           82234
         ],
         "entry_id": 128587,
+        "entry_max_ranks": 1,
         "definition_id": 133390,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Cyclone",
         "spell_id": 33786,
+        "visible_spell_id": null,
         "icon": "spell_nature_earthbind"
       },
       "pve_tooltip": "1.2% of base mana\n20 yd range\n1.7 sec cast\nTosses the enemy target into the air, disorienting them but making them invulnerable for up to 5 sec. Only one target can be affected by your Cyclone at a time.",
@@ -2299,11 +2362,13 @@ window.WOW_PVP_DATA = {
           82207
         ],
         "entry_id": 128581,
+        "entry_max_ranks": 1,
         "definition_id": 133384,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Aessina's Renewal",
         "spell_id": 474678,
+        "visible_spell_id": null,
         "icon": "spell_nature_healingtouch"
       },
       "pve_tooltip": "When a hit deals more than 12% of your maximum health, instantly heal for 10% of your health.\nThis effect cannot occur more than once every 30 seconds.\n(30s cooldown)",
@@ -2353,11 +2418,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 123868,
+        "entry_max_ranks": 1,
         "definition_id": 128706,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Starlight Conduit",
         "spell_id": 451211,
+        "visible_spell_id": null,
         "icon": "spell_arcane_arcane01"
       },
       "pve_tooltip": "Wrath, Starsurge, and Starfire damage increased by 5%.\nStarsurge's cooldown is reduced by 4 sec and its mana cost is reduced by 50%.",
@@ -2408,11 +2475,13 @@ window.WOW_PVP_DATA = {
           100176
         ],
         "entry_id": 103314,
+        "entry_max_ranks": 1,
         "definition_id": 108319,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Feline Swiftness",
         "spell_id": 131768,
+        "visible_spell_id": null,
         "icon": "ability_druid_dash"
       },
       "pve_tooltip": "Increases your movement speed by 15%.",
@@ -2464,11 +2533,13 @@ window.WOW_PVP_DATA = {
           104082
         ],
         "entry_id": 103313,
+        "entry_max_ranks": 1,
         "definition_id": 108318,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Well-Honed Instincts",
         "spell_id": 377847,
+        "visible_spell_id": null,
         "icon": "ability_druid_tigersroar"
       },
       "pve_tooltip": "When you fall below 40% health, you cast Frenzied Regeneration, up to once every 120 sec.",
@@ -2518,11 +2589,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 123796,
+        "entry_max_ranks": 2,
         "definition_id": 128634,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Matted Fur",
         "spell_id": 385786,
+        "visible_spell_id": null,
         "icon": "inv_misc_pelt_15"
       },
       "pve_tooltip": "When you use Barkskin or Survival Instincts, absorb [3750 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
@@ -2540,6 +2613,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "When you use Barkskin or Survival Instincts, absorb [1875 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
           "pvp_tooltip": "When you use Barkskin or Survival Instincts, absorb [1875 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2548,6 +2622,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "When you use Barkskin or Survival Instincts, absorb [3750 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
           "pvp_tooltip": "When you use Barkskin or Survival Instincts, absorb [3750 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2592,11 +2667,13 @@ window.WOW_PVP_DATA = {
           104080
         ],
         "entry_id": 103312,
+        "entry_max_ranks": 1,
         "definition_id": 108317,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Stampeding Roar",
         "spell_id": 106898,
+        "visible_spell_id": null,
         "icon": "spell_druid_stampedingroar_cat"
       },
       "pve_tooltip": "10 yd range\nInstant\n2 min cooldown\nShift into Bear Form and let loose a wild roar, increasing the movement speed of all friendly players within 15 yards by 60% for 8 sec.",
@@ -2646,11 +2723,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103319,
+        "entry_max_ranks": 1,
         "definition_id": 108324,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lingering Healing",
         "spell_id": 231040,
+        "visible_spell_id": null,
         "icon": "spell_nature_rejuvenation"
       },
       "pve_tooltip": "Rejuvenation's duration is increased by 3 sec.\nRegrowth's duration is increased by 3 sec when cast on yourself.",
@@ -2702,24 +2781,47 @@ window.WOW_PVP_DATA = {
           100175
         ],
         "entry_id": 103287,
+        "entry_max_ranks": 1,
         "definition_id": 108292,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Typhoon",
         "spell_id": 132469,
+        "visible_spell_id": null,
         "icon": "ability_druid_typhoon"
       },
       "pve_tooltip": "15 yd range\nInstant\n30 sec cooldown\nBlasts targets within 15 yards in front of you with a violent Typhoon, knocking them back and reducing their movement speed by 50% for 6 sec. Usable in all shapeshift forms.",
-      "pvp_tooltip": "15 yd range\nInstant\n30 sec cooldown\nBlasts targets within 15 yards in front of you with a violent Typhoon, knocking them back and reducing their movement speed by 50% for 6 sec. Usable in all shapeshift forms.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "15 yd range\nInstant\n30 sec cooldown\nBlasts targets within 15 yards in front of you with a violent Typhoon, knocking them back and reducing their movement speed by 30% for 6 sec. Usable in all shapeshift forms.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 163,
+          "end": 165,
+          "old_token": "50",
+          "new_token": "30",
+          "kind": "percent_value",
+          "effect_indexes": [
+            3
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "50",
+          "new": "30"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 132469,
           "source_spell_id": 61391,
           "effect_index": 3,
@@ -2736,7 +2838,7 @@ window.WOW_PVP_DATA = {
             61391
           ],
           "dependency_relations": [
-            "triggered_by_reverse"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -2748,7 +2850,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -2788,11 +2890,13 @@ window.WOW_PVP_DATA = {
           100175
         ],
         "entry_id": 103285,
+        "entry_max_ranks": 1,
         "definition_id": 108290,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Mass Entanglement",
         "spell_id": 102359,
+        "visible_spell_id": null,
         "icon": "spell_druid_massentanglement"
       },
       "pve_tooltip": "30 yd range\nInstant\n30 sec cooldown\nRoots the target and all enemies within 12 yards in place for 10 sec. Damage may interrupt the effect. Usable in all shapeshift forms.",
@@ -2843,11 +2947,13 @@ window.WOW_PVP_DATA = {
           100175
         ],
         "entry_id": 128589,
+        "entry_max_ranks": 1,
         "definition_id": 133392,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Ursol's Vortex",
         "spell_id": 102793,
+        "visible_spell_id": null,
         "icon": "spell_druid_ursolsvortex"
       },
       "pve_tooltip": "30 yd range\nInstant\n1 min cooldown\nConjures a vortex of wind for 10 sec at the destination, reducing the movement speed of all enemies within 8 yards by 50%. The first time an enemy attempts to leave the vortex, winds will pull that enemy back to its center. Usable in all shapeshift forms.",
@@ -2901,11 +3007,13 @@ window.WOW_PVP_DATA = {
           82246
         ],
         "entry_id": 123795,
+        "entry_max_ranks": 1,
         "definition_id": 128633,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Oakskin",
         "spell_id": 449191,
+        "visible_spell_id": null,
         "icon": "spell_nature_stoneclawtotem"
       },
       "pve_tooltip": "Survival Instincts and Barkskin reduce damage taken by an additional 10%.",
@@ -2954,11 +3062,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 128586,
+        "entry_max_ranks": 1,
         "definition_id": 133389,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Perfectly-Honed Instincts",
         "spell_id": 1213597,
+        "visible_spell_id": null,
         "icon": "ability_druid_tigersroar"
       },
       "pve_tooltip": "Well-Honed Instincts can trigger up to once every 90 sec.",
@@ -3007,11 +3117,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 128585,
+        "entry_max_ranks": 1,
         "definition_id": 133388,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Instincts of the Claw",
         "spell_id": 449184,
+        "visible_spell_id": null,
         "icon": "spell_shadow_vampiricaura"
       },
       "pve_tooltip": "Ferocious Bite and Maul damage increased by 8%.",
@@ -3064,11 +3176,13 @@ window.WOW_PVP_DATA = {
           92229
         ],
         "entry_id": 103311,
+        "entry_max_ranks": 2,
         "definition_id": 108316,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lycara's Teachings",
         "spell_id": 378988,
+        "visible_spell_id": null,
         "icon": "inv_trinket_ardenweald_02_green"
       },
       "pve_tooltip": "You gain 6% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
@@ -3086,6 +3200,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "You gain 3% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
           "pvp_tooltip": "You gain 3% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -3094,6 +3209,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "You gain 6% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
           "pvp_tooltip": "You gain 6% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -3134,11 +3250,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 128584,
+        "entry_max_ranks": 1,
         "definition_id": 133387,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lore of the Grove",
         "spell_id": 449185,
+        "visible_spell_id": null,
         "icon": "spell_nature_starfall"
       },
       "pve_tooltip": "Moonfire and Sunfire damage increased by 10%.",
@@ -3187,11 +3305,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 128583,
+        "entry_max_ranks": 1,
         "definition_id": 133386,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Gale Winds",
         "spell_id": 400142,
+        "visible_spell_id": null,
         "icon": "ability_druid_galewinds"
       },
       "pve_tooltip": "Increases Typhoon's radius by 20% and its range by 5 yds.",
@@ -3240,11 +3360,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 128582,
+        "entry_max_ranks": 1,
         "definition_id": 133385,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Incessant Tempest",
         "spell_id": 400140,
+        "visible_spell_id": null,
         "icon": "ability_skyreach_wind"
       },
       "pve_tooltip": "Reduces the cooldown of Typhoon by 5 sec.",
@@ -3298,11 +3420,13 @@ window.WOW_PVP_DATA = {
           82244
         ],
         "entry_id": 123794,
+        "entry_max_ranks": 1,
         "definition_id": 128632,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Gift of the Wild",
         "spell_id": 1262034,
+        "visible_spell_id": null,
         "icon": "spell_nature_giftofthewild"
       },
       "pve_tooltip": "Mark of the Wild is 100% more effective on yourself.",
@@ -3351,11 +3475,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103316,
+        "entry_max_ranks": 1,
         "definition_id": 108321,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Incapacitating Roar",
         "spell_id": 99,
+        "visible_spell_id": null,
         "icon": "ability_druid_demoralizingroar"
       },
       "pve_tooltip": "Instant\n30 sec cooldown\nShift into Bear Form and invoke the spirit of Ursol to let loose a deafening roar, incapacitating all enemies within 10 yards for 3 sec. Damage may cancel the effect.",
@@ -3404,11 +3530,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103315,
+        "entry_max_ranks": 1,
         "definition_id": 108320,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Mighty Bash",
         "spell_id": 5211,
+        "visible_spell_id": null,
         "icon": "ability_druid_bash"
       },
       "pve_tooltip": "Melee Range\nInstant\n1 min cooldown\nInvokes the spirit of Ursoc to stun the target for 4 sec. Usable in all shapeshift forms.",
@@ -3457,11 +3585,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 123793,
+        "entry_max_ranks": 1,
         "definition_id": 128631,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ursine Vigor",
         "spell_id": 377842,
+        "visible_spell_id": null,
         "icon": "ability_druid_markofursol"
       },
       "pve_tooltip": "For 4 sec after shifting into Bear Form, your health and armor are increased by 15%.",
@@ -3512,11 +3642,13 @@ window.WOW_PVP_DATA = {
           82231
         ],
         "entry_id": 103308,
+        "entry_max_ranks": 1,
         "definition_id": 108313,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Stampeding Roar",
         "spell_id": 288826,
+        "visible_spell_id": null,
         "icon": "spell_druid_stamedingroar"
       },
       "pve_tooltip": "Stampeding Roar's cooldown is reduced by 60 sec.",
@@ -3567,11 +3699,13 @@ window.WOW_PVP_DATA = {
           82231
         ],
         "entry_id": 128580,
+        "entry_max_ranks": 1,
         "definition_id": 133383,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Circle of the Wild",
         "spell_id": 474530,
+        "visible_spell_id": null,
         "icon": "ability_druid_disembowel"
       },
       "pve_tooltip": "Physical damage dealt by your abilities increased by 25%.",
@@ -3622,11 +3756,13 @@ window.WOW_PVP_DATA = {
           82231
         ],
         "entry_id": 128579,
+        "entry_max_ranks": 1,
         "definition_id": 133382,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Circle of the Heavens",
         "spell_id": 474541,
+        "visible_spell_id": null,
         "icon": "spell_druid_equinox"
       },
       "pve_tooltip": "Magical damage dealt by your spells increased by 25%.",
@@ -3677,11 +3813,13 @@ window.WOW_PVP_DATA = {
           82231
         ],
         "entry_id": 114300,
+        "entry_max_ranks": 1,
         "definition_id": 119305,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lycara's Inspiration",
         "spell_id": 1232897,
+        "visible_spell_id": null,
         "icon": "inv_trinket_ardenweald_02_yellow"
       },
       "pve_tooltip": "You gain a bonus while in each form inspired by the breadth of your Druidic knowledge:\nNo Form: 4% Magic Damage\nCat Form: 4% Stamina\nBear Form: 5% Movement Speed\nMoonkin Form: 3% Area damage taken reduction",
@@ -3730,11 +3868,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 123792,
+        "entry_max_ranks": 1,
         "definition_id": 128630,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Symbiotic Relationship",
         "spell_id": 474750,
+        "visible_spell_id": null,
         "icon": "ability_druid_focusedgrowth"
       },
       "pve_tooltip": "2% of base mana\n40 yd range\n1.5 sec cast\nForm a bond with an ally. Your self-healing also heals your bonded ally for 10% of the amount healed. Your healing to your bonded ally also heals you for 8% of the amount healed.",
@@ -3783,11 +3923,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103323,
+        "entry_max_ranks": 2,
         "definition_id": 108328,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Forestwalk",
         "spell_id": 400129,
+        "visible_spell_id": null,
         "icon": "spell_lifegivingspeed"
       },
       "pve_tooltip": "Casting Regrowth increases your movement speed and healing received by 16% for 6 sec.\n(1s cooldown)",
@@ -3805,6 +3947,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Casting Regrowth increases your movement speed and healing received by 8% for 6 sec.\n(1s cooldown)",
           "pvp_tooltip": "Casting Regrowth increases your movement speed and healing received by 8% for 6 sec.\n(1s cooldown)",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -3813,6 +3956,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Casting Regrowth increases your movement speed and healing received by 16% for 6 sec.\n(1s cooldown)",
           "pvp_tooltip": "Casting Regrowth increases your movement speed and healing received by 16% for 6 sec.\n(1s cooldown)",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -3853,11 +3997,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103326,
+        "entry_max_ranks": 1,
         "definition_id": 108331,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fluid Form",
         "spell_id": 449193,
+        "visible_spell_id": null,
         "icon": "ability_druid_mastershapeshifter"
       },
       "pve_tooltip": "Shred, Rake, and Skull Bash can be used in any form and shift you into Cat Form, if necessary.\nMangle can be used in any form and shifts you into Bear Form.\nWrath and Starfire shift you into Moonkin Form, if known.",
@@ -3908,12 +4054,14 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103309,
+        "entry_max_ranks": 1,
         "definition_id": 108314,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Heart of the Wild",
         "spell_id": 1261867,
-        "icon": "spell_holy_blessingofagility"
+        "visible_spell_id": null,
+        "icon": "inv12_ability_druid_flourish_empowered"
       },
       "pve_tooltip": "40 yd range\nInstant\n2 min cooldown\nPerform a powerful off-role ability depending on your currently active shapeshift form.",
       "pvp_tooltip": "40 yd range\nInstant\n2 min cooldown\nPerform a powerful off-role ability depending on your currently active shapeshift form.",
@@ -3940,7 +4088,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1261867,
           "source_spell_id": 191037,
           "effect_index": 1,
-          "effect_text": "School Damage (2): astral (SP mod: 0.27)",
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 0.27)",
           "base_value": null,
           "spell_pvp_multiplier": 0.833,
           "amount_kind": "direct",
@@ -3957,8 +4105,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -4002,11 +4151,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103324,
+        "entry_max_ranks": 1,
         "definition_id": 108329,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Innervate",
         "spell_id": 29166,
+        "visible_spell_id": null,
         "icon": "spell_nature_lightning"
       },
       "pve_tooltip": "40 yd range\nInstant\n3 min cooldown\nInfuse a friendly healer with energy, causing them to regenerate 20% of their maximum mana over 8 sec.",
@@ -4094,11 +4245,13 @@ window.WOW_PVP_DATA = {
           104125
         ],
         "entry_id": 103100,
+        "entry_max_ranks": 1,
         "definition_id": 108105,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Lifebloom",
         "spell_id": 33763,
+        "visible_spell_id": null,
         "icon": "inv_misc_herb_felblossom"
       },
       "pve_tooltip": "1.28% of base mana\n40 yd range\nInstant\nHeals the target for (402.6% of Spell Power) over 15 sec. When Lifebloom expires, is dispelled, or is refreshed near expiration the target is instantly healed for (218.868% of Spell Power).\nMay be active on one target at a time.",
@@ -4263,11 +4416,13 @@ window.WOW_PVP_DATA = {
           82079
         ],
         "entry_id": 103098,
+        "entry_max_ranks": 1,
         "definition_id": 108103,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Swiftmend",
         "spell_id": 18562,
+        "visible_spell_id": null,
         "icon": "inv_relics_idolofrejuvenation"
       },
       "pve_tooltip": "10% of base mana\n40 yd range\nInstant\n15 sec cooldown\n1 Charge\n[Verdant Infusion: Utilize / Consume] a Regrowth, Wild Growth, or Rejuvenation effect to instantly heal an ally for (1037% of Spell Power). Healing is increased by 40% of the [Verdant Infusion: utilized / consumed] heal over time effect.",
@@ -4373,11 +4528,13 @@ window.WOW_PVP_DATA = {
           82051
         ],
         "entry_id": 103101,
+        "entry_max_ranks": 1,
         "definition_id": 108106,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Nature's Swiftness",
         "spell_id": 132158,
+        "visible_spell_id": null,
         "icon": "spell_nature_ravenform"
       },
       "pve_tooltip": "Instant\n1 min cooldown\nYour next Regrowth, Rebirth, [Ancient of Lore: Ancient of Lore]or Entangling Roots is instant, free, castable in all forms, and heals for an additional 60%.",
@@ -4428,11 +4585,13 @@ window.WOW_PVP_DATA = {
           82083
         ],
         "entry_id": 128707,
+        "entry_max_ranks": 1,
         "definition_id": 133509,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Omen of Clarity",
         "spell_id": 113043,
+        "visible_spell_id": null,
         "icon": "spell_nature_crystalball"
       },
       "pve_tooltip": "Your healing over time from Lifebloom has a 4% chance to cause a Clearcasting state, making your next Regrowth cost no mana.",
@@ -4484,11 +4643,13 @@ window.WOW_PVP_DATA = {
           82057
         ],
         "entry_id": 137508,
+        "entry_max_ranks": 1,
         "definition_id": 142268,
         "entry_index": 300,
         "entry_type": "passive",
         "talent_name": "Verdant Infusion",
         "spell_id": 392410,
+        "visible_spell_id": null,
         "icon": "inv_relics_totemoflife"
       },
       "pve_tooltip": "Swiftmend no longer consumes a heal over time effect.",
@@ -4577,11 +4738,13 @@ window.WOW_PVP_DATA = {
           82057
         ],
         "entry_id": 137507,
+        "entry_max_ranks": 1,
         "definition_id": 142267,
         "entry_index": 400,
         "entry_type": "passive",
         "talent_name": "Prosperity",
         "spell_id": 200383,
+        "visible_spell_id": null,
         "icon": "ability_druid_giftoftheearthmother"
       },
       "pve_tooltip": "Swiftmend now has 2 charges.",
@@ -4633,11 +4796,13 @@ window.WOW_PVP_DATA = {
           92674
         ],
         "entry_id": 103103,
+        "entry_max_ranks": 1,
         "definition_id": 108108,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Overgrowth",
         "spell_id": 203651,
+        "visible_spell_id": null,
         "icon": "ability_druid_overgrowth"
       },
       "pve_tooltip": "Nature's Swiftness causes your next Regrowth to apply Lifebloom, Rejuvenation, and Wild Growth effects to an ally.",
@@ -4689,11 +4854,13 @@ window.WOW_PVP_DATA = {
           92674
         ],
         "entry_id": 103102,
+        "entry_max_ranks": 1,
         "definition_id": 108107,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Passing Seasons",
         "spell_id": 382550,
+        "visible_spell_id": null,
         "icon": "spell_nature_ravenform"
       },
       "pve_tooltip": "Nature's Swiftness's cooldown is reduced by 15 sec.",
@@ -4745,11 +4912,13 @@ window.WOW_PVP_DATA = {
           82082
         ],
         "entry_id": 103142,
+        "entry_max_ranks": 1,
         "definition_id": 108147,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Regrowth",
         "spell_id": 231032,
+        "visible_spell_id": null,
         "icon": "spell_nature_resistnature"
       },
       "pve_tooltip": "Regrowth's initial heal has a 40% increased chance for a critical effect if the target is already affected by Regrowth.",
@@ -4802,11 +4971,13 @@ window.WOW_PVP_DATA = {
           82054
         ],
         "entry_id": 103109,
+        "entry_max_ranks": 1,
         "definition_id": 108114,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Soul of the Forest",
         "spell_id": 158478,
+        "visible_spell_id": null,
         "icon": "ability_druid_manatree"
       },
       "pve_tooltip": "Swiftmend increases the healing of your next Regrowth or Rejuvenation by 60% [Power of the Archdruid: and they apply to 2 additional targets within 20 yards / .]",
@@ -4859,11 +5030,13 @@ window.WOW_PVP_DATA = {
           82082
         ],
         "entry_id": 114808,
+        "entry_max_ranks": 1,
         "definition_id": 119815,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Tranquil Mind",
         "spell_id": 403521,
+        "visible_spell_id": null,
         "icon": "ability_druid_serenefocus"
       },
       "pve_tooltip": "Increases Omen of Clarity's chance to activate Clearcasting to 5% and Clearcasting can stack 1 additional time.",
@@ -4917,11 +5090,13 @@ window.WOW_PVP_DATA = {
           103874
         ],
         "entry_id": 103111,
+        "entry_max_ranks": 1,
         "definition_id": 108116,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Efflorescence",
         "spell_id": 145205,
+        "visible_spell_id": null,
         "icon": "inv_misc_herb_talandrasrose"
       },
       "pve_tooltip": "3.4% of base mana\n40 yd range\nInstant\nGrows a healing blossom at the target location, restoring (58.56% of Spell Power) health to three injured allies within 10 yards every 2 sec for 30 sec. Limit 1.",
@@ -5033,24 +5208,47 @@ window.WOW_PVP_DATA = {
           82053
         ],
         "entry_id": 103108,
+        "entry_max_ranks": 1,
         "definition_id": 108113,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Tranquility",
         "spell_id": 740,
+        "visible_spell_id": null,
         "icon": "spell_nature_tranquility"
       },
       "pve_tooltip": "3.68% of base mana\nChanneled (6 sec cast)\n3 min cooldown\nHeals all allies within 40 yards for [5 * (1019.92% of Spell Power)] over 6 sec. [Flourish: Extends the duration of all your heal over time effects by 2 sec every 1 sec] Healing decreased beyond 5 targets.\nRoots form around you while channeling, absorbing up to 60% of your health in damage and preventing knockbacks.",
-      "pvp_tooltip": "3.68% of base mana\nChanneled (6 sec cast)\n3 min cooldown\nHeals all allies within 40 yards for [5 * (1019.92% of Spell Power)] over 6 sec. [Flourish: Extends the duration of all your heal over time effects by 2 sec every 1 sec] Healing decreased beyond 5 targets.\nRoots form around you while channeling, absorbing up to 60% of your health in damage and preventing knockbacks.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "3.68% of base mana\nChanneled (6 sec cast)\n3 min cooldown\nHeals all allies within 40 yards for [5 * (1286.1191% of Spell Power)] over 6 sec. [Flourish: Extends the duration of all your heal over time effects by 2 sec every 1 sec] Healing decreased beyond 5 targets.\nRoots form around you while channeling, absorbing up to 60% of your health in damage and preventing knockbacks.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 100,
+          "end": 107,
+          "old_token": "1019.92",
+          "new_token": "1286.1191",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "1019.92",
+          "new": "1286.1191"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 740,
           "source_spell_id": 157982,
           "effect_index": 1,
@@ -5067,7 +5265,7 @@ window.WOW_PVP_DATA = {
             157982
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -5089,7 +5287,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -5132,11 +5330,13 @@ window.WOW_PVP_DATA = {
           82081
         ],
         "entry_id": 103141,
+        "entry_max_ranks": 1,
         "definition_id": 108146,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Ironbark",
         "spell_id": 102342,
+        "visible_spell_id": null,
         "icon": "spell_druid_ironbark"
       },
       "pve_tooltip": "40 yd range\nInstant\n1.5 min cooldown\nThe target's skin becomes as tough as Ironwood, reducing damage taken by 20% for 12 sec.\nAllies protected by your Ironbark also receive 75% of the healing from each of your active Rejuvenations.",
@@ -5189,11 +5389,13 @@ window.WOW_PVP_DATA = {
           82062
         ],
         "entry_id": 103113,
+        "entry_max_ranks": 1,
         "definition_id": 108118,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Germination",
         "spell_id": 155675,
+        "visible_spell_id": null,
         "icon": "spell_druid_germination"
       },
       "pve_tooltip": "You can apply Rejuvenation twice to the same target.\nModifies Buff Duration 0:\nRejuvenation",
@@ -5244,11 +5446,13 @@ window.WOW_PVP_DATA = {
           82062
         ],
         "entry_id": 128708,
+        "entry_max_ranks": 1,
         "definition_id": 133510,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Lifetreading",
         "spell_id": 1217941,
+        "visible_spell_id": null,
         "icon": "inv12_ability_druid_lifetreading"
       },
       "pve_tooltip": "Efflorescence healing increased by 25%, and it now automatically grows beneath your Lifebloom target's feet.",
@@ -5342,11 +5546,13 @@ window.WOW_PVP_DATA = {
           82062
         ],
         "entry_id": 117104,
+        "entry_max_ranks": 1,
         "definition_id": 122116,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Grove Guardians",
         "spell_id": 1226140,
+        "visible_spell_id": null,
         "icon": "ability_druid_forceofnature"
       },
       "pve_tooltip": "Casting Swiftmend or Wild Growth summons a Treant that casts Nourish on that target or a nearby ally periodically, healing for [(61% of Spell Power)]. Lasts 8 sec.",
@@ -5397,11 +5603,13 @@ window.WOW_PVP_DATA = {
           82065
         ],
         "entry_id": 103106,
+        "entry_max_ranks": 1,
         "definition_id": 108111,
         "entry_index": 300,
         "entry_type": "passive",
         "talent_name": "Flourish",
         "spell_id": 197721,
+        "visible_spell_id": null,
         "icon": "spell_druid_wildburst"
       },
       "pve_tooltip": "Tranquility extends the duration of all of your heal over time effects by 2 sec every 1 sec.",
@@ -5444,7 +5652,7 @@ window.WOW_PVP_DATA = {
           ],
           "dependency_relations": [
             "tooltip_value_ref",
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -5508,11 +5716,13 @@ window.WOW_PVP_DATA = {
           82080
         ],
         "entry_id": 103110,
+        "entry_max_ranks": 1,
         "definition_id": 108115,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Flash of Clarity",
         "spell_id": 392220,
+        "visible_spell_id": null,
         "icon": "spell_nature_crystalball"
       },
       "pve_tooltip": "Clearcast Regrowths heal for an additional 40%.",
@@ -5564,11 +5774,13 @@ window.WOW_PVP_DATA = {
           82080
         ],
         "entry_id": 103096,
+        "entry_max_ranks": 1,
         "definition_id": 108101,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Wild Growth",
         "spell_id": 328025,
+        "visible_spell_id": null,
         "icon": "ability_druid_flourish"
       },
       "pve_tooltip": "Wild Growth heals 2 additional targets.",
@@ -5620,11 +5832,13 @@ window.WOW_PVP_DATA = {
           82075
         ],
         "entry_id": 103140,
+        "entry_max_ranks": 1,
         "definition_id": 108145,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Stonebark",
         "spell_id": 197061,
+        "visible_spell_id": null,
         "icon": "archaeology_5_0_crackedmogurunestone"
       },
       "pve_tooltip": "Ironbark increases healing from your heal over time effects by 20%.",
@@ -5676,11 +5890,13 @@ window.WOW_PVP_DATA = {
           82075
         ],
         "entry_id": 103139,
+        "entry_max_ranks": 1,
         "definition_id": 108144,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Improved Ironbark",
         "spell_id": 382552,
+        "visible_spell_id": null,
         "icon": "spell_druid_ironbark"
       },
       "pve_tooltip": "Ironbark's cooldown is reduced by 20 sec.",
@@ -5732,11 +5948,13 @@ window.WOW_PVP_DATA = {
           82074
         ],
         "entry_id": 103114,
+        "entry_max_ranks": 1,
         "definition_id": 108119,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Renewing Surge",
         "spell_id": 470562,
+        "visible_spell_id": null,
         "icon": "inv_relics_idolofhealth"
       },
       "pve_tooltip": "Swiftmend cooldown is reduced by 15%, increasing up to 30% on lower health targets.",
@@ -5787,11 +6005,13 @@ window.WOW_PVP_DATA = {
           82048
         ],
         "entry_id": 103112,
+        "entry_max_ranks": 1,
         "definition_id": 108117,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Rampant Growth",
         "spell_id": 404521,
+        "visible_spell_id": null,
         "icon": "spell_nature_resistnature"
       },
       "pve_tooltip": "Regrowth's healing over time is increased by 100%, and it also applies to the target of your Lifebloom.",
@@ -5845,11 +6065,13 @@ window.WOW_PVP_DATA = {
           82064
         ],
         "entry_id": 103117,
+        "entry_max_ranks": 2,
         "definition_id": 108122,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Regenesis",
         "spell_id": 383191,
+        "visible_spell_id": null,
         "icon": "inv_misc_herb_liferoot_stem"
       },
       "pve_tooltip": "Rejuvenation healing is increased by up to 60%, and Tranquility healing is increased by up to 60%, healing for more on low-health targets.",
@@ -5867,6 +6089,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Rejuvenation healing is increased by up to 30%, and Tranquility healing is increased by up to 30%, healing for more on low-health targets.",
           "pvp_tooltip": "Rejuvenation healing is increased by up to 30%, and Tranquility healing is increased by up to 30%, healing for more on low-health targets.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -5875,6 +6098,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Rejuvenation healing is increased by up to 60%, and Tranquility healing is increased by up to 60%, healing for more on low-health targets.",
           "pvp_tooltip": "Rejuvenation healing is increased by up to 60%, and Tranquility healing is increased by up to 60%, healing for more on low-health targets.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -5917,11 +6141,13 @@ window.WOW_PVP_DATA = {
           82064
         ],
         "entry_id": 117105,
+        "entry_max_ranks": 1,
         "definition_id": 122117,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Wild Synthesis",
         "spell_id": 400533,
+        "visible_spell_id": null,
         "icon": "spell_nature_protectionformnature"
       },
       "pve_tooltip": "Grove Guardians, Efflorescence, and your other summons heal for 30% more.",
@@ -5975,11 +6201,13 @@ window.WOW_PVP_DATA = {
           82064
         ],
         "entry_id": 103121,
+        "entry_max_ranks": 1,
         "definition_id": 108126,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Power of the Archdruid",
         "spell_id": 392302,
+        "visible_spell_id": null,
         "icon": "spell_druid_rampantgrowth"
       },
       "pve_tooltip": "Soul of the Forest now causes your next Rejuvenation or Regrowth to apply to 2 additional allies within 20 yards of the target.",
@@ -6030,11 +6258,13 @@ window.WOW_PVP_DATA = {
           82067
         ],
         "entry_id": 137510,
+        "entry_max_ranks": 2,
         "definition_id": 142270,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Cultivation",
         "spell_id": 200390,
+        "visible_spell_id": null,
         "icon": "spell_nature_healingtouch"
       },
       "pve_tooltip": "When Rejuvenation heals a target below 60% health, they are instantly healed for (30.5% of Spell Power).",
@@ -6072,7 +6302,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 200390,
           "source_spell_id": 200389,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 0.305)",
+          "effect_text": "Heal (SP mod: 0.305)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6099,11 +6329,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -6113,6 +6342,18 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "When Rejuvenation heals a target below 30% health, they are instantly healed for (30.5% of Spell Power).",
           "pvp_tooltip": "When Rejuvenation heals a target below 30% health, they are instantly healed for (29.585% of Spell Power).",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 82,
+              "end": 86,
+              "old_token": "30.5",
+              "new_token": "29.585",
+              "kind": "spell_power_coefficient",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -6121,6 +6362,18 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "When Rejuvenation heals a target below 60% health, they are instantly healed for (30.5% of Spell Power).",
           "pvp_tooltip": "When Rejuvenation heals a target below 60% health, they are instantly healed for (29.585% of Spell Power).",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 82,
+              "end": 86,
+              "old_token": "30.5",
+              "new_token": "29.585",
+              "kind": "spell_power_coefficient",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6165,11 +6418,13 @@ window.WOW_PVP_DATA = {
           82052
         ],
         "entry_id": 103138,
+        "entry_max_ranks": 2,
         "definition_id": 108143,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unstoppable Growth",
         "spell_id": 382559,
+        "visible_spell_id": null,
         "icon": "ability_druid_flourish"
       },
       "pve_tooltip": "Wild Growth's healing falls off 60% less over time.",
@@ -6187,6 +6442,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Wild Growth's healing falls off 30% less over time.",
           "pvp_tooltip": "Wild Growth's healing falls off 30% less over time.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -6195,6 +6451,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Wild Growth's healing falls off 60% less over time.",
           "pvp_tooltip": "Wild Growth's healing falls off 60% less over time.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6238,11 +6495,13 @@ window.WOW_PVP_DATA = {
           82052
         ],
         "entry_id": 128274,
+        "entry_max_ranks": 1,
         "definition_id": 133081,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Swiftmend",
         "spell_id": 470549,
+        "visible_spell_id": null,
         "icon": "ability_druid_empoweredtouch"
       },
       "pve_tooltip": "Swiftmend healing increased by 30%.",
@@ -6294,11 +6553,13 @@ window.WOW_PVP_DATA = {
           82076
         ],
         "entry_id": 103131,
+        "entry_max_ranks": 1,
         "definition_id": 108136,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Regenerative Heartwood",
         "spell_id": 392116,
+        "visible_spell_id": null,
         "icon": "spell_nature_naturetouchgrow"
       },
       "pve_tooltip": "Allies protected by your Ironbark also receive 75% of the healing from each of your active Rejuvenations and Ironbark's duration is increased by 4 sec.",
@@ -6353,11 +6614,13 @@ window.WOW_PVP_DATA = {
           82074
         ],
         "entry_id": 103099,
+        "entry_max_ranks": 1,
         "definition_id": 108104,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ysera's Gift",
         "spell_id": 145108,
+        "visible_spell_id": null,
         "icon": "inv_misc_head_dragon_green"
       },
       "pve_tooltip": "100 yd range\nHeals you for 3% of your maximum health every 5 sec. If you are at full health, an injured party or raid member will be healed instead.\nHealing is increased by 8% for each of your active Rejuvenations.",
@@ -6412,11 +6675,13 @@ window.WOW_PVP_DATA = {
           82072
         ],
         "entry_id": 103120,
+        "entry_max_ranks": 1,
         "definition_id": 108125,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Incarnation: Tree of Life",
         "spell_id": 33891,
+        "visible_spell_id": null,
         "icon": "ability_druid_improvedtreeform"
       },
       "pve_tooltip": "Instant\n3 min cooldown\nShapeshift into the Tree of Life, instantly Regrowthing 3 nearby injured allies, increasing healing done by 10%, increasing armor by 120%, and granting protection from Polymorph effects. Functionality of Rejuvenation, Wild Growth, Regrowth, Entangling Roots, and Wrath is enhanced.\nLasts 30 sec. You may shapeshift in and out of this form for its duration.",
@@ -6471,11 +6736,13 @@ window.WOW_PVP_DATA = {
           82072
         ],
         "entry_id": 103119,
+        "entry_max_ranks": 1,
         "definition_id": 108124,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Convoke the Spirits",
         "spell_id": 391528,
+        "visible_spell_id": null,
         "icon": "inv_ability_druid_convokethespirits"
       },
       "pve_tooltip": "Channeled (4 sec cast)\n2 min cooldown\nCall upon the spirits for an eruption of energy, channeling a rapid flurry of 16 / Ursoc's Guidance: 12 / Elune's Guidance: 12 / Astral Insight: 20 Druid spells and abilities over 4 sec. [Ashamane's Guidance: Chance to use an exceptional spell or ability is increased]\nYou will cast Wild Growth, Swiftmend, Moonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form.",
@@ -6530,11 +6797,13 @@ window.WOW_PVP_DATA = {
           82072
         ],
         "entry_id": 103123,
+        "entry_max_ranks": 1,
         "definition_id": 108128,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Call of the Elder Druid",
         "spell_id": 426784,
+        "visible_spell_id": null,
         "icon": "spell_unused2"
       },
       "pve_tooltip": "When you cast Starsurge, Rake, Shred, or Frenzied Regeneration you gain Call of the Elder Druid for 15 sec, once every 1 min.\nCall of the Elder Druid\nAbilities not associated with your specialization are substantially empowered for 45 sec.\nBalance: Cast time of Balance spells reduced by 30% and damage increased by 20%\nFeral: Gain 1 Combo Point every 2 sec while in Cat Form and Physical damage increased by 20%\nGuardian: Bear Form gives an additional 20% Stamina, multiple uses of Ironfur may overlap, and Frenzied Regeneration has 2 charges",
@@ -6550,8 +6819,8 @@ window.WOW_PVP_DATA = {
           "dependency_kind": "EMBEDDED",
           "talent_spell_id": 426784,
           "source_spell_id": 319454,
-          "effect_index": 15,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Global Cooldown (21)",
+          "effect_index": 13,
+          "effect_text": "Apply Aura: Modifies Cast Time (10)",
           "base_value": -30.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -6568,8 +6837,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -6579,8 +6849,8 @@ window.WOW_PVP_DATA = {
           "dependency_kind": "EMBEDDED",
           "talent_spell_id": 426784,
           "source_spell_id": 319454,
-          "effect_index": 13,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Cast Time (10)",
+          "effect_index": 15,
+          "effect_text": "Apply Aura: Modifies Global Cooldown (21)",
           "base_value": -30.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -6597,8 +6867,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -6648,11 +6919,13 @@ window.WOW_PVP_DATA = {
           103876
         ],
         "entry_id": 103105,
+        "entry_max_ranks": 1,
         "definition_id": 108110,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Intensity",
         "spell_id": 1264649,
+        "visible_spell_id": null,
         "icon": "spell_frost_windwalkon"
       },
       "pve_tooltip": "When Regrowth critically heals, it is 260% effective instead of the usual 200%.",
@@ -6704,11 +6977,13 @@ window.WOW_PVP_DATA = {
           82073
         ],
         "entry_id": 103130,
+        "entry_max_ranks": 1,
         "definition_id": 108135,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Liveliness",
         "spell_id": 426702,
+        "visible_spell_id": null,
         "icon": "spell_druid_symbiosis"
       },
       "pve_tooltip": "Your damage over time effects deal their damage 25% faster, and your healing over time effects heal 5% faster.",
@@ -6760,11 +7035,13 @@ window.WOW_PVP_DATA = {
           82073
         ],
         "entry_id": 114809,
+        "entry_max_ranks": 1,
         "definition_id": 119816,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Master Shapeshifter",
         "spell_id": 289237,
+        "visible_spell_id": null,
         "icon": "ability_druid_mastershapeshifter"
       },
       "pve_tooltip": "Level 90\nYour abilities are amplified based on your current shapeshift form, granting an additional effect.\nWrath, Starfire, and Starsurge deal 30% additional damage and generate 3240 Mana.\nBear Form\nIronfur grants 30% additional armor and generates 3750 Mana.\nCat Form\nRip, Ferocious Bite, and Maim deal 60% additional damage and generate 15000 Mana when cast with 5 combo points.",
@@ -6815,11 +7092,13 @@ window.WOW_PVP_DATA = {
           82073
         ],
         "entry_id": 103097,
+        "entry_max_ranks": 1,
         "definition_id": 108102,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Waking Dream",
         "spell_id": 392221,
+        "visible_spell_id": null,
         "icon": "inv_misc_head_dragon_green"
       },
       "pve_tooltip": "Ysera's Gift now heals every 4 sec and its healing is increased by 8% for each of your active Rejuvenations.",
@@ -6872,11 +7151,13 @@ window.WOW_PVP_DATA = {
           82077
         ],
         "entry_id": 103126,
+        "entry_max_ranks": 1,
         "definition_id": 108131,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Embrace of the Dream",
         "spell_id": 392124,
+        "visible_spell_id": null,
         "icon": "ability_druid_healinginstincts"
       },
       "pve_tooltip": "Wild Growth momentarily shifts your mind into the Emerald Dream, instantly healing all allies affected by your Rejuvenation or Regrowth for (216% of Spell Power).",
@@ -6914,7 +7195,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 392124,
           "source_spell_id": 392147,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 2.16)",
+          "effect_text": "Heal (SP mod: 2.16)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6941,11 +7222,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -6988,11 +7268,13 @@ window.WOW_PVP_DATA = {
           82077
         ],
         "entry_id": 103118,
+        "entry_max_ranks": 1,
         "definition_id": 108123,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Cenarius' Guidance",
         "spell_id": 393371,
+        "visible_spell_id": null,
         "icon": "ability_druid_treeoflife"
       },
       "pve_tooltip": "Incarnation: Tree of Life\nDuring Incarnation: Tree of Life, you summon a Grove Guardian every 10 sec. The cooldown of Incarnation: Tree of Life is reduced by 5.0 sec when Grove Guardians fade.\nConvoke the Spirits\nConvoke the Spirits' cooldown is reduced by 50% and its duration and number of spells cast is reduced by 25%. Convoke the Spirits has an increased chance to use an exceptional spell or ability.",
@@ -7045,11 +7327,13 @@ window.WOW_PVP_DATA = {
           82069
         ],
         "entry_id": 103128,
+        "entry_max_ranks": 1,
         "definition_id": 108133,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Nature's Bounty",
         "spell_id": 1263879,
+        "visible_spell_id": null,
         "icon": "talentspec_druid_restoration"
       },
       "pve_tooltip": "Regrowth heals all other allies with Regrowth for 10% of its healing.",
@@ -7100,11 +7384,13 @@ window.WOW_PVP_DATA = {
           82069
         ],
         "entry_id": 103122,
+        "entry_max_ranks": 1,
         "definition_id": 108127,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Dream of Cenarius",
         "spell_id": 158504,
+        "visible_spell_id": null,
         "icon": "ability_druid_dreamstate"
       },
       "pve_tooltip": "Wrath and Shred transfer 100% of their damage and Starfire and Swipe transfer 50% of their damage into healing onto a nearby ally.\nThis effect is increased by 200% while Call of the Elder Druid is active.",
@@ -7157,11 +7443,13 @@ window.WOW_PVP_DATA = {
           82071
         ],
         "entry_id": 103124,
+        "entry_max_ranks": 2,
         "definition_id": 108129,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Thriving Vegetation",
         "spell_id": 447131,
+        "visible_spell_id": null,
         "icon": "spell_nature_rejuvenation"
       },
       "pve_tooltip": "Rejuvenation instantly heals your target for 30% of its total periodic effect and Regrowth's duration is increased by 6 sec.",
@@ -7179,6 +7467,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Rejuvenation instantly heals your target for 15% of its total periodic effect and Regrowth's duration is increased by 3 sec.",
           "pvp_tooltip": "Rejuvenation instantly heals your target for 15% of its total periodic effect and Regrowth's duration is increased by 3 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -7187,6 +7476,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Rejuvenation instantly heals your target for 30% of its total periodic effect and Regrowth's duration is increased by 6 sec.",
           "pvp_tooltip": "Rejuvenation instantly heals your target for 30% of its total periodic effect and Regrowth's duration is increased by 6 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -7229,11 +7519,13 @@ window.WOW_PVP_DATA = {
           82071
         ],
         "entry_id": 128277,
+        "entry_max_ranks": 1,
         "definition_id": 133084,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Abundance",
         "spell_id": 207383,
+        "visible_spell_id": null,
         "icon": "ability_druid_empoweredrejuvination"
       },
       "pve_tooltip": "While you have at least 5 Rejuvenations active, Regrowth's cost is reduced by 60% and critical chance is increased by 60%.",
@@ -7285,11 +7577,13 @@ window.WOW_PVP_DATA = {
           82071
         ],
         "entry_id": 103132,
+        "entry_max_ranks": 1,
         "definition_id": 108137,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Nurturing Dormancy",
         "spell_id": 392099,
+        "visible_spell_id": null,
         "icon": "ability_druid_replenish"
       },
       "pve_tooltip": "When your Rejuvenation heals a full health target, its duration is increased by 2 sec, up to a maximum total increase of 6 sec per cast.",
@@ -7340,11 +7634,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103129,
+        "entry_max_ranks": 1,
         "definition_id": 108134,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Photosynthesis",
         "spell_id": 274902,
+        "visible_spell_id": null,
         "icon": "spell_lifegivingseed"
       },
       "pve_tooltip": "Your periodic heals on targets with Lifebloom have a 8% chance to cause it to bloom.",
@@ -7395,11 +7691,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103134,
+        "entry_max_ranks": 1,
         "definition_id": 108139,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Harmonious Blooming",
         "spell_id": 392256,
+        "visible_spell_id": null,
         "icon": "inv_misc_herb_felblossom"
       },
       "pve_tooltip": "Lifebloom counts for 3 stacks of Mastery: Harmony.",
@@ -7450,11 +7748,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103125,
+        "entry_max_ranks": 1,
         "definition_id": 108130,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Reforestation",
         "spell_id": 392356,
+        "visible_spell_id": null,
         "icon": "inv_herbalism_70_yserallineseed"
       },
       "pve_tooltip": "Every 4 casts of Swiftmend grants you Incarnation: Tree of Life for 10 sec.",
@@ -7552,11 +7852,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103127,
+        "entry_max_ranks": 1,
         "definition_id": 108132,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Verdancy",
         "spell_id": 392325,
+        "visible_spell_id": null,
         "icon": "inv_10_herb_seed_magiccolor5"
       },
       "pve_tooltip": "When Lifebloom blooms, up to 3 targets within your Efflorescence are healed for (133% of Spell Power).",
@@ -7594,7 +7896,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 392325,
           "source_spell_id": 392329,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 1.33)",
+          "effect_text": "Heal (SP mod: 1.33)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7621,11 +7923,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -7664,11 +7965,13 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 137040,
+        "entry_max_ranks": 1,
         "definition_id": 141803,
         "entry_index": 100,
         "entry_type": "tierrank",
         "talent_name": "Everbloom",
         "spell_id": 392167,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_druid_everbloom"
       },
       "pve_tooltip": "Lifebloom stacks every 5 sec, stacking up to 3 times.",
@@ -7715,23 +8018,25 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 137039,
+        "entry_max_ranks": 2,
         "definition_id": 141802,
         "entry_index": 200,
         "entry_type": "tierrank",
         "talent_name": "Everbloom",
         "spell_id": 1244331,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_druid_everbloom"
       },
-      "pve_tooltip": "24% of Lifebloom's final bloom heals up to 5 injured allies within 40 yds.",
-      "pvp_tooltip": "25% of Lifebloom's final bloom heals up to 5 injured allies within 40 yds.",
+      "pve_tooltip": "48% of Lifebloom's final bloom heals up to 5 injured allies within 40 yds.",
+      "pvp_tooltip": "50% of Lifebloom's final bloom heals up to 5 injured allies within 40 yds.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
           "start": 0,
           "end": 2,
-          "old_token": "24",
-          "new_token": "25",
+          "old_token": "48",
+          "new_token": "50",
           "kind": "percent_value",
           "effect_indexes": [
             2
@@ -7745,8 +8050,8 @@ window.WOW_PVP_DATA = {
           ],
           "status": "APPLIED",
           "kind": "percent_value",
-          "old": "24",
-          "new": "25"
+          "old": "48",
+          "new": "50"
         }
       ],
       "has_pvp_mechanics": true,
@@ -7778,7 +8083,48 @@ window.WOW_PVP_DATA = {
         }
       ],
       "render_effect_count": 1,
-      "rank_tooltips": []
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "24% of Lifebloom's final bloom heals up to 5 injured allies within 40 yds.",
+          "pvp_tooltip": "25% of Lifebloom's final bloom heals up to 5 injured allies within 40 yds.",
+          "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 0,
+              "end": 2,
+              "old_token": "24",
+              "new_token": "25",
+              "kind": "percent_value",
+              "effect_indexes": [
+                2
+              ]
+            }
+          ],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "48% of Lifebloom's final bloom heals up to 5 injured allies within 40 yds.",
+          "pvp_tooltip": "50% of Lifebloom's final bloom heals up to 5 injured allies within 40 yds.",
+          "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 0,
+              "end": 2,
+              "old_token": "48",
+              "new_token": "50",
+              "kind": "percent_value",
+              "effect_indexes": [
+                2
+              ]
+            }
+          ],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Everbloom",
@@ -7813,11 +8159,13 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 137038,
+        "entry_max_ranks": 1,
         "definition_id": 141801,
         "entry_index": 300,
         "entry_type": "tierrank",
         "talent_name": "Everbloom",
         "spell_id": 1244470,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_druid_everbloom"
       },
       "pve_tooltip": "Lifebloom bursts into a Blooming Frenzy when you cast Swiftmend, causing it to bloom 3 times in rapid succession.",
@@ -7869,11 +8217,13 @@ window.WOW_PVP_DATA = {
           94623
         ],
         "entry_id": 117226,
+        "entry_max_ranks": 1,
         "definition_id": 122238,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Thriving Growth",
         "spell_id": 439528,
+        "visible_spell_id": null,
         "icon": "inv_ability_wildstalkerdruid_thrivinggrowth"
       },
       "pve_tooltip": "Rip and Rake damage has a chance to cause Bloodseeker Vines to grow on the victim, dealing (97.5% of Attack Power) Bleed damage over 6 sec.\nWild Growth, Regrowth, and Efflorescence healing has a chance to cause Symbiotic Blooms to grow on the target, healing for (219.6% of Spell Power) over 6 sec.\nMultiple instances of these can overlap.",
@@ -7890,7 +8240,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 439528,
           "source_spell_id": 439530,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 2 seconds (SP mod: 0.732)",
+          "effect_text": "Apply Aura: Periodic Heal",
           "base_value": null,
           "spell_pvp_multiplier": 1.25,
           "amount_kind": "periodic",
@@ -7917,8 +8267,9 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7964,11 +8315,13 @@ window.WOW_PVP_DATA = {
           94624
         ],
         "entry_id": 117231,
+        "entry_max_ranks": 1,
         "definition_id": 122243,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Hunt Beneath the Open Skies",
         "spell_id": 439868,
+        "visible_spell_id": null,
         "icon": "spell_druid_lunarinspiration"
       },
       "pve_tooltip": "Damage and healing while in Cat Form increased by 3%.\nMoonfire and Sunfire damage increased by 10%.",
@@ -8019,11 +8372,13 @@ window.WOW_PVP_DATA = {
           94622
         ],
         "entry_id": 117223,
+        "entry_max_ranks": 1,
         "definition_id": 122235,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Strategic Infusion",
         "spell_id": 439890,
+        "visible_spell_id": null,
         "icon": "ability_druid_supriseattack"
       },
       "pve_tooltip": "Attacking from Prowl increases the chance for Shred, Rake, and Swipe to critically strike by 8% for 6 sec.\nYour periodic heals have a 4% increased chance to critically heal.",
@@ -8074,11 +8429,13 @@ window.WOW_PVP_DATA = {
           94625
         ],
         "entry_id": 117221,
+        "entry_max_ranks": 1,
         "definition_id": 122233,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Wildstalker's Power",
         "spell_id": 439926,
+        "visible_spell_id": null,
         "icon": "ability_druid_skinteeth"
       },
       "pve_tooltip": "Rip and Ferocious Bite damage increased by 5%.\nRejuvenation, Efflorescence, and Lifebloom healing increased by 10%.",
@@ -8129,11 +8486,13 @@ window.WOW_PVP_DATA = {
           109716
         ],
         "entry_id": 135975,
+        "entry_max_ranks": 1,
         "definition_id": 140730,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Green Thumb",
         "spell_id": 1270565,
+        "visible_spell_id": null,
         "icon": "spell_lifegivingseed"
       },
       "pve_tooltip": "The rate at which Symbiotic Blooms grow is increased by 20%.",
@@ -8184,11 +8543,13 @@ window.WOW_PVP_DATA = {
           94631
         ],
         "entry_id": 117224,
+        "entry_max_ranks": 1,
         "definition_id": 122236,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lethal Preservation",
         "spell_id": 455461,
+        "visible_spell_id": null,
         "icon": "spell_nature_healingtouch"
       },
       "pve_tooltip": "When you remove an effect with Soothe or [Nature's Cure / Remove Corruption], gain a combo point and heal for 4% of your maximum health. If you are at full health an injured party or raid member will be healed instead.",
@@ -8239,11 +8600,13 @@ window.WOW_PVP_DATA = {
           94630
         ],
         "entry_id": 117222,
+        "entry_max_ranks": 1,
         "definition_id": 122234,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Entangling Vortex",
         "spell_id": 439895,
+        "visible_spell_id": null,
         "icon": "spell_druid_ursolsvortex"
       },
       "pve_tooltip": "Enemies pulled into Ursol's Vortex are rooted in place for 3 sec. Damage may cancel the effect.",
@@ -8294,11 +8657,13 @@ window.WOW_PVP_DATA = {
           94630
         ],
         "entry_id": 119855,
+        "entry_max_ranks": 1,
         "definition_id": 124755,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Flower Walk",
         "spell_id": 439901,
+        "visible_spell_id": null,
         "icon": "inv_misc_trailofflowers"
       },
       "pve_tooltip": "During Barkskin your movement speed is increased by 10% and every second flowers grow beneath your feet that heal up to 3 nearby injured allies for (20% of Spell Power).",
@@ -8349,11 +8714,13 @@ window.WOW_PVP_DATA = {
           94628
         ],
         "entry_id": 117225,
+        "entry_max_ranks": 1,
         "definition_id": 122237,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Bond with Nature",
         "spell_id": 439929,
+        "visible_spell_id": null,
         "icon": "inv_misc_marrigolds_01"
       },
       "pve_tooltip": "Healing you receive is increased by 4%.",
@@ -8404,11 +8771,13 @@ window.WOW_PVP_DATA = {
           94628
         ],
         "entry_id": 119854,
+        "entry_max_ranks": 1,
         "definition_id": 124754,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Harmonious Constitution",
         "spell_id": 440116,
+        "visible_spell_id": null,
         "icon": "talentspec_druid_restoration"
       },
       "pve_tooltip": "Your Regrowth's healing to yourself is increased by 35%.",
@@ -8459,11 +8828,13 @@ window.WOW_PVP_DATA = {
           109715
         ],
         "entry_id": 135974,
+        "entry_max_ranks": 1,
         "definition_id": 140729,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Bursting Growth",
         "spell_id": 440120,
+        "visible_spell_id": null,
         "icon": "inv_collections_armor_flowerbracelet_b_01"
       },
       "pve_tooltip": "When Bloodseeker Vines expire or you use Ferocious Bite on their target they explode in thorns, dealing (86.4% of Attack Power) physical damage to nearby enemies. Damage reduced above 5 targets.\nWhen Symbiotic Blooms expire or you cast Rejuvenation on their target flowers grow around their target, healing them and up to 3 nearby allies for (42.09% of Spell Power).",
@@ -8501,7 +8872,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 440120,
           "source_spell_id": 440121,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 0.4209)",
+          "effect_text": "Heal (SP mod: 0.4209)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8528,11 +8899,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -8575,11 +8945,13 @@ window.WOW_PVP_DATA = {
           94627
         ],
         "entry_id": 117234,
+        "entry_max_ranks": 1,
         "definition_id": 122246,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Resilient Flourishing",
         "spell_id": 439880,
+        "visible_spell_id": null,
         "icon": "inv_misc_herb_16"
       },
       "pve_tooltip": "Bloodseeker Vines and Symbiotic Blooms last 2 additional sec.\nWhen a target afflicted by Bloodseeker Vines dies, the vines jump to a valid nearby target for their remaining duration.",
@@ -8630,11 +9002,13 @@ window.WOW_PVP_DATA = {
           94627
         ],
         "entry_id": 117233,
+        "entry_max_ranks": 1,
         "definition_id": 122245,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Root Network",
         "spell_id": 439882,
+        "visible_spell_id": null,
         "icon": "ability_creature_poison_04"
       },
       "pve_tooltip": "Each active Bloodseeker Vine increases the damage your abilities deal by 2%.\nEach active Symbiotic Bloom increases the healing of your spells by 2%.",
@@ -8685,11 +9059,13 @@ window.WOW_PVP_DATA = {
           94627
         ],
         "entry_id": 117232,
+        "entry_max_ranks": 1,
         "definition_id": 122244,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Patient Custodian",
         "spell_id": 1270592,
+        "visible_spell_id": null,
         "icon": "inv_helm_misc_rose_a_01_red"
       },
       "pve_tooltip": "Your heal over time effects are 6% more effective.",
@@ -8740,11 +9116,13 @@ window.WOW_PVP_DATA = {
           94627
         ],
         "entry_id": 117230,
+        "entry_max_ranks": 1,
         "definition_id": 122242,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Twin Sprouts",
         "spell_id": 440117,
+        "visible_spell_id": null,
         "icon": "inv_misc_herb_evergreenmoss"
       },
       "pve_tooltip": "When Bloodseeker Vines or Symbiotic Blooms grow, they have a 30% chance to cause another growth of the same type to immediately grow on a valid nearby target.",
@@ -8795,11 +9173,13 @@ window.WOW_PVP_DATA = {
           94627
         ],
         "entry_id": 117229,
+        "entry_max_ranks": 1,
         "definition_id": 122241,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Implant",
         "spell_id": 440118,
+        "visible_spell_id": null,
         "icon": "ability_creature_poison_03"
       },
       "pve_tooltip": "Casting Swiftmend or Wild Growth causes a Symbiotic Bloom to grow on a target for 6 sec.",
@@ -8850,11 +9230,13 @@ window.WOW_PVP_DATA = {
           94627
         ],
         "entry_id": 135973,
+        "entry_max_ranks": 1,
         "definition_id": 140728,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Rampancy",
         "spell_id": 1270586,
+        "visible_spell_id": null,
         "icon": "inv_misc_thornnecklace"
       },
       "pve_tooltip": "Symbiotic Blooms have a 20% chance to trigger Bursting Growth every 2 sec at 100% effectiveness.",
@@ -8906,11 +9288,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 117227,
+        "entry_max_ranks": 1,
         "definition_id": 122239,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Vigorous Creepers",
         "spell_id": 440119,
+        "visible_spell_id": null,
         "icon": "spell_druid_massentanglement"
       },
       "pve_tooltip": "Bloodseeker Vines increase the damage your abilities deal to affected enemies by 4%.\nSymbiotic Blooms increase the healing your spells do to affected targets by 20%.",
@@ -8962,11 +9346,13 @@ window.WOW_PVP_DATA = {
           94593
         ],
         "entry_id": 117195,
+        "entry_max_ranks": 1,
         "definition_id": 122207,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Dream Surge",
         "spell_id": 433831,
+        "visible_spell_id": null,
         "icon": "inv_ability_keeperofthegrovedruid_dreamsurge_fiendly"
       },
       "pve_tooltip": "When Grove Guardians are summoned, they grow Dream Petals on your target, healing up to 3 nearby allies for (146.4% of Spell Power).",
@@ -9014,7 +9400,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 433831,
           "source_spell_id": 433850,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature | Attributes: Always AOE Line of Sight (5), Suppress Points Stacking (6) (AP mod: 3.93)",
+          "effect_text": "School Damage (Nature) (AP mod: 3.93 )",
           "base_value": null,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": "direct",
@@ -9031,8 +9417,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9043,7 +9430,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 433831,
           "source_spell_id": 434141,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) | Attributes: Suppress Points Stacking (6) (SP mod: 1.464)",
+          "effect_text": "Heal (SP mod: 1.464)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9070,11 +9457,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 2,
@@ -9117,11 +9503,13 @@ window.WOW_PVP_DATA = {
           94605
         ],
         "entry_id": 117194,
+        "entry_max_ranks": 1,
         "definition_id": 122206,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Treants of the Moon",
         "spell_id": 428544,
+        "visible_spell_id": null,
         "icon": "spell_nature_starfall"
       },
       "pve_tooltip": "Your Grove Guardians cast Moonfire on nearby targets about once every 6 sec.",
@@ -9172,11 +9560,13 @@ window.WOW_PVP_DATA = {
           94604
         ],
         "entry_id": 117197,
+        "entry_max_ranks": 1,
         "definition_id": 122209,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Expansiveness",
         "spell_id": 429399,
+        "visible_spell_id": null,
         "icon": "spell_nature_abolishmagic"
       },
       "pve_tooltip": "Your maximum mana is increased by 5%.",
@@ -9227,11 +9617,13 @@ window.WOW_PVP_DATA = {
           94595
         ],
         "entry_id": 117186,
+        "entry_max_ranks": 1,
         "definition_id": 122198,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Protective Growth",
         "spell_id": 433748,
+        "visible_spell_id": null,
         "icon": "spell_nature_resistnature"
       },
       "pve_tooltip": "Your Regrowth protects you, reducing damage you take by 8% while your Regrowth is on you.",
@@ -9282,11 +9674,13 @@ window.WOW_PVP_DATA = {
           109713
         ],
         "entry_id": 135972,
+        "entry_max_ranks": 1,
         "definition_id": 140727,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sylvan Beckoning",
         "spell_id": 1264614,
+        "visible_spell_id": null,
         "icon": "ui_darkshore_warfront_alliance_dryad"
       },
       "pve_tooltip": "Approximately 1 procs per minute\nYour periodic heals have a chance to empower your next Swiftmend to summon a Dryad to assist you, casting Tranquility at 10% effectiveness and Regrowth to heal (658.507% of Spell Power) damage onto your lowest health ally.",
@@ -9324,7 +9718,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1264614,
           "source_spell_id": 1264664,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 6.58507)",
+          "effect_text": "Heal (SP mod: 6.58507)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9351,11 +9745,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -9398,11 +9791,13 @@ window.WOW_PVP_DATA = {
           94591
         ],
         "entry_id": 117201,
+        "entry_max_ranks": 1,
         "definition_id": 122213,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Power of Nature",
         "spell_id": 428859,
+        "visible_spell_id": null,
         "icon": "spell_nature_naturesblessing"
       },
       "pve_tooltip": "Your Grove Guardians increase the healing of your Rejuvenation, Efflorescence, and Lifebloom by 10% while active.",
@@ -9453,11 +9848,13 @@ window.WOW_PVP_DATA = {
           94591
         ],
         "entry_id": 117200,
+        "entry_max_ranks": 1,
         "definition_id": 122212,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Durability of Nature",
         "spell_id": 429227,
+        "visible_spell_id": null,
         "icon": "ability_druid_manatree"
       },
       "pve_tooltip": "Grove Guardians last 20% longer.",
@@ -9508,11 +9905,13 @@ window.WOW_PVP_DATA = {
           94592
         ],
         "entry_id": 117199,
+        "entry_max_ranks": 1,
         "definition_id": 122211,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Cenarius' Might",
         "spell_id": 455797,
+        "visible_spell_id": null,
         "icon": "achievement_reputation_guardiansofcenarius"
       },
       "pve_tooltip": "Swiftmend healing is increased by 20%.",
@@ -9563,11 +9962,13 @@ window.WOW_PVP_DATA = {
           94601
         ],
         "entry_id": 117189,
+        "entry_max_ranks": 1,
         "definition_id": 122201,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Grove's Inspiration",
         "spell_id": 429402,
+        "visible_spell_id": null,
         "icon": "ability_druid_protectionofthegrove"
       },
       "pve_tooltip": "Wrath and Starfire damage increased by 10%.\nRegrowth, Wild Growth, and Swiftmend healing increased by 9%.",
@@ -9618,11 +10019,13 @@ window.WOW_PVP_DATA = {
           94601
         ],
         "entry_id": 117188,
+        "entry_max_ranks": 1,
         "definition_id": 122200,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Potent Enchantments",
         "spell_id": 429420,
+        "visible_spell_id": null,
         "icon": "ability_druid_serenefocus"
       },
       "pve_tooltip": "Reforestation grants Tree of Life for 6 additional sec.",
@@ -9720,11 +10123,13 @@ window.WOW_PVP_DATA = {
           109712
         ],
         "entry_id": 135971,
+        "entry_max_ranks": 1,
         "definition_id": 140726,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Dryad's Dance",
         "spell_id": 1264776,
+        "visible_spell_id": null,
         "icon": "inv_stave_2h_druid_a_01"
       },
       "pve_tooltip": "Dryads cause Swiftmend to cool down 25% faster.",
@@ -9752,7 +10157,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1264776,
           "source_spell_id": 1264664,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (SP mod: 6.58507)",
+          "effect_text": "Heal (SP mod: 6.58507)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9783,11 +10188,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -9830,11 +10234,13 @@ window.WOW_PVP_DATA = {
           94606
         ],
         "entry_id": 117184,
+        "entry_max_ranks": 1,
         "definition_id": 122196,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Bounteous Bloom",
         "spell_id": 429215,
+        "visible_spell_id": null,
         "icon": "inv_herbalism_70_dreamleaf"
       },
       "pve_tooltip": "Your Grove Guardians' healing is increased by 30%.",
@@ -9885,11 +10291,13 @@ window.WOW_PVP_DATA = {
           94606
         ],
         "entry_id": 117895,
+        "entry_max_ranks": 1,
         "definition_id": 122907,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Early Spring",
         "spell_id": 428937,
+        "visible_spell_id": null,
         "icon": "inv_misc_trailofflowers"
       },
       "pve_tooltip": "Swiftmend and Wild Growth cooldowns reduced by 1 sec.",
@@ -9940,11 +10348,13 @@ window.WOW_PVP_DATA = {
           94606
         ],
         "entry_id": 117185,
+        "entry_max_ranks": 1,
         "definition_id": 122197,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Power of the Dream",
         "spell_id": 434220,
+        "visible_spell_id": null,
         "icon": "ability_xavius_dreamsimulacrum"
       },
       "pve_tooltip": "Dream Surge heals 1 additional ally.",
@@ -9995,11 +10405,13 @@ window.WOW_PVP_DATA = {
           94606
         ],
         "entry_id": 117894,
+        "entry_max_ranks": 1,
         "definition_id": 122906,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Control of the Dream",
         "spell_id": 434249,
+        "visible_spell_id": null,
         "icon": "inv_cloth_outdooremeralddream_d_01_buckle"
       },
       "pve_tooltip": "Time elapsed while your major abilities are available to be used or at maximum charges is subtracted from that ability's cooldown after the next time you use it, up to 15 seconds.\nAffects Nature's Swiftness, Incarnation: Tree of Life, and Convoke the Spirits.",
@@ -10050,11 +10462,13 @@ window.WOW_PVP_DATA = {
           94606
         ],
         "entry_id": 117196,
+        "entry_max_ranks": 1,
         "definition_id": 122208,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Blooming Infusion",
         "spell_id": 429433,
+        "visible_spell_id": null,
         "icon": "spell_nature_thorns"
       },
       "pve_tooltip": "Every 5 Regrowths you cast makes your next Wrath, Starfire, or Entangling Roots instant and increases damage it deals by 100%.\nEvery 5 Starsurges you cast makes your next Regrowth or Entangling roots instant.\n(100ms cooldown)",
@@ -10092,7 +10506,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 429433,
           "source_spell_id": 429474,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 100.0,
           "spell_pvp_multiplier": 0.25,
           "amount_kind": null,
@@ -10109,8 +10523,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10156,11 +10571,13 @@ window.WOW_PVP_DATA = {
           94606
         ],
         "entry_id": 135970,
+        "entry_max_ranks": 1,
         "definition_id": 140725,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Spirit of the Thicket",
         "spell_id": 1264899,
+        "visible_spell_id": null,
         "icon": "ability_druid_naturalperfection"
       },
       "pve_tooltip": "Ironbark summons a Dryad to channel a beam of pure nature onto your target, healing them for (4392% of Spell Power) over 6 sec.",
@@ -10177,7 +10594,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1264899,
           "source_spell_id": 1264905,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Periodic Heal (8): every 1 seconds (SP mod: 7.32)",
+          "effect_text": "Apply Aura: Periodic Heal",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "periodic",
@@ -10204,11 +10621,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 0,
@@ -10252,11 +10668,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 117203,
+        "entry_max_ranks": 1,
         "definition_id": 122215,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Harmony of the Grove",
         "spell_id": 428731,
+        "visible_spell_id": null,
         "icon": "ability_druid_forceofnature"
       },
       "pve_tooltip": "Each of your Grove Guardians increases your healing done by 5% while active.",
@@ -10283,8 +10701,8 @@ window.WOW_PVP_DATA = {
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 428731,
           "source_spell_id": 428735,
-          "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Periodic Amount (22)",
+          "effect_index": 1,
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 4.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -10301,8 +10719,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10312,8 +10731,8 @@ window.WOW_PVP_DATA = {
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 428731,
           "source_spell_id": 428735,
-          "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "effect_index": 2,
+          "effect_text": "Apply Aura: Modifies Periodic Damage/Healing Done (22)",
           "base_value": 4.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -10330,8 +10749,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10342,12 +10762,362 @@ window.WOW_PVP_DATA = {
     }
   ],
   "fetch_errors": [],
+  "serialization": {
+    "version": 2,
+    "spec_id": 105,
+    "node_order": [
+      82043,
+      82045,
+      82046,
+      82047,
+      82048,
+      82049,
+      82050,
+      82051,
+      82052,
+      82053,
+      82054,
+      82055,
+      82056,
+      82057,
+      82058,
+      82059,
+      82060,
+      82062,
+      82063,
+      82064,
+      82065,
+      82066,
+      82067,
+      82068,
+      82069,
+      82070,
+      82071,
+      82072,
+      82073,
+      82074,
+      82075,
+      82076,
+      82077,
+      82079,
+      82080,
+      82081,
+      82082,
+      82083,
+      82085,
+      82086,
+      82088,
+      82090,
+      82091,
+      82092,
+      82093,
+      82094,
+      82095,
+      82096,
+      82098,
+      82099,
+      82100,
+      82101,
+      82102,
+      82103,
+      82104,
+      82105,
+      82106,
+      82107,
+      82108,
+      82109,
+      82110,
+      82111,
+      82112,
+      82113,
+      82114,
+      82115,
+      82116,
+      82117,
+      82118,
+      82119,
+      82120,
+      82121,
+      82122,
+      82123,
+      82124,
+      82126,
+      82127,
+      82129,
+      82131,
+      82134,
+      82135,
+      82136,
+      82137,
+      82138,
+      82140,
+      82142,
+      82143,
+      82144,
+      82145,
+      82146,
+      82147,
+      82148,
+      82149,
+      82152,
+      82153,
+      82154,
+      82156,
+      82157,
+      82159,
+      82160,
+      82161,
+      82198,
+      82199,
+      82200,
+      82201,
+      82202,
+      82205,
+      82206,
+      82207,
+      82208,
+      82209,
+      82210,
+      82211,
+      82214,
+      82217,
+      82218,
+      82219,
+      82220,
+      82221,
+      82222,
+      82223,
+      82224,
+      82225,
+      82227,
+      82228,
+      82229,
+      82230,
+      82231,
+      82232,
+      82233,
+      82234,
+      82235,
+      82236,
+      82237,
+      82239,
+      82240,
+      82241,
+      82242,
+      82243,
+      82244,
+      82246,
+      88200,
+      88201,
+      88202,
+      88203,
+      88204,
+      88206,
+      88207,
+      88208,
+      88209,
+      88210,
+      88212,
+      88213,
+      88214,
+      88215,
+      88216,
+      88218,
+      88219,
+      88220,
+      88221,
+      88222,
+      88223,
+      88224,
+      88225,
+      88226,
+      88227,
+      88228,
+      88231,
+      88232,
+      88234,
+      88235,
+      88236,
+      91044,
+      91046,
+      91047,
+      91048,
+      92226,
+      92227,
+      92229,
+      92585,
+      92586,
+      92587,
+      92588,
+      92641,
+      92674,
+      93714,
+      94535,
+      94585,
+      94586,
+      94587,
+      94588,
+      94590,
+      94591,
+      94592,
+      94593,
+      94594,
+      94595,
+      94596,
+      94597,
+      94598,
+      94599,
+      94600,
+      94601,
+      94602,
+      94604,
+      94605,
+      94606,
+      94607,
+      94608,
+      94609,
+      94610,
+      94611,
+      94612,
+      94613,
+      94614,
+      94615,
+      94616,
+      94618,
+      94619,
+      94620,
+      94621,
+      94622,
+      94623,
+      94624,
+      94625,
+      94626,
+      94627,
+      94628,
+      94629,
+      94630,
+      94631,
+      99805,
+      99806,
+      99807,
+      99808,
+      100173,
+      100174,
+      100175,
+      100176,
+      100177,
+      100223,
+      103846,
+      103847,
+      103873,
+      103874,
+      103876,
+      104078,
+      104079,
+      104080,
+      104081,
+      104082,
+      104083,
+      104084,
+      104085,
+      104125,
+      108032,
+      108033,
+      109275,
+      109302,
+      109375,
+      109376,
+      109377,
+      109378,
+      109379,
+      109712,
+      109713,
+      109714,
+      109715,
+      109716,
+      109717,
+      109718,
+      109719,
+      109720,
+      109721,
+      109722,
+      109723,
+      110279,
+      110421,
+      110424,
+      110426,
+      110431,
+      110694
+    ],
+    "subtree_nodes": [
+      {
+        "id": 99806,
+        "name": "Keeper of the Grove / Wildstalker",
+        "type": "subtree",
+        "posX": 9300,
+        "posY": 900,
+        "entryNode": true,
+        "next": [],
+        "prev": [],
+        "entries": [
+          {
+            "id": 123299,
+            "type": "subtree",
+            "name": "Keeper of the Grove",
+            "traitSubTreeId": 23,
+            "traitTreeId": 793,
+            "atlasMemberName": "talents-heroclass-druid-keeperofthegrove",
+            "nodes": [
+              94600,
+              94599,
+              94602,
+              94593,
+              109714,
+              94605,
+              94604,
+              94595,
+              109713,
+              94591,
+              94592,
+              94601,
+              109712,
+              94606
+            ]
+          },
+          {
+            "id": 123298,
+            "type": "subtree",
+            "name": "Wildstalker",
+            "traitSubTreeId": 22,
+            "traitTreeId": 793,
+            "atlasMemberName": "talents-heroclass-druid-wildstalker",
+            "nodes": [
+              94626,
+              94629,
+              94623,
+              94621,
+              109717,
+              94624,
+              94622,
+              94625,
+              109716,
+              94631,
+              94630,
+              94628,
+              109715,
+              94627
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "source_warnings": [],
   "slug": "druid-restoration",
-  "generated_at": "2026-09-21T12:49:36.623877+00:00",
+  "generated_at": "2026-09-21T19:38:05.501599+00:00",
   "validation": {
     "talents": 147,
-    "changed_tooltips": 20,
+    "changed_tooltips": 22,
     "talents_with_pvp_mechanics": 34,
     "unique_nodes": 126,
     "tree_build": "12.1.0.69875",
@@ -10357,37 +11127,11 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 14,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 164815,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=164815'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 191037,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=191037'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 200389,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=200389'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 319454,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=319454'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 392147,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=392147'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }

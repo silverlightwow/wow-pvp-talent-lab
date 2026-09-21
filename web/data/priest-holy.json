@@ -43,11 +43,13 @@
           109009
         ],
         "entry_id": 103869,
+        "entry_max_ranks": 1,
         "definition_id": 108874,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Flash Heal",
         "spell_id": 393870,
+        "visible_spell_id": null,
         "icon": "spell_holy_heal"
       },
       "pve_tooltip": "Increases healing done by Flash Heal by 15%.",
@@ -97,11 +99,13 @@
           82672
         ],
         "entry_id": 103853,
+        "entry_max_ranks": 1,
         "definition_id": 108858,
         "entry_index": 0,
         "entry_type": "active",
         "talent_name": "Angelic Feather",
         "spell_id": 121536,
+        "visible_spell_id": null,
         "icon": "ability_priest_angelicfeather"
       },
       "pve_tooltip": "40 yd range\nInstant\n20 sec recharge\n3 Charges\nPlaces a feather at the target location, granting the first ally to walk through it 40% increased movement speed for 5 sec. Only 3 feathers can be placed at one time.",
@@ -151,11 +155,13 @@
           82701
         ],
         "entry_id": 134283,
+        "entry_max_ranks": 1,
         "definition_id": 139056,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Holy Fire",
         "spell_id": 14914,
+        "visible_spell_id": null,
         "icon": "spell_holy_searinglight"
       },
       "pve_tooltip": "0.24% of base mana\n40 yd range\n1.5 sec cast\n10 sec cooldown\nConsumes the enemy in Holy flames that cause (308% of Spell Power) Holy damage and an additional (98.91% of Spell Power) Holy damage over 7 sec.",
@@ -299,24 +305,47 @@
           82716
         ],
         "entry_id": 103870,
+        "entry_max_ranks": 1,
         "definition_id": 108875,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Holy Nova",
         "spell_id": 132157,
+        "visible_spell_id": null,
         "icon": "spell_holy_holynova"
       },
       "pve_tooltip": "0.2% of base mana\nInstant\nAn explosion of holy light around you deals up to (40.95% of Spell Power) Holy damage to enemies and up to (31.5% of Spell Power) healing to allies within 12 yds, reduced if there are more than 5 targets.",
-      "pvp_tooltip": "0.2% of base mana\nInstant\nAn explosion of holy light around you deals up to (40.95% of Spell Power) Holy damage to enemies and up to (31.5% of Spell Power) healing to allies within 12 yds, reduced if there are more than 5 targets.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "0.2% of base mana\nInstant\nAn explosion of holy light around you deals up to (40.95% of Spell Power) Holy damage to enemies and up to (28.35% of Spell Power) healing to allies within 12 yds, reduced if there are more than 5 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 134,
+          "end": 138,
+          "old_token": "31.5",
+          "new_token": "28.35",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "31.5",
+          "new": "28.35"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 132157,
           "source_spell_id": 281265,
           "effect_index": 1,
@@ -333,7 +362,7 @@
             281265
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -353,7 +382,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -396,11 +425,13 @@
           82556
         ],
         "entry_id": 103677,
+        "entry_max_ranks": 1,
         "definition_id": 108682,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Dispel Magic",
         "spell_id": 528,
+        "visible_spell_id": null,
         "icon": "spell_nature_nullifydisease"
       },
       "pve_tooltip": "14% of base mana\n30 yd range\nInstant\nDispels Magic on the enemy target, removing 1 beneficial Magic effect.",
@@ -453,11 +484,13 @@
           109006
         ],
         "entry_id": 103818,
+        "entry_max_ranks": 1,
         "definition_id": 108823,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Spiritual Guidance",
         "spell_id": 1250818,
+        "visible_spell_id": null,
         "icon": "spell_holy_spiritualguidence"
       },
       "pve_tooltip": "Increases your Intellect by 3%.",
@@ -510,11 +543,13 @@
           82710
         ],
         "entry_id": 103851,
+        "entry_max_ranks": 1,
         "definition_id": 108856,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Psychic Scream",
         "spell_id": 8122,
+        "visible_spell_id": null,
         "icon": "spell_shadow_psychicscream"
       },
       "pve_tooltip": "1.2% of base mana\nInstant\n40 sec cooldown\nLets out a psychic scream, causing all enemies within 8 yards to flee, disorienting them for 8 sec. Damage may interrupt the effect.",
@@ -563,11 +598,13 @@
         ],
         "next": [],
         "entry_id": 103871,
+        "entry_max_ranks": 1,
         "definition_id": 108876,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lightburst",
         "spell_id": 1246549,
+        "visible_spell_id": null,
         "icon": "inv_ability_holyfire_nova"
       },
       "pve_tooltip": "Increases the damage of Holy Nova by 400%, its healing by 500%, and its cooldown by 30 sec.",
@@ -621,11 +658,13 @@
           109890
         ],
         "entry_id": 103867,
+        "entry_max_ranks": 1,
         "definition_id": 108872,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Leap of Faith",
         "spell_id": 73325,
+        "visible_spell_id": null,
         "icon": "priest_spell_leapoffaith_a"
       },
       "pve_tooltip": "2.6% of base mana\n40 yd range\nInstant\n1.5 min cooldown\n1 Charge\nPulls the spirit of a party or raid member, instantly moving them directly in front of you.",
@@ -676,11 +715,13 @@
           109890
         ],
         "entry_id": 103855,
+        "entry_max_ranks": 1,
         "definition_id": 108860,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Purify",
         "spell_id": 390632,
+        "visible_spell_id": null,
         "icon": "spell_holy_nullifydisease"
       },
       "pve_tooltip": "Purify additionally removes all Disease effects.",
@@ -734,11 +775,13 @@
           82687
         ],
         "entry_id": 103834,
+        "entry_max_ranks": 1,
         "definition_id": 108839,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Power Infusion",
         "spell_id": 10060,
+        "visible_spell_id": null,
         "icon": "spell_holy_powerinfusion"
       },
       "pve_tooltip": "40 yd range\nInstant\n2 min cooldown\nInfuses the target with power for 15 sec, increasing haste by 20%.\nCan only be cast on players.",
@@ -817,11 +860,13 @@
           82710
         ],
         "entry_id": 103841,
+        "entry_max_ranks": 1,
         "definition_id": 119742,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Painful Invocation",
         "spell_id": 1251030,
+        "visible_spell_id": null,
         "icon": "spell_holy_mindsooth"
       },
       "pve_tooltip": "Increases the damage of Holy FireHoly Fire and Shadow Word: Pain by 10%.",
@@ -872,11 +917,13 @@
           82708
         ],
         "entry_id": 103845,
+        "entry_max_ranks": 1,
         "definition_id": 108850,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sheer Terror",
         "spell_id": 390919,
+        "visible_spell_id": null,
         "icon": "spell_nzinsanity_fearofdeath"
       },
       "pve_tooltip": "Increases the amount of damage required to break your Psychic Scream by 25%.",
@@ -927,15 +974,17 @@
           82708
         ],
         "entry_id": 114588,
+        "entry_max_ranks": 1,
         "definition_id": 119593,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Petrifying Scream",
         "spell_id": 55676,
+        "visible_spell_id": null,
         "icon": "spell_shadow_psychichorrors"
       },
-      "pve_tooltip": "Psychic Scream causes enemies to tremble in place instead of fleeing in fear.\nModifies Effect #2's Value -4:\nPandemonium, Psychic Scream",
-      "pvp_tooltip": "Psychic Scream causes enemies to tremble in place instead of fleeing in fear.\nModifies Effect #2's Value -4:\nPandemonium, Psychic Scream",
+      "pve_tooltip": "Psychic Scream causes enemies to tremble in place instead of fleeing in fear.",
+      "pvp_tooltip": "Psychic Scream causes enemies to tremble in place instead of fleeing in fear.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -983,11 +1032,13 @@
           82702
         ],
         "entry_id": 103868,
+        "entry_max_ranks": 1,
         "definition_id": 108873,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Surge of Light",
         "spell_id": 109186,
+        "visible_spell_id": null,
         "icon": "spell_holy_surgeoflight"
       },
       "pve_tooltip": "Your healing spells and Smite have a 8% chance to make your next Flash Heal instant and cost 50% less mana. Stacks to 2.",
@@ -1137,11 +1188,13 @@
           82699
         ],
         "entry_id": 136185,
+        "entry_max_ranks": 1,
         "definition_id": 140958,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Body and Soul",
         "spell_id": 64129,
+        "visible_spell_id": null,
         "icon": "spell_holy_symbolofhope"
       },
       "pve_tooltip": "Prayer of Mending and Leap of Faith increase your target's movement speed by 40% for 3 sec.",
@@ -1195,11 +1248,13 @@
           82690
         ],
         "entry_id": 136157,
+        "entry_max_ranks": 1,
         "definition_id": 140912,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Mass Dispel",
         "spell_id": 32375,
+        "visible_spell_id": null,
         "icon": "spell_arcane_massdispel"
       },
       "pve_tooltip": "20% of base mana\n30 yd range\n1.5 sec cast\n2 min cooldown\nDispels magic in a 15 yard radius, removing all harmful Magic from 5 friendly targets and 1 beneficial Magic effect from 5 enemy targets. Potent enough to remove Magic that is normally undispellable.",
@@ -1250,11 +1305,13 @@
           82690
         ],
         "entry_id": 134284,
+        "entry_max_ranks": 1,
         "definition_id": 139057,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Twins of the Sun Priestess",
         "spell_id": 373466,
+        "visible_spell_id": null,
         "icon": "spell_fire_felflamering_red"
       },
       "pve_tooltip": "Power Infusion also grants you its effect at 100% value when used on an ally.\nIf no ally is targeted, it will grant its effect at 100% value to a nearby ally, preferring damage dealers.",
@@ -1307,11 +1364,13 @@
           109020
         ],
         "entry_id": 103837,
+        "entry_max_ranks": 1,
         "definition_id": 108842,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Strength of Resolve",
         "spell_id": 1250820,
+        "visible_spell_id": null,
         "icon": "spell_holy_ashestoashes"
       },
       "pve_tooltip": "Increases your Stamina by 6%.",
@@ -1412,11 +1471,13 @@
           82693
         ],
         "entry_id": 103862,
+        "entry_max_ranks": 1,
         "definition_id": 108867,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Mind Control",
         "spell_id": 605,
+        "visible_spell_id": null,
         "icon": "spell_shadow_shadowworddominate"
       },
       "pve_tooltip": "2% of base mana\n30 yd range\n1.8 sec cast\nControls a mind up to 1 level above yours for 30 sec. Does not work versus Demonic, Undead, or Mechanical beings. Shares diminishing returns with other disorienting effects.",
@@ -1470,11 +1531,13 @@
           82693
         ],
         "entry_id": 103678,
+        "entry_max_ranks": 1,
         "definition_id": 108683,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Dominate Mind",
         "spell_id": 205364,
+        "visible_spell_id": null,
         "icon": "spell_priest_void_flay"
       },
       "pve_tooltip": "2% of base mana\n30 yd range\n1.8 sec cast\n30 sec cooldown\nControls a mind up to 1 level above yours for 30 sec while still controlling your own mind. Does not work versus Demonic, Mechanical, or Undead beings or players. This spell shares diminishing returns with other disorienting effects.",
@@ -1525,11 +1588,13 @@
           82693
         ],
         "entry_id": 103860,
+        "entry_max_ranks": 1,
         "definition_id": 108865,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Psychic Voice",
         "spell_id": 196704,
+        "visible_spell_id": null,
         "icon": "ability_warrior_commandingshout"
       },
       "pve_tooltip": "Reduces the cooldown of Psychic Scream by 10 sec.",
@@ -1580,11 +1645,13 @@
           82693
         ],
         "entry_id": 103859,
+        "entry_max_ranks": 1,
         "definition_id": 108864,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Void Tendrils",
         "spell_id": 1250691,
+        "visible_spell_id": null,
         "icon": "spell_priest_voidtendrils"
       },
       "pve_tooltip": "Call shadowy tendrils to constrict enemies when Psychic Scream ends, rooting them in place for 4 sec.",
@@ -1635,11 +1702,13 @@
           82696
         ],
         "entry_id": 103852,
+        "entry_max_ranks": 1,
         "definition_id": 108857,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Everlasting Light",
         "spell_id": 1249233,
+        "visible_spell_id": null,
         "icon": "spell_holy_greaterheal"
       },
       "pve_tooltip": "Surge of Light occurs up to 50% more often based on your missing mana.",
@@ -1691,11 +1760,13 @@
           82678
         ],
         "entry_id": 103849,
+        "entry_max_ranks": 1,
         "definition_id": 108854,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Move with Grace",
         "spell_id": 390620,
+        "visible_spell_id": null,
         "icon": "ability_priest_savinggrace"
       },
       "pve_tooltip": "Reduces the cooldown of Leap of Faith by 30 sec.",
@@ -1746,11 +1817,13 @@
           82678
         ],
         "entry_id": 134852,
+        "entry_max_ranks": 1,
         "definition_id": 139620,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Mental Agility",
         "spell_id": 341167,
+        "visible_spell_id": null,
         "icon": "spell_holy_dispelmagic"
       },
       "pve_tooltip": "Reduces the mana cost of Purify and Mass Dispel by 50% and Dispel Magic by 10%.",
@@ -1901,11 +1974,13 @@
           82712
         ],
         "entry_id": 103840,
+        "entry_max_ranks": 1,
         "definition_id": 108845,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Twin Disciplines",
         "spell_id": 1251077,
+        "visible_spell_id": null,
         "icon": "ability_priest_innerlightandshadow"
       },
       "pve_tooltip": "Increases the damage and healing of your Holy and Shadow spells by 2%.",
@@ -1958,11 +2033,13 @@
           109021
         ],
         "entry_id": 134859,
+        "entry_max_ranks": 1,
         "definition_id": 139627,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Dark Enlightenment",
         "spell_id": 1250835,
+        "visible_spell_id": null,
         "icon": "ability_priest_darkness"
       },
       "pve_tooltip": "Increases your haste by 3%.",
@@ -2013,11 +2090,13 @@
           109021
         ],
         "entry_id": 134841,
+        "entry_max_ranks": 1,
         "definition_id": 139609,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "False Autonomy",
         "spell_id": 1250806,
+        "visible_spell_id": null,
         "icon": "spell_arcane_mindmastery"
       },
       "pve_tooltip": "Increases the duration of Mind Control and Dominate Mind against enemy creatures by 15 sec.",
@@ -2069,11 +2148,13 @@
           109021
         ],
         "entry_id": 103843,
+        "entry_max_ranks": 1,
         "definition_id": 108848,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Shackle Horror",
         "spell_id": 9484,
+        "visible_spell_id": null,
         "icon": "spell_nature_slow"
       },
       "pve_tooltip": "1.2% of base mana\n30 yd range\n1.5 sec cast\nShackles an aberration or undead enemy for 50 sec, preventing all actions and movement. Damage will cancel the effect. Limit 1.",
@@ -2125,11 +2206,13 @@
           109012
         ],
         "entry_id": 103846,
+        "entry_max_ranks": 1,
         "definition_id": 108851,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Inspiration",
         "spell_id": 390676,
+        "visible_spell_id": null,
         "icon": "spell_holy_layonhands"
       },
       "pve_tooltip": "Reduces your target's physical damage taken by 5% for 15 sec after a critical heal with Flash Heal or Holy Word: Serenity.",
@@ -2183,11 +2266,13 @@
           82684
         ],
         "entry_id": 103825,
+        "entry_max_ranks": 1,
         "definition_id": 108830,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Binding Heals",
         "spell_id": 368275,
+        "visible_spell_id": null,
         "icon": "spell_holy_blindingheal"
       },
       "pve_tooltip": "20% of Flash Heal healing on other targets also heals you.",
@@ -2241,11 +2326,13 @@
           109015
         ],
         "entry_id": 103864,
+        "entry_max_ranks": 1,
         "definition_id": 108869,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Shadow Word: Death",
         "spell_id": 32379,
+        "visible_spell_id": null,
         "icon": "spell_shadow_demonicfortitude"
       },
       "pve_tooltip": "0.5% of base mana\n40 yd range\nInstant\n10 sec cooldown\n1 Charge\nA word of dark binding that inflicts (85% of Spell Power) Shadow damage to your target. If your target is not killed by Shadow Word: Death, you take backlash damage equal to 5% of your maximum health.\nDamage increased by 150% to targets below 20% health.",
@@ -2298,11 +2385,13 @@
           109015
         ],
         "entry_id": 134860,
+        "entry_max_ranks": 1,
         "definition_id": 139628,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sanguine Teachings",
         "spell_id": 373218,
+        "visible_spell_id": null,
         "icon": "inv_archaeology_80_zandalari_sanguinetotem"
       },
       "pve_tooltip": "Increases your Leech by 2%.",
@@ -2355,11 +2444,13 @@
           82677
         ],
         "entry_id": 134846,
+        "entry_max_ranks": 1,
         "definition_id": 139614,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Desperate Prayer",
         "spell_id": 19236,
+        "visible_spell_id": null,
         "icon": "spell_holy_testoffaith"
       },
       "pve_tooltip": "Instant\n1.5 min cooldown\nIncreases maximum health by [Light's Inspiration: 35 / 25]% for 10 sec, and instantly heals you for that amount.",
@@ -2412,11 +2503,13 @@
           109011
         ],
         "entry_id": 103833,
+        "entry_max_ranks": 2,
         "definition_id": 108838,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Twist of Fate",
         "spell_id": 390972,
+        "visible_spell_id": null,
         "icon": "spell_shadow_mindtwisting"
       },
       "pve_tooltip": "After damaging or healing a target below 35% health, gain 10% increased damage and healing for 8 sec.\n(500ms cooldown)",
@@ -2434,6 +2527,7 @@
           "pve_tooltip": "After damaging or healing a target below 35% health, gain 5% increased damage and healing for 8 sec.\n(500ms cooldown)",
           "pvp_tooltip": "After damaging or healing a target below 35% health, gain 5% increased damage and healing for 8 sec.\n(500ms cooldown)",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2442,6 +2536,7 @@
           "pve_tooltip": "After damaging or healing a target below 35% health, gain 10% increased damage and healing for 8 sec.\n(500ms cooldown)",
           "pvp_tooltip": "After damaging or healing a target below 35% health, gain 10% increased damage and healing for 8 sec.\n(500ms cooldown)",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2484,11 +2579,13 @@
           109011
         ],
         "entry_id": 103863,
+        "entry_max_ranks": 1,
         "definition_id": 108868,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Tithe Evasion",
         "spell_id": 373223,
+        "visible_spell_id": null,
         "icon": "spell_nzinsanity_bloodthirst"
       },
       "pve_tooltip": "Shadow Word: Death deals 50% less damage to you.",
@@ -2542,11 +2639,13 @@
           82686
         ],
         "entry_id": 134849,
+        "entry_max_ranks": 1,
         "definition_id": 139617,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Fade",
         "spell_id": 586,
+        "visible_spell_id": null,
         "icon": "spell_magic_lesserinvisibilty"
       },
       "pve_tooltip": "Instant\n30 sec cooldown\nFade out, removing all your threat and reducing enemies' detection range against you for 10 sec.",
@@ -2598,11 +2697,13 @@
           82697
         ],
         "entry_id": 103831,
+        "entry_max_ranks": 1,
         "definition_id": 108836,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Angel's Mercy",
         "spell_id": 238100,
+        "visible_spell_id": null,
         "icon": "spell_holy_testoffaith"
       },
       "pve_tooltip": "Reduces the cooldown of Desperate Prayer by 20 sec.",
@@ -2655,11 +2756,13 @@
           109010
         ],
         "entry_id": 103823,
+        "entry_max_ranks": 1,
         "definition_id": 108828,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Protective Light",
         "spell_id": 193063,
+        "visible_spell_id": null,
         "icon": "spell_holy_holyprotection"
       },
       "pve_tooltip": "Casting Flash Heal on yourself reduces all damage you take by 10% for 10 sec.",
@@ -2712,11 +2815,13 @@
           109010
         ],
         "entry_id": 134845,
+        "entry_max_ranks": 1,
         "definition_id": 139613,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Mindpierce",
         "spell_id": 1251029,
+        "visible_spell_id": null,
         "icon": "spell_shadow_mindshear"
       },
       "pve_tooltip": "Increases the damage of Smite by 15%.",
@@ -2767,11 +2872,13 @@
           82674
         ],
         "entry_id": 134848,
+        "entry_max_ranks": 1,
         "definition_id": 139616,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Spectral Illusion",
         "spell_id": 1250378,
+        "visible_spell_id": null,
         "icon": "spell_priest_spectralguise"
       },
       "pve_tooltip": "Fade creates an illusion of you for 4 sec, tricking enemies to attack it instead.",
@@ -2823,15 +2930,17 @@
           82685
         ],
         "entry_id": 103836,
+        "entry_max_ranks": 2,
         "definition_id": 108841,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Fade",
         "spell_id": 390670,
+        "visible_spell_id": null,
         "icon": "spell_magic_lesserinvisibilty"
       },
-      "pve_tooltip": "Reduces the cooldown of Fade by (10)) sec.",
-      "pvp_tooltip": "Reduces the cooldown of Fade by (10)) sec.",
+      "pve_tooltip": "Reduces the cooldown of Fade by 10 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Fade by 10 sec.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -2842,17 +2951,19 @@
       "rank_tooltips": [
         {
           "rank": 1,
-          "pve_tooltip": "Reduces the cooldown of Fade by (5)) sec.",
-          "pvp_tooltip": "Reduces the cooldown of Fade by (5)) sec.",
+          "pve_tooltip": "Reduces the cooldown of Fade by 5 sec.",
+          "pvp_tooltip": "Reduces the cooldown of Fade by 5 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
         {
           "rank": 2,
-          "pve_tooltip": "Reduces the cooldown of Fade by (10)) sec.",
-          "pvp_tooltip": "Reduces the cooldown of Fade by (10)) sec.",
+          "pve_tooltip": "Reduces the cooldown of Fade by 10 sec.",
+          "pvp_tooltip": "Reduces the cooldown of Fade by 10 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2895,11 +3006,13 @@
           82675
         ],
         "entry_id": 103826,
+        "entry_max_ranks": 1,
         "definition_id": 108831,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Light's Inspiration",
         "spell_id": 373450,
+        "visible_spell_id": null,
         "icon": "spell_holy_restoration"
       },
       "pve_tooltip": "Increases the maximum health gained from Desperate Prayer by 10%.",
@@ -2952,11 +3065,13 @@
           82676
         ],
         "entry_id": 103847,
+        "entry_max_ranks": 2,
         "definition_id": 108852,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unwavering Will",
         "spell_id": 373456,
+        "visible_spell_id": null,
         "icon": "ability_warrior_unrelentingassault"
       },
       "pve_tooltip": "While above 75% health, the cast time of your Flash Heal, Prayer of Healing, and Smite are reduced by 10%.",
@@ -2974,6 +3089,7 @@
           "pve_tooltip": "While above 75% health, the cast time of your Flash Heal, Prayer of Healing, and Smite are reduced by 5%.",
           "pvp_tooltip": "While above 75% health, the cast time of your Flash Heal, Prayer of Healing, and Smite are reduced by 5%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2982,6 +3098,7 @@
           "pve_tooltip": "While above 75% health, the cast time of your Flash Heal, Prayer of Healing, and Smite are reduced by 10%.",
           "pvp_tooltip": "While above 75% health, the cast time of your Flash Heal, Prayer of Healing, and Smite are reduced by 10%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -3026,11 +3143,13 @@
           82673
         ],
         "entry_id": 134844,
+        "entry_max_ranks": 2,
         "definition_id": 139612,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Spell Warding",
         "spell_id": 390667,
+        "visible_spell_id": null,
         "icon": "spell_holy_spellwarding"
       },
       "pve_tooltip": "Reduces all magic damage taken by 6%.",
@@ -3095,6 +3214,18 @@
           "pve_tooltip": "Reduces all magic damage taken by 3%.",
           "pvp_tooltip": "Reduces all magic damage taken by 2%.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 34,
+              "end": 35,
+              "old_token": "3",
+              "new_token": "2",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -3103,6 +3234,18 @@
           "pve_tooltip": "Reduces all magic damage taken by 6%.",
           "pvp_tooltip": "Reduces all magic damage taken by 4%.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 34,
+              "end": 35,
+              "old_token": "6",
+              "new_token": "4",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -3147,11 +3290,13 @@
           82685
         ],
         "entry_id": 115883,
+        "entry_max_ranks": 1,
         "definition_id": 120895,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Phantasm",
         "spell_id": 108942,
+        "visible_spell_id": null,
         "icon": "ability_priest_phantasm"
       },
       "pve_tooltip": "Activating Fade removes all snare effects.",
@@ -3201,11 +3346,13 @@
         ],
         "next": [],
         "entry_id": 103821,
+        "entry_max_ranks": 1,
         "definition_id": 108826,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Angelic Bulwark",
         "spell_id": 108945,
+        "visible_spell_id": null,
         "icon": "ability_priest_angelicbulwark"
       },
       "pve_tooltip": "When an attack brings you below 30% health, you gain an absorption shield equal to 25% of your maximum health for 20 sec. Cannot occur more than once every 90 sec.",
@@ -3255,11 +3402,13 @@
         ],
         "next": [],
         "entry_id": 115884,
+        "entry_max_ranks": 1,
         "definition_id": 120896,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Benevolence",
         "spell_id": 415416,
+        "visible_spell_id": null,
         "icon": "ability_priest_spiritoftheredeemer"
       },
       "pve_tooltip": "Increases the healing of your spells by 3%.",
@@ -3309,11 +3458,13 @@
         ],
         "next": [],
         "entry_id": 135091,
+        "entry_max_ranks": 1,
         "definition_id": 139859,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Focused Power",
         "spell_id": 1249230,
+        "visible_spell_id": null,
         "icon": "ability_priest_focusedwill"
       },
       "pve_tooltip": "Increases the damage of your spells by 3%.",
@@ -3363,11 +3514,13 @@
         ],
         "next": [],
         "entry_id": 103819,
+        "entry_max_ranks": 1,
         "definition_id": 108824,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Phantom Reach",
         "spell_id": 459559,
+        "visible_spell_id": null,
         "icon": "spell_shadow_chilltouch"
       },
       "pve_tooltip": "Increases the range of most spells by 15%.",
@@ -3417,11 +3570,13 @@
         ],
         "next": [],
         "entry_id": 103835,
+        "entry_max_ranks": 1,
         "definition_id": 108840,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Translucent Image",
         "spell_id": 373446,
+        "visible_spell_id": null,
         "icon": "spell_shadow_twistedfaith"
       },
       "pve_tooltip": "Fade reduces damage you take by 10%.",
@@ -3472,11 +3627,13 @@
           82639
         ],
         "entry_id": 103775,
+        "entry_max_ranks": 1,
         "definition_id": 108780,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Holy Word: Serenity",
         "spell_id": 2050,
+        "visible_spell_id": null,
         "icon": "spell_holy_persuitofjustice"
       },
       "pve_tooltip": "2.375% of base mana\n40 yd range\nInstant\n1 min cooldown\n1 Charge\nPerform a miracle, healing an ally for (2144.93% of Spell Power).\nCooldown reduced by 6 sec when you cast Flash Heal.",
@@ -3585,11 +3742,13 @@
           82630
         ],
         "entry_id": 103766,
+        "entry_max_ranks": 1,
         "definition_id": 108771,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Holy Word: Sanctify",
         "spell_id": 34861,
+        "visible_spell_id": null,
         "icon": "spell_holy_divineprovidence"
       },
       "pve_tooltip": "3.325% of base mana\n40 yd range\nInstant\n1 min cooldown\n1 Charge\nReleases miraculous light at a target location, healing up to 5 allies within 10 yds for (601.321% of Spell Power).\nCooldown reduced by 6 sec when you cast Prayer of Healing.",
@@ -3697,11 +3856,13 @@
           82636
         ],
         "entry_id": 103774,
+        "entry_max_ranks": 1,
         "definition_id": 108779,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Guardian Spirit",
         "spell_id": 47788,
+        "visible_spell_id": null,
         "icon": "spell_holy_guardianspirit"
       },
       "pve_tooltip": "0.9% of base mana\n40 yd range\nInstant\n3 min cooldown\nCalls upon a guardian spirit to watch over the friendly target for 10 sec, increasing healing received by 60%. If the target would die, the Spirit sacrifices itself and restores the target to 40% health.\nCastable while stunned. Cannot save the target from massive damage.",
@@ -3753,11 +3914,13 @@
           82640
         ],
         "entry_id": 103776,
+        "entry_max_ranks": 1,
         "definition_id": 108781,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Holy Word: Chastise",
         "spell_id": 88625,
+        "visible_spell_id": null,
         "icon": "spell_holy_chastise"
       },
       "pve_tooltip": "0.6% of base mana\n30 yd range\nInstant\n1 min cooldown\nChastises the target for (385.749% of Spell Power) Holy damage and [Censure: stuns / incapacitates] them for [Censure: 4 sec / 4 sec]. [Serendipity: Cooldown reduced by 4 sec when you cast Smite or Holy Nova.]",
@@ -3810,11 +3973,13 @@
           82622
         ],
         "entry_id": 103767,
+        "entry_max_ranks": 1,
         "definition_id": 108772,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Prayer of Healing",
         "spell_id": 596,
+        "visible_spell_id": null,
         "icon": "spell_holy_prayerofhealing02"
       },
       "pve_tooltip": "4.347% of base mana\n40 yd range\n2.5 sec cast\nA powerful prayer that heals your target and 4 injured allies within 40 yards for (578.742% of Spell Power).",
@@ -3921,11 +4086,13 @@
           82620
         ],
         "entry_id": 103773,
+        "entry_max_ranks": 1,
         "definition_id": 108778,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Restitution",
         "spell_id": 391124,
+        "visible_spell_id": null,
         "icon": "inv_staff_2h_artifactheartofkure_d_03"
       },
       "pve_tooltip": "After Spirit of Redemption expires, you will revive at up to 100% health, based on your healing done during Spirit of Redemption. After reviving, you cannot benefit from Spirit of Redemption for 10 min.",
@@ -3977,11 +4144,13 @@
           82620
         ],
         "entry_id": 128315,
+        "entry_max_ranks": 1,
         "definition_id": 133122,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Guardian Angel",
         "spell_id": 200209,
+        "visible_spell_id": null,
         "icon": "ability_priest_pathofthedevout"
       },
       "pve_tooltip": "When Guardian Spirit saves the target from death, it does not expire.\nWhen Guardian Spirit expires without saving the target from death, reduce its remaining cooldown to 60 seconds.",
@@ -4032,11 +4201,13 @@
           82620
         ],
         "entry_id": 103753,
+        "entry_max_ranks": 1,
         "definition_id": 108758,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Censure",
         "spell_id": 200199,
+        "visible_spell_id": null,
         "icon": "spell_holy_eyeforaneye"
       },
       "pve_tooltip": "Holy Word: Chastise stuns the target for 4 sec and is not broken by damage.",
@@ -4088,11 +4259,13 @@
           82607
         ],
         "entry_id": 103777,
+        "entry_max_ranks": 1,
         "definition_id": 108782,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Empyreal Blaze",
         "spell_id": 372616,
+        "visible_spell_id": null,
         "icon": "ability_priest_empyrealblaze"
       },
       "pve_tooltip": "Holy Word: Chastise causes your next 2 casts of Holy Fire to be instant, cost no mana, and incur no cooldown.\nRefreshing Holy Fire on a target now extends its duration by 7 sec.",
@@ -4143,11 +4316,13 @@
           82623
         ],
         "entry_id": 103769,
+        "entry_max_ranks": 1,
         "definition_id": 108774,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Prayerful Litany",
         "spell_id": 391209,
+        "visible_spell_id": null,
         "icon": "spell_holy_prayerofhealing02"
       },
       "pve_tooltip": "The primary target of Prayer of Healing is healed for 125% more.",
@@ -4201,11 +4376,13 @@
           82621
         ],
         "entry_id": 103765,
+        "entry_max_ranks": 1,
         "definition_id": 108770,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Cosmic Ripple",
         "spell_id": 238136,
+        "visible_spell_id": null,
         "icon": "inv_ability_holyfire_nova"
       },
       "pve_tooltip": "When Holy Word: Serenity or Holy Word: Sanctify finish their cooldown, you emit a burst of light that heals up to 5 injured targets within 40 yards for (122.693% of Spell Power).",
@@ -4316,11 +4493,13 @@
           82621
         ],
         "entry_id": 103771,
+        "entry_max_ranks": 1,
         "definition_id": 108776,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Afterlife",
         "spell_id": 196707,
+        "visible_spell_id": null,
         "icon": "inv_enchant_essencemagiclarge"
       },
       "pve_tooltip": "Increases the duration of Spirit of Redemption by 50% and the range of its spells by 50%.",
@@ -4375,11 +4554,13 @@
           82641
         ],
         "entry_id": 103754,
+        "entry_max_ranks": 1,
         "definition_id": 108759,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Voice of Harmony",
         "spell_id": 390994,
+        "visible_spell_id": null,
         "icon": "ability_priest_heavanlyvoice"
       },
       "pve_tooltip": "Prayer of Mending [Halo: and creating a Halo]reduces the cooldown of Holy Word: Serenity by 4 sec.\n[Creating a Halo reduces the cooldown of Holy Word: Sanctify by 4 sec.]\nHoly Fire reduces the cooldown of Holy Word: Chastise by 4 sec.",
@@ -4477,11 +4658,13 @@
           82641
         ],
         "entry_id": 103739,
+        "entry_max_ranks": 1,
         "definition_id": 108744,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Burning Vehemence",
         "spell_id": 372307,
+        "visible_spell_id": null,
         "icon": "ability_paladin_sacredcleansing"
       },
       "pve_tooltip": "Increases the damage of Holy Fire by 30%.\nHoly Fire deals 75% of its initial damage to all nearby enemies within 12 yards of your target. Damage reduced beyond 5 targets.",
@@ -4534,11 +4717,13 @@
           82627
         ],
         "entry_id": 103756,
+        "entry_max_ranks": 1,
         "definition_id": 108761,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Uplifting Words",
         "spell_id": 1250562,
+        "visible_spell_id": null,
         "icon": "spell_holy_persecution"
       },
       "pve_tooltip": "Increases the critical strike chance of your Holy Word: Serenity and Holy Word: Sanctify by 10%.",
@@ -4589,11 +4774,13 @@
           82634
         ],
         "entry_id": 128333,
+        "entry_max_ranks": 1,
         "definition_id": 133140,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Cosmic Wave",
         "spell_id": 1248418,
+        "visible_spell_id": null,
         "icon": "inv_ability_holyfire_wave"
       },
       "pve_tooltip": "Increases Cosmic Ripple healing by 15%.",
@@ -4648,24 +4835,47 @@
           82617
         ],
         "entry_id": 103755,
+        "entry_max_ranks": 1,
         "definition_id": 108760,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Divine Hymn",
         "spell_id": 64843,
+        "visible_spell_id": null,
         "icon": "spell_holy_divinehymn"
       },
       "pve_tooltip": "4.4% of base mana\n40 yd range\nChanneled (5 sec cast)\n3 min cooldown\nHeals all party or raid members within 40 yards for [5 * (560.88% of Spell Power)] over 5 sec. Each heal increases all targets' healing taken by 4% for 15 sec, stacking.\nYou gain Guardian Spirit while channeling Divine Hymn.\nHealing reduced beyond 5 targets.",
-      "pvp_tooltip": "4.4% of base mana\n40 yd range\nChanneled (5 sec cast)\n3 min cooldown\nHeals all party or raid members within 40 yards for [5 * (560.88% of Spell Power)] over 5 sec. Each heal increases all targets' healing taken by 4% for 15 sec, stacking.\nYou gain Guardian Spirit while channeling Divine Hymn.\nHealing reduced beyond 5 targets.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "4.4% of base mana\n40 yd range\nChanneled (5 sec cast)\n3 min cooldown\nHeals all party or raid members within 40 yards for [5 * (605.7504% of Spell Power)] over 5 sec. Each heal increases all targets' healing taken by 4% for 15 sec, stacking.\nYou gain Guardian Spirit while channeling Divine Hymn.\nHealing reduced beyond 5 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 126,
+          "end": 132,
+          "old_token": "560.88",
+          "new_token": "605.7504",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "560.88",
+          "new": "605.7504"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 64843,
           "source_spell_id": 64844,
           "effect_index": 1,
@@ -4682,7 +4892,7 @@
             64844
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -4704,7 +4914,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -4744,11 +4954,13 @@
           82617
         ],
         "entry_id": 103752,
+        "entry_max_ranks": 1,
         "definition_id": 108757,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Enlightenment",
         "spell_id": 193155,
+        "visible_spell_id": null,
         "icon": "spell_arcane_mindmastery"
       },
       "pve_tooltip": "You regenerate mana 25% faster.",
@@ -4848,11 +5060,13 @@
           82642
         ],
         "entry_id": 103779,
+        "entry_max_ranks": 1,
         "definition_id": 108784,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Light's Resurgence",
         "spell_id": 193157,
+        "visible_spell_id": null,
         "icon": "spell_monk_diffusemagic"
       },
       "pve_tooltip": "Your Prayer of Mending has a 12% chance to leave a Renew on each target it heals.\nRenew\nFill the target with faith in the light, healing for (304.64% of Spell Power) over 15 sec.",
@@ -4945,11 +5159,13 @@
           82604
         ],
         "entry_id": 103757,
+        "entry_max_ranks": 1,
         "definition_id": 108762,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Efficient Prayers",
         "spell_id": 1247131,
+        "visible_spell_id": null,
         "icon": "spell_priest_finalprayer"
       },
       "pve_tooltip": "Reduces the mana cost of Prayer of Healing by 15%.",
@@ -5003,11 +5219,13 @@
           82614
         ],
         "entry_id": 103770,
+        "entry_max_ranks": 1,
         "definition_id": 108775,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Healing Focus",
         "spell_id": 1247166,
+        "visible_spell_id": null,
         "icon": "spell_holy_healingfocus"
       },
       "pve_tooltip": "Reduces the mana cost of Flash Heal by 15%.",
@@ -5058,11 +5276,13 @@
           82614
         ],
         "entry_id": 103747,
+        "entry_max_ranks": 1,
         "definition_id": 108752,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Seraphic Crescendo",
         "spell_id": 419110,
+        "visible_spell_id": null,
         "icon": "spell_holy_divinehymn"
       },
       "pve_tooltip": "Reduces the cooldown of Divine Hymn by 60 sec.",
@@ -5113,11 +5333,13 @@
           82614
         ],
         "entry_id": 128316,
+        "entry_max_ranks": 1,
         "definition_id": 133123,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Gales of Song",
         "spell_id": 372370,
+        "visible_spell_id": null,
         "icon": "inv_misc_volatileair"
       },
       "pve_tooltip": "While channeling Divine Hymn, place 2 stacks of Prayer of Mending on up to 3 allies within its range every 1.0 sec.",
@@ -5160,7 +5382,7 @@
           ],
           "dependency_relations": [
             "tooltip_value_ref",
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -5225,11 +5447,13 @@
           82616
         ],
         "entry_id": 103751,
+        "entry_max_ranks": 1,
         "definition_id": 108756,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Divine Service",
         "spell_id": 391233,
+        "visible_spell_id": null,
         "icon": "spell_holy_prayerofspirit"
       },
       "pve_tooltip": "Prayer of Mending heals 4% more for each bounce remaining.",
@@ -5281,11 +5505,13 @@
           82615
         ],
         "entry_id": 103780,
+        "entry_max_ranks": 1,
         "definition_id": 108785,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Renewed Faith",
         "spell_id": 341997,
+        "visible_spell_id": null,
         "icon": "ability_pvp_innerrenewal"
       },
       "pve_tooltip": "Your healing on allies with your Renew is increased by 10%.",
@@ -5339,11 +5565,13 @@
           82610
         ],
         "entry_id": 103762,
+        "entry_max_ranks": 1,
         "definition_id": 108767,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Angelic Touch",
         "spell_id": 1250565,
+        "visible_spell_id": null,
         "icon": "spell_holy_hopeandgrace"
       },
       "pve_tooltip": "Your healing spells critically strike for 220% of healing done instead of the usual 200%.",
@@ -5480,11 +5708,13 @@
           82612
         ],
         "entry_id": 103748,
+        "entry_max_ranks": 1,
         "definition_id": 108753,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Apotheosis",
         "spell_id": 200183,
+        "visible_spell_id": null,
         "icon": "ability_priest_ascension"
       },
       "pve_tooltip": "Instant\n2 min cooldown\n[Miracle Worker: Gain a charge / Reset the cooldown] of your Holy Words, and enter a pure Holy form for 20 sec, increasing the cooldown reductions to your Holy Words by 200% and reducing their cost by 70%.",
@@ -5537,11 +5767,13 @@
           82615
         ],
         "entry_id": 103750,
+        "entry_max_ranks": 1,
         "definition_id": 108755,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Prayers of the Virtuous",
         "spell_id": 390977,
+        "visible_spell_id": null,
         "icon": "spell_holy_prayerofmendingtga"
       },
       "pve_tooltip": "Prayer of Mending jumps 2 additional times.",
@@ -5594,11 +5826,13 @@
           82629
         ],
         "entry_id": 103735,
+        "entry_max_ranks": 1,
         "definition_id": 108740,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Dispersing Light",
         "spell_id": 1215265,
+        "visible_spell_id": null,
         "icon": "ability_priest_spiritoftheredeemer"
       },
       "pve_tooltip": "5% of healing done with Flash Heal is replicated to 4 injured allies within 40 yards.",
@@ -5651,11 +5885,13 @@
           82629
         ],
         "entry_id": 128613,
+        "entry_max_ranks": 1,
         "definition_id": 133416,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Trail of Light",
         "spell_id": 200128,
+        "visible_spell_id": null,
         "icon": "ability_priest_wordsofmeaning"
       },
       "pve_tooltip": "25% of healing done by Flash Heal is replicated to the previous target you healed with those spells.",
@@ -5709,11 +5945,13 @@
           82611
         ],
         "entry_id": 103743,
+        "entry_max_ranks": 1,
         "definition_id": 108748,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Miracle Worker",
         "spell_id": 235587,
+        "visible_spell_id": null,
         "icon": "spell_holy_persuitofjustice"
       },
       "pve_tooltip": "Holy Word: Serenity[gains][and Holy Word: Sanctify gain] an additional charge.",
@@ -5764,11 +6002,13 @@
           82611
         ],
         "entry_id": 128612,
+        "entry_max_ranks": 1,
         "definition_id": 133415,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Eternal Sanctity",
         "spell_id": 1215245,
+        "visible_spell_id": null,
         "icon": "ability_priest_archangel"
       },
       "pve_tooltip": "Increases the duration of Apotheosis by 12 sec.",
@@ -5819,11 +6059,13 @@
           82611
         ],
         "entry_id": 128611,
+        "entry_max_ranks": 1,
         "definition_id": 133414,
         "entry_index": 300,
         "entry_type": "passive",
         "talent_name": "Divinity",
         "spell_id": 1215241,
+        "visible_spell_id": null,
         "icon": "ability_priest_rayofhope"
       },
       "pve_tooltip": "Your healing is increased by 10% while Apotheosis is active.\nCasting Apotheosis causes your next 3 Prayer of Healing casts to be instant and heal for 25% more.",
@@ -5876,11 +6118,13 @@
           82609
         ],
         "entry_id": 103745,
+        "entry_max_ranks": 1,
         "definition_id": 108750,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Holy Celerity",
         "spell_id": 1215275,
+        "visible_spell_id": null,
         "icon": "spell_priest_pathofdevout"
       },
       "pve_tooltip": "Reduces the cooldown of your Holy Words by 15 sec.",
@@ -5933,11 +6177,13 @@
           82606
         ],
         "entry_id": 103749,
+        "entry_max_ranks": 1,
         "definition_id": 108754,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Say Your Prayers",
         "spell_id": 391186,
+        "visible_spell_id": null,
         "icon": "ability_priest_bindingprayers"
       },
       "pve_tooltip": "100 yd range\nPrayer of Mending has a 15% chance to not consume a charge when it jumps to a new target.",
@@ -5988,11 +6234,13 @@
           82603
         ],
         "entry_id": 103763,
+        "entry_max_ranks": 1,
         "definition_id": 108768,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Crisis Management",
         "spell_id": 390954,
+        "visible_spell_id": null,
         "icon": "spell_holy_flashheal"
       },
       "pve_tooltip": "Increases the critical strike chance of Flash Heal and Prayer of Healing by 15%.",
@@ -6045,11 +6293,13 @@
           103900
         ],
         "entry_id": 103764,
+        "entry_max_ranks": 2,
         "definition_id": 108769,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Light of the Naaru",
         "spell_id": 196985,
+        "visible_spell_id": null,
         "icon": "inv_pet_naaru"
       },
       "pve_tooltip": "The cooldowns of your Holy Words are reduced by an additional 20% when you cast the relevant spells.",
@@ -6067,6 +6317,7 @@
           "pve_tooltip": "The cooldowns of your Holy Words are reduced by an additional 10% when you cast the relevant spells.",
           "pvp_tooltip": "The cooldowns of your Holy Words are reduced by an additional 10% when you cast the relevant spells.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -6075,6 +6326,7 @@
           "pve_tooltip": "The cooldowns of your Holy Words are reduced by an additional 20% when you cast the relevant spells.",
           "pvp_tooltip": "The cooldowns of your Holy Words are reduced by an additional 20% when you cast the relevant spells.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6118,11 +6370,13 @@
           82554
         ],
         "entry_id": 128331,
+        "entry_max_ranks": 2,
         "definition_id": 133138,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Light in the Darkness",
         "spell_id": 471668,
+        "visible_spell_id": null,
         "icon": "spell_holy_divineprovidence"
       },
       "pve_tooltip": "Increases the healing done by Holy Word: Serenity and Holy Word: Sanctify by 25%.\nIncreases the radius of Holy Word: Sanctify by 30%.",
@@ -6140,6 +6394,7 @@
           "pve_tooltip": "Increases the healing done by Holy Word: Serenity and Holy Word: Sanctify by 13%.\nIncreases the radius of Holy Word: Sanctify by 15%.",
           "pvp_tooltip": "Increases the healing done by Holy Word: Serenity and Holy Word: Sanctify by 13%.\nIncreases the radius of Holy Word: Sanctify by 15%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -6148,6 +6403,7 @@
           "pve_tooltip": "Increases the healing done by Holy Word: Serenity and Holy Word: Sanctify by 25%.\nIncreases the radius of Holy Word: Sanctify by 30%.",
           "pvp_tooltip": "Increases the healing done by Holy Word: Serenity and Holy Word: Sanctify by 25%.\nIncreases the radius of Holy Word: Sanctify by 30%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6193,11 +6449,13 @@
           103901
         ],
         "entry_id": 103744,
+        "entry_max_ranks": 2,
         "definition_id": 108749,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Prismatic Echoes",
         "spell_id": 390967,
+        "visible_spell_id": null,
         "icon": "spell_holy_aspiration"
       },
       "pve_tooltip": "Increases the healing done by your Mastery: Echo of Light by 15% and your Renew by 40%.",
@@ -6215,6 +6473,7 @@
           "pve_tooltip": "Increases the healing done by your Mastery: Echo of Light by 8% and your Renew by 20%.",
           "pvp_tooltip": "Increases the healing done by your Mastery: Echo of Light by 8% and your Renew by 20%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -6223,6 +6482,7 @@
           "pve_tooltip": "Increases the healing done by your Mastery: Echo of Light by 15% and your Renew by 40%.",
           "pvp_tooltip": "Increases the healing done by your Mastery: Echo of Light by 15% and your Renew by 40%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6267,11 +6527,13 @@
           82608
         ],
         "entry_id": 103741,
+        "entry_max_ranks": 2,
         "definition_id": 108746,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Desperate Times",
         "spell_id": 391381,
+        "visible_spell_id": null,
         "icon": "ability_pvp_defenderoftheweak"
       },
       "pve_tooltip": "Increases healing by 20% on friendly targets at or below 50% health.",
@@ -6289,6 +6551,7 @@
           "pve_tooltip": "Increases healing by 10% on friendly targets at or below 50% health.",
           "pvp_tooltip": "Increases healing by 10% on friendly targets at or below 50% health.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -6297,6 +6560,7 @@
           "pve_tooltip": "Increases healing by 20% on friendly targets at or below 50% health.",
           "pvp_tooltip": "Increases healing by 20% on friendly targets at or below 50% health.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6339,11 +6603,13 @@
           82608
         ],
         "entry_id": 103738,
+        "entry_max_ranks": 1,
         "definition_id": 108743,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Radiant Plea",
         "spell_id": 1250684,
+        "visible_spell_id": null,
         "icon": "spell_priest_pontifex"
       },
       "pve_tooltip": "Increases Prayer of Mending healing by 15%.",
@@ -6393,11 +6659,13 @@
         ],
         "next": [],
         "entry_id": 103734,
+        "entry_max_ranks": 1,
         "definition_id": 108739,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lightweaver",
         "spell_id": 390992,
+        "visible_spell_id": null,
         "icon": "spell_holy_greaterheal"
       },
       "pve_tooltip": "Flash Heal reduces the cast time of your next Prayer of Healing within 20 sec by 30% and increases its healing done by 18%.\nCan accumulate up to 4 charges.",
@@ -6410,7 +6678,7 @@
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 390992,
           "source_spell_id": 2060,
           "effect_index": 1,
@@ -6428,7 +6696,7 @@
             2060
           ],
           "dependency_relations": [
-            "trigger_spell",
+            "tooltip_value_ref",
             "triggered_by_reverse"
           ],
           "aura_rules": [
@@ -6490,11 +6758,13 @@
         ],
         "next": [],
         "entry_id": 103733,
+        "entry_max_ranks": 1,
         "definition_id": 108738,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ultimate Serenity",
         "spell_id": 1246517,
+        "visible_spell_id": null,
         "icon": "ability_priest_holywordlife"
       },
       "pve_tooltip": "Increases the healing done by Holy Word: Serenity by 10% and causes it to heal 4 nearby injured allies within 40 yards for 15% of its healing done.\nTalents that affect Holy Word: Sanctify instead affect Holy Word: Serenity.",
@@ -6585,11 +6855,13 @@
         ],
         "next": [],
         "entry_id": 103675,
+        "entry_max_ranks": 1,
         "definition_id": 108680,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Divine Image",
         "spell_id": 392988,
+        "visible_spell_id": null,
         "icon": "inv_staff_2h_artifactheartofkure_d_04"
       },
       "pve_tooltip": "Your Holy Words summon an image of a Naaru at your side. For 9 sec, whenever you cast a healing or damaging spell, the Naaru will cast a similar spell.\nIf an image has already been summoned, that image is empowered instead.",
@@ -6639,11 +6911,13 @@
         ],
         "next": [],
         "entry_id": 103676,
+        "entry_max_ranks": 1,
         "definition_id": 108681,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lasting Words",
         "spell_id": 471504,
+        "visible_spell_id": null,
         "icon": "spell_holy_renew"
       },
       "pve_tooltip": "Holy Word: Serenity applies 12 sec of Renew to its target.\nHoly Word: Sanctify applies 6 sec of Renew to allies it heals.\nRenew\nFill the target with faith in the light, healing for [(304.64% of Spell Power) * 12000 / 15000] over 12 sec.",
@@ -6693,11 +6967,13 @@
         ],
         "next": [],
         "entry_id": 103740,
+        "entry_max_ranks": 1,
         "definition_id": 108745,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Epiphany",
         "spell_id": 414553,
+        "visible_spell_id": null,
         "icon": "ability_mage_studentofthemind"
       },
       "pve_tooltip": "Your Holy Words have a 25% chance to cause your next cast of Prayer of Mending to ignore its cooldown.",
@@ -6744,11 +7020,13 @@
         "prev": [],
         "next": [],
         "entry_id": 136995,
+        "entry_max_ranks": 1,
         "definition_id": 141758,
         "entry_index": 200,
         "entry_type": "tierrank",
         "talent_name": "Benediction",
         "spell_id": 1262755,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_priest_benediction"
       },
       "pve_tooltip": "Approximately 5 procs per minute\nPrayer of Mending healing has a chance to upgrade your next Flash Heal to Benediction, healing the target for 30% more and causing a Cosmic Ripple.",
@@ -6795,15 +7073,17 @@
         "prev": [],
         "next": [],
         "entry_id": 136994,
+        "entry_max_ranks": 2,
         "definition_id": 141757,
         "entry_index": 300,
         "entry_type": "tierrank",
         "talent_name": "Benediction",
         "spell_id": 1262758,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_priest_benediction"
       },
-      "pve_tooltip": "Cosmic Ripple healing increased by 25%.\nAll healing done increased by 6%.",
-      "pvp_tooltip": "Cosmic Ripple healing increased by 25%.\nAll healing done increased by 6%.",
+      "pve_tooltip": "Cosmic Ripple healing increased by 30%.\nAll healing done increased by 12%.",
+      "pvp_tooltip": "Cosmic Ripple healing increased by 30%.\nAll healing done increased by 12%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6811,7 +7091,26 @@
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Cosmic Ripple healing increased by 15%.\nAll healing done increased by 6%.",
+          "pvp_tooltip": "Cosmic Ripple healing increased by 15%.\nAll healing done increased by 6%.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Cosmic Ripple healing increased by 30%.\nAll healing done increased by 12%.",
+          "pvp_tooltip": "Cosmic Ripple healing increased by 30%.\nAll healing done increased by 12%.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Benediction",
@@ -6846,11 +7145,13 @@
         "prev": [],
         "next": [],
         "entry_id": 136993,
+        "entry_max_ranks": 1,
         "definition_id": 141756,
         "entry_index": 400,
         "entry_type": "tierrank",
         "talent_name": "Benediction",
         "spell_id": 1262760,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_priest_benediction"
       },
       "pve_tooltip": "Each pulse of Divine Hymn emits a Cosmic Ripple at 75% effectiveness.\nHoly Word: Serenity now has a 100% chance to upgrade your next Flash Heal to Benediction.",
@@ -6902,11 +7203,13 @@
           109782
         ],
         "entry_id": 117286,
+        "entry_max_ranks": 1,
         "definition_id": 122298,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Guiding Light",
         "spell_id": 1248423,
+        "visible_spell_id": null,
         "icon": "ability_priest_holywordlife"
       },
       "pve_tooltip": "Prayer of Mending gains an additional charge.",
@@ -6958,11 +7261,13 @@
           109777
         ],
         "entry_id": 134273,
+        "entry_max_ranks": 1,
         "definition_id": 139046,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Halo",
         "spell_id": 120517,
+        "visible_spell_id": null,
         "icon": "ability_priest_halo"
       },
       "pve_tooltip": "2.7% of base mana\n40 yd range\n1.5 sec cast\n1 min cooldown\nCreates a ring of Holy energy around you that quickly expands to a 40 yd radius, healing allies for (161% of Spell Power) and dealing [(144.2% of Spell Power) * 1] Holy damage to enemies.\nHealing reduced beyond 6 targets.",
@@ -7120,11 +7425,13 @@
           94691
         ],
         "entry_id": 117301,
+        "entry_max_ranks": 1,
         "definition_id": 122313,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Preventive Measures",
         "spell_id": 440662,
+        "visible_spell_id": null,
         "icon": "spell_holy_powerwordshield"
       },
       "pve_tooltip": "Increases the healing done by Prayer of Mending by 40%.\nAll damage dealt by Smite, Holy Fire and Holy Nova increased by 40%.",
@@ -7317,11 +7624,13 @@
           94675
         ],
         "entry_id": 117277,
+        "entry_max_ranks": 1,
         "definition_id": 122289,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Preemptive Care",
         "spell_id": 440671,
+        "visible_spell_id": null,
         "icon": "spell_holy_renew"
       },
       "pve_tooltip": "Increases the duration of your Renew by 40%.",
@@ -7372,11 +7681,13 @@
           94689
         ],
         "entry_id": 117282,
+        "entry_max_ranks": 1,
         "definition_id": 122294,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Waste No Time",
         "spell_id": 440681,
+        "visible_spell_id": null,
         "icon": "spell_nature_timestop"
       },
       "pve_tooltip": "Reduces the cooldown of Prayer of Mending by 1.5 sec.",
@@ -7427,12 +7738,14 @@
           109783
         ],
         "entry_id": 136040,
+        "entry_max_ranks": 1,
         "definition_id": 140795,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Words of the Wise",
         "spell_id": 1272352,
-        "icon": "spell_priest_power_word"
+        "visible_spell_id": null,
+        "icon": "spell_priest_power-word"
       },
       "pve_tooltip": "Holy Word: Serenity healing increased by 40%.Holy Word: Serenity and Holy Word: Sanctify healing increased by 40%.",
       "pvp_tooltip": "Holy Word: Serenity healing increased by 40%.Holy Word: Serenity and Holy Word: Sanctify healing increased by 40%.",
@@ -7482,11 +7795,13 @@
           94686
         ],
         "entry_id": 117280,
+        "entry_max_ranks": 1,
         "definition_id": 122292,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Perfected Form",
         "spell_id": 453917,
+        "visible_spell_id": null,
         "icon": "inv_ability_holyfire_buff"
       },
       "pve_tooltip": "Your healing done is increased by 10% while Apotheosis is active.",
@@ -7537,11 +7852,13 @@
           94680
         ],
         "entry_id": 117284,
+        "entry_max_ranks": 1,
         "definition_id": 122296,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Power Surge",
         "spell_id": 453109,
+        "visible_spell_id": null,
         "icon": "inv_ability_holyfire_groundstate"
       },
       "pve_tooltip": "Casting Halo also causes you to create a Halo around you at 100% effectiveness every 5 sec for 10 sec.",
@@ -7592,11 +7909,13 @@
           94688
         ],
         "entry_id": 117302,
+        "entry_max_ranks": 1,
         "definition_id": 122314,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Manifested Power",
         "spell_id": 453783,
+        "visible_spell_id": null,
         "icon": "spell_holy_surgeoflight"
       },
       "pve_tooltip": "Creating a Halo grants Surge of Light.\nSurge of Light\nYour healing spells and Smite have a 8% chance to make your next Flash Heal instant and cost 50% less mana. Stacks to 2.",
@@ -7810,11 +8129,13 @@
           109776
         ],
         "entry_id": 136035,
+        "entry_max_ranks": 1,
         "definition_id": 140790,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Focused Outburst",
         "spell_id": 1272320,
+        "visible_spell_id": null,
         "icon": "ability_priest_spiritoftheredeemer"
       },
       "pve_tooltip": "Prayer of Healing mana cost reduced by 10% and its cast time is reduced by 15%.",
@@ -7865,11 +8186,13 @@
           94690
         ],
         "entry_id": 117294,
+        "entry_max_ranks": 1,
         "definition_id": 122306,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Assured Safety",
         "spell_id": 440766,
+        "visible_spell_id": null,
         "icon": "spell_holy_prayerofmendingtga"
       },
       "pve_tooltip": "Casting Prayer of Mending applies Power Word: Shield to your target.\nPower Word: Shield\nShields an ally for 15 sec, absorbing 0 damage.",
@@ -8010,11 +8333,13 @@
           94673
         ],
         "entry_id": 117278,
+        "entry_max_ranks": 1,
         "definition_id": 122290,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Divine Feathers",
         "spell_id": 440670,
+        "visible_spell_id": null,
         "icon": "ability_priest_angelicfeather"
       },
       "pve_tooltip": "Your Angelic Feathers increase movement speed by an additional 10%.\nWhen an ally walks through your Angelic Feather, you are also granted 100% of its effect.",
@@ -8065,11 +8390,13 @@
           94673
         ],
         "entry_id": 119331,
+        "entry_max_ranks": 1,
         "definition_id": 124231,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Save the Day",
         "spell_id": 440669,
+        "visible_spell_id": null,
         "icon": "priest_spell_leapoffaith_a"
       },
       "pve_tooltip": "For 6 sec after casting Leap of Faith you may cast it a second time for free, ignoring its cooldown.",
@@ -8120,11 +8447,13 @@
           94700
         ],
         "entry_id": 117292,
+        "entry_max_ranks": 1,
         "definition_id": 122304,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Foreseen Circumstances",
         "spell_id": 440738,
+        "visible_spell_id": null,
         "icon": "spell_holy_painsupression"
       },
       "pve_tooltip": "Guardian Spirit lasts an additional 2 sec.",
@@ -8175,11 +8504,13 @@
           109781
         ],
         "entry_id": 136041,
+        "entry_max_ranks": 1,
         "definition_id": 140796,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Prophet's Insight",
         "spell_id": 1272359,
+        "visible_spell_id": null,
         "icon": "spell_priest_pontifex"
       },
       "pve_tooltip": "Reduces the cooldown of your Holy Words by 5 sec.",
@@ -8230,11 +8561,13 @@
           94678
         ],
         "entry_id": 117289,
+        "entry_max_ranks": 1,
         "definition_id": 122301,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shock Pulse",
         "spell_id": 453852,
+        "visible_spell_id": null,
         "icon": "spell_priest_pathofdevout"
       },
       "pve_tooltip": "Halo damage reduces enemy movement speed by 5% for 5 sec, stacking up to 5 times.",
@@ -8285,11 +8618,13 @@
           94678
         ],
         "entry_id": 125083,
+        "entry_max_ranks": 1,
         "definition_id": 129915,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Incessant Screams",
         "spell_id": 453918,
+        "visible_spell_id": null,
         "icon": "spell_shadow_psychicscream"
       },
       "pve_tooltip": "Psychic Scream creates an image of you at your location. After 4 sec, the image will let out a Psychic Scream.",
@@ -8340,11 +8675,13 @@
           94676
         ],
         "entry_id": 117283,
+        "entry_max_ranks": 1,
         "definition_id": 122295,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Energy Conservation",
         "spell_id": 1272308,
+        "visible_spell_id": null,
         "icon": "ability_priest_clarityofpurpose"
       },
       "pve_tooltip": "Power Surge lasts an additional 5 sec.",
@@ -8395,11 +8732,13 @@
           94685
         ],
         "entry_id": 117291,
+        "entry_max_ranks": 1,
         "definition_id": 122303,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Empowered Surges",
         "spell_id": 453799,
+        "visible_spell_id": null,
         "icon": "ability_priest_flashoflight"
       },
       "pve_tooltip": "Your spells affected by Surge of Light heal for 5% more while Surge of Light is active.",
@@ -8450,11 +8789,13 @@
           109775
         ],
         "entry_id": 136034,
+        "entry_max_ranks": 1,
         "definition_id": 140789,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Word of Supremacy",
         "spell_id": 453726,
+        "visible_spell_id": null,
         "icon": "spell_holy_wordfortitude"
       },
       "pve_tooltip": "Power Word: Fortitude grants you an additional 5% stamina.",
@@ -8505,11 +8846,13 @@
           109775
         ],
         "entry_id": 136687,
+        "entry_max_ranks": 1,
         "definition_id": 141459,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Heightened Alteration",
         "spell_id": 453729,
+        "visible_spell_id": null,
         "icon": "inv_enchant_essenceeternallarge"
       },
       "pve_tooltip": "Increases the duration of Spirit of Redemption by 5 sec.",
@@ -8560,11 +8903,13 @@
           94687
         ],
         "entry_id": 117293,
+        "entry_max_ranks": 1,
         "definition_id": 122305,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Prophet's Will",
         "spell_id": 433905,
+        "visible_spell_id": null,
         "icon": "ability_priest_clarityofpurpose"
       },
       "pve_tooltip": "Your Flash Heal and Holy Word: Serenity are 30% more effective when cast on yourself.",
@@ -8662,11 +9007,13 @@
           94687
         ],
         "entry_id": 126068,
+        "entry_max_ranks": 1,
         "definition_id": 130900,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Desperate Measures",
         "spell_id": 458718,
+        "visible_spell_id": null,
         "icon": "spell_holy_testoffaith"
       },
       "pve_tooltip": "Desperate Prayer lasts an additional 10 sec.\nAngelic Bulwark's absorption effect is increased by 15% of your maximum health.",
@@ -8717,11 +9064,13 @@
           94687
         ],
         "entry_id": 117276,
+        "entry_max_ranks": 1,
         "definition_id": 122288,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Prompt Prognosis",
         "spell_id": 1246799,
+        "visible_spell_id": null,
         "icon": "spell_holy_blessedlife"
       },
       "pve_tooltip": "Casting Prayer of Mending heals your target for (1222% of Spell Power).",
@@ -8813,11 +9162,13 @@
           94687
         ],
         "entry_id": 117303,
+        "entry_max_ranks": 1,
         "definition_id": 122315,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Piety",
         "spell_id": 1246802,
+        "visible_spell_id": null,
         "icon": "inv_ability_oraclepriest_premonitionpiety"
       },
       "pve_tooltip": "20% of overhealing done is redistributed to up to 4 nearby injured allies.",
@@ -8868,11 +9219,13 @@
           94687
         ],
         "entry_id": 136039,
+        "entry_max_ranks": 1,
         "definition_id": 140794,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unfolding Vision",
         "spell_id": 1272363,
+        "visible_spell_id": null,
         "icon": "spell_holy_mindvision"
       },
       "pve_tooltip": "When Prayer of Mending expires without healing, it jumps to a nearby injured ally and loses 2 stacks instead.",
@@ -8923,11 +9276,13 @@
           94702
         ],
         "entry_id": 117281,
+        "entry_max_ranks": 1,
         "definition_id": 122293,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Energy Compression",
         "spell_id": 449874,
+        "visible_spell_id": null,
         "icon": "spell_holy_circleofrenewal"
       },
       "pve_tooltip": "Halo damage and healing is increased by 30%.",
@@ -8978,11 +9333,13 @@
           94702
         ],
         "entry_id": 125085,
+        "entry_max_ranks": 1,
         "definition_id": 129917,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Sustained Potency",
         "spell_id": 454001,
+        "visible_spell_id": null,
         "icon": "ability_priest_ascension"
       },
       "pve_tooltip": "Creating a Halo extends the duration of Apotheosis by 1 sec. If Apotheosis is not active, up to 6 seconds is stored.\nWhile out of combat or affected by a loss of control effect, the duration of Apotheosis is paused for up to 20 sec.",
@@ -9033,11 +9390,13 @@
           94702
         ],
         "entry_id": 117279,
+        "entry_max_ranks": 1,
         "definition_id": 122291,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Resonant Energy",
         "spell_id": 453845,
+        "visible_spell_id": null,
         "icon": "inv_ability_holyfire_orb"
       },
       "pve_tooltip": "Creating a Halo increases your healing done by 2% for 10 sec, stacking up to 4 times.",
@@ -9088,11 +9447,13 @@
           94702
         ],
         "entry_id": 117288,
+        "entry_max_ranks": 1,
         "definition_id": 122300,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Energy Cycle",
         "spell_id": 453828,
+        "visible_spell_id": null,
         "icon": "ability_priest_voidshift"
       },
       "pve_tooltip": "Consuming Surge of Light reduces the cooldown of Holy Word: Serenity by 4 sec.Consuming Surge of Light reduces the cooldown of Holy Word: Sanctify by 4 sec.",
@@ -9143,11 +9504,13 @@
           94702
         ],
         "entry_id": 136033,
+        "entry_max_ranks": 1,
         "definition_id": 140788,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Realized Potential",
         "spell_id": 1272326,
+        "visible_spell_id": null,
         "icon": "spell_holy_flashheal"
       },
       "pve_tooltip": "Flash Heal healing increased by 10%.\nHealing spells and Smite have an additional 2% chance to grant Surge of Light.",
@@ -9198,11 +9561,13 @@
           94702
         ],
         "entry_id": 136688,
+        "entry_max_ranks": 1,
         "definition_id": 141460,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Spiritwell",
         "spell_id": 1247178,
+        "visible_spell_id": null,
         "icon": "spell_holy_prayerofhealing02"
       },
       "pve_tooltip": "Surge of Light can now be consumed by Prayer of Healing in addition to Flash Heal.\nSurge of Light\nYour healing spells and Smite have a 8% chance to make your next Flash Heal instant and cost 50% less mana. Stacks to 2.",
@@ -9357,11 +9722,13 @@
         ],
         "next": [],
         "entry_id": 117290,
+        "entry_max_ranks": 1,
         "definition_id": 122302,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Twinsight",
         "spell_id": 440742,
+        "visible_spell_id": null,
         "icon": "inv_ability_oraclepriest_clairvoyance"
       },
       "pve_tooltip": "An additional 4 stacks of Prayer of Mending is placed on a second ally within 40 yards when casting Prayer of Mending.",
@@ -9460,11 +9827,13 @@
         ],
         "next": [],
         "entry_id": 117305,
+        "entry_max_ranks": 1,
         "definition_id": 122317,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Divine Halo",
         "spell_id": 449806,
+        "visible_spell_id": null,
         "icon": "inv_ability_holyfire_nova"
       },
       "pve_tooltip": "Halo now centers around you and returns to you after it reaches its maximum distance, healing allies and damaging enemies each time it passes through them.",
@@ -9480,12 +9849,308 @@
     }
   ],
   "fetch_errors": [],
+  "serialization": {
+    "version": 2,
+    "spec_id": 257,
+    "node_order": [
+      82552,
+      82553,
+      82554,
+      82555,
+      82556,
+      82558,
+      82559,
+      82560,
+      82563,
+      82564,
+      82566,
+      82567,
+      82568,
+      82569,
+      82570,
+      82571,
+      82572,
+      82573,
+      82575,
+      82576,
+      82577,
+      82578,
+      82579,
+      82580,
+      82581,
+      82582,
+      82583,
+      82585,
+      82586,
+      82587,
+      82588,
+      82589,
+      82590,
+      82591,
+      82592,
+      82593,
+      82594,
+      82595,
+      82596,
+      82597,
+      82598,
+      82599,
+      82600,
+      82601,
+      82602,
+      82603,
+      82604,
+      82606,
+      82607,
+      82608,
+      82609,
+      82610,
+      82611,
+      82612,
+      82613,
+      82614,
+      82615,
+      82616,
+      82617,
+      82618,
+      82619,
+      82620,
+      82621,
+      82622,
+      82623,
+      82627,
+      82628,
+      82629,
+      82630,
+      82631,
+      82632,
+      82633,
+      82634,
+      82635,
+      82636,
+      82637,
+      82638,
+      82639,
+      82640,
+      82641,
+      82642,
+      82643,
+      82644,
+      82645,
+      82646,
+      82647,
+      82648,
+      82649,
+      82651,
+      82653,
+      82654,
+      82655,
+      82656,
+      82657,
+      82658,
+      82659,
+      82660,
+      82662,
+      82663,
+      82665,
+      82666,
+      82667,
+      82668,
+      82669,
+      82670,
+      82671,
+      82672,
+      82673,
+      82674,
+      82675,
+      82676,
+      82677,
+      82678,
+      82679,
+      82680,
+      82682,
+      82684,
+      82685,
+      82686,
+      82687,
+      82690,
+      82693,
+      82695,
+      82696,
+      82697,
+      82699,
+      82701,
+      82702,
+      82703,
+      82704,
+      82705,
+      82708,
+      82710,
+      82711,
+      82712,
+      82713,
+      82715,
+      82716,
+      82717,
+      82718,
+      82719,
+      86730,
+      92225,
+      93170,
+      93171,
+      94668,
+      94669,
+      94670,
+      94673,
+      94674,
+      94675,
+      94676,
+      94677,
+      94678,
+      94679,
+      94680,
+      94681,
+      94683,
+      94684,
+      94685,
+      94686,
+      94687,
+      94688,
+      94689,
+      94690,
+      94691,
+      94692,
+      94693,
+      94694,
+      94695,
+      94696,
+      94697,
+      94698,
+      94699,
+      94700,
+      94702,
+      94703,
+      99800,
+      99801,
+      99802,
+      100212,
+      103900,
+      103901,
+      103914,
+      103916,
+      104097,
+      108006,
+      108007,
+      108029,
+      108031,
+      108147,
+      108152,
+      108153,
+      108724,
+      108730,
+      108731,
+      109005,
+      109006,
+      109009,
+      109010,
+      109011,
+      109012,
+      109014,
+      109015,
+      109017,
+      109018,
+      109019,
+      109020,
+      109021,
+      109775,
+      109776,
+      109777,
+      109778,
+      109779,
+      109780,
+      109781,
+      109782,
+      109783,
+      109890,
+      109917,
+      110008,
+      110277,
+      110278,
+      110408,
+      110409,
+      110410,
+      110648
+    ],
+    "subtree_nodes": [
+      {
+        "id": 99802,
+        "name": "Oracle / Archon",
+        "type": "subtree",
+        "posX": 7500,
+        "posY": 900,
+        "entryNode": true,
+        "next": [],
+        "prev": [],
+        "entries": [
+          {
+            "id": 123292,
+            "type": "subtree",
+            "name": "Oracle",
+            "traitSubTreeId": 20,
+            "traitTreeId": 795,
+            "atlasMemberName": "talents-heroclass-priest-oracle",
+            "nodes": [
+              94683,
+              94698,
+              94674,
+              94679,
+              109782,
+              94691,
+              94675,
+              94689,
+              109783,
+              94690,
+              94673,
+              94700,
+              109781,
+              94687
+            ]
+          },
+          {
+            "id": 123291,
+            "type": "subtree",
+            "name": "Archon",
+            "traitSubTreeId": 19,
+            "traitTreeId": 795,
+            "atlasMemberName": "talents-heroclass-priest-archon",
+            "nodes": [
+              94697,
+              108724,
+              94677,
+              94681,
+              94699,
+              109777,
+              94686,
+              94680,
+              94688,
+              109776,
+              94678,
+              94676,
+              94685,
+              109775,
+              94702
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "source_warnings": [],
   "slug": "priest-holy",
-  "generated_at": "2026-09-21T12:52:51.246827+00:00",
+  "generated_at": "2026-09-21T19:41:24.025568+00:00",
   "validation": {
     "talents": 135,
-    "changed_tooltips": 15,
+    "changed_tooltips": 17,
     "talents_with_pvp_mechanics": 27,
     "unique_nodes": 119,
     "tree_build": "12.1.0.69875",

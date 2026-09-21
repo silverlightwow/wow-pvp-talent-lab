@@ -43,11 +43,13 @@ window.WOW_PVP_DATA = {
           90764
         ],
         "entry_id": 112630,
+        "entry_max_ranks": 1,
         "definition_id": 117635,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Shiv",
         "spell_id": 5938,
+        "visible_spell_id": null,
         "icon": "inv_throwingknife_04"
       },
       "pve_tooltip": "30 Energy\nMelee Range\nInstant\n30 sec cooldown\n1 Charge\nAttack with your [Improved Shiv: poisoned blades / off-hand], dealing (125.4% of Attack Power)% Physical damage, dispelling all enrage effects and applying a concentrated form of your active Non-Lethal poison.\nAwards 1 combo points.",
@@ -295,7 +297,7 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [
             "tooltip_value_ref",
             "spelldesc_ref",
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -347,11 +349,13 @@ window.WOW_PVP_DATA = {
           90695
         ],
         "entry_id": 112572,
+        "entry_max_ranks": 1,
         "definition_id": 117577,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Blind",
         "spell_id": 2094,
+        "visible_spell_id": null,
         "icon": "spell_shadow_mindsteal"
       },
       "pve_tooltip": "15 yd range\nInstant\n2 min cooldown\nBlinds the target, causing it to wander disoriented for 1 min. Damage may interrupt the effect. Limit 1.",
@@ -401,11 +405,13 @@ window.WOW_PVP_DATA = {
           110324
         ],
         "entry_id": 112585,
+        "entry_max_ranks": 1,
         "definition_id": 117590,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Cloak of Shadows",
         "spell_id": 31224,
+        "visible_spell_id": null,
         "icon": "spell_shadow_nethercloak"
       },
       "pve_tooltip": "Instant\n2 min cooldown\nProvides a moment of magic immunity, instantly removing all harmful spell effects. The cloak lingers, causing you to resist harmful spells for 5 sec.",
@@ -456,11 +462,13 @@ window.WOW_PVP_DATA = {
           90636
         ],
         "entry_id": 136883,
+        "entry_max_ranks": 1,
         "definition_id": 141646,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Toxic Stiletto",
         "spell_id": 1267182,
+        "visible_spell_id": null,
         "icon": "ability_rogue_poisonedknife"
       },
       "pve_tooltip": "Shiv's Energy cost is reduced by 20, its cooldown is reduced by 15 sec, and its range is increased by 3 yds.",
@@ -513,11 +521,13 @@ window.WOW_PVP_DATA = {
           90742
         ],
         "entry_id": 112657,
+        "entry_max_ranks": 1,
         "definition_id": 117662,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fleet Footed",
         "spell_id": 378813,
+        "visible_spell_id": null,
         "icon": "ability_rogue_quickrecovery"
       },
       "pve_tooltip": "Movement speed increased by 15%.",
@@ -568,11 +578,13 @@ window.WOW_PVP_DATA = {
           90742
         ],
         "entry_id": 112631,
+        "entry_max_ranks": 1,
         "definition_id": 117636,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Gouge",
         "spell_id": 1776,
+        "visible_spell_id": null,
         "icon": "ability_gouge"
       },
       "pve_tooltip": "25 Energy\nMelee Range\nInstant\n25 sec cooldown\nGouges the eyes of an enemy target, incapacitating for 4 sec. Damage may interrupt the effect.\nMust be in front of your target.\nAwards 1 combo points.",
@@ -623,11 +635,13 @@ window.WOW_PVP_DATA = {
           90742
         ],
         "entry_id": 117740,
+        "entry_max_ranks": 1,
         "definition_id": 122752,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Airborne Irritant",
         "spell_id": 200733,
+        "visible_spell_id": null,
         "icon": "ability_rogue_bloodyeye"
       },
       "pve_tooltip": "Blind has 50% reduced cooldown, 70% reduced duration, and applies to all nearby enemies.",
@@ -727,11 +741,13 @@ window.WOW_PVP_DATA = {
           90686
         ],
         "entry_id": 112583,
+        "entry_max_ranks": 1,
         "definition_id": 117588,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Thrill Seeking",
         "spell_id": 394931,
+        "visible_spell_id": null,
         "icon": "inv_ragnaros_heart_shadowflame"
       },
       "pve_tooltip": "Shadowstep has 1 additional charge.",
@@ -782,11 +798,13 @@ window.WOW_PVP_DATA = {
           90686
         ],
         "entry_id": 136882,
+        "entry_max_ranks": 1,
         "definition_id": 141645,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shadowrunner",
         "spell_id": 378807,
+        "visible_spell_id": null,
         "icon": "ability_stealth"
       },
       "pve_tooltip": "While Stealth or Shadow Dance is active, you move 20% faster.",
@@ -839,11 +857,13 @@ window.WOW_PVP_DATA = {
           90745
         ],
         "entry_id": 112521,
+        "entry_max_ranks": 1,
         "definition_id": 117526,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Master Poisoner",
         "spell_id": 378436,
+        "visible_spell_id": null,
         "icon": "ability_creature_poison_06"
       },
       "pve_tooltip": "Increases the non-damaging effects of your weapon poisons by 20%.",
@@ -875,7 +895,7 @@ window.WOW_PVP_DATA = {
           ],
           "dependency_relations": [
             "trigger_spell",
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -937,11 +957,13 @@ window.WOW_PVP_DATA = {
           110323
         ],
         "entry_id": 112632,
+        "entry_max_ranks": 1,
         "definition_id": 117637,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Elusiveness",
         "spell_id": 79008,
+        "visible_spell_id": null,
         "icon": "ability_rogue_turnthetables"
       },
       "pve_tooltip": "Evasion also reduces damage taken by 20%, and Feint also reduces non-area-of-effect damage taken by 20%.",
@@ -994,11 +1016,13 @@ window.WOW_PVP_DATA = {
           110323
         ],
         "entry_id": 114737,
+        "entry_max_ranks": 1,
         "definition_id": 119744,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Cheat Death",
         "spell_id": 31230,
+        "visible_spell_id": null,
         "icon": "ability_rogue_cheatdeath"
       },
       "pve_tooltip": "Fatal attacks instead reduce you to 7% of your maximum health. For 3 sec afterward, you take 85% reduced damage. Cannot trigger more often than once per 6 min.",
@@ -1051,11 +1075,13 @@ window.WOW_PVP_DATA = {
           90687
         ],
         "entry_id": 112574,
+        "entry_max_ranks": 1,
         "definition_id": 117579,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Tricks of the Trade",
         "spell_id": 57934,
+        "visible_spell_id": null,
         "icon": "ability_rogue_tricksofthetrade"
       },
       "pve_tooltip": "100 yd range\nInstant\n30 sec cooldown\n[Thick as Thieves: Increases the target's damage by 15%, and redirects / Redirects] all threat you cause to the targeted party or raid member, beginning with your next damaging attack within the next 30 sec and lasting 6 sec.\n(100ms cooldown)",
@@ -1108,11 +1134,13 @@ window.WOW_PVP_DATA = {
           90687
         ],
         "entry_id": 117143,
+        "entry_max_ranks": 1,
         "definition_id": 122155,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Blackjack",
         "spell_id": 379005,
+        "visible_spell_id": null,
         "icon": "ability_rogue_blackjack"
       },
       "pve_tooltip": "Enemies have 30% reduced damage and healing for 6 sec after Blind or Sap's effect on them ends.",
@@ -1164,11 +1192,13 @@ window.WOW_PVP_DATA = {
           90762
         ],
         "entry_id": 112522,
+        "entry_max_ranks": 1,
         "definition_id": 117527,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Wound Poison",
         "spell_id": 319066,
+        "visible_spell_id": null,
         "icon": "inv_misc_herb_16"
       },
       "pve_tooltip": "Wound Poison can now stack 2 additional times.",
@@ -1221,11 +1251,13 @@ window.WOW_PVP_DATA = {
           90747
         ],
         "entry_id": 112635,
+        "entry_max_ranks": 1,
         "definition_id": 117640,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Nimble Fingers",
         "spell_id": 378427,
+        "visible_spell_id": null,
         "icon": "ability_rogue_crimsonvial"
       },
       "pve_tooltip": "Energy cost of Feint and Crimson Vial reduced by 10.",
@@ -1276,11 +1308,13 @@ window.WOW_PVP_DATA = {
           90747
         ],
         "entry_id": 136881,
+        "entry_max_ranks": 1,
         "definition_id": 141644,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Deadened Nerves",
         "spell_id": 231719,
+        "visible_spell_id": null,
         "icon": "ability_rogue_nervesofsteel"
       },
       "pve_tooltip": "Physical damage taken reduced by 5%.",
@@ -1333,11 +1367,13 @@ window.WOW_PVP_DATA = {
           90754
         ],
         "entry_id": 112636,
+        "entry_max_ranks": 1,
         "definition_id": 117641,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Quick Fingers",
         "spell_id": 1267210,
+        "visible_spell_id": null,
         "icon": "ability_rogue_improvedrecuperate"
       },
       "pve_tooltip": "Increases your Agility by 3%.",
@@ -1389,11 +1425,13 @@ window.WOW_PVP_DATA = {
           101714
         ],
         "entry_id": 112575,
+        "entry_max_ranks": 1,
         "definition_id": 117580,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Sprint",
         "spell_id": 231691,
+        "visible_spell_id": null,
         "icon": "ability_rogue_sprint"
       },
       "pve_tooltip": "Reduces the cooldown of Sprint by 60 sec.",
@@ -1444,11 +1482,13 @@ window.WOW_PVP_DATA = {
           90763
         ],
         "entry_id": 117151,
+        "entry_max_ranks": 1,
         "definition_id": 122163,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Superior Mixture",
         "spell_id": 423701,
+        "visible_spell_id": null,
         "icon": "inv_misc_potionsete"
       },
       "pve_tooltip": "Crippling Poison reduces movement speed by an additional 10%.",
@@ -1548,11 +1588,13 @@ window.WOW_PVP_DATA = {
           90743
         ],
         "entry_id": 112654,
+        "entry_max_ranks": 1,
         "definition_id": 117659,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Evasion",
         "spell_id": 5277,
+        "visible_spell_id": null,
         "icon": "spell_shadow_shadowward"
       },
       "pve_tooltip": "Instant\n2 min cooldown\nIncreases your dodge chance by 100% for 10 sec.",
@@ -1603,11 +1645,13 @@ window.WOW_PVP_DATA = {
           90743
         ],
         "entry_id": 112634,
+        "entry_max_ranks": 1,
         "definition_id": 117639,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Iron Stomach",
         "spell_id": 193546,
+        "visible_spell_id": null,
         "icon": "inv_misc_organ_11"
       },
       "pve_tooltip": "Increases the healing you receive from Crimson Vial, healing potions, and healthstones by 25%.",
@@ -1662,11 +1706,13 @@ window.WOW_PVP_DATA = {
           94562
         ],
         "entry_id": 112638,
+        "entry_max_ranks": 1,
         "definition_id": 117643,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Virulent Poisons",
         "spell_id": 381543,
+        "visible_spell_id": null,
         "icon": "ability_creature_poison_06"
       },
       "pve_tooltip": "Increases the damage of your weapon poisons by 10%.",
@@ -1717,11 +1763,13 @@ window.WOW_PVP_DATA = {
           94562
         ],
         "entry_id": 117146,
+        "entry_max_ranks": 1,
         "definition_id": 122158,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Stillshroud",
         "spell_id": 423662,
+        "visible_spell_id": null,
         "icon": "ability_rogue_shroudofconcealment"
       },
       "pve_tooltip": "Shroud of Concealment has 50% reduced cooldown.",
@@ -1774,11 +1822,13 @@ window.WOW_PVP_DATA = {
           94561
         ],
         "entry_id": 112646,
+        "entry_max_ranks": 1,
         "definition_id": 117651,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Graceful Guile",
         "spell_id": 423647,
+        "visible_spell_id": null,
         "icon": "ability_rogue_ghostpirate"
       },
       "pve_tooltip": "Feint has 1 additional charge.",
@@ -1829,11 +1879,13 @@ window.WOW_PVP_DATA = {
           94561
         ],
         "entry_id": 125615,
+        "entry_max_ranks": 1,
         "definition_id": 130447,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Featherfoot",
         "spell_id": 423683,
+        "visible_spell_id": null,
         "icon": "spell_magic_featherfall"
       },
       "pve_tooltip": "Sprint increases movement speed by an additional 30% and has 4 sec increased duration.",
@@ -1885,11 +1937,13 @@ window.WOW_PVP_DATA = {
           90760
         ],
         "entry_id": 112656,
+        "entry_max_ranks": 1,
         "definition_id": 117661,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Numbing Poison",
         "spell_id": 5761,
+        "visible_spell_id": null,
         "icon": "spell_nature_nullifydisease"
       },
       "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, clouding their mind and slowing their attack and casting speed by 15 / Master Poisoner: 18 / Master Poisoner: 18% for 10 sec.\n(Proc chance: 30%)",
@@ -1897,12 +1951,23 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "kind": "percent_value",
+          "old": 15.0,
+          "new": 7.999994999999999,
+          "full_tooltip_match_count": 0
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 5761,
           "source_spell_id": 5760,
           "effect_index": 1,
@@ -1919,7 +1984,7 @@ window.WOW_PVP_DATA = {
             5760
           ],
           "dependency_relations": [
-            "triggered_by_reverse"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -1932,7 +1997,7 @@ window.WOW_PVP_DATA = {
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 5761,
           "source_spell_id": 5760,
           "effect_index": 2,
@@ -1949,7 +2014,7 @@ window.WOW_PVP_DATA = {
             5760
           ],
           "dependency_relations": [
-            "triggered_by_reverse"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -1961,7 +2026,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -2002,11 +2067,13 @@ window.WOW_PVP_DATA = {
           90760
         ],
         "entry_id": 112655,
+        "entry_max_ranks": 1,
         "definition_id": 117660,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Atrophic Poison",
         "spell_id": 381637,
+        "visible_spell_id": null,
         "icon": "ability_rogue_nervesofsteel"
       },
       "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Non-Lethal Poison that lasts for 1 hour. Each strike has a 30% chance of poisoning the enemy, reducing their damage by ( - 4 *- 1)% for 1 min.\n(Proc chance: 30%)",
@@ -2060,11 +2127,13 @@ window.WOW_PVP_DATA = {
           90752
         ],
         "entry_id": 112633,
+        "entry_max_ranks": 1,
         "definition_id": 117638,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Deadly Precision",
         "spell_id": 381542,
+        "visible_spell_id": null,
         "icon": "ability_rogue_deadenednerves"
       },
       "pve_tooltip": "Increases the critical strike chance of your attacks that generate combo points by 5%.",
@@ -2115,11 +2184,13 @@ window.WOW_PVP_DATA = {
           90752
         ],
         "entry_id": 137380,
+        "entry_max_ranks": 1,
         "definition_id": 142140,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sanguine Vial",
         "spell_id": 1293135,
+        "visible_spell_id": null,
         "icon": "inv_misc_potiona5"
       },
       "pve_tooltip": "When you deal the killing blow to a target that yields experience or honor, the cooldown of Crimson Vial is reduced by 15 sec and your next use heals 5% of your health instantly.",
@@ -2173,11 +2244,13 @@ window.WOW_PVP_DATA = {
           90692
         ],
         "entry_id": 117145,
+        "entry_max_ranks": 1,
         "definition_id": 122157,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Deep Cuts",
         "spell_id": 1267216,
+        "visible_spell_id": null,
         "icon": "inv_1115_firstkilloftheday_firstkilloftheday"
       },
       "pve_tooltip": "Your finishing moves deal 6% increased damage.",
@@ -2229,11 +2302,13 @@ window.WOW_PVP_DATA = {
           90692
         ],
         "entry_id": 117144,
+        "entry_max_ranks": 1,
         "definition_id": 122156,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unbreakable Stride",
         "spell_id": 400804,
+        "visible_spell_id": null,
         "icon": "ability_rogue_trip"
       },
       "pve_tooltip": "Reduces the duration of movement slowing effects 30%.",
@@ -2286,11 +2361,13 @@ window.WOW_PVP_DATA = {
           90749
         ],
         "entry_id": 112652,
+        "entry_max_ranks": 1,
         "definition_id": 117657,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Danger Sense",
         "spell_id": 1267220,
+        "visible_spell_id": null,
         "icon": "ability_rogue_wrongfullyaccused"
       },
       "pve_tooltip": "You have a 20% chance to partially evade any damage dealt to you, reducing the damage it deals by 20%.",
@@ -2345,11 +2422,13 @@ window.WOW_PVP_DATA = {
           90751
         ],
         "entry_id": 112644,
+        "entry_max_ranks": 1,
         "definition_id": 117649,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Swift Slasher",
         "spell_id": 381988,
+        "visible_spell_id": null,
         "icon": "ability_rogue_slicedice"
       },
       "pve_tooltip": "Slice and Dice grants additional attack speed equal to 100% of your Haste.",
@@ -2402,11 +2481,13 @@ window.WOW_PVP_DATA = {
           90691
         ],
         "entry_id": 112580,
+        "entry_max_ranks": 1,
         "definition_id": 117585,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Ambush",
         "spell_id": 381620,
+        "visible_spell_id": null,
         "icon": "ability_rogue_ambush"
       },
       "pve_tooltip": "[Shadowstrike: Shadowstrike damage increased by 8% / Ambush generates 1 additional combo point].",
@@ -2459,11 +2540,13 @@ window.WOW_PVP_DATA = {
           90691
         ],
         "entry_id": 117152,
+        "entry_max_ranks": 1,
         "definition_id": 122164,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Tight Spender",
         "spell_id": 381621,
+        "visible_spell_id": null,
         "icon": "inv_misc_coin_03"
       },
       "pve_tooltip": "Energy cost of finishing moves reduced by 6%.",
@@ -2514,11 +2597,13 @@ window.WOW_PVP_DATA = {
           90759
         ],
         "entry_id": 112650,
+        "entry_max_ranks": 1,
         "definition_id": 117655,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Leeching Poison",
         "spell_id": 280716,
+        "visible_spell_id": null,
         "icon": "rogue_leeching_poison"
       },
       "pve_tooltip": "Adds a Leeching effect to your Lethal poisons, granting you 3.0% Leech.",
@@ -2630,11 +2715,13 @@ window.WOW_PVP_DATA = {
           90748
         ],
         "entry_id": 112640,
+        "entry_max_ranks": 2,
         "definition_id": 117645,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lethality",
         "spell_id": 382238,
+        "visible_spell_id": null,
         "icon": "ability_criticalstrike"
       },
       "pve_tooltip": "Critical strike chance increased by 2%. Critical strike damage bonus of your attacks that generate combo points increased by 20%.",
@@ -2652,6 +2739,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Critical strike chance increased by 1%. Critical strike damage bonus of your attacks that generate combo points increased by 10%.",
           "pvp_tooltip": "Critical strike chance increased by 1%. Critical strike damage bonus of your attacks that generate combo points increased by 10%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2660,6 +2748,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Critical strike chance increased by 2%. Critical strike damage bonus of your attacks that generate combo points increased by 20%.",
           "pvp_tooltip": "Critical strike chance increased by 2%. Critical strike damage bonus of your attacks that generate combo points increased by 20%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2702,11 +2791,13 @@ window.WOW_PVP_DATA = {
           90639
         ],
         "entry_id": 112526,
+        "entry_max_ranks": 1,
         "definition_id": 117531,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Recuperator",
         "spell_id": 378996,
+        "visible_spell_id": null,
         "icon": "inv_gizmo_runichealthinjector"
       },
       "pve_tooltip": "Slice and Dice heals you for up to 1% of your maximum health per 3 sec.",
@@ -2758,11 +2849,13 @@ window.WOW_PVP_DATA = {
           90750
         ],
         "entry_id": 112643,
+        "entry_max_ranks": 2,
         "definition_id": 117648,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Alacrity",
         "spell_id": 193539,
+        "visible_spell_id": null,
         "icon": "ability_paladin_speedoflight"
       },
       "pve_tooltip": "Haste increased by 3%.",
@@ -2780,6 +2873,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Haste increased by 1.5%.",
           "pvp_tooltip": "Haste increased by 1.5%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2788,6 +2882,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Haste increased by 3%.",
           "pvp_tooltip": "Haste increased by 3%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2830,11 +2925,13 @@ window.WOW_PVP_DATA = {
           90688
         ],
         "entry_id": 112579,
+        "entry_max_ranks": 1,
         "definition_id": 117584,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Soothing Darkness",
         "spell_id": 393970,
+        "visible_spell_id": null,
         "icon": "spell_shadow_twilight"
       },
       "pve_tooltip": "You are healed for 30% of your maximum health over 6 sec after activating Vanish.",
@@ -2927,11 +3024,13 @@ window.WOW_PVP_DATA = {
           90756
         ],
         "entry_id": 112651,
+        "entry_max_ranks": 2,
         "definition_id": 117656,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Vigor",
         "spell_id": 14983,
+        "visible_spell_id": null,
         "icon": "ability_rogue_vigor"
       },
       "pve_tooltip": "Increases your maximum Energy by 100 and Energy regeneration by 10%.",
@@ -2949,6 +3048,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Increases your maximum Energy by 50 and Energy regeneration by 5%.",
           "pvp_tooltip": "Increases your maximum Energy by 50 and Energy regeneration by 5%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2957,6 +3057,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Increases your maximum Energy by 100 and Energy regeneration by 10%.",
           "pvp_tooltip": "Increases your maximum Energy by 100 and Energy regeneration by 10%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2999,11 +3100,13 @@ window.WOW_PVP_DATA = {
           90638
         ],
         "entry_id": 112525,
+        "entry_max_ranks": 2,
         "definition_id": 117530,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Supercharger",
         "spell_id": 470347,
+        "visible_spell_id": null,
         "icon": "inv_engineering_90_electrifiedether"
       },
       "pve_tooltip": "Kingsbane supercharges 2 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
@@ -3021,6 +3124,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Kingsbane supercharges 1 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
           "pvp_tooltip": "Kingsbane supercharges 1 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -3029,6 +3133,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Kingsbane supercharges 2 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
           "pvp_tooltip": "Kingsbane supercharges 2 combo point.\nDamaging finishing moves consume a supercharged combo point to function as if they spent 2 additional combo points.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -3071,11 +3176,13 @@ window.WOW_PVP_DATA = {
           101713
         ],
         "entry_id": 112576,
+        "entry_max_ranks": 2,
         "definition_id": 117581,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Subterfuge",
         "spell_id": 108208,
+        "visible_spell_id": null,
         "icon": "rogue_subterfuge"
       },
       "pve_tooltip": "Abilities requiring Stealth can be used for 6 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 6 sec after Stealth breaks.",
@@ -3093,6 +3200,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Abilities requiring Stealth can be used for 3 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 3 sec after Stealth breaks.",
           "pvp_tooltip": "Abilities requiring Stealth can be used for 3 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 3 sec after Stealth breaks.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -3101,6 +3209,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Abilities requiring Stealth can be used for 6 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 6 sec after Stealth breaks.",
           "pvp_tooltip": "Abilities requiring Stealth can be used for 6 sec after Stealth breaks.\nCombat benefits requiring Stealth persist for an additional 6 sec after Stealth breaks.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -3141,11 +3250,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 112648,
+        "entry_max_ranks": 1,
         "definition_id": 117653,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Thistle Tea",
         "spell_id": 469779,
+        "visible_spell_id": 381623,
         "icon": "inv_drink_milk_05"
       },
       "pve_tooltip": "Restore 100 Energy.\nWhen your Energy is reduced below 30, drink a Thistle Tea.",
@@ -3194,11 +3305,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 137464,
+        "entry_max_ranks": 1,
         "definition_id": 142224,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Thistle Tea",
         "spell_id": 1298826,
+        "visible_spell_id": null,
         "icon": "inv_drink_milk_05"
       },
       "pve_tooltip": "Instant\n1 min recharge\n3 Charges\nRestore 100 Energy.",
@@ -3247,11 +3360,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 112639,
+        "entry_max_ranks": 1,
         "definition_id": 117644,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Cold Blooded Killer",
         "spell_id": 382245,
+        "visible_spell_id": null,
         "icon": "spell_ice_lament"
       },
       "pve_tooltip": "Critically striking with an attack that generates combo points increases the critical strike chance of your next finishing move by 10%.\n(100ms cooldown)",
@@ -3300,11 +3415,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 112524,
+        "entry_max_ranks": 1,
         "definition_id": 117529,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Echoing Reprimand",
         "spell_id": 470669,
+        "visible_spell_id": null,
         "icon": "inv_ability_rogue_echoingreprimand"
       },
       "pve_tooltip": "After consuming a supercharged combo point, your next Mutilate also strikes the target with an Echoing Reprimand dealing (118% of Attack Power) Physical damage.",
@@ -3413,11 +3530,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 112523,
+        "entry_max_ranks": 1,
         "definition_id": 117528,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Forced Induction",
         "spell_id": 470668,
+        "visible_spell_id": null,
         "icon": "inv_misc_enggizmos_06"
       },
       "pve_tooltip": "Increase the bonus granted when a damaging finishing move consumes a supercharged combo point by 1.",
@@ -3466,11 +3585,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 112642,
+        "entry_max_ranks": 1,
         "definition_id": 117647,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Deeper Stratagem",
         "spell_id": 193531,
+        "visible_spell_id": null,
         "icon": "archaeology_5_0_changkiboard"
       },
       "pve_tooltip": "Gain 1 additional max combo point.\nYour finishing moves that consume more than 5 combo points have increased effects, and your finishing moves deal 5% increased damage.",
@@ -3519,11 +3640,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 125614,
+        "entry_max_ranks": 1,
         "definition_id": 130446,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Without a Trace",
         "spell_id": 382513,
+        "visible_spell_id": null,
         "icon": "ability_vanish"
       },
       "pve_tooltip": "Vanish has 1 additional charge.",
@@ -3574,11 +3697,13 @@ window.WOW_PVP_DATA = {
           94536
         ],
         "entry_id": 112676,
+        "entry_max_ranks": 1,
         "definition_id": 117681,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Deadly Poison",
         "spell_id": 2823,
+        "visible_spell_id": null,
         "icon": "ability_rogue_dualweild"
       },
       "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Lethal Poison that lasts for 1 hour. Each strike has a 30% chance to poison the enemy for [(11.374% of Attack Power) * 12 / 2] Nature damage over 12 sec. Subsequent poison applications will instantly deal (8.14% of Attack Power) Nature damage.\n(Proc chance: 30%)",
@@ -3612,7 +3737,7 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 2823,
           "source_spell_id": 2818,
           "effect_index": 1,
@@ -3629,7 +3754,7 @@ window.WOW_PVP_DATA = {
             2818
           ],
           "dependency_relations": [
-            "triggered_by_reverse"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -3728,11 +3853,13 @@ window.WOW_PVP_DATA = {
           90634
         ],
         "entry_id": 112513,
+        "entry_max_ranks": 1,
         "definition_id": 117518,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Motivated Murderer",
         "spell_id": 1247993,
+        "visible_spell_id": null,
         "icon": "ability_rogue_deadliness"
       },
       "pve_tooltip": "Increases your Energy regeneration by 20%.",
@@ -3781,11 +3908,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 112520,
+        "entry_max_ranks": 1,
         "definition_id": 117525,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Poisons",
         "spell_id": 381624,
+        "visible_spell_id": null,
         "icon": "ability_poisons"
       },
       "pve_tooltip": "Increases the application chance of your weapon poisons by 5%.",
@@ -3837,11 +3966,13 @@ window.WOW_PVP_DATA = {
           90625
         ],
         "entry_id": 117106,
+        "entry_max_ranks": 1,
         "definition_id": 122118,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Path of Blood",
         "spell_id": 423054,
+        "visible_spell_id": null,
         "icon": "inv_artifact_bloodoftheassassinated"
       },
       "pve_tooltip": "Increases maximum Energy by 50.",
@@ -3894,11 +4025,13 @@ window.WOW_PVP_DATA = {
           90633
         ],
         "entry_id": 117139,
+        "entry_max_ranks": 1,
         "definition_id": 122151,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Crimson Tempest",
         "spell_id": 1247227,
+        "visible_spell_id": null,
         "icon": "inv12_ability_rogue_crimsontempest"
       },
       "pve_tooltip": "60 Energy\nInstant\nSlash all enemies within 10 yds dealing (110% of Attack Power) damage. Deals reduced damage beyond 5 targets.\nCopy the longest Garrote and Rupture on the enemies you hit onto up to 2 other enemies.\nAwards 1 combo point.",
@@ -4006,11 +4139,13 @@ window.WOW_PVP_DATA = {
           94556
         ],
         "entry_id": 112519,
+        "entry_max_ranks": 1,
         "definition_id": 117524,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Canny Strikes",
         "spell_id": 1250359,
+        "visible_spell_id": null,
         "icon": "ability_rogue_combatexpertise"
       },
       "pve_tooltip": "Increases Critical Strike chance by 2%.",
@@ -4063,11 +4198,13 @@ window.WOW_PVP_DATA = {
           94556
         ],
         "entry_id": 134840,
+        "entry_max_ranks": 1,
         "definition_id": 139608,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Internal Bleeding",
         "spell_id": 381627,
+        "visible_spell_id": null,
         "icon": "ability_rogue_bloodsplatter"
       },
       "pve_tooltip": "Kidney Shot and Rupture also apply Internal Bleeding, dealing up to [5 * (43.02% of Attack Power)] Bleed damage over 6 sec, based on combo points spent.",
@@ -4159,11 +4296,13 @@ window.WOW_PVP_DATA = {
           90779
         ],
         "entry_id": 112510,
+        "entry_max_ranks": 1,
         "definition_id": 117515,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Garrote",
         "spell_id": 381632,
+        "visible_spell_id": null,
         "icon": "ability_rogue_garrote"
       },
       "pve_tooltip": "Garrote deals 50% increased damage and has no cooldown when used from Stealth and for 6 sec after breaking Stealth.",
@@ -4291,11 +4430,13 @@ window.WOW_PVP_DATA = {
           90633
         ],
         "entry_id": 112515,
+        "entry_max_ranks": 1,
         "definition_id": 117520,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Thrown Precision",
         "spell_id": 381629,
+        "visible_spell_id": null,
         "icon": "ability_hunter_cobrashot"
       },
       "pve_tooltip": "Fan of Knives has 5% increased critical strike chance and its critical strikes always apply your weapon poisons.",
@@ -4348,11 +4489,13 @@ window.WOW_PVP_DATA = {
           90769
         ],
         "entry_id": 112649,
+        "entry_max_ranks": 1,
         "definition_id": 117654,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Seal Fate",
         "spell_id": 14190,
+        "visible_spell_id": null,
         "icon": "ability_rogue_stayofexecution"
       },
       "pve_tooltip": "Critical strikes with attacks that generate combo points grant an additional combo point per critical strike.",
@@ -4405,11 +4548,13 @@ window.WOW_PVP_DATA = {
           90779
         ],
         "entry_id": 117137,
+        "entry_max_ranks": 1,
         "definition_id": 122149,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Doomblade",
         "spell_id": 381673,
+        "visible_spell_id": null,
         "icon": "ability_deathwing_bloodcorruption_earth"
       },
       "pve_tooltip": "Mutilate deals an additional 25% Bleed damage over 8 sec.",
@@ -4460,11 +4605,13 @@ window.WOW_PVP_DATA = {
           90779
         ],
         "entry_id": 112673,
+        "entry_max_ranks": 1,
         "definition_id": 117678,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Razor Wire",
         "spell_id": 1249802,
+        "visible_spell_id": null,
         "icon": "ability_hunter_razorwire"
       },
       "pve_tooltip": "Garrote lasts 6 sec longer.",
@@ -4519,11 +4666,13 @@ window.WOW_PVP_DATA = {
           90772
         ],
         "entry_id": 112518,
+        "entry_max_ranks": 1,
         "definition_id": 117523,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Bloody Mess",
         "spell_id": 381626,
+        "visible_spell_id": null,
         "icon": "ability_rogue_rupture"
       },
       "pve_tooltip": "Garrote and Rupture damage increased by 15%.",
@@ -4577,11 +4726,13 @@ window.WOW_PVP_DATA = {
           90624
         ],
         "entry_id": 112662,
+        "entry_max_ranks": 1,
         "definition_id": 117667,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Deathmark",
         "spell_id": 360194,
+        "visible_spell_id": null,
         "icon": "ability_rogue_deathmark"
       },
       "pve_tooltip": "Melee Range\nInstant\n2 min cooldown\nCarve a deathmark into an enemy, dealing (320% of Attack Power) Bleed damage and restoring 80 Energy to you over 16 sec. Damage dealt to the target by your Garrote, Rupture, and Lethal Poisons is increased by 75%.\nEach time you apply a Lethal Poison to the target, apply it twice.",
@@ -4691,11 +4842,13 @@ window.WOW_PVP_DATA = {
           94555
         ],
         "entry_id": 112672,
+        "entry_max_ranks": 1,
         "definition_id": 117677,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Caustic Spatter",
         "spell_id": 421975,
+        "visible_spell_id": null,
         "icon": "ability_creature_poison_02"
       },
       "pve_tooltip": "Envenom or Kingsbane apply Caustic Spatter for 10 sec. Limit 1.\nCaustic Spatter causes 20% of your Nature damage dealt to splash onto other nearby enemies, reduced beyond 5 targets.",
@@ -4746,11 +4899,13 @@ window.WOW_PVP_DATA = {
           90771
         ],
         "entry_id": 117133,
+        "entry_max_ranks": 1,
         "definition_id": 122145,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sanguine Stratagem",
         "spell_id": 457512,
+        "visible_spell_id": null,
         "icon": "archaeology_5_0_changkiboard"
       },
       "pve_tooltip": "Gain 1 additional max combo point.\nYour finishing moves that consume more than 5 combo points have increased effects, and your finishing moves deal 5% increased damage.",
@@ -4801,11 +4956,13 @@ window.WOW_PVP_DATA = {
           90771
         ],
         "entry_id": 134839,
+        "entry_max_ranks": 1,
         "definition_id": 139607,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Intent to Kill",
         "spell_id": 381630,
+        "visible_spell_id": null,
         "icon": "ability_rogue_bloodyeye"
       },
       "pve_tooltip": "Shadowstep's cooldown is reduced by 33% when used on a target afflicted by your Garrote.",
@@ -4856,11 +5013,13 @@ window.WOW_PVP_DATA = {
           90771
         ],
         "entry_id": 134838,
+        "entry_max_ranks": 1,
         "definition_id": 139606,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Iron Wire",
         "spell_id": 196861,
+        "visible_spell_id": null,
         "icon": "inv_jewelcrafting_delicatecopperwire"
       },
       "pve_tooltip": "Garrotes applied from stealth or during the Improved Garrote window silence their target for 5 sec.\nEnemies silenced by Garrote deal 15% reduced damage for 5 sec.",
@@ -4960,11 +5119,13 @@ window.WOW_PVP_DATA = {
           90768
         ],
         "entry_id": 112665,
+        "entry_max_ranks": 2,
         "definition_id": 117670,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fatal Concoction",
         "spell_id": 392384,
+        "visible_spell_id": null,
         "icon": "ability_creature_poison_06"
       },
       "pve_tooltip": "Increases the damage of your weapon poisons by 40%.",
@@ -4982,6 +5143,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Increases the damage of your weapon poisons by 20%.",
           "pvp_tooltip": "Increases the damage of your weapon poisons by 20%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -4990,6 +5152,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Increases the damage of your weapon poisons by 40%.",
           "pvp_tooltip": "Increases the damage of your weapon poisons by 40%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -5032,11 +5195,13 @@ window.WOW_PVP_DATA = {
           90768
         ],
         "entry_id": 112511,
+        "entry_max_ranks": 1,
         "definition_id": 117516,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Finish the Job",
         "spell_id": 1249809,
+        "visible_spell_id": null,
         "icon": "ability_revendreth_demonhunter"
       },
       "pve_tooltip": "All damage you deal is increased by 10% while Deathmark is active.",
@@ -5087,11 +5252,13 @@ window.WOW_PVP_DATA = {
           90768
         ],
         "entry_id": 137379,
+        "entry_max_ranks": 1,
         "definition_id": 142139,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Negotiable Contract",
         "spell_id": 1292996,
+        "visible_spell_id": null,
         "icon": "ability_revendreth_rogue"
       },
       "pve_tooltip": "If the target of your Deathmark dies, Deathmark jumps to a nearby enemy combatant for its remaining duration.",
@@ -5144,11 +5311,13 @@ window.WOW_PVP_DATA = {
           90777
         ],
         "entry_id": 112509,
+        "entry_max_ranks": 2,
         "definition_id": 117514,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lethal Dose",
         "spell_id": 381640,
+        "visible_spell_id": null,
         "icon": "ability_rogue_deviouspoisons"
       },
       "pve_tooltip": "Your weapon poisons and Nature or Bleed damage over time abilities deal 2% increased damage to targets for each of your lethal poison or damage over time effects on them.",
@@ -5166,6 +5335,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Your weapon poisons and Nature or Bleed damage over time abilities deal 1% increased damage to targets for each of your lethal poison or damage over time effects on them.",
           "pvp_tooltip": "Your weapon poisons and Nature or Bleed damage over time abilities deal 1% increased damage to targets for each of your lethal poison or damage over time effects on them.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -5174,6 +5344,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Your weapon poisons and Nature or Bleed damage over time abilities deal 2% increased damage to targets for each of your lethal poison or damage over time effects on them.",
           "pvp_tooltip": "Your weapon poisons and Nature or Bleed damage over time abilities deal 2% increased damage to targets for each of your lethal poison or damage over time effects on them.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -5216,11 +5387,13 @@ window.WOW_PVP_DATA = {
           90777
         ],
         "entry_id": 134837,
+        "entry_max_ranks": 1,
         "definition_id": 139605,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Flying Daggers",
         "spell_id": 381631,
+        "visible_spell_id": null,
         "icon": "ability_rogue_fanofknives"
       },
       "pve_tooltip": "Fan of Knives has its radius increased to 12 yds, deals 20% more damage, and an additional 10% when striking 5 or more targets.",
@@ -5271,11 +5444,13 @@ window.WOW_PVP_DATA = {
           90777
         ],
         "entry_id": 134836,
+        "entry_max_ranks": 1,
         "definition_id": 139604,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Secondary Poisoning",
         "spell_id": 1250141,
+        "visible_spell_id": null,
         "icon": "ability_poisons"
       },
       "pve_tooltip": "When you apply a Weapon Poison with a single-target attack, you have a 50% chance to strike a nearby enemy for (15% of Attack Power) Physical damage and apply the same Weapon Poison to them.",
@@ -5386,11 +5561,13 @@ window.WOW_PVP_DATA = {
           90777
         ],
         "entry_id": 117135,
+        "entry_max_ranks": 1,
         "definition_id": 122147,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Poison Bomb",
         "spell_id": 255544,
+        "visible_spell_id": null,
         "icon": "rogue_paralytic_poison"
       },
       "pve_tooltip": "Envenom has a 5% chance per combo point spent to smash a vial of poison at the target's location, creating a pool of acidic death that deals [(38.3328% of Attack Power) * 4] Nature damage over 2 sec to all enemies within it.",
@@ -5504,24 +5681,47 @@ window.WOW_PVP_DATA = {
           90770
         ],
         "entry_id": 112664,
+        "entry_max_ranks": 1,
         "definition_id": 117669,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Amplifying Poison",
         "spell_id": 381664,
+        "visible_spell_id": null,
         "icon": "inv_misc_herb_fellotus"
       },
       "pve_tooltip": "1.5 sec cast\nCoats your weapons with a Lethal Poison that lasts for 1 hour. Each strike has a 30% chance to poison the enemy, dealing (8.14% of Attack Power) Nature damage and applying Amplifying Poison for 12 sec. Envenom can consume 10 stacks of Amplifying Poison to deal 35% increased damage. Max 20 stacks.\n(Proc chance: 30%)",
-      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Lethal Poison that lasts for 1 hour. Each strike has a 30% chance to poison the enemy, dealing (8.14% of Attack Power) Nature damage and applying Amplifying Poison for 12 sec. Envenom can consume 10 stacks of Amplifying Poison to deal 35% increased damage. Max 20 stacks.\n(Proc chance: 30%)",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "1.5 sec cast\nCoats your weapons with a Lethal Poison that lasts for 1 hour. Each strike has a 30% chance to poison the enemy, dealing (8.7912% of Attack Power) Nature damage and applying Amplifying Poison for 12 sec. Envenom can consume 10 stacks of Amplifying Poison to deal 35% increased damage. Max 20 stacks.\n(Proc chance: 30%)",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 135,
+          "end": 139,
+          "old_token": "8.14",
+          "new_token": "8.7912",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "8.14",
+          "new": "8.7912"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 381664,
           "source_spell_id": 383414,
           "effect_index": 1,
@@ -5538,7 +5738,7 @@ window.WOW_PVP_DATA = {
             383414
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -5558,7 +5758,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -5602,11 +5802,13 @@ window.WOW_PVP_DATA = {
           90776
         ],
         "entry_id": 112661,
+        "entry_max_ranks": 1,
         "definition_id": 117666,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Venomous Wounds",
         "spell_id": 79134,
+        "visible_spell_id": null,
         "icon": "ability_rogue_venomouswounds"
       },
       "pve_tooltip": "You regain 3 Energy each time your Garrote or Rupture deal Bleed damage to a target affected by your weapon poisons. Energy gain is reduced for bleeds beyond the first.\nIf an enemy dies while afflicted by your Rupture, you regain energy based on its remaining duration.",
@@ -5660,11 +5862,13 @@ window.WOW_PVP_DATA = {
           90622
         ],
         "entry_id": 112670,
+        "entry_max_ranks": 1,
         "definition_id": 117675,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Systemic Failure",
         "spell_id": 381652,
+        "visible_spell_id": null,
         "icon": "ability_skeer_bloodletting"
       },
       "pve_tooltip": "Garrote increases the damage of Ambush and Mutilate on the target by 30%.",
@@ -5715,11 +5919,13 @@ window.WOW_PVP_DATA = {
           90785
         ],
         "entry_id": 112679,
+        "entry_max_ranks": 1,
         "definition_id": 117684,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Dashing Scoundrel",
         "spell_id": 381797,
+        "visible_spell_id": null,
         "icon": "ability_rogue_venomouswounds"
       },
       "pve_tooltip": "Envenom's effect also increases the critical strike chance of your weapon poisons by 8%. Your Energy generation is increased by 4% for each lethal poison on your weapons.",
@@ -5772,11 +5978,13 @@ window.WOW_PVP_DATA = {
           94552
         ],
         "entry_id": 112663,
+        "entry_max_ranks": 1,
         "definition_id": 117668,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Kingsbane",
         "spell_id": 385627,
+        "visible_spell_id": null,
         "icon": "inv_knife_1h_artifactgarona_d_01"
       },
       "pve_tooltip": "35 Energy\nMelee Range\nInstant\n1 min cooldown\nRelease a powerful poison from your weapons and inject it into your target, dealing (146.9% of Attack Power) Nature damage instantly and an additional (203% of Attack Power) Nature damage over 14 sec.\nEach time you apply a Lethal Poison to a target affected by Kingsbane, Kingsbane damage increases by 20%, up to 1000%.\nAwards 1 combo point.",
@@ -5937,11 +6145,13 @@ window.WOW_PVP_DATA = {
           90774
         ],
         "entry_id": 112659,
+        "entry_max_ranks": 2,
         "definition_id": 117664,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Rapid Injection",
         "spell_id": 455072,
+        "visible_spell_id": null,
         "icon": "inv_ammo_arrow_04"
       },
       "pve_tooltip": "Envenom's effect increases the damage of Envenom by 40%.",
@@ -5959,6 +6169,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Envenom's effect increases the damage of Envenom by 20%.",
           "pvp_tooltip": "Envenom's effect increases the damage of Envenom by 20%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -5967,6 +6178,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Envenom's effect increases the damage of Envenom by 40%.",
           "pvp_tooltip": "Envenom's effect increases the damage of Envenom by 40%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6011,11 +6223,13 @@ window.WOW_PVP_DATA = {
           90775
         ],
         "entry_id": 112669,
+        "entry_max_ranks": 1,
         "definition_id": 117674,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shrouded Suffocation",
         "spell_id": 385478,
+        "visible_spell_id": null,
         "icon": "ability_rogue_garrote"
       },
       "pve_tooltip": "Garrote damage increased by 30%. Garrote generates 2 additional combo points when used from Stealth.",
@@ -6066,11 +6280,13 @@ window.WOW_PVP_DATA = {
           90775
         ],
         "entry_id": 112507,
+        "entry_max_ranks": 1,
         "definition_id": 117512,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Blindside",
         "spell_id": 328085,
+        "visible_spell_id": null,
         "icon": "ability_rogue_focusedattacks"
       },
       "pve_tooltip": "Ambush and Mutilate have a 10% chance to make your next Ambush free and usable without Stealth. Chance increased to 20% if the target is under 35% health.",
@@ -6122,11 +6338,13 @@ window.WOW_PVP_DATA = {
           90784
         ],
         "entry_id": 112678,
+        "entry_max_ranks": 2,
         "definition_id": 117683,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Zoldyck Recipe",
         "spell_id": 381798,
+        "visible_spell_id": null,
         "icon": "archaeology_5_0_thunderkinginsignia"
       },
       "pve_tooltip": "Your Bleed, weapon poison, and other Nature damage is increased by 30% against targets below 35% health.",
@@ -6144,6 +6362,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Your Bleed, weapon poison, and other Nature damage is increased by 15% against targets below 35% health.",
           "pvp_tooltip": "Your Bleed, weapon poison, and other Nature damage is increased by 15% against targets below 35% health.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -6152,6 +6371,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Your Bleed, weapon poison, and other Nature damage is increased by 30% against targets below 35% health.",
           "pvp_tooltip": "Your Bleed, weapon poison, and other Nature damage is increased by 30% against targets below 35% health.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6192,11 +6412,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 117130,
+        "entry_max_ranks": 1,
         "definition_id": 122142,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Regicide's Reward",
         "spell_id": 1250325,
+        "visible_spell_id": null,
         "icon": "inv_knife_1h_artifactfangs_d_02"
       },
       "pve_tooltip": "When Kingsbane ends, gain 2% haste for every 5 stacks of increased Kingsbane damage that you had, decreasing by 2% every 2 sec.",
@@ -6247,11 +6469,13 @@ window.WOW_PVP_DATA = {
           94553
         ],
         "entry_id": 112660,
+        "entry_max_ranks": 1,
         "definition_id": 117665,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Inspiring Strike",
         "spell_id": 1250036,
+        "visible_spell_id": null,
         "icon": "ability_rogue_disembowel"
       },
       "pve_tooltip": "Applying Envenom while Envenom is already active causes it to increase all damage you deal by 5% in addition to increasing your poison application chance.",
@@ -6302,11 +6526,13 @@ window.WOW_PVP_DATA = {
           94553
         ],
         "entry_id": 134835,
+        "entry_max_ranks": 1,
         "definition_id": 139603,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Poisoner's Drive",
         "spell_id": 1250318,
+        "visible_spell_id": null,
         "icon": "inv_ability_rogue_sepsis"
       },
       "pve_tooltip": "Applying Envenom while Envenom is already active restores 1 combo point.",
@@ -6356,11 +6582,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 112667,
+        "entry_max_ranks": 1,
         "definition_id": 117672,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Avulsion",
         "spell_id": 1250358,
+        "visible_spell_id": null,
         "icon": "inv_artifact_corruptedbloodofzakajz"
       },
       "pve_tooltip": "Rupture damage increased by 25%.",
@@ -6412,11 +6640,13 @@ window.WOW_PVP_DATA = {
           94551
         ],
         "entry_id": 112668,
+        "entry_max_ranks": 2,
         "definition_id": 117673,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Scent of Blood",
         "spell_id": 381799,
+        "visible_spell_id": null,
         "icon": "ability_rogue_rupture"
       },
       "pve_tooltip": "Each enemy afflicted by your Rupture increases your Agility by 4%, up to a maximum of 20%.",
@@ -6434,6 +6664,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Each enemy afflicted by your Rupture increases your Agility by 2%, up to a maximum of 20%.",
           "pvp_tooltip": "Each enemy afflicted by your Rupture increases your Agility by 2%, up to a maximum of 20%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -6442,6 +6673,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Each enemy afflicted by your Rupture increases your Agility by 4%, up to a maximum of 20%.",
           "pvp_tooltip": "Each enemy afflicted by your Rupture increases your Agility by 4%, up to a maximum of 20%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6482,11 +6714,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 112677,
+        "entry_max_ranks": 1,
         "definition_id": 117682,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unstable Toxin",
         "spell_id": 1298812,
+        "visible_spell_id": null,
         "icon": "rogue_venomzest"
       },
       "pve_tooltip": "Envenom's damage is increased by 18%, but its duration is reduced by 2 sec.",
@@ -6535,11 +6769,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 117131,
+        "entry_max_ranks": 1,
         "definition_id": 122143,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Dragon-Tempered Blades",
         "spell_id": 381801,
+        "visible_spell_id": null,
         "icon": "spell_fire_flameblades"
       },
       "pve_tooltip": "You may apply 1 additional Lethal and Non-Lethal Poison to your weapons, but they have 30% less application chance.",
@@ -6588,11 +6824,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 117129,
+        "entry_max_ranks": 1,
         "definition_id": 122141,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sudden Demise",
         "spell_id": 423136,
+        "visible_spell_id": null,
         "icon": "ability_deathknight_hemorrhagicfever"
       },
       "pve_tooltip": "Bleed damage increased by 10%.\nTargets below 35% health instantly bleed out and take fatal damage when the remaining Bleed damage you would deal to them exceeds 150% of their remaining health.",
@@ -6730,11 +6968,13 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 137067,
+        "entry_max_ranks": 1,
         "definition_id": 141831,
         "entry_index": 100,
         "entry_type": "tierrank",
         "talent_name": "Implacable",
         "spell_id": 1265385,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_rogue_implacable"
       },
       "pve_tooltip": "Nothing will save your target from you. Envenom damage increased by 10%. Envenom restores 2 Energy per combo point spent.",
@@ -6781,15 +7021,17 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 137066,
+        "entry_max_ranks": 2,
         "definition_id": 141830,
         "entry_index": 200,
         "entry_type": "tierrank",
         "talent_name": "Implacable",
         "spell_id": 1265386,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_rogue_implacable"
       },
-      "pve_tooltip": "Your Nature and Bleed ability damage is increased by 10%.",
-      "pvp_tooltip": "Your Nature and Bleed ability damage is increased by 10%.",
+      "pve_tooltip": "Your Nature and Bleed ability damage is increased by 20%.",
+      "pvp_tooltip": "Your Nature and Bleed ability damage is increased by 20%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6797,7 +7039,26 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Your Nature and Bleed ability damage is increased by 10%.",
+          "pvp_tooltip": "Your Nature and Bleed ability damage is increased by 10%.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Your Nature and Bleed ability damage is increased by 20%.",
+          "pvp_tooltip": "Your Nature and Bleed ability damage is increased by 20%.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Implacable",
@@ -6832,11 +7093,13 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 137065,
+        "entry_max_ranks": 1,
         "definition_id": 141829,
         "entry_index": 300,
         "entry_type": "tierrank",
         "talent_name": "Implacable",
         "spell_id": 1265387,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_rogue_implacable"
       },
       "pve_tooltip": "After striking with Kingsbane, rapidly strike that target 5 times over 1 sec for (300% of Attack Power) Physical and (207% of Attack Power) Nature damage. Each strike applies the Lethal Poisons on your weapons and generates a combo point.",
@@ -7009,11 +7272,13 @@ window.WOW_PVP_DATA = {
           109767
         ],
         "entry_id": 117722,
+        "entry_max_ranks": 1,
         "definition_id": 122734,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Hand of Fate",
         "spell_id": 452536,
+        "visible_spell_id": null,
         "icon": "inv_ability_fateboundrogue_handoffateheads"
       },
       "pve_tooltip": "Flip a Fatebound Coin each time a finishing move consumes 5 or more combo points. Heads increases the damage of your attacks by 10%, lasting 15 sec or until you flip Tails. Tails deals (168% of Attack Power) Cosmic damage to your target.\nFor each time the same face is flipped in a row, Heads increases damage by an additional 2% and Tails increases its damage by 10%.\n(200ms cooldown)",
@@ -7136,11 +7401,13 @@ window.WOW_PVP_DATA = {
           109762
         ],
         "entry_id": 117733,
+        "entry_max_ranks": 1,
         "definition_id": 122745,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Deathstalker's Mark",
         "spell_id": 457052,
+        "visible_spell_id": null,
         "icon": "inv_ability_deathstalkerrogue_deathstalkersmark"
       },
       "pve_tooltip": "Garrote applies 3 stacks of Deathstalker's Mark to your target, unless Deathstalker's Mark is already active. You learn Mark for Death.\nWhen you spend 5 or more combo points on attacks against a Marked target you consume an application of Deathstalker's Mark, dealing (156% of Attack Power) Plague damage.\nMark for Death\nMove your active Deathstalker's Mark to your target.",
@@ -7251,11 +7518,13 @@ window.WOW_PVP_DATA = {
           95107
         ],
         "entry_id": 117735,
+        "entry_max_ranks": 1,
         "definition_id": 122747,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Chosen's Revelry",
         "spell_id": 1249201,
+        "visible_spell_id": null,
         "icon": "ability_priest_heavanlyvoice"
       },
       "pve_tooltip": "Flipping a Fatebound Coin restores (30% of Attack Power) health.",
@@ -7306,11 +7575,13 @@ window.WOW_PVP_DATA = {
           95107
         ],
         "entry_id": 125132,
+        "entry_max_ranks": 1,
         "definition_id": 129964,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Tempted Fate",
         "spell_id": 454286,
+        "visible_spell_id": null,
         "icon": "ability_rogue_sabreslash"
       },
       "pve_tooltip": "You have a 30% chance to absorb 10% of any damage taken.",
@@ -7361,11 +7632,13 @@ window.WOW_PVP_DATA = {
           95139
         ],
         "entry_id": 117719,
+        "entry_max_ranks": 1,
         "definition_id": 122731,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Mean Streak",
         "spell_id": 453428,
+        "visible_spell_id": null,
         "icon": "inv_sigil_thorim"
       },
       "pve_tooltip": "Fatebound Coins flipped by Envenom are 33% more likely to match the same face as the last flip.",
@@ -7416,11 +7689,13 @@ window.WOW_PVP_DATA = {
           95120
         ],
         "entry_id": 117727,
+        "entry_max_ranks": 1,
         "definition_id": 122739,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Inexorable March",
         "spell_id": 454432,
+        "visible_spell_id": null,
         "icon": "ability_monk_ridethewind"
       },
       "pve_tooltip": "You cannot be slowed below 70% of normal movement speed while your Fatebound Coin flips have an active streak of at least 2 flips matching the same face.",
@@ -7471,29 +7746,50 @@ window.WOW_PVP_DATA = {
           95120
         ],
         "entry_id": 125140,
+        "entry_max_ranks": 1,
         "definition_id": 129972,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Death's Arrival",
         "spell_id": 454433,
-        "icon": "achievement_guildperk_havegroup_willtravel"
+        "visible_spell_id": null,
+        "icon": "achievement_guildperk_havegroup-willtravel"
       },
       "pve_tooltip": "Shadowstep may be used a second time within 3 sec with no cooldown, but its total cooldown is increased by 5 sec.",
-      "pvp_tooltip": "Shadowstep may be used a second time within 3 sec with no cooldown, but its total cooldown is increased by 5 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pvp_tooltip": "Shadowstep may be used a second time within 3 sec with no cooldown, but its total cooldown is increased by 10 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 107,
+          "end": 108,
+          "old_token": "5",
+          "new_token": "10",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            3
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
-            2,
-            3
+            2
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
           "kind": "ordinary_value",
           "old": 5000.0,
           "new": 10000.0,
           "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "5",
+          "new": "10"
         }
       ],
       "has_pvp_mechanics": true,
@@ -7587,11 +7883,13 @@ window.WOW_PVP_DATA = {
           109768
         ],
         "entry_id": 136025,
+        "entry_max_ranks": 1,
         "definition_id": 140780,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sometimes Lucky",
         "spell_id": 1277030,
+        "visible_spell_id": null,
         "icon": "inv_misc_celestialmap"
       },
       "pve_tooltip": "Critical strike chance increased by 3%.",
@@ -7642,11 +7940,13 @@ window.WOW_PVP_DATA = {
           95135
         ],
         "entry_id": 117707,
+        "entry_max_ranks": 1,
         "definition_id": 122719,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Clear the Witnesses",
         "spell_id": 1248793,
+        "visible_spell_id": null,
         "icon": "ability_rogue_fanofknives"
       },
       "pve_tooltip": "Fan of Knives damage increased by 60%.",
@@ -7697,11 +7997,13 @@ window.WOW_PVP_DATA = {
           95108
         ],
         "entry_id": 117729,
+        "entry_max_ranks": 1,
         "definition_id": 122741,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Hunt Them Down",
         "spell_id": 457054,
+        "visible_spell_id": null,
         "icon": "ability_rogue_creepingvenom"
       },
       "pve_tooltip": "Auto-attacks against Marked targets deal an additional (10% of Attack Power) Plague damage.",
@@ -7812,11 +8114,13 @@ window.WOW_PVP_DATA = {
           95109
         ],
         "entry_id": 117714,
+        "entry_max_ranks": 1,
         "definition_id": 122726,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Singular Focus",
         "spell_id": 457055,
+        "visible_spell_id": null,
         "icon": "spell_hunter_focusingshot"
       },
       "pve_tooltip": "Damage dealt to targets other than your Marked target deals 5% Plague damage to your Marked target.",
@@ -7867,11 +8171,13 @@ window.WOW_PVP_DATA = {
           109761
         ],
         "entry_id": 136020,
+        "entry_max_ranks": 1,
         "definition_id": 140775,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Precise Killer",
         "spell_id": 1272989,
+        "visible_spell_id": null,
         "icon": "inv_tradeskillitem_sorcererswind"
       },
       "pve_tooltip": "Critical strike damage bonus increased by 20%.",
@@ -7922,11 +8228,13 @@ window.WOW_PVP_DATA = {
           95119
         ],
         "entry_id": 117704,
+        "entry_max_ranks": 1,
         "definition_id": 122716,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Deal Fate",
         "spell_id": 454419,
+        "visible_spell_id": null,
         "icon": "ability_rogue_preparation"
       },
       "pve_tooltip": "Mutilate, Ambush, and Fan of Knives have a 60% chance to generate 1 additional combo point when they trigger Seal Fate.",
@@ -7977,11 +8285,13 @@ window.WOW_PVP_DATA = {
           95114
         ],
         "entry_id": 117736,
+        "entry_max_ranks": 1,
         "definition_id": 122748,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fate Intertwined",
         "spell_id": 1249215,
+        "visible_spell_id": null,
         "icon": "inv_cosmicvoid_beam"
       },
       "pve_tooltip": "Caustic Spatter causes an additional 5% of Nature damage dealt to be dealt to affected enemies.",
@@ -8032,11 +8342,13 @@ window.WOW_PVP_DATA = {
           95129
         ],
         "entry_id": 117717,
+        "entry_max_ranks": 1,
         "definition_id": 122729,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Edge Case",
         "spell_id": 453457,
+        "visible_spell_id": null,
         "icon": "item_icecrownnecklacea"
       },
       "pve_tooltip": "Activating Deathmark flips a Fatebound Coin and causes it to land on its edge, counting as both Heads and Tails.",
@@ -8087,11 +8399,13 @@ window.WOW_PVP_DATA = {
           109766
         ],
         "entry_id": 136026,
+        "entry_max_ranks": 1,
         "definition_id": 140781,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Controlled Chaos",
         "spell_id": 1276816,
+        "visible_spell_id": null,
         "icon": "inv_112_raidtrinkets_blobofswirlingvoid_purple"
       },
       "pve_tooltip": "After flipping a Fatebound Coin that ends a streak of 4 or more, flip another that matches the same face.",
@@ -8142,11 +8456,13 @@ window.WOW_PVP_DATA = {
           95106
         ],
         "entry_id": 117732,
+        "entry_max_ranks": 1,
         "definition_id": 122744,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unshakeable Drive",
         "spell_id": 1248774,
+        "visible_spell_id": null,
         "icon": "ability_warrior_deepcuts"
       },
       "pve_tooltip": "When you consume an application of Deathstalker's Mark, the damage of your next Ambush or Mutilate is increased by 50%.",
@@ -8287,11 +8603,13 @@ window.WOW_PVP_DATA = {
           95131
         ],
         "entry_id": 117705,
+        "entry_max_ranks": 1,
         "definition_id": 122717,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Corrupt the Blood",
         "spell_id": 1248785,
+        "visible_spell_id": null,
         "icon": "ability_ironmaidens_bloodritual"
       },
       "pve_tooltip": "Rupture damage increased by 20%.",
@@ -8342,11 +8660,13 @@ window.WOW_PVP_DATA = {
           95123
         ],
         "entry_id": 117706,
+        "entry_max_ranks": 1,
         "definition_id": 122718,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lingering Darkness",
         "spell_id": 457056,
+        "visible_spell_id": null,
         "icon": "ability_rogue_envelopingshadows"
       },
       "pve_tooltip": "After Deathmark expires, gain 30% increased Nature damage for 30 sec.",
@@ -8397,24 +8717,57 @@ window.WOW_PVP_DATA = {
           95123
         ],
         "entry_id": 126030,
+        "entry_max_ranks": 1,
         "definition_id": 130862,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Symbolic Victory",
         "spell_id": 457062,
+        "visible_spell_id": null,
         "icon": "ability_priest_surgeofdarkness"
       },
       "pve_tooltip": "Kingsbane additionally increases the damage of your next two Envenoms by 18%.",
-      "pvp_tooltip": "Kingsbane additionally increases the damage of your next two Envenoms by 18%.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Kingsbane additionally increases the damage of your next two Envenoms by 10.08%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 73,
+          "end": 75,
+          "old_token": "18",
+          "new_token": "10.08",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "OTHER_SPEC_BRANCH",
+          "kind": "percent_value",
+          "old": 15.0,
+          "new": 10.000499999999999,
+          "full_tooltip_match_count": 1
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "18",
+          "new": "10.08"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 457062,
           "source_spell_id": 457167,
           "effect_index": 1,
@@ -8431,7 +8784,7 @@ window.WOW_PVP_DATA = {
             457167
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -8444,7 +8797,7 @@ window.WOW_PVP_DATA = {
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 457062,
           "source_spell_id": 457167,
           "effect_index": 2,
@@ -8461,7 +8814,7 @@ window.WOW_PVP_DATA = {
             457167
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -8473,7 +8826,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 2,
       "rank_tooltips": []
     },
     {
@@ -8513,11 +8866,13 @@ window.WOW_PVP_DATA = {
           109760
         ],
         "entry_id": 136019,
+        "entry_max_ranks": 1,
         "definition_id": 140774,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Quietus Celeris",
         "spell_id": 1273017,
+        "visible_spell_id": null,
         "icon": "ability_argus_deathfog"
       },
       "pve_tooltip": "Deathstalker's Mark has a 30% chance to immediately consume a stack when applied.",
@@ -8568,11 +8923,13 @@ window.WOW_PVP_DATA = {
           95127
         ],
         "entry_id": 117716,
+        "entry_max_ranks": 1,
         "definition_id": 122728,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Delivered Doom",
         "spell_id": 1249194,
+        "visible_spell_id": null,
         "icon": "ability_bossgorefiend_touchofdoom"
       },
       "pve_tooltip": "Envenom deals 5% more damage when it consumes 5 or more combo points.",
@@ -8623,11 +8980,13 @@ window.WOW_PVP_DATA = {
           95127
         ],
         "entry_id": 117711,
+        "entry_max_ranks": 1,
         "definition_id": 122723,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Overflowing Purse",
         "spell_id": 1249190,
+        "visible_spell_id": null,
         "icon": "inv_misc_coinbag_special"
       },
       "pve_tooltip": "Envenom has a 15% chance to flip 3 Fatebound Coins.",
@@ -8678,11 +9037,13 @@ window.WOW_PVP_DATA = {
           95127
         ],
         "entry_id": 125139,
+        "entry_max_ranks": 1,
         "definition_id": 129971,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Destiny Defined",
         "spell_id": 454435,
+        "visible_spell_id": null,
         "icon": "ability_boss_fatescribe_rune6"
       },
       "pve_tooltip": "Weapon poisons have 5% increased application chance and your Fatebound Coins flipped have an additional 5% chance to match the same face as the last flip.",
@@ -8733,11 +9094,13 @@ window.WOW_PVP_DATA = {
           95127
         ],
         "entry_id": 117726,
+        "entry_max_ranks": 1,
         "definition_id": 122738,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Rush to the Inevitable",
         "spell_id": 1249204,
+        "visible_spell_id": null,
         "icon": "ability_rogue_vigor"
       },
       "pve_tooltip": "Gain 5 Energy every time you flip a Fatebound Coin. Gain 15 Energy for Coins that land on their edge.",
@@ -8788,11 +9151,13 @@ window.WOW_PVP_DATA = {
           95127
         ],
         "entry_id": 136024,
+        "entry_max_ranks": 1,
         "definition_id": 140779,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ravenholdt Mint",
         "spell_id": 1276809,
+        "visible_spell_id": null,
         "icon": "inv_misc_coin_02"
       },
       "pve_tooltip": "Flipping Heads increases damage by an additional 4%. Damage dealt by flipping Tails is increased by 12%.",
@@ -8843,11 +9208,13 @@ window.WOW_PVP_DATA = {
           95142
         ],
         "entry_id": 117703,
+        "entry_max_ranks": 1,
         "definition_id": 122715,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ethereal Cloak",
         "spell_id": 457022,
+        "visible_spell_id": null,
         "icon": "spell_arcane_prismaticcloak"
       },
       "pve_tooltip": "Cloak of Shadows duration increased by 2 sec.",
@@ -8898,11 +9265,13 @@ window.WOW_PVP_DATA = {
           95142
         ],
         "entry_id": 126029,
+        "entry_max_ranks": 1,
         "definition_id": 130861,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Bait and Switch",
         "spell_id": 457034,
+        "visible_spell_id": null,
         "icon": "ability_druid_earthandsky"
       },
       "pve_tooltip": "Evasion reduces magical damage taken by 15%.\nCloak of Shadows reduces physical damage taken by 20%.",
@@ -8953,11 +9322,13 @@ window.WOW_PVP_DATA = {
           95142
         ],
         "entry_id": 117728,
+        "entry_max_ranks": 1,
         "definition_id": 122740,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Momentum of Despair",
         "spell_id": 457067,
+        "visible_spell_id": null,
         "icon": "spell_shadow_shadesofdarkness"
       },
       "pve_tooltip": "If you have critically struck with Fan of Knives, increase the critical strike chance of Fan of Knives and Crimson Tempest by 10% and critical strike damage by 20% for 8 sec.",
@@ -9008,11 +9379,13 @@ window.WOW_PVP_DATA = {
           95142
         ],
         "entry_id": 126028,
+        "entry_max_ranks": 1,
         "definition_id": 130860,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Follow the Blood",
         "spell_id": 457068,
+        "visible_spell_id": null,
         "icon": "sha_ability_rogue_bloodyeye_nightmare"
       },
       "pve_tooltip": "Fan of Knives and Crimson Tempest deal 30% additional damage while 2 or more enemies are afflicted with Rupture.",
@@ -9063,11 +9436,13 @@ window.WOW_PVP_DATA = {
           95142
         ],
         "entry_id": 117720,
+        "entry_max_ranks": 1,
         "definition_id": 122732,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shadewalker",
         "spell_id": 457057,
+        "visible_spell_id": null,
         "icon": "rogue_shadow_reflection"
       },
       "pve_tooltip": "Each time you consume a stack of Deathstalker's Mark, reduce the cooldown of Shadowstep by 3 sec.",
@@ -9118,11 +9493,13 @@ window.WOW_PVP_DATA = {
           95142
         ],
         "entry_id": 126027,
+        "entry_max_ranks": 1,
         "definition_id": 130859,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Shroud of Night",
         "spell_id": 457063,
+        "visible_spell_id": null,
         "icon": "spell_holy_elunesgrace"
       },
       "pve_tooltip": "Shroud of Concealment duration increased by 5 sec.",
@@ -9173,11 +9550,13 @@ window.WOW_PVP_DATA = {
           95142
         ],
         "entry_id": 136018,
+        "entry_max_ranks": 1,
         "definition_id": 140773,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Mass Casualty",
         "spell_id": 1273035,
+        "visible_spell_id": null,
         "icon": "ability_hunter_rapidkilling"
       },
       "pve_tooltip": "Deathstalker's Mark deals 40% of its normal damage to all other enemies within 8 yds that are afflicted by Rupture.",
@@ -9229,11 +9608,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 117724,
+        "entry_max_ranks": 1,
         "definition_id": 122736,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lucky Coin",
         "spell_id": 1248970,
+        "visible_spell_id": null,
         "icon": "inv_misc_markoftheworldtree"
       },
       "pve_tooltip": "Every 7 coin flips, keep a lucky coin that bends you towards your fate for 12 sec. Your Agility is increased by 4%, the damage and bonuses of Fatebound Coins are increased by 50%, and coin flips are 15% more likely to match the same face as the last flip.\nCoin flips do not count toward finding a lucky coin while you have a lucky coin.",
@@ -9285,11 +9666,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 117739,
+        "entry_max_ranks": 1,
         "definition_id": 122751,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Darkest Night",
         "spell_id": 457058,
+        "visible_spell_id": null,
         "icon": "spell_shadow_twilight"
       },
       "pve_tooltip": "When you consume the final Deathstalker's Mark from a target or your target dies, gain 30 Energy and Darkest Night, causing your next Envenom cast with 5 or more combo points to critically strike, deal 35% additional damage, and apply 3 stacks of Deathstalker's Mark to the target if no other Deathstalker's Mark is active.\nEnvenom cast with Darkest Night does not consume a stack of active Deathstalker's Marks.",
@@ -9357,12 +9740,286 @@ window.WOW_PVP_DATA = {
     }
   ],
   "fetch_errors": [],
+  "serialization": {
+    "version": 2,
+    "spec_id": 259,
+    "node_order": [
+      90622,
+      90624,
+      90625,
+      90626,
+      90628,
+      90630,
+      90633,
+      90634,
+      90635,
+      90636,
+      90637,
+      90638,
+      90639,
+      90640,
+      90641,
+      90643,
+      90644,
+      90645,
+      90647,
+      90648,
+      90649,
+      90651,
+      90652,
+      90653,
+      90654,
+      90655,
+      90656,
+      90659,
+      90661,
+      90662,
+      90663,
+      90664,
+      90665,
+      90666,
+      90667,
+      90668,
+      90669,
+      90670,
+      90671,
+      90673,
+      90675,
+      90676,
+      90677,
+      90678,
+      90679,
+      90680,
+      90681,
+      90683,
+      90684,
+      90686,
+      90687,
+      90688,
+      90690,
+      90691,
+      90692,
+      90695,
+      90697,
+      90698,
+      90699,
+      90700,
+      90701,
+      90703,
+      90704,
+      90705,
+      90706,
+      90707,
+      90709,
+      90710,
+      90713,
+      90714,
+      90715,
+      90716,
+      90717,
+      90718,
+      90719,
+      90720,
+      90721,
+      90722,
+      90723,
+      90724,
+      90726,
+      90727,
+      90728,
+      90730,
+      90731,
+      90732,
+      90733,
+      90734,
+      90735,
+      90737,
+      90738,
+      90739,
+      90740,
+      90741,
+      90742,
+      90743,
+      90744,
+      90745,
+      90746,
+      90747,
+      90748,
+      90749,
+      90750,
+      90751,
+      90752,
+      90753,
+      90754,
+      90755,
+      90756,
+      90757,
+      90758,
+      90759,
+      90760,
+      90762,
+      90763,
+      90764,
+      90766,
+      90767,
+      90768,
+      90769,
+      90770,
+      90771,
+      90772,
+      90774,
+      90775,
+      90776,
+      90777,
+      90779,
+      90780,
+      90783,
+      90784,
+      90785,
+      90786,
+      94536,
+      94551,
+      94552,
+      94553,
+      94554,
+      94555,
+      94556,
+      94557,
+      94561,
+      94562,
+      94563,
+      94565,
+      94567,
+      94580,
+      94581,
+      94582,
+      95106,
+      95107,
+      95108,
+      95109,
+      95110,
+      95111,
+      95114,
+      95115,
+      95116,
+      95117,
+      95118,
+      95119,
+      95120,
+      95121,
+      95122,
+      95123,
+      95125,
+      95127,
+      95128,
+      95129,
+      95130,
+      95131,
+      95132,
+      95133,
+      95134,
+      95135,
+      95136,
+      95137,
+      95138,
+      95139,
+      95140,
+      95141,
+      95142,
+      99842,
+      99843,
+      99844,
+      101713,
+      101714,
+      101715,
+      109003,
+      109004,
+      109760,
+      109761,
+      109762,
+      109763,
+      109764,
+      109765,
+      109766,
+      109767,
+      109768,
+      110323,
+      110324,
+      110325,
+      110432,
+      110433,
+      110434,
+      110576
+    ],
+    "subtree_nodes": [
+      {
+        "id": 99844,
+        "name": "Deathstalker / Fatebound",
+        "type": "subtree",
+        "posX": 6900,
+        "posY": 600,
+        "entryNode": true,
+        "next": [],
+        "prev": [],
+        "entries": [
+          {
+            "id": 123375,
+            "type": "subtree",
+            "name": "Deathstalker",
+            "traitSubTreeId": 53,
+            "traitTreeId": 852,
+            "atlasMemberName": "talents-heroclass-rogue-deathstalker",
+            "nodes": [
+              95136,
+              95110,
+              95132,
+              95117,
+              109762,
+              95135,
+              95108,
+              95109,
+              109761,
+              95106,
+              95131,
+              95123,
+              109760,
+              95142
+            ]
+          },
+          {
+            "id": 123371,
+            "type": "subtree",
+            "name": "Fatebound",
+            "traitSubTreeId": 52,
+            "traitTreeId": 852,
+            "atlasMemberName": "talents-heroclass-rogue-fatebound",
+            "nodes": [
+              95125,
+              95138,
+              95122,
+              95130,
+              109767,
+              95107,
+              95139,
+              95120,
+              109768,
+              95119,
+              95114,
+              95129,
+              109766,
+              95127
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "source_warnings": [],
   "slug": "rogue-assassination",
-  "generated_at": "2026-09-21T12:53:02.060390+00:00",
+  "generated_at": "2026-09-21T19:41:23.226695+00:00",
   "validation": {
     "talents": 131,
-    "changed_tooltips": 20,
+    "changed_tooltips": 23,
     "talents_with_pvp_mechanics": 27,
     "unique_nodes": 110,
     "tree_build": "12.1.0.69875",

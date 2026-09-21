@@ -43,11 +43,13 @@ window.WOW_PVP_DATA = {
           62122
         ],
         "entry_id": 80176,
+        "entry_max_ranks": 1,
         "definition_id": 85179,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Ice Barrier",
         "spell_id": 11426,
+        "visible_spell_id": null,
         "icon": "spell_ice_lament"
       },
       "pve_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you with ice, absorbing [35 / 100 * Total Health * (1 + Versatility)] damage [Glacial Insulation: and increasing your armor by 0%] for 1 min.\nMelee attacks against you reduce the attacker's movement speed by 50%.",
@@ -170,11 +172,13 @@ window.WOW_PVP_DATA = {
           62102
         ],
         "entry_id": 80174,
+        "entry_max_ranks": 1,
         "definition_id": 85177,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Alter Time",
         "spell_id": 342245,
+        "visible_spell_id": null,
         "icon": "spell_mage_altertime"
       },
       "pve_tooltip": "1% of base mana\nInstant\n1 min cooldown\nAlters the fabric of time, returning you to your current location and health when cast a second time, or after 10 sec. Effect negated by long distance or death.",
@@ -226,11 +230,13 @@ window.WOW_PVP_DATA = {
           62107
         ],
         "entry_id": 80181,
+        "entry_max_ranks": 1,
         "definition_id": 85184,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Ice Block",
         "spell_id": 45438,
+        "visible_spell_id": null,
         "icon": "spell_frost_frost"
       },
       "pve_tooltip": "Instant\n4 min cooldown\n1 Charge\nEncases you in a block of ice, protecting you from all attacks and damage for 10 sec, but during that time you cannot attack, move, or cast spells.\nCauses Hypothermia, preventing you from recasting Ice Block for 30 sec.",
@@ -281,11 +287,13 @@ window.WOW_PVP_DATA = {
           62114
         ],
         "entry_id": 134183,
+        "entry_max_ranks": 1,
         "definition_id": 138963,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Time Walk",
         "spell_id": 1244087,
+        "visible_spell_id": null,
         "icon": "warrior_doubletime"
       },
       "pve_tooltip": "Alter Time resets the cooldown of Blink and Shimmer when you return to your original location.",
@@ -336,11 +344,13 @@ window.WOW_PVP_DATA = {
           62114
         ],
         "entry_id": 134182,
+        "entry_max_ranks": 1,
         "definition_id": 138962,
         "entry_index": 300,
         "entry_type": "passive",
         "talent_name": "Temporal Realignment",
         "spell_id": 1244090,
+        "visible_spell_id": null,
         "icon": "ability_evoker_timedilation"
       },
       "pve_tooltip": "Upon dropping below 25% health, your past self corrects your timeline, casting Alter Time and instantly returning 20% of your maximum health and healing you for an additional 30% over 6 sec.",
@@ -392,11 +402,13 @@ window.WOW_PVP_DATA = {
           108660
         ],
         "entry_id": 80159,
+        "entry_max_ranks": 2,
         "definition_id": 85162,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Master of Time",
         "spell_id": 342249,
+        "visible_spell_id": null,
         "icon": "inv_belt_armor_waistoftime_d_01"
       },
       "pve_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
@@ -414,6 +426,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Reduces the cooldown of Alter Time by 5 sec.",
           "pvp_tooltip": "Reduces the cooldown of Alter Time by 5 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -422,6 +435,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
           "pvp_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -465,28 +479,40 @@ window.WOW_PVP_DATA = {
           62124
         ],
         "entry_id": 80182,
+        "entry_max_ranks": 2,
         "definition_id": 85185,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Winter's Protection",
         "spell_id": 382424,
+        "visible_spell_id": null,
         "icon": "spell_ice_rune"
       },
       "pve_tooltip": "The cooldown of Ice Block is reduced by 60 sec.",
-      "pvp_tooltip": "The cooldown of Ice Block is reduced by 60 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pvp_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 40,
+          "end": 42,
+          "old_token": "60",
+          "new_token": "30",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "APPLIED",
           "kind": "ordinary_value",
-          "old": 60000.0,
-          "new": 30000.0,
-          "full_tooltip_match_count": 0
+          "old": "60",
+          "new": "30"
         }
       ],
       "has_pvp_mechanics": true,
@@ -532,14 +558,27 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
           "pvp_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
         {
           "rank": 2,
           "pve_tooltip": "The cooldown of Ice Block is reduced by 60 sec.",
-          "pvp_tooltip": "The cooldown of Ice Block is reduced by 60 sec.",
-          "tooltip_changed": false,
+          "pvp_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
+          "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 40,
+              "end": 42,
+              "old_token": "60",
+              "new_token": "30",
+              "kind": "ordinary_value",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -582,11 +621,13 @@ window.WOW_PVP_DATA = {
           62124
         ],
         "entry_id": 80165,
+        "entry_max_ranks": 1,
         "definition_id": 85168,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Frost Conditioning",
         "spell_id": 1250315,
+        "visible_spell_id": null,
         "icon": "spell_frost_icefloes"
       },
       "pve_tooltip": "Hypothermia's duration is reduced by 10 sec.",
@@ -639,11 +680,13 @@ window.WOW_PVP_DATA = {
           62104
         ],
         "entry_id": 80173,
+        "entry_max_ranks": 2,
         "definition_id": 85176,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Arcane Warding",
         "spell_id": 383092,
+        "visible_spell_id": null,
         "icon": "spell_arcane_arcaneresilience"
       },
       "pve_tooltip": "Reduces magic damage taken by 8%.",
@@ -661,6 +704,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Reduces magic damage taken by 4%.",
           "pvp_tooltip": "Reduces magic damage taken by 4%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -669,6 +713,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Reduces magic damage taken by 8%.",
           "pvp_tooltip": "Reduces magic damage taken by 8%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -714,11 +759,13 @@ window.WOW_PVP_DATA = {
           62116
         ],
         "entry_id": 134190,
+        "entry_max_ranks": 1,
         "definition_id": 138970,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Inspired Intellect",
         "spell_id": 458437,
+        "visible_spell_id": null,
         "icon": "spell_holy_arcaneintellect"
       },
       "pve_tooltip": "Arcane Intellect grants you an additional 2% Intellect.",
@@ -771,11 +818,13 @@ window.WOW_PVP_DATA = {
           108662
         ],
         "entry_id": 80183,
+        "entry_max_ranks": 1,
         "definition_id": 85186,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Mirror Image",
         "spell_id": 55342,
+        "visible_spell_id": null,
         "icon": "spell_magic_lesserinvisibilty"
       },
       "pve_tooltip": "2% of base mana\nInstant\n2 min cooldown\nCreates 3 copies of you nearby for 15 sec, which cast spells and attack your enemies. While active, you generate significantly reduced threat.\nTaking direct damage will cause one of your images to dissipate.\n(2s cooldown)",
@@ -827,11 +876,13 @@ window.WOW_PVP_DATA = {
           62105
         ],
         "entry_id": 80140,
+        "entry_max_ranks": 1,
         "definition_id": 85143,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Spellsteal",
         "spell_id": 30449,
+        "visible_spell_id": null,
         "icon": "spell_arcane_arcane02"
       },
       "pve_tooltip": "21% of base mana\n40 yd range\nInstant\nSteals [Kleptomania: all beneficial magic effects from the target. These effects lasts a maximum of 2 min / a beneficial magic effect from the target. This effect lasts a maximum of 2 min].",
@@ -885,11 +936,13 @@ window.WOW_PVP_DATA = {
           108661
         ],
         "entry_id": 80161,
+        "entry_max_ranks": 1,
         "definition_id": 85164,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Quick Witted",
         "spell_id": 382297,
+        "visible_spell_id": null,
         "icon": "ability_priest_surgeofdarkness"
       },
       "pve_tooltip": "Counterspell's cooldown is reduced by 5 sec.",
@@ -940,11 +993,13 @@ window.WOW_PVP_DATA = {
           108661
         ],
         "entry_id": 125819,
+        "entry_max_ranks": 1,
         "definition_id": 130651,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Dragon's Breath",
         "spell_id": 31661,
+        "visible_spell_id": null,
         "icon": "inv_misc_head_dragon_01"
       },
       "pve_tooltip": "4% of base mana\nInstant\n45 sec cooldown\nEnemies in a 12 yd cone in front of you take (66.99% of Spell Power) Fire damage and are disoriented for 4 sec. Damage will cancel the effect.",
@@ -1050,11 +1105,13 @@ window.WOW_PVP_DATA = {
           108661
         ],
         "entry_id": 125818,
+        "entry_max_ranks": 1,
         "definition_id": 130650,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Supernova",
         "spell_id": 157980,
+        "visible_spell_id": null,
         "icon": "spell_mage_supernova"
       },
       "pve_tooltip": "40 yd range\nInstant\n45 sec cooldown\nPulses arcane energy around the target enemy or ally, dealing (34.5% of Spell Power) Arcane damage to all enemies within 8 yds, and knocking them upward. A primary enemy target will take 100% increased damage.",
@@ -1163,11 +1220,13 @@ window.WOW_PVP_DATA = {
           93524
         ],
         "entry_id": 80175,
+        "entry_max_ranks": 1,
         "definition_id": 85178,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Remove Curse",
         "spell_id": 475,
+        "visible_spell_id": null,
         "icon": "spell_nature_removecurse"
       },
       "pve_tooltip": "1.3% of base mana\n40 yd range\nInstant\n8 sec cooldown\nRemoves all Curses from a friendly target.",
@@ -1218,11 +1277,13 @@ window.WOW_PVP_DATA = {
           93524
         ],
         "entry_id": 134192,
+        "entry_max_ranks": 2,
         "definition_id": 138972,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Conjuration",
         "spell_id": 1244025,
+        "visible_spell_id": null,
         "icon": "spell_arcane_focusedpower"
       },
       "pve_tooltip": "Mirror Image's cooldown is reduced by 60 sec.",
@@ -1277,6 +1338,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Mirror Image's cooldown is reduced by 30 sec.",
           "pvp_tooltip": "Mirror Image's cooldown is reduced by 30 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -1285,6 +1347,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Mirror Image's cooldown is reduced by 60 sec.",
           "pvp_tooltip": "Mirror Image's cooldown is reduced by 60 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -1327,11 +1390,13 @@ window.WOW_PVP_DATA = {
           62110
         ],
         "entry_id": 136581,
+        "entry_max_ranks": 1,
         "definition_id": 141354,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Spellsteal",
         "spell_id": 1270827,
+        "visible_spell_id": null,
         "icon": "spell_arcane_arcane02"
       },
       "pve_tooltip": "Spellsteal repeats its effect after 4 sec, but it now has a cooldown of 4.0 sec.",
@@ -1481,11 +1546,13 @@ window.WOW_PVP_DATA = {
           62127
         ],
         "entry_id": 80163,
+        "entry_max_ranks": 1,
         "definition_id": 85166,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Shimmer",
         "spell_id": 212653,
+        "visible_spell_id": null,
         "icon": "spell_arcane_massdispel"
       },
       "pve_tooltip": "Replaces Blink\n2% of base mana\nInstant\n30 sec cooldown\n1 Charge\nTeleports you 20 yds forward, unless something is in the way. Unaffected by the global cooldown and castable while casting.",
@@ -1580,11 +1647,13 @@ window.WOW_PVP_DATA = {
           62127
         ],
         "entry_id": 134197,
+        "entry_max_ranks": 1,
         "definition_id": 138977,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Improved Blink",
         "spell_id": 1244340,
+        "visible_spell_id": null,
         "icon": "spell_arcane_blink"
       },
       "pve_tooltip": "[Shimmer / Blink]'s cooldown is reduced by 2 sec.",
@@ -1672,11 +1741,13 @@ window.WOW_PVP_DATA = {
           62127
         ],
         "entry_id": 136577,
+        "entry_max_ranks": 1,
         "definition_id": 141350,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Improved Counterspell",
         "spell_id": 1270865,
+        "visible_spell_id": null,
         "icon": "inv_1115_mage_counterspell"
       },
       "pve_tooltip": "Counterspell prevents casting for an additional 1.0 sec.",
@@ -1731,11 +1802,13 @@ window.WOW_PVP_DATA = {
           62098
         ],
         "entry_id": 134191,
+        "entry_max_ranks": 1,
         "definition_id": 138971,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Overflowing Energy",
         "spell_id": 390218,
+        "visible_spell_id": null,
         "icon": "spell_arcane_manatap"
       },
       "pve_tooltip": "Each time your Frostbolt fails to critically strike, it gains 10% increased critical strike chance.\nCritical strike bonus is removed when the affected spell critically strikes.",
@@ -1786,11 +1859,13 @@ window.WOW_PVP_DATA = {
           62098
         ],
         "entry_id": 136576,
+        "entry_max_ranks": 1,
         "definition_id": 141349,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Improved Remove Curse",
         "spell_id": 1270847,
+        "visible_spell_id": null,
         "icon": "spell_nature_removecurse"
       },
       "pve_tooltip": "Casting Remove Curse on a friendly target also casts it on yourself, but its cooldown is increased by 20 sec.",
@@ -1844,11 +1919,13 @@ window.WOW_PVP_DATA = {
           108659
         ],
         "entry_id": 115877,
+        "entry_max_ranks": 1,
         "definition_id": 120889,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Greater Invisibility",
         "spell_id": 110959,
+        "visible_spell_id": null,
         "icon": "ability_mage_greaterinvisibility"
       },
       "pve_tooltip": "Instant\n2 min cooldown\nMakes you invisible and untargetable for 20 sec, removing all threat. Any action taken cancels this effect.",
@@ -1900,11 +1977,13 @@ window.WOW_PVP_DATA = {
           108658
         ],
         "entry_id": 80168,
+        "entry_max_ranks": 1,
         "definition_id": 85171,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Frost Nova",
         "spell_id": 343183,
+        "visible_spell_id": null,
         "icon": "spell_frost_frostnova"
       },
       "pve_tooltip": "Frost Nova duration is increased by 2 sec.",
@@ -1956,11 +2035,13 @@ window.WOW_PVP_DATA = {
           108658
         ],
         "entry_id": 136466,
+        "entry_max_ranks": 1,
         "definition_id": 141239,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Ice Ward",
         "spell_id": 205036,
+        "visible_spell_id": null,
         "icon": "spell_frost_frostward"
       },
       "pve_tooltip": "Frost Nova now has 2 charges.",
@@ -2011,11 +2092,13 @@ window.WOW_PVP_DATA = {
           108658
         ],
         "entry_id": 134184,
+        "entry_max_ranks": 1,
         "definition_id": 138964,
         "entry_index": 300,
         "entry_type": "passive",
         "talent_name": "Captured Thoughts",
         "spell_id": 1270872,
+        "visible_spell_id": null,
         "icon": "spell_nature_elementalabsorption"
       },
       "pve_tooltip": "The duration of Brain Freeze is increased by 15 sec.",
@@ -2070,11 +2153,13 @@ window.WOW_PVP_DATA = {
           62096
         ],
         "entry_id": 80187,
+        "entry_max_ranks": 1,
         "definition_id": 85190,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Tome of Rhonin",
         "spell_id": 382493,
+        "visible_spell_id": null,
         "icon": "inv_misc_book_04"
       },
       "pve_tooltip": "Increases critical strike chance by 2%.",
@@ -2125,11 +2210,13 @@ window.WOW_PVP_DATA = {
           62096
         ],
         "entry_id": 137410,
+        "entry_max_ranks": 1,
         "definition_id": 142170,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Warding",
         "spell_id": 1297073,
+        "visible_spell_id": null,
         "icon": "inv_cloth_raidmage_p_01helm"
       },
       "pve_tooltip": "Damage taken from area of effect attacks reduced by 4%.",
@@ -2184,11 +2271,13 @@ window.WOW_PVP_DATA = {
           108657
         ],
         "entry_id": 80155,
+        "entry_max_ranks": 1,
         "definition_id": 85158,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Tome of Antonidas",
         "spell_id": 382490,
+        "visible_spell_id": null,
         "icon": "inv_misc_book_18"
       },
       "pve_tooltip": "Increases Haste by 2%.",
@@ -2239,11 +2328,13 @@ window.WOW_PVP_DATA = {
           108657
         ],
         "entry_id": 80170,
+        "entry_max_ranks": 2,
         "definition_id": 85173,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Incantation of Swiftness",
         "spell_id": 382293,
+        "visible_spell_id": null,
         "icon": "rogue_burstofspeed"
       },
       "pve_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 40% for 6 sec.",
@@ -2308,6 +2399,18 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 20% for 6 sec.",
           "pvp_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 10% for 6 sec.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 77,
+              "end": 79,
+              "old_token": "20",
+              "new_token": "10",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2316,6 +2419,18 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 40% for 6 sec.",
           "pvp_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 20% for 6 sec.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 77,
+              "end": 79,
+              "old_token": "40",
+              "new_token": "20",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2358,11 +2473,13 @@ window.WOW_PVP_DATA = {
           108657
         ],
         "entry_id": 134189,
+        "entry_max_ranks": 1,
         "definition_id": 138969,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Master of Escape",
         "spell_id": 210476,
+        "visible_spell_id": null,
         "icon": "ability_mage_invisibility"
       },
       "pve_tooltip": "Reduces the cooldown of Invisibility by 60 sec.",
@@ -2417,11 +2534,13 @@ window.WOW_PVP_DATA = {
           62129
         ],
         "entry_id": 134188,
+        "entry_max_ranks": 1,
         "definition_id": 138968,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Charm of Aegwynn",
         "spell_id": 1244105,
+        "visible_spell_id": null,
         "icon": "inv_nerubian_necklace_02_color5"
       },
       "pve_tooltip": "The critical strike damage of your spells is increased by 5%.",
@@ -2472,11 +2591,13 @@ window.WOW_PVP_DATA = {
           62129
         ],
         "entry_id": 136579,
+        "entry_max_ranks": 1,
         "definition_id": 141352,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Brainstorm",
         "spell_id": 461261,
+        "visible_spell_id": null,
         "icon": "ability_kaztik_dominatemind"
       },
       "pve_tooltip": "Gaining Brain Freeze increases your Intellect by 1% for 8 sec. Multiple instances may overlap.",
@@ -2531,22 +2652,34 @@ window.WOW_PVP_DATA = {
           62100
         ],
         "entry_id": 80153,
+        "entry_max_ranks": 1,
         "definition_id": 85156,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Flow of Time",
         "spell_id": 382268,
+        "visible_spell_id": null,
         "icon": "spell_arcane_blink"
       },
       "pve_tooltip": "The cooldowns of Blink and Shimmer are reduced by 3 sec.",
-      "pvp_tooltip": "The cooldowns of Blink and Shimmer are reduced by 3 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pvp_tooltip": "The cooldowns of Blink and Shimmer are reduced by 1.5 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 50,
+          "end": 51,
+          "old_token": "3",
+          "new_token": "1.5",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
-            1,
             2
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
@@ -2554,6 +2687,15 @@ window.WOW_PVP_DATA = {
           "old": 3000.0,
           "new": 1500.0,
           "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "3",
+          "new": "1.5"
         }
       ],
       "has_pvp_mechanics": true,
@@ -2647,11 +2789,13 @@ window.WOW_PVP_DATA = {
           62100
         ],
         "entry_id": 136578,
+        "entry_max_ranks": 1,
         "definition_id": 141351,
         "entry_index": 300,
         "entry_type": "passive",
         "talent_name": "Mana Confluence",
         "spell_id": 1270845,
+        "visible_spell_id": null,
         "icon": "spell_shaman_blessingoftheeternals"
       },
       "pve_tooltip": "Your mana costs are reduced by 5%.",
@@ -2706,11 +2850,13 @@ window.WOW_PVP_DATA = {
           62091
         ],
         "entry_id": 134187,
+        "entry_max_ranks": 1,
         "definition_id": 138967,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Charm of Medivh",
         "spell_id": 1244107,
+        "visible_spell_id": null,
         "icon": "inv_nerubian_necklace_02_color1"
       },
       "pve_tooltip": "Your Mastery is increased by 3%.",
@@ -2761,11 +2907,13 @@ window.WOW_PVP_DATA = {
           62085
         ],
         "entry_id": 80142,
+        "entry_max_ranks": 1,
         "definition_id": 85145,
         "entry_index": 300,
         "entry_type": "passive",
         "talent_name": "Permafrost Bauble",
         "spell_id": 1265517,
+        "visible_spell_id": null,
         "icon": "inv_10_dungeonjewelry_primalist_necklace_2_frost"
       },
       "pve_tooltip": "The cooldown of Ice Block and Ice Cold are reduced by 30 sec.",
@@ -2816,11 +2964,13 @@ window.WOW_PVP_DATA = {
           62085
         ],
         "entry_id": 80143,
+        "entry_max_ranks": 1,
         "definition_id": 85146,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Freezing Cold",
         "spell_id": 386763,
+        "visible_spell_id": null,
         "icon": "spell_frost_glacier"
       },
       "pve_tooltip": "Enemies hit by Cone of Cold are frozen in place for 5 sec instead of snared.\nWhen your roots expire or are dispelled, your target is snared by 80%, decaying over 3 sec.",
@@ -2923,11 +3073,13 @@ window.WOW_PVP_DATA = {
           62085
         ],
         "entry_id": 134199,
+        "entry_max_ranks": 1,
         "definition_id": 138979,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Ice Nova",
         "spell_id": 157997,
+        "visible_spell_id": null,
         "icon": "spell_mage_icenova"
       },
       "pve_tooltip": "40 yd range\nInstant\n25 sec cooldown\nCauses a whirl of icy wind around the enemy, dealing (138% of Spell Power) Frost damage to the target and all other enemies within 8 yds, freezing them in place for 2 sec. Damage reduced beyond 8 targets.",
@@ -3036,11 +3188,13 @@ window.WOW_PVP_DATA = {
           62094
         ],
         "entry_id": 80189,
+        "entry_max_ranks": 1,
         "definition_id": 85192,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Time Manipulation",
         "spell_id": 387807,
+        "visible_spell_id": null,
         "icon": "spell_nature_timestop"
       },
       "pve_tooltip": "The cooldowns of your loss of control spells are reduced by 5 sec.",
@@ -3091,11 +3245,13 @@ window.WOW_PVP_DATA = {
           62094
         ],
         "entry_id": 80144,
+        "entry_max_ranks": 1,
         "definition_id": 85147,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Ring of Frost",
         "spell_id": 113724,
+        "visible_spell_id": null,
         "icon": "spell_frost_ring_of_frost"
       },
       "pve_tooltip": "8% of base mana\n30 yd range\n2 sec cast\n45 sec cooldown\nSummons a Ring of Frost for 10 sec at the target location. Enemies entering the ring are incapacitated for 10 sec. Limit 10 targets.\nWhen the incapacitate expires, enemies are slowed by 65% for 4 sec.",
@@ -3198,11 +3354,13 @@ window.WOW_PVP_DATA = {
           62094
         ],
         "entry_id": 134198,
+        "entry_max_ranks": 1,
         "definition_id": 138978,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Mass Polymorph",
         "spell_id": 383121,
+        "visible_spell_id": null,
         "icon": "spell_nature_doublepolymorph1"
       },
       "pve_tooltip": "4% of base mana\n1.7 sec cast\n1 min cooldown\nTransforms all enemies within 10 yards into sheep, wandering around incapacitated for 15 sec. While affected, the victims cannot take actions but will regenerate health very quickly. Damage will cancel the effect.\nOnly works on Beasts, Humanoids and Critters.",
@@ -3256,11 +3414,13 @@ window.WOW_PVP_DATA = {
           108655
         ],
         "entry_id": 80157,
+        "entry_max_ranks": 1,
         "definition_id": 85160,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Energized Barriers",
         "spell_id": 386828,
+        "visible_spell_id": null,
         "icon": "spell_mage_temporalshield"
       },
       "pve_tooltip": "Casting your barrier removes all snare effects.",
@@ -3311,11 +3471,13 @@ window.WOW_PVP_DATA = {
           108655
         ],
         "entry_id": 115878,
+        "entry_max_ranks": 1,
         "definition_id": 120890,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Mass Invisibility",
         "spell_id": 414664,
+        "visible_spell_id": null,
         "icon": "ability_mage_massinvisibility"
       },
       "pve_tooltip": "6% of base mana\nInstant\n5 min cooldown\nYou and your allies within 40 yards instantly become invisible for 12 sec. Taking any action will cancel the effect.\nDoes not affect allies in combat.",
@@ -3366,28 +3528,40 @@ window.WOW_PVP_DATA = {
           108655
         ],
         "entry_id": 80147,
+        "entry_max_ranks": 1,
         "definition_id": 85150,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Barrier Diffusion",
         "spell_id": 455428,
+        "visible_spell_id": null,
         "icon": "spell_mage_evanesce"
       },
       "pve_tooltip": "When your Barrier is removed, reduce its cooldown by 5 sec.",
-      "pvp_tooltip": "When your Barrier is removed, reduce its cooldown by 5 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pvp_tooltip": "When your Barrier is removed, reduce its cooldown by 2.5 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 53,
+          "end": 54,
+          "old_token": "5",
+          "new_token": "2.5",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "APPLIED",
           "kind": "ordinary_value",
-          "old": 5000.0,
-          "new": 2500.0,
-          "full_tooltip_match_count": 0
+          "old": "5",
+          "new": "2.5"
         }
       ],
       "has_pvp_mechanics": true,
@@ -3458,11 +3632,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 80141,
+        "entry_max_ranks": 1,
         "definition_id": 85144,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ice Cold",
         "spell_id": 414659,
+        "visible_spell_id": null,
         "icon": "spell_fire_bluefire"
       },
       "pve_tooltip": "Ice Block now reduces all damage taken by 70% for 6 sec but no longer grants Immunity, prevents movement, attacks, or casting spells. Does not incur the Global Cooldown.",
@@ -3513,11 +3689,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 126060,
+        "entry_max_ranks": 1,
         "definition_id": 130892,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Spatial Manipulation",
         "spell_id": 1244031,
+        "visible_spell_id": null,
         "icon": "spell_mage_overpowered"
       },
       "pve_tooltip": "[Shimmer / Blink] gains an additional charge.",
@@ -3568,11 +3746,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 136580,
+        "entry_max_ranks": 1,
         "definition_id": 141353,
         "entry_index": 300,
         "entry_type": "passive",
         "talent_name": "Reflection",
         "spell_id": 1270829,
+        "visible_spell_id": null,
         "icon": "ability_hunter_displacement"
       },
       "pve_tooltip": "After casting [Shimmer / Blink], it is replaced with Reflection for 8 sec.\nReflection\nTeleports you back to where you last [Shimmer: Shimmered / Blinked]. Castable while casting and unaffected by the global cooldown.",
@@ -3623,11 +3803,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 134185,
+        "entry_max_ranks": 1,
         "definition_id": 138965,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Improved Ice Barrier",
         "spell_id": 1244069,
+        "visible_spell_id": null,
         "icon": "spell_ice_lament"
       },
       "pve_tooltip": "Ice Barrier gains an additional charge and reduces your physical damage taken by 10%.",
@@ -3677,11 +3859,13 @@ window.WOW_PVP_DATA = {
           62164
         ],
         "entry_id": 80241,
+        "entry_max_ranks": 1,
         "definition_id": 85244,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Ice Lance",
         "spell_id": 30455,
+        "visible_spell_id": null,
         "icon": "spell_frost_frostblast"
       },
       "pve_tooltip": "1% of base mana\n40 yd range\nInstant\nQuickly fling a shard of ice at the target, dealing (183.75% of Spell Power) Frost damage.\nShatters 4 stacks of Freezing.",
@@ -3884,11 +4068,13 @@ window.WOW_PVP_DATA = {
           62157
         ],
         "entry_id": 134421,
+        "entry_max_ranks": 1,
         "definition_id": 139193,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Blizzard",
         "spell_id": 190356,
+        "visible_spell_id": null,
         "icon": "spell_frost_icestorm"
       },
       "pve_tooltip": "2.5% of base mana\n40 yd range\n2 sec cast\n12 sec cooldown\nIce shards pelt the target area, dealing [(48.8% of Spell Power) * 8] Frost damage over 12 sec and reducing movement speed by 50% for 3 sec.\nThis spell is cast at a selected location",
@@ -3939,11 +4125,13 @@ window.WOW_PVP_DATA = {
           62157
         ],
         "entry_id": 134538,
+        "entry_max_ranks": 1,
         "definition_id": 139306,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Blizzard",
         "spell_id": 1248829,
+        "visible_spell_id": null,
         "icon": "spell_frost_icestorm"
       },
       "pve_tooltip": "2.5% of base mana\n40 yd range\n2 sec cast\n12 sec cooldown\nIce shards pelt the target area, dealing [(48.8% of Spell Power) * 8] Frost damage over 12 sec and reducing movement speed by 50% for 3 sec.\nThis spell is cast at your target.",
@@ -3994,11 +4182,13 @@ window.WOW_PVP_DATA = {
           109915
         ],
         "entry_id": 80227,
+        "entry_max_ranks": 1,
         "definition_id": 85230,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fingers of Frost",
         "spell_id": 112965,
+        "visible_spell_id": null,
         "icon": "ability_mage_wintersgrasp"
       },
       "pve_tooltip": "[Frostfire Bolt / Frostbolt] has a 15% chance to grant a charge of Fingers of Frost.\nFingers of Frost causes your next Ice Lance to deal Shatter damage equal to 4 stacks of Freezing and does not consume Freezing stacks.\nMaximum 2 charges.",
@@ -4177,11 +4367,13 @@ window.WOW_PVP_DATA = {
           108653
         ],
         "entry_id": 80220,
+        "entry_max_ranks": 1,
         "definition_id": 85223,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Frostbite",
         "spell_id": 1248825,
+        "visible_spell_id": null,
         "icon": "spell_frost_frostarmor"
       },
       "pve_tooltip": "When [Frostfire Bolt / Frostbolt] critically strikes, it applies 1 additional stack of Freezing.\nEach stack of Freezing that you Shatter deals (24.8% of Spell Power) damage to nearby enemies. Damage reduced beyond 5 targets.",
@@ -4331,11 +4523,13 @@ window.WOW_PVP_DATA = {
           62177
         ],
         "entry_id": 136182,
+        "entry_max_ranks": 1,
         "definition_id": 140955,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Icicles",
         "spell_id": 1246832,
+        "visible_spell_id": null,
         "icon": "ability_mage_glacialspike"
       },
       "pve_tooltip": "While in combat, Frost crystallizes around you, generating an Icicle every 6.0 sec. Upon generating 5 Icicles, [Frostfire Bolt / Frostbolt] upgrades to Glacial Spike for its next cast.\nGlacial Spike\nConjures a massive spike of ice that impales your target, dealing (1300% of Spell Power) damage and slowing the target's movement speed by 50% for 8 sec.\nApplies 3 stacks of Freezing.",
@@ -4514,11 +4708,13 @@ window.WOW_PVP_DATA = {
           62181
         ],
         "entry_id": 80243,
+        "entry_max_ranks": 1,
         "definition_id": 85246,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Flurry",
         "spell_id": 44614,
+        "visible_spell_id": null,
         "icon": "ability_deathknight_chillstreak"
       },
       "pve_tooltip": "1% of base mana\n40 yd range\nInstant\n30 sec recharge\n2 Charges\nUnleash a flurry of ice, striking the target 3 / Frigid Winds: 7 / Improved Flurry: 4 times for a total of [(128.52% of Spell Power) * 3 / Frigid Winds: - 7 / Improved Flurry: 4] Frost damage.\nApplies (3 / Frigid Winds: - 7 / Improved Flurry: 4) stacks of Freezing.",
@@ -4722,11 +4918,13 @@ window.WOW_PVP_DATA = {
           62153
         ],
         "entry_id": 134181,
+        "entry_max_ranks": 1,
         "definition_id": 138961,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Cold Snap",
         "spell_id": 235219,
+        "visible_spell_id": null,
         "icon": "spell_frost_wizardmark"
       },
       "pve_tooltip": "Instant\n5 min cooldown\nResets the cooldown of your Ice Barrier, Frost Nova, Cone of Cold, Ice Cold, and Ice Block.",
@@ -4778,11 +4976,13 @@ window.WOW_PVP_DATA = {
           62153
         ],
         "entry_id": 134180,
+        "entry_max_ranks": 1,
         "definition_id": 138960,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Glacial Bulwark",
         "spell_id": 1244110,
+        "visible_spell_id": null,
         "icon": "spell_frost_chillingarmor"
       },
       "pve_tooltip": "Ice Block now has an additional charge and its cooldown is reduced by 30 sec.",
@@ -4834,11 +5034,13 @@ window.WOW_PVP_DATA = {
           62170
         ],
         "entry_id": 80242,
+        "entry_max_ranks": 1,
         "definition_id": 85245,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Frozen Orb",
         "spell_id": 84714,
+        "visible_spell_id": null,
         "icon": "spell_frost_frozenorb"
       },
       "pve_tooltip": "1% of base mana\n40 yd range\nInstant\n1 min cooldown\nLaunches an orb of swirling ice in front of you, dealing up to [20 * (67.584% of Spell Power)] Frost damage to all enemies it passes through over 15 sec. After a short delay, Frozen Orb will pursue its target. Deals reduced damage beyond 8 targets.\nEnemies damaged by the Frozen Orb are slowed by 50% for 8 sec.",
@@ -4952,11 +5154,13 @@ window.WOW_PVP_DATA = {
           62163
         ],
         "entry_id": 80244,
+        "entry_max_ranks": 1,
         "definition_id": 85247,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Brain Freeze",
         "spell_id": 190447,
+        "visible_spell_id": null,
         "icon": "ability_mage_brainfreeze"
       },
       "pve_tooltip": "[Frostfire Bolt / Frostbolt] has a 25 / Frozen Touch: 30 / Frostfire Infusion: 26 / Archmage's Wrath: 30% chance to reset the remaining cooldown on Flurry and cause your next Flurry to deal 50% increased damage.",
@@ -5212,11 +5416,13 @@ window.WOW_PVP_DATA = {
           108851
         ],
         "entry_id": 80247,
+        "entry_max_ranks": 1,
         "definition_id": 85250,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Piercing Cold",
         "spell_id": 378919,
+        "visible_spell_id": null,
         "icon": "spell_frost_frostbolt"
       },
       "pve_tooltip": "[Frostfire Bolt / Frostbolt] and Flurry critical strike damage increased by 20%.",
@@ -5316,11 +5522,13 @@ window.WOW_PVP_DATA = {
           62150
         ],
         "entry_id": 80216,
+        "entry_max_ranks": 1,
         "definition_id": 85219,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Ray of Frost",
         "spell_id": 205021,
+        "visible_spell_id": null,
         "icon": "ability_mage_rayoffrost"
       },
       "pve_tooltip": "2% of base mana\n40 yd range\nChanneled (4 sec cast)\n1 min cooldown\n1 Charge\nChannel an icy beam at the enemy for 4 sec, dealing (450% of Spell Power) Frost damage every 0.50 sec.\nApplies 8 stacks of Freezing over its duration.",
@@ -5429,11 +5637,13 @@ window.WOW_PVP_DATA = {
           108860
         ],
         "entry_id": 102429,
+        "entry_max_ranks": 1,
         "definition_id": 107434,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Everlasting Frost",
         "spell_id": 385167,
+        "visible_spell_id": null,
         "icon": "spell_frost_chillingbolt"
       },
       "pve_tooltip": "Casting Frozen Orb grants 1 stack of Fingers of Frost.\nDamaging one or more enemies with Frozen Orb has a 3% chance to grant Fingers of Frost.\n(100ms cooldown)",
@@ -5485,11 +5695,13 @@ window.WOW_PVP_DATA = {
           62174
         ],
         "entry_id": 80234,
+        "entry_max_ranks": 1,
         "definition_id": 85237,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Permafrost Lances",
         "spell_id": 460590,
+        "visible_spell_id": null,
         "icon": "spell_fire_bluerainoffire"
       },
       "pve_tooltip": "Frozen Orb increases Shatter's damage by 10% for its duration.",
@@ -5626,11 +5838,13 @@ window.WOW_PVP_DATA = {
           62151
         ],
         "entry_id": 80245,
+        "entry_max_ranks": 1,
         "definition_id": 85248,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Frozen Touch",
         "spell_id": 205030,
+        "visible_spell_id": null,
         "icon": "ability_mage_burstofcold"
       },
       "pve_tooltip": "30 sec cooldown\nFrostbolt grants you Fingers of Frost 25% more often and Brain Freeze 20% more often.",
@@ -5682,11 +5896,13 @@ window.WOW_PVP_DATA = {
           62151
         ],
         "entry_id": 80226,
+        "entry_max_ranks": 1,
         "definition_id": 85229,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Splitting Ice",
         "spell_id": 56377,
+        "visible_spell_id": null,
         "icon": "spell_frost_ice_shards"
       },
       "pve_tooltip": "Your Flurry and [Frostfire Bolt / Frostbolt] spells strike 1 additional target at 50% effectiveness.",
@@ -5786,11 +6002,13 @@ window.WOW_PVP_DATA = {
           108859
         ],
         "entry_id": 134407,
+        "entry_max_ranks": 1,
         "definition_id": 139179,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Flash Freeze",
         "spell_id": 379993,
+        "visible_spell_id": null,
         "icon": "spell_hunter_icetrap"
       },
       "pve_tooltip": "Casting Glacial Spike has a 100% chance to grant you Fingers of Frost.",
@@ -5862,13 +6080,13 @@ window.WOW_PVP_DATA = {
           "dependency_path": [
             379993,
             44544,
-            30455,
+            112965,
             1246769,
             1246949
           ],
           "dependency_relations": [
             "trigger_spell",
-            "triggered_by_reverse",
+            "spelldesc_ref",
             "tooltip_value_ref",
             "tooltip_value_ref"
           ],
@@ -5906,13 +6124,13 @@ window.WOW_PVP_DATA = {
           "dependency_path": [
             379993,
             44544,
-            30455,
+            112965,
             1246769,
             1246949
           ],
           "dependency_relations": [
             "trigger_spell",
-            "triggered_by_reverse",
+            "spelldesc_ref",
             "tooltip_value_ref",
             "tooltip_value_ref"
           ],
@@ -5975,11 +6193,13 @@ window.WOW_PVP_DATA = {
           110258
         ],
         "entry_id": 128077,
+        "entry_max_ranks": 1,
         "definition_id": 132886,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Splintering Ray",
         "spell_id": 418733,
+        "visible_spell_id": null,
         "icon": "spell_fire_blueflamestrike"
       },
       "pve_tooltip": "Ray of Frost deals 30% of its damage to 5 nearby enemies.",
@@ -6031,11 +6251,13 @@ window.WOW_PVP_DATA = {
           110258
         ],
         "entry_id": 134418,
+        "entry_max_ranks": 1,
         "definition_id": 139190,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Frigid Focus",
         "spell_id": 1247055,
+        "visible_spell_id": null,
         "icon": "ability_deathknight_shroudofwinter"
       },
       "pve_tooltip": "Ray of Frost damage increased by 30%.",
@@ -6088,11 +6310,13 @@ window.WOW_PVP_DATA = {
           62173
         ],
         "entry_id": 134540,
+        "entry_max_ranks": 1,
         "definition_id": 139308,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Winter's Blessing",
         "spell_id": 417489,
+        "visible_spell_id": null,
         "icon": "spell_frost_wisp"
       },
       "pve_tooltip": "Your Haste is increased by 3%.\nYou gain 5% more Haste from all sources of Haste.",
@@ -6191,11 +6415,13 @@ window.WOW_PVP_DATA = {
           62173
         ],
         "entry_id": 134416,
+        "entry_max_ranks": 1,
         "definition_id": 139188,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Freezing Rain",
         "spell_id": 270233,
+        "visible_spell_id": null,
         "icon": "spell_frost_frozenorb"
       },
       "pve_tooltip": "Frozen Orb makes Blizzard instant cast.\nBlizzard damage increased by 20%.",
@@ -6246,11 +6472,13 @@ window.WOW_PVP_DATA = {
           62173
         ],
         "entry_id": 80239,
+        "entry_max_ranks": 1,
         "definition_id": 85242,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Cone of Frost",
         "spell_id": 1247090,
+        "visible_spell_id": null,
         "icon": "ability_mage_chilledtothebone"
       },
       "pve_tooltip": "Cone of Cold now applies 3 stacks of Freezing to up to 5 enemies.",
@@ -6303,11 +6531,13 @@ window.WOW_PVP_DATA = {
           108858
         ],
         "entry_id": 80214,
+        "entry_max_ranks": 1,
         "definition_id": 85217,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fractured Frost",
         "spell_id": 378448,
+        "visible_spell_id": null,
         "icon": "spell_fire_frostresistancetotem"
       },
       "pve_tooltip": "Ice Lance strikes 1 additional target at 50% effectiveness, preferring enemies with more stacks of Freezing.",
@@ -6360,11 +6590,13 @@ window.WOW_PVP_DATA = {
           109916
         ],
         "entry_id": 134415,
+        "entry_max_ranks": 1,
         "definition_id": 139187,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Shatter",
         "spell_id": 1246811,
+        "visible_spell_id": null,
         "icon": "spell_frost_frostshock"
       },
       "pve_tooltip": "Shatter damage has a 50% increased chance to critically strike.",
@@ -6417,11 +6649,13 @@ window.WOW_PVP_DATA = {
           108852
         ],
         "entry_id": 136796,
+        "entry_max_ranks": 1,
         "definition_id": 141559,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Deep Shatter",
         "spell_id": 1247025,
+        "visible_spell_id": null,
         "icon": "inv_misc_frostemblem_01"
       },
       "pve_tooltip": "Shatter's critical strike damage is increased by 50% of your critical strike chance.",
@@ -6474,11 +6708,13 @@ window.WOW_PVP_DATA = {
           108852
         ],
         "entry_id": 80237,
+        "entry_max_ranks": 1,
         "definition_id": 85240,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Wintertide",
         "spell_id": 378406,
+        "visible_spell_id": null,
         "icon": "ability_deathknight_frozencenter"
       },
       "pve_tooltip": "Frozen Orb has a 100% chance to grant Brain Freeze.",
@@ -6531,11 +6767,13 @@ window.WOW_PVP_DATA = {
           108852
         ],
         "entry_id": 136880,
+        "entry_max_ranks": 1,
         "definition_id": 141643,
         "entry_index": 300,
         "entry_type": "passive",
         "talent_name": "White Out",
         "spell_id": 1281638,
+        "visible_spell_id": null,
         "icon": "spell_frost_frostblast"
       },
       "pve_tooltip": "Ice Lance reduces the cooldown of Frozen Orb by 0.5 sec, increased by 0.1 sec for each stack of Freezing Shattered.",
@@ -6589,11 +6827,13 @@ window.WOW_PVP_DATA = {
           108849
         ],
         "entry_id": 134414,
+        "entry_max_ranks": 2,
         "definition_id": 139186,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Glacial Attunement",
         "spell_id": 1247759,
+        "visible_spell_id": null,
         "icon": "ability_hunter_glacialtrap"
       },
       "pve_tooltip": "Flurry and Blizzard damage increased by 20%.",
@@ -6611,6 +6851,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Flurry and Blizzard damage increased by 10%.",
           "pvp_tooltip": "Flurry and Blizzard damage increased by 10%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -6619,6 +6860,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Flurry and Blizzard damage increased by 20%.",
           "pvp_tooltip": "Flurry and Blizzard damage increased by 20%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6664,11 +6906,13 @@ window.WOW_PVP_DATA = {
           108850
         ],
         "entry_id": 136183,
+        "entry_max_ranks": 1,
         "definition_id": 140956,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Heart of Ice",
         "spell_id": 1247799,
+        "visible_spell_id": null,
         "icon": "inv_10_dungeonjewelry_primalist_necklace_1_frost"
       },
       "pve_tooltip": "Ice Lance Shatters 1 additional stack of Freezing.",
@@ -6722,11 +6966,13 @@ window.WOW_PVP_DATA = {
           108857
         ],
         "entry_id": 134408,
+        "entry_max_ranks": 2,
         "definition_id": 139180,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Rimecaster",
         "spell_id": 1247743,
+        "visible_spell_id": null,
         "icon": "spell_frost_manarecharge"
       },
       "pve_tooltip": "[Frostfire Bolt / Frostbolt] and Glacial Spike damage increased by 20%.",
@@ -6744,6 +6990,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "[Frostfire Bolt / Frostbolt] and Glacial Spike damage increased by 10%.",
           "pvp_tooltip": "[Frostfire Bolt / Frostbolt] and Glacial Spike damage increased by 10%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -6752,6 +6999,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "[Frostfire Bolt / Frostbolt] and Glacial Spike damage increased by 20%.",
           "pvp_tooltip": "[Frostfire Bolt / Frostbolt] and Glacial Spike damage increased by 20%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6794,11 +7042,13 @@ window.WOW_PVP_DATA = {
           62182
         ],
         "entry_id": 134409,
+        "entry_max_ranks": 1,
         "definition_id": 139181,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Freezing Winds",
         "spell_id": 1216953,
+        "visible_spell_id": null,
         "icon": "spell_fire_blueflamering"
       },
       "pve_tooltip": "Shattering enemies inside your Blizzard increases Shatter's area damage by 15%.",
@@ -6849,11 +7099,13 @@ window.WOW_PVP_DATA = {
           62182
         ],
         "entry_id": 134411,
+        "entry_max_ranks": 1,
         "definition_id": 139183,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Flurry",
         "spell_id": 1247769,
+        "visible_spell_id": null,
         "icon": "ability_warlock_burningembersblue"
       },
       "pve_tooltip": "Flurry fires 1 additional missile.",
@@ -6905,11 +7157,13 @@ window.WOW_PVP_DATA = {
           62184
         ],
         "entry_id": 134405,
+        "entry_max_ranks": 1,
         "definition_id": 139177,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Glacial Assault",
         "spell_id": 378947,
+        "visible_spell_id": null,
         "icon": "inv_staff_15"
       },
       "pve_tooltip": "Flurry has a 12% chance each hit to call down an icy comet, crashing into your target and nearby enemies for (150% of Spell Power) Frost damage.\nApplies 1 stack of Freezing.",
@@ -7020,11 +7274,13 @@ window.WOW_PVP_DATA = {
           62184
         ],
         "entry_id": 136837,
+        "entry_max_ranks": 1,
         "definition_id": 141600,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Crystalline Refraction",
         "spell_id": 1247544,
+        "visible_spell_id": null,
         "icon": "inv_10_enchanting_crystal_color3"
       },
       "pve_tooltip": "Ray of Frost generates 2 stacks of Fingers of Frost over its duration.",
@@ -7076,11 +7332,13 @@ window.WOW_PVP_DATA = {
           62184
         ],
         "entry_id": 134406,
+        "entry_max_ranks": 1,
         "definition_id": 139178,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Summon Water Elemental",
         "spell_id": 31687,
+        "visible_spell_id": null,
         "icon": "spell_frost_summonwaterelemental_2"
       },
       "pve_tooltip": "3% of base mana\n1.5 sec cast\n15 sec cooldown\nSummons a Water Elemental to follow and fight for you.",
@@ -7132,11 +7390,13 @@ window.WOW_PVP_DATA = {
           62184
         ],
         "entry_id": 136839,
+        "entry_max_ranks": 1,
         "definition_id": 141602,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Lonely Winter",
         "spell_id": 205024,
+        "visible_spell_id": null,
         "icon": "achievement_dungeon_frozenthrone"
       },
       "pve_tooltip": "Replaces Summon Water Elemental\nSpell damage increased by 3%.",
@@ -7187,11 +7447,13 @@ window.WOW_PVP_DATA = {
           62185
         ],
         "entry_id": 134420,
+        "entry_max_ranks": 1,
         "definition_id": 139192,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Glacial Chill",
         "spell_id": 1280779,
+        "visible_spell_id": null,
         "icon": "spell_frost_iceshard"
       },
       "pve_tooltip": "Glacial Spike deals 5% increased damage and applies 2 additional stacks of Freezing.",
@@ -7242,11 +7504,13 @@ window.WOW_PVP_DATA = {
           62185
         ],
         "entry_id": 136838,
+        "entry_max_ranks": 1,
         "definition_id": 141601,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Glacial Shatter",
         "spell_id": 1280780,
+        "visible_spell_id": null,
         "icon": "artifactability_frostmage_ebonbolt"
       },
       "pve_tooltip": "Glacial Spike no longer applies Freezing, and instead Shatters 5 stacks of Freezing.",
@@ -7297,11 +7561,13 @@ window.WOW_PVP_DATA = {
           62185
         ],
         "entry_id": 134413,
+        "entry_max_ranks": 1,
         "definition_id": 139185,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Hailstones",
         "spell_id": 1247742,
+        "visible_spell_id": null,
         "icon": "artifactability_frostmage_blackicicles"
       },
       "pve_tooltip": "The time it takes to generate an Icicle is reduced by 1.0 sec.",
@@ -7351,11 +7617,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 80248,
+        "entry_max_ranks": 1,
         "definition_id": 85251,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Thermal Void",
         "spell_id": 1247729,
+        "visible_spell_id": null,
         "icon": "spell_mage_thermalvoid"
       },
       "pve_tooltip": "Consuming Brain Freeze has a 100% chance to cause your next Ice Lance to Shatter 4 additional stacks of Freezing.",
@@ -7498,11 +7766,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 80250,
+        "entry_max_ranks": 1,
         "definition_id": 85253,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Glaciate",
         "spell_id": 1247798,
+        "visible_spell_id": null,
         "icon": "spell_frost_frozencore"
       },
       "pve_tooltip": "When Ice Lance Shatters a stack of Freezing, the cooldown of Ray of Frost is reduced by 0.10 sec.",
@@ -7552,11 +7822,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 80251,
+        "entry_max_ranks": 1,
         "definition_id": 85254,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Comet Storm",
         "spell_id": 1247777,
+        "visible_spell_id": null,
         "icon": "spell_mage_cometstorm2"
       },
       "pve_tooltip": "Casting Ray of Frost replaces your Ray of Frost with Comet Storm, calling down a series of 7 icy comets on and around the target, that deals up to [7 * (86% of Spell Power)] Frost damage to all enemies within 8 yds of its impacts.\nEach Comet Shatters 1 stack of Freezing.",
@@ -7755,11 +8027,13 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 137034,
+        "entry_max_ranks": 1,
         "definition_id": 141797,
         "entry_index": 100,
         "entry_type": "tierrank",
         "talent_name": "Hand of Frost",
         "spell_id": 1262935,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_mage_handoffrost"
       },
       "pve_tooltip": "40 yd range\nShattering an enemy has a 10% chance to summon a Hand of Frost to pursue your target, dealing (500% of Spell Power) Frost damage and applying 1 stack of Freezing on contact.",
@@ -7866,15 +8140,17 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 137033,
+        "entry_max_ranks": 2,
         "definition_id": 141796,
         "entry_index": 200,
         "entry_type": "tierrank",
         "talent_name": "Hand of Frost",
         "spell_id": 1262981,
-        "icon": "spell_frost_piercing_chill"
+        "visible_spell_id": null,
+        "icon": "spell_frost_piercing-chill"
       },
-      "pve_tooltip": "40 yd range\nEach stack of Freezing you Shatter increases your chance to summon a Hand of Frost by an additional 1.0%.\nDamage from Hand of Frost increases your spell damage by 0.5% for 8 sec. Multiple applications may overlap.",
-      "pvp_tooltip": "40 yd range\nEach stack of Freezing you Shatter increases your chance to summon a Hand of Frost by an additional 1.0%.\nDamage from Hand of Frost increases your spell damage by 0.5% for 8 sec. Multiple applications may overlap.",
+      "pve_tooltip": "40 yd range\nEach stack of Freezing you Shatter increases your chance to summon a Hand of Frost by an additional 2%.\nDamage from Hand of Frost increases your spell damage by 1% for 8 sec. Multiple applications may overlap.",
+      "pvp_tooltip": "40 yd range\nEach stack of Freezing you Shatter increases your chance to summon a Hand of Frost by an additional 2%.\nDamage from Hand of Frost increases your spell damage by 1% for 8 sec. Multiple applications may overlap.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -7882,7 +8158,26 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "40 yd range\nEach stack of Freezing you Shatter increases your chance to summon a Hand of Frost by an additional 1.0%.\nDamage from Hand of Frost increases your spell damage by 0.5% for 8 sec. Multiple applications may overlap.",
+          "pvp_tooltip": "40 yd range\nEach stack of Freezing you Shatter increases your chance to summon a Hand of Frost by an additional 1.0%.\nDamage from Hand of Frost increases your spell damage by 0.5% for 8 sec. Multiple applications may overlap.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "40 yd range\nEach stack of Freezing you Shatter increases your chance to summon a Hand of Frost by an additional 2%.\nDamage from Hand of Frost increases your spell damage by 1% for 8 sec. Multiple applications may overlap.",
+          "pvp_tooltip": "40 yd range\nEach stack of Freezing you Shatter increases your chance to summon a Hand of Frost by an additional 2%.\nDamage from Hand of Frost increases your spell damage by 1% for 8 sec. Multiple applications may overlap.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Hand of Frost",
@@ -7917,11 +8212,13 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 137032,
+        "entry_max_ranks": 1,
         "definition_id": 141795,
         "entry_index": 300,
         "entry_type": "tierrank",
         "talent_name": "Hand of Frost",
         "spell_id": 1263249,
+        "visible_spell_id": null,
         "icon": "ability_mage_rayoffrost"
       },
       "pve_tooltip": "40 yd range\nRay of Frost summons 4 Hands of Frost over its duration.\nRay of Frost gains an additional charge and its damage is increased by 25%.",
@@ -7973,18 +8270,31 @@ window.WOW_PVP_DATA = {
           109672
         ],
         "entry_id": 117239,
+        "entry_max_ranks": 1,
         "definition_id": 122251,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Frostfire Bolt",
         "spell_id": 431044,
+        "visible_spell_id": null,
         "icon": "inv_ability_frostfiremage_frostfirebolt"
       },
       "pve_tooltip": "2% of base mana\n40 yd range\n1.75 sec cast\nLaunches a bolt of frostfire at the enemy, causing (259.4% of Spell Power) Frostfire damage, slowing movement speed by 50%, and causing an additional (21.6% of Spell Power) Frostfire damage over 8 sec.\nApplies 1 stack of Freezing.",
-      "pvp_tooltip": "2% of base mana\n40 yd range\n1.75 sec cast\nLaunches a bolt of frostfire at the enemy, causing (259.4% of Spell Power) Frostfire damage, slowing movement speed by 50%, and causing an additional (21.6% of Spell Power) Frostfire damage over 8 sec.\nApplies 1 stack of Freezing.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pvp_tooltip": "2% of base mana\n40 yd range\n1.75 sec cast\nLaunches a bolt of frostfire at the enemy, causing (507.6458% of Spell Power) Frostfire damage, slowing movement speed by 50%, and causing an additional (21.6% of Spell Power) Frostfire damage over 8 sec.\nApplies 1 stack of Freezing.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 94,
+          "end": 99,
+          "old_token": "259.4",
+          "new_token": "507.6458",
+          "kind": "spell_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
@@ -7995,13 +8305,22 @@ window.WOW_PVP_DATA = {
           "old": 91.53999999999999,
           "new": 94.2862,
           "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "spell_power_coefficient",
+          "old": "259.4",
+          "new": "507.6458"
         }
       ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 431044,
           "source_spell_id": 468655,
           "effect_index": 1,
@@ -8018,7 +8337,7 @@ window.WOW_PVP_DATA = {
             468655
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -8041,7 +8360,7 @@ window.WOW_PVP_DATA = {
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 431044,
           "source_spell_id": 468655,
           "effect_index": 2,
@@ -8058,7 +8377,7 @@ window.WOW_PVP_DATA = {
             468655
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -8160,7 +8479,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1,
+      "render_effect_count": 2,
       "rank_tooltips": []
     },
     {
@@ -8201,11 +8520,13 @@ window.WOW_PVP_DATA = {
           109669
         ],
         "entry_id": 117267,
+        "entry_max_ranks": 1,
         "definition_id": 122279,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Splintering Sorcery",
         "spell_id": 443739,
+        "visible_spell_id": null,
         "icon": "achievement_dungeon_arcanevaults"
       },
       "pve_tooltip": "Casting Frostbolt or Flurry conjures a Frost Splinter.\nFrost Splinter:\nConjure raw Frost magic into a sharp projectile that deals (45.3% of Spell Power) Frost damage.",
@@ -8333,11 +8654,13 @@ window.WOW_PVP_DATA = {
           94638
         ],
         "entry_id": 117245,
+        "entry_max_ranks": 1,
         "definition_id": 122257,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Imbued Warding",
         "spell_id": 431066,
+        "visible_spell_id": null,
         "icon": "inv_10_jewelcrafting_gem3primal_fire_cut_blue"
       },
       "pve_tooltip": "Ice Barrier also casts a Blazing Barrier at 25% effectiveness.",
@@ -8460,11 +8783,13 @@ window.WOW_PVP_DATA = {
           94638
         ],
         "entry_id": 117776,
+        "entry_max_ranks": 1,
         "definition_id": 122788,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Meltdown",
         "spell_id": 431131,
+        "visible_spell_id": null,
         "icon": "spell_frost_arcticwinds"
       },
       "pve_tooltip": "You melt slightly out of your Ice Block and Ice Cold, allowing you to move slowly during Ice Block and increasing your movement speed over time.\nIce Block and Ice Cold trigger a Blazing Barrier when they end.",
@@ -8515,12 +8840,14 @@ window.WOW_PVP_DATA = {
           94640
         ],
         "entry_id": 117244,
+        "entry_max_ranks": 1,
         "definition_id": 122256,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Frostfire Empowerment",
         "spell_id": 431176,
-        "icon": "spell_frostfire_orb"
+        "visible_spell_id": null,
+        "icon": "spell_frostfire-orb"
       },
       "pve_tooltip": "Casting Frostfire spells has a 10% chance to activate Frostfire Empowerment, causing your next Frostfire Bolt to be instant cast, deal 60% increased damage, explode for 60% of its damage to nearby enemies. Damage reduced beyond 5 targets.\nDamage from Frostfire Empowerment applies 1 stack of Freezing.",
       "pvp_tooltip": "Casting Frostfire spells has a 10% chance to activate Frostfire Empowerment, causing your next Frostfire Bolt to be instant cast, deal 10% increased damage, explode for 30% of its damage to nearby enemies. Damage reduced beyond 5 targets.\nDamage from Frostfire Empowerment applies 1 stack of Freezing.",
@@ -8725,11 +9052,13 @@ window.WOW_PVP_DATA = {
           94634
         ],
         "entry_id": 117236,
+        "entry_max_ranks": 1,
         "definition_id": 122248,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Elemental Affinity",
         "spell_id": 431067,
+        "visible_spell_id": null,
         "icon": "inv_10_dungeonjewelry_dragon_trinket_5_red"
       },
       "pve_tooltip": "The cooldown of Fire spells is reduced by 30%.",
@@ -8780,12 +9109,14 @@ window.WOW_PVP_DATA = {
           94634
         ],
         "entry_id": 117775,
+        "entry_max_ranks": 1,
         "definition_id": 122787,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Flame and Frost",
         "spell_id": 431112,
-        "icon": "spell_firefrost_orb"
+        "visible_spell_id": null,
+        "icon": "spell_firefrost-orb"
       },
       "pve_tooltip": "Ice Block and Ice Cold reset the cooldowns of your Fire spells.",
       "pvp_tooltip": "Ice Block and Ice Cold reset the cooldowns of your Fire spells.",
@@ -8835,11 +9166,13 @@ window.WOW_PVP_DATA = {
           109671
         ],
         "entry_id": 135923,
+        "entry_max_ranks": 1,
         "definition_id": 140678,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Duality",
         "spell_id": 1262843,
+        "visible_spell_id": null,
         "icon": "ability_mage_frostfirebolt"
       },
       "pve_tooltip": "Casting Glacial Spike also casts a Pyroblast, dealing (881.3% of Spell Power) Fire damage.",
@@ -9002,11 +9335,13 @@ window.WOW_PVP_DATA = {
           94659
         ],
         "entry_id": 117265,
+        "entry_max_ranks": 1,
         "definition_id": 122277,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Augury Abounds",
         "spell_id": 1280165,
+        "visible_spell_id": null,
         "icon": "spell_arcane_arcanepotency"
       },
       "pve_tooltip": "Conjuring one or more Frost Splinters has a 10% chance to conjure a burst of 8 Frost Splinters.\n(500ms cooldown)",
@@ -9057,11 +9392,13 @@ window.WOW_PVP_DATA = {
           94656
         ],
         "entry_id": 117266,
+        "entry_max_ranks": 1,
         "definition_id": 122278,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Force of Will",
         "spell_id": 444719,
+        "visible_spell_id": null,
         "icon": "spell_mage_overpowered"
       },
       "pve_tooltip": "Ice Lance conjures a Frost Splinter for every 2 Freezing stacks Shattered from its primary target.",
@@ -9112,11 +9449,13 @@ window.WOW_PVP_DATA = {
           94660
         ],
         "entry_id": 117264,
+        "entry_max_ranks": 1,
         "definition_id": 122276,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Splintering Orbs",
         "spell_id": 444256,
+        "visible_spell_id": null,
         "icon": "item_azereansphere"
       },
       "pve_tooltip": "Enemies damaged by your Frozen Orb conjure 1 Frost Splinter, up to 4.\nFrozen Orb damage is increased by 40%.",
@@ -9167,12 +9506,14 @@ window.WOW_PVP_DATA = {
           109668
         ],
         "entry_id": 135920,
+        "entry_max_ranks": 1,
         "definition_id": 140675,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Attuned Familiar",
         "spell_id": 1261106,
-        "icon": "ability_socererking_arcanemines"
+        "visible_spell_id": null,
+        "icon": "spell_frost_summonwaterelemental_2"
       },
       "pve_tooltip": "Your Water Elemental has a 50% chance to conjure a Splinter alongside its Waterbolt.",
       "pvp_tooltip": "Your Water Elemental has a 50% chance to conjure a Splinter alongside its Waterbolt.",
@@ -9222,11 +9563,13 @@ window.WOW_PVP_DATA = {
           109668
         ],
         "entry_id": 135946,
+        "entry_max_ranks": 1,
         "definition_id": 140701,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Shifting Shards",
         "spell_id": 444675,
+        "visible_spell_id": null,
         "icon": "ability_mage_freeze"
       },
       "pve_tooltip": "Gaining Brain Freeze conjures 2 Frost Splinters.",
@@ -9277,11 +9620,13 @@ window.WOW_PVP_DATA = {
           94639
         ],
         "entry_id": 117241,
+        "entry_max_ranks": 1,
         "definition_id": 122253,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Heat Sink",
         "spell_id": 1248002,
+        "visible_spell_id": null,
         "icon": "spell_fire_masterofelements"
       },
       "pve_tooltip": "Flurry now deals Frostfire damage and its damage is increased by 25%.",
@@ -9332,11 +9677,13 @@ window.WOW_PVP_DATA = {
           94632
         ],
         "entry_id": 117243,
+        "entry_max_ranks": 1,
         "definition_id": 122255,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Thermal Conditioning",
         "spell_id": 431117,
+        "visible_spell_id": null,
         "icon": "spell_fireresistancetotem_01"
       },
       "pve_tooltip": "Frostfire Bolt's cast time is reduced by 10%.",
@@ -9387,11 +9734,13 @@ window.WOW_PVP_DATA = {
           94632
         ],
         "entry_id": 134441,
+        "entry_max_ranks": 1,
         "definition_id": 139212,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Severe Temperatures",
         "spell_id": 431189,
+        "visible_spell_id": null,
         "icon": "inv_magemount_fire"
       },
       "pve_tooltip": "Frostfire Empowerment stacks 1 additional time and it causes Frostfire Bolt to explode for an additional 20% of its damage.",
@@ -9442,11 +9791,13 @@ window.WOW_PVP_DATA = {
           94637
         ],
         "entry_id": 117237,
+        "entry_max_ranks": 1,
         "definition_id": 122249,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Dualcasting Adept",
         "spell_id": 1248014,
+        "visible_spell_id": null,
         "icon": "ability_dualwieldspecialization"
       },
       "pve_tooltip": "Your Fire spells deal 20% increased critical strike damage.\nShatter damage increased by 40%.\nBlizzard damage increased by 15%.",
@@ -9497,11 +9848,13 @@ window.WOW_PVP_DATA = {
           109670
         ],
         "entry_id": 135922,
+        "entry_max_ranks": 1,
         "definition_id": 140677,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Molten Chill",
         "spell_id": 1262844,
+        "visible_spell_id": null,
         "icon": "spell_fire_incinerate"
       },
       "pve_tooltip": "Your Frostfire spells apply Ignite, dealing an additional 30% of their damage over 9 sec.",
@@ -9552,11 +9905,13 @@ window.WOW_PVP_DATA = {
           94658
         ],
         "entry_id": 117262,
+        "entry_max_ranks": 1,
         "definition_id": 122274,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Slippery Slinging",
         "spell_id": 444752,
+        "visible_spell_id": null,
         "icon": "ability_mage_icyfeet"
       },
       "pve_tooltip": "You have 40% increased movement speed during Alter Time.",
@@ -9654,11 +10009,13 @@ window.WOW_PVP_DATA = {
           94658
         ],
         "entry_id": 123418,
+        "entry_max_ranks": 1,
         "definition_id": 128256,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Look Again",
         "spell_id": 444756,
+        "visible_spell_id": null,
         "icon": "achievement_bg_tophealer_av"
       },
       "pve_tooltip": "While in combat, Blink summons a Mirror Image at your previous location.",
@@ -9709,12 +10066,14 @@ window.WOW_PVP_DATA = {
           94657
         ],
         "entry_id": 117259,
+        "entry_max_ranks": 1,
         "definition_id": 122271,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Controlled Instincts",
         "spell_id": 444483,
-        "icon": "spell_frost_ice_shards"
+        "visible_spell_id": null,
+        "icon": "spell_frost_ice-shards"
       },
       "pve_tooltip": "60% of the direct damage dealt by a Frost Splinter is also dealt to nearby enemies. Damage reduced beyond 5 targets.",
       "pvp_tooltip": "60% of the direct damage dealt by a Frost Splinter is also dealt to nearby enemies. Damage reduced beyond 5 targets.",
@@ -9805,11 +10164,13 @@ window.WOW_PVP_DATA = {
           94655
         ],
         "entry_id": 117263,
+        "entry_max_ranks": 1,
         "definition_id": 122275,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Reactive Barrier",
         "spell_id": 444827,
+        "visible_spell_id": null,
         "icon": "ability_racial_forceshield"
       },
       "pve_tooltip": "Your Ice Barrier can absorb up to 25% more damage based on your missing health.\nMax effectiveness when under 25% health.",
@@ -9926,11 +10287,13 @@ window.WOW_PVP_DATA = {
           94655
         ],
         "entry_id": 123417,
+        "entry_max_ranks": 1,
         "definition_id": 128255,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Phantasmal Image",
         "spell_id": 444784,
+        "visible_spell_id": null,
         "icon": "spell_arcane_prismaticcloak"
       },
       "pve_tooltip": "Your Mirror Image summons 1 extra copy of you.",
@@ -9981,11 +10344,13 @@ window.WOW_PVP_DATA = {
           109667
         ],
         "entry_id": 135919,
+        "entry_max_ranks": 1,
         "definition_id": 140674,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Infused Splinters",
         "spell_id": 1261080,
+        "visible_spell_id": null,
         "icon": "spell_mage_focusingcrystal"
       },
       "pve_tooltip": "Direct damage from Frost Splinters have a 15% chance to apply 1 stack of Freezing.",
@@ -10036,11 +10401,13 @@ window.WOW_PVP_DATA = {
           94635
         ],
         "entry_id": 117242,
+        "entry_max_ranks": 1,
         "definition_id": 122254,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Frostfire Infusion",
         "spell_id": 431166,
+        "visible_spell_id": null,
         "icon": "inv_10_blacksmithing_craftedbar_frostfirealloy"
       },
       "pve_tooltip": "Frostfire Bolt has an additional 5% chance to grant Brain Freeze.\nThe damage of your Frost spells and Fire spells are increased by 4%.",
@@ -10091,11 +10458,13 @@ window.WOW_PVP_DATA = {
           94635
         ],
         "entry_id": 117235,
+        "entry_max_ranks": 1,
         "definition_id": 122247,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Flash Freezeburn",
         "spell_id": 431178,
+        "visible_spell_id": null,
         "icon": "spell_fire_elementaldevastation"
       },
       "pve_tooltip": "Glacial Spike damage increased by 15% and it now explodes on impact, dealing 25% of its damage to up to 5 nearby enemies.\nAdditionally, Glacial Spike now grants Frostfire Empowerment.",
@@ -10146,11 +10515,13 @@ window.WOW_PVP_DATA = {
           94635
         ],
         "entry_id": 117240,
+        "entry_max_ranks": 1,
         "definition_id": 122252,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Blast Radius",
         "spell_id": 1248016,
+        "visible_spell_id": null,
         "icon": "spell_frostresistancetotem_01"
       },
       "pve_tooltip": "Comet Storm damage increased by 50%.\nMeteor damage increased by 20%.",
@@ -10201,11 +10572,13 @@ window.WOW_PVP_DATA = {
           94635
         ],
         "entry_id": 135921,
+        "entry_max_ranks": 1,
         "definition_id": 140676,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Elemental Conduit",
         "spell_id": 1262845,
+        "visible_spell_id": null,
         "icon": "inv_ability_shaman_primordialwave"
       },
       "pve_tooltip": "Meteor and Pyroblast now apply Ignite.\nYour Haste is increased by 2%.",
@@ -10256,11 +10629,13 @@ window.WOW_PVP_DATA = {
           94654
         ],
         "entry_id": 117261,
+        "entry_max_ranks": 1,
         "definition_id": 122273,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Archmage's Wrath",
         "spell_id": 444968,
+        "visible_spell_id": null,
         "icon": "spell_arcane_arcane03"
       },
       "pve_tooltip": "100 yd range\nRay of Frost damage increased by 20%.\nYour chance to gain Brain Freeze from Frostbolt is increased by 5%.",
@@ -10311,11 +10686,13 @@ window.WOW_PVP_DATA = {
           94654
         ],
         "entry_id": 128267,
+        "entry_max_ranks": 1,
         "definition_id": 133074,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Signature Spell",
         "spell_id": 470021,
+        "visible_spell_id": null,
         "icon": "inv_enchanting_815_drustwand"
       },
       "pve_tooltip": "Frostbolt and Blizzard damage increased by 25%.\nGlacial Spike conjures 2 additional Frost Splinters.",
@@ -10366,11 +10743,13 @@ window.WOW_PVP_DATA = {
           94654
         ],
         "entry_id": 117258,
+        "entry_max_ranks": 1,
         "definition_id": 122270,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Spellfrost Teachings",
         "spell_id": 444986,
+        "visible_spell_id": null,
         "icon": "70_inscription_vantus_rune_azure"
       },
       "pve_tooltip": "Direct damage from Frost Splinters reduces the cooldown of Frozen Orb by 0.30 sec.",
@@ -10421,11 +10800,13 @@ window.WOW_PVP_DATA = {
           94654
         ],
         "entry_id": 135918,
+        "entry_max_ranks": 1,
         "definition_id": 140673,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Polished Focus",
         "spell_id": 1261082,
+        "visible_spell_id": null,
         "icon": "inv_misc_orb_blue"
       },
       "pve_tooltip": "Ice Lance Shatters 1 additional stack of Freezing.\nShatter damage increased by 20%.",
@@ -10477,11 +10858,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 117238,
+        "entry_max_ranks": 1,
         "definition_id": 122250,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Isothermic Core",
         "spell_id": 431095,
+        "visible_spell_id": null,
         "icon": "inv12_ability_mage_isothermiccore"
       },
       "pve_tooltip": "Comet Storm now also calls down a Meteor, dealing (900% of Spell Power) Fire damage to nearby enemies. Damage reduced beyond 8 targets.\nDamage from Meteor Shatters 1 stacks of Freezing.",
@@ -10878,11 +11261,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 117257,
+        "entry_max_ranks": 1,
         "definition_id": 122269,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Splinterstorm",
         "spell_id": 443783,
+        "visible_spell_id": null,
         "icon": "ability_mage_burstofcold"
       },
       "pve_tooltip": "Each time Ray of Frost damages one or more enemies, it generates 1 Frost Splinter.\nFor 10 sec after casting Ray of Frost, your chance to conjure an additional Frost Splinter is increased to 100%.",
@@ -10898,12 +11283,289 @@ window.WOW_PVP_DATA = {
     }
   ],
   "fetch_errors": [],
+  "serialization": {
+    "version": 2,
+    "spec_id": 64,
+    "node_order": [
+      62084,
+      62085,
+      62086,
+      62087,
+      62088,
+      62091,
+      62092,
+      62094,
+      62096,
+      62098,
+      62100,
+      62102,
+      62104,
+      62105,
+      62107,
+      62110,
+      62112,
+      62114,
+      62115,
+      62116,
+      62117,
+      62119,
+      62121,
+      62122,
+      62123,
+      62124,
+      62125,
+      62127,
+      62129,
+      62150,
+      62151,
+      62153,
+      62157,
+      62163,
+      62164,
+      62170,
+      62173,
+      62174,
+      62176,
+      62177,
+      62178,
+      62179,
+      62180,
+      62181,
+      62182,
+      62184,
+      62185,
+      81468,
+      93524,
+      94632,
+      94633,
+      94634,
+      94635,
+      94636,
+      94637,
+      94638,
+      94639,
+      94640,
+      94641,
+      94642,
+      94643,
+      94644,
+      94645,
+      94646,
+      94647,
+      94648,
+      94649,
+      94650,
+      94651,
+      94652,
+      94653,
+      94654,
+      94655,
+      94656,
+      94657,
+      94658,
+      94659,
+      94660,
+      94661,
+      94662,
+      94663,
+      94664,
+      99828,
+      99829,
+      99830,
+      100989,
+      100995,
+      100998,
+      100999,
+      101004,
+      101007,
+      101009,
+      101015,
+      101016,
+      101019,
+      101021,
+      101024,
+      101027,
+      101029,
+      101883,
+      102438,
+      102439,
+      102440,
+      102441,
+      102445,
+      102446,
+      102449,
+      102451,
+      102453,
+      102454,
+      102460,
+      102462,
+      102465,
+      102467,
+      102468,
+      102469,
+      102470,
+      102471,
+      102472,
+      102474,
+      102475,
+      102476,
+      102480,
+      103771,
+      104113,
+      108535,
+      108536,
+      108537,
+      108538,
+      108539,
+      108541,
+      108551,
+      108653,
+      108654,
+      108655,
+      108656,
+      108657,
+      108658,
+      108659,
+      108660,
+      108661,
+      108662,
+      108664,
+      108665,
+      108849,
+      108850,
+      108851,
+      108852,
+      108853,
+      108855,
+      108857,
+      108858,
+      108859,
+      108860,
+      108863,
+      108864,
+      109002,
+      109393,
+      109394,
+      109395,
+      109396,
+      109397,
+      109398,
+      109399,
+      109400,
+      109401,
+      109402,
+      109403,
+      109404,
+      109406,
+      109407,
+      109408,
+      109409,
+      109411,
+      109412,
+      109478,
+      109667,
+      109668,
+      109669,
+      109670,
+      109671,
+      109672,
+      109673,
+      109674,
+      109675,
+      109915,
+      109916,
+      109956,
+      110078,
+      110079,
+      110080,
+      110081,
+      110082,
+      110086,
+      110087,
+      110088,
+      110089,
+      110258,
+      110283,
+      110321,
+      110322,
+      110420,
+      110422,
+      110423,
+      110442,
+      110597,
+      110849,
+      110850
+    ],
+    "subtree_nodes": [
+      {
+        "id": 99828,
+        "name": "Frostfire / Spellslinger",
+        "type": "subtree",
+        "posX": 8700,
+        "posY": 1500,
+        "entryNode": true,
+        "next": [],
+        "prev": [],
+        "entries": [
+          {
+            "id": 123342,
+            "type": "subtree",
+            "name": "Frostfire",
+            "traitSubTreeId": 41,
+            "traitTreeId": 658,
+            "atlasMemberName": "talents-heroclass-mage-frostfire",
+            "nodes": [
+              94636,
+              109956,
+              94642,
+              94641,
+              94633,
+              109672,
+              94638,
+              94640,
+              94634,
+              109671,
+              94639,
+              94632,
+              94637,
+              109670,
+              94635
+            ]
+          },
+          {
+            "id": 123339,
+            "type": "subtree",
+            "name": "Spellslinger",
+            "traitSubTreeId": 40,
+            "traitTreeId": 658,
+            "atlasMemberName": "talents-heroclass-mage-spellslinger",
+            "nodes": [
+              94664,
+              94662,
+              94663,
+              94661,
+              109669,
+              94659,
+              94656,
+              94660,
+              109668,
+              94658,
+              94657,
+              94655,
+              109667,
+              94654
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "source_warnings": [],
   "slug": "mage-frost",
-  "generated_at": "2026-09-21T12:51:13.750557+00:00",
+  "generated_at": "2026-09-21T19:39:48.624849+00:00",
   "validation": {
     "talents": 130,
-    "changed_tooltips": 25,
+    "changed_tooltips": 29,
     "talents_with_pvp_mechanics": 40,
     "unique_nodes": 109,
     "tree_build": "12.1.0.69875",

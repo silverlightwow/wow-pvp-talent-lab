@@ -43,24 +43,66 @@ window.WOW_PVP_DATA = {
           90941
         ],
         "entry_id": 112853,
+        "entry_max_ranks": 1,
         "definition_id": 117858,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Vengeful Retreat",
         "spell_id": 198793,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_vengefulretreat2"
       },
       "pve_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRemove all snares and vault away. Nearby enemies take (16% of Attack Power) Physical damage [Vengeful Bonds: and have their movement speed reduced by 70% for 3 sec].",
-      "pvp_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRemove all snares and vault away. Nearby enemies take (16% of Attack Power) Physical damage [Vengeful Bonds: and have their movement speed reduced by 70% for 3 sec].",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Instant\n25 sec cooldown\n1 Charge\nRemove all snares and vault away. Nearby enemies take (15.36% of Attack Power) Physical damage [Vengeful Bonds: and have their movement speed reduced by 50% for 3 sec].",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 183,
+          "end": 185,
+          "old_token": "70",
+          "new_token": "50",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 88,
+          "end": 90,
+          "old_token": "16",
+          "new_token": "15.36",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "16",
+          "new": "15.36"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "70",
+          "new": "50"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 198793,
           "source_spell_id": 198813,
           "effect_index": 1,
@@ -77,7 +119,7 @@ window.WOW_PVP_DATA = {
             198813
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -90,7 +132,7 @@ window.WOW_PVP_DATA = {
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 198793,
           "source_spell_id": 198813,
           "effect_index": 2,
@@ -107,7 +149,7 @@ window.WOW_PVP_DATA = {
             198813
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -127,7 +169,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 2,
       "rank_tooltips": []
     },
     {
@@ -166,11 +208,13 @@ window.WOW_PVP_DATA = {
           90950
         ],
         "entry_id": 112928,
+        "entry_max_ranks": 1,
         "definition_id": 117933,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Felblade",
         "spell_id": 232893,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_felblade"
       },
       "pve_tooltip": "15 yd range\nInstant\n12 sec cooldown\nCharge to your target and deal (122.94% of Attack Power)% Fire damage.\n[Fracture: Generates 15 Fury.] [Demonic Wards: Generates 15 Fury.]Generates 15 Fury.",
@@ -261,11 +305,13 @@ window.WOW_PVP_DATA = {
           90945
         ],
         "entry_id": 112859,
+        "entry_max_ranks": 1,
         "definition_id": 117864,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Sigil of Misery",
         "spell_id": 207684,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_sigilofmisery"
       },
       "pve_tooltip": "30 yd range\nInstant\n2 min cooldown\n1 Charge\nPlace a Sigil of Misery at the target location that activates after 2 sec.\nCauses all enemies affected by the sigil to cower in fear, disorienting them for 15 sec.",
@@ -316,11 +362,13 @@ window.WOW_PVP_DATA = {
           90931
         ],
         "entry_id": 112840,
+        "entry_max_ranks": 1,
         "definition_id": 117845,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Vengeful Bonds",
         "spell_id": 320635,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_vengefulretreat2"
       },
       "pve_tooltip": "Vengeful Retreat reduces the movement speed of all nearby enemies by 70% for 3 sec.",
@@ -463,11 +511,13 @@ window.WOW_PVP_DATA = {
           91007
         ],
         "entry_id": 112852,
+        "entry_max_ranks": 1,
         "definition_id": 117857,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unrestrained Fury",
         "spell_id": 320770,
+        "visible_spell_id": null,
         "icon": "ability_warrior_improveddisciplines"
       },
       "pve_tooltip": "Increases maximum Fury by 20.",
@@ -520,11 +570,13 @@ window.WOW_PVP_DATA = {
           90948
         ],
         "entry_id": 112863,
+        "entry_max_ranks": 1,
         "definition_id": 117868,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shattered Restoration",
         "spell_id": 389824,
+        "visible_spell_id": null,
         "icon": "ability_warlock_soulsiphon"
       },
       "pve_tooltip": "The healing of Shattered Souls is increased by 10%.",
@@ -575,11 +627,13 @@ window.WOW_PVP_DATA = {
           90948
         ],
         "entry_id": 112858,
+        "entry_max_ranks": 1,
         "definition_id": 117863,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Sigil of Misery",
         "spell_id": 320418,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_sigilofmisery"
       },
       "pve_tooltip": "Reduces the cooldown of Sigil of [Sigil of Silence: Silence / Misery] by [Sigil of Chains: 15 / 30] sec.",
@@ -632,11 +686,13 @@ window.WOW_PVP_DATA = {
           90938
         ],
         "entry_id": 112841,
+        "entry_max_ranks": 1,
         "definition_id": 117846,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Bouncing Glaives",
         "spell_id": 320386,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_throwglaive"
       },
       "pve_tooltip": "Throw Glaive ricochets to 1 additional target.",
@@ -689,11 +745,13 @@ window.WOW_PVP_DATA = {
           91006
         ],
         "entry_id": 112927,
+        "entry_max_ranks": 1,
         "definition_id": 117932,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Imprison",
         "spell_id": 217832,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_imprison"
       },
       "pve_tooltip": "20 yd range\nInstant\n45 sec cooldown\nImprisons a demon, beast, or humanoid, incapacitating them for 1 min. Damage may cancel the effect. Limit 1.",
@@ -746,11 +804,13 @@ window.WOW_PVP_DATA = {
           90999
         ],
         "entry_id": 112861,
+        "entry_max_ranks": 1,
         "definition_id": 117866,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Charred Warblades",
         "spell_id": 213010,
+        "visible_spell_id": null,
         "icon": "spell_fire_incinerate"
       },
       "pve_tooltip": "You heal for 3% of all Fire damage you deal.",
@@ -802,11 +862,13 @@ window.WOW_PVP_DATA = {
           90994
         ],
         "entry_id": 112911,
+        "entry_max_ranks": 1,
         "definition_id": 117916,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Chaos Nova",
         "spell_id": 179057,
+        "visible_spell_id": null,
         "icon": "spell_fire_felfirenova"
       },
       "pve_tooltip": "25 Fury\nInstant\n45 sec cooldown\nUnleash an eruption of fel energy, dealing (27.4816% of Attack Power) Chaos damage and stunning all nearby enemies for 3 sec. [Chaos Fragments: Each enemy stunned by Chaos Nova has a 30% chance to generate a Lesser Soul Fragment]",
@@ -915,11 +977,13 @@ window.WOW_PVP_DATA = {
           95150
         ],
         "entry_id": 112849,
+        "entry_max_ranks": 1,
         "definition_id": 117854,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Disrupt",
         "spell_id": 320361,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_consumemagic"
       },
       "pve_tooltip": "Increases the range of Disrupt to 10 yds.",
@@ -973,11 +1037,13 @@ window.WOW_PVP_DATA = {
           90933
         ],
         "entry_id": 112926,
+        "entry_max_ranks": 1,
         "definition_id": 117931,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Consume Magic",
         "spell_id": 278326,
+        "visible_spell_id": null,
         "icon": "spell_misc_zandalari_council_soulswap"
       },
       "pve_tooltip": "30 yd range\nInstant\n10 sec cooldown\nConsume 1 beneficial Magic effect removing it from the target [Swallowed Anger: and granting you 20 Fury].",
@@ -1029,11 +1095,13 @@ window.WOW_PVP_DATA = {
           95151
         ],
         "entry_id": 112917,
+        "entry_max_ranks": 1,
         "definition_id": 117922,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Aldrachi Design",
         "spell_id": 391409,
+        "visible_spell_id": null,
         "icon": "inv_glaive_1h_artifactaldrochi_d_01dual"
       },
       "pve_tooltip": "Increases your chance to parry by 3%.",
@@ -1084,28 +1152,40 @@ window.WOW_PVP_DATA = {
           90940
         ],
         "entry_id": 117767,
+        "entry_max_ranks": 1,
         "definition_id": 122779,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Focused Ire",
         "spell_id": 1266296,
+        "visible_spell_id": null,
         "icon": "ability_bossfellord_felspike"
       },
       "pve_tooltip": "The primary target of Chaos Nova is stunned for an additional 2 sec.",
-      "pvp_tooltip": "The primary target of Chaos Nova is stunned for an additional 2 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pvp_tooltip": "The primary target of Chaos Nova is stunned for an additional 1 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 62,
+          "end": 63,
+          "old_token": "2",
+          "new_token": "1",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "APPLIED",
           "kind": "ordinary_value",
-          "old": 2000.0,
-          "new": 1000.0,
-          "full_tooltip_match_count": 0
+          "old": "2",
+          "new": "1"
         }
       ],
       "has_pvp_mechanics": true,
@@ -1178,24 +1258,47 @@ window.WOW_PVP_DATA = {
           90936
         ],
         "entry_id": 112912,
+        "entry_max_ranks": 1,
         "definition_id": 117917,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Master of the Glaive",
         "spell_id": 389763,
+        "visible_spell_id": null,
         "icon": "inv_glaive_1h_demonhunter_a_01"
       },
       "pve_tooltip": "Throw Glaive has 2 charges and snares all enemies hit by 50% for 6 sec.",
-      "pvp_tooltip": "Throw Glaive has 2 charges and snares all enemies hit by 50% for 6 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Throw Glaive has 2 charges and snares all enemies hit by 30% for 6 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 57,
+          "end": 59,
+          "old_token": "50",
+          "new_token": "30",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "50",
+          "new": "30"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 389763,
           "source_spell_id": 213405,
           "effect_index": 1,
@@ -1212,7 +1315,7 @@ window.WOW_PVP_DATA = {
             213405
           ],
           "dependency_relations": [
-            "triggered_by_reverse"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -1224,7 +1327,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -1266,11 +1369,13 @@ window.WOW_PVP_DATA = {
           90936
         ],
         "entry_id": 117768,
+        "entry_max_ranks": 1,
         "definition_id": 122780,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Champion of the Glaive",
         "spell_id": 429211,
+        "visible_spell_id": null,
         "icon": "inv_glaive_1h_battledungeon_c_01"
       },
       "pve_tooltip": "Throw Glaive has 2 charges and 10 yard increased range.",
@@ -1321,11 +1426,13 @@ window.WOW_PVP_DATA = {
           90936
         ],
         "entry_id": 112848,
+        "entry_max_ranks": 1,
         "definition_id": 117853,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Disrupting Fury",
         "spell_id": 183782,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_consumemagic"
       },
       "pve_tooltip": "Disrupt generates 30 Fury on a successful interrupt.",
@@ -1379,11 +1486,13 @@ window.WOW_PVP_DATA = {
           91004
         ],
         "entry_id": 117759,
+        "entry_max_ranks": 1,
         "definition_id": 122771,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Blazing Path",
         "spell_id": 320416,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_felrush"
       },
       "pve_tooltip": "gains an additional charge.",
@@ -1432,11 +1541,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 112925,
+        "entry_max_ranks": 1,
         "definition_id": 117930,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Swallowed Anger",
         "spell_id": 320313,
+        "visible_spell_id": null,
         "icon": "spell_misc_zandalari_council_soulswap"
       },
       "pve_tooltip": "Consume Magic generates 20 Fury when a beneficial Magic effect is successfully removed from the target.",
@@ -1490,11 +1601,13 @@ window.WOW_PVP_DATA = {
           90947
         ],
         "entry_id": 112844,
+        "entry_max_ranks": 1,
         "definition_id": 117849,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Aura of Pain",
         "spell_id": 207347,
+        "visible_spell_id": null,
         "icon": "spell_fire_felimmolation"
       },
       "pve_tooltip": "Increases the critical strike chance of Immolation Aura by 6%.",
@@ -1545,11 +1658,13 @@ window.WOW_PVP_DATA = {
           90947
         ],
         "entry_id": 117761,
+        "entry_max_ranks": 1,
         "definition_id": 122773,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Live by the Glaive",
         "spell_id": 428607,
+        "visible_spell_id": null,
         "icon": "inv_sword_108"
       },
       "pve_tooltip": "When you parry an attack or have one of your attacks parried, restore 2% of max health and 10 Fury.\nThis effect may only occur once every 5 sec.\n(5s cooldown)",
@@ -1601,11 +1716,13 @@ window.WOW_PVP_DATA = {
           90935
         ],
         "entry_id": 112851,
+        "entry_max_ranks": 1,
         "definition_id": 117856,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Pursuit",
         "spell_id": 320654,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_infernalstrike2"
       },
       "pve_tooltip": "Mastery increases your movement speed.",
@@ -1659,11 +1776,13 @@ window.WOW_PVP_DATA = {
           91003
         ],
         "entry_id": 112847,
+        "entry_max_ranks": 2,
         "definition_id": 117852,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Soul Rending",
         "spell_id": 204909,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_soulcleave2"
       },
       "pve_tooltip": "Leech increased by 10%.\nGain an additional 10% leech while Metamorphosis is active.",
@@ -1776,6 +1895,30 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Leech increased by 5%.\nGain an additional 5% leech while Metamorphosis is active.",
           "pvp_tooltip": "Leech increased by 4.1667%.\nGain an additional 4.1667% leech while Metamorphosis is active.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 19,
+              "end": 20,
+              "old_token": "5",
+              "new_token": "4.1667",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1,
+                2
+              ]
+            },
+            {
+              "start": 42,
+              "end": 43,
+              "old_token": "5",
+              "new_token": "4.1667",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1,
+                2
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -1784,6 +1927,30 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Leech increased by 10%.\nGain an additional 10% leech while Metamorphosis is active.",
           "pvp_tooltip": "Leech increased by 8.3333%.\nGain an additional 8.3333% leech while Metamorphosis is active.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 19,
+              "end": 21,
+              "old_token": "10",
+              "new_token": "8.3333",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1,
+                2
+              ]
+            },
+            {
+              "start": 43,
+              "end": 45,
+              "old_token": "10",
+              "new_token": "8.3333",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1,
+                2
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -1826,11 +1993,13 @@ window.WOW_PVP_DATA = {
           91003
         ],
         "entry_id": 112850,
+        "entry_max_ranks": 1,
         "definition_id": 117855,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Felfire Haste",
         "spell_id": 389846,
+        "visible_spell_id": null,
         "icon": "inv_boots_cloth_35v4"
       },
       "pve_tooltip": "Fel Rush increases your movement speed by 10% for 8 sec.",
@@ -1883,11 +2052,13 @@ window.WOW_PVP_DATA = {
           91000
         ],
         "entry_id": 112924,
+        "entry_max_ranks": 2,
         "definition_id": 117929,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Infernal Armor",
         "spell_id": 320331,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_immolation"
       },
       "pve_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer [(12% of Attack Power)] Fire damage.",
@@ -1965,6 +2136,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Immolation Aura increases your armor by 10% and causes melee attackers to suffer [(6% of Attack Power)] Fire damage.",
           "pvp_tooltip": "Immolation Aura increases your armor by 10% and causes melee attackers to suffer [(6% of Attack Power)] Fire damage.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -1973,6 +2145,18 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer [(12% of Attack Power)] Fire damage.",
           "pvp_tooltip": "Immolation Aura increases your armor by 20% and causes melee attackers to suffer [(11.52% of Attack Power)] Fire damage.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 83,
+              "end": 85,
+              "old_token": "12",
+              "new_token": "11.52",
+              "kind": "attack_power_coefficient",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2015,11 +2199,13 @@ window.WOW_PVP_DATA = {
           91000
         ],
         "entry_id": 112837,
+        "entry_max_ranks": 1,
         "definition_id": 117842,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Burn It Out",
         "spell_id": 1266316,
+        "visible_spell_id": null,
         "icon": "spell_fel_elementaldevastation"
       },
       "pve_tooltip": "Immolation Aura removes 1 Disease effect.",
@@ -2070,11 +2256,13 @@ window.WOW_PVP_DATA = {
           91000
         ],
         "entry_id": 136502,
+        "entry_max_ranks": 1,
         "definition_id": 141275,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Soul Cleanse",
         "spell_id": 1266496,
+        "visible_spell_id": null,
         "icon": "spell_nature_removecurse"
       },
       "pve_tooltip": "Immolation Aura removes 1 Curse effect.",
@@ -2126,11 +2314,13 @@ window.WOW_PVP_DATA = {
           91000
         ],
         "entry_id": 112860,
+        "entry_max_ranks": 1,
         "definition_id": 117865,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lost in Darkness",
         "spell_id": 389849,
+        "visible_spell_id": null,
         "icon": "inv_pet_inquisitoreye"
       },
       "pve_tooltip": "Spectral Sight has 5 sec reduced cooldown and no longer reduces movement speed.",
@@ -2183,11 +2373,13 @@ window.WOW_PVP_DATA = {
           95152
         ],
         "entry_id": 112846,
+        "entry_max_ranks": 2,
         "definition_id": 117851,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Illidari Knowledge",
         "spell_id": 389696,
+        "visible_spell_id": null,
         "icon": "spell_mage_overpowered"
       },
       "pve_tooltip": "Reduces magic damage taken by 6%.",
@@ -2252,6 +2444,18 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Reduces magic damage taken by 3%.",
           "pvp_tooltip": "Reduces magic damage taken by 2%.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 30,
+              "end": 31,
+              "old_token": "3",
+              "new_token": "2",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2260,6 +2464,18 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Reduces magic damage taken by 6%.",
           "pvp_tooltip": "Reduces magic damage taken by 4%.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 30,
+              "end": 31,
+              "old_token": "6",
+              "new_token": "4",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2305,11 +2521,13 @@ window.WOW_PVP_DATA = {
           90929
         ],
         "entry_id": 112923,
+        "entry_max_ranks": 1,
         "definition_id": 117928,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Felbound",
         "spell_id": 1266762,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_doublejump"
       },
       "pve_tooltip": "Your movement speed is increased by 3%.",
@@ -2363,11 +2581,13 @@ window.WOW_PVP_DATA = {
           95149
         ],
         "entry_id": 112918,
+        "entry_max_ranks": 2,
         "definition_id": 117923,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Will of the Illidari",
         "spell_id": 389695,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_spectank"
       },
       "pve_tooltip": "Increases maximum health by 6%.",
@@ -2432,6 +2652,18 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Increases maximum health by 3%.",
           "pvp_tooltip": "Increases maximum health by 1.8%.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 28,
+              "end": 29,
+              "old_token": "3",
+              "new_token": "1.8",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2440,6 +2672,18 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Increases maximum health by 6%.",
           "pvp_tooltip": "Increases maximum health by 3.6%.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 28,
+              "end": 29,
+              "old_token": "6",
+              "new_token": "3.6",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2482,11 +2726,13 @@ window.WOW_PVP_DATA = {
           90996
         ],
         "entry_id": 112845,
+        "entry_max_ranks": 1,
         "definition_id": 117850,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Internal Struggle",
         "spell_id": 393822,
+        "visible_spell_id": null,
         "icon": "ability_warlock_demonicpower"
       },
       "pve_tooltip": "Increases your mastery by (2 * $mas)%.",
@@ -2539,11 +2785,13 @@ window.WOW_PVP_DATA = {
           91002
         ],
         "entry_id": 117762,
+        "entry_max_ranks": 1,
         "definition_id": 122774,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Furious",
         "spell_id": 1266326,
+        "visible_spell_id": null,
         "icon": "ability_warlock_shadowfurytga"
       },
       "pve_tooltip": "Attacks and abilities that generate Fury deal 3% increased damage.",
@@ -2596,11 +2844,13 @@ window.WOW_PVP_DATA = {
           90928
         ],
         "entry_id": 112839,
+        "entry_max_ranks": 1,
         "definition_id": 117844,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Remorseless",
         "spell_id": 1266328,
+        "visible_spell_id": null,
         "icon": "inv_glaive_1h_npc_d_02"
       },
       "pve_tooltip": "Attacks and abilities that spend Fury deal 3% increased damage.",
@@ -2651,11 +2901,13 @@ window.WOW_PVP_DATA = {
           90949
         ],
         "entry_id": 117758,
+        "entry_max_ranks": 1,
         "definition_id": 122770,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "First In, Last Out",
         "spell_id": 1266497,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_demonictrample"
       },
       "pve_tooltip": "Fel Rush grants you a rapidly decaying shield equal to 6% of your maximum health.",
@@ -2706,11 +2958,13 @@ window.WOW_PVP_DATA = {
           110010
         ],
         "entry_id": 112914,
+        "entry_max_ranks": 2,
         "definition_id": 117919,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Erratic Felheart",
         "spell_id": 391397,
+        "visible_spell_id": null,
         "icon": "inv_archaeology_70_crystallineeyeofundravius"
       },
       "pve_tooltip": "The cooldown of Fel Rush is reduced by 2 sec.",
@@ -2728,6 +2982,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "The cooldown of Fel Rush is reduced by 1.0 sec.",
           "pvp_tooltip": "The cooldown of Fel Rush is reduced by 1.0 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2736,6 +2991,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "The cooldown of Fel Rush is reduced by 2 sec.",
           "pvp_tooltip": "The cooldown of Fel Rush is reduced by 2 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2776,11 +3032,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 136501,
+        "entry_max_ranks": 1,
         "definition_id": 141274,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Final Breath",
         "spell_id": 1266500,
+        "visible_spell_id": null,
         "icon": "spell_fire_felflamebreath"
       },
       "pve_tooltip": "Fully channeling Eye Beam increases the damage of its final tick by 300%.",
@@ -2832,11 +3090,13 @@ window.WOW_PVP_DATA = {
           91001
         ],
         "entry_id": 112921,
+        "entry_max_ranks": 1,
         "definition_id": 117926,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Darkness",
         "spell_id": 196718,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_darkness"
       },
       "pve_tooltip": "Instant\n5 min cooldown\nSummons darkness around you in an 8 yd radius, granting friendly targets a 15% chance to avoid all damage from an attack. Lasts 8 sec.\nChance to avoid damage increased by 100% when not in a raid.",
@@ -2937,24 +3197,47 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 112838,
+        "entry_max_ranks": 1,
         "definition_id": 117843,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Demon Muzzle",
         "spell_id": 1266329,
+        "visible_spell_id": null,
         "icon": "spell_warlock_demonicservitude"
       },
       "pve_tooltip": "Interrupting a spell with Disrupt decreases your magic damage taken by 15% for 12 sec.",
-      "pvp_tooltip": "Interrupting a spell with Disrupt decreases your magic damage taken by 15% for 12 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Interrupting a spell with Disrupt decreases your magic damage taken by 5% for 12 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 71,
+          "end": 73,
+          "old_token": "15",
+          "new_token": "5",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "15",
+          "new": "5"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 1266329,
           "source_spell_id": 1266616,
           "effect_index": 1,
@@ -2971,7 +3254,7 @@ window.WOW_PVP_DATA = {
             1266616
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -2983,7 +3266,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -3023,11 +3306,13 @@ window.WOW_PVP_DATA = {
           90997
         ],
         "entry_id": 112862,
+        "entry_max_ranks": 2,
         "definition_id": 117867,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Soul Splitter",
         "spell_id": 1266330,
+        "visible_spell_id": null,
         "icon": "ability_warlock_soulswap"
       },
       "pve_tooltip": "Any time you would generate one or more Soul Fragments, you have a 4% chance to generate an additional Soul Fragment.",
@@ -3045,6 +3330,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Any time you would generate one or more Soul Fragments, you have a 2% chance to generate an additional Soul Fragment.",
           "pvp_tooltip": "Any time you would generate one or more Soul Fragments, you have a 2% chance to generate an additional Soul Fragment.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -3053,6 +3339,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Any time you would generate one or more Soul Fragments, you have a 4% chance to generate an additional Soul Fragment.",
           "pvp_tooltip": "Any time you would generate one or more Soul Fragments, you have a 4% chance to generate an additional Soul Fragment.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -3093,11 +3380,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 136500,
+        "entry_max_ranks": 1,
         "definition_id": 141273,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Wings of Wrath",
         "spell_id": 1266493,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_glide"
       },
       "pve_tooltip": "Glide speed increased by 10%.",
@@ -3146,11 +3435,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 112920,
+        "entry_max_ranks": 1,
         "definition_id": 117925,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Long Night",
         "spell_id": 389781,
+        "visible_spell_id": null,
         "icon": "spell_fire_twilightimmolation"
       },
       "pve_tooltip": "Increases the duration of Darkness by 3 sec.",
@@ -3199,11 +3490,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 112919,
+        "entry_max_ranks": 1,
         "definition_id": 117924,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Pitch Black",
         "spell_id": 389783,
+        "visible_spell_id": null,
         "icon": "sha_spell_warlock_demonsoul"
       },
       "pve_tooltip": "Reduces the cooldown of Darkness by 120 sec.",
@@ -3252,11 +3545,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 117755,
+        "entry_max_ranks": 1,
         "definition_id": 122767,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Demonic Resilience",
         "spell_id": 1266307,
+        "visible_spell_id": null,
         "icon": "inv_summondemonictyrant"
       },
       "pve_tooltip": "Blur gains 1 additional charge.",
@@ -3306,11 +3601,13 @@ window.WOW_PVP_DATA = {
           90923
         ],
         "entry_id": 112939,
+        "entry_max_ranks": 1,
         "definition_id": 117944,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Eye Beam",
         "spell_id": 198013,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_eyebeam"
       },
       "pve_tooltip": "30 Fury\n20 yd range\nChanneled (2 sec cast)\n30 sec cooldown\nBlasts all enemies in front of you, [Looks Can Kill: dealing guaranteed critical strikes] for up to {?a320415[{[(40.26% of Attack Power) * 10 * 2]][{[(40.26% of Attack Power) * 10]] Chaos damage over 2 sec. Deals reduced damage beyond 5 targets. [Furious Gaze: When Eye Beam finishes fully channeling, your Haste is increased by an additional 8% for 8 sec]",
@@ -3442,11 +3739,13 @@ window.WOW_PVP_DATA = {
           90925
         ],
         "entry_id": 112951,
+        "entry_max_ranks": 1,
         "definition_id": 117956,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Critical Chaos",
         "spell_id": 320413,
+        "visible_spell_id": null,
         "icon": "inv_glaive_1h_battledungeon_c_02"
       },
       "pve_tooltip": "The chance that Chaos Strike will refund 20 Fury is increased by 30% of your critical strike chance.",
@@ -3501,7 +3800,7 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [
             "tooltip_value_ref",
             "spelldesc_ref",
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -3545,7 +3844,7 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [
             "tooltip_value_ref",
             "spelldesc_ref",
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -3609,11 +3908,13 @@ window.WOW_PVP_DATA = {
           91017
         ],
         "entry_id": 112832,
+        "entry_max_ranks": 1,
         "definition_id": 117837,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Burning Hatred",
         "spell_id": 320374,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_immolation"
       },
       "pve_tooltip": "Immolation Aura generates an additional 18 Fury over 6 sec.",
@@ -3772,11 +4073,13 @@ window.WOW_PVP_DATA = {
           93016
         ],
         "entry_id": 115245,
+        "entry_max_ranks": 1,
         "definition_id": 120257,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Never Say Die",
         "spell_id": 427794,
+        "visible_spell_id": null,
         "icon": "inv_misc_food_legion_goosaporange_drop"
       },
       "pve_tooltip": "Damage is increased by 3% while above 50% Health.\nLeech is increased by 5% while below 50% Health.",
@@ -3827,11 +4130,13 @@ window.WOW_PVP_DATA = {
           93016
         ],
         "entry_id": 112953,
+        "entry_max_ranks": 1,
         "definition_id": 117958,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Chaos Strike",
         "spell_id": 343206,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_chaosstrike"
       },
       "pve_tooltip": "Chaos Strike damage increased by 10%.",
@@ -3884,11 +4189,13 @@ window.WOW_PVP_DATA = {
           93015
         ],
         "entry_id": 112834,
+        "entry_max_ranks": 1,
         "definition_id": 117839,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "First Blood",
         "spell_id": 206416,
+        "visible_spell_id": null,
         "icon": "ability_deathwing_bloodcorruption_death"
       },
       "pve_tooltip": "Blade Dance deals [(3 * (24.75% of Attack Power)% + (74.2% of Attack Power)%) * 195 / 100 * 1] Chaos damage to the first target struck.",
@@ -3939,11 +4246,13 @@ window.WOW_PVP_DATA = {
           93015
         ],
         "entry_id": 112932,
+        "entry_max_ranks": 1,
         "definition_id": 117937,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Accelerated Blade",
         "spell_id": 391275,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_throwglaive"
       },
       "pve_tooltip": "Throw Glaive deals 60% increased damage, reduced by 30% for each previous enemy hit.",
@@ -3994,11 +4303,13 @@ window.WOW_PVP_DATA = {
           93015
         ],
         "entry_id": 112938,
+        "entry_max_ranks": 1,
         "definition_id": 117943,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Demon Hide",
         "spell_id": 428241,
+        "visible_spell_id": null,
         "icon": "misc_legionfall_demonhunter"
       },
       "pve_tooltip": "Magical damage increased by 3%, and Physical damage taken reduced by 5%.",
@@ -4100,11 +4411,13 @@ window.WOW_PVP_DATA = {
           90922
         ],
         "entry_id": 115248,
+        "entry_max_ranks": 1,
         "definition_id": 120260,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Desperate Instincts",
         "spell_id": 205411,
+        "visible_spell_id": null,
         "icon": "spell_shadow_manafeed"
       },
       "pve_tooltip": "Blur now reduces damage taken by an additional 10%.\nAdditionally, damage taken below 35% Health is reduced by 10%.",
@@ -4206,11 +4519,13 @@ window.WOW_PVP_DATA = {
           90915
         ],
         "entry_id": 115246,
+        "entry_max_ranks": 1,
         "definition_id": 120258,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Deflecting Dance",
         "spell_id": 427776,
+        "visible_spell_id": null,
         "icon": "ability_ironmaidens_bladerush"
       },
       "pve_tooltip": "You deflect incoming attacks while Blade Dancing, absorbing damage up to 15% of your maximum health.",
@@ -4265,24 +4580,47 @@ window.WOW_PVP_DATA = {
           90915
         ],
         "entry_id": 117743,
+        "entry_max_ranks": 1,
         "definition_id": 122755,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Mortal Dance",
         "spell_id": 328725,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_vengefulretreat"
       },
       "pve_tooltip": "Blade Dance now reduces targets' healing received by 50% for 6 sec.",
-      "pvp_tooltip": "Blade Dance now reduces targets' healing received by 50% for 6 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Blade Dance now reduces targets' healing received by 25% for 6 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 53,
+          "end": 55,
+          "old_token": "50",
+          "new_token": "25",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "50",
+          "new": "25"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 328725,
           "source_spell_id": 356608,
           "effect_index": 1,
@@ -4299,7 +4637,7 @@ window.WOW_PVP_DATA = {
             356608
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -4312,7 +4650,7 @@ window.WOW_PVP_DATA = {
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 328725,
           "source_spell_id": 115804,
           "effect_index": 1,
@@ -4330,7 +4668,7 @@ window.WOW_PVP_DATA = {
             115804
           ],
           "dependency_relations": [
-            "trigger_spell",
+            "tooltip_value_ref",
             "tooltip_value_ref"
           ],
           "aura_rules": [],
@@ -4342,7 +4680,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -4383,11 +4721,13 @@ window.WOW_PVP_DATA = {
           91026
         ],
         "entry_id": 112950,
+        "entry_max_ranks": 1,
         "definition_id": 117955,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Initiative",
         "spell_id": 388108,
+        "visible_spell_id": null,
         "icon": "ability_rogue_surpriseattack"
       },
       "pve_tooltip": "Damaging an enemy before they damage you increases your critical strike chance by 10% for 5 sec.\nVengeful Retreat refreshes your potential to trigger this effect on any enemies you are in combat with.",
@@ -4438,11 +4778,13 @@ window.WOW_PVP_DATA = {
           91026
         ],
         "entry_id": 112823,
+        "entry_max_ranks": 1,
         "definition_id": 117828,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Scars of Suffering",
         "spell_id": 428232,
+        "visible_spell_id": null,
         "icon": "spell_fire_felimmolation"
       },
       "pve_tooltip": "Increases Versatility by 4% and reduces threat generated by 8%.",
@@ -4543,11 +4885,13 @@ window.WOW_PVP_DATA = {
           91015
         ],
         "entry_id": 112831,
+        "entry_max_ranks": 1,
         "definition_id": 117836,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Demonic",
         "spell_id": 213410,
+        "visible_spell_id": null,
         "icon": "spell_shadow_demonform"
       },
       "pve_tooltip": "Eye Beam causes you to enter demon form for 5 sec after it finishes dealing damage.",
@@ -4598,11 +4942,13 @@ window.WOW_PVP_DATA = {
           91015
         ],
         "entry_id": 115244,
+        "entry_max_ranks": 1,
         "definition_id": 120256,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Furious Throws",
         "spell_id": 393029,
+        "visible_spell_id": null,
         "icon": "inv_glaive_1h_npc_d_01"
       },
       "pve_tooltip": "Throw Glaive now costs 25 Fury and throws a second glaive at the target.",
@@ -4654,24 +5000,47 @@ window.WOW_PVP_DATA = {
           90916
         ],
         "entry_id": 112824,
+        "entry_max_ranks": 1,
         "definition_id": 117829,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Trail of Ruin",
         "spell_id": 258881,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_bladedance"
       },
       "pve_tooltip": "The final slash of Blade Dance inflicts an additional (72% of Attack Power) Chaos damage.",
-      "pvp_tooltip": "The final slash of Blade Dance inflicts an additional (72% of Attack Power) Chaos damage.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "The final slash of Blade Dance inflicts an additional (69.12% of Attack Power) Chaos damage.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 55,
+          "end": 57,
+          "old_token": "72",
+          "new_token": "69.12",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "72",
+          "new": "69.12"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 258881,
           "source_spell_id": 258883,
           "effect_index": 1,
@@ -4688,7 +5057,7 @@ window.WOW_PVP_DATA = {
             258883
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -4708,7 +5077,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -4749,11 +5118,13 @@ window.WOW_PVP_DATA = {
           91036
         ],
         "entry_id": 112944,
+        "entry_max_ranks": 1,
         "definition_id": 117949,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Tactical Retreat",
         "spell_id": 389688,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_vengefulretreat2"
       },
       "pve_tooltip": "Vengeful Retreat has a 5 sec reduced cooldown and generates 80 Fury over 10 sec.",
@@ -4807,11 +5178,13 @@ window.WOW_PVP_DATA = {
           90921
         ],
         "entry_id": 112949,
+        "entry_max_ranks": 2,
         "definition_id": 117954,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Blind Fury",
         "spell_id": 203550,
+        "visible_spell_id": null,
         "icon": "ability_bosskilrogg_deadeye"
       },
       "pve_tooltip": "Eye Beam generates 20 Fury every second, has 20% increased duration, and deals 20% increased damage.",
@@ -4829,6 +5202,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Eye Beam generates 10 Fury every second, has 10% increased duration, and deals 10% increased damage.",
           "pvp_tooltip": "Eye Beam generates 10 Fury every second, has 10% increased duration, and deals 10% increased damage.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -4837,6 +5211,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Eye Beam generates 20 Fury every second, has 20% increased duration, and deals 20% increased damage.",
           "pvp_tooltip": "Eye Beam generates 20 Fury every second, has 20% increased duration, and deals 20% increased damage.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -4879,11 +5254,13 @@ window.WOW_PVP_DATA = {
           90921
         ],
         "entry_id": 112948,
+        "entry_max_ranks": 1,
         "definition_id": 117953,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Furious Gaze",
         "spell_id": 343311,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_eyebeam"
       },
       "pve_tooltip": "When Eye Beam finishes fully channeling, your Haste is increased by an additional 8% for 8 sec.",
@@ -4937,11 +5314,13 @@ window.WOW_PVP_DATA = {
           91013
         ],
         "entry_id": 112936,
+        "entry_max_ranks": 2,
         "definition_id": 117941,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Dancing with Fate",
         "spell_id": 389978,
+        "visible_spell_id": null,
         "icon": "inv_polearm_1h_felfireraid_d_02"
       },
       "pve_tooltip": "The final slash of Blade Dance deals an additional 50% damage.",
@@ -4959,6 +5338,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "The final slash of Blade Dance deals an additional 25% damage.",
           "pvp_tooltip": "The final slash of Blade Dance deals an additional 25% damage.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -4967,6 +5347,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "The final slash of Blade Dance deals an additional 50% damage.",
           "pvp_tooltip": "The final slash of Blade Dance deals an additional 50% damage.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -5010,11 +5391,13 @@ window.WOW_PVP_DATA = {
           90917
         ],
         "entry_id": 112825,
+        "entry_max_ranks": 1,
         "definition_id": 117830,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Growing Inferno",
         "spell_id": 390158,
+        "visible_spell_id": null,
         "icon": "spell_fel_incinerate"
       },
       "pve_tooltip": "Immolation Aura's damage increases by 10% each time it deals damage.",
@@ -5066,11 +5449,13 @@ window.WOW_PVP_DATA = {
           91035
         ],
         "entry_id": 112943,
+        "entry_max_ranks": 1,
         "definition_id": 117948,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Exergy",
         "spell_id": 206476,
+        "visible_spell_id": null,
         "icon": "ability_foundryraid_demolition"
       },
       "pve_tooltip": "The Hunt and Vengeful Retreat increase your damage by 5% for 20 sec.\n(400ms cooldown)",
@@ -5122,11 +5507,13 @@ window.WOW_PVP_DATA = {
           91035
         ],
         "entry_id": 117744,
+        "entry_max_ranks": 1,
         "definition_id": 122756,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Inertia",
         "spell_id": 427640,
+        "visible_spell_id": null,
         "icon": "inv_10_inscription3_pigments_black"
       },
       "pve_tooltip": "The Hunt and Vengeful Retreat cause your next Fel Rush or Felblade to empower you, increasing damage by 12% for 5 sec.\n(400ms cooldown)",
@@ -5290,28 +5677,40 @@ window.WOW_PVP_DATA = {
           91035
         ],
         "entry_id": 112959,
+        "entry_max_ranks": 1,
         "definition_id": 117964,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Isolated Prey",
         "spell_id": 388113,
+        "visible_spell_id": null,
         "icon": "spell_shadow_shadesofdarkness"
       },
       "pve_tooltip": "Chaos Nova, Eye Beam, and Immolation Aura gain bonuses when striking 1 target.\nChaos Nova:\nStun duration increased by 2 sec.\nEye Beam:\nDeals 30% increased damage.\nImmolation Aura:\nAlways critically strikes.",
-      "pvp_tooltip": "Chaos Nova, Eye Beam, and Immolation Aura gain bonuses when striking 1 target.\nChaos Nova:\nStun duration increased by 2 sec.\nEye Beam:\nDeals 30% increased damage.\nImmolation Aura:\nAlways critically strikes.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pvp_tooltip": "Chaos Nova, Eye Beam, and Immolation Aura gain bonuses when striking 1 target.\nChaos Nova:\nStun duration increased by 1 sec.\nEye Beam:\nDeals 30% increased damage.\nImmolation Aura:\nAlways critically strikes.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 118,
+          "end": 119,
+          "old_token": "2",
+          "new_token": "1",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "APPLIED",
           "kind": "ordinary_value",
-          "old": 2000.0,
-          "new": 1000.0,
-          "full_tooltip_match_count": 0
+          "old": "2",
+          "new": "1"
         }
       ],
       "has_pvp_mechanics": true,
@@ -5386,24 +5785,57 @@ window.WOW_PVP_DATA = {
           91012
         ],
         "entry_id": 112830,
+        "entry_max_ranks": 1,
         "definition_id": 117835,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "The Hunt",
         "spell_id": 370965,
+        "visible_spell_id": null,
         "icon": "inv_ability_demonhunter_thehunt"
       },
       "pve_tooltip": "50 yd range\n1 sec cast\n1.5 min cooldown\nCharge to your target, striking them for (744.24% of Attack Power) Chaos damage, rooting them in place for 1.5 sec and inflicting (480.6% of Attack Power) Chaos damage over 6 sec to up to 5 enemies in your path.",
-      "pvp_tooltip": "50 yd range\n1 sec cast\n1.5 min cooldown\nCharge to your target, striking them for (744.24% of Attack Power) Chaos damage, rooting them in place for 1.5 sec and inflicting (480.6% of Attack Power) Chaos damage over 6 sec to up to 5 enemies in your path.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "50 yd range\n1 sec cast\n1.5 min cooldown\nCharge to your target, striking them for (607.2998% of Attack Power) Chaos damage, rooting them in place for 1.5 sec and inflicting (480.6% of Attack Power) Chaos damage over 6 sec to up to 5 enemies in your path.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 82,
+          "end": 88,
+          "old_token": "744.24",
+          "new_token": "607.2998",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
+          "kind": "spell_power_coefficient",
+          "old": 600.0,
+          "new": 510.0,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "744.24",
+          "new": "607.2998"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 370965,
           "source_spell_id": 370966,
           "effect_index": 1,
@@ -5420,7 +5852,7 @@ window.WOW_PVP_DATA = {
             370966
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -5481,7 +5913,7 @@ window.WOW_PVP_DATA = {
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 370965,
           "source_spell_id": 1246169,
           "effect_index": 1,
@@ -5500,9 +5932,9 @@ window.WOW_PVP_DATA = {
             1246169
           ],
           "dependency_relations": [
+            "tooltip_value_ref",
             "trigger_spell",
-            "trigger_spell",
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -5514,7 +5946,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 2,
       "rank_tooltips": []
     },
     {
@@ -5555,11 +5987,13 @@ window.WOW_PVP_DATA = {
           91012
         ],
         "entry_id": 112934,
+        "entry_max_ranks": 1,
         "definition_id": 117939,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Serrated Glaive",
         "spell_id": 390154,
+        "visible_spell_id": null,
         "icon": "inv_glaive_1h_artifactaldrochi_d_03dual"
       },
       "pve_tooltip": "Striking an enemy with Chaos Strike or Throw Glaive increases Chaos Strike and Throw Glaive damage by 15% for 12 sec.",
@@ -5611,11 +6045,13 @@ window.WOW_PVP_DATA = {
           90918
         ],
         "entry_id": 112826,
+        "entry_max_ranks": 1,
         "definition_id": 117831,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Burning Wound",
         "spell_id": 391189,
+        "visible_spell_id": null,
         "icon": "spell_fire_felhellfire"
       },
       "pve_tooltip": "[Demon Blades / Demon's Bite] and Throw Glaive leave open wounds on your enemies, dealing (73.45% of Attack Power) Chaos damage over 15 sec and increasing damage taken from your Immolation Aura by 35%.\nMay be applied to up to 3 targets.",
@@ -5628,7 +6064,7 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 391189,
           "source_spell_id": 391191,
           "effect_index": 1,
@@ -5645,7 +6081,7 @@ window.WOW_PVP_DATA = {
             391191
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -5705,11 +6141,13 @@ window.WOW_PVP_DATA = {
           91034
         ],
         "entry_id": 112942,
+        "entry_max_ranks": 1,
         "definition_id": 117947,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unbound Chaos",
         "spell_id": 347461,
+        "visible_spell_id": null,
         "icon": "artifactability_vengeancedemonhunter_painbringer"
       },
       "pve_tooltip": "The Hunt and Vengeful Retreat increase the damage of your next Fel Rush or Felblade by 300%. Lasts 12 sec.",
@@ -5762,11 +6200,13 @@ window.WOW_PVP_DATA = {
           91034
         ],
         "entry_id": 112958,
+        "entry_max_ranks": 1,
         "definition_id": 117963,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Chaos Theory",
         "spell_id": 389687,
+        "visible_spell_id": null,
         "icon": "inv_glaive_1h_artifactaldrochi_d_03dual"
       },
       "pve_tooltip": "Blade Dance causes your next Chaos Strike within 8 sec to have a 14-30% increased critical strike chance and will always refund Fury.",
@@ -5823,7 +6263,7 @@ window.WOW_PVP_DATA = {
             "tooltip_value_ref",
             "tooltip_value_ref",
             "spelldesc_ref",
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -5869,7 +6309,7 @@ window.WOW_PVP_DATA = {
             "tooltip_value_ref",
             "tooltip_value_ref",
             "spelldesc_ref",
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -5933,11 +6373,13 @@ window.WOW_PVP_DATA = {
           91034
         ],
         "entry_id": 137827,
+        "entry_max_ranks": 1,
         "definition_id": 142581,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Inner Demon",
         "spell_id": 389693,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_glide"
       },
       "pve_tooltip": "Entering demon form causes your next Chaos Strike to unleash your inner demon, causing it to crash into your target and deal (213% of Attack Power) Chaos damage to all nearby enemies. Deals reduced damage beyond 5 targets.\n(5s cooldown)",
@@ -6050,11 +6492,13 @@ window.WOW_PVP_DATA = {
           95147
         ],
         "entry_id": 112947,
+        "entry_max_ranks": 1,
         "definition_id": 117952,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Chaotic Transformation",
         "spell_id": 388112,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_glide"
       },
       "pve_tooltip": "When you activate Metamorphosis, the cooldowns of Blade Dance and Eye Beam are immediately reset.",
@@ -6107,11 +6551,13 @@ window.WOW_PVP_DATA = {
           95147
         ],
         "entry_id": 112933,
+        "entry_max_ranks": 1,
         "definition_id": 117938,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Relentless Onslaught",
         "spell_id": 389977,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_soulcleave2"
       },
       "pve_tooltip": "Chaos Strike has a 10% chance to trigger a second Chaos Strike.\n(1s cooldown)",
@@ -6164,11 +6610,13 @@ window.WOW_PVP_DATA = {
           95147
         ],
         "entry_id": 117764,
+        "entry_max_ranks": 1,
         "definition_id": 122776,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Soulscar",
         "spell_id": 388106,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_bloodlet"
       },
       "pve_tooltip": "Throw Glaive causes targets to take an additional 80% of damage dealt as Chaos over 6 sec.",
@@ -6219,11 +6667,13 @@ window.WOW_PVP_DATA = {
           95147
         ],
         "entry_id": 112827,
+        "entry_max_ranks": 1,
         "definition_id": 117832,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ragefire",
         "spell_id": 388107,
+        "visible_spell_id": null,
         "icon": "spell_fire_fireballgreen"
       },
       "pve_tooltip": "Each time Immolation Aura deals damage, 35% of the damage dealt by up to 3 critical strikes is gathered as Ragefire.\nWhen Immolation Aura expires you explode, dealing all stored Ragefire damage to nearby enemies.",
@@ -6277,11 +6727,13 @@ window.WOW_PVP_DATA = {
           108669
         ],
         "entry_id": 112957,
+        "entry_max_ranks": 2,
         "definition_id": 117962,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Know Your Enemy",
         "spell_id": 388118,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_eyeofleotheras"
       },
       "pve_tooltip": "Gain critical strike damage equal to 80% of your critical strike chance.",
@@ -6299,6 +6751,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Gain critical strike damage equal to 40% of your critical strike chance.",
           "pvp_tooltip": "Gain critical strike damage equal to 40% of your critical strike chance.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -6307,6 +6760,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Gain critical strike damage equal to 80% of your critical strike chance.",
           "pvp_tooltip": "Gain critical strike damage equal to 80% of your critical strike chance.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6351,11 +6805,13 @@ window.WOW_PVP_DATA = {
           90919
         ],
         "entry_id": 112955,
+        "entry_max_ranks": 1,
         "definition_id": 117960,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Cycle of Hatred",
         "spell_id": 258887,
+        "visible_spell_id": null,
         "icon": "ability_ironmaidens_whirlofblood"
       },
       "pve_tooltip": "Activating Eye Beam reduces the cooldown of your next Eye Beam by 2.5 sec, stacking up to 10 sec.",
@@ -6409,18 +6865,30 @@ window.WOW_PVP_DATA = {
           95143
         ],
         "entry_id": 117754,
+        "entry_max_ranks": 2,
         "definition_id": 122766,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Chaotic Disposition",
         "spell_id": 428492,
+        "visible_spell_id": null,
         "icon": "inv_inscription_tarotchaos"
       },
       "pve_tooltip": "Your Chaos damage has a 7.77% chance to be increased by 17%, occurring up to 7 total times.",
-      "pvp_tooltip": "Your Chaos damage has a 7.77% chance to be increased by 4%, occurring up to 7 total times.",
+      "pvp_tooltip": "Your Chaos damage has a 33.33% chance to be increased by 4%, occurring up to 7 total times.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
+        {
+          "start": 24,
+          "end": 28,
+          "old_token": "7.77",
+          "new_token": "33.33",
+          "kind": "percent_value",
+          "effect_indexes": [
+            2
+          ]
+        },
         {
           "start": 56,
           "end": 58,
@@ -6437,11 +6905,10 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
-          "old": 777.0,
-          "new": 3333.0192,
-          "full_tooltip_match_count": 0
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "7.77",
+          "new": "33.33"
         },
         {
           "effect_indexes": [
@@ -6511,16 +6978,60 @@ window.WOW_PVP_DATA = {
         {
           "rank": 1,
           "pve_tooltip": "Your Chaos damage has a 7.77% chance to be increased by 17%, occurring up to 3 total times.",
-          "pvp_tooltip": "Your Chaos damage has a 7.77% chance to be increased by 4%, occurring up to 3 total times.",
+          "pvp_tooltip": "Your Chaos damage has a 33.33% chance to be increased by 4%, occurring up to 3 total times.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 24,
+              "end": 28,
+              "old_token": "7.77",
+              "new_token": "33.33",
+              "kind": "percent_value",
+              "effect_indexes": [
+                2
+              ]
+            },
+            {
+              "start": 56,
+              "end": 58,
+              "old_token": "17",
+              "new_token": "4",
+              "kind": "percent_value",
+              "effect_indexes": [
+                3
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
         {
           "rank": 2,
           "pve_tooltip": "Your Chaos damage has a 7.77% chance to be increased by 17%, occurring up to 7 total times.",
-          "pvp_tooltip": "Your Chaos damage has a 7.77% chance to be increased by 4%, occurring up to 7 total times.",
+          "pvp_tooltip": "Your Chaos damage has a 33.33% chance to be increased by 4%, occurring up to 7 total times.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 24,
+              "end": 28,
+              "old_token": "7.77",
+              "new_token": "33.33",
+              "kind": "percent_value",
+              "effect_indexes": [
+                2
+              ]
+            },
+            {
+              "start": 56,
+              "end": 58,
+              "old_token": "17",
+              "new_token": "4",
+              "kind": "percent_value",
+              "effect_indexes": [
+                3
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6561,11 +7072,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 112956,
+        "entry_max_ranks": 1,
         "definition_id": 117961,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Essence Break",
         "spell_id": 258860,
+        "visible_spell_id": null,
         "icon": "spell_shadow_ritualofsacrifice"
       },
       "pve_tooltip": "10 yd range\nInstant\n40 sec cooldown\nSlash all enemies in front of you for (462% of Attack Power) Chaos damage, causing Chaos Strike and Blade Dance to deal (257.4% of Attack Power) Chaos damage to them for 4 sec. Deals reduced damage beyond 8 targets.",
@@ -6727,11 +7240,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 134203,
+        "entry_max_ranks": 1,
         "definition_id": 138983,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Glaive Tempest",
         "spell_id": 1244557,
+        "visible_spell_id": null,
         "icon": "inv_glaive_1h_artifactazgalor_d_06dual"
       },
       "pve_tooltip": "The final slash of Blade Dance consumes 25 Fury when it strikes 3 or more enemies, launching two demonic glaives in a whirlwind of energy, causing [14 * (13.2% of Attack Power)] Chaos damage over 3 sec to all nearby enemies. Deals reduced damage beyond 8 targets.",
@@ -6840,11 +7355,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 112954,
+        "entry_max_ranks": 1,
         "definition_id": 117959,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shattered Destiny",
         "spell_id": 388116,
+        "visible_spell_id": null,
         "icon": "achievement_boss_triumvirate_darknaaru"
       },
       "pve_tooltip": "The duration of your active demon form is extended by 0.1 sec per 12 Fury spent.",
@@ -6893,11 +7410,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 134227,
+        "entry_max_ranks": 1,
         "definition_id": 139005,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Collective Anguish",
         "spell_id": 390152,
+        "visible_spell_id": null,
         "icon": "artifactability_havocdemonhunter_anguishofthedeceiver"
       },
       "pve_tooltip": "Eye Beam summons an allied Vengeance Demon Hunter who casts Fel Devastation, dealing [(26.2% of Attack Power) * 10] Fire damage over 2 sec. Dealing damage heals you for up to [(562.5% of Attack Power) * 0.384615] health.",
@@ -7050,7 +7569,7 @@ window.WOW_PVP_DATA = {
           "dependency_relations": [
             "tooltip_value_ref",
             "spelldesc_ref",
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -7109,11 +7628,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 112828,
+        "entry_max_ranks": 1,
         "definition_id": 117833,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Screaming Brutality",
         "spell_id": 1220506,
+        "visible_spell_id": null,
         "icon": "inv_misc_magtheridonshead"
       },
       "pve_tooltip": "Blade Dance automatically triggers Throw Glaive on your primary target for 100% damage and each slash has a 50% chance to Throw Glaive an enemy for 35% damage.",
@@ -7162,11 +7683,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 117741,
+        "entry_max_ranks": 1,
         "definition_id": 122753,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "A Fire Inside",
         "spell_id": 427775,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_chaoticimprint_fire"
       },
       "pve_tooltip": "Immolation Aura has 1 additional charge, has 6 sec reduced cooldown, and deals Chaos damage instead of Fire.\nYou can have multiple Immolation Auras active at a time.",
@@ -7213,11 +7736,13 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 137049,
+        "entry_max_ranks": 1,
         "definition_id": 141812,
         "entry_index": 100,
         "entry_type": "tierrank",
         "talent_name": "Eternal Hunt",
         "spell_id": 1270898,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_demonhunter_eternalhunt"
       },
       "pve_tooltip": "The Hunt empowers your next Eye Beam, increasing damage by 100% and affecting enemies in a wider area.",
@@ -7264,15 +7789,17 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 137048,
+        "entry_max_ranks": 2,
         "definition_id": 141811,
         "entry_index": 200,
         "entry_type": "tierrank",
         "talent_name": "Eternal Hunt",
         "spell_id": 1270900,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_demonhunter_eternalhunt"
       },
-      "pve_tooltip": "The Hunt has 15 sec reduced cooldown, deals 15% more damage, and its damage over time effect applies to 2 additional enemies.",
-      "pvp_tooltip": "The Hunt has 15 sec reduced cooldown, deals 15% more damage, and its damage over time effect applies to 2 additional enemies.",
+      "pve_tooltip": "The Hunt has 30 sec reduced cooldown, deals 30% more damage, and its damage over time effect applies to 4 additional enemies.",
+      "pvp_tooltip": "The Hunt has 30 sec reduced cooldown, deals 30% more damage, and its damage over time effect applies to 4 additional enemies.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -7280,7 +7807,26 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "The Hunt has 15 sec reduced cooldown, deals 15% more damage, and its damage over time effect applies to 2 additional enemies.",
+          "pvp_tooltip": "The Hunt has 15 sec reduced cooldown, deals 15% more damage, and its damage over time effect applies to 2 additional enemies.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "The Hunt has 30 sec reduced cooldown, deals 30% more damage, and its damage over time effect applies to 4 additional enemies.",
+          "pvp_tooltip": "The Hunt has 30 sec reduced cooldown, deals 30% more damage, and its damage over time effect applies to 4 additional enemies.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Eternal Hunt",
@@ -7315,11 +7861,13 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 137047,
+        "entry_max_ranks": 1,
         "definition_id": 141810,
         "entry_index": 300,
         "entry_type": "tierrank",
         "talent_name": "Eternal Hunt",
         "spell_id": 1270901,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_demonhunter_eternalhunt"
       },
       "pve_tooltip": "Blade Dance damage increased by 20%.\nFully channeling Eye Beam causes your next Blade Dance to refresh its own cooldown.",
@@ -7371,11 +7919,13 @@ window.WOW_PVP_DATA = {
           109771
         ],
         "entry_id": 117512,
+        "entry_max_ranks": 1,
         "definition_id": 122524,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Art of the Glaive",
         "spell_id": 442290,
+        "visible_spell_id": null,
         "icon": "inv_ability_aldrachireaverdemonhunter_reaversglaive"
       },
       "pve_tooltip": "Consuming 6 Soul Fragments or casting The Hunt converts your next Throw Glaive into Reaver's Glaive.\nReaver's Glaive:\nThrow a glaive enhanced with the essence of consumed souls at your target, dealing (385% of Attack Power) Physical damage and ricocheting to 2 additional enemies.\nBegins a well-practiced pattern of glaivework, enhancing your next Chaos Strike and Blade Dance.\nThe enhanced ability you cast first deals 10% increased damage, and the second deals 20% increased damage.",
@@ -7474,40 +8024,21 @@ window.WOW_PVP_DATA = {
           94914
         ],
         "entry_id": 117495,
+        "entry_max_ranks": 1,
         "definition_id": 122519,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fury of the Aldrachi",
         "spell_id": 442718,
+        "visible_spell_id": null,
         "icon": "spell_fire_felflamestrike"
       },
       "pve_tooltip": "When enhanced by Reaver's Glaive, Blade Dance casts 3 additional glaive slashes to nearby targets. Deals reduced damage beyond 8 targets.\nIf cast after Chaos Strike, cast 6 slashes instead.",
-      "pvp_tooltip": "When enhanced by Reaver's Glaive, Blade Dance casts 3 additional glaive slashes to nearby targets. Deals reduced damage beyond 8 targets.\nIf cast after Chaos Strike, cast 3 slashes instead.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 171,
-          "end": 172,
-          "old_token": "6",
-          "new_token": "3",
-          "kind": "ordinary_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "ordinary_value",
-          "old": "6",
-          "new": "3"
-        }
-      ],
+      "pvp_tooltip": "When enhanced by Reaver's Glaive, Blade Dance casts 3 additional glaive slashes to nearby targets. Deals reduced damage beyond 8 targets.\nIf cast after Chaos Strike, cast 6 slashes instead.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -7561,66 +8092,6 @@ window.WOW_PVP_DATA = {
           "effect_origin": "DEPENDENCY",
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 442718,
-          "source_spell_id": 1236360,
-          "effect_index": 1,
-          "effect_text": "Apply Aura: Dummy",
-          "base_value": 6.0,
-          "spell_pvp_multiplier": 0.5,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.5,
-          "final_pvp_value": 3.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            442718,
-            1236360
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 442718,
-          "source_spell_id": 1236360,
-          "effect_index": 4,
-          "effect_text": "Apply Aura: Dummy",
-          "base_value": 100.0,
-          "spell_pvp_multiplier": 0.33,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.33,
-          "final_pvp_value": 33.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            442718,
-            1236360
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 442718,
           "source_spell_id": 442294,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 3.85 )",
@@ -7669,7 +8140,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1,
+      "render_effect_count": 0,
       "rank_tooltips": []
     },
     {
@@ -7709,11 +8180,13 @@ window.WOW_PVP_DATA = {
           94896
         ],
         "entry_id": 117508,
+        "entry_max_ranks": 1,
         "definition_id": 122520,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Evasive Action",
         "spell_id": 444926,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_vengefulretreat"
       },
       "pve_tooltip": "Vengeful Retreat can be cast a second time within 3 sec.\n(3s cooldown)",
@@ -7764,11 +8237,13 @@ window.WOW_PVP_DATA = {
           94896
         ],
         "entry_id": 123047,
+        "entry_max_ranks": 1,
         "definition_id": 127928,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Unhindered Assault",
         "spell_id": 444931,
+        "visible_spell_id": null,
         "icon": "ability_ironmaidens_bladerush"
       },
       "pve_tooltip": "Vengeful Retreat resets the cooldown of Felblade.",
@@ -7819,11 +8294,13 @@ window.WOW_PVP_DATA = {
           94897
         ],
         "entry_id": 117500,
+        "entry_max_ranks": 1,
         "definition_id": 122512,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Reaver's Mark",
         "spell_id": 442679,
+        "visible_spell_id": null,
         "icon": "ability_hunter_harass"
       },
       "pve_tooltip": "When enhanced by Reaver's Glaive, Chaos Strike applies Reaver's Mark, which causes the target to take 7% increased damage for 20 sec. Max 2 stacks.\nApplies 1 additional stack of Reaver's Mark If cast after Blade Dance.",
@@ -7874,11 +8351,13 @@ window.WOW_PVP_DATA = {
           109770
         ],
         "entry_id": 136029,
+        "entry_max_ranks": 1,
         "definition_id": 140784,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Broken Spirit",
         "spell_id": 1272143,
+        "visible_spell_id": null,
         "icon": "ability_argus_soulbombdebufflarge"
       },
       "pve_tooltip": "The Hunt shatters 1 Soul Fragment. Blade Dance and Chaos Strike have a 15% chance to shatter a Soul Fragment.\n(100ms cooldown)",
@@ -7929,11 +8408,13 @@ window.WOW_PVP_DATA = {
           94895
         ],
         "entry_id": 117511,
+        "entry_max_ranks": 1,
         "definition_id": 122523,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Aldrachi Tactics",
         "spell_id": 442683,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_soulcleave2"
       },
       "pve_tooltip": "The second enhanced ability in a pattern shatters an additional Soul Fragment.",
@@ -7984,11 +8465,13 @@ window.WOW_PVP_DATA = {
           94910
         ],
         "entry_id": 117493,
+        "entry_max_ranks": 1,
         "definition_id": 122505,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Army Unto Oneself",
         "spell_id": 442714,
+        "visible_spell_id": null,
         "icon": "ability_warlock_avoidance"
       },
       "pve_tooltip": "Felblade surrounds you with a Blade Ward, reducing damage taken by 10% for 5 sec.",
@@ -8039,11 +8522,13 @@ window.WOW_PVP_DATA = {
           94910
         ],
         "entry_id": 123046,
+        "entry_max_ranks": 1,
         "definition_id": 127927,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Incorruptible Spirit",
         "spell_id": 442736,
+        "visible_spell_id": null,
         "icon": "spell_nzinsanity_chasedbyshadows"
       },
       "pve_tooltip": "Each Soul Fragment you consume shields you for an additional 15% of the amount healed.",
@@ -8094,11 +8579,13 @@ window.WOW_PVP_DATA = {
           94906
         ],
         "entry_id": 117494,
+        "entry_max_ranks": 1,
         "definition_id": 122506,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Wounded Quarry",
         "spell_id": 442806,
+        "visible_spell_id": null,
         "icon": "ability_rogue_venomouswounds"
       },
       "pve_tooltip": "Expose weaknesses in the target of your Reaver's Mark, causing your Physical damage to any enemy to also deal 30% of the damage dealt to your marked target as Chaos, and sometimes shatter a Soul Fragment.",
@@ -8149,11 +8636,13 @@ window.WOW_PVP_DATA = {
           109769
         ],
         "entry_id": 136028,
+        "entry_max_ranks": 1,
         "definition_id": 140783,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Keen Edge",
         "spell_id": 1272138,
+        "visible_spell_id": null,
         "icon": "inv_glaive_1h_tyrande_d_01"
       },
       "pve_tooltip": "Reaver's Glaive damage is increased by 20% and other Physical-only damage is increased by 10%.",
@@ -8251,11 +8740,13 @@ window.WOW_PVP_DATA = {
           94919
         ],
         "entry_id": 117492,
+        "entry_max_ranks": 1,
         "definition_id": 122504,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Incisive Blade",
         "spell_id": 442492,
+        "visible_spell_id": null,
         "icon": "ability_dualwieldspecialization"
       },
       "pve_tooltip": "Chaos Strike deals 10% increased damage.",
@@ -8306,11 +8797,13 @@ window.WOW_PVP_DATA = {
           94919
         ],
         "entry_id": 117507,
+        "entry_max_ranks": 1,
         "definition_id": 122507,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Keen Engagement",
         "spell_id": 442497,
+        "visible_spell_id": null,
         "icon": "ability_warlock_shadowfurytga"
       },
       "pve_tooltip": "Reaver's Glaive generates 20 Fury.",
@@ -8361,24 +8854,47 @@ window.WOW_PVP_DATA = {
           94919
         ],
         "entry_id": 122422,
+        "entry_max_ranks": 1,
         "definition_id": 127322,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Preemptive Strike",
         "spell_id": 444997,
+        "visible_spell_id": null,
         "icon": "ability_rogue_focusedattacks"
       },
       "pve_tooltip": "Throw Glaive deals (20% of Attack Power) Physical damage to enemies near its initial target.",
-      "pvp_tooltip": "Throw Glaive deals (20% of Attack Power) Physical damage to enemies near its initial target.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Throw Glaive deals (19.2% of Attack Power) Physical damage to enemies near its initial target.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 20,
+          "end": 22,
+          "old_token": "20",
+          "new_token": "19.2",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "20",
+          "new": "19.2"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 444997,
           "source_spell_id": 444979,
           "effect_index": 1,
@@ -8395,7 +8911,7 @@ window.WOW_PVP_DATA = {
             444979
           ],
           "dependency_relations": [
-            "triggered_by_reverse"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -8424,7 +8940,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -8464,11 +8980,13 @@ window.WOW_PVP_DATA = {
           94919
         ],
         "entry_id": 117503,
+        "entry_max_ranks": 1,
         "definition_id": 122515,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Bladecraft",
         "spell_id": 1272153,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_soulcleave3"
       },
       "pve_tooltip": "Fury of the Aldrachi further empowers Blade Dance when cast after Chaos Strike, increasing slashes to 12.\nReaver's Mark now stacks up to 2 times and further empowers Chaos Strike when cast after Blade Dance, applying an additional stack.",
@@ -8476,18 +8994,7 @@ window.WOW_PVP_DATA = {
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
-          "kind": "ordinary_value",
-          "old": 6.0,
-          "new": 3.0,
-          "full_tooltip_match_count": 0
-        }
-      ],
+      "diagnostics": [],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
@@ -8543,70 +9050,6 @@ window.WOW_PVP_DATA = {
           "effect_origin": "DEPENDENCY",
           "dependency_kind": "REFERENCED",
           "talent_spell_id": 1272153,
-          "source_spell_id": 1236360,
-          "effect_index": 1,
-          "effect_text": "Apply Aura: Dummy",
-          "base_value": 6.0,
-          "spell_pvp_multiplier": 0.5,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.5,
-          "final_pvp_value": 3.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            1272153,
-            442718,
-            1236360
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref",
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 1272153,
-          "source_spell_id": 1236360,
-          "effect_index": 4,
-          "effect_text": "Apply Aura: Dummy",
-          "base_value": 100.0,
-          "spell_pvp_multiplier": 0.33,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.33,
-          "final_pvp_value": 33.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            1272153,
-            442718,
-            1236360
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref",
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 1272153,
           "source_spell_id": 442294,
           "effect_index": 1,
           "effect_text": "School Damage (Physical) (AP mod: 3.85 )",
@@ -8657,7 +9100,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1,
+      "render_effect_count": 0,
       "rank_tooltips": []
     },
     {
@@ -8697,11 +9140,13 @@ window.WOW_PVP_DATA = {
           94919
         ],
         "entry_id": 136027,
+        "entry_max_ranks": 1,
         "definition_id": 140782,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Warblade's Hunger",
         "spell_id": 442502,
+        "visible_spell_id": null,
         "icon": "ability_warlock_soulsiphon"
       },
       "pve_tooltip": "Consuming a Soul Fragment causes your next Chaos Strike to deal (62% of Attack Power) additional Physical damage.\nFelblade consumes up to 5 nearby Soul Fragments.",
@@ -8822,11 +9267,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 117516,
+        "entry_max_ranks": 1,
         "definition_id": 122528,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Thrill of the Fight",
         "spell_id": 442686,
+        "visible_spell_id": null,
         "icon": "spell_arcane_arcanetactics"
       },
       "pve_tooltip": "After consuming both enhancements, gain Thrill of the Fight, increasing the damage of your next Reaver's Glaive by 30% and increasing Haste by 8% for 30 sec.",
@@ -8878,11 +9325,13 @@ window.WOW_PVP_DATA = {
           109773
         ],
         "entry_id": 117514,
+        "entry_max_ranks": 1,
         "definition_id": 122526,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Demonsurge",
         "spell_id": 452402,
+        "visible_spell_id": null,
         "icon": "inv_ability_felscarreddemonhunter_demonsurge"
       },
       "pve_tooltip": "Metamorphosis now also causes Demon Blades to generate 3 additional Fury.\nWhile demon form is active, the first cast of each empowered ability induces a Demonsurge, causing you to explode with Fel energy, dealing (280% of Attack Power) Chaos damage to nearby enemies. Deals reduced damage beyond 8 targets.",
@@ -9121,11 +9570,13 @@ window.WOW_PVP_DATA = {
           94905
         ],
         "entry_id": 117510,
+        "entry_max_ranks": 1,
         "definition_id": 122522,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Wave of Debilitation",
         "spell_id": 452403,
+        "visible_spell_id": null,
         "icon": "spell_fire_felfirenova"
       },
       "pve_tooltip": "Chaos Nova slows enemies by 60% and reduces attack and cast speed by 15% for 5 sec after its stun fades.",
@@ -9258,11 +9709,13 @@ window.WOW_PVP_DATA = {
           94905
         ],
         "entry_id": 124011,
+        "entry_max_ranks": 1,
         "definition_id": 128849,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Pursuit of Angriness",
         "spell_id": 452404,
+        "visible_spell_id": null,
         "icon": "ability_felarakkoa_focusedblast"
       },
       "pve_tooltip": "Movement speed increased by 1% per 10 Fury.",
@@ -9313,11 +9766,13 @@ window.WOW_PVP_DATA = {
           94912
         ],
         "entry_id": 117515,
+        "entry_max_ranks": 1,
         "definition_id": 122527,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Focused Hatred",
         "spell_id": 452405,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_illidansgrasp"
       },
       "pve_tooltip": "Demonsurge deals 50% increased damage when it strikes a single target.\nEach additional target reduces this bonus by 10%.",
@@ -9457,11 +9912,13 @@ window.WOW_PVP_DATA = {
           94916
         ],
         "entry_id": 117496,
+        "entry_max_ranks": 1,
         "definition_id": 122508,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Set Fire to the Pain",
         "spell_id": 452406,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_empowerwards"
       },
       "pve_tooltip": "5% of all non-Fire damage taken is instead taken as Fire damage over 6 sec.\nFire damage taken reduced by 10%.",
@@ -9512,11 +9969,13 @@ window.WOW_PVP_DATA = {
           94916
         ],
         "entry_id": 124010,
+        "entry_max_ranks": 1,
         "definition_id": 128848,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Improved Soul Rending",
         "spell_id": 452407,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_soulcleave2"
       },
       "pve_tooltip": "Leech granted by Soul Rending increased by 2% and an additional 2% while Metamorphosis is active.",
@@ -9567,11 +10026,13 @@ window.WOW_PVP_DATA = {
           109774
         ],
         "entry_id": 136031,
+        "entry_max_ranks": 1,
         "definition_id": 140786,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Blind Focus",
         "spell_id": 1272364,
+        "visible_spell_id": null,
         "icon": "inv_belt_leather_raiddemonhunter_r_01"
       },
       "pve_tooltip": "Fire damage increased by 5%.\nEffect is doubled while in demon form.",
@@ -9622,11 +10083,13 @@ window.WOW_PVP_DATA = {
           94904
         ],
         "entry_id": 117502,
+        "entry_max_ranks": 1,
         "definition_id": 122514,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Burning Blades",
         "spell_id": 452408,
+        "visible_spell_id": null,
         "icon": "inv_glaive_1h_artifactazgalor_d_02dual"
       },
       "pve_tooltip": "Your blades burn with Fel energy, causing the damage from Chaos Strike, Throw Glaive, Blade Dance's First Blood, and auto-attacks to burn for an additional 35% damage as Fire over 6 sec.",
@@ -9716,11 +10179,13 @@ window.WOW_PVP_DATA = {
           94902
         ],
         "entry_id": 117509,
+        "entry_max_ranks": 1,
         "definition_id": 122521,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Violent Transformation",
         "spell_id": 452409,
+        "visible_spell_id": null,
         "icon": "spell_shadow_demoniccirclesummon"
       },
       "pve_tooltip": "When you activate Metamorphosis, reset the cooldown of Immolation Aura.",
@@ -9771,11 +10236,13 @@ window.WOW_PVP_DATA = {
           94909
         ],
         "entry_id": 117513,
+        "entry_max_ranks": 1,
         "definition_id": 122525,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Enduring Torment",
         "spell_id": 452410,
+        "visible_spell_id": null,
         "icon": "spell_fire_felimmolation"
       },
       "pve_tooltip": "The effects of your demon form persist outside of it in a weakened state, increasing Chaos Strike and Blade Dance damage by 15%, and Haste by 5%.",
@@ -9826,11 +10293,13 @@ window.WOW_PVP_DATA = {
           109772
         ],
         "entry_id": 136032,
+        "entry_max_ranks": 1,
         "definition_id": 140787,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Undying Embers",
         "spell_id": 1272405,
+        "visible_spell_id": null,
         "icon": "ability_warlock_burningembersgreen"
       },
       "pve_tooltip": "Immolation Aura has a 25% chance to reignite after it expires, reapplying its effect.",
@@ -9881,11 +10350,13 @@ window.WOW_PVP_DATA = {
           94901
         ],
         "entry_id": 117501,
+        "entry_max_ranks": 1,
         "definition_id": 122513,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Untethered Fury",
         "spell_id": 452411,
+        "visible_spell_id": null,
         "icon": "inv__felbarrage"
       },
       "pve_tooltip": "Maximum Fury increased by 50.",
@@ -9936,11 +10407,13 @@ window.WOW_PVP_DATA = {
           94901
         ],
         "entry_id": 117499,
+        "entry_max_ranks": 1,
         "definition_id": 122511,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Student of Suffering",
         "spell_id": 452412,
+        "visible_spell_id": null,
         "icon": "achievement_dungeon_theatreofpain_kultharok"
       },
       "pve_tooltip": "Eye Beam applies Student of Suffering to you, increasing Mastery by (8 * $mas)% and granting 5 Fury every 2 sec, for 6 sec.",
@@ -9991,11 +10464,13 @@ window.WOW_PVP_DATA = {
           94901
         ],
         "entry_id": 124009,
+        "entry_max_ranks": 1,
         "definition_id": 128847,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Flamebound",
         "spell_id": 452413,
+        "visible_spell_id": null,
         "icon": "spell_fire_felflamering"
       },
       "pve_tooltip": "Immolation Aura has 2 yd increased radius and 50% increased critical strike damage bonus.",
@@ -10072,11 +10547,13 @@ window.WOW_PVP_DATA = {
           94901
         ],
         "entry_id": 117506,
+        "entry_max_ranks": 1,
         "definition_id": 122518,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Monster Rising",
         "spell_id": 452414,
+        "visible_spell_id": null,
         "icon": "ability_warlock_demonicpower"
       },
       "pve_tooltip": "Agility increased by 8% while not in demon form.",
@@ -10127,11 +10604,13 @@ window.WOW_PVP_DATA = {
           94901
         ],
         "entry_id": 136030,
+        "entry_max_ranks": 1,
         "definition_id": 140785,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Volatile Instinct",
         "spell_id": 1272453,
+        "visible_spell_id": null,
         "icon": "inv_nature_nova"
       },
       "pve_tooltip": "Entering demon form immediately induces a Demonsurge.\n(100ms cooldown)",
@@ -10183,11 +10662,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 117498,
+        "entry_max_ranks": 1,
         "definition_id": 122510,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Demonic Intensity",
         "spell_id": 452415,
+        "visible_spell_id": null,
         "icon": "spell_warlock_demonicempowerment"
       },
       "pve_tooltip": "Activating Metamorphosis greatly empowers Eye Beam, Immolation Aura.\nDemonsurge damage is increased by 5% for each time it previously triggered while your demon form is active.",
@@ -10274,12 +10755,307 @@ window.WOW_PVP_DATA = {
     }
   ],
   "fetch_errors": [],
+  "serialization": {
+    "version": 2,
+    "spec_id": 577,
+    "node_order": [
+      90912,
+      90914,
+      90915,
+      90916,
+      90917,
+      90918,
+      90919,
+      90921,
+      90922,
+      90923,
+      90925,
+      90927,
+      90928,
+      90929,
+      90930,
+      90931,
+      90933,
+      90934,
+      90935,
+      90936,
+      90937,
+      90938,
+      90939,
+      90940,
+      90941,
+      90942,
+      90945,
+      90946,
+      90947,
+      90948,
+      90949,
+      90950,
+      90951,
+      90952,
+      90953,
+      90954,
+      90955,
+      90956,
+      90957,
+      90958,
+      90959,
+      90960,
+      90961,
+      90962,
+      90963,
+      90964,
+      90965,
+      90966,
+      90967,
+      90968,
+      90969,
+      90970,
+      90971,
+      90972,
+      90973,
+      90974,
+      90975,
+      90976,
+      90977,
+      90978,
+      90979,
+      90980,
+      90981,
+      90982,
+      90983,
+      90984,
+      90985,
+      90986,
+      90987,
+      90988,
+      90989,
+      90990,
+      90991,
+      90993,
+      90994,
+      90996,
+      90997,
+      90999,
+      91000,
+      91001,
+      91002,
+      91003,
+      91004,
+      91005,
+      91006,
+      91007,
+      91008,
+      91011,
+      91012,
+      91013,
+      91015,
+      91017,
+      91018,
+      91020,
+      91021,
+      91022,
+      91024,
+      91025,
+      91026,
+      91027,
+      91028,
+      91030,
+      91031,
+      91032,
+      91033,
+      91034,
+      91035,
+      91036,
+      93013,
+      93014,
+      93015,
+      93016,
+      94895,
+      94896,
+      94897,
+      94898,
+      94899,
+      94901,
+      94902,
+      94903,
+      94904,
+      94905,
+      94906,
+      94909,
+      94910,
+      94911,
+      94912,
+      94913,
+      94914,
+      94915,
+      94916,
+      94917,
+      94918,
+      94919,
+      95143,
+      95147,
+      95149,
+      95150,
+      95151,
+      95152,
+      95154,
+      99823,
+      99824,
+      107336,
+      107338,
+      107339,
+      107340,
+      107341,
+      107342,
+      107343,
+      107344,
+      107345,
+      107346,
+      107347,
+      107770,
+      107771,
+      107774,
+      107775,
+      107997,
+      107999,
+      108122,
+      108123,
+      108136,
+      108143,
+      108144,
+      108627,
+      108628,
+      108669,
+      108704,
+      108722,
+      108723,
+      108726,
+      108727,
+      108728,
+      108729,
+      109442,
+      109443,
+      109444,
+      109445,
+      109446,
+      109447,
+      109448,
+      109449,
+      109450,
+      109451,
+      109452,
+      109453,
+      109454,
+      109455,
+      109503,
+      109769,
+      109770,
+      109771,
+      109772,
+      109773,
+      109774,
+      109871,
+      110009,
+      110010,
+      110011,
+      110104,
+      110105,
+      110106,
+      110107,
+      110108,
+      110109,
+      110110,
+      110111,
+      110112,
+      110113,
+      110114,
+      110115,
+      110116,
+      110117,
+      110165,
+      110166,
+      110167,
+      110168,
+      110169,
+      110170,
+      110171,
+      110172,
+      110173,
+      110174,
+      110416,
+      110425,
+      110427
+    ],
+    "subtree_nodes": [
+      {
+        "id": 99824,
+        "name": "Aldrachi Reaver / Fel-Scarred",
+        "type": "subtree",
+        "posX": 7200,
+        "posY": 600,
+        "entryNode": true,
+        "next": [],
+        "prev": [],
+        "entries": [
+          {
+            "id": 123330,
+            "type": "subtree",
+            "name": "Aldrachi Reaver",
+            "traitSubTreeId": 35,
+            "traitTreeId": 854,
+            "atlasMemberName": "talents-heroclass-demonhunter-aldrachireaver",
+            "nodes": [
+              94915,
+              94898,
+              94911,
+              94903,
+              109771,
+              94914,
+              94896,
+              94897,
+              109770,
+              94895,
+              94910,
+              94906,
+              109769,
+              94919
+            ]
+          },
+          {
+            "id": 123329,
+            "type": "subtree",
+            "name": "Fel-Scarred",
+            "traitSubTreeId": 34,
+            "traitTreeId": 854,
+            "atlasMemberName": "talents-heroclass-demonhunter-felscarred",
+            "nodes": [
+              94917,
+              94913,
+              94918,
+              94899,
+              109773,
+              94905,
+              94912,
+              94916,
+              109774,
+              94904,
+              94902,
+              94909,
+              109772,
+              94901
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "source_warnings": [],
   "slug": "demon-hunter-havoc",
-  "generated_at": "2026-09-21T12:49:37.603569+00:00",
+  "generated_at": "2026-09-21T19:37:56.810369+00:00",
   "validation": {
     "talents": 125,
-    "changed_tooltips": 23,
+    "changed_tooltips": 31,
     "talents_with_pvp_mechanics": 42,
     "unique_nodes": 109,
     "tree_build": "12.1.0.69875",

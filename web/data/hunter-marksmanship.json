@@ -42,11 +42,13 @@
           102401
         ],
         "entry_id": 126444,
+        "entry_max_ranks": 1,
         "definition_id": 131270,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Rejuvenating Wind",
         "spell_id": 385539,
+        "visible_spell_id": null,
         "icon": "ability_druid_galewinds"
       },
       "pve_tooltip": "Exhilaration now also heals you for an additional 12.0% of your maximum health over 8 sec.",
@@ -95,11 +97,13 @@
           102406
         ],
         "entry_id": 126488,
+        "entry_max_ranks": 1,
         "definition_id": 131314,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Survival of the Fittest",
         "spell_id": 264735,
+        "visible_spell_id": null,
         "icon": "spell_nature_spiritarmor"
       },
       "pve_tooltip": "Unlimited range\nInstant\n1.5 min cooldown\n1 Charge\nReduces all damage you and your pet take by 30% for 6 sec.",
@@ -220,11 +224,13 @@
           102423
         ],
         "entry_id": 126475,
+        "entry_max_ranks": 1,
         "definition_id": 131301,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Posthaste",
         "spell_id": 109215,
+        "visible_spell_id": null,
         "icon": "ability_hunter_posthaste"
       },
       "pve_tooltip": "Disengage also frees you from all movement impairing effects and increases your movement speed by 50% for 4 sec.",
@@ -276,11 +282,13 @@
           110157
         ],
         "entry_id": 126465,
+        "entry_max_ranks": 2,
         "definition_id": 131291,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Natural Mending",
         "spell_id": 270581,
+        "visible_spell_id": null,
         "icon": "ability_hunter_onewithnature"
       },
       "pve_tooltip": "Exhilaration's cooldown is reduced by 60 sec.",
@@ -298,6 +306,7 @@
           "pve_tooltip": "Exhilaration's cooldown is reduced by 30 sec.",
           "pvp_tooltip": "Exhilaration's cooldown is reduced by 30 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -306,6 +315,7 @@
           "pve_tooltip": "Exhilaration's cooldown is reduced by 60 sec.",
           "pvp_tooltip": "Exhilaration's cooldown is reduced by 60 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -349,11 +359,13 @@
           109485
         ],
         "entry_id": 126470,
+        "entry_max_ranks": 1,
         "definition_id": 131296,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Padded Armor",
         "spell_id": 459450,
+        "visible_spell_id": null,
         "icon": "ability_rogue_plunderarmor"
       },
       "pve_tooltip": "Survival of the Fittest gains an additional charge.",
@@ -405,11 +417,13 @@
           102407
         ],
         "entry_id": 126489,
+        "entry_max_ranks": 1,
         "definition_id": 131315,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Hunter's Avoidance",
         "spell_id": 384799,
+        "visible_spell_id": null,
         "icon": "rogue_burstofspeed"
       },
       "pve_tooltip": "Damage taken from area of effect attacks reduced by 5%.",
@@ -460,11 +474,13 @@
           102380
         ],
         "entry_id": 126446,
+        "entry_max_ranks": 1,
         "definition_id": 131272,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Wilderness Medicine",
         "spell_id": 343242,
+        "visible_spell_id": null,
         "icon": "ability_hunter_mendpet"
       },
       "pve_tooltip": "Mend Pet heals for an additional 25% of your pet's health over its duration, and has a 25% chance to dispel a magic effect each time it heals your pet.",
@@ -548,11 +564,13 @@
           102402
         ],
         "entry_id": 136677,
+        "entry_max_ranks": 1,
         "definition_id": 141449,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Combat Experience",
         "spell_id": 1268871,
+        "visible_spell_id": null,
         "icon": "ability_hunter_combatexperience"
       },
       "pve_tooltip": "Your Agility is increased by 3%.",
@@ -605,11 +623,13 @@
           102384
         ],
         "entry_id": 135708,
+        "entry_max_ranks": 1,
         "definition_id": 140463,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Aspect of the Cheetah",
         "spell_id": 1258407,
+        "visible_spell_id": null,
         "icon": "ability_mount_jungletiger"
       },
       "pve_tooltip": "The cooldown of Aspect of the Cheetah is reduced by 30 sec.",
@@ -660,11 +680,13 @@
           102384
         ],
         "entry_id": 126471,
+        "entry_max_ranks": 1,
         "definition_id": 131297,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Concussive Shot",
         "spell_id": 5116,
+        "visible_spell_id": null,
         "icon": "spell_frost_stun"
       },
       "pve_tooltip": "40 yd range\nInstant\n5 sec cooldown\nDazes the target, slowing movement speed by 50% for 6 sec.\nSteady Shot will increase the duration of Concussive Shot on the target by 3.0 sec.",
@@ -764,11 +786,13 @@
           102404
         ],
         "entry_id": 126443,
+        "entry_max_ranks": 1,
         "definition_id": 131269,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Precision Strikes",
         "spell_id": 1267003,
+        "visible_spell_id": null,
         "icon": "inv12_ability_hunter_rupturingblow"
       },
       "pve_tooltip": "Your auto shot damage is increased by 25%.",
@@ -822,11 +846,13 @@
           109484
         ],
         "entry_id": 126466,
+        "entry_max_ranks": 1,
         "definition_id": 131292,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Counter Shot",
         "spell_id": 147362,
+        "visible_spell_id": null,
         "icon": "inv_ammo_arrow_03"
       },
       "pve_tooltip": "40 yd range\nInstant\n24 sec cooldown\nInterrupts spellcasting, preventing any spell in that school from being cast for 5 sec.",
@@ -879,11 +905,13 @@
           102419
         ],
         "entry_id": 126447,
+        "entry_max_ranks": 2,
         "definition_id": 131273,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Serrated Tips",
         "spell_id": 459502,
+        "visible_spell_id": null,
         "icon": "inv_spear_01"
       },
       "pve_tooltip": "You gain 4% more critical strike from critical strike sources.",
@@ -901,6 +929,7 @@
           "pve_tooltip": "You gain 2% more critical strike from critical strike sources.",
           "pvp_tooltip": "You gain 2% more critical strike from critical strike sources.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -909,6 +938,7 @@
           "pve_tooltip": "You gain 4% more critical strike from critical strike sources.",
           "pvp_tooltip": "You gain 4% more critical strike from critical strike sources.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -952,11 +982,13 @@
           102425
         ],
         "entry_id": 135712,
+        "entry_max_ranks": 1,
         "definition_id": 140467,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Tranquilizing Shot",
         "spell_id": 19801,
+        "visible_spell_id": null,
         "icon": "spell_nature_drowsy"
       },
       "pve_tooltip": "40 yd range\nInstant\n10 sec cooldown\nRemoves 1 Enrage and 1 Magic effect from an enemy target.",
@@ -1009,11 +1041,13 @@
           102396
         ],
         "entry_id": 126468,
+        "entry_max_ranks": 1,
         "definition_id": 131294,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Pathfinding",
         "spell_id": 378002,
+        "visible_spell_id": null,
         "icon": "ability_hunter_displacement"
       },
       "pve_tooltip": "Movement speed increased by 4%.",
@@ -1066,11 +1100,13 @@
           109487
         ],
         "entry_id": 126459,
+        "entry_max_ranks": 1,
         "definition_id": 131285,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Disruptive Rounds",
         "spell_id": 343244,
+        "visible_spell_id": null,
         "icon": "hunter_pvp_vipersting"
       },
       "pve_tooltip": "When Counter Shot interrupts a cast, gain 30 Focus.",
@@ -1123,11 +1159,13 @@
           110156
         ],
         "entry_id": 135706,
+        "entry_max_ranks": 2,
         "definition_id": 140461,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Feign Death",
         "spell_id": 1258486,
+        "visible_spell_id": null,
         "icon": "ability_rogue_feigndeath"
       },
       "pve_tooltip": "The cooldown of Feign Death is reduced by 10 sec.",
@@ -1145,6 +1183,7 @@
           "pve_tooltip": "The cooldown of Feign Death is reduced by 5 sec.",
           "pvp_tooltip": "The cooldown of Feign Death is reduced by 5 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -1153,6 +1192,7 @@
           "pve_tooltip": "The cooldown of Feign Death is reduced by 10 sec.",
           "pvp_tooltip": "The cooldown of Feign Death is reduced by 10 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -1196,11 +1236,13 @@
           102412
         ],
         "entry_id": 126484,
+        "entry_max_ranks": 1,
         "definition_id": 131310,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Misdirection",
         "spell_id": 34477,
+        "visible_spell_id": null,
         "icon": "ability_hunter_misdirection"
       },
       "pve_tooltip": "100 yd range\nInstant\n30 sec cooldown\nMisdirects all threat you cause to the targeted party or raid member, beginning with your next attack within 30 sec and lasting for 8 sec.",
@@ -1251,11 +1293,13 @@
           102424
         ],
         "entry_id": 126480,
+        "entry_max_ranks": 1,
         "definition_id": 131306,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Kodo Tranquilizer",
         "spell_id": 459983,
+        "visible_spell_id": null,
         "icon": "ability_mount_kodo_03"
       },
       "pve_tooltip": "Tranquilizing Shot removes 1 additional Magic effect from up to 2 nearby targets.",
@@ -1306,11 +1350,13 @@
           102424
         ],
         "entry_id": 126479,
+        "entry_max_ranks": 1,
         "definition_id": 131305,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Devilsaur Tranquilizer",
         "spell_id": 459991,
+        "visible_spell_id": null,
         "icon": "ability_hunter_pet_devilsaur"
       },
       "pve_tooltip": "If Tranquilizing Shot removes only an Enrage effect, its cooldown is reduced by 5 sec.",
@@ -1362,11 +1408,13 @@
           102424
         ],
         "entry_id": 126491,
+        "entry_max_ranks": 1,
         "definition_id": 131317,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Kindling Flare",
         "spell_id": 459506,
+        "visible_spell_id": null,
         "icon": "achievment_raid_houroftwilight"
       },
       "pve_tooltip": "Flare's radius is increased by 50%.",
@@ -1419,11 +1467,13 @@
           102390
         ],
         "entry_id": 126460,
+        "entry_max_ranks": 2,
         "definition_id": 131286,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Trigger Finger",
         "spell_id": 459534,
+        "visible_spell_id": null,
         "icon": "inv_10_engineering2_pvpflaregun_color1"
       },
       "pve_tooltip": "100 yd range\nHaste increased by 2%.",
@@ -1441,6 +1491,7 @@
           "pve_tooltip": "100 yd range\nHaste increased by 1%.",
           "pvp_tooltip": "100 yd range\nHaste increased by 1%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -1449,6 +1500,7 @@
           "pve_tooltip": "100 yd range\nHaste increased by 2%.",
           "pvp_tooltip": "100 yd range\nHaste increased by 2%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -1491,11 +1543,13 @@
           102390
         ],
         "entry_id": 126457,
+        "entry_max_ranks": 1,
         "definition_id": 131283,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Tar Trap",
         "spell_id": 187698,
+        "visible_spell_id": null,
         "icon": "spell_yorsahj_bloodboil_black"
       },
       "pve_tooltip": "40 yd range\nInstant\n30 sec cooldown\nHurls a tar trap to the target location that creates a 8 yd radius pool of tar around itself for 30 sec when the first enemy approaches. All enemies have 50% reduced movement speed while in the area of effect. Limit 1. Trap will exist for 1 min.",
@@ -1598,11 +1652,13 @@
           102390
         ],
         "entry_id": 135707,
+        "entry_max_ranks": 1,
         "definition_id": 140462,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Scare Beast",
         "spell_id": 1513,
+        "visible_spell_id": null,
         "icon": "ability_druid_cower"
       },
       "pve_tooltip": "25 Focus\n30 yd range\n1.5 sec cast\nScares a beast, causing it to run in fear for up to 20 sec. Damage caused may interrupt the effect. Only one beast can be feared at a time.",
@@ -1655,11 +1711,13 @@
           109483
         ],
         "entry_id": 135710,
+        "entry_max_ranks": 2,
         "definition_id": 140465,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Touch of Grass",
         "spell_id": 1258402,
+        "visible_spell_id": null,
         "icon": "inv12_ability_druid_lifetreading"
       },
       "pve_tooltip": "Your maximum health is increased by 10%.",
@@ -1677,6 +1735,7 @@
           "pve_tooltip": "Your maximum health is increased by 5%.",
           "pvp_tooltip": "Your maximum health is increased by 5%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -1685,6 +1744,7 @@
           "pve_tooltip": "Your maximum health is increased by 10%.",
           "pvp_tooltip": "Your maximum health is increased by 10%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -1728,11 +1788,13 @@
           109483
         ],
         "entry_id": 136676,
+        "entry_max_ranks": 1,
         "definition_id": 141448,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Camouflage",
         "spell_id": 199483,
+        "visible_spell_id": null,
         "icon": "ability_hunter_camouflage"
       },
       "pve_tooltip": "Unlimited range\nInstant\n1 min cooldown\nYou and your pet blend into the surroundings and gain stealth for 1 min. While camouflaged, you will heal for 2% of maximum health every 1 sec.",
@@ -1783,11 +1845,13 @@
           109483
         ],
         "entry_id": 126476,
+        "entry_max_ranks": 1,
         "definition_id": 131302,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "No Hard Feelings",
         "spell_id": 459546,
+        "visible_spell_id": null,
         "icon": "ability_seal"
       },
       "pve_tooltip": "When Misdirection targets your pet, it reduces the damage they take by 50% for 5 sec.\nThe cooldown of Misdirection is reduced by 5 sec.",
@@ -1842,11 +1906,13 @@
           102414
         ],
         "entry_id": 126490,
+        "entry_max_ranks": 1,
         "definition_id": 131316,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Aspect of the Turtle",
         "spell_id": 1258485,
+        "visible_spell_id": null,
         "icon": "ability_hunter_pet_turtle"
       },
       "pve_tooltip": "The cooldown of Aspect of the Turtle is reduced by 30 sec.",
@@ -1901,11 +1967,13 @@
           109486
         ],
         "entry_id": 126453,
+        "entry_max_ranks": 1,
         "definition_id": 131279,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Specialized Arsenal",
         "spell_id": 459542,
+        "visible_spell_id": null,
         "icon": "inv_misc_quiver_03"
       },
       "pve_tooltip": "Aimed Shot deals 10% increased damage.",
@@ -1960,11 +2028,13 @@
           110155
         ],
         "entry_id": 135705,
+        "entry_max_ranks": 1,
         "definition_id": 140460,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Scout's Instincts",
         "spell_id": 459455,
+        "visible_spell_id": null,
         "icon": "ability_rogue_sprint"
       },
       "pve_tooltip": "You cannot be slowed below 80% of your normal movement speed while Aspect of the Cheetah is active.",
@@ -2015,11 +2085,13 @@
           110153
         ],
         "entry_id": 136673,
+        "entry_max_ranks": 1,
         "definition_id": 141445,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shell Wall",
         "spell_id": 1267218,
+        "visible_spell_id": null,
         "icon": "inv_cape_special_turtleshell_c_01"
       },
       "pve_tooltip": "Damage taken during Aspect of the Turtle is reduced by an additional 20%.",
@@ -2072,11 +2144,13 @@
           102416
         ],
         "entry_id": 128413,
+        "entry_max_ranks": 1,
         "definition_id": 133219,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Intimidation",
         "spell_id": 474421,
+        "visible_spell_id": null,
         "icon": "artifactability_survivalhunter_eaglesbite"
       },
       "pve_tooltip": "40 yd range\nInstant\n1 min cooldown\nYour Spotting Eagle descends from the skies, stunning your target for 5 sec. [Binding Shackles: Targets stunned by Intimidation deal 10% less damage to you for 8 sec after the effect ends]\nThis ability does not require line of sight when used against players.",
@@ -2128,11 +2202,13 @@
           102416
         ],
         "entry_id": 126478,
+        "entry_max_ranks": 1,
         "definition_id": 131304,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Snaring",
         "spell_id": 1268868,
+        "visible_spell_id": null,
         "icon": "inv_fishing_nethooks01"
       },
       "pve_tooltip": "Wing Clip slows an additional 25%.\nConcussive Shot slows an additional 10%.",
@@ -2184,11 +2260,13 @@
           102409
         ],
         "entry_id": 126454,
+        "entry_max_ranks": 1,
         "definition_id": 131280,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lone Survivor",
         "spell_id": 388039,
+        "visible_spell_id": null,
         "icon": "ability_hunter_huntervswild"
       },
       "pve_tooltip": "Unlimited range\nThe duration of Survival of the Fittest is increased by 2.0 sec.",
@@ -2240,11 +2318,13 @@
           102409
         ],
         "entry_id": 135709,
+        "entry_max_ranks": 1,
         "definition_id": 140464,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Catlike Reflexes",
         "spell_id": 1258404,
+        "visible_spell_id": null,
         "icon": "ability_hunter_catlikereflexes"
       },
       "pve_tooltip": "Aspect of the Cheetah's initial burst of speed is increased by 2.0 sec.",
@@ -2297,11 +2377,13 @@
           102418
         ],
         "entry_id": 135711,
+        "entry_max_ranks": 1,
         "definition_id": 140466,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Binding Shot",
         "spell_id": 109248,
+        "visible_spell_id": null,
         "icon": "spell_shaman_bindelemental"
       },
       "pve_tooltip": "30 yd range\nInstant\n45 sec cooldown\nFires a magical projectile, tethering the enemy and any other enemies within 5 yds for 10 sec, stunning them for 3 sec if they move more than 5 yds from the arrow. [Binding Shackles: Targets stunned by Binding Shot deal 10% less damage to you for 8 sec after the effect ends]",
@@ -2352,11 +2434,13 @@
           102418
         ],
         "entry_id": 136675,
+        "entry_max_ranks": 1,
         "definition_id": 141447,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Trailblazer",
         "spell_id": 199921,
+        "visible_spell_id": null,
         "icon": "ability_hunter_aspectmastery"
       },
       "pve_tooltip": "Your movement speed is increased by 30% anytime you have not attacked for 3 sec.",
@@ -2407,11 +2491,13 @@
           102418
         ],
         "entry_id": 136674,
+        "entry_max_ranks": 1,
         "definition_id": 141446,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Moment of Opportunity",
         "spell_id": 459488,
+        "visible_spell_id": null,
         "icon": "ability_karoz_leap"
       },
       "pve_tooltip": "When a trap triggers, gain 30% increased movement speed for 3 sec.",
@@ -2463,11 +2549,13 @@
           102389
         ],
         "entry_id": 136672,
+        "entry_max_ranks": 1,
         "definition_id": 141444,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Cold Feet",
         "spell_id": 1268671,
+        "visible_spell_id": null,
         "icon": "ability_mage_icyfeet"
       },
       "pve_tooltip": "When your Freezing Trap breaks, the victim's movement speed is reduced by 70% for 4 sec.",
@@ -2568,11 +2656,13 @@
         ],
         "next": [],
         "entry_id": 126458,
+        "entry_max_ranks": 1,
         "definition_id": 131284,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Territorial Instincts",
         "spell_id": 459507,
+        "visible_spell_id": null,
         "icon": "spell_nature_shamanrage"
       },
       "pve_tooltip": "The cooldown of Intimidation is reduced by 20 sec.",
@@ -2621,11 +2711,13 @@
         ],
         "next": [],
         "entry_id": 135704,
+        "entry_max_ranks": 1,
         "definition_id": 140459,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Guttural Roar",
         "spell_id": 1258509,
+        "visible_spell_id": null,
         "icon": "ability_druid_challangingroar"
       },
       "pve_tooltip": "Intimidation now also stuns nearby enemies for 1.0 sec.",
@@ -2679,11 +2771,13 @@
           110164
         ],
         "entry_id": 126481,
+        "entry_max_ranks": 2,
         "definition_id": 131307,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Born To Be Wild",
         "spell_id": 266921,
+        "visible_spell_id": null,
         "icon": "ability_hunter_aspectoftheviper"
       },
       "pve_tooltip": "The cooldown of Aspect of the Cheetah, and Aspect of the Turtle are reduced by 30 sec.",
@@ -2701,6 +2795,7 @@
           "pve_tooltip": "The cooldown of Aspect of the Cheetah, and Aspect of the Turtle are reduced by 15 sec.",
           "pvp_tooltip": "The cooldown of Aspect of the Cheetah, and Aspect of the Turtle are reduced by 15 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2709,6 +2804,7 @@
           "pve_tooltip": "The cooldown of Aspect of the Cheetah, and Aspect of the Turtle are reduced by 30 sec.",
           "pvp_tooltip": "The cooldown of Aspect of the Cheetah, and Aspect of the Turtle are reduced by 30 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2754,11 +2850,13 @@
           102387
         ],
         "entry_id": 126473,
+        "entry_max_ranks": 2,
         "definition_id": 131299,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Keen Eyesight",
         "spell_id": 378004,
+        "visible_spell_id": null,
         "icon": "ability_hunter_silenthunter"
       },
       "pve_tooltip": "Critical strike chance increased by 4%.",
@@ -2776,6 +2874,7 @@
           "pve_tooltip": "Critical strike chance increased by 2%.",
           "pvp_tooltip": "Critical strike chance increased by 2%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2784,6 +2883,7 @@
           "pve_tooltip": "Critical strike chance increased by 4%.",
           "pvp_tooltip": "Critical strike chance increased by 4%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2824,11 +2924,13 @@
         ],
         "next": [],
         "entry_id": 136671,
+        "entry_max_ranks": 1,
         "definition_id": 141443,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Tar-Coated Bindings",
         "spell_id": 459460,
+        "visible_spell_id": null,
         "icon": "inv_misc_food_legion_goooil_pool"
       },
       "pve_tooltip": "Binding Shot's stun duration is increased by 1 sec.",
@@ -2877,11 +2979,13 @@
         ],
         "next": [],
         "entry_id": 136670,
+        "entry_max_ranks": 1,
         "definition_id": 141442,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Horsehair Tether",
         "spell_id": 472729,
+        "visible_spell_id": null,
         "icon": "inv_misc_rope_01"
       },
       "pve_tooltip": "When an enemy is stunned by Binding Shot, it is dragged to Binding Shot's center.",
@@ -2933,11 +3037,13 @@
           102387
         ],
         "entry_id": 126483,
+        "entry_max_ranks": 1,
         "definition_id": 131309,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Traps",
         "spell_id": 343247,
+        "visible_spell_id": null,
         "icon": "ability_hunter_traplauncher"
       },
       "pve_tooltip": "The cooldown of Tar Trap and Freezing Trap is reduced by 5.0 sec.",
@@ -2987,11 +3093,13 @@
         ],
         "next": [],
         "entry_id": 126452,
+        "entry_max_ranks": 1,
         "definition_id": 131278,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Emergency Salve",
         "spell_id": 459517,
+        "visible_spell_id": null,
         "icon": "inv_potion_29"
       },
       "pve_tooltip": "Feign Death and Aspect of the Turtle removes poison and disease effects from you.",
@@ -3041,11 +3149,13 @@
         ],
         "next": [],
         "entry_id": 136686,
+        "entry_max_ranks": 1,
         "definition_id": 141458,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Roar of Sacrifice",
         "spell_id": 53480,
+        "visible_spell_id": null,
         "icon": "ability_hunter_fervor"
       },
       "pve_tooltip": "40 yd range\nInstant\n2 min cooldown\nInstructs your pet to protect a friendly target, reducing their damage taken by 15%, but 50% of all damage taken by that target is transferred to your pet.\nLasts 10 sec or until your pet's health drops below 25%.",
@@ -3142,11 +3252,13 @@
         ],
         "next": [],
         "entry_id": 136685,
+        "entry_max_ranks": 1,
         "definition_id": 141457,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Guardian's Hide",
         "spell_id": 1272094,
+        "visible_spell_id": null,
         "icon": "spell_druid_bristlingfur"
       },
       "pve_tooltip": "Your pet protects you at all times, reducing the damage you take by 3%. Your pet receives 100% of the damage it mitigates.",
@@ -3196,11 +3308,13 @@
         ],
         "next": [],
         "entry_id": 126450,
+        "entry_max_ranks": 1,
         "definition_id": 131276,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unnatural Causes",
         "spell_id": 459527,
+        "visible_spell_id": null,
         "icon": "ability_hunter_potentvenom"
       },
       "pve_tooltip": "Your damage over time effects deal 10% increased damage.\nThis effect is increased by 50% on targets below 20% health.",
@@ -3250,11 +3364,13 @@
           103977
         ],
         "entry_id": 128404,
+        "entry_max_ranks": 1,
         "definition_id": 133210,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Aimed Shot",
         "spell_id": 19434,
+        "visible_spell_id": null,
         "icon": "inv121_ability_hunter_aimedshot"
       },
       "pve_tooltip": "35 Focus\n40 yd range\n2.5 sec cast\n15 sec recharge\n2 Charges\nA powerful aimed shot that deals (972% of Attack Power) Physical damage.",
@@ -3361,11 +3477,13 @@
           104127
         ],
         "entry_id": 128383,
+        "entry_max_ranks": 1,
         "definition_id": 133189,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Rapid Fire",
         "spell_id": 257044,
+        "visible_spell_id": null,
         "icon": "ability_hunter_efficiency"
       },
       "pve_tooltip": "40 yd range\nChanneled (2 sec cast)\n16 sec cooldown\nShoot a stream of 7 / Double Tap: 13 / Quick Draw: 10 shots at your target over 2 sec, dealing a total of [7 / Double Tap: 12.6 / Quick Draw: 10 * (105% of Attack Power)%] Physical damage. Usable while moving.\nEach shot generates 3 / Double Tap: 5 / Quick Draw: 6 Focus.",
@@ -3417,11 +3535,13 @@
           107289
         ],
         "entry_id": 128399,
+        "entry_max_ranks": 1,
         "definition_id": 133205,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Precise Shots",
         "spell_id": 260240,
+        "visible_spell_id": null,
         "icon": "ability_hunter_snipertraining"
       },
       "pve_tooltip": "Aimed Shot causes your next Arcane Shot or Multi-Shot to deal 50% more damage and cost 60% less Focus.\nPrecise Shots benefits Kill Shot's damage at 100% effectiveness.",
@@ -3519,11 +3639,13 @@
           104130
         ],
         "entry_id": 128397,
+        "entry_max_ranks": 1,
         "definition_id": 133203,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Quick Draw",
         "spell_id": 459794,
+        "visible_spell_id": null,
         "icon": "ability_rogue_pistolshot"
       },
       "pve_tooltip": "Rapid Fire shoots 3 additional shots.\nAimed Shot grants 50% increased movement speed for 2 sec, decaying rapidly over its duration.",
@@ -3576,11 +3698,13 @@
           103964
         ],
         "entry_id": 128710,
+        "entry_max_ranks": 1,
         "definition_id": 133512,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Avian Specialization",
         "spell_id": 466867,
+        "visible_spell_id": null,
         "icon": "inv_111_hunter_ability_eyesinthesky"
       },
       "pve_tooltip": "The damage bonus of Spotter's Mark is increased by 20%.\nAdditionally, your Eagle learns how to Fetch.\nSpotter's Mark\nDamaging an enemy with abilities empowered by Precise Shots has a 30% chance to apply Spotter's Mark to the primary target, causing your next Aimed Shot to deal 20% increased damage to the target.",
@@ -3685,11 +3809,13 @@
           103964
         ],
         "entry_id": 129619,
+        "entry_max_ranks": 1,
         "definition_id": 134420,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Unbreakable Bond",
         "spell_id": 1223323,
+        "visible_spell_id": null,
         "icon": "ability_hunter_separationanxiety"
       },
       "pve_tooltip": "40 yd range\nRegain access to Call Pet.\nWhile outdoors, your pet deals 15% increased damage and takes 15% reduced damage.",
@@ -3741,11 +3867,13 @@
           103957
         ],
         "entry_id": 132193,
+        "entry_max_ranks": 1,
         "definition_id": 136994,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lock and Load",
         "spell_id": 194595,
+        "visible_spell_id": null,
         "icon": "ability_hunter_lockandload"
       },
       "pve_tooltip": "Your ranged auto attacks have a 10% chance to trigger Lock and Load, causing your next Aimed Shot to cost no Focus and be instant.",
@@ -3797,11 +3925,13 @@
           110572
         ],
         "entry_id": 128717,
+        "entry_max_ranks": 1,
         "definition_id": 133519,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Surging Shots",
         "spell_id": 391559,
+        "visible_spell_id": null,
         "icon": "ability_hunter_resistanceisfutile"
       },
       "pve_tooltip": "Rapid Fire deals 35% additional damage, and Aimed Shot has a 15% chance to reset the cooldown of Rapid Fire.",
@@ -3852,11 +3982,13 @@
           110572
         ],
         "entry_id": 128408,
+        "entry_max_ranks": 1,
         "definition_id": 133214,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Tenacious",
         "spell_id": 474456,
+        "visible_spell_id": null,
         "icon": "ability_druid_demoralizingroar"
       },
       "pve_tooltip": "Your Spotting Eagle gains the Tenacity specialization, granting you Endurance Training and Air Superiority.\nEndurance Training\nYou gain 5% increased maximum health.\nAir Superiority\nYour Spotting Eagle alerts you to oncoming danger, reducing all damage you take by 3%",
@@ -3907,11 +4039,13 @@
           110572
         ],
         "entry_id": 128411,
+        "entry_max_ranks": 1,
         "definition_id": 133217,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Cunning",
         "spell_id": 474440,
+        "visible_spell_id": null,
         "icon": "ability_eyeoftheowl"
       },
       "pve_tooltip": "Your Spotting Eagle gains the Cunning specialization, granting you Master's Call and Pathfinding.\nMaster's Call\nYour pet removes all root and movement impairing effects from itself and a friendly target, and grants immunity to all such effects for 4 sec.\nPathfinding\nYour movement speed is increased by 8%.",
@@ -3965,11 +4099,13 @@
           103947
         ],
         "entry_id": 128386,
+        "entry_max_ranks": 1,
         "definition_id": 133192,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Penetrating Shots",
         "spell_id": 459783,
+        "visible_spell_id": null,
         "icon": "achievement_guildperk_reinforce_rank2"
       },
       "pve_tooltip": "Gain critical strike damage equal to 25% of your critical strike chance.",
@@ -4021,11 +4157,13 @@
           107288
         ],
         "entry_id": 128378,
+        "entry_max_ranks": 1,
         "definition_id": 133184,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Trick Shots",
         "spell_id": 257621,
+        "visible_spell_id": null,
         "icon": "inv_trickshot"
       },
       "pve_tooltip": "When Multi-Shot hits 3 or more targets, your next Aimed Shot or Rapid Fire will ricochet and hit up to 5 additional targets for 60% of normal damage.",
@@ -4149,11 +4287,13 @@
           107288
         ],
         "entry_id": 128377,
+        "entry_max_ranks": 1,
         "definition_id": 133183,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Aspect of the Hydra",
         "spell_id": 470945,
+        "visible_spell_id": null,
         "icon": "inv_111_hunter_ability_doubleknock"
       },
       "pve_tooltip": "Aimed Shot and Rapid Fire now hit 1 additional target for 35% of their damage.",
@@ -4251,11 +4391,13 @@
           109490
         ],
         "entry_id": 128380,
+        "entry_max_ranks": 1,
         "definition_id": 133186,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Obsidian Arrowhead",
         "spell_id": 471350,
+        "visible_spell_id": null,
         "icon": "ability_theblackarrow"
       },
       "pve_tooltip": "The damage of your auto shot is increased by 25% and its critical strike chance is increased by 15%.",
@@ -4306,11 +4448,13 @@
           109490
         ],
         "entry_id": 128714,
+        "entry_max_ranks": 1,
         "definition_id": 133516,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "On Target",
         "spell_id": 471348,
+        "visible_spell_id": null,
         "icon": "ability_hunter_blindingshot"
       },
       "pve_tooltip": "Your Haste is increased by 2%.",
@@ -4365,11 +4509,13 @@
           103985
         ],
         "entry_id": 137375,
+        "entry_max_ranks": 1,
         "definition_id": 142135,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "No Scope",
         "spell_id": 473385,
+        "visible_spell_id": null,
         "icon": "inv_eng_crowsnestscope"
       },
       "pve_tooltip": "Rapid Fire grants Precise Shots.",
@@ -4423,11 +4569,13 @@
           110574
         ],
         "entry_id": 137378,
+        "entry_max_ranks": 1,
         "definition_id": 142138,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Explosive Shot",
         "spell_id": 212431,
+        "visible_spell_id": null,
         "icon": "ability_hunter_explosiveshot"
       },
       "pve_tooltip": "20 Focus\n40 yd range\nInstant\n30 sec cooldown\nFires an explosive shot at your target that lasts for 3 sec. Every 1 sec the target burns for (307% of Attack Power) Fire damage and explode, dealing 50% of the damage to all enemies within 8 yds. Deals reduced damage beyond 5 targets.",
@@ -4533,11 +4681,13 @@
           103955
         ],
         "entry_id": 132192,
+        "entry_max_ranks": 1,
         "definition_id": 136993,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Light Ammo",
         "spell_id": 378913,
+        "visible_spell_id": null,
         "icon": "ships_ability_armorpiercingammo"
       },
       "pve_tooltip": "Trick Shots now causes Aimed Shot and Rapid Fire to ricochet to 2 additional targets.\nAspect of the Hydra's damage bonus is increased by 15%.",
@@ -4591,11 +4741,13 @@
           103985
         ],
         "entry_id": 135713,
+        "entry_max_ranks": 1,
         "definition_id": 140468,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Kill Shot",
         "spell_id": 53351,
+        "visible_spell_id": null,
         "icon": "ability_hunter_assassinate2"
       },
       "pve_tooltip": "10 Focus\n40 yd range\nInstant\n10 sec cooldown\n1 Charge\nYou attempt to finish off a wounded target, dealing (1050% of Attack Power) Physical damage. Only usable on enemies with less than 20% health.",
@@ -4714,11 +4866,13 @@
           103974
         ],
         "entry_id": 128367,
+        "entry_max_ranks": 1,
         "definition_id": 133173,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Trueshot",
         "spell_id": 288613,
+        "visible_spell_id": null,
         "icon": "ability_trueshot"
       },
       "pve_tooltip": "Instant\n2 min cooldown\nIncreases your critical strike chance by 10% and critical strike damage by 20% for 15 sec.\nAimed Shot\nCooldown recovers 40% faster.\nRapid Fire\nCooldown recovers 60% faster.\n[Applies Spotter's Mark.]",
@@ -4816,11 +4970,13 @@
           103974
         ],
         "entry_id": 137376,
+        "entry_max_ranks": 1,
         "definition_id": 142136,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Tactical Reload",
         "spell_id": 1301406,
+        "visible_spell_id": null,
         "icon": "ability_ironmaidens_bombardment"
       },
       "pve_tooltip": "Explosive Shot has a 100% chance to grant the Lock and Load effect.",
@@ -4871,11 +5027,13 @@
           103974
         ],
         "entry_id": 137635,
+        "entry_max_ranks": 1,
         "definition_id": 142392,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Unstable Trigger",
         "spell_id": 473520,
+        "visible_spell_id": null,
         "icon": "spell_sandexplosion"
       },
       "pve_tooltip": "Explosive Shot can now be used a second time if cast within 3.0 sec. Explosive Shot will incorporate any remaining damage from previous Explosive Shots on your target.",
@@ -4928,11 +5086,13 @@
           103978
         ],
         "entry_id": 137377,
+        "entry_max_ranks": 1,
         "definition_id": 142137,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Precision Detonation",
         "spell_id": 471369,
+        "visible_spell_id": null,
         "icon": "ability_hunter_explosiveshot"
       },
       "pve_tooltip": "Explosive Shot lasts 1.0 sec longer.",
@@ -4983,11 +5143,13 @@
           110691
         ],
         "entry_id": 128375,
+        "entry_max_ranks": 1,
         "definition_id": 133181,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Critical Precision",
         "spell_id": 1277572,
+        "visible_spell_id": null,
         "icon": "ability_impalingbolt"
       },
       "pve_tooltip": "Precise Shots now increases the critical strike chance of Arcane Shot and Multi-Shot by 10%",
@@ -5038,11 +5200,13 @@
           103950
         ],
         "entry_id": 135714,
+        "entry_max_ranks": 1,
         "definition_id": 140469,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Deathblow",
         "spell_id": 343248,
+        "visible_spell_id": null,
         "icon": "ability_hunter_runningshot"
       },
       "pve_tooltip": "Aimed Shot has a 10% chance to cause your next Aimed Shot to grant Deathblow.\nDeathblow\nThe cooldown of Kill Shot is reset. Your next can be used on any target, regardless of their current health.",
@@ -5093,11 +5257,13 @@
           103950
         ],
         "entry_id": 128715,
+        "entry_max_ranks": 1,
         "definition_id": 133517,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Deadeye",
         "spell_id": 321460,
+        "visible_spell_id": null,
         "icon": "spell_hunter_focusingshot"
       },
       "pve_tooltip": "Kill Shot now has 2 charges and has its cooldown reduced by 2.0 sec.",
@@ -5150,11 +5316,13 @@
           103950
         ],
         "entry_id": 128407,
+        "entry_max_ranks": 1,
         "definition_id": 133213,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Bullseye",
         "spell_id": 204089,
+        "visible_spell_id": null,
         "icon": "ability_hunter_focusedaim"
       },
       "pve_tooltip": "When your abilities damage a target below 20% health, you gain 1% increased critical strike chance for 6 sec, stacking up to 30 times.\n(100ms cooldown)",
@@ -5205,11 +5373,13 @@
           103958
         ],
         "entry_id": 128406,
+        "entry_max_ranks": 1,
         "definition_id": 133212,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Feathered Frenzy",
         "spell_id": 470943,
+        "visible_spell_id": null,
         "icon": "inv_111_hunter_ability_featheredfrenzy"
       },
       "pve_tooltip": "Trueshot sends your Spotting Eagle into a frenzy, instantly applying Spotter's Mark to your target.\nDuring Trueshot, your chance to apply Spotter's Mark is increased by 100%.",
@@ -5262,11 +5432,13 @@
           103978
         ],
         "entry_id": 128396,
+        "entry_max_ranks": 1,
         "definition_id": 133202,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Master Marksman",
         "spell_id": 260309,
+        "visible_spell_id": null,
         "icon": "ability_hunter_mastermarksman"
       },
       "pve_tooltip": "Your ranged ability critical strikes cause the target to bleed for an additional 10% of the damage dealt over 6 sec.",
@@ -5318,11 +5490,13 @@
           103978
         ],
         "entry_id": 137506,
+        "entry_max_ranks": 1,
         "definition_id": 142266,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Eagle's Accuracy",
         "spell_id": 473369,
+        "visible_spell_id": null,
         "icon": "ability_hunter_silenthunter"
       },
       "pve_tooltip": "Aimed Shot deals 5% increased damage.\nRapid Fire deals 10% increased damage.",
@@ -5376,11 +5550,13 @@
           103962
         ],
         "entry_id": 128370,
+        "entry_max_ranks": 2,
         "definition_id": 133176,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Unmatched Precision",
         "spell_id": 1232955,
+        "visible_spell_id": null,
         "icon": "hunter_pvp_snipershot"
       },
       "pve_tooltip": "The damage bonus of Precise Shots is increased by an additional 20%.",
@@ -5398,6 +5574,7 @@
           "pve_tooltip": "The damage bonus of Precise Shots is increased by an additional 10%.",
           "pvp_tooltip": "The damage bonus of Precise Shots is increased by an additional 10%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -5406,6 +5583,7 @@
           "pve_tooltip": "The damage bonus of Precise Shots is increased by an additional 20%.",
           "pvp_tooltip": "The damage bonus of Precise Shots is increased by an additional 20%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -5450,11 +5628,13 @@
           103956
         ],
         "entry_id": 128379,
+        "entry_max_ranks": 1,
         "definition_id": 133185,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Calling the Shots",
         "spell_id": 260404,
+        "visible_spell_id": null,
         "icon": "ability_hunter_assassinate"
       },
       "pve_tooltip": "Trueshot's cooldown is reduced by 30 sec.",
@@ -5507,11 +5687,13 @@
           103956
         ],
         "entry_id": 132194,
+        "entry_max_ranks": 1,
         "definition_id": 136995,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Unerring Vision",
         "spell_id": 474738,
+        "visible_spell_id": null,
         "icon": "spell_hunter_exoticmunitions_frozen"
       },
       "pve_tooltip": "Trueshot now increases your critical strike chance by an additional 10% and increases your critical strike damage by an additional 20%.",
@@ -5656,11 +5838,13 @@
           103979
         ],
         "entry_id": 128400,
+        "entry_max_ranks": 2,
         "definition_id": 133206,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Small Game Hunter",
         "spell_id": 459802,
+        "visible_spell_id": null,
         "icon": "inv_rabbit2_darkmoon"
       },
       "pve_tooltip": "Explosive Shot deals 16% increased damage and Volley deals 24% increased damage.",
@@ -5678,6 +5862,7 @@
           "pve_tooltip": "Explosive Shot deals 8% increased damage and Volley deals 12% increased damage.",
           "pvp_tooltip": "Explosive Shot deals 8% increased damage and Volley deals 12% increased damage.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -5686,6 +5871,7 @@
           "pve_tooltip": "Explosive Shot deals 16% increased damage and Volley deals 24% increased damage.",
           "pvp_tooltip": "Explosive Shot deals 16% increased damage and Volley deals 24% increased damage.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -5728,11 +5914,13 @@
           103952
         ],
         "entry_id": 128716,
+        "entry_max_ranks": 1,
         "definition_id": 133518,
         "entry_index": 300,
         "entry_type": "passive",
         "talent_name": "Focused Aim",
         "spell_id": 378767,
+        "visible_spell_id": null,
         "icon": "inv_engineering_snipingscope"
       },
       "pve_tooltip": "Consuming Precise Shots reduces the cooldown of Aimed Shot by 1.00 sec.",
@@ -5784,11 +5972,13 @@
           107290
         ],
         "entry_id": 128384,
+        "entry_max_ranks": 1,
         "definition_id": 133190,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Bulletstorm",
         "spell_id": 389019,
+        "visible_spell_id": null,
         "icon": "ability_hunter_markedshot"
       },
       "pve_tooltip": "Rapid Fire increases the damage of your next Aimed Shot by 20%.",
@@ -5837,11 +6027,13 @@
         ],
         "next": [],
         "entry_id": 128388,
+        "entry_max_ranks": 1,
         "definition_id": 133194,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Tensile Bowstring",
         "spell_id": 471366,
+        "visible_spell_id": null,
         "icon": "inv_archaeology_70_tauren_stonewoodbow"
       },
       "pve_tooltip": "Trueshot now also reduces the cast time of Aimed Shot by 40% and reduces the Focus cost of Aimed Shot by 60%.",
@@ -5893,11 +6085,13 @@
           103960
         ],
         "entry_id": 128376,
+        "entry_max_ranks": 1,
         "definition_id": 133182,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Volley",
         "spell_id": 260243,
+        "visible_spell_id": null,
         "icon": "ability_hunter_rapidkilling"
       },
       "pve_tooltip": "40 yd range\nInstant\n45 sec cooldown\nRain a volley of arrows down over 6 sec, dealing up to [(168% of Attack Power) * 12] Physical damage to any enemy in the area, and gain the effects of Trick Shots for as long as Volley is active.",
@@ -6008,11 +6202,13 @@
           104095
         ],
         "entry_id": 128401,
+        "entry_max_ranks": 1,
         "definition_id": 133207,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Focus Fire",
         "spell_id": 1277546,
+        "visible_spell_id": null,
         "icon": "ability_hunter_focusfire"
       },
       "pve_tooltip": "When Surging Shots resets the cooldown of Rapid Fire, the damage of your next Rapid Fire is increased by 20%.",
@@ -6061,11 +6257,13 @@
         ],
         "next": [],
         "entry_id": 128372,
+        "entry_max_ranks": 1,
         "definition_id": 133178,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Windrunner Quiver",
         "spell_id": 473523,
+        "visible_spell_id": null,
         "icon": "inv_quiver_1h_hunter_c_01_green"
       },
       "pve_tooltip": "Rapid Fire damage increased by 10%.\nRapid Fire has a 30% chance to grant the Lock and Load effect.",
@@ -6114,11 +6312,13 @@
         ],
         "next": [],
         "entry_id": 132195,
+        "entry_max_ranks": 1,
         "definition_id": 136996,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Accuracy By Volume",
         "spell_id": 471428,
+        "visible_spell_id": null,
         "icon": "inv12_ability_hunter_fierymunitions"
       },
       "pve_tooltip": "Bulletstorm now affects 1 additional Aimed Shot.",
@@ -6167,11 +6367,13 @@
         ],
         "next": [],
         "entry_id": 128381,
+        "entry_max_ranks": 1,
         "definition_id": 133187,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Salvo",
         "spell_id": 400456,
+        "visible_spell_id": null,
         "icon": "spell_hunter_exoticmunitions_incendiary"
       },
       "pve_tooltip": "Volley now also applies Explosive Shot to up to 2 targets hit.\nExplosive Shot\nFires an explosive shot at your target that lasts for 3 sec. Every 1 sec the target burns for (307% of Attack Power) Fire damage and explode, dealing 50% of the damage to all enemies within 8 yds. Deals reduced damage beyond 5 targets.",
@@ -6220,11 +6422,13 @@
         ],
         "next": [],
         "entry_id": 128609,
+        "entry_max_ranks": 1,
         "definition_id": 133412,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unload",
         "spell_id": 1277548,
+        "visible_spell_id": null,
         "icon": "ability_hunter_efficiency_brown"
       },
       "pve_tooltip": "When Rapid Fire begins and finishes channeling, it releases an Arcane Shot at 100% effectiveness.\nIf your target is below 20% health, Rapid Fire instead releases Kill Shots.",
@@ -6318,11 +6522,13 @@
         "prev": [],
         "next": [],
         "entry_id": 137058,
+        "entry_max_ranks": 1,
         "definition_id": 141821,
         "entry_index": 100,
         "entry_type": "tierrank",
         "talent_name": "Take Aim",
         "spell_id": 1273132,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_hunter_deadlyinsight"
       },
       "pve_tooltip": "Rapid Fire damage increased by 25%.\nEach shot fired from Rapid Fire reduces the cooldown of Aimed Shot by 0.50 sec.",
@@ -6369,15 +6575,17 @@
         "prev": [],
         "next": [],
         "entry_id": 137057,
+        "entry_max_ranks": 2,
         "definition_id": 141820,
         "entry_index": 200,
         "entry_type": "tierrank",
         "talent_name": "Take Aim",
         "spell_id": 1273129,
+        "visible_spell_id": null,
         "icon": "ability_hunter_wildquiver"
       },
-      "pve_tooltip": "The critical damage of your abilities is increased by 5%.\nThe damage of your ranged abilities is increased by 3%.",
-      "pvp_tooltip": "The critical damage of your abilities is increased by 5%.\nThe damage of your ranged abilities is increased by 3%.",
+      "pve_tooltip": "The critical damage of your abilities is increased by 10%.\nThe damage of your ranged abilities is increased by 6%.",
+      "pvp_tooltip": "The critical damage of your abilities is increased by 10%.\nThe damage of your ranged abilities is increased by 6%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6385,7 +6593,26 @@
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "The critical damage of your abilities is increased by 5%.\nThe damage of your ranged abilities is increased by 3%.",
+          "pvp_tooltip": "The critical damage of your abilities is increased by 5%.\nThe damage of your ranged abilities is increased by 3%.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "The critical damage of your abilities is increased by 10%.\nThe damage of your ranged abilities is increased by 6%.",
+          "pvp_tooltip": "The critical damage of your abilities is increased by 10%.\nThe damage of your ranged abilities is increased by 6%.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Take Aim",
@@ -6420,11 +6647,13 @@
         "prev": [],
         "next": [],
         "entry_id": 137056,
+        "entry_max_ranks": 1,
         "definition_id": 141819,
         "entry_index": 300,
         "entry_type": "tierrank",
         "talent_name": "Take Aim",
         "spell_id": 1273128,
+        "visible_spell_id": null,
         "icon": "inv_spear_07"
       },
       "pve_tooltip": "Spotter's Mark now also increases the damage of your next Rapid Fire against the target by 20%.",
@@ -6507,11 +6736,13 @@
           109801
         ],
         "entry_id": 117584,
+        "entry_max_ranks": 1,
         "definition_id": 122596,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Black Arrow",
         "spell_id": 466932,
+        "visible_spell_id": null,
         "icon": "inv_ability_darkrangerhunter_blackarrow"
       },
       "pve_tooltip": "Your Kill Shot is replaced with Black Arrow.\nBlack Arrow\nYou attempt to finish off a wounded target, dealing (348.4% of Attack Power) Shadow damage and (400% of Attack Power) Shadow damage over 8 sec. Only usable on enemies above 80% health or below 20% health.",
@@ -6611,11 +6842,13 @@
           109807
         ],
         "entry_id": 117573,
+        "entry_max_ranks": 1,
         "definition_id": 122585,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sentinel",
         "spell_id": 1253599,
+        "visible_spell_id": null,
         "icon": "inv_ability_sentinelhunter_lunarstorm"
       },
       "pve_tooltip": "Your Eagle is replaced with a Sentinel Owl that applies an enhanced Sentinel's Mark.\nSentinel's Mark\nYour next Aimed Shot deals 20% increased direct damage to the marked target.",
@@ -6666,11 +6899,13 @@
           94986
         ],
         "entry_id": 117558,
+        "entry_max_ranks": 1,
         "definition_id": 122570,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Bleak Arrows",
         "spell_id": 467749,
+        "visible_spell_id": null,
         "icon": "inv_quiver_1h_mawraid_d_01"
       },
       "pve_tooltip": "Your auto shot now deals Shadow damage, allowing it to bypass armor.\nAuto shot damage increased by 100%.",
@@ -6721,11 +6956,13 @@
           94959
         ],
         "entry_id": 117565,
+        "entry_max_ranks": 1,
         "definition_id": 122577,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Soul Drinker",
         "spell_id": 469638,
+        "visible_spell_id": null,
         "icon": "ability_warlock_soulsiphon"
       },
       "pve_tooltip": "Aimed Shot's chance to grant Deathblow is increased by 10%. Rapid Fire has a 100% chance to grant Deathblow.\nDeathblow\nThe cooldown of is reset. Your next can be used on any target, regardless of their current health.",
@@ -6776,11 +7013,13 @@
           94960
         ],
         "entry_id": 117571,
+        "entry_max_ranks": 1,
         "definition_id": 122583,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Bleak Powder",
         "spell_id": 467911,
+        "visible_spell_id": null,
         "icon": "inv_misc_powder_tin"
       },
       "pve_tooltip": "Black Arrow now explodes in a cloud of shadow and sulfur on impact, dealing (250% of Attack Power) Shadow damage to all enemies within an 8 yd cone behind the target. Damage reduced beyond 8 targets.\n(700ms cooldown)",
@@ -6931,11 +7170,13 @@
           109800
         ],
         "entry_id": 136059,
+        "entry_max_ranks": 1,
         "definition_id": 140814,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Corpsecaller",
         "spell_id": 1264289,
+        "visible_spell_id": null,
         "icon": "ability_fiegndead"
       },
       "pve_tooltip": "Approximately 0.5 procs per minute\nBlack Arrow's periodic damage has a small chance to rouse the dead, summoning a Dark Minion to fight alongside you for 20 sec.",
@@ -6986,11 +7227,13 @@
           94958
         ],
         "entry_id": 117586,
+        "entry_max_ranks": 1,
         "definition_id": 122598,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Don't Look Back",
         "spell_id": 450373,
+        "visible_spell_id": null,
         "icon": "ability_racial_forceshield"
       },
       "pve_tooltip": "Consuming Sentinel's Mark grants you an absorb shield equal to 10.0% of your maximum health.",
@@ -7113,11 +7356,13 @@
           94990
         ],
         "entry_id": 117570,
+        "entry_max_ranks": 1,
         "definition_id": 122582,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Moon's Blessing",
         "spell_id": 1253825,
+        "visible_spell_id": null,
         "icon": "spell_druid_lunarinspiration"
       },
       "pve_tooltip": "Consuming Precise Shots has a 10% increased chance to summon your Sentinel Owl.\nWhen your Sentinel Owl applies Sentinel's Mark, reduce the cooldown of Aimed Shot by 1.0 sec.",
@@ -7168,11 +7413,13 @@
           94971
         ],
         "entry_id": 117578,
+        "entry_max_ranks": 1,
         "definition_id": 122590,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sanctified Armaments",
         "spell_id": 1253831,
+        "visible_spell_id": null,
         "icon": "inv_polearm_2h_arakkoa_c_01"
       },
       "pve_tooltip": "An additional 25% of Rapid Fire's damage is dealt as Arcane damage over 6 sec.",
@@ -7223,11 +7470,13 @@
           110028
         ],
         "entry_id": 136065,
+        "entry_max_ranks": 1,
         "definition_id": 140820,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Moonlight Chakram",
         "spell_id": 1264902,
+        "visible_spell_id": null,
         "icon": "inv_ability_hunter_deathchakram"
       },
       "pve_tooltip": "For 15 sec after casting Trueshot, Trueshot is replaced with Moonlight Chakram.\nMoonlight Chakram\nThrow a chakram blessed with moonlight at your current target that will rapidly deal (284.4% of Attack Power) Physical damage 7 times, bouncing to other targets if they are nearby.\n(1s cooldown)",
@@ -7282,7 +7531,7 @@
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 1264902,
           "source_spell_id": 459753,
           "effect_index": 1,
@@ -7301,7 +7550,7 @@
             459753
           ],
           "dependency_relations": [
-            "trigger_spell",
+            "tooltip_value_ref",
             "spelldesc_ref",
             "tooltip_value_ref"
           ],
@@ -7355,11 +7604,13 @@
           94983
         ],
         "entry_id": 117583,
+        "entry_max_ranks": 1,
         "definition_id": 122595,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ebon Bowstring",
         "spell_id": 467897,
+        "visible_spell_id": null,
         "icon": "inv_10_tailoring_craftingoptionalreagent_enhancedspellthread_color4"
       },
       "pve_tooltip": "Casting Black Arrow has a 15% chance to grant Deathblow.\nDeathblow\nThe cooldown of is reset. Your next can be used on any target, regardless of their current health.",
@@ -7410,11 +7661,13 @@
           94983
         ],
         "entry_id": 136742,
+        "entry_max_ranks": 1,
         "definition_id": 141514,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Through the Eyes",
         "spell_id": 1277565,
+        "visible_spell_id": null,
         "icon": "ability_cheapshot"
       },
       "pve_tooltip": "Kill Shot damage increased by 10%.",
@@ -7465,11 +7718,13 @@
           94957
         ],
         "entry_id": 123779,
+        "entry_max_ranks": 1,
         "definition_id": 128617,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Smoke Screen",
         "spell_id": 430709,
+        "visible_spell_id": null,
         "icon": "spell_warlock_demonsoul"
       },
       "pve_tooltip": "Exhilaration grants you 3 sec of Survival of the Fittest.\nSurvival of the Fittest activates Exhilaration at 50% effectiveness.",
@@ -7520,11 +7775,13 @@
           94982
         ],
         "entry_id": 117557,
+        "entry_max_ranks": 1,
         "definition_id": 122569,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Dark Chains",
         "spell_id": 430712,
+        "visible_spell_id": null,
         "icon": "inv_belt_44c"
       },
       "pve_tooltip": "While in combat, Disengage will chain the closest target to the ground, causing them to move 40% slower until they move 8 yards away.",
@@ -7627,24 +7884,47 @@
           94982
         ],
         "entry_id": 128219,
+        "entry_max_ranks": 1,
         "definition_id": 133026,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Shadow Dagger",
         "spell_id": 467741,
+        "visible_spell_id": null,
         "icon": "ability_throw"
       },
       "pve_tooltip": "While in combat, Disengage releases a fan of shadow daggers, dealing (0.5% of Attack Power) Shadow damage per second and reducing affected target's movement speed by 30% for 6 sec.",
-      "pvp_tooltip": "While in combat, Disengage releases a fan of shadow daggers, dealing (0.5% of Attack Power) Shadow damage per second and reducing affected target's movement speed by 30% for 6 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "While in combat, Disengage releases a fan of shadow daggers, dealing (0.5% of Attack Power) Shadow damage per second and reducing affected target's movement speed by 20% for 6 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 166,
+          "end": 168,
+          "old_token": "30",
+          "new_token": "20",
+          "kind": "percent_value",
+          "effect_indexes": [
+            2
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "30",
+          "new": "20"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 467741,
           "source_spell_id": 467745,
           "effect_index": 2,
@@ -7661,7 +7941,7 @@
             467745
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -7673,7 +7953,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -7713,11 +7993,13 @@
           109799
         ],
         "entry_id": 136058,
+        "entry_max_ranks": 1,
         "definition_id": 140813,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Wailing Dead",
         "spell_id": 1264290,
+        "visible_spell_id": null,
         "icon": "ability_deathknight_summongargoyle"
       },
       "pve_tooltip": "Trueshot summons a Dark Minion.\nFor 15 sec after casting Trueshot, Trueshot is replaced with Wailing Arrow.\nWailing Arrow\nFire an enchanted arrow, dealing (1400% of Attack Power) Shadow damage to your target and an additional (700% of Attack Power) Shadow damage to all enemies within 8 yds of your target. Non-Player targets struck by a Wailing Arrow have their spellcasting interrupted and are silenced for 1 sec.\nGrants Deathblow.\n(1s cooldown)",
@@ -7749,7 +8031,7 @@
           ],
           "dependency_relations": [
             "spelldesc_ref",
-            "triggered_by_reverse"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -7789,7 +8071,7 @@
           ],
           "dependency_relations": [
             "spelldesc_ref",
-            "triggered_by_reverse"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -7849,11 +8131,13 @@
           94970
         ],
         "entry_id": 117555,
+        "entry_max_ranks": 1,
         "definition_id": 122567,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Stargazer",
         "spell_id": 1253751,
+        "visible_spell_id": null,
         "icon": "icon_7fx_nightborn_astromancer_blue"
       },
       "pve_tooltip": "Consuming Precise Shots grants 2% increased critical strike damage for 10 sec. Multiple applications may overlap.",
@@ -7904,11 +8188,13 @@
           94970
         ],
         "entry_id": 135589,
+        "entry_max_ranks": 1,
         "definition_id": 140345,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Open Fire",
         "spell_id": 1253807,
+        "visible_spell_id": null,
         "icon": "spell_fire_flare"
       },
       "pve_tooltip": "Volley damage increased by 25%.",
@@ -7959,11 +8245,13 @@
           94965
         ],
         "entry_id": 117587,
+        "entry_max_ranks": 1,
         "definition_id": 122599,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Can't Miss, Won't Miss",
         "spell_id": 1253830,
+        "visible_spell_id": null,
         "icon": "ability_hunter_aimedshot"
       },
       "pve_tooltip": "Precise Shots damage bonus increased by 10%.\nTrueshot duration increased by 2 sec.",
@@ -8014,11 +8302,13 @@
           94980
         ],
         "entry_id": 117568,
+        "entry_max_ranks": 1,
         "definition_id": 122580,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Invigorating Pulse",
         "spell_id": 450379,
+        "visible_spell_id": null,
         "icon": "ability_mage_netherwindpresence"
       },
       "pve_tooltip": "Steady Shot grants an additional 5 Focus and its damage is increased by 20%.\nMaximum Focus increased by 25.",
@@ -8069,11 +8359,13 @@
           109805
         ],
         "entry_id": 136522,
+        "entry_max_ranks": 1,
         "definition_id": 141295,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Twilight Requiem",
         "spell_id": 1264904,
+        "visible_spell_id": null,
         "icon": "spell_nature_moonglow"
       },
       "pve_tooltip": "When your Moonlight Chakram expires, it summons an explosion of moonlight, dealing (200% of Attack Power) Arcane damage to nearby enemies. Damage reduced beyond 8 targets.",
@@ -8184,11 +8476,13 @@
           109805
         ],
         "entry_id": 136521,
+        "entry_max_ranks": 1,
         "definition_id": 141294,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Stalk and Strike",
         "spell_id": 1266069,
+        "visible_spell_id": null,
         "icon": "ability_ambush"
       },
       "pve_tooltip": "Throwing your Moonlight Chakram grants you Lock and Load.",
@@ -8239,11 +8533,13 @@
           94993
         ],
         "entry_id": 128238,
+        "entry_max_ranks": 1,
         "definition_id": 133045,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Blighted Quiver",
         "spell_id": 1264291,
+        "visible_spell_id": null,
         "icon": "inv_quiver_1h_sylvanas_d_01"
       },
       "pve_tooltip": "You fire 2 additional Black Arrows during Withering Fire's barrage.\nTrick Shots damage bonus increased by 10%. Aspect of the Hydra's damage bonus increased by 12%.",
@@ -8294,11 +8590,13 @@
           94993
         ],
         "entry_id": 117554,
+        "entry_max_ranks": 1,
         "definition_id": 122566,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Banshee's Mark",
         "spell_id": 467902,
+        "visible_spell_id": null,
         "icon": "achievement_leader_sylvanas"
       },
       "pve_tooltip": "Black Arrow and Bleak Powder critical strike damage increased by 10%.",
@@ -8349,11 +8647,13 @@
           94993
         ],
         "entry_id": 136231,
+        "entry_max_ranks": 1,
         "definition_id": 141004,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "The Bell Tolls",
         "spell_id": 467644,
+        "visible_spell_id": null,
         "icon": "spell_shadow_animatedead"
       },
       "pve_tooltip": "Critical strike chance increased by 3%.\nDark Minion damage increased by 10%.",
@@ -8404,11 +8704,13 @@
           94993
         ],
         "entry_id": 132888,
+        "entry_max_ranks": 1,
         "definition_id": 137674,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Umbral Reach",
         "spell_id": 1235397,
+        "visible_spell_id": null,
         "icon": "spell_deathknight_strangulate"
       },
       "pve_tooltip": "Bleak Powder now applies Black Arrow's periodic effect to all enemies it damages.\nIf Bleak Powder damages 2 or more enemies, gain Trick Shots if talented.",
@@ -8459,11 +8761,13 @@
           94993
         ],
         "entry_id": 136057,
+        "entry_max_ranks": 1,
         "definition_id": 140812,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Pact of the Hollow",
         "spell_id": 1264690,
+        "visible_spell_id": null,
         "icon": "ability_creature_cursed_03"
       },
       "pve_tooltip": "Aimed Shot causes your Dark Minion to fire a Blighted Arrow, dealing (500% of Attack Power) Shadow damage to up to 8 nearby enemies.",
@@ -8514,12 +8818,14 @@
           94978
         ],
         "entry_id": 117567,
+        "entry_max_ranks": 1,
         "definition_id": 122579,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Arcane Talons",
         "spell_id": 1253846,
-        "icon": "inv_10_specialreagentfoozles_tuskclaw_ice"
+        "visible_spell_id": null,
+        "icon": "inv_10_specialreagentfoozles_tuskclaw-ice"
       },
       "pve_tooltip": "Sentinel's Mark further increases the damage of Aimed Shot by 15%",
       "pvp_tooltip": "Sentinel's Mark further increases the damage of Aimed Shot by 15%",
@@ -8569,11 +8875,13 @@
           94978
         ],
         "entry_id": 117562,
+        "entry_max_ranks": 1,
         "definition_id": 122574,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lunar Calling",
         "spell_id": 1253852,
+        "visible_spell_id": null,
         "icon": "ability_hunter_sentinelowl"
       },
       "pve_tooltip": "Feathered Frenzy further increases your chance to summon your Sentinel Owl during Trueshot by 10%.",
@@ -8624,11 +8932,13 @@
           94978
         ],
         "entry_id": 117577,
+        "entry_max_ranks": 1,
         "definition_id": 122589,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Conditioning",
         "spell_id": 1253887,
+        "visible_spell_id": null,
         "icon": "ability_racial_runningwild"
       },
       "pve_tooltip": "Your movement speed is increased by 8%.\nAspect of the Cheetah's cooldown is reduced by 30 sec.",
@@ -8679,11 +8989,13 @@
           94978
         ],
         "entry_id": 123870,
+        "entry_max_ranks": 1,
         "definition_id": 128708,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Scout's Vigil",
         "spell_id": 1253892,
+        "visible_spell_id": null,
         "icon": "sha_ability_rogue_bloodyeye"
       },
       "pve_tooltip": "Enemy detection radius reduced by 10 yds.",
@@ -8734,11 +9046,13 @@
           94978
         ],
         "entry_id": 136063,
+        "entry_max_ranks": 1,
         "definition_id": 140818,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Radiant Edge",
         "spell_id": 1264903,
+        "visible_spell_id": null,
         "icon": "inv_misc_nightelfglaive"
       },
       "pve_tooltip": "Your Moonlight Chakram deals 25% increased damage each time it bounces.",
@@ -8844,11 +9158,13 @@
         ],
         "next": [],
         "entry_id": 117590,
+        "entry_max_ranks": 1,
         "definition_id": 122602,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Withering Fire",
         "spell_id": 466990,
+        "visible_spell_id": null,
         "icon": "spell_shadow_painspike"
       },
       "pve_tooltip": "Trueshot causes you to surrender to darkness, granting you Withering Fire for the duration of Trueshot and Deathblow.\nWithering Fire\nCasting Black Arrow fires a barrage of 2 additional Black Arrows at nearby targets at 30% effectiveness, prioritizing enemies that aren't affected by Black Arrow's damage over time effect.",
@@ -8977,11 +9293,13 @@
         ],
         "next": [],
         "entry_id": 117575,
+        "entry_max_ranks": 1,
         "definition_id": 122587,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lunar Storm",
         "spell_id": 1253732,
+        "visible_spell_id": null,
         "icon": "artifactability_balancedruid_moonandstars"
       },
       "pve_tooltip": "When Sentinel's Mark is consumed, it summons a barrage of 4 lunar missiles, each dealing (200% of Attack Power) Arcane damage to enemies within 10 yds.",
@@ -9057,6 +9375,285 @@
     }
   ],
   "fetch_errors": [],
+  "serialization": {
+    "version": 2,
+    "spec_id": 254,
+    "node_order": [
+      79837,
+      94957,
+      94958,
+      94959,
+      94960,
+      94961,
+      94962,
+      94965,
+      94966,
+      94967,
+      94968,
+      94969,
+      94970,
+      94971,
+      94972,
+      94973,
+      94974,
+      94976,
+      94978,
+      94979,
+      94980,
+      94981,
+      94982,
+      94983,
+      94984,
+      94985,
+      94986,
+      94987,
+      94988,
+      94989,
+      94990,
+      94991,
+      94992,
+      94993,
+      99831,
+      99832,
+      99833,
+      102252,
+      102255,
+      102257,
+      102262,
+      102263,
+      102264,
+      102268,
+      102270,
+      102272,
+      102279,
+      102281,
+      102282,
+      102285,
+      102289,
+      102292,
+      102336,
+      102337,
+      102338,
+      102340,
+      102341,
+      102342,
+      102343,
+      102344,
+      102345,
+      102346,
+      102347,
+      102350,
+      102351,
+      102353,
+      102354,
+      102355,
+      102356,
+      102357,
+      102358,
+      102359,
+      102360,
+      102362,
+      102363,
+      102364,
+      102365,
+      102367,
+      102368,
+      102369,
+      102370,
+      102371,
+      102372,
+      102373,
+      102374,
+      102375,
+      102376,
+      102377,
+      102380,
+      102381,
+      102383,
+      102384,
+      102387,
+      102389,
+      102390,
+      102391,
+      102393,
+      102394,
+      102395,
+      102396,
+      102397,
+      102401,
+      102402,
+      102404,
+      102406,
+      102407,
+      102409,
+      102411,
+      102412,
+      102414,
+      102415,
+      102416,
+      102418,
+      102419,
+      102422,
+      102423,
+      102424,
+      102425,
+      103947,
+      103950,
+      103952,
+      103955,
+      103956,
+      103957,
+      103958,
+      103959,
+      103960,
+      103961,
+      103962,
+      103964,
+      103966,
+      103974,
+      103975,
+      103977,
+      103978,
+      103979,
+      103982,
+      103984,
+      103985,
+      103986,
+      103987,
+      103989,
+      103990,
+      104095,
+      104127,
+      104130,
+      107285,
+      107286,
+      107288,
+      107289,
+      107290,
+      109304,
+      109305,
+      109306,
+      109307,
+      109309,
+      109310,
+      109311,
+      109312,
+      109313,
+      109316,
+      109317,
+      109319,
+      109320,
+      109321,
+      109323,
+      109324,
+      109470,
+      109483,
+      109484,
+      109485,
+      109486,
+      109487,
+      109488,
+      109489,
+      109490,
+      109491,
+      109799,
+      109800,
+      109801,
+      109802,
+      109803,
+      109804,
+      109805,
+      109807,
+      109961,
+      110028,
+      110152,
+      110153,
+      110154,
+      110155,
+      110156,
+      110157,
+      110158,
+      110159,
+      110160,
+      110161,
+      110162,
+      110163,
+      110164,
+      110428,
+      110429,
+      110430,
+      110572,
+      110573,
+      110574,
+      110575,
+      110688,
+      110691,
+      110692
+    ],
+    "subtree_nodes": [
+      {
+        "id": 99831,
+        "name": "Dark Ranger / Sentinel",
+        "type": "subtree",
+        "posX": 8100,
+        "posY": 600,
+        "entryNode": true,
+        "next": [],
+        "prev": [],
+        "entries": [
+          {
+            "id": 123346,
+            "type": "subtree",
+            "name": "Dark Ranger",
+            "traitSubTreeId": 44,
+            "traitTreeId": 774,
+            "atlasMemberName": "talents-heroclass-hunter-darkranger",
+            "nodes": [
+              94987,
+              109961,
+              94961,
+              94968,
+              94974,
+              109801,
+              94986,
+              94959,
+              94960,
+              109800,
+              94983,
+              94957,
+              94982,
+              109799,
+              94993
+            ]
+          },
+          {
+            "id": 123345,
+            "type": "subtree",
+            "name": "Sentinel",
+            "traitSubTreeId": 42,
+            "traitTreeId": 774,
+            "atlasMemberName": "talents-heroclass-hunter-sentinel",
+            "nodes": [
+              94976,
+              94989,
+              94973,
+              94981,
+              109807,
+              94958,
+              94990,
+              94971,
+              110028,
+              94970,
+              94965,
+              94980,
+              109805,
+              94978
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "source_warnings": [
     {
       "spell_id": 19434,
@@ -9069,10 +9666,10 @@
     }
   ],
   "slug": "hunter-marksmanship",
-  "generated_at": "2026-09-21T12:51:04.240693+00:00",
+  "generated_at": "2026-09-21T19:39:41.830934+00:00",
   "validation": {
     "talents": 130,
-    "changed_tooltips": 22,
+    "changed_tooltips": 23,
     "talents_with_pvp_mechanics": 29,
     "unique_nodes": 110,
     "tree_build": "12.1.0.69875",

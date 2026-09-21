@@ -43,11 +43,13 @@
           71952
         ],
         "entry_id": 91439,
+        "entry_max_ranks": 1,
         "definition_id": 96441,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Fel Domination",
         "spell_id": 333889,
+        "visible_spell_id": null,
         "icon": "spell_shadow_felmending"
       },
       "pve_tooltip": "Instant\n3 min cooldown\nYour next Imp, Voidwalker, Incubus, Succubus, Felhunter, or Felguard Summon spell is free and has its casting time reduced by 90%.",
@@ -97,11 +99,13 @@
           71950
         ],
         "entry_id": 91441,
+        "entry_max_ranks": 1,
         "definition_id": 96443,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Soul Leech",
         "spell_id": 1311653,
+        "visible_spell_id": null,
         "icon": "warlock_siphonlife"
       },
       "pve_tooltip": "All single-target damage done by you and your minions grants you and your pet shadowy shields that absorb 3% of the damage dealt for 15 sec, up to 5 / Demon Skin: 10 / Illhoof's Design: 20 / Fortified Soul: 10% of maximum health.",
@@ -151,11 +155,13 @@
           71948
         ],
         "entry_id": 91460,
+        "entry_max_ranks": 1,
         "definition_id": 96462,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Burning Rush",
         "spell_id": 111400,
+        "visible_spell_id": null,
         "icon": "ability_deathwing_sealarmorbreachtga"
       },
       "pve_tooltip": "Instant\nIncreases your movement speed by 50%, but also damages you for 4% of your maximum health every 1 sec. Movement impairing effects may not reduce you below 100% of normal movement speed. Lasts until canceled.",
@@ -206,11 +212,13 @@
           71930
         ],
         "entry_id": 91440,
+        "entry_max_ranks": 1,
         "definition_id": 96442,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fel Pact",
         "spell_id": 386113,
+        "visible_spell_id": null,
         "icon": "spell_shadow_impphaseshift"
       },
       "pve_tooltip": "Reduces the cooldown of Fel Domination by 60 sec.",
@@ -263,11 +271,13 @@
           71916
         ],
         "entry_id": 91463,
+        "entry_max_ranks": 2,
         "definition_id": 96465,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Demon Skin",
         "spell_id": 219272,
+        "visible_spell_id": null,
         "icon": "spell_shadow_ragingscream"
       },
       "pve_tooltip": "Your Soul Leech absorption now passively recharges at a rate of 0.2% of maximum health every 1 sec, and may now absorb an additional 10% of maximum health.\nIncreases your armor by 90%.",
@@ -332,6 +342,18 @@
           "pve_tooltip": "Your Soul Leech absorption now passively recharges at a rate of 0.1% of maximum health every 1 sec, and may now absorb an additional 5% of maximum health.\nIncreases your armor by 45%.",
           "pvp_tooltip": "Your Soul Leech absorption now passively recharges at a rate of 0.1% of maximum health every 1 sec, and may now absorb an additional 5% of maximum health.\nIncreases your armor by 58.5%.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 179,
+              "end": 181,
+              "old_token": "45",
+              "new_token": "58.5",
+              "kind": "ordinary_value",
+              "effect_indexes": [
+                4
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -340,6 +362,18 @@
           "pve_tooltip": "Your Soul Leech absorption now passively recharges at a rate of 0.2% of maximum health every 1 sec, and may now absorb an additional 10% of maximum health.\nIncreases your armor by 90%.",
           "pvp_tooltip": "Your Soul Leech absorption now passively recharges at a rate of 0.2% of maximum health every 1 sec, and may now absorb an additional 10% of maximum health.\nIncreases your armor by 117%.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 180,
+              "end": 182,
+              "old_token": "90",
+              "new_token": "117",
+              "kind": "ordinary_value",
+              "effect_indexes": [
+                4
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -384,11 +418,13 @@
           71922
         ],
         "entry_id": 91461,
+        "entry_max_ranks": 2,
         "definition_id": 96463,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Fel Armor",
         "spell_id": 386124,
+        "visible_spell_id": null,
         "icon": "spell_shadow_felarmour"
       },
       "pve_tooltip": "When Soul Leech absorbs damage, 10% of damage taken is absorbed and spread out over 5 sec.\nReduces damage taken by 3%.",
@@ -406,6 +442,7 @@
           "pve_tooltip": "When Soul Leech absorbs damage, 5% of damage taken is absorbed and spread out over 5 sec.\nReduces damage taken by 1.5%.",
           "pvp_tooltip": "When Soul Leech absorbs damage, 5% of damage taken is absorbed and spread out over 5 sec.\nReduces damage taken by 1.5%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -414,6 +451,7 @@
           "pve_tooltip": "When Soul Leech absorbs damage, 10% of damage taken is absorbed and spread out over 5 sec.\nReduces damage taken by 3%.",
           "pvp_tooltip": "When Soul Leech absorbs damage, 10% of damage taken is absorbed and spread out over 5 sec.\nReduces damage taken by 3%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -456,11 +494,13 @@
           71922
         ],
         "entry_id": 91459,
+        "entry_max_ranks": 1,
         "definition_id": 96461,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fiendish Stride",
         "spell_id": 386110,
+        "visible_spell_id": null,
         "icon": "inv_misc_moosehoof_fel"
       },
       "pve_tooltip": "Reduces the damage dealt by Burning Rush by 10%. Burning Rush increases your movement speed by an additional 20%.",
@@ -513,11 +553,13 @@
           109847
         ],
         "entry_id": 91438,
+        "entry_max_ranks": 1,
         "definition_id": 96440,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Demonic Embrace",
         "spell_id": 288843,
+        "visible_spell_id": null,
         "icon": "spell_shadow_metamorphosis"
       },
       "pve_tooltip": "Stamina increased by 10%.",
@@ -570,11 +612,13 @@
           109846
         ],
         "entry_id": 91422,
+        "entry_max_ranks": 1,
         "definition_id": 96424,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Nightmare",
         "spell_id": 386648,
+        "visible_spell_id": null,
         "icon": "spell_shadow_possession"
       },
       "pve_tooltip": "Increases the amount of damage required to break your fear effects by 60%.",
@@ -674,11 +718,13 @@
           109846
         ],
         "entry_id": 115459,
+        "entry_max_ranks": 1,
         "definition_id": 120471,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Horrify",
         "spell_id": 56244,
+        "visible_spell_id": null,
         "icon": "spell_nzinsanity_bloodthirst"
       },
       "pve_tooltip": "Your Fear causes the target to tremble in place instead of fleeing in fear.",
@@ -732,11 +778,13 @@
           71942
         ],
         "entry_id": 91430,
+        "entry_max_ranks": 1,
         "definition_id": 96432,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Demonic Fortitude",
         "spell_id": 386617,
+        "visible_spell_id": null,
         "icon": "spell_warlock_summonimpoutland"
       },
       "pve_tooltip": "100 yd range\nIncreases you and your pets' maximum health by 5%.",
@@ -787,11 +835,13 @@
           110071
         ],
         "entry_id": 91454,
+        "entry_max_ranks": 1,
         "definition_id": 96456,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Banish",
         "spell_id": 710,
+        "visible_spell_id": null,
         "icon": "spell_shadow_cripple"
       },
       "pve_tooltip": "1.5% of base mana\n30 yd range\n1.5 sec cast\nBanishes an enemy Demon, Aberration [Greater Banish: Undead], or Elemental, preventing any action for 30 sec. Limit 1. Casting Banish again on the target will cancel the effect.",
@@ -844,11 +894,13 @@
           100941
         ],
         "entry_id": 136107,
+        "entry_max_ranks": 1,
         "definition_id": 140862,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Curse of Exhaustion",
         "spell_id": 334275,
+        "visible_spell_id": null,
         "icon": "spell_shadow_grimward"
       },
       "pve_tooltip": "1% of base mana\n40 yd range\nInstant\nReduces the target's movement speed by 50% for 12 sec.\nCurses: A warlock can only have one Curse active per target.",
@@ -938,11 +990,13 @@
           110072
         ],
         "entry_id": 136106,
+        "entry_max_ranks": 1,
         "definition_id": 140861,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Curse of Tongues",
         "spell_id": 1714,
+        "visible_spell_id": null,
         "icon": "spell_shadow_curseoftounges"
       },
       "pve_tooltip": "1% of base mana\n40 yd range\nInstant\nForces the target to speak in Demonic, increasing the casting time of all spells by 30% for 1 min.\nCurses: A warlock can only have one Curse active per target.",
@@ -1040,11 +1094,13 @@
           110072
         ],
         "entry_id": 136104,
+        "entry_max_ranks": 1,
         "definition_id": 140859,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Infernal Beneficiary",
         "spell_id": 1265810,
+        "visible_spell_id": null,
         "icon": "achievement_general_raidrepresentation"
       },
       "pve_tooltip": "Healing done by Drain Life also heals your primary demon at 400% effectiveness.",
@@ -1096,11 +1152,13 @@
           109845
         ],
         "entry_id": 91452,
+        "entry_max_ranks": 1,
         "definition_id": 96454,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Mortal Coil",
         "spell_id": 6789,
+        "visible_spell_id": null,
         "icon": "ability_warlock_mortalcoil"
       },
       "pve_tooltip": "2% of base mana\n20 yd range\nInstant\n45 sec cooldown\nHorrifies an enemy target into fleeing, incapacitating for 3 sec and healing you for 20% of maximum health.",
@@ -1185,11 +1243,13 @@
           110075
         ],
         "entry_id": 136568,
+        "entry_max_ranks": 1,
         "definition_id": 141341,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Pact of the Annihilan",
         "spell_id": 1270693,
+        "visible_spell_id": null,
         "icon": "inv_misc_magtheridonshead"
       },
       "pve_tooltip": "Increases your critical strike chance by 2%.",
@@ -1243,11 +1303,13 @@
           110074
         ],
         "entry_id": 124694,
+        "entry_max_ranks": 1,
         "definition_id": 129532,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Demonic Circle",
         "spell_id": 268358,
+        "visible_spell_id": null,
         "icon": "spell_shadow_demoniccirclesummon"
       },
       "pve_tooltip": "2% of base mana\nSummons a Demonic Circle for 15 min. Cast Demonic Circle: Teleport to teleport to its location and remove all movement slowing effects. [Kilrogg's Cunning: If you cast Demonic Circle: Summon while controlling an Eye of Kilrogg, the circle will appear where the eye is located]\nYou also learn:\nDemonic Circle: Teleport\nTeleports you to your Demonic Circle and removes all movement slowing effects.",
@@ -1302,11 +1364,13 @@
           71923
         ],
         "entry_id": 136569,
+        "entry_max_ranks": 1,
         "definition_id": 141342,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Pact of the Satyr",
         "spell_id": 1270691,
+        "visible_spell_id": null,
         "icon": "spell_shadow_mindshear"
       },
       "pve_tooltip": "Increases your haste by 2%.",
@@ -1357,11 +1421,13 @@
           71923
         ],
         "entry_id": 136105,
+        "entry_max_ranks": 1,
         "definition_id": 140860,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Mortal Coil",
         "spell_id": 1265816,
+        "visible_spell_id": null,
         "icon": "spell_warlock_harvestoflife"
       },
       "pve_tooltip": "Increases the range of Mortal Coil by 10 yds and Mortal Coil now heals for an additional 5% of maximum health.",
@@ -1412,11 +1478,13 @@
           71937
         ],
         "entry_id": 91444,
+        "entry_max_ranks": 1,
         "definition_id": 96446,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Dark Pact",
         "spell_id": 108416,
+        "visible_spell_id": null,
         "icon": "spell_shadow_deathpact"
       },
       "pve_tooltip": "Instant\n1 min cooldown\nSacrifices 20% of your current health to shield you for 200% of the sacrificed health plus an additional (Spell Power * 2.5) for 20 sec. Usable while suffering from control impairing effects.",
@@ -1504,11 +1572,13 @@
           109843
         ],
         "entry_id": 136100,
+        "entry_max_ranks": 1,
         "definition_id": 140855,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Foul Mouth",
         "spell_id": 1265813,
+        "visible_spell_id": null,
         "icon": "ability_creature_cursed_02"
       },
       "pve_tooltip": "Casting Curse of Exhaustion, Curse of Tongues, or Curse of Weakness now curses all enemies within 10 yds of the target.",
@@ -1560,11 +1630,13 @@
           109843
         ],
         "entry_id": 136572,
+        "entry_max_ranks": 1,
         "definition_id": 141345,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Empowered Healthstone",
         "spell_id": 1271699,
+        "visible_spell_id": null,
         "icon": "inv_raid_creepingcoagulum_blue"
       },
       "pve_tooltip": "Healthstones heal you for an additional 5% additional health.",
@@ -1616,24 +1688,47 @@
           110073
         ],
         "entry_id": 91465,
+        "entry_max_ranks": 1,
         "definition_id": 96467,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Abyss Walker",
         "spell_id": 389609,
+        "visible_spell_id": null,
         "icon": "achievement_explore_argus"
       },
       "pve_tooltip": "Using Demonic Circle: Teleport or your Demonic Gateway reduces all damage you take by 4% for 10 sec.",
-      "pvp_tooltip": "Using Demonic Circle: Teleport or your Demonic Gateway reduces all damage you take by 4% for 10 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Using Demonic Circle: Teleport or your Demonic Gateway reduces all damage you take by 8% for 10 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 86,
+          "end": 87,
+          "old_token": "4",
+          "new_token": "8",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "4",
+          "new": "8"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 389609,
           "source_spell_id": 389614,
           "effect_index": 1,
@@ -1650,7 +1745,7 @@
             389614
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -1662,7 +1757,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -1704,11 +1799,13 @@
           71917
         ],
         "entry_id": 136571,
+        "entry_max_ranks": 1,
         "definition_id": 141344,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fortified Soul",
         "spell_id": 1271694,
+        "visible_spell_id": null,
         "icon": "spell_warlock_demonsoul"
       },
       "pve_tooltip": "Soul Leech may now absorb an additional 5% of your maximum health.",
@@ -1759,11 +1856,13 @@
           71917
         ],
         "entry_id": 91447,
+        "entry_max_ranks": 1,
         "definition_id": 96449,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Teachings of the Black Harvest",
         "spell_id": 385881,
+        "visible_spell_id": null,
         "icon": "inv_misc_codexofxerrath_nochains"
       },
       "pve_tooltip": "Your primary pets gain a bonus effect.\nImp: Successful Singe Magic casts grant the target 4% damage reduction for 5 sec.\nVoidwalker: Reduces the cooldown of Shadow Bulwark by 30 sec.\nFelhunter: Reduces the cooldown of Devour Magic by 5 sec.\nSayaad: Reduces the cooldown of Seduction by 10 sec and causes the target to walk faster towards the demon.\nFelguard: Reduces the cooldown of Pursuit by 5 sec and increases its maximum range by 5 yards.",
@@ -1816,11 +1915,13 @@
           110076
         ],
         "entry_id": 91431,
+        "entry_max_ranks": 1,
         "definition_id": 96433,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Gorefiend's Avarice",
         "spell_id": 1270701,
+        "visible_spell_id": null,
         "icon": "inv_helmet_90"
       },
       "pve_tooltip": "Drain Life now channels 100% faster and restores health 100% faster.",
@@ -1871,11 +1972,13 @@
           71956
         ],
         "entry_id": 91446,
+        "entry_max_ranks": 1,
         "definition_id": 96448,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ichor of Devils",
         "spell_id": 386664,
+        "visible_spell_id": null,
         "icon": "spell_yorsahj_bloodboil_greenoil"
       },
       "pve_tooltip": "Dark Pact sacrifices only 5% of your current health for the same shield value.",
@@ -1926,11 +2029,13 @@
           71956
         ],
         "entry_id": 91445,
+        "entry_max_ranks": 1,
         "definition_id": 96447,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Frequent Donor",
         "spell_id": 386686,
+        "visible_spell_id": null,
         "icon": "ability_ironmaidens_bloodritual"
       },
       "pve_tooltip": "Reduces the cooldown of Dark Pact by 15 sec.",
@@ -1984,11 +2089,13 @@
           71955
         ],
         "entry_id": 136103,
+        "entry_max_ranks": 1,
         "definition_id": 140858,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Pact of the Eredar",
         "spell_id": 1270695,
+        "visible_spell_id": null,
         "icon": "achievement_boss_argus_femaleeredar"
       },
       "pve_tooltip": "Increases your Intellect by 3%.",
@@ -2041,11 +2148,13 @@
           71947
         ],
         "entry_id": 136570,
+        "entry_max_ranks": 1,
         "definition_id": 141343,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Pact of the Nathrezim",
         "spell_id": 1270690,
+        "visible_spell_id": null,
         "icon": "ability_physical_taunt_purple"
       },
       "pve_tooltip": "Increases your Leech by 2%.",
@@ -2098,11 +2207,13 @@
           71947
         ],
         "entry_id": 91424,
+        "entry_max_ranks": 1,
         "definition_id": 96426,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Demonic Resilience",
         "spell_id": 389590,
+        "visible_spell_id": null,
         "icon": "ability_warlock_avoidance"
       },
       "pve_tooltip": "100 yd range\nReduces the chance you will be critically struck by 2%. All damage your primary demon takes is reduced by 8%.",
@@ -2200,11 +2311,13 @@
           71947
         ],
         "entry_id": 136573,
+        "entry_max_ranks": 1,
         "definition_id": 141346,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Empowered Drain Life",
         "spell_id": 1271689,
+        "visible_spell_id": null,
         "icon": "spell_shadow_lifedrain02_purple"
       },
       "pve_tooltip": "Drain Life heals for an additional 200% of damage dealt and grants Soul Leech equal to 10% of damage dealt.",
@@ -2257,11 +2370,13 @@
           109842
         ],
         "entry_id": 91468,
+        "entry_max_ranks": 1,
         "definition_id": 96470,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Strength of Will",
         "spell_id": 317138,
+        "visible_spell_id": null,
         "icon": "spell_shadow_demonictactics"
       },
       "pve_tooltip": "Unending Resolve reduces damage taken by an additional 15%.",
@@ -2314,11 +2429,13 @@
           109842
         ],
         "entry_id": 91467,
+        "entry_max_ranks": 1,
         "definition_id": 96469,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Dark Accord",
         "spell_id": 386659,
+        "visible_spell_id": null,
         "icon": "ability_warlock_improveddemonictactics"
       },
       "pve_tooltip": "Reduces the cooldown of Unending Resolve by 45 sec.",
@@ -2372,11 +2489,13 @@
           71924
         ],
         "entry_id": 91466,
+        "entry_max_ranks": 1,
         "definition_id": 96468,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Demonic Gateway",
         "spell_id": 111771,
+        "visible_spell_id": null,
         "icon": "spell_warlock_demonicportal_green"
       },
       "pve_tooltip": "10% of base mana\n10 - 40 yd range\n2 sec cast\n10 sec cooldown\nCreates a demonic gateway between two locations. Activating the gateway transports the user to the other gateway. Each player can use a Demonic Gateway only once per 90 sec.",
@@ -2430,11 +2549,13 @@
           71941
         ],
         "entry_id": 91458,
+        "entry_max_ranks": 1,
         "definition_id": 96460,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Howl of Terror",
         "spell_id": 5484,
+        "visible_spell_id": null,
         "icon": "ability_warlock_howlofterror"
       },
       "pve_tooltip": "1.8% of base mana\nInstant\n40 sec cooldown\nLet loose a terrifying howl, causing 5 enemies within 10 yds to flee in fear, disorienting them for 20 sec. Damage may cancel the effect.",
@@ -2488,11 +2609,13 @@
           71941
         ],
         "entry_id": 91457,
+        "entry_max_ranks": 1,
         "definition_id": 96459,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Shadowfury",
         "spell_id": 30283,
+        "visible_spell_id": null,
         "icon": "ability_warlock_shadowfurytga"
       },
       "pve_tooltip": "1% of base mana\n35 yd range\n1.5 sec cast\n1 min cooldown\nStuns all enemies within 8 yds for 3 sec.",
@@ -2543,11 +2666,13 @@
           71926
         ],
         "entry_id": 91425,
+        "entry_max_ranks": 1,
         "definition_id": 96427,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Swift Artifice",
         "spell_id": 452902,
+        "visible_spell_id": null,
         "icon": "spell_shadow_destructivesoul"
       },
       "pve_tooltip": "Reduces the cast time of Soulstone and Create Healthstone by 50%.",
@@ -2600,11 +2725,13 @@
           71957
         ],
         "entry_id": 136102,
+        "entry_max_ranks": 2,
         "definition_id": 140857,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Soul Link",
         "spell_id": 108415,
+        "visible_spell_id": null,
         "icon": "ability_warlock_soullink"
       },
       "pve_tooltip": "100 yd range\n10% of all damage you take is taken by your demon pet instead.",
@@ -2622,6 +2749,7 @@
           "pve_tooltip": "100 yd range\n5% of all damage you take is taken by your demon pet instead.",
           "pvp_tooltip": "100 yd range\n5% of all damage you take is taken by your demon pet instead.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2630,6 +2758,7 @@
           "pve_tooltip": "100 yd range\n10% of all damage you take is taken by your demon pet instead.",
           "pvp_tooltip": "100 yd range\n10% of all damage you take is taken by your demon pet instead.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2672,11 +2801,13 @@
           71957
         ],
         "entry_id": 136101,
+        "entry_max_ranks": 1,
         "definition_id": 140856,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Frequent Traveler",
         "spell_id": 1265801,
+        "visible_spell_id": null,
         "icon": "achievement_dungeon_outland_dungeonmaster"
       },
       "pve_tooltip": "Reduces the cast time of Demonic Gateway by 0.5 sec and you can now use Demonic Gateways twice before triggering a cooldown.",
@@ -2729,11 +2860,13 @@
           109848
         ],
         "entry_id": 91432,
+        "entry_max_ranks": 2,
         "definition_id": 96434,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fel Synergy",
         "spell_id": 389367,
+        "visible_spell_id": null,
         "icon": "inv_sword_1h_felfireraid_d_01"
       },
       "pve_tooltip": "100 yd range\nSoul Leech also heals you for 15% and your pet for 50% of the absorption it grants.",
@@ -2751,6 +2884,7 @@
           "pve_tooltip": "100 yd range\nSoul Leech also heals you for 8% and your pet for 25% of the absorption it grants.",
           "pvp_tooltip": "100 yd range\nSoul Leech also heals you for 8% and your pet for 25% of the absorption it grants.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2759,6 +2893,7 @@
           "pve_tooltip": "100 yd range\nSoul Leech also heals you for 15% and your pet for 50% of the absorption it grants.",
           "pvp_tooltip": "100 yd range\nSoul Leech also heals you for 15% and your pet for 50% of the absorption it grants.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2801,11 +2936,13 @@
           109848
         ],
         "entry_id": 91451,
+        "entry_max_ranks": 1,
         "definition_id": 96453,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Oppressive Darkness",
         "spell_id": 1270255,
+        "visible_spell_id": null,
         "icon": "spell_shadow_shadowfury"
       },
       "pve_tooltip": "Reduces the cooldown of Shadowfury by 15 sec and increases its radius by 2 yds.\nReduces the cooldown of Howl of Terror by 5 sec and it now fears 5 additional enemies.",
@@ -2855,12 +2992,14 @@
         ],
         "next": [],
         "entry_id": 91434,
+        "entry_max_ranks": 1,
         "definition_id": 96436,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Pact of Gluttony",
         "spell_id": 386689,
-        "icon": "warlock__bloodstone"
+        "visible_spell_id": null,
+        "icon": "warlock_-bloodstone"
       },
       "pve_tooltip": "Healthstones you conjure for yourself are now Demonic Healthstones and can be used multiple times in combat. Demonic Healthstones cannot be traded.\nDemonic Healthstone\nInstantly restores 25% health [Empowered Healthstone: plus an additional 30% over 6 sec / .] 60 sec cooldown.",
       "pvp_tooltip": "Healthstones you conjure for yourself are now Demonic Healthstones and can be used multiple times in combat. Demonic Healthstones cannot be traded.\nDemonic Healthstone\nInstantly restores 25% health [Empowered Healthstone: plus an additional 30% over 6 sec / .] 60 sec cooldown.",
@@ -2941,18 +3080,30 @@
         ],
         "next": [],
         "entry_id": 91469,
+        "entry_max_ranks": 1,
         "definition_id": 96471,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Soulburn",
         "spell_id": 385899,
+        "visible_spell_id": null,
         "icon": "spell_warlock_soulburn"
       },
       "pve_tooltip": "1 Soul Shard\nInstant\n6 sec cooldown\nConsumes a Soul Shard, unlocking the hidden power of your spells.\nDemonic Circle: Teleport: Increases your movement speed by 50% and makes you immune to snares and roots for 6 sec.\nDemonic Gateway: Can be cast instantly.\nDrain Life: Gain an absorb shield equal to the amount of healing done for 30 sec. This shield cannot exceed 30% of your maximum health.\nHealthstone: Increases the healing of your Healthstone by 30% and increases your maximum health by 20% for 12 sec.",
-      "pvp_tooltip": "1 Soul Shard\nInstant\n6 sec cooldown\nConsumes a Soul Shard, unlocking the hidden power of your spells.\nDemonic Circle: Teleport: Increases your movement speed by 30% and makes you immune to snares and roots for 6 sec.\nDemonic Gateway: Can be cast instantly.\nDrain Life: Gain an absorb shield equal to the amount of healing done for 30 sec. This shield cannot exceed 30% of your maximum health.\nHealthstone: Increases the healing of your Healthstone by 30% and increases your maximum health by 15% for 12 sec.",
+      "pvp_tooltip": "1 Soul Shard\nInstant\n6 sec cooldown\nConsumes a Soul Shard, unlocking the hidden power of your spells.\nDemonic Circle: Teleport: Increases your movement speed by 30% and makes you immune to snares and roots for 6 sec.\nDemonic Gateway: Can be cast instantly.\nDrain Life: Gain an absorb shield equal to the amount of healing done for 30 sec. This shield cannot exceed 30% of your maximum health.\nHealthstone: Increases the healing of your Healthstone by 20% and increases your maximum health by 15% for 12 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
+        {
+          "start": 451,
+          "end": 453,
+          "old_token": "30",
+          "new_token": "20",
+          "kind": "percent_value",
+          "effect_indexes": [
+            2
+          ]
+        },
         {
           "start": 161,
           "end": 163,
@@ -2986,6 +3137,15 @@
         },
         {
           "effect_indexes": [
+            2
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "30",
+          "new": "20"
+        },
+        {
+          "effect_indexes": [
             1
           ],
           "status": "APPLIED",
@@ -2998,7 +3158,7 @@
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 385899,
           "source_spell_id": 387626,
           "effect_index": 2,
@@ -3015,7 +3175,7 @@
             387626
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -3087,7 +3247,7 @@
           "confidence": "high"
         }
       ],
-      "render_effect_count": 2,
+      "render_effect_count": 3,
       "rank_tooltips": []
     },
     {
@@ -3126,11 +3286,13 @@
         ],
         "next": [],
         "entry_id": 136108,
+        "entry_max_ranks": 1,
         "definition_id": 140863,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Blight of Weakness",
         "spell_id": 1265799,
+        "visible_spell_id": 1271748,
         "icon": "warlock_curse_weakness_amplified"
       },
       "pve_tooltip": "Call forth a cloud of cloying shadow mist that envelopes the target and all enemies within 10 yds, increasing the time between their attacks by 100% and reducing their critical strike chance by 10% for 12 sec.\nCurses: A warlock can only have one Curse or Blight active per target.",
@@ -3213,11 +3375,13 @@
         ],
         "next": [],
         "entry_id": 136738,
+        "entry_max_ranks": 1,
         "definition_id": 141510,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Blight of Tongues",
         "spell_id": 1271802,
+        "visible_spell_id": null,
         "icon": "spell_shadow_curseoftongues_amplified"
       },
       "pve_tooltip": "40 yd range\nInstant\n2 min cooldown\nCall forth a cloud of cloying shadow mist that envelopes the target and all enemies within 10 yds, increasing their casting time of all spells by 100% for 12 sec.\nCurses: A warlock can only have one Curse or Blight active per target.",
@@ -3319,11 +3483,13 @@
           101894
         ],
         "entry_id": 125834,
+        "entry_max_ranks": 1,
         "definition_id": 130665,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Hand of Gul'dan",
         "spell_id": 1250273,
+        "visible_spell_id": 105174,
         "icon": "ability_warlock_handofguldan"
       },
       "pve_tooltip": "Calls down a demonic meteor full of Wild Imps which burst forth to attack the target.\nDeals up to [3 * (50.1188% of Spell Power)] Shadowflame damage on impact to all enemies within 8 yds of the target [Hand of Doom: applies Doom to each target] and summons 3 Wild Imps.",
@@ -3375,11 +3541,13 @@
           109250
         ],
         "entry_id": 135306,
+        "entry_max_ranks": 1,
         "definition_id": 140073,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Demoniac",
         "spell_id": 426115,
+        "visible_spell_id": 426115,
         "icon": "inv_demonbolt"
       },
       "pve_tooltip": "Grants access to the following abilities:\nDemonbolt\nSend the fiery soul of a fallen demon at the enemy, causing (799.508% of Spell Power) Shadowflame damage. Generates 2 Soul Shards.\nDemonic Core\nWhen your Wild Imps fade or are imploded, you have a 10% chance to absorb their life essence, granting you a stack of Demonic Core.\nWhen your summoned Dreadstalkers fade away, you have a 100% chance to absorb their life essence, granting you a stack of Demonic Core.\nDemonic Core reduces the cast time of Demonbolt by 100%. Maximum 4 stacks.",
@@ -3496,11 +3664,13 @@
           101888
         ],
         "entry_id": 125837,
+        "entry_max_ranks": 1,
         "definition_id": 130668,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Call Dreadstalkers",
         "spell_id": 104316,
+        "visible_spell_id": null,
         "icon": "spell_warlock_calldreadstalkers"
       },
       "pve_tooltip": "2 Soul Shards\n40 yd range\n2 sec cast\n20 sec cooldown\nSummons 2 ferocious Dreadstalkers to attack the target for 12 sec.",
@@ -3551,11 +3721,13 @@
           101923
         ],
         "entry_id": 136723,
+        "entry_max_ranks": 1,
         "definition_id": 141495,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Dominant Hand",
         "spell_id": 1276433,
+        "visible_spell_id": null,
         "icon": "warlock_curse_shadow"
       },
       "pve_tooltip": "Increases damage dealt by Hand of Gul'dan to its main target by 20%.",
@@ -3607,11 +3779,13 @@
           101893
         ],
         "entry_id": 135312,
+        "entry_max_ranks": 1,
         "definition_id": 140079,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fel Intellect",
         "spell_id": 1250372,
+        "visible_spell_id": null,
         "icon": "ability_kaztik_dominatemind"
       },
       "pve_tooltip": "Increases your Intellect by 2%.",
@@ -3663,11 +3837,13 @@
           109257
         ],
         "entry_id": 135313,
+        "entry_max_ranks": 1,
         "definition_id": 140080,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Practiced Rituals",
         "spell_id": 1250375,
+        "visible_spell_id": null,
         "icon": "inv_10_inscription_illusoryspellscrolls_color4"
       },
       "pve_tooltip": "Increases your Mastery by 2%.",
@@ -3718,11 +3894,13 @@
           109257
         ],
         "entry_id": 125830,
+        "entry_max_ranks": 1,
         "definition_id": 130661,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Dreadlash",
         "spell_id": 264078,
+        "visible_spell_id": null,
         "icon": "spell_shadow_summonvoidwalker"
       },
       "pve_tooltip": "40 yd range\nWhen your Dreadstalkers charge into battle, their Dreadbite attack now hits all targets within 8 yards and deals 10% more damage.",
@@ -3775,11 +3953,13 @@
           101914
         ],
         "entry_id": 125869,
+        "entry_max_ranks": 1,
         "definition_id": 130700,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Imp-erator",
         "spell_id": 416230,
+        "visible_spell_id": null,
         "icon": "spell_warlock_summonimpoutland"
       },
       "pve_tooltip": "Increases the critical strike chance of your Wild Imp's Fel Firebolt by 15%.",
@@ -3832,11 +4012,13 @@
           101887
         ],
         "entry_id": 125836,
+        "entry_max_ranks": 1,
         "definition_id": 130667,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Implosion",
         "spell_id": 196277,
+        "visible_spell_id": null,
         "icon": "inv_implosion"
       },
       "pve_tooltip": "40 yd range\nInstant\n15 sec cooldown\nDemonic forces suck 6 of your Wild Imps toward the target, and then cause them to violently explode, dealing (136.382% of Spell Power) Shadowflame damage to all enemies within 8 yards.",
@@ -3889,11 +4071,13 @@
           101887
         ],
         "entry_id": 136731,
+        "entry_max_ranks": 1,
         "definition_id": 141503,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Power Siphon",
         "spell_id": 264130,
+        "visible_spell_id": null,
         "icon": "ability_warlock_backdraft"
       },
       "pve_tooltip": "100 yd range\nInstant\n30 sec cooldown\nInstantly sacrifice up to 2 Wild Imps, generating 2 charges of Demonic Core that cause Demonbolt to deal 30% additional damage.",
@@ -3946,11 +4130,13 @@
           109936
         ],
         "entry_id": 135319,
+        "entry_max_ranks": 1,
         "definition_id": 140086,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Summon Felguard",
         "spell_id": 30146,
+        "visible_spell_id": null,
         "icon": "spell_shadow_summonfelguard"
       },
       "pve_tooltip": "1 Soul Shard\n6 sec cast\nSummons a Felguard under your command as a powerful melee combatant.",
@@ -4002,11 +4188,13 @@
           101920
         ],
         "entry_id": 136227,
+        "entry_max_ranks": 1,
         "definition_id": 141000,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Infernal Rapidity",
         "spell_id": 1263941,
+        "visible_spell_id": null,
         "icon": "spell_argus_withering_fire"
       },
       "pve_tooltip": "When your Wild Imps cast Fel Firebolt, they have 10% chance to instantly cast another Fel Firebolt at 200% effectiveness.",
@@ -4060,11 +4248,13 @@
           101905
         ],
         "entry_id": 125860,
+        "entry_max_ranks": 2,
         "definition_id": 130691,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Rune of Shadows",
         "spell_id": 453744,
+        "visible_spell_id": null,
         "icon": "spell_shadow_rune"
       },
       "pve_tooltip": "Reduces the cast time of Shadow Bolt by 20% and increases its damage by 30%.",
@@ -4082,6 +4272,7 @@
           "pve_tooltip": "Reduces the cast time of Shadow Bolt by 10% and increases its damage by 15%.",
           "pvp_tooltip": "Reduces the cast time of Shadow Bolt by 10% and increases its damage by 15%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -4090,6 +4281,7 @@
           "pve_tooltip": "Reduces the cast time of Shadow Bolt by 20% and increases its damage by 30%.",
           "pvp_tooltip": "Reduces the cast time of Shadow Bolt by 20% and increases its damage by 30%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -4135,11 +4327,13 @@
           101892
         ],
         "entry_id": 125829,
+        "entry_max_ranks": 2,
         "definition_id": 130660,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Carnivorous Stalkers",
         "spell_id": 386194,
+        "visible_spell_id": null,
         "icon": "warlock_pvp_callfelhunter"
       },
       "pve_tooltip": "Your Dreadstalkers' attacks have a 20% chance to trigger an additional Dreadbite.",
@@ -4157,6 +4351,7 @@
           "pve_tooltip": "Your Dreadstalkers' attacks have a 10% chance to trigger an additional Dreadbite.",
           "pvp_tooltip": "Your Dreadstalkers' attacks have a 10% chance to trigger an additional Dreadbite.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -4165,6 +4360,7 @@
           "pve_tooltip": "Your Dreadstalkers' attacks have a 20% chance to trigger an additional Dreadbite.",
           "pvp_tooltip": "Your Dreadstalkers' attacks have a 20% chance to trigger an additional Dreadbite.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -4208,11 +4404,13 @@
           110192
         ],
         "entry_id": 136229,
+        "entry_max_ranks": 1,
         "definition_id": 141002,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fel Armaments",
         "spell_id": 1263935,
+        "visible_spell_id": null,
         "icon": "inv_misc_desecrated_plategloves"
       },
       "pve_tooltip": "The cooldown of your Felguard's Felstorm is reduced by 10 sec and damage dealt to your primary demon is reduced by 10%.",
@@ -4263,11 +4461,13 @@
           110193
         ],
         "entry_id": 135315,
+        "entry_max_ranks": 1,
         "definition_id": 140082,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Imp Gang Boss",
         "spell_id": 1250768,
+        "visible_spell_id": null,
         "icon": "ability_warlock_empoweredimp"
       },
       "pve_tooltip": "Hand of Gul'dan now empowers 1 of the Wild Imps it summons, increasing its damage dealt by 100%.",
@@ -4319,11 +4519,13 @@
           110193
         ],
         "entry_id": 125866,
+        "entry_max_ranks": 1,
         "definition_id": 130697,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Demonic Brutality",
         "spell_id": 453908,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_bladedance"
       },
       "pve_tooltip": "Damaging critical strikes dealt by you and your demons deal 230% damage instead of the usual 200%.",
@@ -4374,11 +4576,13 @@
           110193
         ],
         "entry_id": 136722,
+        "entry_max_ranks": 1,
         "definition_id": 141494,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Inner Demons",
         "spell_id": 267216,
+        "visible_spell_id": null,
         "icon": "ability_warlock_eradication"
       },
       "pve_tooltip": "100 yd range\nYou passively summon a Wild Imp to fight for you every 12 sec.",
@@ -4431,11 +4635,13 @@
           109241
         ],
         "entry_id": 125850,
+        "entry_max_ranks": 1,
         "definition_id": 130681,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Summon Demonic Tyrant",
         "spell_id": 265187,
+        "visible_spell_id": null,
         "icon": "inv_summondemonictyrant"
       },
       "pve_tooltip": "2% of base mana\n40 yd range\n2 sec cast\n1 min cooldown\nSummon a Demonic Tyrant that damages your target for 15 sec.\nDamage dealt by Demonic Tyrant is increased by 10% for each Wild Imp and Dreadstalker active. [Soulbound Tyrant: Generates 0 Soul Shards.]",
@@ -4486,11 +4692,13 @@
           101909
         ],
         "entry_id": 135310,
+        "entry_max_ranks": 1,
         "definition_id": 140077,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Blighted Maw",
         "spell_id": 1276956,
+        "visible_spell_id": null,
         "icon": "ability_creature_poison_01"
       },
       "pve_tooltip": "The fangs of your Dreadstalkers are coated in corrosive bile, causing Dreadbite to deal additional damage equal to 50% of damage dealt as Plague damage.",
@@ -4542,11 +4750,13 @@
           101909
         ],
         "entry_id": 125835,
+        "entry_max_ranks": 1,
         "definition_id": 130666,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Improved Demonic Tactics",
         "spell_id": 453800,
+        "visible_spell_id": null,
         "icon": "ability_warlock_ancientgrimoire"
       },
       "pve_tooltip": "100 yd range\nIncreases the critical strike chance of your primary demon by 50% of your critical strike chance.",
@@ -4597,11 +4807,13 @@
           101909
         ],
         "entry_id": 136720,
+        "entry_max_ranks": 1,
         "definition_id": 141492,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Empowered Felstorm",
         "spell_id": 1279575,
+        "visible_spell_id": null,
         "icon": "inv_axe_2h_demonweapon_c_01"
       },
       "pve_tooltip": "Increases the damage of your Felguard's Felstorm by 20% and its duration by 4.0 sec.",
@@ -4655,11 +4867,13 @@
           101886
         ],
         "entry_id": 136721,
+        "entry_max_ranks": 1,
         "definition_id": 141493,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Spiteful Reconstitution",
         "spell_id": 428394,
+        "visible_spell_id": null,
         "icon": "spell_shadow_impphaseshift"
       },
       "pve_tooltip": "Increases Demonbolt damage by 10% and consuming a Demonic Core has a chance to summon a Wild Imp.",
@@ -4711,11 +4925,13 @@
           110201
         ],
         "entry_id": 136719,
+        "entry_max_ranks": 1,
         "definition_id": 141491,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Tyrant's Oblation",
         "spell_id": 1276746,
+        "visible_spell_id": null,
         "icon": "spell_warlock_demonwrath"
       },
       "pve_tooltip": "Your Demonic Tyrant also empowers you while active, increasing your haste by 8%.",
@@ -4767,11 +4983,13 @@
           101908
         ],
         "entry_id": 135303,
+        "entry_max_ranks": 1,
         "definition_id": 140070,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Antoran Armaments",
         "spell_id": 1250921,
+        "visible_spell_id": null,
         "icon": "inv_plate_helmet_eredarargus_d_01"
       },
       "pve_tooltip": "Your Demonic Tyrant is equipped with armor forged within Antorus, increasing their armor by 10%. While summoned, your Demonic Tyrant now assaults enemies with powerful melee attacks.\nBurning Cleave\nCleaves the area in front of the caster, inflicting (96% of Spell Power) Shadowflame damage. Damage reduced beyond 8 targets.",
@@ -4825,11 +5043,13 @@
           101903
         ],
         "entry_id": 125855,
+        "entry_max_ranks": 1,
         "definition_id": 130686,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Flametouched",
         "spell_id": 453699,
+        "visible_spell_id": null,
         "icon": "spell_shaman_firenova"
       },
       "pve_tooltip": "Increases the attack speed of your Dreadstalkers by 10% and their critical strike chance by 15%.",
@@ -4881,11 +5101,13 @@
           110198
         ],
         "entry_id": 135311,
+        "entry_max_ranks": 2,
         "definition_id": 140078,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Demonic Knowledge",
         "spell_id": 386185,
+        "visible_spell_id": null,
         "icon": "ability_warlock_improveddemonictactics"
       },
       "pve_tooltip": "Hand of Gul'dan has a 15% chance to generate a charge of Demonic Core.",
@@ -4903,6 +5125,7 @@
           "pve_tooltip": "Hand of Gul'dan has a 8% chance to generate a charge of Demonic Core.",
           "pvp_tooltip": "Hand of Gul'dan has a 8% chance to generate a charge of Demonic Core.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -4911,6 +5134,7 @@
           "pve_tooltip": "Hand of Gul'dan has a 15% chance to generate a charge of Demonic Core.",
           "pvp_tooltip": "Hand of Gul'dan has a 15% chance to generate a charge of Demonic Core.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -4954,11 +5178,13 @@
           110198
         ],
         "entry_id": 125828,
+        "entry_max_ranks": 1,
         "definition_id": 130659,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sacrificed Souls",
         "spell_id": 267214,
+        "visible_spell_id": null,
         "icon": "ability_creature_disease_05"
       },
       "pve_tooltip": "100 yd range\nShadow Bolt and Demonbolt deal 2% additional damage per demon you have summoned.",
@@ -5011,11 +5237,13 @@
           110197
         ],
         "entry_id": 136730,
+        "entry_max_ranks": 1,
         "definition_id": 141502,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Reign of Tyranny",
         "spell_id": 1276748,
+        "visible_spell_id": null,
         "icon": "ability_warlock_demonicpower"
       },
       "pve_tooltip": "Your Demonic Tyrant lasts an additional 5 sec and extends the duration of your Dreadstalkers by 15 sec when summoned.",
@@ -5067,11 +5295,13 @@
           110197
         ],
         "entry_id": 125854,
+        "entry_max_ranks": 1,
         "definition_id": 130685,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Master Summoner",
         "spell_id": 1240189,
+        "visible_spell_id": null,
         "icon": "spell_nature_removecurse"
       },
       "pve_tooltip": "Increases Mastery by 3% and reduces the cast time of your Summon Demonic Tyrant and Summon Felguard by 0.5 sec.",
@@ -5123,11 +5353,13 @@
           109252
         ],
         "entry_id": 125848,
+        "entry_max_ranks": 2,
         "definition_id": 130679,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Demonic Calling",
         "spell_id": 1276947,
+        "visible_spell_id": null,
         "icon": "inv_felstalker_pet"
       },
       "pve_tooltip": "Call Dreadstalkers costs 2 less Soul Shard and its cast time is reduced by 100%.",
@@ -5145,6 +5377,7 @@
           "pve_tooltip": "Call Dreadstalkers costs 1 less Soul Shard and its cast time is reduced by 50%.",
           "pvp_tooltip": "Call Dreadstalkers costs 1 less Soul Shard and its cast time is reduced by 50%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -5153,6 +5386,7 @@
           "pve_tooltip": "Call Dreadstalkers costs 2 less Soul Shard and its cast time is reduced by 100%.",
           "pvp_tooltip": "Call Dreadstalkers costs 2 less Soul Shard and its cast time is reduced by 100%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -5195,11 +5429,13 @@
           101917
         ],
         "entry_id": 136729,
+        "entry_max_ranks": 1,
         "definition_id": 141501,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Doom",
         "spell_id": 460551,
+        "visible_spell_id": null,
         "icon": "spell_shadow_auraofdarkness"
       },
       "pve_tooltip": "When Demonbolt consumes a Demonic Core it inflicts impending doom upon the target, dealing (403.121% of Spell Power) Shadow damage to enemies within 10 yds of its target after 20 sec or when removed. Damage is reduced beyond 8 targets.\nHand of Gul'dan reduces the duration of Doom by 3 sec.",
@@ -5304,11 +5540,13 @@
           110199
         ],
         "entry_id": 136727,
+        "entry_max_ranks": 1,
         "definition_id": 141499,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Hellbent Commander",
         "spell_id": 1250897,
+        "visible_spell_id": null,
         "icon": "inv_helm_cloth_pvpwarlock_o_01"
       },
       "pve_tooltip": "Your demons deal 1.0% increased damage for each demon you control.",
@@ -5361,11 +5599,13 @@
           110196
         ],
         "entry_id": 136726,
+        "entry_max_ranks": 1,
         "definition_id": 141498,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Grimoire: Imp Lord",
         "spell_id": 1276452,
+        "visible_spell_id": null,
         "icon": "inv_imp3_purple"
       },
       "pve_tooltip": "1 Soul Shard\n40 yd range\nInstant\n2 min cooldown\nSummons an Imp Lord to assist you in combat for 20 sec and will remove 1 harmful effect from you when summoned.\nTransforms into Singe Magic while on cooldown.",
@@ -5418,11 +5658,13 @@
           110196
         ],
         "entry_id": 136725,
+        "entry_max_ranks": 1,
         "definition_id": 141497,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Grimoire: Fel Ravager",
         "spell_id": 1276467,
+        "visible_spell_id": null,
         "icon": "spell_shadow_summonfelhunter"
       },
       "pve_tooltip": "1 Soul Shard\n40 yd range\nInstant\n2 min cooldown\nSummons a Fel Ravager to assist you in combat for 20 sec and will purge 1 beneficial magic effect from an enemy.\nTurns into Devour Magic while on cooldown.",
@@ -5473,11 +5715,13 @@
           101895
         ],
         "entry_id": 135314,
+        "entry_max_ranks": 1,
         "definition_id": 140081,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Summon Vilefiend",
         "spell_id": 1251778,
+        "visible_spell_id": null,
         "icon": "inv_argusfelstalkermount"
       },
       "pve_tooltip": "Call Dreadstalkers also summons a Vilefiend that assists you in combat for 15 sec.",
@@ -5526,11 +5770,13 @@
         ],
         "next": [],
         "entry_id": 125863,
+        "entry_max_ranks": 1,
         "definition_id": 130694,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Summon Doomguard",
         "spell_id": 1276672,
+        "visible_spell_id": null,
         "icon": "warlock_summon_doomguard"
       },
       "pve_tooltip": "1 Soul Shard\n40 yd range\nInstant\n2 min cooldown\nSummons a Doomguard to assist you in combat for 12 sec. Consuming a Demonic Core reduces the cooldown of Summon Doomguard by 3 sec.\nDoom Bolt Volley\nSends a volley of malefic bolts at 5 enemies within 40 yds, inflicting (413.929% of Spell Power) Shadow damage to each target.",
@@ -5579,11 +5825,13 @@
         ],
         "next": [],
         "entry_id": 136728,
+        "entry_max_ranks": 1,
         "definition_id": 141500,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "To Hell and Back",
         "spell_id": 1281511,
+        "visible_spell_id": null,
         "icon": "ability_warlock_impoweredimp"
       },
       "pve_tooltip": "Power Siphon and Implosion summon 1 Imp Gang Boss for every 2 Wild Imps sacrificed. Wild Imps summoned this way gain Unstable Soul.\nUnstable Soul\nIncreases damage done by 50% and Fel Firebolt now jumps to 4 additional targets.",
@@ -5632,11 +5880,13 @@
         ],
         "next": [],
         "entry_id": 136724,
+        "entry_max_ranks": 1,
         "definition_id": 141496,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Stabilized Portals",
         "spell_id": 1276661,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_netherbond"
       },
       "pve_tooltip": "Increases the duration of your Summon Vilefiend, Grimoire: Imp Lord, and Grimoire: Fel Ravager by 3 sec.",
@@ -5685,11 +5935,13 @@
         ],
         "next": [],
         "entry_id": 125839,
+        "entry_max_ranks": 1,
         "definition_id": 130670,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Mark of Shatug",
         "spell_id": 455449,
+        "visible_spell_id": null,
         "icon": "inv_felhound3_shadow_mount"
       },
       "pve_tooltip": "Your Summon Vilefiend becomes Summon Gloomhound and learns the following ability:\nGloom Slash\nTooth and claw are drenched in malignant shadow magic, causing the Gloomhound's melee attacks to deal an additional (31.7766% of Spell Power) Shadow damage.",
@@ -5738,11 +5990,13 @@
         ],
         "next": [],
         "entry_id": 125838,
+        "entry_max_ranks": 1,
         "definition_id": 130669,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Mark of F'harg",
         "spell_id": 455450,
+        "visible_spell_id": null,
         "icon": "inv_felhound3_shadow_fire"
       },
       "pve_tooltip": "Your Summon Vilefiend becomes Summon Charhound and learns the following ability:\nInfernal Presence\nCloaked in the ever-burning flames of the abyss, dealing (15.9865% of Spell Power) Fire damage to enemies within 10 yards every 1 sec.",
@@ -5789,11 +6043,13 @@
         "prev": [],
         "next": [],
         "entry_id": 136980,
+        "entry_max_ranks": 1,
         "definition_id": 141743,
         "entry_index": 100,
         "entry_type": "tierrank",
         "talent_name": "Dominion of Argus",
         "spell_id": 1276163,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_warlock_dominionofargus"
       },
       "pve_tooltip": "Summoning your Demonic Tyrant leaves open a portal to Argus for 15 sec, causing every 2 casts of Hand of Gul'dan to summon a subjugated demon that serves you for 10 sec.",
@@ -5840,15 +6096,17 @@
         "prev": [],
         "next": [],
         "entry_id": 136979,
+        "entry_max_ranks": 2,
         "definition_id": 141742,
         "entry_index": 200,
         "entry_type": "tierrank",
         "talent_name": "Dominion of Argus",
         "spell_id": 1276190,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_warlock_dominionofargus"
       },
-      "pve_tooltip": "Increases the duration of Dominion of Argus by 5 sec and increases damage dealt by Hand of Gul'dan by 10%.",
-      "pvp_tooltip": "Increases the duration of Dominion of Argus by 5 sec and increases damage dealt by Hand of Gul'dan by 10%.",
+      "pve_tooltip": "Increases the duration of Dominion of Argus by 10 sec and increases damage dealt by Hand of Gul'dan by 20%.",
+      "pvp_tooltip": "Increases the duration of Dominion of Argus by 10 sec and increases damage dealt by Hand of Gul'dan by 20%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5856,7 +6114,26 @@
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Increases the duration of Dominion of Argus by 5 sec and increases damage dealt by Hand of Gul'dan by 10%.",
+          "pvp_tooltip": "Increases the duration of Dominion of Argus by 5 sec and increases damage dealt by Hand of Gul'dan by 10%.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Increases the duration of Dominion of Argus by 10 sec and increases damage dealt by Hand of Gul'dan by 20%.",
+          "pvp_tooltip": "Increases the duration of Dominion of Argus by 10 sec and increases damage dealt by Hand of Gul'dan by 20%.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Dominion of Argus",
@@ -5891,11 +6168,13 @@
         "prev": [],
         "next": [],
         "entry_id": 136978,
+        "entry_max_ranks": 1,
         "definition_id": 141741,
         "entry_index": 300,
         "entry_type": "tierrank",
         "talent_name": "Dominion of Argus",
         "spell_id": 1276222,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_warlock_dominionofargus"
       },
       "pve_tooltip": "While Dominion of Argus is active, Hand of Gul'dan refunds 1 Soul Shard.\nDemons summoned by Dominion of Argus last an additional 4 sec.",
@@ -5947,11 +6226,13 @@
           109839
         ],
         "entry_id": 117448,
+        "entry_max_ranks": 1,
         "definition_id": 122460,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Demonic Soul",
         "spell_id": 449614,
+        "visible_spell_id": null,
         "icon": "inv_ability_soulharvesterwarlock_demonicsoul"
       },
       "pve_tooltip": "A demonic entity now inhabits your soul, allowing you to detect if a Soul Shard has a Succulent Soul when it's generated.\nConsuming a Succulent Soul unleashes your demonic soul, dealing (353.236% of Spell Power) Shadow damage to all enemies within 10 yds of the target. Damage reduced beyond 8 targets.",
@@ -6002,11 +6283,13 @@
           94850
         ],
         "entry_id": 117422,
+        "entry_max_ranks": 1,
         "definition_id": 122434,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Necrolyte Teachings",
         "spell_id": 449620,
+        "visible_spell_id": null,
         "icon": "spell_necro_deathall"
       },
       "pve_tooltip": "Shadow Bolt damage increased by 20%. Power Siphon increases the damage of Demonbolt by an additional 20%.",
@@ -6212,11 +6495,13 @@
           94823
         ],
         "entry_id": 117444,
+        "entry_max_ranks": 1,
         "definition_id": 122456,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Soul Anathema",
         "spell_id": 449624,
+        "visible_spell_id": null,
         "icon": "spell_necro_inevitableend"
       },
       "pve_tooltip": "Unleashing your demonic soul bestows a fiendish entity unto the soul of its targets, dealing (114.712% of Spell Power) Shadow damage over 10 sec.\nIf this effect is reapplied, any remaining damage will be added to the new Soul Anathema.",
@@ -6267,11 +6552,13 @@
           94824
         ],
         "entry_id": 117429,
+        "entry_max_ranks": 1,
         "definition_id": 122441,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Demoniac's Fervor",
         "spell_id": 449629,
+        "visible_spell_id": null,
         "icon": "inv_helm_mask_zulgurub_d_01"
       },
       "pve_tooltip": "Your demonic soul deals 200% increased damage to the main target of Hand of Gul'dan.",
@@ -6359,11 +6646,13 @@
           109838
         ],
         "entry_id": 136098,
+        "entry_max_ranks": 1,
         "definition_id": 140853,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Manifested Avarice",
         "spell_id": 1268884,
+        "visible_spell_id": null,
         "icon": "ability_priest_shadowyapparition"
       },
       "pve_tooltip": "Each Succulent Soul consumed has an increasing chance to unleash the Demonic Soul within you, enabling it to assault your enemies for 9 sec.\nSoul Swipe\nStrikes nearby enemies with a malevolent claw, dealing (195.514% of Spell Power) Shadow damage to its target and (130.346% of Spell Power) Shadow damage to other enemies in 10 yds.",
@@ -6503,11 +6792,13 @@
           94821
         ],
         "entry_id": 117447,
+        "entry_max_ranks": 1,
         "definition_id": 122459,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Gorebound Fortitude",
         "spell_id": 449701,
+        "visible_spell_id": null,
         "icon": "spell_holy_consumemagic"
       },
       "pve_tooltip": "You always gain the benefit of Soulburn when consuming a Healthstone, increasing its healing by 30% and increasing your maximum health by 20% for 12 sec.",
@@ -6571,7 +6862,7 @@
           "dependency_relations": [
             "triggered_by_reverse",
             "spelldesc_ref",
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -6657,11 +6948,13 @@
           94821
         ],
         "entry_id": 123840,
+        "entry_max_ranks": 1,
         "definition_id": 128678,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Friends In Dark Places",
         "spell_id": 449703,
+        "visible_spell_id": null,
         "icon": "spell_shadow_deathpact"
       },
       "pve_tooltip": "Dark Pact now shields you for an additional 50% of the sacrificed health.",
@@ -6759,11 +7052,13 @@
           94846
         ],
         "entry_id": 117420,
+        "entry_max_ranks": 1,
         "definition_id": 122432,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shared Fate",
         "spell_id": 449704,
+        "visible_spell_id": null,
         "icon": "ability_warlock_soullink"
       },
       "pve_tooltip": "When you kill a target, its tortured soul is flung into a nearby enemy for 3 sec. This effect inflicts (50.6531% of Spell Power) Shadow damage to enemies within 10 yds every 1 sec.\nDeals reduced damage beyond 8 targets.",
@@ -6814,11 +7109,13 @@
           94846
         ],
         "entry_id": 123839,
+        "entry_max_ranks": 1,
         "definition_id": 128677,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Feast of Souls",
         "spell_id": 449706,
+        "visible_spell_id": null,
         "icon": "ability_warlock_improvedsoulleech"
       },
       "pve_tooltip": "When you kill a target, you have a chance to generate a Soul Shard that is guaranteed to be a Succulent Soul.",
@@ -6869,11 +7166,13 @@
           94838
         ],
         "entry_id": 117421,
+        "entry_max_ranks": 1,
         "definition_id": 122433,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Eternal Servitude",
         "spell_id": 449707,
+        "visible_spell_id": null,
         "icon": "ability_demonhunter_infernalchains"
       },
       "pve_tooltip": "Fel Domination cooldown is reduced by 90 sec.",
@@ -6887,9 +7186,9 @@
             1
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "duration_seconds",
-          "old": 1.5,
-          "new": 0.500001,
+          "kind": "ordinary_value",
+          "old": 0.0015,
+          "new": 0.0005,
           "full_tooltip_match_count": 0
         }
       ],
@@ -6961,11 +7260,13 @@
           94838
         ],
         "entry_id": 123838,
+        "entry_max_ranks": 1,
         "definition_id": 128676,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Gorefiend's Resolve",
         "spell_id": 389623,
+        "visible_spell_id": null,
         "icon": "ability_rogue_masterofsubtlety"
       },
       "pve_tooltip": "Targets resurrected with Soulstone resurrect with 40% additional health and 80% additional mana.",
@@ -7016,11 +7317,13 @@
           109837
         ],
         "entry_id": 136097,
+        "entry_max_ranks": 1,
         "definition_id": 140852,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shared Vessel",
         "spell_id": 1268889,
+        "visible_spell_id": null,
         "icon": "inv_ability_priest_mindgames"
       },
       "pve_tooltip": "Increases your Mastery by 2%.\nThis effect is doubled while the demonic entity is aiding you in combat.",
@@ -7071,11 +7374,13 @@
           94857
         ],
         "entry_id": 117418,
+        "entry_max_ranks": 1,
         "definition_id": 122430,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Wicked Reaping",
         "spell_id": 449631,
+        "visible_spell_id": null,
         "icon": "inv_staff_2h_artifactdeadwind_d_05"
       },
       "pve_tooltip": "Damage dealt by your demonic soul is increased by 30%.\nConsuming Demonic Core feeds the demonic entity within you, causing it to appear and deal [(601.005% of Spell Power) * 0.4] Shadow damage to your target.",
@@ -7186,11 +7491,13 @@
           94857
         ],
         "entry_id": 117443,
+        "entry_max_ranks": 1,
         "definition_id": 122455,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Quietus",
         "spell_id": 449634,
+        "visible_spell_id": null,
         "icon": "spell_necro_conclave"
       },
       "pve_tooltip": "Soul Anathema damage increased by 25% and is dealt 20% faster.\nConsuming Demonic Core activates Shared Fate or Feast of Souls.",
@@ -7241,11 +7548,13 @@
           94857
         ],
         "entry_id": 117435,
+        "entry_max_ranks": 1,
         "definition_id": 122447,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sataiel's Volition",
         "spell_id": 449637,
+        "visible_spell_id": null,
         "icon": "spell_necro_deathlyecho"
       },
       "pve_tooltip": "Wild Imp damage increased by 35% and Wild Imps that are imploded have an additional 5% chance to grant a Demonic Core.",
@@ -7296,11 +7605,13 @@
           94857
         ],
         "entry_id": 136096,
+        "entry_max_ranks": 1,
         "definition_id": 140851,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Eternal Hunger",
         "spell_id": 1268903,
+        "visible_spell_id": null,
         "icon": "ability_creature_poison_01_purple"
       },
       "pve_tooltip": "Increases the duration of Manifested Avarice by 5 sec and increases the damage of Soul Swipe by 10%.",
@@ -7352,11 +7663,13 @@
         ],
         "next": [],
         "entry_id": 117454,
+        "entry_max_ranks": 1,
         "definition_id": 122466,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shadow of Death",
         "spell_id": 449638,
+        "visible_spell_id": null,
         "icon": "spell_arcane_prismaticcloak"
       },
       "pve_tooltip": "Your Summon Demonic Tyrant spell is empowered by the demonic entity within you, causing it to grant 3 Soul Shards that each contain a Succulent Soul.",
@@ -7408,11 +7721,13 @@
           109833
         ],
         "entry_id": 117452,
+        "entry_max_ranks": 1,
         "definition_id": 122464,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Diabolic Ritual",
         "spell_id": 428514,
+        "visible_spell_id": null,
         "icon": "ability_bossfelorcs_necromancer_purple"
       },
       "pve_tooltip": "Spending a Soul Shard on a damaging spell grants Diabolic Ritual for 20 sec. While Diabolic Ritual is active, each Soul Shard spent on a damaging spell reduces its duration by 1 sec.\nWhen Diabolic Ritual expires you gain Demonic Art, causing your next Hand of Gul'dan to summon an Overlord, Mother of Chaos, or Pit Lord that unleashes a devastating attack against your enemies.",
@@ -7463,11 +7778,13 @@
           94836
         ],
         "entry_id": 117446,
+        "entry_max_ranks": 1,
         "definition_id": 122458,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Cloven Souls",
         "spell_id": 428517,
+        "visible_spell_id": null,
         "icon": "ability_creature_felfrenzy"
       },
       "pve_tooltip": "Enemies damaged by your Overlord have their souls cloven, increasing damage taken by you and your pets by 5% for 15 sec.",
@@ -7518,11 +7835,13 @@
           94848
         ],
         "entry_id": 117453,
+        "entry_max_ranks": 1,
         "definition_id": 122465,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Touch of Rancora",
         "spell_id": 429893,
+        "visible_spell_id": null,
         "icon": "ability_bossfellord_felspike"
       },
       "pve_tooltip": "Demonic Art increases the damage of your next Hand of Gul'dan by 20% and reduces its cast time by 50%.",
@@ -7620,11 +7939,13 @@
           94852
         ],
         "entry_id": 117423,
+        "entry_max_ranks": 1,
         "definition_id": 122435,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Secrets of the Coven",
         "spell_id": 428518,
+        "visible_spell_id": null,
         "icon": "achievement_boss_argus_shivan"
       },
       "pve_tooltip": "Mother of Chaos empowers your next Shadow Bolt to become Infernal Bolt.\nInfernal Bolt\nHurl a bolt enveloped in the infernal flames of the abyss, dealing (1347.35% of Spell Power) Fire damage to your enemy target and generating 3 Soul Shards.",
@@ -7723,11 +8044,13 @@
           109832
         ],
         "entry_id": 136092,
+        "entry_max_ranks": 1,
         "definition_id": 140847,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Diabolic Oculi",
         "spell_id": 1268709,
+        "visible_spell_id": null,
         "icon": "inv_pet_inquisitoreye"
       },
       "pve_tooltip": "You summon a Diabolic Oculus, up to 3, each time the duration of Diabolic Ritual is reduced by one of your spells.\nDiabolic Oculi explode when consuming Demonic Art, dealing (234.62% of Spell Power) Fire damage to all enemies within 10 yds of the target. Damage reduced beyond 8 targets.",
@@ -7830,11 +8153,13 @@
           94833
         ],
         "entry_id": 117433,
+        "entry_max_ranks": 1,
         "definition_id": 122445,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Soul-Etched Circles",
         "spell_id": 428911,
+        "visible_spell_id": null,
         "icon": "spell_shadow_demoniccircleteleport"
       },
       "pve_tooltip": "You always gain the benefit of Soulburn when casting Demonic Circle: Teleport, increasing your movement speed by 50% and making you immune to snares and roots for 6 sec.",
@@ -7885,11 +8210,13 @@
           94833
         ],
         "entry_id": 118837,
+        "entry_max_ranks": 1,
         "definition_id": 123737,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Annihilan's Bellow",
         "spell_id": 429072,
+        "visible_spell_id": null,
         "icon": "ability_physical_taunt"
       },
       "pve_tooltip": "Howl of Terror cooldown is reduced by 10 sec and range is increased by 5 yds.",
@@ -7987,11 +8314,13 @@
           94831
         ],
         "entry_id": 117445,
+        "entry_max_ranks": 1,
         "definition_id": 122457,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Cruelty of Kerxan",
         "spell_id": 429902,
+        "visible_spell_id": null,
         "icon": "creatureportrait_fomorhand"
       },
       "pve_tooltip": "Summon Demonic Tyrant grants Diabolic Ritual and reduces its duration by 3 sec.",
@@ -8042,11 +8371,13 @@
           94831
         ],
         "entry_id": 118838,
+        "entry_max_ranks": 1,
         "definition_id": 123738,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Infernal Machine",
         "spell_id": 429917,
+        "visible_spell_id": null,
         "icon": "inv_misc_supersoulash"
       },
       "pve_tooltip": "Spending Soul Shards on damaging spells while your Demonic Tyrant is active decreases the duration of Diabolic Ritual by 1 additional sec.",
@@ -8097,11 +8428,13 @@
           94843
         ],
         "entry_id": 117449,
+        "entry_max_ranks": 1,
         "definition_id": 122461,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Infernal Vitality",
         "spell_id": 429115,
+        "visible_spell_id": null,
         "icon": "inv_fabric_felcloth_ebon"
       },
       "pve_tooltip": "Unending Resolve heals you for 30% of your maximum health over 10 sec.",
@@ -8152,11 +8485,13 @@
           94843
         ],
         "entry_id": 118839,
+        "entry_max_ranks": 1,
         "definition_id": 123739,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Infernal Bulwark",
         "spell_id": 429130,
+        "visible_spell_id": null,
         "icon": "spell_fire_felfireward"
       },
       "pve_tooltip": "Unending Resolve grants Soul Leech equal to 10% of your maximum health and increases the maximum amount Soul Leech can absorb by 10% for 8 sec.",
@@ -8207,11 +8542,13 @@
           109831
         ],
         "entry_id": 136091,
+        "entry_max_ranks": 1,
         "definition_id": 140846,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Looks That Kill",
         "spell_id": 1268713,
+        "visible_spell_id": null,
         "icon": "ability_bosskilrogg_deadeye"
       },
       "pve_tooltip": "Your Diabolic Oculi now cast Diabolic Gaze at your primary demon's target every 1 sec while active.\nDiabolic Gaze\nFire a beam of destructive chaos magic at the target, dealing (80% of Spell Power) Chaos damage.\nDamage is increased by 100% per Demonic Oculus active.",
@@ -8262,11 +8599,13 @@
           94830
         ],
         "entry_id": 117430,
+        "entry_max_ranks": 1,
         "definition_id": 122442,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Flames of Xoroth",
         "spell_id": 429657,
+        "visible_spell_id": null,
         "icon": "ability_warlock_burningembers"
       },
       "pve_tooltip": "Fire damage increased by 4% and damage dealt by your demons is increased by 4%.",
@@ -8317,11 +8656,13 @@
           94830
         ],
         "entry_id": 117428,
+        "entry_max_ranks": 1,
         "definition_id": 122440,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Abyssal Dominion",
         "spell_id": 429581,
+        "visible_spell_id": null,
         "icon": "70_inscription_vantus_rune_tomb"
       },
       "pve_tooltip": "Summon Demonic Tyrant is empowered, dealing 70% increased damage and increasing the damage of your demons by 20% while active.",
@@ -8372,11 +8713,13 @@
           94830
         ],
         "entry_id": 117440,
+        "entry_max_ranks": 1,
         "definition_id": 122452,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Gloom of Nathreza",
         "spell_id": 429899,
+        "visible_spell_id": null,
         "icon": "ability_rogue_envelopingshadows"
       },
       "pve_tooltip": "Hand of Gul'dan deals 15% increased damage for each Soul Shard spent.",
@@ -8427,11 +8770,13 @@
           94830
         ],
         "entry_id": 136090,
+        "entry_max_ranks": 1,
         "definition_id": 140845,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Mind's Eyes",
         "spell_id": 1268716,
+        "visible_spell_id": null,
         "icon": "spell_holy_healingfocus"
       },
       "pve_tooltip": "Your Diabolic Oculi observe the battlefield and collect information that is imparted to you upon being exploded, each Diabolic Oculi increasing your Intellect by 2% for 10 sec.",
@@ -8535,11 +8880,13 @@
         ],
         "next": [],
         "entry_id": 117427,
+        "entry_max_ranks": 1,
         "definition_id": 122439,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ruination",
         "spell_id": 428522,
+        "visible_spell_id": null,
         "icon": "ability_bossmannoroth_empoweredmannorothsgaze"
       },
       "pve_tooltip": "Summoning a Pit Lord causes your next Hand of Gul'dan to become Ruination.\nRuination\nCall down a demon-infested meteor from the depths of the Twisting Nether, dealing (2537.91% of Spell Power) Chaos damage on impact to all enemies within 8 yds of the target and summoning 3 Wild Imps.\nDamage is reduced beyond 8 targets.",
@@ -8571,7 +8918,7 @@
           ],
           "dependency_relations": [
             "spelldesc_ref",
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -8588,12 +8935,282 @@
     }
   ],
   "fetch_errors": [],
+  "serialization": {
+    "version": 2,
+    "spec_id": 266,
+    "node_order": [
+      71916,
+      71917,
+      71918,
+      71922,
+      71923,
+      71924,
+      71926,
+      71930,
+      71931,
+      71932,
+      71933,
+      71936,
+      71937,
+      71938,
+      71941,
+      71942,
+      71944,
+      71947,
+      71948,
+      71949,
+      71950,
+      71952,
+      71954,
+      71955,
+      71956,
+      71957,
+      71960,
+      71961,
+      71964,
+      71965,
+      71966,
+      71968,
+      71969,
+      71971,
+      71972,
+      71973,
+      71974,
+      71975,
+      71979,
+      71980,
+      71982,
+      71983,
+      71985,
+      71987,
+      72032,
+      72033,
+      72034,
+      72037,
+      72041,
+      72045,
+      72046,
+      72047,
+      72049,
+      72050,
+      72051,
+      72054,
+      72055,
+      72058,
+      72059,
+      72060,
+      72061,
+      72062,
+      72064,
+      72065,
+      72066,
+      72067,
+      72068,
+      72069,
+      94821,
+      94822,
+      94823,
+      94824,
+      94825,
+      94826,
+      94829,
+      94830,
+      94831,
+      94832,
+      94833,
+      94834,
+      94835,
+      94836,
+      94837,
+      94838,
+      94840,
+      94842,
+      94843,
+      94844,
+      94845,
+      94846,
+      94847,
+      94848,
+      94849,
+      94850,
+      94851,
+      94852,
+      94853,
+      94854,
+      94855,
+      94856,
+      94857,
+      99848,
+      99849,
+      99850,
+      100941,
+      101886,
+      101887,
+      101888,
+      101891,
+      101892,
+      101893,
+      101894,
+      101895,
+      101903,
+      101905,
+      101908,
+      101909,
+      101914,
+      101917,
+      101920,
+      101923,
+      101992,
+      101993,
+      101994,
+      102003,
+      102031,
+      102247,
+      102427,
+      108678,
+      108680,
+      108681,
+      109241,
+      109244,
+      109248,
+      109249,
+      109250,
+      109251,
+      109252,
+      109253,
+      109257,
+      109831,
+      109832,
+      109833,
+      109834,
+      109835,
+      109836,
+      109837,
+      109838,
+      109839,
+      109840,
+      109841,
+      109842,
+      109843,
+      109844,
+      109845,
+      109846,
+      109847,
+      109848,
+      109849,
+      109850,
+      109851,
+      109852,
+      109853,
+      109854,
+      109855,
+      109857,
+      109858,
+      109859,
+      109860,
+      109861,
+      109862,
+      109863,
+      109864,
+      109865,
+      109866,
+      109934,
+      109936,
+      110071,
+      110072,
+      110073,
+      110074,
+      110075,
+      110076,
+      110191,
+      110192,
+      110193,
+      110194,
+      110195,
+      110196,
+      110197,
+      110198,
+      110199,
+      110200,
+      110201,
+      110269,
+      110270,
+      110280,
+      110281,
+      110282,
+      110404,
+      110405,
+      110406
+    ],
+    "subtree_nodes": [
+      {
+        "id": 99849,
+        "name": "Diabolist / Soul Harvester",
+        "type": "subtree",
+        "posX": 7800,
+        "posY": 600,
+        "entryNode": true,
+        "next": [],
+        "prev": [],
+        "entries": [
+          {
+            "id": 123386,
+            "type": "subtree",
+            "name": "Diabolist",
+            "traitSubTreeId": 59,
+            "traitTreeId": 720,
+            "atlasMemberName": "talents-heroclass-warlock-diabolist",
+            "nodes": [
+              94855,
+              94849,
+              94856,
+              94826,
+              109833,
+              94836,
+              94848,
+              94852,
+              109832,
+              94833,
+              94831,
+              94843,
+              109831,
+              94830
+            ]
+          },
+          {
+            "id": 123383,
+            "type": "subtree",
+            "name": "Soul Harvester",
+            "traitSubTreeId": 57,
+            "traitTreeId": 720,
+            "atlasMemberName": "talents-heroclass-warlock-soulharvester",
+            "nodes": [
+              94851,
+              94825,
+              94847,
+              94832,
+              109839,
+              94850,
+              94823,
+              94824,
+              109838,
+              94821,
+              94846,
+              94838,
+              109837,
+              94857
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "source_warnings": [],
   "slug": "warlock-demonology",
-  "generated_at": "2026-09-21T12:54:11.864833+00:00",
+  "generated_at": "2026-09-21T19:42:48.578191+00:00",
   "validation": {
     "talents": 125,
-    "changed_tooltips": 14,
+    "changed_tooltips": 15,
     "talents_with_pvp_mechanics": 27,
     "unique_nodes": 109,
     "tree_build": "12.1.0.69875",

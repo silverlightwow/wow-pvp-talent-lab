@@ -43,11 +43,13 @@
           101147
         ],
         "entry_id": 124933,
+        "entry_max_ranks": 1,
         "definition_id": 129771,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Soothing Mist",
         "spell_id": 115175,
+        "visible_spell_id": null,
         "icon": "ability_monk_soothingmists"
       },
       "pve_tooltip": "0% of base mana, plus 0.4% per second / 15 Energy per sec\n40 yd range\nChanneled (8 sec cast)\nHeals the target for (1680% of Spell Power) over 8 sec. While channeling, Enveloping Mist [Surging Mist: Surging Mist] [Zen Pulse: Zen Pulse] and Vivify may be cast instantly on the target.",
@@ -97,11 +99,13 @@
           101149
         ],
         "entry_id": 124932,
+        "entry_max_ranks": 1,
         "definition_id": 129770,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Paralysis",
         "spell_id": 115078,
+        "visible_spell_id": null,
         "icon": "ability_monk_paralysis"
       },
       "pve_tooltip": "20 Energy\n20 yd range\nInstant\n45 sec cooldown\nIncapacitates the target for 1 min. Limit 1. Damage may cancel the effect.",
@@ -151,11 +155,13 @@
           109826
         ],
         "entry_id": 136086,
+        "entry_max_ranks": 1,
         "definition_id": 140841,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Stagger",
         "spell_id": 115069,
+        "visible_spell_id": null,
         "icon": "monk_stance_drunkenox"
       },
       "pve_tooltip": "You shrug off attacks, delaying a portion of Physical damage based on your Agility, instead taking it over 10 sec. Affects magical attacks at 58% effectiveness. [Training of Niuzao: Gain up to 15% Mastery based on your current level of Stagger.]",
@@ -207,11 +213,13 @@
           101145
         ],
         "entry_id": 124934,
+        "entry_max_ranks": 1,
         "definition_id": 129772,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Elusive Mists",
         "spell_id": 388681,
+        "visible_spell_id": null,
         "icon": "ability_monk_soothingmists"
       },
       "pve_tooltip": "Reduces all damage taken by you and your target while channeling Soothing Mists by 6%.",
@@ -265,11 +273,13 @@
           101153
         ],
         "entry_id": 124937,
+        "entry_max_ranks": 1,
         "definition_id": 129775,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Tiger's Lust",
         "spell_id": 116841,
+        "visible_spell_id": null,
         "icon": "ability_monk_tigerslust"
       },
       "pve_tooltip": "20 yd range\nInstant\n30 sec cooldown\nIncreases a friendly target's movement speed by 70% for 6 sec and removes all roots and snares.",
@@ -323,11 +333,13 @@
           101090
         ],
         "entry_id": 124940,
+        "entry_max_ranks": 1,
         "definition_id": 129778,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Crashing Momentum",
         "spell_id": 450335,
+        "visible_spell_id": null,
         "icon": "ability_monk_blackoutkick"
       },
       "pve_tooltip": "Targets you Roll through are snared by 40% for 5 sec.",
@@ -433,11 +445,13 @@
           101090
         ],
         "entry_id": 124939,
+        "entry_max_ranks": 1,
         "definition_id": 129777,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Disable",
         "spell_id": 116095,
+        "visible_spell_id": null,
         "icon": "ability_shockwave"
       },
       "pve_tooltip": "15 Energy / 0.7% of base mana\nMelee Range\nInstant\nReduces the target's movement speed by 50% for 15 sec, duration refreshed by your melee attacks. [Disable: Targets already snared will be rooted for 8 sec instead]",
@@ -489,11 +503,13 @@
           101184
         ],
         "entry_id": 136085,
+        "entry_max_ranks": 1,
         "definition_id": 140840,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fast Feet",
         "spell_id": 1261543,
+        "visible_spell_id": null,
         "icon": "ability_monk_mightyoxkick"
       },
       "pve_tooltip": "Blackout Kick deals 20% increased damage. Spinning Crane Kick deals 10% additional damage.",
@@ -547,11 +563,13 @@
           101160
         ],
         "entry_id": 124936,
+        "entry_max_ranks": 1,
         "definition_id": 129774,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Grace of the Crane",
         "spell_id": 388811,
+        "visible_spell_id": null,
         "icon": "monk_ability_cherrymanatea"
       },
       "pve_tooltip": "Increases all healing taken by 6%.",
@@ -602,11 +620,13 @@
           101160
         ],
         "entry_id": 124955,
+        "entry_max_ranks": 1,
         "definition_id": 129793,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Bounding Agility",
         "spell_id": 450520,
+        "visible_spell_id": null,
         "icon": "ability_monk_roll"
       },
       "pve_tooltip": "Roll and Chi Torpedo travel a small distance further.\nModifies Buff Duration +80:\nChi Torpedo",
@@ -660,11 +680,13 @@
           101152
         ],
         "entry_id": 124944,
+        "entry_max_ranks": 1,
         "definition_id": 129782,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Calming Presence",
         "spell_id": 388664,
+        "visible_spell_id": null,
         "icon": "inv_misc_orb_01"
       },
       "pve_tooltip": "Reduces all damage taken by 3%.",
@@ -715,11 +737,13 @@
           101152
         ],
         "entry_id": 124938,
+        "entry_max_ranks": 1,
         "definition_id": 129776,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Wind's Reach",
         "spell_id": 450514,
+        "visible_spell_id": null,
         "icon": "ability_monk_zenflight"
       },
       "pve_tooltip": "The range of Disable is increased by 5 yds.\nThe duration of Crashing Momentum is increased by 3 sec and its snare now reduces movement speed by an additional 20%.",
@@ -773,11 +797,13 @@
           101184
         ],
         "entry_id": 124867,
+        "entry_max_ranks": 1,
         "definition_id": 129705,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Detox",
         "spell_id": 218164,
+        "visible_spell_id": null,
         "icon": "ability_rogue_imrovedrecuperate"
       },
       "pve_tooltip": "10 Energy\n40 yd range\nInstant\n8 sec cooldown\n1 Charge\nRemoves all Poison and Disease effects from the target.",
@@ -830,11 +856,13 @@
           101158
         ],
         "entry_id": 124935,
+        "entry_max_ranks": 1,
         "definition_id": 129773,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Vivacious Vivification",
         "spell_id": 388812,
+        "visible_spell_id": null,
         "icon": "ability_monk_vivify"
       },
       "pve_tooltip": "After casting Keg Smash, your next Vivify becomes instant cast.\nThis effect also reduces the energy cost of Vivify by 75%.",
@@ -885,11 +913,13 @@
           102433
         ],
         "entry_id": 136517,
+        "entry_max_ranks": 1,
         "definition_id": 141290,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Silent Sanctuary",
         "spell_id": 1266719,
+        "visible_spell_id": null,
         "icon": "spell_monk_zenpilgrimage"
       },
       "pve_tooltip": "While no enemies are within 15 yds, you heal for (375% of Spell Power) every 3 sec.",
@@ -943,11 +973,13 @@
           101167
         ],
         "entry_id": 124954,
+        "entry_max_ranks": 1,
         "definition_id": 129792,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Jade Walk",
         "spell_id": 450553,
+        "visible_spell_id": null,
         "icon": "spell_lifegivingspeed"
       },
       "pve_tooltip": "While out of combat, your movement speed is increased by 15%.",
@@ -998,11 +1030,13 @@
           101167
         ],
         "entry_id": 124931,
+        "entry_max_ranks": 1,
         "definition_id": 129769,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Pressure Points",
         "spell_id": 450432,
+        "visible_spell_id": null,
         "icon": "ability_monk_deadlyreach"
       },
       "pve_tooltip": "Paralysis now removes all Enrage effects from its target.",
@@ -1057,11 +1091,13 @@
           101183
         ],
         "entry_id": 124943,
+        "entry_max_ranks": 1,
         "definition_id": 129781,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Spear Hand Strike",
         "spell_id": 116705,
+        "visible_spell_id": null,
         "icon": "ability_monk_spearhand"
       },
       "pve_tooltip": "Melee Range\nInstant\n15 sec cooldown\nJabs the target in the throat, interrupting spellcasting and preventing any spell from that school of magic from being cast for 5 sec.",
@@ -1112,11 +1148,13 @@
           101183
         ],
         "entry_id": 136520,
+        "entry_max_ranks": 1,
         "definition_id": 141293,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Reinvigoration",
         "spell_id": 1266740,
+        "visible_spell_id": null,
         "icon": "ability_monk_quipunch"
       },
       "pve_tooltip": "After Detox successfully removes an effect from an ally, their movement speed is increased by 30% for 5 sec.\n(300ms cooldown)",
@@ -1169,11 +1207,13 @@
           110025
         ],
         "entry_id": 124983,
+        "entry_max_ranks": 2,
         "definition_id": 129821,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ancient Arts",
         "spell_id": 344359,
+        "visible_spell_id": null,
         "icon": "ability_monk_dpsstance"
       },
       "pve_tooltip": "Reduces the cooldown of Paralysis by 15 sec and the cooldown of Leg Sweep by 10 sec.",
@@ -1191,6 +1231,7 @@
           "pve_tooltip": "Reduces the cooldown of Paralysis by 15 sec and the cooldown of Leg Sweep by 5 sec.",
           "pvp_tooltip": "Reduces the cooldown of Paralysis by 15 sec and the cooldown of Leg Sweep by 5 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -1199,6 +1240,7 @@
           "pve_tooltip": "Reduces the cooldown of Paralysis by 15 sec and the cooldown of Leg Sweep by 10 sec.",
           "pvp_tooltip": "Reduces the cooldown of Paralysis by 15 sec and the cooldown of Leg Sweep by 10 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -1244,11 +1286,13 @@
           101156
         ],
         "entry_id": 126502,
+        "entry_max_ranks": 1,
         "definition_id": 131328,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Chi Wave",
         "spell_id": 450391,
+        "visible_spell_id": null,
         "icon": "ability_monk_chiwave"
       },
       "pve_tooltip": "Every 15 sec, your next Keg Smash or Vivify releases a wave of Chi energy that flows through friends and foes, dealing (20% of Attack Power) Nature damage or (60% of Attack Power) healing. Bounces up to 7 times to targets within 25 yards.",
@@ -1362,11 +1406,13 @@
           101156
         ],
         "entry_id": 126501,
+        "entry_max_ranks": 1,
         "definition_id": 131327,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Chi Burst",
         "spell_id": 123986,
+        "visible_spell_id": null,
         "icon": "spell_arcane_arcanetorrent"
       },
       "pve_tooltip": "40 yd range\n1 sec cast\n30 sec cooldown\nHurls a torrent of Chi energy up to 40 yds forward, dealing (280% of Attack Power) Nature damage to all enemies, and (220% of Attack Power) healing to the Monk and all allies in its path. Healing and damage reduced beyond 5 targets.\nCasting Chi Burst does not prevent avoiding attacks.",
@@ -1483,11 +1529,13 @@
           101138
         ],
         "entry_id": 124962,
+        "entry_max_ranks": 1,
         "definition_id": 129800,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Transcendence",
         "spell_id": 101643,
+        "visible_spell_id": null,
         "icon": "monk_ability_transcendence"
       },
       "pve_tooltip": "Instant\n10 sec cooldown\nSplit your body and spirit, leaving your spirit behind for 15 min. Use Transcendence: Transfer to swap locations with your spirit.",
@@ -1538,11 +1586,13 @@
           101182
         ],
         "entry_id": 124942,
+        "entry_max_ranks": 1,
         "definition_id": 129780,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Energy Transfer",
         "spell_id": 450631,
+        "visible_spell_id": null,
         "icon": "monk_ability_avertharm"
       },
       "pve_tooltip": "Successfully interrupting an enemy reduces the cooldown of Paralysis and Roll by 5 sec.",
@@ -1596,11 +1646,13 @@
           101140
         ],
         "entry_id": 124982,
+        "entry_max_ranks": 1,
         "definition_id": 129820,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Celerity",
         "spell_id": 115173,
+        "visible_spell_id": null,
         "icon": "ability_monk_quipunch"
       },
       "pve_tooltip": "Reduces the cooldown of Roll by 5 sec and increases its maximum number of charges by 1.",
@@ -1654,11 +1706,13 @@
           101140
         ],
         "entry_id": 124981,
+        "entry_max_ranks": 1,
         "definition_id": 129819,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Chi Torpedo",
         "spell_id": 115008,
+        "visible_spell_id": null,
         "icon": "ability_monk_quitornado"
       },
       "pve_tooltip": "Replaces Roll\nInstant\n20 sec recharge\n2 Charges\nTorpedoes you forward a long distance and increases your movement speed by 30% for 10 sec, stacking up to 2 times.",
@@ -1709,11 +1763,13 @@
           101140
         ],
         "entry_id": 136518,
+        "entry_max_ranks": 1,
         "definition_id": 141291,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Stillstep Coil",
         "spell_id": 1266733,
+        "visible_spell_id": null,
         "icon": "inv_helm_leather_raidmonkprogenitormythic_d_01"
       },
       "pve_tooltip": "Leg Sweep applies Disable for 5.0 sec when it ends.",
@@ -1766,11 +1822,13 @@
           101157
         ],
         "entry_id": 124951,
+        "entry_max_ranks": 1,
         "definition_id": 129789,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Quick Footed",
         "spell_id": 450503,
+        "visible_spell_id": null,
         "icon": "ability_monk_hurricanestrike"
       },
       "pve_tooltip": "The duration of snare effects on you is reduced by 20%.",
@@ -1823,11 +1881,13 @@
           101157
         ],
         "entry_id": 124950,
+        "entry_max_ranks": 1,
         "definition_id": 129788,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Hasty Provocation",
         "spell_id": 328670,
+        "visible_spell_id": null,
         "icon": "ability_monk_provoke"
       },
       "pve_tooltip": "Provoked targets move towards you at 50% increased speed.",
@@ -1879,11 +1939,13 @@
           101165
         ],
         "entry_id": 124961,
+        "entry_max_ranks": 2,
         "definition_id": 129799,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ferocity of Xuen",
         "spell_id": 388674,
+        "visible_spell_id": null,
         "icon": "ability_mount_pinktiger"
       },
       "pve_tooltip": "Increases all damage dealt by 4%.",
@@ -1901,6 +1963,7 @@
           "pve_tooltip": "Increases all damage dealt by 2%.",
           "pvp_tooltip": "Increases all damage dealt by 2%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -1909,6 +1972,7 @@
           "pve_tooltip": "Increases all damage dealt by 4%.",
           "pvp_tooltip": "Increases all damage dealt by 4%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -1953,11 +2017,13 @@
           101165
         ],
         "entry_id": 124926,
+        "entry_max_ranks": 1,
         "definition_id": 129764,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Ring of Peace",
         "spell_id": 116844,
+        "visible_spell_id": null,
         "icon": "spell_monk_ringofpeace"
       },
       "pve_tooltip": "40 yd range\nInstant\n45 sec cooldown\nForm a Ring of Peace at the target location for 5 sec. Enemies that enter will be ejected from the Ring.",
@@ -2010,11 +2076,13 @@
           101165
         ],
         "entry_id": 124925,
+        "entry_max_ranks": 1,
         "definition_id": 129763,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Song of Chi-Ji",
         "spell_id": 198898,
+        "visible_spell_id": null,
         "icon": "inv_chaos_orb"
       },
       "pve_tooltip": "40 yd range\n1.8 sec cast\n30 sec cooldown\nConjures a cloud of hypnotic mist that slowly travels forward. Enemies touched by the mist fall asleep, Disoriented for 20 sec.",
@@ -2066,11 +2134,13 @@
           101181
         ],
         "entry_id": 124928,
+        "entry_max_ranks": 1,
         "definition_id": 129766,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Spirit's Essence",
         "spell_id": 450595,
+        "visible_spell_id": null,
         "icon": "spell_shaman_spectraltransformation"
       },
       "pve_tooltip": "Transcendence: Transfer snares targets within 10 yds by 70% for 4 sec when cast.",
@@ -2174,11 +2244,13 @@
           101181
         ],
         "entry_id": 124980,
+        "entry_max_ranks": 1,
         "definition_id": 129818,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Tiger Tail Sweep",
         "spell_id": 264348,
+        "visible_spell_id": null,
         "icon": "ability_monk_legsweep"
       },
       "pve_tooltip": "Increases the range of Leg Sweep by 4 yds.",
@@ -2231,11 +2303,13 @@
           101180
         ],
         "entry_id": 124930,
+        "entry_max_ranks": 1,
         "definition_id": 129768,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Touch of Death",
         "spell_id": 322113,
+        "visible_spell_id": null,
         "icon": "ability_monk_touchofdeath"
       },
       "pve_tooltip": "Touch of Death can now be used on targets with less than 15% health remaining, dealing 35% of your maximum health in damage.",
@@ -2289,11 +2363,13 @@
           101155
         ],
         "entry_id": 124948,
+        "entry_max_ranks": 1,
         "definition_id": 129786,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Vigorous Expulsion",
         "spell_id": 392900,
+        "visible_spell_id": null,
         "icon": "ability_monk_expelharm"
       },
       "pve_tooltip": "Expel Harm's healing increased by 6% and critical strike chance increased by 15%.",
@@ -2347,24 +2423,26 @@
           101172
         ],
         "entry_id": 124960,
+        "entry_max_ranks": 1,
         "definition_id": 129798,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Yu'lon's Grace",
         "spell_id": 414131,
+        "visible_spell_id": null,
         "icon": "ability_monk_dragonkick"
       },
       "pve_tooltip": "Find resilience in the flow of chi in battle, gaining a magic absorb shield for 1.0% of your max health every 3 sec in combat, stacking up to 10%.",
-      "pvp_tooltip": "Find resilience in the flow of chi in battle, gaining a magic absorb shield for 1.0% of your max health every 3 sec in combat, stacking up to 5%.",
+      "pvp_tooltip": "Find resilience in the flow of chi in battle, gaining a magic absorb shield for 0.5% of your max health every 3 sec in combat, stacking up to 10%.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 142,
-          "end": 144,
-          "old_token": "10",
-          "new_token": "5",
-          "kind": "ordinary_value",
+          "start": 80,
+          "end": 83,
+          "old_token": "1.0",
+          "new_token": "0.5",
+          "kind": "percent_value",
           "effect_indexes": [
             1
           ]
@@ -2376,9 +2454,9 @@
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
-          "old": "10",
-          "new": "5"
+          "kind": "percent_value",
+          "old": "1.0",
+          "new": "0.5"
         }
       ],
       "has_pvp_mechanics": true,
@@ -2449,11 +2527,13 @@
           101172
         ],
         "entry_id": 124957,
+        "entry_max_ranks": 1,
         "definition_id": 129795,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Peace and Prosperity",
         "spell_id": 450448,
+        "visible_spell_id": null,
         "icon": "inv_inscription_deck_redcrane"
       },
       "pve_tooltip": "Reduces the cooldown of Ring of Peace by 5 sec and Song of Chi-Ji's cast time is reduced by 0.5 sec.",
@@ -2507,11 +2587,13 @@
           108540
         ],
         "entry_id": 124968,
+        "entry_max_ranks": 1,
         "definition_id": 129806,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Fortifying Brew",
         "spell_id": 388917,
+        "visible_spell_id": 115203,
         "icon": "ability_monk_fortifyingale_new"
       },
       "pve_tooltip": "Turns your skin to stone for 15 sec, increasing your current and maximum health by 20% and reducing all damage you take by 20%.\nCombines with other Fortifying Brew effects.",
@@ -2595,11 +2677,13 @@
           101180
         ],
         "entry_id": 124979,
+        "entry_max_ranks": 1,
         "definition_id": 129817,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Dance of the Wind",
         "spell_id": 414132,
+        "visible_spell_id": null,
         "icon": "ability_monk_dematerialize"
       },
       "pve_tooltip": "Your dodge chance is increased by 5%.",
@@ -2651,11 +2735,13 @@
           101169
         ],
         "entry_id": 124949,
+        "entry_max_ranks": 1,
         "definition_id": 129787,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Save Them All",
         "spell_id": 389579,
+        "visible_spell_id": null,
         "icon": "inv_weapon_hand_22"
       },
       "pve_tooltip": "Your healing is increased by up to 10%, based on the current health of your target. Lower health targets are healed for more.",
@@ -2707,11 +2793,13 @@
           101169
         ],
         "entry_id": 124947,
+        "entry_max_ranks": 1,
         "definition_id": 129785,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Swift Art",
         "spell_id": 450622,
+        "visible_spell_id": null,
         "icon": "ability_monk_standingkick"
       },
       "pve_tooltip": "Roll removes a snare effect once every 30 sec.\n(30s cooldown)",
@@ -2764,11 +2852,13 @@
           101175
         ],
         "entry_id": 124924,
+        "entry_max_ranks": 1,
         "definition_id": 129762,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Strength of Spirit",
         "spell_id": 387276,
+        "visible_spell_id": null,
         "icon": "ability_monk_healthsphere"
       },
       "pve_tooltip": "Expel Harm's healing is increased by up to 100%, based on your missing health.",
@@ -2868,11 +2958,13 @@
           101175
         ],
         "entry_id": 124923,
+        "entry_max_ranks": 1,
         "definition_id": 129761,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Profound Rebuttal",
         "spell_id": 392910,
+        "visible_spell_id": null,
         "icon": "ability_monk_expelharm"
       },
       "pve_tooltip": "Expel Harm's critical healing is increased by 50%.",
@@ -2925,11 +3017,13 @@
           101175
         ],
         "entry_id": 124967,
+        "entry_max_ranks": 1,
         "definition_id": 129805,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Summon Black Ox Statue",
         "spell_id": 115315,
+        "visible_spell_id": null,
         "icon": "monk_ability_summonoxstatue"
       },
       "pve_tooltip": "40 yd range\nInstant\n10 sec cooldown\nSummons a Black Ox Statue at the target location for 15 min, pulsing threat to all enemies within 20 yards.\nYou may cast Provoke on the statue to taunt all enemies near the statue.",
@@ -2982,11 +3076,13 @@
           101179
         ],
         "entry_id": 124970,
+        "entry_max_ranks": 1,
         "definition_id": 129808,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ironshell Brew",
         "spell_id": 388814,
+        "visible_spell_id": null,
         "icon": "ability_monk_fortifyingale_new"
       },
       "pve_tooltip": "Increases your maximum health by an additional 10% and your damage taken is reduced by an additional 10% while Fortifying Brew is active.",
@@ -3039,11 +3135,13 @@
           101179
         ],
         "entry_id": 124969,
+        "entry_max_ranks": 1,
         "definition_id": 129807,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Expeditious Fortification",
         "spell_id": 388813,
+        "visible_spell_id": null,
         "icon": "ability_monk_fortifyingale_new"
       },
       "pve_tooltip": "Fortifying Brew cooldown reduced by 30 sec.",
@@ -3092,11 +3190,13 @@
         ],
         "next": [],
         "entry_id": 134029,
+        "entry_max_ranks": 1,
         "definition_id": 138812,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Diffuse Magic",
         "spell_id": 1243287,
+        "visible_spell_id": null,
         "icon": "spell_monk_diffusemagic"
       },
       "pve_tooltip": "Activating Fortifying Brew transfers all currently active harmful magical effects on you back to their original caster if possible.",
@@ -3148,11 +3248,13 @@
           101179
         ],
         "entry_id": 124977,
+        "entry_max_ranks": 1,
         "definition_id": 129815,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Celestial Determination",
         "spell_id": 450638,
+        "visible_spell_id": null,
         "icon": "ability_monk_essencefont"
       },
       "pve_tooltip": "While your Celestial is active, you cannot be slowed below 90% normal movement speed.",
@@ -3206,11 +3308,13 @@
           101170
         ],
         "entry_id": 124964,
+        "entry_max_ranks": 2,
         "definition_id": 129802,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Chi Proficiency",
         "spell_id": 450426,
+        "visible_spell_id": null,
         "icon": "ability_monk_chiswirl"
       },
       "pve_tooltip": "Magical damage done increased by 4% and healing done increased by 4%.",
@@ -3228,6 +3332,7 @@
           "pve_tooltip": "Magical damage done increased by 2% and healing done increased by 2%.",
           "pvp_tooltip": "Magical damage done increased by 2% and healing done increased by 2%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -3236,6 +3341,7 @@
           "pve_tooltip": "Magical damage done increased by 4% and healing done increased by 4%.",
           "pvp_tooltip": "Magical damage done increased by 4% and healing done increased by 4%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -3279,11 +3385,13 @@
           101176
         ],
         "entry_id": 124966,
+        "entry_max_ranks": 1,
         "definition_id": 129804,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Healing Winds",
         "spell_id": 450560,
+        "visible_spell_id": null,
         "icon": "ability_monk_pathofmists"
       },
       "pve_tooltip": "Transcendence: Transfer immediately heals you for 10% of your maximum health.",
@@ -3336,11 +3444,13 @@
           101176
         ],
         "entry_id": 124971,
+        "entry_max_ranks": 1,
         "definition_id": 129809,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Windwalking",
         "spell_id": 157411,
+        "visible_spell_id": null,
         "icon": "monk_stance_whitetiger"
       },
       "pve_tooltip": "You and your allies within 10 yards have 10% increased movement speed. Stacks with other similar effects.",
@@ -3392,11 +3502,13 @@
           101178
         ],
         "entry_id": 124974,
+        "entry_max_ranks": 1,
         "definition_id": 129812,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Chi Transfer",
         "spell_id": 1272452,
+        "visible_spell_id": null,
         "icon": "ability_monk_zenmeditation"
       },
       "pve_tooltip": "Touch of Death now heals you for 60% of its damage done.",
@@ -3449,11 +3561,13 @@
           101154
         ],
         "entry_id": 124976,
+        "entry_max_ranks": 2,
         "definition_id": 129814,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Martial Instincts",
         "spell_id": 450427,
+        "visible_spell_id": null,
         "icon": "ability_monk_palmstrike"
       },
       "pve_tooltip": "Increases your Physical damage done by 4% and Avoidance increased by 4%.",
@@ -3471,6 +3585,7 @@
           "pve_tooltip": "Increases your Physical damage done by 2% and Avoidance increased by 2%.",
           "pvp_tooltip": "Increases your Physical damage done by 2% and Avoidance increased by 2%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -3479,6 +3594,7 @@
           "pve_tooltip": "Increases your Physical damage done by 4% and Avoidance increased by 4%.",
           "pvp_tooltip": "Increases your Physical damage done by 4% and Avoidance increased by 4%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -3519,28 +3635,40 @@
         ],
         "next": [],
         "entry_id": 124963,
+        "entry_max_ranks": 1,
         "definition_id": 129801,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lighter Than Air",
         "spell_id": 449582,
+        "visible_spell_id": null,
         "icon": "ability_monk_ridethewind"
       },
       "pve_tooltip": "Roll causes you to become lighter than air, allowing you to double jump to dash forward a short distance once within 5 sec, but the cooldown of Roll is increased by 2 sec.",
-      "pvp_tooltip": "Roll causes you to become lighter than air, allowing you to double jump to dash forward a short distance once within 5 sec, but the cooldown of Roll is increased by 2 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pvp_tooltip": "Roll causes you to become lighter than air, allowing you to double jump to dash forward a short distance once within 5 sec, but the cooldown of Roll is increased by 4 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 165,
+          "end": 166,
+          "old_token": "2",
+          "new_token": "4",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "APPLIED",
           "kind": "ordinary_value",
-          "old": 2000.0,
-          "new": 4000.0,
-          "full_tooltip_match_count": 0
+          "old": "2",
+          "new": "4"
         }
       ],
       "has_pvp_mechanics": true,
@@ -3610,11 +3738,13 @@
         ],
         "next": [],
         "entry_id": 124965,
+        "entry_max_ranks": 1,
         "definition_id": 129803,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Flow of Chi",
         "spell_id": 450569,
+        "visible_spell_id": null,
         "icon": "ability_monk_healthsphere"
       },
       "pve_tooltip": "You gain a bonus effect based on your current health.\nAbove 90% health: Movement speed increased by 5%. This bonus stacks with similar effects.\nBetween 90% and 35% health: Damage taken reduced by 5%.\nBelow 35% health: Healing received increased by 10%.",
@@ -3665,11 +3795,13 @@
         ],
         "next": [],
         "entry_id": 124973,
+        "entry_max_ranks": 1,
         "definition_id": 129811,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Escape from Reality",
         "spell_id": 394110,
+        "visible_spell_id": null,
         "icon": "monk_ability_transcendence"
       },
       "pve_tooltip": "After you use Transcendence: Transfer, you can use Transcendence: Transfer again within 10 sec, ignoring its cooldown.",
@@ -3720,11 +3852,13 @@
         ],
         "next": [],
         "entry_id": 124972,
+        "entry_max_ranks": 1,
         "definition_id": 129810,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Transcendence: Linked Spirits",
         "spell_id": 434774,
+        "visible_spell_id": null,
         "icon": "monk_ability_transcendence"
       },
       "pve_tooltip": "10 sec cooldown\nTranscendence now tethers your spirit onto an ally for 1 hour. Use Transcendence: Transfer to teleport to your ally's location.",
@@ -3774,11 +3908,13 @@
         ],
         "next": [],
         "entry_id": 124975,
+        "entry_max_ranks": 1,
         "definition_id": 129813,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fatal Touch",
         "spell_id": 394123,
+        "visible_spell_id": null,
         "icon": "ability_monk_touchofdeath"
       },
       "pve_tooltip": "Touch of Death's cooldown is reduced by 90 sec.",
@@ -3827,11 +3963,13 @@
         ],
         "next": [],
         "entry_id": 124946,
+        "entry_max_ranks": 1,
         "definition_id": 129784,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Rushing Reflexes",
         "spell_id": 450154,
+        "visible_spell_id": null,
         "icon": "ability_monk_yulonsgift"
       },
       "pve_tooltip": "Your heightened reflexes allow you to react swiftly to the presence of enemies, causing you to quickly lunge to the nearest enemy in front of you within 10 yards after you Roll.",
@@ -3881,15 +4019,17 @@
           101087
         ],
         "entry_id": 124865,
+        "entry_max_ranks": 1,
         "definition_id": 129703,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Keg Smash",
         "spell_id": 121253,
+        "visible_spell_id": null,
         "icon": "achievement_brewery_2"
       },
-      "pve_tooltip": "40 Energy\n15 yd range\nInstant\n8 sec cooldown\n1 Charge\nSmash a keg of brew, dealing [(190% of Attack Power) * (1.5)] Physical damage to your primary target and (190% of Attack Power) Physical damage to all other enemies within 8 yds, and reducing their movement speed by 20% for 15 sec. Deals reduced damage beyond 5 targets.\nGrants Shuffle for 5 sec and reduces the remaining cooldown on your Brews by 3 sec.",
-      "pvp_tooltip": "40 Energy\n15 yd range\nInstant\n8 sec cooldown\n1 Charge\nSmash a keg of brew, dealing [(161.5% of Attack Power) * (1.5)] Physical damage to your primary target and (161.5% of Attack Power) Physical damage to all other enemies within 8 yds, and reducing their movement speed by 20% for 15 sec. Deals reduced damage beyond 5 targets.\nGrants Shuffle for 5 sec and reduces the remaining cooldown on your Brews by 3 sec.",
+      "pve_tooltip": "40 Energy\n15 yd range\nInstant\n8 sec cooldown\n1 Charge\nSmash a keg of brew, dealing [(190% of Attack Power) * 1.5] Physical damage to your primary target and (190% of Attack Power) Physical damage to all other enemies within 8 yds, and reducing their movement speed by 20% for 15 sec. Deals reduced damage beyond 5 targets.\nGrants Shuffle for 5 sec and reduces the remaining cooldown on your Brews by 3 sec.",
+      "pvp_tooltip": "40 Energy\n15 yd range\nInstant\n8 sec cooldown\n1 Charge\nSmash a keg of brew, dealing [(161.5% of Attack Power) * 1.5] Physical damage to your primary target and (161.5% of Attack Power) Physical damage to all other enemies within 8 yds, and reducing their movement speed by 20% for 15 sec. Deals reduced damage beyond 5 targets.\nGrants Shuffle for 5 sec and reduces the remaining cooldown on your Brews by 3 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -3904,8 +4044,8 @@
           ]
         },
         {
-          "start": 160,
-          "end": 163,
+          "start": 158,
+          "end": 161,
           "old_token": "190",
           "new_token": "161.5",
           "kind": "attack_power_coefficient",
@@ -4012,11 +4152,13 @@
           101085
         ],
         "entry_id": 124838,
+        "entry_max_ranks": 1,
         "definition_id": 129676,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Purifying Brew",
         "spell_id": 119582,
+        "visible_spell_id": null,
         "icon": "inv_misc_beer_06"
       },
       "pve_tooltip": "Instant\n20 sec recharge\n2 Charges\nClears 50% of your Staggered damage, or a minimum of 8% of your maximum health.",
@@ -4069,11 +4211,13 @@
           101063
         ],
         "entry_id": 124864,
+        "entry_max_ranks": 1,
         "definition_id": 129702,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shuffle",
         "spell_id": 322120,
+        "visible_spell_id": null,
         "icon": "ability_monk_shuffle"
       },
       "pve_tooltip": "Niuzao's teachings allow you to shuffle during combat, increasing the effectiveness of your Stagger by 100%.\nShuffle is granted by attacking enemies with your Keg Smash, Blackout Kick, and Spinning Crane Kick.\nStagger: You shrug off attacks, delaying a portion of Physical damage based on your Agility, instead taking it over 10 sec. Affects magical attacks at 58% effectiveness. [Training of Niuzao: Gain up to 15% Mastery based on your current level of Stagger.]\n(100ms cooldown)",
@@ -4124,11 +4268,13 @@
           101071
         ],
         "entry_id": 136147,
+        "entry_max_ranks": 1,
         "definition_id": 140902,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "August Blessing",
         "spell_id": 454483,
+        "visible_spell_id": null,
         "icon": "inv_celestialserpentmount"
       },
       "pve_tooltip": "When you would be healed above maximum health, you instead convert an amount equal to 40% of your critical strike chance to a heal over time effect.",
@@ -4180,11 +4326,13 @@
           101202
         ],
         "entry_id": 124839,
+        "entry_max_ranks": 1,
         "definition_id": 129677,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Staggering Strikes",
         "spell_id": 387625,
+        "visible_spell_id": null,
         "icon": "ability_monk_blackoutstrike"
       },
       "pve_tooltip": "When you Blackout Kick, your Stagger is reduced by (Attack Power * 750 / 100), increased by up to 200% based on your missing health.",
@@ -4236,11 +4384,13 @@
           101202
         ],
         "entry_id": 136148,
+        "entry_max_ranks": 1,
         "definition_id": 140903,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Quick Sip",
         "spell_id": 388505,
+        "visible_spell_id": null,
         "icon": "achievement_faction_brewmaster"
       },
       "pve_tooltip": "100 yd range\nPurify 5% of your Staggered damage each time you gain 3 sec of Shuffle duration.",
@@ -4292,11 +4442,13 @@
           101202
         ],
         "entry_id": 124862,
+        "entry_max_ranks": 1,
         "definition_id": 129700,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Elixir of Determination",
         "spell_id": 455139,
+        "visible_spell_id": null,
         "icon": "monk_ability_cherrymanatea"
       },
       "pve_tooltip": "When you fall below 40% health, you gain an absorb for 30% of your recently Purified damage, or a minimum of 8% of your maximum health. Cannot occur more than once every 15 sec.",
@@ -4348,11 +4500,13 @@
           101086
         ],
         "entry_id": 124846,
+        "entry_max_ranks": 1,
         "definition_id": 129684,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Blackout Kick",
         "spell_id": 383695,
+        "visible_spell_id": null,
         "icon": "ability_monk_roundhousekick"
       },
       "pve_tooltip": "Blackout Kick deals 20% increased damage.",
@@ -4403,11 +4557,13 @@
           101086
         ],
         "entry_id": 124837,
+        "entry_max_ranks": 1,
         "definition_id": 129675,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Swift as a Coursing River",
         "spell_id": 1263346,
+        "visible_spell_id": null,
         "icon": "ability_rogue_sprint_blue"
       },
       "pve_tooltip": "Drinking from a Brew increases your movement speed by 15% and your auto-attack speed by 10% for 15 sec.",
@@ -4461,11 +4617,13 @@
           101084
         ],
         "entry_id": 124845,
+        "entry_max_ranks": 1,
         "definition_id": 129683,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Gift of the Ox",
         "spell_id": 124502,
+        "visible_spell_id": null,
         "icon": "ability_druid_giftoftheearthmother"
       },
       "pve_tooltip": "When you take damage, you have a chance to summon a Healing Sphere.\nHealing Sphere:\nSummon a Healing Sphere visible only to you. Moving through this Healing Sphere heals you for (330% of Attack Power).",
@@ -4520,11 +4678,13 @@
           101078
         ],
         "entry_id": 125008,
+        "entry_max_ranks": 1,
         "definition_id": 129846,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Special Delivery",
         "spell_id": 196730,
+        "visible_spell_id": null,
         "icon": "achievement_brewery_2"
       },
       "pve_tooltip": "Drinking from your Brews has a 100% chance to toss a keg high into the air that lands nearby after 3 sec, dealing (100% of Attack Power) Physical damage to all enemies within 8 yards and reducing their movement speed by 50% for 15 sec.",
@@ -4669,24 +4829,47 @@
           101078
         ],
         "entry_id": 125007,
+        "entry_max_ranks": 1,
         "definition_id": 129845,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Rushing Jade Wind",
         "spell_id": 116847,
+        "visible_spell_id": null,
         "icon": "ability_monk_rushingjadewind"
       },
-      "pve_tooltip": "1 Chi\nInstant\n6 sec cooldown\nSummons a whirling tornado around you, causing [(9) * (13.3% of Attack Power)] Physical damage over 6 sec to all enemies within 8 yards. Deals reduced damage beyond 5 targets.",
-      "pvp_tooltip": "1 Chi\nInstant\n6 sec cooldown\nSummons a whirling tornado around you, causing [(9) * (13.3% of Attack Power)] Physical damage over 6 sec to all enemies within 8 yards. Deals reduced damage beyond 5 targets.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pve_tooltip": "1 Chi\nInstant\n6 sec cooldown\nSummons a whirling tornado around you, causing [9 * (13.3% of Attack Power)] Physical damage over 6 sec to all enemies within 8 yards. Deals reduced damage beyond 5 targets.",
+      "pvp_tooltip": "1 Chi\nInstant\n6 sec cooldown\nSummons a whirling tornado around you, causing [9 * (11.305% of Attack Power)] Physical damage over 6 sec to all enemies within 8 yards. Deals reduced damage beyond 5 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 82,
+          "end": 86,
+          "old_token": "13.3",
+          "new_token": "11.305",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "13.3",
+          "new": "11.305"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 116847,
           "source_spell_id": 148187,
           "effect_index": 1,
@@ -4703,7 +4886,7 @@
             148187
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -4723,7 +4906,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -4766,11 +4949,13 @@
           101710
         ],
         "entry_id": 124863,
+        "entry_max_ranks": 1,
         "definition_id": 129701,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Spirit of the Ox",
         "spell_id": 400629,
+        "visible_spell_id": null,
         "icon": "ability_titankeeper_cleansingorb"
       },
       "pve_tooltip": "Approximately 6 procs per minute\nBlackout Kick has a chance to summon a Healing Sphere.\nHealing Sphere:\nSummon a Healing Sphere visible only to you. Moving through this Healing Sphere heals you for (330% of Attack Power).",
@@ -4821,11 +5006,13 @@
           101069
         ],
         "entry_id": 124844,
+        "entry_max_ranks": 1,
         "definition_id": 129682,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Jade Flash",
         "spell_id": 1262334,
+        "visible_spell_id": null,
         "icon": "shaman_pvp_staticcling"
       },
       "pve_tooltip": "Crackling Jade Lightning deals its damage in 75% less time, costs 75% less Energy, and strikes 4 additional targets, but has a 60 sec cooldown.",
@@ -4878,11 +5065,13 @@
           101068
         ],
         "entry_id": 124841,
+        "entry_max_ranks": 1,
         "definition_id": 129679,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Celestial Brew",
         "spell_id": 322507,
+        "visible_spell_id": null,
         "icon": "ability_monk_ironskinbrew"
       },
       "pve_tooltip": "Instant\n1.5 min cooldown\n1 Charge\nA swig of strong brew that coalesces purified chi escaping your body into a celestial guard, absorbing 0 damage.",
@@ -4935,11 +5124,13 @@
           101068
         ],
         "entry_id": 136146,
+        "entry_max_ranks": 1,
         "definition_id": 140901,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Celestial Infusion",
         "spell_id": 1241059,
+        "visible_spell_id": null,
         "icon": "ability_monk_tigereyebrandy"
       },
       "pve_tooltip": "Instant\n1.5 min cooldown\n1 Charge\nA strong herbal brew that coalesces purified chi escaping your body into a celestial guard, absorbing 30% of incoming damage, up to 0 total.",
@@ -4991,11 +5182,13 @@
           102004
         ],
         "entry_id": 124861,
+        "entry_max_ranks": 1,
         "definition_id": 129699,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Niuzao's Resolve",
         "spell_id": 1241097,
+        "visible_spell_id": null,
         "icon": "inv_ability_monk_renewingmists_active"
       },
       "pve_tooltip": "Healing Spheres now heal over 10 sec, and their healing is increased by up to 80% based on your missing health.",
@@ -5048,11 +5241,13 @@
           101074
         ],
         "entry_id": 124850,
+        "entry_max_ranks": 1,
         "definition_id": 129688,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Celestial Flames",
         "spell_id": 1263353,
+        "visible_spell_id": null,
         "icon": "inv_misc_volatilefire"
       },
       "pve_tooltip": "Drinking from Brews has a 30% chance to coat you with Celestial Flames for 6 sec. While Celestial Flames is active:\nSpecial Delivery:\nKegs thrown by Special Delivery are ignited and splash upon landing, dealing (100% of Attack Power) Fire damage to up to 5 nearby enemies.\nRushing Jade Wind:\nRushing Jade Wind becomes a firestorm, increasing its radius by 30% and causing it to deal Fire damage.\n(Proc chance: 30%)",
@@ -5165,11 +5360,13 @@
           101082
         ],
         "entry_id": 124853,
+        "entry_max_ranks": 1,
         "definition_id": 129691,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shadowboxing Treads",
         "spell_id": 387638,
+        "visible_spell_id": null,
         "icon": "ability_monk_roundhousekick"
       },
       "pve_tooltip": "Blackout Kick's damage increased by 20% and it strikes an additional 2 targets.",
@@ -5221,11 +5418,13 @@
           101082
         ],
         "entry_id": 124852,
+        "entry_max_ranks": 1,
         "definition_id": 129690,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Fluidity of Motion",
         "spell_id": 387230,
+        "visible_spell_id": null,
         "icon": "ability_monk_standingkick"
       },
       "pve_tooltip": "Blackout Kick's cooldown is reduced by 1 sec.",
@@ -5278,11 +5477,13 @@
           101083
         ],
         "entry_id": 136145,
+        "entry_max_ranks": 1,
         "definition_id": 140900,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Elusive Footwork",
         "spell_id": 387046,
+        "visible_spell_id": null,
         "icon": "ability_monk_shuffle"
       },
       "pve_tooltip": "Blackout Kick deals an additional 5% damage. Blackout Kick critical hits grant an additional 1 stack of Elusive Brawler.",
@@ -5333,11 +5534,13 @@
           101201
         ],
         "entry_id": 125611,
+        "entry_max_ranks": 1,
         "definition_id": 130443,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "One With the Wind",
         "spell_id": 454484,
+        "visible_spell_id": null,
         "icon": "ability_skyreach_wind"
       },
       "pve_tooltip": "You have a 10% chance to not reset your Elusive Brawler stacks after a successful dodge.",
@@ -5390,11 +5593,13 @@
           101068
         ],
         "entry_id": 124843,
+        "entry_max_ranks": 1,
         "definition_id": 129681,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Breath of Fire",
         "spell_id": 115181,
+        "visible_spell_id": null,
         "icon": "ability_monk_breathoffire"
       },
       "pve_tooltip": "Instant\n15 sec cooldown\nBreathe fire on targets in front of you, causing (100% of Attack Power) Fire damage. Deals reduced damage to secondary targets.\nTargets affected by Keg Smash will also burn, taking (66% of Attack Power) Fire damage and dealing 5% reduced damage to you for 12 sec.",
@@ -5546,12 +5751,14 @@
           101074
         ],
         "entry_id": 124859,
+        "entry_max_ranks": 1,
         "definition_id": 129697,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Gai Plin's Imperial Brew",
         "spell_id": 383700,
-        "icon": "inv_misc_beer_06"
+        "visible_spell_id": null,
+        "icon": "inv_misc_beer_05"
       },
       "pve_tooltip": "Purifying Brew instantly heals you for 25% of the Staggered damage it clears.",
       "pvp_tooltip": "Purifying Brew instantly heals you for 25% of the Staggered damage it clears.",
@@ -5605,11 +5812,13 @@
           101083
         ],
         "entry_id": 124858,
+        "entry_max_ranks": 1,
         "definition_id": 129696,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Light Brewing",
         "spell_id": 325093,
+        "visible_spell_id": null,
         "icon": "spell_brew_wheat"
       },
       "pve_tooltip": "Reduces the cooldown of Purifying Brew, Celestial Brew, and Celestial Infusion by 20%.",
@@ -5664,11 +5873,13 @@
           101083
         ],
         "entry_id": 124857,
+        "entry_max_ranks": 1,
         "definition_id": 129695,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Training of Niuzao",
         "spell_id": 383714,
+        "visible_spell_id": null,
         "icon": "monk_stance_drunkenox"
       },
       "pve_tooltip": "Gain up to 15% Mastery based on your current level of Stagger.",
@@ -5721,11 +5932,13 @@
           101080
         ],
         "entry_id": 125006,
+        "entry_max_ranks": 1,
         "definition_id": 129844,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Pretense of Instability",
         "spell_id": 393516,
+        "visible_spell_id": null,
         "icon": "inv_misc_archaeology_vrykuldrinkinghorn"
       },
       "pve_tooltip": "Drinking a Brew grants you 10% dodge for 5 sec.",
@@ -5778,11 +5991,13 @@
           101197
         ],
         "entry_id": 124989,
+        "entry_max_ranks": 1,
         "definition_id": 129827,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Scalding Brew",
         "spell_id": 383698,
+        "visible_spell_id": null,
         "icon": "spell_brew_bolt_dark"
       },
       "pve_tooltip": "Keg Smash deals an additional 20% damage to targets affected by Breath of Fire.",
@@ -5835,11 +6050,13 @@
           101197
         ],
         "entry_id": 124988,
+        "entry_max_ranks": 1,
         "definition_id": 129826,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Sal'salabim's Strength",
         "spell_id": 383697,
+        "visible_spell_id": null,
         "icon": "ability_warrior_unrelentingassault"
       },
       "pve_tooltip": "When you use Keg Smash, the remaining cooldown on Breath of Fire is reset.",
@@ -5892,11 +6109,13 @@
           101189
         ],
         "entry_id": 124842,
+        "entry_max_ranks": 1,
         "definition_id": 129680,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Fortifying Brew: Determination",
         "spell_id": 322960,
+        "visible_spell_id": null,
         "icon": "ability_monk_fortifyingale_new"
       },
       "pve_tooltip": "Fortifying Brew increases Stagger effectiveness by 15% while active.\nCombines with other Fortifying Brew effects.",
@@ -5949,11 +6168,13 @@
           101199
         ],
         "entry_id": 124992,
+        "entry_max_ranks": 1,
         "definition_id": 129830,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Bob and Weave",
         "spell_id": 280515,
+        "visible_spell_id": null,
         "icon": "ability_creature_cursed_04"
       },
       "pve_tooltip": "Increases the duration of Stagger by 5.0 sec, causing Staggered damage to be dealt to you more gradually.",
@@ -6006,11 +6227,13 @@
           101199
         ],
         "entry_id": 124991,
+        "entry_max_ranks": 1,
         "definition_id": 129829,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Black Ox Brew",
         "spell_id": 115399,
+        "visible_spell_id": null,
         "icon": "ability_monk_chibrew"
       },
       "pve_tooltip": "Instant\n2 min cooldown\nChug some Black Ox Brew, which instantly refills your Energy, Purifying Brew charges, and grants one charge of Celestial Brew or Celestial Infusion.",
@@ -6063,11 +6286,13 @@
           101193
         ],
         "entry_id": 124848,
+        "entry_max_ranks": 2,
         "definition_id": 129686,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Walk with the Ox",
         "spell_id": 387219,
+        "visible_spell_id": null,
         "icon": "ability_monk_chargingoxwave"
       },
       "pve_tooltip": "100 yd range\nYour damaging abilities have an increased chance to invoke Niuzao, causing him to charge to your target's location and Stomp, dealing (400% of Attack Power) Physical damage to your target and reduced damage to secondary targets.\n(750ms cooldown)",
@@ -6105,7 +6330,7 @@
           "talent_spell_id": 387219,
           "source_spell_id": 1242373,
           "effect_index": 1,
-          "effect_text": "School Damage (2): physical | Attributes: Add Target (Dest) Combat Reach to AOE (11), Area Effects Use Target Radius (17) (AP mod: 4)",
+          "effect_text": "School Damage (Physical) (AP mod: 4 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6132,11 +6357,10 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -6146,6 +6370,18 @@
           "pve_tooltip": "100 yd range\nYour damaging abilities have a chance to invoke Niuzao, causing him to charge to your target's location and Stomp, dealing (400% of Attack Power) Physical damage to your target and reduced damage to secondary targets.\n(750ms cooldown)",
           "pvp_tooltip": "100 yd range\nYour damaging abilities have a chance to invoke Niuzao, causing him to charge to your target's location and Stomp, dealing (340% of Attack Power) Physical damage to your target and reduced damage to secondary targets.\n(750ms cooldown)",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 137,
+              "end": 140,
+              "old_token": "400",
+              "new_token": "340",
+              "kind": "attack_power_coefficient",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -6154,6 +6390,18 @@
           "pve_tooltip": "100 yd range\nYour damaging abilities have an increased chance to invoke Niuzao, causing him to charge to your target's location and Stomp, dealing (400% of Attack Power) Physical damage to your target and reduced damage to secondary targets.\n(750ms cooldown)",
           "pvp_tooltip": "100 yd range\nYour damaging abilities have an increased chance to invoke Niuzao, causing him to charge to your target's location and Stomp, dealing (340% of Attack Power) Physical damage to your target and reduced damage to secondary targets.\n(750ms cooldown)",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 148,
+              "end": 151,
+              "old_token": "400",
+              "new_token": "340",
+              "kind": "attack_power_coefficient",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6198,11 +6446,13 @@
           101196
         ],
         "entry_id": 124851,
+        "entry_max_ranks": 1,
         "definition_id": 129689,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Zen State",
         "spell_id": 1241136,
+        "visible_spell_id": null,
         "icon": "spell_monk_zenpilgrimage"
       },
       "pve_tooltip": "The effectiveness of your Stagger is increased by up to 15%, based on your missing health.",
@@ -6255,11 +6505,13 @@
           101081
         ],
         "entry_id": 124860,
+        "entry_max_ranks": 1,
         "definition_id": 129698,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Tranquil Spirit",
         "spell_id": 393357,
+        "visible_spell_id": null,
         "icon": "ability_monk_chiswirl"
       },
       "pve_tooltip": "When you consume a Healing Sphere, you clear 5% of your currently Staggered damage.",
@@ -6312,11 +6564,13 @@
           101075
         ],
         "entry_id": 124855,
+        "entry_max_ranks": 1,
         "definition_id": 129693,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Face Palm",
         "spell_id": 389942,
+        "visible_spell_id": null,
         "icon": "ability_monk_tigerpalm"
       },
       "pve_tooltip": "Tiger Palm's damage is increased by 100% and reduces the remaining cooldown of your Brews by 0.5 additional sec.",
@@ -6367,11 +6621,13 @@
           101197
         ],
         "entry_id": 124987,
+        "entry_max_ranks": 1,
         "definition_id": 129825,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Dragonfire Brew",
         "spell_id": 383994,
+        "visible_spell_id": null,
         "icon": "spell_fire_burnout"
       },
       "pve_tooltip": "Breath of Fire deals 100% increased damage, and after using Breath of Fire, you breathe fire 2 additional times, each dealing (20% of Attack Power) Fire damage.",
@@ -6474,11 +6730,13 @@
           101197
         ],
         "entry_id": 124986,
+        "entry_max_ranks": 1,
         "definition_id": 129824,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Charred Passions",
         "spell_id": 386965,
+        "visible_spell_id": null,
         "icon": "ability_monk_mightyoxkick"
       },
       "pve_tooltip": "Your Breath of Fire ignites your right leg in flame for 8 sec, causing your Blackout Kick and Spinning Crane Kick to deal 50% additional damage as Fire damage and refresh the duration of your Breath of Fire on the target.",
@@ -6532,11 +6790,13 @@
           101199
         ],
         "entry_id": 124990,
+        "entry_max_ranks": 2,
         "definition_id": 129828,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "High Tolerance",
         "spell_id": 196737,
+        "visible_spell_id": null,
         "icon": "monk_ability_avertharm"
       },
       "pve_tooltip": "Stagger is 4% more effective at delaying damage.\nPurifying Brew refunds 4.0 sec of its cooldown if cast at Elevated Stagger.",
@@ -6554,6 +6814,7 @@
           "pve_tooltip": "Stagger is 2% more effective at delaying damage.\nPurifying Brew refunds 2 sec of its cooldown if cast at Elevated Stagger.",
           "pvp_tooltip": "Stagger is 2% more effective at delaying damage.\nPurifying Brew refunds 2 sec of its cooldown if cast at Elevated Stagger.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -6562,6 +6823,7 @@
           "pve_tooltip": "Stagger is 4% more effective at delaying damage.\nPurifying Brew refunds 4.0 sec of its cooldown if cast at Elevated Stagger.",
           "pvp_tooltip": "Stagger is 4% more effective at delaying damage.\nPurifying Brew refunds 4.0 sec of its cooldown if cast at Elevated Stagger.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6608,11 +6870,13 @@
           101195
         ],
         "entry_id": 124997,
+        "entry_max_ranks": 1,
         "definition_id": 129835,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Press the Advantage",
         "spell_id": 418359,
+        "visible_spell_id": null,
         "icon": "inv__fistofthewhitetiger"
       },
       "pve_tooltip": "Replaces Tiger Palm\nYour main hand auto attacks reduce the cooldown on your Brews by 0.50 sec and block your target's chi, dealing (30% of Attack Power) additional Nature damage.\nAfter 10 attacks, the next casts Tiger Palm at 100% effectiveness.",
@@ -6727,11 +6991,13 @@
           101195
         ],
         "entry_id": 124996,
+        "entry_max_ranks": 1,
         "definition_id": 129834,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Blackout Combo",
         "spell_id": 196736,
+        "visible_spell_id": null,
         "icon": "ability_monk_blackoutkick"
       },
       "pve_tooltip": "Blackout Kick also empowers your next ability:\nTiger Palm: Damage increased by 100%.\nKeg Smash: Reduces the remaining cooldown on your Brews by 2 additional sec.",
@@ -6785,11 +7051,13 @@
           101075
         ],
         "entry_id": 124856,
+        "entry_max_ranks": 2,
         "definition_id": 129694,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Anvil and Stave",
         "spell_id": 386937,
+        "visible_spell_id": null,
         "icon": "ability_monk_elusiveale"
       },
       "pve_tooltip": "Each time you dodge or an enemy misses you, the remaining cooldown on your Brews is reduced by 1 sec. Effect reduced by 50% for each additional recent attacker, up to 5.",
@@ -6807,6 +7075,7 @@
           "pve_tooltip": "Each time you dodge or an enemy misses you, the remaining cooldown on your Brews is reduced by 0.5 sec. Effect reduced by 50% for each additional recent attacker, up to 5.",
           "pvp_tooltip": "Each time you dodge or an enemy misses you, the remaining cooldown on your Brews is reduced by 0.5 sec. Effect reduced by 50% for each additional recent attacker, up to 5.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -6815,6 +7084,7 @@
           "pve_tooltip": "Each time you dodge or an enemy misses you, the remaining cooldown on your Brews is reduced by 1 sec. Effect reduced by 50% for each additional recent attacker, up to 5.",
           "pvp_tooltip": "Each time you dodge or an enemy misses you, the remaining cooldown on your Brews is reduced by 1 sec. Effect reduced by 50% for each additional recent attacker, up to 5.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6857,11 +7127,13 @@
           101075
         ],
         "entry_id": 124854,
+        "entry_max_ranks": 1,
         "definition_id": 129692,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Counterstrike",
         "spell_id": 383785,
+        "visible_spell_id": null,
         "icon": "ability_monk_palmstrike"
       },
       "pve_tooltip": "Each time you dodge or an enemy misses you, your next Tiger Palm or Spinning Crane Kick deals 100% increased damage.\n(1s cooldown)",
@@ -6869,12 +7141,23 @@
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
-      "diagnostics": [],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
+          "kind": "attack_power_coefficient",
+          "old": 10.0,
+          "new": 8.5,
+          "full_tooltip_match_count": 0
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 383785,
           "source_spell_id": 100780,
           "effect_index": 1,
@@ -6892,7 +7175,7 @@
             100780
           ],
           "dependency_relations": [
-            "trigger_spell",
+            "tooltip_value_ref",
             "triggered_by_reverse"
           ],
           "aura_rules": [
@@ -6916,7 +7199,7 @@
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 383785,
           "source_spell_id": 107270,
           "effect_index": 1,
@@ -6935,9 +7218,9 @@
             107270
           ],
           "dependency_relations": [
+            "tooltip_value_ref",
             "trigger_spell",
-            "trigger_spell",
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -6957,7 +7240,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -7000,15 +7283,17 @@
           101711
         ],
         "entry_id": 125001,
+        "entry_max_ranks": 1,
         "definition_id": 129839,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Exploding Keg",
         "spell_id": 325153,
+        "visible_spell_id": null,
         "icon": "inv12_ability_monk_explodingkeg"
       },
       "pve_tooltip": "40 yd range\nInstant\n1 min cooldown\nHurls a flaming keg at the target location, dealing (380% of Attack Power) Fire damage to nearby enemies, causing your attacks against them to deal (30% of Attack Power) additional Fire damage, and causing their melee attacks to deal 100% reduced damage for the next 3 sec.\nResets the cooldown of Keg Smash.",
-      "pvp_tooltip": "40 yd range\nInstant\n1 min cooldown\nHurls a flaming keg at the target location, dealing (323% of Attack Power) Fire damage to nearby enemies, causing your attacks against them to deal (30% of Attack Power) additional Fire damage, and causing their melee attacks to deal 100% reduced damage for the next 3 sec.\nResets the cooldown of Keg Smash.",
+      "pvp_tooltip": "40 yd range\nInstant\n1 min cooldown\nHurls a flaming keg at the target location, dealing (323% of Attack Power) Fire damage to nearby enemies, causing your attacks against them to deal (25.5% of Attack Power) additional Fire damage, and causing their melee attacks to deal 100% reduced damage for the next 3 sec.\nResets the cooldown of Keg Smash.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -7017,6 +7302,16 @@
           "end": 91,
           "old_token": "380",
           "new_token": "323",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        },
+        {
+          "start": 184,
+          "end": 186,
+          "old_token": "30",
+          "new_token": "25.5",
           "kind": "attack_power_coefficient",
           "effect_indexes": [
             1
@@ -7032,6 +7327,15 @@
           "kind": "attack_power_coefficient",
           "old": "380",
           "new": "323"
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "30",
+          "new": "25.5"
         }
       ],
       "has_pvp_mechanics": true,
@@ -7071,7 +7375,7 @@
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 325153,
           "source_spell_id": 388867,
           "effect_index": 1,
@@ -7088,7 +7392,7 @@
             388867
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -7108,7 +7412,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 1,
+      "render_effect_count": 2,
       "rank_tooltips": []
     },
     {
@@ -7150,11 +7454,13 @@
           101195
         ],
         "entry_id": 125004,
+        "entry_max_ranks": 1,
         "definition_id": 129842,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ox Stance",
         "spell_id": 455068,
+        "visible_spell_id": null,
         "icon": "ability_monk_leeroftheox"
       },
       "pve_tooltip": "Casting Purifying Brew grants a charge of Ox Stance. When you take damage that is greater than 60% of your current health, a charge is consumed to increase the amount you Stagger.",
@@ -7207,11 +7513,13 @@
           101195
         ],
         "entry_id": 125000,
+        "entry_max_ranks": 1,
         "definition_id": 129838,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Awakening Spirit",
         "spell_id": 1262628,
+        "visible_spell_id": null,
         "icon": "achievement_boss_golden_lotus_council"
       },
       "pve_tooltip": "Purifying Brew also surrounds you with protective energies for 15 sec.\nWhen Staggered damage would be dealt to you, you instead absorb up to 50%, until 0 has been prevented.",
@@ -7264,11 +7572,13 @@
           101195
         ],
         "entry_id": 136149,
+        "entry_max_ranks": 1,
         "definition_id": 140904,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Vital Flame",
         "spell_id": 1262659,
+        "visible_spell_id": null,
         "icon": "achievement_faction_shadopan"
       },
       "pve_tooltip": "Heal for 50% of all Fire or Nature damage dealt by your spells and abilities.",
@@ -7322,11 +7632,13 @@
           101073
         ],
         "entry_id": 124849,
+        "entry_max_ranks": 1,
         "definition_id": 129687,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Invoke Niuzao, the Black Ox",
         "spell_id": 132578,
+        "visible_spell_id": null,
         "icon": "spell_monk_brewmaster_spec"
       },
       "pve_tooltip": "40 yd range\nInstant\n2 min cooldown\nSummons an effigy of Niuzao, the Black Ox for 25 sec that attacks your primary target and Stomps when you cast Blackout Kick, damaging all nearby enemies.\nWhile active, 40% of damage delayed by Stagger is instead Staggered by Niuzao, and Niuzao is healed for 100% of your purified Stagger.",
@@ -7375,11 +7687,13 @@
         ],
         "next": [],
         "entry_id": 125003,
+        "entry_max_ranks": 1,
         "definition_id": 129841,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fuel on the Fire",
         "spell_id": 1262017,
+        "visible_spell_id": null,
         "icon": "spell_shaman_stormearthfire"
       },
       "pve_tooltip": "Exploding Keg also causes your next 2 casts of Keg Smash to summon a whirl of flame which spirals outwards, dealing (200% of Attack Power) additional Fire damage to each enemy struck.",
@@ -7428,11 +7742,13 @@
         ],
         "next": [],
         "entry_id": 136150,
+        "entry_max_ranks": 1,
         "definition_id": 140905,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Empty the Cellar",
         "spell_id": 1262329,
+        "visible_spell_id": null,
         "icon": "ability_vehicle_liquidpyrite"
       },
       "pve_tooltip": "Exploding Keg can be reactivated within 20 sec to throw 5 additional kegs at nearby targets, each dealing (200% of Attack Power) Physical damage and reducing the cooldown of your Brews by 3.0 sec.",
@@ -7542,11 +7858,13 @@
         ],
         "next": [],
         "entry_id": 125002,
+        "entry_max_ranks": 1,
         "definition_id": 129840,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Empty the Cellar",
         "spell_id": 1262329,
+        "visible_spell_id": null,
         "icon": "ability_vehicle_liquidpyrite"
       },
       "pve_tooltip": "Exploding Keg can be reactivated within 20 sec to throw 5 additional kegs at nearby targets, each dealing (200% of Attack Power) Physical damage and reducing the cooldown of your Brews by 3.0 sec.",
@@ -7658,11 +7976,13 @@
         ],
         "next": [],
         "entry_id": 124999,
+        "entry_max_ranks": 1,
         "definition_id": 129837,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Stormstout's Last Keg",
         "spell_id": 383707,
+        "visible_spell_id": null,
         "icon": "achievement_brewery_2"
       },
       "pve_tooltip": "Keg Smash deals 50% additional damage to its primary target, has 1 additional charge, and its range is increased by 10 yards.",
@@ -7711,11 +8031,13 @@
         ],
         "next": [],
         "entry_id": 136177,
+        "entry_max_ranks": 1,
         "definition_id": 140950,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Heart of the Ox",
         "spell_id": 1263245,
+        "visible_spell_id": null,
         "icon": "inv_muskox_white"
       },
       "pve_tooltip": "Mastery increased by 5%. Double this effect while Invoke Niuzao, the Black Ox is active.",
@@ -7764,11 +8086,13 @@
         ],
         "next": [],
         "entry_id": 124847,
+        "entry_max_ranks": 1,
         "definition_id": 129685,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Mighty Stomp",
         "spell_id": 322740,
+        "visible_spell_id": null,
         "icon": "inv_inscription_trinket_ox"
       },
       "pve_tooltip": "While active, Invoke Niuzao, the Black Ox can be recast to cause Niuzao to stomp mightily and knock nearby enemies into the air.",
@@ -7815,11 +8139,13 @@
         "prev": [],
         "next": [],
         "entry_id": 137075,
+        "entry_max_ranks": 1,
         "definition_id": 141839,
         "entry_index": 200,
         "entry_type": "tierrank",
         "talent_name": "Bring Me Another",
         "spell_id": 1265129,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_monk_bringmeanother"
       },
       "pve_tooltip": "Drinking a Brew has a 20% chance to leave you with an Empty Barrel, which is tossed along with your next Keg Smash to deal (300% of Attack Power) Physical damage to your target. Ricochets up to 4 times at 80% effectiveness.\n(Proc chance: 20%)",
@@ -7866,15 +8192,17 @@
         "prev": [],
         "next": [],
         "entry_id": 137074,
+        "entry_max_ranks": 2,
         "definition_id": 141838,
         "entry_index": 300,
         "entry_type": "tierrank",
         "talent_name": "Bring Me Another",
         "spell_id": 1265138,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_monk_bringmeanother"
       },
-      "pve_tooltip": "Gaining an Empty Barrel resets the cooldown of Keg Smash and makes its next cast cost 0% less energy.\nPhysical damage dealt increased by 10%.",
-      "pvp_tooltip": "Gaining an Empty Barrel resets the cooldown of Keg Smash and makes its next cast cost 0% less energy.\nPhysical damage dealt increased by 10%.",
+      "pve_tooltip": "Gaining an Empty Barrel resets the cooldown of Keg Smash and makes its next cast cost 100% less energy.\nPhysical damage dealt increased by 20%.",
+      "pvp_tooltip": "Gaining an Empty Barrel resets the cooldown of Keg Smash and makes its next cast cost 100% less energy.\nPhysical damage dealt increased by 20%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -7882,7 +8210,26 @@
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Gaining an Empty Barrel resets the cooldown of Keg Smash and makes its next cast cost 50% less energy.\nPhysical damage dealt increased by 10%.",
+          "pvp_tooltip": "Gaining an Empty Barrel resets the cooldown of Keg Smash and makes its next cast cost 50% less energy.\nPhysical damage dealt increased by 10%.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Gaining an Empty Barrel resets the cooldown of Keg Smash and makes its next cast cost 100% less energy.\nPhysical damage dealt increased by 20%.",
+          "pvp_tooltip": "Gaining an Empty Barrel resets the cooldown of Keg Smash and makes its next cast cost 100% less energy.\nPhysical damage dealt increased by 20%.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Bring Me Another",
@@ -7917,11 +8264,13 @@
         "prev": [],
         "next": [],
         "entry_id": 137073,
+        "entry_max_ranks": 1,
         "definition_id": 141837,
         "entry_index": 400,
         "entry_type": "tierrank",
         "talent_name": "Bring Me Another",
         "spell_id": 1265141,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_monk_bringmeanother"
       },
       "pve_tooltip": "When you cast Fortifying Brew or [Celestial Infusion / Celestial Brew] you tap a fresh keg, granting yourself and 2 nearby allies a refreshing drink, and leaving you with an Empty Barrel.\nEmpty Barrels deal 100% increased damage.\nRefreshing Drink:\nUpon taking damage, automatically consume a refreshing drink to heal for (3200% of Attack Power) over 8 sec.",
@@ -7973,11 +8322,13 @@
           109697
         ],
         "entry_id": 125069,
+        "entry_max_ranks": 1,
         "definition_id": 129901,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Flurry Strikes",
         "spell_id": 450615,
+        "visible_spell_id": null,
         "icon": "inv_ability_shadopanmonk_flurrystrikes"
       },
       "pve_tooltip": "Your auto attacks have a chance to generate 1-2 Flurry Charges. When you cast Keg Smash, unleash all Flurry Charges, dealing (60% of Attack Power) Physical damage per charge.",
@@ -8088,11 +8439,13 @@
           101254
         ],
         "entry_id": 125068,
+        "entry_max_ranks": 1,
         "definition_id": 129900,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Pride of Pandaria",
         "spell_id": 450979,
+        "visible_spell_id": null,
         "icon": "inv_staff_2h_pandarenmonk_c_01"
       },
       "pve_tooltip": "Flurry Strikes have 15% additional chance to critically strike.",
@@ -8143,11 +8496,13 @@
           101254
         ],
         "entry_id": 125067,
+        "entry_max_ranks": 1,
         "definition_id": 129899,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "High Impact",
         "spell_id": 450982,
+        "visible_spell_id": null,
         "icon": "ability_monk_powerstrikes"
       },
       "pve_tooltip": "Enemies who die within 10 sec of being damaged by a Flurry Strike explode, dealing (100% of Attack Power) physical damage to uncontrolled enemies within 8 yds.",
@@ -8198,11 +8553,13 @@
           101250
         ],
         "entry_id": 125070,
+        "entry_max_ranks": 1,
         "definition_id": 129902,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Veteran's Eye",
         "spell_id": 450987,
+        "visible_spell_id": null,
         "icon": "ability_monk_provoke"
       },
       "pve_tooltip": "Haste increased by 5%.",
@@ -8253,11 +8610,13 @@
           101245
         ],
         "entry_id": 125066,
+        "entry_max_ranks": 1,
         "definition_id": 129898,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Martial Precision",
         "spell_id": 450990,
+        "visible_spell_id": null,
         "icon": "ability_monk_jab"
       },
       "pve_tooltip": "Your attacks penetrate 12% armor.",
@@ -8308,11 +8667,13 @@
           109698
         ],
         "entry_id": 135955,
+        "entry_max_ranks": 1,
         "definition_id": 140710,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shado Over the Battlefield",
         "spell_id": 1262612,
+        "visible_spell_id": null,
         "icon": "inv_elemental_primal_shadow"
       },
       "pve_tooltip": "Flurry Strikes deal (52% of Attack Power) Nature damage to all enemies within 6 yds, reduced beyond 8 targets.",
@@ -8423,11 +8784,13 @@
           101253
         ],
         "entry_id": 125076,
+        "entry_max_ranks": 1,
         "definition_id": 129908,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Combat Stance",
         "spell_id": 1272844,
+        "visible_spell_id": null,
         "icon": "ability_monk_roll"
       },
       "pve_tooltip": "The cooldown of Roll is decreased by 10%.",
@@ -8478,11 +8841,13 @@
           101253
         ],
         "entry_id": 125075,
+        "entry_max_ranks": 1,
         "definition_id": 129907,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Initiator's Edge",
         "spell_id": 1272849,
+        "visible_spell_id": null,
         "icon": "crest_monk"
       },
       "pve_tooltip": "Movement speed is increased by 50% for the first 8 sec of combat.",
@@ -8533,11 +8898,13 @@
           101251
         ],
         "entry_id": 125071,
+        "entry_max_ranks": 1,
         "definition_id": 129903,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "One Versus Many",
         "spell_id": 450988,
+        "visible_spell_id": null,
         "icon": "ability_monk_chargingoxwave"
       },
       "pve_tooltip": "Auto attack critical strikes generate double the amount of Flurry Charges.\nKeg Smash damage increased by 35%.",
@@ -8588,11 +8955,13 @@
           101244
         ],
         "entry_id": 125065,
+        "entry_max_ranks": 1,
         "definition_id": 129897,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Whirling Steel",
         "spell_id": 450991,
+        "visible_spell_id": null,
         "icon": "ability_whirlwind"
       },
       "pve_tooltip": "When your health drops below 50%, summon Whirling Steel, increasing your parry chance and avoidance by 15% for 6 sec.\nThis effect can not occur more than once every 180 sec.\n(3m cooldown)",
@@ -8643,11 +9012,13 @@
           101244
         ],
         "entry_id": 125064,
+        "entry_max_ranks": 1,
         "definition_id": 129896,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Predictive Training",
         "spell_id": 450992,
+        "visible_spell_id": null,
         "icon": "ability_monk_domeofmist"
       },
       "pve_tooltip": "When you dodge or parry an attack, reduce all damage taken by 8% for the next 6 sec.",
@@ -8698,11 +9069,13 @@
           109699
         ],
         "entry_id": 135956,
+        "entry_max_ranks": 1,
         "definition_id": 140711,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Stand Ready",
         "spell_id": 1262603,
+        "visible_spell_id": null,
         "icon": "ability_monk_sparring"
       },
       "pve_tooltip": "Activating Invoke Niuzao, the Black Ox instantly grants 10 stacks of Flurry Strikes that trigger on your next attack at 70% effectiveness.",
@@ -8753,11 +9126,13 @@
           101252
         ],
         "entry_id": 125074,
+        "entry_max_ranks": 1,
         "definition_id": 129906,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Against All Odds",
         "spell_id": 450986,
+        "visible_spell_id": null,
         "icon": "achievement_legionpvp6tier1"
       },
       "pve_tooltip": "Your agility is increased by 4%.",
@@ -8808,11 +9183,13 @@
           101252
         ],
         "entry_id": 125072,
+        "entry_max_ranks": 1,
         "definition_id": 129904,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Efficient Training",
         "spell_id": 450989,
+        "visible_spell_id": null,
         "icon": "inv_fistofthewhitetiger"
       },
       "pve_tooltip": "Energy spenders deal an additional 20% damage.\nThe cooldown of Invoke Niuzao, the Black Ox is reduced by 25 sec.",
@@ -8863,11 +9240,13 @@
           101252
         ],
         "entry_id": 125063,
+        "entry_max_ranks": 1,
         "definition_id": 129895,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Vigilant Watch",
         "spell_id": 450993,
+        "visible_spell_id": null,
         "icon": "ability_rogue_masterofsubtlety"
       },
       "pve_tooltip": "Blackout Kick deals an additional 30% critical damage.",
@@ -8918,11 +9297,13 @@
           101252
         ],
         "entry_id": 135957,
+        "entry_max_ranks": 1,
         "definition_id": 140712,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Weapons of the Wall",
         "spell_id": 1262610,
+        "visible_spell_id": null,
         "icon": "misc_legionfall_monk"
       },
       "pve_tooltip": "Invoke Niuzao, the Black Ox's stomp damage increased by 20%.",
@@ -8974,11 +9355,13 @@
         ],
         "next": [],
         "entry_id": 125073,
+        "entry_max_ranks": 1,
         "definition_id": 129905,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Wisdom of the Wall",
         "spell_id": 1272821,
+        "visible_spell_id": null,
         "icon": "inv_legendary_sigilofwisdom"
       },
       "pve_tooltip": "Invoke Niuzao, the Black Ox causes Breath of Fire to launch 3 Flurry Strikes.",
@@ -9030,11 +9413,13 @@
           109694
         ],
         "entry_id": 125033,
+        "entry_max_ranks": 1,
         "definition_id": 129869,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Aspect of Harmony",
         "spell_id": 450508,
+        "visible_spell_id": null,
         "icon": "inv_ability_masterofharmonymonk_aspectofharmony"
       },
       "pve_tooltip": "Store vitality from 12% of your damage dealt and 6% of your effective healing.\nFor 10 sec after casting Celestial Brew or Celestial Infusion your spells and abilities draw upon the stored vitality to deal 40% additional damage over 8 sec.",
@@ -9122,11 +9507,13 @@
           101221
         ],
         "entry_id": 125032,
+        "entry_max_ranks": 1,
         "definition_id": 129868,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Manifestation",
         "spell_id": 450875,
+        "visible_spell_id": null,
         "icon": "inv_shoulder_inv_leather_raidmonk_s_01"
       },
       "pve_tooltip": "Chi Burst and Chi Wave deal 50% increased damage and healing.",
@@ -9224,11 +9611,13 @@
           101225
         ],
         "entry_id": 125035,
+        "entry_max_ranks": 1,
         "definition_id": 129871,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Purified Spirit",
         "spell_id": 450867,
+        "visible_spell_id": null,
         "icon": "ability_monk_explodingjadeblossom"
       },
       "pve_tooltip": "When Aspect of Harmony ends, any remaining vitality is expelled as damage over 8 sec, split among nearby targets.",
@@ -9279,11 +9668,13 @@
           101225
         ],
         "entry_id": 125034,
+        "entry_max_ranks": 1,
         "definition_id": 129870,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Harmonic Gambit",
         "spell_id": 450870,
+        "visible_spell_id": null,
         "icon": "passive_monk_teachingsofmonastery"
       },
       "pve_tooltip": "During Aspect of Harmony, Expel Harm and Vivify withdraw vitality to heal for an additional 40% over 8 sec.",
@@ -9334,11 +9725,13 @@
           101229
         ],
         "entry_id": 125043,
+        "entry_max_ranks": 1,
         "definition_id": 129879,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Balanced Stratagem",
         "spell_id": 450889,
+        "visible_spell_id": null,
         "icon": "ability_monk_sphereharmonydiscord"
       },
       "pve_tooltip": "Casting a Physical spell or ability increases the damage and healing of your next Fire or Nature spell or ability by 3%, and vice versa. Stacks up to 5.\n(500ms cooldown)",
@@ -9389,11 +9782,13 @@
           109695
         ],
         "entry_id": 135952,
+        "entry_max_ranks": 1,
         "definition_id": 140707,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Harmonic Surge",
         "spell_id": 1270958,
+        "visible_spell_id": null,
         "icon": "ability_socererking_forcenova"
       },
       "pve_tooltip": "Casting grants 2 charges of Potential Energy. Your next cast of Tiger Palm or Vivify consumes all charges of Potential Energy to cause a Harmonic Surge.\nHarmonic Surge:\nFor each charge of Potential Energy, deal [(400% of Spell Power) * 55 / 100] Nature damage to your target and [(400% of Spell Power) * 55 / 100] Nature damage to other nearby enemies, and heal up to 5 allies for [(500% of Spell Power) * 10 / 100]. Damage reduced above 5 targets.",
@@ -9719,11 +10114,13 @@
           101220
         ],
         "entry_id": 125031,
+        "entry_max_ranks": 1,
         "definition_id": 129867,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Tiger's Vigor",
         "spell_id": 451041,
+        "visible_spell_id": null,
         "icon": "monk_stance_whitetiger"
       },
       "pve_tooltip": "Casting Tiger's Lust reduces the remaining cooldown on Roll by 5 sec.",
@@ -9774,11 +10171,13 @@
           101220
         ],
         "entry_id": 125030,
+        "entry_max_ranks": 1,
         "definition_id": 129866,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Roar from the Heavens",
         "spell_id": 451043,
+        "visible_spell_id": null,
         "icon": "inv_celestialserpentmount"
       },
       "pve_tooltip": "Tiger's Lust grants 20% movement speed to up to 2 allies near its target.",
@@ -9829,11 +10228,13 @@
           101226
         ],
         "entry_id": 125036,
+        "entry_max_ranks": 1,
         "definition_id": 129872,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Endless Draught",
         "spell_id": 450892,
+        "visible_spell_id": null,
         "icon": "inv_drink_25_honeytea"
       },
       "pve_tooltip": "Celestial Brew and Celestial Infusion have 1 additional charge.",
@@ -9884,11 +10285,13 @@
           101228
         ],
         "entry_id": 125042,
+        "entry_max_ranks": 1,
         "definition_id": 129878,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Mantra of Purity",
         "spell_id": 451036,
+        "visible_spell_id": null,
         "icon": "ability_monk_domeofmist"
       },
       "pve_tooltip": "Purifying Brew removes 10% additional Stagger and causes you to absorb up to [(Attack Power * 100 / 100) * (1 + Versatility)] incoming Stagger.",
@@ -9939,11 +10342,13 @@
           101228
         ],
         "entry_id": 125041,
+        "entry_max_ranks": 1,
         "definition_id": 129877,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Mantra of Tenacity",
         "spell_id": 451029,
+        "visible_spell_id": null,
         "icon": "spell_monk_brewmastertraining"
       },
       "pve_tooltip": "Fortifying Brew applies a Chi Cocoon, absorbing [Total Health * 12 / 100 * (1 + Versatility)] damage.",
@@ -9994,11 +10399,13 @@
           109696
         ],
         "entry_id": 135953,
+        "entry_max_ranks": 1,
         "definition_id": 140708,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Potential Energy",
         "spell_id": 1271048,
+        "visible_spell_id": null,
         "icon": "spell_magic_managain"
       },
       "pve_tooltip": "Casting Keg Smash grants a charge of Potential Energy.",
@@ -10049,11 +10456,13 @@
           101227
         ],
         "entry_id": 125029,
+        "entry_max_ranks": 1,
         "definition_id": 129865,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Overwhelming Force",
         "spell_id": 451024,
+        "visible_spell_id": null,
         "icon": "ability_titankeeper_piercingcorruption"
       },
       "pve_tooltip": "Blackout Kick and Tiger Palm deal 15% additional damage to enemies in a line in front of you. Damage reduced above 5 targets.",
@@ -10104,11 +10513,13 @@
           101227
         ],
         "entry_id": 125038,
+        "entry_max_ranks": 1,
         "definition_id": 129874,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Path of Resurgence",
         "spell_id": 450912,
+        "visible_spell_id": null,
         "icon": "ability_monk_pathofmists"
       },
       "pve_tooltip": "Chi Burst increases vitality stored by 25% for 10 sec.\n(3s cooldown)",
@@ -10159,11 +10570,13 @@
           101227
         ],
         "entry_id": 125037,
+        "entry_max_ranks": 1,
         "definition_id": 129873,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Way of a Thousand Strikes",
         "spell_id": 450965,
+        "visible_spell_id": null,
         "icon": "ability_monk_mightyoxkick"
       },
       "pve_tooltip": "Blackout Kick and Tiger Palm contribute 30% additional vitality.",
@@ -10214,11 +10627,13 @@
           101227
         ],
         "entry_id": 125040,
+        "entry_max_ranks": 1,
         "definition_id": 129876,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Clarity of Purpose",
         "spell_id": 451017,
+        "visible_spell_id": null,
         "icon": "ability_titankeeper_cleanse"
       },
       "pve_tooltip": "Casting Purifying Brew stores [(Spell Power * 300 / 100) * (1 + Versatility)] additional vitality.",
@@ -10269,11 +10684,13 @@
           101227
         ],
         "entry_id": 135954,
+        "entry_max_ranks": 1,
         "definition_id": 140709,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Meditative Focus",
         "spell_id": 1271105,
+        "visible_spell_id": null,
         "icon": "inv_misc_herb_mountainsilversage"
       },
       "pve_tooltip": "Blackout Combo:\nIncreases Tiger Palm damage by an additional 50% and Keg Smash reduces the cooldown on your Brews by an additional 1.0 sec.\nPress the Advantage:\nNature damage dealt by your main hand auto-attacks is increased by 100% and they now reduce the cooldown on your Brews by an additional 0.25 sec.",
@@ -10325,11 +10742,13 @@
         ],
         "next": [],
         "entry_id": 125039,
+        "entry_max_ranks": 1,
         "definition_id": 129875,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Coalescence",
         "spell_id": 450529,
+        "visible_spell_id": null,
         "icon": "ability_monk_effuse"
       },
       "pve_tooltip": "When Aspect of Harmony deals damage, it has a chance to spread to a nearby enemy. When you directly attack an affected target, it has a chance to intensify, withdrawing additional vitality to increase its effect by up to 20%.\nKeg Smash no longer contributes vitality. While Aspect of Harmony is not active, Keg Smash instead draws on available vitality to deal an additional 100% damage over 8 sec.\nVitality stored by other abilities is increased by 50%.",
@@ -10345,12 +10764,333 @@
     }
   ],
   "fetch_errors": [],
+  "serialization": {
+    "version": 2,
+    "spec_id": 268,
+    "node_order": [
+      101035,
+      101036,
+      101037,
+      101038,
+      101039,
+      101040,
+      101041,
+      101043,
+      101044,
+      101045,
+      101046,
+      101047,
+      101048,
+      101049,
+      101050,
+      101051,
+      101052,
+      101053,
+      101054,
+      101055,
+      101056,
+      101057,
+      101059,
+      101060,
+      101061,
+      101062,
+      101063,
+      101064,
+      101065,
+      101067,
+      101068,
+      101069,
+      101070,
+      101071,
+      101072,
+      101073,
+      101074,
+      101075,
+      101076,
+      101077,
+      101078,
+      101079,
+      101080,
+      101081,
+      101082,
+      101083,
+      101084,
+      101085,
+      101086,
+      101087,
+      101088,
+      101089,
+      101090,
+      101092,
+      101093,
+      101094,
+      101095,
+      101096,
+      101097,
+      101098,
+      101099,
+      101100,
+      101101,
+      101102,
+      101103,
+      101104,
+      101106,
+      101107,
+      101108,
+      101109,
+      101110,
+      101111,
+      101112,
+      101113,
+      101114,
+      101115,
+      101116,
+      101117,
+      101118,
+      101119,
+      101120,
+      101121,
+      101122,
+      101123,
+      101124,
+      101125,
+      101126,
+      101127,
+      101128,
+      101129,
+      101130,
+      101131,
+      101132,
+      101133,
+      101134,
+      101135,
+      101136,
+      101137,
+      101138,
+      101139,
+      101140,
+      101141,
+      101142,
+      101143,
+      101144,
+      101145,
+      101146,
+      101147,
+      101148,
+      101149,
+      101150,
+      101151,
+      101152,
+      101153,
+      101154,
+      101155,
+      101156,
+      101157,
+      101158,
+      101159,
+      101160,
+      101161,
+      101162,
+      101163,
+      101164,
+      101165,
+      101166,
+      101167,
+      101168,
+      101169,
+      101170,
+      101171,
+      101172,
+      101173,
+      101174,
+      101175,
+      101176,
+      101177,
+      101178,
+      101179,
+      101180,
+      101181,
+      101182,
+      101183,
+      101184,
+      101185,
+      101186,
+      101187,
+      101188,
+      101189,
+      101190,
+      101193,
+      101195,
+      101196,
+      101197,
+      101198,
+      101199,
+      101201,
+      101202,
+      101203,
+      101204,
+      101205,
+      101206,
+      101207,
+      101208,
+      101209,
+      101210,
+      101211,
+      101212,
+      101213,
+      101214,
+      101215,
+      101216,
+      101217,
+      101218,
+      101219,
+      101220,
+      101221,
+      101222,
+      101223,
+      101224,
+      101225,
+      101226,
+      101227,
+      101228,
+      101229,
+      101230,
+      101231,
+      101232,
+      101233,
+      101234,
+      101235,
+      101236,
+      101237,
+      101238,
+      101239,
+      101240,
+      101242,
+      101243,
+      101244,
+      101245,
+      101246,
+      101247,
+      101248,
+      101249,
+      101250,
+      101251,
+      101252,
+      101253,
+      101254,
+      101710,
+      101711,
+      102004,
+      102250,
+      102432,
+      102433,
+      104128,
+      104129,
+      108540,
+      108946,
+      109516,
+      109694,
+      109695,
+      109696,
+      109697,
+      109698,
+      109699,
+      109700,
+      109701,
+      109826,
+      109827,
+      109882,
+      109883,
+      109910,
+      110019,
+      110020,
+      110021,
+      110022,
+      110023,
+      110024,
+      110025,
+      110026,
+      110027,
+      110067,
+      110095,
+      110097,
+      110098,
+      110211,
+      110218,
+      110220,
+      110221,
+      110435,
+      110436
+    ],
+    "subtree_nodes": [
+      {
+        "id": 101219,
+        "name": "Master of Harmony / Shado-Pan",
+        "type": "subtree",
+        "posX": 6900,
+        "posY": 600,
+        "entryNode": true,
+        "next": [],
+        "prev": [],
+        "entries": [
+          {
+            "id": 125028,
+            "type": "subtree",
+            "name": "Master of Harmony",
+            "traitSubTreeId": 66,
+            "traitTreeId": 1000,
+            "atlasMemberName": "talents-heroclass-monk-masterofharmony",
+            "nodes": [
+              101223,
+              101222,
+              101224,
+              101230,
+              109694,
+              101221,
+              101225,
+              101229,
+              109695,
+              101220,
+              101226,
+              101228,
+              109696,
+              101227
+            ]
+          },
+          {
+            "id": 125027,
+            "type": "subtree",
+            "name": "Shado-Pan",
+            "traitSubTreeId": 65,
+            "traitTreeId": 1000,
+            "atlasMemberName": "talents-heroclass-monk-shadopan",
+            "nodes": [
+              101248,
+              101247,
+              101249,
+              101246,
+              109697,
+              101254,
+              101250,
+              101245,
+              109698,
+              101253,
+              101251,
+              101244,
+              109699,
+              101252
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "source_warnings": [],
   "slug": "monk-brewmaster",
-  "generated_at": "2026-09-21T12:51:35.841700+00:00",
+  "generated_at": "2026-09-21T19:40:14.956273+00:00",
   "validation": {
     "talents": 152,
-    "changed_tooltips": 20,
+    "changed_tooltips": 22,
     "talents_with_pvp_mechanics": 25,
     "unique_nodes": 124,
     "tree_build": "12.1.0.69875",
@@ -10360,16 +11100,11 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 5,
+    "source_warning_count": 4,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 1242373,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1242373'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "source": "wowhead",
         "spell_id": 1262765,

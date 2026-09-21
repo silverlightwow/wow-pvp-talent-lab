@@ -43,11 +43,13 @@ window.WOW_PVP_DATA = {
           62122
         ],
         "entry_id": 80180,
+        "entry_max_ranks": 1,
         "definition_id": 85183,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Prismatic Barrier",
         "spell_id": 235450,
+        "visible_spell_id": null,
         "icon": "spell_magearmor"
       },
       "pve_tooltip": "3% of base mana\nInstant\n30 sec cooldown\n1 Charge\nShields you with an arcane force, absorbing [30 / 100 * Total Health * (1 + Versatility)] damage and reducing magic damage taken by 15% for 1 min.\nThe duration of harmful Magic effects against you is reduced by 25%.",
@@ -256,11 +258,13 @@ window.WOW_PVP_DATA = {
           62102
         ],
         "entry_id": 80174,
+        "entry_max_ranks": 1,
         "definition_id": 85177,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Alter Time",
         "spell_id": 342245,
+        "visible_spell_id": null,
         "icon": "spell_mage_altertime"
       },
       "pve_tooltip": "1% of base mana\nInstant\n1 min cooldown\nAlters the fabric of time, returning you to your current location and health when cast a second time, or after 10 sec. Effect negated by long distance or death.",
@@ -312,11 +316,13 @@ window.WOW_PVP_DATA = {
           62107
         ],
         "entry_id": 80181,
+        "entry_max_ranks": 1,
         "definition_id": 85184,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Ice Block",
         "spell_id": 45438,
+        "visible_spell_id": null,
         "icon": "spell_frost_frost"
       },
       "pve_tooltip": "Instant\n4 min cooldown\n1 Charge\nEncases you in a block of ice, protecting you from all attacks and damage for 10 sec, but during that time you cannot attack, move, or cast spells.\nCauses Hypothermia, preventing you from recasting Ice Block for 30 sec.",
@@ -367,11 +373,13 @@ window.WOW_PVP_DATA = {
           62114
         ],
         "entry_id": 134183,
+        "entry_max_ranks": 1,
         "definition_id": 138963,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Time Walk",
         "spell_id": 1244087,
+        "visible_spell_id": null,
         "icon": "warrior_doubletime"
       },
       "pve_tooltip": "Alter Time resets the cooldown of Blink and Shimmer when you return to your original location.",
@@ -422,11 +430,13 @@ window.WOW_PVP_DATA = {
           62114
         ],
         "entry_id": 134182,
+        "entry_max_ranks": 1,
         "definition_id": 138962,
         "entry_index": 300,
         "entry_type": "passive",
         "talent_name": "Temporal Realignment",
         "spell_id": 1244090,
+        "visible_spell_id": null,
         "icon": "ability_evoker_timedilation"
       },
       "pve_tooltip": "Upon dropping below 25% health, your past self corrects your timeline, casting Alter Time and instantly returning 20% of your maximum health and healing you for an additional 30% over 6 sec.",
@@ -478,11 +488,13 @@ window.WOW_PVP_DATA = {
           108660
         ],
         "entry_id": 80159,
+        "entry_max_ranks": 2,
         "definition_id": 85162,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Master of Time",
         "spell_id": 342249,
+        "visible_spell_id": null,
         "icon": "inv_belt_armor_waistoftime_d_01"
       },
       "pve_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
@@ -500,6 +512,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Reduces the cooldown of Alter Time by 5 sec.",
           "pvp_tooltip": "Reduces the cooldown of Alter Time by 5 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -508,6 +521,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
           "pvp_tooltip": "Reduces the cooldown of Alter Time by 10 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -551,28 +565,40 @@ window.WOW_PVP_DATA = {
           62124
         ],
         "entry_id": 80182,
+        "entry_max_ranks": 2,
         "definition_id": 85185,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Winter's Protection",
         "spell_id": 382424,
+        "visible_spell_id": null,
         "icon": "spell_ice_rune"
       },
       "pve_tooltip": "The cooldown of Ice Block is reduced by 60 sec.",
-      "pvp_tooltip": "The cooldown of Ice Block is reduced by 60 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pvp_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 40,
+          "end": 42,
+          "old_token": "60",
+          "new_token": "30",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "APPLIED",
           "kind": "ordinary_value",
-          "old": 60000.0,
-          "new": 30000.0,
-          "full_tooltip_match_count": 0
+          "old": "60",
+          "new": "30"
         }
       ],
       "has_pvp_mechanics": true,
@@ -618,14 +644,27 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
           "pvp_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
         {
           "rank": 2,
           "pve_tooltip": "The cooldown of Ice Block is reduced by 60 sec.",
-          "pvp_tooltip": "The cooldown of Ice Block is reduced by 60 sec.",
-          "tooltip_changed": false,
+          "pvp_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
+          "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 40,
+              "end": 42,
+              "old_token": "60",
+              "new_token": "30",
+              "kind": "ordinary_value",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -668,11 +707,13 @@ window.WOW_PVP_DATA = {
           62124
         ],
         "entry_id": 80165,
+        "entry_max_ranks": 1,
         "definition_id": 85168,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Frost Conditioning",
         "spell_id": 1250315,
+        "visible_spell_id": null,
         "icon": "spell_frost_icefloes"
       },
       "pve_tooltip": "Hypothermia's duration is reduced by 10 sec.",
@@ -725,11 +766,13 @@ window.WOW_PVP_DATA = {
           62104
         ],
         "entry_id": 80173,
+        "entry_max_ranks": 2,
         "definition_id": 85176,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Arcane Warding",
         "spell_id": 383092,
+        "visible_spell_id": null,
         "icon": "spell_arcane_arcaneresilience"
       },
       "pve_tooltip": "Reduces magic damage taken by 8%.",
@@ -747,6 +790,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Reduces magic damage taken by 4%.",
           "pvp_tooltip": "Reduces magic damage taken by 4%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -755,6 +799,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Reduces magic damage taken by 8%.",
           "pvp_tooltip": "Reduces magic damage taken by 8%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -800,11 +845,13 @@ window.WOW_PVP_DATA = {
           62116
         ],
         "entry_id": 134190,
+        "entry_max_ranks": 1,
         "definition_id": 138970,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Inspired Intellect",
         "spell_id": 458437,
+        "visible_spell_id": null,
         "icon": "spell_holy_arcaneintellect"
       },
       "pve_tooltip": "Arcane Intellect grants you an additional 2% Intellect.",
@@ -857,11 +904,13 @@ window.WOW_PVP_DATA = {
           108662
         ],
         "entry_id": 80183,
+        "entry_max_ranks": 1,
         "definition_id": 85186,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Mirror Image",
         "spell_id": 55342,
+        "visible_spell_id": null,
         "icon": "spell_magic_lesserinvisibilty"
       },
       "pve_tooltip": "2% of base mana\nInstant\n2 min cooldown\nCreates 3 copies of you nearby for 15 sec, which cast spells and attack your enemies. While active, you generate significantly reduced threat.\nTaking direct damage will cause one of your images to dissipate.\n(2s cooldown)",
@@ -913,11 +962,13 @@ window.WOW_PVP_DATA = {
           62105
         ],
         "entry_id": 80140,
+        "entry_max_ranks": 1,
         "definition_id": 85143,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Spellsteal",
         "spell_id": 30449,
+        "visible_spell_id": null,
         "icon": "spell_arcane_arcane02"
       },
       "pve_tooltip": "21% of base mana\n40 yd range\nInstant\nSteals [Kleptomania: all beneficial magic effects from the target. These effects lasts a maximum of 2 min / a beneficial magic effect from the target. This effect lasts a maximum of 2 min].",
@@ -971,11 +1022,13 @@ window.WOW_PVP_DATA = {
           108661
         ],
         "entry_id": 80161,
+        "entry_max_ranks": 1,
         "definition_id": 85164,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Quick Witted",
         "spell_id": 382297,
+        "visible_spell_id": null,
         "icon": "ability_priest_surgeofdarkness"
       },
       "pve_tooltip": "Counterspell's cooldown is reduced by 5 sec.",
@@ -1026,11 +1079,13 @@ window.WOW_PVP_DATA = {
           108661
         ],
         "entry_id": 125819,
+        "entry_max_ranks": 1,
         "definition_id": 130651,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Dragon's Breath",
         "spell_id": 31661,
+        "visible_spell_id": null,
         "icon": "inv_misc_head_dragon_01"
       },
       "pve_tooltip": "4% of base mana\nInstant\n45 sec cooldown\nEnemies in a 12 yd cone in front of you take (66.99% of Spell Power) Fire damage and are disoriented for 4 sec. Damage will cancel the effect.",
@@ -1136,11 +1191,13 @@ window.WOW_PVP_DATA = {
           108661
         ],
         "entry_id": 125818,
+        "entry_max_ranks": 1,
         "definition_id": 130650,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Supernova",
         "spell_id": 157980,
+        "visible_spell_id": null,
         "icon": "spell_mage_supernova"
       },
       "pve_tooltip": "40 yd range\nInstant\n45 sec cooldown\nPulses arcane energy around the target enemy or ally, dealing (34.5% of Spell Power) Arcane damage to all enemies within 8 yds, and knocking them upward. A primary enemy target will take 100% increased damage.",
@@ -1249,11 +1306,13 @@ window.WOW_PVP_DATA = {
           93524
         ],
         "entry_id": 80175,
+        "entry_max_ranks": 1,
         "definition_id": 85178,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Remove Curse",
         "spell_id": 475,
+        "visible_spell_id": null,
         "icon": "spell_nature_removecurse"
       },
       "pve_tooltip": "1.3% of base mana\n40 yd range\nInstant\n8 sec cooldown\nRemoves all Curses from a friendly target.",
@@ -1304,11 +1363,13 @@ window.WOW_PVP_DATA = {
           93524
         ],
         "entry_id": 134192,
+        "entry_max_ranks": 2,
         "definition_id": 138972,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Conjuration",
         "spell_id": 1244025,
+        "visible_spell_id": null,
         "icon": "spell_arcane_focusedpower"
       },
       "pve_tooltip": "Mirror Image's cooldown is reduced by 60 sec.",
@@ -1363,6 +1424,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Mirror Image's cooldown is reduced by 30 sec.",
           "pvp_tooltip": "Mirror Image's cooldown is reduced by 30 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -1371,6 +1433,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Mirror Image's cooldown is reduced by 60 sec.",
           "pvp_tooltip": "Mirror Image's cooldown is reduced by 60 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -1413,11 +1476,13 @@ window.WOW_PVP_DATA = {
           62110
         ],
         "entry_id": 136581,
+        "entry_max_ranks": 1,
         "definition_id": 141354,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Spellsteal",
         "spell_id": 1270827,
+        "visible_spell_id": null,
         "icon": "spell_arcane_arcane02"
       },
       "pve_tooltip": "Spellsteal repeats its effect after 4 sec, but it now has a cooldown of 4.0 sec.",
@@ -1567,11 +1632,13 @@ window.WOW_PVP_DATA = {
           62127
         ],
         "entry_id": 80163,
+        "entry_max_ranks": 1,
         "definition_id": 85166,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Shimmer",
         "spell_id": 212653,
+        "visible_spell_id": null,
         "icon": "spell_arcane_massdispel"
       },
       "pve_tooltip": "Replaces Blink\n2% of base mana\nInstant\n30 sec cooldown\n1 Charge\nTeleports you 20 yds forward, unless something is in the way. Unaffected by the global cooldown and castable while casting.",
@@ -1666,11 +1733,13 @@ window.WOW_PVP_DATA = {
           62127
         ],
         "entry_id": 134197,
+        "entry_max_ranks": 1,
         "definition_id": 138977,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Improved Blink",
         "spell_id": 1244340,
+        "visible_spell_id": null,
         "icon": "spell_arcane_blink"
       },
       "pve_tooltip": "[Shimmer / Blink]'s cooldown is reduced by 2 sec.",
@@ -1758,11 +1827,13 @@ window.WOW_PVP_DATA = {
           62127
         ],
         "entry_id": 136577,
+        "entry_max_ranks": 1,
         "definition_id": 141350,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Improved Counterspell",
         "spell_id": 1270865,
+        "visible_spell_id": null,
         "icon": "inv_1115_mage_counterspell"
       },
       "pve_tooltip": "Counterspell prevents casting for an additional 1.0 sec.",
@@ -1817,11 +1888,13 @@ window.WOW_PVP_DATA = {
           62098
         ],
         "entry_id": 134191,
+        "entry_max_ranks": 1,
         "definition_id": 138971,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Overflowing Energy",
         "spell_id": 390218,
+        "visible_spell_id": null,
         "icon": "spell_arcane_manatap"
       },
       "pve_tooltip": "Each time your Arcane Barrage fails to critically strike, it gains 10% increased critical strike chance.\nCritical strike bonus is removed when the affected spell critically strikes.",
@@ -1872,11 +1945,13 @@ window.WOW_PVP_DATA = {
           62098
         ],
         "entry_id": 136576,
+        "entry_max_ranks": 1,
         "definition_id": 141349,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Improved Remove Curse",
         "spell_id": 1270847,
+        "visible_spell_id": null,
         "icon": "spell_nature_removecurse"
       },
       "pve_tooltip": "Casting Remove Curse on a friendly target also casts it on yourself, but its cooldown is increased by 20 sec.",
@@ -1930,11 +2005,13 @@ window.WOW_PVP_DATA = {
           108659
         ],
         "entry_id": 115877,
+        "entry_max_ranks": 1,
         "definition_id": 120889,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Greater Invisibility",
         "spell_id": 110959,
+        "visible_spell_id": null,
         "icon": "ability_mage_greaterinvisibility"
       },
       "pve_tooltip": "Instant\n2 min cooldown\nMakes you invisible and untargetable for 20 sec, removing all threat. Any action taken cancels this effect.",
@@ -1986,11 +2063,13 @@ window.WOW_PVP_DATA = {
           108658
         ],
         "entry_id": 80168,
+        "entry_max_ranks": 1,
         "definition_id": 85171,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Frost Nova",
         "spell_id": 343183,
+        "visible_spell_id": null,
         "icon": "spell_frost_frostnova"
       },
       "pve_tooltip": "Frost Nova duration is increased by 2 sec.",
@@ -2042,11 +2121,13 @@ window.WOW_PVP_DATA = {
           108658
         ],
         "entry_id": 136466,
+        "entry_max_ranks": 1,
         "definition_id": 141239,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Ice Ward",
         "spell_id": 205036,
+        "visible_spell_id": null,
         "icon": "spell_frost_frostward"
       },
       "pve_tooltip": "Frost Nova now has 2 charges.",
@@ -2097,11 +2178,13 @@ window.WOW_PVP_DATA = {
           108658
         ],
         "entry_id": 134184,
+        "entry_max_ranks": 1,
         "definition_id": 138964,
         "entry_index": 300,
         "entry_type": "passive",
         "talent_name": "Captured Thoughts",
         "spell_id": 1270872,
+        "visible_spell_id": null,
         "icon": "spell_nature_elementalabsorption"
       },
       "pve_tooltip": "The duration of Clearcasting is increased by 10 sec.",
@@ -2156,11 +2239,13 @@ window.WOW_PVP_DATA = {
           62096
         ],
         "entry_id": 80187,
+        "entry_max_ranks": 1,
         "definition_id": 85190,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Tome of Rhonin",
         "spell_id": 382493,
+        "visible_spell_id": null,
         "icon": "inv_misc_book_04"
       },
       "pve_tooltip": "Increases critical strike chance by 2%.",
@@ -2211,11 +2296,13 @@ window.WOW_PVP_DATA = {
           62096
         ],
         "entry_id": 137410,
+        "entry_max_ranks": 1,
         "definition_id": 142170,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Warding",
         "spell_id": 1297073,
+        "visible_spell_id": null,
         "icon": "inv_cloth_raidmage_p_01helm"
       },
       "pve_tooltip": "Damage taken from area of effect attacks reduced by 4%.",
@@ -2270,11 +2357,13 @@ window.WOW_PVP_DATA = {
           108657
         ],
         "entry_id": 80155,
+        "entry_max_ranks": 1,
         "definition_id": 85158,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Tome of Antonidas",
         "spell_id": 382490,
+        "visible_spell_id": null,
         "icon": "inv_misc_book_18"
       },
       "pve_tooltip": "Increases Haste by 2%.",
@@ -2325,11 +2414,13 @@ window.WOW_PVP_DATA = {
           108657
         ],
         "entry_id": 80170,
+        "entry_max_ranks": 2,
         "definition_id": 85173,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Incantation of Swiftness",
         "spell_id": 382293,
+        "visible_spell_id": null,
         "icon": "rogue_burstofspeed"
       },
       "pve_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 40% for 6 sec.",
@@ -2394,6 +2485,18 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 20% for 6 sec.",
           "pvp_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 10% for 6 sec.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 77,
+              "end": 79,
+              "old_token": "20",
+              "new_token": "10",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2402,6 +2505,18 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 40% for 6 sec.",
           "pvp_tooltip": "[Greater Invisibility: Greater]Invisibility increases your movement speed by 20% for 6 sec.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 77,
+              "end": 79,
+              "old_token": "40",
+              "new_token": "20",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2444,11 +2559,13 @@ window.WOW_PVP_DATA = {
           108657
         ],
         "entry_id": 134189,
+        "entry_max_ranks": 1,
         "definition_id": 138969,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Master of Escape",
         "spell_id": 210476,
+        "visible_spell_id": null,
         "icon": "ability_mage_invisibility"
       },
       "pve_tooltip": "Reduces the cooldown of Invisibility by 60 sec.",
@@ -2503,11 +2620,13 @@ window.WOW_PVP_DATA = {
           62129
         ],
         "entry_id": 134188,
+        "entry_max_ranks": 1,
         "definition_id": 138968,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Charm of Aegwynn",
         "spell_id": 1244105,
+        "visible_spell_id": null,
         "icon": "inv_nerubian_necklace_02_color5"
       },
       "pve_tooltip": "The critical strike damage of your spells is increased by 5%.",
@@ -2558,11 +2677,13 @@ window.WOW_PVP_DATA = {
           62129
         ],
         "entry_id": 136579,
+        "entry_max_ranks": 1,
         "definition_id": 141352,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Brainstorm",
         "spell_id": 461261,
+        "visible_spell_id": null,
         "icon": "ability_kaztik_dominatemind"
       },
       "pve_tooltip": "Gaining Clearcasting increases your Intellect by 1% for 8 sec. Multiple instances may overlap.",
@@ -2617,22 +2738,34 @@ window.WOW_PVP_DATA = {
           62100
         ],
         "entry_id": 80153,
+        "entry_max_ranks": 1,
         "definition_id": 85156,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Flow of Time",
         "spell_id": 382268,
+        "visible_spell_id": null,
         "icon": "spell_arcane_blink"
       },
       "pve_tooltip": "The cooldowns of Blink and Shimmer are reduced by 3 sec.",
-      "pvp_tooltip": "The cooldowns of Blink and Shimmer are reduced by 3 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pvp_tooltip": "The cooldowns of Blink and Shimmer are reduced by 1.5 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 50,
+          "end": 51,
+          "old_token": "3",
+          "new_token": "1.5",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
-            1,
             2
           ],
           "status": "NOT_VISIBLE_IN_TOOLTIP",
@@ -2640,6 +2773,15 @@ window.WOW_PVP_DATA = {
           "old": 3000.0,
           "new": 1500.0,
           "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "ordinary_value",
+          "old": "3",
+          "new": "1.5"
         }
       ],
       "has_pvp_mechanics": true,
@@ -2733,11 +2875,13 @@ window.WOW_PVP_DATA = {
           62100
         ],
         "entry_id": 136578,
+        "entry_max_ranks": 1,
         "definition_id": 141351,
         "entry_index": 300,
         "entry_type": "passive",
         "talent_name": "Mana Confluence",
         "spell_id": 1270845,
+        "visible_spell_id": null,
         "icon": "spell_shaman_blessingoftheeternals"
       },
       "pve_tooltip": "Your mana costs are reduced by 5%.",
@@ -2792,11 +2936,13 @@ window.WOW_PVP_DATA = {
           62091
         ],
         "entry_id": 134187,
+        "entry_max_ranks": 1,
         "definition_id": 138967,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Charm of Medivh",
         "spell_id": 1244107,
+        "visible_spell_id": null,
         "icon": "inv_nerubian_necklace_02_color1"
       },
       "pve_tooltip": "Your Mastery is increased by 3%.",
@@ -2847,11 +2993,13 @@ window.WOW_PVP_DATA = {
           62085
         ],
         "entry_id": 80142,
+        "entry_max_ranks": 1,
         "definition_id": 85145,
         "entry_index": 300,
         "entry_type": "passive",
         "talent_name": "Permafrost Bauble",
         "spell_id": 1265517,
+        "visible_spell_id": null,
         "icon": "inv_10_dungeonjewelry_primalist_necklace_2_frost"
       },
       "pve_tooltip": "The cooldown of Ice Block and Ice Cold are reduced by 30 sec.",
@@ -2902,11 +3050,13 @@ window.WOW_PVP_DATA = {
           62085
         ],
         "entry_id": 80143,
+        "entry_max_ranks": 1,
         "definition_id": 85146,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Freezing Cold",
         "spell_id": 386763,
+        "visible_spell_id": null,
         "icon": "spell_frost_glacier"
       },
       "pve_tooltip": "Enemies hit by Cone of Cold are frozen in place for 5 sec instead of snared.\nWhen your roots expire or are dispelled, your target is snared by 80%, decaying over 3 sec.",
@@ -3009,11 +3159,13 @@ window.WOW_PVP_DATA = {
           62085
         ],
         "entry_id": 134199,
+        "entry_max_ranks": 1,
         "definition_id": 138979,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Ice Nova",
         "spell_id": 157997,
+        "visible_spell_id": null,
         "icon": "spell_mage_icenova"
       },
       "pve_tooltip": "40 yd range\nInstant\n25 sec cooldown\nCauses a whirl of icy wind around the enemy, dealing (138% of Spell Power) Frost damage to the target and all other enemies within 8 yds, freezing them in place for 2 sec. Damage reduced beyond 8 targets.",
@@ -3122,11 +3274,13 @@ window.WOW_PVP_DATA = {
           62094
         ],
         "entry_id": 80189,
+        "entry_max_ranks": 1,
         "definition_id": 85192,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Time Manipulation",
         "spell_id": 387807,
+        "visible_spell_id": null,
         "icon": "spell_nature_timestop"
       },
       "pve_tooltip": "The cooldowns of your loss of control spells are reduced by 5 sec.",
@@ -3177,11 +3331,13 @@ window.WOW_PVP_DATA = {
           62094
         ],
         "entry_id": 80144,
+        "entry_max_ranks": 1,
         "definition_id": 85147,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Ring of Frost",
         "spell_id": 113724,
+        "visible_spell_id": null,
         "icon": "spell_frost_ring_of_frost"
       },
       "pve_tooltip": "8% of base mana\n30 yd range\n2 sec cast\n45 sec cooldown\nSummons a Ring of Frost for 10 sec at the target location. Enemies entering the ring are incapacitated for 10 sec. Limit 10 targets.\nWhen the incapacitate expires, enemies are slowed by 65% for 4 sec.",
@@ -3284,11 +3440,13 @@ window.WOW_PVP_DATA = {
           62094
         ],
         "entry_id": 134198,
+        "entry_max_ranks": 1,
         "definition_id": 138978,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Mass Polymorph",
         "spell_id": 383121,
+        "visible_spell_id": null,
         "icon": "spell_nature_doublepolymorph1"
       },
       "pve_tooltip": "4% of base mana\n1.7 sec cast\n1 min cooldown\nTransforms all enemies within 10 yards into sheep, wandering around incapacitated for 15 sec. While affected, the victims cannot take actions but will regenerate health very quickly. Damage will cancel the effect.\nOnly works on Beasts, Humanoids and Critters.",
@@ -3342,11 +3500,13 @@ window.WOW_PVP_DATA = {
           108664
         ],
         "entry_id": 80157,
+        "entry_max_ranks": 1,
         "definition_id": 85160,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Energized Barriers",
         "spell_id": 386828,
+        "visible_spell_id": null,
         "icon": "spell_mage_temporalshield"
       },
       "pve_tooltip": "Casting your barrier removes all snare effects.",
@@ -3397,11 +3557,13 @@ window.WOW_PVP_DATA = {
           108664
         ],
         "entry_id": 115878,
+        "entry_max_ranks": 1,
         "definition_id": 120890,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Mass Invisibility",
         "spell_id": 414664,
+        "visible_spell_id": null,
         "icon": "ability_mage_massinvisibility"
       },
       "pve_tooltip": "6% of base mana\nInstant\n5 min cooldown\nYou and your allies within 40 yards instantly become invisible for 12 sec. Taking any action will cancel the effect.\nDoes not affect allies in combat.",
@@ -3452,28 +3614,40 @@ window.WOW_PVP_DATA = {
           108664
         ],
         "entry_id": 80147,
+        "entry_max_ranks": 1,
         "definition_id": 85150,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Barrier Diffusion",
         "spell_id": 455428,
+        "visible_spell_id": null,
         "icon": "spell_mage_evanesce"
       },
       "pve_tooltip": "When your Barrier is removed, reduce its cooldown by 5 sec.",
-      "pvp_tooltip": "When your Barrier is removed, reduce its cooldown by 5 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pvp_tooltip": "When your Barrier is removed, reduce its cooldown by 2.5 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 53,
+          "end": 54,
+          "old_token": "5",
+          "new_token": "2.5",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "APPLIED",
           "kind": "ordinary_value",
-          "old": 5000.0,
-          "new": 2500.0,
-          "full_tooltip_match_count": 0
+          "old": "5",
+          "new": "2.5"
         }
       ],
       "has_pvp_mechanics": true,
@@ -3544,11 +3718,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 80141,
+        "entry_max_ranks": 1,
         "definition_id": 85144,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ice Cold",
         "spell_id": 414659,
+        "visible_spell_id": null,
         "icon": "spell_fire_bluefire"
       },
       "pve_tooltip": "Ice Block now reduces all damage taken by 70% for 6 sec but no longer grants Immunity, prevents movement, attacks, or casting spells. Does not incur the Global Cooldown.",
@@ -3599,11 +3775,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 126060,
+        "entry_max_ranks": 1,
         "definition_id": 130892,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Spatial Manipulation",
         "spell_id": 1244031,
+        "visible_spell_id": null,
         "icon": "spell_mage_overpowered"
       },
       "pve_tooltip": "[Shimmer / Blink] gains an additional charge.",
@@ -3654,11 +3832,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 136580,
+        "entry_max_ranks": 1,
         "definition_id": 141353,
         "entry_index": 300,
         "entry_type": "passive",
         "talent_name": "Reflection",
         "spell_id": 1270829,
+        "visible_spell_id": null,
         "icon": "ability_hunter_displacement"
       },
       "pve_tooltip": "After casting [Shimmer / Blink], it is replaced with Reflection for 8 sec.\nReflection\nTeleports you back to where you last [Shimmer: Shimmered / Blinked]. Castable while casting and unaffected by the global cooldown.",
@@ -3709,11 +3889,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 134194,
+        "entry_max_ranks": 1,
         "definition_id": 138974,
         "entry_index": 300,
         "entry_type": "passive",
         "talent_name": "Improved Prismatic Barrier",
         "spell_id": 321745,
+        "visible_spell_id": null,
         "icon": "spell_magearmor"
       },
       "pve_tooltip": "Prismatic Barrier gains an additional charge and further reduces magic damage taken by 5%.",
@@ -3763,21 +3945,23 @@ window.WOW_PVP_DATA = {
           108539
         ],
         "entry_id": 126537,
+        "entry_max_ranks": 1,
         "definition_id": 131363,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Arcane Missiles",
         "spell_id": 5143,
+        "visible_spell_id": null,
         "icon": "spell_nature_starfall"
       },
-      "pve_tooltip": "15% of base mana\n40 yd range\nChanneled (2.5 sec cast)\nLaunches 5 waves of Arcane Missiles at the enemy over 2.5 sec, causing a total of [(4) * (107.8% of Spell Power)] Arcane damage.",
-      "pvp_tooltip": "15% of base mana\n40 yd range\nChanneled (2.5 sec cast)\nLaunches 5 waves of Arcane Missiles at the enemy over 2.5 sec, causing a total of [(4) * (178.1934% of Spell Power)] Arcane damage.",
+      "pve_tooltip": "15% of base mana\n40 yd range\nChanneled (2.5 sec cast)\nLaunches 5 waves of Arcane Missiles at the enemy over 2.5 sec, causing a total of [4 * (107.8% of Spell Power)] Arcane damage.",
+      "pvp_tooltip": "15% of base mana\n40 yd range\nChanneled (2.5 sec cast)\nLaunches 5 waves of Arcane Missiles at the enemy over 2.5 sec, causing a total of [4 * (178.1934% of Spell Power)] Arcane damage.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
         {
-          "start": 144,
-          "end": 149,
+          "start": 142,
+          "end": 147,
           "old_token": "107.8",
           "new_token": "178.1934",
           "kind": "spell_power_coefficient",
@@ -3919,11 +4103,13 @@ window.WOW_PVP_DATA = {
           110850
         ],
         "entry_id": 134027,
+        "entry_max_ranks": 1,
         "definition_id": 138810,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Concentrated Power",
         "spell_id": 414379,
+        "visible_spell_id": null,
         "icon": "spell_mage_overpowered"
       },
       "pve_tooltip": "Arcane Missiles channels 20% faster.",
@@ -3975,11 +4161,13 @@ window.WOW_PVP_DATA = {
           102471
         ],
         "entry_id": 134028,
+        "entry_max_ranks": 1,
         "definition_id": 138811,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Arcane Salvo",
         "spell_id": 384452,
+        "visible_spell_id": null,
         "icon": "inv12_ability_mage_arcanesalvo"
       },
       "pve_tooltip": "Each wave of Arcane Missiles increases the damage of Arcane Barrage by 3%, up to 60%.",
@@ -4073,11 +4261,13 @@ window.WOW_PVP_DATA = {
           102439
         ],
         "entry_id": 126515,
+        "entry_max_ranks": 1,
         "definition_id": 131341,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Clearcasting",
         "spell_id": 321420,
+        "visible_spell_id": null,
         "icon": "spell_shadow_manaburn"
       },
       "pve_tooltip": "Clearcasting can stack up to 2 additional times.",
@@ -4129,11 +4319,13 @@ window.WOW_PVP_DATA = {
           102449
         ],
         "entry_id": 137842,
+        "entry_max_ranks": 1,
         "definition_id": 142596,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Refractive Images",
         "spell_id": 1309497,
+        "visible_spell_id": null,
         "icon": "inv_112_arcane_buff"
       },
       "pve_tooltip": "10% of damage you would take is instead dealt over 8 sec. Casting Mirror Image increases this effect to 30% for 15 sec.",
@@ -4184,11 +4376,13 @@ window.WOW_PVP_DATA = {
           104113
         ],
         "entry_id": 126541,
+        "entry_max_ranks": 1,
         "definition_id": 131367,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Arcing Cleave",
         "spell_id": 231564,
+        "visible_spell_id": null,
         "icon": "ability_mage_arcanebarrage"
       },
       "pve_tooltip": "For each Arcane Charge, Arcane Barrage hits 1 additional nearby target for 40% damage.",
@@ -4240,11 +4434,13 @@ window.WOW_PVP_DATA = {
           102460
         ],
         "entry_id": 126509,
+        "entry_max_ranks": 1,
         "definition_id": 131335,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Arcane Pulse",
         "spell_id": 1241462,
+        "visible_spell_id": null,
         "icon": "spell_arcane_arcanetorrent"
       },
       "pve_tooltip": "10% of base mana\n40 yd range\n2 sec cast\n15 sec cooldown\nA pulse of Arcane magic erupts from underneath your target, dealing (600% of Spell Power) Arcane damage to all enemies within 8 yds. Damage reduced beyond 5 targets.\nGenerates 1 Arcane Charge for each enemy struck.",
@@ -4352,11 +4548,13 @@ window.WOW_PVP_DATA = {
           102469
         ],
         "entry_id": 126519,
+        "entry_max_ranks": 1,
         "definition_id": 131345,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Arcane Surge",
         "spell_id": 365350,
+        "visible_spell_id": null,
         "icon": "ability_mage_arcanesurge"
       },
       "pve_tooltip": "1 to 2900001 Mana\n40 yd range\n2.5 sec cast\n1.5 min cooldown\nExpend all of your current mana to annihilate your enemy target and nearby enemies for up to [(372% of Spell Power) * 2] Arcane damage based on Mana spent. Deals reduced damage beyond 8 targets.\nFor the next 15 sec, your Mana regeneration is increased by 425% and spell damage is increased by 35%.\nGenerates Clearcasting.",
@@ -4544,11 +4742,13 @@ window.WOW_PVP_DATA = {
           102475
         ],
         "entry_id": 128689,
+        "entry_max_ranks": 1,
         "definition_id": 133492,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Arcane Orb",
         "spell_id": 153626,
+        "visible_spell_id": null,
         "icon": "spell_mage_arcaneorb"
       },
       "pve_tooltip": "1% of base mana\n40 yd range\nInstant\n20 sec cooldown\n1 Charge\nLaunches an Arcane Orb forward from your position, traveling up to 40 yds, dealing (243.2% of Spell Power) Arcane damage to enemies it passes through.\nGrants 1 Arcane Charge when cast and every time it deals damage.",
@@ -4661,11 +4861,13 @@ window.WOW_PVP_DATA = {
           102446
         ],
         "entry_id": 126532,
+        "entry_max_ranks": 1,
         "definition_id": 131358,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Reverberate",
         "spell_id": 281482,
+        "visible_spell_id": null,
         "icon": "spell_arcane_arcane04"
       },
       "pve_tooltip": "Arcane Pulse has a 50% chance to repeat its explosion at 30% effectiveness.",
@@ -4719,11 +4921,13 @@ window.WOW_PVP_DATA = {
           102468
         ],
         "entry_id": 126530,
+        "entry_max_ranks": 1,
         "definition_id": 131356,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Presence of Mind",
         "spell_id": 205025,
+        "visible_spell_id": null,
         "icon": "spell_nature_enchantarmor"
       },
       "pve_tooltip": "Instant\n45 sec cooldown\nCauses your next 2 Arcane Blasts to be instant cast.",
@@ -4777,11 +4981,13 @@ window.WOW_PVP_DATA = {
           102468
         ],
         "entry_id": 134025,
+        "entry_max_ranks": 1,
         "definition_id": 138808,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Slipstream",
         "spell_id": 236457,
+        "visible_spell_id": null,
         "icon": "spell_holy_mindsooth"
       },
       "pve_tooltip": "Arcane Missiles and Evocation can now be channeled while moving.",
@@ -4830,11 +5036,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 126510,
+        "entry_max_ranks": 1,
         "definition_id": 131336,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Mana Bomb",
         "spell_id": 457521,
+        "visible_spell_id": null,
         "icon": "spell_holy_surgeoflight_shadow"
       },
       "pve_tooltip": "Arcane Surge's damage is increased by an additional 50% based on your mana spent.",
@@ -4888,11 +5096,13 @@ window.WOW_PVP_DATA = {
           109002
         ],
         "entry_id": 126539,
+        "entry_max_ranks": 1,
         "definition_id": 131365,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Arcane Familiar",
         "spell_id": 205022,
+        "visible_spell_id": null,
         "icon": "ability_socererking_arcanemines"
       },
       "pve_tooltip": "Casting Arcane Intellect summons a Familiar that attacks your enemies and increases your maximum mana by 10% for 1 hour.",
@@ -4943,11 +5153,13 @@ window.WOW_PVP_DATA = {
           109002
         ],
         "entry_id": 126545,
+        "entry_max_ranks": 1,
         "definition_id": 131371,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Charged Orb",
         "spell_id": 384651,
+        "visible_spell_id": null,
         "icon": "spell_mage_arcaneorb"
       },
       "pve_tooltip": "Arcane Orb gains 1 additional charge. Arcane Orb damage increased by 15%.",
@@ -5001,11 +5213,13 @@ window.WOW_PVP_DATA = {
           108535
         ],
         "entry_id": 126516,
+        "entry_max_ranks": 1,
         "definition_id": 131342,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Intuition",
         "spell_id": 1223798,
+        "visible_spell_id": null,
         "icon": "spell_shadow_brainwash"
       },
       "pve_tooltip": "Upon reaching maximum stacks of Arcane Salvo, your next Arcane Barrage deals 25% increased damage.",
@@ -5054,11 +5268,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 137841,
+        "entry_max_ranks": 1,
         "definition_id": 142595,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Amplification",
         "spell_id": 236628,
+        "visible_spell_id": null,
         "icon": "spell_arcane_invocation"
       },
       "pve_tooltip": "Arcane Missiles fires 2 additional missiles.",
@@ -5112,11 +5328,13 @@ window.WOW_PVP_DATA = {
           108541
         ],
         "entry_id": 126538,
+        "entry_max_ranks": 1,
         "definition_id": 131364,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Touch of the Magi",
         "spell_id": 321507,
+        "visible_spell_id": null,
         "icon": "inv_ability_mage_radiantspark"
       },
       "pve_tooltip": "5% of base mana\n40 yd range\nInstant\n45 sec cooldown\n1 Charge\nApplies Touch of the Magi to your current target, accumulating 20% of the damage you deal to the target for 12 sec, and then exploding for that amount of Arcane damage to the target and reduced damage to all nearby enemies.\nGenerates 4 Arcane Charges.",
@@ -5167,11 +5385,13 @@ window.WOW_PVP_DATA = {
           108541
         ],
         "entry_id": 126511,
+        "entry_max_ranks": 1,
         "definition_id": 131337,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Energized Familiar",
         "spell_id": 452997,
+        "visible_spell_id": null,
         "icon": "spell_lightning_lightningbolt01"
       },
       "pve_tooltip": "During Arcane Surge, your Arcane Familiar fires 4 bolts instead of 1.\nDamage from your Arcane Familiar has a 6% chance to restore 2% of your maximum mana.",
@@ -5224,11 +5444,13 @@ window.WOW_PVP_DATA = {
           102453
         ],
         "entry_id": 134834,
+        "entry_max_ranks": 1,
         "definition_id": 139602,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Expanded Mind",
         "spell_id": 1243557,
+        "visible_spell_id": null,
         "icon": "inv_helmet_101"
       },
       "pve_tooltip": "Casting Arcane Blast or Arcane Pulse grants 2 stacks of Arcane Salvo.\nCasting Arcane Orb grants 1 stack of Arcane Salvo.\nCasting Prismatic Bolt grants 4 stacks of Arcane Salvo.",
@@ -5279,11 +5501,13 @@ window.WOW_PVP_DATA = {
           102454
         ],
         "entry_id": 134024,
+        "entry_max_ranks": 1,
         "definition_id": 138807,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Consortium's Bauble",
         "spell_id": 461260,
+        "visible_spell_id": null,
         "icon": "inv_6_2raid_trinket_1b"
       },
       "pve_tooltip": "Reduces Arcane Blast's mana cost by 5% and increases its damage by 8%.",
@@ -5334,11 +5558,13 @@ window.WOW_PVP_DATA = {
           102454
         ],
         "entry_id": 137084,
+        "entry_max_ranks": 1,
         "definition_id": 141848,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Arcane Tempo",
         "spell_id": 383980,
+        "visible_spell_id": null,
         "icon": "ability_socererking_arcaneacceleration"
       },
       "pve_tooltip": "Your Haste is increased by 2%.",
@@ -5391,11 +5617,13 @@ window.WOW_PVP_DATA = {
           102470
         ],
         "entry_id": 134023,
+        "entry_max_ranks": 2,
         "definition_id": 138806,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Aether Attunement",
         "spell_id": 1243307,
+        "visible_spell_id": null,
         "icon": "inv_enchant_essencearcanelarge"
       },
       "pve_tooltip": "Arcane Missiles now damages 4 additional targets at 50% effectiveness.",
@@ -5413,6 +5641,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Arcane Missiles now damages 2 additional targets at 50% effectiveness.",
           "pvp_tooltip": "Arcane Missiles now damages 2 additional targets at 50% effectiveness.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -5421,6 +5650,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Arcane Missiles now damages 4 additional targets at 50% effectiveness.",
           "pvp_tooltip": "Arcane Missiles now damages 4 additional targets at 50% effectiveness.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -5464,11 +5694,13 @@ window.WOW_PVP_DATA = {
           102451
         ],
         "entry_id": 134020,
+        "entry_max_ranks": 1,
         "definition_id": 138803,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Aegwynn's Technique",
         "spell_id": 1243507,
+        "visible_spell_id": null,
         "icon": "inv_misc_scrollrolled03d"
       },
       "pve_tooltip": "Casting Touch of the Magi grants Clearcasting.",
@@ -5520,11 +5752,13 @@ window.WOW_PVP_DATA = {
           102451
         ],
         "entry_id": 135699,
+        "entry_max_ranks": 1,
         "definition_id": 140454,
         "entry_index": 300,
         "entry_type": "passive",
         "talent_name": "Arcane Echo",
         "spell_id": 342231,
+        "visible_spell_id": null,
         "icon": "ability_socererking_arcanewrath"
       },
       "pve_tooltip": "Direct damage you deal to enemies affected by [Nether Flux / Touch of the Magi], causes an explosion that deals [Nether Flux: [(10% of Spell Power) * 5] / (10% of Spell Power)] Arcane damage to all nearby enemies. Deals reduced damage beyond 8 targets.",
@@ -5657,11 +5891,13 @@ window.WOW_PVP_DATA = {
           108551
         ],
         "entry_id": 134030,
+        "entry_max_ranks": 1,
         "definition_id": 138813,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Resonance",
         "spell_id": 205028,
+        "visible_spell_id": null,
         "icon": "spell_arcane_arcane01"
       },
       "pve_tooltip": "Arcane Barrage deals 8% increased damage per target it hits beyond the first.",
@@ -5712,15 +5948,17 @@ window.WOW_PVP_DATA = {
           108551
         ],
         "entry_id": 126523,
+        "entry_max_ranks": 1,
         "definition_id": 131349,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Impetus",
         "spell_id": 383676,
+        "visible_spell_id": null,
         "icon": "spell_arcane_arcanetorrent"
       },
-      "pve_tooltip": "Arcane Blast generates an additional Arcane Charge.\nModifies Effect #2's Value +1:\nArcane Blast",
-      "pvp_tooltip": "Arcane Blast generates an additional Arcane Charge.\nModifies Effect #2's Value +1:\nArcane Blast",
+      "pve_tooltip": "Arcane Blast generates an additional Arcane Charge.",
+      "pvp_tooltip": "Arcane Blast generates an additional Arcane Charge.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -5769,11 +6007,13 @@ window.WOW_PVP_DATA = {
           102480
         ],
         "entry_id": 126524,
+        "entry_max_ranks": 1,
         "definition_id": 131350,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Evocation",
         "spell_id": 12051,
+        "visible_spell_id": null,
         "icon": "spell_nature_purge"
       },
       "pve_tooltip": "Channeled (3 sec cast)\n45 sec cooldown\n1 Charge\nIncreases your mana regeneration by 1500% for 3 sec.",
@@ -5826,11 +6066,13 @@ window.WOW_PVP_DATA = {
           102480
         ],
         "entry_id": 136465,
+        "entry_max_ranks": 1,
         "definition_id": 141238,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Mana Adept",
         "spell_id": 321526,
+        "visible_spell_id": null,
         "icon": "spell_arcane_arcanepotency"
       },
       "pve_tooltip": "Arcane Barrage grants you 2.0% of your maximum mana per Arcane Charge spent.",
@@ -5883,11 +6125,13 @@ window.WOW_PVP_DATA = {
           108665
         ],
         "entry_id": 126540,
+        "entry_max_ranks": 1,
         "definition_id": 131366,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Enlightened",
         "spell_id": 321387,
+        "visible_spell_id": null,
         "icon": "ability_socererking_arcanefortification"
       },
       "pve_tooltip": "Arcane damage dealt is increased based on your current mana, up to 6% at full mana.\nMana Regen is increased based on your current mana, up to 20% when out of mana.",
@@ -5940,11 +6184,13 @@ window.WOW_PVP_DATA = {
           108537
         ],
         "entry_id": 126521,
+        "entry_max_ranks": 1,
         "definition_id": 131347,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Focusing Crystal",
         "spell_id": 461257,
+        "visible_spell_id": null,
         "icon": "ability_racial_arcaneaffinity"
       },
       "pve_tooltip": "Each wave of Arcane Missiles has a 50% chance to grant 1 additional stack of Arcane Salvo.",
@@ -5996,11 +6242,13 @@ window.WOW_PVP_DATA = {
           108537
         ],
         "entry_id": 134047,
+        "entry_max_ranks": 1,
         "definition_id": 138830,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Illuminated Thoughts",
         "spell_id": 384060,
+        "visible_spell_id": null,
         "icon": "spell_arcane_focusedpower"
       },
       "pve_tooltip": "Clearcasting has a 3% increased chance to proc.",
@@ -6053,11 +6301,13 @@ window.WOW_PVP_DATA = {
           102476
         ],
         "entry_id": 126550,
+        "entry_max_ranks": 2,
         "definition_id": 131376,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Prodigious Savant",
         "spell_id": 384612,
+        "visible_spell_id": null,
         "icon": "ability_mage_studentofthemind"
       },
       "pve_tooltip": "Arcane Charges increase the damage of Arcane Blast and Arcane Barrage by an additional 20%.",
@@ -6075,6 +6325,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Arcane Charges increase the damage of Arcane Blast and Arcane Barrage by an additional 10%.",
           "pvp_tooltip": "Arcane Charges increase the damage of Arcane Blast and Arcane Barrage by an additional 10%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -6083,6 +6334,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Arcane Charges increase the damage of Arcane Blast and Arcane Barrage by an additional 20%.",
           "pvp_tooltip": "Arcane Charges increase the damage of Arcane Blast and Arcane Barrage by an additional 20%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6126,11 +6378,13 @@ window.WOW_PVP_DATA = {
           109478
         ],
         "entry_id": 134196,
+        "entry_max_ranks": 1,
         "definition_id": 138976,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Eureka",
         "spell_id": 452198,
+        "visible_spell_id": null,
         "icon": "spell_mage_presenceofmind"
       },
       "pve_tooltip": "When a spell consumes Clearcasting, its damage is increased by 20%.",
@@ -6183,11 +6437,13 @@ window.WOW_PVP_DATA = {
           102474
         ],
         "entry_id": 134026,
+        "entry_max_ranks": 2,
         "definition_id": 138809,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Arcane Singularity",
         "spell_id": 1244001,
+        "visible_spell_id": null,
         "icon": "spell_nature_wispheal"
       },
       "pve_tooltip": "Arcane Salvo damage bonus increased by 4%.\nArcane Salvo:\nIncreases the damage of your next Arcane Barrage by 3%.",
@@ -6294,6 +6550,18 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Arcane Salvo damage bonus increased by 2%.\nArcane Salvo:\nIncreases the damage of your next Arcane Barrage by 3%.",
           "pvp_tooltip": "Arcane Salvo damage bonus increased by 1%.\nArcane Salvo:\nIncreases the damage of your next Arcane Barrage by 3%.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 39,
+              "end": 40,
+              "old_token": "2",
+              "new_token": "1",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -6302,6 +6570,18 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Arcane Salvo damage bonus increased by 4%.\nArcane Salvo:\nIncreases the damage of your next Arcane Barrage by 3%.",
           "pvp_tooltip": "Arcane Salvo damage bonus increased by 2%.\nArcane Salvo:\nIncreases the damage of your next Arcane Barrage by 3%.",
           "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 39,
+              "end": 40,
+              "old_token": "4",
+              "new_token": "2",
+              "kind": "percent_value",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6342,11 +6622,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 126542,
+        "entry_max_ranks": 1,
         "definition_id": 131368,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "High Voltage",
         "spell_id": 461248,
+        "visible_spell_id": null,
         "icon": "spell_shaman_maelstromweapon"
       },
       "pve_tooltip": "Each wave of Arcane Missiles has a 50% chance to grant you 1 Arcane Charge.\nArcane Missiles damage increased by 20%.",
@@ -6395,11 +6677,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 134022,
+        "entry_max_ranks": 1,
         "definition_id": 138805,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Charged Missiles",
         "spell_id": 461251,
+        "visible_spell_id": null,
         "icon": "ability_mage_missilebarrage"
       },
       "pve_tooltip": "Each wave of Arcane Missiles will consume an Arcane Charge to increase its damage by 40%.",
@@ -6448,11 +6732,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 126546,
+        "entry_max_ranks": 1,
         "definition_id": 131372,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Overflowing Insight",
         "spell_id": 1243542,
+        "visible_spell_id": null,
         "icon": "inv_offhand_pvealliance_d_01"
       },
       "pve_tooltip": "The damage of Arcane Blast and Arcane Pulse are increased by 15%, but their mana costs are increased by 25%.",
@@ -6501,11 +6787,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 135698,
+        "entry_max_ranks": 1,
         "definition_id": 140453,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Overpowered Missiles",
         "spell_id": 1244329,
+        "visible_spell_id": null,
         "icon": "ability_socererking_arcanereplication"
       },
       "pve_tooltip": "Gaining Clearcasting has a 25% chance to cause your next Arcane Missiles to be Overpowered, causing it to deal 100% increased damage, generate maximum stacks of Arcane Salvo, and strike 3 additional targets at 50% effectiveness.",
@@ -6606,11 +6894,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 126508,
+        "entry_max_ranks": 1,
         "definition_id": 131334,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Orb Mastery",
         "spell_id": 1243435,
+        "visible_spell_id": null,
         "icon": "ability_evoker_powerswell"
       },
       "pve_tooltip": "Casting Arcane Orb fires 2 additional Arcane Orbs at 50% effectiveness.",
@@ -6659,11 +6949,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 126544,
+        "entry_max_ranks": 1,
         "definition_id": 131370,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Orb Barrage",
         "spell_id": 384858,
+        "visible_spell_id": null,
         "icon": "spell_mage_arcaneorb_nightborne"
       },
       "pve_tooltip": "Arcane Barrage has a 4% chance per stack of Arcane Salvo to launch an Arcane Orb in front of you at 100% effectiveness.",
@@ -6710,11 +7002,13 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 137028,
+        "entry_max_ranks": 1,
         "definition_id": 141791,
         "entry_index": 100,
         "entry_type": "tierrank",
         "talent_name": "Prismatic Bolt",
         "spell_id": 1295923,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_mage_touchofthearchmage"
       },
       "pve_tooltip": "40 yd range\nArcane Barrage has a 1% chance per stack of Arcane Salvo consumed to replace your next Arcane Blast with Prismatic Bolt.\nPrismatic Bolt\nDevastates the target with overwhelming energy, dealing (3200% of Spell Power) Arcane damage to them and (2500% of Spell Power) Arcane damage to other nearby enemies. Damage reduced beyond 5 targets.\nGenerates 4 Arcane Charges.",
@@ -6784,7 +7078,7 @@ window.WOW_PVP_DATA = {
           ],
           "dependency_relations": [
             "spelldesc_ref",
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -6840,15 +7134,17 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 137027,
+        "entry_max_ranks": 2,
         "definition_id": 141790,
         "entry_index": 200,
         "entry_type": "tierrank",
         "talent_name": "Prismatic Bolt",
         "spell_id": 1295944,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_mage_touchofthearchmage"
       },
-      "pve_tooltip": "40 yd range\nPrismatic Bolt has a 50% chance to grant Clearcasting.\nArcane Missiles damage increased by 15%.",
-      "pvp_tooltip": "40 yd range\nPrismatic Bolt has a 50% chance to grant Clearcasting.\nArcane Missiles damage increased by 15%.",
+      "pve_tooltip": "40 yd range\nPrismatic Bolt has a 100% chance to grant Clearcasting.\nArcane Missiles damage increased by 30%.",
+      "pvp_tooltip": "40 yd range\nPrismatic Bolt has a 100% chance to grant Clearcasting.\nArcane Missiles damage increased by 30%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6856,7 +7152,26 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "40 yd range\nPrismatic Bolt has a 50% chance to grant Clearcasting.\nArcane Missiles damage increased by 15%.",
+          "pvp_tooltip": "40 yd range\nPrismatic Bolt has a 50% chance to grant Clearcasting.\nArcane Missiles damage increased by 15%.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "40 yd range\nPrismatic Bolt has a 100% chance to grant Clearcasting.\nArcane Missiles damage increased by 30%.",
+          "pvp_tooltip": "40 yd range\nPrismatic Bolt has a 100% chance to grant Clearcasting.\nArcane Missiles damage increased by 30%.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Prismatic Bolt",
@@ -6891,11 +7206,13 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 137026,
+        "entry_max_ranks": 1,
         "definition_id": 141789,
         "entry_index": 300,
         "entry_type": "tierrank",
         "talent_name": "Prismatic Bolt",
         "spell_id": 1295946,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_mage_touchofthearchmage"
       },
       "pve_tooltip": "40 yd range\nIncreases the chance to gain Prismatic Bolt by 1% per stack of Arcane Salvo consumed.\nArcane Barrage damage increased by 15%.",
@@ -6947,11 +7264,13 @@ window.WOW_PVP_DATA = {
           109669
         ],
         "entry_id": 117267,
+        "entry_max_ranks": 1,
         "definition_id": 122279,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Splintering Sorcery",
         "spell_id": 443739,
+        "visible_spell_id": null,
         "icon": "achievement_dungeon_arcanevaults"
       },
       "pve_tooltip": "Casting Arcane Blast or Arcane Pulse conjures an Arcane Splinter.\nArcane Splinter:\nConjure raw Arcane magic into a sharp projectile that deals (43.65% of Spell Power) Arcane damage.",
@@ -7079,11 +7398,13 @@ window.WOW_PVP_DATA = {
           94659
         ],
         "entry_id": 117265,
+        "entry_max_ranks": 1,
         "definition_id": 122277,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Augury Abounds",
         "spell_id": 1280165,
+        "visible_spell_id": null,
         "icon": "spell_arcane_arcanepotency"
       },
       "pve_tooltip": "Conjuring one or more Arcane Splinters has a 10% chance to conjure a burst of 8 Arcane Splinters.",
@@ -7134,11 +7455,13 @@ window.WOW_PVP_DATA = {
           94656
         ],
         "entry_id": 117266,
+        "entry_max_ranks": 1,
         "definition_id": 122278,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Force of Will",
         "spell_id": 444719,
+        "visible_spell_id": null,
         "icon": "spell_mage_overpowered"
       },
       "pve_tooltip": "Casting Arcane Barrage conjures an Arcane Splinter for every 5 Arcane Salvo stacks consumed.",
@@ -7189,11 +7512,13 @@ window.WOW_PVP_DATA = {
           94660
         ],
         "entry_id": 117264,
+        "entry_max_ranks": 1,
         "definition_id": 122276,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Splintering Orbs",
         "spell_id": 444256,
+        "visible_spell_id": null,
         "icon": "item_azereansphere"
       },
       "pve_tooltip": "Enemies damaged by your Arcane Orb conjure 2 Arcane Splinters, up to 4.\nArcane Orb damage is increased by 50%.",
@@ -7244,12 +7569,14 @@ window.WOW_PVP_DATA = {
           109668
         ],
         "entry_id": 135920,
+        "entry_max_ranks": 1,
         "definition_id": 140675,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Attuned Familiar",
         "spell_id": 1261106,
-        "icon": "ability_socererking_arcanemines"
+        "visible_spell_id": null,
+        "icon": "spell_frost_summonwaterelemental_2"
       },
       "pve_tooltip": "Your Arcane Familiar has a 50% chance to conjure a Splinter alongside its Arcane Assault.",
       "pvp_tooltip": "Your Arcane Familiar has a 50% chance to conjure a Splinter alongside its Arcane Assault.",
@@ -7299,11 +7626,13 @@ window.WOW_PVP_DATA = {
           109668
         ],
         "entry_id": 135946,
+        "entry_max_ranks": 1,
         "definition_id": 140701,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Shifting Shards",
         "spell_id": 444675,
+        "visible_spell_id": null,
         "icon": "ability_mage_freeze"
       },
       "pve_tooltip": "Gaining Clearcasting conjures 2 Arcane Splinters.",
@@ -7354,11 +7683,13 @@ window.WOW_PVP_DATA = {
           94658
         ],
         "entry_id": 117262,
+        "entry_max_ranks": 1,
         "definition_id": 122274,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Slippery Slinging",
         "spell_id": 444752,
+        "visible_spell_id": null,
         "icon": "ability_mage_icyfeet"
       },
       "pve_tooltip": "You have 40% increased movement speed during Alter Time.",
@@ -7456,11 +7787,13 @@ window.WOW_PVP_DATA = {
           94658
         ],
         "entry_id": 123418,
+        "entry_max_ranks": 1,
         "definition_id": 128256,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Look Again",
         "spell_id": 444756,
+        "visible_spell_id": null,
         "icon": "achievement_bg_tophealer_av"
       },
       "pve_tooltip": "While in combat, Blink summons a Mirror Image at your previous location.",
@@ -7511,12 +7844,14 @@ window.WOW_PVP_DATA = {
           94657
         ],
         "entry_id": 117259,
+        "entry_max_ranks": 1,
         "definition_id": 122271,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Controlled Instincts",
         "spell_id": 444483,
-        "icon": "spell_frost_ice_shards"
+        "visible_spell_id": null,
+        "icon": "spell_frost_ice-shards"
       },
       "pve_tooltip": "40% of the direct damage dealt by an Arcane Splinter is also dealt to nearby enemies. Damage reduced beyond 5 targets.",
       "pvp_tooltip": "40% of the direct damage dealt by an Arcane Splinter is also dealt to nearby enemies. Damage reduced beyond 5 targets.",
@@ -7607,11 +7942,13 @@ window.WOW_PVP_DATA = {
           94655
         ],
         "entry_id": 117263,
+        "entry_max_ranks": 1,
         "definition_id": 122275,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Reactive Barrier",
         "spell_id": 444827,
+        "visible_spell_id": null,
         "icon": "ability_racial_forceshield"
       },
       "pve_tooltip": "Your Prismatic Barrier can absorb up to 25% more damage based on your missing health.\nMax effectiveness when under 25% health.",
@@ -7728,11 +8065,13 @@ window.WOW_PVP_DATA = {
           94655
         ],
         "entry_id": 123417,
+        "entry_max_ranks": 1,
         "definition_id": 128255,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Phantasmal Image",
         "spell_id": 444784,
+        "visible_spell_id": null,
         "icon": "spell_arcane_prismaticcloak"
       },
       "pve_tooltip": "Your Mirror Image summons 1 extra copy of you.",
@@ -7783,11 +8122,13 @@ window.WOW_PVP_DATA = {
           109667
         ],
         "entry_id": 135919,
+        "entry_max_ranks": 1,
         "definition_id": 140674,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Infused Splinters",
         "spell_id": 1261080,
+        "visible_spell_id": null,
         "icon": "spell_mage_focusingcrystal"
       },
       "pve_tooltip": "Direct damage from Arcane Splinters have a 25% chance to grant 1 stack Arcane Salvo.\nArcane Salvo\nIncreases the damage of your next Arcane Barrage by 3%.",
@@ -7838,11 +8179,13 @@ window.WOW_PVP_DATA = {
           94654
         ],
         "entry_id": 117261,
+        "entry_max_ranks": 1,
         "definition_id": 122273,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Archmage's Wrath",
         "spell_id": 444968,
+        "visible_spell_id": null,
         "icon": "spell_arcane_arcane03"
       },
       "pve_tooltip": "100 yd range\nArcane Surge damage increased by 30%.\nYour chance to gain Clearcasting is increased by 3%.",
@@ -7893,11 +8236,13 @@ window.WOW_PVP_DATA = {
           94654
         ],
         "entry_id": 128267,
+        "entry_max_ranks": 1,
         "definition_id": 133074,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Signature Spell",
         "spell_id": 470021,
+        "visible_spell_id": null,
         "icon": "inv_enchanting_815_drustwand"
       },
       "pve_tooltip": "Arcane Blast and Arcane Pulse damage increased by 15%.\nCasting Touch of the Magi conjures 4 Arcane Splinters.",
@@ -7948,11 +8293,13 @@ window.WOW_PVP_DATA = {
           94654
         ],
         "entry_id": 117258,
+        "entry_max_ranks": 1,
         "definition_id": 122270,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Spellfrost Teachings",
         "spell_id": 444986,
+        "visible_spell_id": null,
         "icon": "70_inscription_vantus_rune_azure"
       },
       "pve_tooltip": "Direct damage from Arcane Splinters reduces the cooldown of Arcane Orb by 0.30 sec.",
@@ -8003,11 +8350,13 @@ window.WOW_PVP_DATA = {
           94654
         ],
         "entry_id": 135918,
+        "entry_max_ranks": 1,
         "definition_id": 140673,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Polished Focus",
         "spell_id": 1261082,
+        "visible_spell_id": null,
         "icon": "inv_misc_orb_blue"
       },
       "pve_tooltip": "Casting Arcane Barrage while at 20 or more Arcane Salvo stacks refunds 3 Arcane Salvo stacks.\nArcane Barrage damage increased by 15%.",
@@ -8059,11 +8408,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 117257,
+        "entry_max_ranks": 1,
         "definition_id": 122269,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Splinterstorm",
         "spell_id": 443783,
+        "visible_spell_id": null,
         "icon": "ability_mage_burstofcold"
       },
       "pve_tooltip": "Casting Arcane Surge generates 8 Arcane Splinters.\nDuring Arcane Surge, your chance to conjure an additional Arcane Splinter is increased to 100%.",
@@ -8115,11 +8466,13 @@ window.WOW_PVP_DATA = {
           109675
         ],
         "entry_id": 117250,
+        "entry_max_ranks": 1,
         "definition_id": 122262,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Spellfire Spheres",
         "spell_id": 448601,
+        "visible_spell_id": null,
         "icon": "inv_1115_mage_spellfirespheresgeneration"
       },
       "pve_tooltip": "Casting a damaging spell has a 6% chance to conjure a Spellfire Sphere.\nWhile you're out of combat, you will slowly conjure Spellfire Spheres over time.\nSpellfire Sphere\nIncreases your spell damage by 1.0%. Stacks up to 3 times.",
@@ -8259,11 +8612,13 @@ window.WOW_PVP_DATA = {
           94649
         ],
         "entry_id": 117256,
+        "entry_max_ranks": 1,
         "definition_id": 122268,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Mana Cascade",
         "spell_id": 449293,
+        "visible_spell_id": null,
         "icon": "spell_frost_manarecharge"
       },
       "pve_tooltip": "Casting Arcane Blast, Arcane Pulse, Arcane Barrage, or Prismatic Bolt grants you 0.5% Haste for 6 sec. Multiple applications may overlap.",
@@ -8314,11 +8669,13 @@ window.WOW_PVP_DATA = {
           94645
         ],
         "entry_id": 117255,
+        "entry_max_ranks": 1,
         "definition_id": 122267,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Invocation: Arcane Phoenix",
         "spell_id": 448658,
+        "visible_spell_id": null,
         "icon": "inv_misc_phoenixegg"
       },
       "pve_tooltip": "When you cast Arcane Surge, summon an Arcane Phoenix to aid you in battle.\nArcane Phoenix\nYour Arcane Phoenix aids you for the duration of your Arcane Surge, casting random Arcane and Fire spells.",
@@ -8369,11 +8726,13 @@ window.WOW_PVP_DATA = {
           94651
         ],
         "entry_id": 117247,
+        "entry_max_ranks": 1,
         "definition_id": 122259,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Burden of Power",
         "spell_id": 451035,
+        "visible_spell_id": null,
         "icon": "inv_ragnaros_heart"
       },
       "pve_tooltip": "Arcane Blast damage increased by 30%.\nArcane Pulse damage increased by 20%.",
@@ -8424,11 +8783,13 @@ window.WOW_PVP_DATA = {
           109674
         ],
         "entry_id": 135926,
+        "entry_max_ranks": 1,
         "definition_id": 140681,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Glorious Incandescence",
         "spell_id": 449394,
+        "visible_spell_id": null,
         "icon": "spell_burningsoul"
       },
       "pve_tooltip": "Arcane Barrage summons 1 Meteorite for every 5 Arcane Salvo stacks consumed.\nMeteorite\nCalls down a meteorite which lands at the target location after 3 sec, dealing (102% of Spell Power) Fire damage to all enemies hit, reduced beyond 8 targets.",
@@ -8520,11 +8881,13 @@ window.WOW_PVP_DATA = {
           94650
         ],
         "entry_id": 117252,
+        "entry_max_ranks": 1,
         "definition_id": 122264,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Merely a Setback",
         "spell_id": 449330,
+        "visible_spell_id": null,
         "icon": "inv_helm_robe_raidmage_i_01"
       },
       "pve_tooltip": "The bonuses provided by your Barrier spells persist at 100% effectiveness for an additional 8 sec after your Barrier is removed.",
@@ -8812,11 +9175,13 @@ window.WOW_PVP_DATA = {
           94650
         ],
         "entry_id": 135598,
+        "entry_max_ranks": 1,
         "definition_id": 140354,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Time Twist",
         "spell_id": 1255166,
+        "visible_spell_id": null,
         "icon": "spell_holy_borrowedtime"
       },
       "pve_tooltip": "The cooldown of Alter Time is reduced by 10 sec.",
@@ -8867,11 +9232,13 @@ window.WOW_PVP_DATA = {
           94643
         ],
         "entry_id": 117248,
+        "entry_max_ranks": 1,
         "definition_id": 122260,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Codex of the Sunstriders",
         "spell_id": 449382,
+        "visible_spell_id": null,
         "icon": "inv_10_inscription2_book3_color1"
       },
       "pve_tooltip": "When your Arcane Phoenix is summoned, it consumes all your Spellfire Spheres.\nEach Sphere consumed increases your spell damage during Arcane Surge by 1% and causes your Arcane Phoenix to cast an exceptional Arcane or Fire spell over its duration.",
@@ -8922,11 +9289,13 @@ window.WOW_PVP_DATA = {
           94648
         ],
         "entry_id": 117254,
+        "entry_max_ranks": 1,
         "definition_id": 122266,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lessons in Debilitation",
         "spell_id": 449627,
+        "visible_spell_id": null,
         "icon": "ability_paladin_handoflight"
       },
       "pve_tooltip": "Your Arcane Phoenix has picked up a few tricks, and will Spellsteal when it is summoned and when it expires.",
@@ -8977,11 +9346,13 @@ window.WOW_PVP_DATA = {
           94648
         ],
         "entry_id": 134249,
+        "entry_max_ranks": 1,
         "definition_id": 139025,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Explosive Potential",
         "spell_id": 1246030,
+        "visible_spell_id": null,
         "icon": "6bf_explosive_shard"
       },
       "pve_tooltip": "After casting Arcane Surge, your next Blink will cause a Blast Wave at your previous location, dealing (54.3375% of Spell Power) Fire damage, knocking enemies back 8 yds, and slowing them by 70% for 6 sec.",
@@ -9121,11 +9492,13 @@ window.WOW_PVP_DATA = {
           109673
         ],
         "entry_id": 135925,
+        "entry_max_ranks": 1,
         "definition_id": 140680,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Pyrocosm",
         "spell_id": 1260673,
+        "visible_spell_id": null,
         "icon": "spell_fire_meteorstorm"
       },
       "pve_tooltip": "Each wave of Arcane Missiles has a 10% chance to summon a Meteorite.\nWhen a Meteorite lands, you have a 5% chance to gain Clearcasting.",
@@ -9176,11 +9549,13 @@ window.WOW_PVP_DATA = {
           94646
         ],
         "entry_id": 117253,
+        "entry_max_ranks": 1,
         "definition_id": 122265,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Savor the Moment",
         "spell_id": 449412,
+        "visible_spell_id": null,
         "icon": "spell_fire_masterofelements"
       },
       "pve_tooltip": "When you cast Arcane Surge, its duration is extended by 0.8 sec for each Spellfire Sphere you have, up to 2.4 sec.",
@@ -9231,11 +9606,13 @@ window.WOW_PVP_DATA = {
           94646
         ],
         "entry_id": 123867,
+        "entry_max_ranks": 1,
         "definition_id": 128705,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Sunfury Execution",
         "spell_id": 449349,
+        "visible_spell_id": null,
         "icon": "spell_shadow_shadowandflame"
       },
       "pve_tooltip": "Arcane Barrage deals 5% increased damage to enemies affected by your Touch of the Magi.",
@@ -9286,11 +9663,13 @@ window.WOW_PVP_DATA = {
           94646
         ],
         "entry_id": 117246,
+        "entry_max_ranks": 1,
         "definition_id": 122258,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ashes of Inspiration",
         "spell_id": 1260272,
+        "visible_spell_id": null,
         "icon": "inv_misc_powder_copper"
       },
       "pve_tooltip": "Each time your Phoenix casts a spell, gain 1 stack of Mana Cascade.\nExceptional spells grant 1 additional stack.",
@@ -9341,11 +9720,13 @@ window.WOW_PVP_DATA = {
           94646
         ],
         "entry_id": 117251,
+        "entry_max_ranks": 1,
         "definition_id": 122263,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Rondurmancy",
         "spell_id": 449596,
+        "visible_spell_id": null,
         "icon": "spell_arcane_focusedpower"
       },
       "pve_tooltip": "Your chance to generate a Spellfire Sphere is increased by 6%.\nSpellfire Spheres grant an additional 1% spell damage.",
@@ -9396,11 +9777,13 @@ window.WOW_PVP_DATA = {
           94646
         ],
         "entry_id": 135924,
+        "entry_max_ranks": 1,
         "definition_id": 140679,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Spellfire Salvo",
         "spell_id": 1260616,
+        "visible_spell_id": null,
         "icon": "shaman_talent_elementalblast"
       },
       "pve_tooltip": "Arcane Salvo can stack 5 additional times.\nMeteorite damage increased by 15%.",
@@ -9452,11 +9835,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 117249,
+        "entry_max_ranks": 1,
         "definition_id": 122261,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Memory of Al'ar",
         "spell_id": 449619,
+        "visible_spell_id": null,
         "icon": "inv_ability_sunfurymage_spellfirespheres"
       },
       "pve_tooltip": "When your Arcane Phoenix expires it empowers you, granting Arcane Soul for 4.0 sec.\nArcane Soul:\nArcane Barrage grants Clearcasting and generates 4 Arcane Charges.\nEach cast of Arcane Barrage grants 5 stacks of Arcane Salvo and casting Arcane Barrage does not consume Arcane Salvo.",
@@ -9472,6 +9857,282 @@ window.WOW_PVP_DATA = {
     }
   ],
   "fetch_errors": [],
+  "serialization": {
+    "version": 2,
+    "spec_id": 62,
+    "node_order": [
+      62084,
+      62085,
+      62086,
+      62087,
+      62088,
+      62091,
+      62092,
+      62094,
+      62096,
+      62098,
+      62100,
+      62102,
+      62104,
+      62105,
+      62107,
+      62110,
+      62112,
+      62114,
+      62115,
+      62116,
+      62117,
+      62119,
+      62121,
+      62122,
+      62123,
+      62124,
+      62125,
+      62127,
+      62129,
+      62150,
+      62151,
+      62153,
+      62157,
+      62163,
+      62164,
+      62170,
+      62173,
+      62174,
+      62176,
+      62177,
+      62178,
+      62179,
+      62180,
+      62181,
+      62182,
+      62184,
+      62185,
+      81468,
+      93524,
+      94632,
+      94633,
+      94634,
+      94635,
+      94636,
+      94637,
+      94638,
+      94639,
+      94640,
+      94641,
+      94642,
+      94643,
+      94644,
+      94645,
+      94646,
+      94647,
+      94648,
+      94649,
+      94650,
+      94651,
+      94652,
+      94653,
+      94654,
+      94655,
+      94656,
+      94657,
+      94658,
+      94659,
+      94660,
+      94661,
+      94662,
+      94663,
+      94664,
+      99828,
+      99829,
+      99830,
+      100989,
+      100995,
+      100998,
+      100999,
+      101004,
+      101007,
+      101009,
+      101015,
+      101016,
+      101019,
+      101021,
+      101024,
+      101027,
+      101029,
+      101883,
+      102438,
+      102439,
+      102440,
+      102441,
+      102445,
+      102446,
+      102449,
+      102451,
+      102453,
+      102454,
+      102460,
+      102462,
+      102465,
+      102467,
+      102468,
+      102469,
+      102470,
+      102471,
+      102472,
+      102474,
+      102475,
+      102476,
+      102480,
+      103771,
+      104113,
+      108535,
+      108536,
+      108537,
+      108538,
+      108539,
+      108541,
+      108551,
+      108653,
+      108654,
+      108655,
+      108656,
+      108657,
+      108658,
+      108659,
+      108660,
+      108661,
+      108662,
+      108664,
+      108665,
+      108849,
+      108850,
+      108851,
+      108852,
+      108853,
+      108855,
+      108857,
+      108858,
+      108859,
+      108860,
+      108863,
+      108864,
+      109002,
+      109393,
+      109394,
+      109395,
+      109396,
+      109397,
+      109398,
+      109399,
+      109400,
+      109401,
+      109402,
+      109403,
+      109404,
+      109406,
+      109407,
+      109408,
+      109409,
+      109411,
+      109412,
+      109478,
+      109667,
+      109668,
+      109669,
+      109670,
+      109671,
+      109672,
+      109673,
+      109674,
+      109675,
+      109915,
+      109916,
+      109956,
+      110078,
+      110079,
+      110080,
+      110081,
+      110082,
+      110086,
+      110087,
+      110088,
+      110089,
+      110258,
+      110283,
+      110321,
+      110322,
+      110420,
+      110422,
+      110423,
+      110442,
+      110597,
+      110849,
+      110850
+    ],
+    "subtree_nodes": [
+      {
+        "id": 99830,
+        "name": "Spellslinger / Sunfury",
+        "type": "subtree",
+        "posX": 6900,
+        "posY": 1500,
+        "entryNode": true,
+        "next": [],
+        "prev": [],
+        "entries": [
+          {
+            "id": 123344,
+            "type": "subtree",
+            "name": "Spellslinger",
+            "traitSubTreeId": 40,
+            "traitTreeId": 658,
+            "atlasMemberName": "talents-heroclass-mage-spellslinger",
+            "nodes": [
+              94664,
+              94662,
+              94663,
+              94661,
+              109669,
+              94659,
+              94656,
+              94660,
+              109668,
+              94658,
+              94657,
+              94655,
+              109667,
+              94654
+            ]
+          },
+          {
+            "id": 123341,
+            "type": "subtree",
+            "name": "Sunfury",
+            "traitSubTreeId": 39,
+            "traitTreeId": 658,
+            "atlasMemberName": "talents-heroclass-mage-sunfury",
+            "nodes": [
+              94647,
+              94653,
+              94652,
+              94644,
+              109675,
+              94649,
+              94645,
+              94651,
+              109674,
+              94650,
+              94643,
+              94648,
+              109673,
+              94646
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "source_warnings": [
     {
       "spell_id": 448604,
@@ -9504,10 +10165,10 @@ window.WOW_PVP_DATA = {
     }
   ],
   "slug": "mage-arcane",
-  "generated_at": "2026-09-21T12:51:13.159670+00:00",
+  "generated_at": "2026-09-21T19:39:40.957147+00:00",
   "validation": {
     "talents": 128,
-    "changed_tooltips": 17,
+    "changed_tooltips": 20,
     "talents_with_pvp_mechanics": 31,
     "unique_nodes": 109,
     "tree_build": "12.1.0.69875",

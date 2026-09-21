@@ -43,11 +43,13 @@
           103610
         ],
         "entry_id": 127861,
+        "entry_max_ranks": 1,
         "definition_id": 132670,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Chain Heal",
         "spell_id": 1064,
+        "visible_spell_id": null,
         "icon": "inv_1115_shaman_chainheal"
       },
       "pve_tooltip": "15% of base mana\n40 yd range\n2 sec cast\nHeals the friendly target for (231% of Spell Power), then jumps up to 20 yards to heal the 3 most injured nearby allies. Healing is reduced by 30% with each jump.",
@@ -145,11 +147,13 @@
           103581
         ],
         "entry_id": 135593,
+        "entry_max_ranks": 1,
         "definition_id": 140349,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Lava Lash",
         "spell_id": 60103,
+        "visible_spell_id": null,
         "icon": "ability_shaman_lavalash"
       },
       "pve_tooltip": "0.16% of base mana\nMelee Range\nInstant\n18 sec cooldown\nCharges your off-hand weapon with lava and burns your target, dealing (238.717% of Attack Power) Fire damage.\nDamage is increased by 100% if your offhand weapon is imbued with Flametongue Weapon. [Molten Assault: Lava Lash will spread Flame Shock from your target to 0 nearby targets] [Lashing Flames: Lava Lash increases the damage of Flame Shock on its target by 100% for 20 sec]",
@@ -256,11 +260,13 @@
           109492
         ],
         "entry_id": 127856,
+        "entry_max_ranks": 1,
         "definition_id": 132665,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Chain Lightning",
         "spell_id": 188443,
+        "visible_spell_id": null,
         "icon": "spell_nature_chainlightning"
       },
       "pve_tooltip": "0.2% of base mana\n40 yd range\n2 sec cast\nHurls a lightning bolt at the enemy, dealing (116.4% of Spell Power) Nature damage and then jumping to additional nearby enemies. Affects 3 total targets\nConsumes Maelstrom Weapon for increased cast speed.",
@@ -376,15 +382,17 @@
           103591
         ],
         "entry_id": 127871,
+        "entry_max_ranks": 1,
         "definition_id": 132680,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Earth Shield",
         "spell_id": 974,
+        "visible_spell_id": null,
         "icon": "spell_nature_skinofearth"
       },
-      "pve_tooltip": "5% of base mana\n40 yd range\nInstant\nProtects the target with an earthen shield, increasing your healing on them by 20% and healing them for [(73% of Spell Power) * (1.2)] when they take damage. This heal can only occur once every 3 sec. Maximum 9 charges.\n[Elemental Orbit: Earth Shield can only be placed on the Shaman and one other target at a time. The Shaman can have up to two Elemental Shields active on them / Earth Shield can only be placed on one target at a time. Only one Elemental Shield can be active on the Shaman.]\n(3s cooldown)",
-      "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\nProtects the target with an earthen shield, increasing your healing on them by 20% and healing them for [(38.471% of Spell Power) * (1.2)] when they take damage. This heal can only occur once every 3 sec. Maximum 9 charges.\n[Elemental Orbit: Earth Shield can only be placed on the Shaman and one other target at a time. The Shaman can have up to two Elemental Shields active on them / Earth Shield can only be placed on one target at a time. Only one Elemental Shield can be active on the Shaman.]\n(3s cooldown)",
+      "pve_tooltip": "5% of base mana\n40 yd range\nInstant\nProtects the target with an earthen shield, increasing your healing on them by 20% and healing them for [(73% of Spell Power) * 1.2] when they take damage. This heal can only occur once every 3 sec. Maximum 9 charges.\n[Elemental Orbit: Earth Shield can only be placed on the Shaman and one other target at a time. The Shaman can have up to two Elemental Shields active on them / Earth Shield can only be placed on one target at a time. Only one Elemental Shield can be active on the Shaman.]\n(3s cooldown)",
+      "pvp_tooltip": "5% of base mana\n40 yd range\nInstant\nProtects the target with an earthen shield, increasing your healing on them by 20% and healing them for [(38.471% of Spell Power) * 1.2] when they take damage. This heal can only occur once every 3 sec. Maximum 9 charges.\n[Elemental Orbit: Earth Shield can only be placed on the Shaman and one other target at a time. The Shaman can have up to two Elemental Shields active on them / Earth Shield can only be placed on one target at a time. Only one Elemental Shield can be active on the Shaman.]\n(3s cooldown)",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
@@ -495,11 +503,13 @@
           103616
         ],
         "entry_id": 127886,
+        "entry_max_ranks": 1,
         "definition_id": 132695,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ancestral Wolf Affinity",
         "spell_id": 382197,
+        "visible_spell_id": null,
         "icon": "spell_beastmaster_wolf"
       },
       "pve_tooltip": "Cleanse Spirit, Wind Shear, Purge, and totem casts no longer cancel Ghost Wolf.",
@@ -550,12 +560,14 @@
           103616
         ],
         "entry_id": 127880,
+        "entry_max_ranks": 1,
         "definition_id": 132689,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fire and Ice",
         "spell_id": 382886,
-        "icon": "spell_firefrost_orb"
+        "visible_spell_id": null,
+        "icon": "spell_firefrost-orb"
       },
       "pve_tooltip": "Increases all Fire and Frost damage you deal by 3%.",
       "pvp_tooltip": "Increases all Fire and Frost damage you deal by 3%.",
@@ -607,11 +619,13 @@
           103613
         ],
         "entry_id": 127854,
+        "entry_max_ranks": 1,
         "definition_id": 132663,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Spirit Wolf",
         "spell_id": 260878,
+        "visible_spell_id": null,
         "icon": "spell_hunter_lonewolf"
       },
       "pve_tooltip": "While transformed into a Ghost Wolf, you gain 5% increased movement speed and 5% damage reduction every 1 sec, stacking up to 4 times.",
@@ -664,11 +678,13 @@
           103613
         ],
         "entry_id": 127853,
+        "entry_max_ranks": 1,
         "definition_id": 132662,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Thunderous Paws",
         "spell_id": 378075,
+        "visible_spell_id": null,
         "icon": "ability_hunter_longevity"
       },
       "pve_tooltip": "Ghost Wolf removes snares and increases your movement speed by an additional 25% for the first 3 sec. May only occur once every 20 sec.\n(20s cooldown)",
@@ -720,11 +736,13 @@
           109493
         ],
         "entry_id": 135718,
+        "entry_max_ranks": 1,
         "definition_id": 140473,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Frost Shock",
         "spell_id": 196840,
+        "visible_spell_id": null,
         "icon": "spell_frost_frostshock"
       },
       "pve_tooltip": "0.2% of base mana\n40 yd range\nInstant\nChills the target with frost, causing (72.45% of Spell Power) Frost damage and reducing the target's movement speed by 50% for 6 sec.",
@@ -839,11 +857,13 @@
           103590
         ],
         "entry_id": 127877,
+        "entry_max_ranks": 1,
         "definition_id": 132686,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Elemental Orbit",
         "spell_id": 383010,
+        "visible_spell_id": null,
         "icon": "ability_mage_shattershield"
       },
       "pve_tooltip": "Increases the number of Elemental Shields you can have active on yourself by 1.\nYou can have Earth Shield on yourself and one ally at the same time.",
@@ -896,11 +916,13 @@
           103614
         ],
         "entry_id": 127865,
+        "entry_max_ranks": 1,
         "definition_id": 132674,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Spirit Walk",
         "spell_id": 58875,
+        "visible_spell_id": null,
         "icon": "ability_tracking"
       },
       "pve_tooltip": "Instant\n1 min cooldown\nRemoves all movement impairing effects and increases your movement speed by 60% for 8 sec.",
@@ -953,11 +975,13 @@
           103614
         ],
         "entry_id": 127864,
+        "entry_max_ranks": 1,
         "definition_id": 132673,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Gust of Wind",
         "spell_id": 192063,
+        "visible_spell_id": null,
         "icon": "inv_misc_volatileair"
       },
       "pve_tooltip": "Instant\n20 sec cooldown\nA gust of wind hurls you forward.",
@@ -1012,11 +1036,13 @@
           103582
         ],
         "entry_id": 127893,
+        "entry_max_ranks": 1,
         "definition_id": 132702,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Astral Shift",
         "spell_id": 108271,
+        "visible_spell_id": null,
         "icon": "ability_shaman_astralshift"
       },
       "pve_tooltip": "Instant\n2 min cooldown\nShift partially into the elemental planes, taking 40% less damage for 12 sec.",
@@ -1069,11 +1095,13 @@
           103615
         ],
         "entry_id": 127890,
+        "entry_max_ranks": 1,
         "definition_id": 132699,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Nature's Guardian",
         "spell_id": 30884,
+        "visible_spell_id": null,
         "icon": "spell_nature_natureguardian"
       },
       "pve_tooltip": "When your health is brought below 35%, you instantly heal for 40% of your maximum health. Cannot occur more than once every 45 sec.",
@@ -1124,11 +1152,13 @@
           103615
         ],
         "entry_id": 135719,
+        "entry_max_ranks": 1,
         "definition_id": 140474,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Encasing Cold",
         "spell_id": 462762,
+        "visible_spell_id": null,
         "icon": "ability_mage_coldasice"
       },
       "pve_tooltip": "Increases the cooldown of Frost Shock by 15 sec, but Frost Shock now freezes targets in place for 4 sec.",
@@ -1179,11 +1209,13 @@
           103615
         ],
         "entry_id": 135717,
+        "entry_max_ranks": 1,
         "definition_id": 140472,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Arctic Snowstorm",
         "spell_id": 462764,
+        "visible_spell_id": null,
         "icon": "spell_frost_glacier"
       },
       "pve_tooltip": "Enemies within 10 yds of your Frost Shock are snared by 30%.",
@@ -1288,11 +1320,13 @@
           103622
         ],
         "entry_id": 127863,
+        "entry_max_ranks": 1,
         "definition_id": 132672,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Healing Stream Totem",
         "spell_id": 392915,
+        "visible_spell_id": 5394,
         "icon": "inv_spear_04"
       },
       "pve_tooltip": "1.8% of base mana / 5.0% of base mana / 5.0% of base mana / 5.0% of base mana\nInstant\n30 sec recharge\nSummons a totem at your feet for 15 sec that heals [Rushing Streams: two injured party or raid members / an injured party or raid member] within 40 yards for (67.68% of Spell Power) every 2 sec.\nIf you already know Healing Stream Totem, instead gain 1 additional charge of Healing Stream Totem.",
@@ -1301,8 +1335,41 @@
       "render_status": "UNCHANGED",
       "changes": [],
       "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "DISPLAY_OVERRIDE",
+          "talent_spell_id": 392915,
+          "source_spell_id": 52042,
+          "effect_index": 1,
+          "effect_text": "Heal (SP mod: 0.6768)",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.15,
+          "amount_kind": "direct",
+          "aura_factor": 1.0,
+          "final_pvp_multiplier": 1.15,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            392915,
+            5394,
+            52042
+          ],
+          "dependency_relations": [
+            "tooltip_override",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [],
+          "sources": [
+            "wowhead",
+            "drustvar",
+            "simc"
+          ],
+          "source_notes": [],
+          "confidence": "high"
+        }
+      ],
       "render_effect_count": 0,
       "rank_tooltips": []
     },
@@ -1345,11 +1412,13 @@
           103579
         ],
         "entry_id": 127891,
+        "entry_max_ranks": 2,
         "definition_id": 132700,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Winds of Al'Akir",
         "spell_id": 382215,
+        "visible_spell_id": null,
         "icon": "ability_druid_galewinds"
       },
       "pve_tooltip": "Increases your movement speed by 6% and the movement speed bonus of Ghost Wolf by an additional 10%.",
@@ -1367,6 +1436,7 @@
           "pve_tooltip": "Increases your movement speed by 3% and the movement speed bonus of Ghost Wolf by an additional 5%.",
           "pvp_tooltip": "Increases your movement speed by 3% and the movement speed bonus of Ghost Wolf by an additional 5%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -1375,6 +1445,7 @@
           "pve_tooltip": "Increases your movement speed by 6% and the movement speed bonus of Ghost Wolf by an additional 10%.",
           "pvp_tooltip": "Increases your movement speed by 6% and the movement speed bonus of Ghost Wolf by an additional 10%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -1418,11 +1489,13 @@
           110085
         ],
         "entry_id": 127888,
+        "entry_max_ranks": 1,
         "definition_id": 132697,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Planes Traveler",
         "spell_id": 381647,
+        "visible_spell_id": null,
         "icon": "spell_shaman_astralshift"
       },
       "pve_tooltip": "Reduces the cooldown of Astral Shift by 30 sec.",
@@ -1474,11 +1547,13 @@
           110085
         ],
         "entry_id": 127887,
+        "entry_max_ranks": 1,
         "definition_id": 132696,
         "entry_index": 300,
         "entry_type": "passive",
         "talent_name": "Astral Bulwark",
         "spell_id": 377933,
+        "visible_spell_id": null,
         "icon": "spell_shaman_ancestralawakening"
       },
       "pve_tooltip": "Astral Shift reduces damage taken by an additional 20%.",
@@ -1531,11 +1606,13 @@
           103606
         ],
         "entry_id": 127855,
+        "entry_max_ranks": 2,
         "definition_id": 132664,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Brimming with Life",
         "spell_id": 381689,
+        "visible_spell_id": null,
         "icon": "inv_jewelry_talisman_06"
       },
       "pve_tooltip": "Stamina increased by 15%.\nWhile you are at full health, Reincarnation cools down 100% faster.",
@@ -1553,6 +1630,7 @@
           "pve_tooltip": "Stamina increased by 8%.\nWhile you are at full health, Reincarnation cools down 50% faster.",
           "pvp_tooltip": "Stamina increased by 8%.\nWhile you are at full health, Reincarnation cools down 50% faster.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -1561,6 +1639,7 @@
           "pve_tooltip": "Stamina increased by 15%.\nWhile you are at full health, Reincarnation cools down 100% faster.",
           "pvp_tooltip": "Stamina increased by 15%.\nWhile you are at full health, Reincarnation cools down 100% faster.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -1605,11 +1684,13 @@
           103628
         ],
         "entry_id": 127892,
+        "entry_max_ranks": 1,
         "definition_id": 132701,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Wind Shear",
         "spell_id": 57994,
+        "visible_spell_id": null,
         "icon": "spell_nature_cyclone"
       },
       "pve_tooltip": "30 yd range\nInstant\n12 sec cooldown\nDisrupts the target's concentration with a burst of wind, interrupting spellcasting and preventing any spell in that school from being cast for 4 sec.",
@@ -1660,11 +1741,13 @@
           103594
         ],
         "entry_id": 127876,
+        "entry_max_ranks": 1,
         "definition_id": 132685,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Elemental Resistance",
         "spell_id": 462368,
+        "visible_spell_id": null,
         "icon": "spell_fireresistancetotem_01"
       },
       "pve_tooltip": "Healing from Healing Stream Totem reduces Fire, Frost, and Nature damage taken by 6% for 3 sec.",
@@ -1717,11 +1800,13 @@
           103608
         ],
         "entry_id": 127902,
+        "entry_max_ranks": 1,
         "definition_id": 132711,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Earthgrab Totem",
         "spell_id": 51485,
+        "visible_spell_id": null,
         "icon": "spell_nature_stranglevines"
       },
       "pve_tooltip": "0.5% of base mana\n35 yd range\nInstant\n30 sec cooldown\nSummons a totem at the target location for 20 sec. The totem pulses every 2 sec, rooting all enemies within 8 yards for 8 sec. Enemies previously rooted by the totem instead suffer 50% movement speed reduction.",
@@ -1827,11 +1912,13 @@
           103627
         ],
         "entry_id": 127851,
+        "entry_max_ranks": 1,
         "definition_id": 132660,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Capacitor Totem",
         "spell_id": 192058,
+        "visible_spell_id": null,
         "icon": "spell_nature_brilliance"
       },
       "pve_tooltip": "2% of base mana\n40 yd range\nInstant\n1 min cooldown\nSummons a totem at the target location that gathers electrical energy from the surrounding air and explodes after 2 sec, stunning all enemies within 8 yards for 3 sec.",
@@ -1884,11 +1971,13 @@
           103585
         ],
         "entry_id": 136585,
+        "entry_max_ranks": 1,
         "definition_id": 141358,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Spiritual Awakening",
         "spell_id": 1270375,
+        "visible_spell_id": null,
         "icon": "spell_shaman_blessingoftheeternals"
       },
       "pve_tooltip": "Mastery increased by 3%.",
@@ -1940,11 +2029,13 @@
           103585
         ],
         "entry_id": 127881,
+        "entry_max_ranks": 1,
         "definition_id": 132690,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Enhanced Imbues",
         "spell_id": 462796,
+        "visible_spell_id": null,
         "icon": "spell_nature_rockbiter"
       },
       "pve_tooltip": "The effects of your weapon imbues are increased by 15%.",
@@ -1995,11 +2086,13 @@
           103623
         ],
         "entry_id": 127910,
+        "entry_max_ranks": 1,
         "definition_id": 132719,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Windveil",
         "spell_id": 355630,
+        "visible_spell_id": null,
         "icon": "inv_elemental_primal_air"
       },
       "pve_tooltip": "Interrupting a spell with Wind Shear reduces all spell damage taken by 15% for 12 sec.",
@@ -2052,11 +2145,13 @@
           103584
         ],
         "entry_id": 127869,
+        "entry_max_ranks": 1,
         "definition_id": 132678,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Refreshing Waters",
         "spell_id": 378211,
+        "visible_spell_id": null,
         "icon": "ability_shaman_fortifyingwaters"
       },
       "pve_tooltip": "Your Healing Surge is 25% more effective on yourself.",
@@ -2109,11 +2204,13 @@
           103617
         ],
         "entry_id": 127884,
+        "entry_max_ranks": 1,
         "definition_id": 132693,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Cleanse Spirit",
         "spell_id": 51886,
+        "visible_spell_id": null,
         "icon": "ability_shaman_cleansespirit"
       },
       "pve_tooltip": "10% of base mana\n40 yd range\nInstant\n8 sec cooldown\nRemoves all Curse effects from a friendly target.",
@@ -2164,11 +2261,13 @@
           103617
         ],
         "entry_id": 127896,
+        "entry_max_ranks": 2,
         "definition_id": 132705,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Static Charge",
         "spell_id": 265046,
+        "visible_spell_id": null,
         "icon": "spell_nature_brilliance"
       },
       "pve_tooltip": "Reduces the cooldown of Capacitor Totem by 20 sec.",
@@ -2186,6 +2285,7 @@
           "pve_tooltip": "Reduces the cooldown of Capacitor Totem by 10 sec.",
           "pvp_tooltip": "Reduces the cooldown of Capacitor Totem by 10 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2194,6 +2294,7 @@
           "pve_tooltip": "Reduces the cooldown of Capacitor Totem by 20 sec.",
           "pvp_tooltip": "Reduces the cooldown of Capacitor Totem by 20 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2238,11 +2339,13 @@
           103607
         ],
         "entry_id": 127909,
+        "entry_max_ranks": 1,
         "definition_id": 132718,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Wind Rush Totem",
         "spell_id": 192077,
+        "visible_spell_id": null,
         "icon": "ability_shaman_windwalktotem"
       },
       "pve_tooltip": "1% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummons a totem at the target location for 15 sec, continually granting all allies who pass within 10 yards 40% increased movement speed for 5 sec.",
@@ -2295,11 +2398,13 @@
           103623
         ],
         "entry_id": 127858,
+        "entry_max_ranks": 1,
         "definition_id": 132667,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Earth Elemental",
         "spell_id": 198103,
+        "visible_spell_id": null,
         "icon": "spell_nature_earthelemental_totem"
       },
       "pve_tooltip": "40 yd range\nInstant\n3 min cooldown\nCalls forth a Greater Earth Elemental to protect you and your allies, generating high threat and taunting enemies periodically for 30 sec.",
@@ -2352,11 +2457,13 @@
           109386
         ],
         "entry_id": 127905,
+        "entry_max_ranks": 1,
         "definition_id": 132714,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Purge",
         "spell_id": 370,
+        "visible_spell_id": null,
         "icon": "spell_nature_purge"
       },
       "pve_tooltip": "14% of base mana\n30 yd range\nInstant\nPurges the enemy target, removing 1 beneficial Magic effect.[Successfully purging a target grants a stack of Maelstrom Weapon.]",
@@ -2409,11 +2516,13 @@
           109386
         ],
         "entry_id": 127904,
+        "entry_max_ranks": 1,
         "definition_id": 132713,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Greater Purge",
         "spell_id": 378773,
+        "visible_spell_id": null,
         "icon": "spell_shaman_focusedstrikes"
       },
       "pve_tooltip": "21% of base mana\n30 yd range\nInstant\n12 sec cooldown\nPurges the enemy target, removing 2 beneficial Magic effects.",
@@ -2467,11 +2576,13 @@
           103586
         ],
         "entry_id": 127894,
+        "entry_max_ranks": 2,
         "definition_id": 132703,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Nature's Fury",
         "spell_id": 381655,
+        "visible_spell_id": null,
         "icon": "spell_nature_spiritarmor"
       },
       "pve_tooltip": "Increases the critical strike chance of your Nature spells and abilities by 4%.",
@@ -2489,6 +2600,7 @@
           "pve_tooltip": "Increases the critical strike chance of your Nature spells and abilities by 2%.",
           "pvp_tooltip": "Increases the critical strike chance of your Nature spells and abilities by 2%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2497,6 +2609,7 @@
           "pve_tooltip": "Increases the critical strike chance of your Nature spells and abilities by 4%.",
           "pvp_tooltip": "Increases the critical strike chance of your Nature spells and abilities by 4%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2540,11 +2653,13 @@
           103625
         ],
         "entry_id": 127883,
+        "entry_max_ranks": 1,
         "definition_id": 132692,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ascending Air",
         "spell_id": 462791,
+        "visible_spell_id": null,
         "icon": "achievement_raidprimalist_windelemental"
       },
       "pve_tooltip": "Wind Rush Totem's cooldown is reduced by 30 sec and its movement speed effect lasts an additional 2 sec.",
@@ -2596,11 +2711,13 @@
           103625
         ],
         "entry_id": 127882,
+        "entry_max_ranks": 1,
         "definition_id": 132691,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Jet Stream",
         "spell_id": 462817,
+        "visible_spell_id": null,
         "icon": "inv_elemental_primal_air"
       },
       "pve_tooltip": "Wind Rush Totem's movement speed bonus is increased by 10% and now removes snares.",
@@ -2651,11 +2768,13 @@
           103625
         ],
         "entry_id": 127889,
+        "entry_max_ranks": 1,
         "definition_id": 132698,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Primordial Bond",
         "spell_id": 1279819,
+        "visible_spell_id": null,
         "icon": "inv_elemental_primal_earth"
       },
       "pve_tooltip": "Your Earth Elemental no longer taunts nearby enemies or generates threat and instead increases your maximum health by 15% while active.",
@@ -2708,11 +2827,13 @@
           103600
         ],
         "entry_id": 127903,
+        "entry_max_ranks": 1,
         "definition_id": 132712,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Hex",
         "spell_id": 51514,
+        "visible_spell_id": null,
         "icon": "spell_shaman_hex"
       },
       "pve_tooltip": "30 yd range\n1.7 sec cast\n30 sec cooldown\nTransforms the enemy into a frog for 1 min. While hexed, the victim is incapacitated, and cannot attack or cast spells. Damage may cancel the effect. Limit 1. Only works on Humanoids and Beasts.",
@@ -2764,11 +2885,13 @@
           103626
         ],
         "entry_id": 127857,
+        "entry_max_ranks": 1,
         "definition_id": 132666,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Spiritwalker's Grace",
         "spell_id": 79206,
+        "visible_spell_id": null,
         "icon": "spell_shaman_spiritwalkersgrace"
       },
       "pve_tooltip": "2.82% of base mana\nInstant\n6 sec cooldown\nCalls upon the guidance of the spirits for 15 sec, permitting movement while casting Shaman spells. Castable while casting.",
@@ -2820,11 +2943,13 @@
           103587
         ],
         "entry_id": 135590,
+        "entry_max_ranks": 1,
         "definition_id": 140346,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Totemic Projection",
         "spell_id": 108287,
+        "visible_spell_id": null,
         "icon": "ability_shaman_totemrelocation"
       },
       "pve_tooltip": "40 yd range\nInstant\n10 sec cooldown\nRelocates your active totems to the specified location.",
@@ -2878,11 +3003,13 @@
           103593
         ],
         "entry_id": 127859,
+        "entry_max_ranks": 1,
         "definition_id": 132668,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Elemental Warding",
         "spell_id": 381650,
+        "visible_spell_id": null,
         "icon": "inv_10_elementalcombinedfoozles_primordial"
       },
       "pve_tooltip": "Reduces all magic damage taken by 8%.",
@@ -2936,11 +3063,13 @@
           109387
         ],
         "entry_id": 127906,
+        "entry_max_ranks": 1,
         "definition_id": 132715,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Totemic Focus",
         "spell_id": 382201,
+        "visible_spell_id": null,
         "icon": "inv_relics_totemofrebirth"
       },
       "pve_tooltip": "Increases the radius of your totem effects by 15%.\nIncreases the duration of your Earthbind and Earthgrab Totems by 10 sec.\nIncreases the duration of your Healing Stream, Tremor, Poison Cleansing, and Wind Rush Totems by 3.0 sec.",
@@ -2991,11 +3120,13 @@
           103620
         ],
         "entry_id": 127908,
+        "entry_max_ranks": 1,
         "definition_id": 132717,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Graceful Spirit",
         "spell_id": 192088,
+        "visible_spell_id": null,
         "icon": "spell_shaman_spectraltransformation"
       },
       "pve_tooltip": "Reduces the cooldown of Spiritwalker's Grace by 30 sec and increases your movement speed by 20% while it is active.",
@@ -3046,11 +3177,13 @@
           103620
         ],
         "entry_id": 127907,
+        "entry_max_ranks": 1,
         "definition_id": 132716,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Spiritwalker's Aegis",
         "spell_id": 378077,
+        "visible_spell_id": null,
         "icon": "ability_racial_forceshield"
       },
       "pve_tooltip": "When you cast Spiritwalker's Grace, you become immune to Silence and Interrupt effects for 5 sec.",
@@ -3103,11 +3236,13 @@
           109388
         ],
         "entry_id": 127860,
+        "entry_max_ranks": 1,
         "definition_id": 132669,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Mana Spring",
         "spell_id": 381930,
+        "visible_spell_id": null,
         "icon": "spell_nature_manaregentotem"
       },
       "pve_tooltip": "Level 90\nYour Lava BurstStormstrike casts restore 225 mana to you and 4 allies nearest to you within 40 yards.\nAllies can only benefit from one Shaman's Mana Spring effect at a time, prioritizing healers.",
@@ -3158,11 +3293,13 @@
           109388
         ],
         "entry_id": 127874,
+        "entry_max_ranks": 1,
         "definition_id": 132683,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Tremor Totem",
         "spell_id": 8143,
+        "visible_spell_id": null,
         "icon": "spell_nature_tremortotem"
       },
       "pve_tooltip": "0.46% of base mana\nInstant\n1 min cooldown\nSummons a totem at your feet that shakes the ground around it for 10 sec, removing Fear, Charm and Sleep effects from party and raid members within 30 yards.",
@@ -3213,11 +3350,13 @@
           109388
         ],
         "entry_id": 136567,
+        "entry_max_ranks": 1,
         "definition_id": 141340,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Poison Cleansing Totem",
         "spell_id": 383013,
+        "visible_spell_id": null,
         "icon": "spell_nature_poisoncleansingtotem"
       },
       "pve_tooltip": "0.5% of base mana\n40 yd range\nInstant\n2 min cooldown\nSummons a totem at your feet that removes all Poison effects from a nearby party or raid member within 30 yards every 1.5 sec for 6 sec.",
@@ -3270,11 +3409,13 @@
           109387
         ],
         "entry_id": 127868,
+        "entry_max_ranks": 1,
         "definition_id": 132677,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Therazane's Resilience",
         "spell_id": 1217622,
+        "visible_spell_id": null,
         "icon": "shaman_pvp_rockshield"
       },
       "pve_tooltip": "Earth Shield no longer loses charges and is 115% effective.",
@@ -3327,11 +3468,13 @@
           109387
         ],
         "entry_id": 136584,
+        "entry_max_ranks": 1,
         "definition_id": 141357,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Reactive Warding",
         "spell_id": 462454,
+        "visible_spell_id": null,
         "icon": "inv_10_elementalcombinedfoozles_water"
       },
       "pve_tooltip": "Level 90\nWhen refreshing Earth Shield, your target is healed for (273.33% of Spell Power) for each stack of Earth Shield they are missing.\nAdditionally, Earth Shield can consume charges 1.0 sec faster.",
@@ -3382,11 +3525,13 @@
           109387
         ],
         "entry_id": 127875,
+        "entry_max_ranks": 1,
         "definition_id": 132684,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Voodoo Mastery",
         "spell_id": 204268,
+        "visible_spell_id": null,
         "icon": "spell_shaman_hex"
       },
       "pve_tooltip": "Your Hex target is slowed by 70% during Hex and for 6 sec after it ends.\nReduces the cooldown of Hex by 15 sec.",
@@ -3488,11 +3633,13 @@
         ],
         "next": [],
         "entry_id": 127899,
+        "entry_max_ranks": 1,
         "definition_id": 132708,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Nature's Swiftness",
         "spell_id": 378081,
+        "visible_spell_id": null,
         "icon": "spell_nature_ravenform"
       },
       "pve_tooltip": "Instant\n1 min cooldown\nYour next healing or damaging Nature spell is instant cast and costs no mana.",
@@ -3543,11 +3690,13 @@
         ],
         "next": [],
         "entry_id": 135592,
+        "entry_max_ranks": 1,
         "definition_id": 140348,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Totemic Surge",
         "spell_id": 381867,
+        "visible_spell_id": null,
         "icon": "spell_nature_agitatingtotem"
       },
       "pve_tooltip": "Reduces the cooldown of most totems by 5 sec.",
@@ -3598,11 +3747,13 @@
         ],
         "next": [],
         "entry_id": 135591,
+        "entry_max_ranks": 1,
         "definition_id": 140347,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Instinctive Imbuements",
         "spell_id": 1270350,
+        "visible_spell_id": null,
         "icon": "ability_shaman_ascendance"
       },
       "pve_tooltip": "Lightning Shield increases your Agility by 3%.\nCasting Lightning Shield now applies your weapon imbuements. Earth Shield is also applied if you have the Elemental Orbit talent.",
@@ -3652,11 +3803,13 @@
           80942
         ],
         "entry_id": 101804,
+        "entry_max_ranks": 1,
         "definition_id": 106862,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Maelstrom Weapon",
         "spell_id": 187880,
+        "visible_spell_id": null,
         "icon": "spell_shaman_maelstromweapon"
       },
       "pve_tooltip": "When you deal damage with a melee weapon, you have a chance to generate Maelstrom Weapon, stacking up to 5 times.\nEach stack of Maelstrom Weapon reduces the cast time of your next Lightning Bolt or Chain Lightning by 20% and increases its damage by 20%.\n(Proc chance: 20%)",
@@ -3708,11 +3861,13 @@
           80974
         ],
         "entry_id": 101823,
+        "entry_max_ranks": 1,
         "definition_id": 106876,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Windfury Weapon",
         "spell_id": 33757,
+        "visible_spell_id": null,
         "icon": "spell_shaman_unleashweapon_wind"
       },
       "pve_tooltip": "Instant\nImbue your main-hand weapon with the element of Wind for 1 hour. Each main-hand attack has a 15% chance to trigger [Unruly Winds: three / two] extra attacks, dealing (27.945% of Attack Power)% Physical damage each.",
@@ -3764,11 +3919,13 @@
           80943
         ],
         "entry_id": 101805,
+        "entry_max_ranks": 1,
         "definition_id": 106864,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Flametongue Weapon",
         "spell_id": 318038,
+        "visible_spell_id": null,
         "icon": "spell_fire_flametounge"
       },
       "pve_tooltip": "Instant\nImbue your weapon with the element of Fire for 1 hour, causing each of your attacks to deal (3.96% of Attack Power) additional Fire damage.",
@@ -3879,11 +4036,13 @@
           80968
         ],
         "entry_id": 101834,
+        "entry_max_ranks": 1,
         "definition_id": 106888,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Forceful Winds",
         "spell_id": 262647,
+        "visible_spell_id": null,
         "icon": "spell_shaman_unleashweapon_wind"
       },
       "pve_tooltip": "Windfury has a 10% additional chance to trigger and its damage is increased by 50%.",
@@ -3935,11 +4094,13 @@
           80939
         ],
         "entry_id": 101840,
+        "entry_max_ranks": 1,
         "definition_id": 106879,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Crash Lightning",
         "spell_id": 187874,
+        "visible_spell_id": null,
         "icon": "spell_shaman_crashlightning"
       },
       "pve_tooltip": "0.2% of base mana\nMelee Range\nInstant\n15 sec cooldown\n1 Charge\nElectrocutes all enemies in front of you, dealing (183.617% of Attack Power) Nature damage.\nEnhances your weapons for 12 sec, causing Stormstrike and Lava Lash to discharge (97.7592% of Attack Power) Nature damage split between up to 5 enemies in front of you. [Storm Unleashed: Multiple applications may overlap]",
@@ -4122,11 +4283,13 @@
           80947
         ],
         "entry_id": 101806,
+        "entry_max_ranks": 1,
         "definition_id": 106863,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Molten Assault",
         "spell_id": 334033,
+        "visible_spell_id": null,
         "icon": "spell_fire_ragnaros_lavabolt"
       },
       "pve_tooltip": "40 yd range\nLava Lash cooldown reduced by 6.0 sec, and if Lava Lash is used against a target affected by your Flame Shock, Flame Shock will be spread to up to 5 nearby enemies.",
@@ -4179,11 +4342,13 @@
           80967
         ],
         "entry_id": 101833,
+        "entry_max_ranks": 1,
         "definition_id": 106887,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unruly Winds",
         "spell_id": 390288,
+        "visible_spell_id": null,
         "icon": "ability_skyreach_wind_wall"
       },
       "pve_tooltip": "Windfury Weapon has a 100% chance to trigger a third attack.",
@@ -4236,11 +4401,13 @@
           103642
         ],
         "entry_id": 101802,
+        "entry_max_ranks": 1,
         "definition_id": 106871,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Overflowing Maelstrom",
         "spell_id": 384143,
+        "visible_spell_id": null,
         "icon": "inv_magic_swirl_color3"
       },
       "pve_tooltip": "Maelstrom Weapon can now stack 5 additional times.\nEach Maelstrom Weapon stacks consumed grants Overflowing Maelstrom, reducing the cast time of your next Healing Surge or Chain Heal by 10%, and increasing their healing by 10% up to 10 times. This effect can be accumulated up to 20 times.",
@@ -4293,11 +4460,13 @@
           80954
         ],
         "entry_id": 101811,
+        "entry_max_ranks": 1,
         "definition_id": 106897,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Ashen Catalyst",
         "spell_id": 390370,
+        "visible_spell_id": null,
         "icon": "spell_shaman_stormearthfire"
       },
       "pve_tooltip": "When Lava Lash strikes a target affected by your Flame Shock, its cooldown is reduced by 2.0 sec.",
@@ -4349,11 +4518,13 @@
           109192
         ],
         "entry_id": 101825,
+        "entry_max_ranks": 1,
         "definition_id": 106877,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Stormblast",
         "spell_id": 319930,
+        "visible_spell_id": null,
         "icon": "spell_shaman_focusedstrikes"
       },
       "pve_tooltip": "40 yd range\nStormstrike has an additional charge.\nStormsurge now also causes your next Stormstrike to deal 25% additional damage as Nature damage, stacking up to 2 times.",
@@ -4406,11 +4577,13 @@
           80961
         ],
         "entry_id": 101808,
+        "entry_max_ranks": 1,
         "definition_id": 106900,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Overcharge",
         "spell_id": 1251026,
+        "visible_spell_id": null,
         "icon": "spell_nature_unrelentingstorm"
       },
       "pve_tooltip": "100 yd range\nThe critical strike damage of your Nature abilities are increased by 40% of your critical strike chance.",
@@ -4461,11 +4634,13 @@
           80961
         ],
         "entry_id": 101801,
+        "entry_max_ranks": 1,
         "definition_id": 106880,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Raging Maelstrom",
         "spell_id": 384149,
+        "visible_spell_id": null,
         "icon": "spell_nature_elementalabsorption"
       },
       "pve_tooltip": "Lightning Bolt and Chain Lightning can consume up to 10 Maelstrom Weapon stacks.",
@@ -4518,11 +4693,13 @@
           80954
         ],
         "entry_id": 101799,
+        "entry_max_ranks": 1,
         "definition_id": 106872,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Flurry",
         "spell_id": 382888,
+        "visible_spell_id": null,
         "icon": "ability_ghoulfrenzy"
       },
       "pve_tooltip": "Increases your attack speed by 15% for your next 3 melee swings after dealing a critical strike with a spell or ability.",
@@ -4574,11 +4751,13 @@
           80948
         ],
         "entry_id": 101809,
+        "entry_max_ranks": 2,
         "definition_id": 106898,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Hot Hand",
         "spell_id": 201900,
+        "visible_spell_id": null,
         "icon": "spell_fire_playingwithfire"
       },
       "pve_tooltip": "Melee auto-attacks with Flametongue Weapon active have a 5% chance to reduce the cooldown of Lava Lash by 50% and increase the damage of Lava Lash by 40% for 8 sec.\nMay not occur during an active Hot Hand.\n(Proc chance: 5%)",
@@ -4596,6 +4775,7 @@
           "pve_tooltip": "Melee auto-attacks with Flametongue Weapon active have a 5% chance to reduce the cooldown of Lava Lash by 25% and increase the damage of Lava Lash by 20% for 8 sec.\nMay not occur during an active Hot Hand.\n(Proc chance: 5%)",
           "pvp_tooltip": "Melee auto-attacks with Flametongue Weapon active have a 5% chance to reduce the cooldown of Lava Lash by 25% and increase the damage of Lava Lash by 20% for 8 sec.\nMay not occur during an active Hot Hand.\n(Proc chance: 5%)",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -4604,6 +4784,7 @@
           "pve_tooltip": "Melee auto-attacks with Flametongue Weapon active have a 5% chance to reduce the cooldown of Lava Lash by 50% and increase the damage of Lava Lash by 40% for 8 sec.\nMay not occur during an active Hot Hand.\n(Proc chance: 5%)",
           "pvp_tooltip": "Melee auto-attacks with Flametongue Weapon active have a 5% chance to reduce the cooldown of Lava Lash by 50% and increase the damage of Lava Lash by 40% for 8 sec.\nMay not occur during an active Hot Hand.\n(Proc chance: 5%)",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -4650,11 +4831,13 @@
           103871
         ],
         "entry_id": 101832,
+        "entry_max_ranks": 1,
         "definition_id": 107009,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Storm's Wrath",
         "spell_id": 392352,
+        "visible_spell_id": null,
         "icon": "spell_nature_stormreach"
       },
       "pve_tooltip": "Increase the chance for Mastery: Enhanced Elements to trigger Windfury and Stormsurge by 150%.",
@@ -4709,11 +4892,13 @@
           80953
         ],
         "entry_id": 101826,
+        "entry_max_ranks": 1,
         "definition_id": 106861,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Elemental Tempo",
         "spell_id": 1250364,
+        "visible_spell_id": null,
         "icon": "spell_nature_elementalprecision_1"
       },
       "pve_tooltip": "Elemental damage increased by 10%.\nEach stack of Maelstrom Weapon consumed reduces the cooldown of Stormstrike by 0.3 sec and Lava Lash by 0.3 sec.",
@@ -4768,11 +4953,13 @@
           80948
         ],
         "entry_id": 101819,
+        "entry_max_ranks": 1,
         "definition_id": 106869,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Voltaic Blaze",
         "spell_id": 470057,
+        "visible_spell_id": null,
         "icon": "inv_10_dungeonjewelry_primalist_trinket_1ragingelement_fire"
       },
       "pve_tooltip": "0.3% of base mana\n40 yd range\nInstant\n10 sec cooldown\nInstantly shocks the target and 5 enemies within 10 yds with blazing thunder, applying Flame Shock and dealing (400% of Spell Power) Nature damage. Always critically strikes.\nGenerates 1 stack of Maelstrom Weapon.",
@@ -4884,11 +5071,13 @@
           80962
         ],
         "entry_id": 135254,
+        "entry_max_ranks": 1,
         "definition_id": 140022,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Chaining Storms",
         "spell_id": 334308,
+        "visible_spell_id": null,
         "icon": "spell_nature_chainlightning"
       },
       "pve_tooltip": "Chain Lightning now jumps to 2 additional targets and deals 10% increased damage.",
@@ -4939,11 +5128,13 @@
           80962
         ],
         "entry_id": 101839,
+        "entry_max_ranks": 1,
         "definition_id": 106878,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Converging Storms",
         "spell_id": 384363,
+        "visible_spell_id": null,
         "icon": "warrior_talent_icon_stormbolt"
       },
       "pve_tooltip": "Each target hit by Crash Lightning increases the damage of your next Stormstrike by 25%, up to a maximum of 6 stacks.",
@@ -5048,11 +5239,13 @@
           80959
         ],
         "entry_id": 128270,
+        "entry_max_ranks": 1,
         "definition_id": 133077,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Stormflurry",
         "spell_id": 344357,
+        "visible_spell_id": null,
         "icon": "ability_shaman_stormstrike"
       },
       "pve_tooltip": "100 yd range\nStormstrike has a 20% chance to strike the target an additional time for 40% of normal damage. This effect can chain off of itself.",
@@ -5103,11 +5296,13 @@
           80959
         ],
         "entry_id": 135253,
+        "entry_max_ranks": 1,
         "definition_id": 140021,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Stormbind",
         "spell_id": 1251069,
+        "visible_spell_id": null,
         "icon": "ability_siege_engineer_magnetic_lasso"
       },
       "pve_tooltip": "100 yd range\nCritical strikes of your Nature abilities reduce the target's movement speed by 60% for 5 sec.",
@@ -5160,11 +5355,13 @@
           80975
         ],
         "entry_id": 101818,
+        "entry_max_ranks": 1,
         "definition_id": 106868,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Elemental Weapons",
         "spell_id": 384355,
+        "visible_spell_id": null,
         "icon": "inv_mace_2h_draenorraid_d_03"
       },
       "pve_tooltip": "Each active weapon imbue increases all Fire, Frost, and Nature damage dealt by 5.0%.",
@@ -5215,11 +5412,13 @@
           80975
         ],
         "entry_id": 136176,
+        "entry_max_ranks": 1,
         "definition_id": 140949,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fire Nova",
         "spell_id": 1260666,
+        "visible_spell_id": null,
         "icon": "spell_shaman_lavaflow"
       },
       "pve_tooltip": "Voltaic Blaze generates 2 additional Maelstrom Weapon and has a 30% chance to cause a Fire Nova.\nFire Nova\nErupt a burst of fiery damage from all targets affected by your Flame Shock, dealing (99.682% of Attack Power) Volcanic damage to up to 6 targets within 8 yds of your Flame Shock targets.",
@@ -5314,11 +5513,13 @@
           80975
         ],
         "entry_id": 101812,
+        "entry_max_ranks": 1,
         "definition_id": 106896,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lashing Flames",
         "spell_id": 334046,
+        "visible_spell_id": null,
         "icon": "spell_shaman_shockinglava"
       },
       "pve_tooltip": "100 yd range\nLava Lash and Sundering increases the damage of Flame Shock on its target by 100% for 20 sec.",
@@ -5372,11 +5573,13 @@
           80951
         ],
         "entry_id": 101827,
+        "entry_max_ranks": 1,
         "definition_id": 106860,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ride the Lightning",
         "spell_id": 289874,
+        "visible_spell_id": null,
         "icon": "ability_thunderking_balllightning"
       },
       "pve_tooltip": "Stormstrike and Lava Lash unleash a Chain Lightning at 100% effectiveness that deals 20% reduced damage with each jump.",
@@ -5431,24 +5634,47 @@
           109194
         ],
         "entry_id": 101824,
+        "entry_max_ranks": 1,
         "definition_id": 106859,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Doom Winds",
         "spell_id": 384352,
+        "visible_spell_id": null,
         "icon": "ability_ironmaidens_swirlingvortex"
       },
       "pve_tooltip": "Instant\n1 min cooldown\nUnleash a devastating storm around yourself, dealing (120% of Attack Power) Stormstrike damage every 1 sec to nearby enemies for 8 sec.\nIncreases your chance to activate Windfury Weapon by 50%, and the damage of Windfury Weapon by 20%.",
-      "pvp_tooltip": "Instant\n1 min cooldown\nUnleash a devastating storm around yourself, dealing (120% of Attack Power) Stormstrike damage every 1 sec to nearby enemies for 8 sec.\nIncreases your chance to activate Windfury Weapon by 50%, and the damage of Windfury Weapon by 20%.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Instant\n1 min cooldown\nUnleash a devastating storm around yourself, dealing (126% of Attack Power) Stormstrike damage every 1 sec to nearby enemies for 8 sec.\nIncreases your chance to activate Windfury Weapon by 50%, and the damage of Windfury Weapon by 20%.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 77,
+          "end": 80,
+          "old_token": "120",
+          "new_token": "126",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "120",
+          "new": "126"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 384352,
           "source_spell_id": 469270,
           "effect_index": 1,
@@ -5465,7 +5691,7 @@
             469270
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -5485,7 +5711,7 @@
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -5528,11 +5754,13 @@
           80964
         ],
         "entry_id": 101841,
+        "entry_max_ranks": 1,
         "definition_id": 106874,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Sundering",
         "spell_id": 197214,
+        "visible_spell_id": null,
         "icon": "ability_rhyolith_lavapool"
       },
       "pve_tooltip": "1.2% of base mana\nInstant\n30 sec cooldown\nShatters a line of earth in front of you with your main hand weapon, causing (253.92% of Attack Power) Flamestrike damage to any enemy hit.",
@@ -5638,11 +5866,13 @@
           109190
         ],
         "entry_id": 135255,
+        "entry_max_ranks": 1,
         "definition_id": 140023,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lightning Strikes",
         "spell_id": 384450,
+        "visible_spell_id": null,
         "icon": "ability_thunderclap"
       },
       "pve_tooltip": "Consuming 10 stacks of Maelstrom Weapon increases the damage of your next Stormstrike or Lava Lash by 25% and causes them to generate a stack of Maelstrom Weapon.",
@@ -5692,11 +5922,13 @@
         ],
         "next": [],
         "entry_id": 101815,
+        "entry_max_ranks": 1,
         "definition_id": 106893,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Elemental Assault",
         "spell_id": 210853,
+        "visible_spell_id": null,
         "icon": "spell_shaman_improvedstormstrike"
       },
       "pve_tooltip": "Stormstrike damage is increased by 20%, and Stormstrike and Lava Lash have a 100% chance to generate 1 stack of Maelstrom Weapon.\n(100ms cooldown)",
@@ -5748,11 +5980,13 @@
           80949
         ],
         "entry_id": 101814,
+        "entry_max_ranks": 2,
         "definition_id": 106881,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Static Accumulation",
         "spell_id": 384411,
+        "visible_spell_id": null,
         "icon": "spell_nature_callstorm"
       },
       "pve_tooltip": "During Doom Winds or Ascendance, you generate 2 Maelstrom Weapon stack every 1 sec.",
@@ -5770,6 +6004,7 @@
           "pve_tooltip": "During Doom Winds or Ascendance, you generate 1 Maelstrom Weapon stack every 1 sec.",
           "pvp_tooltip": "During Doom Winds or Ascendance, you generate 1 Maelstrom Weapon stack every 1 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -5778,6 +6013,7 @@
           "pve_tooltip": "During Doom Winds or Ascendance, you generate 2 Maelstrom Weapon stack every 1 sec.",
           "pvp_tooltip": "During Doom Winds or Ascendance, you generate 2 Maelstrom Weapon stack every 1 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -5819,11 +6055,13 @@
         ],
         "next": [],
         "entry_id": 128236,
+        "entry_max_ranks": 1,
         "definition_id": 133043,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Feral Spirit",
         "spell_id": 469314,
+        "visible_spell_id": null,
         "icon": "spell_shaman_feralspirit"
       },
       "pve_tooltip": "Casting Sundering summons 1 Fire Feral Spirit and Doom Winds summons 1 Nature Feral Spirit by your side for 8 sec.\nFeral Spirit\nAn Elemental Spirit [Glyph of Spirit Raptors: Raptor / Wolf] infused with Fire or Nature magic, granting the summoner with 5% increased Fire or Nature damage and 5% Physical damage for 8 sec.",
@@ -5874,11 +6112,13 @@
           80963
         ],
         "entry_id": 101829,
+        "entry_max_ranks": 1,
         "definition_id": 106884,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Surging Elements",
         "spell_id": 382042,
+        "visible_spell_id": null,
         "icon": "item_sparkofragnoros"
       },
       "pve_tooltip": "Casting Sundering grants you 15% Haste for 12 sec, and generates 5 stacks of Maelstrom Weapon.",
@@ -5891,7 +6131,7 @@
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 382042,
           "source_spell_id": 382043,
           "effect_index": 1,
@@ -5908,7 +6148,7 @@
             382043
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -5958,11 +6198,13 @@
         ],
         "next": [],
         "entry_id": 135252,
+        "entry_max_ranks": 1,
         "definition_id": 140020,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Thunder Capacitor",
         "spell_id": 1262635,
+        "visible_spell_id": null,
         "icon": "ability_thunderking_thunderstruck"
       },
       "pve_tooltip": "Lightning Bolt and Chain Lightning deal 20% increased damage and have a 20% chance to refund the Maelstrom Weapon spent.",
@@ -6011,11 +6253,13 @@
         ],
         "next": [],
         "entry_id": 101816,
+        "entry_max_ranks": 1,
         "definition_id": 106894,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Deeply Rooted Elements",
         "spell_id": 378270,
+        "visible_spell_id": null,
         "icon": "inv_misc_herb_liferoot_stem"
       },
       "pve_tooltip": "Each stack of Maelstrom Weapon consumed has a 0.6% chance to activate Ascendance for 6.0 sec.\nAscendance\nTransform into an Air Ascendant for 15 sec and unleash Doom Winds, reducing the cooldown and cost of Stormstrike by 60%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a 30 yd range.",
@@ -6131,7 +6375,7 @@
           "dependency_relations": [
             "tooltip_value_ref",
             "trigger_spell",
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -6189,11 +6433,13 @@
         ],
         "next": [],
         "entry_id": 114291,
+        "entry_max_ranks": 1,
         "definition_id": 119296,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Ascendance",
         "spell_id": 114051,
+        "visible_spell_id": null,
         "icon": "inv121_ability_shaman_ascendance_air"
       },
       "pve_tooltip": "Instant\n3 min cooldown\nTransform into an Air Ascendant for 15 sec and unleash Doom Winds, reducing the cooldown and cost of Stormstrike by 60%, and transforming your auto attack and Stormstrike into Wind attacks which bypass armor and have a 30 yd range.\nMaelstrom Weapon spenders have a 0.5% chance to unleash Doom Winds per Maelstrom Weapon spent while Ascendance is not active.",
@@ -6265,7 +6511,7 @@
           ],
           "dependency_relations": [
             "trigger_spell",
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -6323,11 +6569,13 @@
         ],
         "next": [],
         "entry_id": 101813,
+        "entry_max_ranks": 1,
         "definition_id": 106882,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Thorim's Invocation",
         "spell_id": 384444,
+        "visible_spell_id": null,
         "icon": "spell_shaman_ancestralawakening"
       },
       "pve_tooltip": "Doom Winds and Deeply Rooted Elements last 2 sec longer, and the cooldown of Ascendance is reduced by 60 sec.\nDuring Doom Winds or Ascendance, Stormstrike and Crash Lightning consume up to 10 Maelstrom Weapon to discharge a Lightning Bolt or Chain Lightning at 100% effectiveness at your enemy, whichever you most recently used.",
@@ -6423,11 +6671,13 @@
         ],
         "next": [],
         "entry_id": 101828,
+        "entry_max_ranks": 1,
         "definition_id": 106883,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Primordial Storm",
         "spell_id": 1218047,
+        "visible_spell_id": null,
         "icon": "ability_shaman_ascendance"
       },
       "pve_tooltip": "Sundering transforms into a single use Primordial Storm for 15 sec after it is cast.\nPrimordial Storm\nDevastate nearby enemies with a Primordial Storm dealing (118.8% of Attack Power) Flamestrike, (118.8% of Attack Power) Froststrike, (118.8% of Attack Power) Stormstrike damage, and unleashing a Lightning Bolt or a Chain Lightning at 150% effectiveness. Deals reduced damage beyond 5 targets.\nConsumes Maelstrom Weapon for increased damage.",
@@ -6710,11 +6960,13 @@
         "prev": [],
         "next": [],
         "entry_id": 136971,
+        "entry_max_ranks": 1,
         "definition_id": 141734,
         "entry_index": 100,
         "entry_type": "tierrank",
         "talent_name": "Storm Unleashed",
         "spell_id": 1262713,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_shaman_stormunleashed"
       },
       "pve_tooltip": "Each Maelstrom Weapon spent has a 2% chance to cause your next Crash Lightning to ignore its cooldown. The weapon enhancement effect of Crash Lightning may now overlap.",
@@ -6761,15 +7013,17 @@
         "prev": [],
         "next": [],
         "entry_id": 136970,
+        "entry_max_ranks": 2,
         "definition_id": 141733,
         "entry_index": 200,
         "entry_type": "tierrank",
         "talent_name": "Storm Unleashed",
         "spell_id": 1262761,
+        "visible_spell_id": null,
         "icon": "spell_druid_astralstorm"
       },
-      "pve_tooltip": "Maelstrom Weapon spending abilities deal 8% increased damage.\nWeapon Imbuements deal 10% increased damage.",
-      "pvp_tooltip": "Maelstrom Weapon spending abilities deal 8% increased damage.\nWeapon Imbuements deal 10% increased damage.",
+      "pve_tooltip": "Maelstrom Weapon spending abilities deal 15% increased damage.\nWeapon Imbuements deal 20% increased damage.",
+      "pvp_tooltip": "Maelstrom Weapon spending abilities deal 15% increased damage.\nWeapon Imbuements deal 20% increased damage.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6777,7 +7031,26 @@
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Maelstrom Weapon spending abilities deal 8% increased damage.\nWeapon Imbuements deal 10% increased damage.",
+          "pvp_tooltip": "Maelstrom Weapon spending abilities deal 8% increased damage.\nWeapon Imbuements deal 10% increased damage.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Maelstrom Weapon spending abilities deal 15% increased damage.\nWeapon Imbuements deal 20% increased damage.",
+          "pvp_tooltip": "Maelstrom Weapon spending abilities deal 15% increased damage.\nWeapon Imbuements deal 20% increased damage.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Storm Unleashed",
@@ -6812,11 +7085,13 @@
         "prev": [],
         "next": [],
         "entry_id": 136969,
+        "entry_max_ranks": 1,
         "definition_id": 141732,
         "entry_index": 300,
         "entry_type": "tierrank",
         "talent_name": "Storm Unleashed",
         "spell_id": 1252373,
+        "visible_spell_id": null,
         "icon": "spell_druid_astralstorm"
       },
       "pve_tooltip": "Crash Lightning electrocutes the area struck, dealing 50% of its damage 2 additional times over 2 sec, and its weapon enhancement effect now increases auto-attack speed by 15%.",
@@ -6929,22 +7204,101 @@
           109726
         ],
         "entry_id": 117474,
+        "entry_max_ranks": 1,
         "definition_id": 122486,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Surging Totem",
         "spell_id": 455630,
+        "visible_spell_id": 444995,
         "icon": "inv_ability_totemicshaman_surgingtotem"
       },
-      "pve_tooltip": "Modifies Damage/Healing Done +100%:\nDownpour",
-      "pvp_tooltip": "Modifies Damage/Healing Done +100%:\nDownpour",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
-      "has_pvp_mechanics": false,
-      "mechanics": [],
-      "render_effect_count": 0,
+      "pve_tooltip": "6.5% of base mana\n40 yd range\nInstant\n25 sec cooldown\nSummons a totem at the target location that creates a Tremor immediately and every 6 sec for (122.382% of Attack Power) Flamestrike damage. Damage reduced beyond 5 targets. Lasts 25 sec.",
+      "pvp_tooltip": "6.5% of base mana\n40 yd range\nInstant\n25 sec cooldown\nSummons a totem at the target location that creates a Tremor immediately and every 6 sec for (128.5011% of Attack Power) Flamestrike damage. Damage reduced beyond 5 targets. Lasts 25 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 148,
+          "end": 155,
+          "old_token": "122.382",
+          "new_token": "128.5011",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            2
+          ],
+          "status": "NESTED_DEPENDENCY_NOT_VISIBLE",
+          "kind": "duration_seconds",
+          "old": 5.0,
+          "new": 5.0,
+          "full_tooltip_match_count": 0
+        },
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "122.382",
+          "new": "128.5011"
+        },
+        {
+          "status": "EXPLICIT_DISPLAY_OVERRIDE",
+          "source_spell_id": 444995,
+          "source": "raidbots_visible_spell_id"
+        }
+      ],
+      "has_pvp_mechanics": true,
+      "mechanics": [
+        {
+          "effect_origin": "DEPENDENCY",
+          "dependency_kind": "DISPLAY_OVERRIDE",
+          "talent_spell_id": 455630,
+          "source_spell_id": 455622,
+          "effect_index": 1,
+          "effect_text": "School Damage (Physical, Fire) (AP mod: 1.22382 )",
+          "base_value": null,
+          "spell_pvp_multiplier": 1.0,
+          "amount_kind": "direct",
+          "aura_factor": 1.05,
+          "final_pvp_multiplier": 1.05,
+          "final_pvp_value": null,
+          "is_final_pvp_modified": true,
+          "dependency_path": [
+            455630,
+            444995,
+            455622
+          ],
+          "dependency_relations": [
+            "tooltip_override",
+            "tooltip_value_ref"
+          ],
+          "aura_rules": [
+            {
+              "aura_spell_id": 1214207,
+              "game_effect_id": 1196250,
+              "amount_kind": "direct",
+              "value_pct": 5.0,
+              "factor": 1.05,
+              "label_id": null,
+              "build": "12.1.0.69587"
+            }
+          ],
+          "sources": [
+            "wowhead"
+          ],
+          "source_notes": [],
+          "confidence": "medium"
+        }
+      ],
+      "render_effect_count": 2,
       "rank_tooltips": []
     },
     {
@@ -6984,11 +7338,13 @@
           94859
         ],
         "entry_id": 117487,
+        "entry_max_ranks": 1,
         "definition_id": 122499,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Totemic Rebound",
         "spell_id": 445025,
+        "visible_spell_id": null,
         "icon": "ability_vehicle_electrocharge"
       },
       "pve_tooltip": "Approximately 10 procs per minute\nLightning Bolt, Chain Lightning and Elemental Blast has a chance to unleash a Surging Bolt at your Surging Totem, increasing the totem's damage by 10%, and then redirecting the bolt to your target for (161% of Attack Power) Nature damage. The damage bonus effect can stack.",
@@ -7101,11 +7457,13 @@
           94891
         ],
         "entry_id": 117471,
+        "entry_max_ranks": 1,
         "definition_id": 122483,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Amplification Core",
         "spell_id": 445029,
+        "visible_spell_id": null,
         "icon": "ability_evoker_essenceburststacks"
       },
       "pve_tooltip": "While Surging Totem is active, your damage and healing done is increased by 3%.",
@@ -7156,11 +7514,13 @@
           94891
         ],
         "entry_id": 125823,
+        "entry_max_ranks": 1,
         "definition_id": 130654,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Oversurge",
         "spell_id": 445030,
+        "visible_spell_id": null,
         "icon": "spell_fire_elementaldevastation"
       },
       "pve_tooltip": "Surging Totem deals 50% more damage while Ascendance or Healing Tide Totem is active.",
@@ -7301,11 +7661,13 @@
           94872
         ],
         "entry_id": 117479,
+        "entry_max_ranks": 1,
         "definition_id": 122491,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lively Totems",
         "spell_id": 445034,
+        "visible_spell_id": null,
         "icon": "spell_fire_searingtotem"
       },
       "pve_tooltip": "Lava Lash has a chance to summon a Searing Totem to hurl Searing Bolts that deal (65.205% of Spell Power) Fire damage to a nearby enemy. Lasts 8 sec.\nLava Lash and Voltaic Blaze cause your Searing Totems to shoot a Searing Volley at up to 5 nearby enemies for (92.736% of Spell Power) Fire damage.",
@@ -7503,11 +7865,13 @@
           109725
         ],
         "entry_id": 135984,
+        "entry_max_ranks": 1,
         "definition_id": 140739,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Totemic Momentum",
         "spell_id": 1260644,
+        "visible_spell_id": null,
         "icon": "spell_frost_fireresistancetotem"
       },
       "pve_tooltip": "Lava Lash damage increased by 10%.\nEach stack of Maelstrom Weapon consumed increases the duration of an active Hot Hand by 0.20 sec.",
@@ -7558,11 +7922,13 @@
           94871
         ],
         "entry_id": 117456,
+        "entry_max_ranks": 1,
         "definition_id": 122468,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Oversized Totems",
         "spell_id": 445026,
+        "visible_spell_id": null,
         "icon": "ability_shaman_totemrelocation"
       },
       "pve_tooltip": "Increases the size and radius of your totems by 15%, and the health of your totems by 30%.",
@@ -7613,11 +7979,13 @@
           94871
         ],
         "entry_id": 125825,
+        "entry_max_ranks": 1,
         "definition_id": 130656,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Swift Recall",
         "spell_id": 445027,
+        "visible_spell_id": null,
         "icon": "spell_nature_brilliance"
       },
       "pve_tooltip": "Successfully removing a harmful effect with Tremor Totem or Poison Cleansing Totem, or controlling an enemy with Capacitor Totem or Earthgrab Totem reduces the cooldown of the totem used by 5 sec.\nCannot occur more than once every 20 sec per totem.",
@@ -7668,11 +8036,13 @@
           94866
         ],
         "entry_id": 117488,
+        "entry_max_ranks": 1,
         "definition_id": 122500,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Wind Barrier",
         "spell_id": 445031,
+        "visible_spell_id": null,
         "icon": "spell_nature_eyeofthestorm"
       },
       "pve_tooltip": "If you have a totem active, your totem grants you a shield absorbing (Total Health * 6 / 100) damage for 30 sec every 30 sec.",
@@ -7723,11 +8093,13 @@
           94881
         ],
         "entry_id": 117469,
+        "entry_max_ranks": 1,
         "definition_id": 122481,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Splitstream",
         "spell_id": 445035,
+        "visible_spell_id": null,
         "icon": "ability_rhyolith_lavapool"
       },
       "pve_tooltip": "While Hot Hand is active Lava Lash shatters the earth, causing a Sundering at 80% effectiveness.",
@@ -7815,11 +8187,13 @@
           109724
         ],
         "entry_id": 135983,
+        "entry_max_ranks": 1,
         "definition_id": 140738,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Elemental Attunement",
         "spell_id": 1263288,
+        "visible_spell_id": null,
         "icon": "inv_10_elementalcombinedfoozles_primordial"
       },
       "pve_tooltip": "Mastery increased by 2%.",
@@ -7870,11 +8244,13 @@
           94879
         ],
         "entry_id": 117468,
+        "entry_max_ranks": 1,
         "definition_id": 122480,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Imbuement Mastery",
         "spell_id": 445028,
+        "visible_spell_id": null,
         "icon": "spell_shaman_unleashweapon_wind"
       },
       "pve_tooltip": "Increases the chance for Windfury Weapon to trigger by 5% and increases its damage by 8%.\nWhen Flametongue Weapon triggers from Windfury Weapon attacks, it has a chance to gather a whirl of flame around the target, dealing 300% of its damage to all nearby enemies.",
@@ -7925,11 +8301,13 @@
           94879
         ],
         "entry_id": 117463,
+        "entry_max_ranks": 1,
         "definition_id": 122475,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Pulse Capacitor",
         "spell_id": 445032,
+        "visible_spell_id": null,
         "icon": "spell_nature_elementalprecision_1"
       },
       "pve_tooltip": "Increases the damage of Surging Totem by 18%.",
@@ -7980,11 +8358,13 @@
           94879
         ],
         "entry_id": 125824,
+        "entry_max_ranks": 1,
         "definition_id": 130655,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Supportive Imbuements",
         "spell_id": 445033,
+        "visible_spell_id": null,
         "icon": "ability_shaman_fortifyingwaters"
       },
       "pve_tooltip": "Increases the critical strike chance of Flametongue Weapon by 25%, and its critical strike damage by 100%.",
@@ -8035,11 +8415,13 @@
           94879
         ],
         "entry_id": 117478,
+        "entry_max_ranks": 1,
         "definition_id": 122490,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Totemic Coordination",
         "spell_id": 445036,
+        "visible_spell_id": null,
         "icon": "ability_shaman_echooftheelements"
       },
       "pve_tooltip": "Increases the critical strike chance of your Searing Totem's attacks by 15%, and its critical strike damage by 30%.",
@@ -8090,11 +8472,13 @@
           94879
         ],
         "entry_id": 125822,
+        "entry_max_ranks": 1,
         "definition_id": 130653,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Earthsurge",
         "spell_id": 455590,
+        "visible_spell_id": null,
         "icon": "inv_elementalearth2"
       },
       "pve_tooltip": "Casting Sundering within 40 yards of your Surging Totem causes it to create a Tremor at 125% effectiveness at the target area.",
@@ -8182,11 +8566,13 @@
           94879
         ],
         "entry_id": 135982,
+        "entry_max_ranks": 1,
         "definition_id": 140737,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Primal Catalyst",
         "spell_id": 1260874,
+        "visible_spell_id": null,
         "icon": "misc_legionfall_shaman"
       },
       "pve_tooltip": "After casting Surging Totem, your next Lava Lash casts again at 150% effectiveness.",
@@ -8285,11 +8671,13 @@
         ],
         "next": [],
         "entry_id": 117476,
+        "entry_max_ranks": 1,
         "definition_id": 122488,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Whirling Elements",
         "spell_id": 445024,
+        "visible_spell_id": null,
         "icon": "inv_10_enchanting2_elementalswirl_color1"
       },
       "pve_tooltip": "Elemental motes orbit around your Surging Totem. Your abilities consume the motes for enhanced effects.\nAir: Your next Lightning Bolt, Chain Lightning or Elemental Blast unleashes 3 Surging Bolts at your Surging Totem\nEarth: Your next Sundering deals 100% increased damage and summons a Searing Totem\nFire: Your next Lava Lash grants you Hot Hand for 8 sec.",
@@ -8341,11 +8729,13 @@
           109729
         ],
         "entry_id": 117489,
+        "entry_max_ranks": 1,
         "definition_id": 122501,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Tempest",
         "spell_id": 454009,
+        "visible_spell_id": null,
         "icon": "inv_ability_stormcallershaman_tempest"
       },
       "pve_tooltip": "Each Maelstrom Weapon spent has a 2.00% chance to upgrade your next Lightning Bolt to Tempest.\nTempest\n0.2% of base mana\n40 yd range\n2 sec cast\nCalls down a tremendous lightning strike that deals (388.125% of Spell Power) Nature damage to your target and [(388.125% of Spell Power) * 65 / 100] Nature damage to enemies within 8 yds of your target. Damage reduced beyond 5 targets.\nConsumes Maelstrom Weapon for increased cast speed.",
@@ -8396,11 +8786,13 @@
           94873
         ],
         "entry_id": 117483,
+        "entry_max_ranks": 1,
         "definition_id": 122495,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unlimited Power",
         "spell_id": 454391,
+        "visible_spell_id": null,
         "icon": "spell_nature_purge"
       },
       "pve_tooltip": "Spending Maelstrom Weapon stacks grants you 1% haste for 15 sec.\nMultiple applications may overlap.",
@@ -8451,11 +8843,13 @@
           94885
         ],
         "entry_id": 117490,
+        "entry_max_ranks": 1,
         "definition_id": 122502,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Stormcaller",
         "spell_id": 454021,
+        "visible_spell_id": null,
         "icon": "ability_vehicle_electrocharge"
       },
       "pve_tooltip": "Increases the critical strike chance of your Nature damage spells by 5% and the critical strike damage of your Nature spells by 10%.",
@@ -8506,11 +8900,13 @@
           94889
         ],
         "entry_id": 117460,
+        "entry_max_ranks": 1,
         "definition_id": 122472,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lightning Conduit",
         "spell_id": 467778,
+        "visible_spell_id": null,
         "icon": "spell_shaman_staticshock"
       },
       "pve_tooltip": "You have a chance to get struck by lightning, increasing your movement speed by 50% for 5 sec. The effectiveness is increased to 100% in outdoor areas.\nYou call down a Thunderstorm when you Reincarnate.",
@@ -8561,11 +8957,13 @@
           94889
         ],
         "entry_id": 128226,
+        "entry_max_ranks": 1,
         "definition_id": 133033,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Electroshock",
         "spell_id": 454022,
+        "visible_spell_id": null,
         "icon": "ability_thunderking_overcharge"
       },
       "pve_tooltip": "Tempest increases your movement speed by 20% for 5 sec.",
@@ -8616,11 +9014,13 @@
           109728
         ],
         "entry_id": 135987,
+        "entry_max_ranks": 1,
         "definition_id": 140742,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Stormwell",
         "spell_id": 1264762,
+        "visible_spell_id": null,
         "icon": "inv_112_raidtrinkets_etherealenergystoragesphere_purple"
       },
       "pve_tooltip": "Windfury Weapon damage increased by 10%.\nWhen Crash Lightning hits a single enemy, it activates Windfury Weapon.",
@@ -8671,11 +9071,13 @@
           94870
         ],
         "entry_id": 117470,
+        "entry_max_ranks": 1,
         "definition_id": 122482,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Storm Swell",
         "spell_id": 455088,
+        "visible_spell_id": null,
         "icon": "spell_nature_unrelentingstorm"
       },
       "pve_tooltip": "Tempest grants (5 * $mas)% Mastery for 6 sec.",
@@ -8726,11 +9128,13 @@
           94870
         ],
         "entry_id": 128225,
+        "entry_max_ranks": 1,
         "definition_id": 133032,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Supercharge",
         "spell_id": 455110,
+        "visible_spell_id": null,
         "icon": "inv_misc_stormlordsfavor"
       },
       "pve_tooltip": "Lightning Bolt, Tempest, and Chain Lightning have a 35% chance to refund 2 Maelstrom Weapon stacks.",
@@ -8781,11 +9185,13 @@
           94868
         ],
         "entry_id": 117482,
+        "entry_max_ranks": 1,
         "definition_id": 122494,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Arc Discharge",
         "spell_id": 455096,
+        "visible_spell_id": null,
         "icon": "ability_thunderking_balllightning"
       },
       "pve_tooltip": "Tempest causes your next Chain Lightning to be instant cast, deal 40% increased damage, and cast an additional time.\nCan accumulate up to 2 charges.",
@@ -8888,11 +9294,13 @@
           94880
         ],
         "entry_id": 117486,
+        "entry_max_ranks": 1,
         "definition_id": 122498,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Rolling Thunder",
         "spell_id": 454026,
+        "visible_spell_id": null,
         "icon": "spell_lightning_lightningbolt01"
       },
       "pve_tooltip": "Doom Winds summons a Nature Feral Spirit for 12 sec.\nFeral Spirit\nAn Elemental Spirit infused with Nature magic, granting the summoner with 5% increased Nature damage and 5% Physical damage for 12 sec.",
@@ -8943,11 +9351,13 @@
           109727
         ],
         "entry_id": 135986,
+        "entry_max_ranks": 1,
         "definition_id": 140741,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Natural Gift",
         "spell_id": 1264691,
+        "visible_spell_id": null,
         "icon": "spell_shaman_maelstromweapon"
       },
       "pve_tooltip": "Nature damage is increased by 6%\n(100ms cooldown)",
@@ -8998,11 +9408,13 @@
           94867
         ],
         "entry_id": 117467,
+        "entry_max_ranks": 1,
         "definition_id": 122479,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Voltaic Surge",
         "spell_id": 454919,
+        "visible_spell_id": null,
         "icon": "spell_nature_callstorm"
       },
       "pve_tooltip": "Crash Lightning and Chain Lightning damage increased by 20%.",
@@ -9053,11 +9465,13 @@
           94867
         ],
         "entry_id": 117465,
+        "entry_max_ranks": 1,
         "definition_id": 122477,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Conductive Energy",
         "spell_id": 455123,
+        "visible_spell_id": null,
         "icon": "inv_rod_enchantedcobalt"
       },
       "pve_tooltip": "Gain the effects of the Lightning Rod talent:\nLightning Rod\n[Tempest: Tempest] Lightning Bolt and Chain Lightning make your target a Lightning Rod for 8 sec.\nLightning Rods take 8% of all damage you deal with [Tempest: Tempest, Lightning Bolt / Lightning Bolt] and Chain Lightning.",
@@ -9108,11 +9522,13 @@
           94867
         ],
         "entry_id": 117477,
+        "entry_max_ranks": 1,
         "definition_id": 122489,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Nature's Protection",
         "spell_id": 454027,
+        "visible_spell_id": null,
         "icon": "spell_nature_lightningshield"
       },
       "pve_tooltip": "Lightning Shield reduces the damage you take by 3%.",
@@ -9163,11 +9579,13 @@
           94867
         ],
         "entry_id": 125617,
+        "entry_max_ranks": 1,
         "definition_id": 130449,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Surging Currents",
         "spell_id": 454372,
+        "visible_spell_id": null,
         "icon": "ability_thunderking_thunderstruck"
       },
       "pve_tooltip": "Casting Tempest grants Surging Currents, increasing the effectiveness of your next Chain Heal or Healing Surge by 16%, up to 80%.\n(900ms cooldown)",
@@ -9218,11 +9636,13 @@
           94867
         ],
         "entry_id": 135985,
+        "entry_max_ranks": 1,
         "definition_id": 140740,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Descending Skies",
         "spell_id": 1264688,
+        "visible_spell_id": null,
         "icon": "spell_nature_wispheal"
       },
       "pve_tooltip": "Ascendance upgrades your next Lightning Bolt to Tempest.",
@@ -9274,11 +9694,13 @@
         ],
         "next": [],
         "entry_id": 117464,
+        "entry_max_ranks": 1,
         "definition_id": 122476,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Awakening Storms",
         "spell_id": 455129,
+        "visible_spell_id": null,
         "icon": "spell_nature_stormreach"
       },
       "pve_tooltip": "Approximately 1.1 procs per minute\nStormstrike has a small chance to upgrade your next Lightning Bolt to Tempest.",
@@ -9294,13 +9716,295 @@
     }
   ],
   "fetch_errors": [],
+  "serialization": {
+    "version": 2,
+    "spec_id": 263,
+    "node_order": [
+      80938,
+      80939,
+      80941,
+      80942,
+      80943,
+      80944,
+      80945,
+      80947,
+      80948,
+      80949,
+      80950,
+      80951,
+      80953,
+      80954,
+      80958,
+      80959,
+      80960,
+      80961,
+      80962,
+      80963,
+      80964,
+      80967,
+      80968,
+      80969,
+      80973,
+      80974,
+      80975,
+      80976,
+      80978,
+      80981,
+      80983,
+      80984,
+      80985,
+      80988,
+      80989,
+      80990,
+      80991,
+      80992,
+      80993,
+      80995,
+      80996,
+      80997,
+      80998,
+      80999,
+      81000,
+      81002,
+      81003,
+      81004,
+      81005,
+      81007,
+      81008,
+      81010,
+      81012,
+      81015,
+      81016,
+      81018,
+      81021,
+      81022,
+      81024,
+      81027,
+      81031,
+      81032,
+      81033,
+      81037,
+      81038,
+      81039,
+      81040,
+      81041,
+      81042,
+      81043,
+      81044,
+      81046,
+      81047,
+      81048,
+      81049,
+      81050,
+      81051,
+      81052,
+      81055,
+      81073,
+      92219,
+      92675,
+      92677,
+      94858,
+      94859,
+      94860,
+      94861,
+      94862,
+      94863,
+      94866,
+      94867,
+      94868,
+      94869,
+      94870,
+      94871,
+      94872,
+      94873,
+      94874,
+      94875,
+      94877,
+      94879,
+      94880,
+      94881,
+      94882,
+      94883,
+      94884,
+      94885,
+      94886,
+      94887,
+      94888,
+      94889,
+      94890,
+      94891,
+      94892,
+      94893,
+      94894,
+      99845,
+      99846,
+      99847,
+      103427,
+      103428,
+      103429,
+      103430,
+      103432,
+      103433,
+      103434,
+      103436,
+      103579,
+      103581,
+      103582,
+      103583,
+      103584,
+      103585,
+      103586,
+      103587,
+      103588,
+      103590,
+      103591,
+      103593,
+      103594,
+      103596,
+      103598,
+      103599,
+      103600,
+      103601,
+      103602,
+      103605,
+      103606,
+      103607,
+      103608,
+      103610,
+      103611,
+      103612,
+      103613,
+      103614,
+      103615,
+      103616,
+      103617,
+      103618,
+      103620,
+      103622,
+      103623,
+      103624,
+      103625,
+      103626,
+      103627,
+      103628,
+      103630,
+      103631,
+      103632,
+      103633,
+      103634,
+      103635,
+      103636,
+      103637,
+      103638,
+      103639,
+      103640,
+      103641,
+      103642,
+      103871,
+      103915,
+      104124,
+      109190,
+      109191,
+      109192,
+      109193,
+      109194,
+      109301,
+      109386,
+      109387,
+      109388,
+      109389,
+      109492,
+      109493,
+      109724,
+      109725,
+      109726,
+      109727,
+      109728,
+      109729,
+      109730,
+      109731,
+      109732,
+      109909,
+      110066,
+      110083,
+      110084,
+      110085,
+      110186,
+      110401,
+      110402,
+      110403,
+      113376
+    ],
+    "subtree_nodes": [
+      {
+        "id": 99847,
+        "name": "Stormbringer / Totemic",
+        "type": "subtree",
+        "posX": 8100,
+        "posY": 600,
+        "entryNode": true,
+        "next": [],
+        "prev": [],
+        "entries": [
+          {
+            "id": 123381,
+            "type": "subtree",
+            "name": "Stormbringer",
+            "traitSubTreeId": 55,
+            "traitTreeId": 786,
+            "atlasMemberName": "talents-heroclass-shaman-stormbringer",
+            "nodes": [
+              94892,
+              94886,
+              94893,
+              94863,
+              109729,
+              94873,
+              94885,
+              94889,
+              109728,
+              94870,
+              94868,
+              94880,
+              109727,
+              94867
+            ]
+          },
+          {
+            "id": 123379,
+            "type": "subtree",
+            "name": "Totemic",
+            "traitSubTreeId": 54,
+            "traitTreeId": 786,
+            "atlasMemberName": "talents-heroclass-shaman-totemic",
+            "nodes": [
+              94877,
+              94890,
+              94874,
+              94882,
+              109726,
+              94859,
+              94891,
+              94872,
+              109725,
+              94871,
+              94866,
+              94881,
+              109724,
+              94879
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "source_warnings": [],
   "slug": "shaman-enhancement",
-  "generated_at": "2026-09-21T12:54:15.261442+00:00",
+  "generated_at": "2026-09-21T19:42:38.125871+00:00",
   "validation": {
     "talents": 130,
-    "changed_tooltips": 20,
-    "talents_with_pvp_mechanics": 28,
+    "changed_tooltips": 22,
+    "talents_with_pvp_mechanics": 30,
     "unique_nodes": 111,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",

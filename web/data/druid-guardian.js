@@ -44,11 +44,13 @@ window.WOW_PVP_DATA = {
           82222
         ],
         "entry_id": 103277,
+        "entry_max_ranks": 1,
         "definition_id": 108282,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Rake",
         "spell_id": 1822,
+        "visible_spell_id": null,
         "icon": "ability_druid_disembowel"
       },
       "pve_tooltip": "35 Energy\nMelee Range\nInstant\nRake the target for (29.1% of Attack Power) Bleed damage and an additional (147% of Attack Power) Bleed damage over 15 sec. [Infected Wounds: Reduces the target's movement speed by 20% for 12 sec]\nAwards 1 combo point.",
@@ -146,11 +148,13 @@ window.WOW_PVP_DATA = {
           82218
         ],
         "entry_id": 103298,
+        "entry_max_ranks": 1,
         "definition_id": 108303,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Frenzied Regeneration",
         "spell_id": 22842,
+        "visible_spell_id": null,
         "icon": "ability_bullrush"
       },
       "pve_tooltip": "10 Rage\nInstant\n26 sec cooldown\n1 Charge\nHeals you for 24% health over 3 sec.",
@@ -248,11 +252,13 @@ window.WOW_PVP_DATA = {
           82241
         ],
         "entry_id": 103295,
+        "entry_max_ranks": 1,
         "definition_id": 108300,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Rejuvenation",
         "spell_id": 774,
+        "visible_spell_id": null,
         "icon": "spell_nature_rejuvenation"
       },
       "pve_tooltip": "5% of base mana\n40 yd range\nInstant\nHeals the target for (369.6% of Spell Power) over 12 sec. [Germination: You can apply Rejuvenation twice to the same target] [Incarnation: Tree of Life: Tree of Life: Healing increased by 40% and Mana cost reduced by 30%.]",
@@ -349,11 +355,13 @@ window.WOW_PVP_DATA = {
           82208
         ],
         "entry_id": 112967,
+        "entry_max_ranks": 1,
         "definition_id": 117972,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Starfire",
         "spell_id": 197628,
+        "visible_spell_id": null,
         "icon": "spell_arcane_starfire"
       },
       "pve_tooltip": "0.6% of base mana\n40 yd range\n2.5 sec cast\nCall down a burst of energy, causing (93% of Spell Power) Arcane damage to the target, and [(93% of Spell Power) * 70 / 100] Arcane damage to all other enemies within 5 yards. Deals reduced damage beyond 8 targets.",
@@ -402,11 +410,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103318,
+        "entry_max_ranks": 1,
         "definition_id": 108323,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Grievous Wounds",
         "spell_id": 474526,
+        "visible_spell_id": null,
         "icon": "ability_xavius_tormentingswipe"
       },
       "pve_tooltip": "Rake, Rip, and Thrash damage increased by 10%.",
@@ -459,11 +469,13 @@ window.WOW_PVP_DATA = {
           82225
         ],
         "entry_id": 103301,
+        "entry_max_ranks": 1,
         "definition_id": 108306,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Swipe",
         "spell_id": 213764,
+        "visible_spell_id": null,
         "icon": "inv_misc_monsterclaw_03"
       },
       "pve_tooltip": "8 yd range\nInstant\nSwipe nearby enemies, inflicting Physical damage. Damage varies by shapeshift form.",
@@ -517,11 +529,13 @@ window.WOW_PVP_DATA = {
           104085
         ],
         "entry_id": 103297,
+        "entry_max_ranks": 1,
         "definition_id": 108302,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ursoc's Spirit",
         "spell_id": 449182,
+        "visible_spell_id": null,
         "icon": "spell_nature_spiritarmor"
       },
       "pve_tooltip": "Stamina increased by 4%.\nStamina in Bear Form is increased by an additional 5%.",
@@ -572,11 +586,13 @@ window.WOW_PVP_DATA = {
           82214
         ],
         "entry_id": 103283,
+        "entry_max_ranks": 1,
         "definition_id": 108288,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Wild Growth",
         "spell_id": 48438,
+        "visible_spell_id": null,
         "icon": "ability_druid_flourish"
       },
       "pve_tooltip": "15% of base mana\n40 yd range\n1.5 sec cast\n10 sec cooldown\nHeals up to 5 injured allies within 30 yards of the target for (336.7% of Spell Power) over 7 sec. Healing starts high and declines over the duration. [Incarnation: Tree of Life: Tree of Life: Affects 2 additional targets.]",
@@ -625,11 +641,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103278,
+        "entry_max_ranks": 1,
         "definition_id": 108283,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Starsurge",
         "spell_id": 197626,
+        "visible_spell_id": null,
         "icon": "spell_arcane_arcane03"
       },
       "pve_tooltip": "0.6% of base mana\n40 yd range\nInstant\n10 sec cooldown\nLaunch a surge of stellar energies at the target, dealing (210.1% of Spell Power) Astral damage.",
@@ -681,11 +699,13 @@ window.WOW_PVP_DATA = {
           82221
         ],
         "entry_id": 103300,
+        "entry_max_ranks": 1,
         "definition_id": 108305,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Rip",
         "spell_id": 1079,
+        "visible_spell_id": null,
         "icon": "ability_ghoulfrenzy"
       },
       "pve_tooltip": "20 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\nFinishing move that causes Bleed damage over time. Lasts longer per combo point.\n1 point : [(62.26% of Attack Power) * 2 / 6] over 1 sec\n2 points: [(62.26% of Attack Power) * 3 / 6] over 2 sec\n3 points: [(62.26% of Attack Power) * 4 / 6] over 3 sec\n4 points: [(62.26% of Attack Power) * 5 / 6] over 3 sec\n5 points: [(62.26% of Attack Power) * 6 / 6] over 4 sec",
@@ -863,11 +883,13 @@ window.WOW_PVP_DATA = {
           104085
         ],
         "entry_id": 103296,
+        "entry_max_ranks": 1,
         "definition_id": 108301,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Verdant Heart",
         "spell_id": 301768,
+        "visible_spell_id": null,
         "icon": "ability_bullrush"
       },
       "pve_tooltip": "Frenzied Regeneration and Barkskin increase all healing received by 20%.",
@@ -921,11 +943,13 @@ window.WOW_PVP_DATA = {
           82214
         ],
         "entry_id": 103320,
+        "entry_max_ranks": 1,
         "definition_id": 108325,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Remove Corruption",
         "spell_id": 2782,
+        "visible_spell_id": null,
         "icon": "spell_holy_removecurse"
       },
       "pve_tooltip": "10% of base mana\n40 yd range\nInstant\n8 sec cooldown\nNullifies corrupting effects on the friendly target, removing all Curse and Poison effects.",
@@ -977,11 +1001,13 @@ window.WOW_PVP_DATA = {
           93714
         ],
         "entry_id": 103286,
+        "entry_max_ranks": 1,
         "definition_id": 108291,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Moonkin Form",
         "spell_id": 24858,
+        "visible_spell_id": null,
         "icon": "spell_nature_forceofnature"
       },
       "pve_tooltip": "Instant\nShapeshift into [Glyph of Stars: Astral Form / Moonkin Form], increasing the damage of your spells by 10% and your armor by 125%, and granting protection from Polymorph effects.\nThe act of shapeshifting frees you from movement impairing effects.",
@@ -1065,11 +1091,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103299,
+        "entry_max_ranks": 1,
         "definition_id": 108304,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Maim",
         "spell_id": 22570,
+        "visible_spell_id": null,
         "icon": "ability_druid_mangle.tga"
       },
       "pve_tooltip": "30 Energy / 1 to 5 Combo Points\nMelee Range\nInstant\n30 sec cooldown\nFinishing move that causes Physical damage and stuns the target. Damage and duration increased per combo point:\n1 point : [(14.4% of Attack Power)] damage, 1 sec\n2 points: [(14.4% of Attack Power) * 2] damage, 2 sec\n3 points: [(14.4% of Attack Power) * 3] damage, 3 sec\n4 points: [(14.4% of Attack Power) * 4] damage, 4 sec\n5 points: [(14.4% of Attack Power) * 5] damage, 5 sec",
@@ -1124,11 +1152,13 @@ window.WOW_PVP_DATA = {
           82198
         ],
         "entry_id": 103303,
+        "entry_max_ranks": 2,
         "definition_id": 108308,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Killer Instinct",
         "spell_id": 108299,
+        "visible_spell_id": null,
         "icon": "ability_druid_predatoryinstincts"
       },
       "pve_tooltip": "Physical damage and Armor increased by 6%.",
@@ -1146,6 +1176,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Physical damage and Armor increased by 3%.",
           "pvp_tooltip": "Physical damage and Armor increased by 3%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -1154,6 +1185,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Physical damage and Armor increased by 6%.",
           "pvp_tooltip": "Physical damage and Armor increased by 6%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -1194,11 +1226,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103305,
+        "entry_max_ranks": 1,
         "definition_id": 108310,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Ironfur",
         "spell_id": 192081,
+        "visible_spell_id": null,
         "icon": "ability_druid_ironfur"
       },
       "pve_tooltip": "40 Rage\nInstant\n0.5 sec cooldown\nIncreases armor by (124 / Master Shapeshifter: 161 / Reinforced Fur: 139 * Agility / 100) for 7 sec.",
@@ -1253,11 +1287,13 @@ window.WOW_PVP_DATA = {
           82206
         ],
         "entry_id": 128591,
+        "entry_max_ranks": 1,
         "definition_id": 133394,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Barkskin",
         "spell_id": 327993,
+        "visible_spell_id": null,
         "icon": "spell_nature_stoneclawtotem"
       },
       "pve_tooltip": "Barkskin's duration is increased by 4 sec.",
@@ -1308,11 +1344,13 @@ window.WOW_PVP_DATA = {
           82206
         ],
         "entry_id": 103289,
+        "entry_max_ranks": 1,
         "definition_id": 108294,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Hibernate",
         "spell_id": 2637,
+        "visible_spell_id": null,
         "icon": "spell_nature_sleep"
       },
       "pve_tooltip": "1.2% of base mana\n30 yd range\n1.5 sec cast\nForces the enemy target to sleep for up to 40 sec. Any damage will awaken the target. Only one target can be forced to hibernate at a time. Only works on Beasts and Dragonkin.",
@@ -1367,11 +1405,13 @@ window.WOW_PVP_DATA = {
           82232
         ],
         "entry_id": 103292,
+        "entry_max_ranks": 2,
         "definition_id": 108297,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Nurturing Instinct",
         "spell_id": 33873,
+        "visible_spell_id": null,
         "icon": "ability_druid_healinginstincts"
       },
       "pve_tooltip": "Magical damage and healing increased by 6%.",
@@ -1389,6 +1429,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Magical damage and healing increased by 3%.",
           "pvp_tooltip": "Magical damage and healing increased by 3%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -1397,6 +1438,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Magical damage and healing increased by 6%.",
           "pvp_tooltip": "Magical damage and healing increased by 6%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -1439,11 +1481,13 @@ window.WOW_PVP_DATA = {
           100223
         ],
         "entry_id": 116102,
+        "entry_max_ranks": 1,
         "definition_id": 121114,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Sunfire",
         "spell_id": 93402,
+        "visible_spell_id": null,
         "icon": "ability_mage_firestarter"
       },
       "pve_tooltip": "1.8% of base mana\n40 yd range\nInstant\nA quick beam of solar light burns the enemy for (21.2% of Spell Power) Nature damage and then an additional (165.6% of Spell Power) Nature damage over 18 sec.",
@@ -1574,11 +1618,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103302,
+        "entry_max_ranks": 1,
         "definition_id": 108307,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Primal Fury",
         "spell_id": 159286,
+        "visible_spell_id": null,
         "icon": "ability_racial_cannibalize"
       },
       "pve_tooltip": "While in Cat Form, when you critically strike with an attack that generates a combo point, you gain an additional combo point. Damage over time cannot trigger this effect.\nMangle critical strike damage increased by 20%.\n(100ms cooldown)",
@@ -1632,11 +1678,13 @@ window.WOW_PVP_DATA = {
           100177
         ],
         "entry_id": 103306,
+        "entry_max_ranks": 1,
         "definition_id": 108311,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Thick Hide",
         "spell_id": 16931,
+        "visible_spell_id": null,
         "icon": "inv_misc_pelt_bear_03"
       },
       "pve_tooltip": "Reduces all damage taken by 4%.",
@@ -1685,11 +1733,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103322,
+        "entry_max_ranks": 1,
         "definition_id": 108327,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Skull Bash",
         "spell_id": 106839,
+        "visible_spell_id": null,
         "icon": "inv_bone_skull_04"
       },
       "pve_tooltip": "13 yd range\nInstant\n15 sec cooldown\nYou charge and bash the target's skull, interrupting spellcasting and preventing any spell in that school from being cast for 5 sec.",
@@ -1744,11 +1794,13 @@ window.WOW_PVP_DATA = {
           82240
         ],
         "entry_id": 103284,
+        "entry_max_ranks": 1,
         "definition_id": 108289,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Natural Recovery",
         "spell_id": 377796,
+        "visible_spell_id": null,
         "icon": "ability_druid_naturalperfection"
       },
       "pve_tooltip": "Healing you receive is increased by 4%.",
@@ -1799,11 +1851,13 @@ window.WOW_PVP_DATA = {
           100223
         ],
         "entry_id": 103288,
+        "entry_max_ranks": 1,
         "definition_id": 108293,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Astral Influence",
         "spell_id": 197524,
+        "visible_spell_id": null,
         "icon": "ability_skyreach_lens_flare"
       },
       "pve_tooltip": "Increases the range of all of your spells by 5 yards.",
@@ -1857,11 +1911,13 @@ window.WOW_PVP_DATA = {
           100177
         ],
         "entry_id": 103276,
+        "entry_max_ranks": 1,
         "definition_id": 108281,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Wild Charge",
         "spell_id": 102401,
+        "visible_spell_id": null,
         "icon": "spell_druid_wildcharge"
       },
       "pve_tooltip": "5 - 25 yd range\nInstant\n15 sec cooldown\nFly to a nearby ally's position.",
@@ -1915,11 +1971,13 @@ window.WOW_PVP_DATA = {
           100177
         ],
         "entry_id": 103275,
+        "entry_max_ranks": 1,
         "definition_id": 108280,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Tiger Dash",
         "spell_id": 252216,
+        "visible_spell_id": null,
         "icon": "ability_druid_dash_orange"
       },
       "pve_tooltip": "Instant\n45 sec cooldown\nShift into Cat Form and increase your movement speed by 200%, reducing gradually over 5 sec.",
@@ -1971,11 +2029,13 @@ window.WOW_PVP_DATA = {
           82234
         ],
         "entry_id": 103307,
+        "entry_max_ranks": 1,
         "definition_id": 108312,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Soothe",
         "spell_id": 2908,
+        "visible_spell_id": null,
         "icon": "ability_hunter_beastsoothe"
       },
       "pve_tooltip": "1.12% of base mana\n40 yd range\nInstant\n10 sec cooldown\nSoothes the target, dispelling all enrage effects.",
@@ -2027,11 +2087,13 @@ window.WOW_PVP_DATA = {
           82234
         ],
         "entry_id": 128587,
+        "entry_max_ranks": 1,
         "definition_id": 133390,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Cyclone",
         "spell_id": 33786,
+        "visible_spell_id": null,
         "icon": "spell_nature_earthbind"
       },
       "pve_tooltip": "1.2% of base mana\n20 yd range\n1.7 sec cast\nTosses the enemy target into the air, disorienting them but making them invulnerable for up to 5 sec. Only one target can be affected by your Cyclone at a time.",
@@ -2085,11 +2147,13 @@ window.WOW_PVP_DATA = {
           82207
         ],
         "entry_id": 128581,
+        "entry_max_ranks": 1,
         "definition_id": 133384,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Aessina's Renewal",
         "spell_id": 474678,
+        "visible_spell_id": null,
         "icon": "spell_nature_healingtouch"
       },
       "pve_tooltip": "When a hit deals more than 12% of your maximum health, instantly heal for 10% of your health.\nThis effect cannot occur more than once every 30 seconds.\n(30s cooldown)",
@@ -2139,11 +2203,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 123868,
+        "entry_max_ranks": 1,
         "definition_id": 128706,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Starlight Conduit",
         "spell_id": 451211,
+        "visible_spell_id": null,
         "icon": "spell_arcane_arcane01"
       },
       "pve_tooltip": "Wrath, Starsurge, and Starfire damage increased by 5%.\nStarsurge's cooldown is reduced by 4 sec and its mana cost is reduced by 50%.",
@@ -2194,11 +2260,13 @@ window.WOW_PVP_DATA = {
           100176
         ],
         "entry_id": 103314,
+        "entry_max_ranks": 1,
         "definition_id": 108319,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Feline Swiftness",
         "spell_id": 131768,
+        "visible_spell_id": null,
         "icon": "ability_druid_dash"
       },
       "pve_tooltip": "Increases your movement speed by 15%.",
@@ -2250,11 +2318,13 @@ window.WOW_PVP_DATA = {
           104082
         ],
         "entry_id": 103313,
+        "entry_max_ranks": 1,
         "definition_id": 108318,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Well-Honed Instincts",
         "spell_id": 377847,
+        "visible_spell_id": null,
         "icon": "ability_druid_tigersroar"
       },
       "pve_tooltip": "When you fall below 40% health, you cast Frenzied Regeneration, up to once every 120 sec.",
@@ -2304,11 +2374,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 123796,
+        "entry_max_ranks": 2,
         "definition_id": 128634,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Matted Fur",
         "spell_id": 385786,
+        "visible_spell_id": null,
         "icon": "inv_misc_pelt_15"
       },
       "pve_tooltip": "When you use Barkskin or Survival Instincts, absorb [3750 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
@@ -2326,6 +2398,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "When you use Barkskin or Survival Instincts, absorb [1875 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
           "pvp_tooltip": "When you use Barkskin or Survival Instincts, absorb [1875 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2334,6 +2407,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "When you use Barkskin or Survival Instincts, absorb [3750 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
           "pvp_tooltip": "When you use Barkskin or Survival Instincts, absorb [3750 / 100 * Attack Power * (1 + Versatility)] damage for 15 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2378,11 +2452,13 @@ window.WOW_PVP_DATA = {
           104080
         ],
         "entry_id": 103312,
+        "entry_max_ranks": 1,
         "definition_id": 108317,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Stampeding Roar",
         "spell_id": 106898,
+        "visible_spell_id": null,
         "icon": "spell_druid_stampedingroar_cat"
       },
       "pve_tooltip": "10 yd range\nInstant\n2 min cooldown\nShift into Bear Form and let loose a wild roar, increasing the movement speed of all friendly players within 15 yards by 60% for 8 sec.",
@@ -2432,11 +2508,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103319,
+        "entry_max_ranks": 1,
         "definition_id": 108324,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lingering Healing",
         "spell_id": 231040,
+        "visible_spell_id": null,
         "icon": "spell_nature_rejuvenation"
       },
       "pve_tooltip": "Rejuvenation's duration is increased by 3 sec.\nRegrowth's duration is increased by 3 sec when cast on yourself.",
@@ -2488,24 +2566,47 @@ window.WOW_PVP_DATA = {
           100175
         ],
         "entry_id": 103287,
+        "entry_max_ranks": 1,
         "definition_id": 108292,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Typhoon",
         "spell_id": 132469,
+        "visible_spell_id": null,
         "icon": "ability_druid_typhoon"
       },
       "pve_tooltip": "15 yd range\nInstant\n30 sec cooldown\nBlasts targets within 15 yards in front of you with a violent Typhoon, knocking them back and reducing their movement speed by 50% for 6 sec. Usable in all shapeshift forms.",
-      "pvp_tooltip": "15 yd range\nInstant\n30 sec cooldown\nBlasts targets within 15 yards in front of you with a violent Typhoon, knocking them back and reducing their movement speed by 50% for 6 sec. Usable in all shapeshift forms.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "15 yd range\nInstant\n30 sec cooldown\nBlasts targets within 15 yards in front of you with a violent Typhoon, knocking them back and reducing their movement speed by 30% for 6 sec. Usable in all shapeshift forms.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 163,
+          "end": 165,
+          "old_token": "50",
+          "new_token": "30",
+          "kind": "percent_value",
+          "effect_indexes": [
+            3
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            3
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "50",
+          "new": "30"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 132469,
           "source_spell_id": 61391,
           "effect_index": 3,
@@ -2522,7 +2623,7 @@ window.WOW_PVP_DATA = {
             61391
           ],
           "dependency_relations": [
-            "triggered_by_reverse"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -2534,7 +2635,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -2574,11 +2675,13 @@ window.WOW_PVP_DATA = {
           100175
         ],
         "entry_id": 103285,
+        "entry_max_ranks": 1,
         "definition_id": 108290,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Mass Entanglement",
         "spell_id": 102359,
+        "visible_spell_id": null,
         "icon": "spell_druid_massentanglement"
       },
       "pve_tooltip": "30 yd range\nInstant\n30 sec cooldown\nRoots the target and all enemies within 12 yards in place for 10 sec. Damage may interrupt the effect. Usable in all shapeshift forms.",
@@ -2629,11 +2732,13 @@ window.WOW_PVP_DATA = {
           100175
         ],
         "entry_id": 128589,
+        "entry_max_ranks": 1,
         "definition_id": 133392,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Ursol's Vortex",
         "spell_id": 102793,
+        "visible_spell_id": null,
         "icon": "spell_druid_ursolsvortex"
       },
       "pve_tooltip": "30 yd range\nInstant\n1 min cooldown\nConjures a vortex of wind for 10 sec at the destination, reducing the movement speed of all enemies within 8 yards by 50%. The first time an enemy attempts to leave the vortex, winds will pull that enemy back to its center. Usable in all shapeshift forms.",
@@ -2687,11 +2792,13 @@ window.WOW_PVP_DATA = {
           82246
         ],
         "entry_id": 123795,
+        "entry_max_ranks": 1,
         "definition_id": 128633,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Oakskin",
         "spell_id": 449191,
+        "visible_spell_id": null,
         "icon": "spell_nature_stoneclawtotem"
       },
       "pve_tooltip": "Survival Instincts and Barkskin reduce damage taken by an additional 10%.",
@@ -2740,11 +2847,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 128586,
+        "entry_max_ranks": 1,
         "definition_id": 133389,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Perfectly-Honed Instincts",
         "spell_id": 1213597,
+        "visible_spell_id": null,
         "icon": "ability_druid_tigersroar"
       },
       "pve_tooltip": "Well-Honed Instincts can trigger up to once every 90 sec.",
@@ -2793,11 +2902,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 128585,
+        "entry_max_ranks": 1,
         "definition_id": 133388,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Instincts of the Claw",
         "spell_id": 449184,
+        "visible_spell_id": null,
         "icon": "spell_shadow_vampiricaura"
       },
       "pve_tooltip": "Ferocious Bite and Maul damage increased by 8%.",
@@ -2850,11 +2961,13 @@ window.WOW_PVP_DATA = {
           92229
         ],
         "entry_id": 103311,
+        "entry_max_ranks": 2,
         "definition_id": 108316,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lycara's Teachings",
         "spell_id": 378988,
+        "visible_spell_id": null,
         "icon": "inv_trinket_ardenweald_02_green"
       },
       "pve_tooltip": "You gain 6% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
@@ -2872,6 +2985,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "You gain 3% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
           "pvp_tooltip": "You gain 3% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2880,6 +2994,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "You gain 6% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
           "pvp_tooltip": "You gain 6% of a stat while in each form:\nNo Form: Haste\nCat Form: Critical Strike\nBear Form: Versatility\nMoonkin Form: Mastery",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2920,11 +3035,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 128584,
+        "entry_max_ranks": 1,
         "definition_id": 133387,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lore of the Grove",
         "spell_id": 449185,
+        "visible_spell_id": null,
         "icon": "spell_nature_starfall"
       },
       "pve_tooltip": "Moonfire and Sunfire damage increased by 10%.",
@@ -2973,11 +3090,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 128583,
+        "entry_max_ranks": 1,
         "definition_id": 133386,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Gale Winds",
         "spell_id": 400142,
+        "visible_spell_id": null,
         "icon": "ability_druid_galewinds"
       },
       "pve_tooltip": "Increases Typhoon's radius by 20% and its range by 5 yds.",
@@ -3026,11 +3145,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 128582,
+        "entry_max_ranks": 1,
         "definition_id": 133385,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Incessant Tempest",
         "spell_id": 400140,
+        "visible_spell_id": null,
         "icon": "ability_skyreach_wind"
       },
       "pve_tooltip": "Reduces the cooldown of Typhoon by 5 sec.",
@@ -3084,11 +3205,13 @@ window.WOW_PVP_DATA = {
           82244
         ],
         "entry_id": 123794,
+        "entry_max_ranks": 1,
         "definition_id": 128632,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Gift of the Wild",
         "spell_id": 1262034,
+        "visible_spell_id": null,
         "icon": "spell_nature_giftofthewild"
       },
       "pve_tooltip": "Mark of the Wild is 100% more effective on yourself.",
@@ -3137,11 +3260,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103316,
+        "entry_max_ranks": 1,
         "definition_id": 108321,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Incapacitating Roar",
         "spell_id": 99,
+        "visible_spell_id": null,
         "icon": "ability_druid_demoralizingroar"
       },
       "pve_tooltip": "Instant\n30 sec cooldown\nShift into Bear Form and invoke the spirit of Ursol to let loose a deafening roar, incapacitating all enemies within 10 yards for 3 sec. Damage may cancel the effect.",
@@ -3190,11 +3315,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103315,
+        "entry_max_ranks": 1,
         "definition_id": 108320,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Mighty Bash",
         "spell_id": 5211,
+        "visible_spell_id": null,
         "icon": "ability_druid_bash"
       },
       "pve_tooltip": "Melee Range\nInstant\n1 min cooldown\nInvokes the spirit of Ursoc to stun the target for 4 sec. Usable in all shapeshift forms.",
@@ -3243,11 +3370,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 123793,
+        "entry_max_ranks": 1,
         "definition_id": 128631,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ursine Vigor",
         "spell_id": 377842,
+        "visible_spell_id": null,
         "icon": "ability_druid_markofursol"
       },
       "pve_tooltip": "For 4 sec after shifting into Bear Form, your health and armor are increased by 15%.",
@@ -3298,11 +3427,13 @@ window.WOW_PVP_DATA = {
           82231
         ],
         "entry_id": 103308,
+        "entry_max_ranks": 1,
         "definition_id": 108313,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Stampeding Roar",
         "spell_id": 288826,
+        "visible_spell_id": null,
         "icon": "spell_druid_stamedingroar"
       },
       "pve_tooltip": "Stampeding Roar's cooldown is reduced by 60 sec.",
@@ -3353,11 +3484,13 @@ window.WOW_PVP_DATA = {
           82231
         ],
         "entry_id": 128580,
+        "entry_max_ranks": 1,
         "definition_id": 133383,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Circle of the Wild",
         "spell_id": 474530,
+        "visible_spell_id": null,
         "icon": "ability_druid_disembowel"
       },
       "pve_tooltip": "Physical damage dealt by your abilities increased by 5%.",
@@ -3408,11 +3541,13 @@ window.WOW_PVP_DATA = {
           82231
         ],
         "entry_id": 128579,
+        "entry_max_ranks": 1,
         "definition_id": 133382,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Circle of the Heavens",
         "spell_id": 474541,
+        "visible_spell_id": null,
         "icon": "spell_druid_equinox"
       },
       "pve_tooltip": "Magical damage dealt by your spells increased by 5%.",
@@ -3463,11 +3598,13 @@ window.WOW_PVP_DATA = {
           82231
         ],
         "entry_id": 114300,
+        "entry_max_ranks": 1,
         "definition_id": 119305,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lycara's Inspiration",
         "spell_id": 1232897,
+        "visible_spell_id": null,
         "icon": "inv_trinket_ardenweald_02_yellow"
       },
       "pve_tooltip": "You gain a bonus while in each form inspired by the breadth of your Druidic knowledge:\nNo Form: 4% Magic Damage\nCat Form: 4% Stamina\nBear Form: 5% Movement Speed\nMoonkin Form: 3% Area damage taken reduction",
@@ -3516,11 +3653,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 123792,
+        "entry_max_ranks": 1,
         "definition_id": 128630,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Symbiotic Relationship",
         "spell_id": 474750,
+        "visible_spell_id": null,
         "icon": "ability_druid_focusedgrowth"
       },
       "pve_tooltip": "2% of base mana\n40 yd range\n1.5 sec cast\nForm a bond with an ally. Your self-healing also heals your bonded ally for 10% of the amount healed. Your healing to your bonded ally also heals you for 8% of the amount healed.",
@@ -3569,11 +3708,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103323,
+        "entry_max_ranks": 2,
         "definition_id": 108328,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Forestwalk",
         "spell_id": 400129,
+        "visible_spell_id": null,
         "icon": "spell_lifegivingspeed"
       },
       "pve_tooltip": "Casting Regrowth increases your movement speed and healing received by 16% for 6 sec.\n(1s cooldown)",
@@ -3591,6 +3732,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Casting Regrowth increases your movement speed and healing received by 8% for 6 sec.\n(1s cooldown)",
           "pvp_tooltip": "Casting Regrowth increases your movement speed and healing received by 8% for 6 sec.\n(1s cooldown)",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -3599,6 +3741,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Casting Regrowth increases your movement speed and healing received by 16% for 6 sec.\n(1s cooldown)",
           "pvp_tooltip": "Casting Regrowth increases your movement speed and healing received by 16% for 6 sec.\n(1s cooldown)",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -3639,11 +3782,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103326,
+        "entry_max_ranks": 1,
         "definition_id": 108331,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fluid Form",
         "spell_id": 449193,
+        "visible_spell_id": null,
         "icon": "ability_druid_mastershapeshifter"
       },
       "pve_tooltip": "Shred, Rake, and Skull Bash can be used in any form and shift you into Cat Form, if necessary.\nMangle can be used in any form and shifts you into Bear Form.\nWrath and Starfire shift you into Moonkin Form, if known.",
@@ -3694,12 +3839,14 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103309,
+        "entry_max_ranks": 1,
         "definition_id": 108314,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Heart of the Wild",
         "spell_id": 1261867,
-        "icon": "spell_holy_blessingofagility"
+        "visible_spell_id": null,
+        "icon": "inv12_ability_druid_flourish_empowered"
       },
       "pve_tooltip": "40 yd range\nInstant\n2 min cooldown\nPerform a powerful off-role ability depending on your currently active shapeshift form.\nNon-shapeshifted:\nEmpowered Wild Growth that heals up to 5 injured allies within 30 yards of the target for [(336.7% of Spell Power) * 750 / 100] over 7 sec.\nCat Form:\nUnleash an empowered Feral Frenzy, clawing your target 5 times for [5 * (16.3% of Attack Power) * 1000 / 100] Physical damage and an additional [5 * 1000 / 100 * (32.67% of Attack Power) * 6 / 2] Bleed damage over 6 sec. Awards 5 combo points.\nMoonkin Form:\nCall down waves of empowered falling stars upon enemies within 40 yds, dealing [54 * (27% of Spell Power)] Astral damage over 8 sec.",
       "pvp_tooltip": "40 yd range\nInstant\n2 min cooldown\nPerform a powerful off-role ability depending on your currently active shapeshift form.\nNon-shapeshifted:\nEmpowered Wild Growth that heals up to 5 injured allies within 30 yards of the target for [(336.7% of Spell Power) * 750 / 100] over 7 sec.\nCat Form:\nUnleash an empowered Feral Frenzy, clawing your target 5 times for [5 * (16.3% of Attack Power) * 1000 / 100] Physical damage and an additional [5 * 1000 / 100 * (32.67% of Attack Power) * 6 / 2] Bleed damage over 6 sec. Awards 5 combo points.\nMoonkin Form:\nCall down waves of empowered falling stars upon enemies within 40 yds, dealing [54 * (22.491% of Spell Power)] Astral damage over 8 sec.",
@@ -3799,11 +3946,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103324,
+        "entry_max_ranks": 1,
         "definition_id": 108329,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Innervate",
         "spell_id": 29166,
+        "visible_spell_id": null,
         "icon": "spell_nature_lightning"
       },
       "pve_tooltip": "40 yd range\nInstant\n3 min cooldown\nInfuse a friendly healer with energy, causing them to regenerate 20% of their maximum mana over 8 sec.",
@@ -3890,11 +4039,13 @@ window.WOW_PVP_DATA = {
           82126
         ],
         "entry_id": 103191,
+        "entry_max_ranks": 1,
         "definition_id": 108196,
         "entry_index": 0,
         "entry_type": "active",
         "talent_name": "Maul",
         "spell_id": 6807,
+        "visible_spell_id": null,
         "icon": "ability_druid_maul"
       },
       "pve_tooltip": "40 Rage\nMelee Range\nInstant\nMaul the target for (212.5% of Attack Power) Physical damage.",
@@ -3946,11 +4097,13 @@ window.WOW_PVP_DATA = {
           92227
         ],
         "entry_id": 103190,
+        "entry_max_ranks": 1,
         "definition_id": 108195,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Gore",
         "spell_id": 210706,
+        "visible_spell_id": null,
         "icon": "spell_druid_bearhug"
       },
       "pve_tooltip": "Thrash, Swipe, Moonfire, and Maul have a 15% chance to reset the cooldown on Mangle, and to cause it to generate an additional 4 Rage.\n(200ms cooldown)",
@@ -4002,11 +4155,13 @@ window.WOW_PVP_DATA = {
           109376
         ],
         "entry_id": 103193,
+        "entry_max_ranks": 1,
         "definition_id": 108198,
         "entry_index": 0,
         "entry_type": "active",
         "talent_name": "Survival Instincts",
         "spell_id": 61336,
+        "visible_spell_id": null,
         "icon": "ability_druid_tigersroar"
       },
       "pve_tooltip": "Instant\n3 min cooldown\n2 Charges\nReduces all damage you take by 50% for 6 sec.",
@@ -4057,11 +4212,13 @@ window.WOW_PVP_DATA = {
           82160
         ],
         "entry_id": 103205,
+        "entry_max_ranks": 1,
         "definition_id": 108210,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Front of the Pack",
         "spell_id": 377835,
+        "visible_spell_id": null,
         "icon": "spell_druid_stampedingroar_cat"
       },
       "pve_tooltip": "Stampeding Roar's radius is increased by 30%.\nYour movement speed is increased by 5%.",
@@ -4113,11 +4270,13 @@ window.WOW_PVP_DATA = {
           82149
         ],
         "entry_id": 103218,
+        "entry_max_ranks": 1,
         "definition_id": 108223,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Persistence",
         "spell_id": 1251406,
+        "visible_spell_id": null,
         "icon": "inv_1115_druid_bearstanding"
       },
       "pve_tooltip": "When you shapeshift out of Bear Form, its benefits to health and armor slowly decay over 8 sec.",
@@ -4169,11 +4328,13 @@ window.WOW_PVP_DATA = {
           82131
         ],
         "entry_id": 114698,
+        "entry_max_ranks": 1,
         "definition_id": 119704,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Dream of Cenarius",
         "spell_id": 372119,
+        "visible_spell_id": null,
         "icon": "ability_druid_dreamstate"
       },
       "pve_tooltip": "Approximately 3 procs per minute\nWhen you take non-periodic damage, you have a chance to cause your next Regrowth to heal for an additional 130%, and to be instant, free, and castable in all forms for 30 sec.",
@@ -4186,7 +4347,7 @@ window.WOW_PVP_DATA = {
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 372119,
           "source_spell_id": 8936,
           "effect_index": 1,
@@ -4204,7 +4365,7 @@ window.WOW_PVP_DATA = {
             8936
           ],
           "dependency_relations": [
-            "trigger_spell",
+            "tooltip_value_ref",
             "triggered_by_reverse"
           ],
           "aura_rules": [],
@@ -4218,7 +4379,7 @@ window.WOW_PVP_DATA = {
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 372119,
           "source_spell_id": 8936,
           "effect_index": 2,
@@ -4236,7 +4397,7 @@ window.WOW_PVP_DATA = {
             8936
           ],
           "dependency_relations": [
-            "trigger_spell",
+            "tooltip_value_ref",
             "triggered_by_reverse"
           ],
           "aura_rules": [],
@@ -4290,11 +4451,13 @@ window.WOW_PVP_DATA = {
           82131
         ],
         "entry_id": 136806,
+        "entry_max_ranks": 1,
         "definition_id": 141569,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Dream Guide",
         "spell_id": 1278886,
+        "visible_spell_id": null,
         "icon": "achievement_reputation_guardiansofcenarius"
       },
       "pve_tooltip": "Approximately 3 procs per minute\nWhen you take non-periodic damage, you have a chance to gain a charge of Dream Guide.\nWhen you or a nearby ally drops below 40% health, you consume a charge of Dream Guide to automatically cast Regrowth on them. This Regrowth heals for an additional 100%.",
@@ -4345,24 +4508,47 @@ window.WOW_PVP_DATA = {
           82131
         ],
         "entry_id": 135567,
+        "entry_max_ranks": 1,
         "definition_id": 140323,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Infected Wounds",
         "spell_id": 345208,
+        "visible_spell_id": null,
         "icon": "ability_druid_infectedwound"
       },
       "pve_tooltip": "Mangle and Maul cause an Infected Wound in the target, reducing their movement speed by 50% for 12 sec.",
-      "pvp_tooltip": "Mangle and Maul cause an Infected Wound in the target, reducing their movement speed by 50% for 12 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "Mangle and Maul cause an Infected Wound in the target, reducing their movement speed by 30% for 12 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 88,
+          "end": 90,
+          "old_token": "50",
+          "new_token": "30",
+          "kind": "percent_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "percent_value",
+          "old": "50",
+          "new": "30"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 345208,
           "source_spell_id": 345209,
           "effect_index": 1,
@@ -4379,7 +4565,7 @@ window.WOW_PVP_DATA = {
             345209
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [],
           "sources": [
@@ -4391,7 +4577,7 @@ window.WOW_PVP_DATA = {
           "confidence": "high"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -4433,11 +4619,13 @@ window.WOW_PVP_DATA = {
           82157
         ],
         "entry_id": 103229,
+        "entry_max_ranks": 1,
         "definition_id": 108234,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Innate Resolve",
         "spell_id": 377811,
+        "visible_spell_id": null,
         "icon": "spell_nature_healingway"
       },
       "pve_tooltip": "Frenzied Regeneration's healing is increased by up to 80% based on your missing health.\nFrenzied Regeneration has 1 additional charge.",
@@ -4491,11 +4679,13 @@ window.WOW_PVP_DATA = {
           82144
         ],
         "entry_id": 103216,
+        "entry_max_ranks": 1,
         "definition_id": 108221,
         "entry_index": 0,
         "entry_type": "active",
         "talent_name": "Berserk",
         "spell_id": 50334,
+        "visible_spell_id": null,
         "icon": "ability_druid_berserk"
       },
       "pve_tooltip": "Instant\n26 sec cooldown\nGo berserk for 15 sec, reducing the cooldowns of Mangle, Thrash, and Growl by 50% and the cooldown of Frenzied Regeneration by 100%.",
@@ -4548,11 +4738,13 @@ window.WOW_PVP_DATA = {
           82146
         ],
         "entry_id": 103195,
+        "entry_max_ranks": 1,
         "definition_id": 108200,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Vulnerable Flesh",
         "spell_id": 372618,
+        "visible_spell_id": null,
         "icon": "ability_druid_primalagression"
       },
       "pve_tooltip": "Maul and Raze deal 30% increased damage.",
@@ -4604,11 +4796,13 @@ window.WOW_PVP_DATA = {
           92226
         ],
         "entry_id": 103210,
+        "entry_max_ranks": 2,
         "definition_id": 108215,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Survival of the Fittest",
         "spell_id": 203965,
+        "visible_spell_id": null,
         "icon": "ability_druid_enrage"
       },
       "pve_tooltip": "Reduces the cooldowns of Barkskin and Survival Instincts by 24%.",
@@ -4626,6 +4820,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Reduces the cooldowns of Barkskin and Survival Instincts by 12%.",
           "pvp_tooltip": "Reduces the cooldowns of Barkskin and Survival Instincts by 12%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -4634,6 +4829,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Reduces the cooldowns of Barkskin and Survival Instincts by 24%.",
           "pvp_tooltip": "Reduces the cooldowns of Barkskin and Survival Instincts by 24%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -4678,11 +4874,13 @@ window.WOW_PVP_DATA = {
           82156
         ],
         "entry_id": 103226,
+        "entry_max_ranks": 2,
         "definition_id": 108231,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Reinvigoration",
         "spell_id": 372945,
+        "visible_spell_id": null,
         "icon": "ability_druid_overgrowth"
       },
       "pve_tooltip": "Frenzied Regeneration heals over 2 additional sec and casts Rejuvenation and Regrowth on you at 200% effectiveness.",
@@ -4700,6 +4898,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Frenzied Regeneration heals over 1.0 additional sec and casts Rejuvenation and Regrowth on you at 100% effectiveness.",
           "pvp_tooltip": "Frenzied Regeneration heals over 1.0 additional sec and casts Rejuvenation and Regrowth on you at 100% effectiveness.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -4708,6 +4907,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Frenzied Regeneration heals over 2 additional sec and casts Rejuvenation and Regrowth on you at 200% effectiveness.",
           "pvp_tooltip": "Frenzied Regeneration heals over 2 additional sec and casts Rejuvenation and Regrowth on you at 200% effectiveness.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -4752,11 +4952,13 @@ window.WOW_PVP_DATA = {
           109377
         ],
         "entry_id": 103206,
+        "entry_max_ranks": 1,
         "definition_id": 108211,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "After the Wildfire",
         "spell_id": 371905,
+        "visible_spell_id": null,
         "icon": "inv12_ability_druid_afterthewildfire"
       },
       "pve_tooltip": "Every 300 Rage you spend causes a burst of restorative energy, healing up to 5 allies within 20 yds for (750% of Attack Power).",
@@ -4861,11 +5063,13 @@ window.WOW_PVP_DATA = {
           109375
         ],
         "entry_id": 103211,
+        "entry_max_ranks": 2,
         "definition_id": 108216,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Memory of Ysera",
         "spell_id": 1250906,
+        "visible_spell_id": null,
         "icon": "spell_nature_regeneration_02"
       },
       "pve_tooltip": "Heal each time you spend Rage, up to 1.6% of your maximum health for 80 Rage spent.",
@@ -4883,6 +5087,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Heal each time you spend Rage, up to 0.8% of your maximum health for 80 Rage spent.",
           "pvp_tooltip": "Heal each time you spend Rage, up to 0.8% of your maximum health for 80 Rage spent.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -4891,6 +5096,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Heal each time you spend Rage, up to 1.6% of your maximum health for 80 Rage spent.",
           "pvp_tooltip": "Heal each time you spend Rage, up to 1.6% of your maximum health for 80 Rage spent.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -4934,11 +5140,13 @@ window.WOW_PVP_DATA = {
           82148
         ],
         "entry_id": 103213,
+        "entry_max_ranks": 2,
         "definition_id": 108218,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Scintillating Moonlight",
         "spell_id": 238049,
+        "visible_spell_id": null,
         "icon": "spell_fire_twilightfireward"
       },
       "pve_tooltip": "Moonfire reduces damage dealt to you by 12%.",
@@ -4956,6 +5164,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Moonfire reduces damage dealt to you by 6%.",
           "pvp_tooltip": "Moonfire reduces damage dealt to you by 6%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -4964,6 +5173,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Moonfire reduces damage dealt to you by 12%.",
           "pvp_tooltip": "Moonfire reduces damage dealt to you by 12%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -5007,11 +5217,13 @@ window.WOW_PVP_DATA = {
           82159
         ],
         "entry_id": 135337,
+        "entry_max_ranks": 1,
         "definition_id": 140104,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ward of the Forest",
         "spell_id": 1250923,
+        "visible_spell_id": null,
         "icon": "achievement_zone_grizzlyhills_01"
       },
       "pve_tooltip": "Barkskin increases your maximum health by 20%, but its duration is reduced by 40%.",
@@ -5063,11 +5275,13 @@ window.WOW_PVP_DATA = {
           82159
         ],
         "entry_id": 135570,
+        "entry_max_ranks": 1,
         "definition_id": 140326,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Brambles",
         "spell_id": 203953,
+        "visible_spell_id": null,
         "icon": "inv_misc_thornnecklace"
       },
       "pve_tooltip": "Sharp brambles protect you, absorbing and reflecting up to 0 damage from each attack.\nWhile Barkskin is active, the brambles also deal (7.5% of Attack Power) Nature damage to all nearby enemies every 1 sec.",
@@ -5171,11 +5385,13 @@ window.WOW_PVP_DATA = {
           82152
         ],
         "entry_id": 103208,
+        "entry_max_ranks": 1,
         "definition_id": 108213,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Soul of the Forest",
         "spell_id": 158477,
+        "visible_spell_id": null,
         "icon": "ability_druid_manatree"
       },
       "pve_tooltip": "Mangle generates 5 more Rage and deals 25% more damage.",
@@ -5228,11 +5444,13 @@ window.WOW_PVP_DATA = {
           82137
         ],
         "entry_id": 103225,
+        "entry_max_ranks": 1,
         "definition_id": 108230,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Natural Resilience",
         "spell_id": 1278789,
+        "visible_spell_id": null,
         "icon": "spell_lfieblood"
       },
       "pve_tooltip": "When Frenzied Regeneration would heal you above maximum health, 80% of its excess healing is instead converted to an absorb shield.",
@@ -5283,11 +5501,13 @@ window.WOW_PVP_DATA = {
           82137
         ],
         "entry_id": 103231,
+        "entry_max_ranks": 1,
         "definition_id": 108236,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Reinforced Fur",
         "spell_id": 393618,
+        "visible_spell_id": null,
         "icon": "spell_nature_spiritarmor"
       },
       "pve_tooltip": "Ironfur increases armor by an additional 15% and Barkskin reduces damage taken by an additional 10%.",
@@ -5338,11 +5558,13 @@ window.WOW_PVP_DATA = {
           82137
         ],
         "entry_id": 103230,
+        "entry_max_ranks": 1,
         "definition_id": 108235,
         "entry_index": 1,
         "entry_type": "active",
         "talent_name": "Bristling Fur",
         "spell_id": 155835,
+        "visible_spell_id": null,
         "icon": "spell_druid_bristlingfur"
       },
       "pve_tooltip": "Instant\n45 sec cooldown\nBristle your fur, causing you to generate Rage based on damage taken for 8 sec.",
@@ -5395,11 +5617,13 @@ window.WOW_PVP_DATA = {
           92587
         ],
         "entry_id": 135491,
+        "entry_max_ranks": 1,
         "definition_id": 140248,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Gift of an Ancient Guardian",
         "spell_id": 1251876,
+        "visible_spell_id": null,
         "icon": "inv_relics_idolofhealth"
       },
       "pve_tooltip": "Ironfur increases your Mastery by 5%.",
@@ -5452,11 +5676,13 @@ window.WOW_PVP_DATA = {
           92587
         ],
         "entry_id": 135569,
+        "entry_max_ranks": 1,
         "definition_id": 140325,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Guardian of Elune",
         "spell_id": 155578,
+        "visible_spell_id": null,
         "icon": "spell_druid_guardianofelune"
       },
       "pve_tooltip": "Mangle increases the duration of your next Ironfur by 3 sec, or the healing of your next Frenzied Regeneration by 20%.",
@@ -5508,11 +5734,13 @@ window.WOW_PVP_DATA = {
           92587
         ],
         "entry_id": 135568,
+        "entry_max_ranks": 1,
         "definition_id": 140324,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ursoc's Endurance",
         "spell_id": 393611,
+        "visible_spell_id": null,
         "icon": "ability_hunter_pet_bear"
       },
       "pve_tooltip": "Increases the duration of Barkskin and Ironfur by 2.0 sec.",
@@ -5564,11 +5792,13 @@ window.WOW_PVP_DATA = {
           92587
         ],
         "entry_id": 135566,
+        "entry_max_ranks": 1,
         "definition_id": 140322,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Gory Fur",
         "spell_id": 200854,
+        "visible_spell_id": null,
         "icon": "artifactability_guardiandruid_goryfur"
       },
       "pve_tooltip": "Ironfur has a 20% chance to make your next [Raze / Maul] or Ravage free.\n[Raze / Maul] and Ravage have a 10% chance to make your next Ironfur free.",
@@ -5620,11 +5850,13 @@ window.WOW_PVP_DATA = {
           82147
         ],
         "entry_id": 103215,
+        "entry_max_ranks": 1,
         "definition_id": 108220,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Ursol's Warding",
         "spell_id": 471492,
+        "visible_spell_id": null,
         "icon": "spell_nature_natureresistancetotem"
       },
       "pve_tooltip": "Gain magical damage reduction equal to 10% of your damage reduction from armor.",
@@ -5679,11 +5911,13 @@ window.WOW_PVP_DATA = {
           82142
         ],
         "entry_id": 103221,
+        "entry_max_ranks": 1,
         "definition_id": 108226,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Rend and Tear",
         "spell_id": 204053,
+        "visible_spell_id": null,
         "icon": "ability_druid_swipe"
       },
       "pve_tooltip": "Each stack of Thrash reduces the target's damage to you by 3% and increases your damage to them by 2%.",
@@ -5738,11 +5972,13 @@ window.WOW_PVP_DATA = {
           82142
         ],
         "entry_id": 103220,
+        "entry_max_ranks": 1,
         "definition_id": 108225,
         "entry_index": 1,
         "entry_type": "passive",
         "talent_name": "Untamed Savagery",
         "spell_id": 372943,
+        "visible_spell_id": null,
         "icon": "spell_druid_bloodythrash"
       },
       "pve_tooltip": "Increases the damage and radius of Thrash by 25%.",
@@ -5797,11 +6033,13 @@ window.WOW_PVP_DATA = {
           82136
         ],
         "entry_id": 103202,
+        "entry_max_ranks": 1,
         "definition_id": 108207,
         "entry_index": 0,
         "entry_type": "active",
         "talent_name": "Raze",
         "spell_id": 400254,
+        "visible_spell_id": null,
         "icon": "ability_druid_lacerate"
       },
       "pve_tooltip": "40 Rage\nMelee Range\nInstant\nStrike with the might of Ursoc, dealing (212.5% of Attack Power) Physical damage to your target and (115.6% of Attack Power) to all other enemies in front of you. Damage reduced beyond 5 targets.",
@@ -5856,11 +6094,13 @@ window.WOW_PVP_DATA = {
           82147
         ],
         "entry_id": 114700,
+        "entry_max_ranks": 1,
         "definition_id": 119706,
         "entry_index": 0,
         "entry_type": "active",
         "talent_name": "Lunar Beam",
         "spell_id": 204066,
+        "visible_spell_id": null,
         "icon": "spell_nature_moonglow"
       },
       "pve_tooltip": "40 yd range\nInstant\n1 min cooldown\nSummons a beam of lunar light at your target's location, dealing (40% of Attack Power) Arcane damage each second to your target and (40% of Attack Power) to up to 5 other enemies within 0 yd.\nLunar Beam also increases your mastery by (14 * $mas)%, and heals you for [(350% of Attack Power) * 8] over 8 sec.",
@@ -5913,11 +6153,13 @@ window.WOW_PVP_DATA = {
           82153
         ],
         "entry_id": 103228,
+        "entry_max_ranks": 1,
         "definition_id": 108233,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Ursoc's Fury",
         "spell_id": 377210,
+        "visible_spell_id": null,
         "icon": "achievement_emeraldnightmare_ursoc"
       },
       "pve_tooltip": "Thrash and Maul grant you an absorb shield for 35% of the damage dealt for 15 sec.",
@@ -5968,11 +6210,13 @@ window.WOW_PVP_DATA = {
           109379
         ],
         "entry_id": 103223,
+        "entry_max_ranks": 2,
         "definition_id": 108228,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Flashing Claws",
         "spell_id": 393427,
+        "visible_spell_id": null,
         "icon": "spell_druid_thrash"
       },
       "pve_tooltip": "Thrash has a 20% chance to trigger an additional Thrash.\nThrash stacks 2 additional time.",
@@ -5990,6 +6234,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Thrash has a 10% chance to trigger an additional Thrash.\nThrash stacks 1 additional time.",
           "pvp_tooltip": "Thrash has a 10% chance to trigger an additional Thrash.\nThrash stacks 1 additional time.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -5998,6 +6243,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Thrash has a 20% chance to trigger an additional Thrash.\nThrash stacks 2 additional time.",
           "pvp_tooltip": "Thrash has a 20% chance to trigger an additional Thrash.\nThrash stacks 2 additional time.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6042,11 +6288,13 @@ window.WOW_PVP_DATA = {
           109379
         ],
         "entry_id": 103209,
+        "entry_max_ranks": 1,
         "definition_id": 108214,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Blood Frenzy",
         "spell_id": 203962,
+        "visible_spell_id": null,
         "icon": "ability_druid_primaltenacity"
       },
       "pve_tooltip": "Thrash also generates 3 Rage each time it deals damage, on up to 5 targets.",
@@ -6099,11 +6347,13 @@ window.WOW_PVP_DATA = {
           82134
         ],
         "entry_id": 114699,
+        "entry_max_ranks": 1,
         "definition_id": 119705,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Moonless Night",
         "spell_id": 400278,
+        "visible_spell_id": null,
         "icon": "artifactability_balancedruid_newmoon"
       },
       "pve_tooltip": "Your direct damage melee abilities against enemies afflicted by Moonfire cause them to burn for an additional 20% Arcane damage.",
@@ -6154,11 +6404,13 @@ window.WOW_PVP_DATA = {
           82134
         ],
         "entry_id": 103203,
+        "entry_max_ranks": 2,
         "definition_id": 108208,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Fury of Nature",
         "spell_id": 370695,
+        "visible_spell_id": null,
         "icon": "ability_druid_cresentburn"
       },
       "pve_tooltip": "While in Bear Form, you deal 30% increased Arcane damage.",
@@ -6176,6 +6428,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "While in Bear Form, you deal 15% increased Arcane damage.",
           "pvp_tooltip": "While in Bear Form, you deal 15% increased Arcane damage.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -6184,6 +6437,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "While in Bear Form, you deal 30% increased Arcane damage.",
           "pvp_tooltip": "While in Bear Form, you deal 30% increased Arcane damage.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6228,11 +6482,13 @@ window.WOW_PVP_DATA = {
           82145
         ],
         "entry_id": 103214,
+        "entry_max_ranks": 1,
         "definition_id": 108219,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Twin Moonfire",
         "spell_id": 372567,
+        "visible_spell_id": null,
         "icon": "spell_nature_starfall"
       },
       "pve_tooltip": "Moonfire deals 8% increased damage and also hits another nearby enemy within 15 yds of the target.",
@@ -6357,11 +6613,13 @@ window.WOW_PVP_DATA = {
           82145
         ],
         "entry_id": 135336,
+        "entry_max_ranks": 1,
         "definition_id": 140103,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Red Moon",
         "spell_id": 1252871,
+        "visible_spell_id": null,
         "icon": "sha_ability_mage_firestarter_nightmare"
       },
       "pve_tooltip": "40 yd range\nInstant\n30 sec cooldown\nChannel the power of the enraged moon to deal (640% of Spell Power) Arcane damage to your target over 8 sec. Casting Mangle extends its duration by 1.0 sec and generates 8 Rage.",
@@ -6415,11 +6673,13 @@ window.WOW_PVP_DATA = {
           92588
         ],
         "entry_id": 135490,
+        "entry_max_ranks": 1,
         "definition_id": 140247,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Harnessed Rage",
         "spell_id": 1253035,
+        "visible_spell_id": null,
         "icon": "inv_misc_bearclaw_nightmare"
       },
       "pve_tooltip": "Mangle has 1 additional charge and when Maul is cast at 80 Rage or above its chance to activate Gore is increased by 100%.",
@@ -6474,11 +6734,13 @@ window.WOW_PVP_DATA = {
           92588
         ],
         "entry_id": 103201,
+        "entry_max_ranks": 1,
         "definition_id": 108206,
         "entry_index": 0,
         "entry_type": "active",
         "talent_name": "Incarnation: Guardian of Ursoc",
         "spell_id": 102558,
+        "visible_spell_id": null,
         "icon": "spell_druid_incarnation"
       },
       "pve_tooltip": "Replaces Berserk\nInstant\n26 sec cooldown\nAn improved Bear Form that grants the benefits of Berserk, causes Mangle to hit up to 3 targets, and increases maximum health by 30%.\nLasts 30 sec. You may freely shapeshift in and out of this improved Bear Form for its duration.",
@@ -6533,11 +6795,13 @@ window.WOW_PVP_DATA = {
           92588
         ],
         "entry_id": 103200,
+        "entry_max_ranks": 1,
         "definition_id": 108205,
         "entry_index": 1,
         "entry_type": "active",
         "talent_name": "Convoke the Spirits",
         "spell_id": 391528,
+        "visible_spell_id": null,
         "icon": "inv_ability_druid_convokethespirits"
       },
       "pve_tooltip": "Channeled (4 sec cast)\n2 min cooldown\nCall upon the spirits for an eruption of energy, channeling a rapid flurry of 16 / Ursoc's Guidance: 12 / Elune's Guidance: 12 / Astral Insight: 20 Druid spells and abilities over 4 sec. [Ashamane's Guidance: Chance to use an exceptional spell or ability is increased]\nYou will cast Wild Growth, Swiftmend, Moonfire, Wrath, Regrowth, Rejuvenation, Rake, and Thrash on appropriate nearby targets, favoring your current shapeshift form.",
@@ -6591,11 +6855,13 @@ window.WOW_PVP_DATA = {
           82145
         ],
         "entry_id": 103198,
+        "entry_max_ranks": 1,
         "definition_id": 108203,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Elune's Favored",
         "spell_id": 370586,
+        "visible_spell_id": null,
         "icon": "spell_holy_elunesgrace"
       },
       "pve_tooltip": "While in Bear Form, you are healed for 18% of all Arcane damage done.",
@@ -6645,11 +6911,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103222,
+        "entry_max_ranks": 1,
         "definition_id": 108227,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Killing Blow",
         "spell_id": 1252994,
+        "visible_spell_id": null,
         "icon": "artifactability_feraldruid_ashamanesbite"
       },
       "pve_tooltip": "Maul and Raze may consume up to 20 more Rage to deal up to 70% additional damage.",
@@ -6699,11 +6967,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 114701,
+        "entry_max_ranks": 1,
         "definition_id": 119707,
         "entry_index": 0,
         "entry_type": "active",
         "talent_name": "Sundering Roar",
         "spell_id": 1253799,
+        "visible_spell_id": null,
         "icon": "artifactability_feraldruid_openwounds"
       },
       "pve_tooltip": "Instant\n1 min cooldown\nRoar with earthshattering ferocity, dealing (280% of Attack Power) Physical damage, and resetting the cooldown of Thrash and allowing it to stack 5 additional times for 12 sec.\nWhen Sundering Roar ends, any excess stacks of Thrash immediately deal their remaining damage.",
@@ -6752,11 +7022,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103199,
+        "entry_max_ranks": 1,
         "definition_id": 108204,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Ursoc's Guidance",
         "spell_id": 393414,
+        "visible_spell_id": null,
         "icon": "inv_ability_druid_convokethespirits"
       },
       "pve_tooltip": "Incarnation: Guardian of Ursoc:\nEvery 25 Rage you spend reduces the cooldown of Incarnation: Guardian of Ursoc by 1 sec.\nConvoke the Spirits:\nConvoke the Spirits' cooldown is reduced by 50% and its duration and number of spells cast is reduced by 25%. Convoke the Spirits has an increased chance to use an exceptional spell or ability.",
@@ -6806,11 +7078,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 135488,
+        "entry_max_ranks": 1,
         "definition_id": 140245,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Waking Nightmare",
         "spell_id": 1253461,
+        "visible_spell_id": null,
         "icon": "sha_spell_shadow_shadesofdarkness_nightmare"
       },
       "pve_tooltip": "Approximately 2 procs per minute\nAwaken memories of past conflicts, causing a Dread Shade to take form nearby.\nWhile active, shades slowly travel toward your target, dealing (70% of Attack Power) Nature damage to nearby enemies and mirroring your Thrash casts.",
@@ -6860,11 +7134,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 103212,
+        "entry_max_ranks": 1,
         "definition_id": 108217,
         "entry_index": 0,
         "entry_type": "passive",
         "talent_name": "Galactic Guardian",
         "spell_id": 203964,
+        "visible_spell_id": null,
         "icon": "spell_frost_iceclaw"
       },
       "pve_tooltip": "Your damage has a 5% chance to trigger a free automatic Moonfire on that target.\nMoonfire:\nWhen this occurs, the next Moonfire you cast generates 8 Rage, and deals 300% increased direct damage.\nRed Moon:\nWhen this occurs, you gain 1 charge of Lunar Wrath. Each 20 Rage you spend while Red Moon is active consumes a stack to deal (100% of Spell Power) additional Arcane damage to its target and heal you for (130% of Spell Power).\n(2s cooldown)",
@@ -6911,11 +7187,13 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 137061,
+        "entry_max_ranks": 1,
         "definition_id": 141824,
         "entry_index": 0,
         "entry_type": "tierrank",
         "talent_name": "Wild Guardian",
         "spell_id": 1269614,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_druid_wildguardian"
       },
       "pve_tooltip": "Spending Rage has a 10% chance to awaken a guardian spirit for 8 sec, which attacks a nearby enemy for (300% of Attack Power) when you cast Thrash or Mangle.",
@@ -6962,15 +7240,17 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 137060,
+        "entry_max_ranks": 2,
         "definition_id": 141823,
         "entry_index": 100,
         "entry_type": "tierrank",
         "talent_name": "Wild Guardian",
         "spell_id": 1269617,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_druid_wildguardian"
       },
-      "pve_tooltip": "Mangle, [Raze / Maul] and Ravage deal 20% additional Nature damage over 12 sec. Your Mastery is increased by 3%.",
-      "pvp_tooltip": "Mangle, [Raze / Maul] and Ravage deal 20% additional Nature damage over 12 sec. Your Mastery is increased by 3%.",
+      "pve_tooltip": "Mangle, [Raze / Maul] and Ravage deal 40% additional Nature damage over 12 sec. Your Mastery is increased by 6%.",
+      "pvp_tooltip": "Mangle, [Raze / Maul] and Ravage deal 40% additional Nature damage over 12 sec. Your Mastery is increased by 6%.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6978,7 +7258,26 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Mangle, [Raze / Maul] and Ravage deal 0% additional Nature damage over 12 sec. Your Mastery is increased by 3%.",
+          "pvp_tooltip": "Mangle, [Raze / Maul] and Ravage deal 0% additional Nature damage over 12 sec. Your Mastery is increased by 3%.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Mangle, [Raze / Maul] and Ravage deal 40% additional Nature damage over 12 sec. Your Mastery is increased by 6%.",
+          "pvp_tooltip": "Mangle, [Raze / Maul] and Ravage deal 40% additional Nature damage over 12 sec. Your Mastery is increased by 6%.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Wild Guardian",
@@ -7013,11 +7312,13 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 137059,
+        "entry_max_ranks": 1,
         "definition_id": 141822,
         "entry_index": 200,
         "entry_type": "tierrank",
         "talent_name": "Wild Guardian",
         "spell_id": 1269619,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_druid_wildguardian"
       },
       "pve_tooltip": "When a spirit is awakened, the cooldowns of Thrash and Mangle are reset, and they deal 30% increased damage while the spirit is with you. Each time a spirit attacks, you generate 8 additional Rage.\nAfter casting [Incarnation: Guardian of Ursoc / Berserk], gain 1 charge of Wild Guardian:\nWild Guardian:\nYour next cast of [Raze][Maul] or Ravage is guaranteed to awaken a spirit.",
@@ -7069,11 +7370,13 @@ window.WOW_PVP_DATA = {
           109720
         ],
         "entry_id": 117205,
+        "entry_max_ranks": 1,
         "definition_id": 122217,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Boundless Moonlight",
         "spell_id": 424058,
+        "visible_spell_id": null,
         "icon": "inv_ability_eluneschosendruid_boundlessmoonlight"
       },
       "pve_tooltip": "Lunar Beam\nLunar Beam now causes you to leech life equal to 12% of all damage dealt to enemies within the beam.\nFury of Elune\nFury of Elune now ends with a flash of energy, blasting nearby enemies for (216.32% of Spell Power) Astral damage.",
@@ -7206,11 +7509,13 @@ window.WOW_PVP_DATA = {
           94596
         ],
         "entry_id": 117193,
+        "entry_max_ranks": 1,
         "definition_id": 122205,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Moon Guardian",
         "spell_id": 429520,
+        "visible_spell_id": null,
         "icon": "spell_nature_moonglow"
       },
       "pve_tooltip": "Free automatic Moonfires from Galactic Guardian generate 5 Rage.",
@@ -7261,11 +7566,13 @@ window.WOW_PVP_DATA = {
           94607
         ],
         "entry_id": 117181,
+        "entry_max_ranks": 1,
         "definition_id": 122193,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lunar Insight",
         "spell_id": 429530,
+        "visible_spell_id": null,
         "icon": "spell_nature_starfall"
       },
       "pve_tooltip": "Moonfire deals 8% increased damage.\nRed Moon deals 30% increased damage.",
@@ -7316,11 +7623,13 @@ window.WOW_PVP_DATA = {
           94597
         ],
         "entry_id": 117769,
+        "entry_max_ranks": 1,
         "definition_id": 122781,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Glistening Fur",
         "spell_id": 429533,
+        "visible_spell_id": null,
         "icon": "ability_druid_ironfur"
       },
       "pve_tooltip": "Bear Form and Moonkin Form reduce Arcane damage taken by 6% and all other magic damage taken by 3%.",
@@ -7371,11 +7680,13 @@ window.WOW_PVP_DATA = {
           109719
         ],
         "entry_id": 135978,
+        "entry_max_ranks": 1,
         "definition_id": 140733,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Star Cascade",
         "spell_id": 1271206,
+        "visible_spell_id": null,
         "icon": "spell_arcane_arcane03"
       },
       "pve_tooltip": "Thrash has a 50% chance to launch a Starsurge at a victim at 120% effectiveness.\n(100ms cooldown)",
@@ -7426,11 +7737,13 @@ window.WOW_PVP_DATA = {
           94590
         ],
         "entry_id": 117190,
+        "entry_max_ranks": 1,
         "definition_id": 122202,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Stellar Command",
         "spell_id": 429668,
+        "visible_spell_id": null,
         "icon": "artifactability_balancedruid_moonandstars"
       },
       "pve_tooltip": "Increases the damage of Lunar Beam by 30% and Fury of Elune by 15%.",
@@ -7481,11 +7794,13 @@ window.WOW_PVP_DATA = {
           94585
         ],
         "entry_id": 117204,
+        "entry_max_ranks": 1,
         "definition_id": 122216,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Atmospheric Exposure",
         "spell_id": 429532,
+        "visible_spell_id": null,
         "icon": "inv_cosmicvoid_nova"
       },
       "pve_tooltip": "Enemies damaged by Lunar Beam or Fury of Elune take 6% increased damage from you for 6 sec.",
@@ -7536,11 +7851,13 @@ window.WOW_PVP_DATA = {
           94586
         ],
         "entry_id": 117192,
+        "entry_max_ranks": 1,
         "definition_id": 122204,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Moondust",
         "spell_id": 429538,
+        "visible_spell_id": null,
         "icon": "inv_enchant_dust"
       },
       "pve_tooltip": "Enemies affected by Moonfire are slowed by 20%.",
@@ -7652,11 +7969,13 @@ window.WOW_PVP_DATA = {
           94586
         ],
         "entry_id": 123304,
+        "entry_max_ranks": 1,
         "definition_id": 128177,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Elune's Grace",
         "spell_id": 443046,
+        "visible_spell_id": null,
         "icon": "spell_druid_wildcharge"
       },
       "pve_tooltip": "Using Wild Charge while in Bear Form or Moonkin Form incurs a 3 sec shorter cooldown.",
@@ -7707,11 +8026,13 @@ window.WOW_PVP_DATA = {
           109718
         ],
         "entry_id": 135977,
+        "entry_max_ranks": 1,
         "definition_id": 140732,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Penumbral Swell",
         "spell_id": 1271261,
+        "visible_spell_id": null,
         "icon": "ability_druid_eclipse"
       },
       "pve_tooltip": "Lunar Beam increases Arcane damage you deal by 10% while it is active.\nLunar Beam increases Arcane damage you deal by 10% while it is active.",
@@ -7762,11 +8083,13 @@ window.WOW_PVP_DATA = {
           94587
         ],
         "entry_id": 117183,
+        "entry_max_ranks": 1,
         "definition_id": 122195,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lunar Calling",
         "spell_id": 429523,
+        "visible_spell_id": null,
         "icon": "ability_druid_cresentburn"
       },
       "pve_tooltip": "Thrash now deals Arcane damage and its damage is increased by 12%.",
@@ -7854,11 +8177,13 @@ window.WOW_PVP_DATA = {
           94587
         ],
         "entry_id": 117176,
+        "entry_max_ranks": 1,
         "definition_id": 122188,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "The Light of Elune",
         "spell_id": 428655,
+        "visible_spell_id": null,
         "icon": "ability_druid_dreamstate"
       },
       "pve_tooltip": "Approximately 1 procs per minute\nMoonfire damage has a chance to call down a Fury of Elune to follow your target for 3 sec.\nFury of Elune\nCalls down a beam of pure celestial energy, dealing [3000 / 1000 * 2 * (18.34% of Spell Power)] Astral damage over 3 sec within its area.\nGenerates 18 Rage over its duration.",
@@ -7909,11 +8234,13 @@ window.WOW_PVP_DATA = {
           94587
         ],
         "entry_id": 117772,
+        "entry_max_ranks": 1,
         "definition_id": 122784,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Astral Insight",
         "spell_id": 429536,
+        "visible_spell_id": null,
         "icon": "spell_druid_incarnation"
       },
       "pve_tooltip": "Incarnation: Guardian of Ursoc increases Arcane damage from spells and abilities by 10% while active.\nIncreases the duration and number of spells cast by Convoke the Spirits by 25%.",
@@ -7964,11 +8291,13 @@ window.WOW_PVP_DATA = {
           94587
         ],
         "entry_id": 117178,
+        "entry_max_ranks": 1,
         "definition_id": 122190,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Arcane Affinity",
         "spell_id": 429540,
+        "visible_spell_id": null,
         "icon": "spell_arcane_arcane01"
       },
       "pve_tooltip": "All Arcane damage from your spells and abilities is increased by 3%.",
@@ -8019,11 +8348,13 @@ window.WOW_PVP_DATA = {
           94587
         ],
         "entry_id": 117177,
+        "entry_max_ranks": 1,
         "definition_id": 122189,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Lunation",
         "spell_id": 429539,
+        "visible_spell_id": null,
         "icon": "spell_nature_moonglow"
       },
       "pve_tooltip": "Lunar Beam's cooldown is reduced by 20 sec.",
@@ -8074,11 +8405,13 @@ window.WOW_PVP_DATA = {
           94587
         ],
         "entry_id": 135976,
+        "entry_max_ranks": 1,
         "definition_id": 140731,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Bask in Moonlight",
         "spell_id": 1271305,
+        "visible_spell_id": null,
         "icon": "spell_holy_elunesgrace"
       },
       "pve_tooltip": "damage increased by 10%. Lunar Beam's damage dealt to its primary target increased by 30%.",
@@ -8130,11 +8463,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 117179,
+        "entry_max_ranks": 1,
         "definition_id": 122191,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "The Eternal Moon",
         "spell_id": 424113,
+        "visible_spell_id": null,
         "icon": "artifactability_balancedruid_newmoon"
       },
       "pve_tooltip": "Further increases the power of Boundless Moonlight.\nLunar Beam\nLunar Beam increases Mastery by an additional (15 * $mas)%, deals 30% increased damage, and lasts 3 sec longer.\nFury of Elune\nThe flash of energy now generates 6 Rage and its damage is increased by 50%.",
@@ -8251,11 +8586,13 @@ window.WOW_PVP_DATA = {
           94618
         ],
         "entry_id": 117206,
+        "entry_max_ranks": 1,
         "definition_id": 122218,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ravage",
         "spell_id": 441583,
+        "visible_spell_id": null,
         "icon": "inv_ability_druidoftheclawdruid_ravage"
       },
       "pve_tooltip": "Your auto-attacks have a chance to make your next Maul become Ravage.\nRavage\nSlash through your target in a wide arc, dealing (272% of Attack Power) Physical damage to your target and (142.8% of Attack Power) to all other enemies in front of you.",
@@ -8534,11 +8871,13 @@ window.WOW_PVP_DATA = {
           94610
         ],
         "entry_id": 117218,
+        "entry_max_ranks": 1,
         "definition_id": 122230,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fount of Strength",
         "spell_id": 441675,
+        "visible_spell_id": null,
         "icon": "spell_nature_unyeildingstamina"
       },
       "pve_tooltip": "Your maximum Energy and Rage are increased by 20.\nFrenzied Regeneration also increases your maximum health by 10%.",
@@ -8589,11 +8928,13 @@ window.WOW_PVP_DATA = {
           94619
         ],
         "entry_id": 117220,
+        "entry_max_ranks": 1,
         "definition_id": 122232,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Dreadful Wound",
         "spell_id": 441809,
+        "visible_spell_id": null,
         "icon": "artifactability_feraldruid_openwounds"
       },
       "pve_tooltip": "Ravage also inflicts a Bleed that causes (100% of Attack Power) damage over 6 sec and saps its victims' strength, reducing damage they deal to you by 15%.\nDreadful Wound is not affected by Circle of Life and Death.",
@@ -8644,11 +8985,13 @@ window.WOW_PVP_DATA = {
           94615
         ],
         "entry_id": 117208,
+        "entry_max_ranks": 1,
         "definition_id": 122220,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Bestial Strength",
         "spell_id": 441841,
+        "visible_spell_id": null,
         "icon": "spell_nature_spiritarmor"
       },
       "pve_tooltip": "Maul and Raze damage increased by 10%.",
@@ -8699,11 +9042,13 @@ window.WOW_PVP_DATA = {
           109723
         ],
         "entry_id": 135980,
+        "entry_max_ranks": 1,
         "definition_id": 140735,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Limb from Limb",
         "spell_id": 1271540,
+        "visible_spell_id": null,
         "icon": "artifactability_feraldruid_ashamanesbite"
       },
       "pve_tooltip": "Your auto-attacks are 30% more likely to make your next become Ravage.",
@@ -8754,11 +9099,13 @@ window.WOW_PVP_DATA = {
           94612
         ],
         "entry_id": 117207,
+        "entry_max_ranks": 1,
         "definition_id": 122219,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Wildshape Mastery",
         "spell_id": 441678,
+        "visible_spell_id": null,
         "icon": "ability_druid_mastershapeshifter"
       },
       "pve_tooltip": "Ironfur and Frenzied Regeneration persist in Cat Form.\nWhen transforming from Bear to Cat Form, you retain 80% of your Bear Form armor and health for 6 sec.\nFor 6 sec after entering Bear Form, you heal for 10% of damage taken over 8 sec.",
@@ -8809,11 +9156,13 @@ window.WOW_PVP_DATA = {
           94616
         ],
         "entry_id": 117219,
+        "entry_max_ranks": 1,
         "definition_id": 122231,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Exacerbating Wounds",
         "spell_id": 1271839,
+        "visible_spell_id": null,
         "icon": "inv_artifact_bloodoftheassassinated"
       },
       "pve_tooltip": "Your Dreadful Wounds increase the damage afflicted enemies take from your Bleed damage over time effects by 15%.",
@@ -8864,11 +9213,13 @@ window.WOW_PVP_DATA = {
           94614
         ],
         "entry_id": 117215,
+        "entry_max_ranks": 1,
         "definition_id": 122227,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Pack's Endurance",
         "spell_id": 441844,
+        "visible_spell_id": null,
         "icon": "spell_druid_stampedingroar_cat"
       },
       "pve_tooltip": "Stampeding Roar's duration is increased by 25%.",
@@ -8919,11 +9270,13 @@ window.WOW_PVP_DATA = {
           109721
         ],
         "entry_id": 135981,
+        "entry_max_ranks": 1,
         "definition_id": 140736,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ruthless Aggression",
         "spell_id": 441814,
+        "visible_spell_id": null,
         "icon": "ability_druid_rake"
       },
       "pve_tooltip": "Ravage increases your auto-attack speed by 35% for 6 sec.",
@@ -8974,11 +9327,13 @@ window.WOW_PVP_DATA = {
           109721
         ],
         "entry_id": 136624,
+        "entry_max_ranks": 1,
         "definition_id": 141396,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Killing Strikes",
         "spell_id": 441824,
+        "visible_spell_id": null,
         "icon": "ability_druid_kingofthejungle"
       },
       "pve_tooltip": "Ravage increases your Agility by 8% and the armor granted by Ironfur by 20% for 8 sec.\nYour first Mangle after entering combat makes your next Maul become Ravage.",
@@ -9029,11 +9384,13 @@ window.WOW_PVP_DATA = {
           94613
         ],
         "entry_id": 117210,
+        "entry_max_ranks": 1,
         "definition_id": 122222,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Empowered Shapeshifting",
         "spell_id": 441689,
+        "visible_spell_id": null,
         "icon": "spell_druid_primaltenacity"
       },
       "pve_tooltip": "Frenzied Regeneration can be cast in Cat Form for 40 Energy.\nBear Form reduces magic damage you take by 6%.\nShred and [Brutal Slash / Swipe] damage increased by 10%. Mangle damage increased by 25%.",
@@ -9084,11 +9441,13 @@ window.WOW_PVP_DATA = {
           94613
         ],
         "entry_id": 117209,
+        "entry_max_ranks": 1,
         "definition_id": 122221,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Wildpower Surge",
         "spell_id": 441691,
+        "visible_spell_id": null,
         "icon": "ability_druid_ravage"
       },
       "pve_tooltip": "Mangle grants Feline Potential. When you have 6 stacks, the next time you transform into Cat Form, gain 5 combo points and your next Ferocious Bite or Rip deals 50% increased damage for its full duration.\n(100ms cooldown)",
@@ -9139,11 +9498,13 @@ window.WOW_PVP_DATA = {
           94613
         ],
         "entry_id": 117216,
+        "entry_max_ranks": 1,
         "definition_id": 122228,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Aggravate Wounds",
         "spell_id": 441829,
+        "visible_spell_id": null,
         "icon": "artifactability_guardiandruid_goryfur"
       },
       "pve_tooltip": "Every [Maul, Raze, Mangle, Thrash, or Swipe / attack with an Energy cost that] you cast extends the duration of your Dreadful Wounds by 0.6 sec, up to 8 additional sec.\n(100ms cooldown)",
@@ -9194,11 +9555,13 @@ window.WOW_PVP_DATA = {
           94613
         ],
         "entry_id": 117214,
+        "entry_max_ranks": 1,
         "definition_id": 122226,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Strike for the Heart",
         "spell_id": 441845,
+        "visible_spell_id": null,
         "icon": "ability_druid_primalagression"
       },
       "pve_tooltip": "Mangle damage increased by 10% and its critical strike chance is increased by 10%.\nMangle heals you for 5% of maximum health.",
@@ -9249,11 +9612,13 @@ window.WOW_PVP_DATA = {
           94613
         ],
         "entry_id": 117213,
+        "entry_max_ranks": 1,
         "definition_id": 122225,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Tear Down the Mighty",
         "spell_id": 441846,
+        "visible_spell_id": null,
         "icon": "inv_1115_druid_jaguar"
       },
       "pve_tooltip": "The cooldown of Sundering Roar is reduced by 15 sec.",
@@ -9304,11 +9669,13 @@ window.WOW_PVP_DATA = {
           94613
         ],
         "entry_id": 135979,
+        "entry_max_ranks": 1,
         "definition_id": 140734,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Twin Claw",
         "spell_id": 1271635,
+        "visible_spell_id": null,
         "icon": "ability_druid_swipe"
       },
       "pve_tooltip": "You have a 18% chance to follow up any single target melee ability or Raze with a Twin Claw, dealing (340% of Attack Power) Physical damage and generating 5 Rage.\n(200ms cooldown)",
@@ -9360,11 +9727,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 117211,
+        "entry_max_ranks": 1,
         "definition_id": 122223,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Claw Rampage",
         "spell_id": 441835,
+        "visible_spell_id": null,
         "icon": "ability_xavius_tormentingswipe"
       },
       "pve_tooltip": "During Berserk, Mangle, Thrash, and Swipe have a 20% chance to make your next Maul become Ravage.",
@@ -9380,12 +9749,362 @@ window.WOW_PVP_DATA = {
     }
   ],
   "fetch_errors": [],
+  "serialization": {
+    "version": 2,
+    "spec_id": 104,
+    "node_order": [
+      82043,
+      82045,
+      82046,
+      82047,
+      82048,
+      82049,
+      82050,
+      82051,
+      82052,
+      82053,
+      82054,
+      82055,
+      82056,
+      82057,
+      82058,
+      82059,
+      82060,
+      82062,
+      82063,
+      82064,
+      82065,
+      82066,
+      82067,
+      82068,
+      82069,
+      82070,
+      82071,
+      82072,
+      82073,
+      82074,
+      82075,
+      82076,
+      82077,
+      82079,
+      82080,
+      82081,
+      82082,
+      82083,
+      82085,
+      82086,
+      82088,
+      82090,
+      82091,
+      82092,
+      82093,
+      82094,
+      82095,
+      82096,
+      82098,
+      82099,
+      82100,
+      82101,
+      82102,
+      82103,
+      82104,
+      82105,
+      82106,
+      82107,
+      82108,
+      82109,
+      82110,
+      82111,
+      82112,
+      82113,
+      82114,
+      82115,
+      82116,
+      82117,
+      82118,
+      82119,
+      82120,
+      82121,
+      82122,
+      82123,
+      82124,
+      82126,
+      82127,
+      82129,
+      82131,
+      82134,
+      82135,
+      82136,
+      82137,
+      82138,
+      82140,
+      82142,
+      82143,
+      82144,
+      82145,
+      82146,
+      82147,
+      82148,
+      82149,
+      82152,
+      82153,
+      82154,
+      82156,
+      82157,
+      82159,
+      82160,
+      82161,
+      82198,
+      82199,
+      82200,
+      82201,
+      82202,
+      82205,
+      82206,
+      82207,
+      82208,
+      82209,
+      82210,
+      82211,
+      82214,
+      82217,
+      82218,
+      82219,
+      82220,
+      82221,
+      82222,
+      82223,
+      82224,
+      82225,
+      82227,
+      82228,
+      82229,
+      82230,
+      82231,
+      82232,
+      82233,
+      82234,
+      82235,
+      82236,
+      82237,
+      82239,
+      82240,
+      82241,
+      82242,
+      82243,
+      82244,
+      82246,
+      88200,
+      88201,
+      88202,
+      88203,
+      88204,
+      88206,
+      88207,
+      88208,
+      88209,
+      88210,
+      88212,
+      88213,
+      88214,
+      88215,
+      88216,
+      88218,
+      88219,
+      88220,
+      88221,
+      88222,
+      88223,
+      88224,
+      88225,
+      88226,
+      88227,
+      88228,
+      88231,
+      88232,
+      88234,
+      88235,
+      88236,
+      91044,
+      91046,
+      91047,
+      91048,
+      92226,
+      92227,
+      92229,
+      92585,
+      92586,
+      92587,
+      92588,
+      92641,
+      92674,
+      93714,
+      94535,
+      94585,
+      94586,
+      94587,
+      94588,
+      94590,
+      94591,
+      94592,
+      94593,
+      94594,
+      94595,
+      94596,
+      94597,
+      94598,
+      94599,
+      94600,
+      94601,
+      94602,
+      94604,
+      94605,
+      94606,
+      94607,
+      94608,
+      94609,
+      94610,
+      94611,
+      94612,
+      94613,
+      94614,
+      94615,
+      94616,
+      94618,
+      94619,
+      94620,
+      94621,
+      94622,
+      94623,
+      94624,
+      94625,
+      94626,
+      94627,
+      94628,
+      94629,
+      94630,
+      94631,
+      99805,
+      99806,
+      99807,
+      99808,
+      100173,
+      100174,
+      100175,
+      100176,
+      100177,
+      100223,
+      103846,
+      103847,
+      103873,
+      103874,
+      103876,
+      104078,
+      104079,
+      104080,
+      104081,
+      104082,
+      104083,
+      104084,
+      104085,
+      104125,
+      108032,
+      108033,
+      109275,
+      109302,
+      109375,
+      109376,
+      109377,
+      109378,
+      109379,
+      109712,
+      109713,
+      109714,
+      109715,
+      109716,
+      109717,
+      109718,
+      109719,
+      109720,
+      109721,
+      109722,
+      109723,
+      110279,
+      110421,
+      110424,
+      110426,
+      110431,
+      110694
+    ],
+    "subtree_nodes": [
+      {
+        "id": 99807,
+        "name": "Druid of the Claw / Elune's Chosen",
+        "type": "subtree",
+        "posX": 8700,
+        "posY": 900,
+        "entryNode": true,
+        "next": [],
+        "prev": [],
+        "entries": [
+          {
+            "id": 123301,
+            "type": "subtree",
+            "name": "Druid of the Claw",
+            "traitSubTreeId": 21,
+            "traitTreeId": 793,
+            "atlasMemberName": "talents-heroclass-druid-druidoftheclaw",
+            "nodes": [
+              94609,
+              94618,
+              94620,
+              94611,
+              109722,
+              94610,
+              94619,
+              94615,
+              109723,
+              94612,
+              94616,
+              94614,
+              109721,
+              94613
+            ]
+          },
+          {
+            "id": 123295,
+            "type": "subtree",
+            "name": "Elune's Chosen",
+            "traitSubTreeId": 24,
+            "traitTreeId": 793,
+            "atlasMemberName": "talents-heroclass-druid-eluneschosen",
+            "nodes": [
+              94608,
+              94598,
+              94588,
+              94594,
+              109720,
+              94596,
+              94607,
+              94597,
+              109719,
+              94590,
+              94585,
+              94586,
+              109718,
+              94587
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "source_warnings": [],
   "slug": "druid-guardian",
-  "generated_at": "2026-09-21T12:49:26.784877+00:00",
+  "generated_at": "2026-09-21T19:38:09.043154+00:00",
   "validation": {
     "talents": 143,
-    "changed_tooltips": 9,
+    "changed_tooltips": 11,
     "talents_with_pvp_mechanics": 19,
     "unique_nodes": 121,
     "tree_build": "12.1.0.69875",

@@ -42,11 +42,13 @@ window.WOW_PVP_DATA = {
           102401
         ],
         "entry_id": 126444,
+        "entry_max_ranks": 1,
         "definition_id": 131270,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Rejuvenating Wind",
         "spell_id": 385539,
+        "visible_spell_id": null,
         "icon": "ability_druid_galewinds"
       },
       "pve_tooltip": "Exhilaration now also heals you for an additional 12.0% of your maximum health over 8 sec.",
@@ -95,11 +97,13 @@ window.WOW_PVP_DATA = {
           102406
         ],
         "entry_id": 126488,
+        "entry_max_ranks": 1,
         "definition_id": 131314,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Survival of the Fittest",
         "spell_id": 264735,
+        "visible_spell_id": null,
         "icon": "spell_nature_spiritarmor"
       },
       "pve_tooltip": "Unlimited range\nInstant\n1.5 min cooldown\n1 Charge\nReduces all damage you and your pet take by 30% for 6 sec.",
@@ -220,11 +224,13 @@ window.WOW_PVP_DATA = {
           102423
         ],
         "entry_id": 126475,
+        "entry_max_ranks": 1,
         "definition_id": 131301,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Posthaste",
         "spell_id": 109215,
+        "visible_spell_id": null,
         "icon": "ability_hunter_posthaste"
       },
       "pve_tooltip": "Disengage also frees you from all movement impairing effects and increases your movement speed by 50% for 4 sec.",
@@ -276,11 +282,13 @@ window.WOW_PVP_DATA = {
           110157
         ],
         "entry_id": 126465,
+        "entry_max_ranks": 2,
         "definition_id": 131291,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Natural Mending",
         "spell_id": 270581,
+        "visible_spell_id": null,
         "icon": "ability_hunter_onewithnature"
       },
       "pve_tooltip": "Exhilaration's cooldown is reduced by 60 sec.",
@@ -298,6 +306,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Exhilaration's cooldown is reduced by 30 sec.",
           "pvp_tooltip": "Exhilaration's cooldown is reduced by 30 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -306,6 +315,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Exhilaration's cooldown is reduced by 60 sec.",
           "pvp_tooltip": "Exhilaration's cooldown is reduced by 60 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -349,11 +359,13 @@ window.WOW_PVP_DATA = {
           109485
         ],
         "entry_id": 126470,
+        "entry_max_ranks": 1,
         "definition_id": 131296,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Padded Armor",
         "spell_id": 459450,
+        "visible_spell_id": null,
         "icon": "ability_rogue_plunderarmor"
       },
       "pve_tooltip": "Survival of the Fittest gains an additional charge.",
@@ -405,11 +417,13 @@ window.WOW_PVP_DATA = {
           102407
         ],
         "entry_id": 126489,
+        "entry_max_ranks": 1,
         "definition_id": 131315,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Hunter's Avoidance",
         "spell_id": 384799,
+        "visible_spell_id": null,
         "icon": "rogue_burstofspeed"
       },
       "pve_tooltip": "Damage taken from area of effect attacks reduced by 5%.",
@@ -460,11 +474,13 @@ window.WOW_PVP_DATA = {
           102380
         ],
         "entry_id": 126446,
+        "entry_max_ranks": 1,
         "definition_id": 131272,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Wilderness Medicine",
         "spell_id": 343242,
+        "visible_spell_id": null,
         "icon": "ability_hunter_mendpet"
       },
       "pve_tooltip": "Mend Pet heals for an additional 25% of your pet's health over its duration, and has a 25% chance to dispel a magic effect each time it heals your pet.",
@@ -548,11 +564,13 @@ window.WOW_PVP_DATA = {
           79837
         ],
         "entry_id": 136677,
+        "entry_max_ranks": 1,
         "definition_id": 141449,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Combat Experience",
         "spell_id": 1268871,
+        "visible_spell_id": null,
         "icon": "ability_hunter_combatexperience"
       },
       "pve_tooltip": "Your Agility is increased by 3%.",
@@ -605,11 +623,13 @@ window.WOW_PVP_DATA = {
           102384
         ],
         "entry_id": 135708,
+        "entry_max_ranks": 1,
         "definition_id": 140463,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Aspect of the Cheetah",
         "spell_id": 1258407,
+        "visible_spell_id": null,
         "icon": "ability_mount_jungletiger"
       },
       "pve_tooltip": "The cooldown of Aspect of the Cheetah is reduced by 30 sec.",
@@ -660,11 +680,13 @@ window.WOW_PVP_DATA = {
           102384
         ],
         "entry_id": 126471,
+        "entry_max_ranks": 1,
         "definition_id": 131297,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Concussive Shot",
         "spell_id": 5116,
+        "visible_spell_id": null,
         "icon": "spell_frost_stun"
       },
       "pve_tooltip": "40 yd range\nInstant\n5 sec cooldown\nDazes the target, slowing movement speed by 50% for 6 sec.",
@@ -764,11 +786,13 @@ window.WOW_PVP_DATA = {
           102404
         ],
         "entry_id": 126443,
+        "entry_max_ranks": 1,
         "definition_id": 131269,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Precision Strikes",
         "spell_id": 1267003,
+        "visible_spell_id": null,
         "icon": "inv12_ability_hunter_rupturingblow"
       },
       "pve_tooltip": "Your auto attack damage is increased by 25%.",
@@ -822,11 +846,13 @@ window.WOW_PVP_DATA = {
           109484
         ],
         "entry_id": 100543,
+        "entry_max_ranks": 1,
         "definition_id": 105545,
         "entry_index": 0,
         "entry_type": "active",
         "talent_name": "Muzzle",
         "spell_id": 187707,
+        "visible_spell_id": null,
         "icon": "ability_hunter_negate"
       },
       "pve_tooltip": "Melee Range\nInstant\n15 sec cooldown\nInterrupts spellcasting, preventing any spell in that school from being cast for 5 sec.",
@@ -879,11 +905,13 @@ window.WOW_PVP_DATA = {
           102419
         ],
         "entry_id": 126447,
+        "entry_max_ranks": 2,
         "definition_id": 131273,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Serrated Tips",
         "spell_id": 459502,
+        "visible_spell_id": null,
         "icon": "inv_spear_01"
       },
       "pve_tooltip": "You gain 4% more critical strike from critical strike sources.",
@@ -901,6 +929,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "You gain 2% more critical strike from critical strike sources.",
           "pvp_tooltip": "You gain 2% more critical strike from critical strike sources.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -909,6 +938,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "You gain 4% more critical strike from critical strike sources.",
           "pvp_tooltip": "You gain 4% more critical strike from critical strike sources.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -952,11 +982,13 @@ window.WOW_PVP_DATA = {
           102425
         ],
         "entry_id": 135712,
+        "entry_max_ranks": 1,
         "definition_id": 140467,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Tranquilizing Shot",
         "spell_id": 19801,
+        "visible_spell_id": null,
         "icon": "spell_nature_drowsy"
       },
       "pve_tooltip": "40 yd range\nInstant\n10 sec cooldown\nRemoves 1 Enrage and 1 Magic effect from an enemy target.",
@@ -1009,11 +1041,13 @@ window.WOW_PVP_DATA = {
           102396
         ],
         "entry_id": 126468,
+        "entry_max_ranks": 1,
         "definition_id": 131294,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Pathfinding",
         "spell_id": 378002,
+        "visible_spell_id": null,
         "icon": "ability_hunter_displacement"
       },
       "pve_tooltip": "Movement speed increased by 4%.",
@@ -1066,11 +1100,13 @@ window.WOW_PVP_DATA = {
           109487
         ],
         "entry_id": 126459,
+        "entry_max_ranks": 1,
         "definition_id": 131285,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Disruptive Rounds",
         "spell_id": 343244,
+        "visible_spell_id": null,
         "icon": "hunter_pvp_vipersting"
       },
       "pve_tooltip": "When Muzzle interrupts a cast, gain 30 Focus.",
@@ -1123,11 +1159,13 @@ window.WOW_PVP_DATA = {
           110156
         ],
         "entry_id": 135706,
+        "entry_max_ranks": 2,
         "definition_id": 140461,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Feign Death",
         "spell_id": 1258486,
+        "visible_spell_id": null,
         "icon": "ability_rogue_feigndeath"
       },
       "pve_tooltip": "The cooldown of Feign Death is reduced by 10 sec.",
@@ -1145,6 +1183,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "The cooldown of Feign Death is reduced by 5 sec.",
           "pvp_tooltip": "The cooldown of Feign Death is reduced by 5 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -1153,6 +1192,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "The cooldown of Feign Death is reduced by 10 sec.",
           "pvp_tooltip": "The cooldown of Feign Death is reduced by 10 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -1196,11 +1236,13 @@ window.WOW_PVP_DATA = {
           102412
         ],
         "entry_id": 126484,
+        "entry_max_ranks": 1,
         "definition_id": 131310,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Misdirection",
         "spell_id": 34477,
+        "visible_spell_id": null,
         "icon": "ability_hunter_misdirection"
       },
       "pve_tooltip": "100 yd range\nInstant\n30 sec cooldown\nMisdirects all threat you cause to the targeted party or raid member, beginning with your next attack within 30 sec and lasting for 8 sec.",
@@ -1251,11 +1293,13 @@ window.WOW_PVP_DATA = {
           102424
         ],
         "entry_id": 126480,
+        "entry_max_ranks": 1,
         "definition_id": 131306,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Kodo Tranquilizer",
         "spell_id": 459983,
+        "visible_spell_id": null,
         "icon": "ability_mount_kodo_03"
       },
       "pve_tooltip": "Tranquilizing Shot removes 1 additional Magic effect from up to 2 nearby targets.",
@@ -1306,11 +1350,13 @@ window.WOW_PVP_DATA = {
           102424
         ],
         "entry_id": 126479,
+        "entry_max_ranks": 1,
         "definition_id": 131305,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Devilsaur Tranquilizer",
         "spell_id": 459991,
+        "visible_spell_id": null,
         "icon": "ability_hunter_pet_devilsaur"
       },
       "pve_tooltip": "If Tranquilizing Shot removes only an Enrage effect, its cooldown is reduced by 5 sec.",
@@ -1362,11 +1408,13 @@ window.WOW_PVP_DATA = {
           102424
         ],
         "entry_id": 126491,
+        "entry_max_ranks": 1,
         "definition_id": 131317,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Kindling Flare",
         "spell_id": 459506,
+        "visible_spell_id": null,
         "icon": "achievment_raid_houroftwilight"
       },
       "pve_tooltip": "Flare's radius is increased by 50%.",
@@ -1419,11 +1467,13 @@ window.WOW_PVP_DATA = {
           102390
         ],
         "entry_id": 126460,
+        "entry_max_ranks": 2,
         "definition_id": 131286,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Trigger Finger",
         "spell_id": 459534,
+        "visible_spell_id": null,
         "icon": "inv_10_engineering2_pvpflaregun_color1"
       },
       "pve_tooltip": "100 yd range\nHaste increased by 2%.",
@@ -1441,6 +1491,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "100 yd range\nHaste increased by 1%.",
           "pvp_tooltip": "100 yd range\nHaste increased by 1%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -1449,6 +1500,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "100 yd range\nHaste increased by 2%.",
           "pvp_tooltip": "100 yd range\nHaste increased by 2%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -1491,11 +1543,13 @@ window.WOW_PVP_DATA = {
           102390
         ],
         "entry_id": 126457,
+        "entry_max_ranks": 1,
         "definition_id": 131283,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Tar Trap",
         "spell_id": 187698,
+        "visible_spell_id": null,
         "icon": "spell_yorsahj_bloodboil_black"
       },
       "pve_tooltip": "40 yd range\nInstant\n30 sec cooldown\nHurls a tar trap to the target location that creates a 8 yd radius pool of tar around itself for 30 sec when the first enemy approaches. All enemies have 50% reduced movement speed while in the area of effect. Limit 1. Trap will exist for 1 min.",
@@ -1598,11 +1652,13 @@ window.WOW_PVP_DATA = {
           102390
         ],
         "entry_id": 135707,
+        "entry_max_ranks": 1,
         "definition_id": 140462,
         "entry_index": 200,
         "entry_type": "active",
         "talent_name": "Scare Beast",
         "spell_id": 1513,
+        "visible_spell_id": null,
         "icon": "ability_druid_cower"
       },
       "pve_tooltip": "25 Focus\n30 yd range\n1.5 sec cast\nScares a beast, causing it to run in fear for up to 20 sec. Damage caused may interrupt the effect. Only one beast can be feared at a time.",
@@ -1655,11 +1711,13 @@ window.WOW_PVP_DATA = {
           109483
         ],
         "entry_id": 135710,
+        "entry_max_ranks": 2,
         "definition_id": 140465,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Touch of Grass",
         "spell_id": 1258402,
+        "visible_spell_id": null,
         "icon": "inv12_ability_druid_lifetreading"
       },
       "pve_tooltip": "Your maximum health is increased by 10%.",
@@ -1677,6 +1735,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Your maximum health is increased by 5%.",
           "pvp_tooltip": "Your maximum health is increased by 5%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -1685,6 +1744,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Your maximum health is increased by 10%.",
           "pvp_tooltip": "Your maximum health is increased by 10%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -1728,11 +1788,13 @@ window.WOW_PVP_DATA = {
           109483
         ],
         "entry_id": 136676,
+        "entry_max_ranks": 1,
         "definition_id": 141448,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Camouflage",
         "spell_id": 199483,
+        "visible_spell_id": null,
         "icon": "ability_hunter_camouflage"
       },
       "pve_tooltip": "Unlimited range\nInstant\n1 min cooldown\nYou and your pet blend into the surroundings and gain stealth for 1 min. While camouflaged, you will heal for 2% of maximum health every 1 sec.",
@@ -1783,11 +1845,13 @@ window.WOW_PVP_DATA = {
           109483
         ],
         "entry_id": 126476,
+        "entry_max_ranks": 1,
         "definition_id": 131302,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "No Hard Feelings",
         "spell_id": 459546,
+        "visible_spell_id": null,
         "icon": "ability_seal"
       },
       "pve_tooltip": "When Misdirection targets your pet, it reduces the damage they take by 50% for 5 sec.\nThe cooldown of Misdirection is reduced by 5 sec.",
@@ -1842,11 +1906,13 @@ window.WOW_PVP_DATA = {
           102414
         ],
         "entry_id": 126490,
+        "entry_max_ranks": 1,
         "definition_id": 131316,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Aspect of the Turtle",
         "spell_id": 1258485,
+        "visible_spell_id": null,
         "icon": "ability_hunter_pet_turtle"
       },
       "pve_tooltip": "The cooldown of Aspect of the Turtle is reduced by 30 sec.",
@@ -1901,11 +1967,13 @@ window.WOW_PVP_DATA = {
           109486
         ],
         "entry_id": 126453,
+        "entry_max_ranks": 1,
         "definition_id": 131279,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Specialized Arsenal",
         "spell_id": 459542,
+        "visible_spell_id": null,
         "icon": "inv_misc_quiver_03"
       },
       "pve_tooltip": "Wildfire Bomb deals 10% increased damage.",
@@ -1960,11 +2028,13 @@ window.WOW_PVP_DATA = {
           110155
         ],
         "entry_id": 135705,
+        "entry_max_ranks": 1,
         "definition_id": 140460,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Scout's Instincts",
         "spell_id": 459455,
+        "visible_spell_id": null,
         "icon": "ability_rogue_sprint"
       },
       "pve_tooltip": "You cannot be slowed below 80% of your normal movement speed while Aspect of the Cheetah is active.",
@@ -2015,11 +2085,13 @@ window.WOW_PVP_DATA = {
           110153
         ],
         "entry_id": 136673,
+        "entry_max_ranks": 1,
         "definition_id": 141445,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shell Wall",
         "spell_id": 1267218,
+        "visible_spell_id": null,
         "icon": "inv_cape_special_turtleshell_c_01"
       },
       "pve_tooltip": "Damage taken during Aspect of the Turtle is reduced by an additional 20%.",
@@ -2072,11 +2144,13 @@ window.WOW_PVP_DATA = {
           102416
         ],
         "entry_id": 128412,
+        "entry_max_ranks": 1,
         "definition_id": 133218,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Intimidation",
         "spell_id": 19577,
+        "visible_spell_id": null,
         "icon": "ability_devour"
       },
       "pve_tooltip": "100 yd range\nInstant\n1 min cooldown\nCommands your pet to intimidate the target stunning your target for 5 sec.",
@@ -2128,11 +2202,13 @@ window.WOW_PVP_DATA = {
           102416
         ],
         "entry_id": 126478,
+        "entry_max_ranks": 1,
         "definition_id": 131304,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Snaring",
         "spell_id": 1268868,
+        "visible_spell_id": null,
         "icon": "inv_fishing_nethooks01"
       },
       "pve_tooltip": "Wing Clip slows an additional 25%.\nConcussive Shot slows an additional 10%.",
@@ -2184,11 +2260,13 @@ window.WOW_PVP_DATA = {
           102409
         ],
         "entry_id": 126454,
+        "entry_max_ranks": 1,
         "definition_id": 131280,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lone Survivor",
         "spell_id": 388039,
+        "visible_spell_id": null,
         "icon": "ability_hunter_huntervswild"
       },
       "pve_tooltip": "Unlimited range\nThe duration of Survival of the Fittest is increased by 2.0 sec.",
@@ -2240,11 +2318,13 @@ window.WOW_PVP_DATA = {
           102409
         ],
         "entry_id": 135709,
+        "entry_max_ranks": 1,
         "definition_id": 140464,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Catlike Reflexes",
         "spell_id": 1258404,
+        "visible_spell_id": null,
         "icon": "ability_hunter_catlikereflexes"
       },
       "pve_tooltip": "Aspect of the Cheetah's initial burst of speed is increased by 2.0 sec.",
@@ -2297,11 +2377,13 @@ window.WOW_PVP_DATA = {
           102418
         ],
         "entry_id": 135711,
+        "entry_max_ranks": 1,
         "definition_id": 140466,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Binding Shot",
         "spell_id": 109248,
+        "visible_spell_id": null,
         "icon": "spell_shaman_bindelemental"
       },
       "pve_tooltip": "30 yd range\nInstant\n45 sec cooldown\nFires a magical projectile, tethering the enemy and any other enemies within 5 yds for 10 sec, stunning them for 3 sec if they move more than 5 yds from the arrow. [Binding Shackles: Targets stunned by Binding Shot deal 10% less damage to you for 8 sec after the effect ends]",
@@ -2352,11 +2434,13 @@ window.WOW_PVP_DATA = {
           102418
         ],
         "entry_id": 136675,
+        "entry_max_ranks": 1,
         "definition_id": 141447,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Trailblazer",
         "spell_id": 199921,
+        "visible_spell_id": null,
         "icon": "ability_hunter_aspectmastery"
       },
       "pve_tooltip": "Your movement speed is increased by 30% anytime you have not attacked for 3 sec.",
@@ -2407,11 +2491,13 @@ window.WOW_PVP_DATA = {
           102418
         ],
         "entry_id": 136674,
+        "entry_max_ranks": 1,
         "definition_id": 141446,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Moment of Opportunity",
         "spell_id": 459488,
+        "visible_spell_id": null,
         "icon": "ability_karoz_leap"
       },
       "pve_tooltip": "When a trap triggers, gain 30% increased movement speed for 3 sec.",
@@ -2463,11 +2549,13 @@ window.WOW_PVP_DATA = {
           102389
         ],
         "entry_id": 136672,
+        "entry_max_ranks": 1,
         "definition_id": 141444,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Cold Feet",
         "spell_id": 1268671,
+        "visible_spell_id": null,
         "icon": "ability_mage_icyfeet"
       },
       "pve_tooltip": "When your Freezing Trap breaks, the victim's movement speed is reduced by 70% for 4 sec.",
@@ -2568,11 +2656,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 126458,
+        "entry_max_ranks": 1,
         "definition_id": 131284,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Territorial Instincts",
         "spell_id": 459507,
+        "visible_spell_id": null,
         "icon": "spell_nature_shamanrage"
       },
       "pve_tooltip": "The cooldown of Intimidation is reduced by 20 sec.",
@@ -2621,11 +2711,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 135704,
+        "entry_max_ranks": 1,
         "definition_id": 140459,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Guttural Roar",
         "spell_id": 1258509,
+        "visible_spell_id": null,
         "icon": "ability_druid_challangingroar"
       },
       "pve_tooltip": "Intimidation now also stuns nearby enemies for 1.0 sec.",
@@ -2679,11 +2771,13 @@ window.WOW_PVP_DATA = {
           110164
         ],
         "entry_id": 126481,
+        "entry_max_ranks": 2,
         "definition_id": 131307,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Born To Be Wild",
         "spell_id": 266921,
+        "visible_spell_id": null,
         "icon": "ability_hunter_aspectoftheviper"
       },
       "pve_tooltip": "The cooldown of Aspect of the Eagle, Aspect of the Cheetah, and Aspect of the Turtle are reduced by 30 sec.",
@@ -2701,6 +2795,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "The cooldown of Aspect of the Eagle, Aspect of the Cheetah, and Aspect of the Turtle are reduced by 15 sec.",
           "pvp_tooltip": "The cooldown of Aspect of the Eagle, Aspect of the Cheetah, and Aspect of the Turtle are reduced by 15 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2709,6 +2804,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "The cooldown of Aspect of the Eagle, Aspect of the Cheetah, and Aspect of the Turtle are reduced by 30 sec.",
           "pvp_tooltip": "The cooldown of Aspect of the Eagle, Aspect of the Cheetah, and Aspect of the Turtle are reduced by 30 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2754,11 +2850,13 @@ window.WOW_PVP_DATA = {
           102387
         ],
         "entry_id": 126473,
+        "entry_max_ranks": 2,
         "definition_id": 131299,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Keen Eyesight",
         "spell_id": 378004,
+        "visible_spell_id": null,
         "icon": "ability_hunter_silenthunter"
       },
       "pve_tooltip": "Critical strike chance increased by 4%.",
@@ -2776,6 +2874,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Critical strike chance increased by 2%.",
           "pvp_tooltip": "Critical strike chance increased by 2%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -2784,6 +2883,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Critical strike chance increased by 4%.",
           "pvp_tooltip": "Critical strike chance increased by 4%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -2824,11 +2924,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 136671,
+        "entry_max_ranks": 1,
         "definition_id": 141443,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Tar-Coated Bindings",
         "spell_id": 459460,
+        "visible_spell_id": null,
         "icon": "inv_misc_food_legion_goooil_pool"
       },
       "pve_tooltip": "Binding Shot's stun duration is increased by 1 sec.",
@@ -2877,11 +2979,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 136670,
+        "entry_max_ranks": 1,
         "definition_id": 141442,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Horsehair Tether",
         "spell_id": 472729,
+        "visible_spell_id": null,
         "icon": "inv_misc_rope_01"
       },
       "pve_tooltip": "When an enemy is stunned by Binding Shot, it is dragged to Binding Shot's center.",
@@ -2933,11 +3037,13 @@ window.WOW_PVP_DATA = {
           102387
         ],
         "entry_id": 126483,
+        "entry_max_ranks": 1,
         "definition_id": 131309,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Traps",
         "spell_id": 343247,
+        "visible_spell_id": null,
         "icon": "ability_hunter_traplauncher"
       },
       "pve_tooltip": "The cooldown of Tar Trap and Freezing Trap is reduced by 5.0 sec.",
@@ -2987,11 +3093,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 126452,
+        "entry_max_ranks": 1,
         "definition_id": 131278,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Emergency Salve",
         "spell_id": 459517,
+        "visible_spell_id": null,
         "icon": "inv_potion_29"
       },
       "pve_tooltip": "Feign Death and Aspect of the Turtle removes poison and disease effects from you.",
@@ -3041,11 +3149,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 136686,
+        "entry_max_ranks": 1,
         "definition_id": 141458,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Roar of Sacrifice",
         "spell_id": 53480,
+        "visible_spell_id": null,
         "icon": "ability_hunter_fervor"
       },
       "pve_tooltip": "40 yd range\nInstant\n2 min cooldown\nInstructs your pet to protect a friendly target, reducing their damage taken by 15%, but 50% of all damage taken by that target is transferred to your pet.\nLasts 10 sec or until your pet's health drops below 25%.",
@@ -3142,11 +3252,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 136685,
+        "entry_max_ranks": 1,
         "definition_id": 141457,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Guardian's Hide",
         "spell_id": 1272094,
+        "visible_spell_id": null,
         "icon": "spell_druid_bristlingfur"
       },
       "pve_tooltip": "Your pet protects you at all times, reducing the damage you take by 3%. Your pet receives 100% of the damage it mitigates.",
@@ -3196,11 +3308,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 126450,
+        "entry_max_ranks": 1,
         "definition_id": 131276,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Unnatural Causes",
         "spell_id": 459527,
+        "visible_spell_id": null,
         "icon": "ability_hunter_potentvenom"
       },
       "pve_tooltip": "Your damage over time effects deal 10% increased damage.\nThis effect is increased by 50% on targets below 20% health.",
@@ -3250,11 +3364,13 @@ window.WOW_PVP_DATA = {
           102262
         ],
         "entry_id": 126314,
+        "entry_max_ranks": 1,
         "definition_id": 131140,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Kill Command",
         "spell_id": 259489,
+        "visible_spell_id": null,
         "icon": "ability_hunter_killcommand"
       },
       "pve_tooltip": "50 yd range\nInstant\n5 sec recharge\n2 Charges\nGive the command to kill, causing your pet to savagely deal (300% of Attack Power) Physical damage to the enemy.\nGenerates 15 / Invigorating Pulse: 20 / Flanker's Advantage: 20 Focus.\nIncreases the damage of your next non-Kill Command ability by 0%.",
@@ -3357,11 +3473,13 @@ window.WOW_PVP_DATA = {
           102285
         ],
         "entry_id": 126324,
+        "entry_max_ranks": 1,
         "definition_id": 131150,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Wildfire Bomb",
         "spell_id": 259495,
+        "visible_spell_id": null,
         "icon": "inv_wildfirebomb"
       },
       "pve_tooltip": "10 Focus\n40 yd range\nInstant\n18 sec cooldown\n1 Charge\nHurl a bomb at the target, exploding for (157.95% of Attack Power) Fire damage in a cone and coating enemies in wildfire, scorching them for (125.928% of Attack Power) Fire damage over 6 sec. Deals reduced damage beyond 8 targets.\nDeals 80% increased damage to your primary target.",
@@ -3510,11 +3628,13 @@ window.WOW_PVP_DATA = {
           102263
         ],
         "entry_id": 126322,
+        "entry_max_ranks": 1,
         "definition_id": 131148,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Raptor Strike",
         "spell_id": 186270,
+        "visible_spell_id": null,
         "icon": "ability_hunter_raptorstrike"
       },
       "pve_tooltip": "30 Focus\nMelee Range\nInstant\nA vicious slash dealing (393.25% of Attack Power) Physical damage.",
@@ -3623,11 +3743,13 @@ window.WOW_PVP_DATA = {
           109324
         ],
         "entry_id": 126345,
+        "entry_max_ranks": 1,
         "definition_id": 131171,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Guerrilla Tactics",
         "spell_id": 264332,
+        "visible_spell_id": null,
         "icon": "spell_mage_flameorb"
       },
       "pve_tooltip": "Wildfire Bomb now has 2 charges, and the initial explosion deals 15% increased damage.",
@@ -3679,11 +3801,13 @@ window.WOW_PVP_DATA = {
           109321
         ],
         "entry_id": 126323,
+        "entry_max_ranks": 1,
         "definition_id": 131149,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Tip of the Spear",
         "spell_id": 260285,
+        "visible_spell_id": null,
         "icon": "ability_bossmannoroth_glaivethrust"
       },
       "pve_tooltip": "Kill Command increases the direct damage of your other abilities by 15%, stacking up to 3 times.",
@@ -3735,11 +3859,13 @@ window.WOW_PVP_DATA = {
           102270
         ],
         "entry_id": 126332,
+        "entry_max_ranks": 1,
         "definition_id": 131158,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lunge",
         "spell_id": 378934,
+        "visible_spell_id": null,
         "icon": "inv_polearm_2h_kultirasharpoon_a_01"
       },
       "pve_tooltip": "The damage of your auto-attacks is increased by 25%.\nYour Agility is increased by 3%, increased by an additional 1% while dual-wielding.",
@@ -3793,24 +3919,47 @@ window.WOW_PVP_DATA = {
           102279
         ],
         "entry_id": 135515,
+        "entry_max_ranks": 1,
         "definition_id": 140272,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Boomstick",
         "spell_id": 1261193,
+        "visible_spell_id": null,
         "icon": "inv_musket_04"
       },
       "pve_tooltip": "50 Focus\n20 yd range\nChanneled (3 sec cast)\n1 min cooldown\nUnload a series of 4 shotgun blasts 20 yds in front of you, dealing [(607.5% of Attack Power) * 4] Physical damage over 3 sec. Deals reduced damage beyond 8 targets.",
-      "pvp_tooltip": "50 Focus\n20 yd range\nChanneled (3 sec cast)\n1 min cooldown\nUnload a series of 4 shotgun blasts 20 yds in front of you, dealing [(607.5% of Attack Power) * 4] Physical damage over 3 sec. Deals reduced damage beyond 8 targets.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
-      "diagnostics": [],
+      "pvp_tooltip": "50 Focus\n20 yd range\nChanneled (3 sec cast)\n1 min cooldown\nUnload a series of 4 shotgun blasts 20 yds in front of you, dealing [(613.575% of Attack Power) * 4] Physical damage over 3 sec. Deals reduced damage beyond 8 targets.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 129,
+          "end": 134,
+          "old_token": "607.5",
+          "new_token": "613.575",
+          "kind": "attack_power_coefficient",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "effect_indexes": [
+            1
+          ],
+          "status": "APPLIED",
+          "kind": "attack_power_coefficient",
+          "old": "607.5",
+          "new": "613.575"
+        }
+      ],
       "has_pvp_mechanics": true,
       "mechanics": [
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 1261193,
           "source_spell_id": 1261215,
           "effect_index": 1,
@@ -3827,7 +3976,7 @@ window.WOW_PVP_DATA = {
             1261215
           ],
           "dependency_relations": [
-            "trigger_spell"
+            "tooltip_value_ref"
           ],
           "aura_rules": [
             {
@@ -3847,7 +3996,7 @@ window.WOW_PVP_DATA = {
           "confidence": "medium"
         }
       ],
-      "render_effect_count": 0,
+      "render_effect_count": 1,
       "rank_tooltips": []
     },
     {
@@ -3889,11 +4038,13 @@ window.WOW_PVP_DATA = {
           110163
         ],
         "entry_id": 135512,
+        "entry_max_ranks": 1,
         "definition_id": 140269,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Strike as One",
         "spell_id": 1251717,
+        "visible_spell_id": null,
         "icon": "inv_coordinatedassault"
       },
       "pve_tooltip": "Consuming Tip of the Spear provokes your pet to attack your target, dealing (180% of Attack Power) Physical damage.\nAll damage dealt by your pet is increased by 30%.\n(700ms cooldown)",
@@ -3944,11 +4095,13 @@ window.WOW_PVP_DATA = {
           109310
         ],
         "entry_id": 135500,
+        "entry_max_ranks": 1,
         "definition_id": 140257,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shrapnel Bomb",
         "spell_id": 1253172,
+        "visible_spell_id": null,
         "icon": "inv_wildfirebomb_shrapnel"
       },
       "pve_tooltip": "Wildfire Bomb's periodic effect is now a Bleed and grants you and your pet 15 Focus over 3 sec.",
@@ -3999,11 +4152,13 @@ window.WOW_PVP_DATA = {
           109310
         ],
         "entry_id": 135493,
+        "entry_max_ranks": 1,
         "definition_id": 140250,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Flamebreak",
         "spell_id": 1253176,
+        "visible_spell_id": null,
         "icon": "inv_wildfirebomb_blood"
       },
       "pve_tooltip": "All Fire damage dealt is increased by 8%.",
@@ -4055,11 +4210,13 @@ window.WOW_PVP_DATA = {
           109310
         ],
         "entry_id": 126330,
+        "entry_max_ranks": 1,
         "definition_id": 131156,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Bloodseeker",
         "spell_id": 260248,
+        "visible_spell_id": null,
         "icon": "ability_druid_primaltenacity"
       },
       "pve_tooltip": "Unlimited range\nYou and your pet gain 10% attack speed for every bleeding enemy within 12 yds.",
@@ -4111,11 +4268,13 @@ window.WOW_PVP_DATA = {
           109319
         ],
         "entry_id": 136683,
+        "entry_max_ranks": 1,
         "definition_id": 141455,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Quick Reload",
         "spell_id": 1272136,
+        "visible_spell_id": null,
         "icon": "ability_vehicle_reloadammo"
       },
       "pve_tooltip": "Boomstick's cooldown is reduced by 15 sec.",
@@ -4167,11 +4326,13 @@ window.WOW_PVP_DATA = {
           110159
         ],
         "entry_id": 126339,
+        "entry_max_ranks": 1,
         "definition_id": 131165,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Flanker's Advantage",
         "spell_id": 459964,
+        "visible_spell_id": null,
         "icon": "ability_hunter_beastmastery"
       },
       "pve_tooltip": "Kill Command grants an additional 5 Focus and its critical strike chance is increased by 10%.",
@@ -4222,11 +4383,13 @@ window.WOW_PVP_DATA = {
           110159
         ],
         "entry_id": 135496,
+        "entry_max_ranks": 1,
         "definition_id": 140253,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sic 'Em",
         "spell_id": 1253137,
+        "visible_spell_id": null,
         "icon": "ability_hunter_sickem"
       },
       "pve_tooltip": "When Strike as One critically strikes, it bleeds its target for an additional (40% of Attack Power) damage over 5 sec.",
@@ -4316,11 +4479,13 @@ window.WOW_PVP_DATA = {
           110159
         ],
         "entry_id": 136684,
+        "entry_max_ranks": 1,
         "definition_id": 141456,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Two Against Many",
         "spell_id": 1251718,
+        "visible_spell_id": null,
         "icon": "ability_hunter_separationanxiety"
       },
       "pve_tooltip": "Strike as One damages 2 additional enemies and its damage is increased by 10% for each enemy it strikes beyond the first.",
@@ -4374,108 +4539,24 @@ window.WOW_PVP_DATA = {
           109311
         ],
         "entry_id": 135501,
+        "entry_max_ranks": 1,
         "definition_id": 140258,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Mongoose Fury",
         "spell_id": 1252708,
+        "visible_spell_id": null,
         "icon": "ability_hunter_mongoosebite"
       },
       "pve_tooltip": "Raptor Strike increases the damage of Raptor Strike by 10% for 8 sec. Multiple applications may overlap.",
-      "pvp_tooltip": "Raptor Strike increases the damage of Raptor Strike by 5% for 8 sec. Multiple applications may overlap.",
-      "tooltip_changed": true,
-      "render_status": "CHANGED",
-      "changes": [
-        {
-          "start": 55,
-          "end": 57,
-          "old_token": "10",
-          "new_token": "5",
-          "kind": "percent_value",
-          "effect_indexes": [
-            1
-          ]
-        }
-      ],
-      "diagnostics": [
-        {
-          "effect_indexes": [
-            1
-          ],
-          "status": "APPLIED",
-          "kind": "percent_value",
-          "old": "10",
-          "new": "5"
-        }
-      ],
-      "has_pvp_mechanics": true,
-      "mechanics": [
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 1252708,
-          "source_spell_id": 1296636,
-          "effect_index": 1,
-          "effect_text": "Apply Aura: Modifies Effect #3's Value (23)",
-          "base_value": 10.0,
-          "spell_pvp_multiplier": 0.5,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.5,
-          "final_pvp_value": 5.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            1252708,
-            259388,
-            1296636
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref",
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        },
-        {
-          "effect_origin": "DEPENDENCY",
-          "dependency_kind": "REFERENCED",
-          "talent_spell_id": 1252708,
-          "source_spell_id": 1296636,
-          "effect_index": 2,
-          "effect_text": "Apply Aura: Modifies Effect #4's Value (32)",
-          "base_value": 10.0,
-          "spell_pvp_multiplier": 0.5,
-          "amount_kind": null,
-          "aura_factor": 1.0,
-          "final_pvp_multiplier": 0.5,
-          "final_pvp_value": 5.0,
-          "is_final_pvp_modified": true,
-          "dependency_path": [
-            1252708,
-            259388,
-            1296636
-          ],
-          "dependency_relations": [
-            "tooltip_value_ref",
-            "tooltip_value_ref"
-          ],
-          "aura_rules": [],
-          "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
-          ],
-          "source_notes": [],
-          "confidence": "high"
-        }
-      ],
-      "render_effect_count": 1,
+      "pvp_tooltip": "Raptor Strike increases the damage of Raptor Strike by 10% for 8 sec. Multiple applications may overlap.",
+      "tooltip_changed": false,
+      "render_status": "UNCHANGED",
+      "changes": [],
+      "diagnostics": [],
+      "has_pvp_mechanics": false,
+      "mechanics": [],
+      "render_effect_count": 0,
       "rank_tooltips": []
     },
     {
@@ -4516,11 +4597,13 @@ window.WOW_PVP_DATA = {
           109313
         ],
         "entry_id": 135507,
+        "entry_max_ranks": 1,
         "definition_id": 140264,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Mongoose Rounds",
         "spell_id": 1253945,
+        "visible_spell_id": null,
         "icon": "inv_ammo_bullet_08"
       },
       "pve_tooltip": "Damaging one or more enemies with your Boomstick grants you 1 stack of Mongoose Fury.\nMongoose Fury\nRaptor Strike damage increased by 10%.\n(100ms cooldown)",
@@ -4572,11 +4655,13 @@ window.WOW_PVP_DATA = {
           109313
         ],
         "entry_id": 136066,
+        "entry_max_ranks": 1,
         "definition_id": 140821,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Wildfire Shells",
         "spell_id": 1261229,
+        "visible_spell_id": null,
         "icon": "inv_ammo_firetar"
       },
       "pve_tooltip": "Damaging one or more enemies with your Boomstick reduces the cooldown of Wildfire Bomb by 3.0 sec.\n(100ms cooldown)",
@@ -4628,11 +4713,13 @@ window.WOW_PVP_DATA = {
           102282
         ],
         "entry_id": 135510,
+        "entry_max_ranks": 1,
         "definition_id": 140267,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shellshock",
         "spell_id": 1252931,
+        "visible_spell_id": null,
         "icon": "inv_10_engineering2_pvpflaregun_color1"
       },
       "pve_tooltip": "Your Boomstick's damage is increased by 40% when striking a single target.\nEach additional target reduces this bonus by 5%.",
@@ -4686,11 +4773,13 @@ window.WOW_PVP_DATA = {
           109306
         ],
         "entry_id": 136680,
+        "entry_max_ranks": 1,
         "definition_id": 141452,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Primal Surge",
         "spell_id": 1272154,
+        "visible_spell_id": null,
         "icon": "ability_hunter_longevity"
       },
       "pve_tooltip": "Kill Command grants 1 additional stack of Tip of the Spear.\nTip of the Spear's damage bonus is increased by 5%.",
@@ -4741,11 +4830,13 @@ window.WOW_PVP_DATA = {
           102281
         ],
         "entry_id": 135498,
+        "entry_max_ranks": 1,
         "definition_id": 140255,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Bloody Claws",
         "spell_id": 385737,
+        "visible_spell_id": null,
         "icon": "ability_druid_disembowel"
       },
       "pve_tooltip": "Each stack of Mongoose Fury also increases the damage of Strike as One by 10%.",
@@ -4796,11 +4887,13 @@ window.WOW_PVP_DATA = {
           102281
         ],
         "entry_id": 136144,
+        "entry_max_ranks": 1,
         "definition_id": 140899,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Wallop",
         "spell_id": 1252738,
+        "visible_spell_id": null,
         "icon": "ability_butcher_heavyhanded"
       },
       "pve_tooltip": "Gaining a stack of Mongoose Fury has a 20% chance to increase the damage of your next Raptor Strike by 50%.",
@@ -4903,11 +4996,13 @@ window.WOW_PVP_DATA = {
           102281
         ],
         "entry_id": 126349,
+        "entry_max_ranks": 2,
         "definition_id": 131175,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Improved Wildfire Bomb",
         "spell_id": 321290,
+        "visible_spell_id": null,
         "icon": "inv_eng_bombfire"
       },
       "pve_tooltip": "Wildfire Bomb deals 12% additional damage.",
@@ -4925,6 +5020,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Wildfire Bomb deals 6% additional damage.",
           "pvp_tooltip": "Wildfire Bomb deals 6% additional damage.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -4933,6 +5029,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Wildfire Bomb deals 12% additional damage.",
           "pvp_tooltip": "Wildfire Bomb deals 12% additional damage.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -4977,11 +5074,13 @@ window.WOW_PVP_DATA = {
           109323
         ],
         "entry_id": 135502,
+        "entry_max_ranks": 1,
         "definition_id": 140259,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Bonding",
         "spell_id": 1262442,
+        "visible_spell_id": null,
         "icon": "ability_hunter_beastwithin"
       },
       "pve_tooltip": "Mastery increased by 3%.\nYou gain 5% increased Mastery from all Mastery sources.",
@@ -5033,11 +5132,13 @@ window.WOW_PVP_DATA = {
           109323
         ],
         "entry_id": 135504,
+        "entry_max_ranks": 2,
         "definition_id": 140261,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sweeping Spear",
         "spell_id": 378950,
+        "visible_spell_id": null,
         "icon": "spell_warrior_wildstrike"
       },
       "pve_tooltip": "Raptor Strike damage increased by 20%.",
@@ -5055,6 +5156,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Raptor Strike damage increased by 10%.",
           "pvp_tooltip": "Raptor Strike damage increased by 10%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -5063,6 +5165,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Raptor Strike damage increased by 20%.",
           "pvp_tooltip": "Raptor Strike damage increased by 20%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -5107,11 +5210,13 @@ window.WOW_PVP_DATA = {
           109312
         ],
         "entry_id": 126342,
+        "entry_max_ranks": 1,
         "definition_id": 131168,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Vulnerability",
         "spell_id": 1257011,
+        "visible_spell_id": null,
         "icon": "ability_rogue_findweakness"
       },
       "pve_tooltip": "Raptor Strike and Boomstick deal 20% increased critical strike damage.",
@@ -5164,11 +5269,13 @@ window.WOW_PVP_DATA = {
           109312
         ],
         "entry_id": 135688,
+        "entry_max_ranks": 1,
         "definition_id": 140444,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Blackrock Munitions",
         "spell_id": 462036,
+        "visible_spell_id": null,
         "icon": "inv_ore_blackrock_nugget"
       },
       "pve_tooltip": "Wildfire Bomb deals 20% increased critical strike damage.",
@@ -5219,11 +5326,13 @@ window.WOW_PVP_DATA = {
           109312
         ],
         "entry_id": 135497,
+        "entry_max_ranks": 1,
         "definition_id": 140254,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Outland Venom",
         "spell_id": 459939,
+        "visible_spell_id": null,
         "icon": "ability_hunter_potentvenom"
       },
       "pve_tooltip": "Each damage over time effect on a target increases the critical strike damage they receive from you by 4%.",
@@ -5276,11 +5385,13 @@ window.WOW_PVP_DATA = {
           102252
         ],
         "entry_id": 126341,
+        "entry_max_ranks": 2,
         "definition_id": 131167,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Explosives Expert",
         "spell_id": 378937,
+        "visible_spell_id": null,
         "icon": "inv_misc_bomb_05"
       },
       "pve_tooltip": "Wildfire Bomb and Boomstick damage increased by 10%.",
@@ -5298,6 +5409,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Wildfire Bomb and Boomstick damage increased by 5%.",
           "pvp_tooltip": "Wildfire Bomb and Boomstick damage increased by 5%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -5306,6 +5418,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Wildfire Bomb and Boomstick damage increased by 10%.",
           "pvp_tooltip": "Wildfire Bomb and Boomstick damage increased by 10%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -5351,11 +5464,13 @@ window.WOW_PVP_DATA = {
           109320
         ],
         "entry_id": 135514,
+        "entry_max_ranks": 1,
         "definition_id": 140271,
         "entry_index": 100,
         "entry_type": "active",
         "talent_name": "Takedown",
         "spell_id": 1250646,
+        "visible_spell_id": null,
         "icon": "inv12_ability_hunter_takedown"
       },
       "pve_tooltip": "15 yd range\nInstant\n1.5 min cooldown\nYou and your pet leap to your target and strike as one, dealing [(600% of Attack Power) + (1200% of Attack Power)] Physical damage. Your pet frees itself from roots when it leaps.\nFor the next 8 sec, the damage dealt by you and your pet is increased by 20%.\nGenerates 50 Focus.",
@@ -5528,11 +5643,13 @@ window.WOW_PVP_DATA = {
           102268
         ],
         "entry_id": 135503,
+        "entry_max_ranks": 2,
         "definition_id": 140260,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Killer Companion",
         "spell_id": 378955,
+        "visible_spell_id": null,
         "icon": "ability_hunter_masterscall"
       },
       "pve_tooltip": "All damage dealt by your pet is increased by 20%.",
@@ -5550,6 +5667,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "All damage dealt by your pet is increased by 10%.",
           "pvp_tooltip": "All damage dealt by your pet is increased by 10%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -5558,6 +5676,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "All damage dealt by your pet is increased by 20%.",
           "pvp_tooltip": "All damage dealt by your pet is increased by 20%.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -5601,11 +5720,13 @@ window.WOW_PVP_DATA = {
           110160
         ],
         "entry_id": 126311,
+        "entry_max_ranks": 1,
         "definition_id": 131137,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Bombardier",
         "spell_id": 1311963,
+        "visible_spell_id": null,
         "icon": "inv_misc_blackironbomb"
       },
       "pve_tooltip": "Wildfire Bomb damage increased by 15%, critical strike chance increased by 15%, and critical damage dealt increased by 15%.",
@@ -5656,11 +5777,13 @@ window.WOW_PVP_DATA = {
           110161
         ],
         "entry_id": 135689,
+        "entry_max_ranks": 1,
         "definition_id": 140445,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Twin Fangs",
         "spell_id": 1272139,
+        "visible_spell_id": null,
         "icon": "ability_hunter_spearhead"
       },
       "pve_tooltip": "Takedown grants 3 stacks of Tip of the Spear.",
@@ -5711,11 +5834,13 @@ window.WOW_PVP_DATA = {
           110161
         ],
         "entry_id": 135511,
+        "entry_max_ranks": 2,
         "definition_id": 140268,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Savagery",
         "spell_id": 1251790,
+        "visible_spell_id": null,
         "icon": "ability_hunter_ferociousinspiration"
       },
       "pve_tooltip": "Takedown cooldown reduced by 30 sec.",
@@ -5733,6 +5858,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Takedown cooldown reduced by 15 sec.",
           "pvp_tooltip": "Takedown cooldown reduced by 15 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -5741,6 +5867,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Takedown cooldown reduced by 30 sec.",
           "pvp_tooltip": "Takedown cooldown reduced by 30 sec.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -5784,11 +5911,13 @@ window.WOW_PVP_DATA = {
           109304
         ],
         "entry_id": 126328,
+        "entry_max_ranks": 1,
         "definition_id": 131154,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Wildfire Infusion",
         "spell_id": 460198,
+        "visible_spell_id": null,
         "icon": "inv_misc_5potionbag_special"
       },
       "pve_tooltip": "Kill Command damage increased by 15%.\nKill Command reduces the cooldown of Wildfire Bomb by 1.0 sec.",
@@ -5837,11 +5966,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 135508,
+        "entry_max_ranks": 1,
         "definition_id": 140265,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Grenade Juggler",
         "spell_id": 459843,
+        "visible_spell_id": null,
         "icon": "inv_misc_mohawkgrenade"
       },
       "pve_tooltip": "Boomstick increases the cooldown recovery rate of Wildfire Bomb by 60% for 8 sec.",
@@ -5890,11 +6021,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 136681,
+        "entry_max_ranks": 1,
         "definition_id": 141453,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Wildfire Imbuement",
         "spell_id": 1252943,
+        "visible_spell_id": null,
         "icon": "spell_shaman_improvelavalash"
       },
       "pve_tooltip": "Approximately 2 procs per minute\nThrowing your Wildfire Bomb has a chance to imbue your weapon with flame, causing you and your pet's auto-attacks to deal an additional (40% of Attack Power) Fire damage for 10 sec.",
@@ -6004,11 +6137,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 136682,
+        "entry_max_ranks": 1,
         "definition_id": 141454,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Flanked",
         "spell_id": 1256938,
+        "visible_spell_id": null,
         "icon": "ability_hunter_invigeration"
       },
       "pve_tooltip": "Takedown damage increased by 50% and it now strikes 4 additional nearby targets.\nDuring Takedown, your attack speed is increased by 100%.",
@@ -6057,11 +6192,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 126316,
+        "entry_max_ranks": 1,
         "definition_id": 131142,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lethal Calibration",
         "spell_id": 1262409,
+        "visible_spell_id": null,
         "icon": "ability_siege_engineer_detonate"
       },
       "pve_tooltip": "Wildfire Bomb reduces the cooldown of Boomstick by 2.0 sec for each enemy hit, up to 10 sec.",
@@ -6110,11 +6247,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 135495,
+        "entry_max_ranks": 2,
         "definition_id": 140252,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Razor Edge",
         "spell_id": 1253053,
+        "visible_spell_id": null,
         "icon": "spell_druid_bloodythrash"
       },
       "pve_tooltip": "Raptor Strike and Kill Command gain 20% increased critical strike chance and 20% increased critical damage dealt.",
@@ -6132,6 +6271,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Raptor Strike and Kill Command gain 10% increased critical strike chance and 10% increased critical damage dealt.",
           "pvp_tooltip": "Raptor Strike and Kill Command gain 10% increased critical strike chance and 10% increased critical damage dealt.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         },
@@ -6140,6 +6280,7 @@ window.WOW_PVP_DATA = {
           "pve_tooltip": "Raptor Strike and Kill Command gain 20% increased critical strike chance and 20% increased critical damage dealt.",
           "pvp_tooltip": "Raptor Strike and Kill Command gain 20% increased critical strike chance and 20% increased critical damage dealt.",
           "tooltip_changed": false,
+          "changes": [],
           "source": "simc_exact_build_trait_rank",
           "build": "12.1.0.69875"
         }
@@ -6178,11 +6319,13 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 137055,
+        "entry_max_ranks": 1,
         "definition_id": 141818,
         "entry_index": 100,
         "entry_type": "tierrank",
         "talent_name": "Raptor Swipe",
         "spell_id": 1259003,
+        "visible_spell_id": null,
         "icon": "inv12_apextalent_hunter_raptorswipe"
       },
       "pve_tooltip": "Raptor Strike has a 25% chance to upgrade itself to a Raptor Swipe, dealing (280% of Attack Power) Physical damage to all enemies within 15 yds in front of you. Damage reduced beyond 5 targets.",
@@ -6291,15 +6434,17 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 137054,
+        "entry_max_ranks": 2,
         "definition_id": 141817,
         "entry_index": 200,
         "entry_type": "tierrank",
         "talent_name": "Raptor Swipe",
         "spell_id": 1259017,
+        "visible_spell_id": null,
         "icon": "ability_hunter_raptorstrike"
       },
-      "pve_tooltip": "Raptor Strike, Wildfire Bomb, and Raptor Swipe damage increased by 10%.\nRaptor Swipe deals 35% increased damage to its primary target.",
-      "pvp_tooltip": "Raptor Strike, Wildfire Bomb, and Raptor Swipe damage increased by 10%.\nRaptor Swipe deals 35% increased damage to its primary target.",
+      "pve_tooltip": "Raptor Strike, Wildfire Bomb, and Raptor Swipe damage increased by 20%.\nRaptor Swipe deals 70% increased damage to its primary target.",
+      "pvp_tooltip": "Raptor Strike, Wildfire Bomb, and Raptor Swipe damage increased by 20%.\nRaptor Swipe deals 70% increased damage to its primary target.",
       "tooltip_changed": false,
       "render_status": "UNCHANGED",
       "changes": [],
@@ -6307,7 +6452,26 @@ window.WOW_PVP_DATA = {
       "has_pvp_mechanics": false,
       "mechanics": [],
       "render_effect_count": 0,
-      "rank_tooltips": []
+      "rank_tooltips": [
+        {
+          "rank": 1,
+          "pve_tooltip": "Raptor Strike, Wildfire Bomb, and Raptor Swipe damage increased by 10%.\nRaptor Swipe deals 35% increased damage to its primary target.",
+          "pvp_tooltip": "Raptor Strike, Wildfire Bomb, and Raptor Swipe damage increased by 10%.\nRaptor Swipe deals 35% increased damage to its primary target.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        },
+        {
+          "rank": 2,
+          "pve_tooltip": "Raptor Strike, Wildfire Bomb, and Raptor Swipe damage increased by 20%.\nRaptor Swipe deals 70% increased damage to its primary target.",
+          "pvp_tooltip": "Raptor Strike, Wildfire Bomb, and Raptor Swipe damage increased by 20%.\nRaptor Swipe deals 70% increased damage to its primary target.",
+          "tooltip_changed": false,
+          "changes": [],
+          "source": "simc_exact_build_trait_rank",
+          "build": "12.1.0.69875"
+        }
+      ]
     },
     {
       "talent_name": "Raptor Swipe",
@@ -6342,11 +6506,13 @@ window.WOW_PVP_DATA = {
         "prev": [],
         "next": [],
         "entry_id": 137053,
+        "entry_max_ranks": 1,
         "definition_id": 141816,
         "entry_index": 300,
         "entry_type": "tierrank",
         "talent_name": "Raptor Swipe",
         "spell_id": 1259019,
+        "visible_spell_id": null,
         "icon": "inv_raptortravelform"
       },
       "pve_tooltip": "Raptor Strike now has a 100% chance to upgrade itself to a Raptor Swipe.\nRaptor Swipes that benefit from Tip of the Spear provoke an additional Strike as One at 300% effectiveness.",
@@ -6398,11 +6564,13 @@ window.WOW_PVP_DATA = {
           109807
         ],
         "entry_id": 117573,
+        "entry_max_ranks": 1,
         "definition_id": 122585,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sentinel",
         "spell_id": 1253599,
+        "visible_spell_id": null,
         "icon": "inv_ability_sentinelhunter_lunarstorm"
       },
       "pve_tooltip": "Consuming Tip of the Spear has a 10% chance to summon the aid of a Sentinel Owl that descends from the skies and applies Sentinel's Mark to your target.\nSentinel's Mark\nYour next Wildfire Bomb deals 40% increased direct damage to the marked target.",
@@ -6453,11 +6621,13 @@ window.WOW_PVP_DATA = {
           94958
         ],
         "entry_id": 117586,
+        "entry_max_ranks": 1,
         "definition_id": 122598,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Don't Look Back",
         "spell_id": 450373,
+        "visible_spell_id": null,
         "icon": "ability_racial_forceshield"
       },
       "pve_tooltip": "Consuming Sentinel's Mark grants you an absorb shield equal to 10.0% of your maximum health.",
@@ -6580,11 +6750,13 @@ window.WOW_PVP_DATA = {
           94990
         ],
         "entry_id": 117570,
+        "entry_max_ranks": 1,
         "definition_id": 122582,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Moon's Blessing",
         "spell_id": 1253825,
+        "visible_spell_id": null,
         "icon": "spell_druid_lunarinspiration"
       },
       "pve_tooltip": "Consuming Tip of the Spear has a 10% increased chance to summon your Sentinel Owl.\nWhen your Sentinel Owl applies Sentinel's Mark, reduce the cooldown of Wildfire Bomb by 6.0 sec.",
@@ -6635,11 +6807,13 @@ window.WOW_PVP_DATA = {
           94971
         ],
         "entry_id": 117578,
+        "entry_max_ranks": 1,
         "definition_id": 122590,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sanctified Armaments",
         "spell_id": 1253831,
+        "visible_spell_id": null,
         "icon": "inv_polearm_2h_arakkoa_c_01"
       },
       "pve_tooltip": "An additional 15% of Raptor Strike's damage is dealt as Arcane damage over 6 sec.",
@@ -6690,11 +6864,13 @@ window.WOW_PVP_DATA = {
           110028
         ],
         "entry_id": 136065,
+        "entry_max_ranks": 1,
         "definition_id": 140820,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Moonlight Chakram",
         "spell_id": 1264902,
+        "visible_spell_id": null,
         "icon": "inv_ability_hunter_deathchakram"
       },
       "pve_tooltip": "For 15 sec after casting Takedown, Takedown is replaced with Moonlight Chakram.\nMoonlight Chakram\nThrow a chakram blessed with moonlight at your current target that will rapidly deal (284.4% of Attack Power) Physical damage 7 times, bouncing to other targets if they are nearby.",
@@ -6749,7 +6925,7 @@ window.WOW_PVP_DATA = {
         },
         {
           "effect_origin": "DEPENDENCY",
-          "dependency_kind": "RUNTIME",
+          "dependency_kind": "REFERENCED",
           "talent_spell_id": 1264902,
           "source_spell_id": 459753,
           "effect_index": 1,
@@ -6768,7 +6944,7 @@ window.WOW_PVP_DATA = {
             459753
           ],
           "dependency_relations": [
-            "trigger_spell",
+            "tooltip_value_ref",
             "spelldesc_ref",
             "tooltip_value_ref"
           ],
@@ -6822,11 +6998,13 @@ window.WOW_PVP_DATA = {
           94970
         ],
         "entry_id": 117555,
+        "entry_max_ranks": 1,
         "definition_id": 122567,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Stargazer",
         "spell_id": 1253751,
+        "visible_spell_id": null,
         "icon": "icon_7fx_nightborn_astromancer_blue"
       },
       "pve_tooltip": "Consuming Tip of the Spear grants 2% increased critical strike damage for 10 sec. Multiple applications may overlap.",
@@ -6877,11 +7055,13 @@ window.WOW_PVP_DATA = {
           94970
         ],
         "entry_id": 135589,
+        "entry_max_ranks": 1,
         "definition_id": 140345,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Open Fire",
         "spell_id": 1253807,
+        "visible_spell_id": null,
         "icon": "spell_fire_flare"
       },
       "pve_tooltip": "Fire damage dealt increased by 5%.",
@@ -6932,11 +7112,13 @@ window.WOW_PVP_DATA = {
           94965
         ],
         "entry_id": 117587,
+        "entry_max_ranks": 1,
         "definition_id": 122599,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Can't Miss, Won't Miss",
         "spell_id": 1253830,
+        "visible_spell_id": null,
         "icon": "ability_hunter_aimedshot"
       },
       "pve_tooltip": "Tip of the Spear damage bonus increased by 4%.\nTakedown duration increased by 2 sec.",
@@ -6987,11 +7169,13 @@ window.WOW_PVP_DATA = {
           94980
         ],
         "entry_id": 117568,
+        "entry_max_ranks": 1,
         "definition_id": 122580,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Invigorating Pulse",
         "spell_id": 450379,
+        "visible_spell_id": null,
         "icon": "ability_mage_netherwindpresence"
       },
       "pve_tooltip": "Kill Command grants an additional 5 Focus and its damage is increased by 20%.\nMaximum Focus increased by 25.",
@@ -7042,11 +7226,13 @@ window.WOW_PVP_DATA = {
           109805
         ],
         "entry_id": 136522,
+        "entry_max_ranks": 1,
         "definition_id": 141295,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Twilight Requiem",
         "spell_id": 1264904,
+        "visible_spell_id": null,
         "icon": "spell_nature_moonglow"
       },
       "pve_tooltip": "When your Moonlight Chakram expires, it summons an explosion of moonlight, dealing (200% of Attack Power) Arcane damage to nearby enemies. Damage reduced beyond 8 targets.",
@@ -7157,11 +7343,13 @@ window.WOW_PVP_DATA = {
           109805
         ],
         "entry_id": 136521,
+        "entry_max_ranks": 1,
         "definition_id": 141294,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Stalk and Strike",
         "spell_id": 1266069,
+        "visible_spell_id": null,
         "icon": "ability_ambush"
       },
       "pve_tooltip": "Throwing your Moonlight Chakram reduces the cooldown of Wildfire Bomb by 10 sec.",
@@ -7212,12 +7400,14 @@ window.WOW_PVP_DATA = {
           94978
         ],
         "entry_id": 117567,
+        "entry_max_ranks": 1,
         "definition_id": 122579,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Arcane Talons",
         "spell_id": 1253846,
-        "icon": "inv_10_specialreagentfoozles_tuskclaw_ice"
+        "visible_spell_id": null,
+        "icon": "inv_10_specialreagentfoozles_tuskclaw-ice"
       },
       "pve_tooltip": "Sentinel's Mark further increases the damage of Wildfire Bomb by 50%",
       "pvp_tooltip": "Sentinel's Mark further increases the damage of Wildfire Bomb by 50%",
@@ -7267,11 +7457,13 @@ window.WOW_PVP_DATA = {
           94978
         ],
         "entry_id": 117562,
+        "entry_max_ranks": 1,
         "definition_id": 122574,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lunar Calling",
         "spell_id": 1253852,
+        "visible_spell_id": null,
         "icon": "ability_hunter_sentinelowl"
       },
       "pve_tooltip": "Takedown summons your Sentinel Owl and your chance to summon your Sentinel Owl is increased by an additional 10% during Takedown.",
@@ -7322,11 +7514,13 @@ window.WOW_PVP_DATA = {
           94978
         ],
         "entry_id": 117577,
+        "entry_max_ranks": 1,
         "definition_id": 122589,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Conditioning",
         "spell_id": 1253887,
+        "visible_spell_id": null,
         "icon": "ability_racial_runningwild"
       },
       "pve_tooltip": "Your movement speed is increased by 8%.\nAspect of the Cheetah's cooldown is reduced by 30 sec.",
@@ -7377,11 +7571,13 @@ window.WOW_PVP_DATA = {
           94978
         ],
         "entry_id": 123870,
+        "entry_max_ranks": 1,
         "definition_id": 128708,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Scout's Vigil",
         "spell_id": 1253892,
+        "visible_spell_id": null,
         "icon": "sha_ability_rogue_bloodyeye"
       },
       "pve_tooltip": "Enemy detection radius reduced by 10 yds.",
@@ -7432,11 +7628,13 @@ window.WOW_PVP_DATA = {
           94978
         ],
         "entry_id": 136063,
+        "entry_max_ranks": 1,
         "definition_id": 140818,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Radiant Edge",
         "spell_id": 1264903,
+        "visible_spell_id": null,
         "icon": "inv_misc_nightelfglaive"
       },
       "pve_tooltip": "Your Moonlight Chakram deals 25% increased damage each time it bounces.",
@@ -7542,11 +7740,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 117575,
+        "entry_max_ranks": 1,
         "definition_id": 122587,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lunar Storm",
         "spell_id": 1253732,
+        "visible_spell_id": null,
         "icon": "artifactability_balancedruid_moonandstars"
       },
       "pve_tooltip": "When Sentinel's Mark is consumed, it summons a barrage of 4 lunar missiles, each dealing (200% of Attack Power) Arcane damage to enemies within 10 yds.",
@@ -7658,11 +7858,13 @@ window.WOW_PVP_DATA = {
           94979
         ],
         "entry_id": 117588,
+        "entry_max_ranks": 1,
         "definition_id": 122600,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Howl of the Pack Leader",
         "spell_id": 471876,
+        "visible_spell_id": null,
         "icon": "inv_ability_packleaderhunter_vicioushunt"
       },
       "pve_tooltip": "While in combat, every 30 sec your next Kill Command summons the aid of a Beast.\nWyvern\nA Wyvern descends from the skies, letting out a battle cry that increases the damage of you and your pets by 10% for 12 sec.\nBoar\nA Boar charges through your target 1 time, dealing (1440% of Attack Power) damage to nearby enemies and an additional (1200% of Attack Power) physical damage to its primary target. Damage reduced beyond 5 targets.\nBear\nA Bear leaps into the fray, rending the flesh of your enemies, dealing (400% of Attack Power) damage over 10 sec to up to 8 nearby enemies.",
@@ -7872,11 +8074,13 @@ window.WOW_PVP_DATA = {
           94972
         ],
         "entry_id": 117582,
+        "entry_max_ranks": 1,
         "definition_id": 122594,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Pack Mentality",
         "spell_id": 472358,
+        "visible_spell_id": null,
         "icon": "spell_hunter_lonewolf"
       },
       "pve_tooltip": "Howl of the Pack Leader increases the damage of your Kill Command by 50%.\nSummoning a Beast reduces the cooldown of Wildfire Bomb by 6.0 sec.",
@@ -7927,11 +8131,13 @@ window.WOW_PVP_DATA = {
           94984
         ],
         "entry_id": 117589,
+        "entry_max_ranks": 1,
         "definition_id": 122601,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Dire Summons",
         "spell_id": 472352,
+        "visible_spell_id": null,
         "icon": "inv_misc_horn_01"
       },
       "pve_tooltip": "Kill Command reduces the cooldown of Howl of the Pack Leader by 1.5 sec.\nRaptor Strike reduces the cooldown of Howl of the Pack Leader by 1.0 sec.\n(700ms cooldown)",
@@ -7982,11 +8188,13 @@ window.WOW_PVP_DATA = {
           94988
         ],
         "entry_id": 117559,
+        "entry_max_ranks": 1,
         "definition_id": 122571,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Better Together",
         "spell_id": 472357,
+        "visible_spell_id": null,
         "icon": "ability_hunter_pathfinding2"
       },
       "pve_tooltip": "Damage dealt by your pet is increased by 5%.\nRaptor Strike damage increased by 5%.",
@@ -8037,11 +8245,13 @@ window.WOW_PVP_DATA = {
           109803
         ],
         "entry_id": 117576,
+        "entry_max_ranks": 1,
         "definition_id": 122588,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Slicked Shoes",
         "spell_id": 472719,
+        "visible_spell_id": null,
         "icon": "ability_heroicleap"
       },
       "pve_tooltip": "When Disengage removes a movement impairing effect, its cooldown is reduced by 4 sec.",
@@ -8092,11 +8302,13 @@ window.WOW_PVP_DATA = {
           109803
         ],
         "entry_id": 123781,
+        "entry_max_ranks": 1,
         "definition_id": 128619,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Masterful Call",
         "spell_id": 1268705,
+        "visible_spell_id": null,
         "icon": "ability_hunter_masterscall"
       },
       "pve_tooltip": "The duration of Master's Call is increased by 2 sec and it increases the movement speed of its target by 20%.",
@@ -8147,11 +8359,13 @@ window.WOW_PVP_DATA = {
           94969
         ],
         "entry_id": 117569,
+        "entry_max_ranks": 1,
         "definition_id": 122581,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Ursine Fury",
         "spell_id": 472476,
+        "visible_spell_id": null,
         "icon": "spell_druid_bearhug"
       },
       "pve_tooltip": "When your Bear is summoned, it is joined by 2 Dire Beasts.",
@@ -8202,11 +8416,13 @@ window.WOW_PVP_DATA = {
           94969
         ],
         "entry_id": 128358,
+        "entry_max_ranks": 1,
         "definition_id": 133164,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Sharpened Claws",
         "spell_id": 472524,
+        "visible_spell_id": null,
         "icon": "ability_druid_swipe"
       },
       "pve_tooltip": "The damage of your Bear's Rend Flesh is increased by 15%.",
@@ -8257,11 +8473,13 @@ window.WOW_PVP_DATA = {
           94967
         ],
         "entry_id": 117581,
+        "entry_max_ranks": 1,
         "definition_id": 122593,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Fury of the Wyvern",
         "spell_id": 472550,
+        "visible_spell_id": null,
         "icon": "spell_druid_feralchargecat"
       },
       "pve_tooltip": "Your pet's attacks increase your Wyvern's damage bonus by 1%, up to 10%.\nCasting Wildfire Bomb extends the duration of your Wyvern by 5.0 sec, up to 10 additional sec.",
@@ -8464,11 +8682,13 @@ window.WOW_PVP_DATA = {
           109804
         ],
         "entry_id": 117585,
+        "entry_max_ranks": 1,
         "definition_id": 122597,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Hogstrider",
         "spell_id": 472639,
+        "visible_spell_id": null,
         "icon": "inv_misc_boarshead"
       },
       "pve_tooltip": "Each time your Boar deals damage, the damage of your next Boomstick is increased by 5%, up to 20%.",
@@ -8609,11 +8829,13 @@ window.WOW_PVP_DATA = {
           109802
         ],
         "entry_id": 136061,
+        "entry_max_ranks": 1,
         "definition_id": 140816,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Lethal Barbs",
         "spell_id": 1264781,
+        "visible_spell_id": null,
         "icon": "ability_hunter_criticalshot"
       },
       "pve_tooltip": "Approximately 20 procs per minute\nYour auto attacks have a very high chance to grant 3 Focus to you and your pet.\nAuto attack damage increased by 15%.",
@@ -8664,11 +8886,13 @@ window.WOW_PVP_DATA = {
           94966
         ],
         "entry_id": 117566,
+        "entry_max_ranks": 1,
         "definition_id": 122578,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "No Mercy",
         "spell_id": 472660,
+        "visible_spell_id": null,
         "icon": "ability_hunter_goforthethroat"
       },
       "pve_tooltip": "Your Bleed effects deal 35% increased damage.",
@@ -8719,11 +8943,13 @@ window.WOW_PVP_DATA = {
           94966
         ],
         "entry_id": 117564,
+        "entry_max_ranks": 1,
         "definition_id": 122576,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Shell Cover",
         "spell_id": 472707,
+        "visible_spell_id": null,
         "icon": "inv_babyturtle2"
       },
       "pve_tooltip": "Survival of the Fittest now summons a Turtle to aid you, further increasing its damage reduction effect by 10%.",
@@ -8774,11 +9000,13 @@ window.WOW_PVP_DATA = {
           94966
         ],
         "entry_id": 136062,
+        "entry_max_ranks": 1,
         "definition_id": 140817,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Hoof and Blade",
         "spell_id": 1264797,
+        "visible_spell_id": null,
         "icon": "ability_hunter_beastwithin"
       },
       "pve_tooltip": "Hogstrider further increases the damage of Boomstick by 2%.",
@@ -8829,11 +9057,13 @@ window.WOW_PVP_DATA = {
           94966
         ],
         "entry_id": 136236,
+        "entry_max_ranks": 1,
         "definition_id": 141009,
         "entry_index": 200,
         "entry_type": "passive",
         "talent_name": "Wyvern's Gaze",
         "spell_id": 1264792,
+        "visible_spell_id": null,
         "icon": "ability_deathwing_assualtaspects"
       },
       "pve_tooltip": "The damage bonus from your Wyvern now lasts an additional 2.0 sec.",
@@ -8884,11 +9114,13 @@ window.WOW_PVP_DATA = {
           94966
         ],
         "entry_id": 136060,
+        "entry_max_ranks": 1,
         "definition_id": 140815,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Sharpened Fangs",
         "spell_id": 1264775,
+        "visible_spell_id": null,
         "icon": "inv_misc_monsterfang_02"
       },
       "pve_tooltip": "Your mastery is increased by 3%.\nWildfire Bomb deals an additional 15% increased damage to its primary target.",
@@ -8940,11 +9172,13 @@ window.WOW_PVP_DATA = {
         ],
         "next": [],
         "entry_id": 117563,
+        "entry_max_ranks": 1,
         "definition_id": 122575,
         "entry_index": 100,
         "entry_type": "passive",
         "talent_name": "Stampede!",
         "spell_id": 472741,
+        "visible_spell_id": null,
         "icon": "ability_hunter_bestialdiscipline"
       },
       "pve_tooltip": "Casting Takedown grants Howl of the Pack Leader and causes your next Kill Command to rouse the nearby wildlife into a Stampede, charging your target and dealing [(150% of Attack Power) * 9] Physical damage over 7 sec.\n(5s cooldown)",
@@ -9020,13 +9254,291 @@ window.WOW_PVP_DATA = {
     }
   ],
   "fetch_errors": [],
+  "serialization": {
+    "version": 2,
+    "spec_id": 255,
+    "node_order": [
+      79837,
+      94957,
+      94958,
+      94959,
+      94960,
+      94961,
+      94962,
+      94965,
+      94966,
+      94967,
+      94968,
+      94969,
+      94970,
+      94971,
+      94972,
+      94973,
+      94974,
+      94976,
+      94978,
+      94979,
+      94980,
+      94981,
+      94982,
+      94983,
+      94984,
+      94985,
+      94986,
+      94987,
+      94988,
+      94989,
+      94990,
+      94991,
+      94992,
+      94993,
+      99831,
+      99832,
+      99833,
+      102252,
+      102255,
+      102257,
+      102262,
+      102263,
+      102264,
+      102268,
+      102270,
+      102272,
+      102279,
+      102281,
+      102282,
+      102285,
+      102289,
+      102292,
+      102336,
+      102337,
+      102338,
+      102340,
+      102341,
+      102342,
+      102343,
+      102344,
+      102345,
+      102346,
+      102347,
+      102350,
+      102351,
+      102353,
+      102354,
+      102355,
+      102356,
+      102357,
+      102358,
+      102359,
+      102360,
+      102362,
+      102363,
+      102364,
+      102365,
+      102367,
+      102368,
+      102369,
+      102370,
+      102371,
+      102372,
+      102373,
+      102374,
+      102375,
+      102376,
+      102377,
+      102380,
+      102381,
+      102383,
+      102384,
+      102387,
+      102389,
+      102390,
+      102391,
+      102393,
+      102394,
+      102395,
+      102396,
+      102397,
+      102401,
+      102402,
+      102404,
+      102406,
+      102407,
+      102409,
+      102411,
+      102412,
+      102414,
+      102415,
+      102416,
+      102418,
+      102419,
+      102422,
+      102423,
+      102424,
+      102425,
+      103947,
+      103950,
+      103952,
+      103955,
+      103956,
+      103957,
+      103958,
+      103959,
+      103960,
+      103961,
+      103962,
+      103964,
+      103966,
+      103974,
+      103975,
+      103977,
+      103978,
+      103979,
+      103982,
+      103984,
+      103985,
+      103986,
+      103987,
+      103989,
+      103990,
+      104095,
+      104127,
+      104130,
+      107285,
+      107286,
+      107288,
+      107289,
+      107290,
+      109304,
+      109305,
+      109306,
+      109307,
+      109309,
+      109310,
+      109311,
+      109312,
+      109313,
+      109316,
+      109317,
+      109319,
+      109320,
+      109321,
+      109323,
+      109324,
+      109470,
+      109483,
+      109484,
+      109485,
+      109486,
+      109487,
+      109488,
+      109489,
+      109490,
+      109491,
+      109799,
+      109800,
+      109801,
+      109802,
+      109803,
+      109804,
+      109805,
+      109807,
+      109961,
+      110028,
+      110152,
+      110153,
+      110154,
+      110155,
+      110156,
+      110157,
+      110158,
+      110159,
+      110160,
+      110161,
+      110162,
+      110163,
+      110164,
+      110428,
+      110429,
+      110430,
+      110572,
+      110573,
+      110574,
+      110575,
+      110688,
+      110691,
+      110692
+    ],
+    "subtree_nodes": [
+      {
+        "id": 99833,
+        "name": "Pack Leader / Sentinel",
+        "type": "subtree",
+        "posX": 9000,
+        "posY": 600,
+        "entryNode": true,
+        "next": [],
+        "prev": [],
+        "entries": [
+          {
+            "id": 123350,
+            "type": "subtree",
+            "name": "Pack Leader",
+            "traitSubTreeId": 43,
+            "traitTreeId": 774,
+            "atlasMemberName": "talents-heroclass-hunter-packleader",
+            "nodes": [
+              94991,
+              94985,
+              94992,
+              94962,
+              94979,
+              94972,
+              94984,
+              94988,
+              109803,
+              94969,
+              94967,
+              109804,
+              109802,
+              94966
+            ]
+          },
+          {
+            "id": 123349,
+            "type": "subtree",
+            "name": "Sentinel",
+            "traitSubTreeId": 42,
+            "traitTreeId": 774,
+            "atlasMemberName": "talents-heroclass-hunter-sentinel",
+            "nodes": [
+              94976,
+              94989,
+              94973,
+              94981,
+              109807,
+              94958,
+              94990,
+              94971,
+              110028,
+              94970,
+              94965,
+              94980,
+              109805,
+              94978
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "source_warnings": [],
   "slug": "hunter-survival",
-  "generated_at": "2026-09-21T12:51:05.470564+00:00",
+  "generated_at": "2026-09-21T19:39:39.849433+00:00",
   "validation": {
     "talents": 127,
     "changed_tooltips": 19,
-    "talents_with_pvp_mechanics": 25,
+    "talents_with_pvp_mechanics": 24,
     "unique_nodes": 109,
     "tree_build": "12.1.0.69875",
     "simc_build": "12.1.0.69875",
