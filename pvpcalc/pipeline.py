@@ -4210,9 +4210,36 @@ async def audit_spec(
         if spell.name == f"{spec_name} {class_name}"
         and re.search(r"^Class\s*:\s*" + re.escape(spell.name) + r"\s*$", spell.raw, re.M)
     ]
+    # Convert simple scalar formulas using exact client notation (e.g. 777/100).
+    # Keep raw DB values intact for provenance and change only the renderer input.
+    for row in result.all_effect_rows:
+        sid = int(row.get("source_spell_id", row.get("spell_id", 0)))
+        index = int(row.get("effect_index") or 0)
+        spell = simc_dump.spells.get(sid)
+        if not spell or row.get("base_value") is None:
+            continue
+        pattern = re.compile(r"\$\{\$(?:" + str(sid) + r")?s" + str(index)
+                             + r"/(-?\d+(?:\.\d+)?)\}(?:\.(\d+))?(%)?")
+        matches = list(pattern.finditer("\n".join(simc._player_text_sections(spell.raw))))
+        if matches and len({m[0] for m in matches}) == 1:
+            match = matches[0]
+            divisor = float(match[1])
+            if divisor:
+                precision = int(match[2] or (2 if match[3] else 4))
+                base = abs(float(row["base_value"]) / divisor)
+                new = abs(float(row.get("final_pvp_value") or 0) / divisor)
+                row["display_formula"] = {"old": round(base, precision), "new": round(new, precision),
+                                          "kind": "percent_value" if match[3] else "ordinary_value",
+                                          "divisor": divisor, "precision": precision}
+
     for talent in result.talents:
-        if int(talent.get("max_ranks") or 1) > 1 and talent.get("node_type") != "tiered":
-            source = ranks.rank_source(simc_dump, talent)
+        rank_talent = talent
+        if talent.get("node_type") == "tiered":
+            spell = simc_dump.spells.get(talent["spell_id"])
+            entry = re.search(r"^Talent Entry.*max_rank=(\d+)", spell.raw, re.M) if spell else None
+            rank_talent = {**talent, "node_type": "single", "max_ranks": int(entry[1]) if entry else 1}
+        if int(rank_talent.get("max_ranks") or 1) > 1:
+            source = ranks.rank_source(simc_dump, rank_talent)
             if source:
                 result.rank_sources[int(talent["entry_id"])] = source
     for spell_id in result.spell_ids:

@@ -1,0 +1,18 @@
+World of Warcraft 12.1.0.69875 Live
+Name             : Improved Fade (id=390670) [Spell Family (6), Passive, Hidden] 
+Talent Entry     : Generic [tree=class, row=8, col=8, max_rank=2, req_points=23]
+                 : Effect#1 [op=set, values=(-5000, -10000)]
+Class            : Priest
+School           : Physical
+Spell Type       : None
+Labels           : 16: Class Spells
+                 : 18: Priest Spells
+                 : 292
+Attributes       : Passive (6), Do Not Display (Spellbook, Aura Icon, Combat Log) (7)
+Effects          :
+#1 (id=1027663)  : Apply Aura (6) | Add Flat Modifier (107): Spell Cooldown (11)
+                   Base Value: -5000 | Scaled Value: -5000 | Misc Value: 11 | Target: Self (1)
+                   Affected Spells: Fade (586)
+                   Family Flags: 14
+Description      : Reduces the cooldown of Fade by ${$s1/-1000)} sec.
+

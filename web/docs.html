@@ -61,9 +61,9 @@
         <ol>
             <li><strong>Discover the trees.</strong> Raidbots supplies the available specializations and graph. Coordinates and edges come from the same geometry in the UI.</li>
             <li><strong>Collect spell evidence.</strong> The Python source adapters fetch and cache tooltip, effect, and aura records. SimulationCraft data must match the tree's build.</li>
-            <li><strong>Resolve concrete effects.</strong> The pipeline compares effect identities and semantics. Dependencies follow explicit triggers, formulas, and description references. Reverse “Affected Spells” lists alone do not create talent dependency paths.</li>
+            <li><strong>Resolve concrete effects.</strong> The pipeline compares effect identities and semantics. Dependencies follow explicit triggers, formulas, and description references. Reverse “Affected Spells” lists alone do not create talent dependency paths. Inactive equipment-only conditional branches are excluded: an old tier-set bonus is not an unconditional hero talent modifier. A direct tooltip-value reference takes priority over a parallel runtime trigger.</li>
             <li><strong>Apply scoped modifiers.</strong> The matching spell coefficient and PvP aura rules produce an effect-level multiplier. A generic talent parameter does not inherit an output aura merely because it mentions that spell.</li>
-            <li><strong>Resolve ranks and text.</strong> TraitDefinition set, multiply, and add overrides establish rank values. The renderer changes matched expressions, keeps character-dependent formulas symbolic, and preserves unrelated numbers. At 0/2, the tooltip shows rank 2; at 1/2, current and next; at 2/2, current.</li>
+            <li><strong>Resolve ranks and text.</strong> TraitDefinition set, multiply, and add overrides establish rank values. The renderer changes matched expressions, keeps character-dependent formulas symbolic, and preserves unrelated numbers. Every rank has its own full description and PvP changes. The selected rank is marked Current. Apex progression is split into all four ranks, including the two separate ranks of its middle stage.</li>
             <li><strong>Validate and publish.</strong> All specializations must pass before the generated JSON/JavaScript snapshots are committed and GitHub Pages is updated. A failed run leaves the previous deployment available.</li>
         </ol>
         <div class="docs-table-wrap"><table class="docs-table"><thead><tr><th>Code</th><th>Responsibility</th></tr></thead><tbody>
@@ -74,6 +74,11 @@
             <tr><td><code>web/</code></td><td>Static calculator, on-demand datasets, comparisons, mechanics, and offline cache.</td></tr>
         </tbody></table></div>
         <p><a href="https://github.com/silverlightwow/wow-pvp-talent-lab">Explore the source code ↗</a></p>
+    </section>
+    <section class="docs-section" id="sharing">
+        <h2>Import, export, and share</h2>
+        <p>Import accepts a current in-game talent string or a link from this calculator. Export provides both formats. Your URL updates with talent choices and the PvE/PvP mode, so a refresh restores the build. Opening the site without a build shows the class and specialization chooser.</p>
+        <p>The codec follows <a href="https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentImportExport.lua">Blizzard’s ClassTalentImportExport implementation (community source mirror)</a>: serialization version 2, specialization ID, a zero tree hash allowed for third-party tools, and the full ordered node list, including inactive nodes. Choices, partial ranks, granted nodes, and hero-tree selection are encoded separately. Strings from a different patch can be incompatible; unavailable nodes, invalid ranks, missing prerequisites, and point-limit violations are rejected.</p>
     </section>
     <section class="docs-section" id="checks">
         <p class="docs-eyebrow">05 / Trust, with context</p>
@@ -89,5 +94,15 @@
     </section>
     <footer class="site-footer"><span>Made by <strong>SilverLight</strong></span><a class="documentation-link" href="index.html">← Open calculator</a></footer>
 </main>
+<script>
+if (window.parent !== window) {
+    document.body.classList.add('embedded-docs');
+    document.querySelectorAll('a[href="index.html"]').forEach(link => {
+        link.textContent = '← Close documentation';
+        link.addEventListener('click', event => {event.preventDefault(); parent.postMessage('close-documentation', '*');});
+    });
+    document.addEventListener('keydown', event => {if(event.key === 'Escape')parent.postMessage('close-documentation', '*');});
+}
+</script>
 </body>
 </html>

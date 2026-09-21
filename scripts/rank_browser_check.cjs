@@ -10,10 +10,14 @@ module.exports = async function checkRanks(page, data, touch) {
  async function inspect(talent, rank, expected, next) {
   const n=node(talent.node_id);if(touch)await n.tap();else await n.hover();
   const tip=page.locator('#talentTooltip');
-  assert.ok((await tip.locator('> .tooltip-rank-label').textContent()).includes(`${rank||2}/2`));
-  assert.equal((await tip.locator('> .tooltip-text').textContent()).trim(),expected);
-  assert.equal(await tip.locator('.tooltip-next-rank').count(),next?1:0);
-  if(next)assert.equal((await tip.locator('.tooltip-next-rank .tooltip-text').textContent()).trim(),next);
+  const sections=tip.locator('.tooltip-rank-section');
+  assert.equal(await sections.count(),2);
+  const mode=await page.locator('#pvpToggle').isChecked()?'pvp':'pve';
+  for(let i=0;i<2;i++) {
+   assert.equal((await sections.nth(i).locator('.tooltip-text').textContent()).trim(),talent.rank_tooltips[i][`${mode}_tooltip`].trim());
+   assert.equal(await sections.nth(i).evaluate(el=>el.classList.contains('current')),rank===i+1);
+   if(mode==='pvp'&&talent.rank_tooltips[i].tooltip_changed)assert.ok(await sections.nth(i).locator('.change-chip').count());
+  }
   if(touch)await page.locator('[data-touch-close]').tap();else await page.mouse.move(0,0);
  }
  for(const spellId of [390689,373054]) {

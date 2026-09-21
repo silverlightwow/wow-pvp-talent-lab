@@ -26,7 +26,13 @@ def validate_spec(directory: Path, class_item: dict, spec: dict, build: str) -> 
     for metadata in (spec, validation):
         if metadata.get('verification_status') != 'VERIFIED' or any(metadata.get(k, -1) != 0 for k in COUNTS):
             raise ValueError(f'{slug}: incomplete verification: {metadata}')
+    serialization = data.get('serialization') or {}
+    order = serialization.get('node_order', [])
+    if serialization.get('version') != 2 or serialization.get('spec_id') != spec['spec_id'] or not order or order != sorted(set(order)):
+        raise ValueError(f'{slug}: missing or invalid talent serialization metadata')
     talents = data.get('talents', [])
+    if not {t['node_id'] for t in talents}.issubset(set(order)):
+        raise ValueError(f'{slug}: talent node missing from serialization order')
     if len(talents) < 50:
         raise ValueError(f'{slug}: incomplete talent catalog')
     entries = [t.get('entry_id') for t in talents]
@@ -45,12 +51,16 @@ def validate_spec(directory: Path, class_item: dict, spec: dict, build: str) -> 
         if t.get('tooltip_changed') != changed or (t['render_status'] == 'CHANGED') != changed:
             raise ValueError(f'{slug}: inconsistent change flag for {t["spell_id"]}')
         maximum = int(t['tree_data'].get('max_ranks') or 1)
-        if maximum > 1 and t['tree_data'].get('node_type') != 'tiered':
+        if t['tree_data'].get('node_type') == 'tiered':
+            maximum = int(t['tree_data'].get('entry_max_ranks') or 1)
+        if maximum > 1:
             ranks = t.get('rank_tooltips', [])
             if [r.get('rank') for r in ranks] != list(range(1, maximum + 1)):
                 raise ValueError(f'{slug}: missing rank descriptions for {t["spell_id"]}')
             if any(not r.get(mode, '').strip() for r in ranks for mode in ('pve_tooltip', 'pvp_tooltip')):
                 raise ValueError(f'{slug}: empty rank description for {t["spell_id"]}')
+            if any(r.get('tooltip_changed') and not r.get('changes') for r in ranks):
+                raise ValueError(f'{slug}: missing per-rank PvP change annotations for {t["spell_id"]}')
             if any(ranks[-1][mode] != t[mode] for mode in ('pve_tooltip', 'pvp_tooltip')):
                 raise ValueError(f'{slug}: default tooltip is not maximum rank for {t["spell_id"]}')
     actual = {

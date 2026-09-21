@@ -95,6 +95,11 @@ def rows_at_rank(rows, rules, rank, spell_id):
             row["final_pvp_value"] = value * (
                 multiplier if multiplier is not None else 1
             )
+        if row.get("display_formula"):
+            formula = dict(row["display_formula"])
+            formula["old"] = round(abs(row["base_value"] / formula["divisor"]), formula["precision"])
+            formula["new"] = round(abs(row["final_pvp_value"] / formula["divisor"]), formula["precision"])
+            row["display_formula"] = formula
         result.append(row)
     return result
 

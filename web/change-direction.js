@@ -29,7 +29,7 @@
         else if (/each additional target reduces this bonus/.test(clause)) polarity = -1;
         else if (/(?:damage|healing)(?: that)? you (?:deal|do)|your (?:damage|healing)/.test(clause) && /reduc|less/.test((prefix + suffix).toLowerCase())) polarity = -1;
         else if (/sacrifice|siphon.*from an ally|damage (?:to yourself|you suffer)|health cost/.test(prefix + suffix)) polarity = 0;
-        else if (/damage|heal|absorb|shield|armor|stamina|strength|agility|intellect|haste|versatility|critical|chance|effectiveness|effective|slow|snare|silence|stun|duration|movement speed|regenerat|stacks|primary stat|rage|energy|mana|focus|health|leech/.test((prefix + suffix).toLowerCase())) polarity = 1;
+        else if (/damage|heal|absorb|shield|armor|stamina|strength|agility|intellect|haste|versatility|critical|chance|effectiveness|effective|slow|snare|silence|stun|duration|movement speed|regenerat|stacks?|slashes|times|primary stat|rage|energy|mana|focus|health|leech/.test((prefix + suffix).toLowerCase())) polarity = 1;
         if (!polarity) return 'neutral';
         return (newValue - oldValue) * polarity > 0 ? 'buff' : 'nerf';
     }

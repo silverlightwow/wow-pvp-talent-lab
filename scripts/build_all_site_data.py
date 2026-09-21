@@ -266,6 +266,7 @@ async def build_one(
         raise RuntimeError("Incomplete specialization: " + json.dumps(summary, default=_json_default))
 
     payload = spec_catalog.to_dict()
+    payload["serialization"] = audit.metadata.get("serialization")
     payload["source_warnings"] = [
         item for item in audit.unresolved_rows
         if item.get("reason") in {"WOWHEAD_ONLY_MODIFIER", "SUPERSEDED_DRUSTVAR_EFFECT"}

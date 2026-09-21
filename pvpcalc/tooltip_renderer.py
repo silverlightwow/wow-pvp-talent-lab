@@ -284,6 +284,10 @@ def semantic_transform(
     This deliberately does NOT perform text replacement.
     """
 
+    display = effect_row.get("display_formula")
+    if display:
+        return {"kind": display["kind"], "old": display["old"], "new": display["new"]}
+
     effect_text = _clean(
         effect_row.get(
             "effect_text",

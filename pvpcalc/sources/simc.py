@@ -134,6 +134,34 @@ def _parse_spells(
     return result
 
 
+def _without_inactive_equipment_branches(text, spells):
+    """A talent calculator has no equipped set bonuses. Keep the false branch.
+
+    Parse balanced brackets so references inside conditional formulas cannot leak
+    into the unconditional dependency graph. Leave non-equipment conditions intact.
+    """
+    pattern = re.compile(r"\$\?a(\d+)\[")
+    for match in reversed(list(pattern.finditer(text))):
+        aura = spells.get(int(match[1]))
+        if aura is None or not re.search(r"Class Set|Item Set", aura.name, re.I):
+            continue
+        start = match.end() - 1
+        def end_bracket(start):
+            depth = 0
+            for i in range(start, len(text)):
+                depth += (text[i] == "[") - (text[i] == "]")
+                if depth == 0:
+                    return i
+            return None
+        first = end_bracket(start)
+        if first is None or text[first + 1:first + 2] != "[":
+            continue
+        last = end_bracket(first + 1)
+        if last is not None:
+            text = text[:match.start()] + text[first + 2:last] + text[last + 1:]
+    return text
+
+
 def _build_edges(
     spells: dict[int, SimcSpell],
 ) -> dict[int, tuple[SimcEdge, ...]]:
@@ -169,7 +197,7 @@ def _build_edges(
         spells.items()
     ):
 
-        block = spell.raw
+        block = _without_inactive_equipment_branches(spell.raw, spells)
 
 
         # ----------------------------------------------------
@@ -633,10 +661,9 @@ def dependency_closure(
             continue
 
 
-        for edge in dump.edges.get(
-            current,
-            tuple(),
-        ):
+        # A direct player-text reference wins over a parallel trigger edge.
+        for edge in sorted(dump.edges.get(current, ()),
+                           key=lambda e: {"tooltip_value_ref": 0, "spelldesc_ref": 1}.get(e.relation, 2)):
 
             target = (
                 edge.target_spell_id

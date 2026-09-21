@@ -358,11 +358,17 @@ class WowheadSpellPage:
     effects: tuple[EffectObservation, ...]
     url: str
     metadata_overrides: tuple[tuple[str, int, str], ...] = ()
+    icon: str = ""
 
 
 def _tooltip_card_lines(html: str, spell_name: str) -> list[str]:
     """Keep inline spans inline; only real HTML blocks create text lines."""
     soup = BeautifulSoup(html, "lxml")
+    # Wowhead appends technical affected-spell lists after the real description.
+    for label in list(soup.select("span.q1")):
+        if re.match(r"Modifies (?:Effect|Damage|Healing|Cooldown|Duration|Max)", label.get_text(strip=True)):
+            parent = label.parent
+            (parent if parent.name == "span" and "q" in parent.get("class", []) else label).decompose()
     for br in soup.find_all("br"):
         br.replace_with("\n")
     for block in soup.find_all(["table", "tr", "td", "th", "div", "p"]):
@@ -377,7 +383,10 @@ def _tooltip_card_lines(html: str, spell_name: str) -> list[str]:
     # introduces an embedded spell (e.g. Void Blast), not a new tooltip.
     while lines and lines[0].casefold() == spell_name.casefold():
         lines.pop(0)
-    return lines
+    # A resolved scalar needs no arithmetic wrapper, including malformed (5)).
+    return [re.sub(r"\(([+-]?\d+(?:\.\d+)?)\)\)+", r"\1", line)
+            if re.search(r"\([+-]?\d+(?:\.\d+)?\)\)", line)
+            else re.sub(r"\(([+-]?\d+(?:\.\d+)?)\)", r"\1", line) for line in lines]
 
 
 def _metadata_overrides(html: str) -> tuple[tuple[str, int, str], ...]:
@@ -727,6 +736,10 @@ def parse_spell_page(
             )
 
 
+    icon_meta = BeautifulSoup(html, "lxml").find("meta", property="og:image")
+    icon_match = re.search(r"/icons/(?:large|medium|small)/([A-Za-z0-9_-]+)\.(?:jpg|png)",
+                           str(icon_meta.get("content", ""))) if icon_meta else None
+
     return WowheadSpellPage(
         spell_id=int(
             spell_id
@@ -745,6 +758,7 @@ def parse_spell_page(
         url=
             page_url,
         metadata_overrides=_metadata_overrides(html),
+        icon=icon_match[1] if icon_match else "",
     )
 
 
@@ -807,6 +821,7 @@ def parse_nether_tooltip_payload(
         player_tooltip="\n".join(_tooltip_card_lines(tooltip_html, spell_name)),
         effects=tuple(),
         metadata_overrides=_metadata_overrides(tooltip_html),
+        icon=str(payload.get("icon") or ""),
         url=(
             url
             or NETHER_BASE.format(

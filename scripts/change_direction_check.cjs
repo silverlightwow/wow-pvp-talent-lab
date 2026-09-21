@@ -17,6 +17,8 @@ check('Damage exceeds 150% of their remaining health.','150','250','nerf');
 check('Every 20 Rage you spend reduces the cooldown by 1 sec.','20','10','buff','ordinary_value');
 check('Reduces all damage you take by 15% and all damage you deal by 10%.','10','15','nerf');
 check('Unknown parameter 8.','8','10','neutral');
+check('Casts 6 additional slashes.','6','3','nerf','ordinary_value');
+check('Stacks up to 8 times.','8','6','nerf','ordinary_value');
 assert.equal(D.combine(['buff','nerf']),'mixed');
 assert.equal(D.combine(['buff','neutral']),'neutral');
 const dataset = slug=>JSON.parse(fs.readFileSync(path.join(__dirname,`../web/data/${slug}.json`)));

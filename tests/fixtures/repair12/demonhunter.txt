@@ -1,0 +1,140 @@
+World of Warcraft 12.1.0.69875 Live
+Name             : Fury of the Aldrachi (id=442718) [Spell Family (107), Passive] 
+Talent Entry     : Aldrachi Reaver (Havoc, Vengeance) [tree=hero, row=2, col=1, max_rank=1, req_points=1]
+Class            : Demon Hunter
+School           : Physical
+Spell Type       : None
+Labels           : 16: Class Spells
+                 : 66: Demon Hunter Spells
+                 : 292
+                 : 3367: Havoc Demon Hunter (212612 effect#12), Havoc Demon Hunter (212612 effect#13)
+                 : 5189
+Attributes       : Passive (6), Not In Spellbook (143), Do Not Log on Learn (355)
+Effects          :
+#1 (id=1138123)  : Apply Aura (6) | Dummy (4)
+                   Base Value: 100 | Scaled Value: 100 | Target: Self (1)
+#2 (id=1138124)  : Apply Aura (6) | Dummy (4)
+                   Base Value: 3 | Scaled Value: 3 | Target: Self (1)
+Description      : When enhanced by Reaver's Glaive, $?a212612[Blade Dance][Soul Cleave] casts $s2 additional glaive slashes to nearby targets. Deals reduced damage beyond $444806s2 targets.
+
+
+
+If cast after $?a212612[Chaos Strike]?s263642[Fracture][Shear], cast $?a1236360[${($s2*($s1/100+1))+$1236360s1}][${$s2*($s1/100+1)}] slashes instead.
+
+
+Name             : Demon Hunter Aldrachi Reaver 11.2 Class Set 4pc (id=1236360) [Spell Family (107), Passive, Hidden] 
+Class            : Demon Hunter
+School           : Physical
+Spell Type       : None
+Max Aura Level   : 81
+Labels           : 16: Class Spells
+                 : 66: Demon Hunter Spells
+                 : 292
+                 : 295
+                 : 5061
+Attributes       : Passive (6), Do Not Display (Spellbook, Aura Icon, Combat Log) (7), Allow Aura While Dead (116), Allow Entering Arena (149), Disable Aura While Dead (226)
+Effects          :
+#1 (id=1232278)  : Apply Aura (6) | Dummy (4)
+                   Base Value: 6 | Scaled Value: 6 | PvP Coefficient: 0.5 | Target: Self (1)
+#2 (id=1238311)  : Apply Aura (6) | Apply Flat Modifier w/ Label (219): Spell Max Stacks (37)
+                   Base Value: 1 | Scaled Value: 1 | Misc Value: 37 | Misc Value 2: 4821 (Label) | Target: Self (1)
+                   Affected Spells (Label): Reaver's Mark (442624)
+#3 (id=1238312)  : Apply Aura (6) | Apply Flat Modifier w/ Label (219): Spell Effect 2 (12)
+                   Base Value: 1 | Scaled Value: 1 | Misc Value: 12 | Misc Value 2: 5190 (Label) | Target: Self (1)
+                   Affected Spells (Label): Reaver's Mark (442679)
+#4 (id=1238348)  : Apply Aura (6) | Dummy (4)
+                   Base Value: 100 | Scaled Value: 100 | PvP Coefficient: 0.33 | Target: Self (1)
+Description      : Fury of the Aldrachi further empowers $?a212613[Soul Cleave][Blade Dance] when cast after $?s263642[Fracture]?a212613[Shear][Chaos Strike], increasing slashes to ${$442718s2*($442718s1/100+1)+$s1}.
+
+
+
+Reaver's Mark now stacks up to $442624u times and further empowers $?s263642[Fracture]?a212613[Shear][Chaos Strike] when cast after $?a212613[Soul Cleave][Blade Dance], applying an additional stack for $s4% of normal duration.
+
+
+Name             : Demon Muzzle (id=1266329) [Spell Family (107), Passive] 
+Talent Entry     : Generic [tree=class, row=9, col=5, max_rank=1, req_points=23]
+Class            : Demon Hunter
+School           : Physical
+Spell Type       : None
+Labels           : 16: Class Spells
+                 : 66: Demon Hunter Spells
+Proc Chance      : 100%
+Proc Flags       : Yellow Melee, Yellow Ranged, Generic Hostile Spell, Magic Hostile Spell
+Attributes       : Passive (6), No Aura Cancel (31), No Aura Icon (60), Not In Spellbook (143), No Aura Log (202), Do Not Log on Learn (355), Allow Class Ability Procs (416)
+Effects          :
+#1 (id=1278698)  : Apply Aura (6) | Proc Trigger Spell (42): Demon Muzzle
+                   Base Value: 15 | Scaled Value: 15 | Trigger Spell: 1266616 | Target: Self (1)
+#2 (id=1278699)  : Apply Aura (6) | Dummy (4)
+                   Base Value: 12 | Scaled Value: 12 | Target: Self (1)
+Description      : Interrupting a spell with Disrupt decreases your magic damage taken by $1266616s1% for $1266616d.
+
+
+Name             : Demon Muzzle (id=1266616) [Spell Family (107)] 
+Class            : Demon Hunter
+School           : Magic
+Spell Type       : None
+Duration         : 12 seconds
+Labels           : 16: Class Spells
+                 : 292
+Stacks           : 1 maximum
+Proc Chance      : 101%
+Triggered By     : Demon Muzzle (1266329)
+Attributes       : Aura Points On Client (268), Allow Class Ability Procs (416)
+Effects          :
+#1 (id=1279231)  : Apply Aura (6) | Modify Damage Taken% (87)
+                   Base Value: -15 | Scaled Value: -15 | PvP Coefficient: 0.3334 | Misc Value: 0x7e | Target: Self (1)
+                   Affected School(s): Arcane, Fire, Frost, Holy, Nature, Shadow
+Description      : $@spelldesc1266329
+Tooltip          : Magic damage taken reduced by ${-$s1}%
+
+
+Name             : Chaotic Disposition (id=428492) [Spell Family (107), Passive] 
+Talent Entry     : Havoc [tree=spec, row=9, col=4, max_rank=2, req_points=20]
+                 : Effect#1 [op=set, values=(3, 7)]
+Class            : Demon Hunter
+School           : Physical
+Spell Type       : None
+Labels           : 16: Class Spells
+                 : 66: Demon Hunter Spells
+                 : 292
+Proc Flags       : Yellow Melee, Yellow Ranged, Generic Hostile Spell, Magic Hostile Spell, Periodic
+Attributes       : Passive (6), Can Proc From Procs (122), Not In Spellbook (143), Aura Points On Client (268), Do Not Log on Learn (355), Only Proc From Class Abilities (415), Allow Class Ability Procs (416)
+Effects          :
+#1 (id=1109361)  : Apply Aura (6) | Dummy (4)
+                   Base Value: 3 | Scaled Value: 3 | Target: Self (1)
+#2 (id=1109362)  : Apply Aura (6) | Dummy (4)
+                   Base Value: 777 | Scaled Value: 777 | PvP Coefficient: 4.2896 | Target: Self (1)
+#3 (id=1109363)  : Apply Aura (6) | Dummy (4)
+                   Base Value: 17 | Scaled Value: 17 | PvP Coefficient: 0.235295 | Target: Self (1)
+Description      : Your Chaos damage has a ${$s2/100}.2% chance to be increased by $s3%, occurring up to $m1 total $Ltime:times;.
+
+
+Name             : Eternal Hunt (id=1270900) [Spell Family (107), Passive] 
+Talent Entry     : Havoc [tree=spec, row=11, col=3, max_rank=2, req_points=20, select_idx=200]
+                 : Effect#1 [op=mul, values=(1, 2)]
+                 : Effect#2 [op=mul, values=(1, 2)]
+                 : Effect#3 [op=mul, values=(1, 2)]
+                 : Effect#4 [op=mul, values=(1, 2)]
+Class            : Demon Hunter
+School           : Physical
+Spell Type       : None
+Labels           : 16: Class Spells
+                 : 66: Demon Hunter Spells
+                 : 292
+Attributes       : Passive (6), Not In Spellbook (143), Aura Points On Client (268), Do Not Log on Learn (355)
+Effects          :
+#1 (id=1283313)  : Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)
+                   Base Value: 15 | Scaled Value: 15 | Target: Self (1)
+                   Affected Spells: The Hunt (323639), The Hunt (345396), The Hunt (345422), The Hunt (370965), The Hunt (370966), The Hunt (370967), The Hunt (370968), The Hunt (1246167), The Hunt (1246169), Predator's Wake (1259431)
+                   Family Flags: 82
+#2 (id=1283315)  : Apply Aura (6) | Modify Cooldown Time (Category) (341)
+                   Base Value: -15000 | Scaled Value: -15000 | Misc Value: 2427 (Category) | Target: Self (1)
+                   Affected Spells (Category): The Hunt (370965)
+#3 (id=1283316)  : Apply Aura (6) | Dummy (4)
+                   Base Value: 2 | Scaled Value: 2 | Target: Self (1)
+#4 (id=1283497)  : Apply Aura (6) | Add Percent Modifier (108): Spell Periodic Amount (22)
+                   Base Value: 15 | Scaled Value: 15 | Misc Value: 22 | Target: Self (1)
+                   Affected Spells: The Hunt (345335), The Hunt (370969), The Hunt (1246168)
+                   Family Flags: 87
+Description      : The Hunt has ${$s2/-1000} sec reduced cooldown, deals $s1% more damage, and its damage over time effect applies to $s3 additional enemies.
+

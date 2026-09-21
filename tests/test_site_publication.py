@@ -26,6 +26,7 @@ def artifact(tmp_path):
                     render_status='CHANGED', has_pvp_mechanics=True) for i in range(50)]
     data = dict(slug=spec['slug'], class_name='Priest', spec_name='Discipline',
                 tree_build=build, simc_build=build, talents=talents,
+                serialization=dict(version=2,spec_id=256,node_order=list(range(3000,3050)),subtree_nodes=[]),
                 validation=dict(spec, talents=50, unique_nodes=50, changed_tooltips=50, talents_with_pvp_mechanics=50))
     directory = tmp_path / 'artifacts/priest'
     directory.mkdir(parents=True)

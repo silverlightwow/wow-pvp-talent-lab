@@ -38,6 +38,7 @@
     const state = {
 
         pvpMode: true,
+        suspendUrl: true,
 
         heroTree:
             null,
@@ -138,6 +139,8 @@
         if (!icon) {
             return "";
         }
+
+        if (icon === "inv_10_specialreagentfoozles_tuskclaw_ice") icon = "inv_10_specialreagentfoozles_tuskclaw-ice";
 
         icon =
             ICON_NAME_OVERRIDES[icon]
@@ -404,7 +407,7 @@
         const metadata = /^(?:[\d.,]+%? (?:of base mana|Mana|Energy|Focus|Rage|Runic Power|Insanity|Fury|Pain|Essence|Chi|Holy Power|Soul Shards?|Runes?|Maelstrom|Astral Power)(?:\s*(?:\/|,|per) .*)?|[\d.,]+(?: - [\d.,]+)? (?:yd|yard|yards) range|(?:[\d.,]+ (?:sec|min) (?:cast|cooldown|recharge))|\d+ Charges?|Instant(?: cast)?|Channeled(?: \(.*\))?|Melee Range|Unlimited Range|Passive|Talent|Requires .*)$/i;
         return String(text || "").split("\n").map(line => line.trim())
             .filter(line => line && !metadata.test(line)
-                && !/^\(?[\d.,]+\s*(?:ms|sec|min)\s+(?:cooldown|recharge|cast)\)?$/i.test(line)).join("\n");
+                && !/^\(?[\d.,]+\s*(?:ms|s|sec|min)\s*(?:cooldown|recharge|cast)\)?$/i.test(line)).join("\n");
     }
 
     function comparisonTextHtml(talent, mode) {
@@ -717,7 +720,7 @@
         className,
         specName
     ) {
-
+        document.body.classList.remove("welcome-active");
         const spec =
             manifestSpec(
                 className,
@@ -761,6 +764,7 @@
             currentSlug
             === spec.slug
         ) {
+            renderTrees();
             return;
         }
 
@@ -1080,6 +1084,7 @@
                         .add(
                             "active"
                         );
+                        if (button.dataset.tab === "tree") requestAnimationFrame(renderTrees);
 
                     }
                 );
@@ -2385,8 +2390,14 @@
             ? talent.rank_tooltips?.find(item => item.rank === selectedRank + 1) : null;
         const activeTalent = rankData || talent;
         const text = descriptionText(state.pvpMode ? activeTalent.pvp_tooltip : activeTalent.pve_tooltip);
-        const rankLabel = rankData ? `<div class="tooltip-rank-label">${selectedRank ? "Current rank" : "Maximum rank"} · ${shownRank}/${group.maxRanks}</div>` : "";
-        const nextRankHtml = nextRankData ? `<section class="tooltip-next-rank"><div class="tooltip-rank-label">Next rank · ${selectedRank + 1}/${group.maxRanks}</div><pre class="tooltip-text">${escapeHtml(descriptionText(state.pvpMode ? nextRankData.pvp_tooltip : nextRankData.pve_tooltip))}</pre></section>` : "";
+        const rankLabel = "";
+        const nextRankHtml = "";
+        const allRanksHtml = talent.rank_tooltips?.length && !group.isTiered
+            ? talent.rank_tooltips.map(rank => `<section class="tooltip-rank-section ${selectedRank === rank.rank ? "current" : ""}">
+                <div class="tooltip-rank-label">Rank ${rank.rank}/${group.maxRanks}${selectedRank === rank.rank ? " · Current" : ""}</div>
+                <pre class="tooltip-text">${escapeHtml(descriptionText(state.pvpMode ? rank.pvp_tooltip : rank.pve_tooltip))}</pre>
+                ${state.pvpMode && rank.tooltip_changed ? changeHtml({...talent, ...rank}) : ""}
+              </section>`).join("") : "";
 
 
         const modeBadge =
@@ -2436,18 +2447,8 @@
                     ? selection.rank
                     : 0;
 
-                const labels =
-                    group.entries.length === 3
-                    ? [
-                        "Rank 1",
-                        "Ranks 2–3",
-                        "Rank 4",
-                    ]
-                    : group.entries.map(
-                        (_, index) =>
-                            `Stage ${index + 1}`
-                    );
-
+                const stages = group.entries.flatMap(entry => entry.rank_tooltips?.length ? entry.rank_tooltips.map(r => ({...entry, ...r})) : [entry]);
+                const labels = stages.map((_, i) => `Rank ${i + 1}`);
                 return `
                     <div class="apex-breakdown">
                         <div class="apex-heading">
@@ -2455,7 +2456,7 @@
                         </div>
 
                         ${
-                            group.entries
+                            stages
                             .map(
                                 (entry, index) => `
                                     <div class="apex-stage">
@@ -2465,6 +2466,7 @@
                                         <div class="apex-stage-text">${escapeHtml(
                                                 descriptionText(state.pvpMode ? entry.pvp_tooltip : entry.pve_tooltip)
                                             )}</div>
+                                        ${state.pvpMode && entry.tooltip_changed ? changeHtml(entry) : ""}
                                     </div>
                                 `
                             )
@@ -2521,19 +2523,13 @@
 
             </div>
 
-            ${rankLabel}
-            <pre class="tooltip-text">${
-                escapeHtml(
-                    text
-                )
-            }</pre>
-
-            ${nextRankHtml}
+            ${group.isTiered ? "" : allRanksHtml || `<pre class="tooltip-text">${escapeHtml(text)}</pre>`}
 
             ${
                 state.pvpMode
                 && talent.tooltip_changed
                 && !rankData
+                && !group.isTiered
                 ? `
                     <div
                         style="margin-top:10px"
@@ -3163,6 +3159,8 @@
 
 
     function renderTrees() {
+        syncBuildUrl();
+        if (!$("#treePanel").classList.contains("active") || document.body.classList.contains("welcome-active")) return;
 
         $("#heroTreeTitle")
             .textContent =
@@ -4123,6 +4121,103 @@
     }
 
 
+    function syncBuildUrl() {
+        if (state.suspendUrl || document.body.classList.contains("welcome-active") || !data.serialization) return;
+        const params = new URLSearchParams({build: WowLoadout.encode(data, state.selected, state.heroTree), mode: state.pvpMode ? "pvp" : "pve"});
+        history.replaceState(null, "", location.pathname + location.search + "#" + params.toString());
+    }
+
+    async function activateSpec(className, specName) {
+        loadDatasetFor(className, specName);
+        const deadline = Date.now() + 30000;
+        await new Promise((resolve, reject) => {
+            const check = () => {
+                if (data.class_name === className && data.spec_name === specName && !$("#specSelect").disabled) return resolve();
+                if (Date.now() > deadline) return reject(new Error("Could not load this specialization. Try again."));
+                setTimeout(check, 50);
+            };
+            check();
+        });
+    }
+
+    async function importBuild(raw) {
+        let code = raw.trim();
+        if (/^https?:/.test(code)) code = new URLSearchParams(new URL(code).hash.slice(1)).get("build") || "";
+        const header = WowLoadout.header(code);
+        const cls = manifest.classes.find(c => c.specs.some(s => Number(s.spec_id) === header.specId));
+        const spec = cls?.specs.find(s => Number(s.spec_id) === header.specId);
+        if (!spec) throw new Error("This string's specialization is not available in the current snapshot.");
+        const beforeImport={data,selected:new Map(state.selected),hero:state.heroTree,welcome:document.body.classList.contains("welcome-active")};
+        state.suspendUrl = true;
+        try {
+            await activateSpec(cls.name, spec.name);
+            const imported = WowLoadout.decode(code, data);
+            const previous = {selected:state.selected, hero:state.heroTree};
+            state.selected = imported.selected;
+            if (imported.hero) state.heroTree = imported.hero;
+            try {
+                for (const [id] of state.selected) {
+                    const group = displayedGroups().get(id);
+                    if (!group || !canSelect(group, groupNodes(recordsForTree(group.treeType, state.heroTree)))) throw new Error("This build has missing prerequisites or outdated point gates.");
+                }
+            } catch(error) {state.selected=previous.selected;state.heroTree=previous.hero;throw error;}
+            $("#heroSelect").value = state.heroTree;
+            ensureFreeSelections();
+            $(".tab[data-tab=tree]").click();
+            renderTrees();
+        } catch(error) {
+            applyDataset(beforeImport.data);state.selected=beforeImport.selected;state.heroTree=beforeImport.hero;
+            $("#heroSelect").value=state.heroTree;
+            document.body.classList.toggle("welcome-active",beforeImport.welcome);renderTrees();throw error;
+        } finally {state.suspendUrl=false;syncBuildUrl();}
+    }
+
+    function setupBuildControls() {
+        const dialog = $("#buildDialog");
+        const open = exporting => {
+            $("#buildDialogTitle").textContent = exporting ? "Export & share your build" : "Import build";
+            $("#buildDialogHelp").textContent = exporting ? "Copy the talent string into WoW, or share a link that opens this exact build." : "Paste a talent string exported from the game or a link from this calculator.";
+            $("#buildDialogError").textContent="";
+            $("#buildString").value = exporting ? WowLoadout.encode(data,state.selected,state.heroTree) : "";
+            $("#buildString").readOnly=exporting;
+            $("#importBuildApply").hidden=exporting;
+            $("#copyBuildString").hidden=!exporting;
+            $("#copyBuildLink").hidden=!exporting;
+            dialog.showModal();$("#buildString").focus();
+            if(exporting)$("#buildString").select();
+        };
+        $$('[data-open-import]').forEach(b=>b.addEventListener('click',()=>open(false)));
+        $("#exportBuild").addEventListener("click",()=>open(true));
+        $("#importBuildApply").addEventListener("click",async()=>{
+            const button=$("#importBuildApply");button.disabled=true;
+            try {await importBuild($("#buildString").value);dialog.close();}
+            catch(error){$("#buildDialogError").textContent=error.message;}
+            finally{button.disabled=false;}
+        });
+        const copy = async value => {
+            try {await navigator.clipboard.writeText(value);$("#buildDialogError").textContent="Copied.";}
+            catch {$("#buildString").value=value;$("#buildString").select();$("#buildDialogError").textContent="Select and copy the text above.";}
+        };
+        $("#copyBuildString").addEventListener("click",()=>copy(WowLoadout.encode(data,state.selected,state.heroTree)));
+        $("#copyBuildLink").addEventListener("click",()=>{syncBuildUrl();copy(location.href);});
+        $$('[data-close-dialog]').forEach(b=>b.addEventListener('click',()=>b.closest('dialog').close()));
+        document.addEventListener("click",event=>{
+            const link=event.target.closest('a[href^="docs.html"]');if(!link)return;
+            event.preventDefault();hideTooltip();
+            $("#docsFrame").src=link.getAttribute('href').replace('docs.html','docs.html?embedded=1');
+            $("#docsDialog").showModal();
+        });
+        window.addEventListener('message',event=>{
+            if(event.source===$("#docsFrame").contentWindow&&event.data==='close-documentation')$("#docsDialog").close();
+        });
+        $("#welcomeClasses").innerHTML=manifest.classes.map(c=>`<section class="welcome-class"><h2>${escapeHtml(c.name)}</h2><div>${c.specs.map(s=>`<button class="welcome-spec" data-class="${escapeHtml(c.name)}" data-spec="${escapeHtml(s.name)}">${escapeHtml(s.name)} <span aria-hidden="true">→</span></button>`).join('')}</div></section>`).join('');
+        $$('.welcome-spec').forEach(b=>b.addEventListener('click',()=>activateSpec(b.dataset.class,b.dataset.spec).catch(error=>{ $("#treeMessage").textContent=error.message; })));
+        window.addEventListener('hashchange',()=>{
+            const code=new URLSearchParams(location.hash.slice(1)).get('build');
+            if(code)importBuild(code).catch(error=>{$("#treeMessage").textContent=error.message;});
+        });
+    }
+
     // ========================================================
     // Init
     // ========================================================
@@ -4139,6 +4234,8 @@
 
     setupEvents();
 
+    setupBuildControls();
+
     ensureFreeSelections();
 
     renderTrees();
@@ -4146,5 +4243,15 @@
     renderComparison();
 
     renderCompendiumList();
+    const initialParams = new URLSearchParams(location.hash.slice(1));
+    state.suspendUrl = false;
+    if (initialParams.get("build")) {
+        state.pvpMode = initialParams.get("mode") !== "pve";
+        $("#pvpToggle").checked=state.pvpMode;
+        importBuild(initialParams.get("build")).catch(error=>{$("#treeMessage").textContent=error.message;});
+    } else if (initialParams.get("spec")) {
+        const wanted=manifest.classes.flatMap(c=>c.specs.map(s=>({...s,cls:c.name}))).find(s=>s.slug===initialParams.get("spec"));
+        if(wanted)activateSpec(wanted.cls,wanted.name);
+    }
 
 })();

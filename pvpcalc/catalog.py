@@ -579,7 +579,7 @@ async def build_spec_catalog(
         rank_tooltips = []
         rank_source = getattr(audit, "rank_sources", {}).get(int(talent.get("entry_id") or 0))
         if rank_source:
-            for rank in range(1, int(talent["max_ranks"]) + 1):
+            for rank in range(1, len(rank_source["rules"][0]["values"]) + 1):
                 rank_text, rank_diagnostics = ranks.render_rank(
                     pve_tooltip, rank_source, rank, spec_name=audit.spec_name,
                     spec_names=audit.metadata.get("classSpecNames"),
@@ -598,6 +598,7 @@ async def build_spec_catalog(
                 rank_tooltips.append({"rank": rank, "pve_tooltip": rank_rendered["pve_tooltip"],
                                       "pvp_tooltip": rank_rendered["pvp_tooltip"],
                                       "tooltip_changed": rank_rendered["changed"],
+                                      "changes": rank_rendered["replacements"],
                                       "source": "simc_exact_build_trait_rank", "build": rank_source["build"]})
                 rendered = rank_rendered
 
@@ -655,7 +656,7 @@ async def build_spec_catalog(
                     ),
 
                 tree_data=
-                    dict(talent),
+                    {**talent, **({"icon": page.icon} if page and page.icon else {})},
 
                 pve_tooltip=
                     rendered[

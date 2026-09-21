@@ -24,7 +24,7 @@ function assertDescription(shown, original) {
    page.on('pageerror', e => errors.push(e.message));
    // Network availability of an icon CDN must not govern app logic checks.
    await page.route('https://**/*', r => r.abort());
-   await page.goto(pathToFileURL(path.join(root, 'web/index.html')).href);
+   await page.goto(pathToFileURL(path.join(root, 'web/index.html')).href+'#spec=priest-discipline');
    for (const spec of specs) {
     console.log(`Checking ${spec.slug} at ${width}px`);
     await page.locator('[data-tab="tree"]').click();
@@ -64,7 +64,7 @@ function assertDescription(shown, original) {
      const record = data.talents.find(t => t.node_id === nodeId);
      if (width < 600) {
       await ordinary.tap();
-      assertDescription(await page.locator('#talentTooltip > .tooltip-text').textContent(), record.pvp_tooltip);
+      assertDescription(await page.locator('#talentTooltip .tooltip-text').first().textContent(), record.rank_tooltips?.[0]?.pvp_tooltip || record.pvp_tooltip);
       assert.ok(await page.locator('.touch-tooltip').isVisible());
       const box = await page.locator('.touch-tooltip').boundingBox();
       assert.ok(box.x >= 0 && box.x + box.width <= width + 1, 'Touch tooltip overflow');
@@ -75,10 +75,10 @@ function assertDescription(shown, original) {
       await page.locator('[data-touch-close]').tap();
      } else {
       await ordinary.hover();
-      assertDescription(await page.locator('#talentTooltip > .tooltip-text').textContent(), record.pvp_tooltip);
+      assertDescription(await page.locator('#talentTooltip .tooltip-text').first().textContent(), record.rank_tooltips?.[0]?.pvp_tooltip || record.pvp_tooltip);
       await page.locator('label:has(#pvpToggle)').click();
       await ordinary.hover();
-      assertDescription(await page.locator('#talentTooltip > .tooltip-text').textContent(), record.pve_tooltip);
+      assertDescription(await page.locator('#talentTooltip .tooltip-text').first().textContent(), record.rank_tooltips?.[0]?.pve_tooltip || record.pve_tooltip);
       await page.locator('label:has(#pvpToggle)').click();
       for (const type of (width===1440 ? ['class', 'spec'] : [])) {
        const cap = 34;

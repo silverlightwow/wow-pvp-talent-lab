@@ -21,7 +21,7 @@
     >
 </head>
 
-<body>
+<body class="welcome-active">
 
 <div id="app">
 
@@ -87,6 +87,12 @@
     </header>
 
 
+    <section id="welcomePanel" class="welcome-panel">
+        <p class="docs-eyebrow">WoW PvP Talent Lab</p><h1>Your class. Your build.</h1>
+        <p>Explore talent trees, compare PvP changes, and build a loadout you can share.</p>
+        <button class="primary-button" data-open-import>Import from game</button>
+        <div id="welcomeClasses" class="welcome-classes"></div>
+    </section>
     <div class="build-strip">
 
         <div>
@@ -178,6 +184,10 @@
                     </label>
 
 
+                    <div class="loadout-actions">
+                        <button class="secondary-button" data-open-import>Import</button>
+                        <button class="secondary-button" id="exportBuild">Export / Share</button>
+                    </div>
                     <button
                         id="resetTree"
                         class="secondary-button"
@@ -499,6 +509,18 @@
 
 <script src="data/manifest.js"></script>
 <script src="data/priest-discipline.js"></script>
+<dialog id="buildDialog" class="app-dialog" aria-labelledby="buildDialogTitle">
+    <div class="dialog-heading"><h2 id="buildDialogTitle">Import build</h2><button class="dialog-close" data-close-dialog aria-label="Close">×</button></div>
+    <p id="buildDialogHelp">Paste a talent string exported from the game or a link from this calculator.</p>
+    <label for="buildString">Talent string</label><textarea id="buildString" rows="5" spellcheck="false" autocomplete="off"></textarea>
+    <p id="buildDialogError" class="dialog-status" role="status" aria-live="polite"></p>
+    <div class="dialog-actions"><button id="importBuildApply" class="primary-button">Import build</button><button id="copyBuildString" class="secondary-button" hidden>Copy talent string</button><button id="copyBuildLink" class="secondary-button" hidden>Copy link</button></div>
+</dialog>
+<dialog id="docsDialog" class="docs-dialog" aria-labelledby="docsDialogTitle">
+    <div class="dialog-heading"><h2 id="docsDialogTitle">Documentation</h2><button class="dialog-close" data-close-dialog aria-label="Close documentation">×</button></div>
+    <iframe id="docsFrame" title="WoW PvP Talent Lab documentation"></iframe>
+</dialog>
+<script src="loadout-codec.js"></script>
 <script src="change-direction.js"></script>
 <script src="app.js"></script>
 

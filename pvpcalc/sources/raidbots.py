@@ -208,6 +208,7 @@ def _normalize_collection(
                     # Selectable entry
                     # ------------------------------
                     "entry_id": entry.get("id"),
+                    "entry_max_ranks": entry.get("maxRanks", 1),
 
                     "definition_id": entry.get(
                         "definitionId"
@@ -390,4 +391,7 @@ async def fetch_spec_tree(
         content_hash=metadata["contentHash"],
     )
 
+    tree = _find_spec_tree(talents, class_name, spec_name)
+    metadata["serialization"] = {"version": 2, "spec_id": tree["specId"],
+        "node_order": tree["fullNodeOrder"], "subtree_nodes": tree.get("subTreeNodes", [])}
     return metadata, rows
