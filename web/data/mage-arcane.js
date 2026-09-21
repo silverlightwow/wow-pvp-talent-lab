@@ -6769,7 +6769,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1295923,
           "source_spell_id": 1295939,
           "effect_index": 2,
-          "effect_text": "School Damage (Arcane) (SP mod: 25)",
+          "effect_text": "School Damage (2): arcane | Attributes: Always AOE Line of Sight (5), Add Target (Dest) Combat Reach to AOE (11) (SP mod: 25)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6798,10 +6798,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -9504,7 +9505,7 @@ window.WOW_PVP_DATA = {
     }
   ],
   "slug": "mage-arcane",
-  "generated_at": "2026-09-20T20:00:42.427642+00:00",
+  "generated_at": "2026-09-21T00:53:14.276612+00:00",
   "validation": {
     "talents": 128,
     "changed_tooltips": 17,
@@ -9517,11 +9518,16 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 1,
+    "source_warning_count": 2,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 1295939,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1295939'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "spell_id": 448604,
         "talent_name": "Spellfire Spheres",

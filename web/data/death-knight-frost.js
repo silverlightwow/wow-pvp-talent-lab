@@ -3626,7 +3626,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 49020,
           "source_spell_id": 1264082,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (AP mod: 0.714221 )",
+          "effect_text": "School Damage (2): frost (AP mod: 0.714221)",
           "base_value": null,
           "spell_pvp_multiplier": 1.88,
           "amount_kind": "direct",
@@ -3662,9 +3662,8 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -3675,7 +3674,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 49020,
           "source_spell_id": 1264083,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (AP mod: 0.714221 )",
+          "effect_text": "School Damage (2): frost (AP mod: 0.714221)",
           "base_value": null,
           "spell_pvp_multiplier": 1.88,
           "amount_kind": "direct",
@@ -3711,9 +3710,8 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -3724,7 +3722,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 49020,
           "source_spell_id": 1264084,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost) (AP mod: 1.05731 )",
+          "effect_text": "School Damage (2): frost (AP mod: 1.05731)",
           "base_value": null,
           "spell_pvp_multiplier": 1.88,
           "amount_kind": "direct",
@@ -3760,9 +3758,8 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -4712,7 +4709,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1230301,
           "source_spell_id": 1233619,
           "effect_index": 1,
-          "effect_text": "School Damage (Frost, Shadow) (AP mod: 2.0592 )",
+          "effect_text": "School Damage (2): shadowfrost (AP mod: 2.0592)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4739,10 +4736,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -10278,7 +10276,7 @@ window.WOW_PVP_DATA = {
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "death-knight-frost",
-  "generated_at": "2026-09-20T19:58:52.559315+00:00",
+  "generated_at": "2026-09-21T00:51:45.514840+00:00",
   "validation": {
     "talents": 121,
     "changed_tooltips": 32,
@@ -10291,11 +10289,32 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 4,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 1233619,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1233619'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1264082,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1264082'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1264083,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1264083'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1264084,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1264084'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }
