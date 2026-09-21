@@ -371,7 +371,7 @@
                     changes.map(
                         change => `
                             <span
-                                class="change-chip"
+                                class="change-chip direction-${PvpDirection.direction(talent, change)}" title="${PvpDirection.labels[PvpDirection.direction(talent, change)]}"
                             >
                                 ${
                                     escapeHtml(
@@ -416,7 +416,7 @@
         for (const change of changes) {
             if (change.start < cursor || original.slice(change.start, change.end) !== change.old_token) continue;
             html += escapeHtml(original.slice(cursor, change.start));
-            html += `<mark class="value-${mode}">${escapeHtml(mode === "pvp" ? change.new_token : change.old_token)}</mark>`;
+            html += `<mark class="value-${mode} ${mode === "pvp" ? "direction-" + PvpDirection.direction(talent, change) : ""}">${escapeHtml(mode === "pvp" ? change.new_token : change.old_token)}</mark>`;
             cursor = change.end;
         }
         return html + escapeHtml(original.slice(cursor));
@@ -1699,7 +1699,7 @@
 
                                     ${
                                         entry.tooltip_changed
-                                        ? `<span class=\"choice-option-pvp\"></span>`
+                                        ? `<span class=\"choice-option-pvp direction-${PvpDirection.talentDirection(entry)}\" title=\"${PvpDirection.labels[PvpDirection.talentDirection(entry)]}\"></span>`
                                         : ""
                                     }
                                 </button>
@@ -2393,8 +2393,8 @@
             state.pvpMode
             && activeTalent.tooltip_changed
             ? `
-                <span class="tooltip-badge">
-                    PvP modified
+                <span class="tooltip-badge direction-${PvpDirection.talentDirection(talent)}">
+                    ${PvpDirection.labels[PvpDirection.talentDirection(talent)]}
                 </span>
             `
             : "";
@@ -2462,11 +2462,9 @@
                                         <div class="apex-stage-label">
                                             ${escapeHtml(labels[index])}
                                         </div>
-                                        <div class="apex-stage-text">
-                                            ${escapeHtml(
+                                        <div class="apex-stage-text">${escapeHtml(
                                                 descriptionText(state.pvpMode ? entry.pvp_tooltip : entry.pve_tooltip)
-                                            )}
-                                        </div>
+                                            )}</div>
                                     </div>
                                 `
                             )
@@ -2931,6 +2929,8 @@
                     );
 
 
+                const nodeDirection = PvpDirection.combine(group.entries.filter(entry => entry.tooltip_changed).map(PvpDirection.talentDirection));
+
                 const nodeVisual =
                     group.isChoice
                     ? choiceNodeVisual(
@@ -2964,7 +2964,7 @@
                         anyChanged
                         ? `
                             <span
-                                class="pvp-dot"
+                                class="pvp-dot direction-${nodeDirection}" title="${PvpDirection.labels[nodeDirection]}"
                             ></span>
                         `
                         : ""
@@ -3363,6 +3363,35 @@
     // Compendium
     // ========================================================
 
+    function mechanicEvidence(mechanic) {
+        const classSlug = String(data.class_name || "").toLowerCase().replaceAll(" ", "-");
+        const spellId = Number(mechanic.source_spell_id);
+        const rules = mechanic.aura_rules || [];
+        const link = (url, title) => `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(title)} ↗</a>`;
+        const auraRows = rules.map(rule => `<li>
+            ${link(`https://www.wowhead.com/spell=${Number(rule.aura_spell_id)}`, `Aura ${rule.aura_spell_id}`)}
+            · game effect ${escapeHtml(rule.game_effect_id ?? "not supplied")}
+            · ${Number(rule.value_pct) >= 0 ? "+" : ""}${formatNumber(rule.value_pct)}% ${escapeHtml(rule.amount_kind)}
+            → ×${formatNumber(rule.factor)}.<br>
+            ${rule.label_id != null ? `Matches spell label ${Number(rule.label_id)}` : `Source spell ${spellId} is in this rule's affected-spell list`}.
+            Aura source build: <strong>${escapeHtml(rule.build || "not supplied")}</strong>.
+        </li>`).join("");
+        return `<details class="mechanic-evidence"><summary>Why this modifier? · Sources &amp; calculation</summary>
+            <p><strong>×${formatNumber(mechanic.spell_pvp_multiplier)} × ${formatNumber(mechanic.aura_factor)} = ×${formatNumber(mechanic.final_pvp_multiplier)}</strong><br>
+            Spell PvP coefficient × applicable specialization PvP aura factors. This applies to effect #${Number(mechanic.effect_index)} of spell ${spellId}.</p>
+            ${rules.length ? `<ul>${auraRows}</ul>` : '<p>No applicable specialization PvP aura rule: ×1.</p>'}
+            <p>Spell data build: <strong>${escapeHtml(data.tree_build)}</strong>. Aura and spell sources can report different builds; their versions are shown separately.</p>
+            <div class="evidence-links">
+                ${link(`https://www.wowhead.com/spell=${spellId}#effects`, `Spell ${spellId} effects`)}
+                ${link(`https://drustvar.com/api/v1/pvp-auras/${classSlug}`, 'Drustvar aura records')}
+                ${link(`https://drustvar.com/api/v1/pvp-spells/${classSlug}`, 'Drustvar spell records')}
+                ${link('https://github.com/simulationcraft/simc/tree/midnight/SpellDataDump', 'SimulationCraft spell dumps')}
+                <a href="docs.html#spec-aura">How aura matching works →</a>
+            </div>
+            <p class="source-caveat">Datamined third-party sources, not a Blizzard patch-note citation. Links show the providers’ latest data; the values above belong to this site's snapshot.</p>
+        </details>`;
+    }
+
     function mechanicCard(
         mechanic
     ) {
@@ -3455,7 +3484,7 @@
                         <span
                             class="factor-label"
                         >
-                            Spec Aura
+                            <a href="docs.html#spec-aura">Spec PvP Aura ↗</a>
                         </span>
 
                         <span
@@ -3521,6 +3550,8 @@
                     }
                 </div>
 
+
+                ${mechanicEvidence(mechanic)}
 
                 ${(mechanic.source_notes || []).map(note => `
                     <div class="path-row">
@@ -3899,6 +3930,12 @@
     // ========================================================
 
     function renderMobileCompendiumInline() {
+        const existing = $(".mobile-compendium-inline");
+        const source = $("#compendiumDetail");
+        const selected = $("#compendiumList .compendium-item.active");
+        if (window.matchMedia("(max-width: 700px)").matches && existing
+            && existing._sourceHtml === source?.innerHTML
+            && existing.dataset.key === selected?.dataset.compendiumKey) return;
 
         $$(".mobile-compendium-inline")
             .forEach(
@@ -3933,8 +3970,9 @@
                 "div"
             );
 
-        inline.className =
-            "mobile-compendium-inline";
+        inline.className = "mobile-compendium-inline";
+        inline._sourceHtml = detail.innerHTML;
+        inline.dataset.key = active.dataset.compendiumKey;
 
         inline.innerHTML =
             detail.innerHTML;

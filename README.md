@@ -6,7 +6,9 @@ A World of Warcraft talent calculator with player-facing PvE and PvP tooltips fo
 
 - **Talent Tree:** class, hero, and specialization trees, source-defined point gates, choice talents, and description-only PvE/PvP tooltips. Ranked talents show the maximum rank when unlearned, the current and next ranks while partially learned, and the current rank when complete. On touch screens, tap a talent to inspect its tooltip and add or remove ranks.
 - **PvE vs PvP:** complete PvE and PvP descriptions side by side, with changed values highlighted and a mobile card layout.
-- **PvP mechanics:** spell modifiers, specialization PvP Aura rules, referenced effects, and expandable source evidence. Mobile details appear beneath the selected entry.
+- **PvP mechanics:** spell modifiers, specialization PvP Aura rules, referenced effects, and expandable source evidence with spell/aura IDs, separate source builds, source links, and the multiplication behind each value. Mobile details appear beneath the selected entry.
+- **Direction markers:** green for buffs, red for nerfs, and neutral purple for mixed or unclassified changes. Comparisons, choice menus, and tree tooltips use the same classification.
+- **[Documentation](https://silverlightwow.github.io/wow-pvp-talent-lab/docs.html):** aura scope, worked examples, source provenance, pipeline architecture, and verification limits, linked from the “Made by SilverLight” footer.
 
 ## Data and verification
 

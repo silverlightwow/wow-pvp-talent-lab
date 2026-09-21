@@ -2718,3 +2718,51 @@ details.tooltip-comparison summary {
 }
 .tooltip-rank-label { color: #bca6ff; font-size: 12px; font-weight: 700; margin: 12px 0 7px; }
 .tooltip-next-rank { border-top: 1px solid #3b4252; margin-top: 14px; padding-top: 2px; }
+
+/* Direction describes the effect on the player, rather than the numeric sign. */
+.direction-buff { --change-ink: #80e3b1; --change-fill: #193f34; --change-dot: #51d69a; }
+.direction-nerf { --change-ink: #ffa0ac; --change-fill: #4b2633; --change-dot: #ed6d82; }
+.direction-neutral, .direction-mixed { --change-ink: #dcc4ff; --change-fill: #38304e; --change-dot: #b49ae6; }
+.pvp-dot, .legend-node.modified { background: var(--change-dot, #b49ae6); box-shadow: 0 0 8px color-mix(in srgb, var(--change-dot, #b49ae6) 50%, transparent); }
+.tooltip-badge, .change-chip, .comparison-table .value-pvp { color: var(--change-ink, #dcc4ff); background: var(--change-fill, #38304e); border-color: var(--change-dot, #b49ae6); }
+.legend { flex-wrap: wrap; }
+.factor-label a { color: inherit; text-decoration-style: dotted; text-underline-offset: 4px; }
+.mechanic-evidence { margin-top: 16px; padding: 14px; border: 1px solid var(--line); border-radius: 9px; background: #121824; font-size: 12px; line-height: 1.7; overflow-wrap: anywhere; }
+.mechanic-evidence summary { cursor: pointer; color: #d6c4ff; font-weight: 700; }
+.mechanic-evidence p { margin: 12px 0; }
+.mechanic-evidence ul { padding-left: 18px; }
+.mechanic-evidence li + li { margin-top: 10px; }
+.evidence-links { display: flex; flex-wrap: wrap; gap: 8px 16px; }
+.mechanic-evidence a, .documentation a { color: #bca6ff; text-underline-offset: 3px; }
+.source-caveat { color: var(--muted); font-size: 11px; }
+.site-footer { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; margin: 42px 0 0; padding: 22px 4px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
+.site-footer strong { color: #ece5ff; font-weight: 600; }
+.documentation-link { display: inline-flex; align-items: center; gap: 10px; padding: 10px 14px; border: 1px solid #3a334e; border-radius: 8px; background: #211c30; color: #d6c4ff; text-decoration: none; }
+.documentation-link:hover { border-color: #bca6ff; background: #2e2542; }
+.documentation { max-width: 1100px; margin: auto; padding: 36px 24px; line-height: 1.75; }
+.documentation h1 { font-size: clamp(32px, 5vw, 54px); line-height: 1.1; margin: 18px 0; letter-spacing: -1.5px; }
+.documentation h2 { font-size: 25px; letter-spacing: -.4px; margin-top: 0; }
+.documentation h3 { font-size: 17px; color: #e1d5fb; }
+.docs-eyebrow { color: #bca6ff; text-transform: uppercase; letter-spacing: 2px; font-size: 11px; }
+.docs-lead { max-width: 690px; color: var(--muted); font-size: 17px; }
+.docs-nav { display: flex; flex-wrap: wrap; gap: 10px 22px; padding: 20px 0 32px; }
+.docs-section { scroll-margin-top: 20px; padding: 30px; margin: 18px 0; border: 1px solid var(--line); border-radius: 14px; background: linear-gradient(120deg, #1b2030, #151a25); }
+.docs-section p { color: #c6cfdd; }
+.docs-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+.docs-formula { padding: 18px; border-left: 3px solid #67d4a4; background: #142d29; border-radius: 6px; color: #a1ecc8; font: 600 16px/1.8 ui-monospace, monospace; overflow-wrap: anywhere; }
+.docs-section code { color: #d6c4ff; overflow-wrap: anywhere; }
+.docs-section li { margin: 9px 0; color: #c6cfdd; }
+.docs-table-wrap { overflow-x: auto; }
+.docs-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.docs-table th, .docs-table td { padding: 12px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: top; }
+.docs-table th { color: #e1d5fb; }
+@media (max-width: 600px) {
+    .documentation { padding: 22px 16px; }
+    .docs-section { padding: 20px 16px; }
+    .docs-grid { grid-template-columns: 1fr; gap: 0; }
+    .site-footer { margin-top: 28px; }
+    .legend { gap: 10px 16px; }
+}
+.choice-option-pvp { background: var(--change-dot, #b49ae6); }
+.tab-badge { background: var(--accent-bg); color: #d6c4ff; }
+.mode-toggle input:checked + .switch { background: var(--accent-strong); }

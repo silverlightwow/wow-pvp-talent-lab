@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#10141e">
+    <meta name="description" content="How WoW PvP Talent Lab resolves PvP modifiers, specialization auras, talent ranks, and source evidence.">
+    <title>Documentation · WoW PvP Talent Lab</title>
+    <link rel="icon" href="app-icon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="documentation">
+    <a href="index.html">← Back to the calculator</a>
+    <header>
+        <p class="docs-eyebrow">WoW PvP Talent Lab / Field guide</p>
+        <h1>Behind the numbers.</h1>
+        <p class="docs-lead">Follow a talent from its in-game data to the value you see. Understand the modifiers, inspect their sources, and see what the checks actually guarantee.</p>
+    </header>
+    <nav class="docs-nav" aria-label="Documentation sections">
+        <a href="#spec-aura">Spec Aura</a><a href="#examples">Worked examples</a><a href="#sources">Sources</a><a href="#pipeline">How it works</a><a href="#checks">Checks &amp; limits</a>
+    </nav>
+    <section class="docs-section" id="spec-aura">
+        <p class="docs-eyebrow">01 / The extra multiplier</p>
+        <h2>What is a Spec Aura?</h2>
+        <p>A specialization aura is a passive spell record used to adjust abilities for a specialization. It can carry several separate rules. In this calculator, <strong>Spec PvP Aura</strong> specifically means the specialization's PvP tuning rules. Ordinary specialization passives, which may also change a spell's baseline damage or cooldown, are a separate layer.</p>
+        <div class="docs-grid">
+            <div><h3>It has a defined scope</h3><p>A rule must match the source spell through its affected-spell list or an exact-build spell label. The effect must also match the rule's type: direct damage or healing, periodic output, absorption, or a specified effect number. The engine does not spread that multiplier across every number in a talent's text.</p></div>
+            <div><h3>It can reach a triggered spell</h3><p>A talent may describe damage performed by another spell. Explicit trigger and tooltip references connect the talent to that effect. The multiplier applies to that effect's value; proc chance, duration, target count, and unrelated talent bonuses keep their own rules.</p></div>
+        </div>
+        <div class="docs-formula">Aura factor = 1 + percentage / 100<br>Final factor = Spell PvP × Aura factor₁ × Aura factor₂ × …</div>
+        <p>For example, +1% becomes ×1.01; −20% becomes ×0.8. Applicable aura factors multiply. With no applicable rule, the aura factor is ×1. A spell coefficient of ×1 can still produce a PvP difference through an aura.</p>
+        <p>Implementation: <a href="https://github.com/silverlightwow/wow-pvp-talent-lab/blob/main/pvpcalc/pvp_aura.py">aura normalization, matching, and multiplication</a>.</p>
+    </section>
+    <section class="docs-section" id="examples">
+        <p class="docs-eyebrow">02 / Follow the evidence</p>
+        <h2>Why does Wildfire Imbuement gain 1%?</h2>
+        <p>In the inspected snapshot (spell build <strong>12.1.0.69875</strong>), talent <a href="https://www.wowhead.com/spell=1252943">1252943</a> references damage spell <a href="https://www.wowhead.com/spell=1252966#effects">1252966, effect #1</a>. Its spell PvP coefficient is ×1. Survival PvP aura <a href="https://www.wowhead.com/spell=1256941">1256941</a>, game effect ID <strong>1264706</strong>, supplies +1% to matching direct output. The aura source reports build <strong>12.1.0.69587</strong>; this is shown separately from the spell build. The inspected exact-build SimulationCraft Hunter dump also contains effect 1264706 with value 1 and lists both 1252966 and 1262293 as affected spells.</p>
+        <div class="docs-formula">40% AP × 1 × 1.01 = 40.4% AP</div>
+        <p>That explains the extra damage. It does not increase the 10-second duration or the proc rate. See <a href="https://drustvar.com/api/v1/pvp-auras/hunter">Drustvar's Hunter aura records</a> for the rule and affected spells. Source links are live; the example describes the recorded snapshot, not a promise that future patches keep these values.</p>
+        <h3>Raptor Swipe combines two modifiers</h3>
+        <p>Talent <a href="https://www.wowhead.com/spell=1259003">1259003</a> references <a href="https://www.wowhead.com/spell=1262293#effects">1262293, effect #1</a>. The spell coefficient is ×1.2 and the same direct-output aura contributes ×1.01:</p>
+        <div class="docs-formula">280% AP × 1.2 × 1.01 = 339.36% AP<br>Total increase: 21.2%</div>
+        <p>These are datamined explanations of the calculation. They do not establish Blizzard's design reason for choosing a particular percentage.</p>
+    </section>
+    <section class="docs-section" id="sources">
+        <p class="docs-eyebrow">03 / Know the source</p>
+        <h2>Official announcements and datamined evidence</h2>
+        <p><a href="https://worldofwarcraft.blizzard.com/en-us/news">Blizzard's official news and update notes</a> explain announced balance changes. Hidden aura IDs, effect mappings, and per-effect coefficients are traced through the data providers below. Those providers are independent community projects; their pages are not official Blizzard statements.</p>
+        <div class="docs-table-wrap"><table class="docs-table"><thead><tr><th>Source</th><th>What the pipeline reads</th></tr></thead><tbody>
+            <tr><td><a href="https://www.raidbots.com/static/data/live/talents.json">Raidbots</a></td><td>Talent nodes, positions, connections, choices, ranks, specialization list, and build metadata.</td></tr>
+            <tr><td><a href="https://github.com/simulationcraft/simc/tree/midnight/SpellDataDump">SimulationCraft</a></td><td>Exact-build spell dumps, effect identities, formulas, explicit dependencies, labels, and TraitDefinition rank overrides.</td></tr>
+            <tr><td><a href="https://www.wowhead.com/spells">Wowhead</a></td><td>Player-facing tooltip text, effect descriptions, coefficients, and specialization overrides.</td></tr>
+            <tr><td><a href="https://drustvar.com">Drustvar</a></td><td>Spell PvP coefficients and specialization PvP aura records, including their own version history.</td></tr>
+        </tbody></table></div>
+        <p>Each mechanic's <strong>Sources &amp; calculation</strong> panel exposes the source spell, effect number, applicable aura IDs, rule type, builds, and multiplication. A game effect ID identifies a database record; it is not the same as an effect's position (#1, #2, …) within a spell.</p>
+    </section>
+    <section class="docs-section" id="pipeline">
+        <p class="docs-eyebrow">04 / Inside the project</p>
+        <h2>From source records to a readable tooltip</h2>
+        <ol>
+            <li><strong>Discover the trees.</strong> Raidbots supplies the available specializations and graph. Coordinates and edges come from the same geometry in the UI.</li>
+            <li><strong>Collect spell evidence.</strong> The Python source adapters fetch and cache tooltip, effect, and aura records. SimulationCraft data must match the tree's build.</li>
+            <li><strong>Resolve concrete effects.</strong> The pipeline compares effect identities and semantics. Dependencies follow explicit triggers, formulas, and description references. Reverse “Affected Spells” lists alone do not create talent dependency paths.</li>
+            <li><strong>Apply scoped modifiers.</strong> The matching spell coefficient and PvP aura rules produce an effect-level multiplier. A generic talent parameter does not inherit an output aura merely because it mentions that spell.</li>
+            <li><strong>Resolve ranks and text.</strong> TraitDefinition set, multiply, and add overrides establish rank values. The renderer changes matched expressions, keeps character-dependent formulas symbolic, and preserves unrelated numbers. At 0/2, the tooltip shows rank 2; at 1/2, current and next; at 2/2, current.</li>
+            <li><strong>Validate and publish.</strong> All specializations must pass before the generated JSON/JavaScript snapshots are committed and GitHub Pages is updated. A failed run leaves the previous deployment available.</li>
+        </ol>
+        <div class="docs-table-wrap"><table class="docs-table"><thead><tr><th>Code</th><th>Responsibility</th></tr></thead><tbody>
+            <tr><td><code>pvpcalc/sources/</code></td><td>Source adapters and spell-dump parsing.</td></tr>
+            <tr><td><code>pipeline.py</code>, <code>pvp_aura.py</code></td><td>Evidence reconciliation, dependencies, and scoped PvP factors.</td></tr>
+            <tr><td><code>ranks.py</code>, <code>tooltip_renderer.py</code></td><td>Rank expressions and precise player-facing substitutions.</td></tr>
+            <tr><td><code>catalog.py</code>, <code>scripts/</code></td><td>Dataset serialization, validation, and browser checks.</td></tr>
+            <tr><td><code>web/</code></td><td>Static calculator, on-demand datasets, comparisons, mechanics, and offline cache.</td></tr>
+        </tbody></table></div>
+        <p><a href="https://github.com/silverlightwow/wow-pvp-talent-lab">Explore the source code ↗</a></p>
+    </section>
+    <section class="docs-section" id="checks">
+        <p class="docs-eyebrow">05 / Trust, with context</p>
+        <h2>What gets checked?</h2>
+        <div class="docs-grid">
+            <div><h3>Data edge cases</h3><ul><li>Missing or conflicting evidence, unresolved rank expressions, and malformed tooltip fragments block publication.</li><li>Old Drustvar observations are superseded only when current Wowhead and exact-build SimC corroborate the same effect.</li><li>Zero base values must not erase real spell-power coefficients.</li><li>Direct, periodic, absorb, label-scoped, and effect-specific aura rules are matched separately.</li><li>True choices and tiered Apex progression retain distinct behavior.</li></ul></div>
+            <div><h3>Browser behavior</h3><ul><li>Every specialization and hero tree is checked at 2560, 1440, 1024, 390, and 320 pixels.</li><li>Line endpoints are compared against actual node centers.</li><li>Rank transitions, point gates, full descriptions, comparisons, and touch controls are exercised.</li><li>JSON and JavaScript datasets must agree before publishing.</li></ul></div>
+        </div>
+        <h3>How to read the colors</h3>
+        <p><span class="tooltip-badge direction-buff">PvP buff</span> means a beneficial change. <span class="tooltip-badge direction-nerf">PvP nerf</span> means a detrimental change. <span class="tooltip-badge direction-neutral">Mixed / other change</span> means opposing effects or a change whose benefit cannot be confidently classified from the description. Color describes PvP versus PvE in this snapshot, not a change since the previous patch.</p>
+        <p><strong>VERIFIED</strong> means the automated source and rendering checks passed. It does not mean every interaction was tested in-game. Source lag, unannounced server behavior, gear, haste, versatility, and conditional interactions can affect real combat results. The mechanics view exposes evidence and source versions so those limits remain inspectable.</p>
+        <p><a href="https://github.com/silverlightwow/wow-pvp-talent-lab/actions/workflows/all-data-pages.yml">Inspect build and check results ↗</a></p>
+    </section>
+    <footer class="site-footer"><span>Made by <strong>SilverLight</strong></span><a class="documentation-link" href="index.html">← Open calculator</a></footer>
+</main>
+</body>
+</html>

@@ -2,7 +2,7 @@
   "name": "wow-pvp-talent-lab-checks",
   "private": true,
   "scripts": {
-    "test": "node --check web/app.js && node --check web/service-worker.js && node scripts/browser_check.cjs"
+    "test": "node --check web/app.js && node scripts/change_direction_check.cjs && node scripts/presentation_browser_check.cjs && node --check web/service-worker.js && node scripts/browser_check.cjs"
   },
   "devDependencies": {"playwright": "1.62.1"}
 }
