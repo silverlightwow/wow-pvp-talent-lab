@@ -9636,7 +9636,7 @@ window.WOW_PVP_DATA = {
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "shaman-restoration",
-  "generated_at": "2026-09-21T08:41:45.597993+00:00",
+  "generated_at": "2026-09-21T12:54:11.546421+00:00",
   "validation": {
     "talents": 137,
     "changed_tooltips": 23,

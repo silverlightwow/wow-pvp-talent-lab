@@ -8983,7 +8983,7 @@ window.WOW_PVP_DATA = {
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "rogue-outlaw",
-  "generated_at": "2026-09-21T08:41:30.318400+00:00",
+  "generated_at": "2026-09-21T12:52:56.176203+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 11,
