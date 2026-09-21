@@ -146,7 +146,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 633,
           "source_spell_id": 387792,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Modify Armor% (101)",
+          "effect_text": "Apply Aura: Mod Resistance % (Physical)",
           "base_value": 30.0,
           "spell_pvp_multiplier": 1.66,
           "amount_kind": null,
@@ -163,8 +163,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -611,7 +612,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 387791,
           "source_spell_id": 387792,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Modify Armor% (101)",
+          "effect_text": "Apply Aura: Mod Resistance % (Physical)",
           "base_value": 30.0,
           "spell_pvp_multiplier": 1.66,
           "amount_kind": null,
@@ -628,8 +629,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -3336,7 +3338,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 406468,
           "source_spell_id": 403460,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (AP mod: 1.25)",
+          "effect_text": "Heal (AP mod: 1.25 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -3363,11 +3365,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 1,
@@ -4379,7 +4380,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 377128,
           "source_spell_id": 377129,
           "effect_index": 1,
-          "effect_text": "Direct Heal (10) (AP mod: 0.0625)",
+          "effect_text": "Heal (AP mod: 0.0625 )",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -4406,11 +4407,10 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead"
           ],
           "source_notes": [],
-          "confidence": "high"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -11147,7 +11147,7 @@ window.WOW_PVP_DATA = {
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "paladin-holy",
-  "generated_at": "2026-09-21T00:54:27.725756+00:00",
+  "generated_at": "2026-09-21T06:57:17.297829+00:00",
   "validation": {
     "talents": 150,
     "changed_tooltips": 22,
@@ -11160,26 +11160,11 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 14,
+    "source_warning_count": 11,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 377129,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=377129'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 387792,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=387792'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 403460,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=403460'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "source": "wowhead",
         "spell_id": 431380,
@@ -11189,6 +11174,21 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 431381,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=431381'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 431415,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=431415'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 431939,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=431939'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 432496,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=432496'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],

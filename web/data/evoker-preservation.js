@@ -8715,7 +8715,7 @@ window.WOW_PVP_DATA = {
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "evoker-preservation",
-  "generated_at": "2026-09-21T00:52:40.193082+00:00",
+  "generated_at": "2026-09-21T06:55:21.440462+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 5,

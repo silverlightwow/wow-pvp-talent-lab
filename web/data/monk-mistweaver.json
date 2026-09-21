@@ -6564,7 +6564,7 @@
           "talent_spell_id": 388038,
           "source_spell_id": 388044,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 0.91)",
+          "effect_text": "Direct Heal (10) (SP mod: 0.91)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6591,10 +6591,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -11746,7 +11747,7 @@
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "monk-mistweaver",
-  "generated_at": "2026-09-21T00:54:28.463054+00:00",
+  "generated_at": "2026-09-21T06:56:58.757742+00:00",
   "validation": {
     "talents": 152,
     "changed_tooltips": 32,
@@ -11759,11 +11760,16 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 19,
+    "source_warning_count": 20,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 388044,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=388044/yulons-whisper'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "source": "wowhead",
         "spell_id": 388514,
@@ -11783,11 +11789,6 @@
         "source": "wowhead",
         "spell_id": 425804,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=425804'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 428439,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=428439'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],

@@ -10624,7 +10624,7 @@ window.WOW_PVP_DATA = {
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "paladin-protection",
-  "generated_at": "2026-09-21T00:54:36.153209+00:00",
+  "generated_at": "2026-09-21T06:57:57.135090+00:00",
   "validation": {
     "talents": 144,
     "changed_tooltips": 20,
