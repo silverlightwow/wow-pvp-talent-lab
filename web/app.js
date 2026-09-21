@@ -3373,7 +3373,7 @@
             · game effect ${escapeHtml(rule.game_effect_id ?? "not supplied")}
             · ${Number(rule.value_pct) >= 0 ? "+" : ""}${formatNumber(rule.value_pct)}% ${escapeHtml(rule.amount_kind)}
             → ×${formatNumber(rule.factor)}.<br>
-            ${rule.label_id != null ? `Matches spell label ${Number(rule.label_id)}` : `Source spell ${spellId} is in this rule's affected-spell list`}.
+            ${rule.label_id != null ? `Rule targets spell label ${Number(rule.label_id)}` : `Source spell ${spellId} is in this rule's affected-spell list`}.
             Aura source build: <strong>${escapeHtml(rule.build || "not supplied")}</strong>.
         </li>`).join("");
         return `<details class="mechanic-evidence"><summary>Why this modifier? · Sources &amp; calculation</summary>

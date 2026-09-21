@@ -15,6 +15,7 @@ check('Enemies have 50% reduced movement speed.','50','30','nerf');
 check('Avenging Wrath has 40% reduced duration.','40','26.664','buff');
 check('Damage exceeds 150% of their remaining health.','150','250','nerf');
 check('Every 20 Rage you spend reduces the cooldown by 1 sec.','20','10','buff','ordinary_value');
+check('Reduces all damage you take by 15% and all damage you deal by 10%.','10','15','nerf');
 check('Unknown parameter 8.','8','10','neutral');
 assert.equal(D.combine(['buff','nerf']),'mixed');
 assert.equal(D.combine(['buff','neutral']),'neutral');
