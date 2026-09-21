@@ -9022,7 +9022,7 @@ window.WOW_PVP_DATA = {
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "hunter-survival",
-  "generated_at": "2026-09-21T06:56:08.910035+00:00",
+  "generated_at": "2026-09-21T08:39:29.077285+00:00",
   "validation": {
     "talents": 127,
     "changed_tooltips": 19,

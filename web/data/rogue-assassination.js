@@ -9359,7 +9359,7 @@ window.WOW_PVP_DATA = {
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "rogue-assassination",
-  "generated_at": "2026-09-21T06:57:55.819545+00:00",
+  "generated_at": "2026-09-21T08:41:24.377586+00:00",
   "validation": {
     "talents": 131,
     "changed_tooltips": 20,

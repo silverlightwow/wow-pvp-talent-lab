@@ -9380,7 +9380,7 @@ window.WOW_PVP_DATA = {
   "fetch_errors": [],
   "source_warnings": [],
   "slug": "warlock-affliction",
-  "generated_at": "2026-09-21T06:58:58.461832+00:00",
+  "generated_at": "2026-09-21T08:42:14.108063+00:00",
   "validation": {
     "talents": 123,
     "changed_tooltips": 21,
