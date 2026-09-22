@@ -95,6 +95,10 @@
     <footer class="site-footer"><span>Made by <strong>SilverLight</strong></span><a class="documentation-link" href="index.html">← Open calculator</a></footer>
 </main>
 <script>
+document.querySelectorAll('a[href^="https://"], a[href^="http://"]').forEach(link => {
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+});
 if (window.parent !== window) {
     document.body.classList.add('embedded-docs');
     document.querySelectorAll('a[href="index.html"]').forEach(link => {

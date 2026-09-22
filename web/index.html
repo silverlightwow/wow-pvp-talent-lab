@@ -88,9 +88,10 @@
 
 
     <section id="welcomePanel" class="welcome-panel">
-        <p class="docs-eyebrow">WoW PvP Talent Lab</p><h1>Your class. Your build.</h1>
-        <p>Explore talent trees, compare PvP changes, and build a loadout you can share.</p>
+        <p class="docs-eyebrow">WoW PvP Talent Lab</p><h1>Talent calculator<br><span>with PvP modifiers.</span></h1>
+        <p>See how talents change in PvP, at every rank. Compare values, check their sources, and share your build.</p>
         <button class="primary-button" data-open-import>Import from game</button>
+        <div class="welcome-features"><span><i class="direction-buff"></i>PvP buffs</span><span><i class="direction-nerf"></i>PvP nerfs</span><span><i class="direction-mixed"></i>Every talent rank</span><span>In-game import &amp; export</span></div>
         <div id="welcomeClasses" class="welcome-classes"></div>
     </section>
     <div class="build-strip">
@@ -520,6 +521,7 @@
     <div class="dialog-heading"><h2 id="docsDialogTitle">Documentation</h2><button class="dialog-close" data-close-dialog aria-label="Close documentation">×</button></div>
     <iframe id="docsFrame" title="WoW PvP Talent Lab documentation"></iframe>
 </dialog>
+<script src="class-icons.js"></script>
 <script src="loadout-codec.js"></script>
 <script src="change-direction.js"></script>
 <script src="app.js"></script>

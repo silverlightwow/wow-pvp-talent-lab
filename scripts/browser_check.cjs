@@ -57,6 +57,21 @@ function assertDescription(shown, original) {
      }));
      if (geometry.some(x=>x.clipped||x.overlaps||x.misaligned)) report.push({spec:spec.slug,width,hero,geometry});
     }
+    if(width>=701) {
+     const sizes=await page.locator('.talent-node').evaluateAll(nodes=>nodes.map(n=>n.getBoundingClientRect().width));
+     assert.ok(Math.min(...sizes)>=36,`${spec.slug}: unreadably small desktop nodes (${Math.min(...sizes)}px)`);
+    }
+    const rowAlignment=await page.locator('.tree-canvas').evaluateAll((trees,talents)=>trees.every(tree=>{
+     const rows=new Map();
+     for(const node of tree.querySelectorAll('.talent-node')){
+      const source=talents.find(t=>t.node_id===Number(node.dataset.nodeId)).tree_data;
+      const raw=source.pos_y,near=Math.round(raw/300)*300,y=Math.abs(raw-near)<=30?near:raw;
+      const top=node.getBoundingClientRect().top;
+      if(rows.has(y)&&Math.abs(rows.get(y)-top)>1)return false;
+      rows.set(y,top);
+     }return true;
+    }),data.talents);
+    assert.ok(rowAlignment,`${spec.slug}: source row split by minor coordinate offsets`);
     // Tooltip contents, touch rank controls, and pointer editing use real DOM events.
     const ordinary = page.locator('#classTree .talent-node:not(.blocked):not(.choice-node):not(.free)').first();
     if (await ordinary.count()) {
@@ -116,7 +131,7 @@ function assertDescription(shown, original) {
     const items=page.locator('#compendiumList .compendium-item');
     if(await items.count()) {
      await items.last().click();
-     assert.equal(await page.locator('#compendiumDetail .tooltip-text').count(),0);
+     assert.ok(await page.locator('#compendiumDetail .mechanic-description-text').count()>0);
      assert.ok(await page.locator('#compendiumDetail .mechanic-card').count()>0);
      if(width<=900) assert.equal(await page.locator('.compendium-item.active + .mobile-compendium-inline').count(),1);
     }

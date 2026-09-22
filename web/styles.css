@@ -2807,3 +2807,33 @@ dialog::backdrop { background:#070a12cc; backdrop-filter:blur(5px); }
 
 .tooltip-scroll-hint { color:var(--muted); font-size:11px; margin:8px 0; }
 .touch-tooltip .tooltip-scroll-hint { display:none; }
+/* Keep desktop nodes readable before the three columns become cramped. */
+@media (min-width:701px) and (max-width:1699px) {
+    .tree-grid { grid-template-columns:minmax(0,1fr); justify-items:center; align-items:start; gap:18px; }
+    .tree-card { height:auto; grid-column:1; }
+    .class-card, .spec-card { width:min(100%,760px); --node:46px; }
+    .hero-card { width:min(100%,500px); --node:44px; }
+    .tree-canvas { flex:none; }
+}
+body.welcome-active { background:radial-gradient(ellipse at 85% 10%,#24375355,transparent 45%),radial-gradient(ellipse at 15% 25%,#39255c44,transparent 40%),#0b0d12; }
+.welcome-panel { padding-top:48px; }
+.welcome-panel > h1 { line-height:1.13; max-width:900px; margin-bottom:22px; }
+.welcome-panel > h1 span { color:#c6b0ff; }
+.welcome-panel > p:not(.docs-eyebrow) { max-width:650px; font-size:17px; margin-bottom:24px; }
+.welcome-features { display:flex; flex-wrap:wrap; gap:12px 22px; margin:24px 0 32px; color:#b8c3d3; font-size:12px; }
+.welcome-features > span { display:flex; align-items:center; gap:8px; }
+.welcome-features i { display:block; width:8px; height:8px; border-radius:50%; background:var(--change-dot); }
+.welcome-class { border-top:2px solid color-mix(in srgb,var(--class-color) 65%,#273040); background:radial-gradient(ellipse at top left,color-mix(in srgb,var(--class-color) 12%,transparent),transparent 80%),#141923; transition:background .16s,border-color .16s; }
+.welcome-class:hover { border-color:color-mix(in srgb,var(--class-color) 65%,#273040); }
+.welcome-class h2 { display:flex; align-items:center; gap:12px; color:color-mix(in srgb,var(--class-color) 82%,white); margin-bottom:18px; }
+.welcome-class h2 img { border-radius:11px; border:1px solid color-mix(in srgb,var(--class-color) 45%,transparent); box-shadow:0 4px 15px #0006; }
+.welcome-spec { align-items:center; justify-content:flex-start; gap:12px; padding:9px 7px; border-radius:7px; color:#d4dbea; font-size:14px; }
+.welcome-spec img { border-radius:6px; border:1px solid #ffffff22; }
+.welcome-spec:hover, .welcome-spec:focus-visible { background:color-mix(in srgb,var(--class-color) 12%,transparent); }
+.welcome-spec .spec-arrow { margin-left:auto; color:var(--class-color); }
+.mechanic-description { margin:22px 0 16px; padding:18px 20px; border:1px solid #39364e; border-left:3px solid #a68ae0; border-radius:10px; background:#171926; }
+.mechanic-description h3 { display:flex; flex-wrap:wrap; gap:8px 14px; align-items:center; margin:0 0 13px; font-size:14px; color:#e8defb; }
+.mechanic-description h3 span { padding:3px 7px; border:1px solid #514269; border-radius:5px; font-size:10px; text-transform:uppercase; color:#cbb3ed; }
+.mechanic-description-rank + .mechanic-description-rank { border-top:1px solid #ffffff10; margin-top:14px; padding-top:14px; }
+.mechanic-description h4 { margin:0 0 8px; color:#bca6ff; font-size:12px; }
+.mechanic-description-text { white-space:pre-wrap; line-height:1.65; color:#dce1eb; font-size:14px; margin:0; }

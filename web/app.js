@@ -1305,6 +1305,7 @@
         map.forEach(
             group => {
 
+                if (group.isTiered) group.entries = sourceTalents.filter(t => t.node_id === group.nodeId);
                 group.entries.sort(
                     (a, b) =>
                         Number(
@@ -2152,9 +2153,11 @@
         nodeSize
     ) {
 
-        const values = [
-            ...groups.values()
-        ];
+        // Client layouts can contain tiny editor offsets (e.g. 4790 vs 4800).
+        // Snap only coordinates close to the 300-unit grid; preserve true half-steps.
+        const align = value => Math.abs(value - Math.round(value / 300) * 300) <= 30
+            ? Math.round(value / 300) * 300 : value;
+        const values = [...groups.values()].map(group => ({...group, x:align(group.x), y:align(group.y)}));
 
 
         const xs = [
@@ -2194,8 +2197,18 @@
                 56
             );
 
-        let coordinateScale =
-            normalColumnGap / 600;
+        const sourceRows = new Map();
+        for (const group of values) {
+            if (!sourceRows.has(group.y)) sourceRows.set(group.y, []);
+            sourceRows.get(group.y).push(group.x);
+        }
+        let minSourceGap = Infinity;
+        for (const row of sourceRows.values()) {
+            row.sort((a,b) => a-b);
+            for (let i=1;i<row.length;i++) if(row[i]>row[i-1]) minSourceGap=Math.min(minSourceGap,row[i]-row[i-1]);
+        }
+        // Dense half-column rows need more room, not smaller icons everywhere.
+        let coordinateScale = Math.max(normalColumnGap / 600, (nodeSize + 8) / minSourceGap);
 
         const paddingX =
             Math.max(
@@ -3921,7 +3934,15 @@
                 </div>
             </div>
 
-            <p class="mechanics-explanation">These modifiers explain the talent's PvP behavior, including effects on spells it triggers. The factors below apply to the listed effect, not to every number in the talent description.</p>
+            <section class="mechanic-description" aria-label="Talent description in PvP">
+                <h3>Talent description <span>In PvP</span></h3>
+                ${group.entries.flatMap(entry => entry.rank_tooltips?.length ? entry.rank_tooltips : [entry]).map((rank, index, all) => `
+                    <div class="mechanic-description-rank">
+                        ${all.length > 1 ? `<h4>Rank ${index + 1}/${all.length}</h4>` : ""}
+                        <p class="mechanic-description-text">${escapeHtml(descriptionText(rank.pvp_tooltip))}</p>
+                    </div>`).join("")}
+            </section>
+            <p class="mechanics-explanation">Modifiers below apply to the listed effects, including spells triggered by this talent. Open a source panel to see the calculation.</p>
             <div class="mechanics-grid">
                 ${group.mechanics.map(mechanic => mechanicCard(mechanic)).join("")}
             </div>
@@ -4221,7 +4242,16 @@
         window.addEventListener('message',event=>{
             if(event.source===$("#docsFrame").contentWindow&&event.data==='close-documentation')$("#docsDialog").close();
         });
-        $("#welcomeClasses").innerHTML=manifest.classes.map(c=>`<section class="welcome-class"><h2>${escapeHtml(c.name)}</h2><div>${c.specs.map(s=>`<button class="welcome-spec" data-class="${escapeHtml(c.name)}" data-spec="${escapeHtml(s.name)}">${escapeHtml(s.name)} <span aria-hidden="true">→</span></button>`).join('')}</div></section>`).join('');
+        $("#welcomeClasses").innerHTML = manifest.classes.map(c => {
+            const visuals = ClassVisuals.classes[c.class_id];
+            return `<section class="welcome-class" style="--class-color:${visuals.color}">
+                <h2><img src="${ClassVisuals.url(visuals.icon)}" width="46" height="46" alt="">${escapeHtml(c.name)}</h2>
+                <div>${c.specs.map(s => `<button class="welcome-spec" data-class="${escapeHtml(c.name)}" data-spec="${escapeHtml(s.name)}">
+                    <img src="${ClassVisuals.url(ClassVisuals.specs[s.spec_id])}" width="28" height="28" alt="">
+                    <span>${escapeHtml(s.name)}</span><span class="spec-arrow" aria-hidden="true">→</span>
+                </button>`).join('')}</div>
+            </section>`;
+        }).join('');
         $$('.welcome-spec').forEach(b=>b.addEventListener('click',()=>activateSpec(b.dataset.class,b.dataset.spec).catch(error=>{ $("#treeMessage").textContent=error.message; })));
         window.addEventListener('hashchange',()=>{
             const code=new URLSearchParams(location.hash.slice(1)).get('build');
