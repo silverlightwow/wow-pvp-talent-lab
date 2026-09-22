@@ -254,6 +254,45 @@ def test_nested_dependency_does_not_claim_an_ancestor_coefficient():
     assert result["render_status"] == "COMPLETE"
 
 
+def test_direct_dependency_does_not_claim_a_different_spec_coefficient():
+    tooltip = "Deals [(92.8% of Spell Power) * 7] Frost damage."
+    meteor = dict(
+        talent_spell_id=431095,
+        source_spell_id=351140,
+        effect_index=1,
+        effect_text="School Damage (Fire) (SP mod: 9)",
+        final_pvp_multiplier=0.738192,
+        effect_origin="DEPENDENCY",
+        dependency_kind="REFERENCED",
+        dependency_relations=["tooltip_value_ref"],
+        dependency_path=[431095, 351140],
+    )
+    comet = dict(
+        talent_spell_id=431095,
+        source_spell_id=438609,
+        effect_index=1,
+        effect_text="School Damage (Frost) (SP mod: 0.928)",
+        final_pvp_multiplier=0.728,
+        effect_origin="DEPENDENCY",
+        dependency_kind="REFERENCED",
+        dependency_relations=["tooltip_value_ref"],
+        dependency_path=[431095, 438609],
+    )
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Fire",
+        effect_rows=[meteor, comet],
+        context_rows=[meteor, comet],
+    )
+    assert result["pvp_tooltip"] == (
+        "Deals [(67.5584% of Spell Power) * 7] Frost damage."
+    )
+    assert not any(
+        diagnostic.get("status") == "CONFLICTING_TRANSFORMS"
+        for diagnostic in result["diagnostics"]
+    )
+
+
 def test_direct_two_rank_modifier_keeps_each_rank_value():
     row = dict(
         talent_spell_id=1241958,

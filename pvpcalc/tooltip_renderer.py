@@ -317,8 +317,20 @@ def _dependency_rank_coefficient(
     if any(abs(value - source_value) <= 1e-6 for value in visible_values):
         return source_value
 
-    if len(visible_values) == 1:
-        return visible_values[0]
+    if len(visible_values) == 1 and abs(source_value) > 1e-12:
+        candidate = visible_values[0]
+        ratio = abs(candidate / source_value)
+        reciprocal = 1.0 / ratio if ratio > 1e-12 else 0.0
+
+        # Ranked coefficient formulas use the referenced value at a small
+        # whole-number scale (for example x2, or x0.5 at rank one). This also
+        # prevents a different specialization's sibling spell from claiming
+        # the one visible coefficient merely because both are direct refs.
+        if (
+            abs(ratio - round(ratio)) <= 1e-6
+            or abs(reciprocal - round(reciprocal)) <= 1e-6
+        ):
+            return candidate
 
     return source_value
 
