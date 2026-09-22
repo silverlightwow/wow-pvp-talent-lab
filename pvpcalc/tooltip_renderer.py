@@ -296,10 +296,14 @@ def _dependency_rank_coefficient(
     source_spell_id = effect_row.get("source_spell_id")
     talent_spell_id = effect_row.get("talent_spell_id")
     relations = set(effect_row.get("dependency_relations") or [])
+    dependency_path = list(effect_row.get("dependency_path") or [])
 
     if (
         source_spell_id == talent_spell_id
         or "tooltip_value_ref" not in relations
+        or len(dependency_path) != 2
+        or dependency_path[0] != talent_spell_id
+        or dependency_path[-1] != source_spell_id
     ):
         return source_value
 

@@ -208,6 +208,7 @@ def test_referenced_spell_pvp_modifier_applies_at_every_rank(
         effect_text=effect_text,
         final_pvp_multiplier=multiplier,
         dependency_relations=["tooltip_value_ref"],
+        dependency_path=[469411, 469413],
     )
     result = tooltip_renderer.render_pvp_tooltip(
         tooltip=tooltip,
@@ -216,6 +217,40 @@ def test_referenced_spell_pvp_modifier_applies_at_every_rank(
         context_rows=[row],
     )
     assert result["pvp_tooltip"] == expected
+    assert result["render_status"] == "COMPLETE"
+
+
+def test_nested_dependency_does_not_claim_an_ancestor_coefficient():
+    tooltip = "Deals (252% of Spell Power) Fire damage."
+    direct = dict(
+        talent_spell_id=1260745,
+        source_spell_id=1236970,
+        effect_index=1,
+        effect_text="School Damage (Fire) (SP mod: 2.52)",
+        final_pvp_multiplier=0.429,
+        effect_origin="DEPENDENCY",
+        dependency_kind="REFERENCED",
+        dependency_relations=["tooltip_value_ref"],
+        dependency_path=[1260745, 1236970],
+    )
+    nested = dict(
+        talent_spell_id=1260745,
+        source_spell_id=357212,
+        effect_index=1,
+        effect_text="School Damage (Fire) (SP mod: 4.4)",
+        final_pvp_multiplier=1.3,
+        effect_origin="DEPENDENCY",
+        dependency_kind="REFERENCED",
+        dependency_relations=["tooltip_value_ref", "spelldesc_ref"],
+        dependency_path=[1260745, 1236970, 357211, 357212],
+    )
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Augmentation",
+        effect_rows=[direct, nested],
+        context_rows=[direct, nested],
+    )
+    assert result["pvp_tooltip"] == "Deals (108.108% of Spell Power) Fire damage."
     assert result["render_status"] == "COMPLETE"
 
 
