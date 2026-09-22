@@ -10441,7 +10441,7 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "priest-discipline",
-  "generated_at": "2026-09-22T06:56:57.978095+00:00",
+  "generated_at": "2026-09-22T08:31:24.006408+00:00",
   "validation": {
     "talents": 133,
     "changed_tooltips": 22,

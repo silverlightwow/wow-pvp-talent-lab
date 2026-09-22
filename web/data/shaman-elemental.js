@@ -7309,7 +7309,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1259471,
           "source_spell_id": 1259491,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Dummy",
+          "effect_text": "Apply Aura (6) | Dummy (4)",
           "base_value": 80.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -7326,9 +7326,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9981,7 +9980,7 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "shaman-elemental",
-  "generated_at": "2026-09-22T06:58:02.504625+00:00",
+  "generated_at": "2026-09-22T08:32:48.024987+00:00",
   "validation": {
     "talents": 140,
     "changed_tooltips": 20,
@@ -9994,11 +9993,17 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 1,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 1259491,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1259491'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }

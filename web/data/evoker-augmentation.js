@@ -9811,7 +9811,7 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "evoker-augmentation",
-  "generated_at": "2026-09-22T06:54:31.119505+00:00",
+  "generated_at": "2026-09-22T08:28:58.349397+00:00",
   "validation": {
     "talents": 134,
     "changed_tooltips": 10,

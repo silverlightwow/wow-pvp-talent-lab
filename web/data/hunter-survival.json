@@ -6363,7 +6363,7 @@
           "talent_spell_id": 1259003,
           "source_spell_id": 1262293,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 2.8 )",
+          "effect_text": "School Damage (2): physical | Attributes: Area Effects Use Target Radius (17) (AP mod: 2.8)",
           "base_value": null,
           "spell_pvp_multiplier": 1.2,
           "amount_kind": "direct",
@@ -6390,9 +6390,8 @@
             }
           ],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9534,7 +9533,7 @@
   },
   "source_warnings": [],
   "slug": "hunter-survival",
-  "generated_at": "2026-09-22T06:54:51.960358+00:00",
+  "generated_at": "2026-09-22T08:29:26.965747+00:00",
   "validation": {
     "talents": 127,
     "changed_tooltips": 19,
@@ -9547,11 +9546,17 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 1,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 1262293,
+        "error": "RemoteProtocolError: <ConnectionTerminated error_code:0, last_stream_id:73, additional_data:None>"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }

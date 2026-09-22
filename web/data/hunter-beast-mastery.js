@@ -9929,7 +9929,7 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "hunter-beast-mastery",
-  "generated_at": "2026-09-22T06:54:53.751529+00:00",
+  "generated_at": "2026-09-22T08:29:15.910118+00:00",
   "validation": {
     "talents": 129,
     "changed_tooltips": 18,

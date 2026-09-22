@@ -10419,7 +10419,7 @@
   },
   "source_warnings": [],
   "slug": "priest-shadow",
-  "generated_at": "2026-09-22T06:56:49.844883+00:00",
+  "generated_at": "2026-09-22T08:31:03.473949+00:00",
   "validation": {
     "talents": 138,
     "changed_tooltips": 17,
@@ -10432,11 +10432,17 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 1,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 528,
+        "error": "RemoteProtocolError: <ConnectionTerminated error_code:0, last_stream_id:1, additional_data:None>"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }

@@ -11058,7 +11058,7 @@ window.WOW_PVP_DATA = {
     }
   ],
   "slug": "mage-fire",
-  "generated_at": "2026-09-22T06:55:20.445373+00:00",
+  "generated_at": "2026-09-22T08:29:31.514346+00:00",
   "validation": {
     "talents": 127,
     "changed_tooltips": 30,

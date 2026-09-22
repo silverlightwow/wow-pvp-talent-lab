@@ -7179,7 +7179,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1269311,
           "source_spell_id": 1278009,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 10.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -7196,8 +7196,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7355,7 +7356,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1269313,
           "source_spell_id": 1292071,
           "effect_index": 1,
-          "effect_text": "Apply Aura (6) | Modify Damage Done% to Caster (269)",
+          "effect_text": "Apply Aura: Mod Damage to Caster % (127)",
           "base_value": -8.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -7372,8 +7373,9 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10521,7 +10523,7 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "warrior-protection",
-  "generated_at": "2026-09-22T06:58:34.683949+00:00",
+  "generated_at": "2026-09-22T08:33:30.343265+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 32,
@@ -10534,22 +10536,11 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 2,
+    "source_warning_count": 0,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 1278009,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1278009'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1292071,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1292071'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      }
-    ],
+    "source_warning_examples": [],
     "unresolved_examples": [],
     "review_required_examples": []
   }
