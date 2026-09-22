@@ -3042,6 +3042,11 @@
                     "mouseenter",
                     event => {
 
+                        // Mobile browsers may synthesize mouse events before a tap.
+                        // Let the click handler open the touch dialog instead of
+                        // placing a hover tooltip over the node first.
+                        if (window.matchMedia("(hover: none)").matches) return;
+
                         const hoveredTalent =
                             group.isChoice
                             ? choiceEntryFromPointer(
@@ -3072,6 +3077,8 @@
                 button.addEventListener(
                     "mousemove",
                     event => {
+
+                        if (window.matchMedia("(hover: none)").matches) return;
 
                         if (group.isChoice) {
 

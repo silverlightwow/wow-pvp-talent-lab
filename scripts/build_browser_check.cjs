@@ -64,7 +64,14 @@ const sample='CAQAAAAAAAAAAAAAAAAAAAAAAADswMWGjZmZmxMbwMzYmZAAAAAAAAAAYmZ2mBjZGL
   for(const spell of [204909,428492]) {
    const nodeId=await page.evaluate(id=>window.WOW_PVP_DATA.talents.find(t=>t.spell_id===id).node_id,spell);
    const node=page.locator(`[data-node-id="${nodeId}"]`);
-   if(width<600)await node.tap();else await node.hover();
+   if(width<600){
+    // Real mobile browsers can emit a compatibility mouseenter before click.
+    // It must not open a desktop tooltip that intercepts the tap.
+    await node.dispatchEvent('mouseenter');
+    assert.equal(await page.locator('#talentTooltip').evaluate(el=>el.style.display),'none');
+    await node.tap();
+    assert.ok(await page.locator('#talentTooltip.touch-tooltip').isVisible());
+   }else await node.hover();
    const sections=page.locator('#talentTooltip .tooltip-rank-section');
    assert.equal(await sections.count(),2);
    for(let i=0;i<2;i++)assert.ok(await sections.nth(i).locator('.change-chip').count());
