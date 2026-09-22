@@ -10289,7 +10289,7 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "warlock-destruction",
-  "generated_at": "2026-09-22T13:37:19.790755+00:00",
+  "generated_at": "2026-09-22T13:59:41.834546+00:00",
   "validation": {
     "talents": 129,
     "changed_tooltips": 26,

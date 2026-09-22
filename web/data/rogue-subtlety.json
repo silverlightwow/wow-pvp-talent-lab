@@ -3399,7 +3399,7 @@
           "talent_spell_id": 470669,
           "source_spell_id": 470672,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 1.18 )",
+          "effect_text": "School Damage (2): physical (AP mod: 1.18)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -3426,10 +3426,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -5510,7 +5511,7 @@
           "talent_spell_id": 426591,
           "source_spell_id": 426592,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (AP mod: 6.3 )",
+          "effect_text": "School Damage (2): shadow (AP mod: 6.3)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5537,10 +5538,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -5548,7 +5550,7 @@
           "talent_spell_id": 426591,
           "source_spell_id": 426593,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Periodic Damage",
+          "effect_text": "Apply Aura (6) | Periodic Damage (3): physical every 2 seconds (AP mod: 1.58)",
           "base_value": null,
           "spell_pvp_multiplier": 1.33,
           "amount_kind": "periodic",
@@ -5575,9 +5577,8 @@
             }
           ],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -5588,7 +5589,7 @@
           "talent_spell_id": 426591,
           "source_spell_id": 1309274,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Dummy",
+          "effect_text": "Apply Aura (6) | Dummy (4)",
           "base_value": 20.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -5605,9 +5606,8 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -6877,7 +6877,7 @@
           "talent_spell_id": 382528,
           "source_spell_id": 1264397,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (AP mod: 4.2 )",
+          "effect_text": "School Damage (2): shadow | Attributes: Suppress Points Stacking (6) (AP mod: 4.2)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -6904,10 +6904,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -6959,20 +6960,30 @@
         "icon": "ability_rogue_shadowdance"
       },
       "pve_tooltip": "Remaining out of combat for 6 sec increases the duration of your next Shadow Dance by 4 sec.",
-      "pvp_tooltip": "Remaining out of combat for 6 sec increases the duration of your next Shadow Dance by 4 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pvp_tooltip": "Remaining out of combat for 6 sec increases the duration of your next Shadow Dance by 2.6667 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 86,
+          "end": 87,
+          "old_token": "4",
+          "new_token": "2.6667",
+          "kind": "ordinary_value",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
+          "status": "APPLIED",
           "kind": "ordinary_value",
-          "old": 0.004,
-          "new": 0.0027,
-          "full_tooltip_match_count": 0
+          "old": "4",
+          "new": "2.6667"
         }
       ],
       "has_pvp_mechanics": true,
@@ -6983,13 +6994,13 @@
           "talent_spell_id": 382505,
           "source_spell_id": 470678,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Modifies Buff Duration (1)",
-          "base_value": 4.0,
+          "effect_text": "Apply Aura (6) | Add Flat Modifier (107): Spell Duration (1)",
+          "base_value": 4000.0,
           "spell_pvp_multiplier": 0.666667,
           "amount_kind": null,
           "aura_factor": 1.0,
           "final_pvp_multiplier": 0.666667,
-          "final_pvp_value": 2.666668,
+          "final_pvp_value": 2666.668,
           "is_final_pvp_modified": true,
           "dependency_path": [
             382505,
@@ -7000,9 +7011,8 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7326,7 +7336,7 @@
           "talent_spell_id": 457052,
           "source_spell_id": 457157,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature, Shadow) (AP mod: 1.56 )",
+          "effect_text": "School Damage (2): shadowstorm (AP mod: 1.56)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7353,10 +7363,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -7500,7 +7511,7 @@
           "talent_spell_id": 457054,
           "source_spell_id": 457193,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature, Shadow) (AP mod: 0.1 )",
+          "effect_text": "School Damage (2): shadowstorm (AP mod: 0.1)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -7527,10 +7538,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -7750,7 +7762,7 @@
           "talent_spell_id": 1248774,
           "source_spell_id": 1248775,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0) | Attributes: Suppress Points Stacking (6)",
           "base_value": 50.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -7767,11 +7779,10 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "ambiguous"
+          "confidence": "medium"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -7779,7 +7790,7 @@
           "talent_spell_id": 1248774,
           "source_spell_id": 1248775,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0) | Attributes: Suppress Points Stacking (6)",
           "base_value": 25.0,
           "spell_pvp_multiplier": 0.6,
           "amount_kind": null,
@@ -7796,11 +7807,10 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
             "simc"
           ],
           "source_notes": [],
-          "confidence": "ambiguous"
+          "confidence": "medium"
         }
       ],
       "render_effect_count": 2,
@@ -8011,7 +8021,7 @@
           "talent_spell_id": 457062,
           "source_spell_id": 457167,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0) | Attributes: Suppress Points Stacking (6)",
           "base_value": 18.0,
           "spell_pvp_multiplier": 0.56,
           "amount_kind": null,
@@ -8028,9 +8038,8 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8041,7 +8050,7 @@
           "talent_spell_id": 457062,
           "source_spell_id": 457167,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0) | Attributes: Suppress Points Stacking (6)",
           "base_value": 15.0,
           "spell_pvp_multiplier": 0.6667,
           "amount_kind": null,
@@ -8058,9 +8067,8 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8597,7 +8605,7 @@
           "talent_spell_id": 457058,
           "source_spell_id": 457280,
           "effect_index": 2,
-          "effect_text": "Apply Aura: Dummy",
+          "effect_text": "Apply Aura (6) | Dummy (4)",
           "base_value": 35.0,
           "spell_pvp_multiplier": 0.25,
           "amount_kind": null,
@@ -8614,9 +8622,8 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8707,7 +8714,7 @@
           "talent_spell_id": 441146,
           "source_spell_id": 441144,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 2.8 )",
+          "effect_text": "School Damage (2): physical (AP mod: 2.8)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8734,10 +8741,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -10038,10 +10046,10 @@
   },
   "source_warnings": [],
   "slug": "rogue-subtlety",
-  "generated_at": "2026-09-22T13:36:48.066716+00:00",
+  "generated_at": "2026-09-22T13:59:29.000370+00:00",
   "validation": {
     "talents": 135,
-    "changed_tooltips": 19,
+    "changed_tooltips": 20,
     "talents_with_pvp_mechanics": 25,
     "unique_nodes": 113,
     "tree_build": "12.1.0.69875",
@@ -10051,11 +10059,37 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 12,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 426592,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=426592'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 426593,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=426593'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 441144,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=441144'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 457157,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=457157'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 457167,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=457167'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }

@@ -9246,7 +9246,7 @@ window.WOW_PVP_DATA = {
     }
   ],
   "slug": "evoker-devastation",
-  "generated_at": "2026-09-22T13:33:53.863355+00:00",
+  "generated_at": "2026-09-22T13:56:06.928303+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 11,
