@@ -348,7 +348,37 @@ def semantic_transform(
 
     display = effect_row.get("display_formula")
     if display:
-        return {"kind": display["kind"], "old": display["old"], "new": display["new"]}
+        old_display = float(display["old"])
+        new_display = float(display["new"])
+
+        # Exact client rank data can store 29,999 ms while the rendered
+        # player tooltip intentionally rounds that expression to 30 sec.
+        # display_formula is evaluated before the ordinary millisecond
+        # branch, so reconcile the same narrow display rounding here too.
+        if (
+            abs(float(display.get("divisor") or 0)) >= 1000
+            and abs(old_display - round(old_display)) <= 0.01
+            and _numeric_matches(
+                selected_tooltip,
+                value=float(round(old_display)),
+                kind="duration_seconds",
+            )
+        ):
+            old_display = float(round(old_display))
+            if abs(new_display - round(new_display)) <= 0.01:
+                new_display = float(round(new_display))
+            return {
+                "kind": "duration_seconds",
+                "old": old_display,
+                "new": new_display,
+                "unit": "sec",
+            }
+
+        return {
+            "kind": display["kind"],
+            "old": old_display,
+            "new": new_display,
+        }
 
     effect_text = _clean(
         effect_row.get(

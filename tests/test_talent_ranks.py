@@ -327,6 +327,13 @@ def test_ranked_millisecond_override_matches_player_facing_rounding():
         final_pvp_value=-14999.5,
         final_pvp_multiplier=0.5,
         dependency_relations=[],
+        display_formula=dict(
+            old=29.999,
+            new=14.9995,
+            kind="ordinary_value",
+            divisor=-1000,
+            precision=4,
+        ),
     )
     result = tooltip_renderer.render_pvp_tooltip(
         tooltip="The cooldown of Ice Block is reduced by 30 sec.",
