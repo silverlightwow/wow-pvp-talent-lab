@@ -10523,7 +10523,7 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "warrior-protection",
-  "generated_at": "2026-09-22T12:57:43.750613+00:00",
+  "generated_at": "2026-09-22T13:37:37.096302+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 32,

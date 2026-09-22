@@ -10165,7 +10165,7 @@ window.WOW_PVP_DATA = {
     }
   ],
   "slug": "mage-arcane",
-  "generated_at": "2026-09-22T12:54:07.489528+00:00",
+  "generated_at": "2026-09-22T13:34:24.137845+00:00",
   "validation": {
     "talents": 128,
     "changed_tooltips": 20,

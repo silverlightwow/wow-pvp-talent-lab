@@ -10419,7 +10419,7 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "priest-shadow",
-  "generated_at": "2026-09-22T12:56:10.599420+00:00",
+  "generated_at": "2026-09-22T13:35:54.641504+00:00",
   "validation": {
     "talents": 138,
     "changed_tooltips": 17,
