@@ -9278,7 +9278,7 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "demon-hunter-devourer",
-  "generated_at": "2026-09-22T00:51:20.787608+00:00",
+  "generated_at": "2026-09-22T06:53:15.157350+00:00",
   "validation": {
     "talents": 121,
     "changed_tooltips": 20,

@@ -9981,7 +9981,7 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "shaman-elemental",
-  "generated_at": "2026-09-22T00:56:03.146094+00:00",
+  "generated_at": "2026-09-22T06:58:02.504625+00:00",
   "validation": {
     "talents": 140,
     "changed_tooltips": 20,

@@ -6157,7 +6157,7 @@
           "talent_spell_id": 1240907,
           "source_spell_id": 1240913,
           "effect_index": 1,
-          "effect_text": "School Damage (2): astral (SP mod: 0.2195)",
+          "effect_text": "School Damage (Nature, Arcane) (SP mod: 0.2195)",
           "base_value": null,
           "spell_pvp_multiplier": 0.8,
           "amount_kind": "direct",
@@ -6184,8 +6184,9 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -9563,7 +9564,7 @@
           "talent_spell_id": 433831,
           "source_spell_id": 433850,
           "effect_index": 1,
-          "effect_text": "School Damage (2): nature | Attributes: Always AOE Line of Sight (5), Suppress Points Stacking (6) (AP mod: 3.93)",
+          "effect_text": "School Damage (Nature) (AP mod: 3.93 )",
           "base_value": null,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": "direct",
@@ -9590,8 +9591,9 @@
             }
           ],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10526,7 +10528,7 @@
           "talent_spell_id": 429433,
           "source_spell_id": 429474,
           "effect_index": 2,
-          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
+          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
           "base_value": 100.0,
           "spell_pvp_multiplier": 0.25,
           "amount_kind": null,
@@ -10543,8 +10545,9 @@
           ],
           "aura_rules": [],
           "sources": [
-            "simc",
-            "drustvar"
+            "wowhead",
+            "drustvar",
+            "simc"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -11104,7 +11107,7 @@
   },
   "source_warnings": [],
   "slug": "druid-balance",
-  "generated_at": "2026-09-22T00:51:28.569025+00:00",
+  "generated_at": "2026-09-22T06:53:37.303090+00:00",
   "validation": {
     "talents": 142,
     "changed_tooltips": 25,
@@ -11117,26 +11120,11 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 7,
+    "source_warning_count": 4,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
-      {
-        "source": "wowhead",
-        "spell_id": 429474,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=429474'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 433850,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=433850'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 1240913,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1240913'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "source": "wowhead",
         "spell_id": 1261573,
@@ -11146,6 +11134,16 @@
         "source": "wowhead",
         "spell_id": 1263137,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1263137'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1280212,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1280212'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1280213,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1280213'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],

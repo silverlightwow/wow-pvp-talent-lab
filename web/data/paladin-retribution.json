@@ -476,7 +476,7 @@
           "talent_spell_id": 1241288,
           "source_spell_id": 1241413,
           "effect_index": 1,
-          "effect_text": "School Damage (Holy) (AP mod: 1.2375 )",
+          "effect_text": "School Damage (2): holy | Attributes: Chain from Initial Target (7), Enforce Line of Sight To Chain Targets (16) (AP mod: 1.2375)",
           "base_value": null,
           "spell_pvp_multiplier": 1.3,
           "amount_kind": "direct",
@@ -512,9 +512,8 @@
             }
           ],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7964,7 +7963,7 @@
           "talent_spell_id": 343527,
           "source_spell_id": 1260251,
           "effect_index": 1,
-          "effect_text": "School Damage (Holy) (AP mod: 5.05312 )",
+          "effect_text": "School Damage (2): holy | Attributes: Always AOE Line of Sight (5), Add Target (Dest) Combat Reach to AOE (11), Area Effects Use Target Radius (17) (AP mod: 5.05312)",
           "base_value": null,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": "direct",
@@ -7991,9 +7990,8 @@
             }
           ],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8786,7 +8784,7 @@
           "talent_spell_id": 1261159,
           "source_spell_id": 1261160,
           "effect_index": 1,
-          "effect_text": "School Damage (Holy) (AP mod: 3.31918 )",
+          "effect_text": "School Damage (2): holy | Attributes: Always AOE Line of Sight (5), Add Target (Dest) Combat Reach to AOE (11), Area Effects Use Target Radius (17) (AP mod: 3.31918)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8813,10 +8811,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -11975,7 +11974,7 @@
   },
   "source_warnings": [],
   "slug": "paladin-retribution",
-  "generated_at": "2026-09-22T00:54:26.091847+00:00",
+  "generated_at": "2026-09-22T06:56:47.290908+00:00",
   "validation": {
     "talents": 137,
     "changed_tooltips": 27,
@@ -11988,11 +11987,27 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 3,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 1241413,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1241413/hammer-of-wrath'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1260251,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1260251'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1261160,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1261160'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }

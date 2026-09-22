@@ -7179,7 +7179,7 @@
           "talent_spell_id": 1269311,
           "source_spell_id": 1278009,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+          "effect_text": "Apply Aura (6) | Add Percent Modifier (108): Spell Direct Amount (0)",
           "base_value": 10.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -7196,9 +7196,8 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7356,7 +7355,7 @@
           "talent_spell_id": 1269313,
           "source_spell_id": 1292071,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Mod Damage to Caster % (127)",
+          "effect_text": "Apply Aura (6) | Modify Damage Done% to Caster (269)",
           "base_value": -8.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -7373,9 +7372,8 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10523,7 +10521,7 @@
   },
   "source_warnings": [],
   "slug": "warrior-protection",
-  "generated_at": "2026-09-22T00:57:18.123457+00:00",
+  "generated_at": "2026-09-22T06:58:34.683949+00:00",
   "validation": {
     "talents": 125,
     "changed_tooltips": 32,
@@ -10536,11 +10534,22 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 2,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 1278009,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1278009'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1292071,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1292071'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }

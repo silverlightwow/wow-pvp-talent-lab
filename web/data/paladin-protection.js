@@ -458,7 +458,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1241288,
           "source_spell_id": 1241413,
           "effect_index": 1,
-          "effect_text": "School Damage (Holy) (AP mod: 1.2375 )",
+          "effect_text": "School Damage (2): holy | Attributes: Chain from Initial Target (7), Enforce Line of Sight To Chain Targets (16) (AP mod: 1.2375)",
           "base_value": null,
           "spell_pvp_multiplier": 1.3,
           "amount_kind": "direct",
@@ -485,9 +485,8 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7719,7 +7718,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1246488,
           "source_spell_id": 1241413,
           "effect_index": 1,
-          "effect_text": "School Damage (Holy) (AP mod: 1.2375 )",
+          "effect_text": "School Damage (2): holy | Attributes: Chain from Initial Target (7), Enforce Line of Sight To Chain Targets (16) (AP mod: 1.2375)",
           "base_value": null,
           "spell_pvp_multiplier": 1.3,
           "amount_kind": "direct",
@@ -7746,9 +7745,8 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8295,7 +8293,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1267215,
           "source_spell_id": 1269179,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Dummy",
+          "effect_text": "Apply Aura (6) | Dummy (4)",
           "base_value": 100.0,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": null,
@@ -8312,9 +8310,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8325,7 +8322,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1267215,
           "source_spell_id": 1269224,
           "effect_index": 1,
-          "effect_text": "School Damage (Holy) (AP mod: 5 )",
+          "effect_text": "School Damage (2): holy (AP mod: 5)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8352,10 +8349,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 2,
@@ -11331,7 +11329,7 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "paladin-protection",
-  "generated_at": "2026-09-22T00:54:26.266419+00:00",
+  "generated_at": "2026-09-22T06:56:57.801522+00:00",
   "validation": {
     "talents": 144,
     "changed_tooltips": 21,
@@ -11344,11 +11342,27 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 3,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 1241413,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1241413/hammer-of-wrath'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1269179,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1269179'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1269224,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1269224'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }
