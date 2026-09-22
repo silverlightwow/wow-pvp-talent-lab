@@ -19,7 +19,7 @@ function assertDescription(shown, original) {
 (async () => {
  const browser = await chromium.launch(launch);
  try {
-  for (const width of [2560, 1440, 1024, 390, 320]) {
+  for (const width of [2560, 1500, 1440, 1024, 390, 320]) {
    const page = await browser.newPage({viewport:{width,height:1000}, hasTouch:width<600, isMobile:width<600});
    page.on('pageerror', e => errors.push(e.message));
    // Network availability of an icon CDN must not govern app logic checks.
@@ -60,6 +60,10 @@ function assertDescription(shown, original) {
     if(width>=701) {
      const sizes=await page.locator('.talent-node').evaluateAll(nodes=>nodes.map(n=>n.getBoundingClientRect().width));
      assert.ok(Math.min(...sizes)>=36,`${spec.slug}: unreadably small desktop nodes (${Math.min(...sizes)}px)`);
+    }
+    if(width>=1500) {
+     const tops=await page.locator('.tree-card').evaluateAll(cards=>cards.map(card=>Math.round(card.getBoundingClientRect().top)));
+     assert.equal(new Set(tops).size,1,`${spec.slug}: trees must share one row at ${width}px`);
     }
     const rowAlignment=await page.locator('.tree-canvas').evaluateAll((trees,talents)=>trees.every(tree=>{
      const rows=new Map();

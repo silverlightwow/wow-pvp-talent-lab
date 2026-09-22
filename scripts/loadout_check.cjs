@@ -55,6 +55,37 @@ for(const filename of fs.readdirSync(dir).filter(f=>f.endsWith('.json')&&f!=='ma
 }
 console.log('Source regressions: Fury, Bladecraft, Demon Muzzle, Chaotic Disposition, Knowledge, Apex, icons and tooltip prose passed.');
 
+for(const [slug,first,second] of [
+ ['paladin-holy','88.5007%','177.0014%'],
+ ['paladin-protection','135.0011%','270.0022%'],
+ ['paladin-retribution','150.0012%','300.0024%'],
+]){
+ const t=data(slug).talents.find(t=>t.spell_id===469411);
+ assert.equal(t.rank_tooltips.length,2);
+ assert.ok(t.rank_tooltips[0].pvp_tooltip.includes(first),`${slug}: A Just Reward rank 1`);
+ assert.ok(t.rank_tooltips[1].pvp_tooltip.includes(second),`${slug}: A Just Reward rank 2`);
+ assert.ok(t.rank_tooltips.every(r=>r.tooltip_changed),`${slug}: every A Just Reward rank must be modified`);
+}
+const vengeance=data('paladin-protection').talents.find(t=>t.spell_id===1241958);
+assert.ok(vengeance.rank_tooltips[0].pvp_tooltip.includes('10%'));
+assert.ok(vengeance.rank_tooltips[1].pvp_tooltip.includes('20%'));
+assert.ok(vengeance.rank_tooltips.every(r=>r.tooltip_changed));
+const tyr=data('paladin-protection').talents.find(t=>t.spell_id===378285);
+assert.ok(tyr.rank_tooltips[0].pvp_tooltip.includes('9.72%'));
+assert.ok(tyr.rank_tooltips[1].pvp_tooltip.includes('19.44%'));
+assert.ok(tyr.rank_tooltips.every(r=>r.tooltip_changed));
+const infernal=data('demon-hunter-havoc').talents.find(t=>t.spell_id===320331);
+assert.ok(infernal.rank_tooltips[0].pvp_tooltip.includes('5.76%'));
+assert.ok(infernal.rank_tooltips[1].pvp_tooltip.includes('11.52%'));
+assert.ok(infernal.rank_tooltips.every(r=>r.tooltip_changed));
+for(const slug of ['mage-arcane','mage-fire','mage-frost']){
+ const t=data(slug).talents.find(t=>t.spell_id===382424);
+ assert.ok(t.rank_tooltips[0].pvp_tooltip.includes('15 sec'));
+ assert.ok(t.rank_tooltips[1].pvp_tooltip.includes('30 sec'));
+ assert.ok(t.rank_tooltips.every(r=>r.tooltip_changed),`${slug}: every Winter's Protection rank must be modified`);
+}
+console.log('Ranked PvP regressions: referenced spells, direct modifiers and rounded durations passed.');
+
 for(const slug of ['shaman-enhancement','shaman-restoration']){
  const t=data(slug).talents.find(t=>t.spell_id===455630);
  assert.ok(t.pve_tooltip.includes('Summons a totem'));

@@ -2808,7 +2808,7 @@ dialog::backdrop { background:#070a12cc; backdrop-filter:blur(5px); }
 .tooltip-scroll-hint { color:var(--muted); font-size:11px; margin:8px 0; }
 .touch-tooltip .tooltip-scroll-hint { display:none; }
 /* Keep desktop nodes readable before the three columns become cramped. */
-@media (min-width:701px) and (max-width:1699px) {
+@media (min-width:701px) and (max-width:1499px) {
     .tree-grid { grid-template-columns:minmax(0,1fr); justify-items:center; align-items:start; gap:18px; }
     .tree-card { height:auto; grid-column:1; }
     .class-card, .spec-card { width:min(100%,760px); --node:46px; }
@@ -2820,9 +2820,6 @@ body.welcome-active { background:radial-gradient(ellipse at 85% 10%,#24375355,tr
 .welcome-panel > h1 { line-height:1.13; max-width:900px; margin-bottom:22px; }
 .welcome-panel > h1 span { color:#c6b0ff; }
 .welcome-panel > p:not(.docs-eyebrow) { max-width:650px; font-size:17px; margin-bottom:24px; }
-.welcome-features { display:flex; flex-wrap:wrap; gap:12px 22px; margin:24px 0 32px; color:#b8c3d3; font-size:12px; }
-.welcome-features > span { display:flex; align-items:center; gap:8px; }
-.welcome-features i { display:block; width:8px; height:8px; border-radius:50%; background:var(--change-dot); }
 .welcome-class { border-top:2px solid color-mix(in srgb,var(--class-color) 65%,#273040); background:radial-gradient(ellipse at top left,color-mix(in srgb,var(--class-color) 12%,transparent),transparent 80%),#141923; transition:background .16s,border-color .16s; }
 .welcome-class:hover { border-color:color-mix(in srgb,var(--class-color) 65%,#273040); }
 .welcome-class h2 { display:flex; align-items:center; gap:12px; color:color-mix(in srgb,var(--class-color) 82%,white); margin-bottom:18px; }

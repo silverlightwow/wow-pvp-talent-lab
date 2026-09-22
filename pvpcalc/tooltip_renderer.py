@@ -273,6 +273,52 @@ _VISIBLE_AP_RE = re.compile(
 )
 
 
+def _dependency_rank_coefficient(
+    effect_row,
+    *,
+    selected_tooltip: str,
+    pattern,
+    source_value: float,
+) -> float:
+    """Use the visible ranked coefficient for an explicit spell reference.
+
+    Some talents are only rank controllers. Their description multiplies a
+    separate damage/heal spell by the talent rank, while the PvP coefficient
+    belongs to that referenced spell. In that shape the source SpellEffect is
+    still, for example, 540% SP, but rank two visibly contains 1080% SP. The
+    same referenced-spell PvP multiplier applies to both visible ranks.
+
+    Stay conservative: this is only enabled for the proven tooltip-value
+    dependency, and only when the player tooltip exposes one unambiguous
+    coefficient of the expected stat family.
+    """
+
+    source_spell_id = effect_row.get("source_spell_id")
+    talent_spell_id = effect_row.get("talent_spell_id")
+    relations = set(effect_row.get("dependency_relations") or [])
+
+    if (
+        source_spell_id == talent_spell_id
+        or "tooltip_value_ref" not in relations
+    ):
+        return source_value
+
+    visible_values = sorted(
+        {
+            float(match.group(1))
+            for match in pattern.finditer(selected_tooltip)
+        }
+    )
+
+    if any(abs(value - source_value) <= 1e-6 for value in visible_values):
+        return source_value
+
+    if len(visible_values) == 1:
+        return visible_values[0]
+
+    return source_value
+
+
 def semantic_transform(
     effect_row,
     *,
@@ -509,6 +555,13 @@ def semantic_transform(
             * 100.0
         )
 
+        old_value = _dependency_rank_coefficient(
+            effect_row,
+            selected_tooltip=selected_tooltip,
+            pattern=_VISIBLE_SP_RE,
+            source_value=old_value,
+        )
+
         # Periodic effects are often stored as a PER-TICK SP
         # coefficient while the player tooltip shows the TOTAL over
         # the channel/DoT duration. When the per-tick coefficient is
@@ -639,6 +692,13 @@ def semantic_transform(
         old_value = (
             pve_coeff
             * 100.0
+        )
+
+        old_value = _dependency_rank_coefficient(
+            effect_row,
+            selected_tooltip=selected_tooltip,
+            pattern=_VISIBLE_AP_RE,
+            source_value=old_value,
         )
 
         # Like SP coefficients, periodic physical effects may
@@ -818,7 +878,50 @@ def semantic_transform(
                     seconds,
 
                 "new":
-                    abs(pvp) / 1000.0,
+                    (
+                        float(round(abs(pvp) / 1000.0))
+                        if abs(
+                            abs(pvp) / 1000.0
+                            - round(abs(pvp) / 1000.0)
+                        ) <= 0.01
+                        else abs(pvp) / 1000.0
+                    ),
+
+                "unit":
+                    "sec",
+            }
+
+        # Trait rank data occasionally stores a player-facing whole second
+        # one millisecond below that value (for example 29,999 ms -> 30 sec).
+        # Match that display rounding narrowly instead of dropping the PvP
+        # transform for just that rank.
+        rounded_seconds = round(seconds)
+
+        if (
+            abs(seconds - rounded_seconds) <= 0.01
+            and _numeric_matches(
+                selected_tooltip,
+                value=float(rounded_seconds),
+                kind="duration_seconds",
+            )
+        ):
+
+            return {
+                "kind":
+                    "duration_seconds",
+
+                "old":
+                    float(rounded_seconds),
+
+                "new":
+                    (
+                        float(round(abs(pvp) / 1000.0))
+                        if abs(
+                            abs(pvp) / 1000.0
+                            - round(abs(pvp) / 1000.0)
+                        ) <= 0.01
+                        else abs(pvp) / 1000.0
+                    ),
 
                 "unit":
                     "sec",

@@ -3,6 +3,7 @@ from pathlib import Path
 import pytest
 from pvpcalc.sources import simc
 from pvpcalc.ranks import rank_source, render_rank, rows_at_rank
+from pvpcalc import tooltip_renderer
 
 SPELLS = json.loads(
     (Path(__file__).parent / "fixtures/trait-rank-spells.json").read_text()
@@ -166,3 +167,100 @@ def test_client_formula_precision():
         )
         == "The cooldown of Ice Block is reduced by 30 sec."
     )
+
+
+@pytest.mark.parametrize(
+    "tooltip,effect_text,multiplier,expected",
+    [
+        (
+            "They are healed for [(540% of Spell Power)].",
+            "Direct Heal (10) (SP mod: 5.4)",
+            0.1638902,
+            "They are healed for [(88.5007% of Spell Power)].",
+        ),
+        (
+            "They are healed for [(1080% of Spell Power)].",
+            "Direct Heal (10) (SP mod: 5.4)",
+            0.1638902,
+            "They are healed for [(177.0014% of Spell Power)].",
+        ),
+        (
+            "Deals [(24% of Attack Power)] Holy damage.",
+            "School Damage (Holy) (AP mod: 0.12)",
+            0.81,
+            "Deals [(19.44% of Attack Power)] Holy damage.",
+        ),
+        (
+            "Deals [(6% of Attack Power)] Fire damage.",
+            "School Damage (Fire) (AP mod: 0.12)",
+            0.96,
+            "Deals [(5.76% of Attack Power)] Fire damage.",
+        ),
+    ],
+)
+def test_referenced_spell_pvp_modifier_applies_at_every_rank(
+    tooltip, effect_text, multiplier, expected
+):
+    row = dict(
+        talent_spell_id=469411,
+        source_spell_id=469413,
+        effect_index=1,
+        effect_text=effect_text,
+        final_pvp_multiplier=multiplier,
+        dependency_relations=["tooltip_value_ref"],
+    )
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Holy",
+        effect_rows=[row],
+        context_rows=[row],
+    )
+    assert result["pvp_tooltip"] == expected
+    assert result["render_status"] == "COMPLETE"
+
+
+def test_direct_two_rank_modifier_keeps_each_rank_value():
+    row = dict(
+        talent_spell_id=1241958,
+        source_spell_id=1241958,
+        effect_index=1,
+        effect_text="Apply Aura: Dummy",
+        base_value=50,
+        final_pvp_value=20,
+        final_pvp_multiplier=0.4,
+        semantic_unit_hint="percent",
+        dependency_relations=[],
+    )
+    for pve, pvp in [(25, 10), (50, 20)]:
+        ranked = dict(row, base_value=pve, final_pvp_value=pvp)
+        result = tooltip_renderer.render_pvp_tooltip(
+            tooltip=f"Hammer of Wrath deals up to {pve}% additional damage.",
+            spec_name="Holy",
+            effect_rows=[ranked],
+            context_rows=[ranked],
+        )
+        assert f"up to {pvp}% additional" in result["pvp_tooltip"]
+        assert result["render_status"] == "COMPLETE"
+
+
+def test_ranked_millisecond_override_matches_player_facing_rounding():
+    row = dict(
+        talent_spell_id=382424,
+        source_spell_id=382424,
+        effect_index=1,
+        effect_text="Apply Aura: Mod Cooldown Ms (1560)",
+        base_value=-29999,
+        final_pvp_value=-14999.5,
+        final_pvp_multiplier=0.5,
+        dependency_relations=[],
+    )
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip="The cooldown of Ice Block is reduced by 30 sec.",
+        spec_name="Fire",
+        effect_rows=[row],
+        context_rows=[row],
+    )
+    assert result["pvp_tooltip"] == (
+        "The cooldown of Ice Block is reduced by 15 sec."
+    )
+    assert result["render_status"] == "COMPLETE"

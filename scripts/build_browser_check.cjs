@@ -16,6 +16,7 @@ const sample='CAQAAAAAAAAAAAAAAAAAAAAAAADswMWGjZmZmxMbwMzYmZAAAAAAAAAAYmZ2mBjZGL
   if(!process.env.SITE_URL)await page.route('https://**/*',r=>r.abort());
   await page.goto(base,{waitUntil:'domcontentloaded'});
   assert.equal(await page.locator('#welcomePanel').isVisible(),true);
+  assert.equal(await page.title(),'WoW PvP Talent Lab');
   assert.equal(await page.locator('.welcome-class').count(),13);
   assert.equal(await page.locator('#classSelect').isVisible(),false);
   await shot(page,`welcome-${width}`);
@@ -34,6 +35,7 @@ const sample='CAQAAAAAAAAAAAAAAAAAAAAAAADswMWGjZmZmxMbwMzYmZAAAAAAAAAAYmZ2mBjZGL
   const before=page.url();
   await page.reload();
   await page.waitForFunction(()=>document.querySelector('#heroSelect').value==='Voidweaver');
+  assert.equal(await page.title(),'Discipline Priest · WoW PvP Talent Lab');
   assert.equal(page.url(),before);
   await page.locator('.documentation-link').click();
   await page.frameLocator('#docsFrame').locator('#spec-aura').waitFor();

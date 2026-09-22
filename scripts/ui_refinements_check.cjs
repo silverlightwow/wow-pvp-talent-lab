@@ -6,7 +6,7 @@ const {pathToFileURL}=require('node:url');const {chromium}=require('playwright')
  const browser=await chromium.launch(launch),errors=[];
  const base=process.env.SITE_URL||pathToFileURL(path.resolve(__dirname,'../web/index.html')).href;
  const shot=async(p,name)=>{if(process.env.QA_SCREENSHOTS){fs.mkdirSync(process.env.QA_SCREENSHOTS,{recursive:true});await p.screenshot({path:path.join(process.env.QA_SCREENSHOTS,name+'.png'),fullPage:true});}};
- try{for(const width of [2560,1920,1700,1699,1440,1024,390,320]){
+ try{for(const width of [2560,1920,1536,1500,1499,1440,1024,390,320]){
   const page=await browser.newPage({viewport:{width,height:1050},hasTouch:width<600,isMobile:width<600,ignoreHTTPSErrors:true});page.on('pageerror',e=>errors.push(e.message));
   if(!process.env.SITE_URL)await page.route('https://**/*',r=>{
    const name=r.request().url().split('/').pop();const file=process.env.QA_ICON_CACHE&&path.join(process.env.QA_ICON_CACHE,name);
@@ -16,6 +16,10 @@ const {pathToFileURL}=require('node:url');const {chromium}=require('playwright')
   assert.equal(await page.locator('.welcome-class h2 img').count(),13);
   assert.equal(await page.locator('.welcome-spec img').count(),40);
   assert.ok((await page.locator('#welcomePanel h1').textContent()).includes('PvP modifiers'));
+  assert.equal((await page.locator('#welcomePanel h1').textContent()).trim().endsWith('.'),false);
+  assert.equal(await page.locator('#welcomePanel > p:not(.docs-eyebrow) br').count(),1);
+  assert.equal(await page.locator('.welcome-features').count(),0);
+  assert.equal(await page.title(),'WoW PvP Talent Lab');
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1),false);
   if([1440,390].includes(width))await shot(page,`new-home-${width}`);
   await page.locator('.welcome-spec[data-class="Paladin"][data-spec="Holy"]').click();
@@ -24,8 +28,9 @@ const {pathToFileURL}=require('node:url');const {chromium}=require('playwright')
   const rows=await page.locator('#heroTree .talent-node').evaluateAll(ns=>new Set(ns.map(n=>Math.round(n.getBoundingClientRect().top))).size);
   assert.equal(rows,5,'Lightsmith must have five aligned source rows');
   const rects=await page.locator('.tree-card').evaluateAll(ns=>ns.map(n=>{const r=n.getBoundingClientRect();return {x:r.x,y:r.y,w:r.width,h:r.height};}));
-  if(width<1700)assert.ok(rects[1].y>=rects[0].y+rects[0].h-1&&rects[2].y>=rects[1].y+rects[1].h-1,'Trees must stack before icons become cramped');
+  if(width<1500)assert.ok(rects[1].y>=rects[0].y+rects[0].h-1&&rects[2].y>=rects[1].y+rects[1].h-1,'Trees must stack before icons become cramped');
   else assert.equal(Math.round(rects[0].y),Math.round(rects[2].y));
+  assert.equal(await page.title(),'Holy Paladin · WoW PvP Talent Lab');
   if(width>=701)assert.ok(await page.locator('.talent-node').evaluateAll(ns=>ns.every(n=>n.getBoundingClientRect().width>=36)));
   if([1920,1440,390].includes(width))await shot(page,`lightsmith-${width}`);
   await page.locator('[data-tab="compendium"]').click();

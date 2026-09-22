@@ -764,6 +764,7 @@
             currentSlug
             === spec.slug
         ) {
+            updateDocumentTitle();
             renderTrees();
             return;
         }
@@ -903,6 +904,19 @@
     // Header
     // ========================================================
 
+    function updateDocumentTitle() {
+
+        if (document.body.classList.contains("welcome-active")) {
+            document.title = "WoW PvP Talent Lab";
+            return;
+        }
+
+        const className = data.class_name || "Class";
+        const specName = data.spec_name || "Specialization";
+        document.title = `${specName} ${className} · WoW PvP Talent Lab`;
+    }
+
+
     function renderHeader() {
 
         const className =
@@ -932,8 +946,7 @@
         $("#compendiumTitle").textContent =
             `PvP mechanics`;
 
-        document.title =
-            `${specName} ${className} · WoW PvP Talent Lab`;
+        updateDocumentTitle();
 
 
         const verificationStatus =
@@ -4207,7 +4220,7 @@
         } catch(error) {
             applyDataset(beforeImport.data);state.selected=beforeImport.selected;state.heroTree=beforeImport.hero;
             $("#heroSelect").value=state.heroTree;
-            document.body.classList.toggle("welcome-active",beforeImport.welcome);renderTrees();throw error;
+            document.body.classList.toggle("welcome-active",beforeImport.welcome);updateDocumentTitle();renderTrees();throw error;
         } finally {state.suspendUrl=false;syncBuildUrl();}
     }
 
