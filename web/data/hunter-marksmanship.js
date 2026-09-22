@@ -9666,7 +9666,7 @@ window.WOW_PVP_DATA = {
     }
   ],
   "slug": "hunter-marksmanship",
-  "generated_at": "2026-09-21T19:39:41.830934+00:00",
+  "generated_at": "2026-09-22T00:52:57.465335+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 23,

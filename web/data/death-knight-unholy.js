@@ -9627,7 +9627,7 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "death-knight-unholy",
-  "generated_at": "2026-09-21T19:38:00.535529+00:00",
+  "generated_at": "2026-09-22T00:51:19.903839+00:00",
   "validation": {
     "talents": 122,
     "changed_tooltips": 18,

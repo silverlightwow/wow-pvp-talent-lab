@@ -8375,7 +8375,7 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "demon-hunter-vengeance",
-  "generated_at": "2026-09-21T19:37:43.470791+00:00",
+  "generated_at": "2026-09-22T00:51:39.835287+00:00",
   "validation": {
     "talents": 123,
     "changed_tooltips": 10,
