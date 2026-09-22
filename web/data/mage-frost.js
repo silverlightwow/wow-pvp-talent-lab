@@ -1,8 +1,8 @@
 window.WOW_PVP_DATA = {
   "class_name": "Mage",
   "spec_name": "Frost",
-  "tree_build": "12.1.0.69875",
-  "simc_build": "12.1.0.69875",
+  "tree_build": "12.1.0.69933",
+  "simc_build": "12.1.0.69933",
   "drustvar_builds": [
     "12.1.0.69587"
   ],
@@ -17,9 +17,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -144,9 +144,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -202,9 +202,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -260,9 +260,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -317,9 +317,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -374,9 +374,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -428,7 +428,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -437,7 +437,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -451,9 +451,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -498,7 +498,7 @@ window.WOW_PVP_DATA = {
           "end": 42,
           "old_token": "60",
           "new_token": "30",
-          "kind": "ordinary_value",
+          "kind": "duration_seconds",
           "effect_indexes": [
             1
           ]
@@ -510,7 +510,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "duration_seconds",
           "old": "60",
           "new": "30"
         }
@@ -556,11 +556,22 @@ window.WOW_PVP_DATA = {
         {
           "rank": 1,
           "pve_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
-          "pvp_tooltip": "The cooldown of Ice Block is reduced by 30 sec.",
-          "tooltip_changed": false,
-          "changes": [],
+          "pvp_tooltip": "The cooldown of Ice Block is reduced by 15 sec.",
+          "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 40,
+              "end": 42,
+              "old_token": "30",
+              "new_token": "15",
+              "kind": "duration_seconds",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -573,14 +584,14 @@ window.WOW_PVP_DATA = {
               "end": 42,
               "old_token": "60",
               "new_token": "30",
-              "kind": "ordinary_value",
+              "kind": "duration_seconds",
               "effect_indexes": [
                 1
               ]
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -594,9 +605,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -651,9 +662,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -706,7 +717,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -715,7 +726,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -729,9 +740,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -789,9 +800,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -848,9 +859,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -906,9 +917,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -966,9 +977,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -1078,9 +1089,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -1190,9 +1201,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -1250,9 +1261,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -1287,20 +1298,30 @@ window.WOW_PVP_DATA = {
         "icon": "spell_arcane_focusedpower"
       },
       "pve_tooltip": "Mirror Image's cooldown is reduced by 60 sec.",
-      "pvp_tooltip": "Mirror Image's cooldown is reduced by 60 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pvp_tooltip": "Mirror Image's cooldown is reduced by 30 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 38,
+          "end": 40,
+          "old_token": "60",
+          "new_token": "30",
+          "kind": "duration_seconds",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
-          "old": 60000.0,
-          "new": 30000.0,
-          "full_tooltip_match_count": 0
+          "status": "APPLIED",
+          "kind": "duration_seconds",
+          "old": "60",
+          "new": "30"
         }
       ],
       "has_pvp_mechanics": true,
@@ -1336,20 +1357,42 @@ window.WOW_PVP_DATA = {
         {
           "rank": 1,
           "pve_tooltip": "Mirror Image's cooldown is reduced by 30 sec.",
-          "pvp_tooltip": "Mirror Image's cooldown is reduced by 30 sec.",
-          "tooltip_changed": false,
-          "changes": [],
+          "pvp_tooltip": "Mirror Image's cooldown is reduced by 15 sec.",
+          "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 38,
+              "end": 40,
+              "old_token": "30",
+              "new_token": "15",
+              "kind": "duration_seconds",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
           "pve_tooltip": "Mirror Image's cooldown is reduced by 60 sec.",
-          "pvp_tooltip": "Mirror Image's cooldown is reduced by 60 sec.",
-          "tooltip_changed": false,
-          "changes": [],
+          "pvp_tooltip": "Mirror Image's cooldown is reduced by 30 sec.",
+          "tooltip_changed": true,
+          "changes": [
+            {
+              "start": 38,
+              "end": 40,
+              "old_token": "60",
+              "new_token": "30",
+              "kind": "duration_seconds",
+              "effect_indexes": [
+                1
+              ]
+            }
+          ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -1363,9 +1406,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -1516,9 +1559,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -1617,9 +1660,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -1657,20 +1700,30 @@ window.WOW_PVP_DATA = {
         "icon": "spell_arcane_blink"
       },
       "pve_tooltip": "[Shimmer / Blink]'s cooldown is reduced by 2 sec.",
-      "pvp_tooltip": "[Shimmer / Blink]'s cooldown is reduced by 2 sec.",
-      "tooltip_changed": false,
-      "render_status": "UNCHANGED",
-      "changes": [],
+      "pvp_tooltip": "[Shimmer / Blink]'s cooldown is reduced by 1 sec.",
+      "tooltip_changed": true,
+      "render_status": "CHANGED",
+      "changes": [
+        {
+          "start": 43,
+          "end": 44,
+          "old_token": "2",
+          "new_token": "1",
+          "kind": "duration_seconds",
+          "effect_indexes": [
+            1
+          ]
+        }
+      ],
       "diagnostics": [
         {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
-          "old": 2000.0,
-          "new": 1000.0,
-          "full_tooltip_match_count": 0
+          "status": "APPLIED",
+          "kind": "duration_seconds",
+          "old": "2",
+          "new": "1"
         }
       ],
       "has_pvp_mechanics": true,
@@ -1714,9 +1767,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -1771,9 +1824,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -1832,9 +1885,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -1889,9 +1942,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -1949,9 +2002,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -2007,9 +2060,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -2065,9 +2118,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -2122,9 +2175,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -2183,9 +2236,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -2240,9 +2293,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -2301,9 +2354,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -2412,7 +2465,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -2432,7 +2485,7 @@ window.WOW_PVP_DATA = {
             }
           ],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -2446,9 +2499,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -2503,9 +2556,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -2564,9 +2617,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -2621,9 +2674,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -2671,29 +2724,21 @@ window.WOW_PVP_DATA = {
           "end": 51,
           "old_token": "3",
           "new_token": "1.5",
-          "kind": "ordinary_value",
+          "kind": "duration_seconds",
           "effect_indexes": [
-            1
+            1,
+            2
           ]
         }
       ],
       "diagnostics": [
         {
           "effect_indexes": [
+            1,
             2
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
-          "old": 3000.0,
-          "new": 1500.0,
-          "full_tooltip_match_count": 0
-        },
-        {
-          "effect_indexes": [
-            1
-          ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "duration_seconds",
           "old": "3",
           "new": "1.5"
         }
@@ -2762,9 +2807,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -2819,9 +2864,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -2880,9 +2925,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -2937,9 +2982,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -3046,9 +3091,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -3158,9 +3203,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -3218,9 +3263,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -3327,9 +3372,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -3384,9 +3429,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -3444,9 +3489,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -3501,9 +3546,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -3547,7 +3592,7 @@ window.WOW_PVP_DATA = {
           "end": 54,
           "old_token": "5",
           "new_token": "2.5",
-          "kind": "ordinary_value",
+          "kind": "duration_seconds",
           "effect_indexes": [
             1
           ]
@@ -3559,7 +3604,7 @@ window.WOW_PVP_DATA = {
             1
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "duration_seconds",
           "old": "5",
           "new": "2.5"
         }
@@ -3605,9 +3650,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -3662,9 +3707,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -3719,9 +3764,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -3776,9 +3821,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -3833,9 +3878,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -4041,9 +4086,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -4098,9 +4143,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -4155,9 +4200,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -4339,9 +4384,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -4495,9 +4540,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -4680,9 +4725,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -4890,9 +4935,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -4948,9 +4993,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -5006,9 +5051,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -5126,9 +5171,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -5388,9 +5433,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -5493,9 +5538,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -5609,9 +5654,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -5667,9 +5712,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -5811,9 +5856,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -5868,9 +5913,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -5973,9 +6018,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -6165,9 +6210,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -6223,9 +6268,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -6281,9 +6326,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -6387,9 +6432,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -6445,9 +6490,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -6502,9 +6547,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -6561,9 +6606,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -6620,9 +6665,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -6679,9 +6724,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -6738,9 +6783,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -6797,9 +6842,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -6853,7 +6898,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -6862,7 +6907,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -6876,9 +6921,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -6936,9 +6981,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -6992,7 +7037,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -7001,7 +7046,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -7015,9 +7060,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -7072,9 +7117,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -7129,9 +7174,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -7247,9 +7292,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -7304,9 +7349,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -7362,9 +7407,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -7420,9 +7465,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -7477,9 +7522,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -7534,9 +7579,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -7591,9 +7636,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -7739,9 +7784,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -7796,9 +7841,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -7904,8 +7949,7 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar",
-            "simc"
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8004,9 +8048,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -8117,9 +8161,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -8166,7 +8210,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -8175,7 +8219,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -8189,9 +8233,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -8242,9 +8286,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -8492,9 +8536,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -8627,9 +8671,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -8756,9 +8800,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -8813,9 +8857,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -9025,9 +9069,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -9082,9 +9126,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -9139,9 +9183,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -9308,9 +9352,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -9365,9 +9409,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -9422,9 +9466,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -9479,9 +9523,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -9536,9 +9580,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -9593,9 +9637,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -9650,9 +9694,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -9707,9 +9751,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -9764,9 +9808,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -9821,9 +9865,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -9878,9 +9922,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -9982,9 +10026,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -10039,9 +10083,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -10137,9 +10181,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -10260,9 +10304,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -10317,9 +10361,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -10374,9 +10418,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -10431,9 +10475,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -10488,9 +10532,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -10545,9 +10589,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -10602,9 +10646,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -10659,9 +10703,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -10716,9 +10760,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -10773,9 +10817,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -10830,9 +10874,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Frostfire",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -11169,8 +11213,7 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar",
-            "simc"
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -11213,8 +11256,7 @@ window.WOW_PVP_DATA = {
           ],
           "sources": [
             "wowhead",
-            "drustvar",
-            "simc"
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -11233,9 +11275,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Spellslinger",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Mage",
         "class_id": 8,
         "spec_name": "Frost",
@@ -11562,14 +11604,14 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "mage-frost",
-  "generated_at": "2026-09-22T13:56:42.610359+00:00",
+  "generated_at": "2026-09-22T19:26:37.654309+00:00",
   "validation": {
     "talents": 130,
-    "changed_tooltips": 29,
+    "changed_tooltips": 31,
     "talents_with_pvp_mechanics": 40,
     "unique_nodes": 109,
-    "tree_build": "12.1.0.69875",
-    "simc_build": "12.1.0.69875",
+    "tree_build": "12.1.0.69933",
+    "simc_build": "12.1.0.69933",
     "drustvar_builds": [
       "12.1.0.69587"
     ],

@@ -1,8 +1,8 @@
 window.WOW_PVP_DATA = {
   "class_name": "Warrior",
   "spec_name": "Fury",
-  "tree_build": "12.1.0.69875",
-  "simc_build": "12.1.0.69875",
+  "tree_build": "12.1.0.69933",
+  "simc_build": "12.1.0.69933",
   "drustvar_builds": [
     "12.1.0.69587"
   ],
@@ -17,9 +17,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -73,9 +73,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -176,9 +176,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -234,9 +234,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -293,9 +293,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -352,9 +352,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -410,9 +410,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -522,9 +522,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -582,9 +582,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -637,9 +637,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -696,9 +696,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -818,9 +818,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -873,9 +873,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -934,9 +934,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -969,10 +969,20 @@ window.WOW_PVP_DATA = {
         "icon": "ability_heroicleap"
       },
       "pve_tooltip": "Reduces the cooldown of Heroic Leap by 15 sec and Heroic Leap also increases your movement speed by 70% for 3 sec.",
-      "pvp_tooltip": "Reduces the cooldown of Heroic Leap by 15 sec and Heroic Leap also increases your movement speed by 50.4% for 3 sec.",
+      "pvp_tooltip": "Reduces the cooldown of Heroic Leap by 10.5 sec and Heroic Leap also increases your movement speed by 50.4% for 3 sec.",
       "tooltip_changed": true,
       "render_status": "CHANGED",
       "changes": [
+        {
+          "start": 39,
+          "end": 41,
+          "old_token": "15",
+          "new_token": "10.5",
+          "kind": "duration_seconds",
+          "effect_indexes": [
+            1
+          ]
+        },
         {
           "start": 100,
           "end": 102,
@@ -989,11 +999,10 @@ window.WOW_PVP_DATA = {
           "effect_indexes": [
             1
           ],
-          "status": "NOT_VISIBLE_IN_TOOLTIP",
-          "kind": "ordinary_value",
-          "old": 15000.0,
-          "new": 10500.0,
-          "full_tooltip_match_count": 0
+          "status": "APPLIED",
+          "kind": "duration_seconds",
+          "old": "15",
+          "new": "10.5"
         },
         {
           "effect_indexes": [
@@ -1101,9 +1110,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -1161,9 +1170,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -1220,9 +1229,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -1279,9 +1288,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -1339,9 +1348,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -1394,9 +1403,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -1500,9 +1509,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -1555,9 +1564,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -1614,9 +1623,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -1724,9 +1733,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -1834,9 +1843,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -1889,9 +1898,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -1948,9 +1957,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2007,9 +2016,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2066,9 +2075,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2172,9 +2181,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2230,9 +2239,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2285,7 +2294,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -2294,7 +2303,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -2308,9 +2317,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2356,7 +2365,7 @@ window.WOW_PVP_DATA = {
           "end": 65,
           "old_token": "3",
           "new_token": "2.4",
-          "kind": "ordinary_value",
+          "kind": "duration_seconds",
           "effect_indexes": [
             2
           ]
@@ -2368,7 +2377,7 @@ window.WOW_PVP_DATA = {
             2
           ],
           "status": "APPLIED",
-          "kind": "ordinary_value",
+          "kind": "duration_seconds",
           "old": "3",
           "new": "2.4"
         }
@@ -2414,9 +2423,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2469,7 +2478,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -2478,7 +2487,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -2492,9 +2501,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2549,9 +2558,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2608,9 +2617,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2667,9 +2676,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2724,9 +2733,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2779,7 +2788,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -2788,7 +2797,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -2802,9 +2811,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2857,7 +2866,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -2866,7 +2875,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -2880,9 +2889,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -2935,7 +2944,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -2944,7 +2953,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -2958,9 +2967,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -3060,9 +3069,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -3116,9 +3125,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -3231,9 +3240,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -3286,9 +3295,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -3393,9 +3402,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -3452,9 +3461,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -3510,9 +3519,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -3616,9 +3625,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -3732,9 +3741,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -3790,9 +3799,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -3848,9 +3857,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -3908,9 +3917,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -4014,9 +4023,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -4072,9 +4081,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -4129,9 +4138,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -4188,9 +4197,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -4243,9 +4252,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -4513,7 +4522,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 184367,
           "source_spell_id": 1299944,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 3.72289 )",
+          "effect_text": "School Damage (2): physical (AP mod: 3.72289)",
           "base_value": null,
           "spell_pvp_multiplier": 1.275,
           "amount_kind": "direct",
@@ -4530,9 +4539,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -4551,9 +4559,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -4610,9 +4618,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -4721,7 +4729,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1265357,
           "source_spell_id": 1299944,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 3.72289 )",
+          "effect_text": "School Damage (2): physical (AP mod: 3.72289)",
           "base_value": null,
           "spell_pvp_multiplier": 1.275,
           "amount_kind": "direct",
@@ -4738,9 +4746,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -4895,9 +4902,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -4982,9 +4989,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5036,7 +5043,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -5045,7 +5052,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -5059,9 +5066,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5117,9 +5124,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5174,9 +5181,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5232,9 +5239,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5286,7 +5293,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -5295,7 +5302,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -5309,9 +5316,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5365,9 +5372,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5421,9 +5428,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5478,9 +5485,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5551,7 +5558,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 1265356,
           "source_spell_id": 1283442,
           "effect_index": 1,
-          "effect_text": "Heal for % of Total Health",
+          "effect_text": "Direct Heal% (136)",
           "base_value": 3.0,
           "spell_pvp_multiplier": 0.666667,
           "amount_kind": "direct",
@@ -5568,9 +5575,8 @@ window.WOW_PVP_DATA = {
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -5589,9 +5595,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5648,9 +5654,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5707,9 +5713,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5764,9 +5770,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5819,7 +5825,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -5828,7 +5834,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -5842,9 +5848,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5902,9 +5908,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -5957,7 +5963,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -5966,7 +5972,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -5980,9 +5986,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -6037,9 +6043,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -6217,9 +6223,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -6276,9 +6282,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -6333,9 +6339,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -6389,9 +6395,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -6491,9 +6497,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -6646,9 +6652,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -6781,9 +6787,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -6834,9 +6840,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -6883,7 +6889,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -6892,7 +6898,7 @@ window.WOW_PVP_DATA = {
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -6906,9 +6912,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -6959,9 +6965,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Mountain Thane",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7017,9 +7023,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Mountain Thane",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7074,9 +7080,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Mountain Thane",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7131,9 +7137,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Mountain Thane",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7188,9 +7194,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Mountain Thane",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7245,9 +7251,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Slayer",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7415,9 +7421,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Mountain Thane",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7472,9 +7478,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Mountain Thane",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7529,9 +7535,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Mountain Thane",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7586,9 +7592,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Mountain Thane",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7643,9 +7649,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Mountain Thane",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7700,9 +7706,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Mountain Thane",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7757,9 +7763,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Slayer",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7814,9 +7820,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Slayer",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7871,9 +7877,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Slayer",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -7980,9 +7986,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Slayer",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8037,9 +8043,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Slayer",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8094,9 +8100,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Mountain Thane",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8151,9 +8157,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Mountain Thane",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8208,9 +8214,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Mountain Thane",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8265,9 +8271,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Mountain Thane",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8322,9 +8328,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Mountain Thane",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8431,9 +8437,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Mountain Thane",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8488,9 +8494,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Slayer",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8545,9 +8551,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Slayer",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8602,9 +8608,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Slayer",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8741,9 +8747,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Slayer",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8798,9 +8804,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Slayer",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8855,9 +8861,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Slayer",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8912,9 +8918,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Mountain Thane",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -8970,9 +8976,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Slayer",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -9139,9 +9145,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Slayer",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -9248,9 +9254,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Slayer",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -9305,9 +9311,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Slayer",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -9409,9 +9415,9 @@ window.WOW_PVP_DATA = {
       "hero_tree": "Slayer",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Warrior",
         "class_id": 1,
         "spec_name": "Fury",
@@ -9738,24 +9744,35 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "warrior-fury",
-  "generated_at": "2026-09-22T13:59:47.834668+00:00",
+  "generated_at": "2026-09-22T19:30:06.882428+00:00",
   "validation": {
     "talents": 122,
     "changed_tooltips": 23,
     "talents_with_pvp_mechanics": 30,
     "unique_nodes": 106,
-    "tree_build": "12.1.0.69875",
-    "simc_build": "12.1.0.69875",
+    "tree_build": "12.1.0.69933",
+    "simc_build": "12.1.0.69933",
     "drustvar_builds": [
       "12.1.0.69587"
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 2,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 1283442,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1283442'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 1299944,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1299944'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }

@@ -1,8 +1,8 @@
 {
   "class_name": "Evoker",
   "spec_name": "Preservation",
-  "tree_build": "12.1.0.69875",
-  "simc_build": "12.1.0.69875",
+  "tree_build": "12.1.0.69933",
+  "simc_build": "12.1.0.69933",
   "drustvar_builds": [
     "12.1.0.69587"
   ],
@@ -17,9 +17,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -72,9 +72,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -127,9 +127,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -182,9 +182,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -241,9 +241,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -300,9 +300,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -411,9 +411,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -466,9 +466,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -522,7 +522,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -531,7 +531,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -545,9 +545,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -600,9 +600,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -656,7 +656,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -665,7 +665,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -679,9 +679,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -734,9 +734,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -793,9 +793,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -850,9 +850,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -906,9 +906,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -963,9 +963,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1022,9 +1022,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1077,9 +1077,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1130,7 +1130,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -1139,7 +1139,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -1153,9 +1153,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1210,9 +1210,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1263,7 +1263,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -1272,7 +1272,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -1286,9 +1286,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1341,9 +1341,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1399,9 +1399,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1454,7 +1454,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -1463,7 +1463,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -1477,9 +1477,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1534,9 +1534,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1589,7 +1589,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -1598,7 +1598,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -1612,9 +1612,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1669,9 +1669,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1724,9 +1724,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1784,9 +1784,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1841,9 +1841,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1900,9 +1900,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -1957,9 +1957,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -2017,9 +2017,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -2075,9 +2075,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -2184,9 +2184,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -2707,9 +2707,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -2764,9 +2764,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -2824,9 +2824,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -2877,7 +2877,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -2886,7 +2886,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -2900,9 +2900,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -2957,9 +2957,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3014,9 +3014,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3073,9 +3073,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3128,9 +3128,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3187,9 +3187,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3244,9 +3244,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3301,9 +3301,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3357,9 +3357,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3412,9 +3412,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3467,9 +3467,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3524,9 +3524,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3580,9 +3580,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3785,9 +3785,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3843,9 +3843,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3900,9 +3900,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -3958,9 +3958,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4015,9 +4015,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4073,9 +4073,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4132,9 +4132,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4191,9 +4191,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4249,9 +4249,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4304,7 +4304,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -4313,7 +4313,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -4327,9 +4327,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4384,9 +4384,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4443,9 +4443,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4498,9 +4498,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4553,9 +4553,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4611,9 +4611,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4668,9 +4668,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4725,9 +4725,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4777,7 +4777,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -4786,7 +4786,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -4800,9 +4800,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4858,9 +4858,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4915,9 +4915,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -4969,7 +4969,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -4978,7 +4978,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -4992,9 +4992,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5044,7 +5044,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -5053,7 +5053,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -5067,9 +5067,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5124,9 +5124,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5181,9 +5181,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5241,9 +5241,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5302,9 +5302,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5363,9 +5363,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5423,9 +5423,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5480,9 +5480,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5537,9 +5537,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5596,9 +5596,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5653,9 +5653,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5712,9 +5712,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5769,9 +5769,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5878,9 +5878,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -5934,7 +5934,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -5943,7 +5943,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -5957,9 +5957,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6012,7 +6012,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -6021,7 +6021,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -6035,9 +6035,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6091,7 +6091,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -6100,7 +6100,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -6114,9 +6114,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6169,9 +6169,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6224,9 +6224,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6279,9 +6279,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6397,9 +6397,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6452,9 +6452,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6507,9 +6507,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6591,9 +6591,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6640,7 +6640,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         },
         {
           "rank": 2,
@@ -6649,7 +6649,7 @@
           "tooltip_changed": false,
           "changes": [],
           "source": "simc_exact_build_trait_rank",
-          "build": "12.1.0.69875"
+          "build": "12.1.0.69933"
         }
       ]
     },
@@ -6663,9 +6663,9 @@
       "hero_tree": null,
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6716,9 +6716,9 @@
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6774,9 +6774,9 @@
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6831,9 +6831,9 @@
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6888,9 +6888,9 @@
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -6945,9 +6945,9 @@
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7002,9 +7002,9 @@
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7059,9 +7059,9 @@
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7116,9 +7116,9 @@
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7173,9 +7173,9 @@
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7230,9 +7230,9 @@
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7287,9 +7287,9 @@
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7344,9 +7344,9 @@
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7401,9 +7401,9 @@
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7458,9 +7458,9 @@
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7515,9 +7515,9 @@
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7572,9 +7572,9 @@
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7629,9 +7629,9 @@
       "hero_tree": "Flameshaper",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7724,9 +7724,9 @@
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7782,9 +7782,9 @@
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -7839,9 +7839,9 @@
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -8286,9 +8286,9 @@
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -8343,9 +8343,9 @@
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -8400,9 +8400,9 @@
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -8457,9 +8457,9 @@
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -8514,9 +8514,9 @@
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -8571,9 +8571,9 @@
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -8628,9 +8628,9 @@
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -8685,9 +8685,9 @@
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -8742,9 +8742,9 @@
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -8799,9 +8799,9 @@
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -8856,9 +8856,9 @@
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -8913,9 +8913,9 @@
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -8970,9 +8970,9 @@
       "hero_tree": "Chronowarden",
       "tree_data": {
         "source": "raidbots",
-        "wow_build": "12.1.0.69875",
-        "generated_at": "2026-09-19T00:34:25.597Z",
-        "content_hash": "66952e6398559450a2f421d56adbcda2",
+        "wow_build": "12.1.0.69933",
+        "generated_at": "2026-09-22T17:30:38.857Z",
+        "content_hash": "1b512235bfbfe28736cde1939b03af84",
         "class_name": "Evoker",
         "class_id": 13,
         "spec_name": "Preservation",
@@ -9309,14 +9309,14 @@
   },
   "source_warnings": [],
   "slug": "evoker-preservation",
-  "generated_at": "2026-09-22T13:56:01.690691+00:00",
+  "generated_at": "2026-09-22T19:25:42.691829+00:00",
   "validation": {
     "talents": 130,
     "changed_tooltips": 5,
     "talents_with_pvp_mechanics": 9,
     "unique_nodes": 117,
-    "tree_build": "12.1.0.69875",
-    "simc_build": "12.1.0.69875",
+    "tree_build": "12.1.0.69933",
+    "simc_build": "12.1.0.69933",
     "drustvar_builds": [
       "12.1.0.69587"
     ],
