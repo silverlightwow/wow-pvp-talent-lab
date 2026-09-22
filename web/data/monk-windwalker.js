@@ -4977,7 +4977,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 392958,
           "source_spell_id": 392959,
           "effect_index": 1,
-          "effect_text": "School Damage (Physical) (AP mod: 0.5 )",
+          "effect_text": "School Damage (2): physical (AP mod: 0.5)",
           "base_value": null,
           "spell_pvp_multiplier": 0.5,
           "amount_kind": "direct",
@@ -5013,9 +5013,8 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -5499,7 +5498,7 @@ window.WOW_PVP_DATA = {
           "talent_spell_id": 392979,
           "source_spell_id": 393056,
           "effect_index": 1,
-          "effect_text": "School Damage (Nature) (AP mod: 3.51 )",
+          "effect_text": "School Damage (2): nature | Attributes: Add Target (Dest) Combat Reach to AOE (11) (AP mod: 3.51)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -5526,10 +5525,11 @@ window.WOW_PVP_DATA = {
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -11374,7 +11374,7 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "monk-windwalker",
-  "generated_at": "2026-09-22T08:30:39.387199+00:00",
+  "generated_at": "2026-09-22T12:55:50.525621+00:00",
   "validation": {
     "talents": 148,
     "changed_tooltips": 27,
@@ -11387,11 +11387,21 @@ window.WOW_PVP_DATA = {
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 19,
+    "source_warning_count": 21,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
     "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 392959,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=392959'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 393056,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=393056'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
       {
         "source": "wowhead",
         "spell_id": 393566,
@@ -11406,16 +11416,6 @@ window.WOW_PVP_DATA = {
         "source": "wowhead",
         "spell_id": 395521,
         "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=395521'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 443038,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=443038'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "source": "wowhead",
-        "spell_id": 443039,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=443039'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ],
     "unresolved_examples": [],

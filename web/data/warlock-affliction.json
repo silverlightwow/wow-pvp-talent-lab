@@ -6631,7 +6631,7 @@
           "talent_spell_id": 1261992,
           "source_spell_id": 1278047,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (SP mod: 22.7409)",
+          "effect_text": "School Damage (2): shadow (SP mod: 22.7409)",
           "base_value": null,
           "spell_pvp_multiplier": 0.74074,
           "amount_kind": "direct",
@@ -6650,9 +6650,8 @@
           ],
           "aura_rules": [],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -10014,7 +10013,7 @@
   },
   "source_warnings": [],
   "slug": "warlock-affliction",
-  "generated_at": "2026-09-22T08:32:38.824268+00:00",
+  "generated_at": "2026-09-22T12:57:36.612116+00:00",
   "validation": {
     "talents": 123,
     "changed_tooltips": 23,
@@ -10027,11 +10026,17 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 1,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 1278047,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=1278047'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }

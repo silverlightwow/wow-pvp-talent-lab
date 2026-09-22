@@ -10038,7 +10038,7 @@ window.WOW_PVP_DATA = {
   },
   "source_warnings": [],
   "slug": "rogue-subtlety",
-  "generated_at": "2026-09-22T08:32:31.087145+00:00",
+  "generated_at": "2026-09-22T12:57:23.377861+00:00",
   "validation": {
     "talents": 135,
     "changed_tooltips": 19,

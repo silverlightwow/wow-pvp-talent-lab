@@ -7013,7 +7013,7 @@
           "talent_spell_id": 1253590,
           "source_spell_id": 1253593,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Absorb Damage (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow) (SP mod: 4.638)",
+          "effect_text": "Apply Aura (6) | Absorb Damage (69) (SP mod: 4.638)",
           "base_value": null,
           "spell_pvp_multiplier": 1.15,
           "amount_kind": "absorb",
@@ -7049,9 +7049,8 @@
             }
           ],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -7836,7 +7835,7 @@
           "talent_spell_id": 440766,
           "source_spell_id": 1246768,
           "effect_index": 1,
-          "effect_text": "Apply Aura: Absorb Damage (Arcane, Fire, Frost, Holy, Nature, Physical, Shadow) (SP mod: 4.638)",
+          "effect_text": "Apply Aura (6) | Absorb Damage (69) (SP mod: 4.638)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "absorb",
@@ -7872,10 +7871,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -8372,7 +8372,7 @@
           "talent_spell_id": 1246799,
           "source_spell_id": 1246798,
           "effect_index": 1,
-          "effect_text": "Heal (SP mod: 12.22)",
+          "effect_text": "Direct Heal (10) (SP mod: 12.22)",
           "base_value": null,
           "spell_pvp_multiplier": 0.75,
           "amount_kind": "direct",
@@ -8399,9 +8399,8 @@
             }
           ],
           "sources": [
-            "wowhead",
-            "drustvar",
-            "simc"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
           "confidence": "high"
@@ -8701,7 +8700,7 @@
           "talent_spell_id": 447444,
           "source_spell_id": 447448,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (SP mod: 0.6)",
+          "effect_text": "School Damage (2): shadow (SP mod: 0.6)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8728,10 +8727,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -8958,7 +8958,7 @@
           "talent_spell_id": 450405,
           "source_spell_id": 450215,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (SP mod: 1.5)",
+          "effect_text": "School Damage (2): shadow (SP mod: 1.5)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -8994,10 +8994,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "effect_origin": "DEPENDENCY",
@@ -9005,7 +9006,7 @@
           "talent_spell_id": 450405,
           "source_spell_id": 450983,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (SP mod: 2.1)",
+          "effect_text": "School Damage (2): shadow (SP mod: 2.1)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9041,10 +9042,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -9489,7 +9491,7 @@
           "talent_spell_id": 451234,
           "source_spell_id": 451435,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow)",
+          "effect_text": "School Damage (2): shadow (SP mod: 1)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -9518,10 +9520,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 0,
@@ -10096,7 +10099,7 @@
           "talent_spell_id": 448403,
           "source_spell_id": 448405,
           "effect_index": 1,
-          "effect_text": "School Damage (Shadow) (SP mod: 4.4)",
+          "effect_text": "School Damage (2): shadow (SP mod: 4.4)",
           "base_value": null,
           "spell_pvp_multiplier": 1.0,
           "amount_kind": "direct",
@@ -10132,10 +10135,11 @@
             }
           ],
           "sources": [
-            "wowhead"
+            "simc",
+            "drustvar"
           ],
           "source_notes": [],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "render_effect_count": 1,
@@ -10441,7 +10445,7 @@
   },
   "source_warnings": [],
   "slug": "priest-discipline",
-  "generated_at": "2026-09-22T08:31:24.006408+00:00",
+  "generated_at": "2026-09-22T12:56:08.545686+00:00",
   "validation": {
     "talents": 133,
     "changed_tooltips": 22,
@@ -10454,11 +10458,37 @@
     ],
     "verification_status": "VERIFIED",
     "fetch_error_count": 0,
-    "source_warning_count": 0,
+    "source_warning_count": 8,
     "unresolved_count": 0,
     "review_required_count": 0,
     "fetch_error_examples": [],
-    "source_warning_examples": [],
+    "source_warning_examples": [
+      {
+        "source": "wowhead",
+        "spell_id": 447448,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=447448'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 448405,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=448405'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 450215,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=450215'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 450983,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=450983'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "source": "wowhead",
+        "spell_id": 451435,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.wowhead.com/spell=451435'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      }
+    ],
     "unresolved_examples": [],
     "review_required_examples": []
   }
