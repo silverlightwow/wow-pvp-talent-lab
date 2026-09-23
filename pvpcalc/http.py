@@ -23,7 +23,7 @@ class CachedClient:
       * process-wide response cache;
       * bounded general concurrency;
       * much stricter Wowhead pacing;
-      * retries only transient responses (429 / 5xx), never ordinary 404s;
+      * retries transient responses (429 / 5xx) plus Wowhead WAF 403s, never ordinary 404s;
       * Retry-After support so scheduled builds back off rather than
         amplifying an upstream rate limit.
     """
@@ -159,6 +159,10 @@ class CachedClient:
                     or 500
                     <= response.status_code
                     <= 599
+                    or (
+                        is_wowhead
+                        and response.status_code == 403
+                    )
                 ):
                     if (
                         attempt
@@ -172,8 +176,10 @@ class CachedClient:
                         )
                         continue
 
-                # 4xx such as 404 are deterministic source gaps and
-                # should be surfaced immediately, not requested 3–5x.
+                # Ordinary 4xx such as 404 are deterministic source gaps.
+                # Wowhead 403 is different: under matrix builds it is often
+                # a short-lived WAF/rate-limit response, so it is retried
+                # above with the same bounded exponential backoff.
                 response.raise_for_status()
 
                 return response
