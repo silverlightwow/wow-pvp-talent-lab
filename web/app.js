@@ -172,179 +172,57 @@
     }
 
 
-    function iconUrl(talent) {
-
-        const icon = iconName(talent);
+    function iconCdnUrl(
+        icon,
+        size = "large"
+    ) {
 
         if (!icon) {
-            return "app-icon.svg";
+            return "";
         }
 
         return (
             "https://wow.zamimg.com/"
-            + "images/wow/icons/large/"
+            + "images/wow/icons/"
+            + size
+            + "/"
             + encodeURIComponent(icon)
             + ".jpg"
         );
     }
 
 
-    function nextDatasetIconName(currentUrl) {
+    function iconUrl(talent) {
 
-        const match = String(currentUrl).match(
-            /\/images\/wow\/icons\/(?:large|medium|small)\/([^/?]+)\.jpg/i
+        const icon = iconName(talent);
+
+        return (
+            iconCdnUrl(icon)
+            || "app-icon.svg"
         );
-
-        if (!match) {
-            return "";
-        }
-
-        let currentName;
-
-        try {
-            currentName =
-                decodeURIComponent(match[1]);
-        }
-        catch {
-            currentName =
-                match[1];
-        }
-
-        for (const talent of (data.talents || [])) {
-            const names =
-                iconNames(talent);
-
-            const index =
-                names.indexOf(currentName);
-
-            if (
-                index >= 0
-                && index + 1 < names.length
-            ) {
-                return names[index + 1];
-            }
-        }
-
-        return "";
     }
 
 
-    function recoverTalentIcon(image) {
+    function iconFallbackAttributes(
+        talent
+    ) {
 
-        const current =
-            image.currentSrc
-            || image.src
-            || "";
+        const candidates =
+            iconNames(talent);
 
-        const stage = Number(
-            image.dataset.iconFallbackStage
-            || 0
-        );
+        return [
+            `data-icon-candidates="${escapeHtml(candidates.join("|"))}"`,
+            'data-icon-candidate-index="0"',
+            'data-icon-size-index="0"',
+            'data-icon-fallback-kind="dataset"',
+            'onerror="window.WowTalentIconError(this)"',
+        ].join(" ");
+    }
 
-        let next = "";
 
-        if (
-            stage === 0
-            && current.includes(
-                "/images/wow/icons/large/"
-            )
-        ) {
-            next = current.replace(
-                "/images/wow/icons/large/",
-                "/images/wow/icons/medium/"
-            );
-        }
-        else if (
-            stage <= 1
-            && current.includes(
-                "/images/wow/icons/medium/"
-            )
-        ) {
-            next = current.replace(
-                "/images/wow/icons/medium/",
-                "/images/wow/icons/small/"
-            );
-        }
-        else if (stage <= 2) {
-
-            const alternate =
-                nextDatasetIconName(current);
-
-            if (alternate) {
-                next =
-                    "https://wow.zamimg.com/"
-                    + "images/wow/icons/large/"
-                    + encodeURIComponent(alternate)
-                    + ".jpg";
-
-                image.dataset.iconFallbackStage =
-                    "0";
-            }
-            else {
-
-                const visuals =
-                    window.ClassVisuals;
-
-                const currentSpecId =
-                    Number(
-                        data.spec_id
-                        || data.serialization?.spec_id
-                        || talents.find(
-                            talent =>
-                                talent?.tree_data
-                                ?.spec_id
-                        )?.tree_data?.spec_id
-                        || 0
-                    );
-
-                const specIcon =
-                    visuals?.specs?.[
-                        currentSpecId
-                    ];
-
-                if (
-                    specIcon
-                    && typeof visuals.url
-                    === "function"
-                ) {
-                    next =
-                        visuals.url(specIcon);
-                }
-            }
-        }
-
-        if (
-            !next
-            && stage <= 3
-            && !current.endsWith(
-                "/app-icon.svg"
-            )
-            && !current.endsWith(
-                "app-icon.svg"
-            )
-        ) {
-            next = "app-icon.svg";
-            image.classList.add(
-                "icon-fallback-local"
-            );
-        }
-
-        if (
-            next
-            && next !== current
-        ) {
-            if (
-                image.dataset.iconFallbackStage
-                === String(stage)
-            ) {
-                image.dataset.iconFallbackStage =
-                    String(stage + 1);
-            }
-
-            image.src = next;
-
-            return;
-        }
+    function showIconTextFallback(
+        image
+    ) {
 
         image.style.display =
             "none";
@@ -372,6 +250,194 @@
     }
 
 
+    function recoverTalentIcon(image) {
+
+        const current =
+            image.currentSrc
+            || image.src
+            || "";
+
+        const kind =
+            image.dataset.iconFallbackKind
+            || "dataset";
+
+
+        // The local application icon is the last visual fallback.
+        if (
+            kind === "local"
+            || current.endsWith(
+                "/app-icon.svg"
+            )
+            || current.endsWith(
+                "app-icon.svg"
+            )
+        ) {
+            showIconTextFallback(
+                image
+            );
+
+            return;
+        }
+
+
+        // A specialization icon is already outside the talent's own
+        // candidate list. If it fails too, move straight to the local
+        // asset instead of retrying the same remote URL.
+        if (kind === "spec") {
+
+            image.dataset.iconFallbackKind =
+                "local";
+
+            image.src =
+                "app-icon.svg";
+
+            image.classList.add(
+                "icon-fallback-local"
+            );
+
+            return;
+        }
+
+
+        const candidates =
+            String(
+                image.dataset.iconCandidates
+                || ""
+            )
+            .split("|")
+            .map(normalizeIconName)
+            .filter(Boolean);
+
+        let candidateIndex =
+            Number(
+                image.dataset.iconCandidateIndex
+                || 0
+            );
+
+        let sizeIndex =
+            Number(
+                image.dataset.iconSizeIndex
+                || 0
+            );
+
+        const sizes = [
+            "large",
+            "medium",
+            "small",
+        ];
+
+
+        // Retry the same talent icon at smaller CDN sizes first.
+        if (
+            candidates[candidateIndex]
+            && sizeIndex
+                < sizes.length - 1
+        ) {
+
+            sizeIndex += 1;
+
+            image.dataset.iconSizeIndex =
+                String(sizeIndex);
+
+            image.src =
+                iconCdnUrl(
+                    candidates[
+                        candidateIndex
+                    ],
+                    sizes[sizeIndex]
+                );
+
+            return;
+        }
+
+
+        // Then try the next icon candidate supplied by the data
+        // pipeline (Raidbots/Wowhead), starting again at large.
+        if (
+            candidateIndex + 1
+            < candidates.length
+        ) {
+
+            candidateIndex += 1;
+            sizeIndex = 0;
+
+            image.dataset.iconCandidateIndex =
+                String(candidateIndex);
+
+            image.dataset.iconSizeIndex =
+                "0";
+
+            image.src =
+                iconCdnUrl(
+                    candidates[
+                        candidateIndex
+                    ],
+                    sizes[0]
+                );
+
+            return;
+        }
+
+
+        // Finally use the current specialization icon. This preserves a
+        // meaningful WoW visual even during a CDN/name mismatch.
+        const visuals =
+            window.ClassVisuals;
+
+        const currentSpecId =
+            Number(
+                data.spec_id
+                || data.serialization?.spec_id
+                || talents.find(
+                    talent =>
+                        talent?.tree_data
+                        ?.spec_id
+                )?.tree_data?.spec_id
+                || 0
+            );
+
+        const specIcon =
+            visuals?.specs?.[
+                currentSpecId
+            ];
+
+        const specUrl =
+            (
+                specIcon
+                && typeof visuals?.url
+                    === "function"
+            )
+            ? visuals.url(specIcon)
+            : "";
+
+
+        if (
+            specUrl
+            && specUrl !== current
+        ) {
+
+            image.dataset.iconFallbackKind =
+                "spec";
+
+            image.src =
+                specUrl;
+
+            return;
+        }
+
+
+        image.dataset.iconFallbackKind =
+            "local";
+
+        image.src =
+            "app-icon.svg";
+
+        image.classList.add(
+            "icon-fallback-local"
+        );
+    }
+
+
     window.WowTalentIconError =
         recoverTalentIcon;
 
@@ -386,7 +452,7 @@
                     class="node-main-icon"
                     src="${src}"
                     alt="${escapeHtml(talent.talent_name)}"
-                    onerror="window.WowTalentIconError(this)"
+                    ${iconFallbackAttributes(talent)}
                 >
 
                 <span class="node-fallback">
@@ -446,7 +512,7 @@
                                     <img
                                         src="${src}"
                                         alt="${escapeHtml(entry.talent_name)}"
-                                        onerror="window.WowTalentIconError(this)"
+                                        ${iconFallbackAttributes(entry)}
                                     >
 
                                     <span class="choice-segment-fallback">
@@ -1898,10 +1964,7 @@
                                                 <img
                                                     src=\"${src}\"
                                                     alt=\"\"
-                                                    onerror=\"
-                                                        this.style.display='none';
-                                                        this.nextElementSibling.style.display='grid';
-                                                    \"
+                                                    ${iconFallbackAttributes(entry)}
                                                 >
                                                 <span class=\"choice-option-fallback\">
                                                     ${
@@ -2741,7 +2804,7 @@
                     ? `
                         <img
                             class="tooltip-icon"
-                            onerror="window.WowTalentIconError(this)"
+                            ${iconFallbackAttributes(talent)}
                             src="${
                                 iconUrl(
                                     talent
@@ -3618,7 +3681,7 @@
             <tr data-spell-id="${talent.spell_id}">
                 <td>
                     <div class="talent-cell">
-                        <img class="small-icon" src="${iconUrl(talent)}" alt="" onerror="window.WowTalentIconError(this)">
+                        <img class="small-icon" src="${iconUrl(talent)}" alt="" ${iconFallbackAttributes(talent)}>
                         <div><strong>${escapeHtml(talent.talent_name)}</strong>
                             <div class="spell-id">${escapeHtml(treeDisplayName(talent))}</div>
                         </div>
@@ -4069,7 +4132,7 @@
                             <img
                                 src="${iconUrl(talent)}"
                                 alt=""
-                                onerror="window.WowTalentIconError(this)"
+                                ${iconFallbackAttributes(talent)}
                             >
 
                             <div>
@@ -4164,7 +4227,7 @@
                 <img
                     src="${iconUrl(talent)}"
                     alt=""
-                    onerror="window.WowTalentIconError(this)"
+                    ${iconFallbackAttributes(talent)}
                 >
 
                 <div>
