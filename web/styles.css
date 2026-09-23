@@ -142,6 +142,11 @@ select {
 }
 
 
+.brand-title,
+.brand-subtitle {
+    display: block;
+}
+
 .brand-title {
     font-weight: 800;
     letter-spacing: -.02em;
