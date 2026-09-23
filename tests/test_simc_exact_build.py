@@ -306,5 +306,7 @@ def test_effect_parser_recovers_hotfix_back_to_neutral_pvp_multiplier():
     )
 
     assert effects[1].pvp_coefficient == 1.5
+    assert effects[1].pvp_hotfix_previous == 1.25
     assert effects[2].pvp_coefficient == 1.0
+    assert effects[2].pvp_hotfix_previous == 1.25
     assert effects[2].game_effect_id == 1035394

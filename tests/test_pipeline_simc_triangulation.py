@@ -495,3 +495,74 @@ def test_superseded_drustvar_accepts_current_neutral_multiplier_omitted_by_wowhe
         "wowhead",
         "simc_exact_build",
     ]
+
+def test_superseded_drustvar_accepts_exact_build_hotfix_with_stale_wowhead_semantics():
+    """Exact hotfix provenance can resolve a stale source without text agreement."""
+    raw = (
+        "Name             : Ebon Might Test (id=395152)\n"
+        "#2 (id=1035394) : Apply Aura (6) | Modify Stat With Support Triggers (540)\n"
+        "Base Value: 0\n"
+        "Hotfixed         : PvP Coefficient (1.25 -> 1)\n"
+    )
+
+    dump = SimcDump(
+        class_slug="evoker",
+        build="12.1.0.69933",
+        header="test",
+        spells={
+            395152: SimcSpell(
+                spell_id=395152,
+                name="Ebon Might Test",
+                raw=raw,
+            )
+        },
+        edges={},
+    )
+
+    # Mirrors the real source-shape problem: Wowhead's wording for the
+    # same effect index can lag/change independently from SimC semantics.
+    stale_wowhead = EffectObservation(
+        source="wowhead",
+        spell_id=395152,
+        spell_name="Ebon Might Test",
+        effect_index=2,
+        base_value=0,
+        pvp_multiplier=1.25,
+        effect_text="Apply Aura: Modify Critical Strike Chance % (1)",
+        patch=None,
+        url="",
+        raw="",
+    )
+
+    item = {
+        "spell_id": 395152,
+        "talent_name": "Ebon Might",
+        "side": "drustvar",
+        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
+        "source_build": "12.1.0.69587",
+        "game_effect_id": 1035394,
+        "multiplier": 1.25,
+        "effect_text": "Apply Aura (6) | Modify Stat With Support Triggers (540)",
+    }
+
+    resolved = pipeline._superseded_drustvar_effect(
+        item,
+        simc_dump=dump,
+        wowhead_by_spell={395152: [stale_wowhead]},
+    )
+
+    assert resolved is not None
+    assert resolved["reason"] == "SUPERSEDED_DRUSTVAR_EFFECT"
+    assert resolved["previous_multiplier"] == 1.25
+    assert resolved["current_multiplier"] == 1.0
+    assert resolved["effect_index"] == 2
+    assert resolved["resolved_by"] == ["simc_exact_build_hotfix"]
+
+    # The historical transition must actually start at the stale
+    # observation. Do not use build freshness alone to hide a conflict.
+    assert pipeline._superseded_drustvar_effect(
+        {**item, "multiplier": 1.2},
+        simc_dump=dump,
+        wowhead_by_spell={395152: [stale_wowhead]},
+    ) is None
+

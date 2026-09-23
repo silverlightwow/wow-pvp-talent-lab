@@ -2864,6 +2864,37 @@ def _superseded_drustvar_effect(item, *, simc_dump, wowhead_by_spell):
                 "current_effect_text": effect.effect_text,
                 "resolved_by": ["wowhead", "simc_exact_build"],
             }
+
+        # Strong exact-build fallback for a stale source whose concrete
+        # game effect is explicitly named in SimC's own hotfix history.
+        #
+        # Example:
+        #   Drustvar 12.1.0.69587, game_effect_id=1035394, ×1.25
+        #   SimC     12.1.0.69933, same effect, Hotfixed ×1.25 -> ×1
+        #
+        # This deliberately requires the old multiplier to match the
+        # left-hand side. A merely newer SimC value is not enough.
+        old_multiplier = item.get("multiplier")
+        hotfix_previous = effect.pvp_hotfix_previous
+
+        if (
+            old_multiplier is not None
+            and hotfix_previous is not None
+            and multipliers_close(
+                float(old_multiplier),
+                float(hotfix_previous),
+            )
+        ):
+            return {
+                **item,
+                "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+                "current_build": new_build,
+                "effect_index": effect.effect_index,
+                "previous_multiplier": hotfix_previous,
+                "current_multiplier": effect.pvp_coefficient,
+                "current_effect_text": effect.effect_text,
+                "resolved_by": ["simc_exact_build_hotfix"],
+            }
     return None
 
 

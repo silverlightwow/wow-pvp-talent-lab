@@ -841,6 +841,10 @@ class SimcEffect:
     pvp_coefficient: float | None
     ap_coefficient: float | None = None
     game_effect_id: int | None = None
+    # Previous multiplier explicitly recorded by an exact-build
+    # "Hotfixed: PvP Coefficient (old -> current)" line.
+    # This is provenance, not merely another current-value source.
+    pvp_hotfix_previous: float | None = None
 
 
 _SIMC_EFFECT_HEADER_RE = re.compile(
@@ -879,7 +883,7 @@ _SIMC_PVP_RE = re.compile(
 # when the normal coefficient field is absent.
 _SIMC_PVP_HOTFIX_RE = re.compile(
     r"Hotfixed\s*:\s*PvP Coefficient\s*"
-    r"\([+-]?\d+(?:\.\d+)?\s*->\s*"
+    r"\(([+-]?\d+(?:\.\d+)?)\s*->\s*"
     r"([+-]?\d+(?:\.\d+)?)\)",
     re.I,
 )
@@ -980,12 +984,30 @@ def parse_spell_effects(
             )
         )
 
+        hotfix_match = (
+            _SIMC_PVP_HOTFIX_RE.search(
+                effect_block
+            )
+        )
+
+        pvp_hotfix_previous = (
+            float(hotfix_match.group(1))
+            if hotfix_match
+            else None
+        )
+
+        hotfix_current = (
+            float(hotfix_match.group(2))
+            if hotfix_match
+            else None
+        )
+
+        # Prefer the ordinary current field when SimC supplies it.
+        # A hotfix line is a fallback for current state, while its
+        # left-hand side is retained separately as provenance.
         if pvp_coefficient is None:
             pvp_coefficient = (
-                _float_match(
-                    _SIMC_PVP_HOTFIX_RE,
-                    effect_block,
-                )
+                hotfix_current
             )
 
 
@@ -1020,6 +1042,9 @@ def parse_spell_effects(
                     _SIMC_AP_RE,
                     effect_block,
                 ),
+
+            pvp_hotfix_previous=
+                pvp_hotfix_previous,
         )
 
 
