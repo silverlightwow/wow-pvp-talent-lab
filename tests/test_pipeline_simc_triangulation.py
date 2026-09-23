@@ -1,6 +1,6 @@
 from pvpcalc import pipeline
 from pvpcalc.models import EffectObservation
-from pvpcalc.sources.simc import SimcDump, SimcSpell
+from pvpcalc.sources.simc import SimcDump, SimcEffect, SimcSpell
 
 
 def _dump() -> SimcDump:
@@ -566,3 +566,148 @@ def test_superseded_drustvar_accepts_exact_build_hotfix_with_stale_wowhead_seman
         wowhead_by_spell={395152: [stale_wowhead]},
     ) is None
 
+
+
+
+def test_generated_exact_build_supersedes_older_drustvar_when_wowhead_is_missing():
+    dump = SimcDump(
+        class_slug="hunter",
+        build="12.1.0.69933",
+        header="test",
+        spells={},
+        edges={},
+        source_ref="exact-build",
+    )
+
+    generated = {
+        1266081: {
+            1: SimcEffect(
+                effect_index=1,
+                effect_text="School Damage (2)",
+                base_value=0,
+                sp_coefficient=None,
+                pvp_coefficient=0.595,
+                ap_coefficient=2.844,
+                game_effect_id=1278279,
+            )
+        }
+    }
+
+    stale = EffectObservation(
+        source="drustvar",
+        spell_id=1266081,
+        spell_name="Moonlight Chakram",
+        effect_index=1278279,
+        base_value=None,
+        pvp_multiplier=0.7,
+        effect_text="School Damage (2): physical",
+        patch="12.1.0.69587",
+        url="",
+        raw="",
+    )
+
+    rows, resolved = (
+        pipeline
+        ._build_generated_simc_fallback_rows(
+            spell_ids={1266081},
+            talent_by_spell={
+                1266081: {
+                    "talent_name":
+                        "Moonlight Chakram",
+                    "class_name":
+                        "Hunter",
+                    "spec_name":
+                        "Survival",
+                }
+            },
+            drustvar_by_spell={
+                1266081: [stale]
+            },
+            generated_effects_by_spell=
+                generated,
+            simc_dump=dump,
+        )
+    )
+
+    assert resolved == {1266081}
+    assert len(rows) == 1
+
+    row = rows[0]
+
+    assert row["effect_index"] == 1
+    assert row["pvp_multiplier"] == 0.595
+    assert row["simc_ap_coefficient"] == 2.844
+    assert row["drustvar_multiplier"] == 0.7
+    assert row["sources"] == [
+        "simc_generated"
+    ]
+    assert (
+        row["match_reason"]
+        == "simc_generated_exact_build_stale_drustvar"
+    )
+    assert (
+        row["source_notes"][0]["reason"]
+        == "SUPERSEDED_DRUSTVAR_EFFECT"
+    )
+    assert (
+        row["source_notes"][0]["source_build"]
+        == "12.1.0.69587"
+    )
+    assert (
+        row["source_notes"][0]["current_build"]
+        == "12.1.0.69933"
+    )
+
+
+def test_generated_exact_build_does_not_hide_same_build_conflict():
+    dump = SimcDump(
+        class_slug="hunter",
+        build="12.1.0.69933",
+        header="test",
+        spells={},
+        edges={},
+    )
+
+    generated = {
+        1266081: {
+            1: SimcEffect(
+                effect_index=1,
+                effect_text="School Damage (2)",
+                base_value=0,
+                sp_coefficient=None,
+                pvp_coefficient=0.595,
+                ap_coefficient=2.844,
+                game_effect_id=1278279,
+            )
+        }
+    }
+
+    current_conflict = EffectObservation(
+        source="drustvar",
+        spell_id=1266081,
+        spell_name="Moonlight Chakram",
+        effect_index=1278279,
+        base_value=None,
+        pvp_multiplier=0.7,
+        effect_text="School Damage (2): physical",
+        patch="12.1.0.69933",
+        url="",
+        raw="",
+    )
+
+    rows, resolved = (
+        pipeline
+        ._build_generated_simc_fallback_rows(
+            spell_ids={1266081},
+            talent_by_spell={1266081: {}},
+            drustvar_by_spell={
+                1266081: [current_conflict]
+            },
+            generated_effects_by_spell=
+                generated,
+            simc_dump=dump,
+        )
+    )
+
+    assert rows == []
+    assert resolved == set()
