@@ -37,7 +37,7 @@
 
     function direction(talent, change) {
         const context = localContext(talent, change);
-        const {prefix, clause, nearby} = context;
+        const {prefix, clause, nearby, full} = context;
 
         if (change.kind === 'direction_word') {
             if (/damage|healing/.test(clause) && !/taken|take\b/.test(clause)) {
@@ -61,8 +61,23 @@
         if (/exceeds\s*$/i.test(prefix) || /every\s*$/i.test(prefix)) {
             polarity = -1;
         }
+        // A larger "recharges X% faster" scalar improves availability.
+        else if (/recharges?\s+faster/.test(nearby)) {
+            polarity = 1;
+        }
+        // Reducing harmful crowd-control duration on the player is beneficial.
+        // Keep "This effect is increased to ..." tied to the preceding CC reduction.
+        else if (
+            /\b(?:fear|stun|silence|root|incapacitat|disorient)\b[^.]*duration on you reduced/.test(full)
+            && (
+                /duration on you reduced/.test(nearby)
+                || /this effect is increased to/.test(nearby)
+            )
+        ) {
+            polarity = 1;
+        }
         // Explicit costs and time-to-use values.
-        else if (/\b(?:costs?|cooldown|recharge|cast time|casting time)\b/.test(clause)) {
+        else if (/\b(?:costs?|cooldown|recharges?|cast time|casting time)\b/.test(clause)) {
             if (/reduc|shorten/.test(clause)) polarity = 1;
             else if (/enemies|enemy|target/.test(clause) && /casting time/.test(clause)) polarity = 1;
             else polarity = -1;
@@ -90,6 +105,13 @@
         // Renderer-known output coefficients are direct throughput values. Do not require
         // the word "damage" to occur on the same wrapped line (Rip is the canonical case).
         else if (OUTPUT_KINDS.has(change.kind)) {
+            polarity = 1;
+        }
+        // Explicit increases to the player's ability range are beneficial.
+        else if (
+            change.kind === 'distance_yards'
+            && /(?:increased range|range is increased)/.test(nearby)
+        ) {
             polarity = 1;
         }
         // A rendered duration is normally the duration of the beneficial talent effect.
