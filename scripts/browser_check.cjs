@@ -19,7 +19,7 @@ function assertDescription(shown, original) {
 (async () => {
  const browser = await chromium.launch(launch);
  try {
-  for (const width of [2560, 1500, 1440, 1024, 390, 320]) {
+  for (const width of [2560, 1920, 1536, 1440, 1366, 1280, 1040, 1024, 390, 320]) {
    const page = await browser.newPage({viewport:{width,height:1000}, hasTouch:width<600, isMobile:width<600});
    page.on('pageerror', e => errors.push(e.message));
    // Network availability of an icon CDN must not govern app logic checks.
@@ -61,9 +61,11 @@ function assertDescription(shown, original) {
      const sizes=await page.locator('.talent-node').evaluateAll(nodes=>nodes.map(n=>n.getBoundingClientRect().width));
      assert.ok(Math.min(...sizes)>=36,`${spec.slug}: unreadably small desktop nodes (${Math.min(...sizes)}px)`);
     }
-    if(width>=1500) {
-     const tops=await page.locator('.tree-card').evaluateAll(cards=>cards.map(card=>Math.round(card.getBoundingClientRect().top)));
-     assert.equal(new Set(tops).size,1,`${spec.slug}: trees must share one row at ${width}px`);
+    const cardRects=await page.locator('.tree-card').evaluateAll(cards=>cards.map(card=>{const r=card.getBoundingClientRect();return {top:Math.round(r.top),bottom:Math.round(r.bottom)};}));
+    if(width>1040) {
+     assert.equal(new Set(cardRects.map(r=>r.top)).size,1,`${spec.slug}: trees must share one row at ${width}px`);
+    } else if(width>=701) {
+     assert.ok(cardRects[1].top>=cardRects[0].bottom-1&&cardRects[2].top>=cardRects[1].bottom-1,`${spec.slug}: trees must stack at ${width}px`);
     }
     const rowAlignment=await page.locator('.tree-canvas').evaluateAll((trees,talents)=>trees.every(tree=>{
      const rows=new Map();

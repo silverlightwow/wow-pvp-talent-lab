@@ -1,4 +1,4 @@
-const CACHE = "wow-pvp-talent-lab-v10";
+const CACHE = "wow-pvp-talent-lab-v11";
 const CORE = [
   "./",
   "./index.html",

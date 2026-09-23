@@ -1,11 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="WoW PvP Talent Lab">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ddd2ff"/>
-      <stop offset="1" stop-color="#8062ef"/>
+    <linearGradient id="bg" x1="72" y1="54" x2="438" y2="456" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#cbbcff"/>
+      <stop offset=".48" stop-color="#8f73ff"/>
+      <stop offset="1" stop-color="#5b46c8"/>
     </linearGradient>
+    <radialGradient id="core" cx="0" cy="0" r="1" gradientTransform="translate(256 248) rotate(90) scale(90)">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d7cbff"/>
+    </radialGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="13" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
-  <rect width="512" height="512" rx="112" fill="#10131a"/>
-  <rect x="54" y="54" width="404" height="404" rx="92" fill="url(#g)"/>
-  <text x="256" y="342" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="260" font-weight="900" fill="#17121f">P</text>
+
+  <rect width="512" height="512" rx="116" fill="#0f131d"/>
+  <rect x="38" y="38" width="436" height="436" rx="102" fill="url(#bg)"/>
+
+  <g fill="none" stroke="#171321" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" opacity=".28">
+    <path d="M256 251 152 151M256 251 360 151M256 251 256 372"/>
+  </g>
+  <g fill="none" stroke="#f5f1ff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" opacity=".92">
+    <path d="M256 251 152 151M256 251 360 151M256 251 256 372"/>
+  </g>
+
+  <circle cx="152" cy="151" r="44" fill="#51d69a" stroke="#10261e" stroke-width="13" filter="url(#glow)"/>
+  <circle cx="360" cy="151" r="44" fill="#ed6d82" stroke="#30151d" stroke-width="13" filter="url(#glow)"/>
+  <circle cx="256" cy="372" r="44" fill="#c4aaff" stroke="#241a42" stroke-width="13" filter="url(#glow)"/>
+
+  <path d="M256 182 325 251 256 320 187 251Z" fill="url(#core)" stroke="#20172f" stroke-width="16"/>
+  <path d="m230 252 17 17 37-42" fill="none" stroke="#6249c6" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

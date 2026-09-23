@@ -131,7 +131,7 @@
     };
 
 
-    function iconUrl(talent) {
+    function iconName(talent) {
 
         let icon =
             talent?.tree_data?.icon;
@@ -140,21 +140,147 @@
             return "";
         }
 
-        if (icon === "inv_10_specialreagentfoozles_tuskclaw_ice") icon = "inv_10_specialreagentfoozles_tuskclaw-ice";
+        if (icon === "inv_10_specialreagentfoozles_tuskclaw_ice") {
+            icon = "inv_10_specialreagentfoozles_tuskclaw-ice";
+        }
 
-        icon =
+        return (
             ICON_NAME_OVERRIDES[icon]
-            || icon;
+            || icon
+        );
+    }
+
+
+    function iconUrl(talent) {
+
+        const icon = iconName(talent);
+
+        if (!icon) {
+            return "app-icon.svg";
+        }
 
         return (
             "https://wow.zamimg.com/"
             + "images/wow/icons/large/"
-            + encodeURIComponent(
-                icon
-            )
+            + encodeURIComponent(icon)
             + ".jpg"
         );
     }
+
+
+    function recoverTalentIcon(image) {
+
+        const current =
+            image.currentSrc
+            || image.src
+            || "";
+
+        const stage = Number(
+            image.dataset.iconFallbackStage
+            || 0
+        );
+
+        let next = "";
+
+        if (
+            stage === 0
+            && current.includes(
+                "/images/wow/icons/large/"
+            )
+        ) {
+            next = current.replace(
+                "/images/wow/icons/large/",
+                "/images/wow/icons/medium/"
+            );
+        }
+        else if (
+            stage <= 1
+            && current.includes(
+                "/images/wow/icons/medium/"
+            )
+        ) {
+            next = current.replace(
+                "/images/wow/icons/medium/",
+                "/images/wow/icons/small/"
+            );
+        }
+        else if (stage <= 2) {
+
+            const visuals =
+                window.ClassVisuals;
+
+            const specIcon =
+                visuals?.specs?.[
+                    Number(data.spec_id)
+                ];
+
+            if (
+                specIcon
+                && typeof visuals.url
+                === "function"
+            ) {
+                next = visuals.url(
+                    specIcon
+                );
+            }
+        }
+
+        if (
+            !next
+            && stage <= 3
+            && !current.endsWith(
+                "/app-icon.svg"
+            )
+            && !current.endsWith(
+                "app-icon.svg"
+            )
+        ) {
+            next = "app-icon.svg";
+            image.classList.add(
+                "icon-fallback-local"
+            );
+        }
+
+        if (
+            next
+            && next !== current
+        ) {
+            image.dataset.iconFallbackStage =
+                String(stage + 1);
+
+            image.src = next;
+
+            return;
+        }
+
+        image.style.display =
+            "none";
+
+        const sibling =
+            image.nextElementSibling;
+
+        if (
+            sibling
+            && (
+                sibling.classList.contains(
+                    "node-fallback"
+                )
+                || sibling.classList.contains(
+                    "choice-segment-fallback"
+                )
+                || sibling.classList.contains(
+                    "choice-option-fallback"
+                )
+            )
+        ) {
+            sibling.style.display =
+                "grid";
+        }
+    }
+
+
+    window.WowTalentIconError =
+        recoverTalentIcon;
 
 
     function singleNodeVisual(talent) {
@@ -167,10 +293,7 @@
                     class="node-main-icon"
                     src="${src}"
                     alt="${escapeHtml(talent.talent_name)}"
-                    onerror="
-                        this.style.display='none';
-                        this.nextElementSibling.style.display='grid';
-                    "
+                    onerror="window.WowTalentIconError(this)"
                 >
 
                 <span class="node-fallback">
@@ -230,10 +353,7 @@
                                     <img
                                         src="${src}"
                                         alt="${escapeHtml(entry.talent_name)}"
-                                        onerror="
-                                            this.style.display='none';
-                                            this.nextElementSibling.style.display='grid';
-                                        "
+                                        onerror="window.WowTalentIconError(this)"
                                     >
 
                                     <span class="choice-segment-fallback">
@@ -981,21 +1101,37 @@
         }
 
 
-        const verifiedAt =
-            data.generated_at
-            ? new Date(
-                data.generated_at
-            ).toLocaleString(
-                undefined,
-                {
-                    year: "numeric",
-                    month: "short",
-                    day: "numeric",
-                    hour: "2-digit",
-                    minute: "2-digit",
-                }
-            )
-            : null;
+        const verifiedAt = (() => {
+
+            if (!data.generated_at) {
+                return null;
+            }
+
+            const date =
+                new Date(
+                    data.generated_at
+                );
+
+            if (
+                Number.isNaN(
+                    date.getTime()
+                )
+            ) {
+                return null;
+            }
+
+            const two = value =>
+                String(value)
+                .padStart(2, "0");
+
+            return (
+                `${two(date.getDate())}.`
+                + `${two(date.getMonth() + 1)}.`
+                + `${date.getFullYear()}, `
+                + `${two(date.getHours())}:`
+                + two(date.getMinutes())
+            );
+        })();
 
 
         $("#buildInfo").textContent =
@@ -2512,6 +2648,7 @@
                     ? `
                         <img
                             class="tooltip-icon"
+                            onerror="window.WowTalentIconError(this)"
                             src="${
                                 iconUrl(
                                     talent
@@ -3388,7 +3525,7 @@
             <tr data-spell-id="${talent.spell_id}">
                 <td>
                     <div class="talent-cell">
-                        <img class="small-icon" src="${iconUrl(talent)}" alt="">
+                        <img class="small-icon" src="${iconUrl(talent)}" alt="" onerror="window.WowTalentIconError(this)">
                         <div><strong>${escapeHtml(talent.talent_name)}</strong>
                             <div class="spell-id">${escapeHtml(treeDisplayName(talent))}</div>
                         </div>
@@ -3839,6 +3976,7 @@
                             <img
                                 src="${iconUrl(talent)}"
                                 alt=""
+                                onerror="window.WowTalentIconError(this)"
                             >
 
                             <div>
@@ -3933,6 +4071,7 @@
                 <img
                     src="${iconUrl(talent)}"
                     alt=""
+                    onerror="window.WowTalentIconError(this)"
                 >
 
                 <div>
@@ -4039,6 +4178,13 @@
     // ========================================================
 
     function setupEvents() {
+
+        $("#homeBrand")
+            .addEventListener(
+                "click",
+                showHome
+            );
+
 
         document.addEventListener(
             "click",
@@ -4178,6 +4324,40 @@
         const params = new URLSearchParams({build: WowLoadout.encode(data, state.selected, state.heroTree), mode: state.pvpMode ? "pvp" : "pve"});
         history.replaceState(null, "", location.pathname + location.search + "#" + params.toString());
     }
+
+    function showHome() {
+
+        state.suspendUrl =
+            true;
+
+        try {
+            closeChoicePicker();
+            hideTooltip();
+
+            document.body.classList.add(
+                "welcome-active"
+            );
+
+            history.replaceState(
+                null,
+                "",
+                location.pathname
+                + location.search
+            );
+
+            updateDocumentTitle();
+
+            window.scrollTo(
+                0,
+                0
+            );
+        }
+        finally {
+            state.suspendUrl =
+                false;
+        }
+    }
+
 
     async function activateSpec(className, specName) {
         loadDatasetFor(className, specName);
