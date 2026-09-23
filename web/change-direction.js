@@ -62,7 +62,7 @@
             polarity = -1;
         }
         // A larger "recharges X% faster" scalar improves availability.
-        else if (/recharges?\s+faster/.test(nearby)) {
+        else if (/recharges?\b[^.!?]*\bfaster\b/.test(nearby)) {
             polarity = 1;
         }
         // Reducing harmful crowd-control duration on the player is beneficial.
