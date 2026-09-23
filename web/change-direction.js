@@ -58,7 +58,19 @@
         let polarity = 0; // +1 means a larger number is better for the player.
 
         // Thresholds / frequencies: needing less resource or a lower threshold is better.
-        if (/exceeds\s*$/i.test(prefix) || /every\s*$/i.test(prefix)) {
+        //
+        // Automatic defensive triggers are also better when they require
+        // a smaller incoming hit. Keep this narrower than a generic
+        // "below X% health" rule: execute/maximum-effect thresholds can
+        // have the opposite meaning.
+        if (
+            /exceeds\s*$/i.test(prefix)
+            || /every\s*$/i.test(prefix)
+            || (
+                /when you suffer a damaging effect equal to\s*$/i.test(prefix)
+                && /^\s*% of your maximum health,\s*you instantly\s+(?:cast|gain|heal|shield)/i.test(suffix)
+            )
+        ) {
             polarity = -1;
         }
         // A larger "recharges X% faster" scalar improves availability.
