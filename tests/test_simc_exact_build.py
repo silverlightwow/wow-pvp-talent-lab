@@ -53,6 +53,7 @@ def test_fetch_dump_pins_previous_exact_build():
     )
 
     assert dump.build == "12.1.0.69814"
+    assert dump.source_ref == "0908ace"
     assert any(
         "/0908ace/SpellDataDump/priest.txt"
         in url
@@ -310,3 +311,57 @@ def test_effect_parser_recovers_hotfix_back_to_neutral_pvp_multiplier():
     assert effects[2].pvp_coefficient == 1.0
     assert effects[2].pvp_hotfix_previous == 1.25
     assert effects[2].game_effect_id == 1035394
+
+
+
+def test_generated_spell_effect_parser_reads_hidden_exact_build_rows():
+    text = """// generated client data
+// 3 effects, wow build level 12.1.0.69933
+static spelleffect_data_t __spelleffect_data[3] = {
+  { 1278279, 1266081, 0, 2, 0, 0, 0x00000000, 0.000000, 0.050000, 0.000000, 0.000000, 2.844000, 0, 0.000000, 0.000000, 0.0000, 0, 0, { 0, 0, 0, 0 }, 0, 1.000000, 0.000000, 0.000000, 0, 0, 6, 0, 0.000000, 0.595000, 0, 0 },
+  { 1106904, 427453, 0, 2, 0, 0, 0x00000000, 0.000000, 0.050000, 0.000000, 0.000000, 10.451600, 0, 0.000000, 0.000000, 0.0000, 0, 0, { 0, 0, 0, 0 }, 0, 1.000000, 0.000000, 0.000000, 0, 0, 6, 0, 0.000000, 0.544000, 0, 0 },
+  { 1119306, 427453, 1, 64, 0, 0, 0x00000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0, 0.000000, 0.000000, 7.0000, 0, 0, { 0, 0, 0, 0 }, 1217116, 1.000000, 0.000000, 0.000000, 0, 0, 1, 0, 0.000000, 1.000000, 0, 0 },
+};
+"""
+
+    parsed = simc.parse_generated_effects(
+        text,
+        {1266081, 427453},
+        expected_build="12.1.0.69933",
+    )
+
+    moonlight = parsed[1266081][1]
+    assert moonlight.game_effect_id == 1278279
+    assert moonlight.effect_text == "School Damage (2)"
+    assert moonlight.ap_coefficient == 2.844
+    assert moonlight.sp_coefficient is None
+    assert moonlight.pvp_coefficient == 0.595
+
+    hammer_damage = parsed[427453][1]
+    assert hammer_damage.game_effect_id == 1106904
+    assert hammer_damage.ap_coefficient == 10.4516
+    assert hammer_damage.pvp_coefficient == 0.544
+
+    # DB2 index 1 is exposed as human-facing Effect #2.
+    assert parsed[427453][2].game_effect_id == 1119306
+    assert parsed[427453][2].pvp_coefficient == 1.0
+
+
+def test_generated_spell_effect_parser_rejects_wrong_build():
+    text = """// 1 effects, wow build level 12.1.0.69934
+static spelleffect_data_t __spelleffect_data[1] = {
+  { 1, 2, 0, 2, 0, 0, 0x0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, { 0, 0, 0, 0 }, 0, 1, 0, 0, 0, 0, 6, 0, 0, 0.5, 0, 0 },
+};
+"""
+
+    import pytest
+
+    with pytest.raises(
+        RuntimeError,
+        match="build mismatch",
+    ):
+        simc.parse_generated_effects(
+            text,
+            {2},
+            expected_build="12.1.0.69933",
+        )
