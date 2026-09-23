@@ -209,9 +209,21 @@
             const visuals =
                 window.ClassVisuals;
 
+            const currentSpecId =
+                Number(
+                    data.spec_id
+                    || data.serialization?.spec_id
+                    || talents.find(
+                        talent =>
+                            talent?.tree_data
+                            ?.spec_id
+                    )?.tree_data?.spec_id
+                    || 0
+                );
+
             const specIcon =
                 visuals?.specs?.[
-                    Number(data.spec_id)
+                    currentSpecId
                 ];
 
             if (
