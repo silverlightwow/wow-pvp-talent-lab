@@ -144,6 +144,43 @@ function assertDescription(shown, original) {
    console.log(`Checked ${specs.length} specs at ${width}px`);
    await page.close();
   }
+  // Regression: imported builds must survive a hard reload exactly.
+  // This covers the real user flow that previously produced a one-off
+  // GitHub Pages timeout during manual QA.
+  {
+   const sample='CAQAAAAAAAAAAAAAAAAAAAAAAADswMWGjZmZmxMbwMzYmZAAAAAAAAAAYmZ2mBjZGLzYmhlFTzEDmZAQAMLz2CYsZAAYMjZMYgZGYCG';
+   const page = await browser.newPage({viewport:{width:1440,height:1000}});
+   page.on('pageerror', e => errors.push(e.message));
+   await page.route('https://**/*', r => r.abort());
+   await page.goto(pathToFileURL(path.join(root, 'web/index.html')).href+'#spec=priest-discipline');
+   await page.waitForFunction(() => document.querySelector('#treeTitle')?.textContent === 'Discipline Priest');
+
+   await page.locator('[data-open-import]:visible').first().click();
+   await page.locator('#buildString').fill(sample);
+   await page.locator('#importBuildApply').click();
+   await page.locator('#buildDialog').waitFor({state:'hidden'});
+   await page.waitForFunction(() => {
+    const classPoints=document.querySelector('#classPoints')?.textContent?.trim();
+    const specPoints=document.querySelector('#specPoints')?.textContent?.trim();
+    return classPoints !== '0/34' || specPoints !== '0/34';
+   });
+
+   await page.locator('#exportBuild').click();
+   assert.equal(await page.locator('#buildString').inputValue(),sample,'Imported build must export identically before reload');
+   await page.locator('#buildDialog [data-close-dialog]').click();
+
+   await page.reload();
+   await page.waitForFunction(() => document.querySelector('#treeTitle')?.textContent === 'Discipline Priest');
+   await page.waitForFunction(() => {
+    const classPoints=document.querySelector('#classPoints')?.textContent?.trim();
+    const specPoints=document.querySelector('#specPoints')?.textContent?.trim();
+    return classPoints !== '0/34' || specPoints !== '0/34';
+   });
+   await page.locator('#exportBuild').click();
+   assert.equal(await page.locator('#buildString').inputValue(),sample,'Build must survive hard reload without mutation');
+   await page.close();
+   console.log('Reload/import regression: exact build round-trip passed.');
+  }
   assert.deepEqual(errors,[]);
   console.log(JSON.stringify({geometryProblems:report},null,2));
   if(report.length)process.exitCode=1;
