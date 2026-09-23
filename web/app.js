@@ -4212,26 +4212,121 @@
     // ========================================================
 
     function renderMobileCompendiumInline() {
-        const existing = $(".mobile-compendium-inline");
-        const source = $("#compendiumDetail");
-        const selected = $("#compendiumList .compendium-item.active");
-        if (window.matchMedia("(max-width: 700px)").matches && existing
-            && existing._sourceHtml === source?.innerHTML
-            && existing.dataset.key === selected?.dataset.compendiumKey) return;
 
-        $$(".mobile-compendium-inline")
+        const existing =
+            $(".mobile-compendium-inline");
+
+        const source =
+            $("#compendiumDetail");
+
+        const selected =
+            $("#compendiumList .compendium-item.active");
+
+        const isMobile =
+            window.matchMedia(
+                "(max-width: 700px)"
+            ).matches;
+
+
+        const openDetails = element =>
+            element
+            ? [
+                ...element.querySelectorAll(
+                    "details"
+                ),
+            ]
+            .map(
+                (details, index) =>
+                    details.open
+                    ? index
+                    : -1
+            )
+            .filter(index => index >= 0)
+            : [];
+
+
+        const restoreOpenDetails = (
+            element,
+            indexes
+        ) => {
+
+            if (!element) {
+                return;
+            }
+
+            const wanted =
+                new Set(indexes);
+
+            [
+                ...element.querySelectorAll(
+                    "details"
+                ),
+            ]
+            .forEach(
+                (details, index) => {
+                    details.open =
+                        wanted.has(index);
+                }
+            );
+        };
+
+
+        const preservedOpen =
+            openDetails(
+                existing
+            );
+
+
+        // When crossing back to desktop, keep the same evidence
+        // drawers open in the persistent detail panel.
+        if (
+            !isMobile
+        ) {
+
+            if (
+                existing
+                && source
+                && preservedOpen.length
+            ) {
+                restoreOpenDetails(
+                    source,
+                    preservedOpen
+                );
+            }
+
+            $$(
+                ".mobile-compendium-inline"
+            )
             .forEach(
                 element =>
                     element.remove()
             );
 
+            return;
+        }
+
+
+        // No source change: do not rebuild an accordion just because
+        // the browser emitted resize/orientation events.
         if (
-            !window.matchMedia(
-                "(max-width: 700px)"
-            ).matches
+            existing
+            && existing.dataset.key
+                === selected?.dataset.compendiumKey
+            && existing._sourceHtml
+                === source?.innerHTML
         ) {
             return;
         }
+
+
+        $$(
+            ".mobile-compendium-inline"
+        )
+        .forEach(
+            element =>
+                element.remove()
+        );
+
 
         const active =
             $("#compendiumList .compendium-item.active");
@@ -4247,24 +4342,49 @@
             return;
         }
 
+
+        // If either representation was already expanded, preserve
+        // that user state when the mobile copy has to be refreshed.
+        const detailOpen =
+            openDetails(
+                detail
+            );
+
+        const wantedOpen =
+            preservedOpen.length
+            ? preservedOpen
+            : detailOpen;
+
+
         const inline =
             document.createElement(
                 "div"
             );
 
-        inline.className = "mobile-compendium-inline";
-        inline._sourceHtml = detail.innerHTML;
-        inline.dataset.key = active.dataset.compendiumKey;
+        inline.className =
+            "mobile-compendium-inline";
+
+        inline._sourceHtml =
+            detail.innerHTML;
+
+        inline.dataset.key =
+            active.dataset.compendiumKey;
 
         inline.innerHTML =
             detail.innerHTML;
+
+
+        restoreOpenDetails(
+            inline,
+            wantedOpen
+        );
+
 
         active.insertAdjacentElement(
             "afterend",
             inline
         );
     }
-
 
     // ========================================================
     // Global events
