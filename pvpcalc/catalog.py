@@ -673,7 +673,44 @@ async def build_spec_catalog(
                     ),
 
                 tree_data=
-                    {**talent, **({"icon": page.icon} if page and page.icon else {})},
+                    {
+                        **talent,
+                        **(
+                            {
+                                "icon": (
+                                    (
+                                        page.icon
+                                        if display_override and page and page.icon
+                                        else talent.get("icon")
+                                    )
+                                    or (page.icon if page else "")
+                                ),
+                                "icon_candidates": list(
+                                    dict.fromkeys(
+                                        icon
+                                        for icon in (
+                                            (
+                                                page.icon
+                                                if display_override and page
+                                                else talent.get("icon")
+                                            ),
+                                            (
+                                                talent.get("icon")
+                                                if display_override
+                                                else (page.icon if page else "")
+                                            ),
+                                        )
+                                        if icon
+                                    )
+                                ),
+                            }
+                            if (
+                                talent.get("icon")
+                                or (page and page.icon)
+                            )
+                            else {}
+                        ),
+                    },
 
                 pve_tooltip=
                     rendered[

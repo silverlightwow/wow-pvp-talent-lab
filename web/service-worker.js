@@ -1,4 +1,4 @@
-const CACHE = "wow-pvp-talent-lab-v11";
+const CACHE = "wow-pvp-talent-lab-v12";
 const CORE = [
   "./",
   "./index.html",
@@ -38,7 +38,7 @@ self.addEventListener("fetch", event => {
   if (event.request.method !== "GET" || new URL(event.request.url).origin !== self.location.origin) return;
 
   event.respondWith(
-    fetch(event.request)
+    fetch(event.request, { cache: "no-store" })
       .then(response => {
         if (response.ok) {
           const copy = response.clone();

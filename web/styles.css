@@ -2870,3 +2870,38 @@ body.welcome-active { background:radial-gradient(ellipse at 85% 10%,#24375355,tr
 img.icon-fallback-local {
     object-fit: cover;
 }
+
+
+/* ==========================================================
+   v2.3 — preserve the three-tree desktop row on compact laptops
+   ========================================================== */
+@media (min-width: 921px) and (max-width: 1040px) {
+    .tree-grid {
+        grid-template-columns:
+            minmax(0, 1fr)
+            minmax(178px, .52fr)
+            minmax(0, 1fr);
+        justify-items: stretch;
+        align-items: stretch;
+        gap: 8px;
+    }
+
+    .tree-card {
+        width: auto;
+        height: 100%;
+        grid-column: auto;
+    }
+
+    .class-card,
+    .spec-card {
+        --node: 36px;
+    }
+
+    .hero-card {
+        --node: 34px;
+    }
+
+    .tree-canvas {
+        flex: 1 0 auto;
+    }
+}

@@ -131,10 +131,7 @@
     };
 
 
-    function iconName(talent) {
-
-        let icon =
-            talent?.tree_data?.icon;
+    function normalizeIconName(icon) {
 
         if (!icon) {
             return "";
@@ -148,6 +145,30 @@
             ICON_NAME_OVERRIDES[icon]
             || icon
         );
+    }
+
+
+    function iconNames(talent) {
+
+        return [
+            ...new Set(
+                [
+                    ...(
+                        talent?.tree_data
+                        ?.icon_candidates
+                        || []
+                    ),
+                    talent?.tree_data?.icon,
+                ]
+                .map(normalizeIconName)
+                .filter(Boolean)
+            ),
+        ];
+    }
+
+
+    function iconName(talent) {
+        return iconNames(talent)[0] || "";
     }
 
 
@@ -165,6 +186,46 @@
             + encodeURIComponent(icon)
             + ".jpg"
         );
+    }
+
+
+    function nextDatasetIconName(currentUrl) {
+
+        const match = String(currentUrl).match(
+            /\/images\/wow\/icons\/(?:large|medium|small)\/([^/?]+)\.jpg/i
+        );
+
+        if (!match) {
+            return "";
+        }
+
+        let currentName;
+
+        try {
+            currentName =
+                decodeURIComponent(match[1]);
+        }
+        catch {
+            currentName =
+                match[1];
+        }
+
+        for (const talent of (data.talents || [])) {
+            const names =
+                iconNames(talent);
+
+            const index =
+                names.indexOf(currentName);
+
+            if (
+                index >= 0
+                && index + 1 < names.length
+            ) {
+                return names[index + 1];
+            }
+        }
+
+        return "";
     }
 
 
@@ -206,34 +267,49 @@
         }
         else if (stage <= 2) {
 
-            const visuals =
-                window.ClassVisuals;
+            const alternate =
+                nextDatasetIconName(current);
 
-            const currentSpecId =
-                Number(
-                    data.spec_id
-                    || data.serialization?.spec_id
-                    || talents.find(
-                        talent =>
-                            talent?.tree_data
-                            ?.spec_id
-                    )?.tree_data?.spec_id
-                    || 0
-                );
+            if (alternate) {
+                next =
+                    "https://wow.zamimg.com/"
+                    + "images/wow/icons/large/"
+                    + encodeURIComponent(alternate)
+                    + ".jpg";
 
-            const specIcon =
-                visuals?.specs?.[
-                    currentSpecId
-                ];
+                image.dataset.iconFallbackStage =
+                    "0";
+            }
+            else {
 
-            if (
-                specIcon
-                && typeof visuals.url
-                === "function"
-            ) {
-                next = visuals.url(
+                const visuals =
+                    window.ClassVisuals;
+
+                const currentSpecId =
+                    Number(
+                        data.spec_id
+                        || data.serialization?.spec_id
+                        || talents.find(
+                            talent =>
+                                talent?.tree_data
+                                ?.spec_id
+                        )?.tree_data?.spec_id
+                        || 0
+                    );
+
+                const specIcon =
+                    visuals?.specs?.[
+                        currentSpecId
+                    ];
+
+                if (
                     specIcon
-                );
+                    && typeof visuals.url
+                    === "function"
+                ) {
+                    next =
+                        visuals.url(specIcon);
+                }
             }
         }
 
@@ -257,8 +333,13 @@
             next
             && next !== current
         ) {
-            image.dataset.iconFallbackStage =
-                String(stage + 1);
+            if (
+                image.dataset.iconFallbackStage
+                === String(stage)
+            ) {
+                image.dataset.iconFallbackStage =
+                    String(stage + 1);
+            }
 
             image.src = next;
 
@@ -4319,13 +4400,43 @@
             )
         ) {
             navigator.serviceWorker
-                .register("./service-worker.js")
+                .register(
+                    "./service-worker.js",
+                    {
+                        updateViaCache:
+                            "none",
+                    }
+                )
+                .then(registration =>
+                    registration.update()
+                )
                 .catch(
                     error =>
                         console.warn(
                             "Service worker registration failed:",
                             error
                         )
+                );
+
+            navigator.serviceWorker
+                .addEventListener(
+                    "controllerchange",
+                    () => {
+                        const key =
+                            "wow-pvp-sw-v12-reloaded";
+
+                        if (
+                            sessionStorage
+                            .getItem(key)
+                        ) {
+                            return;
+                        }
+
+                        sessionStorage
+                            .setItem(key, "1");
+
+                        location.reload();
+                    }
                 );
         }
     }
