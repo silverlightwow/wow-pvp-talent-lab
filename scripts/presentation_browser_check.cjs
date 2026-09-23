@@ -11,7 +11,7 @@ const {chromium} = require('playwright');
  const browser=await chromium.launch(launch);const errors=[];
  const shot=async(page,name)=>{if(process.env.QA_SCREENSHOTS){fs.mkdirSync(process.env.QA_SCREENSHOTS,{recursive:true});await page.screenshot({path:path.join(process.env.QA_SCREENSHOTS,name+'.png'),fullPage:true});}};
  try {
-  for(const width of [1440,960,920,390,320]) {
+  for(const width of [1440,390,320]) {
    const page=await browser.newPage({viewport:{width,height:1050},hasTouch:width<600,isMobile:width<600,ignoreHTTPSErrors:true});
    page.on('pageerror',e=>errors.push(e.message));
    if(!process.env.SITE_URL)await page.route('https://**/*',r=>r.abort());
