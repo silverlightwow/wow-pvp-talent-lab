@@ -48,7 +48,6 @@ const fixtures = [
  ['priest-discipline','Void Leech','nerf'],
  ['druid-restoration','Reforestation','nerf'],
  ['druid-restoration','Potent Enchantments','nerf'],
- ['druid-feral','Rip','buff'],
  ['hunter-marksmanship','Aimed Shot','buff'],
  ['hunter-survival',1252943,'buff'],
  ['hunter-survival',1259003,'buff'],
@@ -57,6 +56,23 @@ for(const [slug,key,want] of fixtures) {
  const talent=dataset(slug).talents.find(t=>typeof key==='number'?t.spell_id===key:t.talent_name===key);
  assert.ok(talent,`${slug}: missing fixture ${key}`);
  assert.equal(D.talentDirection(talent),want,`${slug}: ${talent.talent_name}`);
+}
+
+// Rip is a direct attack-power coefficient. Its direction must follow the
+// current verified dataset rather than a stale hard-coded snapshot value.
+{
+ const rip=dataset('druid-feral').talents.find(t=>t.talent_name==='Rip');
+ assert.ok(rip,'druid-feral: missing Rip');
+ const coefficientChanges=(rip.changes||[]).filter(c=>c.kind==='attack_power_coefficient');
+ assert.ok(coefficientChanges.length>0,'Rip must expose its PvP attack-power coefficient change');
+ const directions=new Set(coefficientChanges.map(c=>{
+  const oldValue=Number(c.old_token),newValue=Number(c.new_token);
+  assert.ok(Number.isFinite(oldValue)&&Number.isFinite(newValue)&&oldValue!==newValue,'Rip coefficient must be numeric and changed');
+  return newValue>oldValue?'buff':'nerf';
+ }));
+ assert.equal(directions.size,1,'Rip coefficient changes must agree on direction');
+ assert.equal(D.talentDirection(rip),[...directions][0],
+   'druid-feral: Rip direction must match current coefficient '+coefficientChanges[0].old_token+' -> '+coefficientChanges[0].new_token);
 }
 
 const evoker=dataset('evoker-devastation').talents.find(t=>t.talent_name==='Strafing Run');
