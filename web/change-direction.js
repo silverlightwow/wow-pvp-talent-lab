@@ -37,7 +37,7 @@
 
     function direction(talent, change) {
         const context = localContext(talent, change);
-        const {prefix, clause, nearby, full} = context;
+        const {prefix, suffix, clause, nearby, full} = context;
 
         if (change.kind === 'direction_word') {
             if (/damage|healing/.test(clause) && !/taken|take\b/.test(clause)) {
