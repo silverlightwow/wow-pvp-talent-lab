@@ -76,4 +76,21 @@ for(const name of files){
 }
 assert.ok(changedTalents>100,'Expected broad current PvP-change coverage');
 assert.ok(directionalTalents>0);
+const inspectOnly=[];
+for(const name of files){
+ const data=JSON.parse(fs.readFileSync(path.join(dataDir,name)));
+ for(const talent of data.talents||[]){
+  if((talent.changes||[]).length&&D.talentDirection(talent)==='neutral'){
+   inspectOnly.push({
+    spec:name.replace(/\.json$/,''),
+    talent:talent.talent_name,
+    spell_id:talent.spell_id,
+    changes:(talent.changes||[]).map(c=>({kind:c.kind,old:c.old_token,new:c.new_token})),
+    pve:talent.pve_tooltip,
+    pvp:talent.pvp_tooltip,
+   });
+  }
+ }
+}
 console.log(`Change direction checks passed across ${files.length} specs: ${changedTalents} changed talents, ${directionalTalents} directional, ${neutralTalents} intentionally inspect-only.`);
+console.log('Inspect-only direction audit:',JSON.stringify(inspectOnly));
