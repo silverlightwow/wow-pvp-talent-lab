@@ -48,7 +48,7 @@ const fixtures = [
  ['priest-discipline','Void Leech','nerf'],
  ['druid-restoration','Reforestation','nerf'],
  ['druid-restoration','Potent Enchantments','nerf'],
- ['druid-feral','Rip','nerf'],
+ ['druid-feral','Rip','buff'],
  ['hunter-marksmanship','Aimed Shot','buff'],
  ['hunter-survival',1252943,'buff'],
  ['hunter-survival',1259003,'buff'],
