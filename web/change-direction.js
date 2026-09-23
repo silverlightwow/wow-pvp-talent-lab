@@ -77,6 +77,17 @@
         else if (/recharges?\b[^.!?]*\bfaster\b/.test(nearby)) {
             polarity = 1;
         }
+        // Recovery RATE is a beneficial throughput metric: a larger
+        // percentage means cooldowns come back faster.
+        else if (/cooldown recovery rate/.test(nearby) && /increase/.test(nearby)) {
+            polarity = 1;
+        }
+        // Prefer the metric immediately following the changed number over
+        // unrelated words earlier in a compound sentence. Example:
+        // "... have no cooldown, deal 35% increased damage".
+        else if (/^\s*%\s+(?:increased|more)\s+(?:damage|healing|movement speed|absorb|armor|haste|critical|crit)/.test(suffix)) {
+            polarity = 1;
+        }
         // Reducing harmful crowd-control duration on the player is beneficial.
         // Keep "This effect is increased to ..." tied to the preceding CC reduction.
         else if (

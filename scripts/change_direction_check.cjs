@@ -31,6 +31,8 @@ check('1 point : [(62.26% of Attack Power) * 2 / 6] over 1 sec','62.26','64.4447
 check('1 point : [(62.26% of Attack Power) * 2 / 6] over 1 sec','62.26','52.4427','nerf','attack_power_coefficient');
 
 check('While Combustion is active, Fire Blast recharges 50% faster.','50','30','nerf');
+check("Thunder Focus Tea increases the cooldown recovery rate of Renewing Mist by 75% for 8 sec.",'75','30','nerf');
+check("Your next Bloodthirsts have no cooldown, deal 35% increased damage, and generate Rage.",'35','15','nerf');
 check('Fear duration on you reduced by 20%. This effect is increased to 60% during Avenging Wrath.','20','5','nerf');
 {
  const text='Fear duration on you reduced by 20%. This effect is increased to 60% during Avenging Wrath.';
@@ -53,6 +55,8 @@ const fixtures = [
  ['hunter-survival',1252943,'buff'],
  ['hunter-survival',1259003,'buff'],
  ['death-knight-blood','Pact of the Deathbringer','buff'],
+ ['monk-mistweaver','Heart of the Jade Serpent','nerf'],
+ ['warrior-fury','Burst of Power','nerf'],
 ];
 for(const [slug,key,want] of fixtures) {
  const talent=dataset(slug).talents.find(t=>typeof key==='number'?t.spell_id===key:t.talent_name===key);
