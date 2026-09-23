@@ -29,6 +29,17 @@ check('Every 4 casts of Swiftmend grants you Incarnation: Tree of Life for 10 se
 check('1 point : [(62.26% of Attack Power) * 2 / 6] over 1 sec','62.26','64.4447','buff','attack_power_coefficient');
 check('1 point : [(62.26% of Attack Power) * 2 / 6] over 1 sec','62.26','52.4427','nerf','attack_power_coefficient');
 
+check('While Combustion is active, Fire Blast recharges 50% faster.','50','30','nerf');
+check('Fear duration on you reduced by 20%. This effect is increased to 60% during Avenging Wrath.','20','5','nerf');
+{
+ const text='Fear duration on you reduced by 20%. This effect is increased to 60% during Avenging Wrath.';
+ const start=text.lastIndexOf('60');
+ const c={start,end:start+2,old_token:'60',new_token:'15',kind:'percent_value'};
+ assert.equal(D.direction({pve_tooltip:text,changes:[c]},c),'nerf',text);
+}
+check('Pick Pocket and Sap have 10 yd increased range.','10','5','nerf','distance_yards');
+check('Howl of Terror cooldown is reduced by 10 sec and range is increased by 5 yds.','5','2','nerf','distance_yards');
+
 assert.equal(D.combine(['buff','nerf']),'mixed');
 assert.equal(D.combine(['buff','neutral']),'neutral');
 
@@ -76,6 +87,7 @@ for(const name of files){
 }
 assert.ok(changedTalents>100,'Expected broad current PvP-change coverage');
 assert.ok(directionalTalents>0);
+assert.equal(neutralTalents,0,'Every current player-facing PvP change must have a reviewed buff/nerf direction');
 const inspectOnly=[];
 for(const name of files){
  const data=JSON.parse(fs.readFileSync(path.join(dataDir,name)));
