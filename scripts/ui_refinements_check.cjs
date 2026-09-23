@@ -6,7 +6,7 @@ const {pathToFileURL}=require('node:url');const {chromium}=require('playwright')
  const browser=await chromium.launch(launch),errors=[];
  const base=process.env.SITE_URL||pathToFileURL(path.resolve(__dirname,'../web/index.html')).href;
  const shot=async(p,name)=>{if(process.env.QA_SCREENSHOTS){fs.mkdirSync(process.env.QA_SCREENSHOTS,{recursive:true});await p.screenshot({path:path.join(process.env.QA_SCREENSHOTS,name+'.png'),fullPage:true});}};
- try{for(const width of [2560,1920,1536,1440,1366,1280,1040,1024,390,320]){
+ try{for(const width of [2560,1920,1536,1440,1366,1280,1040,960,920,390,320]){
   const page=await browser.newPage({viewport:{width,height:1050},hasTouch:width<600,isMobile:width<600,ignoreHTTPSErrors:true});page.on('pageerror',e=>errors.push(e.message));
   if(!process.env.SITE_URL)await page.route('https://**/*',r=>{
    const name=r.request().url().split('/').pop();const file=process.env.QA_ICON_CACHE&&path.join(process.env.QA_ICON_CACHE,name);
@@ -28,7 +28,7 @@ const {pathToFileURL}=require('node:url');const {chromium}=require('playwright')
   const rows=await page.locator('#heroTree .talent-node').evaluateAll(ns=>new Set(ns.map(n=>Math.round(n.getBoundingClientRect().top))).size);
   assert.equal(rows,5,'Lightsmith must have five aligned source rows');
   const rects=await page.locator('.tree-card').evaluateAll(ns=>ns.map(n=>{const r=n.getBoundingClientRect();return {x:r.x,y:r.y,w:r.width,h:r.height};}));
-  if(width<=1040)assert.ok(rects[1].y>=rects[0].y+rects[0].h-1&&rects[2].y>=rects[1].y+rects[1].h-1,'Trees must stack only at the narrow breakpoint');
+  if(width<=920)assert.ok(rects[1].y>=rects[0].y+rects[0].h-1&&rects[2].y>=rects[1].y+rects[1].h-1,'Trees must stack only at the narrow breakpoint');
   else assert.equal(new Set(rects.map(r=>Math.round(r.y))).size,1,`Trees must stay on one row at ${width}px`);
   assert.equal(await page.title(),'Holy Paladin · WoW PvP Talent Lab');
   assert.match(await page.locator('#buildInfo').innerText(), /(?:Verified|Built) \d{2}\.\d{2}\.\d{4}, \d{2}:\d{2}/);
