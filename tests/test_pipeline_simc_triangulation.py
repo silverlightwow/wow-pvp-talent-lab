@@ -429,3 +429,69 @@ def test_superseded_drustvar_requires_exact_effect_identity_and_current_agreemen
     from dataclasses import replace
     conflicting = replace(current, pvp_multiplier=0)
     assert resolve(item, conflicting) is None
+
+
+
+def test_superseded_drustvar_accepts_current_neutral_multiplier_omitted_by_wowhead():
+    raw = (
+        "Name             : Ebon Might Test (id=395152)\n"
+        "#1 (id=1035393) : Apply Aura (6) | Periodic Dummy (226): every 1 seconds\n"
+        "Base Value: 8\n"
+        "PvP Coefficient: 1.5\n"
+        "#2 (id=1035394) : Apply Aura (6) | Modify Stat With Support Triggers (540)\n"
+        "Base Value: 0\n"
+        "Hotfixed         : PvP Coefficient (1.25 -> 1)\n"
+    )
+
+    dump = SimcDump(
+        class_slug="evoker",
+        build="12.1.0.69933",
+        header="test",
+        spells={
+            395152: SimcSpell(
+                spell_id=395152,
+                name="Ebon Might Test",
+                raw=raw,
+            )
+        },
+        edges={},
+    )
+
+    wowhead = EffectObservation(
+        source="wowhead",
+        spell_id=395152,
+        spell_name="Ebon Might Test",
+        effect_index=2,
+        base_value=0,
+        pvp_multiplier=None,
+        effect_text="Apply Aura: Modify Stat With Support Triggers (540)",
+        patch=None,
+        url="",
+        raw="",
+    )
+
+    item = {
+        "spell_id": 395152,
+        "talent_name": "Ebon Might",
+        "side": "drustvar",
+        "reason": "UNMATCHED_DRUSTVAR_EFFECT",
+        "source_build": "12.1.0.69587",
+        "game_effect_id": 1035394,
+        "multiplier": 1.25,
+        "effect_text": "Apply Aura (6) | Modify Stat With Support Triggers (540)",
+    }
+
+    resolved = pipeline._superseded_drustvar_effect(
+        item,
+        simc_dump=dump,
+        wowhead_by_spell={395152: [wowhead]},
+    )
+
+    assert resolved is not None
+    assert resolved["reason"] == "SUPERSEDED_DRUSTVAR_EFFECT"
+    assert resolved["current_multiplier"] == 1.0
+    assert resolved["effect_index"] == 2
+    assert resolved["resolved_by"] == [
+        "wowhead",
+        "simc_exact_build",
+    ]

@@ -869,6 +869,21 @@ _SIMC_PVP_RE = re.compile(
     r"([+-]?\d+(?:\.\d+)?)"
 )
 
+# SimulationCraft omits the ordinary "PvP Coefficient:" field when a
+# hotfix resets an effect to the neutral multiplier 1. The exact-build
+# dump still records the transition, e.g.
+#
+#   Hotfixed : PvP Coefficient (1.25 -> 1)
+#
+# Treat the right-hand side as current state, but only as a fallback
+# when the normal coefficient field is absent.
+_SIMC_PVP_HOTFIX_RE = re.compile(
+    r"Hotfixed\s*:\s*PvP Coefficient\s*"
+    r"\([+-]?\d+(?:\.\d+)?\s*->\s*"
+    r"([+-]?\d+(?:\.\d+)?)\)",
+    re.I,
+)
+
 
 def _float_match(
     pattern,
@@ -958,6 +973,22 @@ def parse_spell_effects(
         ]
 
 
+        pvp_coefficient = (
+            _float_match(
+                _SIMC_PVP_RE,
+                effect_block,
+            )
+        )
+
+        if pvp_coefficient is None:
+            pvp_coefficient = (
+                _float_match(
+                    _SIMC_PVP_HOTFIX_RE,
+                    effect_block,
+                )
+            )
+
+
         result[
             effect_index
         ] = SimcEffect(
@@ -982,10 +1013,7 @@ def parse_spell_effects(
                 ),
 
             pvp_coefficient=
-                _float_match(
-                    _SIMC_PVP_RE,
-                    effect_block,
-                ),
+                pvp_coefficient,
 
             ap_coefficient=
                 _float_match(

@@ -2833,9 +2833,23 @@ def _superseded_drustvar_effect(item, *, simc_dump, wowhead_by_spell):
         if effect.game_effect_id != game_id or effect.pvp_coefficient is None:
             continue
         for wh in wowhead_by_spell.get(spell_id, []):
-            if wh.effect_index != effect.effect_index or wh.pvp_multiplier is None:
+            if wh.effect_index != effect.effect_index:
                 continue
-            if not multipliers_close(wh.pvp_multiplier, effect.pvp_coefficient):
+
+            # Wowhead represents the neutral PvP multiplier as an
+            # omitted PVP Multiplier line. When exact-build SimC
+            # explicitly records a hotfix back to ×1, that omission is
+            # independent agreement with the current neutral state.
+            wowhead_multiplier = (
+                float(wh.pvp_multiplier)
+                if wh.pvp_multiplier is not None
+                else 1.0
+            )
+
+            if not multipliers_close(
+                wowhead_multiplier,
+                effect.pvp_coefficient,
+            ):
                 continue
             if semantic_score(wh, _simc_observation(simc_dump, spell_id, effect)) <= 0:
                 continue

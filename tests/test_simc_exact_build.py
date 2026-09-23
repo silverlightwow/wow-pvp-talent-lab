@@ -280,3 +280,31 @@ def test_parent_effect_context_can_live_in_embedded_child_description():
 
     assert len(contexts) == 1
     assert contexts[0].count("$300s1") == 2
+
+
+
+def test_effect_parser_recovers_hotfix_back_to_neutral_pvp_multiplier():
+    text = (
+        "SimulationCraft test for World of Warcraft 12.1.0.69933 Live\n"
+        "Name             : Ebon Might Test (id=395152)\n"
+        "Effects          :\n"
+        "#1 (id=1035393)  : Apply Aura (6) | Periodic Dummy (226)\n"
+        "                   Base Value: 8 | PvP Coefficient: 1.5\n"
+        "Hotfixed         : PvP Coefficient (1.25 -> 1.5)\n"
+        "#2 (id=1035394)  : Apply Aura (6) | Modify Stat With Support Triggers (540)\n"
+        "                   Base Value: 0\n"
+        "Hotfixed         : PvP Coefficient (1.25 -> 1)\n"
+    )
+
+    dump = simc.parse_dump(
+        text,
+        class_slug="evoker",
+    )
+
+    effects = simc.parse_spell_effects(
+        dump.spells[395152]
+    )
+
+    assert effects[1].pvp_coefficient == 1.5
+    assert effects[2].pvp_coefficient == 1.0
+    assert effects[2].game_effect_id == 1035394
