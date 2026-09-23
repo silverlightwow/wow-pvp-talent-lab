@@ -19,6 +19,7 @@ check('Enemies have 50% reduced movement speed.','50','30','nerf');
 check('Avenging Wrath has 40% reduced duration.','40','26.664','buff');
 check('Damage exceeds 150% of their remaining health.','150','250','nerf');
 check('Every 20 Rage you spend reduces the cooldown by 1 sec.','20','10','buff','ordinary_value');
+check('When you suffer a damaging effect equal to 25% of your maximum health, you instantly cast Death Pact at 50% effectiveness.','25','15','buff');
 check('Reduces all damage you take by 15% and all damage you deal by 10%.','10','15','nerf');
 check('Unknown parameter 8.','8','10','neutral');
 check('Casts 6 additional slashes.','6','3','nerf','ordinary_value');
@@ -51,6 +52,7 @@ const fixtures = [
  ['hunter-marksmanship','Aimed Shot','buff'],
  ['hunter-survival',1252943,'buff'],
  ['hunter-survival',1259003,'buff'],
+ ['death-knight-blood','Pact of the Deathbringer','buff'],
 ];
 for(const [slug,key,want] of fixtures) {
  const talent=dataset(slug).talents.find(t=>typeof key==='number'?t.spell_id===key:t.talent_name===key);
