@@ -38,6 +38,20 @@ jobs:
       - name: Discover current specializations
         id: matrix
         run: python scripts/discover_specs_matrix.py --github-output "$GITHUB_OUTPUT"
+  frontend:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Frontend regression suite on last verified snapshot
+        run: npm test
+
   build_spec:
     needs: discover
     runs-on: ubuntu-latest
@@ -67,7 +81,7 @@ jobs:
           retention-days: 2
           if-no-files-found: error
   aggregate:
-    needs: [discover, build_spec]
+    needs: [discover, build_spec, frontend]
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
