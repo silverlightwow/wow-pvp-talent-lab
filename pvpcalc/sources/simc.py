@@ -59,6 +59,9 @@ class SimcDump:
     header: str
     spells: dict[int, SimcSpell]
     edges: dict[int, tuple[SimcEdge, ...]]
+    # Git ref that produced this dump ("midnight" or an exact build commit).
+    # Optional so synthetic/unit-test dumps remain simple.
+    source_ref: str | None = None
 
 
 # ============================================================
@@ -333,6 +336,7 @@ def parse_dump(
     text: str,
     *,
     class_slug: str,
+    source_ref: str | None = None,
 ) -> SimcDump:
 
     spells = _parse_spells(
@@ -351,6 +355,7 @@ def parse_dump(
         edges=_build_edges(
             spells
         ),
+        source_ref=source_ref,
     )
 
 
@@ -481,6 +486,7 @@ async def fetch_dump(
     dump = parse_dump(
         text,
         class_slug=slug,
+        source_ref=SIMC_BRANCH,
     )
 
     if (
@@ -510,6 +516,7 @@ async def fetch_dump(
     exact_dump = parse_dump(
         exact_text,
         class_slug=slug,
+        source_ref=commit_sha,
     )
 
     if exact_dump.build != target_build:
@@ -520,6 +527,294 @@ async def fetch_dump(
         )
 
     return exact_dump
+
+
+# ============================================================
+# Exact generated DBC fallback
+# ============================================================
+
+_GENERATED_BUILD_RE = re.compile(
+    r"wow build level\s+"
+    r"(\d+\.\d+\.\d+\.\d+)",
+    re.I,
+)
+
+# SpellEffect type names used for semantic reconciliation. Unknown types stay
+# explicit instead of being guessed.
+_GENERATED_EFFECT_TYPE_NAMES = {
+    2: "School Damage",
+    3: "Dummy",
+    6: "Apply Aura",
+    9: "Health Leech",
+    10: "Heal",
+    64: "Trigger Spell",
+}
+
+
+def _split_cpp_initializer(
+    line: str,
+) -> list[str]:
+    """Split one generated C++ initializer while preserving nested arrays."""
+
+    start = line.find("{")
+    end = line.rfind("}")
+
+    if start < 0 or end <= start:
+        return []
+
+    body = line[start + 1:end]
+    fields = []
+    current = []
+    depth = 0
+
+    for char in body:
+        if char == "{":
+            depth += 1
+            current.append(char)
+            continue
+
+        if char == "}":
+            depth -= 1
+            current.append(char)
+            continue
+
+        if char == "," and depth == 0:
+            fields.append(
+                "".join(current).strip()
+            )
+            current = []
+            continue
+
+        current.append(char)
+
+    fields.append(
+        "".join(current).strip()
+    )
+
+    return fields
+
+
+def parse_generated_effects(
+    text: str,
+    spell_ids,
+    *,
+    expected_build: str | None = None,
+) -> dict[int, dict[int, SimcEffect]]:
+    """
+    Read exact SpellEffect rows from SimC's generated client-data table.
+
+    Class SpellDataDump files intentionally omit some hidden implementation
+    spells (for example Moonlight Chakram's damage spell and Hammer of Light
+    child spells). The generated DBC table still contains those exact current
+    client rows, including PvP coefficients.
+
+    Returned effect indexes are converted from the generated zero-based DB2
+    index to the one-based #1/#2 convention used everywhere else here.
+    """
+
+    requested = {
+        int(value)
+        for value in spell_ids
+    }
+
+    if not requested:
+        return {}
+
+    build_match = (
+        _GENERATED_BUILD_RE.search(
+            text
+        )
+    )
+
+    build = (
+        build_match.group(1)
+        if build_match
+        else None
+    )
+
+    if (
+        expected_build is not None
+        and build != expected_build
+    ):
+        raise RuntimeError(
+            "Generated SimC client data build mismatch: "
+            f"requested={expected_build}, got={build}"
+        )
+
+    marker = (
+        "static spelleffect_data_t "
+        "__spelleffect_data"
+    )
+
+    start = text.find(marker)
+
+    if start < 0:
+        raise RuntimeError(
+            "Generated SimC client data has no SpellEffect table"
+        )
+
+    result: dict[
+        int,
+        dict[int, SimcEffect],
+    ] = {}
+
+    # Fast prefix check avoids parsing the ~53k unrelated rows.
+    prefix = re.compile(
+        r"^\s*\{\s*(\d+)\s*,\s*"
+        r"(\d+)\s*,"
+    )
+
+    for line in text[
+        start:
+    ].splitlines()[1:]:
+
+        if line.lstrip().startswith(
+            "};"
+        ):
+            break
+
+        match = prefix.match(
+            line
+        )
+
+        if not match:
+            continue
+
+        spell_id = int(
+            match.group(2)
+        )
+
+        if spell_id not in requested:
+            continue
+
+        fields = _split_cpp_initializer(
+            line
+        )
+
+        # spelleffect_data_t currently has 29 persisted fields followed by
+        # two runtime-link placeholders. Fail closed if SimC changes shape.
+        if len(fields) < 29:
+            raise RuntimeError(
+                "Unexpected generated SpellEffect initializer shape "
+                f"for spell {spell_id}: {len(fields)} fields"
+            )
+
+        try:
+            game_effect_id = int(
+                fields[0],
+                0,
+            )
+            raw_index = int(
+                fields[2],
+                0,
+            )
+            effect_type = int(
+                fields[3],
+                0,
+            )
+
+            base_value = float(
+                fields[15]
+            )
+            sp_coefficient = float(
+                fields[10]
+            )
+            ap_coefficient = float(
+                fields[11]
+            )
+            pvp_coefficient = float(
+                fields[28]
+            )
+        except ValueError as exc:
+            raise RuntimeError(
+                "Could not parse generated SpellEffect row "
+                f"for spell {spell_id}"
+            ) from exc
+
+        # SimC's generated table stores absent coefficients as zero, while
+        # the human-readable SpellDataDump represents them by omission.
+        sp_value = (
+            sp_coefficient
+            if abs(sp_coefficient) > 1e-12
+            else None
+        )
+        ap_value = (
+            ap_coefficient
+            if abs(ap_coefficient) > 1e-12
+            else None
+        )
+
+        effect_index = (
+            raw_index + 1
+        )
+
+        effect_name = (
+            _GENERATED_EFFECT_TYPE_NAMES.get(
+                effect_type,
+                f"Effect Type {effect_type}",
+            )
+        )
+
+        result.setdefault(
+            spell_id,
+            {},
+        )[effect_index] = SimcEffect(
+            effect_index=effect_index,
+            effect_text=(
+                f"{effect_name} ({effect_type})"
+            ),
+            base_value=base_value,
+            sp_coefficient=sp_value,
+            pvp_coefficient=pvp_coefficient,
+            ap_coefficient=ap_value,
+            game_effect_id=game_effect_id,
+        )
+
+    return result
+
+
+async def fetch_generated_effects(
+    client,
+    spell_ids,
+    *,
+    target_build: str,
+    source_ref: str | None,
+) -> dict[int, dict[int, SimcEffect]]:
+    """
+    Fetch the generated SpellEffect table from the SAME SimC revision as
+    the class dump. This is deliberately on-demand because the source file
+    is large and hidden output spells are uncommon.
+    """
+
+    requested = {
+        int(value)
+        for value in spell_ids
+    }
+
+    if not requested:
+        return {}
+
+    ref = (
+        source_ref
+        or SIMC_BRANCH
+    )
+
+    url = (
+        "https://raw.githubusercontent.com/"
+        f"{SIMC_REPO}/{ref}/"
+        "engine/dbc/generated/"
+        "sc_spell_data.inc"
+    )
+
+    text = await client.get_text(
+        url
+    )
+
+    return parse_generated_effects(
+        text,
+        requested,
+        expected_build=target_build,
+    )
 
 
 # ============================================================
