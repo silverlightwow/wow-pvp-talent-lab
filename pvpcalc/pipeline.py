@@ -2209,6 +2209,560 @@ def _simc_effect_observations(
     return result
 
 
+def _build_tuple(
+    value: str | None,
+) -> tuple[int, int, int, int] | None:
+
+    text = str(
+        value or ""
+    )
+
+    if not re.fullmatch(
+        r"\d+\.\d+\.\d+\.\d+",
+        text,
+    ):
+        return None
+
+    return tuple(
+        int(part)
+        for part in text.split(".")
+    )
+
+
+def _build_generated_simc_fallback_rows(
+    *,
+    spell_ids: set[int],
+    talent_by_spell: dict[int, dict],
+    drustvar_by_spell: dict[int, list],
+    generated_effects_by_spell: dict[int, dict],
+    simc_dump,
+) -> tuple[list[dict], set[int]]:
+    """
+    Resolve Wowhead gaps from SimC's exact generated SpellEffect table.
+
+    This path exists for hidden implementation spells that are referenced by
+    player-facing talents but are omitted/incomplete in the human-readable
+    class SpellDataDump. Unlike the ordinary SimC+Drustvar fallback, the
+    generated table is direct exact-build client data and may prove that an
+    older Drustvar multiplier is stale.
+
+    A conflicting Drustvar value is accepted as stale only when:
+      * its build is explicitly older than the exact SimC build; and
+      * effect semantics form a unique mutual-best match.
+
+    The stale observation is retained as source provenance.
+    """
+
+    rows = []
+    fully_resolved = set()
+    current_build = _build_tuple(
+        simc_dump.build
+    )
+
+    for spell_id in sorted(
+        {
+            int(value)
+            for value in spell_ids
+        }
+    ):
+
+        dr_effects = list(
+            drustvar_by_spell.get(
+                spell_id,
+                [],
+            )
+        )
+
+        exact_effects = list(
+            (
+                generated_effects_by_spell
+                .get(
+                    spell_id,
+                    {},
+                )
+            ).values()
+        )
+
+        if (
+            not dr_effects
+            or not exact_effects
+        ):
+            continue
+
+        exact_observations = [
+            EffectObservation(
+                source="simc_generated",
+                spell_id=spell_id,
+                spell_name=(
+                    talent_by_spell
+                    .get(
+                        spell_id,
+                        {},
+                    )
+                    .get(
+                        "talent_name"
+                    )
+                    or f"Spell {spell_id}"
+                ),
+                effect_index=int(
+                    effect.effect_index
+                ),
+                base_value=(
+                    None
+                    if (
+                        effect.sp_coefficient
+                        is not None
+                        or effect.ap_coefficient
+                        is not None
+                    )
+                    else effect.base_value
+                ),
+                pvp_multiplier=float(
+                    effect.pvp_coefficient
+                ),
+                effect_text=str(
+                    effect.effect_text
+                    or ""
+                ),
+                patch=simc_dump.build,
+                url="",
+                raw="",
+            )
+            for effect in exact_effects
+            if effect.pvp_coefficient
+            is not None
+        ]
+
+        if not exact_observations:
+            continue
+
+        # Match by semantics, deliberately ignoring multiplier: the entire
+        # purpose of this fallback is to detect an older stale multiplier.
+        candidates = []
+
+        for exact_index, exact in enumerate(
+            exact_observations
+        ):
+            for dr_index, dr in enumerate(
+                dr_effects
+            ):
+                score = semantic_score(
+                    exact,
+                    dr,
+                )
+
+                if score > 0:
+                    candidates.append(
+                        {
+                            "exact_index":
+                                exact_index,
+                            "dr_index":
+                                dr_index,
+                            "score":
+                                score,
+                        }
+                    )
+
+        accepted = []
+        remaining_exact = set(
+            range(
+                len(
+                    exact_observations
+                )
+            )
+        )
+        remaining_dr = set(
+            range(
+                len(
+                    dr_effects
+                )
+            )
+        )
+
+        while True:
+            available = [
+                pair
+                for pair in candidates
+                if (
+                    pair[
+                        "exact_index"
+                    ] in remaining_exact
+                    and pair[
+                        "dr_index"
+                    ] in remaining_dr
+                )
+            ]
+
+            chosen = None
+
+            for pair in sorted(
+                available,
+                key=lambda item:
+                    -item["score"],
+            ):
+                exact_options = [
+                    item
+                    for item in available
+                    if item[
+                        "exact_index"
+                    ] == pair[
+                        "exact_index"
+                    ]
+                ]
+                dr_options = [
+                    item
+                    for item in available
+                    if item[
+                        "dr_index"
+                    ] == pair[
+                        "dr_index"
+                    ]
+                ]
+
+                best_exact = max(
+                    item["score"]
+                    for item in exact_options
+                )
+                best_dr = max(
+                    item["score"]
+                    for item in dr_options
+                )
+
+                if (
+                    pair["score"]
+                    != best_exact
+                    or pair["score"]
+                    != best_dr
+                ):
+                    continue
+
+                if (
+                    sum(
+                        item["score"]
+                        == best_exact
+                        for item
+                        in exact_options
+                    )
+                    != 1
+                    or sum(
+                        item["score"]
+                        == best_dr
+                        for item
+                        in dr_options
+                    )
+                    != 1
+                ):
+                    continue
+
+                chosen = pair
+                break
+
+            if chosen is None:
+                break
+
+            accepted.append(
+                chosen
+            )
+            remaining_exact.remove(
+                chosen[
+                    "exact_index"
+                ]
+            )
+            remaining_dr.remove(
+                chosen[
+                    "dr_index"
+                ]
+            )
+
+        talent = talent_by_spell.get(
+            spell_id,
+            {},
+        )
+
+        resolved_dr = set()
+
+        for pair in accepted:
+
+            observation = (
+                exact_observations[
+                    pair[
+                        "exact_index"
+                    ]
+                ]
+            )
+            dr = dr_effects[
+                pair[
+                    "dr_index"
+                ]
+            ]
+
+            exact_effect = (
+                generated_effects_by_spell[
+                    spell_id
+                ][
+                    observation.effect_index
+                ]
+            )
+
+            exact_multiplier = float(
+                observation.pvp_multiplier
+            )
+            dr_multiplier = (
+                float(
+                    dr.pvp_multiplier
+                )
+                if dr.pvp_multiplier
+                is not None
+                else None
+            )
+
+            agrees = (
+                dr_multiplier is not None
+                and multipliers_close(
+                    exact_multiplier,
+                    dr_multiplier,
+                )
+            )
+
+            dr_build = _build_tuple(
+                dr.patch
+            )
+
+            stale = (
+                not agrees
+                and dr_multiplier
+                is not None
+                and current_build
+                is not None
+                and dr_build
+                is not None
+                and dr_build
+                < current_build
+            )
+
+            if not (
+                agrees
+                or stale
+            ):
+                continue
+
+            resolved_dr.add(
+                pair[
+                    "dr_index"
+                ]
+            )
+
+            coefficient_based = (
+                exact_effect.sp_coefficient
+                is not None
+                or exact_effect.ap_coefficient
+                is not None
+            )
+
+            base_value = (
+                None
+                if coefficient_based
+                else exact_effect.base_value
+            )
+
+            effect_text = (
+                _simc_effect_text_for_renderer(
+                    exact_effect
+                )
+            )
+
+            sources = [
+                "simc_generated",
+            ]
+
+            if agrees:
+                sources.append(
+                    "drustvar"
+                )
+
+            source_notes = []
+
+            if stale:
+                source_notes.append(
+                    {
+                        "reason":
+                            "SUPERSEDED_DRUSTVAR_EFFECT",
+                        "source_build":
+                            dr.patch,
+                        "current_build":
+                            simc_dump.build,
+                        "game_effect_id":
+                            exact_effect.game_effect_id,
+                        "previous_multiplier":
+                            dr_multiplier,
+                        "current_multiplier":
+                            exact_multiplier,
+                        "current_effect_text":
+                            effect_text,
+                        "resolved_by": [
+                            "simc_generated_exact_build",
+                        ],
+                    }
+                )
+
+            rows.append(
+                {
+                    "class_name":
+                        talent.get(
+                            "class_name"
+                        ),
+                    "spec_name":
+                        talent.get(
+                            "spec_name"
+                        ),
+                    "tree_type":
+                        talent.get(
+                            "tree_type"
+                        ),
+                    "hero_tree":
+                        talent.get(
+                            "hero_tree"
+                        ),
+                    "node_id":
+                        talent.get(
+                            "node_id"
+                        ),
+                    "entry_id":
+                        talent.get(
+                            "entry_id"
+                        ),
+                    "talent_name":
+                        talent.get(
+                            "talent_name"
+                        ),
+                    "spell_id":
+                        spell_id,
+                    "effect_index":
+                        observation.effect_index,
+                    "effect_text":
+                        effect_text,
+                    "wowhead_raw":
+                        effect_text,
+                    "simc_raw":
+                        (
+                            "SimC generated DBC "
+                            f"{simc_dump.build}; "
+                            "game_effect_id="
+                            f"{exact_effect.game_effect_id}"
+                        ),
+                    "same_value_text_ordinal":
+                        None,
+                    "same_value_text_count":
+                        None,
+                    "base_value":
+                        base_value,
+                    "pvp_multiplier":
+                        exact_multiplier,
+                    "pvp_value":
+                        (
+                            float(base_value)
+                            * exact_multiplier
+                            if base_value
+                            is not None
+                            else None
+                        ),
+                    "is_pvp_modified":
+                        _is_modified(
+                            exact_multiplier
+                        ),
+                    "wowhead_present":
+                        False,
+                    "drustvar_matched":
+                        True,
+                    "sources":
+                        sources,
+                    "confidence":
+                        "high",
+                    "conflicts":
+                        [],
+                    "match_reason":
+                        (
+                            "simc_generated_exact_build"
+                            if agrees
+                            else
+                            "simc_generated_exact_build_"
+                            "stale_drustvar"
+                        ),
+                    "semantic_score":
+                        pair["score"],
+                    "wowhead_multiplier":
+                        None,
+                    "simc_multiplier":
+                        exact_multiplier,
+                    "drustvar_multiplier":
+                        dr_multiplier,
+                    "multiplier_delta":
+                        (
+                            abs(
+                                exact_multiplier
+                                - dr_multiplier
+                            )
+                            if dr_multiplier
+                            is not None
+                            else None
+                        ),
+                    "drustvar_effect_text":
+                        dr.effect_text,
+                    "simc_base_value":
+                        exact_effect.base_value,
+                    "simc_sp_coefficient":
+                        exact_effect.sp_coefficient,
+                    "simc_ap_coefficient":
+                        exact_effect.ap_coefficient,
+                    "simc_pvp_coefficient":
+                        exact_effect.pvp_coefficient,
+                    "simc_reference_contexts":
+                        list(
+                            simc.effect_reference_contexts(
+                                simc_dump,
+                                spell_id,
+                                observation.effect_index,
+                            )
+                        ),
+                    "semantic_unit_hint":
+                        simc.effect_unit_hint(
+                            simc_dump,
+                            spell_id,
+                            observation.effect_index,
+                        ),
+                    "base_value_source":
+                        (
+                            "simc_generated_exact_build_"
+                            "coefficient"
+                            if coefficient_based
+                            else
+                            "simc_generated_exact_build"
+                        ),
+                    "simc_corroborated":
+                        True,
+                    "source_notes":
+                        source_notes,
+                }
+            )
+
+        if (
+            len(
+                resolved_dr
+            )
+            == len(
+                dr_effects
+            )
+        ):
+            fully_resolved.add(
+                spell_id
+            )
+
+    return (
+        rows,
+        fully_resolved,
+    )
+
+
 def _build_simc_fallback_rows(
     *,
     spell_ids: set[int],
@@ -3436,6 +3990,54 @@ async def audit_spec(
         )
 
 
+        # Wowhead occasionally WAF-blocks a hidden implementation spell.
+        # Fetch SimC's large generated DBC only when such a gap actually
+        # exists. It is pinned to the same exact build as simc_dump.
+        generated_needed_ids = {
+            spell_id
+            for spell_id in (
+                talent_spell_ids
+                | dependency_spell_ids
+            )
+            if (
+                spell_id in dr_all_ids
+                and (
+                    (
+                        spell_id
+                        in dependency_spell_ids
+                        and not
+                        dependency_wowhead_by_spell
+                        .get(
+                            spell_id
+                        )
+                    )
+                    or (
+                        spell_id
+                        in talent_spell_ids
+                        and not
+                        result.wowhead_by_spell
+                        .get(
+                            spell_id
+                        )
+                    )
+                )
+            )
+        }
+
+        generated_effects_by_spell = (
+            await simc.fetch_generated_effects(
+                client,
+                generated_needed_ids,
+                target_build=
+                    result.tree_build,
+                source_ref=
+                    simc_dump.source_ref,
+            )
+            if generated_needed_ids
+            else {}
+        )
+
+
     finally:
 
         await client.aclose()
@@ -3481,6 +4083,50 @@ async def audit_spec(
         simc_dump=
             simc_dump,
     )
+
+    direct_remaining_generated_ids = (
+        direct_missing_wowhead_ids
+        - direct_simc_resolved_ids
+    )
+
+    (
+        direct_generated_rows,
+        direct_generated_resolved_ids,
+    ) = _build_generated_simc_fallback_rows(
+        spell_ids=
+            direct_remaining_generated_ids,
+        talent_by_spell=
+            talent_by_spell,
+        drustvar_by_spell=
+            _group_drustvar(
+                dr_all,
+                direct_remaining_generated_ids,
+            ),
+        generated_effects_by_spell=
+            generated_effects_by_spell,
+        simc_dump=
+            simc_dump,
+    )
+
+    if direct_generated_rows:
+
+        _init_history_schema(
+            direct_generated_rows
+        )
+
+        result.effect_rows.extend(
+            direct_generated_rows
+        )
+
+    direct_simc_resolved_ids = (
+        set(
+            direct_simc_resolved_ids
+        )
+        | set(
+            direct_generated_resolved_ids
+        )
+    )
+
 
     if direct_simc_fallback_rows:
 
@@ -3975,6 +4621,43 @@ async def audit_spec(
             child_simc_rows
         )
 
+
+        child_generated_ids = (
+            child_missing_ids
+            - child_simc_resolved_ids
+        )
+
+        (
+            child_generated_rows,
+            child_generated_resolved_ids,
+        ) = _build_generated_simc_fallback_rows(
+            spell_ids=
+                child_generated_ids,
+            talent_by_spell={
+                source_id:
+                    parent_talent
+            },
+            drustvar_by_spell=
+                dependency_drustvar_by_spell,
+            generated_effects_by_spell=
+                generated_effects_by_spell,
+            simc_dump=
+                simc_dump,
+        )
+
+        child_rows.extend(
+            child_generated_rows
+        )
+
+        child_resolved_ids = (
+            set(
+                child_simc_resolved_ids
+            )
+            | set(
+                child_generated_resolved_ids
+            )
+        )
+
         child_unresolved = [
             item
             for item in child_unresolved
@@ -3987,7 +4670,7 @@ async def audit_spec(
                         -1,
                     )
                 )
-                in child_simc_resolved_ids
+                in child_resolved_ids
             )
         ]
 
