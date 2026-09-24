@@ -1,1 +1,1 @@
-2026-09-24 fragile-spec regression refresh
+2026-09-24 publish-current-web-and-rebuild
