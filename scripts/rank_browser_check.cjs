@@ -21,10 +21,12 @@ module.exports = async function checkRanks(page, data, touch) {
    assert.equal(await sections.nth(i).evaluate(el=>el.classList.contains('current')),rank>0&&rank===expectedRank);
    assert.equal(await sections.nth(i).evaluate(el=>el.classList.contains('next')),expectedRank===rank+1);
    const label=(await sections.nth(i).locator('.tooltip-rank-label').textContent()).trim();
-   if(rank===0)assert.match(label,/Rank 1\/2 · Next Rank$/);
-   if(rank===1&&expectedRank===1)assert.match(label,/Rank 1\/2 · Current$/);
-   if(rank===1&&expectedRank===2)assert.match(label,/Rank 2\/2 · Next Rank$/);
-   if(rank===2)assert.match(label,/Rank 2\/2 · Current$/);
+   const base=`Rank ${expectedRank}/${talent.rank_tooltips.length}`;
+   if(rank===0&&expectedRank===1)assert.equal(label,base+' · Next Rank');
+   else if(rank===1&&expectedRank===1)assert.equal(label,base+' · Current');
+   else if(rank===1&&expectedRank===2)assert.equal(label,base+' · Next Rank');
+   else if(rank===2&&expectedRank===2)assert.equal(label,base+' · Current');
+   else assert.equal(label,base);
    if(mode==='pvp'&&source.tooltip_changed)assert.ok(await sections.nth(i).locator('.change-chip').count());
   }
   if(touch)await page.locator('[data-touch-close]').tap();else await page.mouse.move(0,0);
