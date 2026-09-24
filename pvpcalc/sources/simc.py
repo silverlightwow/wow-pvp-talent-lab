@@ -1,8 +1,9 @@
 from __future__ import annotations
 
+import ast
 import re
 from collections import defaultdict, deque
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 
 
 SIMC_REPO = "simulationcraft/simc"
@@ -534,7 +535,7 @@ async def fetch_dump(
 # ============================================================
 
 _GENERATED_BUILD_RE = re.compile(
-    r"wow build level\s+"
+    r"wow build(?:\s+level)?\s+"
     r"(\d+\.\d+\.\d+\.\d+)",
     re.I,
 )
@@ -554,7 +555,7 @@ _GENERATED_EFFECT_TYPE_NAMES = {
 def _split_cpp_initializer(
     line: str,
 ) -> list[str]:
-    """Split one generated C++ initializer while preserving nested arrays."""
+    """Split one generated C++ initializer, including quoted text fields."""
 
     start = line.find("{")
     end = line.rfind("}")
@@ -566,8 +567,27 @@ def _split_cpp_initializer(
     fields = []
     current = []
     depth = 0
+    in_string = False
+    escaped = False
 
     for char in body:
+        if in_string:
+            current.append(char)
+
+            if escaped:
+                escaped = False
+            elif char == "\\":
+                escaped = True
+            elif char == '"':
+                in_string = False
+
+            continue
+
+        if char == '"':
+            in_string = True
+            current.append(char)
+            continue
+
         if char == "{":
             depth += 1
             current.append(char)
@@ -592,6 +612,236 @@ def _split_cpp_initializer(
     )
 
     return fields
+
+
+def _decode_cpp_string_literal(
+    value: str,
+) -> str:
+
+    value = str(value or "").strip()
+
+    if (
+        not value
+        or value == "0"
+    ):
+        return ""
+
+    if not (
+        value.startswith('"')
+        and value.endswith('"')
+    ):
+        return ""
+
+    try:
+        decoded = ast.literal_eval(value)
+    except (ValueError, SyntaxError) as exc:
+        raise RuntimeError(
+            "Could not decode generated SimC spell text"
+        ) from exc
+
+    return str(decoded)
+
+
+def parse_generated_spelltexts(
+    text: str,
+    spell_ids,
+    *,
+    expected_build: str | None = None,
+) -> dict[int, tuple[str, ...]]:
+    """Read Description/Tooltip strings from exact generated client data."""
+
+    requested = {
+        int(value)
+        for value in spell_ids
+    }
+
+    if not requested:
+        return {}
+
+    build_match = _GENERATED_BUILD_RE.search(text)
+    build = (
+        build_match.group(1)
+        if build_match
+        else None
+    )
+
+    if (
+        expected_build is not None
+        and build != expected_build
+    ):
+        raise RuntimeError(
+            "Generated SimC spell-text build mismatch: "
+            f"requested={expected_build}, got={build}"
+        )
+
+    marker = "__spelltext_data"
+    start = text.find(marker)
+
+    if start < 0:
+        raise RuntimeError(
+            "Generated SimC client data has no SpellText table"
+        )
+
+    prefix = re.compile(
+        r"^\s*\{\s*(\d+)\s*,"
+    )
+
+    result = {}
+
+    for line in text[start:].splitlines()[1:]:
+
+        stripped = line.lstrip()
+
+        if (
+            stripped.startswith("} };")
+            or stripped.startswith("};")
+        ):
+            break
+
+        match = prefix.match(line)
+
+        if not match:
+            continue
+
+        spell_id = int(match.group(1))
+
+        if spell_id not in requested:
+            continue
+
+        fields = _split_cpp_initializer(line)
+
+        if len(fields) < 3:
+            raise RuntimeError(
+                "Unexpected generated SpellText initializer shape "
+                f"for spell {spell_id}: {len(fields)} fields"
+            )
+
+        texts = tuple(
+            dict.fromkeys(
+                text_value
+                for text_value in (
+                    _decode_cpp_string_literal(fields[1]),
+                    _decode_cpp_string_literal(fields[2]),
+                )
+                if text_value
+            )
+        )
+
+        if texts:
+            result[spell_id] = texts
+
+    return result
+
+
+def _generated_effect_reference_contexts(
+    texts,
+    spell_id: int,
+    effect_index: int,
+) -> tuple[str, ...]:
+    """Extract compact exact player-text snippets around one $sN reference."""
+
+    patterns = (
+        re.compile(
+            rf"\$s{int(effect_index)}(?!\d)",
+            re.I,
+        ),
+        re.compile(
+            r"\$"
+            + str(int(spell_id))
+            + rf"s{int(effect_index)}(?!\d)",
+            re.I,
+        ),
+    )
+
+    contexts = []
+
+    for raw in texts or ():
+        source = str(raw or "")
+
+        for pattern in patterns:
+            for match in pattern.finditer(source):
+
+                left_candidates = [
+                    source.rfind("\n", 0, match.start()),
+                    source.rfind("[", 0, match.start()),
+                    source.rfind("]", 0, match.start()),
+                    source.rfind(".", 0, match.start()),
+                ]
+
+                left = max(left_candidates)
+
+                right_candidates = [
+                    position
+                    for position in (
+                        source.find("\n", match.end()),
+                        source.find("[", match.end()),
+                        source.find("]", match.end()),
+                        source.find(".", match.end()),
+                    )
+                    if position >= 0
+                ]
+
+                right = (
+                    min(right_candidates) + 1
+                    if right_candidates
+                    else len(source)
+                )
+
+                context = " ".join(
+                    source[left + 1:right]
+                    .strip()
+                    .split()
+                )
+
+                if (
+                    context
+                    and context not in contexts
+                ):
+                    contexts.append(context)
+
+    return tuple(contexts)
+
+
+def _generated_effect_unit_hint(
+    contexts,
+    spell_id: int,
+    effect_index: int,
+) -> str | None:
+
+    tokens = (
+        rf"\$s{int(effect_index)}(?!\d)",
+        r"\$"
+        + str(int(spell_id))
+        + rf"s{int(effect_index)}(?!\d)",
+    )
+
+    for context in contexts or ():
+
+        for token in tokens:
+            if re.search(
+                token + r"\s*%",
+                context,
+                re.I,
+            ):
+                return "percent"
+
+            if re.search(
+                token
+                + r"\s*(?:sec(?:onds?)?|s)\b",
+                context,
+                re.I,
+            ):
+                return "seconds"
+
+            if re.search(
+                token
+                + r"\s*(?:yds?|yards?)\b",
+                context,
+                re.I,
+            ):
+                return "yards"
+
+    return None
 
 
 def parse_generated_effects(
@@ -712,6 +962,10 @@ def parse_generated_effects(
                 fields[3],
                 0,
             )
+            aura_type = int(
+                fields[4],
+                0,
+            )
 
             base_value = float(
                 fields[15]
@@ -761,7 +1015,15 @@ def parse_generated_effects(
         )[effect_index] = SimcEffect(
             effect_index=effect_index,
             effect_text=(
-                f"{effect_name} ({effect_type})"
+                (
+                    f"{effect_name} ({effect_type})"
+                    f" | Aura Type ({aura_type})"
+                )
+                if (
+                    effect_type == 6
+                    and aura_type
+                )
+                else f"{effect_name} ({effect_type})"
             ),
             base_value=base_value,
             sp_coefficient=sp_value,
@@ -810,11 +1072,60 @@ async def fetch_generated_effects(
         url
     )
 
-    return parse_generated_effects(
+    effects = parse_generated_effects(
         text,
         requested,
         expected_build=target_build,
     )
+
+    spelltext_url = (
+        "https://raw.githubusercontent.com/"
+        f"{SIMC_REPO}/{ref}/"
+        "engine/dbc/generated/"
+        "spelltext_data.inc"
+    )
+
+    spelltext = await client.get_text(
+        spelltext_url
+    )
+
+    player_texts = parse_generated_spelltexts(
+        spelltext,
+        requested,
+        expected_build=target_build,
+    )
+
+    for spell_id, spell_effects in effects.items():
+
+        texts = player_texts.get(
+            spell_id,
+            tuple(),
+        )
+
+        for effect_index, effect in list(
+            spell_effects.items()
+        ):
+
+            contexts = (
+                _generated_effect_reference_contexts(
+                    texts,
+                    spell_id,
+                    effect_index,
+                )
+            )
+
+            spell_effects[effect_index] = replace(
+                effect,
+                reference_contexts=contexts,
+                unit_hint=
+                    _generated_effect_unit_hint(
+                        contexts,
+                        spell_id,
+                        effect_index,
+                    ),
+            )
+
+    return effects
 
 
 # ============================================================
@@ -1140,6 +1451,9 @@ class SimcEffect:
     # "Hotfixed: PvP Coefficient (old -> current)" line.
     # This is provenance, not merely another current-value source.
     pvp_hotfix_previous: float | None = None
+    # Exact generated player-text evidence for hidden/omitted spells.
+    reference_contexts: tuple[str, ...] = ()
+    unit_hint: str | None = None
 
 
 _SIMC_EFFECT_HEADER_RE = re.compile(

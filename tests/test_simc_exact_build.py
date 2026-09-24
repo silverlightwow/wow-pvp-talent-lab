@@ -365,3 +365,70 @@ static spelleffect_data_t __spelleffect_data[1] = {
             {2},
             expected_build="12.1.0.69933",
         )
+
+
+
+def test_generated_apply_aura_preserves_aura_subtype_semantics():
+    text = """// 1 effect, wow build level 12.1.0.69933
+static spelleffect_data_t __spelleffect_data[1] = {
+  { 1268633, 1259491, 0, 6, 4, 0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 80.0000, 0, 0, { 0, 0, 0, 0 }, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.3125, 0, 0 },
+};
+"""
+
+    parsed = simc.parse_generated_effects(
+        text,
+        {1259491},
+        expected_build="12.1.0.69933",
+    )
+
+    effect = parsed[1259491][1]
+
+    assert effect.effect_text == (
+        "Apply Aura (6) | Aura Type (4)"
+    )
+    assert effect.base_value == 80
+    assert effect.pvp_coefficient == 0.3125
+
+
+def test_generated_spelltext_extracts_effect_specific_branch_contexts():
+    text = r"""// Spell text, wow build 12.1.0.69933
+static constexpr std::array<spelltext_data_t, 1> __spelltext_data { {
+  { 429647, "$?c1[Mortal Strike and Slam damage increased by $s1%.\r\n\r\nCleave and Whirlwind damage increased by $s2%][Shield Slam damage increased by $s3%.\r\n\r\nRevenge and Thunder Clap damage increased by $s4%].$?c3[\r\n\r\nShield Slam generates an additional ${$s5/10} Rage.][]", 0, 0 },
+} };
+"""
+
+    parsed = simc.parse_generated_spelltexts(
+        text,
+        {429647},
+        expected_build="12.1.0.69933",
+    )
+
+    contexts_1 = (
+        simc._generated_effect_reference_contexts(
+            parsed[429647],
+            429647,
+            1,
+        )
+    )
+    contexts_3 = (
+        simc._generated_effect_reference_contexts(
+            parsed[429647],
+            429647,
+            3,
+        )
+    )
+
+    assert contexts_1 == (
+        "Mortal Strike and Slam damage increased by $s1%.",
+    )
+    assert contexts_3 == (
+        "Shield Slam damage increased by $s3%.",
+    )
+    assert (
+        simc._generated_effect_unit_hint(
+            contexts_1,
+            429647,
+            1,
+        )
+        == "percent"
+    )

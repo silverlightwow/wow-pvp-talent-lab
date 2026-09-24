@@ -1025,3 +1025,89 @@ def test_inline_spec_branch_returns_to_shared_text_and_preserves_arithmetic():
     assert tooltip_renderer.tooltip_for_spec(text, 'Discipline') == 'Healing costs 50% less mana. Stacks to 2.\nDeals [(100% of Spell Power) * 2] damage.'
     assert 'costs 40%' in tooltip_renderer.tooltip_for_spec(text, 'Holy')
     assert 'Generates 6 Insanity.' in tooltip_renderer.tooltip_for_spec(text, 'Shadow')
+
+
+
+def _practiced_strikes_exact_rows():
+    return [
+        {
+            "spell_id": 429647,
+            "source_spell_id": 429647,
+            "effect_origin": "DIRECT",
+            "effect_index": 1,
+            "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+            "base_value": 25,
+            "final_pvp_multiplier": 1.2,
+            "final_pvp_value": 30,
+            "semantic_unit_hint": "percent",
+            "reference_context_strict": True,
+            "simc_reference_contexts": [
+                "Mortal Strike and Slam damage increased by $s1%."
+            ],
+        },
+        {
+            "spell_id": 429647,
+            "source_spell_id": 429647,
+            "effect_origin": "DIRECT",
+            "effect_index": 3,
+            "effect_text": "Apply Aura: Modifies Damage/Healing Done",
+            "base_value": 25,
+            "final_pvp_multiplier": 0.6,
+            "final_pvp_value": 15,
+            "semantic_unit_hint": "percent",
+            "reference_context_strict": True,
+            "simc_reference_contexts": [
+                "Shield Slam damage increased by $s3%."
+            ],
+        },
+    ]
+
+
+def test_practiced_strikes_exact_context_selects_arms_branch():
+    tooltip = (
+        "Mortal Strike and Slam damage increased by 25%.\n"
+        "Cleave and Whirlwind damage increased by 15%."
+    )
+
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Arms",
+        spec_names=["Arms", "Fury", "Protection"],
+        effect_rows=_practiced_strikes_exact_rows(),
+    )
+
+    assert result["render_status"] == "COMPLETE"
+    assert result["pvp_tooltip"] == (
+        "Mortal Strike and Slam damage increased by 30%.\n"
+        "Cleave and Whirlwind damage increased by 15%."
+    )
+    assert any(
+        item["status"] == "OTHER_SPEC_BRANCH"
+        for item in result["diagnostics"]
+    )
+
+
+def test_practiced_strikes_exact_context_selects_protection_branch():
+    tooltip = (
+        "Shield Slam damage increased by 25%.\n"
+        "Revenge and Thunder Clap damage increased by 15%.\n"
+        "Shield Slam generates an additional 4 Rage."
+    )
+
+    result = tooltip_renderer.render_pvp_tooltip(
+        tooltip=tooltip,
+        spec_name="Protection",
+        spec_names=["Arms", "Fury", "Protection"],
+        effect_rows=_practiced_strikes_exact_rows(),
+    )
+
+    assert result["render_status"] == "COMPLETE"
+    assert result["pvp_tooltip"] == (
+        "Shield Slam damage increased by 15%.\n"
+        "Revenge and Thunder Clap damage increased by 15%.\n"
+        "Shield Slam generates an additional 4 Rage."
+    )
+    assert any(
+        item["status"] == "OTHER_SPEC_BRANCH"
+        for item in result["diagnostics"]
+    )

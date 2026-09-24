@@ -2558,7 +2558,46 @@ def _conflicting_transforms_have_disjoint_targets(
         selected = None
 
         if len(matches) == 1:
-            selected = matches[0]
+
+            if (
+                candidate.get(
+                    "reference_context_strict"
+                )
+                and candidate.get(
+                    "reference_contexts"
+                )
+            ):
+                selected = (
+                    _select_reference_context_match(
+                        text,
+                        matches,
+                        reference_contexts=
+                            candidate.get(
+                                "reference_contexts",
+                                [],
+                            ),
+                        effect_index=
+                            candidate.get(
+                                "effect_index"
+                            ),
+                        source_spell_id=
+                            candidate.get(
+                                "source_spell_id"
+                            ),
+                        effect_origin=
+                            candidate.get(
+                                "effect_origin"
+                            ),
+                    )
+                )
+
+                # Exact generated player text proves this equal-valued
+                # effect belongs to another specialization branch.
+                if selected is None:
+                    continue
+
+            else:
+                selected = matches[0]
 
         else:
             selected = _select_reference_context_match(
@@ -2972,6 +3011,14 @@ def render_pvp_tooltip(
                         or []
                     ),
 
+                "reference_context_strict":
+                    bool(
+                        row.get(
+                            "reference_context_strict",
+                            False,
+                        )
+                    ),
+
                 "effect_origin":
                     row.get(
                         "effect_origin"
@@ -3354,6 +3401,64 @@ def render_pvp_tooltip(
             )
 
             continue
+
+
+        if (
+            len(matches) == 1
+            and transform.get(
+                "reference_context_strict"
+            )
+            and transform.get(
+                "reference_contexts"
+            )
+        ):
+
+            strict_match = (
+                _select_reference_context_match(
+                    pve_text,
+                    matches,
+                    reference_contexts=
+                        transform.get(
+                            "reference_contexts",
+                            [],
+                        ),
+                    effect_index=
+                        transform.get(
+                            "effect_index"
+                        ),
+                    source_spell_id=
+                        transform.get(
+                            "source_spell_id"
+                        ),
+                    effect_origin=
+                        transform.get(
+                            "effect_origin"
+                        ),
+                )
+            )
+
+            if strict_match is None:
+
+                diagnostics.append(
+                    {
+                        "effect_indexes":
+                            transform[
+                                "effect_indexes"
+                            ],
+                        "status":
+                            "OTHER_SPEC_BRANCH",
+                        "kind":
+                            transform["kind"],
+                        "old":
+                            transform["old"],
+                        "new":
+                            transform["new"],
+                        "full_tooltip_match_count":
+                            len(matches),
+                    }
+                )
+
+                continue
 
 
         if len(matches) > 1:

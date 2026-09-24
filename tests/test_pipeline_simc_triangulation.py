@@ -711,3 +711,118 @@ def test_generated_exact_build_does_not_hide_same_build_conflict():
 
     assert rows == []
     assert resolved == set()
+
+
+
+def test_generated_exact_enrichment_replaces_only_proven_stale_multiplier():
+    rows = [
+        {
+            "spell_id": 429647,
+            "source_spell_id": 429647,
+            "effect_index": 1,
+            "base_value": 25,
+            "pvp_multiplier": 0.6,
+            "pvp_value": 15,
+            "sources": ["wowhead"],
+        },
+        {
+            "spell_id": 429647,
+            "source_spell_id": 429647,
+            "effect_index": 3,
+            "base_value": 25,
+            "pvp_multiplier": 0.6,
+            "pvp_value": 15,
+            "sources": ["wowhead"],
+        },
+    ]
+
+    generated = {
+        429647: {
+            1: SimcEffect(
+                effect_index=1,
+                effect_text="Apply Aura (6) | Aura Type (108)",
+                base_value=25,
+                sp_coefficient=None,
+                pvp_coefficient=1.2,
+                game_effect_id=1114022,
+                reference_contexts=(
+                    "Mortal Strike and Slam damage increased by $s1%.",
+                ),
+                unit_hint="percent",
+            ),
+            3: SimcEffect(
+                effect_index=3,
+                effect_text="Apply Aura (6) | Aura Type (108)",
+                base_value=25,
+                sp_coefficient=None,
+                pvp_coefficient=0.6,
+                game_effect_id=1210713,
+                reference_contexts=(
+                    "Shield Slam damage increased by $s3%.",
+                ),
+                unit_hint="percent",
+            ),
+        }
+    }
+
+    notes = [
+        {
+            "spell_id": 429647,
+            "reason": "SUPERSEDED_DRUSTVAR_EFFECT",
+            "effect_index": 1,
+            "multiplier": 0.6,
+            "previous_multiplier": 0.6,
+            "current_multiplier": 1.2,
+        }
+    ]
+
+    pipeline._enrich_rows_from_generated_exact(
+        rows,
+        generated_effects_by_spell=generated,
+        source_notes=notes,
+    )
+
+    assert rows[0]["pvp_multiplier"] == 1.2
+    assert rows[0]["pvp_value"] == 30
+    assert rows[0]["reference_context_strict"] is True
+    assert rows[0]["semantic_unit_hint"] == "percent"
+    assert "simc_generated" in rows[0]["sources"]
+
+    assert rows[1]["pvp_multiplier"] == 0.6
+    assert rows[1]["pvp_value"] == 15
+    assert rows[1]["reference_context_strict"] is True
+
+
+def test_generated_exact_enrichment_never_overrides_unproven_conflict():
+    rows = [
+        {
+            "spell_id": 10,
+            "effect_index": 1,
+            "base_value": 20,
+            "pvp_multiplier": 0.5,
+            "pvp_value": 10,
+            "sources": ["wowhead"],
+        }
+    ]
+
+    generated = {
+        10: {
+            1: SimcEffect(
+                effect_index=1,
+                effect_text="Dummy (3)",
+                base_value=20,
+                sp_coefficient=None,
+                pvp_coefficient=0.75,
+                game_effect_id=1001,
+            )
+        }
+    }
+
+    pipeline._enrich_rows_from_generated_exact(
+        rows,
+        generated_effects_by_spell=generated,
+        source_notes=[],
+    )
+
+    assert rows[0]["pvp_multiplier"] == 0.5
+    assert rows[0]["pvp_value"] == 10

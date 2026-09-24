@@ -2718,17 +2718,34 @@ def _build_generated_simc_fallback_rows(
                         exact_effect.pvp_coefficient,
                     "simc_reference_contexts":
                         list(
-                            simc.effect_reference_contexts(
+                            dict.fromkeys(
+                                [
+                                    *list(
+                                        simc.effect_reference_contexts(
+                                            simc_dump,
+                                            spell_id,
+                                            observation.effect_index,
+                                        )
+                                    ),
+                                    *list(
+                                        exact_effect.reference_contexts
+                                        or ()
+                                    ),
+                                ]
+                            )
+                        ),
+                    "reference_context_strict":
+                        bool(
+                            exact_effect.reference_contexts
+                        ),
+                    "semantic_unit_hint":
+                        (
+                            exact_effect.unit_hint
+                            or simc.effect_unit_hint(
                                 simc_dump,
                                 spell_id,
                                 observation.effect_index,
                             )
-                        ),
-                    "semantic_unit_hint":
-                        simc.effect_unit_hint(
-                            simc_dump,
-                            spell_id,
-                            observation.effect_index,
                         ),
                     "base_value_source":
                         (
@@ -2761,6 +2778,277 @@ def _build_generated_simc_fallback_rows(
         rows,
         fully_resolved,
     )
+
+
+def _enrich_rows_from_generated_exact(
+    rows: list[dict],
+    *,
+    generated_effects_by_spell: dict[int, dict],
+    source_notes: list[dict],
+) -> None:
+    """Attach exact generated provenance and replace only proven stale values.
+
+    A conflicting numeric multiplier is never overwritten merely because
+    generated SimC is newer. Replacement requires an existing
+    SUPERSEDED_DRUSTVAR_EFFECT note that identifies the same spell/effect
+    and explicitly links the previous and current multipliers.
+    """
+
+    notes_by_key = {}
+
+    for note in source_notes:
+
+        if (
+            note.get("reason")
+            != "SUPERSEDED_DRUSTVAR_EFFECT"
+            or note.get("effect_index")
+            is None
+        ):
+            continue
+
+        spell_id = note.get(
+            "source_spell_id",
+            note.get("spell_id"),
+        )
+
+        if spell_id is None:
+            continue
+
+        notes_by_key[
+            (
+                int(spell_id),
+                int(note["effect_index"]),
+            )
+        ] = note
+
+    for row in rows:
+
+        spell_id = int(
+            row.get(
+                "source_spell_id",
+                row.get("spell_id", 0),
+            )
+            or 0
+        )
+
+        effect_index = row.get(
+            "effect_index"
+        )
+
+        if (
+            not spell_id
+            or effect_index is None
+        ):
+            continue
+
+        exact = (
+            generated_effects_by_spell
+            .get(
+                spell_id,
+                {},
+            )
+            .get(
+                int(effect_index)
+            )
+        )
+
+        if exact is None:
+            continue
+
+        contexts = list(
+            dict.fromkeys(
+                [
+                    *list(
+                        row.get(
+                            "simc_reference_contexts",
+                            [],
+                        )
+                        or []
+                    ),
+                    *list(
+                        exact.reference_contexts
+                        or ()
+                    ),
+                ]
+            )
+        )
+
+        if contexts:
+            row[
+                "simc_reference_contexts"
+            ] = contexts
+
+        if exact.reference_contexts:
+            # These snippets come directly from exact generated player text.
+            # The renderer may therefore use them to reject an equal-valued
+            # number that belongs to another specialization branch.
+            row[
+                "reference_context_strict"
+            ] = True
+
+        if (
+            exact.unit_hint
+            and not row.get(
+                "semantic_unit_hint"
+            )
+        ):
+            row[
+                "semantic_unit_hint"
+            ] = exact.unit_hint
+
+        row[
+            "simc_generated_base_value"
+        ] = exact.base_value
+        row[
+            "simc_generated_sp_coefficient"
+        ] = exact.sp_coefficient
+        row[
+            "simc_generated_ap_coefficient"
+        ] = exact.ap_coefficient
+        row[
+            "simc_generated_pvp_coefficient"
+        ] = exact.pvp_coefficient
+        row[
+            "simc_generated_game_effect_id"
+        ] = exact.game_effect_id
+
+        exact_multiplier = (
+            float(
+                exact.pvp_coefficient
+            )
+            if exact.pvp_coefficient
+            is not None
+            else None
+        )
+
+        row_multiplier = row.get(
+            "pvp_multiplier"
+        )
+
+        if exact_multiplier is None:
+            continue
+
+        agrees = (
+            row_multiplier is not None
+            and multipliers_close(
+                float(row_multiplier),
+                exact_multiplier,
+            )
+        )
+
+        if agrees:
+
+            sources = list(
+                row.get(
+                    "sources",
+                    [],
+                )
+            )
+
+            if (
+                "simc_generated"
+                not in sources
+            ):
+                sources.append(
+                    "simc_generated"
+                )
+
+            row["sources"] = sources
+            row[
+                "simc_generated_corroborated"
+            ] = True
+            continue
+
+        note = notes_by_key.get(
+            (
+                spell_id,
+                int(effect_index),
+            )
+        )
+
+        if note is None:
+            continue
+
+        previous = note.get(
+            "previous_multiplier",
+            note.get("multiplier"),
+        )
+        current = note.get(
+            "current_multiplier"
+        )
+
+        if (
+            row_multiplier is None
+            or previous is None
+            or current is None
+            or not multipliers_close(
+                float(row_multiplier),
+                float(previous),
+            )
+            or not multipliers_close(
+                exact_multiplier,
+                float(current),
+            )
+        ):
+            continue
+
+        row[
+            "pvp_multiplier"
+        ] = exact_multiplier
+        row[
+            "is_pvp_modified"
+        ] = _is_modified(
+            exact_multiplier
+        )
+
+        base_value = row.get(
+            "base_value"
+        )
+
+        row[
+            "pvp_value"
+        ] = (
+            float(base_value)
+            * exact_multiplier
+            if base_value is not None
+            else None
+        )
+
+        row[
+            "pvp_multiplier_source"
+        ] = (
+            "simc_generated_exact_build"
+        )
+
+        sources = list(
+            row.get(
+                "sources",
+                [],
+            )
+        )
+
+        if (
+            "simc_generated"
+            not in sources
+        ):
+            sources.append(
+                "simc_generated"
+            )
+
+        row["sources"] = sources
+        row["confidence"] = "high"
+
+        notes = list(
+            row.get(
+                "source_notes",
+                [],
+            )
+        )
+
+        if note not in notes:
+            notes.append(note)
+
+        row["source_notes"] = notes
 
 
 def _build_simc_fallback_rows(
@@ -4024,6 +4312,32 @@ async def audit_spec(
             )
         }
 
+        # A structured Wowhead page can still be stale relative to the
+        # exact client build. When direct reconciliation already reports
+        # an unmatched Drustvar row, fetch the generated exact SpellEffect
+        # too so stale source values can be proved/replaced by identity.
+        generated_needed_ids.update(
+            int(
+                item.get(
+                    "source_spell_id",
+                    item.get("spell_id"),
+                )
+            )
+            for item in result.unresolved_rows
+            if (
+                item.get("reason")
+                in {
+                    "UNMATCHED_DRUSTVAR_EFFECT",
+                    "NO_WOWHEAD_EFFECTS",
+                }
+                and item.get(
+                    "source_spell_id",
+                    item.get("spell_id"),
+                )
+                is not None
+            )
+        )
+
         generated_effects_by_spell = (
             await simc.fetch_generated_effects(
                 client,
@@ -4477,6 +4791,15 @@ async def audit_spec(
         )
 
 
+    _enrich_rows_from_generated_exact(
+        result.effect_rows,
+        generated_effects_by_spell=
+            generated_effects_by_spell,
+        source_notes=
+            result.unresolved_rows,
+    )
+
+
     # Annotate ALL direct rows with complete PvP layering.
     for row in result.effect_rows:
 
@@ -4880,17 +5203,29 @@ async def audit_spec(
         )
 
 
-        dependency_effect_rows.extend(
-            child_rows
-        )
-
-        result.unresolved_rows.extend(
+        filtered_child_unresolved = (
             _filter_simc_corroborated_unresolved(
                 child_unresolved,
                 simc_dump=simc_dump,
                 wowhead_by_spell=
                     dependency_wowhead_by_spell,
             )
+        )
+
+        _enrich_rows_from_generated_exact(
+            child_rows,
+            generated_effects_by_spell=
+                generated_effects_by_spell,
+            source_notes=
+                filtered_child_unresolved,
+        )
+
+        dependency_effect_rows.extend(
+            child_rows
+        )
+
+        result.unresolved_rows.extend(
+            filtered_child_unresolved
         )
 
 
